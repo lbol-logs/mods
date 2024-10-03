@@ -1,0 +1,13 @@
+{
+  "Utsuho": {
+    "BaseMana": "RRBB",
+    "A": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "FireBurst", "FireBurst", "Gridlock", "Gridlock", "Gridlock", "HellGeyser"],
+      "Exhibit": "ControlRod"
+    },
+    "B": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "InverseBeam", "InverseBeam", "BlowAway", "BlowAway", "BlowAway", "ShootingStar"],
+      "Exhibit": "BlackSun"
+    }
+  }
+}
