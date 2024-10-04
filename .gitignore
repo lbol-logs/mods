@@ -1,0 +1,8 @@
+
+.editorconfig
+/ExportModImgs/bin
+*.log
+/ExportModImgs/obj
+/ExportModImgs/.vs
+ExportModImgs.dll
+ExportModImgs-thunderstore.zip
