@@ -7,8 +7,7 @@
 
     <PropertyGroup>
         <GameFolder>C:\Program Files (x86)\Steam\steamapps\common\LBoL</GameFolder>
-        <r2modmanProfile>C:\Users\vcg020\AppData\Roaming\r2modmanPlus-local\TouhouLostBranchOfLegend\profiles\Default</r2modmanProfile>
-        <BepInExFolder>$(r2modmanProfile)\BepInEx</BepInExFolder>
+        <BepInExFolder>$(GameFolder)\BepInEx</BepInExFolder>
     </PropertyGroup>
 
     <ItemGroup>
@@ -33,6 +32,8 @@
     <!--Don't publicize virtual members which are meant to be overwritten in concrete entity logic types-->
     <ItemGroup>
         <Publicize Include="LBoL.Base;LBoL.ConfigData;LBoL.Core;LBoL.EntityLib;LBoL.Presentation;Untitled.ConfigDataBuilder.Base" IncludeCompilerGeneratedMembers="false" IncludeVirtualMembers="true" />
+        <Publicize Include="LBoL-Entity-Sideloader" IncludeCompilerGeneratedMembers="false" IncludeVirtualMembers="true" />
+
         <DoNotPublicize Include="LBoL.Core:LBoL.Core.Stage.get_DefaultEventPriority" />
         <DoNotPublicize Include="LBoL.Core:LBoL.Core.Stage.LocalizeProperty" />
         <DoNotPublicize Include="LBoL.Core:LBoL.Core.Stage.LocalizeListProperty" />
@@ -283,10 +284,10 @@
             <HintPath>$(GameFolder)\LBoL_Data\Managed\UnityEngine.UIModule.dll</HintPath>
         </Reference>
         <Reference Include="LBoL-Entity-Sideloader">
-            <HintPath>$(BepInExFolder)\plugins\TeamNeo-Sideloader\LBoL-Entity-Sideloader.dll</HintPath>
+            <HintPath>$(BepInExFolder)\plugins\LBoL-Entity-Sideloader\LBoL-Entity-Sideloader.dll</HintPath>
         </Reference>
         <Reference Include="LBoL-AddWatermark">
-            <HintPath>$(BepInExFolder)\plugins\TeamNeo-Watermark\LBoL-AddWatermark.dll</HintPath>
+            <HintPath>$(BepInExFolder)\plugins\LBoL-AddWatermark.dll</HintPath>
         </Reference>
         <Reference Include="UnityEngine.AudioModule">
             <HintPath>$(GameFolder)\LBoL_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
@@ -314,6 +315,9 @@
         </Reference>
         <Reference Include="UnityEngine.ImageConversionModule">
             <HintPath>$(GameFolder)\LBoL_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+        </Reference>
+        <Reference Include="YamlDotNet">
+            <HintPath>$(GameFolder)\LBoL_Data\Managed\YamlDotNet.dll</HintPath>
         </Reference>
     </ItemGroup>
 
