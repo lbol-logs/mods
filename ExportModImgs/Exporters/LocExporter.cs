@@ -22,7 +22,8 @@ namespace ExportModImgs.Exporters
 
         public LocExporter() : base()
         {
-            rootFolder = Path.Join(rootFolder, "Loc");
+            subFolder = "locales";
+
             var locPEx = new LocProvideAndExport();
             definitionConsumers = new Dictionary<Type, IExportProvider<LocalizationOption>>()
             {

@@ -49,10 +49,4 @@ namespace ExportModImgs.Exporters
         public string ExportFilePrefix(EntityDefinition entityDefinition);
 
     }
-
-    public interface IModSubDirProvider
-    {
-        public string ModDir(BepInEx.PluginInfo pluginInfo);
-    }
-
 }

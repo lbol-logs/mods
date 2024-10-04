@@ -13,13 +13,18 @@ namespace ExportModImgs.Exporters
     {
         public TexExporter() : base()
         {
+            subFolder = "images";
 
-            rootFolder = Path.Join(rootFolder, "Imgs");
             definitionConsumers = new Dictionary<Type, IExportProvider<Texture2D>>() {
                 [typeof(CardTemplate)] = new CardTex(),
                 [typeof(ExhibitTemplate)] = new ExTex(),
                 [typeof(StatusEffectTemplate)] = new SeTex(),
-                [typeof(UltimateSkillTemplate)] = new DefinitionConsumer<Texture2D>(ed => (ed as UltimateSkillTemplate)?.LoadSprite()?.texture)
+                [typeof(UltimateSkillTemplate)] = new DefinitionConsumer<Texture2D>(ed => (ed as UltimateSkillTemplate)?.LoadSprite()?.texture),
+                [typeof(PlayerUnitTemplate)] = new DefinitionConsumer<Texture2D>(ed => (ed as PlayerUnitTemplate)?.LoadPlayerImages()?.LoadCardBack()?.texture),
+                [typeof(PlayerUnitTemplate)] = new DefinitionConsumer<Texture2D>(ed => (ed as PlayerUnitTemplate)?.LoadPlayerImages()?.LoadSelectionCircleIcon()?.texture),
+                [typeof(PlayerUnitTemplate)] = new DefinitionConsumer<Texture2D>(ed => (ed as PlayerUnitTemplate)?.LoadPlayerImages()?.LoadDefeatedIcon()?.texture),
+                [typeof(PlayerUnitTemplate)] = new DefinitionConsumer<Texture2D>(ed => (ed as PlayerUnitTemplate)?.LoadPlayerImages()?.LoadWinIcon()?.texture),
+                [typeof(PlayerUnitTemplate)] = new DefinitionConsumer<Texture2D>(ed => (ed as PlayerUnitTemplate)?.LoadPlayerImages()?.LoadPerfectWinIcon()?.texture),
             };
             postProcess = new TexExport();
         }
@@ -84,8 +89,8 @@ namespace ExportModImgs.Exporters
 
         public UpgradedImgExporter() : base()
         {
+            subFolder = "images";
 
-            rootFolder = Path.Join(rootFolder, "UpgradeImgs");
             definitionConsumers = new Dictionary<Type, IExportProvider<Texture2D>>()
             {
                 [typeof(CardTemplate)] = new DefinitionConsumer<Texture2D>(ed => {

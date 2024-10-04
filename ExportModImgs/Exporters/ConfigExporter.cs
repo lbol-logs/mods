@@ -18,7 +18,8 @@ namespace ExportModImgs.Exporters
     {
         public ConfigExporter() : base()
         {
-            rootFolder = Path.Join(rootFolder, "Configs");
+            subFolder = "configs";
+
             var configProvider = new ConfigProvider();
             definitionConsumers = new Dictionary<Type, IExportProvider<object>>()
             {
@@ -34,8 +35,6 @@ namespace ExportModImgs.Exporters
 
         public class ConfigProvider : IExportProvider<object>
         {
-
-
 
             static Dictionary<Type, MethodInfo> miCache = new Dictionary<Type, MethodInfo>();
 
@@ -66,37 +65,21 @@ namespace ExportModImgs.Exporters
                     using (StreamWriter streamWriter = new StreamWriter(fileStream, Encoding.UTF8) { AutoFlush = true })
                     {
                         var configType = conf.GetType();
-                        var localizedName = "";
-                        // finds localized name associated with config if it has one
-                        // doesn't work here. timing ig
-                        if (ConfigReflection.GetConfig2FactoryType().TryGetValue(configType, out Type factype))
-                        {
-                            if (TypeFactoryReflection.AccessTypeLocalizers(factype)()
-                            .TryGetValue((string)ConfigReflection.GetIdField(configType)?.GetValue(conf), out Dictionary<string, object> terms)
-                            && terms.TryGetValue("Name", out object name))
-                            {
-                                localizedName = name?.ToString();
-                            }
-
-                        }
-
-                        string wrappedText = "";
+                        string text = "";
                         try
                         {
-                            wrappedText = Regex.Replace(conf.ToString(), "(.{1," + 100 + @"})(\s+|$)", "$1" + System.Environment.NewLine);
+                            text = conf.ToString();
+
                         }
                         catch (Exception ex)
                         {
-                            Log.LogError($"{ConfigReflection.GetIdField(configType).GetValue(conf)}: \n{ex}");
-                        }
-
-
-                        if (!string.IsNullOrEmpty(localizedName))
-                            streamWriter.WriteLine($"{localizedName}: ");
-                        streamWriter.Write(wrappedText);
-                        //streamWriter.WriteLine("------------------------");
+                        Log.LogError($"{ConfigReflection.GetIdField(configType).GetValue(conf)}: \n{ex}");
                     }
+
+                    streamWriter.WriteLine(text);
+                    //streamWriter.WriteLine("------------------------");
                 }
+            }
             }
         }
     }
