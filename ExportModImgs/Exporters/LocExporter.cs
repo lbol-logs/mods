@@ -102,7 +102,7 @@ namespace ExportModImgs.Exporters
                 return dictionary;
             }
 
-            public void Process(LocalizationOption locOption, string path)
+            public void Process(LocalizationOption locOption, string path, string prefix)
             {
 
 
@@ -144,7 +144,9 @@ namespace ExportModImgs.Exporters
 
                 foreach (var locale in allLocFiles.Keys)
                 {
-                    using (FileStream fileStream = File.Open($"{path}{locale}.yaml", FileMode.Create, FileAccess.Write, FileShare.None))
+                    string _path = Path.Join(path, locale.ToString());
+                    Directory.CreateDirectory(_path);
+                    using (FileStream fileStream = File.Open($"{_path}/{prefix}.yaml", FileMode.Create, FileAccess.Write, FileShare.None))
                     {
                         using (StreamWriter streamWriter = new StreamWriter(fileStream, Encoding.UTF8) { })
                         {

@@ -31,12 +31,12 @@ namespace ExportModImgs.Exporters
 
     public interface IPostConsume<in T> where T : class
     {
-        public void Process(T input, string path);
+        public void Process(T input, string path, string prefix);
     }
 
     public class EmptyPostConsume<T> : IPostConsume<T> where T : class
     {
-        public void Process(T input, string path)
+        public void Process(T input, string path, string prefix)
         {
             return;
         }

@@ -58,9 +58,9 @@ namespace ExportModImgs.Exporters
 
         public class ConfigExport : IPostConsume<object>
         {
-            public void Process(object conf, string path)
+            public void Process(object conf, string path, string prefix)
             {
-                using (FileStream fileStream = File.Open($"{path}.txt", FileMode.Create, FileAccess.Write, FileShare.None))
+                using (FileStream fileStream = File.Open($"{path}/{prefix}.txt", FileMode.Create, FileAccess.Write, FileShare.None))
                 {
                     using (StreamWriter streamWriter = new StreamWriter(fileStream, Encoding.UTF8) { AutoFlush = true })
                     {

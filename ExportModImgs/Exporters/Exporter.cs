@@ -141,9 +141,9 @@ namespace ExportModImgs.Exporters
                 if (exTarget == null)
                     continue;
 
-                var path = Path.Join(exportPath, Source.LegalizeFileName(exPathProvider.ExportFilePrefix(ed)));
+                string prefix = Source.LegalizeFileName(exPathProvider.ExportFilePrefix(ed));
 
-                postProcess.Process(exTarget, path);
+                postProcess.Process(exTarget, exportPath, prefix);
             }
         }
     }

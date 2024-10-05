@@ -12,7 +12,14 @@ namespace ExportModImgs.Exporters
 
     public class TexContainer
     {
-        public Dictionary<string, Texture2D> dic = new Dictionary<string, Texture2D>();
+        public List<TexContainerItem> dic = new List<TexContainerItem>();
+    }
+
+    public class TexContainerItem
+    {
+        public string Name { get; set; } = "";
+        public string SubFolder { get; set; } = "";
+        public Texture2D Texture2D { get; set; }
     }
 
     public class TexExporter : Exporter<TexContainer>
@@ -32,7 +39,7 @@ namespace ExportModImgs.Exporters
                 [typeof(UltimateSkillTemplate)] = new DefinitionConsumer<TexContainer>(ed => {
                     var tex = (ed as UltimateSkillTemplate)?.LoadSprite()?.texture;
                     var texContainer = new TexContainer();
-                    texContainer.dic.Add("", tex);
+                    texContainer.dic.Add(new TexContainerItem() { Texture2D = tex });
                     return texContainer;
                 }),
                 [typeof(PlayerUnitTemplate)] = new PUTex()
@@ -42,16 +49,34 @@ namespace ExportModImgs.Exporters
 
         public class TexExport : IPostConsume<TexContainer>
         {
-            public void Process(TexContainer input, string path)
+            public void Process(TexContainer input, string path, string prefix)
             {
 
-                foreach (var kv in input.dic)
+                foreach (var item in input.dic)
                 {
-                    if (kv.Value == null)
+                    if (item.Texture2D == null)
                         continue;
-                    var texBytes = ImageConversion.EncodeToPNG(kv.Value);
+                    var texBytes = ImageConversion.EncodeToPNG(item.Texture2D);
                     if (texBytes != null && texBytes.Length > 0)
-                        File.WriteAllBytes(path + kv.Key + ".png", texBytes);
+                    {
+                        string name;
+
+                        string _path = path;
+                        if (item.Name == "")
+                        {
+                            name = prefix;
+                        }
+                        else
+                        {
+                            name = item.Name;
+                        }
+                        if (item.SubFolder != "")
+                        {
+                            _path = Path.Join(_path, item.SubFolder);
+                            Directory.CreateDirectory(_path);
+                        }
+                        File.WriteAllBytes($"{_path}/{name}.png", texBytes);
+                    }
 
                 }
             }
@@ -67,10 +92,10 @@ namespace ExportModImgs.Exporters
                 {
                     var texContainer = new TexContainer();
                     var imgs = ct.LoadCardImages();
-                    texContainer.dic.Add("", imgs?.main);
+                    texContainer.dic.Add(new TexContainerItem() { Texture2D = imgs?.main });
 
                     var upId = ct.MakeConfig().UpgradeImageId;
-                    texContainer.dic.Add("_" + upId, imgs.upgrade);
+                    texContainer.dic.Add(new TexContainerItem() { Texture2D = imgs.upgrade, Name = upId });
 
                     return texContainer;
                 }
@@ -86,7 +111,7 @@ namespace ExportModImgs.Exporters
                 if (entityDefinition is ExhibitTemplate ext)
                 {
                     var texContainer = new TexContainer();
-                    texContainer.dic.Add("", ext.LoadSprite()?.main?.texture);
+                    texContainer.dic.Add(new TexContainerItem() { Texture2D = ext.LoadSprite()?.main?.texture });
                     return texContainer;
                 }
                 TypeWarning(entityDefinition, nameof(ExhibitTemplate));
@@ -102,7 +127,7 @@ namespace ExportModImgs.Exporters
                 if (entityDefinition is StatusEffectTemplate set)
                 {
                     var texContainer = new TexContainer();
-                    texContainer.dic.Add("", set.LoadSprite()?.texture);
+                    texContainer.dic.Add(new TexContainerItem() { Texture2D = set.LoadSprite()?.texture });
                     return texContainer;
                 }
                 TypeWarning(entityDefinition, nameof(StatusEffectTemplate));
@@ -118,12 +143,13 @@ namespace ExportModImgs.Exporters
                 {
                     var texContainer = new TexContainer();
                     var imgs = pu.LoadPlayerImages();
+                    string id = pu.GetId();
 
-                    texContainer.dic.Add("_CardBack", imgs.LoadCardBack()?.texture);
-                    texContainer.dic.Add("_SelectionCircleIcon", imgs.LoadSelectionCircleIcon()?.texture);
-                    texContainer.dic.Add("_DefeatedIcon", imgs.LoadDefeatedIcon()?.texture);
-                    texContainer.dic.Add("_WinIcon", imgs.LoadWinIcon()?.texture);
-                    texContainer.dic.Add("_PerfectWinIcon", imgs.LoadPerfectWinIcon()?.texture);
+                    texContainer.dic.Add(new TexContainerItem() { Texture2D = imgs.LoadCardBack()?.texture, SubFolder = "watermarks", Name = id });
+                    texContainer.dic.Add(new TexContainerItem() { Texture2D = imgs.LoadSelectionCircleIcon()?.texture, SubFolder = "avatars", Name = id });
+                    texContainer.dic.Add(new TexContainerItem() { Texture2D = imgs.LoadDefeatedIcon()?.texture, SubFolder = "results", Name = id + "Failure" });
+                    texContainer.dic.Add(new TexContainerItem() { Texture2D = imgs.LoadWinIcon()?.texture, SubFolder = "results", Name = id + "Normal" });
+                    texContainer.dic.Add(new TexContainerItem() { Texture2D = imgs.LoadPerfectWinIcon()?.texture, SubFolder = "results", Name = id + "TrueEnd" });
 
 
                     return texContainer;
@@ -162,7 +188,7 @@ namespace ExportModImgs.Exporters
 
         public class TexExport : IPostConsume<Texture2D>
         {
-            public void Process(Texture2D input, string path)
+            public void Process(Texture2D input, string path, string prefix)
             {
                 var texBytes = ImageConversion.EncodeToPNG(input);
                 File.WriteAllBytes(path + ".png", texBytes);
