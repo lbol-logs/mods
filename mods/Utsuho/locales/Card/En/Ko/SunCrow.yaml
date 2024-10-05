@@ -1,6 +1,0 @@
-﻿SunCrow:
-  Name: 태양을 훔친 까마귀
-  Description: >-
-    |전장|의 무작위 카드를 {Value2}장 제거합니다.
-
-    제거된 카드마다 |작열|을 {Value1} 얻습니다. ({RemoveCount})

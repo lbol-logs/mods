@@ -1,9 +1,0 @@
-﻿ShootingStar:
-  Name: 유성
-  Description: >-
-    피해를 {Damage}씩 2번 줍니다.
-
-    |응집|
-
-    |응집될시 발동|: 방어를 {Block} 얻고 패에 |암흑 물질|을 추가합니다.
-  DetailText: '응집: |우츠호|의 무작위 카드 지정은 {SelfName}을 대상으로 합니다.'

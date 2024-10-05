@@ -1,4 +1,0 @@
-﻿EternityEngine:
-  Name: 영구동력
-  Description: '|손에 있을 경우:| {PlayerName}의 턴 시작시 |화력|을 {Value1} 얻고 패의 무작위 카드를 |소멸|시킵니다.'
-  DetailText: '{SelfName}을 사용하면 |소멸|할 뿐입니다.'

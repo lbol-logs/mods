@@ -1,6 +1,0 @@
-﻿SubterraneanSun:
-  Name: 서브터레이니언 선
-  Description: >-
-    |손에 있을 경우:| {PlayerName}의 턴 시작시 |전장|의 무작위 카드를 {RemoveCount}장 제거하고 무작위 적에게 피해를 {Damage}씩 {RemoveCount}번 준다.
-
-    {SelfName}이 |보존|된 턴만큼 이 효과를 추가로 반복합니다.

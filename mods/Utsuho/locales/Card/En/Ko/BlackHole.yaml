@@ -1,4 +1,0 @@
-﻿BlackHole:
-  Name: 블랙홀
-  Description: '|손에 있을 경우:| {PlayerName}의 턴 시작시 |방어|를 {Block} 얻고 카드를 한장 버립니다.'
-  DetailText: '{SelfName}을 사용하면 |소멸|할 뿐입니다.'

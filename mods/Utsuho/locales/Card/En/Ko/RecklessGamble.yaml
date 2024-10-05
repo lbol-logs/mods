@@ -1,6 +1,0 @@
-﻿RecklessGamble:
-  Name: 무모한 도박
-  Description: >-
-    카드를 {Value1}장 뽑습니다.
-
-    패의 무작위 카드 1장을 |소멸|시킵니다.

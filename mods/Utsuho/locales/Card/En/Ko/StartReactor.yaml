@@ -1,3 +1,0 @@
-﻿StartReactor:
-  Name: 원자로 가동
-  Description: '{PlayerName}의 턴 시작시 |작열|을 {Value1} 얻습니다.'

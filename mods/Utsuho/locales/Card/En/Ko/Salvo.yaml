@@ -1,6 +1,0 @@
-﻿Salvo:
-  Name: 일제사격
-  Description: >-
-    무작위 적에게 피해를 {Damage}씩 {SalvoCount}번 줍니다.
-
-    이 턴에 사용한 다른 카드의 수만큼 추가로 반복합니다.

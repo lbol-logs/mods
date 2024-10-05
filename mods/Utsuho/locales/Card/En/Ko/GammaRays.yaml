@@ -1,7 +1,0 @@
-﻿GammaRays:
-  Name: 감마광선
-  Description: '|방사능|을 {Value1} 얻습니다.'
-  UpgradedDescription: >-
-    |방사능|을 {Value1} 얻습니다.
-
-    |성장:| |방사능|을 추가로 {Value2} 얻습니다.

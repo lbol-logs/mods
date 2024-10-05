@@ -1,8 +1,0 @@
-﻿HighTension:
-  Name: 하이텐션 블레이드
-  Description: >-
-    뽑을 카드 더미에서 무작위 카드를 {Value1}장 버릴 카드 더미로 보냅니다.
-
-    피해를 {Damage} 줍니다.
-
-    |응집|한 카드 마다 피해량이 {Value2} 증가합니다.

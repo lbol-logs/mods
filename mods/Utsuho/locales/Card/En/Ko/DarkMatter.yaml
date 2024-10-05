@@ -1,7 +1,0 @@
-﻿DarkMatter:
-  Name: 암흑 물질
-  Description: >-
-    |뽑을때 발동|: 이번 턴 |보존|됩니다.
-
-    |응집|
-  DetailText: '응집: |우츠호|의 무작위 카드 지정은 {SelfName}을 대상으로 합니다.'

@@ -1,8 +1,0 @@
-﻿SpatialRend:
-  Name: 공간 절단
-  Description: >-
-    |소멸|된 카드중 무작위 {Value1}장을 손으로 가져옵니다.
-
-    피해를 {Damage} 줍니다.
-
-    가져온 카드 마다, 피해를 추가로 {Value2} 주며, |응집|됐다면 대신 {doubleValue} 줍니다.

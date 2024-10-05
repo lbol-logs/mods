@@ -1,6 +1,0 @@
-﻿HeatVisor:
-  Name: 핵열 바이저
-  Description: >-
-    |방어|를 {Block} 얻습니다.
-
-    {PlayerName}의 |작열|이 {Value1} 이상이라면, 다음 턴이 되기 전까지 받는 피해를 1회 방지합니다.

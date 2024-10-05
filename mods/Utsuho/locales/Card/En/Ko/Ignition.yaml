@@ -1,6 +1,0 @@
-﻿Ignition:
-  Name: 점화
-  Description: >-
-    |{Mana}를 지불할 시:|
-
-    |작열|을 {Value1} 얻고 패에 |암흑 물질|을 한장 추가합니다.

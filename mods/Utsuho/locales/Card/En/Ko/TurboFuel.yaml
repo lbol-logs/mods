@@ -1,6 +1,0 @@
-﻿TurboFuel:
-  Name: 터보연료
-  Description: >-
-    {PlayerName}의 턴 시작시, {manatype}를 얻고 카드를 {Value1}장 뽑습니다.
-
-    그 후 패의 무작위 카드를 |소멸|시킵니다.
