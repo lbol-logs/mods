@@ -1,2 +1,16 @@
 {
+  "BlackSun": {
+    "Owner": "Utsuho",
+    "Rarity": "Shining",
+    "Value1": 1,
+    "Mana": "B",
+    "BaseMana": "B"
+  },
+  "ControlRod": {
+    "Owner": "Utsuho",
+    "Rarity": "Shining",
+    "Value1": 1,
+    "Mana": "R",
+    "BaseMana": "R"
+  }
 }
