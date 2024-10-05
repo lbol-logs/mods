@@ -32,6 +32,7 @@ namespace ExportModImgs.Exporters
                 [typeof(StatusEffectTemplate)] = locPEx,
                 [typeof(UltimateSkillTemplate)] = locPEx,
                 [typeof(PlayerUnitTemplate)] = locPEx,
+                [typeof(UnitModelTemplate)] = locPEx,
                 [typeof(EnemyUnitTemplate)] = locPEx,
             };
             postProcess = locPEx;
@@ -50,6 +51,7 @@ namespace ExportModImgs.Exporters
                 if (ed is StatusEffectTemplate st) return st.LoadLocalization();
                 if (ed is UltimateSkillTemplate ut) return ut.LoadLocalization();
                 if (ed is PlayerUnitTemplate pt) return pt.LoadLocalization();
+                if (ed is UnitModelTemplate umt) return umt.LoadLocalization();
                 if (ed is EnemyUnitTemplate eut) return eut.LoadLocalization();
 
                 return null;
