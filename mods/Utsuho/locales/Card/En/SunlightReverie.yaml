@@ -1,0 +1,12 @@
+﻿SunlightReverie:
+  Name: Sunlight Reverie
+  Description: >-
+    Add 2 |Flames| to the hand.
+
+    |Exile| a random card in the draw pile.
+  UpgradedDescription: >-
+    Add 2 |Flames| to the hand.
+
+    |Choose|: |Exile| a random card in the discard pile or the draw pile.
+  ExtraDescription1: '|Exile| a random card from the draw pile.'
+  ExtraDescription2: '|Exile| a random card from the discard pile.'

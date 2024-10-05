@@ -1,0 +1,10 @@
+﻿NuclearFusion:
+  Name: Nuclear Fusion
+  Description: >-
+    |Exile| a card from the hand.
+
+    Gain X |Heat|.
+
+    Add a |Nuclear Strike| to the hand with X |Heat|.
+
+    X is {Value1} times the cost of the card |Exiled|.

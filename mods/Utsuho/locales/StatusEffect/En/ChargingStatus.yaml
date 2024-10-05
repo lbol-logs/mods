@@ -1,0 +1,4 @@
+﻿ChargingStatus:
+  Name: Charging
+  Description: Gain {Level} |Heat| at the end of each turn.
+  Brief: Gain |Heat| at the end of each turn.

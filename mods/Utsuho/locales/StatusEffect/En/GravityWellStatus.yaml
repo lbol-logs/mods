@@ -1,0 +1,4 @@
+﻿GravityWellStatus:
+  Name: Gravity Well
+  Description: At the end of {PlayerName}'s turn, Gain {Level} Barrier and add a |Dark Matter| to your hand.
+  Brief: At the end of {PlayerName}'s turn, Gain Barrier and add a |Dark Matter| to your hand.

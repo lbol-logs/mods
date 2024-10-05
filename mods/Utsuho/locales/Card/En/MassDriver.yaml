@@ -1,0 +1,3 @@
+﻿MassDriver:
+  Name: Mass Driver
+  Description: Whenever a card with |Mass| is Pulled, deal {Value1} damage to each enemy.

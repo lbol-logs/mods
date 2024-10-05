@@ -1,0 +1,9 @@
+﻿EscapeVelocity:
+  Name: 탈출 속도
+  Description: >-
+    카드를 무작위로 {Value2}장 버립니다.
+
+    카드를 {Value1} 장 뽑습니다.
+  UpgradedDescription: '|선택|: 카드를 무작위로 {Value2}장 버리고 카드를 {Value1} 장 뽑거나, 카드를 {Value1} 장 뽑고 카드를 무작위로 {Value2}장 버립니다.'
+  ExtraDescription2: 카드를 {Value1} 장 뽑고 카드를 무작위로 {Value2}장 버립니다.
+  ExtraDescription1: 카드를 무작위로 {Value2}장 버리고 카드를 {Value1} 장 뽑습니다.

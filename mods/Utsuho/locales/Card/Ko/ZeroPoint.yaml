@@ -1,0 +1,7 @@
+﻿ZeroPoint:
+  Name: 제로 포인트 모듈
+  Description: >-
+    |응집|.
+
+    |응집될 시|: |보호막|을 {Shield} 얻고 |소멸|을 가진 {SelfName}의 복사본을 손에 넣습니다.
+  DetailText: '응집: |우츠호|의 무작위 카드 지정은 {SelfName}을 대상으로 합니다.'

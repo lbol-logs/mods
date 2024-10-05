@@ -1,0 +1,4 @@
+﻿EternityEngine:
+  Name: Eternity Engine
+  Description: "|While in hand|: At the start of {PlayerName}'s turn, gain {Value1} |Firepower| and |Exile| a random card in the hand."
+  DetailText: Playing {SelfName} has no effect other than |Exiling| it from the hand.

@@ -1,0 +1,6 @@
+﻿RecklessGamble:
+  Name: Reckless Gamble
+  Description: >-
+    Draw {Value1} cards.
+
+    |Exile| a random card in the hand.

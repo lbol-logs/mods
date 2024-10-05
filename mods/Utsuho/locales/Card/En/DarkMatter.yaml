@@ -1,0 +1,7 @@
+﻿DarkMatter:
+  Name: Dark Matter
+  Description: >-
+    |On Enter Hand|: |Retain| this turn.
+
+    Has |Mass|.
+  DetailText: 'Mass: |Utsuho| cards with random effects prioritize {SelfName}. These effects are considered "Pulled".'

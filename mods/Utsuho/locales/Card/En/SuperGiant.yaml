@@ -1,0 +1,6 @@
+﻿SuperGiant:
+  Name: Super Giant
+  Description: >-
+    Deal {Damage} damage.
+
+    For each card with |Mass| in the hand, reduce the cost of {SelfName} by {Mana}.

@@ -1,0 +1,9 @@
+﻿GravityDistortion:
+  Name: Gravity Distortion
+  Description: >-
+    Apply {Value2} |Weak| and deal {Damage} damage to each enemy.
+
+    Has |Mass|.
+
+    |When Pulled|: Gain {Mana}
+  DetailText: 'Mass: |Utsuho| cards with random effects prioritize {SelfName}. These effects are considered "Pulled".'

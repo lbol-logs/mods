@@ -1,0 +1,4 @@
+﻿HeatVisorStatus:
+  Name: Heat Visor
+  Description: Prevent the next {Level} times the player would lose life before your next turn.
+  Brief: Prevent the next time the player would lose life before your next turn.

@@ -1,0 +1,8 @@
+﻿Aggregate:
+  Name: Aggregate
+  Description: >-
+    Deal {Damage} damage.
+
+    Gain {Block} |Block|.
+
+    Gain {Value1} |Heat|.

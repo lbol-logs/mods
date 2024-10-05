@@ -1,0 +1,18 @@
+﻿FlareUp:
+  Name: Flare Up
+  ExtraDescription1: >-
+    |Vent| for damage.
+
+    Apply {Value1} |Weak| and |Vulnerable|.
+  Description: >-
+    |Vent| to deal {Damage} damage.
+
+    Apply {Value1} |Weak| and |Vulnerable|.
+  UpgradedExtraDescription1: >-
+    Apply {Value1} |Weak| and |Vulnerable|.
+
+    |Vent| for damage.
+  UpgradedDescription: >-
+    Apply {Value1} |Weak| and |Vulnerable|.
+
+    |Vent| to deal {Damage} damage.

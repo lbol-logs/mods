@@ -1,0 +1,10 @@
+﻿BunkerDown:
+  Name: Bunker Down
+  Description: >-
+    Gain {Block} |Block|.
+
+    |Debut:| Gain {Shield} |Barrier| and reduce the cost of {SelfName} by {Mana}.
+  ExtraDescription1: >-
+    Gain {Block} |Block|.
+
+    |d:Debut: Gain {Shield} Barrier. {SelfName} costs {Mana} less this combat.|

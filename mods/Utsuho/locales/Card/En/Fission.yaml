@@ -1,0 +1,14 @@
+﻿Fission:
+  Name: Fission
+  Description: >-
+    Add a random |Red| attack and defense card to the hand. Mana of any color can be spent to pay their mana costs.
+
+    Gain {Value1} |Heat|.
+
+    Gain {Mana}.
+  UpgradedDescription: >-
+    Add a random upgraded |Red| attack and defense card to the hand. Mana of any color can be spent to pay their mana costs.
+
+    Gain {Value1} |Heat|.
+
+    Gain {Mana}.

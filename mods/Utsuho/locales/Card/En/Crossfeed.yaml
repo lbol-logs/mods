@@ -1,0 +1,14 @@
+﻿Crossfeed:
+  Name: Crossfeed
+  ExtraDescription1: >-
+    |Vent| for damage.
+
+    Gain {Value1} |Heat| for each card with |Mass| in the hand.
+
+    Add 1 |Dark Matter| to the hand for every {Value2} |Heat| {PlayerName} had.
+  Description: >-
+    |Vent| for {Damage} damage.
+
+    Gain {Value1} |Heat| for each card with |Mass| in the hand.
+
+    Add 1 |Dark Matter| to the hand for every {Value2} |Heat| {PlayerName} had.

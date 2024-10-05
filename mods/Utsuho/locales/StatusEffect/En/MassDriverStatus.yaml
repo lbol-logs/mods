@@ -1,0 +1,4 @@
+﻿MassDriverStatus:
+  Name: Mass Driver
+  Description: Whenever a card with |Mass| is Pulled, deal {Level} damage to all enemies.
+  Brief: Whenever a card with |Mass| is Pulled, deal damage to all enemies.

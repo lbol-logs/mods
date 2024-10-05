@@ -1,0 +1,10 @@
+﻿TurboFuelStatus:
+  Name: Turbo Fuel
+  Description: >-
+    At the start of your turn, gain {Level} {manatype} and draw {Level} cards.
+
+    Then exile a random card in your hand.
+  Brief: >-
+    At the start of your turn, gain mana and draw cards.
+
+    Then exile a random card in your hand.

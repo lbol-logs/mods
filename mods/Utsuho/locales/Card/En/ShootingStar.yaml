@@ -1,0 +1,9 @@
+﻿ShootingStar:
+  Name: Shooting Star
+  Description: >-
+    Deal {Damage} damage 2 times.
+
+    Has |Mass|.
+
+    |When Pulled|: Gain {Block} block and add a |Dark Matter| to the hand.
+  DetailText: 'Mass: |Utsuho| cards with random effects prioritize {SelfName}. These effects are considered "Pulled".'

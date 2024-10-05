@@ -1,0 +1,15 @@
+﻿EscapeVelocity:
+  Name: Escape Velocity
+  Description: >-
+    Discard {Value2} random cards.
+
+    Draw {Value1} cards.
+  UpgradedDescription: '|Choose|: Discard {Value2} random cards then Draw {Value1} cards, or Draw {Value1} cards then Discard {Value2} random cards.'
+  ExtraDescription2: >-
+    Draw {Value1} cards.
+
+    Discard {Value2} random cards.
+  ExtraDescription1: >-
+    Discard {Value2} random cards.
+
+    Draw {Value1} cards.

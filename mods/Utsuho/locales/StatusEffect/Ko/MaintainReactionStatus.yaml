@@ -1,0 +1,4 @@
+﻿MaintainReactionStatus:
+  Name: 유지 보수
+  Description: 카드가 |보존|되면, |작열|을 {level} 얻습니다.
+  Brief: 카드가 |보존|되면, |작열|을 얻습니다.

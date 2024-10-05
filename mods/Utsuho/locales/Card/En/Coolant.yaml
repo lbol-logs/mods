@@ -1,0 +1,11 @@
+﻿Coolant:
+  Name: Coolant
+  Description: >-
+    |Kicker| {Mana}: Gain {Value2} Firepower.
+
+    Gain {Value1} |Spirit|.
+
+    Discard all
+
+    non-defense cards from the hand.
+  DetailText: 'Kicker: All pooled mana is spent when playing this card. If you can afford the card cost and the kicker, get an extra effect.'

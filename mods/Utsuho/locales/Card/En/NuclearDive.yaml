@@ -1,0 +1,26 @@
+﻿NuclearDive:
+  Name: Uncontainable Nuclear Reaction Dive
+  ExtraDescription1: >-
+    Double {PlayerName}'s |Heat|.
+
+    Take 1 damage for every 10 |Heat| {PlayerName} has.
+
+    |Vent| for damage.
+  Description: >-
+    Double {PlayerName}'s |Heat|.
+
+    Take 1 damage for every 10 |Heat| {PlayerName} has.
+
+    |Vent| to deal {Damage} damage.
+  ExtraUpgradedDescription1: >-
+    Triple {PlayerName}'s |Heat|.
+
+    Take 1 damage for every 10 |Heat| {PlayerName} has.
+
+    |Vent| for damage.
+  UpgradedDescription: >-
+    Triple {PlayerName}'s |Heat|.
+
+    Take 1 damage for every 10 |Heat| {PlayerName} has.
+
+    |Vent| to deal {Damage} damage.

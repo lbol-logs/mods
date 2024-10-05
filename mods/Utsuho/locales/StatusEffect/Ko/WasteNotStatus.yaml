@@ -1,0 +1,4 @@
+﻿WasteNotStatus:
+  Name: 재활용
+  Description: 자신의 카드가 |소멸|할때, |작열|을 {Level} 얻습니다.
+  Brief: 자신의 카드가 |소멸|할때, |작열|을 얻습니다.

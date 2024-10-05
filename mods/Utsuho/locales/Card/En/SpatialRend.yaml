@@ -1,0 +1,9 @@
+﻿SpatialRend:
+  Name: Spatial Rend
+  Description: >-
+    Return {Value1} random cards from |Exile| to your hand.
+
+    Deal {Damage} damage.
+
+    For each card returned, deal {Value2} more damage, or {doubleValue} if it had mass.
+  DetailText: Long Night will not be returned from |Exile|.

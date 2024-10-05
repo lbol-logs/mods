@@ -1,0 +1,14 @@
+﻿WarpShield:
+  Name: Warp Shield
+  Description: >-
+    Gain {Block} |Block|.
+
+    Move {Value2} random cards from the draw pile to the hand.
+
+    Gain {Value1} more |Block| for each card with |Mass| moved.
+  UpgradedDescription: >-
+    Gain {Block} |Block|.
+
+    Move {Value2} random cards from the draw pile to the hand.
+
+    Gain {Value1} |Barrier| for each card with |Mass| moved.

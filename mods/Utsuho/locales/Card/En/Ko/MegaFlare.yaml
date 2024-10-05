@@ -1,0 +1,6 @@
+﻿MegaFlare:
+  Name: 메가 플레어
+  Description: >-
+    모든 적에게 피해를 {Damage}씩 4번 줍니다.
+
+    |보존될 시|: 이 전투에서 {SelfName}의 피해 {Value1} 감소

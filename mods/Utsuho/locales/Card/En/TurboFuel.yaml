@@ -1,0 +1,6 @@
+﻿TurboFuel:
+  Name: Turbo Fuel
+  Description: >-
+    At the start of {PlayerName}'s turn, gain {manatype} and draw {Value1} cards.
+
+    Then, |Exile| a random card in the hand.

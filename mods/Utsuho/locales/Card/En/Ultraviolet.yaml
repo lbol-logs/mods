@@ -1,0 +1,19 @@
+﻿Ultraviolet:
+  Name: Blazing Ultraviolet
+  Description: >-
+    Gain {Mana}.
+
+    Has |Mass|
+
+    |When Pulled|:
+
+    Draw {Value1} card.
+  UpgradedDescription: >-
+    Gain {Mana}.
+
+    Has |Mass|
+
+    |When Pulled|:
+
+    Draw {Value1} cards.
+  DetailText: 'Mass: |Utsuho| cards with random effects prioritize {SelfName}. These effects are considered "Pulled".'

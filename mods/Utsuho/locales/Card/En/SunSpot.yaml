@@ -1,0 +1,14 @@
+﻿SunSpot:
+  Name: Artificial Sun's Spot
+  Description: >-
+    Gain {Value1} |Heat|.
+
+    Add {Value2} |Dark Matter| to the hand.
+
+    Whenever a |Dark Matter| is played, trigger |Heat| without losing any |Heat|.
+  UpgradedDescription: >-
+    Gain {Value1} |Heat|.
+
+    Add {Value2} |Dark Matter| to the hand.
+
+    Whenever a |Dark Matter| is played, trigger |Heat| twice without losing any |Heat|.

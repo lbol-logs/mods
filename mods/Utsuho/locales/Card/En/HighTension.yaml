@@ -1,0 +1,8 @@
+﻿HighTension:
+  Name: High Tension Blade
+  Description: >-
+    Move {Value1} random cards from the draw pile to the discard pile.
+
+    Deal {Damage} damage.
+
+    Increase this damage by {Value2} for each card with |Mass| moved.

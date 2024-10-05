@@ -1,0 +1,6 @@
+﻿HeatShield:
+  Name: Heat Shield
+  Description: >-
+    Gain {Block} |Block|.
+
+    If {PlayerName} has {Value2} or less |Heat|, gain {Value1} |Heat|.

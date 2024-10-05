@@ -1,0 +1,10 @@
+﻿PlasmaBurn:
+  Name: Plasma Burn
+  ExtraDescription1: >-
+    Gain {Value1} |Heat|.
+
+    If {PlayerName} has {Value2} or more |Heat|, |Vent| for Damage.
+  Description: >-
+    Gain {Value1} |Heat|.
+
+    If {PlayerName} has {Value2} or more |Heat|, |Vent| to deal {Damage} damage.

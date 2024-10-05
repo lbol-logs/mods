@@ -1,0 +1,10 @@
+﻿AlphaProtocol:
+  Name: Alpha Protocol
+  Description: >-
+    Add a |Beta Protocol| to the draw pile.
+
+    Discard {Value1} random cards.
+  UpgradedDescription: >-
+    Add a |Beta Protocol+| to the draw pile.
+
+    Discard {Value1} random cards.

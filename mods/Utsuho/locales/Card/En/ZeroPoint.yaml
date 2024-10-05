@@ -1,0 +1,7 @@
+﻿ZeroPoint:
+  Name: Zero-Point Field
+  Description: >-
+    Has |Mass|.
+
+    |When Pulled|: Gain {Shield} |Barrier| and add a copy of {SelfName} to the hand with |Ethereal|.
+  DetailText: 'Mass: |Utsuho| cards with random effects prioritize {SelfName}. These effects are considered "Pulled".'

@@ -1,0 +1,14 @@
+﻿VacuumSlash:
+  Name: Vacuum Wave
+  Description: >-
+    Deal {Damage} damage to each enemy.
+
+    Discard a random card.
+
+    If you Pulled a card with |Mass|, deal that much damage {Value1} additional time.
+  UpgradedDescription: >-
+    Deal {Damage} damage to each enemy.
+
+    Discard a random card.
+
+    If you Pulled a card with |Mass|, deal that much damage {Value1} additional times.

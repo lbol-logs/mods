@@ -1,0 +1,10 @@
+﻿BetaProtocol:
+  Name: Beta Protocol
+  Description: >-
+    Add a |Gamma Protocol| to the draw pile.
+
+    |Exile| {Value1} random cards from the hand.
+  UpgradedDescription: >-
+    Add a |Gamma Protocol+| to the draw pile.
+
+    |Exile| {Value1} random cards from the hand.

@@ -1,0 +1,10 @@
+﻿MaxPower:
+  Name: 최대화력
+  Description: >-
+    패를 전부 |소멸|시킵니다.
+
+    마나를 전부 잃고 {Mana}를 얻습니다. 카드를 {Value1}장 뽑습니다.
+
+    |일시 화력|을 {Value1} 얻습니다.
+
+    |시간 제한| <sprite="ManaSprite" name="1">.

@@ -1,0 +1,14 @@
+﻿Crossfeed:
+  Name: 교차공급
+  Description: >-
+    |냉각|하고 그 수치만큼 피해를 줍니다.
+
+    패의 |응집|카드마다 |작열|을 {Value1} 얻습니다.
+
+    {PlayerName}의 |작열| {Value2}마다 |암흑 물질|을 1장 손에 추가합니다.
+  ExtraDescription1: >-
+    |냉각|하고 피해를 {Damage} 줍니다.
+
+    패의 |암흑 물질|마다 |작열|을 {Value1} 얻습니다.
+
+    {PlayerName}의 |작열| 10마다 |암흑 물질|을 {Value2}장 손에 추가합니다.

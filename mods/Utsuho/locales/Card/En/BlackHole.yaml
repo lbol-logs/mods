@@ -1,0 +1,4 @@
+﻿BlackHole:
+  Name: Black Hole
+  Description: "|While in hand|: At the start of {PlayerName}'s turn, gain {Block} |Block| and discard a random card."
+  DetailText: Playing {SelfName} has no effect other than |Exiling| it from the hand.

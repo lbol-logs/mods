@@ -1,0 +1,14 @@
+﻿HellGeyser:
+  Name: 헬 가이저
+  Description: >-
+    |작열|을 {Value1} 얻습니다.
+
+    |냉각|하고 그 수치만큼 피해를 줍니다.
+
+    |작열|을 {Value2} 얻습니다.
+  ExtraDescription1: >-
+    |작열|을 {Value1} 얻습니다.
+
+    |냉각|하고, 피해를 {Damage} 줍니다.
+
+    |작열|을 {Value2} 얻습니다.

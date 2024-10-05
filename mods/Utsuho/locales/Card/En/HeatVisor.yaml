@@ -1,0 +1,6 @@
+﻿HeatVisor:
+  Name: Nuclear Heat Visor
+  Description: >-
+    Gain {Block} |Block|.
+
+    If {PlayerName} has {Value1} or more |Heat|, prevent the next time the player would lose life before your next turn.

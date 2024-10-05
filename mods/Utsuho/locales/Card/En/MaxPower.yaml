@@ -1,0 +1,12 @@
+﻿MaxPower:
+  Name: Max Power
+  Description: >-
+    |Exile| the hand.
+
+    Lose all mana and gain {Mana}.
+
+    Draw {Value1} cards.
+
+    Gain {Value1} |Temporary Firepower|.
+
+    |Time Limit| <sprite="ManaSprite" name="1">.

@@ -1,0 +1,14 @@
+﻿Starlight:
+  Name: Starlight
+  Description: >-
+    Gain {Block} |Block|.
+
+    Gain {Value1} |Heat|.
+
+    Add 2 |Dark Matter| to the hand.
+  UpgradedDescription: >-
+    Gain {Shield} |Barrier|.
+
+    Gain {Value1} |Heat|.
+
+    Add 2 |Dark Matter| to the hand.

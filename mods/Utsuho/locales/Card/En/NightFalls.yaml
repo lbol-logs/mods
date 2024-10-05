@@ -1,0 +1,6 @@
+﻿NightFalls:
+  Name: Night Falls
+  Description: >-
+    Add |Dark Matter| to the hand until it is full.
+
+    Deal damage equal to {Value1} times the cards with |Mass| in the hand. ({Damage})
