@@ -1,2 +1,8 @@
 {
+  "TurboFuelStatus": {
+    "manatype": "P"
+  },
+  "HeatStatus": {
+    "HeatDamageRatio": 0.2
+  }
 }
