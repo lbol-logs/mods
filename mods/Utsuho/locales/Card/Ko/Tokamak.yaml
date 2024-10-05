@@ -1,0 +1,6 @@
+﻿Tokamak:
+  Name: 헬스 토카막
+  Description: >-
+    |작열|을 {Value1} 얻습니다.
+
+    다음 턴 시작시, |작열|을 {Value1} 얻습니다.

@@ -1,0 +1,15 @@
+﻿PlanetaryOrbit:
+  Name: Planetary Orbit
+  Description: >-
+    Swap the draw and discard piles.
+
+    Deal damage equal to the number of cards swapped to each enemy. ({Damage})
+
+    {SelfName} |Pull| all cards with |Mass| that were swapped.
+  UpgradedDescription: >-
+    Swap the draw and discard piles.
+
+    Deal damage equal to double the number of cards swapped to each enemy. ({Damage})
+
+    {SelfName} |Pull| all cards with |Mass| that were swapped.
+  DetailText: This does not change the order of the piles.

@@ -1,0 +1,10 @@
+﻿NuclearStrike:
+  Name: Nuclear Strike
+  ExtraDescription1: >-
+    |Vent| for damage.
+
+    Gain {Value1} |Heat|.
+  Description: >-
+    |Vent| to deal {Damage} damage.
+
+    Gain {Value1} |Heat|.

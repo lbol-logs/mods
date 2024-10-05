@@ -1,0 +1,6 @@
+﻿SunCrow:
+  Name: The Crow who Stole the Sun
+  Description: >-
+    Remove {Value2} random cards from the |battlefield|.
+
+    Gain {Value1} |Heat| for each card removed, double for cards with |Mass|.

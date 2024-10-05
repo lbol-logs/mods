@@ -1,0 +1,6 @@
+﻿AblativeArmor:
+  Name: Ablative Armor
+  Description: >-
+    Gain {Block} |Block|.
+
+    |Exile| all cards with |Mass| in the Hand, and gain {Value1} |Barrier| for each card |Exiled|.

@@ -11,7 +11,9 @@ using LBoLEntitySideloader.Resource;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text;
+using Unity.IO.LowLevel.Unsafe;
 using UnityEngine;
 
 namespace ExportModImgs.Exporters
@@ -19,46 +21,45 @@ namespace ExportModImgs.Exporters
     public class Exporter<T> where T : class
     {
         // add guid here
-        public List<string> targetGUIDs = new List<string>() {
-            "zosit.lbol.test.utsuho",
-            "rmrfmaxx.lbol.PatchouliCharacterMod",
-            "rmrfmaxxc.lbol.YuyukoCharacterMod",
-            "intoxicatedkid.ayashameimaru",
-            "rmrfmaxx.lbol.YoumuCharacterMod",
-            "llbol.ea.mima",
-            "xeno.lbol.character.Sanae_Kochiya",
-            "aqing0601.PKaguya.trial"
+        public Dictionary<string, string> targetGUIDs = new Dictionary<string, string>() {
+            { "Utsuho", "zosit.lbol.test.utsuho" },
+            //"rmrfmaxx.lbol.PatchouliCharacterMod",
+            //"rmrfmaxxc.lbol.YuyukoCharacterMod",
+            //"intoxicatedkid.ayashameimaru",
+            //"rmrfmaxx.lbol.YoumuCharacterMod",
+            //"llbol.ea.mima",
+            //"xeno.lbol.character.Sanae_Kochiya",
+            //"aqing0601.PKaguya.trial"
         };
 
         /// <summary>
         /// template type => IDefinitionConsumer
         /// </summary>
-        public Dictionary<Type, IDefinitionConsumer<T>> definitionConsumers = null;
-        public bool addTimeStamp = true;
+        public Dictionary<Type, IExportProvider<T>> definitionConsumers = null;
+        public bool addTimeStamp = false;
 
-        public readonly string rootFolder = "ImgExporter";
+        private string rootPath = "";
 
-        public readonly string rootPath = "";
+        private string rootFolder = "Exporter";
 
+        protected string subFolder;
 
         public IExPathProvider exPathProvider;
 
-        public IModSubDirProvider modSubDir;
-
         public IPostConsume<T> postProcess = new EmptyPostConsume<T>();
 
-        public Exporter(string rootPath = "", string rootFolder = "ImgExporter")
+        public string RootFolder { get => rootFolder; }
+        public string RootPath { get => rootPath; }
+
+        public Exporter(string rootPath = "", string rootFolder = "Exporter")
         {
-            var exPathImpl = new ExPathImpl();
+            var exPathImpl = new ExportPath();
             exPathProvider = exPathImpl;
-            modSubDir = exPathImpl;
             this.rootPath = rootPath;
             if (string.IsNullOrEmpty(this.rootPath))
                 this.rootPath = Path.Join(Application.dataPath, "..");
             if (rootFolder != null)
                 this.rootFolder = rootFolder;
-
-            this.rootPath = Path.Join(rootPath, rootFolder);
         }
 
 
@@ -72,12 +73,15 @@ namespace ExportModImgs.Exporters
         {
 
             string suffix = addTimeStamp ? $"_{DateTime.Now:yyyy-MM-dd_HH.mm.ss}" : "";
-            foreach (var guid in targetGUIDs)
+            foreach (KeyValuePair<string, string> kvp in targetGUIDs)
             {
+                string id = kvp.Key;
+                string guid = kvp.Value;
+
                 Log.LogInfo($"Exporting {guid}...");
                 try
                 {
-                    Export(guid, suffix);
+                    Export(id, guid, suffix);
                 }
                 catch (Exception ex)
                 {
@@ -87,7 +91,7 @@ namespace ExportModImgs.Exporters
             }
         }
 
-        public void Export(string guid, string suffix = "")
+        public void Export(string id, string guid, string suffix = "")
         {
             if (!BepInEx.Bootstrap.Chainloader.PluginInfos.TryGetValue(guid, out var pluginInfo))
             {
@@ -110,10 +114,10 @@ namespace ExportModImgs.Exporters
             }
 
 
-            var exportRoot = rootPath;
+            var exportRoot = Path.Join(rootPath, rootFolder);
             exportRoot = $"{exportRoot}{suffix}";
-            exportRoot = Path.Join(exportRoot, Source.LegalizeFileName(modSubDir.ModDir(pluginInfo)));
-
+            exportRoot = Path.Join(exportRoot, id);
+            exportRoot = Path.Join(exportRoot, subFolder);
 
             foreach (var ed in userInfo.definitionInstances.Values)
             {
@@ -126,34 +130,28 @@ namespace ExportModImgs.Exporters
                 if (!definitionConsumers.TryGetValue(templateType, out var definitionConsumer))
                     continue;
 
-
                 var exportPath = Path.Join(exportRoot, exPathProvider.ExSubDirs(ed));
 
                 Directory.CreateDirectory(exportPath);
 
 
-                T exTarget = definitionConsumer.Consume(ed);
+                T exTarget = definitionConsumer.Provide(ed);
 
 
                 if (exTarget == null)
                     continue;
 
-                var path = Path.Join(exportPath, Source.LegalizeFileName(exPathProvider.ExportFilePrefix(ed)));
+                string prefix = Source.LegalizeFileName(exPathProvider.ExportFilePrefix(ed));
 
-                postProcess.Process(exTarget, path);
-
+                postProcess.Process(exTarget, exportPath, prefix);
             }
-
         }
-
-
-
     }
 
 
-    public class ExPathImpl : IExPathProvider, IModSubDirProvider
+    public class ExportPath : IExPathProvider
     {
-        public string ExSubDirs(EntityDefinition entityDefinition)
+        public virtual string ExSubDirs(EntityDefinition entityDefinition)
         {
             var rez = entityDefinition.TemplateType().Name;
             // suboptmal sideloader api, not all definition have entity types
@@ -167,15 +165,9 @@ namespace ExportModImgs.Exporters
 
         }
 
-        public string ExportFilePrefix(EntityDefinition entityDefinition)
+        public virtual string ExportFilePrefix(EntityDefinition entityDefinition)
         {
             return entityDefinition.GetId().ToString();
-        }
-
-        public string ModDir(BepInEx.PluginInfo pluginInfo)
-        {
-
-            return pluginInfo.Metadata.GUID;
         }
     }
 

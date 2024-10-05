@@ -1,0 +1,3 @@
+﻿StartReactor:
+  Name: Start Reactor
+  Description: At the end of {PlayerName}'s turn, gain {Value1} |Heat|.

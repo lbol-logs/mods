@@ -1,0 +1,14 @@
+﻿HellGeyser:
+  Name: Hell Geyser
+  ExtraDescription1: >-
+    Gain {Value1} |Heat|.
+
+    |Vent| for damage.
+
+    Gain {Value2} |Heat|.
+  Description: >-
+    Gain {Value1} |Heat|.
+
+    |Vent| to deal {Damage} damage.
+
+    Gain {Value2} |Heat|.

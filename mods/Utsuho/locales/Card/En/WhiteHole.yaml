@@ -1,0 +1,4 @@
+﻿WhiteHole:
+  Name: White Hole
+  Description: '|At the end of the turn|: Gain {Block} |Block| and add a |Dark Matter| to the discard pile.'
+  DetailText: Playing {SelfName} has no effect other than |Exiling| it from the hand.

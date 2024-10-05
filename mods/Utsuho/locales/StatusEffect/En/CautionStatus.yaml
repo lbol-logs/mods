@@ -1,0 +1,4 @@
+﻿CautionStatus:
+  Name: CAUTION!
+  Description: At the start of {PlayerName}'s turn, enter |Burst| and gain |Time Limit| <sprite="ManaSprite" name="1">.
+  Brief: At the start of turn, enter |Burst| and gain |Time Limit| <sprite="ManaSprite" name="1">.

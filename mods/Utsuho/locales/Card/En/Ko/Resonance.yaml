@@ -1,0 +1,14 @@
+﻿Resonance:
+  Name: 공명
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    남은 전투동안, {SelfName}이 피해를 추가로 {Value1} 줍니다.
+
+    {SelfName}이외의 {PlayerName}의 카드가 |소멸|하면, {SelfName}을 패에 넣습니다.
+  UpgradedDescription: >-
+    피해를 {Damage} 줍니다.
+
+    남은 전투동안, {SelfName}이 피해를 추가로 {Value1} 줍니다.
+
+    {SelfName}이외의 {PlayerName}의 카드가 |소멸|하면, {SelfName}을 패에 넣습니다.

@@ -1,0 +1,6 @@
+﻿HeatShield:
+  Name: 작열 방패
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    {PlayerName}의 |작열|이 {Value2} 이하라면, |작열|을 {Value1} 얻습니다.

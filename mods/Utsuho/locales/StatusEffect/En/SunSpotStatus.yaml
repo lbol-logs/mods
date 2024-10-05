@@ -1,0 +1,4 @@
+﻿SunSpotStatus:
+  Name: Sun Spot
+  Description: When you play a |Dark Matter|, trigger your |Heat| {Level:plural one='% time' other='% times'}.
+  Brief: When you play a |Dark Matter|, trigger your |Heat| additional times.

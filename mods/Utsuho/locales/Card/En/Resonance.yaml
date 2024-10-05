@@ -1,0 +1,14 @@
+﻿Resonance:
+  Name: Resonance
+  Description: >-
+    Deal {Damage} damage.
+
+    For the rest of combat, each {SelfName} deals {Value1} more damage.
+
+    Whenever {PlayerName} |Exiles| a card that isn't {SelfName}, add a {SelfName} to the hand.
+  UpgradedDescription: >-
+    Deal {Damage} damage.
+
+    For the rest of combat, each {SelfName} deals {Value1} more damage.
+
+    Whenever {PlayerName} |Exiles| a card that isn't {SelfName}, add a {SelfName} to the hand.

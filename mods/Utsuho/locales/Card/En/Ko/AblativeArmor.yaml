@@ -1,0 +1,6 @@
+﻿AblativeArmor:
+  Name: 융제 장갑
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    패의 모든 |응집|카드를 |소멸|시키고, |소멸|한 만큼 |보호막|을 {Value1} 얻습니다.

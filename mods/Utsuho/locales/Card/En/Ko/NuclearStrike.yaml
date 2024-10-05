@@ -1,0 +1,10 @@
+﻿NuclearStrike:
+  Name: 뉴클리어 스트라이크
+  Description: >-
+    |냉각|하고 그 수치만큼 피해를 줍니다.
+
+    |작열|을 {Value1} 얻습니다.
+  ExtraDescription1: >-
+    |냉각|하고 피해를 {Damage} 줍니다.
+
+    |작열|을 {Value1} 얻습니다.

@@ -1,0 +1,3 @@
+﻿GravityWell:
+  Name: Gravity Well
+  Description: At the end of {PlayerName}'s turn, Gain {Value1} |Barrier| and add a |Dark Matter| to the hand.

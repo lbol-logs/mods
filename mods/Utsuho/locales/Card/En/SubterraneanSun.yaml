@@ -1,0 +1,6 @@
+﻿SubterraneanSun:
+  Name: Subterranean Sun
+  Description: >-
+    |While in hand|: At the start of {PlayerName}'s turn, deal {Damage} damage to a random enemy and remove a random card from the Draw Pile, Discard Pile, or Hand {RemoveCount:plural one='% time.' other='% times.'}
+
+    Repeat this an additional time for each turn {SelfName} is |Retained|.

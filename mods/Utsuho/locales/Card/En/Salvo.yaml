@@ -1,0 +1,6 @@
+﻿Salvo:
+  Name: Salvo
+  Description: >-
+    Deal {Damage} damage to a random enemy {SalvoCount:plural one='% time.' other='% times.'}
+
+    For each other card played this turn, deal damage an additional time.

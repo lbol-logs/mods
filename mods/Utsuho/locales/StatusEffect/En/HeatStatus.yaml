@@ -1,0 +1,10 @@
+﻿HeatStatus:
+  Name: Heat
+  Description: >-
+    At the end of {OwnerName}'s turn, lose 1 of every 5 |Heat| ({HeatDamage}) and deal that much damage to all enemies.
+
+    The keyword |Vent| spends all of this at once for an effect.
+  Brief: >-
+    At the end of {OwnerName}s turn, lose 1 of every 5 |Heat| and deal that much damage to all enemies.
+
+    The keyword |Vent| spends all of this at once for an effect.

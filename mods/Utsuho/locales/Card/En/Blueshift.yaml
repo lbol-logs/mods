@@ -1,0 +1,11 @@
+﻿Blueshift:
+  Name: Blueshift
+  Description: >-
+    |MultiKicker| {Mana}: Add a {SelfName} to the hand.
+
+    Gain {Block} |Block|.
+  UpgradedDescription: >-
+    |MultiKicker| {Mana}: Add a upgraded {SelfName} to the hand.
+
+    Gain {Block} |Block|.
+  DetailText: 'MultiKicker: All pooled mana is spent when playing this card. For each time you can afford the kicker after the card cost, get an extra effect.'

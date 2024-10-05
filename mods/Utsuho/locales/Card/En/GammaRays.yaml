@@ -1,0 +1,7 @@
+﻿GammaRays:
+  Name: Gamma Rays
+  Description: Gain {Value1} |Radiation|.
+  UpgradedDescription: >-
+    Gain {Value1} |Radiation|.
+
+    |Growth:| Gain {Value2} more |Radiation|.

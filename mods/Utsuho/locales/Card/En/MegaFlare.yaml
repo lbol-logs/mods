@@ -1,0 +1,6 @@
+﻿MegaFlare:
+  Name: Mega Flare
+  Description: >-
+    Deal {Damage} damage to each enemy 4 times.
+
+    |When Retained|: Decrease {SelfName}'s damage by {Value1} this combat.

@@ -1,0 +1,26 @@
+﻿NuclearDive:
+  Name: 핵반응 제어불능 다이브
+  Description: >-
+    {PlayerName}의 |작열|이 두배로 증가합니다.
+
+    {PlayerName}의 |작열| 10 마다 피해를 1 받습니다.
+
+    |냉각|하고 그 수치만큼 피해를 줍니다.
+  ExtraDescription1: >-
+    {PlayerName}의 |작열|이 두배로 증가합니다.
+
+    {PlayerName}의 |작열| 10 마다 피해를 1 받습니다.
+
+    |냉각|하고 피해를 {Damage} 줍니다.
+  UpgradedDescription: >-
+    {PlayerName}의 |작열|이 세배로 증가합니다.
+
+    {PlayerName}의 |작열| 10 마다 1의 피해를 받습니다.
+
+    |냉각|하고 그 수치만큼 피해를 줍니다.
+  UpgradedExtraDescription1: >-
+    {PlayerName}의 |작열|이 세배로 증가합니다.
+
+    {PlayerName}의 |작열| 10 마다 피해를 1 받습니다.
+
+    |냉각|하고 피해를 {Damage} 줍니다.

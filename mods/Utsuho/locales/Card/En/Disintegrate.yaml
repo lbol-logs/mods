@@ -1,0 +1,6 @@
+﻿Disintegrate:
+  Name: Disintegrate
+  Description: >-
+    Deal {Damage} damage.
+
+    |Expel|: Remove a card from the library.

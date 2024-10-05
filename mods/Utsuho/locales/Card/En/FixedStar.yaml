@@ -1,0 +1,6 @@
+﻿FixedStar:
+  Name: Fixed Star
+  Description: >-
+    At the end of {PlayerName}'s turn, choose up to {Value1} cards in the hand. |Retain| them this turn.
+
+    All |Dark Matter| gain |Auto-Exile| when drawn.

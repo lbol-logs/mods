@@ -1,0 +1,6 @@
+﻿FixedStar:
+  Name: 픽스드 스타
+  Description: >-
+    {PlayerName}의 턴 종료시, 손에서 카드를 {Value1}장 골라 이번 턴 |보존|합니다.
+
+    모든 |암흑 물질|이 이 전투 동안 |자동소멸|을 얻습니다.

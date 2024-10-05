@@ -1,0 +1,3 @@
+﻿Reignition:
+  Name: Reignition
+  Description: Deal damage equal to the {Value1} time the number of cards in |Exile| ({Damage}).

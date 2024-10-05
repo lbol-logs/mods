@@ -1,0 +1,10 @@
+﻿BetaProtocol:
+  Name: 베타 프로토콜
+  Description: >-
+    뽑을 카드 더미에 |감마 프로토콜|을 추가합니다.
+
+    패의 무작위 카드를 {Value1}장 |소멸|시킵니다.
+  UpgradedDescription: >-
+    뽑을 카드 더미에 |감마 프로토콜+|을 추가합니다.
+
+    패의 무작위 카드를 {Value1}장 |소멸|시킵니다.

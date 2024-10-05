@@ -1,0 +1,9 @@
+﻿GravityDistortion:
+  Name: 공간 왜곡
+  Description: >-
+    모든 적에게 |허약|을 {Value2} 주고 피해를 {Damage} 줍니다.
+
+    |응집|
+
+    |응집될 시|: {Mana}를 얻습니다.
+  DetailText: '응집: |우츠호|의 무작위 카드 지정은 {SelfName}을 대상으로 합니다.'

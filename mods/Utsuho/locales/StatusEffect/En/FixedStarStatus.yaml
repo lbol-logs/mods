@@ -1,0 +1,6 @@
+﻿FixedStarStatus:
+  Name: Fixed Star
+  Description: >-
+    At the end of your turn, |retain| up to {Level} cards this turn.
+     All |Dark Matter| have |Auto-Exile| until end of combat.
+  Brief: At the end of your turn, |retain| up to cards this turn. All |Dark Matter| have |Auto-Exile| until end of combat.
