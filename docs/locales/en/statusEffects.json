@@ -21,7 +21,7 @@
   },
   "HeatStatus": {
     "Name": "Heat",
-    "Description": "At the end of <OwnerName />'s turn, lose 1 of every 5 <h>Heat</h> (<HeatDamage />}) and deal that much damage to all enemies.<br />The keyword <h>Vent</h> spends all of this at once for an effect."
+    "Description": "At the end of <OwnerName />'s turn, lose 1 of every 5 <h>Heat</h> (<HeatDamage />) and deal that much damage to all enemies.<br />The keyword <h>Vent</h> spends all of this at once for an effect."
   },
   "HeatVisorStatus": {
     "Name": "Heat Visor",
