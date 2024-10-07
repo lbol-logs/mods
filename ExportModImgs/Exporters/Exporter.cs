@@ -22,14 +22,15 @@ namespace ExportModImgs.Exporters
     {
         // add guid here
         public Dictionary<string, string> targetGUIDs = new Dictionary<string, string>() {
+            { "AyaPlayerUnit", "intoxicatedkid.ayashameimaru" },
+            { "PKaguya", "aqing0601.PKaguya" },
             { "Utsuho", "zosit.lbol.test.utsuho" },
+
             //"rmrfmaxx.lbol.PatchouliCharacterMod",
             //"rmrfmaxxc.lbol.YuyukoCharacterMod",
-            //"intoxicatedkid.ayashameimaru",
             //"rmrfmaxx.lbol.YoumuCharacterMod",
             //"llbol.ea.mima",
             //"xeno.lbol.character.Sanae_Kochiya",
-            //"aqing0601.PKaguya.trial"
         };
 
         /// <summary>

@@ -1,10 +1,9 @@
-﻿using LBoL.EntityLib.Cards.Character.Sakuya;
+﻿using LBoL.Base.Extensions;
+using LBoL.ConfigData;
 using LBoLEntitySideloader.Entities;
-using LBoLEntitySideloader.Resource;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Text;
 using UnityEngine;
 
 namespace ExportModImgs.Exporters
@@ -94,8 +93,16 @@ namespace ExportModImgs.Exporters
                     var imgs = ct.LoadCardImages();
                     texContainer.dic.Add(new TexContainerItem() { Texture2D = imgs?.main });
 
-                    var upId = ct.MakeConfig().UpgradeImageId;
-                    texContainer.dic.Add(new TexContainerItem() { Texture2D = imgs.upgrade, Name = upId });
+                    CardConfig config = ct.MakeConfig();
+                    string upgradeImageId = config.UpgradeImageId;
+                    if (!upgradeImageId.IsNullOrEmpty())
+                    {
+                        string imageId = config.ImageId;
+                        if (imageId != upgradeImageId)
+                        {
+                            texContainer.dic.Add(new TexContainerItem() { Texture2D = imgs.upgrade, Name = upgradeImageId });
+                        }
+                    }
 
                     return texContainer;
                 }
@@ -159,58 +166,4 @@ namespace ExportModImgs.Exporters
             }
         }
     }
-
-
-
-    public class UpgradedImgExporter : Exporter<Texture2D>
-    {
-
-        public UpgradedImgExporter() : base()
-        {
-            subFolder = "images";
-
-            definitionConsumers = new Dictionary<Type, IExportProvider<Texture2D>>()
-            {
-                [typeof(CardTemplate)] = new DefinitionConsumer<Texture2D>(ed => {
-                    if (ed is CardTemplate ct)
-                    {
-                        return ct.LoadCardImages()?.upgrade;
-                    }
-                    return null;
-                })
-            };
-
-            exPathProvider = new ExportPathForUpgrade();
-
-            postProcess = new TexExport();
-        }
-
-
-        public class TexExport : IPostConsume<Texture2D>
-        {
-            public void Process(Texture2D input, string path, string prefix)
-            {
-                var texBytes = ImageConversion.EncodeToPNG(input);
-                File.WriteAllBytes(path + ".png", texBytes);
-            }
-        }
-
-        public class ExportPathForUpgrade : ExportPath
-        {
-            public override string ExportFilePrefix(EntityDefinition ed)
-            {
-                if (ed is CardTemplate ct)
-                {
-                    var upId = ct.MakeConfig().UpgradeImageId;
-                    if (!string.IsNullOrEmpty(upId))
-                        return upId;
-                }
-
-                return base.ExportFilePrefix(ed);
-            }
-        }
-
-    }
-
-
 }
