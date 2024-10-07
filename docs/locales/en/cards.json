@@ -172,7 +172,7 @@
   },
   "NightFalls": {
     "Name": "Night Falls",
-    "Description": "Add <h>Dark Matter</h> to the hand until it is full.<br />Deal damage equal to <Value1 /> times the cards with <h>Mass</h> in the hand. (<Damage />)"
+    "Description": "Add <h>Dark Matter</h> to the hand until it is full.<br />Deal damage equal to <Value1 /> times the cards with <h>Mass</h> in the hand."
   },
   "NuclearDive": {
     "Name": "Uncontainable Nuclear Reaction Dive",
@@ -189,8 +189,8 @@
   },
   "PlanetaryOrbit": {
     "Name": "Planetary Orbit",
-    "Description": "Swap the draw and discard piles.<br />Deal damage equal to the number of cards swapped to each enemy. (<Damage />)<br /><SelfName /> <h>Pull</h> all cards with <h>Mass</h> that were swapped.",
-    "UpgradedDescription": "Swap the draw and discard piles.<br />Deal damage equal to double the number of cards swapped to each enemy. (<Damage />)<br /><SelfName /> <h>Pull</h> all cards with <h>Mass</h> that were swapped."
+    "Description": "Swap the draw and discard piles.<br />Deal damage equal to the number of cards swapped to each enemy.<br /><SelfName /> <h>Pull</h> all cards with <h>Mass</h> that were swapped.",
+    "UpgradedDescription": "Swap the draw and discard piles.<br />Deal damage equal to double the number of cards swapped to each enemy.<br /><SelfName /> <h>Pull</h> all cards with <h>Mass</h> that were swapped."
   },
   "PlasmaBurn": {
     "Name": "Plasma Burn",
@@ -206,7 +206,7 @@
   },
   "Reignition": {
     "Name": "Reignition",
-    "Description": "Deal damage equal to the <Value1 /> time the number of cards in <h>Exile</h> (<Damage />)."
+    "Description": "Deal damage equal to <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }) the number of cards in <h>Exile</h>."
   },
   "Remember": {
     "Name": "Help Me Remember, Satori-sama!",
