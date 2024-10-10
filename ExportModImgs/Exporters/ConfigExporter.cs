@@ -3,11 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using static ExportModImgs.Exporters.TexExporter;
-using UnityEngine;
 using LBoLEntitySideloader.ReflectionHelpers;
-using System.IO.Pipes;
-using System.Text.RegularExpressions;
 using HarmonyLib;
 using System.Reflection;
 using System.Linq;
@@ -28,7 +24,7 @@ namespace ExportModImgs.Exporters
                 [typeof(StatusEffectTemplate)] = configProvider,
                 [typeof(UltimateSkillTemplate)] = configProvider,
                 [typeof(PlayerUnitTemplate)] = configProvider,
-                [typeof(EnemyUnitTemplate)] = configProvider,
+                [typeof(EnemyGroupTemplate)] = configProvider,
             };
             postProcess = new ConfigExport();
         }
