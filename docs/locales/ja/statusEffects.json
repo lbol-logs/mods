@@ -1,0 +1,82 @@
+{
+  "YoumuAgelessObsessionSe": {
+    "Name": "一念無量劫",
+    "Description": "対象にロックオン<h>ロックオン</h>が与えられた時, 追加でその<Level />倍の<h>ロックオン</h>を与える。"
+  },
+  "YoumuAscensionToBuddhahoodSe": {
+    "Name": "成仏得脱",
+    "Description": "毎ターン最初にプレイしたカード<Level />枚に<h>反復</h>を与える。<br />(残り: <Count />)"
+  },
+  "YoumuBizarenessSe": {
+    "Name": "六道怪奇",
+    "Description": "対象に<h>ロックオン</h>を与える度,<h>毒</h><Level />を与える。"
+  },
+  "YoumuBloodOfAsuraSe": {
+    "Name": "修羅の血",
+    "Description": "<PlayerName />が<h>攻撃</h>カードをプレイする度、<h>火力</h><Level />を得る。"
+  },
+  "YoumuDivineSeveringSe": {
+    "Name": "神閃",
+    "Description": "戦闘終了まで<PlayerName />が<h>抜刀</h>する度、すべての斬撃を<Level />ダメージ強化する。"
+  },
+  "YoumuDrawNextTurnSe": {
+    "Name": "Draw Next Turn",
+    "Description": "<PlayerName />の次のターン、カードを<Level />枚引く。"
+  },
+  "YoumuDualWielderSe": {
+    "Name": "生命の二刀流",
+    "Description": "<PlayerName />が<h>ロックオン</h>5を与える度に、<h>現世斬</h><Level />枚を手札に加える。"
+  },
+  "YoumuFlashOfTheNetherworldSe": {
+    "Name": "冥府光芒一閃",
+    "Description": "追加ターンの終わりに、すべての敵に<Level />ダメージをそのターンプレイしたカードの枚数と同じ回数分与える。"
+  },
+  "YoumuGreatEnlightenmentSe": {
+    "Name": "大悟",
+    "Description": "<PlayerName />のターン開始時、<h>抜刀</h><Level />回"
+  },
+  "YoumuInfiniteKalpasSe": {
+    "Name": "無量劫",
+    "Description": "<PlayerName />のターン開始時、<Level />枚のランダムな妖夢のカードを手札に加える。それらのカードは<h>虚無</h>"
+  },
+  "YoumuInnerEyeSe": {
+    "Name": "心眼",
+    "Description": "<h>斬撃</h>カードがプレイされる度、<h>反撃</h><Level />を得る。"
+  },
+  "YoumuRiposteSe": {
+    "Name": "反撃",
+    "Description": "攻撃ダメージはライフの代わりに<h>反撃</h>を減少させる。失われた<h>反撃</h>に等しいダメージを攻撃者に与える。"
+  },
+  "YoumuSilentNirvanaSe": {
+    "Name": "涅槃寂静",
+    "Description": "敵にデバフを与えるたびに、<Level />ブロックを得る。"
+  },
+  "YoumuSpiritMediumBindSe": {
+    "Name": "憑坐の縛",
+    "Description": "カードが<h>廃棄</h>されたとき、すべての敵に<Level />ダメージを与える。"
+  },
+  "YoumuUnendingWinterSe": {
+    "Name": "終わりなき冬",
+    "Description": "<PlayerName />が攻撃でダメージを与える度に、<h>冷気</h><Level />を与える。"
+  },
+  "YoumuUnsheatheSe": {
+    "Name": "抜刀",
+    "Description": "This is a workaround to add keywords description to cards."
+  },
+  "YoumuWatchtowerSwordSe": {
+    "Name": "楼観剣",
+    "Description": "<PlayerName />が攻撃でダメージを与える度に、対象に<h>ロックオン</h><Level />を与える。"
+  },
+  "YoumuWheelOfPainSe": {
+    "Name": "幽明の苦輪",
+    "Description": "<PlayerName />のターン開始時、敵全体に<h>ロックオン</h><Level />を与える。"
+  },
+  "YoumuYuyukoDeathSe": {
+    "Name": "生者必滅の理",
+    "Description": "This is a workaround to add keywords description to cards."
+  },
+  "YoumuYuyukoFriendSe": {
+    "Name": "生死の境界",
+    "Description": "<PlayerName />のターン終了時、敵全体に<h>生者必滅の理</h><Level />を与える。"
+  }
+}

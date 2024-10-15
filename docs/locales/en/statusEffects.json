@@ -70,5 +70,85 @@
   "WasteNotStatus": {
     "Name": "Waste Not",
     "Description": "When you exile a card, gain <Level /> <h>Heat</h>"
+  },
+  "YoumuAgelessObsessionSe": {
+    "Name": "Ageless Obsession",
+    "Description": "Whenever an enemy gains <h>Lock On</h>, apply <h>Lock On</h> <Level /> additional times."
+  },
+  "YoumuAscensionToBuddhahoodSe": {
+    "Name": "Ascension To Buddhahood",
+    "Description": "The first <Level /> card$t(plurals.-s, { 'count': {{Level}} }) played each turn gains <h>Echo</h>.<br />(Remaining: <Count />)"
+  },
+  "YoumuBizarenessSe": {
+    "Name": "Bizarreness of Six Realms",
+    "Description": "Whenever an enemy gains <h>Lock On</h>, also apply <Level /> <h>Poison</h>."
+  },
+  "YoumuBloodOfAsuraSe": {
+    "Name": "Blood Of Asura",
+    "Description": "Whenever <PlayerName /> plays an <h>Attack</h> card, gain <Level /> <h>Firepower</h>."
+  },
+  "YoumuDivineSeveringSe": {
+    "Name": "Divine Severing",
+    "Description": "Whenever <PlayerName /> <h>Unsheathes</h>, increase the damage of all Slash cards by <Level /> for the rest of combat."
+  },
+  "YoumuDrawNextTurnSe": {
+    "Name": "Draw Next Turn",
+    "Description": "At the start of <PlayerName />'s next turn, draw <Level /> card(s)."
+  },
+  "YoumuDualWielderSe": {
+    "Name": "Dual-Wielder of Lives",
+    "Description": "Whenever <PlayerName /> applies 5 <h>Lock On</h>, add <Level /> <h>Slash of Present</h> to the hand."
+  },
+  "YoumuFlashOfTheNetherworldSe": {
+    "Name": "Flash Of The Netherworld",
+    "Description": "At the end of every extra turn, deal <Level /> Damage to each enemy for every card played that turn."
+  },
+  "YoumuGreatEnlightenmentSe": {
+    "Name": "Great Enlightenment",
+    "Description": "At the start of <PlayerName />'s turn, <h>Unsheathe</h> <Level /> time(s)."
+  },
+  "YoumuInfiniteKalpasSe": {
+    "Name": "Infinite Kalpas",
+    "Description": "At the start of <PlayerName />'s turn, add <Level /> random Youmu <h>Ethereal</h> card to the hand. These cards have <h>Exile</h>."
+  },
+  "YoumuInnerEyeSe": {
+    "Name": "Inner Eye",
+    "Description": "Whenever a Slash card is played, gain <Level /> <h>Riposte</h>."
+  },
+  "YoumuRiposteSe": {
+    "Name": "Riposte",
+    "Description": "Attack damage reduces <h>Riposte</h> instead of life. Deal damage to the attacker equal to the amount of <h>Riposte</h> lost."
+  },
+  "YoumuSilentNirvanaSe": {
+    "Name": "Silent Nirvana",
+    "Description": "Whenever an enemy gains a debuff, gain <Level /> Block."
+  },
+  "YoumuSpiritMediumBindSe": {
+    "Name": "Spirit Medium's Bind",
+    "Description": "Whenever a card is <h>Exiled</h>, deal <Level /> damage toeach enemy."
+  },
+  "YoumuUnendingWinterSe": {
+    "Name": "Unending Winter",
+    "Description": "Whenever <PlayerName /> deals attack damage, apply <Level /> <h>Cold</h> to the target(s)."
+  },
+  "YoumuUnsheatheSe": {
+    "Name": "Unsheathe",
+    "Description": "This is a workaround to add keywords description to cards."
+  },
+  "YoumuWatchtowerSwordSe": {
+    "Name": "Roukanken",
+    "Description": "Whenever <PlayerName /> deals attack damage, also apply <Level /> <h>Lock On</h>."
+  },
+  "YoumuWheelOfPainSe": {
+    "Name": "Wheel Of Pain",
+    "Description": "At the start of <PlayerName />'s turn, apply <Level /> <h>Lock On</h> to each enemy."
+  },
+  "YoumuYuyukoDeathSe": {
+    "Name": "Law of Mortality",
+    "Description": "This is a workaround to add keywords description to cards."
+  },
+  "YoumuYuyukoFriendSe": {
+    "Name": "Border of life",
+    "Description": "At the end of <PlayerName />'s turn, apply <Level /> <h>Law of Mortality</h> to each enemy."
   }
 }

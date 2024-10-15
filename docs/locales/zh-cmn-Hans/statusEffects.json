@@ -1,0 +1,82 @@
+{
+  "YoumuAgelessObsessionSe": {
+    "Name": "无量劫",
+    "Description": "当敌人受到<h>锁定</h>时，额外施加 <Level /> 倍的<h>锁定</h>。"
+  },
+  "YoumuAscensionToBuddhahoodSe": {
+    "Name": "成佛得脱",
+    "Description": "每回合打出的前 <Level /> 张牌具有<h>回响</h>。<br />（剩余： <Count />）"
+  },
+  "YoumuBizarenessSe": {
+    "Name": "六道怪奇",
+    "Description": "当一个敌人受到<h>锁定</h>时，还会对其施加 <Level /> 层<h>中毒</h>。"
+  },
+  "YoumuBloodOfAsuraSe": {
+    "Name": "Blood Of Asura",
+    "Description": "当一张名为<h>斩</h>的牌被打出时，获得 <Level /> 点<h>火力</h>。"
+  },
+  "YoumuDivineSeveringSe": {
+    "Name": "神闪",
+    "Description": "当<PlayerName /><h>拔刀</h>时，在本场战斗中，提升名为<h>斩</h>的卡牌的伤害 <Level /> 点。"
+  },
+  "YoumuDrawNextTurnSe": {
+    "Name": "下回合抽牌",
+    "Description": "<PlayerName />的下回合开始时，抽 <Level /> 张牌。"
+  },
+  "YoumuDualWielderSe": {
+    "Name": "生命双持者",
+    "Description": ""
+  },
+  "YoumuFlashOfTheNetherworldSe": {
+    "Name": "冥府光芒一闪",
+    "Description": "在每个额外回合结束时，此回合中每有一张牌被打出，对所有敌人造成 <Level /> 点伤害。"
+  },
+  "YoumuGreatEnlightenmentSe": {
+    "Name": "大悟",
+    "Description": "<PlayerName />的回合开始时，<h>拔刀</h> <Level /> 次。"
+  },
+  "YoumuInfiniteKalpasSe": {
+    "Name": "无尽之劫",
+    "Description": "<PlayerName />的回合开始时，将 <Level /> 张随机的妖梦<h>虚无</h>牌加入手中。这些卡牌具有<h>放逐</h>。"
+  },
+  "YoumuInnerEyeSe": {
+    "Name": "心眼",
+    "Description": "当一张名为<h>斩</h>的牌被打出后，获得 <Level /> 点<h>还击</h>。"
+  },
+  "YoumuRiposteSe": {
+    "Name": "还击",
+    "Description": "阻挡攻击伤害，并且对攻击者造成等于失去的<h>还击</h>数量的伤害。"
+  },
+  "YoumuSilentNirvanaSe": {
+    "Name": "涅槃寂静",
+    "Description": "每当一个敌人受到负面状态，获得 <Level /> 点<h>格挡</h>。"
+  },
+  "YoumuSpiritMediumBindSe": {
+    "Name": "凭依之缚",
+    "Description": "当一张牌被<h>放逐</h>后，对所有敌人造成 <Level /> 点伤害。"
+  },
+  "YoumuUnendingWinterSe": {
+    "Name": "无尽的冬天",
+    "Description": "当<PlayerName />造成攻击伤害时，还会施加 <Level /> 层<h>寒冷</h>。"
+  },
+  "YoumuUnsheatheSe": {
+    "Name": "拔刀",
+    "Description": "手中名为<h>斩</h>的牌的费用<h>暂时降低</h> <Mana1 /> 。<br />然后，如果手中没有<h>现世斩</h>，将一张<h>现世斩</h>加入手中。"
+  },
+  "YoumuWatchtowerSwordSe": {
+    "Name": "“楼观”剑",
+    "Description": "当<PlayerName />造成攻击伤害时，还会施加 <Level /> 层<h>锁定</h>。"
+  },
+  "YoumuWheelOfPainSe": {
+    "Name": "幽明的苦轮",
+    "Description": "<PlayerName />的回合开始时，对所有敌人施加 <Level /> 层<h>锁定</h>。"
+  },
+  "YoumuYuyukoDeathSe": {
+    "Name": "生者必灭之理",
+    "Description": "回合结束时，失去 <Level /> 点生命。无法被治疗。"
+  },
+  "YoumuYuyukoFriendSe": {
+    "Name": "生与死的境界",
+    "Description": "<PlayerName />的每个回合结束时，对所有敌人施加 <Level /> 层<h>生者必灭之理</h>"
+  }
+}
