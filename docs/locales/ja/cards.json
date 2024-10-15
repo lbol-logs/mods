@@ -312,6 +312,6 @@
     "Description": "敵全体に<h>生者必滅の理</h><Value1 />を与える。",
     "PassiveDescription": "<Mana />を得る。",
     "ActiveDescription": "敵全体に<h>脱力</h><Value2 />と<h>弱体</h><Value2 />を与える。",
-    "UltimateDescription": "<PlayerName />のターン終了時に、敵全体に<h生者必滅の理</h><Value1 />を与える。"
+    "UltimateDescription": "<PlayerName />のターン終了時に、敵全体に<h>生者必滅の理</h><Value1 />を与える。"
   }
 }
