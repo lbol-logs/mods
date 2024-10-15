@@ -13,11 +13,11 @@
   "YoumuMod": {
     "BaseMana": "WWGG",
     "A": {
-      "Cards": ["Shoot"," Shoot"," Boundary"," Boundary"," YoumuAttackW"," YoumuAttackW"," YoumuBlockG"," YoumuBlockG"," YoumuBlockG"," YoumuInsightfulSword"],
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "YoumuAttackW", "YoumuAttackW", "YoumuBlockG", "YoumuBlockG", "YoumuBlockG", "YoumuInsightfulSword"],
       "Exhibit": "YoumuExhibitW"
     },
     "B": {
-      "Cards": ["Shoot"," Shoot"," Boundary"," Boundary"," YoumuAttackG"," YoumuAttackG"," YoumuBlockW"," YoumuBlockW"," YoumuBlockW"," YoumuAsuraSword"],
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "YoumuAttackG", "YoumuAttackG", "YoumuBlockW", "YoumuBlockW", "YoumuBlockW", "YoumuAsuraSword"],
       "Exhibit": "YoumuExhibitG"
     }
   }
