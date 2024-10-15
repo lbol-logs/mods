@@ -1,0 +1,317 @@
+{
+  "YoumuAgelessObsession": {
+    "Name": "一念無量劫",
+    "Description": "すべての敵に<h>ロックオン</h><Value1 />を与える。<br />対象が受けるロックオンが倍になる。"
+  },
+  "YoumuAppearingAndDisappearing": {
+    "Name": "大悟顕晦",
+    "Description": "手札、山札、捨札から<Value1 />枚までカードを<h>廃棄</h>する。この効果によって<h>廃棄</h>された妖夢の<h>虚無</h>カードを捨札に加える。"
+  },
+  "YoumuAscensionToBuddhahood": {
+    "Name": "成仏得脱",
+    "Description": "毎ターン最初にプレイしたカードに<h>反復</h>を与える。<br /><h>充填</h>:<Mana />を得る。"
+  },
+  "YoumuAsuraSword": {
+    "Name": "修羅剣",
+    "Description": "<Damage /> ダメージを<Value1 />回与える。<br />対象に<h>ロックオン</h><Value1 />を与える。"
+  },
+  "YoumuAttackG": {
+    "Name": "天界剣",
+    "Description": "<Damage />ダメージを与える。"
+  },
+  "YoumuAttackW": {
+    "Name": "人界剣",
+    "Description": "<Damage />ダメージを与える。"
+  },
+  "YoumuBizareness": {
+    "Name": "六道怪奇",
+    "Description": "対象に<h>ロックオン</h>を与える度、<h>毒</h><Value1 />を与える。"
+  },
+  "YoumuBlockG": {
+    "Name": "防御姿勢",
+    "Description": "<Block /><h>ブロック</h>を得る。"
+  },
+  "YoumuBlockW": {
+    "Name": "魂符",
+    "Description": "<Block /><h>ブロック</h>を得る。"
+  },
+  "YoumuBloodOfAsura": {
+    "Name": "修羅の血",
+    "Description": "<h>攻撃</h>カードをプレイする度、<h>火力</h><Value1 />を得る。"
+  },
+  "YoumuBuddhahoodOfFlora": {
+    "Name": "草木成佛",
+    "Description": "<h>グレイズ</h><Value1 />を得る。<br /><h>抜刀</h>"
+  },
+  "YoumuBulletCuttingSpirit": {
+    "Name": "弾をも断つ心の眼",
+    "Description": "ライフを<Value2 />を得る。<br />戦闘終了まで手札のカードを1枚<h>アップグレード</h>する。",
+    "UpgradedDescription": "ライフを<Value2 />を得る。<br />戦闘終了まで手札のカードをすべて<h>アップグレード</h>する。"
+  },
+  "YoumuCircularVicissitude": {
+    "Name": "円心流転",
+    "Description": "<Block /><h>ブロック</h>を得る。<br />もし<PlayerName />の手札に<Value1 />枚以上の<h>斬撃</h>があれば、<h>抜刀</h>"
+  },
+  "YoumuClearingMind": {
+    "Name": "無念無想",
+    "Description": "手札から<Value1 />枚までカードを廃棄する。<br />その枚数に等しい<h>現世斬</h>を手札に加える。"
+  },
+  "YoumuClearingTheSixSenses": {
+    "Name": "六根清浄",
+    "Description": "<PlayerName />からすべてのデバフを取り除く。<br />なにかデバフが取り除かれた時、<h>火力</h><Value1 />を得る。"
+  },
+  "YoumuClosedEyeSlash": {
+    "Name": "瞑斬",
+    "Description": "<Damage />ダメージを与える。<br />このダメージが敵のHPを減らした時、それと同じ値の<h>反撃</h>を得る。"
+  },
+  "YoumuConventionalTruth": {
+    "Name": "俗諦",
+    "Description": "<h>廃棄場</h>から手札に<Value1 />枚までのカードを戻す。<br /><h>抜刀</h>"
+  },
+  "YoumuCounterSignalling": {
+    "Name": "反撃の狼煙",
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>反撃</h><Block />を得る。<br /><h>成長</h>:<h>ブロック</h>と<h>反撃</h>を<Value1 />増やす。"
+  },
+  "YoumuCrescentMoonSlash": {
+    "Name": "弦月斬",
+    "Description": "<Damage />ダメージを与える。<br />対象に<h>ロックオン</h><Value1 />を与える。<br /><h>抜刀</h>"
+  },
+  "YoumuDivineSevering": {
+    "Name": "神閃",
+    "Description": "戦闘終了まで<PlayerName />が<h>抜刀</h>する度、すべての<h>斬撃</h>を<Value1 />ダメージ強化する。<br /><h>抜刀</h>",
+    "UpgradedDescription": "戦闘終了まで<PlayerName />が<h>抜刀</h>する度、すべての<h>斬撃</h>を<Value1 />ダメージ強化する。<br /><h>抜刀</h>2回"
+  },
+  "YoumuDualWielder": {
+    "Name": "生命の二刀流",
+    "Description": "<PlayerName />が<h>ロックオン</h><Value1 />を与えるたびに、<h>現世斬</h>を<Value2 />枚手札に加える。",
+    "UpgradedDescription": "<h>現世斬</h>を<Value2 />枚手札に加える。<br /><PlayerName />が<h>ロックオン</h><Value1 />を与えるたびに、<h>現世斬</h>を<Value2 />枚手札に加える。"
+  },
+  "YoumuDyingDeva": {
+    "Name": "天人の五衰",
+    "Description": "<h>ターン終了時</h>: <h>ロックオン</h>がついてる敵に<Value1 />ダメージを与える。<br /><h>手札にある時</h>:敵にデバフを与えるたびに、<SelfName />のダメージが<Value2 />増える(この戦闘中のみ)"
+  },
+  "YoumuEmbercleave": {
+    "Name": "エンバレスの宝剣",
+    "Description": "このカードが手札にある時、<h>攻撃</h>カードをプレイする度<SelfName />のコストが<Mana />減る(この戦闘中のみ)。<br />使用したターンの<h>攻撃</h>のダメージを2倍にする。"
+  },
+  "YoumuFlashOfTheNetherworld": {
+    "Name": "冥府光芒一閃",
+    "Description": "追加ターンの終わりに、すべての敵に<Value1 />ダメージをそのターンプレイしたカードの枚数と同じ回数分与える。<br /><PlayerName />のターンを終了し、追加ターンを得る。<br /><h>時間制限</h> <Mana />"
+  },
+  "YoumuGhostSlash": {
+    "Name": "幽鬼斬",
+    "Description": "<Damage />ダメージを与える。<br /><h>廃棄された時</h>:<Block /><h>ブロック</h>を得る。"
+  },
+  "YoumuGreatEnlightenment": {
+    "Name": "大悟",
+    "Description": "<PlayerName />のターン開始時、<h>抜刀</h><br /><h>抜刀</h>"
+  },
+  "YoumuHakugyokurou": {
+    "Name": "白玉楼",
+    "Description": "<h>ターン開始時</h>:カードを<Value2 />枚引く。<br /><h>手札にある時</h>:<Value1 />枚の<h>斬撃</h>カードをプレイしたなら、敵全体に<Damage />ダメージを与えこのカードを捨てる。"
+  },
+  "YoumuHalfBodyDistillation": {
+    "Name": "半身大悟",
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>廃棄場</h>の<h>斬撃</h> または妖夢の<h>虚無</h>のカードを<Value1 />枚まで選び、手札に戻す。"
+  },
+  "YoumuHeavenlyHalo": {
+    "Name": "天界法輪",
+    "Description": "<Block /><h>ブロック</h>を得る。<br />手札に<h>現世斬</h>を<Value1 />枚加える。"
+  },
+  "YoumuHesitationCuttingSword": {
+    "Name": "断迷剣",
+    "Description": "手札に<h>現世斬</h>を<Value1 />枚加える。<br /><h>抜刀</h>2回",
+    "UpgradedDescription": "手札に<h>現世斬+</h>を<Value1 />枚加える。<br /><h>抜刀</h>2回"
+  },
+  "YoumuHesitationSign": {
+    "Name": "迷符",
+    "Description": "<h>ロックオン</h><Value1 />を与える。<br /><h>廃棄された時</h>:すべての敵に<h>ロックオン</h><Value2 />を与える。"
+  },
+  "YoumuInclemency": {
+    "Name": "衆生無情",
+    "Description": "手札の全てのカードが<h>臨時コスト</h><Mana />になる。<br />このターン、追加でカードを引くことができない。",
+    "UpgradedDescription": "カードを<Value1 />枚引く。<br />手札の全てのカードが<h>臨時コスト</h><Mana />になる。<br />このターン、追加でカードを引くことができない。"
+  },
+  "YoumuInfiniteKalpas": {
+    "Name": "無量劫",
+    "Description": "<PlayerName />のターン開始時、<Value1 />枚のランダムな妖夢のカードを手札に加える。それらのカードは<h>虚無</h>"
+  },
+  "YoumuInnerEye": {
+    "Name": "心眼",
+    "Description": "<h>斬撃</h>がプレイされるたびに、<h>反撃</h><Value1 /> を得る。"
+  },
+  "YoumuInsightfulSword": {
+    "Name": "炯眼剣",
+    "Description": "<Damage />ダメージを与える。<br /><h>抜刀</h>",
+    "UpgradedDescription": "<Damage />ダメージを与える。<h>現世斬</h>を手札に加える。<br /><h>抜刀</h>"
+  },
+  "YoumuKarmaGust": {
+    "Name": "業風",
+    "Description": "すべての敵に<h>ロックオン</h><Value1 />と<h>脱力</h><Value1 />を与える。"
+  },
+  "YoumuKarmicPunishment": {
+    "Name": "無為無策の冥罰",
+    "Description": "<Mana />を得る。<br />カードを<Value1 />枚引く。<br />対象に<h>ロックオン</h><Value2 />を与える。"
+  },
+  "YoumuLivingAndDead": {
+    "Name": "生と死",
+    "Description": "妖夢のカード<Value1 />枚の中から<Value2 />枚を選び、手札に加える。<br />それは<h>臨時コスト</h><Mana />で<h>虚無</h>を持つ。"
+  },
+  "YoumuLotusPostureSlash": {
+    "Name": "結跏趺斬",
+    "Description": "<Damage />ダメージを与える。<br /><Mana />を得る。"
+  },
+  "YoumuMatsuyoiReflecting": {
+    "Name": "待宵反射",
+    "Description": "<h>反撃</h>の値を2倍にする。<br />もし<PlayerName />が<h>反撃</h><Block />未満なら、代わりに<h>反撃</h><Block />を得る。 "
+  },
+  "YoumuMeikyoShisui": {
+    "Name": "明鏡止水",
+    "Description": "<h>反撃</h><Block />を得る。<br />カードを<Value1 />枚引く。"
+  },
+  "YoumuNetherMeditation": {
+    "Name": "冥界瞑想",
+    "Description": "手札から <Value2 />枚攻撃カードを選ぶ。その<h>コピー</h><Value1 />枚手札に加える。"
+  },
+  "YoumuNextToNone": {
+    "Name": "斬れぬものなど殆ど無い",
+    "Description": "対象から<h>ブロック</h>、<h>バリア</h>、<h>グレイズ</h>、<h>光学迷彩</h>、<h>天衣無縫</h>を取り除く。<br /><h>抜刀</h>"
+  },
+  "YoumuPhantomFormation": {
+    "Name": "影陣",
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>ロックオン</h>を持ってる敵に臨時火力ダウン<Value1 />を与える"
+  },
+  "YoumuPhosphoricSlash": {
+    "Name": "燐気斬",
+    "Description": "<Damage />ダメージを与える。対象が<h>ロックオン</h><Value1 />以上のとき、<Mana />を得る。"
+  },
+  "YoumuPreachingAvici": {
+    "Name": "折伏無間",
+    "Description": "<h>現世斬</h>を手札に<Value1 />枚加える。<br /><h>廃棄された時</h>:<h>抜刀</h>"
+  },
+  "YoumuPretaSword": {
+    "Name": "餓鬼剣",
+    "Description": "<Damage />ダメージを与える。<br />対象が<h>ロックオン</h><Value1 />以上であれば、カードを<Value2 />枚引く"
+  },
+  "YoumuQuickDraw": {
+    "Name": "抜刀術",
+    "Description": "カードを<Value1 />枚引く。<br /><h>抜刀</h>"
+  },
+  "YoumuReflectionSlash": {
+    "Name": "反射斬",
+    "Description": "<Damage />ダメージを与える。<br />敵が攻撃しようとしている場合、<h>反撃</h><Block />を得る。"
+  },
+  "YoumuReinforcementOfTheArmy": {
+    "Name": "増援",
+    "Description": "山札から<Value1 />枚までの攻撃カードを選び、手札に加える。その<h>臨時コスト</h>は<Mana />"
+  },
+  "YoumuSatelliteSlash": {
+    "Name": "衛星斬",
+    "Description": "<Damage />ダメージを与える。<br /><PlayerName />が<h>抜刀</h>するたびに、捨て札の<SelfName />を手札に戻す。"
+  },
+  "YoumuScatteredFlowers": {
+    "Name": "散花",
+    "Description": "<Block /><h>ブロック</h>を得る。<br />敵の<h>ロックオン</h>に等しいダメージをそれぞれの敵に与える。",
+    "UpgradedDescription": "<Block /><h>ブロック</h>を得る。<br />敵の<h>ロックオン</h>に等しいダメージを<Value1 />回それぞれの敵に与える。"
+  },
+  "YoumuSevenHakus": {
+    "Name": "七魄",
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>反撃</h><Block />を得る。<br /><h>反射</h><Value1 />を得る。<br /><h>廃棄された時</h>:<PlayerName />のターン開始時、ブロックは失われない。"
+  },
+  "YoumuSilentNirvana": {
+    "Name": "涅槃寂静",
+    "Description": "敵にデバフを与えるたびに、<Value1 /><h>ブロック</h>を得る。"
+  },
+  "YoumuSingleThought": {
+    "Name": "一念",
+    "Description": "<Mana />を得る。<br /><h>廃棄された時</h>:次のターン<ManaEthereal />を得る。"
+  },
+  "YoumuSlashDraw": {
+    "Name": "抽刀斬",
+    "Description": "<h>このカードを引いた時</h>:すべての敵に<Damage />ダメージを与え、<SelfName />を廃棄する。"
+  },
+  "YoumuSlashOfDeparture": {
+    "Name": "迷津慈航斬",
+    "Description": "<Damage />ダメージを与える。<h>廃棄場</h>のカード1枚につきダメージが<Value1 />増加する。"
+  },
+  "YoumuSlashOfKarmicWind": {
+    "Name": "業風斬",
+    "Description": "<Damage />ダメージを<Value1 />回与える。<br /><SelfName />は<h>ロックオン</h>の影響が2倍になる。"
+  },
+  "YoumuSlashOfMeditation": {
+    "Name": "冥想斬",
+    "Description": "<Damage />ダメージを与える。<br /><Block /> <h>ブロック</h>を得る。"
+  },
+  "YoumuSlashOfPresent": {
+    "Name": "現世斬",
+    "Description": "<Damage />ダメージを与える。"
+  },
+  "YoumuSpiritMediumBind": {
+    "Name": "憑坐の縛",
+    "Description": "カードが<h>廃棄</h>される度に、すべての敵に<Value1 />ダメージを与える。"
+  },
+  "YoumuSpringWind": {
+    "Name": "春風",
+    "Description": "敵全体に<h>ロックオン</h><Value1 />を与える。<br />カードを<Value2 />枚引く。"
+  },
+  "YoumuStrangeBird": {
+    "Name": "怪鳥",
+    "Description": "対象に<h>ロックオン</h><Value2 />を与える。<br /><h>グレイズ</h><Value1 />を得る。"
+  },
+  "YoumuSwordAura": {
+    "Name": "剣気",
+    "Description": "<h>火力</h><Value1 />を得る。このカードが手札にあるとき、そのターン内に<PlayerName />が<h>抜刀</h>した回数分、追加で<h>火力</h><Value2 />を得る。"
+  },
+  "YoumuSwordOfBinding": {
+    "Name": "纏縛剣",
+    "Description": "<Damage />ダメージをすべての敵に与える。<br />敵全体<h>ロックオン</h><Value1 />を与える。"
+  },
+  "YoumuTenKingsRetribution": {
+    "Name": "十王の報い",
+    "Description": "<h>反撃</h><Block />を得る。<br /><PlayerName />の<h>ブロック</h>を全て<h>反撃</h>に変換する。"
+  },
+  "YoumuThreeKons": {
+    "Name": "三魂",
+    "Description": "カードを<Value1 />枚引く。<br /><h>帯電</h><Value1 />を得る。<br /><h>廃棄された時</h>:<PlayerName />の次のターン開始時、カードを<Value2 />枚引く。"
+  },
+  "YoumuTransmigrationSlash": {
+    "Name": "生死流転斬",
+    "Description": "<Damage />ダメージを与える。<br />対象に<h>ロックオン</h><Value1 />を与える。<br /><h>廃棄された時</h>:すべての敵がライフを<Value2 />失う。"
+  },
+  "YoumuTurningAngelCut": {
+    "Name": "天女返し",
+    "Description": "<Mana />につき:手札に<h>現世斬</h>を<Value1 />枚加える、<h>臨時コスト</h><ManaEmpty /><br /><ManaGreen />につき:対象に<h>ロックオン</h><Value2 />を与える。"
+  },
+  "YoumuTwoHundredYojana": {
+    "Name": "二百由旬",
+    "Description": "手札に<h>現世斬</h>を<Value1 />枚加える。<br /><h>抜刀</h>",
+    "UpgradedDescription": "手札に<h>現世斬+</h>を<Value1 />枚加える。<br /><h>抜刀</h>"
+  },
+  "YoumuUnendingWinter": {
+    "Name": "終わりなき冬",
+    "Description": "<PlayerName />が攻撃でダメージを与える度に、<h>冷気</h><Value1 />を与える。"
+  },
+  "YoumuWatchtowerSword": {
+    "Name": "楼観剣",
+    "Description": "<PlayerName />が攻撃ダメージを与えるたびに、対象に<h>ロックオン</h><Value1 />を与える"
+  },
+  "YoumuWaterfowlDance": {
+    "Name": "水鳥乱舞",
+    "Description": "<Damage />ダメージを<Value1 />回与える。<br />このターン<h>抜刀</h>した回数に応じて追加効果を得る。<br /><UnsheathedThreshold1 />+:対象に<h>ロックオン</h><Value2 />を与える。<br /><UnsheathedThreshold2 />+:追加でダメージをもう一回与える。<br /><UnsheathedThreshold3 />+:<Mana />を得る。"
+  },
+  "YoumuWheelOfPain": {
+    "Name": "幽明の苦輪",
+    "Description": "すべての敵に<h>ロックオン</h><Value1 />を与える。<br /><PlayerName />のターン開始時、すべての敵に<h>ロックオン</h><Value1 />を与える。"
+  },
+  "YoumuWickedSoul": {
+    "Name": "悪魂",
+    "Description": "対象に<h>ロックオン</h><Value1 />を与える。<br />対象に<h>臨時火力ダウン</h><Value2 />を与える。"
+  },
+  "YoumuYuyukoFriend": {
+    "Name": "華胥の亡霊、幽々子",
+    "Description": "敵全体に<h>生者必滅の理</h><Value1 />を与える。",
+    "PassiveDescription": "<Mana />を得る。",
+    "ActiveDescription": "敵全体に<h>脱力</h><Value2 />と<h>弱体</h><Value2 />を与える。",
+    "UltimateDescription": "<PlayerName />のターン終了時に、敵全体に<h生者必滅の理</h><Value1 />を与える。"
+  }
+}

@@ -302,5 +302,320 @@
   "ZeroPoint": {
     "Name": "Zero-Point Field",
     "Description": "Has <h>Mass</h>.<br /><h>When Pulled</h>: Gain <Shield /> <h>Barrier</h> and add a copy of <SelfName /> to the hand with <h>Ethereal</h>."
+  },
+  "YoumuAgelessObsession": {
+    "Name": "Ageless Obsession",
+    "Description": "Apply <Value1 /> <h>Lock On</h> to each enemy.<br />Whenever an enemy gains <h>Lock On</h>, double the amount gained."
+  },
+  "YoumuAppearingAndDisappearing": {
+    "Name": "Appearing And Disappearing",
+    "Description": "<h>Exile</h> up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) from the hand, draw pile, and discard pile.<br />Then, add to the discard pile any Youmu <h>Ethereal</h> card <h>Exiled</h> by this effect."
+  },
+  "YoumuAscensionToBuddhahood": {
+    "Name": "Ascension To Buddhahood",
+    "Description": "The first card played each turn gains <h>Echo</h>.<br /><h>Overflow</h>: Gain <Mana />."
+  },
+  "YoumuAsuraSword": {
+    "Name": "Asura Sword",
+    "Description": "Deal <Damage /> damage <Value1 /> times.<br />Apply <Value1 /> <h>Lock On</h>."
+  },
+  "YoumuAttackG": {
+    "Name": "Deva Realm Sword",
+    "Description": "Deal <Damage /> damage."
+  },
+  "YoumuAttackW": {
+    "Name": "Human Realm Sword",
+    "Description": "Deal <Damage /> damage."
+  },
+  "YoumuBizareness": {
+    "Name": "Bizarreness of Six Realms",
+    "Description": "Whenever an enemy gains <h>Lock On</h>, also apply <Value1 /> <h>Poison</h>."
+  },
+  "YoumuBlockG": {
+    "Name": "Defensive Stance",
+    "Description": "Gain <Block /> <h>Block</h>."
+  },
+  "YoumuBlockW": {
+    "Name": "Soul Sign",
+    "Description": "Gain <Block /> <h>Block</h>."
+  },
+  "YoumuBloodOfAsura": {
+    "Name": "Blood of Asura",
+    "Description": "Whenever an <h>Attack</h> card is played, gain <Value1 /> <h>Firepower</h>."
+  },
+  "YoumuBuddhahoodOfFlora": {
+    "Name": "Buddhahood of Flora",
+    "Description": "Gain <Value1 /> <h>Graze</h>.<br /><h>Unsheathe</h>."
+  },
+  "YoumuBulletCuttingSpirit": {
+    "Name": "Bullet-Cutting Spirit",
+    "Description": "Gain <Value2 /> life.<br /><h>Upgrade</h> a card in the hand until the end of combat.",
+    "UpgradedDescription": "Gain <Value2 /> life.<br /><h>Upgrade</h> all cards in the hand until the end of combat."
+  },
+  "YoumuCircularVicissitude": {
+    "Name": "Circular Vicissitude",
+    "Description": "Gain <Block /> <h>Block</h>.<br />If <PlayerName /> has <Value1 /> or more <h>Slash</h> cards in hand, <h>Unsheathe</h>."
+  },
+  "YoumuClearingMind": {
+    "Name": "Clearing Mind",
+    "Description": "Exile up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) in the hand.<br />Add that many <h>Slash of Present</h> to the hand."
+  },
+  "YoumuClearingTheSixSenses": {
+    "Name": "Clearing The Six Senses",
+    "Description": "Remove all debuffs from <PlayerName />.<br />If a debuff was removed, gain <Value1 /> <h>Firepower</h>."
+  },
+  "YoumuClosedEyeSlash": {
+    "Name": "Closed-Eye Slash",
+    "Description": "Deal <Damage /> damage.<br />Gain <h>Riposte</h> equal to the amount of unblocked damage dealt this way."
+  },
+  "YoumuConventionalTruth": {
+    "Name": "Conventional Truth",
+    "Description": "Return up to <Value1 /> card from the <h>Exile</h> pile to the hand.<br /><h>Unsheathe</h>."
+  },
+  "YoumuCounterSignalling": {
+    "Name": "Counter Signalling",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Gain <Block /> <h>Riposte</h>.<br /><h>Growth</h>: Gain <Value1 /> additional <h>Block</h> and <h>Riposte</h>."
+  },
+  "YoumuCrescentMoonSlash": {
+    "Name": "Crescent Moon Slash",
+    "Description": "Deal <Damage /> damage.<br />Apply <Value1 /> <h>Lock On</h>.<br /><h>Unsheathe</h>."
+  },
+  "YoumuDivineSevering": {
+    "Name": "Divine Severing",
+    "Description": "Whenever <PlayerName /> <h>Unsheathes</h>, increase the damage of all <h>Slash</h> cards by <Value1 /> for the rest of combat.<br /><h>Unsheathe</h>",
+    "UpgradedDescription": "Whenever <PlayerName /> <h>Unsheathes</h>, increase the damage of all <h>Slash</h> cards by <Value1 /> for the rest of combat.<br /><h>Unsheathe</h> twice."
+  },
+  "YoumuDualWielder": {
+    "Name": "Dual-Wielder of Lives",
+    "Description": "Whenever <PlayerName /> applies <Value1 /> <h>Lock On</h>, add <Value2 /> <h>Slash of Present</h> to the hand.",
+    "UpgradedDescription": "Add <Value2 /> <h>Slash of Present</h> to the hand.<br />Whenever <PlayerName /> applies <Value1 /> <h>Lock On</h>, add <Value2 /> <h>Slash of Present</h> to the hand."
+  },
+  "YoumuDyingDeva": {
+    "Name": "Dying Deva",
+    "Description": "<h>At the end of the turn</h>: Deal <Value1 /> damage to each enemy with <h>Lock On</h>.<br /><h>While in hand</h>: Whenever an enemy gains a debuff, increase <SelfName /> damage by <Value2 /> this combat."
+  },
+  "YoumuEmbercleave": {
+    "Name": "Embercleave",
+    "Description": "Whenever an <h>Attack</h> card is played while this card is in the hand, <SelfName /> costs <Mana /> less this combat.<br /><h>Attacks</h> deals double damage this turn."
+  },
+  "YoumuFlashOfTheNetherworld": {
+    "Name": "Flash of the Netherworld",
+    "Description": "At the end of every extra turn, deal <Value1 /> Damage to each enemy for every card played that turn.<br />End <PlayerName />'s turn.<br />Then, take an extra turn.<br /><h>Time Limit</h> <Mana />."
+  },
+  "YoumuGhostSlash": {
+    "Name": "Ghost Slash",
+    "Description": "Deal <Damage /> Damage.<br /><h>When Exiled</h>: Gain <Block /> <h>Block</h>."
+  },
+  "YoumuGreatEnlightenment": {
+    "Name": "Great Enlightenment",
+    "Description": "At the start of <PlayerName />'s turn, <h>Unsheathe</h>.<br /><h>Unsheathe</h>."
+  },
+  "YoumuHakugyokurou": {
+    "Name": "Hakugyokurou",
+    "Description": "<h>At the start of the turn</h>: Draw <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }).<br /><h>While in hand</h>: If <Value1 /> <h>Slash</h> cards have been played while this card is in the hand, discard it and deal <Damage /> Damage to each enemy."
+  },
+  "YoumuHalfBodyDistillation": {
+    "Name": "Half-Body Distillation",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Choose up to <Value1 /> <h>Exiled</h> <h>Slash</h> or Youmu <h>Ethereal</h> card$t(plurals.-s, { 'count': {{Value1}} }), return them to the hand."
+  },
+  "YoumuHeavenlyHalo": {
+    "Name": "Heavenly Halo",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Add <Value1 /> <h>Slash of Present$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand."
+  },
+  "YoumuHesitationCuttingSword": {
+    "Name": "Hesitation-Cutting Sword",
+    "Description": "Add <Value1 /> <h>Slash of Presents</h> to the hand.<br /><h>Unsheathe</h> twice.",
+    "UpgradedDescription": "Add <Value1 /> <h>Slash of Presents+</h> to the hand.<br /><h>Unsheathe</h> twice."
+  },
+  "YoumuHesitationSign": {
+    "Name": "Hesitation Sign",
+    "Description": "Apply <Value1 /> <h>Lock On</h>.<br /><h>When Exiled</h>: Apply <Value2 /> <h>Lock On</h> to each enemy."
+  },
+  "YoumuInclemency": {
+    "Name": "Inclemency of All Beings",
+    "Description": "All cards in the hand <h>temporarily cost</h> <Mana />.<br />No more cards can be drawn this turn.",
+    "UpgradedDescription": "Draw <Value1 /> cards.<br />All cards in the hand <h>temporarily cost</h> <Mana />.<br />No more cards can be drawn this turn."
+  },
+  "YoumuInfiniteKalpas": {
+    "Name": "Infinite Kalpas",
+    "Description": "At the start of <PlayerName />'s turn, add <Value1 /> random Youmu <h>Ethereal</h> card to the hand. These cards have <h>Exile</h>."
+  },
+  "YoumuInnerEye": {
+    "Name": "Inner Eye",
+    "Description": "Whenever a <h>Slash</h> card is played, gain <Value1 /> <h>Riposte</h>."
+  },
+  "YoumuInsightfulSword": {
+    "Name": "Insightful Sword",
+    "Description": "Deal <Damage /> Damage.<br /><h>Unsheathe</h>.",
+    "UpgradedDescription": "Deal <Damage /> Damage.<br />Add a <h>Slash of Present</h> to the hand.<br /><h>Unsheathe</h>."
+  },
+  "YoumuKarmaGust": {
+    "Name": "Karma Gust",
+    "Description": "Apply <Value1 /> <h>Lock On</h> and <h>Weak</h> to each enemy."
+  },
+  "YoumuKarmicPunishment": {
+    "Name": "Karmic Punishment",
+    "Description": "Gain <Mana />.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Gain <Value2 /> <h>Lock On</h>."
+  },
+  "YoumuLivingAndDead": {
+    "Name": "Living and Dead",
+    "Description": "Choose <Value2 /> of <Value1 /> Youmu <h>Ethereal</h> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Add it to the hand, it <h>temporarily costs</h> <Mana /> and has <h>Exile</h>."
+  },
+  "YoumuLotusPostureSlash": {
+    "Name": "Lotus Posture Slash",
+    "Description": "Deal <Damage /> damage.<br />Gain <Mana />."
+  },
+  "YoumuMatsuyoiReflecting": {
+    "Name": "Matsuyoi-Reflecting",
+    "Description": "Double the current <h>Riposte</h>.<br />If <PlayerName /> has less than <Block /> <h>Riposte</h>, gain <Block /> <h>Riposte</h> instead."
+  },
+  "YoumuMeikyoShisui": {
+    "Name": "Meikyo Shisui",
+    "Description": "Gain <Block /> <h>Riposte</h>.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
+  },
+  "YoumuNetherMeditation": {
+    "Name": "Nether Meditation",
+    "Description": "Choose <Value2 /> Attack card in the hand. Add <Value1 /> <h>Copies</h> to the hand."
+  },
+  "YoumuNextToNone": {
+    "Name": "Next To None",
+    "Description": "Remove the enemy's <h>Block</h>, <h>Barrier</h>, <h>Graze</h>, <h>Optical Camouflage</h> and <h>Flawless</h>.<br /><h>Unsheathe</h>."
+  },
+  "YoumuPhantomFormation": {
+    "Name": "Phantom Formation",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Apply <Value1 /> <h>Temporary Firepower Down</h> to each enemy with <h>Lock On</h>."
+  },
+  "YoumuPhosphoricSlash": {
+    "Name": "Phosphoric Slash",
+    "Description": "Deal <Damage /> damage.<br />If an enemy has <Value1 /> or more <h>Lock On</h>, gain <Mana />."
+  },
+  "YoumuPreachingAvici": {
+    "Name": "Preaching Avici",
+    "Description": "Add <Value1 /> <h>Slash of Presents</h> to the hand.<br /><h>When Exiled</h>: <h>Unsheathe</h>."
+  },
+  "YoumuPretaSword": {
+    "Name": "Preta Sword",
+    "Description": "Deal <Damage /> damage.<br />If an enemy has <Value1 /> or more <h>Lock On</h>, draw <Value2 /> card."
+  },
+  "YoumuQuickDraw": {
+    "Name": "Quick Draw",
+    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>Unsheathe</h>."
+  },
+  "YoumuReflectionSlash": {
+    "Name": "Reflection Slash",
+    "Description": "Deal <Damage /> damage.<br />If any enemy intends to attack, gain <Block /> <h>Riposte</h>."
+  },
+  "YoumuReinforcementOfTheArmy": {
+    "Name": "Reinforcement of The Army",
+    "Description": "Choose up to <Value1 /> Attack card from the draw pile and put it into the hand, it <h>temporarily costs</h> <Mana />."
+  },
+  "YoumuSatelliteSlash": {
+    "Name": "Satellite Slash",
+    "Description": "Deal <Damage /> damage.<br />Whenever <PlayerName /> <h>Unsheathes</h>, return <SelfName /> from the discard pile to the hand."
+  },
+  "YoumuScatteredFlowers": {
+    "Name": "Scattered Flowers",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Deal damage to each enemy equal to their <h>Lock On</h>.",
+    "UpgradedDescription": "Gain <Block /> <h>Block</h>.<br />Deal damage to each enemy equal to their <h>Lock On</h> times <Value1 />."
+  },
+  "YoumuSevenHakus": {
+    "Name": "Seven Hakus",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Gain <Block /> <h>Riposte</h>.<br />Gain <Value1 /> <h>Reflection</h>.<br /><h>When Exiled</h>: Block is not lost at the start of <PlayerName />'s turn."
+  },
+  "YoumuSilentNirvana": {
+    "Name": "Silent Nirvana",
+    "Description": "Whenever an enemy gains a debuff, gain <Value1 /> <h>Block</h>."
+  },
+  "YoumuSingleThought": {
+    "Name": "Single Thought",
+    "Description": "Gain <Mana />.<br /><h>When Exiled</h>: Gain <ManaEthereal /> at the start of the next turn."
+  },
+  "YoumuSlashDraw": {
+    "Name": "Slash Draw",
+    "Description": "<h>When drawn</h>: Deal <Damage /> damage to each enemy and <h>Exile</h> <SelfName />."
+  },
+  "YoumuSlashOfDeparture": {
+    "Name": "Slash of Departure",
+    "Description": "Deal <Damage /> damage.<br />Increase Damage by <Value1 /> for each <h>Exiled</h> cards."
+  },
+  "YoumuSlashOfKarmicWind": {
+    "Name": "Slash of Karmic Wind",
+    "Description": "Deal <Damage /> damage <Value1 /> times.<br /><h>Lock On</h> increases <SelfName /> damage 2 times."
+  },
+  "YoumuSlashOfMeditation": {
+    "Name": "Slash of Meditation",
+    "Description": "Deal <Damage /> damage.<br />Gain <Block /> <h>Block</h>."
+  },
+  "YoumuSlashOfPresent": {
+    "Name": "Slash of Present",
+    "Description": "Deal <Damage /> damage."
+  },
+  "YoumuSpiritMediumBind": {
+    "Name": "Spirit Medium's Bind",
+    "Description": "Whenever a card is <h>Exiled</h>, deal <Value1 /> damage to each enemy."
+  },
+  "YoumuSpringWind": {
+    "Name": "Spring Wind",
+    "Description": "Apply <Value1 /> <h>Lock On</h> to each enemy.<br />Draw <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} })."
+  },
+  "YoumuStrangeBird": {
+    "Name": "Strange Bird",
+    "Description": "Apply <Value2 /> <h>Lock On</h>.<br />Gain <Value1 /> <h>Graze</h>."
+  },
+  "YoumuSwordAura": {
+    "Name": "Sword Aura",
+    "Description": "Gain <Value1 /> <h>Firepower</h>.<br />Whenever <PlayerName /> <h>Unsheathes</h> while this card is in hand, gain <Value2 /> additional <h>Firepower</h> this turn."
+  },
+  "YoumuSwordOfBinding": {
+    "Name": "Sword of Binding",
+    "Description": "Deal <Damage /> damage to each enemy.<br />Apply <Value1 /> <h>Lock On</h> to each enemy."
+  },
+  "YoumuTenKingsRetribution": {
+    "Name": "Ten King's Retribution",
+    "Description": "Gain <Block /> <h>Riposte</h>.<br />Convert <PlayerName />'s <h>Block</h> into <h>Riposte</h>."
+  },
+  "YoumuThreeKons": {
+    "Name": "Three Kons",
+    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Gain <Value1 /> <h>Static Charge</h>.<br /><h>When Exiled</h>: At the start of <PlayerName />'s next turn, draw <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} })."
+  },
+  "YoumuTransmigrationSlash": {
+    "Name": "Transmigration Slash",
+    "Description": "Deal <Damage /> Damage.<br />Apply <Value1 /> <h>Lock On</h>.<br /><h>When Exiled</h>: Each enemy loses <Value2 /> life."
+  },
+  "YoumuTurningAngelCut": {
+    "Name": "Turning Angel Cut",
+    "Description": "<h>For each spent</h> <Mana />: Add <Value1 /> <h>Slash of Present</h> to the hand, it <h>temporarily costs</h> <ManaEmpty />.<br /><h>For each spent</h> <ManaGreen />: Apply <Value2 /> <h>Lock On</h>."
+  },
+  "YoumuTwoHundredYojana": {
+    "Name": "Two Hundred Yojana",
+    "Description": "Add <Value1 /> <h>Slash of Present</h> to the hand.<br /><h>Unsheathe</h>.",
+    "UpgradedDescription": "Add <Value1 /> <h>Slash of Present+</h> to the hand.<br /><h>Unsheathe</h>."
+  },
+  "YoumuUnendingWinter": {
+    "Name": "Unending Winter",
+    "Description": "Whenever <PlayerName /> deals attack damage, also apply <Value1 /> <h>Cold</h>."
+  },
+  "YoumuWatchtowerSword": {
+    "Name": "Watchtower Sword",
+    "Description": "Whenever <PlayerName /> deals attack damage, also apply <Value1 /> <h>Lock On</h>."
+  },
+  "YoumuWaterfowlDance": {
+    "Name": "Waterfowl Dance",
+    "Description": "Deal <Damage /> damage <Value1 /> times.<br />Gain additional effects based on the amount of time <PlayerName /> <h>Unsheathed</h> this turn:    <br /><UnsheathedThreshold1 />+: Apply <Value2 /> <h>Lock On</h>.<br /><UnsheathedThreshold2 />+: Deal damage an additional time.<br /><UnsheathedThreshold3 />+: Gain <Mana />."
+  },
+  "YoumuWheelOfPain": {
+    "Name": "Wheel of Pain",
+    "Description": "Apply <Value1 /> <h>Lock On</h> to each enemy.<br />At the start of <PlayerName />'s turn, apply <Value1 /> <h>Lock On</h> to each enemy."
+  },
+  "YoumuWickedSoul": {
+    "Name": "Wicked Soul",
+    "Description": "Apply <Value1 /> <h>Lock On</h>.<br />Apply <Value2 /> <h>Firepower Down</h>."
+  },
+  "YoumuYuyukoFriend": {
+    "Name": "Yuyuko, Ghost of Idyll",
+    "Description": "Apply <Value1 /> <h>Law of Mortality</h> to each enemy.",
+    "PassiveDescription": "Gain <Mana />.",
+    "ActiveDescription": "Apply <Value2 /> <h>Weak</h> and <h>Vulnerable</h> to each enemy.",
+    "UltimateDescription": "At the end of <PlayerName />'s turn, apply <Value1 /> <h>Law of Mortality</h> to each enemy."
   }
 }
