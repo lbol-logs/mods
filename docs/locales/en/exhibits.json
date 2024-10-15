@@ -6,5 +6,13 @@
   "ControlRod": {
     "Name": "Control Rod",
     "Description": "Adds <Mana /> to the mana base. Cards unique to <h>Utsuho</h> are added to the card pool. Whenever a card is played, gain 1 <h>Heat</h>."
+  },
+  "YoumuExhibitG": {
+    "Name": "Honed Roukanken",
+    "Description": "Adds <Mana /> to the mana base. Cards unique to <h>Youmu</h> are added to the card pool.<br />At the start of combat, apply <Value1 /> <h>Lock On</h> to each enemy.<br />Enemies do not lose <h>Lock on</h> at the start of each turn."
+  },
+  "YoumuExhibitW": {
+    "Name": "Hakurouken",
+    "Description": "Adds <Mana /> to the mana base. Cards unique to <h>Youmu</h> are added to the card pool.<br />At the start of the Player's first turn each combat, add <Value1 /> <h>Slash of Present</h> to the hand."
   }
 }
