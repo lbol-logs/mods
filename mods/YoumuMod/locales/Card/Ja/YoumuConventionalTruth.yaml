@@ -1,0 +1,7 @@
+﻿YoumuConventionalTruth:
+  Name: 俗諦
+  Description: >-
+    |廃棄場|から手札に{Value1}枚までのカードを戻す。
+
+    |抜刀|
+  DetailText: '{SelfName}は{SelfName}を手札に戻せない。'

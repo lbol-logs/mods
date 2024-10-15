@@ -1,0 +1,6 @@
+﻿YoumuTurningAngelCut:
+  Name: 天女返
+  Description: >-
+    |每支付|{Mana}：将 {Value1} 张|现世斩|加入手中，|暂塑|为<sprite="ManaSprite" name="0">。
+
+    |每支付|<sprite="ManaSprite" name="G">：施加 {Value2} 层|锁定|。

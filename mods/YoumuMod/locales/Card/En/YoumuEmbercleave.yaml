@@ -1,0 +1,7 @@
+﻿YoumuEmbercleave:
+  Name: Embercleave
+  Description: >-
+    Whenever an |Attack| card is played while this card is in the hand, {SelfName} costs {Mana} less this combat.
+
+    |Attacks| deals double damage this turn.
+  FlavorText: Math is for blockers.

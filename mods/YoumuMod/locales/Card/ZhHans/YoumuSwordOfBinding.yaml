@@ -1,0 +1,7 @@
+﻿YoumuSwordOfBinding:
+  Name: 缠缚剑
+  Description: >-
+    对所有敌人造成 {Damage} 点伤害。
+
+    对所有敌人施加 {Value1} 层|锁定|。
+  FlavorText: +5 DEF, +5 RES

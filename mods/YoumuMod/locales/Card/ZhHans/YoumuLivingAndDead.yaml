@@ -1,0 +1,4 @@
+﻿YoumuLivingAndDead:
+  Name: 生与死
+  Description: 从 {Value1} 张妖梦|虚无|牌中选择 {Value2} 张加入手中，这张牌|暂塑|为{Mana}，具有|放逐|。
+  FlavorText: 死亡不是生命的终结，只是生命的一部分。

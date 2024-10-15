@@ -1,0 +1,10 @@
+﻿YoumuDivineSevering:
+  Name: 神闪
+  Description: >-
+    当{PlayerName}|拔刀|时，在本场战斗中，提升名为|斩|的卡牌的伤害 {Value1} 点。
+
+    |拔刀|。
+  UpgradedDescription: >-
+    当{PlayerName}|拔刀|时，在本场战斗中，提升名为|斩|的卡牌的伤害 {Value1} 点。
+
+    |拔刀|两次。

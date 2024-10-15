@@ -1,0 +1,7 @@
+﻿YoumuClearingTheSixSenses:
+  Name: 六根清净
+  Description: >-
+    移除{PlayerName}的所有负面状态。
+
+    如果移除了负面状态，获得 {Value1} 点|火力|。
+  FlavorText: ''

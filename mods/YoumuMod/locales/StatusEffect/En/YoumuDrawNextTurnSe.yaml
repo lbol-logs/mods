@@ -1,0 +1,4 @@
+﻿YoumuDrawNextTurnSe:
+  Name: Draw Next Turn
+  Description: At the start of {PlayerName}'s next turn, draw {Level} card(s).
+  Brief: At the start of {PlayerName}'s next turn, draw a card.

@@ -1,0 +1,6 @@
+﻿YoumuReflectionSlash:
+  Name: 反射斬
+  Description: >-
+    {Damage}ダメージを与える。
+
+    敵が攻撃しようとしている場合、|反撃|{Block}を得る。

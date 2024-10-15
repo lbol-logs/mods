@@ -1,0 +1,7 @@
+﻿YoumuPhosphoricSlash:
+  Name: 燐气斩
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    如果一名敌人拥有 {Value1} 层或更多|锁定|，获得{Mana}。
+  FlavorText: ''

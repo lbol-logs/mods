@@ -1,0 +1,4 @@
+﻿YoumuWatchtowerSword:
+  Name: “楼观”剑
+  Description: 当{PlayerName}造成攻击伤害时，还会施加 {Value1} 层|锁定|。
+  FlavorText: 如果它能每回合提供法力就好了。

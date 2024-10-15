@@ -1,0 +1,6 @@
+﻿YoumuHalfBodyDistillation:
+  Name: Half-Body Distillation
+  Description: >-
+    Gain {Block} |Block|.
+
+    Choose up to {Value1} |Exiled| |Slash| or Youmu |Ethereal| card{Value1:plural one='' other='s'}, return them to the hand.

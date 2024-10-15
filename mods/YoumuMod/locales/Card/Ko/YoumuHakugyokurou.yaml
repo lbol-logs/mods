@@ -1,0 +1,7 @@
+﻿YoumuHakugyokurou:
+  Name: 백옥루
+  Description: >-
+    |턴 시작시|: 카드를 {Value2}장 뽑습니다.
+
+    |손에 있을시|: |참| 카드를 {Value1}장 사용시, 이 카드를 버리고 모든 적에게 피해를 {Damage} 줍니다.
+  FlavorText: ''

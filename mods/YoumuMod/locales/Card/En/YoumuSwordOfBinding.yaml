@@ -1,0 +1,7 @@
+﻿YoumuSwordOfBinding:
+  Name: Sword of Binding
+  Description: >-
+    Deal {Damage} damage to each enemy.
+
+    Apply {Value1} |Lock On| to each enemy.
+  FlavorText: +5 DEF, +5 RES

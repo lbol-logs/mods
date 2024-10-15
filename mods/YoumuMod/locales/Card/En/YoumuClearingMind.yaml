@@ -1,0 +1,6 @@
+﻿YoumuClearingMind:
+  Name: Clearing Mind
+  Description: >-
+    Exile up to {Value1} card{Value1:plural one='' other='s'} in the hand.
+
+    Add that many |Slash of Present| to the hand.

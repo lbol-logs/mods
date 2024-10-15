@@ -1,0 +1,7 @@
+﻿YoumuCircularVicissitude:
+  Name: Circular Vicissitude
+  Description: >-
+    Gain {Block} |Block|.
+
+    If {PlayerName} has {Value1} or more |Slash| cards in hand, |Unsheathe|.
+  FlavorText: A circle is a symbol of continuity and perfection and yet to be perfect is to change often.

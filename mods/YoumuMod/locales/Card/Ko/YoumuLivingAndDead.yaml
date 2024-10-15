@@ -1,0 +1,7 @@
+﻿YoumuLivingAndDead:
+  Name: 삶과 죽음
+  Description: >-
+    요우무의 |휘발성|카드를 {Value1}장중 {Value2}장 고릅니다.
+
+    그 카드를 손에 넣고, 이번 턴 비용이 {Mana}이 되며 |소멸|을 얻습니다.
+  FlavorText: 죽음은 끝이 아닌, 삶의 일부다.

@@ -1,0 +1,7 @@
+﻿YoumuPhantomFormation:
+  Name: 幻影形态
+  Description: >-
+    获得 {Block} 点|格挡|。
+
+    对所有具有|锁定|的敌人施加 {Value1} 点|暂失火力|。
+  FlavorText: ''

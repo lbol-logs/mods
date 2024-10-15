@@ -1,0 +1,7 @@
+﻿YoumuAscensionToBuddhahood:
+  Name: Ascension To Buddhahood
+  Description: >-
+    The first card played each turn gains |Echo|.
+
+    |Overflow|: Gain {Mana}.
+  DetailText: '|Copies| do not trigger this effect.'

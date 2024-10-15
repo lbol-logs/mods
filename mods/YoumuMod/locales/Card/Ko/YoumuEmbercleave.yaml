@@ -1,0 +1,7 @@
+﻿YoumuEmbercleave:
+  Name: 불씨칼날
+  Description: >-
+    이 카드가 손에 있는 동안 |공격|카드를 사용할 때마다, 이번 전투 동안 {SelfName}의 비용이 <sprite="ManaSprite" name="1"> 감소한다.
+
+    이번 턴 |공격|으로 피해를 2배로 준다.
+  FlavorText: Math is for blockers.

@@ -1,0 +1,6 @@
+﻿YoumuHesitationSign:
+  Name: Hesitation Sign
+  Description: >-
+    Apply {Value1} |Lock On|.
+
+    |When Exiled|: Apply {Value2} |Lock On| to each enemy.

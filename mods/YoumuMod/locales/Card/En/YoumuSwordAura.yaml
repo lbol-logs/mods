@@ -1,0 +1,7 @@
+﻿YoumuSwordAura:
+  Name: Sword Aura
+  Description: >-
+    Gain {Value1} |Firepower|.
+
+    Whenever {PlayerName} |Unsheathes| while this card is in hand, gain {Value2} additional |Firepower| this turn.
+  FlavorText: At maximum life it also shoots a projectile.

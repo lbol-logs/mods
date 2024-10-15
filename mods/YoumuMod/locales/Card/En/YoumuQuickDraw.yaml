@@ -1,0 +1,6 @@
+﻿YoumuQuickDraw:
+  Name: Quick Draw
+  Description: >-
+    Draw {Value1} card{Value1:plural one='' other='s'}.
+
+    |Unsheathe|.

@@ -1,0 +1,6 @@
+﻿YoumuSlashOfDeparture:
+  Name: Slash of Departure
+  Description: >-
+    Deal {Damage} damage.
+
+    Increase Damage by {Value1} for each |Exiled| cards.

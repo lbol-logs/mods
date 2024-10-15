@@ -1,0 +1,6 @@
+﻿YoumuSatelliteSlash:
+  Name: 위성참
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |발도|할때마다, 버린 카드 더미에서 {SelfName}를 가져옵니다.

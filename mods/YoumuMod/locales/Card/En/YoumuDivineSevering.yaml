@@ -1,0 +1,10 @@
+﻿YoumuDivineSevering:
+  Name: Divine Severing
+  Description: >-
+    Whenever {PlayerName} |Unsheathes|, increase the damage of all |Slash| cards by {Value1} for the rest of combat.
+
+    |Unsheathe|
+  UpgradedDescription: >-
+    Whenever {PlayerName} |Unsheathes|, increase the damage of all |Slash| cards by {Value1} for the rest of combat.
+
+    |Unsheathe| twice.

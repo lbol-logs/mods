@@ -1,0 +1,13 @@
+﻿YoumuInclemency:
+  Name: 众生无情之声
+  Description: >-
+    所有手牌|暂塑|为 {Mana}。
+
+    本回合内无法再抽牌。
+  UpgradedDescription: >-
+    抽 {Value1} 张牌。
+
+    所有手牌 |暂塑|为 {Mana}。
+
+    本回合内无法再抽牌。
+  FlavorText: ''

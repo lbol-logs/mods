@@ -1,0 +1,12 @@
+﻿YoumuWaterfowlDance:
+  Name: 水鳥乱舞
+  Description: >-
+    {Damage}ダメージを{Value1}回与える。
+
+    このターン|抜刀|した回数に応じて追加効果を得る。
+
+    {UnsheathedThreshold1}+:対象に|ロックオン|{Value2}を与える。
+
+    {UnsheathedThreshold2}+:追加でダメージをもう一回与える。
+
+    {UnsheathedThreshold3}+:{Mana}を得る。

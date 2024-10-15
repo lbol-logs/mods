@@ -1,0 +1,7 @@
+﻿YoumuDualWielder:
+  Name: 생명의 이도류
+  Description: 플레이어가 |록 온|을 {Value1}만큼 줄 때마다, |현세참|을 {Value2}장 얻습니다.
+  UpgradedDescription: >-
+    |현세참|을 {Value2}장 얻습니다.
+
+    플레이어가 |록 온|을 {Value1}만큼 줄 때마다, |현세참|을 {Value2}장 얻습니다.

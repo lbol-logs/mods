@@ -1,0 +1,6 @@
+﻿YoumuSingleThought:
+  Name: 일념
+  Description: >-
+    {Mana}를 얻습니다.
+
+    |소멸할 시|: 다음 턴 시작시 <sprite="ManaSprite" name="G">를 얻습니다.

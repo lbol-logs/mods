@@ -1,0 +1,7 @@
+﻿YoumuPhantomFormation:
+  Name: 영진
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    |록 온|이 있는 모든 적에게 |일시 화력 저하|를 {Value1} 줍니다.
+  FlavorText: ''

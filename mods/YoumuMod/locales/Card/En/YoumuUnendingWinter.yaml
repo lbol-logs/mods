@@ -1,0 +1,4 @@
+﻿YoumuUnendingWinter:
+  Name: Unending Winter
+  Description: Whenever {PlayerName} deals attack damage, also apply {Value1} |Cold|.
+  FlavorText: Shouldn't this exile every 'Spring is here!' in the draw pile?

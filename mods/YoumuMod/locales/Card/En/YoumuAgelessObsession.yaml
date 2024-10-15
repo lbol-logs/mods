@@ -1,0 +1,6 @@
+﻿YoumuAgelessObsession:
+  Name: Ageless Obsession
+  Description: >-
+    Apply {Value1} |Lock On| to each enemy.
+
+    Whenever an enemy gains |Lock On|, double the amount gained.

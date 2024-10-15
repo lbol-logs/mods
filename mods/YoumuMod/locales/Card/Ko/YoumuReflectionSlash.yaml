@@ -1,0 +1,6 @@
+﻿YoumuReflectionSlash:
+  Name: 반사참
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    공격하려는 적이 있다면, |반격|을 {Block} 얻습니다.

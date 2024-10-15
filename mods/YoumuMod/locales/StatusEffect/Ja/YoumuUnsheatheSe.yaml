@@ -1,0 +1,7 @@
+﻿YoumuUnsheatheSe:
+  Name: 抜刀
+  Description: This is a workaround to add keywords description to cards.
+  Brief: >-
+    手札の|斬撃|カードの|臨時コスト|を<sprite="ManaSprite" name="1"> 減らす。
+
+    手札に|現世斬|がない場合、|現世斬|1枚を手札に加える。

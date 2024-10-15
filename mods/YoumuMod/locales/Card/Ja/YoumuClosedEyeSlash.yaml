@@ -1,0 +1,6 @@
+﻿YoumuClosedEyeSlash:
+  Name: 瞑斬
+  Description: >-
+    {Damage}ダメージを与える。
+
+    このダメージが敵のHPを減らした時、それと同じ値の|反撃|を得る。

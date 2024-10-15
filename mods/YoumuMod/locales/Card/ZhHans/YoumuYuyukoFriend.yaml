@@ -1,0 +1,9 @@
+﻿YoumuYuyukoFriend:
+  Name: 华胥的亡灵幽幽子
+  Description: >-
+    <indent=80>对所有敌人施加 {Value1} 层|生者必灭之理|。
+
+    <indent=0><sprite="Passive" name="2"><indent=80>获得{Mana}。
+  ExtraDescription1: <indent=0><sprite="Active" name="-3"><indent=80>对所有敌人施加 {Value2} 层|虚弱|和|易伤|。
+  ExtraDescription2: <indent=0><sprite="Ultimate" name="-8"><indent=80>{PlayerName}的每个回合结束时，对所有敌人施加 {Value1} 层|生者必灭之理|。
+  FlavorText: Mors certa, hora incerta. Nosce te ipsum. Vive hodie.（时机难料，终期于尽。惜己岁月，知己天命。）

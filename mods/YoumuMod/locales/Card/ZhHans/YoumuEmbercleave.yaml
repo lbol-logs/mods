@@ -1,0 +1,7 @@
+﻿YoumuEmbercleave:
+  Name: 鞍烬锋
+  Description: >-
+    |手牌中|：当一张|攻击|牌被打出时，本场战斗中，{SelfName}的费用降低<sprite="ManaSprite" name="1"> 。
+
+    本回合中，|攻击|牌造成的伤害翻倍。
+  FlavorText: 防守方才需要计算。

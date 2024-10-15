@@ -1,0 +1,7 @@
+﻿YoumuSwordAura:
+  Name: 검기
+  Description: >-
+    |화력|을 {Value1} 얻습니다.
+
+    이 카드가 손에 있는 동안 |발도|하면, 이번턴 추가로 |화력|을 {Value2} 얻습니다.
+  FlavorText: 최대 체력에서 발사체를 발사합니다.

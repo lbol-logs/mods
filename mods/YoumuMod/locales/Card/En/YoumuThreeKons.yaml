@@ -1,0 +1,8 @@
+﻿YoumuThreeKons:
+  Name: Three Kons
+  Description: >-
+    Draw {Value1} card{Value1:plural one='' other='s'}.
+
+    Gain {Value1} |Static Charge|.
+
+    |When Exiled|: At the start of {PlayerName}'s next turn, draw {Value2} card{Value2:plural one='' other='s'}.

@@ -1,0 +1,7 @@
+﻿YoumuAscensionToBuddhahood:
+  Name: 成仏得脱
+  Description: >-
+    毎ターン最初にプレイしたカードに|反復|を与える。
+
+    |充填|:{Mana}を得る。
+  DetailText: '|コピー|はトリガーできない。'

@@ -1,0 +1,10 @@
+﻿YoumuBulletCuttingSpirit:
+  Name: Bullet-Cutting Spirit
+  Description: >-
+    Gain {Value2} life.
+
+    |Upgrade| a card in the hand until the end of combat.
+  UpgradedDescription: >-
+    Gain {Value2} life.
+
+    |Upgrade| all cards in the hand until the end of combat.

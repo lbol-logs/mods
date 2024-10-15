@@ -1,0 +1,6 @@
+﻿YoumuSingleThought:
+  Name: 一念
+  Description: >-
+    {Mana}を得る。
+
+    |廃棄された時|:次のターン{ManaEthereal}を得る。

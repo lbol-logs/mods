@@ -1,0 +1,7 @@
+﻿YoumuDualWielder:
+  Name: Dual-Wielder of Lives
+  Description: Whenever {PlayerName} applies {Value1} |Lock On|, add {Value2} |Slash of Present| to the hand.
+  UpgradedDescription: >-
+    Add {Value2} |Slash of Present| to the hand.
+
+    Whenever {PlayerName} applies {Value1} |Lock On|, add {Value2} |Slash of Present| to the hand.

@@ -1,0 +1,4 @@
+﻿YoumuNetherMeditation:
+  Name: Nether Meditation
+  Description: Choose {Value2} Attack card in the hand. Add {Value1} |Copies| to the hand.
+  DetailText: You can't choose |Copies| for this effect.

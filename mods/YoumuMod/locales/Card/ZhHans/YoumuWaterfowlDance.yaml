@@ -1,0 +1,12 @@
+﻿YoumuWaterfowlDance:
+  Name: 水禽戏
+  Description: >-
+    造成 {Damage} 点伤害 {Value1} 次。
+
+    依本回合中{PlayerName}|拔刀|的次数获得以下效果：
+
+    {UnsheathedThreshold1}+：施加 {Value2} 层|锁定|。
+
+    {UnsheathedThreshold2}+：多造成一次伤害。
+
+    {UnsheathedThreshold3}+：获得{Mana}。

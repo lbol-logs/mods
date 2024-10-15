@@ -1,0 +1,6 @@
+﻿YoumuHakugyokurou:
+  Name: 白玉楼
+  Description: >-
+    |ターン開始時|:カードを{Value2}枚引く。
+
+    |手札にある時|:{Value1}枚の|斬撃|カードをプレイしたなら、敵全体に{Damage}ダメージを与えこのカードを捨てる。

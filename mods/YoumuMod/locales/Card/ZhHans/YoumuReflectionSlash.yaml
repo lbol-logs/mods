@@ -1,0 +1,6 @@
+﻿YoumuReflectionSlash:
+  Name: 反射斩
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    如果有敌人的意图为攻击，获得 {Block} 点|还击|。

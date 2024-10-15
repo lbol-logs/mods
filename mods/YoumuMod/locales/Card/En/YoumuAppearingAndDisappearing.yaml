@@ -1,0 +1,6 @@
+﻿YoumuAppearingAndDisappearing:
+  Name: Appearing And Disappearing
+  Description: >-
+    |Exile| up to {Value1} card{Value1:plural one='' other='s'} from the hand, draw pile, and discard pile.
+
+    Then, add to the discard pile any Youmu |Ethereal| card |Exiled| by this effect.

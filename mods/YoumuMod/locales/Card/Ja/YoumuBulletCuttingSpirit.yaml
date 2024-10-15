@@ -1,0 +1,10 @@
+﻿YoumuBulletCuttingSpirit:
+  Name: 弾をも断つ心の眼
+  Description: >-
+    ライフを{Value2}を得る。
+
+    戦闘終了まで手札のカードを1枚|アップグレード|する。
+  UpgradedDescription: >-
+    ライフを{Value2}を得る。
+
+    戦闘終了まで手札のカードをすべて|アップグレード|する。

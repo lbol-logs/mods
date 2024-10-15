@@ -1,0 +1,7 @@
+﻿YoumuLivingAndDead:
+  Name: 生と死
+  Description: >-
+    妖夢のカード{Value1}枚の中から{Value2}枚を選び、手札に加える。
+
+    それは|臨時コスト|{Mana}で|虚無|を持つ。
+  FlavorText: 死は人生の終わりではなく、その一部に過ぎない。

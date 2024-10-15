@@ -1,0 +1,4 @@
+﻿YoumuSwordAura:
+  Name: 剣気
+  Description: '|火力|{Value1}を得る。このカードが手札にあるとき、そのターン内に{PlayerName}が|抜刀|した回数分、追加で|火力|{Value2}を得る。'
+  FlavorText: ライフが最大になると弾幕も発射される。

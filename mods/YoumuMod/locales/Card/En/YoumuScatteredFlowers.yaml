@@ -1,0 +1,10 @@
+﻿YoumuScatteredFlowers:
+  Name: Scattered Flowers
+  Description: >-
+    Gain {Block} |Block|.
+
+    Deal damage to each enemy equal to their |Lock On|.
+  UpgradedDescription: >-
+    Gain {Block} |Block|.
+
+    Deal damage to each enemy equal to their |Lock On| times {Value1}.

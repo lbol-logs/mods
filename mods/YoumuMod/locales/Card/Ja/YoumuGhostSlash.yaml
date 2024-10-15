@@ -1,0 +1,6 @@
+﻿YoumuGhostSlash:
+  Name: 幽鬼斬
+  Description: >-
+    {Damage}ダメージを与える。
+
+    |廃棄された時|:{Block}|ブロック|を得る。

@@ -1,0 +1,4 @@
+﻿YoumuWheelOfPainSe:
+  Name: 幽明的苦轮
+  Description: '{PlayerName}的回合开始时，对所有敌人施加 {Level} 层|锁定|。'
+  Brief: '{PlayerName}的回合开始时，对所有敌人施加|锁定|。'

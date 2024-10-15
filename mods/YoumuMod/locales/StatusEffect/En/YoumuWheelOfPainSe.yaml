@@ -1,0 +1,4 @@
+﻿YoumuWheelOfPainSe:
+  Name: Wheel Of Pain
+  Description: At the start of {PlayerName}'s turn, apply {Level} |Lock On| to each enemy.
+  Brief: At the start of {PlayerName}'s turn, apply |Lock On| to each enemy.

@@ -1,0 +1,4 @@
+﻿YoumuWatchtowerSwordSe:
+  Name: “楼观”剑
+  Description: 当{PlayerName}造成攻击伤害时，还会施加 {Level} {Value1} 层|锁定|。
+  Brief: 当{PlayerName}造成攻击伤害时，还会施加 1 层|锁定|。

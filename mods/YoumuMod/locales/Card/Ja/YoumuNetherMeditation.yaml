@@ -1,0 +1,4 @@
+﻿YoumuNetherMeditation:
+  Name: 冥界瞑想
+  Description: 手札から {Value2}枚攻撃カードを選ぶ。その|コピー|{Value1}枚手札に加える。
+  DetailText: You can't choose |Copies| for this effect.

@@ -1,0 +1,4 @@
+﻿YoumuDualWielderSe:
+  Name: 生命の二刀流
+  Description: '{PlayerName}が|ロックオン|5を与える度に、|現世斬|{Level}枚を手札に加える。'
+  Bried: '{PlayerName}が|ロックオン|5を与える度に、|現世斬|1枚を手札に加える。'

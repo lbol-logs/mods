@@ -1,0 +1,11 @@
+﻿YoumuHesitationCuttingSword:
+  Name: 단미검
+  Description: >-
+    |현세참|을 {Value1}장 가져옵니다.
+
+    두번 |발도|합니다.
+  UpgradedDescription: >-
+    |현세참+|을 {Value1}장 가져옵니다.
+
+    두번 |발도|합니다.
+  FlavorText: ''

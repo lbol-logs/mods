@@ -1,0 +1,10 @@
+﻿YoumuBulletCuttingSpirit:
+  Name: 斩断弹幕的心之眼
+  Description: >-
+    恢复 {Value2} 点生命。
+
+    在本场战斗中|升级| 一张手牌。
+  UpgradedDescription: >-
+    恢复 {Value2} 点生命。
+
+    在本场战斗中|升级|所有手牌。

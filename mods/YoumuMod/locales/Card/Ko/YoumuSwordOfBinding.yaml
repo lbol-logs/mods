@@ -1,0 +1,7 @@
+﻿YoumuSwordOfBinding:
+  Name: 전박검
+  Description: >-
+    모든 적에게 피해를 {Damage} 줍니다.
+
+    모든 적에게 |록 온|을 {Value1} 줍니다.
+  FlavorText: +5 DEF, +5 RES

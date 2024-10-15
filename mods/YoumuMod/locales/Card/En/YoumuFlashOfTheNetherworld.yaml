@@ -1,0 +1,10 @@
+﻿YoumuFlashOfTheNetherworld:
+  Name: Flash of the Netherworld
+  Description: >-
+    At the end of every extra turn, deal {Value1} Damage to each enemy for every card played that turn.
+
+    End {PlayerName}'s turn.
+
+    Then, take an extra turn.
+
+    |Time Limit| {Mana}.

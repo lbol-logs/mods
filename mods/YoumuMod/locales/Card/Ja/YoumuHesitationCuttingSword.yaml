@@ -1,0 +1,10 @@
+﻿YoumuHesitationCuttingSword:
+  Name: 断迷剣
+  Description: >-
+    手札に|現世斬|を{Value1}枚加える。
+
+    |抜刀|2回
+  UpgradedDescription: >-
+    手札に|現世斬+|を{Value1}枚加える。
+
+    |抜刀|2回

@@ -1,0 +1,10 @@
+﻿YoumuFlashOfTheNetherworld:
+  Name: 명부광망
+  Description: >-
+    추가턴 종료시, 그 턴에 사용한 카드 만큼 모든 적에게 피해를 {Value1} 줍니다.
+
+    플레이어의 턴을 종료합니다.
+
+    추가 턴을 진행합니다.
+
+    |시간 제한| <sprite="ManaSprite" name="1">

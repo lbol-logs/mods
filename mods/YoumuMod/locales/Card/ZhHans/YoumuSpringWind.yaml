@@ -1,0 +1,7 @@
+﻿YoumuSpringWind:
+  Name: 春风
+  Description: >-
+    对所有敌人施加 {Value1} 层|锁定|。
+
+    抽 {Value2} 张牌。
+  FlavorText: ''

@@ -1,0 +1,8 @@
+﻿YoumuCrescentMoonSlash:
+  Name: 弦月斬
+  Description: >-
+    {Damage}ダメージを与える。
+
+    対象に|ロックオン|{Value1}を与える。
+
+    |抜刀|

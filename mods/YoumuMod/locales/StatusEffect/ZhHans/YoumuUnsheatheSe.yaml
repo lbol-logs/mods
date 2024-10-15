@@ -1,0 +1,10 @@
+﻿YoumuUnsheatheSe:
+  Name: 拔刀
+  Description: >-
+    手中名为|斩|的牌的费用|暂时降低| <sprite="ManaSprite" name="1"> 。
+
+    然后，如果手中没有|现世斩|，将一张|现世斩|加入手中。
+  Brief: >-
+    手中名为|斩|的牌的费用|暂时降低| <sprite="ManaSprite" name="1"> 。
+
+    然后，如果手中没有|现世斩|，将一张|现世斩|加入手中。

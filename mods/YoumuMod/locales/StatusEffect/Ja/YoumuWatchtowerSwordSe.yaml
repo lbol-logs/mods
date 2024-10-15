@@ -1,0 +1,4 @@
+﻿YoumuWatchtowerSwordSe:
+  Name: 楼観剣
+  Description: '{PlayerName}が攻撃でダメージを与える度に、対象に|ロックオン|{Level}を与える。'
+  Brief: '{PlayerName}が攻撃でダメージを与える度に、対象に|ロックオン|1を与える。'

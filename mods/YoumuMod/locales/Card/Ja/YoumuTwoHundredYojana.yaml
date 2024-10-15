@@ -1,0 +1,10 @@
+﻿YoumuTwoHundredYojana:
+  Name: 二百由旬
+  Description: >-
+    手札に|現世斬|を{Value1}枚加える。
+
+    |抜刀|
+  UpgradedDescription: >-
+    手札に|現世斬+|を{Value1}枚加える。
+
+    |抜刀|

@@ -1,0 +1,7 @@
+﻿YoumuEmbercleave:
+  Name: エンバレスの宝剣
+  Description: >-
+    このカードが手札にある時、|攻撃|カードをプレイする度{SelfName}のコストが{Mana}減る(この戦闘中のみ)。
+
+    使用したターンの|攻撃|のダメージを2倍にする。
+  FlavorText: Math is for blockers.

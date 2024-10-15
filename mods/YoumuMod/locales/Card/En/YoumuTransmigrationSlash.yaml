@@ -1,0 +1,8 @@
+﻿YoumuTransmigrationSlash:
+  Name: Transmigration Slash
+  Description: >-
+    Deal {Damage} Damage.
+
+    Apply {Value1} |Lock On|.
+
+    |When Exiled|: Each enemy loses {Value2} life.

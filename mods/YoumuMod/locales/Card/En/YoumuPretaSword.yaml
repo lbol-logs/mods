@@ -1,0 +1,6 @@
+﻿YoumuPretaSword:
+  Name: Preta Sword
+  Description: >-
+    Deal {Damage} damage.
+
+    If an enemy has {Value1} or more |Lock On|, draw {Value2} card.

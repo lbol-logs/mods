@@ -1,0 +1,7 @@
+﻿YoumuSwordAura:
+  Name: 剑气
+  Description: >-
+    获得 {Value1} 点|火力|。
+
+    |手牌中|：当{PlayerName}|拔刀|，本回合中此牌额外获得 {Value2} 点|火力|。
+  FlavorText: 满血时，释放一个弹道。

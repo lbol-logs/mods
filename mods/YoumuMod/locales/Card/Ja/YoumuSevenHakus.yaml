@@ -1,0 +1,10 @@
+﻿YoumuSevenHakus:
+  Name: 七魄
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    |反撃|{Block}を得る。
+
+    |反射|{Value1}を得る。
+
+    |廃棄された時|:{PlayerName}のターン開始時、ブロックは失われない。

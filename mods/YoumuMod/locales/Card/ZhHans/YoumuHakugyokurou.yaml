@@ -1,0 +1,7 @@
+﻿YoumuHakugyokurou:
+  Name: 白玉楼
+  Description: >-
+    |回合开始时|：抽 {Value2} 张牌。
+
+    |手牌中|： 如果此牌在手中时打出过至少 {Value1} 张名为|斩|的牌，弃掉此牌，对所有敌人造成 {Damage} 点伤害。
+  FlavorText: ''

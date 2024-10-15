@@ -1,0 +1,4 @@
+﻿YoumuDivineSeveringSe:
+  Name: Divine Severing
+  Description: Whenever {PlayerName} |Unsheathes|, increase the damage of all Slash cards by {Level} for the rest of combat.
+  Bried: Whenever {PlayerName} |Unsheathes|, increase the damage of all Slash cards in hand by 1 for the rest of combat.

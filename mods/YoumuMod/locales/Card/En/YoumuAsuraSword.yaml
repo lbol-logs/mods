@@ -1,0 +1,7 @@
+﻿YoumuAsuraSword:
+  Name: Asura Sword
+  Description: >-
+    Deal {Damage} damage {Value1} times.
+
+    Apply {Value1} |Lock On|.
+  FlavorText: In spite of Youmu's incomplete training, she remains extremely skilled with a sword.

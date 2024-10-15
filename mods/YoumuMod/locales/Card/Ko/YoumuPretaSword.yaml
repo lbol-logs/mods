@@ -1,0 +1,6 @@
+﻿YoumuPretaSword:
+  Name: 아귀검
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    적에게 |록 온|이 {Value1} 이상 있다면, 카드를 {Value2}장 뽑습니다.

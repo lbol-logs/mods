@@ -1,0 +1,6 @@
+﻿YoumuSatelliteSlash:
+  Name: 卫星斩
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    当{PlayerName} |拔刀|时，{SelfName}从弃牌堆回到手中。

@@ -1,0 +1,6 @@
+﻿YoumuSlashOfKarmicWind:
+  Name: 业风斩
+  Description: >-
+    造成 {Damage} 点伤害 {Value1} 次。
+
+    |锁定|提升{SelfName}的伤害变为2倍。

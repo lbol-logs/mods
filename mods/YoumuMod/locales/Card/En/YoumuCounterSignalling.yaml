@@ -1,0 +1,8 @@
+﻿YoumuCounterSignalling:
+  Name: Counter Signalling
+  Description: >-
+    Gain {Block} |Block|.
+
+    Gain {Block} |Riposte|.
+
+    |Growth|: Gain {Value1} additional |Block| and |Riposte|.

@@ -1,0 +1,4 @@
+﻿YoumuWatchtowerSword:
+  Name: 楼観剣
+  Description: '{PlayerName}が攻撃ダメージを与えるたびに、対象に|ロックオン|{Value1}を与える'
+  FlavorText: もしマナを供給してくれるこんな展示品があったのなら・・・

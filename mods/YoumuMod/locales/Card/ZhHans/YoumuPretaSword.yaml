@@ -1,0 +1,6 @@
+﻿YoumuPretaSword:
+  Name: 饿鬼剑
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    如果一个敌人具有 {Value1} 层或更多的|锁定|，抽 {Value2} 张牌。

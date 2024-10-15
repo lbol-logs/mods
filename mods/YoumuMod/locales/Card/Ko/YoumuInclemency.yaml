@@ -1,0 +1,12 @@
+﻿YoumuInclemency:
+  Name: 불심없는 중생의 울림
+  Description: >-
+    손의 모든 카드가 |일시비용|{Mana}이 됩니다.
+
+    이번 턴에 더이상 카드를 뽑을 수 없습니다.
+  UpgradedDescription: >-
+    카드를 {Value1}장 뽑습니다.
+
+    손의 모든 카드가 |일시비용|{Mana}이 됩니다.
+
+    이번 턴에 더이상 카드를 뽑을 수 없습니다.

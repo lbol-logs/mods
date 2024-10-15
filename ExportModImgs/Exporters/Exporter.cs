@@ -25,10 +25,10 @@ namespace ExportModImgs.Exporters
             { "AyaPlayerUnit", "intoxicatedkid.ayashameimaru" },
             { "PKaguya", "aqing0601.PKaguya" },
             { "Utsuho", "zosit.lbol.test.utsuho" },
+            { "YoumuMod", "rmrfmaxx.lbol.YoumuCharacterMod" },
 
             //"rmrfmaxx.lbol.PatchouliCharacterMod",
             //"rmrfmaxxc.lbol.YuyukoCharacterMod",
-            //"rmrfmaxx.lbol.YoumuCharacterMod",
             //"llbol.ea.mima",
             //"xeno.lbol.character.Sanae_Kochiya",
         };

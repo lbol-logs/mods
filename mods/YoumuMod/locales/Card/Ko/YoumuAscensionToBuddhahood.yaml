@@ -1,0 +1,8 @@
+﻿YoumuAscensionToBuddhahood:
+  Name: 성불득탈
+  Description: 매 턴 처음 사용하는 카드가 |메아리|를 얻습니다.
+  UpgradedDescription: >-
+    패에서 카드를 {Value2}장 고릅니다. 그 카드들은 |메아리|를 얻습니다.
+
+    매 턴 처음 사용하는 카드가 |메아리|를 얻습니다.
+  DetailText: '|복사본|에는 효과가 발동하지 않습니다.'

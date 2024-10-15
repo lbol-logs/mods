@@ -1,0 +1,9 @@
+﻿YoumuYuyukoFriend:
+  Name: 화서의 망령, 유유코
+  Description: >-
+    <indent=80>모든 적에게 |생자필멸|을 {Value1} 줍니다.
+
+    <indent=0><sprite="Passive" name="2"><indent=80>{Mana}를 얻습니다.
+  ExtraDescription1: <indent=0><sprite="Active" name="-3"><indent=80>모든 적에게 |허약|과 |취약|을 {Value2} 줍니다.
+  ExtraDescription2: <indent=0><sprite="Ultimate" name="-8"><indent=80>턴 종료시 마다 모든 적에게 |생자필멸|을 {Value1} 줍니다.
+  FlavorText: Mors certa, hora incerta. Nosce te ipsum. Vive hodie.

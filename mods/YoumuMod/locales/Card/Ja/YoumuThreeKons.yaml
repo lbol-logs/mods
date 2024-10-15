@@ -1,0 +1,8 @@
+﻿YoumuThreeKons:
+  Name: 三魂
+  Description: >-
+    カードを{Value1}枚引く。
+
+    |帯電|{Value1}を得る。
+
+    |廃棄された時|:{PlayerName}の次のターン開始時、カードを{Value2}枚引く。

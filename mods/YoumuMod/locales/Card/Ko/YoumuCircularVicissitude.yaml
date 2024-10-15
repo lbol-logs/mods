@@ -1,0 +1,7 @@
+﻿YoumuCircularVicissitude:
+  Name: 원심유전
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    손에 |참|카드가 {Value1}장 이상 있다면, |발도|합니다.
+  FlavorText: 원은 연속성과 완벽함의 상징이지만 완벽하지 않은 것은 자주 변화하는 것입니다.

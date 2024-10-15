@@ -1,0 +1,6 @@
+﻿YoumuWickedSoul:
+  Name: 悪魂
+  Description: >-
+    対象に|ロックオン|{Value1}を与える。
+
+    対象に|臨時火力ダウン|{Value2}を与える。

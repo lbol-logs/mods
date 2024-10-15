@@ -1,0 +1,7 @@
+﻿YoumuConventionalTruth:
+  Name: Conventional Truth
+  Description: >-
+    Return up to {Value1} card from the |Exile| pile to the hand.
+
+    |Unsheathe|.
+  DetailText: '{SelfName} cannot return {SelfName} to the hand.'

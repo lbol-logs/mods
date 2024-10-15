@@ -1,0 +1,4 @@
+﻿YoumuDrawNextTurnSe:
+  Name: Draw Next Turn
+  Description: '{PlayerName}の次のターン、カードを{Level}枚引く。'
+  Brief: '{PlayerName}の次のターン、カードを1枚引く。'

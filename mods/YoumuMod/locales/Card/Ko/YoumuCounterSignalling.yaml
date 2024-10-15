@@ -1,0 +1,8 @@
+﻿YoumuCounterSignalling:
+  Name: 반격 신호
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    |반격|을 {Block} 얻습니다.
+
+    |성장|: 추가로 |방어|와 |반격|을 {Value1} 얻습니다.

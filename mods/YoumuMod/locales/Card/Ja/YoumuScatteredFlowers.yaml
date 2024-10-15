@@ -1,0 +1,10 @@
+﻿YoumuScatteredFlowers:
+  Name: 散花
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    敵の|ロックオン|に等しいダメージをそれぞれの敵に与える。
+  UpgradedDescription: >-
+    {Block}|ブロック|を得る。
+
+    敵の|ロックオン|に等しいダメージを{Value1}回それぞれの敵に与える。

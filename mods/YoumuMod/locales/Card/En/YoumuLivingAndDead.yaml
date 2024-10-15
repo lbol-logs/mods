@@ -1,0 +1,7 @@
+﻿YoumuLivingAndDead:
+  Name: Living and Dead
+  Description: >-
+    Choose {Value2} of {Value1} Youmu |Ethereal| card{Value1:plural one='' other='s'}.
+
+    Add it to the hand, it |temporarily costs| {Mana} and has |Exile|.
+  FlavorText: Death isn't the end of life, it's just a part of it.

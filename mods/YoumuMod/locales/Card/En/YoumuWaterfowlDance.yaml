@@ -1,0 +1,12 @@
+﻿YoumuWaterfowlDance:
+  Name: Waterfowl Dance
+  Description: >-
+    Deal {Damage} damage {Value1} times.
+
+    Gain additional effects based on the amount of time {PlayerName} |Unsheathed| this turn:    
+
+    {UnsheathedThreshold1}+: Apply {Value2} |Lock On|.
+
+    {UnsheathedThreshold2}+: Deal damage an additional time.
+
+    {UnsheathedThreshold3}+: Gain {Mana}.

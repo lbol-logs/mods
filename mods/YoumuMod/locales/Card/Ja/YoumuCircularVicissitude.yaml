@@ -1,0 +1,7 @@
+﻿YoumuCircularVicissitude:
+  Name: 円心流転
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    もし{PlayerName}の手札に{Value1}枚以上の|斬撃|があれば、|抜刀|
+  FlavorText: 円は継続性と完璧さの象徴であり、完璧であることはしばしば変化するものである。

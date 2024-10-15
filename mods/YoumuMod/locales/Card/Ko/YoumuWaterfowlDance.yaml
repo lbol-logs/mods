@@ -1,0 +1,12 @@
+﻿YoumuWaterfowlDance:
+  Name: 물새난격
+  Description: >-
+    피해를 {Damage}만큼 {Value1}번 줍니다.
+
+    {PlayerName}가 이번 턴 |발도|한 수에 따라 추가효과를 얻습니다.: 
+
+    {UnsheathedThreshold1}+: |록 온|을 {Value2} 줍니다. 
+
+    {UnsheathedThreshold2}+: 피해를 추가로 한번 더 줍니다. 
+
+    {UnsheathedThreshold3}+: {Mana}를 얻습니다.

@@ -1,0 +1,3 @@
+﻿YoumuSlashDraw:
+  Name: 抽刀斬
+  Description: '|このカードを引いた時|:すべての敵に{Damage}ダメージを与え、{SelfName}を廃棄する。'

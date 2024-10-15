@@ -1,0 +1,12 @@
+﻿YoumuInclemency:
+  Name: Inclemency of All Beings
+  Description: >-
+    All cards in the hand |temporarily cost| {Mana}.
+
+    No more cards can be drawn this turn.
+  UpgradedDescription: >-
+    Draw {Value1} cards.
+
+    All cards in the hand |temporarily cost| {Mana}.
+
+    No more cards can be drawn this turn.

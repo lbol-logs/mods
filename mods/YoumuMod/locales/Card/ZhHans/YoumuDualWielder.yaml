@@ -1,0 +1,7 @@
+﻿YoumuDualWielder:
+  Name: 生命双持者
+  Description: '{PlayerName}每施加 {Value1} 层|锁定|，将 {Value2} 张|现世斩|加入手中。'
+  UpgradedDescription: >-
+    将 {Value2} 张|现世斩|加入手中。
+
+    {PlayerName}每施加 {Value1} 层|锁定|，将 {Value2} 张|现世斩|加入手中。

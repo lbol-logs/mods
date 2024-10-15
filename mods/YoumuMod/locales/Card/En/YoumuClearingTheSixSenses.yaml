@@ -1,0 +1,6 @@
+﻿YoumuClearingTheSixSenses:
+  Name: Clearing The Six Senses
+  Description: >-
+    Remove all debuffs from {PlayerName}.
+
+    If a debuff was removed, gain {Value1} |Firepower|.

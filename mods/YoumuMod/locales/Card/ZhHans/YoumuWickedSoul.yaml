@@ -1,0 +1,7 @@
+﻿YoumuWickedSoul:
+  Name: 恶魂
+  Description: >-
+    施加 {Value1} 层|锁定|。
+
+    对敌人施加 {Value2} 点|失去火力|。
+  FlavorText: ''

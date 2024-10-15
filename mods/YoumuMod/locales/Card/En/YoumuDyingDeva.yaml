@@ -1,0 +1,10 @@
+﻿YoumuDyingDeva:
+  Name: Dying Deva
+  Description: >-
+    |At the end of the turn|: Deal {Value1} damage to each enemy with |Lock On|.
+
+    |While in hand|: Whenever an enemy gains a debuff, increase {SelfName} damage by {Value2} this combat.
+  FlavorText: >-
+    Remember, time is a greedy player
+
+    Who always wins without even cheating.

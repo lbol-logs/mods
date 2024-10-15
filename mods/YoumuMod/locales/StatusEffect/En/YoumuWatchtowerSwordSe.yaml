@@ -1,0 +1,4 @@
+﻿YoumuWatchtowerSwordSe:
+  Name: Roukanken
+  Description: Whenever {PlayerName} deals attack damage, also apply {Level} {Value1} |Lock On|.
+  Brief: Whenever {PlayerName} deals attack damage, also apply 1 |Lock On|.

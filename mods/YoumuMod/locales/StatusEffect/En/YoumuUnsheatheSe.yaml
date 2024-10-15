@@ -1,0 +1,7 @@
+﻿YoumuUnsheatheSe:
+  Name: Unsheathe
+  Description: This is a workaround to add keywords description to cards.
+  Brief: >-
+    |Slash| cards in the hand |temporarily cost| <sprite="ManaSprite" name="1"> less.
+
+    Then, if there are no |Slash of Present| card in the hand, add 1 |Slash of Present| to hand.

@@ -1,0 +1,6 @@
+﻿YoumuAscensionToBuddhahoodSe:
+  Name: Ascension To Buddhahood
+  Description: >-
+    The first {Level} card{Level:plural one='' other='s'} played each turn gains |Echo|.
+
+    (Remaining: {Count})

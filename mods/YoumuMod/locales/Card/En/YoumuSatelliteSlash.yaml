@@ -1,0 +1,6 @@
+﻿YoumuSatelliteSlash:
+  Name: Satellite Slash
+  Description: >-
+    Deal {Damage} damage.
+
+    Whenever {PlayerName} |Unsheathes|, return {SelfName} from the discard pile to the hand.

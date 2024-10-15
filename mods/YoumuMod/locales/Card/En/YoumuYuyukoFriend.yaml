@@ -1,0 +1,9 @@
+﻿YoumuYuyukoFriend:
+  Name: Yuyuko, Ghost of Idyll
+  Description: >-
+    {Indent}Apply {Value1} |Law of Mortality| to each enemy.
+
+    {PassiveCostIcon}Gain {Mana}.
+  ExtraDescription1: '{ActiveCostIcon}Apply {Value2} |Weak| and |Vulnerable| to each enemy.'
+  ExtraDescription2: "{UltimateCostIcon}At the end of {PlayerName}'s turn, apply {Value1} |Law of Mortality| to each enemy."
+  FlavorText: Mors certa, hora incerta. Nosce te ipsum. Vive hodie.

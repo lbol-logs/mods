@@ -1,0 +1,6 @@
+﻿YoumuSatelliteSlash:
+  Name: 衛星斬
+  Description: >-
+    {Damage}ダメージを与える。
+
+    {PlayerName}が|抜刀|するたびに、捨て札の{SelfName}を手札に戻す。

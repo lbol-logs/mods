@@ -1,0 +1,6 @@
+﻿YoumuHesitationSign:
+  Name: 迷符
+  Description: >-
+    |ロックオン|{Value1}を与える。
+
+    |廃棄された時|:すべての敵に|ロックオン|{Value2}を与える。

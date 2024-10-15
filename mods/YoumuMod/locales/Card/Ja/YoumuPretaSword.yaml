@@ -1,0 +1,6 @@
+﻿YoumuPretaSword:
+  Name: 餓鬼剣
+  Description: >-
+    {Damage}ダメージを与える。
+
+    対象が|ロックオン|{Value1}以上であれば、カードを{Value2}枚引く

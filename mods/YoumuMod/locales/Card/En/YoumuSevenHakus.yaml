@@ -1,0 +1,10 @@
+﻿YoumuSevenHakus:
+  Name: Seven Hakus
+  Description: >-
+    Gain {Block} |Block|.
+
+    Gain {Block} |Riposte|.
+
+    Gain {Value1} |Reflection|.
+
+    |When Exiled|: Block is not lost at the start of {PlayerName}'s turn.

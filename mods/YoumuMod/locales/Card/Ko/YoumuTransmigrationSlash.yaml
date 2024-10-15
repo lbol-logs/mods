@@ -1,0 +1,8 @@
+﻿YoumuTransmigrationSlash:
+  Name: 생사유전참
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |록 온|을 {Value1} 줍니다.
+
+    |소멸할 시|: 모든 적은 체력을 {Value2} 잃습니다.

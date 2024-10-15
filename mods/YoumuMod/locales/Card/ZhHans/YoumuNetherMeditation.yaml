@@ -1,0 +1,7 @@
+﻿YoumuNetherMeditation:
+  Name: 下界冥想
+  Description: >-
+    选择手牌中的 {Value2} 张攻击牌。
+
+    将它的 {Value1} 张|复制|加入手中。
+  DetailText: 不能以|复制品|为目标。

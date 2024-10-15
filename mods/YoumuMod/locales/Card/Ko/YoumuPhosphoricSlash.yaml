@@ -1,0 +1,7 @@
+﻿YoumuPhosphoricSlash:
+  Name: 인기참
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    대상에게 |록 온|이 {Value1} 이상 있다면, {Mana}를 얻습니다.
+  FlavorText: ''

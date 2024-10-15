@@ -1,0 +1,10 @@
+﻿YoumuDyingDeva:
+  Name: 오쇠
+  Description: >-
+    |턴 종료 시|: |록 온|이 있는 모든 적에게 피해를 {Value1} 줍니다.
+
+    |손에 있을 경우|: 적이 상태이상을 받을 때마다 {SelfName}의 피해 {Value2} 증가.
+  FlavorText: >-
+    기억하세요, 시간은 부정행위조차 하지 않고
+
+    항상 이기는 욕심 많은 선수입니다.

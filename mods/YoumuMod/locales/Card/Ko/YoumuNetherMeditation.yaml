@@ -1,0 +1,7 @@
+﻿YoumuNetherMeditation:
+  Name: 지옥 명상
+  Description: >-
+    손의 공격 카드를 {Value2}장 선택합니다.
+
+    |복사본|을 {Value1}장 가져옵니다.
+  DetailText: 이 효과로 |복사본|을 선택할 수 없습니다.

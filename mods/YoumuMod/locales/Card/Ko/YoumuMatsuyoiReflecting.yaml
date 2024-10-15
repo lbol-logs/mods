@@ -1,0 +1,6 @@
+﻿YoumuMatsuyoiReflecting:
+  Name: 대소반사
+  Description: >-
+    |반격|이 두배로 증가합니다.
+
+    |반격|이 {Block} 이하라면, 추가로 |반격|을 {Block} 얻습니다.

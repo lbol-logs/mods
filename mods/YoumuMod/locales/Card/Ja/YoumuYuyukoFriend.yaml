@@ -1,0 +1,9 @@
+﻿YoumuYuyukoFriend:
+  Name: 華胥の亡霊、幽々子
+  Description: >-
+    {Indent}敵全体に|生者必滅の理|{Value1}を与える。
+
+    {PassiveCostIcon}{Mana}を得る。
+  ExtraDescription1: '{ActiveCostIcon}敵全体に|脱力|{Value2}と|弱体|{Value2}を与える。'
+  ExtraDescription2: '{UltimateCostIcon}{PlayerName}のターン終了時に、敵全体に|生者必滅の理|{Value1}を与える。'
+  FlavorText: 死は確実だが、その時は、不確かだ。今日を生きよ。

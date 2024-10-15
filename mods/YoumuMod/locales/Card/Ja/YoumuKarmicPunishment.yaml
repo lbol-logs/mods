@@ -1,0 +1,8 @@
+﻿YoumuKarmicPunishment:
+  Name: 無為無策の冥罰
+  Description: >-
+    {Mana}を得る。
+
+    カードを{Value1}枚引く。
+
+    対象に|ロックオン|{Value2}を与える。

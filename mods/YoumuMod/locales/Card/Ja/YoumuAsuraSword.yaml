@@ -1,0 +1,7 @@
+﻿YoumuAsuraSword:
+  Name: 修羅剣
+  Description: >-
+    {Damage} ダメージを{Value1}回与える。
+
+    対象に|ロックオン|{Value1}を与える。
+  FlavorText: 妖夢の剣の修行は不完全だが、剣の腕前は極めて高い

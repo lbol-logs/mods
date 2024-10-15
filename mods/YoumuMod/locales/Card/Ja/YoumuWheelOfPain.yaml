@@ -1,0 +1,6 @@
+﻿YoumuWheelOfPain:
+  Name: 幽明の苦輪
+  Description: >-
+    すべての敵に|ロックオン|{Value1}を与える。
+
+    {PlayerName}のターン開始時、すべての敵に|ロックオン|{Value1}を与える。

@@ -1,0 +1,7 @@
+﻿YoumuClearingTheSixSenses:
+  Name: 육근청정
+  Description: >-
+    자신의 상태이상을 전부 제거합니다.
+
+    상태이상이 제거되면, |화력|을 {Value1} 얻습니다.
+  FlavorText: ''

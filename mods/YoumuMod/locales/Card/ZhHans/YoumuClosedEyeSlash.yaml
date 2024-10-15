@@ -1,0 +1,7 @@
+﻿YoumuClosedEyeSlash:
+  Name: 瞑斩
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    造成未被格挡的伤害时，获得等量的|还击|。
+  FlavorText: ''

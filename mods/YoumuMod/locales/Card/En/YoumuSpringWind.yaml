@@ -1,0 +1,6 @@
+﻿YoumuSpringWind:
+  Name: Spring Wind
+  Description: >-
+    Apply {Value1} |Lock On| to each enemy.
+
+    Draw {Value2} card{Value2:plural one='' other='s'}.

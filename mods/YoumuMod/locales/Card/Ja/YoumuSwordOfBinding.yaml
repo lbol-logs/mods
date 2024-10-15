@@ -1,0 +1,7 @@
+﻿YoumuSwordOfBinding:
+  Name: 纏縛剣
+  Description: >-
+    {Damage}ダメージをすべての敵に与える。
+
+    敵全体|ロックオン|{Value1}を与える。
+  FlavorText: +5 DEF, +5 RES

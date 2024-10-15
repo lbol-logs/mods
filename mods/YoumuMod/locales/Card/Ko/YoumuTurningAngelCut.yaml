@@ -1,0 +1,6 @@
+﻿YoumuTurningAngelCut:
+  Name: 천녀 뒤집기
+  Description: >-
+    |{Mana}소모시 마다| : |일시 비용| <sprite="ManaSprite" name="0">의 |현세참|을 {Value1}장 손에 넣는다.
+
+    |<sprite="ManaSprite" name="G">소모시 마다| : |록 온|을 {Value2} 준다.

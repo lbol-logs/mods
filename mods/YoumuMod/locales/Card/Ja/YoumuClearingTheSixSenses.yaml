@@ -1,0 +1,6 @@
+﻿YoumuClearingTheSixSenses:
+  Name: 六根清浄
+  Description: >-
+    {PlayerName}からすべてのデバフを取り除く。
+
+    なにかデバフが取り除かれた時、|火力|{Value1}を得る。

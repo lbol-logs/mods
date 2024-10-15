@@ -1,0 +1,6 @@
+﻿YoumuTurningAngelCut:
+  Name: Turning Angel Cut
+  Description: >-
+    |For each spent| {Mana}: Add {Value1} |Slash of Present| to the hand, it |temporarily costs| {ManaEmpty}.
+
+    |For each spent| {ManaGreen}: Apply {Value2} |Lock On|.

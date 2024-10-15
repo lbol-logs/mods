@@ -1,0 +1,4 @@
+﻿YoumuDrawNextTurnSe:
+  Name: 下回合抽牌
+  Description: '{PlayerName}的下回合开始时，抽 {Level} 张牌。'
+  Brief: '{PlayerName}的下回合开始时，抽 1 张牌。'

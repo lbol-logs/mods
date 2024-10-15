@@ -1,0 +1,8 @@
+﻿YoumuCounterSignalling:
+  Name: 反撃の狼煙
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    |反撃|{Block}を得る。
+
+    |成長|:|ブロック|と|反撃|を{Value1}増やす。

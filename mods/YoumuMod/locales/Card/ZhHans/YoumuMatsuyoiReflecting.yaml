@@ -1,0 +1,6 @@
+﻿YoumuMatsuyoiReflecting:
+  Name: 待宵反射
+  Description: >-
+    将{PlayerName}的|还击|翻倍。
+
+    如果{PlayerName}的|还击|小于 {Block} 点, 改为获得 {Block} 点|还击|。

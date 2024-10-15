@@ -1,0 +1,13 @@
+﻿YoumuInsightfulSword:
+  Name: 형안검
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |발도|합니다.
+  UpgradedDescription: >-
+    피해를 {Damage} 줍니다.
+
+    |현세참|을 1장 얻습니다.
+
+    |발도|합니다.
+  FlavorText: ''

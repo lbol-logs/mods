@@ -1,0 +1,8 @@
+﻿YoumuAscensionToBuddhahood:
+  Name: 成佛得脱
+  Description: 每回合打出的第一张牌具有|回响|。
+  UpgradedDescription: >-
+    选择手中至多 {Value2} 张牌，赋予它们|回响|。
+
+    每回合打出的第一张牌具有|回响|。
+  DetailText: 不会对|复制品|生效。

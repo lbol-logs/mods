@@ -1,0 +1,6 @@
+﻿YoumuPhosphoricSlash:
+  Name: Phosphoric Slash
+  Description: >-
+    Deal {Damage} damage.
+
+    If an enemy has {Value1} or more |Lock On|, gain {Mana}.

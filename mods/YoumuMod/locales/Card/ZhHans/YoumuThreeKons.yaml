@@ -1,0 +1,10 @@
+﻿YoumuThreeKons:
+  Name: 三魂
+  Description: >-
+    抽 {Value1} 张牌。获得 {Value1} 点|带电|。
+
+    |被放逐时|：下个回合开始时，抽 {Value2} 张牌。
+  UpgradedDescription: >-
+    抽 {Value1} 张牌。
+
+    |被放逐时|：下个回合开始时，抽 {Value2} 张牌。

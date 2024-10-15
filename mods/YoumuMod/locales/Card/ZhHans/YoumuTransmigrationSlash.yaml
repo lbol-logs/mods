@@ -1,0 +1,8 @@
+﻿YoumuTransmigrationSlash:
+  Name: 生死流转斩
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    施加 {Value1} 层|锁定|。
+
+    |被放逐时|: 所有敌人失去 {Value2} 点生命。

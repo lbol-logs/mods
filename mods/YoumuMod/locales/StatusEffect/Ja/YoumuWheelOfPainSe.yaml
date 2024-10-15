@@ -1,0 +1,4 @@
+﻿YoumuWheelOfPainSe:
+  Name: 幽明の苦輪
+  Description: '{PlayerName}のターン開始時、敵全体に|ロックオン|{Level}を与える。'
+  Brief: '{PlayerName}のターン開始時、敵全体に|ロックオン|を与える。'

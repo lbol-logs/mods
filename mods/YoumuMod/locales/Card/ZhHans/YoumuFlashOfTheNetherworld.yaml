@@ -1,0 +1,10 @@
+﻿YoumuFlashOfTheNetherworld:
+  Name: 冥府光芒一闪
+  Description: >-
+    在每个额外回合结束时，此回合中每有一张牌被打出，对所有敌人造成 {Value1} 点伤害。
+
+    结束{PlayerName}的回合。
+
+    进行一个额外的回合。
+
+    |时间有限|<sprite="ManaSprite" name="1">

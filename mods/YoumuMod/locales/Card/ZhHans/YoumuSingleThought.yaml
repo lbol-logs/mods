@@ -1,0 +1,6 @@
+﻿YoumuSingleThought:
+  Name: 一念
+  Description: >-
+    获得 {Mana}。
+
+    |被放逐时|： 下回合获得<sprite="ManaSprite" name="G">。

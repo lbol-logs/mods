@@ -1,0 +1,6 @@
+﻿YoumuMeikyoShisui:
+  Name: Meikyo Shisui
+  Description: >-
+    Gain {Block} |Riposte|.
+
+    Draw {Value1} card{Value1:plural one='' other='s'}.

@@ -1,0 +1,4 @@
+﻿YoumuSpiritMediumBindSe:
+  Name: Spirit Medium's Bind
+  Description: Whenever a card is |Exiled|, deal {Level} damage toeach enemy.
+  Brief: Whenever a card is |Exiled|, deal 1 damage to each enemy.

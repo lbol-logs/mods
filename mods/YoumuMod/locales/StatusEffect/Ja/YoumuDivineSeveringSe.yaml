@@ -1,0 +1,4 @@
+﻿YoumuDivineSeveringSe:
+  Name: 神閃
+  Description: 戦闘終了まで{PlayerName}が|抜刀|する度、すべての斬撃を{Level}ダメージ強化する。
+  Bried: 戦闘終了まで{PlayerName}が|抜刀|する度、手札のすべての斬撃を1ダメージ強化する。

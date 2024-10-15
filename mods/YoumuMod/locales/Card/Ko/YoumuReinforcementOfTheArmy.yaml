@@ -1,0 +1,4 @@
+﻿YoumuReinforcementOfTheArmy:
+  Name: 증원
+  Description: 뽑을 카드 더미에서 공격 카드를 {Value1}장 손으로 가져옵니다, 그 카드들은 |임시 비용| {Mana}이 됩니다.
+  FlavorText: 아니, 넌 이졸데로 링크소환할 수 없어.

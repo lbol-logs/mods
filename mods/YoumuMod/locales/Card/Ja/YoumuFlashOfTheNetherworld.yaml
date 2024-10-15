@@ -1,0 +1,8 @@
+﻿YoumuFlashOfTheNetherworld:
+  Name: 冥府光芒一閃
+  Description: >-
+    追加ターンの終わりに、すべての敵に{Value1}ダメージをそのターンプレイしたカードの枚数と同じ回数分与える。
+
+    {PlayerName}のターンを終了し、追加ターンを得る。
+
+    |時間制限| {Mana}

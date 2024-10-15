@@ -1,0 +1,4 @@
+﻿YoumuReinforcementOfTheArmy:
+  Name: 増援
+  Description: 山札から{Value1}枚までの攻撃カードを選び、手札に加える。その|臨時コスト|は{Mana}
+  FlavorText: No, you cannot link climb into Isolde.

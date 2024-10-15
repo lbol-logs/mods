@@ -1,0 +1,12 @@
+﻿YoumuInclemency:
+  Name: 衆生無情
+  Description: >-
+    手札の全てのカードが|臨時コスト|{Mana}になる。
+
+    このターン、追加でカードを引くことができない。
+  UpgradedDescription: >-
+    カードを{Value1}枚引く。
+
+    手札の全てのカードが|臨時コスト|{Mana}になる。
+
+    このターン、追加でカードを引くことができない。

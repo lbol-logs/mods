@@ -1,0 +1,6 @@
+﻿YoumuPhantomFormation:
+  Name: 影陣
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    |ロックオン|を持ってる敵に臨時火力ダウン{Value1}を与える

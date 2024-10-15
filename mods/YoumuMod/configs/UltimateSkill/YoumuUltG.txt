@@ -1,0 +1,1 @@
+﻿{UltimateSkillConfig Id=, Order=10, PowerCost=100, PowerPerLevel=100, MaxPowerLevel=2, RepeatableType=OncePerTurn, Damage=12, Value1=3, Value2=1, Keywords=Accuracy, RelativeEffects=[LockedOn], RelativeCards=[]}

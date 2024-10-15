@@ -1,0 +1,6 @@
+﻿YoumuMatsuyoiReflecting:
+  Name: Matsuyoi-Reflecting
+  Description: >-
+    Double the current |Riposte|.
+
+    If {PlayerName} has less than {Block} |Riposte|, gain {Block} |Riposte| instead.

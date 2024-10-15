@@ -1,0 +1,4 @@
+﻿YoumuDualWielderSe:
+  Name: Dual-Wielder of Lives
+  Description: Whenever {PlayerName} applies 5 |Lock On|, add {Level} |Slash of Present| to the hand.
+  Bried: Whenever {PlayerName} applies 5 |Lock On|, add 1 |Slash of Present| to the hand.

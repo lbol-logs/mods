@@ -1,0 +1,7 @@
+﻿YoumuUnsheatheSe:
+  Name: 발도
+  Description: 이것은 카드에 키워드 설명을 추가하는 방법 입니다.
+  Brief: >-
+    손의 |참|카드의 비용이 |일시적으로| <sprite="ManaSprite" name="1">감소합니다.
+
+    그 후 손에 |현세참|이 없다면, |현세참|을 1장 얻습니다.

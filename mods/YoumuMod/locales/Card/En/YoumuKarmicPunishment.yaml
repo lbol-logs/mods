@@ -1,0 +1,8 @@
+﻿YoumuKarmicPunishment:
+  Name: Karmic Punishment
+  Description: >-
+    Gain {Mana}.
+
+    Draw {Value1} card{Value1:plural one='' other='s'}.
+
+    Gain {Value2} |Lock On|.

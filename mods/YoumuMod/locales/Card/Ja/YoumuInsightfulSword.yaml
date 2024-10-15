@@ -1,0 +1,10 @@
+﻿YoumuInsightfulSword:
+  Name: 炯眼剣
+  Description: >-
+    {Damage}ダメージを与える。
+
+    |抜刀|
+  UpgradedDescription: >-
+    {Damage}ダメージを与える。|現世斬|を手札に加える。
+
+    |抜刀|

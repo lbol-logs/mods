@@ -1,0 +1,6 @@
+﻿YoumuHakugyokurou:
+  Name: Hakugyokurou
+  Description: >-
+    |At the start of the turn|: Draw {Value2} card{Value2:plural one='' other='s'}.
+
+    |While in hand|: If {Value1} |Slash| cards have been played while this card is in the hand, discard it and deal {Damage} Damage to each enemy.

@@ -1,0 +1,4 @@
+﻿YoumuWatchtowerSword:
+  Name: Watchtower Sword
+  Description: Whenever {PlayerName} deals attack damage, also apply {Value1} |Lock On|.
+  FlavorText: If only an Exhibit could do this and provide mana each turn.

@@ -1,0 +1,7 @@
+﻿YoumuDualWielder:
+  Name: 生命の二刀流
+  Description: '{PlayerName}が|ロックオン|{Value1}を与えるたびに、|現世斬|を{Value2}枚手札に加える。'
+  UpgradedDescription: >-
+    |現世斬|を{Value2}枚手札に加える。
+
+    {PlayerName}が|ロックオン|{Value1}を与えるたびに、|現世斬|を{Value2}枚手札に加える。
