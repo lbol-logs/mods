@@ -1223,5 +1223,1243 @@
       "Shield": 6,
       "Keywords": "Forbidden,Replenish"
     }
+  },
+  "YoumuAgelessObsession": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "{4G}",
+      "Value1": 2,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": "GGG",
+      "Value1": 3
+    }
+  },
+  "YoumuAppearingAndDisappearing": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "WG",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "H:HWG",
+      "Value1": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Value1": 3,
+      "Keywords": "Exile"
+    }
+  },
+  "YoumuAscensionToBuddhahood": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "2GGG",
+      "Value1": 1,
+      "Value2": 1,
+      "Mana": "G",
+      "Keywords": "Plentiful"
+    },
+    "1": {
+      "Mana": "GP",
+      "Keywords": "Plentiful"
+    }
+  },
+  "YoumuAsuraSword": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "GG",
+      "Damage": 6,
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "YoumuAttackG": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1G",
+      "Damage": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 14,
+      "Keywords": "Basic"
+    }
+  },
+  "YoumuAttackW": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1W",
+      "Damage": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 14,
+      "Keywords": "Basic"
+    }
+  },
+  "YoumuBizareness": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "BG",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1BG",
+      "Value1": 1
+    },
+    "1": {
+      "Value1": 2
+    }
+  },
+  "YoumuBlockG": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1G",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 13,
+      "Keywords": "Basic"
+    }
+  },
+  "YoumuBlockW": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1W",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 13,
+      "Keywords": "Basic"
+    }
+  },
+  "YoumuBloodOfAsura": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "4R",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "2R"
+    }
+  },
+  "YoumuBuddhahoodOfFlora": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "WG",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "WG",
+      "Value1": 1
+    },
+    "1": {
+      "Value1": 2
+    }
+  },
+  "YoumuBulletCuttingSpirit": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": 1,
+      "Value1": 1,
+      "Value2": 4,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile"
+    }
+  },
+  "YoumuCircularVicissitude": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "2W",
+      "Block": 18,
+      "Value1": 2
+    },
+    "1": {
+      "Block": 24
+    }
+  },
+  "YoumuClearingMind": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "W",
+      "Value1": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Exile"
+    }
+  },
+  "YoumuClearingTheSixSenses": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1R",
+      "Value1": 3,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 5,
+      "Keywords": "Exile"
+    }
+  },
+  "YoumuClosedEyeSlash": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "2G",
+      "Damage": 12
+    },
+    "1": {
+      "Damage": 15,
+      "Keywords": "Accuracy"
+    }
+  },
+  "YoumuConventionalTruth": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1W",
+      "Value1": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Exile"
+    }
+  },
+  "YoumuCounterSignalling": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1G",
+      "Block": 6,
+      "Value1": 1,
+      "Keywords": "Grow"
+    },
+    "1": {
+      "Block": 8,
+      "Keywords": "Grow"
+    }
+  },
+  "YoumuCrescentMoonSlash": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "WG",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "WG",
+      "Damage": 12,
+      "Value1": 2
+    },
+    "1": {
+      "Cost": "1H:HWG",
+      "Damage": 16
+    }
+  },
+  "YoumuDivineSevering": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "2WWW",
+      "Value1": 3,
+      "Value2": 1
+    },
+    "1": {
+      "Value2": 2
+    }
+  },
+  "YoumuDualWielder": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "WG",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "WWGG",
+      "Value1": 5,
+      "Value2": 1
+    },
+    "1": {}
+  },
+  "YoumuDyingDeva": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": 0,
+      "Value1": 3,
+      "Value2": 1,
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Value2": 2,
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "YoumuEmbercleave": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "5R",
+      "Value1": 1,
+      "Mana": 1,
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Keywords": "Retain"
+    }
+  },
+  "YoumuFlashOfTheNetherworld": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "WG",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "3WG",
+      "Value1": 5,
+      "Mana": 1
+    },
+    "1": {
+      "Cost": "2WG",
+      "Value1": 8
+    }
+  },
+  "YoumuGhostSlash": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1W",
+      "Damage": 14,
+      "Block": 6,
+      "Keywords": "Ethereal"
+    },
+    "1": {
+      "Damage": 18,
+      "Block": 8,
+      "Keywords": "Ethereal"
+    }
+  },
+  "YoumuGreatEnlightenment": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "WW",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "YoumuHakugyokurou": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "{4W}",
+      "Damage": 50,
+      "Value1": 10,
+      "Value2": 1,
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Damage": 60,
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "YoumuHalfBodyDistillation": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "WG",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "WG",
+      "Block": 14,
+      "Value1": 1
+    },
+    "1": {
+      "Block": 18,
+      "Value1": 2
+    }
+  },
+  "YoumuHeavenlyHalo": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "WW",
+      "Block": 15,
+      "Value1": 1
+    },
+    "1": {
+      "Block": 18,
+      "Value1": 2
+    }
+  },
+  "YoumuHesitationCuttingSword": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "2WR",
+      "Value1": 2,
+      "Value2": 2
+    },
+    "1": {
+      "Cost": "3H:HWR"
+    }
+  },
+  "YoumuHesitationSign": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "G",
+      "Value1": 3,
+      "Value2": 2,
+      "Keywords": "Ethereal"
+    },
+    "1": {
+      "Value1": 4,
+      "Value2": 3,
+      "Keywords": "Ethereal"
+    }
+  },
+  "YoumuInclemency": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "3GG",
+      "Value1": 3,
+      "Mana": 0,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile"
+    }
+  },
+  "YoumuInfiniteKalpas": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "WG",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "2WG",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "WG"
+    }
+  },
+  "YoumuInnerEye": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1WW",
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "YoumuInsightfulSword": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "WW",
+      "Damage": 14,
+      "Value1": 1
+    },
+    "1": {
+      "Damage": 16
+    }
+  },
+  "YoumuKarmaGust": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "G",
+      "Value1": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Exile"
+    }
+  },
+  "YoumuKarmicPunishment": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "WG",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1WG",
+      "Value1": 2,
+      "Value2": 3,
+      "Mana": "WWGGPP",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "WG",
+      "Value1": 3,
+      "Keywords": "Exile"
+    }
+  },
+  "YoumuLivingAndDead": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1B",
+      "Value1": 3,
+      "Value2": 1,
+      "Mana": 0
+    },
+    "1": {
+      "Value1": 5
+    }
+  },
+  "YoumuLotusPostureSlash": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "WG",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "2WG",
+      "Damage": 18,
+      "Mana": "WGC"
+    },
+    "1": {
+      "Damage": 24,
+      "Keywords": "Accuracy"
+    }
+  },
+  "YoumuMatsuyoiReflecting": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1U",
+      "Block": 10,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Block": 14,
+      "Keywords": "Exile"
+    }
+  },
+  "YoumuMeikyoShisui": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "C",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1C",
+      "Block": 9,
+      "Value1": 1
+    },
+    "1": {
+      "Block": 12,
+      "Value1": 2
+    }
+  },
+  "YoumuNetherMeditation": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "W",
+      "Value1": 2,
+      "Value2": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 3,
+      "Keywords": "Exile"
+    }
+  },
+  "YoumuNextToNone": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1B",
+      "Value1": 1,
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "YoumuPhantomFormation": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "2G",
+      "Block": 16,
+      "Value1": 4
+    },
+    "1": {
+      "Cost": "1G",
+      "Value1": 5
+    }
+  },
+  "YoumuPhosphoricSlash": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1G",
+      "Damage": 15,
+      "Value1": 5,
+      "Mana": "GP",
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 19,
+      "Mana": "GPP",
+      "Keywords": "Accuracy"
+    }
+  },
+  "YoumuPreachingAvici": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1W",
+      "Value1": 2,
+      "Keywords": "Ethereal"
+    },
+    "1": {
+      "Cost": 1,
+      "Keywords": "Ethereal"
+    }
+  },
+  "YoumuPretaSword": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": 1,
+      "Damage": 8,
+      "Value1": 3,
+      "Value2": 1,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 12,
+      "Keywords": "Accuracy"
+    }
+  },
+  "YoumuQuickDraw": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "W",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 1,
+      "Value1": 2
+    }
+  },
+  "YoumuReflectionSlash": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1W",
+      "Damage": 12,
+      "Block": 8
+    },
+    "1": {
+      "Damage": 14,
+      "Block": 10
+    }
+  },
+  "YoumuReinforcementOfTheArmy": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "WG",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "WG",
+      "Value1": 1,
+      "Mana": 0,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Exile"
+    }
+  },
+  "YoumuSatelliteSlash": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": 1,
+      "Damage": 8
+    },
+    "1": {
+      "Damage": 12
+    }
+  },
+  "YoumuScatteredFlowers": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "2G",
+      "Block": 18,
+      "Value1": 1
+    },
+    "1": {
+      "Block": 24,
+      "Value1": 2
+    }
+  },
+  "YoumuSevenHakus": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "WG",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1HH:HWG",
+      "Block": 7,
+      "Value1": 7,
+      "Value2": 1,
+      "Keywords": "Ethereal"
+    },
+    "1": {
+      "Cost": 2,
+      "Keywords": "Ethereal"
+    }
+  },
+  "YoumuSilentNirvana": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1GG",
+      "Value1": 3
+    },
+    "1": {
+      "Value1": 5
+    }
+  },
+  "YoumuSingleThought": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "GG",
+      "Mana": "GGG",
+      "Keywords": "Ethereal",
+      "ManaEthereal": "P"
+    },
+    "1": {
+      "Cost": "G",
+      "Mana": "GGP",
+      "Keywords": "Ethereal"
+    }
+  },
+  "YoumuSlashDraw": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": 0,
+      "Damage": 15,
+      "Keywords": "Accuracy,Forbidden,Replenish"
+    },
+    "1": {
+      "Damage": 20,
+      "Keywords": "Accuracy,Forbidden,Replenish"
+    }
+  },
+  "YoumuSlashOfDeparture": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "2WW",
+      "Damage": 20,
+      "Value1": 2,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Cost": "2W",
+      "Value1": 3,
+      "Keywords": "Accuracy"
+    }
+  },
+  "YoumuSlashOfKarmicWind": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "3G",
+      "Damage": 8,
+      "Value1": 2,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 6,
+      "Value1": 3,
+      "Keywords": "Accuracy"
+    }
+  },
+  "YoumuSlashOfMeditation": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "2W",
+      "Damage": 6,
+      "Block": 16,
+      "Keywords": "Retain"
+    },
+    "1": {
+      "Damage": 8,
+      "Block": 20,
+      "Keywords": "Retain"
+    }
+  },
+  "YoumuSlashOfPresent": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": 2,
+      "Damage": 15,
+      "Keywords": "Accuracy,Exile,Retain"
+    },
+    "1": {
+      "Damage": 20,
+      "Keywords": "Accuracy,Exile,Retain"
+    }
+  },
+  "YoumuSpiritMediumBind": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "C",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "3C",
+      "Value1": 4
+    },
+    "1": {
+      "Value1": 5
+    }
+  },
+  "YoumuSpringWind": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1G",
+      "Value1": 2,
+      "Value2": 3
+    },
+    "1": {
+      "Cost": 1
+    }
+  },
+  "YoumuStrangeBird": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1GG",
+      "Value1": 2,
+      "Value2": 2
+    },
+    "1": {
+      "Cost": "1G",
+      "Value2": 3
+    }
+  },
+  "YoumuSwordAura": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1W",
+      "Value1": 2,
+      "Value2": 1
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "YoumuSwordOfBinding": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1G",
+      "Damage": 12,
+      "Value1": 2
+    },
+    "1": {
+      "Damage": 14,
+      "Value1": 3
+    }
+  },
+  "YoumuTenKingsRetribution": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "2WW",
+      "Block": 20,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Block": 28,
+      "Keywords": "Exile"
+    }
+  },
+  "YoumuThreeKons": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "WG",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1H:HWG",
+      "Value1": 3,
+      "Value2": 1,
+      "Keywords": "Ethereal"
+    },
+    "1": {
+      "Cost": 1,
+      "Value2": 2,
+      "Keywords": "Ethereal"
+    }
+  },
+  "YoumuTransmigrationSlash": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "2G",
+      "Damage": 18,
+      "Value1": 2,
+      "Value2": 9,
+      "Keywords": "Ethereal"
+    },
+    "1": {
+      "Damage": 24,
+      "Value1": 3,
+      "Value2": 12,
+      "Keywords": "Ethereal"
+    }
+  },
+  "YoumuTurningAngelCut": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "WG",
+    "IsXCost": true,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "WG",
+      "Value1": 1,
+      "Value2": 2,
+      "Mana": "WW",
+      "ManaEmpty": 0,
+      "ManaGreen": "G"
+    },
+    "1": {
+      "Value2": 3
+    }
+  },
+  "YoumuTwoHundredYojana": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1W",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 2
+    }
+  },
+  "YoumuUnendingWinter": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "4U",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "2U"
+    }
+  },
+  "YoumuWatchtowerSword": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "2G",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "1G",
+      "Keywords": "Initial"
+    }
+  },
+  "YoumuWaterfowlDance": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "WU",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "WU",
+      "Damage": 8,
+      "Value1": 2,
+      "Value2": 3,
+      "Mana": "WUC",
+      "UnsheathedThreshold1": 1,
+      "UnsheathedThreshold2": 2,
+      "UnsheathedThreshold3": 3
+    },
+    "1": {
+      "Damage": 10,
+      "Value2": 4,
+      "Mana": "WUP"
+    }
+  },
+  "YoumuWheelOfPain": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "2GG",
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "YoumuWickedSoul": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "1G",
+      "Value1": 3,
+      "Value2": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 4,
+      "Value2": 3,
+      "Keywords": "Exile"
+    }
+  },
+  "YoumuYuyukoFriend": {
+    "Rarity": "Rare",
+    "Type": "Friend",
+    "Colors": "GWB",
+    "IsXCost": false,
+    "Owner": "YoumuMod",
+    "0": {
+      "Cost": "WBG",
+      "Value1": 6,
+      "Value2": 3,
+      "Mana": "BG",
+      "Loyalty": 4,
+      "PassiveCost": 2,
+      "ActiveCost": "-3",
+      "UltimateCost": "-8"
+    },
+    "1": {
+      "Value1": 8,
+      "Loyalty": 4,
+      "PassiveCost": 2,
+      "ActiveCost": "-3",
+      "UltimateCost": "-8"
+    }
   }
 }

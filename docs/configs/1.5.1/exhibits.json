@@ -12,5 +12,19 @@
     "Value1": 1,
     "Mana": "R",
     "BaseMana": "R"
+  },
+  "YoumuExhibitG": {
+    "Owner": "Youmu",
+    "Rarity": "Shining",
+    "Value1": 1,
+    "Mana": "G",
+    "BaseMana": "G"
+  },
+  "YoumuExhibitW": {
+    "Owner": "Youmu",
+    "Rarity": "Shining",
+    "Value1": 1,
+    "Mana": "W",
+    "BaseMana": "W"
   }
 }

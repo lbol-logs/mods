@@ -5,5 +5,12 @@
     "Version": "1.4.8",
     "Character": "Utsuho",
     "Url": "https://thunderstore.io/c/touhou-lost-branch-of-legend/p/Zosit/UtsuhoCharacter/"
+  },
+  {
+    "GUID": "rmrfmaxx.lbol.YoumuCharacterMod",
+    "Name": "Youmu Character Mod",
+    "Version": "0.4.12",
+    "Character": "YoumuMod",
+    "Url": "https://thunderstore.io/c/touhou-lost-branch-of-legend/p/rmrfmaxx/Youmu_Konpaku/"
   }
 ]

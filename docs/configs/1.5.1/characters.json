@@ -9,5 +9,16 @@
       "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "InverseBeam", "InverseBeam", "BlowAway", "BlowAway", "BlowAway", "ShootingStar"],
       "Exhibit": "BlackSun"
     }
+  },
+  "YoumuMod": {
+    "BaseMana": "WWGG",
+    "A": {
+      "Cards": ["Shoot"," Shoot"," Boundary"," Boundary"," YoumuAttackW"," YoumuAttackW"," YoumuBlockG"," YoumuBlockG"," YoumuBlockG"," YoumuInsightfulSword"],
+      "Exhibit": "YoumuExhibitW"
+    },
+    "B": {
+      "Cards": ["Shoot"," Shoot"," Boundary"," Boundary"," YoumuAttackG"," YoumuAttackG"," YoumuBlockW"," YoumuBlockW"," YoumuBlockW"," YoumuAsuraSword"],
+      "Exhibit": "YoumuExhibitG"
+    }
   }
 }
