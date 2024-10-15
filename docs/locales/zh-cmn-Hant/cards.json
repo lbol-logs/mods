@@ -1,0 +1,308 @@
+{
+  "YoumuAgelessObsession": {
+    "Name": "无量劫",
+    "Description": "对所有敌人施加 <Value1 /> 层<h>锁定</h>。<br />敌人受到的<h>锁定</h>翻倍。"
+  },
+  "YoumuAppearingAndDisappearing": {
+    "Name": "大悟显晦",
+    "Description": "选择手牌，弃牌堆和抽牌堆中至多 <Value1 /> 张牌<h>放逐</h>。<br />然后将因此<h>放逐</h>的妖梦<h>虚无</h>牌洗入弃牌堆。"
+  },
+  "YoumuAscensionToBuddhahood": {
+    "Name": "成佛得脱",
+    "Description": "每回合打出的第一张牌具有<h>回响</h>。",
+    "UpgradedDescription": "选择手中至多 <Value2 /> 张牌，赋予它们<h>回响</h>。<br />每回合打出的第一张牌具有<h>回响</h>。"
+  },
+  "YoumuAsuraSword": {
+    "Name": "修罗剑",
+    "Description": "造成 <Damage /> 点伤害 <Value1 /> 次。<br />施加 <Value1 /> 层<h>锁定</h>。"
+  },
+  "YoumuAttackG": {
+    "Name": "天界剑",
+    "Description": "造成 <Damage /> 点伤害。"
+  },
+  "YoumuAttackW": {
+    "Name": "人界剑",
+    "Description": "造成 <Damage /> 点伤害。"
+  },
+  "YoumuBizareness": {
+    "Name": "六道怪奇",
+    "Description": "当一个敌人受到<h>锁定</h>时，还会对其施加 <Value1 /> 层<h>中毒</h>。"
+  },
+  "YoumuBlockG": {
+    "Name": "防御姿态",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
+  },
+  "YoumuBlockW": {
+    "Name": "魂魄印记",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
+  },
+  "YoumuBloodOfAsura": {
+    "Name": "修罗之血",
+    "Description": "当一张名为<h>斩</h>的牌被打出时，获得 <Value1 /> 点<h>火力</h>。"
+  },
+  "YoumuBuddhahoodOfFlora": {
+    "Name": "草木成佛",
+    "Description": "获得 <Value1 /> 层<h>闪避</h>。<br /><h>拔刀</h>。"
+  },
+  "YoumuBulletCuttingSpirit": {
+    "Name": "斩断弹幕的心之眼",
+    "Description": "恢复 <Value2 /> 点生命。<br />在本场战斗中<h>升级</h> 一张手牌。",
+    "UpgradedDescription": "恢复 <Value2 /> 点生命。<br />在本场战斗中<h>升级</h>所有手牌。"
+  },
+  "YoumuCircularVicissitude": {
+    "Name": "圆心流转",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />如果手中有 <Value1 /> 张或更多的名为<h>斩</h>的牌，<h>拔刀</h>。"
+  },
+  "YoumuClearingMind": {
+    "Name": "消除杂念",
+    "Description": "选择至多 <Value1 /> 张手牌，<h>放逐</h>它们，<br />将等量的<h>现世斩</h>加入手中。"
+  },
+  "YoumuClearingTheSixSenses": {
+    "Name": "六根清净",
+    "Description": "移除<PlayerName />的所有负面状态。<br />如果移除了负面状态，获得 <Value1 /> 点<h>火力</h>。"
+  },
+  "YoumuClosedEyeSlash": {
+    "Name": "瞑斩",
+    "Description": "造成 <Damage /> 点伤害。<br />造成未被格挡的伤害时，获得等量的<h>还击</h>。"
+  },
+  "YoumuConventionalTruth": {
+    "Name": "俗谛常驻",
+    "Description": "从<h>放逐</h>区选择至多 <Value1 /> 张牌移回手中。<br /><h>拔刀</h>。"
+  },
+  "YoumuCounterSignalling": {
+    "Name": "反击的狼烟",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />获得 <Block /> 点<h>还击</h>。<br /><h>成长</h>：额外获得 <Value1 /> 点<h>格挡</h>和<h>还击</h>。"
+  },
+  "YoumuCrescentMoonSlash": {
+    "Name": "弦月斩",
+    "Description": "造成 <Damage /> 点伤害。<br />施加 <Value1 /> 层<h>锁定</h>。<br /><h>拔刀</h>。"
+  },
+  "YoumuDivineSevering": {
+    "Name": "神闪",
+    "Description": "当<PlayerName /><h>拔刀</h>时，在本场战斗中，提升名为<h>斩</h>的卡牌的伤害 <Value1 /> 点。<br /><h>拔刀</h>。",
+    "UpgradedDescription": "当<PlayerName /><h>拔刀</h>时，在本场战斗中，提升名为<h>斩</h>的卡牌的伤害 <Value1 /> 点。<br /><h>拔刀</h>两次。"
+  },
+  "YoumuDualWielder": {
+    "Name": "生命双持者",
+    "Description": "<PlayerName />每施加 <Value1 /> 层<h>锁定</h>，将 <Value2 /> 张<h>现世斩</h>加入手中。",
+    "UpgradedDescription": "将 <Value2 /> 张<h>现世斩</h>加入手中。<br /><PlayerName />每施加 <Value1 /> 层<h>锁定</h>，将 <Value2 /> 张<h>现世斩</h>加入手中。"
+  },
+  "YoumuDyingDeva": {
+    "Name": "天人之衰",
+    "Description": "<h>回合结束时</h>： 对具有<h>锁定</h>的敌人造成 <Value1 /> 点伤害。<br /><h>手牌中</h>： 当敌人受到负面状态时，伤害提高 <Value2 /> 点。"
+  },
+  "YoumuEmbercleave": {
+    "Name": "鞍烬锋",
+    "Description": "<h>手牌中</h>：当一张<h>攻击</h>牌被打出时，本场战斗中，<SelfName />的费用降低<Mana /> 。<br />本回合中，<h>攻击</h>牌造成的伤害翻倍。"
+  },
+  "YoumuFlashOfTheNetherworld": {
+    "Name": "冥府光芒一闪",
+    "Description": "在每个额外回合结束时，此回合中每有一张牌被打出，对所有敌人造成 <Value1 /> 点伤害。<br />结束<PlayerName />的回合。<br />进行一个额外的回合。<br /><h>时间有限</h><Mana />"
+  },
+  "YoumuGhostSlash": {
+    "Name": "幽鬼斩",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>被放逐时</h>： 获得 <Block /> 点<h>格挡</h>。"
+  },
+  "YoumuGreatEnlightenment": {
+    "Name": "大悟",
+    "Description": "<PlayerName />的回合开始时，<h>拔刀</h>。<br /><h>拔刀</h>。"
+  },
+  "YoumuHakugyokurou": {
+    "Name": "白玉楼",
+    "Description": "<h>回合开始时</h>：抽 <Value2 /> 张牌。<br /><h>手牌中</h>： 如果此牌在手中时打出过至少 <Value1 /> 张名为<h>斩</h>的牌，弃掉此牌，对所有敌人造成 <Damage /> 点伤害。"
+  },
+  "YoumuHalfBodyDistillation": {
+    "Name": "半身大悟",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />从<h>放逐</h>区选择 <Value1 /> 张妖梦的<h>斩</h>牌或<h>虚无</h>牌移回手中。"
+  },
+  "YoumuHeavenlyHalo": {
+    "Name": "天界法轮",
+    "Description": "获得 <Block /> 点<h>格挡</h>.<br />将 <Value1 /> 张<h>现世斩</h>加入手中。"
+  },
+  "YoumuHesitationCuttingSword": {
+    "Name": "斩断迷惘的剑",
+    "Description": "将 <Value1 /> 张<h>现世斩</h>加入手中。<br /><h>拔刀</h>两次。"
+  },
+  "YoumuHesitationSign": {},
+  "YoumuInclemency": {
+    "Name": "众生无情之声",
+    "Description": "所有手牌<h>暂塑</h>为 <Mana />。<br />本回合内无法再抽牌。",
+    "UpgradedDescription": "抽 <Value1 /> 张牌。<br />所有手牌 <h>暂塑</h>为 <Mana />。<br />本回合内无法再抽牌。"
+  },
+  "YoumuInfiniteKalpas": {
+    "Name": "无尽之劫",
+    "Description": "<PlayerName />的回合开始时，将 <Value1 /> 张随机的妖梦<h>虚无</h>牌加入手中。这些卡牌具有<h>放逐</h>。"
+  },
+  "YoumuInnerEye": {
+    "Name": "心眼",
+    "Description": "当一张名为<h>斩</h>的牌被打出后，获得 <Value1 /> 点<h>还击</h>。"
+  },
+  "YoumuInsightfulSword": {
+    "Name": "炯眼剑",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>拔刀</h>。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />将一张<h>现世斩</h>加入手中。<br /><h>拔刀</h>。"
+  },
+  "YoumuKarmaGust": {
+    "Name": "业之风",
+    "Description": "对所有敌人施加 <Value1 /> 层<h>锁定</h>和<h>虚弱</h>。"
+  },
+  "YoumuKarmicPunishment": {
+    "Name": "无为无策之冥罚",
+    "Description": "获得 <Mana />。<br />抽 <Value1 /> 张牌。<br />获得 <Value2 /> 层<h>锁定</h>。"
+  },
+  "YoumuLivingAndDead": {
+    "Name": "生与死",
+    "Description": "从 <Value1 /> 张妖梦<h>虚无</h>牌中选择 <Value2 /> 张加入手中，这张牌<h>暂塑</h>为<Mana />，具有<h>放逐</h>。"
+  },
+  "YoumuLotusPostureSlash": {},
+  "YoumuMatsuyoiReflecting": {
+    "Name": "待宵反射",
+    "Description": "将<PlayerName />的<h>还击</h>翻倍。<br />如果<PlayerName />的<h>还击</h>小于 <Block /> 点, 改为获得 <Block /> 点<h>还击</h>。"
+  },
+  "YoumuMeikyoShisui": {
+    "Name": "明镜止水",
+    "Description": "获得 <Block /> 点<h>还击</h>。<br />抽 <Value1 /> 张牌。"
+  },
+  "YoumuNetherMeditation": {
+    "Name": "下界冥想",
+    "Description": "选择手牌中的 <Value2 /> 张攻击牌。<br />将它的 <Value1 /> 张<h>复制</h>加入手中。"
+  },
+  "YoumuNextToNone": {
+    "Name": "基本不存在！",
+    "Description": "移除敌人的<h>护盾</h>，<h>格挡</h>，<h>闪避</h>和<h>天衣无缝</h>。<br /><h>拔刀</h>。"
+  },
+  "YoumuPhantomFormation": {
+    "Name": "幻影形态",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />对所有具有<h>锁定</h>的敌人施加 <Value1 /> 点<h>暂失火力</h>。"
+  },
+  "YoumuPhosphoricSlash": {
+    "Name": "燐气斩",
+    "Description": "造成 <Damage /> 点伤害。<br />如果一名敌人拥有 <Value1 /> 层或更多<h>锁定</h>，获得<Mana />。"
+  },
+  "YoumuPreachingAvici": {
+    "Name": "折伏无间",
+    "Description": "将 <Value1 /> 张<h>现世斩</h>加入手中。<br /><h>被放逐时</h>：<h>拔刀</h>。"
+  },
+  "YoumuPretaSword": {
+    "Name": "饿鬼剑",
+    "Description": "造成 <Damage /> 点伤害。<br />如果一个敌人具有 <Value1 /> 层或更多的<h>锁定</h>，抽 <Value2 /> 张牌。"
+  },
+  "YoumuQuickDraw": {
+    "Name": "快速抽刀",
+    "Description": "抽 <Value1 /> 张牌。<br /><h>拔刀</h>。"
+  },
+  "YoumuReflectionSlash": {
+    "Name": "反射斩",
+    "Description": "造成 <Damage /> 点伤害。<br />如果有敌人的意图为攻击，获得 <Block /> 点<h>还击</h>。"
+  },
+  "YoumuReinforcementOfTheArmy": {},
+  "YoumuSatelliteSlash": {
+    "Name": "卫星斩",
+    "Description": "造成 <Damage /> 点伤害。<br />当<PlayerName /> <h>拔刀</h>时，<SelfName />从弃牌堆回到手中。"
+  },
+  "YoumuScatteredFlowers": {
+    "Name": "散花",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />对所有敌人造成等同于其<h>锁定</h>层数的伤害。",
+    "UpgradedDescription": "获得 <Block /> 点<h>格挡</h>。<br />对所有敌人造成等同于其<h>锁定</h>层数 <Value1 /> 倍的伤害。"
+  },
+  "YoumuSevenHakus": {
+    "Name": "七魄",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />获得 <Block /> 点<h>还击</h>。<br />获得 <Value1 /> 点<h>反射</h>。<br /><h>被放逐时</h>：下回合开始时不会失去格挡。"
+  },
+  "YoumuSilentNirvana": {
+    "Name": "涅槃寂静",
+    "Description": "每当一个敌人受到负面状态，获得 <Value1 /> 点<h>格挡</h>。"
+  },
+  "YoumuSingleThought": {
+    "Name": "一念",
+    "Description": "获得 <Mana />。<br /><h>被放逐时</h>： 下回合获得<ManaEthereal />。"
+  },
+  "YoumuSlashDraw": {
+    "Name": "抽刀斩",
+    "Description": "<h>抽到时</h>：对所有敌人造成 <Damage /> 点伤害，然后<h>放逐</h><SelfName />。"
+  },
+  "YoumuSlashOfDeparture": {
+    "Name": "迷津慈航斩",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>放逐</h>区每有一张牌，伤害提升 <Value1 /> 点。"
+  },
+  "YoumuSlashOfKarmicWind": {
+    "Name": "业风斩",
+    "Description": "造成 <Damage /> 点伤害 <Value1 /> 次。<br /><h>锁定</h>提升<SelfName />的伤害变为2倍。"
+  },
+  "YoumuSlashOfMeditation": {
+    "Name": "冥想斩",
+    "Description": "造成 <Damage /> 点伤害。<br />获得 <Block /> 点<h>格挡</h>。"
+  },
+  "YoumuSlashOfPresent": {
+    "Name": "现世斩",
+    "Description": "造成 <Damage /> 点伤害。"
+  },
+  "YoumuSpiritMediumBind": {
+    "Name": "凭依之缚",
+    "Description": "当一张牌被<h>放逐</h>后，对所有敌人造成 <Value1 /> 点伤害。"
+  },
+  "YoumuSpringWind": {
+    "Name": "春风",
+    "Description": "对所有敌人施加 <Value1 /> 层<h>锁定</h>。<br />抽 <Value2 /> 张牌。"
+  },
+  "YoumuStrangeBird": {
+    "Name": "怪鸟",
+    "Description": "施加 <Value2 /> 层<h>锁定</h>。<br />获得 <Value1 /> 层<h>闪避</h>。"
+  },
+  "YoumuSwordAura": {
+    "Name": "剑气",
+    "Description": "获得 <Value1 /> 点<h>火力</h>。<br /><h>手牌中</h>：当<PlayerName /><h>拔刀</h>，本回合中此牌额外获得 <Value2 /> 点<h>火力</h>。"
+  },
+  "YoumuSwordOfBinding": {
+    "Name": "缠缚剑",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br />对所有敌人施加 <Value1 /> 层<h>锁定</h>。"
+  },
+  "YoumuTenKingsRetribution": {
+    "Name": "十王的报应",
+    "Description": "获得 <Block /> 点<h>还击</h>。<br />将<PlayerName />的<h>格挡</h>转化为等量的<h>还击</h>。"
+  },
+  "YoumuThreeKons": {
+    "Name": "三魂",
+    "Description": "抽 <Value1 /> 张牌。获得 <Value1 /> 点<h>带电</h>。<br /><h>被放逐时</h>：下个回合开始时，抽 <Value2 /> 张牌。",
+    "UpgradedDescription": "抽 <Value1 /> 张牌。<br /><h>被放逐时</h>：下个回合开始时，抽 <Value2 /> 张牌。"
+  },
+  "YoumuTransmigrationSlash": {
+    "Name": "生死流转斩",
+    "Description": "造成 <Damage /> 点伤害。<br />施加 <Value1 /> 层<h>锁定</h>。<br /><h>被放逐时</h>: 所有敌人失去 <Value2 /> 点生命。"
+  },
+  "YoumuTurningAngelCut": {
+    "Name": "天女返",
+    "Description": "<h>每支付</h><Mana />：将 <Value1 /> 张<h>现世斩</h>加入手中，<h>暂塑</h>为<ManaEmpty />。<br /><h>每支付</h><ManaGreen />：施加 <Value2 /> 层<h>锁定</h>。"
+  },
+  "YoumuTwoHundredYojana": {
+    "Name": "二百由旬之一闪",
+    "Description": "将 <Value1 /> 张<h>现世斩</h>加入手中。<br /><h>拔刀</h>。"
+  },
+  "YoumuUnendingWinter": {
+    "Name": "无尽的冬天",
+    "Description": "当<PlayerName />造成攻击伤害时，还会施加 <Value1 /> 层<h>寒冷</h>。"
+  },
+  "YoumuWatchtowerSword": {
+    "Name": "“楼观”剑",
+    "Description": "当<PlayerName />造成攻击伤害时，还会施加 <Value1 /> 层<h>锁定</h>。"
+  },
+  "YoumuWaterfowlDance": {
+    "Name": "水禽戏",
+    "Description": "造成 <Damage /> 点伤害 <Value1 /> 次。<br />依本回合中<PlayerName /><h>拔刀</h>的次数获得以下效果：<br /><UnsheathedThreshold1 />+：施加 <Value2 /> 层<h>锁定</h>。<br /><UnsheathedThreshold2 />+：多造成一次伤害。<br /><UnsheathedThreshold3 />+：获得<Mana />。"
+  },
+  "YoumuWheelOfPain": {
+    "Name": "幽明的苦轮",
+    "Description": "对所有敌人施加 <Value1 /> 层<h>锁定</h>。<br /><PlayerName />的回合开始时，对所有敌人施加 <Value1 /> 层<h>锁定</h>。"
+  },
+  "YoumuWickedSoul": {
+    "Name": "恶魂",
+    "Description": "施加 <Value1 /> 层<h>锁定</h>。<br />对敌人施加 <Value2 /> 点<h>失去火力</h>。"
+  },
+  "YoumuYuyukoFriend": {
+    "Name": "华胥的亡灵幽幽子",
+    "Description": "对所有敌人施加 <Value1 /> 层<h>生者必灭之理</h>。",
+    "PassiveDescription": "获得<Mana />。",
+    "ActiveDescription": "对所有敌人施加 <Value2 /> 层<h>虚弱</h>和<h>易伤</h>。",
+    "UltimateDescription": "<PlayerName />的每个回合结束时，对所有敌人施加 <Value1 /> 层<h>生者必灭之理</h>。"
+  }
+}
