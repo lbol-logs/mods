@@ -1,4 +1,72 @@
 {
+  "CautionStatus": {
+    "Name": "CAUTION!",
+    "Description": "<PlayerName />のターン開始時、<h>バースト</h>状態になり、<h>時間制限</h><Mana1 />。"
+  },
+  "ChargingStatus": {
+    "Name": "蓄熱",
+    "Description": "各ターンの終了時に<h>熱</h><Level />を得る。"
+  },
+  "FixedStarStatus": {
+    "Name": "フィクストスター",
+    "Description": "ターン終了時、手札を<Level />枚まで<h>保留</h>する。<br />この戦闘中、全ての<h>ダークマター</h>は<h>自動廃棄</h>を持つ。"
+  },
+  "GravityWellStatus": {
+    "Name": "重力の井戸",
+    "Description": "<PlayerName />のターン終了時、<Level /><h>バリア</h>を得て、<h>ダークマター</h>を1枚手札に加える。"
+  },
+  "HeatStatus": {
+    "Name": "熱",
+    "Description": "<OwnerName />のターン終了時、持っている<h>熱</h>5点ごとに<h>熱</h>が1減衰し、減衰した<h>熱</h>と同じ値のダメージを敵全体に与える。(<HeatDamage />)<br />キーワード<h>排熱</h>は持っている<h>熱</h>を全て消費して効果を発動する。"
+  },
+  "HeatVisorStatus": {
+    "Name": "ヒートバイザー",
+    "Description": "次のターンまでに<Level />回のライフ喪失を無効化する。"
+  },
+  "HotSpringStatus": {
+    "Name": "温泉",
+    "Description": "ターン開始時、<h>放射能</h><Level />と<h>温泉</h>1を得る。"
+  },
+  "MaintainReactionStatus": {
+    "Name": "反応継続",
+    "Description": "カードを<h>保留</h>するたび、<h>熱</h><Level />を得る。"
+  },
+  "MassDriverStatus": {
+    "Name": "マスドライバー",
+    "Description": "<h>質量体</h>が牽引されるたび、敵全体に<Level />ダメージを与える。"
+  },
+  "QuantumDissonanceStatus": {
+    "Name": "量子不和",
+    "Description": "各ターン最初に使用された<Level />枚の<h>ダークマター</h>は占術3を行う。"
+  },
+  "RadiationStatus": {
+    "Name": "放射能",
+    "Description": "ターン終了時、敵全体に<Level />ダメージを与える。"
+  },
+  "ResonancePlusStatus": {
+    "Name": "共振+",
+    "Description": "カードを<h>廃棄</h>するたび、<h>共振+</h>を1枚手札に加える。"
+  },
+  "ResonanceStatus": {
+    "Name": "共振",
+    "Description": "カードを<h>廃棄</h>するたび、<h>共振</h>を1枚手札に加える。"
+  },
+  "SunSpotStatus": {
+    "Name": "太陽黒点",
+    "Description": "<h>ダークマター</h>を使用した時、<h>熱</h>減衰ダメージを<Level />回発生させる。"
+  },
+  "TokamakStatus": {
+    "Name": "「ヘルズトカマク」",
+    "Description": "ターン開始時、<h>熱</h><Level />を得る。"
+  },
+  "TurboFuelStatus": {
+    "Name": "ターボ燃料",
+    "Description": "ターン開始時、<manatype /><Level />を得てカードを<Level />枚引く。<br />ランダムな手札1枚を<h>廃棄</h>する。"
+  },
+  "WasteNotStatus": {
+    "Name": "無駄省き",
+    "Description": "カードを<h>廃棄</h>するたび、<h>熱</h><Level />を得る。"
+  },
   "YoumuAgelessObsessionSe": {
     "Name": "一念無量劫",
     "Description": "対象にロックオン<h>ロックオン</h>が与えられた時, 追加でその<Level />倍の<h>ロックオン</h>を与える。"

@@ -176,8 +176,8 @@
   },
   "NuclearDive": {
     "Name": "Uncontainable Nuclear Reaction Dive",
-    "Description": "Double <PlayerName />'s <h>Heat</h>.<br />Take 1 damage for every 10 <h>Heat</h> <PlayerName /> has.<br /><h>Vent</h> to deal <Damage /> damage.",
-    "UpgradedDescription": "Triple <PlayerName />'s <h>Heat</h>.<br />Take 1 damage for every 10 <h>Heat</h> <PlayerName /> has.<br /><h>Vent</h> to deal <Damage /> damage."
+    "Description": "Double <PlayerName />'s <h>Heat</h>.<br />Take 1 damage for every 10 <h>Heat</h> <PlayerName /> has.<br /><h>Vent</h> to deal <Damage /> damage.<br /><h>Expel</h>: Gain <Mana />.",
+    "UpgradedDescription": "Triple <PlayerName />'s <h>Heat</h>.<br />Take 1 damage for every 10 <h>Heat</h> <PlayerName /> has.<br /><h>Vent</h> to deal <Damage /> damage.<br /><h>Expel</h>: Gain <Mana />."
   },
   "NuclearFusion": {
     "Name": "Nuclear Fusion",
@@ -206,7 +206,7 @@
   },
   "Reignition": {
     "Name": "Reignition",
-    "Description": "Deal damage equal to <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }) the number of cards in <h>Exile</h>."
+    "Description": "Deal damage equal to <Value1 /> times the number of cards in <h>Exile</h>."
   },
   "Remember": {
     "Name": "Help Me Remember, Satori-sama!",

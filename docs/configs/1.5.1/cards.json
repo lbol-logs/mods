@@ -714,11 +714,13 @@
     "0": {
       "Cost": "RRR",
       "Damage": 0,
+      "Mana": "{4R}",
       "Keywords": "Accuracy,Exile"
     },
     "1": {
       "Cost": "RRR",
       "Damage": 0,
+      "Mana": "{4R}",
       "Keywords": "Accuracy,Exile"
     }
   },
@@ -886,12 +888,12 @@
     "Owner": "Utsuho",
     "0": {
       "Cost": "2R",
-      "Damage": 6,
+      "Damage": 5,
       "SalvoCount": 1
     },
     "1": {
       "Cost": "2R",
-      "Damage": 8
+      "Damage": 7
     }
   },
   "ShootingStar": {
@@ -993,11 +995,11 @@
     "Owner": "Utsuho",
     "0": {
       "Cost": "1R",
-      "Value1": 8
+      "Value1": 9
     },
     "1": {
       "Cost": "1R",
-      "Value1": 12
+      "Value1": 13
     }
   },
   "SubterraneanSun": {
@@ -1183,11 +1185,11 @@
     "Owner": "Utsuho",
     "0": {
       "Cost": "1RR",
-      "Value1": 6
+      "Value1": 5
     },
     "1": {
       "Cost": "1RR",
-      "Value1": 9
+      "Value1": 8
     }
   },
   "WhiteHole": {
