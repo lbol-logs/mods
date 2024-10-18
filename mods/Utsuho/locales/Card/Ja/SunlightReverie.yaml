@@ -1,0 +1,12 @@
+﻿SunlightReverie:
+  Name: サンライトレヴァリエ
+  Description: >-
+    |火焔|を2枚手札に加える。
+
+    ランダムな山札1枚を|廃棄|する。
+  UpgradedDescription: >-
+    |火焔|を2枚手札に加える。
+
+    |チョイス|：ランダムな捨て札1枚を|廃棄|する、もしくはランダムな山札1枚を|廃棄|する。
+  ExtraDescription1: ランダムな山札1枚を|廃棄|する。
+  ExtraDescription2: ランダムな捨て札1枚を|廃棄|する。

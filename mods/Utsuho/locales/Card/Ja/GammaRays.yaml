@@ -1,0 +1,7 @@
+﻿GammaRays:
+  Name: ガンマ線
+  Description: '|放射能|{Value1}を得る。'
+  UpgradedDescription: >-
+    |放射能|{Value1}を得る。
+
+    |成長|：得られる|放射能|を{Value2}増やす。

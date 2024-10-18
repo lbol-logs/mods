@@ -1,0 +1,3 @@
+﻿MaintainReaction:
+  Name: 継続反応
+  Description: カードが|保留|されるたび、|熱|{Value1}を得る。

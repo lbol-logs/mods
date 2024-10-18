@@ -1,0 +1,8 @@
+﻿ExpandingBrilliance:
+  Name: 拡散する輝き
+  Description: >-
+    カードを1枚引く。
+
+    敵全体に|臨時火力ダウン|{Value1}を与える。
+
+    手札のカード1枚をこの戦闘中|アップグレード|する。

@@ -1,0 +1,10 @@
+﻿PlasmaBurn:
+  Name: 高温プラズマ
+  ExtraDescription1: >-
+    |熱|{Value1}を得る
+
+    {PlayerName}の|熱|が{Value2}以上ならば、|排熱|してダメージを与える。
+  Description: >-
+    |熱|{Value1}を得る
+
+    {PlayerName}の|熱|が{Value2}以上ならば、|排熱|して{Damage}ダメージを与える。

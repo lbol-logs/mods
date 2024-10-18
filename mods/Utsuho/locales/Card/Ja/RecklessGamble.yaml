@@ -1,0 +1,6 @@
+﻿RecklessGamble:
+  Name: 無謀なギャンブル
+  Description: >-
+    カードを{Value1}枚引く。
+
+    ランダムな手札1枚を|廃棄|する。

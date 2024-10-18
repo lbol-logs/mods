@@ -1,0 +1,4 @@
+﻿GravityWellStatus:
+  Name: 重力の井戸
+  Description: '{PlayerName}のターン終了時、{Level}|バリア|を得て、|ダークマター|を1枚手札に加える。'
+  Brief: '{PlayerName}のターン終了時、|バリア|を得て、|ダークマター|を1枚手札に加える。'

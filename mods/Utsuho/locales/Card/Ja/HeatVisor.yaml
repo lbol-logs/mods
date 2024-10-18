@@ -1,0 +1,6 @@
+﻿HeatVisor:
+  Name: 核熱バイザー
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    {PlayerName}の|熱|が{Value1}以上ならば、次のターンまでに1回だけライフの減少を無効化する。

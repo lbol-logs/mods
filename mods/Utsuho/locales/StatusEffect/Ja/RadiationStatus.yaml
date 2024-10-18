@@ -1,0 +1,4 @@
+﻿RadiationStatus:
+  Name: 放射能
+  Description: ターン終了時、敵全体に{Level}ダメージを与える。
+  Brief: ターン終了時、敵全体にダメージを与える。

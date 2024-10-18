@@ -1,0 +1,6 @@
+﻿Tokamak:
+  Name: 「ヘルズトカマク」
+  Description: >-
+    |熱|{Value1}を得る。
+
+    次のプレイヤーのターン開始時に|熱|{Value1}を得る。

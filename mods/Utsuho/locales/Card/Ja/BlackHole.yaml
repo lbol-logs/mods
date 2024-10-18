@@ -1,0 +1,4 @@
+﻿BlackHole:
+  Name: ブラックホール
+  Description: '|手札効果|：{PlayerName}のターン開始時、{Block}|ブロック|を得て、ランダムな手札1枚を捨てる。'
+  DetailText: '{SelfName}は使用しても|廃棄|される以外の効果を持たない。'

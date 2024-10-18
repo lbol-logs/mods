@@ -1,0 +1,6 @@
+﻿TurboFuel:
+  Name: ターボ燃料
+  Description: >-
+    {PlayerName}のターン開始時、{manatype}を得てカードを{Value1}枚引く。
+
+    ランダムな手札1枚を|廃棄|する。

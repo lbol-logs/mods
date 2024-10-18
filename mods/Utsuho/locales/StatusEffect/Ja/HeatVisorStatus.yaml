@@ -1,0 +1,4 @@
+﻿HeatVisorStatus:
+  Name: ヒートバイザー
+  Description: 次のターンまでに{Level}回のライフ喪失を無効化する。
+  Brief: 次のターンまでのライフ喪失を無効化する。

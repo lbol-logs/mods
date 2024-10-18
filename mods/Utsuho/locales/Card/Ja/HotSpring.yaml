@@ -1,0 +1,3 @@
+﻿HotSpring:
+  Name: 地霊温泉
+  Description: '{PlayerName}のターン開始時、|放射能|{Value1}を得る。得られる|放射能|は毎ターン1ずつ増えていく。'

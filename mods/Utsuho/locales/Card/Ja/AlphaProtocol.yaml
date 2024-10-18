@@ -1,0 +1,10 @@
+﻿AlphaProtocol:
+  Name: α崩壊プロトコル
+  Description: >-
+    |β崩壊プロトコル|を1枚山札に加える。
+
+    ランダムな手札{Value1}枚を捨てる。
+  UpgradedDescription: >-
+    |β崩壊プロトコル+|を1枚山札に加える。
+
+    ランダムな手札{Value1}枚を捨てる。

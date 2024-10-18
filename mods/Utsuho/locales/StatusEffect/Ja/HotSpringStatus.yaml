@@ -1,0 +1,4 @@
+﻿HotSpringStatus:
+  Name: 温泉
+  Description: ターン開始時、|放射能|{Level}と|温泉|1を得る。
+  Brief: ターン開始時、|放射能|と|温泉|1を得る。

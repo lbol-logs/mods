@@ -1,0 +1,4 @@
+﻿EternityEngine:
+  Name: 悠久機関
+  Description: '|手札効果|：{PlayerName}のターン開始時、|火力|{Value1}を得て、ランダムな手札1枚を|廃棄|する。'
+  DetailText: '{SelfName}は使用しても|廃棄|される以外の効果を持たない。'

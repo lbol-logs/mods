@@ -1,0 +1,14 @@
+﻿Crossfeed:
+  Name: クロスフィード
+  ExtraDescription1: >-
+    |排熱|してダメージを与える。
+
+    手札にある|質量体|1枚につき|熱|{Value1}を得る。
+
+    {PlayerName}が持っている|熱|{Value2}点ごとに|ダークマター|を1枚手札に加える。
+  Description: >-
+    |排熱|して{Damage}ダメージを与える。
+
+    手札にある|質量体|1枚につき|熱|{Value1}を得る。
+
+    {PlayerName}が持っている|熱|{Value2}点ごとに|ダークマター|を1枚手札に加える。

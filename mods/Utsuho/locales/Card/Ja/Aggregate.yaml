@@ -1,0 +1,8 @@
+﻿Aggregate:
+  Name: 凝集体
+  Description: >-
+    {Damage}ダメージを与える。
+
+    {Block}|ブロック|を得る。
+
+    |熱|{Value1}を得る。

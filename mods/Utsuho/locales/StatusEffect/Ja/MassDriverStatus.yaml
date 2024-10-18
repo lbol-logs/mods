@@ -1,0 +1,4 @@
+﻿MassDriverStatus:
+  Name: マスドライバー
+  Description: '|質量体|が牽引されるたび、敵全体に{Level}ダメージを与える。'
+  Brief: '|質量体|が牽引されるたび、敵全体にダメージを与える。'

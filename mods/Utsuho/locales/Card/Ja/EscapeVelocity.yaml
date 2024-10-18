@@ -1,0 +1,15 @@
+﻿EscapeVelocity:
+  Name: 脱出速度
+  Description: >-
+    ランダムな手札{Value2}枚を捨てる。
+
+    カードを{Value1}枚引く。
+  UpgradedDescription: '|チョイス|：ランダムな手札{Value2}枚を捨ててからカードを{Value1}枚引く、もしくはカードを{Value1}枚引いてからランダムな手札{Value2}枚を捨てる。'
+  ExtraDescription2: >-
+    カードを{Value1}枚引く。
+
+    ランダムな手札{Value2}枚を捨てる。
+  ExtraDescription1: >-
+    ランダムな手札{Value2}枚を捨てる。
+
+    カードを{Value1}枚引く。

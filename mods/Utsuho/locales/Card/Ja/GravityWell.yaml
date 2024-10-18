@@ -1,0 +1,3 @@
+﻿GravityWell:
+  Name: 重力の井戸
+  Description: '{PlayerName}のターン終了時、{Value1}|バリア|を得て、|ダークマター|1枚を手札に加える。'

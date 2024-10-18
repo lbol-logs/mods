@@ -1,0 +1,4 @@
+﻿WasteNotStatus:
+  Name: 無駄省き
+  Description: カードを|廃棄|するたび、|熱|{Level}を得る。
+  Brief: カードを|廃棄|するたび、|熱|を得る。

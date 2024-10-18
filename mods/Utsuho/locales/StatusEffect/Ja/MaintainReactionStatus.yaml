@@ -1,0 +1,4 @@
+﻿MaintainReactionStatus:
+  Name: 反応継続
+  Description: カードを|保留|するたび、|熱|{Level}を得る。
+  Brief: カードを|保留|するたび、|熱|{Level}を得る。

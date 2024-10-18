@@ -1,0 +1,10 @@
+﻿BetaProtocol:
+  Name: β崩壊プロトコル
+  Description: >-
+    |γ崩壊プロトコル|を1枚山札に加える。
+
+    ランダムな手札{Value1}枚を|廃棄|する。
+  UpgradedDescription: >-
+    |γ崩壊プロトコル+|を1枚山札に加える。
+
+    ランダムな手札{Value1}枚を|廃棄|する。

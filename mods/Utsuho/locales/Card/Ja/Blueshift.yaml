@@ -1,0 +1,11 @@
+﻿Blueshift:
+  Name: 青方偏移
+  Description: >-
+    |重複過払い|{Mana}：{SelfName}を1枚手札に加える。
+
+    {Block}|ブロック|を得る。
+  UpgradedDescription: >-
+    |重複過払い|{Mana}：{SelfName}+を1枚手札に加える。
+
+    {Block}|ブロック|を得る。
+  DetailText: 重複過払い：このカードを使用した時、選択されたマナは全て消費される。消費したマナのうち、このカードのコストを除いた残りに含まれる過払い分のコスト1セットにつき追加効果を1回得る。

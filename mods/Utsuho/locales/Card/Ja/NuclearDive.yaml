@@ -1,0 +1,18 @@
+﻿NuclearDive:
+  Name: 核反応制御不能ダイブ
+  Description: >-
+    {PlayerName}の|熱|を2倍にする。
+
+    {PlayerName}の|熱|10点につき1ダメージを受ける。
+
+    |排熱|して{Damage}ダメージを与える。
+
+    |退治|：{Mana}を得る。
+  UpgradedDescription: >-
+    {PlayerName}の|熱|を3倍にする。
+
+    {PlayerName}の|熱|10点につき1ダメージを受ける。
+
+    |排熱|して{Damage}ダメージを与える。
+
+    |退治|：{Mana}を得る。

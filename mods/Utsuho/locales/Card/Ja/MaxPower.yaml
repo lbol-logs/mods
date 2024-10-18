@@ -1,0 +1,12 @@
+﻿MaxPower:
+  Name: パワーマックス
+  Description: >-
+    手札を全て|廃棄|する。
+
+    全てのマナを失い、{Mana}を得る。
+
+    カードを{Value1}枚引く。
+
+    |臨時火力|{Value1}を得る。
+
+    |時間制限|<sprite="ManaSprite" name="1">.

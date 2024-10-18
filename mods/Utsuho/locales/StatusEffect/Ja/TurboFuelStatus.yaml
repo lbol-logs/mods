@@ -1,0 +1,10 @@
+﻿TurboFuelStatus:
+  Name: ターボ燃料
+  Description: >-
+    ターン開始時、{manatype}{Level}を得てカードを{Level}枚引く。
+
+    ランダムな手札1枚を|廃棄|する。
+  Brief: >-
+    ターン開始時、マナを得てカードを引く。
+
+    ランダムな手札1枚を|廃棄|する。

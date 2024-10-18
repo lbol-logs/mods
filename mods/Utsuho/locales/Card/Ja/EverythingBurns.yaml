@@ -1,0 +1,6 @@
+﻿EverythingBurns:
+  Name: 全てを燃やし尽くせ
+  Description: >-
+    手札のカードをX+2枚まで|廃棄|する。
+
+    |{Mana}につき|：{Damage}ダメージを与える。

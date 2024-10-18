@@ -1,0 +1,6 @@
+﻿Ignition:
+  Name: 着火
+  Description: >-
+    |{Mana}ごとに|：
+
+    |熱|{Value1}を得て、|ダークマター|を1枚手札に加える。

@@ -1,0 +1,9 @@
+﻿SpatialRend:
+  Name: 空間断裂
+  Description: >-
+    |廃棄場|からランダムに{Value1}枚のカードを手札に戻す。
+
+    {Damage}ダメージを与える。
+
+    戻したカード1枚ごとに与えるダメージを{Value2}増やす、戻したのが|質量体|ならばダメージを{doubleValue}増やす。
+  DetailText: 永き夜は|廃棄場|から戻されない。

@@ -1,0 +1,4 @@
+﻿CautionStatus:
+  Name: CAUTION!
+  Description: '{PlayerName}のターン開始時、|バースト|状態になり、|時間制限|<sprite="ManaSprite" name="1">。'
+  Brief: '{PlayerName}のターン開始時、|バースト|状態になり、|時間制限|<sprite="ManaSprite" name="1">。'

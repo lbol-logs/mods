@@ -1,0 +1,15 @@
+﻿Ultraviolet:
+  Name: 紫外光線
+  Description: >-
+    {Mana}を得る。
+
+    |質量体|
+
+    |牽引された時|：カードを{Value1}枚引く。
+  UpgradedDescription: >-
+    {Mana}を得る。
+
+    |質量体|
+
+    |牽引された時|：カードを{Value1}枚引く。
+  DetailText: 質量体：ランダムなカードを対象に選ぶ|空|のカード効果は{SelfName}を優先して選ぶ。これらの効果に選ばれた時、このカードは"牽引された"と見なされる。

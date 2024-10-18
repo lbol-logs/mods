@@ -1,0 +1,6 @@
+﻿MegaFlare:
+  Name: メガフレア
+  Description: >-
+    敵全体に{Damage}ダメージを4回与える。
+
+    |保留効果|：この戦闘中{SelfName}のダメージを{Value1}減らす。

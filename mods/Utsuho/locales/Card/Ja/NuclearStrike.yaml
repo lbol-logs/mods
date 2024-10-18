@@ -1,0 +1,10 @@
+﻿NuclearStrike:
+  Name: ニュークリアストライク
+  ExtraDescription1: >-
+    |排熱|してダメージを与える。
+
+    |熱|{Value1}を得る。
+  Description: >-
+    |排熱|して{Damage}ダメージを与える。
+
+    |熱|{Value1}を得る。

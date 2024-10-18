@@ -1,0 +1,14 @@
+﻿Resonance:
+  Name: 共振
+  Description: >-
+    {Damage}ダメージを与える。
+
+    この戦闘中、全ての{SelfName}が与えるダメージを{Value1}増やす。
+
+    {PlayerName}が{SelfName}でないカードを|廃棄|するたび、{SelfName}を1枚手札に加える。
+  UpgradedDescription: >-
+    {Damage}ダメージを与える。
+
+    この戦闘中、全ての{SelfName}+が与えるダメージを{Value1}増やす。
+
+    {PlayerName}が{SelfName}+でないカードを|廃棄|するたび、{SelfName}+を1枚手札に加える。

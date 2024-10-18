@@ -1,0 +1,6 @@
+﻿Disintegrate:
+  Name: 物質崩壊
+  Description: >-
+    {Damage}ダメージを与える。
+
+    |退治|：デッキからカードを1枚削除する

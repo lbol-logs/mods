@@ -1,0 +1,10 @@
+﻿BunkerDown:
+  Name: 緊急遮断
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    |初見|：{Shield}バリアを得る。戦闘終了までこのカードのコストを{Mana}減らす。
+  ExtraDescription1: >-
+    {Block}|ブロック|を得る。
+
+    |d:初見:{Shield}バリアを得て、戦闘終了までこのカードのコストを{Mana}減らす。|

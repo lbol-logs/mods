@@ -1,0 +1,6 @@
+﻿SuperGiant:
+  Name: 超巨星
+  Description: >-
+    {Damage}ダメージを与える。
+
+    手札にある|質量体|1枚につき{SelfName}のコストを{Mana}減らす。

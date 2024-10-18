@@ -1,0 +1,4 @@
+﻿SunSpotStatus:
+  Name: 太陽黒点
+  Description: "|ダークマター|を使用した時、|熱|減衰ダメージを{Level:plural one='%回' other='%回'}発生させる。"
+  Brief: '|ダークマター|を使用した時、|熱|減衰ダメージを追加で発生させる。'

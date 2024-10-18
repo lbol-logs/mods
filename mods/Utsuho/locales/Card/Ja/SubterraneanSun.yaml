@@ -1,0 +1,6 @@
+﻿SubterraneanSun:
+  Name: サブタレイニアンサン
+  Description: >-
+    |手札効果|：{PlayerName}のターン開始時、ランダムな敵に{Damage}ダメージを与えて、手札、山札、捨て札からランダムなカード1枚をこの戦闘から消滅させる。この効果を{RemoveCount:plural one='%回繰り返す。' other='%回繰り返す。'}
+
+    {SelfName}が|保留|されるたび、手札効果の発動回数を1回増やす。

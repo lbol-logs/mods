@@ -1,0 +1,6 @@
+﻿FixedStar:
+  Name: フィクストスター
+  Description: >-
+    {PlayerName}のターン終了時、手札を{Value1}枚まで選び、1ターン|保留|する。
+
+    全ての|ダークマター|は|自動廃棄|を持つ。

@@ -1,0 +1,4 @@
+﻿WhiteHole:
+  Name: ホワイトホール
+  Description: '|ターン終了時|：{Block}|ブロック|を得て、|ダークマター|1枚を捨て札に加える。'
+  DetailText: '{SelfName}は使用しても|廃棄|される以外の効果を持たない。'

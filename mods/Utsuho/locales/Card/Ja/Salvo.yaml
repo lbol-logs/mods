@@ -1,0 +1,6 @@
+﻿Salvo:
+  Name: 一斉射撃
+  Description: >-
+    ランダムな敵に{Damage}のダメージを{SalvoCount:plural one='%回与える。' other='%回与える。'}
+
+    このターン中使用したカード1枚につき、追加で1回ダメージを与える。

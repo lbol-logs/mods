@@ -1,0 +1,6 @@
+﻿HeatShield:
+  Name: 熱防壁
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    {PlayerName}の|熱|が{Value2}以下ならば、|熱|{Value1}を得る。

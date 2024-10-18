@@ -1,0 +1,14 @@
+﻿Starlight:
+  Name: スターライト
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    |熱|{Value1}を得る。
+
+    |ダークマター|を2枚手札に加える。
+  UpgradedDescription: >-
+    {Shield}|バリア|を得る。
+
+    |熱|{Value1}を得る。
+
+    |ダークマター|を2枚手札に加える。
