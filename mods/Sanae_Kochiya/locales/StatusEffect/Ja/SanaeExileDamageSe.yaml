@@ -1,0 +1,4 @@
+﻿SanaeExileDamageSe:
+  Name: 三色のエーデルワイス
+  Description: 状態異常カードまたは|自動廃棄|を持つカードが|廃棄|されるたび、{OwnerName}はランダムな敵に{Level}ダメージを与える。
+  Brief: 状態異常カードまたは|自動廃棄|を持つカードが|廃棄|されるたび、{OwnerName}はランダムな敵にダメージを与える。

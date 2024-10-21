@@ -1,0 +1,4 @@
+﻿SanaeStatusTalismanSe:
+  Name: Paper Handicrafts
+  Description: At the end of {OwnerName}'s turn, add {Level:plural one='|% Moriya Talisman|' other='|% Moriya Talismans|'} to the discard pile.
+  Brief: At the end of {OwnerName}'s turn, add |Moriya Talismans| into the discard pile.

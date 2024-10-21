@@ -1,0 +1,4 @@
+﻿SanaeSpellDamageSe:
+  Name: グリーンソーマタージ
+  Description: スペルカードを使用するたび、{OwnerName}はランダムな敵に8ダメージを{Level}回与える。
+  Brief: スペルカードを使用するたび、{OwnerName}はランダムな敵に8ダメージを1回与える。

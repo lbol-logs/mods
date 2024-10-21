@@ -1,0 +1,11 @@
+﻿SanaeAttackAmulet:
+  Name: 御币猛击
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    如果{PlayerName}没有|护身符|，获得 {Value1} 层|护身符|。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害。
+
+    如果{PlayerName}没有|护身符|，获得 {Value1} 层|护身符|。
+  FlavorText: ''

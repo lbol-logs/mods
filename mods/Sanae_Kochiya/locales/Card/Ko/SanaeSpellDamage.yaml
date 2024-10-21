@@ -1,0 +1,6 @@
+﻿SanaeSpellDamage:
+  Name: 그린 서머터지
+  Description: >-
+    체력을 {Value1} 얻습니다.
+
+    스펠 카드가 발동할 때 마다, 무작위 적에게 피해를 {Value3}씩 {Value2}번 줍니다.

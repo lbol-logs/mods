@@ -1,0 +1,7 @@
+﻿SanaeGrazeWard:
+  Name: 神風の盾
+  Description: >-
+    {PlayerName}が攻撃を|グレイズ|するたび、|庇護|{Value1}を得る。
+
+    |グレイズ|{Value2}を得る。
+  FlavorText: ''

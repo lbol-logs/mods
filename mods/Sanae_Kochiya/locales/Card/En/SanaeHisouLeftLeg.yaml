@@ -1,0 +1,4 @@
+﻿SanaeHisouLeftLeg:
+  Name: Left Leg of the Robotic Cryptid
+  Description: '|At the end of the turn|: Gain {Value1} |Frail|.'
+  UpgradedDescription: '|At the end of the turn|: Gain {Value1} |Weak|.'

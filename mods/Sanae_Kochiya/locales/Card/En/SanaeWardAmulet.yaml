@@ -1,0 +1,7 @@
+﻿SanaeWardAmulet:
+  Name: Emblem Exchange
+  Description: >-
+    Gain {Value1} |Ward|.
+
+    If {PlayerName} has |Amulet|, lose {Value3} |Amulet| and gain {Value2} |Ward| instead.
+  FlavorText: Emblem kinda sounds like mlem mlem

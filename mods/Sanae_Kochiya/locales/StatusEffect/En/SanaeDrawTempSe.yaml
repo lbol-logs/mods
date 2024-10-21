@@ -1,0 +1,4 @@
+﻿SanaeDrawTempSe:
+  Name: School Science Fair
+  Description: At the start of {OwnerName}'s turn, draw {Level} cards and then discard any non-skill cards drawn this way.
+  Brief: At the start of {OwnerName}'s turn, draw some cards and then discard any non-skill cards drawn this way.

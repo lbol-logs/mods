@@ -1,0 +1,7 @@
+﻿SanaeWardTalisman:
+  Name: Prespoke Incantation
+  Description: >-
+    Whenever {PlayerName} gains |Ward|, gain that much <sprite="Point" name="Power">.
+
+    Whenever the Spell Card is activated, add {Value1} |Moriya Talismans| to the discard pile.
+  FlavorText: ''

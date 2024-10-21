@@ -1,0 +1,6 @@
+﻿SanaeSpellDamage:
+  Name: グリーンソーマタージ
+  Description: >-
+    ライフを{Value1}回復する。
+
+    スペルカードを使用するたび、ランダムな敵に{Value3}の攻撃ダメージを{Value2}回与える。

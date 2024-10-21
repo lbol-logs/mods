@@ -1,0 +1,7 @@
+﻿SanaeAttackWeak:
+  Name: 漩涡之眼
+  Description: >-
+    对目标施加 {Value1} 层|虚弱|。
+
+    然后对所有其他敌人造成 {Damage} 点伤害。
+  FlavorText: The center of chaos is unexpectedly the safest place to reside.

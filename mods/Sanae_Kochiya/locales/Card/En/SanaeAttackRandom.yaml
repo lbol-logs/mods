@@ -1,0 +1,14 @@
+﻿SanaeAttackRandom:
+  Name: Purifying Mist
+  Description: >-
+    Deal {Damage} damage to a random enemy {Value1} times.
+
+    You may add {Value2} |Pure Radiances| to the top of the draw pile. If you do, gain {Mana}.
+  ExtraDescription1: >-
+    Deal {Damage} damage to a random enemy {Value1} times.
+
+    Add {Value2} |Pure Radiances| to the top of the draw pile.
+
+    Gain {Mana}.
+  ExtraDescription2: Deal {Damage} damage to a random enemy {Value1} times.
+  FlavorText: ''

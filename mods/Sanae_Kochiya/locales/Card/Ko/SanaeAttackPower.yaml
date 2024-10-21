@@ -1,0 +1,7 @@
+﻿SanaeAttackPower:
+  Name: 요력 스포일러
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    이 방식으로 막히지 않은 피해만큼 <sprite="Point" name="Power">를 얻습니다.
+  FlavorText: ''

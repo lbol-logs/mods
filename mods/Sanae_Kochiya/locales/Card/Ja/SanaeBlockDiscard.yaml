@@ -1,0 +1,10 @@
+﻿SanaeBlockDiscard:
+  Name: 雨水集め
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    手札を1枚捨てる。
+  UpgradedDescription: >-
+    {Block}|ブロック|を得る。
+
+    手札を1枚まで捨てる。

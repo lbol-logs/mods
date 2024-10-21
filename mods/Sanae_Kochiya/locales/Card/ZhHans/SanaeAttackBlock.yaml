@@ -1,0 +1,9 @@
+﻿SanaeAttackBlock:
+  Name: 魔法爆发
+  Description: >-
+    失去所有|格挡|，并对所有敌人造成等量的伤害。
+
+    获得 {Block} 点|格挡|。
+
+    结束{PlayerName}的回合。
+  FlavorText: 早苗一次释放了她所有的魔力！

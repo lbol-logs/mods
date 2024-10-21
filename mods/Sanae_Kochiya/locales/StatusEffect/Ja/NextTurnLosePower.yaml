@@ -1,0 +1,4 @@
+﻿NextTurnLosePower:
+  Name: 次ターンパワー喪失
+  Description: 次の{OwnerName}のターン開始時、<sprite="Point" name="Power">{Level}を失う。
+  Brief: 次の{OwnerName}のターン開始時、<sprite="Point" name="Power">を失う。

@@ -1,0 +1,8 @@
+﻿SanaeBlockMana:
+  Name: 保存甜浆果
+  Description: >-
+    获得 {Block} |格挡|。
+
+    直到{PlayerName}的下个回合开始，剩余的法力不会流失。
+
+    |透支| {Value1}。

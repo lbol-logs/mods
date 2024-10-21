@@ -1,0 +1,15 @@
+﻿SanaeStarterU:
+  Name: Reckless Exterminator
+  Description: >-
+    Deal {Damage} damage {Value1} times.
+
+    When an enemy is defeated using {SelfName}, gain {Value2} <sprite="Point" name="Power">.
+
+    This effect can only happen once per combat.
+  ExtraDescription1: >-
+    Deal {Damage} damage {Value1} times.
+
+    |d:When an enemy is defeated using {SelfName}, gain {Value2} <sprite="Point" name="Power">.|
+
+    This effect can only happen once per combat.
+  FlavorText: You can't let yourself be held back by common sense in Gensokyo, right!?

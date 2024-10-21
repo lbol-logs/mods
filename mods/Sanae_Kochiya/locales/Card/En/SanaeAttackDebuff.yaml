@@ -1,0 +1,7 @@
+﻿SanaeAttackDebuff:
+  Name: Thresh of Mishaguji
+  Description: >-
+    Deal {Damage} damage to each enemy.
+
+    Apply {Value1} |Weak| and |Vulnerable| to each enemy.
+  FlavorText: ''

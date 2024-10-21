@@ -1,0 +1,11 @@
+﻿SanaeColorRandom:
+  Name: Spectral Sunshowers
+  Description: >-
+    Choose 1 of {Value1} random cards to add to the hand. It |temporarily costs| <sprite="ManaSprite" name="0"> and has |Exile| and |Ethereal|.
+
+    These cards have colors of {Mana} respectively.
+  DetailText: >-
+    Hybrid colors are not included.
+
+    On |Upgrade|, these |e:alternate cards| ignore total mana and mana color restrictions.
+  FlavorText: ''

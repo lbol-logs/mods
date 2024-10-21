@@ -1,0 +1,3 @@
+﻿SanaeDrawTemp:
+  Name: 학교 과학 박람회
+  Description: 카드를 {Value1} 뽑습니다. {PlayerName}의 턴이 시작될 때, 카드를 {Value1}장 뽑습니다. 이렇게 뽑은 카드가 스킬카드가 아니라면, 그 카드를 버립니다.

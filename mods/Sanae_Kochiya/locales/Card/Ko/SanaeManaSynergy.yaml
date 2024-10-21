@@ -1,0 +1,16 @@
+﻿SanaeManaSynergy:
+  Name: 기적의 과일
+  Description: >-
+    |<sprite="ManaSprite" name="W">를 사용할 때마다|: <sprite="ManaSprite" name="U"><sprite="ManaSprite" name="G">를 얻습니다.
+
+    |<sprite="ManaSprite" name="U">를 사용할 때마다|: <sprite="ManaSprite" name="W"><sprite="ManaSprite" name="G">를 얻습니다.
+
+    |가불| {Value1}.
+  UpgradedDescription: >-
+    |<sprite="ManaSprite" name="W">를 사용할 때마다|: <sprite="ManaSprite" name="U"><sprite="ManaSprite" name="G">를 얻습니다.
+
+    |<sprite="ManaSprite" name="U">를 사용할 때마다|: <sprite="ManaSprite" name="W"><sprite="ManaSprite" name="G">를 얻습니다.
+
+    |<sprite="ManaSprite" name="G">를 사용할 때마다|: <sprite="ManaSprite" name="W"><sprite="ManaSprite" name="U">를 얻습니다.
+
+    |가불| {Value1}.

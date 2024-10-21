@@ -1,0 +1,4 @@
+﻿AmuletForEnemy:
+  Name: Bulwark
+  Description: Negate the next {Level} non-Status cards that would be added (|Exile| them instead).
+  Brief: Negate the next non-Status cards that would be added (|Exile| them instead).

@@ -1,0 +1,8 @@
+﻿SanaeExileDamage:
+  Name: Trichromatic Edelweiss
+  Description: Whenever a status card or a card with |Auto-Exile| is |Exiled|, deal {Value1} damage to a random enemy.
+  UpgradedDescription: >-
+    Whenever a status card or a card with |Auto-Exile| is |Exiled|, deal {Value1} damage to a random enemy.
+
+    Add {Value2} |Moriya Talismans| to the hand.
+  FlavorText: This would've been "Whenever a card is exiled via Ward or Auto-Exile" but I've tried to code it and failed, so this is the backup plan - Xeno

@@ -1,0 +1,4 @@
+﻿SanaeDrawTempSe:
+  Name: 校园科技集市
+  Description: '{OwnerName}的回合开始时，抽 {Level} 张牌，然后丢弃其中所有的非技能牌。'
+  Brief: '{OwnerName}的回合开始时，抽若干张牌，然后丢弃其中所有的非技能牌。'

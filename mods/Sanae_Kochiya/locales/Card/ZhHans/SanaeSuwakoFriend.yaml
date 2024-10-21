@@ -1,0 +1,6 @@
+﻿SanaeSuwakoFriend:
+  Name: 狡猾的蛤蟆爱好者诹访子
+  Description: '{PassiveCostIcon}将 {Value1} 张|黑暗残留|洗入抽牌堆。'
+  ExtraDescription1: '{ActiveCostIcon}对随机敌人施加 {Value1} 层|虚弱|。'
+  ExtraDescription2: <indent=0><sprite="Active" name="-4"><indent=80>将 1 张随机罕见能力牌加入手中。它暂塑为{Mana}，具有|虚无|。
+  FlavorText: ''

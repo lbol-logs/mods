@@ -1,0 +1,6 @@
+﻿SanaeBlockShuffle:
+  Name: 占いの舞
+  Description: >-
+    山札をシャッフルするたび、{Value1}|ブロック|を得る。
+
+    占術{Scry}。

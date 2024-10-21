@@ -1,0 +1,7 @@
+﻿SanaeAttackSpirit:
+  Name: Prayer Stance
+  Description: >-
+    Deal {Damage} damage.
+
+    Gain {Value1} |Temporary Spirit|.
+  FlavorText: ''

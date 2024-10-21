@@ -1,0 +1,7 @@
+﻿SanaeKanakoFriend:
+  Name: Kanako, Divine Wind Deity
+  Description: '{PassiveCostIcon}Deal {Damage} attack damage to the enemy with the most life.'
+  UpgradedDescription: '{PassiveCostIcon}Deal {Damage} attack damage to the enemy with the most life.'
+  ExtraDescription1: '{ActiveCostIcon}Gain {Shield} |Barrier|. Gain {Value3} |Graze|.'
+  ExtraDescription2: '{UltimateCostIcon}Gain {Value2} <sprite="Point" name="Power">. For the rest of this combat, whenever the Spell Card is activated gain {Value1} |Firepower| and |Graze|.'
+  FlavorText: ''

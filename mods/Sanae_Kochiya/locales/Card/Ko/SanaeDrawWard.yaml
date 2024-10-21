@@ -1,0 +1,7 @@
+﻿SanaeDrawWard:
+  Name: 와일드 카드
+  Description: >-
+    |비호|를 {Value1} 얻습니다.
+
+    카드를 {Value2}장 뽑습니다.
+  FlavorText: ''

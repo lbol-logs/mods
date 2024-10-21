@@ -1,0 +1,3 @@
+﻿SanaeAmuletDebuffVuln:
+  Name: 補助儀式
+  Description: 最大ライフを{Value1}増加させて、|弱体|{Value1}と|毒|{Value1}を得る。

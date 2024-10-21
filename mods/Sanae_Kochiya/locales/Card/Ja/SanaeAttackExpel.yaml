@@ -1,0 +1,6 @@
+﻿SanaeAttackExpel:
+  Name: コバルトスプレッド
+  Description: >-
+    敵全体に{Damage}ダメージを与える。
+
+    |退治|：<sprite="Point" name="Power">{Value1}を得る。

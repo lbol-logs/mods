@@ -1,0 +1,6 @@
+﻿SanaeBlockRebuff:
+  Name: Charm Casting
+  Description: >-
+    Gain {Block} |Block| and |Barrier|.
+
+    If {PlayerName} has |Amulet|, lose {Value1} |Amulet| and apply {Value2} |Weak| to each enemy.

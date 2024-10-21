@@ -1,0 +1,11 @@
+﻿SanaeAmuletDebuff:
+  Name: 弘安东风谷
+  Description: >-
+    |抉择|至少一项：
+
+    - 获得 {Value1} 点|火力|和 {Value1} 层|虚弱|。
+
+    - 获得 {Value1} 点|灵力|和 {Value1} 层|脆弱|。
+
+    - 获得 {Value1} 点最大生命，{Value1} 层|易伤|和|中毒|。
+  FlavorText: ''

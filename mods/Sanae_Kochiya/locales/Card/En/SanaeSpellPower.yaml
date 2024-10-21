@@ -1,0 +1,8 @@
+﻿SanaeSpellPower:
+  Name: Transient Faith
+  Description: >-
+    Lose {Value1} life.
+
+    Gain {Value2} <sprite="Point" name="Power">.
+
+    At the start of {PlayerName}'s next turn, lose {Value3} <sprite="Point" name="Power">.

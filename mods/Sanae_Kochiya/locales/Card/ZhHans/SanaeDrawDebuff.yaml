@@ -1,0 +1,11 @@
+﻿SanaeDrawDebuff:
+  Name: 湍流城市化魔杖
+  Description: >-
+    |手牌中|：抽牌阶段外每抽一张牌，获得{Mana}。
+
+    |被放逐时|：失去 {Value2} 点生命，本回合不能再抽牌。
+  UpgradedDescription: >-
+    |手牌中，|：抽牌阶段外每抽一张牌，获得 {Value1} 点随机法力。
+
+    |被放逐时|：失去 {Value2} 点生命，本回合不能再抽牌。
+  FlavorText: ''

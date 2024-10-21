@@ -1,0 +1,4 @@
+﻿SanaeExpiredCoupon:
+  Name: 过期优惠券
+  Description: 每场战斗中，{PlayerName}第一次使用|符卡|后，获得 {Value1} 点<sprite="Point" name="Power">。
+  FlavorText: According to this note, eggs were on sale more than 10 years ago.

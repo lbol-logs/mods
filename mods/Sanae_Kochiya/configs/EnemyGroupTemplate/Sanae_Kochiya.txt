@@ -1,0 +1,1 @@
+﻿{EnemyGroupConfig Id=, Name=Sanae Act 1 Boss, FormationName=Single, Enemies=[Sanae_Kochiya], EnemyType=Boss, DebutTime=1, RollBossExhibit=True, PlayerRoot=(-4.00, 0.50), PreBattleDialogName=, PostBattleDialogName=}

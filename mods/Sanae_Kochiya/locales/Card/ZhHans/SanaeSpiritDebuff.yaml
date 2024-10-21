@@ -1,0 +1,7 @@
+﻿SanaeSpiritDebuff:
+  Name: 仓促的祈祷者们
+  Description: >-
+    获得 {Value1} 点|灵力|。
+
+    {PlayerName}的回合开始时，失去 {Value2} 点|灵力|。
+  FlavorText: ''

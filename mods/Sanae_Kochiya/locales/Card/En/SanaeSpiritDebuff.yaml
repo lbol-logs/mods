@@ -1,0 +1,7 @@
+﻿SanaeSpiritDebuff:
+  Name: Hasty Prayers
+  Description: >-
+    Gain {Value1} |Spirit|.
+
+    At the start of {PlayerName}'s turn, lose {Value2} |Spirit|.
+  FlavorText: ''

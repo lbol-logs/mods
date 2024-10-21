@@ -1,0 +1,9 @@
+﻿SanaeLifeAmulet:
+  Name: Rite of Protection
+  Description: >-
+    Lose {Value1} life.
+
+    Gain {Shield} |Barrier|.
+
+    Gain {Value2} |Amulet|.
+  FlavorText: ''

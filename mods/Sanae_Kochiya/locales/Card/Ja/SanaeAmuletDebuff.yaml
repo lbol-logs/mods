@@ -1,0 +1,11 @@
+﻿SanaeAmuletDebuff:
+  Name: 弘安の東風谷
+  Description: >-
+    一つ以上を|チョイス|：
+
+    - |火力|{Value1}と|脱力|{Value1}を得る。
+
+    - |霊力|{Value1}と|脆弱化|{Value1}を得る。
+
+    - 最大ライフを{Value1}増加させて、|弱体|{Value1}と|毒|{Value1}を得る。
+  FlavorText: ''

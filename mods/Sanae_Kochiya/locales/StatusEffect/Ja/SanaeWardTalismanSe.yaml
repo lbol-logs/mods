@@ -1,0 +1,4 @@
+﻿SanaeWardTalismanSe:
+  Name: 事前詠唱
+  Description: "{OwnerName}が|庇護|を得るたび、同じ数の<sprite=\"Point\" name=\"Power\">を得る。スペルカードを使用するたび、|守矢の護符{Level:plural one='' other=''}|を{Level}枚捨て札に加える。"
+  Brief: '{OwnerName}が|庇護|を得るたび、同じ数の<sprite="Point" name="Power">を得る。スペルカードを使用するたび、|守矢の護符|を捨て札に加える。'

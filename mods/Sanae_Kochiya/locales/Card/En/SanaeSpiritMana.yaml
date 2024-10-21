@@ -1,0 +1,5 @@
+﻿SanaeSpiritMana:
+  Name: Summoner Practice
+  Description: At the start of {PlayerName}'s second turn after {SelfName} was played, gain {Value1} |Spirit| and add a |Radiance| to the hand.
+  UpgradedDescription: At the start of {PlayerName}'s next turn, gain {Value1} |Spirit| and add a |Radiance| to the hand.
+  FlavorText: ''

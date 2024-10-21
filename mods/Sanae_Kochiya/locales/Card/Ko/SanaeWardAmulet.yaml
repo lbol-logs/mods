@@ -1,0 +1,7 @@
+﻿SanaeWardAmulet:
+  Name: 상징 교환
+  Description: >-
+    |비호|를 {Value1} 얻습니다.
+
+    {PlayerName}가 |부적|을 가지고있다면, |부적|을 {Value3} 잃고 대신 |비호|를 {Value2} 얻습니다.
+  FlavorText: 상징이라고 말하면 뭔가 진상이 떠올라요.

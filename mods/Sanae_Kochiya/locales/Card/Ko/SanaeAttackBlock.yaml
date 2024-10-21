@@ -1,0 +1,9 @@
+﻿SanaeAttackBlock:
+  Name: 마법 폭발
+  Description: >-
+    모든 |방어|를 잃고 그만큼 모든 적에게 피해를 줍니다.
+
+    |방어|를 {Block} 얻습니다.
+
+    턴을 종료합니다.
+  FlavorText: 사나에가 모든 마법의 힘을 한번에 해방합니다!

@@ -1,0 +1,6 @@
+﻿SanaeBlockRebuff:
+  Name: 铸造护符
+  Description: >-
+    获得 {Block} |格挡|和|护盾|。
+
+    如果{PlayerName}有|护身符|，失去 {Value1} 层|护身符|，对所有敌人施加 {Value2} 层|虚弱|。

@@ -1,0 +1,4 @@
+﻿SanaeKanakoFriendSe:
+  Name: 召喚された神
+  Description: スペルカードを使用するたび、{OwnerName}は|火力|{Level}と|グレイズ|{Level}を得る。
+  Brief: スペルカードを使用するたび、{OwnerName}は|火力|2と|グレイズ|2を得る。

@@ -1,0 +1,12 @@
+﻿SanaeBlockMana:
+  Name: Sweet Berry Preserve
+  Description: >-
+    Gain {Block} |Block|.
+
+    Unspent mana isn't lost until the start of {PlayerName}'s next turn.
+
+    |Overdraft| {Value1}.
+  UpgradedDescription: >-
+    Gain {Block} |Block|.
+
+    Unspent mana isn't lost until the start of {PlayerName}'s next turn.

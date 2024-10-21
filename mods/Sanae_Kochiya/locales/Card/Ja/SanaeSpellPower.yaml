@@ -1,0 +1,8 @@
+﻿SanaeSpellPower:
+  Name: 儚き信仰
+  Description: >-
+    ライフを{Value1}失う。
+
+    <sprite="Point" name="Power">{Value2}を得る。
+
+    次の{PlayerName}のターン開始時、<sprite="Point" name="Power">{Value3}を失う。

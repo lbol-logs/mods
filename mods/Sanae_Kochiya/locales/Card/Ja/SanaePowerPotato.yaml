@@ -1,0 +1,4 @@
+﻿SanaePowerPotato:
+  Name: 現代の娯楽
+  Description: 戦闘終了時、<sprite="Point" name="Power">{Value1}を得る。
+  FlavorText: レトロゲーム機って、ファミコンとかスーファミのことでしょ？

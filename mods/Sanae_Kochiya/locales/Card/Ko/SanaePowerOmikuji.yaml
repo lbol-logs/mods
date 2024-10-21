@@ -1,0 +1,4 @@
+﻿SanaePowerOmikuji:
+  Name: 오미쿠지 보너스
+  Description: '{PlayerName}가 <sprite="Point" name="Power">를 가지고 있다면, <sprite="Point" name="Power">를 {Value1} 잃고 {PlayerName}의 스펠 카드 피해량을 {Value2}늘립니다.'
+  FlavorText: ''

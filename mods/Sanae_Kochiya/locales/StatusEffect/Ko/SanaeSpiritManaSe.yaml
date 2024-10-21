@@ -1,0 +1,4 @@
+﻿SanaeSpiritManaSe:
+  Name: 소환사 연습
+  Description: "{PlayerName}의 {Count:ordinal one='다음 턴 시작시' other='%턴 뒤'}, |영력|을 {Level} 얻고 손에 |광휘|를 한장 추가합니다."
+  Brief: 몇 턴 뒤, |영력|을 얻고 손에 |광휘|를 한장 추가합니다.

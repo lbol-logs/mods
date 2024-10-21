@@ -1,0 +1,9 @@
+﻿SanaeSpiritShuffle:
+  Name: Soul-Searching
+  Description: >-
+    Gain {Value1} |Temporary Spirit|.
+
+    Shuffle the discard pile into the draw pile.
+
+    Draw {Value2} cards.
+  FlavorText: ''

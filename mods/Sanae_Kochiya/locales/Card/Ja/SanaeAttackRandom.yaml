@@ -1,0 +1,14 @@
+﻿SanaeAttackRandom:
+  Name: 浄化の霧
+  Description: >-
+    ランダムな敵に{Damage}ダメージを{Value1}回与える。
+
+    |純粋なる輝き|を{Value2}枚山札の上に加えてもよい。そうした場合、{Mana}を得る。
+  ExtraDescription1: >-
+    ランダムな敵に{Damage}ダメージを{Value1}回与える。
+
+    |純粋なる輝き|を{Value2}枚山札の上に加える。
+
+    {Mana}を得る。
+  ExtraDescription2: ランダムな敵に{Damage}ダメージを{Value1}回与える。
+  FlavorText: ''

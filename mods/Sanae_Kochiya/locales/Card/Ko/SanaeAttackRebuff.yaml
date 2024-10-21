@@ -1,0 +1,6 @@
+﻿SanaeAttackRebuff:
+  Name: 라이스 샤워
+  Description: >-
+    모든 적에게 피해를 {Damage} 줍니다.
+
+    만약 적이 상태이상을 주려하면, |부적|을 {Value1} 얻습니다.

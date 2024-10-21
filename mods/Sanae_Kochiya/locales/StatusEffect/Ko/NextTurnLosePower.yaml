@@ -1,0 +1,4 @@
+﻿NextTurnLosePower:
+  Name: 다음 턴 파워 감소
+  Description: '{OwnerName}의 다음 턴 시작 시, <sprite="Point" name="Power">를 {Level} 잃습니다.'
+  Brief: '{OwnerName}의 다음 턴 시작 시, <sprite="Point" name="Power">를 잃습니다.'

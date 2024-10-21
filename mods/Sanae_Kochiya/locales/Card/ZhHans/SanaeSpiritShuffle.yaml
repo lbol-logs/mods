@@ -1,0 +1,9 @@
+﻿SanaeSpiritShuffle:
+  Name: 灵魂搜索
+  Description: >-
+    获得 {Value1} 点|暂得灵力|。
+
+    将弃牌堆洗入抽牌堆。
+
+    抽 {Value2} 张牌。
+  FlavorText: ''

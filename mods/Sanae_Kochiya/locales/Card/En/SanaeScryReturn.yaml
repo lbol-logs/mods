@@ -1,0 +1,7 @@
+﻿SanaeScryReturn:
+  Name: Overnight Brightness
+  Description: >-
+    Scry {Scry}.
+
+    If the draw pile is empty, return a card from the discard pile to the hand.
+  FlavorText: ''

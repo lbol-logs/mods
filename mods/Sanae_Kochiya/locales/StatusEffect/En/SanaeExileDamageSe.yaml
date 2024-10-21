@@ -1,0 +1,4 @@
+﻿SanaeExileDamageSe:
+  Name: Trichromatic Edelweiss
+  Description: Whenever a status card or a card with |Auto-Exile| is |Exiled|, {OwnerName} deals {Level} damage to a random enemy.
+  Brief: Whenever a status card or a card with |Auto-Exile| is |Exiled|, {OwnerName} deals damage to a random enemy.

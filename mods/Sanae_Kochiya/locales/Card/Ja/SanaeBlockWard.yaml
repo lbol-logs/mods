@@ -1,0 +1,7 @@
+﻿SanaeBlockWard:
+  Name: 型破りな護り
+  Description: >-
+    {Block}|ブロック|を{Value1}回得る。
+
+    |庇護|{Value2}を{Value1}回得る。
+  FlavorText: ダメージとブロックを書き間違えたのでは？

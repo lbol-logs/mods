@@ -1,0 +1,4 @@
+﻿SanaeHisouLeftLeg:
+  Name: 神秘机械生物的左腿
+  Description: '|回合结束时|：获得 {Value1} 层|脆弱|。'
+  UpgradedDescription: '|回合结束时|：获得 {Value1} 层|虚弱|。'

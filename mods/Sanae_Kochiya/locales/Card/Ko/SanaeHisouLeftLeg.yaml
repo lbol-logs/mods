@@ -1,0 +1,4 @@
+﻿SanaeHisouLeftLeg:
+  Name: 봉인된 로봇의 왼쪽 다리
+  Description: '|턴 종료 시|: |연약|을 {Value1} 얻습니다.'
+  UpgradedDescription: '|턴 종료 시|: |허약|을 {Value1} 얻습니다.'

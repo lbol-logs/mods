@@ -1,0 +1,7 @@
+﻿SanaeKanakoFriend:
+  Name: 圣风之神神奈子
+  Description: '{PassiveCostIcon}对生命值最高的敌人造成 {Damage} 点攻击伤害。'
+  UpgradedDescription: '{PassiveCostIcon}对生命值最高的敌人造成 {Damage} 点攻击伤害。'
+  ExtraDescription1: '{ActiveCostIcon}获得 {Shield} 点|护盾|。获得 {Value1} 层|闪避|。'
+  ExtraDescription2: '{UltimateCostIcon}获得 {Value2} 点<sprite="Point" name="Power">。本场战斗中，使用符卡后，获得 {Value1} 点|火力|和|闪避|。'
+  FlavorText: ''

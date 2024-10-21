@@ -1,0 +1,5 @@
+﻿SanaeSpiritMana:
+  Name: 召喚術の練習
+  Description: 2ターン後の{PlayerName}のターン開始時：|霊力|{Value1}を得て、|光明|を1枚手札に加える。
+  UpgradedDescription: 次の{PlayerName}のターン開始時：|霊力|{Value1}を得て、|光明|を1枚手札に加える。
+  FlavorText: ''

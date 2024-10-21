@@ -1,0 +1,4 @@
+﻿SanaeSpellDamageSe:
+  Name: 그린 서머터지
+  Description: 스펠 카드가 발동할 때 마다, {OwnerName}가 무작위 적에게 피해를 8씩 {Level}회 줍니다.
+  Brief: 스펠 카드가 발동될 때마다,{OwnerName}가 무작위 적에게 피해를 8씩 몇번 줍니다.

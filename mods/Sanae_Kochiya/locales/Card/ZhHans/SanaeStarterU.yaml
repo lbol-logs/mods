@@ -1,0 +1,13 @@
+﻿SanaeStarterU:
+  Name: 鲁莽退治者
+  Description: >-
+    造成 {Damage} 点伤害 {Value1} 次。
+
+    {SelfName}击败了一个敌人时，获得 {Value2} 点<sprite="Point" name="Power">。这个效果每场战斗只能触发一次。
+  ExtraDescription1: >-
+    造成 {Damage} 点伤害 {Value1} 次。
+
+    |d:{SelfName}击败了一个敌人时，获得 {Value2} 点<sprite="Point" name="Power">。|
+
+    这个效果每场战斗只能触发一次。
+  FlavorText: 在幻想乡，你可不能被常识束缚。

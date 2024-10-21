@@ -1,0 +1,6 @@
+﻿SanaeAttackRebuff:
+  Name: 米之浴
+  Description: >-
+    对所有敌人造成 {Damage} 点伤害。
+
+    如果有敌人的意图是添加负面效果，获得 {Value1} 层|护身符|。

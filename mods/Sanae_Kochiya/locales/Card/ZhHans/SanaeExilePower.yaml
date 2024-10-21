@@ -1,0 +1,12 @@
+﻿SanaeExilePower:
+  Name: 合流
+  Description: >-
+    获得 {Shield} 点|护盾|。
+
+    选择抽牌堆和弃牌堆中至多 X 张牌|放逐|。
+  UpgradedDescription: >-
+    获得 {Shield} 点|护盾|。
+
+    选择抽牌堆和弃牌堆中至多 X 张牌|放逐|。
+
+    将等量的|守矢护符|放入弃牌堆。

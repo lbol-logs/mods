@@ -1,0 +1,26 @@
+﻿SanaeHisouHead:
+  Name: Hisoutensoku, the Robotic Cryptid
+  Description: >-
+    If all |Robotic Cryptid| cards are in the hand, |Exile| all |Robotic Cryptid| cards and defeat all enemies.
+
+    If not, choose 1 of {Value1} |Robotic Cryptid| cards to add to the hand, then end {PlayerName}'s turn.
+
+    |Overflow|: Gain {Mana}.
+  ExtraDescription1: >-
+    If all |Robotic Cryptid| cards are in the hand, |Exile| all |Robotic Cryptid| cards and defeat all enemies.
+
+    If not, choose 1 of {Value1} |Robotic Cryptid| cards to add to the hand, then end {PlayerName}'s turn.
+
+    |d:Overflow: Gain {Mana}.|
+  UpgradedDescription: >-
+    If all |Robotic Cryptid| cards are in the hand, |Exile| all |Robotic Cryptid| cards and defeat all enemies.
+
+    If not, choose 1 of {Value1} upgraded |Robotic Cryptid| cards to add to the hand, then end {PlayerName}'s turn.
+
+    |Overflow|: Gain {Mana}.
+  UpgradedExtraDescription1: >-
+    If all |Robotic Cryptid| cards are in the hand, |Exile| all |Robotic Cryptid| cards and defeat all enemies.
+
+    If not, choose 1 of {Value1} upgraded |Robotic Cryptid| cards to add to the hand, then end {PlayerName}'s turn.
+
+    |d:Overflow: Gain {Mana}.|

@@ -1,0 +1,12 @@
+﻿SanaeManaRandom:
+  Name: ファフロッキーズの奇跡
+  Description: >-
+    ランダムな{Value1}枚の総コストが4以下のカードを手札に加える。
+
+    それらはコストが{Mana}となり、|虚無|を持つ。
+  UpgradedDescription: >-
+    ランダムな{Value1}枚の総コストが4以下の|アップグレード済み|カードを手札に加える。
+
+    それらはコストが{Mana}となり、|虚無|を持つ。
+  DetailText: '{SelfName}とXコストを持つカードは出現しない。'
+  FlavorText: ''

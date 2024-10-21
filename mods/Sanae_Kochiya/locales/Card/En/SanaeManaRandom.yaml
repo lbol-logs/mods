@@ -1,0 +1,12 @@
+﻿SanaeManaRandom:
+  Name: Miracle of Fafrotskies
+  Description: >-
+    Add {Value1} random cards with a total cost of 4 or less to the hand.
+
+    These cards have |Ethereal| and cost {Mana}.
+  UpgradedDescription: >-
+    Add {Value1} random |Upgraded| cards with a total cost of 4 or less to the hand.
+
+    These cards have |Ethereal| and cost {Mana}.
+  DetailText: '{SelfName} and X-cost cards cannot be produced by this effect.'
+  FlavorText: ''

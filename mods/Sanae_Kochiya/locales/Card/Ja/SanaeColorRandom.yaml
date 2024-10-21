@@ -1,0 +1,11 @@
+﻿SanaeColorRandom:
+  Name: 太陽光スペクトル
+  Description: >-
+    {Value1}枚のランダムなカードから1枚選び、手札に加える。それは|臨時コスト|<sprite="ManaSprite" name="0">となり、|廃棄|と|虚無|を持つ。
+
+    これらのカードは{Mana}からそれぞれ選ばれる。
+  DetailText: >-
+    多色カードは含まれない。
+
+    |アップグレード|後、|e:候補カード|はマナ総数やマナ色の制限を無視して選ばれる。
+  FlavorText: ''

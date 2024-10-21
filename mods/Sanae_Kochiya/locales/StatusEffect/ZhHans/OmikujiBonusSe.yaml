@@ -1,0 +1,4 @@
+﻿OmikujiBonusSe:
+  Name: 御签奖励
+  Description: '{OwnerName}的|符卡|额外造成 {Level} 点伤害'
+  Brief: '{OwnerName}的|符卡|造成更多伤害。'

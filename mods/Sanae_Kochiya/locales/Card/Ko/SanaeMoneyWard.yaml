@@ -1,0 +1,8 @@
+﻿SanaeMoneyWard:
+  Name: 장사번성 부적
+  Description: >-
+    |비호|를 {Value1} 얻습니다.
+
+    <sprite="Point" name="Gold">을 {Value2} 얻습니다.
+
+    무작위 마나를 {Value3} 얻습니다.

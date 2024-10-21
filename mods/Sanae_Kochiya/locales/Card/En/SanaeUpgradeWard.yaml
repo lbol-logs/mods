@@ -1,0 +1,15 @@
+﻿SanaeUpgradeWard:
+  Name: Leyline Spotlight
+  Description: >-
+    Upgrade {Value1} random cards in the hand.
+
+    If no cards were upgraded this way, gain {Value2} |Ward|.
+
+    |Overflow|: Gain {Mana}.
+  ExtraDescription1: >-
+    Upgrade {Value1} random cards in the hand.
+
+    If no cards were upgraded this way, gain {Value2} |Ward|.
+
+    |d:Overflow: Gain {Mana}.|
+  DetailText: Tools, Statuses and Misfortunes cannot be upgraded.

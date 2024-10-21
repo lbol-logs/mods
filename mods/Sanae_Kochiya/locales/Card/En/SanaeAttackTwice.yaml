@@ -1,0 +1,8 @@
+﻿SanaeAttackTwice:
+  Name: Forgotten Esoterica
+  Description: >-
+    Deal {Damage} damage.
+
+    If {PlayerName} has |Amulet|, lose {Value1} |Amulet| and deal that much damage twice instead.
+
+    Otherwise, gain {Value2} |Amulet|.

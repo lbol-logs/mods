@@ -1,0 +1,11 @@
+﻿SanaeDrawAbility:
+  Name: 诹访湖的两柱半神明
+  Description: >-
+    抽 {Value1} 张牌。
+
+    抽到的能力牌的费用|暂时降低|{Mana}。
+  UpgradedDescription: >-
+    抽 {Value1} 张牌。
+
+    抽到的能力牌的费用|暂时降低| 1 点随机的法力。
+  FlavorText: ''

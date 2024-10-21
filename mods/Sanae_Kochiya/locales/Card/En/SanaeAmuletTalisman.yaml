@@ -1,0 +1,9 @@
+﻿SanaeAmuletTalisman:
+  Name: Secretly Inherited Arts
+  Description: >-
+    Gain {Value1} <sprite="Point" name="Power">.
+
+    Add {Value2} |Moriya Talismans| to the draw pile.
+
+    For each |Amulet| {PlayerName} has, {SelfName} costs {Mana} less to play.
+  FlavorText: ''

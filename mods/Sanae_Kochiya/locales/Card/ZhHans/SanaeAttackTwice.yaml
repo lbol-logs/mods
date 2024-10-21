@@ -1,0 +1,8 @@
+﻿SanaeAttackTwice:
+  Name: 被遗忘的秘传
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    如果{PlayerName}拥有|护身符|，失去 {Value1} 层|护身符|并改为造成两次伤害。
+
+    否则，获得 {Value2} 层|护身符|。

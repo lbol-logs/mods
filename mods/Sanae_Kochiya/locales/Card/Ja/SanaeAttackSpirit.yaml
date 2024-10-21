@@ -1,0 +1,7 @@
+﻿SanaeAttackSpirit:
+  Name: 祈りの姿勢
+  Description: >-
+    {Damage}ダメージを与える。
+
+    |臨時霊力|{Value1}を得る。
+  FlavorText: ''

@@ -1,0 +1,11 @@
+﻿SanaeAmuletDebuff:
+  Name: 코안의 카미카제
+  Description: >-
+    |선택| 하나 이상:
+
+    - |화력|과 |허약|을 {Value1} 얻습니다.
+
+    - |영력|과 |연약|을 {Value1} 얻습니다.
+
+    - 최대 체력과 |취약|과 |중독|을 {Value1} 얻습니다.
+  FlavorText: ''

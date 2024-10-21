@@ -1,0 +1,7 @@
+﻿SanaeAttackPower:
+  Name: 妖力スポイラー
+  Description: >-
+    {Damage}ダメージを与える。
+
+    このダメージが敵のHPを減らした時、それと同じ値の<sprite="Point" name="Power">を得る。
+  FlavorText: ''

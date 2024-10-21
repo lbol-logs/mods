@@ -1,0 +1,16 @@
+﻿SanaeManaSynergy:
+  Name: ミラクルフルーツ
+  Description: >-
+    |<sprite="ManaSprite" name="W">につき|：<sprite="ManaSprite" name="U"><sprite="ManaSprite" name="G">を得る。 
+
+    |<sprite="ManaSprite" name="U">につき|：<sprite="ManaSprite" name="W"><sprite="ManaSprite" name="G">を得る。
+
+    |オーバードラフト|{Value1}。
+  UpgradedDescription: >-
+    |<sprite="ManaSprite" name="W">につき|：<sprite="ManaSprite" name="U"><sprite="ManaSprite" name="G">を得る。 
+
+    |<sprite="ManaSprite" name="U">につき|：<sprite="ManaSprite" name="W"><sprite="ManaSprite" name="G">を得る。 
+
+    |<sprite="ManaSprite" name="G">につき|：<sprite="ManaSprite" name="W"><sprite="ManaSprite" name="U">を得る。
+
+    |オーバードラフト|{Value1}。

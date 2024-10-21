@@ -1,0 +1,4 @@
+﻿SanaeExpiredCoupon:
+  Name: 만료된 쿠폰
+  Description: 매 전투에서 처음 {PlayerName}가 |스펠 카드|를 발동하면, <sprite="Point" name="Power">를 {Value1} 얻습니다.
+  FlavorText: 이 메모에 따르면 계란은 10년 이상 전에 판매되었습니다.

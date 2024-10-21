@@ -1,0 +1,4 @@
+﻿OmikujiBonusSe:
+  Name: 스펠 카드 강화
+  Description: '{OwnerName}가 |스펠 카드|를 사용할 때마다, 추가로 피해를 {Level} 줍니다.'
+  Brief: '{OwnerName}가 |스펠 카드|를 사용할 때마다, 추가 피해를 줍니다.'

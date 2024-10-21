@@ -1,0 +1,8 @@
+﻿SanaeExileDamage:
+  Name: 三色雪绒花
+  Description: 当一张牌被自动|放逐|时，对随机敌人造成 {Value1} 点伤害。
+  UpgradedDescription: >-
+    当一张牌被自动|放逐|时，对随机敌人造成 {Value1} 点伤害。
+
+    将 {Value2} 张|守矢护符|加入手中。
+  FlavorText: 它本来是"当一张牌被庇护效果或自动放逐效果放逐"但我写不出来代码，这是替代方案 - Xeno

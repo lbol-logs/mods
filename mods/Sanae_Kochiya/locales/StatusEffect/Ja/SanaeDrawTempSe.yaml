@@ -1,0 +1,4 @@
+﻿SanaeDrawTempSe:
+  Name: スクールサイエンスフェア
+  Description: '{OwnerName}のターン開始時、カードを{Level}枚引き、引いたスキルでないカードを全て捨てる。'
+  Brief: '{OwnerName}のターン開始時、カードを枚引き、引いたスキルでないカードを全て捨てる。'

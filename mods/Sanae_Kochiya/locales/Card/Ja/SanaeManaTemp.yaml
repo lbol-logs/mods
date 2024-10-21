@@ -1,0 +1,7 @@
+﻿SanaeManaTemp:
+  Name: 青蛇の髪飾り
+  Description: >-
+    |臨時霊力|{Value1}を得る。
+
+    手札が{Value3}枚以上あるならば、|臨時霊力|{Value2}を|霊力|に変換しカードを{Value2}枚引く。
+  FlavorText: ''

@@ -1,0 +1,4 @@
+﻿SanaeSpiritManaSe:
+  Name: 召喚術の練習
+  Description: "{Count:ordinal one='次の' two='%ターン' few='%ターン' other='%ターン'}{Count:plural one='' other='後'}の{PlayerName}のターン開始時、|霊力|{Level}を得て|光明|を1枚手札に加える。"
+  Brief: 数ターン後、|霊力|を得て|光明|を1枚手札に加える。

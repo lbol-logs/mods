@@ -1,0 +1,7 @@
+﻿SanaeAttackWeak:
+  Name: Whirlpool Eyes
+  Description: >-
+    Apply {Value1} |Weak|.
+
+    Then, deal {Damage} damage to each other enemy.
+  FlavorText: The center of chaos is unexpectedly the safest place to reside.

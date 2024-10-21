@@ -1,0 +1,9 @@
+﻿SanaeAttackBlock:
+  Name: マジックバースト
+  Description: >-
+    {PlayerName}の|ブロック|を0にし、減らした数値分のダメージを敵全体に与える。
+
+    {Block}|ブロック|を得る。
+
+    {PlayerName}のターンを終了する。
+  FlavorText: 早苗は全ての魔力を解放した！

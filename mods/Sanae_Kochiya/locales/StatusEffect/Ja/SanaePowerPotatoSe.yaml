@@ -1,0 +1,4 @@
+﻿SanaePowerPotatoSe:
+  Name: 現代の娯楽
+  Description: 戦闘終了時、<sprite="Point" name="Power">{Level}を得る。
+  Brief: 戦闘終了時に<sprite="Point" name="Power">を得る。

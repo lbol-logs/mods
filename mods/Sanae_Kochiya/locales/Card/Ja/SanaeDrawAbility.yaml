@@ -1,0 +1,11 @@
+﻿SanaeDrawAbility:
+  Name: 諏訪湖の二柱半の神様
+  Description: >-
+    カードを{Value1}枚引く。
+
+    能力カードを引いた場合、それの|臨時コスト|を{Mana}減らす。
+  UpgradedDescription: >-
+    カードを{Value1}枚引く。
+
+    能力カードを引いた場合、それの|臨時コスト|をランダムに{Value2}つ減らす。
+  FlavorText: ''

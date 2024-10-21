@@ -1,0 +1,15 @@
+﻿SanaeStarterU:
+  Name: 無謀な退治者
+  Description: >-
+    {Damage}ダメージを{Value1}回与える。
+
+    {SelfName}で敵を倒した場合、<sprite="Point" name="Power">{Value2}を得る。
+
+    この効果は戦闘ごとに1回しか発動しない。
+  ExtraDescription1: >-
+    {Damage}ダメージを{Value1}回与える。
+
+    |d:{SelfName}で敵を倒した場合、<sprite="Point" name="Power">{Value2}を得る。|
+
+    この効果は戦闘ごとに1回しか発動しない。
+  FlavorText: この幻想郷では常識に囚われてはいけないのですね！？

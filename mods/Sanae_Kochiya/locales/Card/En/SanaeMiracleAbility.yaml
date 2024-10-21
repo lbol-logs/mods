@@ -1,0 +1,5 @@
+﻿SanaeMiracleAbility:
+  Name: Miracle Pentacle
+  Description: Choose 1 of {Value1} uncommon Ability cards to add to the hand. It |temporarily costs| {Mana} and has |Echo| and |Ethereal|.
+  UpgradedDescription: Choose 1 of {Value1} rare Ability cards or 1 of {Value1} uncommon Ability cards to add to the hand. It |temporarily costs| {Mana} and has |Echo| and |Ethereal|.
+  DetailText: These |e:alternate cards| ignore total mana and mana color restrictions.

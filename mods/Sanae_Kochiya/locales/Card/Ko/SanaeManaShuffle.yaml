@@ -1,0 +1,7 @@
+﻿SanaeManaShuffle:
+  Name: 휴대용 연못
+  Description: >-
+    |소멸될시| {Mana}를 얻습니다.
+
+    뽑을 카드 더미가 섞일 때, |소멸|된 {SelfName}을 손으로 되돌립니다.
+  FlavorText: ''

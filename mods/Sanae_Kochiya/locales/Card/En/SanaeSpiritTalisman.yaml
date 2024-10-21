@@ -1,0 +1,8 @@
+﻿SanaeSpiritTalisman:
+  Name: Kouan Era Kochiya (old)
+  Description: >-
+    Gain {Value1} |Spirit|.
+
+    |Choose|: Gain {Value2} |Ward|, or add {Value3} |Moriya Talismans| to the hand.
+  ExtraDescription1: Gain {Value2} |Ward|.
+  ExtraDescription2: Add {Value3} |Moriya Talismans| to the hand.

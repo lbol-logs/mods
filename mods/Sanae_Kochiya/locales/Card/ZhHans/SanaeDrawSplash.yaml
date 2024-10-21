@@ -1,0 +1,6 @@
+﻿SanaeDrawSplash:
+  Name: 摩西之奇迹
+  Description: >-
+    抽 {Value1} 张牌。
+
+    丢弃手中所有的技能牌，将等量的|水花|加入手中，它们具有|自动放逐|。

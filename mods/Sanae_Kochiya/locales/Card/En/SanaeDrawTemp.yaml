@@ -1,0 +1,6 @@
+﻿SanaeDrawTemp:
+  Name: School Science Fair
+  Description: >-
+    Draw {Value1} cards.
+
+    At the start of {PlayerName}'s turn, draw {Value1} cards. If a non-skill card was drawn this way, discard it.

@@ -1,0 +1,4 @@
+﻿SanaePowerPotato:
+  Name: 현대 오락
+  Description: 전투 종료시, <sprite="Point" name="Power">를 {Value1} 얻습니다.
+  FlavorText: 옛날 게임 콘솔은 NES나 SNES 비슷한거잖아요. 그렇죠?

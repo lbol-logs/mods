@@ -1,0 +1,4 @@
+﻿SanaeHisouLeftLeg:
+  Name: 未確認巨大ロボの左足
+  Description: '|ターン終了時|：|脆弱化|{Value1}を得る。'
+  UpgradedDescription: '|ターン終了時|：|脱力|{Value1}を得る。'

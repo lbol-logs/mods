@@ -1,0 +1,4 @@
+﻿SanaeKanakoFriendSe:
+  Name: 불려진 신
+  Description: 스펠 카드가 발동할 때마다, {OwnerName}가 |화력|과 |그레이즈|를 {Level} 얻습니다.
+  Brief: 스펠 카드가 발동할 때마다, {OwnerName}가 |화력|과 |그레이즈|를 2 얻습니다.

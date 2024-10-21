@@ -1,0 +1,7 @@
+﻿SanaeAttackWeak:
+  Name: 渦巻く両目
+  Description: >-
+    |脱力|{Value1}を与える。
+
+    対象以外の敵全体に{Damage}ダメージを与える。
+  FlavorText: 意外にも混沌の中心が一番安全だったりするのだ

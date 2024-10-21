@@ -1,0 +1,8 @@
+﻿SanaeSpellPower:
+  Name: 과도한 신앙
+  Description: >-
+    체력을 {Value1} 잃습니다.
+
+    <sprite="Point" name="Power">를 {Value2} 얻습니다.
+
+    {PlayerName}의 다음 턴 시작 시, <sprite="Point" name="Power">를 {Value3} 잃습니다.

@@ -1,0 +1,7 @@
+﻿SanaeAttackAmulet:
+  Name: 御幣猛撃
+  Description: >-
+    {Damage}ダメージを与える。
+
+    {PlayerName}が|加護|を持っていないならば、|加護|{Value1}を得る。
+  FlavorText: ''

@@ -1,0 +1,17 @@
+﻿SanaeSpellMana:
+  Name: Network Conspiracy
+  Description: >-
+    Whenever the Spell Card is activated, gain {Mana}.
+
+    End {PlayerName}'s turn. Then, take an extra turn.
+
+    |Time Limit| <sprite="ManaSprite" name="1">.
+  UpgradedDescription: >-
+    Gain {Value2} <sprite="Point" name="Power">.
+
+    Whenever the Spell Card is activated, gain {Mana}.
+
+    End {PlayerName}'s turn. Then, take an extra turn.
+
+    |Time Limit| <sprite="ManaSprite" name="1">.
+  FlavorText: ''

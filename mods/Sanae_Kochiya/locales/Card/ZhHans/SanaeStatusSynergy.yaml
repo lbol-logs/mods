@@ -1,0 +1,10 @@
+﻿SanaeStatusSynergy:
+  Name: 日晒仪式
+  Description: >-
+    |每支付{Mana}|：将 {Value1} 张|折射日光|洗入抽牌堆，它具有|自动放逐|。
+
+    |每支付<sprite="ManaSprite" name="W"><sprite="ManaSprite" name="W">|：获得 {Value2} 点|火力|。
+  UpgradedDescription: >-
+    |每支付{Mana}|：将 {Value1} 张|折射日光|洗入抽牌堆，它具有|自动放逐|。
+
+    |每支付<sprite="ManaSprite" name="W"><sprite="ManaSprite" name="W">|：获得 {Value2} 点|火力|和|灵力|。

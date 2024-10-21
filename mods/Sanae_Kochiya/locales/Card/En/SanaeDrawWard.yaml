@@ -1,0 +1,7 @@
+﻿SanaeDrawWard:
+  Name: Wildcard
+  Description: >-
+    Gain {Value1} |Ward|.
+
+    Draw {Value2} card.
+  FlavorText: ''

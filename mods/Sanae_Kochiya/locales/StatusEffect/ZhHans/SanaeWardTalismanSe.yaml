@@ -1,0 +1,10 @@
+﻿SanaeWardTalismanSe:
+  Name: 预咏唱咒语
+  Description: >-
+    当{OwnerName}获得|庇护|时，获得等量的<sprite="Point" name="Power">。
+
+    当符卡被使用后，将 {Level} 张|守矢护符|放入弃牌堆。
+  Brief: >-
+    当{OwnerName}获得|庇护|时，获得等量的<sprite="Point" name="Power">。
+
+    当符卡被使用后，将|守矢护符|放入弃牌堆。

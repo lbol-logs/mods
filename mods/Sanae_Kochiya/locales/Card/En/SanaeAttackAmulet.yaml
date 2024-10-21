@@ -1,0 +1,7 @@
+﻿SanaeAttackAmulet:
+  Name: Gohei Whack
+  Description: >-
+    Deal {Damage} damage.
+
+    If {PlayerName} doesn't have |Amulet|, gain {Value1} |Amulet|.
+  FlavorText: ''

@@ -1,0 +1,7 @@
+﻿SanaeKanakoFriend:
+  Name: 神風の支配者、神奈子
+  Description: '{PassiveCostIcon}最もライフが多い敵に{Damage}ダメージを与える。'
+  UpgradedDescription: '{PassiveCostIcon}最もライフが多い敵に{Damage}ダメージを与える。'
+  ExtraDescription1: '{ActiveCostIcon}{Shield}|バリア|を得る。|グレイズ|{Value3}を得る。'
+  ExtraDescription2: '{UltimateCostIcon}<sprite="Point" name="Power">{Value2}を得る。この戦闘中、スペルカードを使用するたびに|火力|{Value1}と|グレイズ|{Value1}を得る。'
+  FlavorText: ''

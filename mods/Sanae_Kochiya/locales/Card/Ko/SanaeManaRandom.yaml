@@ -1,0 +1,12 @@
+﻿SanaeManaRandom:
+  Name: 패프러츠키스의 기적
+  Description: >-
+    비용 합계가 4 이하인 무작위 카드 {Value1}장을 뽑을 카드 더미에 추가합니다.
+
+    이 카드들은 |휘발성|을 얻고 비용이 {Mana}가 됩니다.
+  UpgradedDescription: >-
+    비용 합계가 4 이하인 |강화된| 무작위 카드 {Value1}장을 뽑을 카드 더미에 추가합니다.
+
+    이 카드들은 |휘발성|을 얻고 비용이 {Mana}가 됩니다.
+  DetailText: '{SelfName}과 X-비용 카드는 나오지 않습니다.'
+  FlavorText: ''

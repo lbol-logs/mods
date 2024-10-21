@@ -1,0 +1,6 @@
+﻿SanaeDrawTalisman:
+  Name: 積み込み
+  Description: >-
+    |守矢の護符|を{Value1}枚山札の一番上に置く。
+
+    カードを{Value2}枚引く。

@@ -1,0 +1,9 @@
+﻿SanaePowerTemp:
+  Name: 力試し
+  Description: >-
+    |火力|{Value1}を得る。
+
+    <sprite="Point" name="Power">{Value1}を得る。
+
+    {PlayerName}の次のターン開始時、|火力|{Value1}を失う。
+  FlavorText: ''

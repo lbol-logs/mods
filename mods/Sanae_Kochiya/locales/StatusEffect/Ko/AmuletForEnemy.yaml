@@ -1,0 +1,4 @@
+﻿AmuletForEnemy:
+  Name: 보루
+  Description: 추가될 다음 {Level}장의 비-상태카드를 차단합니다. (대신 |소멸| 시킵니다).
+  Brief: 추가될 다음 비-상태카드를 차단합니다. (대신 |소멸| 시킵니다).

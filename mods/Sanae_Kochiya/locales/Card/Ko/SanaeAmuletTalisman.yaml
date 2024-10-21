@@ -1,0 +1,9 @@
+﻿SanaeAmuletTalisman:
+  Name: 비밀로 계승된 예술
+  Description: >-
+    <sprite="Point" name="Power">를 {Value1} 얻습니다.
+
+    뽑을 카드 더미에 |모리야 부적|을 {Value2}장 추가합니다.
+
+    {PlayerName}의 |부적|만큼, {SelfName}의 비용이 {Mana} 감소합니다.
+  FlavorText: ''

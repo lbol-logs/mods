@@ -1,0 +1,8 @@
+﻿SanaeMoneyWard:
+  Name: 守护商业繁荣
+  Description: >-
+    获得 {Value1} 层|庇护|。
+
+    获得 {Value2} 点<sprite="Point" name="Gold">。
+
+    获得 {Value3} 点随机法力。

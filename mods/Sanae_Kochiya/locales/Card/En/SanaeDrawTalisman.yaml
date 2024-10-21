@@ -1,0 +1,6 @@
+﻿SanaeDrawTalisman:
+  Name: Stack Underdraw
+  Description: >-
+    Add {Value1} |Moriya Talismans| to the top of the draw pile.
+
+    Draw {Value2} card.

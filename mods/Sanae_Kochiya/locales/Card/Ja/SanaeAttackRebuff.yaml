@@ -1,0 +1,6 @@
+﻿SanaeAttackRebuff:
+  Name: 五穀の雨
+  Description: >-
+    敵全体に{Damage}ダメージを与える。
+
+    敵の行動予定がデバフの場合、|加護|{Value1}を得る。

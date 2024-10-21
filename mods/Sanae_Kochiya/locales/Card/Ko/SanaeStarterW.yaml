@@ -1,0 +1,12 @@
+﻿SanaeStarterW:
+  Name: 이중 강타
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |현광|을 손에 추가할 수 있습니다. 추가한다면, 대신 피해를 {GlareDamage}씩 {Value2}번 줍니다.
+  ExtraDescription1: >-
+    |현광|을 손에 추가합니다.
+
+    피해를 {GlareDamage}씩 {Value2}번 줍니다.
+  ExtraDescription2: 피해를 {Damage} 줍니다.
+  FlavorText: ''

@@ -1,0 +1,7 @@
+﻿SanaeAttackWeak:
+  Name: 태풍의 눈
+  Description: >-
+    |허약|을 {Value1} 적용합니다.
+
+    그 후, 다른 모든 적에게 피해를 {Damage} 줍니다.
+  FlavorText: 혼란의 중심은 의외로 거주하기에 가장 안전한 곳입니다.

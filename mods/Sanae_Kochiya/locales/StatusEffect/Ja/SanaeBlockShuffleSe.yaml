@@ -1,0 +1,4 @@
+﻿SanaeBlockShuffleSe:
+  Name: 占いの舞
+  Description: '{OwnerName}が山札をシャッフルするたび、{Level}|ブロック|を得る。'
+  Brief: '{OwnerName}が山札をシャッフルするたび、|ブロック|を得る。'

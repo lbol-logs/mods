@@ -1,0 +1,4 @@
+﻿SanaeLibraryCard:
+  Name: 図書カード
+  Description: '{PlayerName}のターン開始時、前のターンに攻撃カードを使用してなかった場合、|庇護|{Value1}を得る。'
+  FlavorText: この薄板を使えば、使用者はトラブルを起こすことなく本を「借りる」ことができる。

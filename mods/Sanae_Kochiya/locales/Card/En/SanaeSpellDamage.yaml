@@ -1,0 +1,6 @@
+﻿SanaeSpellDamage:
+  Name: Green Thaumaturgy
+  Description: >-
+    Gain {Value1} life.
+
+    Whenever the Spell Card is activated, deal {Value3} attack damage to a random enemy {Value2} times.

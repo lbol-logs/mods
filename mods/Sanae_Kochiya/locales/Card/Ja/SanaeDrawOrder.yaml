@@ -1,0 +1,17 @@
+﻿SanaeDrawOrder:
+  Name: 貝殻交換
+  Description: >-
+    山札の上から{Value1}枚のカードを見て、1枚選んで山札の1番上に移動させる。
+
+    移動させたのがスキルカードの場合、カードを{Value2}枚引く。
+
+    {Mana}を得る。
+  UpgradedDescription: >-
+    山札の上から{Value1}枚のカードを見て、1枚選んで山札の1番上に移動させる。
+
+    移動させたのがスキルカードの場合、カードを{Value2}枚引く。
+
+    {Mana}を得る。
+
+    カードを{Value2}枚引く。
+  FlavorText: 賞金から目を離すな！

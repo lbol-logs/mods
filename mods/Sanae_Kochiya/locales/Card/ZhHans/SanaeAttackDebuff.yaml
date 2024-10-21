@@ -1,0 +1,7 @@
+﻿SanaeAttackDebuff:
+  Name: 御社宫司神的谷粒
+  Description: >-
+    对所有敌人造成 {Damage} 点伤害。
+
+    对所有敌人施加 {Value1} 层|虚弱|和|易伤|。
+  FlavorText: ''

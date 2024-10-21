@@ -1,0 +1,7 @@
+﻿SanaeBlockWard:
+  Name: 이단 방어
+  Description: >-
+    |방어|를 {Block}씩 {Value1}번 얻습니다.
+
+    |비호|를 {Value2}씩 {Value1}번 얻습니다.
+  FlavorText: 허? 방어가 아니라 공격해야 되는거 아냐?

@@ -1,0 +1,9 @@
+﻿SanaeDazzleDash:
+  Name: 輝く線香花火
+  Description: >-
+    |火力|{Value1}を得る。
+
+    <sprite="Point" name="Power">{Value2}を得る。
+
+    |手札効果|：スペルカードを使用するたび、{SelfName}の効果量はターン終了時まで2倍になる。
+  FlavorText: ''

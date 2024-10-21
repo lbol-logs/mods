@@ -1,0 +1,7 @@
+﻿SanaeBlockWard:
+  Name: 非正统防御
+  Description: >-
+    获得 {Block} 点|格挡| {Value1} 次。
+
+    获得 {Value2} 层|庇护| {Value1} 次。
+  FlavorText: 哈？这不应该改成伤害？

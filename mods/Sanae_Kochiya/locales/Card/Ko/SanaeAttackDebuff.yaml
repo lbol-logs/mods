@@ -1,0 +1,7 @@
+﻿SanaeAttackDebuff:
+  Name: 미샤구지님의 재앙
+  Description: >-
+    모든 적에게 피해를 {Damage} 줍니다.
+
+    모든 적에게 |허약|과 |취약|을 {Value1} 줍니다.
+  FlavorText: ''

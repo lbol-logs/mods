@@ -1,0 +1,12 @@
+﻿SanaeStarterW:
+  Name: 二重衝撃
+  Description: >-
+    {Damage}ダメージを与える。
+
+    |眩輝|を1枚手札に加えてもよい。そうした場合、代わりに{GlareDamage}ダメージを{Value2}回与える。
+  ExtraDescription1: >-
+    |眩輝|を手札に加える。
+
+    {GlareDamage}ダメージを{Value2}回与える。
+  ExtraDescription2: '{Damage}ダメージを与える。'
+  FlavorText: ''

@@ -1,0 +1,9 @@
+﻿SanaeDazzleDash:
+  Name: 超级烟花
+  Description: >-
+    获得 {Value1} 点|火力|。
+
+    获得 {Value2} 点<sprite="Point" name="Power">。
+
+    |手牌中|：使用符卡时，{SelfName}在本回合中效果数值翻倍。
+  FlavorText: ''

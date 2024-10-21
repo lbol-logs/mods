@@ -1,0 +1,7 @@
+﻿SanaeReimuAbility:
+  Name: 신사 라이벌전
+  Description: >-
+    무작위 레이무의 희귀 능력 카드 {Value1}장중 1장을 선택하여 손에 추가합니다. 이 카드의 비용은 |일시적으로| {Mana}가 되며 |휘발성|을 가집니다.
+
+    |가불| {Value2}.
+  DetailText: 이 카드는 총 마나, 마나 색상, 캐릭터 제한을 무시합니다.

@@ -1,0 +1,9 @@
+﻿SanaeAmuletTalisman:
+  Name: 一子相伝
+  Description: >-
+    <sprite="Point" name="Power">{Value1}を得る。
+
+    |守矢の護符|を{Value2}枚山札に加える。
+
+    {PlayerName}が持っている|加護|1につき、{SelfName}のコストを{Mana}減らす。
+  FlavorText: ''

@@ -1,0 +1,4 @@
+﻿SanaeExpiredCoupon:
+  Name: Expired Coupon
+  Description: After {PlayerName} activates her |Spell Card| for the first time each combat, gain {Value1} <sprite="Point" name="Power">.
+  FlavorText: According to this note, eggs were on sale more than 10 years ago.

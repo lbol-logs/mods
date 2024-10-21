@@ -1,0 +1,6 @@
+﻿SanaeSuwakoFriend:
+  Name: 狡猾なカエルラバー、諏訪子
+  Description: '{PassiveCostIcon}|残留思念|を{Value1}枚山札に加える。'
+  ExtraDescription1: '{ActiveCostIcon}敵全体に|脱力|{Value1}を与える。'
+  ExtraDescription2: <indent=0><sprite="Active" name="-4"><indent=80>ランダムなアンコモンの能力カード1枚を手札に加える。それは|臨時コスト|{Mana}となり、|虚無|を持つ。
+  FlavorText: ''

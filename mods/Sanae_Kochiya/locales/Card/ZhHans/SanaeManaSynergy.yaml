@@ -1,0 +1,16 @@
+﻿SanaeManaSynergy:
+  Name: 神秘果
+  Description: >-
+    |每支付<sprite="ManaSprite" name="W">|：获得<sprite="ManaSprite" name="U"><sprite="ManaSprite" name="G">。 
+
+    |每支付<sprite="ManaSprite" name="U">|：获得<sprite="ManaSprite" name="W"><sprite="ManaSprite" name="G">。
+
+    |透支| {Value1}。
+  UpgradedDescription: >-
+    |每支付<sprite="ManaSprite" name="W">|：获得 <sprite="ManaSprite" name="U"><sprite="ManaSprite" name="G">。 
+
+    |每支付<sprite="ManaSprite" name="U"> |：获得<sprite="ManaSprite" name="W"><sprite="ManaSprite" name="G">。 
+
+    |每支付<sprite="ManaSprite" name="G">|：获得 <sprite="ManaSprite" name="W"><sprite="ManaSprite" name="U">。
+
+    |透支| {Value1}。

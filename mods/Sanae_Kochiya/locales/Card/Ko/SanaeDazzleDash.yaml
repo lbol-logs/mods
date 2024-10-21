@@ -1,0 +1,9 @@
+﻿SanaeDazzleDash:
+  Name: 대낮의 객성
+  Description: >-
+    |화력|을 {Value1} 얻습니다.
+
+    <sprite="Point" name="Power">를 {Value2} 얻습니다.
+
+    |손에 있을시|: 스펠카드 발동시, 이번 턴 동안 {SelfName}의 효과가 두배가 됩니다.
+  FlavorText: ''

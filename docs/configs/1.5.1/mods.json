@@ -1,5 +1,12 @@
 [
   {
+    "GUID": "xeno.lbol.character.Sanae_Kochiya",
+    "Name": "Sanae_Kochiya",
+    "Version": "0.5.4",
+    "Character": "Sanae_Kochiya",
+    "Url": "https://thunderstore.io/c/touhou-lost-branch-of-legend/p/XenOnly/Sanae_Kochiya/"
+  },
+  {
     "GUID": "zosit.lbol.test.utsuho",
     "Name": "UtsuhoCharacter",
     "Version": "1.5.0",

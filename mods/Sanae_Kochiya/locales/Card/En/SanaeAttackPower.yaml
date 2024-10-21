@@ -1,0 +1,7 @@
+﻿SanaeAttackPower:
+  Name: Youkai Power Spoiler
+  Description: >-
+    Deal {Damage} damage.
+
+    Gain <sprite="Point" name="Power"> equal to the amount of unblocked damage dealt this way.
+  FlavorText: ''

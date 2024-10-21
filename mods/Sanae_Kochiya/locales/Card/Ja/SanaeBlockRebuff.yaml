@@ -1,0 +1,6 @@
+﻿SanaeBlockRebuff:
+  Name: 護符投射
+  Description: >-
+    {Block}|ブロック|と{Block}|バリア|を得る。
+
+    {PlayerName}が|加護|を持っているならば、|加護|{Value1}を失い敵全体に|脱力|{Value2}を与える。

@@ -1,0 +1,6 @@
+﻿SanaeBlockTalisman:
+  Name: 신사 보호
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    버린 카드 더미에 |모리야 부적|을 {Value1}장 추가합니다.

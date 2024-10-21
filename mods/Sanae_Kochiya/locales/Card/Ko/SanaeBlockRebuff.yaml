@@ -1,0 +1,6 @@
+﻿SanaeBlockRebuff:
+  Name: 부적 던지기
+  Description: >-
+    |방어|와 |보호막|을 {Block} 얻습니다.
+
+    {PlayerName}에게 |부적|이 있다면, |부적|을 {Value1} 잃고 모든 적에게 |허약|을 {Value2} 줍니다.

@@ -1,0 +1,6 @@
+﻿SanaeSuwakoFriend:
+  Name: 스와코, 교활한 개구리 사랑꾼
+  Description: '{PassiveCostIcon}|어둠의 잔재|를 {Value1}장 뽑을 카드 더미에 추가합니다.'
+  ExtraDescription1: '{ActiveCostIcon}모든 적에게 |허약|을 {Value1} 줍니다.'
+  ExtraDescription2: <indent=0><sprite="Active" name="-4"><indent=80>무작위 고급 능력 카드를 손에 추가합니다. 이 카드의 비용은 |일시적으로| {Mana}가 되고 |휘발성|을 가집니다.
+  FlavorText: ''

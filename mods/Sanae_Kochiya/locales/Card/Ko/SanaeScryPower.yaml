@@ -1,0 +1,18 @@
+﻿SanaeScryPower:
+  Name: 명중한 예언
+  Description: >-
+    예지 {Scry}.
+
+    |선보임|: <sprite="Point" name="Power">를 {Value1} 얻습니다.
+  UpgradedDescription: >-
+    예지 {Scry}.
+
+    |선보임|: <sprite="Point" name="Power">를 {Value1} 얻습니다. {SelfName}의 비용이 이번 전투동안 {Mana} 감소합니다.
+  ExtraDescription1: >-
+    예지 {Scry}.
+
+    |d:선보임: <sprite="Point" name="Power">를 {Value1} 얻습니다.|
+  UpgradedExtraDescription1: >-
+    예지 {Scry}.
+
+    |d:선보임: <sprite="Point" name="Power">를 {Value1} 얻습니다. {SelfName}의 비용이 이번 전투동안 {Mana} 감소합니다.|

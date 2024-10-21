@@ -1,0 +1,4 @@
+﻿NextTurnLoseFire:
+  Name: 下回合失去火力
+  Description: '{OwnerName}的下个回合开始时，失去 {Level} 点|火力|。'
+  Brief: '{OwnerName}的下个回合开始时，失去|火力|。'

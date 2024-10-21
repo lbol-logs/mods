@@ -1,0 +1,9 @@
+﻿SanaeToolNews:
+  Name: 山顶集会
+  Description: >-
+    |抉择|：将 {Value1} 张随机的非稀有河童|道具|牌或 {Value2} 张天狗|道具|牌加入手中。
+
+    这些牌被标记为|复制品|，具有|自动放逐|，使用次数为 1 。
+  ExtraDescription1: 将 {Value1} 张随机的非稀有河童|道具|牌加入手中。
+  ExtraDescription2: 将 {Value2} 张随机的非稀有天狗|道具|牌加入手中。
+  FlavorText: ''

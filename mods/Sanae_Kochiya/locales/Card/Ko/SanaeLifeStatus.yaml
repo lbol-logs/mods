@@ -1,0 +1,8 @@
+﻿SanaeLifeStatus:
+  Name: 뿅타 모자 마술
+  Description: >-
+    최대 체력을 {Value1} 얻습니다.
+
+    손, 뽑을 카드 더미, 버린 카드 더미의 무작위 카드 {Value2}장을 |개구리|로 바꿉니다.
+  DetailText: '{SelfName}은 전투 중 무작위로 생성될 수 없습니다.'
+  FlavorText: 이 모자에서 떨어지는 것은 토끼나 새가 아니야~

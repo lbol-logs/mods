@@ -1,0 +1,10 @@
+﻿SanaeToolNews:
+  Name: 산신회의
+  Description: >-
+    |선택|: 무작위 갓파 |도구| 카드 {Value1}장 또는 텐구 |도구| 카드 {Value2}장을 손에 추가합니다.
+
+    이들은 |복사본|으로 취급되며, |자동 소멸| 및 |제한 1|을 가집니다.
+  ExtraDescription1: 무작위 갓파 |도구| 카드 {Value1}장 손에 추가합니다.
+  ExtraDescription2: 무작위 텐구 |도구| 카드 {Value2}장 손에 추가합니다.
+  DetailText: 옆의 카드는 각 |도구|들의 예시입니다.
+  FlavorText: ''

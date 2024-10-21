@@ -1,0 +1,8 @@
+﻿SanaeSpellPower:
+  Name: 短暂的信仰
+  Description: >-
+    失去 {Value1} 点生命。
+
+    获得 {Value2} 点<sprite="Point" name="Power">。
+
+    {PlayerName}的下个回合开始时，失去 100 点<sprite="Point" name="Power">。

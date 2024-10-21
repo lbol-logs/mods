@@ -1,0 +1,6 @@
+﻿SanaeDrawTemp:
+  Name: スクールサイエンスフェア
+  Description: >-
+    カードを{Value1}枚引く。
+
+    {PlayerName}のターン開始時、カードを{Value1}枚引く。この効果でスキル以外のカードを引いた場合、それを捨てる。

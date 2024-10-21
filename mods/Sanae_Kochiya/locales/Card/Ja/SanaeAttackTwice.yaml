@@ -1,0 +1,8 @@
+﻿SanaeAttackTwice:
+  Name: 忘れられた秘伝
+  Description: >-
+    {Damage}ダメージを与える。
+
+    {PlayerName}が|加護|を持っている場合、代わりに|加護|{Value1}を失い、ダメージを2回与える。
+
+    持っていない場合、|加護|{Value2}を得る。

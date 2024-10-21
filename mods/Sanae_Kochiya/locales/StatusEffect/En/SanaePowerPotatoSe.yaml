@@ -1,0 +1,4 @@
+﻿SanaePowerPotatoSe:
+  Name: Modern-Age Entertainment
+  Description: After this combat, gain {Level} <sprite="Point" name="Power">.
+  Brief: Gain a certain amount of <sprite="Point" name="Power"> at the end of combat.

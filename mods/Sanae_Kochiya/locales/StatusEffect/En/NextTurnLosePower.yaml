@@ -1,0 +1,4 @@
+﻿NextTurnLosePower:
+  Name: Next Turn Power Loss
+  Description: At the start of {OwnerName}'s next turn, lose {Level} <sprite="Point" name="Power">.
+  Brief: At the start of {OwnerName}'s next turn, lose <sprite="Point" name="Power">.

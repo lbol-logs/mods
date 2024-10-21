@@ -1,0 +1,9 @@
+﻿SanaeLifeAmulet:
+  Name: 守护仪式
+  Description: >-
+    失去 {Value1} 点生命。
+
+    获得 {Shield} 点|护盾|。
+
+    获得 {Value2} 层|护身符|。
+  FlavorText: ''

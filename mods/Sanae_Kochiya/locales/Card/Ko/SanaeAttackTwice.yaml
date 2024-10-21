@@ -1,0 +1,8 @@
+﻿SanaeAttackTwice:
+  Name: 잊혀진 비전
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    {PlayerName}가 |부적|을 가지고 있다면, |부적|을 {Value1} 잃고 그 피해를 두 번 줍니다.
+
+    그렇지 않으면, |부적|을 {Value2} 얻습니다.

@@ -1,0 +1,7 @@
+﻿SanaeManaTemp:
+  Name: Cyan Snake-Binding
+  Description: >-
+    Gain {Value1} |Temporary Spirit|.
+
+    If there's at least {Value3} cards in the hand, convert {Value2} |Temporary Spirit| into |Spirit| and draw {Value2} cards.
+  FlavorText: ''

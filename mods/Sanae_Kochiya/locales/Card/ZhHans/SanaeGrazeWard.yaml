@@ -1,0 +1,7 @@
+﻿SanaeGrazeWard:
+  Name: 神之风盾
+  Description: >-
+    当{PlayerName}|闪避|一次攻击时，获得 {Value1} 层|庇护|。
+
+    获得 {Value2} |闪避|。
+  FlavorText: ''

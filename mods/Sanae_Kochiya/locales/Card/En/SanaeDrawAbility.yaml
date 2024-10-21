@@ -1,0 +1,11 @@
+﻿SanaeDrawAbility:
+  Name: Two-and-a-half Gods of Lake Suwa
+  Description: >-
+    Draw {Value1} cards.
+
+    If an Ability card was drawn this way, it |temporarily costs| {Mana} less.
+  UpgradedDescription: >-
+    Draw {Value1} cards.
+
+    If an Ability card was drawn this way, it |temporarily costs| {Value2} random mana less.
+  FlavorText: ''

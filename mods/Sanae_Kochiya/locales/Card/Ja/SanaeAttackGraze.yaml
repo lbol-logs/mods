@@ -1,0 +1,7 @@
+﻿SanaeAttackGraze:
+  Name: 鋭い微風
+  Description: >-
+    ランダムな{Value1}体の敵に{Damage}ダメージを与える。
+
+    攻撃を受けた敵1体ごとに{Mana}を得る。
+  FlavorText: ''

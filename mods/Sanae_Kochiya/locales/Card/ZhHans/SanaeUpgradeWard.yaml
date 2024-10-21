@@ -1,0 +1,15 @@
+﻿SanaeUpgradeWard:
+  Name: 地脉聚光灯
+  Description: >-
+    如果手中有可被升级的牌，随机升级手中的 {Value1} 张牌。
+
+    否则，获得 {Value2} 层庇护。
+
+    |充盈|：获得{Mana}。
+  ExtraDescription1: >-
+    升级手中的 {Value1} 张牌。
+
+    如果没有升级任何牌，获得 {Value2} 层庇护。
+
+    |充盈|：获得{Mana}。
+  DetailText: 不能升级道具牌，状态牌和厄运牌。

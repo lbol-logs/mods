@@ -1,0 +1,17 @@
+﻿SanaeSpellMana:
+  Name: 네트워크 음모
+  Description: >-
+    스펠 카드가 발동할 때마다 {Mana}를 얻습니다.
+
+    {PlayerName}의 턴을 종료합니다. 그 후, 추가 턴을 얻습니다.
+
+    |시간 제한| <sprite="ManaSprite" name="1">.
+  UpgradedDescription: >-
+    <sprite="Point" name="Power">를 {Value2} 얻습니다.
+
+    스펠 카드가 발동할 때마다 {Mana}를 얻습니다.
+
+    {PlayerName}의 턴을 종료합니다. 그 후, 추가 턴을 얻습니다.
+
+    |시간 제한| <sprite="ManaSprite" name="1">.
+  FlavorText: ''

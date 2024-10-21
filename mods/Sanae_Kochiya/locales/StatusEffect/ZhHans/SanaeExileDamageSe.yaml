@@ -1,0 +1,4 @@
+﻿SanaeExileDamageSe:
+  Name: 在制品
+  Description: 当一张牌被自动|放逐|时，{OwnerName}对随机敌人造成 {Level} 点伤害。
+  Brief: 当一张牌被自动|放逐|时，{OwnerName}对随机敌人造成伤害。

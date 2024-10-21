@@ -1,0 +1,12 @@
+﻿SanaeAttackOrder:
+  Name: Surge Transect
+  Description: >-
+    Deal {Damage} damage.
+
+    Add a |Copy| of the card on top of the draw pile to the hand. It |temporarily costs| <sprite="ManaSprite" name="0"> and has |Exile|.
+  UpgradedDescription: >-
+    Deal {Damage} damage.
+
+    Gain {Mana}.
+
+    Add a |Copy| of the card on top of the draw pile to the hand. It |temporarily costs| <sprite="ManaSprite" name="0"> and has |Exile|.

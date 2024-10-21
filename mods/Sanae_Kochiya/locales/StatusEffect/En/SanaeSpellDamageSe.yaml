@@ -1,0 +1,4 @@
+﻿SanaeSpellDamageSe:
+  Name: Green Thaumaturgy
+  Description: Whenever the Spell Card is activated, {OwnerName} deals 8 attack damage to a random enemy {Level} time{Level:plural one='' other='s'}.
+  Brief: Whenever the Spell Card is activated, {OwnerName} deals 8 attack damage to a random enemy 1 time.

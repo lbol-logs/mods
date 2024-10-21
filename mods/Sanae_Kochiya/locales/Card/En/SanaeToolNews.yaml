@@ -1,0 +1,10 @@
+﻿SanaeToolNews:
+  Name: Mountaintop Meeting
+  Description: >-
+    |Choose|: Add {Value1} random non-rare Kappa |Tool| cards or {Value2} Tengu |Tool| cards to the hand.
+
+    They're treated as |Copies|, and have |Auto-Exile| and |Limited 1|.
+  ExtraDescription1: Add {Value1} random Kappa |Tool| cards to the hand.
+  ExtraDescription2: Add {Value2} random Tengu |Tool| cards to the hand.
+  DetailText: The cards at the side are examples of Kappa and Tengu tools.
+  FlavorText: ''

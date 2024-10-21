@@ -1,0 +1,17 @@
+﻿SanaeSpellMana:
+  Name: インターネット陰謀論
+  Description: >-
+    スペルカードを使用するたび、{Mana}を得る。
+
+    このターンを終了し、次の自分のターンを開始する。
+
+    |時間制限|<sprite="ManaSprite" name="1">。
+  UpgradedDescription: >-
+    <sprite="Point" name="Power">{Value2}を得る。
+
+    スペルカードを使用するたび、{Mana}を得る。
+
+    このターンを終了し、次の自分のターンを開始する。
+
+    |時間制限|<sprite="ManaSprite" name="1">。
+  FlavorText: ''

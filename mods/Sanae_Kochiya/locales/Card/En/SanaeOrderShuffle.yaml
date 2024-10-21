@@ -1,0 +1,7 @@
+﻿SanaeOrderShuffle:
+  Name: Fragmental Insight
+  Description: >-
+    The draw pile can now be viewed in actual order.
+
+    Whenever a non-skill card is played, gain {Mana} and shuffle the discard pile into the draw pile.
+  FlavorText: If you keep playing cards, you'll get what you want! ...Eventually.

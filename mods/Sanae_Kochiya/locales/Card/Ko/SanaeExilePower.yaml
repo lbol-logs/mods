@@ -1,0 +1,12 @@
+﻿SanaeExilePower:
+  Name: 향 확산
+  Description: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    뽑을 카드 더미와 버린 카드 더미에서 카드를 X장 |소멸|시킵니다.
+  UpgradedDescription: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    뽑을 카드 더미와 버린 카드 더미에서 카드를 X장 |소멸|시킵니다.
+
+    그 수만큼 |모리야 부적|을 버린 카드 더미에 추가합니다.

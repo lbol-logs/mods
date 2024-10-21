@@ -1,0 +1,1 @@
+﻿{ExhibitConfig Index=0, Id=, Order=10, IsDebug=False, IsPooled=True, IsSentinel=False, Revealable=False, Appearance=Anywhere, Owner=, LosableType=Losable, Rarity=Common, Value1=2, Value2=null, Value3=null, Mana=0, BaseManaRequirement=null, BaseManaColor=null, BaseManaAmount=0, HasCounter=False, InitialCounter=null, Keywords=None, RelativeEffects=[TempSpirit], RelativeCards=[]}

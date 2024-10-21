@@ -1,0 +1,4 @@
+﻿TurnStartDontLoseMana:
+  Name: 保留法力
+  Description: "{OwnerName}的下{Duration:plural one='' other=' % '}个回合开始时，不会失去法力。"
+  Brief: '{OwnerName}的接下来若干个回合开始时，不会失去法力。'

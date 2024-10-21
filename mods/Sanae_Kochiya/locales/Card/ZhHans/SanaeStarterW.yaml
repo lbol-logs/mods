@@ -1,0 +1,12 @@
+﻿SanaeStarterW:
+  Name: 双面冲击
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    你可以将一张|眩光|加入手中，并改为造成 {Value1} 点伤害 {Value2} 次。
+  ExtraDescription1: >-
+    将一张|眩光|加入手中。
+
+    造成 {Value1} 点伤害 {Value2} 次。
+  ExtraDescription2: 造成 {Damage} 点伤害。
+  FlavorText: ''

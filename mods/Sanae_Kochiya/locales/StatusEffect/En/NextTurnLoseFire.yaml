@@ -1,0 +1,4 @@
+﻿NextTurnLoseFire:
+  Name: Next Turn Lose Firepower
+  Description: At the start of {OwnerName}'s next turn, lose {Level} |Firepower|.
+  Brief: At the start of {OwnerName}'s next turn, lose |Firepower|.

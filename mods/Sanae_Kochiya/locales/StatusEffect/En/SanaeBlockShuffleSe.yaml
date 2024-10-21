@@ -1,0 +1,4 @@
+﻿SanaeBlockShuffleSe:
+  Name: Divining Dance
+  Description: Whenever {OwnerName} shuffles the draw pile, gain {Level} |Block|.
+  Brief: Whenever {OwnerName} shuffles the draw pile, gain |Block|.

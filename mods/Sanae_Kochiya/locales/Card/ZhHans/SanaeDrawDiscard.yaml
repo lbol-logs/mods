@@ -1,0 +1,12 @@
+﻿SanaeDrawDiscard:
+  Name: 水上行走
+  Description: >-
+    抽 {Value1} 张牌。
+
+    你可以丢弃随机 {Value2} 张牌，然后多抽 {Value2} 张牌。
+  ExtraDescription1: >-
+    丢弃随机 {Value2} 张牌。
+
+    抽 {Value2} 张牌。
+  ExtraDescription2: 什么都不做。
+  FlavorText: 飞不就行了？

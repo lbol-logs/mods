@@ -1,0 +1,4 @@
+﻿TurnStartDontLoseMana:
+  Name: 마나 회수
+  Description: '{OwnerName}는 다음 {Duration}턴 동안 턴 시작 시 마나를 잃지 않습니다.'
+  Brief: '{OwnerName}는 특정 턴 동안 턴 시작 시 마나를 잃지 않습니다.'

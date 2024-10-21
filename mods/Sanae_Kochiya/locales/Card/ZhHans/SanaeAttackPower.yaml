@@ -1,0 +1,7 @@
+﻿SanaeAttackPower:
+  Name: 妖力掠夺者
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    获得等同于造成未被格挡的伤害的数量的 <sprite="Point" name="Power">。
+  FlavorText: ''

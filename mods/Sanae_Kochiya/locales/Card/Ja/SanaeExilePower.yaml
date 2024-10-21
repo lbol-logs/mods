@@ -1,0 +1,12 @@
+﻿SanaeExilePower:
+  Name: 広がる御香
+  Description: >-
+    {Shield}|バリア|を得る。
+
+    山札、捨て札から最大X枚のカードを|廃棄|する。
+  UpgradedDescription: >-
+    {Shield}|バリア|を得る。
+
+    山札、捨て札から最大X枚のカードを|廃棄|する。
+
+    |廃棄|した枚数と同じ数の|守矢の護符|を捨て札に加える。

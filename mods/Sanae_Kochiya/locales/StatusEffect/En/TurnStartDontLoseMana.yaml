@@ -1,0 +1,4 @@
+﻿TurnStartDontLoseMana:
+  Name: Retain Mana
+  Description: "{OwnerName} does not lose Mana at the start of the {Duration:plural one='next turn' other='next % turns'}."
+  Brief: '{OwnerName} does not lose Mana at the start of each turn for a certain number of turns.'

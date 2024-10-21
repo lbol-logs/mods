@@ -1,0 +1,7 @@
+﻿SanaeScryReturn:
+  Name: 彻夜亮光
+  Description: >-
+    占卜 {Scry}。
+
+    如果抽牌堆为空，将弃牌堆中的一张牌移回手中。
+  FlavorText: ''

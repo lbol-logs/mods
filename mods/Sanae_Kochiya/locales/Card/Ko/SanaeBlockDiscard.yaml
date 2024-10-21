@@ -1,0 +1,10 @@
+﻿SanaeBlockDiscard:
+  Name: 비막이
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    카드를 한장 버립니다.
+  UpgradedDescription: >-
+    |방어|를 {Block} 얻습니다.
+
+    카드를 한장 까지 버립니다.

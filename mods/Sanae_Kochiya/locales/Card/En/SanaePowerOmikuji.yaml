@@ -1,0 +1,4 @@
+﻿SanaePowerOmikuji:
+  Name: Omikuji Bonus
+  Description: If {PlayerName} has <sprite="Point" name="Power">, lose {Value1} <sprite="Point" name="Power"> and increase {PlayerName}'s Spell Card damage by {Value2}.
+  FlavorText: ''

@@ -1,0 +1,9 @@
+﻿SanaePowerTemp:
+  Name: Strength Testing
+  Description: >-
+    Gain {Value1} |Firepower|.
+
+    Gain {Value1} <sprite="Point" name="Power">.
+
+    At the start of {PlayerName}'s next turn, lose {Value1} |Firepower|.
+  FlavorText: ''

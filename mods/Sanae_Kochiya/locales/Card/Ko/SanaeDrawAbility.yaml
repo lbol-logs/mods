@@ -1,0 +1,11 @@
+﻿SanaeDrawAbility:
+  Name: 스와호수의 둘 하고도 반신
+  Description: >-
+    카드를 {Value1} 뽑습니다.
+
+    능력 카드를 뽑았다면, 그 비용이 |일시적으로| {Mana} 감소합니다.
+  UpgradedDescription: >-
+    카드를 {Value1} 뽑습니다.
+
+    능력 카드를 뽑았다면, 그 비용이 |일시적으로| 무작위 마나 1 만큼 감소합니다.
+  FlavorText: ''

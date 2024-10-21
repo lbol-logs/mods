@@ -1,0 +1,8 @@
+﻿SanaeMoneyWard:
+  Name: 商売繁盛守り
+  Description: >-
+    |庇護|{Value1}を得る。
+
+    <sprite="Point" name="Gold">{Value2}を得る。
+
+    ランダムなマナを{Value3}つ得る。

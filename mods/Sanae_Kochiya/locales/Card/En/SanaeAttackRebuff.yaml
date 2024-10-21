@@ -1,0 +1,6 @@
+﻿SanaeAttackRebuff:
+  Name: Rain of Grains
+  Description: >-
+    Deal {Damage} damage to each enemy.
+
+    If any enemy intends to debuff, gain {Value1} |Amulet|.

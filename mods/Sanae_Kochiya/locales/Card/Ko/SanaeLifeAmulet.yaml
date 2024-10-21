@@ -1,0 +1,9 @@
+﻿SanaeLifeAmulet:
+  Name: 보호의식
+  Description: >-
+    생명력을 {Value1} 잃습니다.
+
+    |보호막|을 {Shield} 얻습니다.
+
+    |부적|을 {Value2} 얻습니다.
+  FlavorText: ''

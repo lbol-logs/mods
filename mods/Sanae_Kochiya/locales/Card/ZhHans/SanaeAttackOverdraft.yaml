@@ -1,0 +1,14 @@
+﻿SanaeAttackOverdraft:
+  Name: 五芒星棱镜
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    你可以|透支| {Value1} 以获得 {Block} 点|格挡|。
+  ExtraDescription1: >-
+    造成 {Damage} 点伤害。
+
+    获得 {Block} 点|格挡|。
+
+    |透支| {Value1}。
+  ExtraDescription2: 造成 {Damage} 点伤害。
+  FlavorText: ''

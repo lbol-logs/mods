@@ -1,0 +1,5 @@
+﻿SanaeSpiritMana:
+  Name: 召唤师练习
+  Description: '{PlayerName}的两个回合后的回合开始时，获得 {Value1} 点|灵力|，将一张|光芒|加入手中。'
+  UpgradedDescription: '{PlayerName}的下个回合开始时，获得 {Value1} 点|灵力|，将一张|光芒|加入手中。'
+  FlavorText: ''

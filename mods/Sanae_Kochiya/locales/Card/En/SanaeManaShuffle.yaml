@@ -1,0 +1,7 @@
+﻿SanaeManaShuffle:
+  Name: Potable Pondwater
+  Description: >-
+    |When Exiled|: Gain {Mana}.
+
+    When the draw pile is shuffled, return {SelfName} from |Exile| to the hand.
+  FlavorText: ''

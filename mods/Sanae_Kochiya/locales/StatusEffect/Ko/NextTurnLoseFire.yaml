@@ -1,0 +1,4 @@
+﻿NextTurnLoseFire:
+  Name: 다음턴 화력 소실
+  Description: '{OwnerName}의 다음 턴 시작시, |화력|을 {Level} 잃습니다.'
+  Brief: '{OwnerName}의 다음 턴 시작시, |화력|을 잃습니다.'

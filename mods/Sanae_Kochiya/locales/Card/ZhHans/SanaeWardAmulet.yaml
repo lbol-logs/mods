@@ -1,0 +1,7 @@
+﻿SanaeWardAmulet:
+  Name: 徽章交换
+  Description: >-
+    获得 {Value1} 层|庇护|。
+
+    如果{PlayerName}拥有|护身符|，失去 {Value3} 层|护身符|并改为获得 {Value2} 层|庇护|。
+  FlavorText: Emblem kinda sounds like mlem mlem

@@ -1,0 +1,7 @@
+﻿SanaeSpiritDebuff:
+  Name: 성급한 기도
+  Description: >-
+    |영력|을 {Value1} 얻습니다.
+
+    {PlayerName}의 턴 시작 시, |영력|을 {Value2} 잃습니다.
+  FlavorText: ''

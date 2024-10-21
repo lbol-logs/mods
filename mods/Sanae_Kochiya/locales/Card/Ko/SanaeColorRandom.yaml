@@ -1,0 +1,11 @@
+﻿SanaeColorRandom:
+  Name: 공허한 햇빛
+  Description: >-
+    무작위 카드 {Value1}장중 1장을 고릅니다. 그 비용이 |일시적으로| <sprite="ManaSprite" name="0">이 되고 |소멸| 및 |휘발성|을 얻습니다.
+
+    이 카드들은 각각 {Mana}색 마나를 가지고있습니다.
+  DetailText: >-
+    하이브리드 카드는 포함되지 않습니다.
+
+    |강화|될 시, 이 카드는 총 마나 및 마나 색 제한을 무시합니다.
+  FlavorText: ''

@@ -1,0 +1,7 @@
+﻿SanaeAttackGraze:
+  Name: 尖锐微风
+  Description: >-
+    对 {Value1} 个不同的敌人造成 {Damage} 点伤害。
+
+    每击中一个敌人，获得{Mana}。
+  FlavorText: ''

@@ -1,0 +1,7 @@
+﻿SanaeManaTurbo:
+  Name: Moonlit Lake
+  Description: >-
+    Gain {Mana}.
+
+    Add {Value1} |Quiet Moonlight{Value1:plural one='' other='s'}| to the discard pile.
+  FlavorText: ''

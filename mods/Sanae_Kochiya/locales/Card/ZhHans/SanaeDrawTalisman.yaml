@@ -1,0 +1,6 @@
+﻿SanaeDrawTalisman:
+  Name: 堆积底图
+  Description: >-
+    将 {Value1} 张|守矢护符|置于抽牌堆顶。
+
+    抽 {Value2} 张牌。

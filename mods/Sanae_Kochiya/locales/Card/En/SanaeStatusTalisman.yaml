@@ -1,0 +1,3 @@
+﻿SanaeStatusTalisman:
+  Name: Paper Handicrafts
+  Description: At the end of {PlayerName}'s turn, add {Value1} |Moriya Talisman{Value1:plural one='' other='s'}| to the discard pile.

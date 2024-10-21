@@ -1,0 +1,7 @@
+﻿SanaeDrawWard:
+  Name: ワイルドカード
+  Description: >-
+    |庇護|{Value1}を得る。
+
+    カードを{Value2}枚引く。
+  FlavorText: ''

@@ -1,0 +1,9 @@
+﻿SanaeDazzleDash:
+  Name: Super Sparkler
+  Description: >-
+    Gain {Value1} |Firepower|.
+
+    Gain {Value2} <sprite="Point" name="Power">.
+
+    |While in hand|: Whenever the Spell Card is activated, {SelfName}'s effects are doubled until end of turn.
+  FlavorText: ''

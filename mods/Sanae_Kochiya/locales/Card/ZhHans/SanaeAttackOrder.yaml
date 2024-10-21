@@ -1,0 +1,12 @@
+﻿SanaeAttackOrder:
+  Name: 海浪断面
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    将抽牌堆顶的一张牌的|复制品|加入手中，|暂塑为| <sprite="ManaSprite" name="0">，具有|放逐|。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害。
+
+    获得{Mana}。
+
+    将抽牌堆顶的一张牌的|复制品|加入手中，|暂塑为| <sprite="ManaSprite" name="0">，具有|放逐|。

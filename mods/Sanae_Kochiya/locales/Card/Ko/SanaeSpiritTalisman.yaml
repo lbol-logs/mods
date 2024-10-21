@@ -1,0 +1,8 @@
+﻿SanaeSpiritTalisman:
+  Name: 코안의 카미카제
+  Description: >-
+    |영력|을 {Value1} 얻습니다.
+
+    |선택|: |비호|를 {Value2} 얻거나, |모리야 부적|을 손에 {Value3}장 추가합니다.
+  ExtraDescription1: '|비호|를 {Value2} 얻습니다.'
+  ExtraDescription2: '|모리야 부적|을 {Value3}장 손에 추가합니다.'

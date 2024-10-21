@@ -1,0 +1,4 @@
+﻿SanaeStatusTalismanSe:
+  Name: 折纸工艺品
+  Description: '{OwnerName}的回合结束时，将 {Level} 张|守矢护符|放入弃牌堆。'
+  Brief: '{OwnerName}的回合结束时，将|守矢护符|放入弃牌堆。'

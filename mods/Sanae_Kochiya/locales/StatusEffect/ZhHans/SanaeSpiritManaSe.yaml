@@ -1,0 +1,4 @@
+﻿SanaeSpiritManaSe:
+  Name: 召唤师练习
+  Description: "{PlayerName}的{Count:ordinal one='下' other='% 回合后的'}回合开始时，获得 {Level} 点|灵力|，将一张|光芒|加入手中"
+  Brief: 若干回合后，获得|灵力|，将一张|Radiance|加入手中。

@@ -1,0 +1,16 @@
+﻿SanaeManaSynergy:
+  Name: Miracle Fruit
+  Description: >-
+    |For each <sprite="ManaSprite" name="W"> spent|: Gain <sprite="ManaSprite" name="U"><sprite="ManaSprite" name="G">. 
+
+    |For each <sprite="ManaSprite" name="U"> spent|: Gain <sprite="ManaSprite" name="W"><sprite="ManaSprite" name="G">.
+
+    |Overdraft| {Value1}.
+  UpgradedDescription: >-
+    |For each <sprite="ManaSprite" name="W"> spent|: Gain <sprite="ManaSprite" name="U"><sprite="ManaSprite" name="G">. 
+
+    |For each <sprite="ManaSprite" name="U"> spent|: Gain <sprite="ManaSprite" name="W"><sprite="ManaSprite" name="G">. 
+
+    |For each <sprite="ManaSprite" name="G"> spent|: Gain <sprite="ManaSprite" name="W"><sprite="ManaSprite" name="U">.
+
+    |Overdraft| {Value1}.

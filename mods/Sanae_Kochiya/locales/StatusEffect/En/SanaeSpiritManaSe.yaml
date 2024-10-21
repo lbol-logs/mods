@@ -1,0 +1,4 @@
+﻿SanaeSpiritManaSe:
+  Name: Summoner Practice
+  Description: At the start of {PlayerName}'s {Count:ordinal one='next' two='%nd' few='%rd' other='%th'} turn {Count:plural one='' other='from now'}, gain {Level} |Spirit| and add a |Radiance| to the hand.
+  Brief: After some turns, gain |Spirit| and add a |Radiance| to the hand.

@@ -1,0 +1,5 @@
+﻿SanaeManaRandom:
+  Name: 空中落物的奇迹
+  Description: 将 {Value1} 张法力总数不大于 4 点的随机卡牌加入手中。这些牌具有|虚无|，费用为{Mana}。
+  UpgradedDescription: 将 {Value1} 张法力总数不大于 4 点的|升级|后的随机卡牌加入手中。这些牌具有|虚无|，费用为{Mana}。
+  DetailText: 不能生成{SelfName}和X费卡牌。

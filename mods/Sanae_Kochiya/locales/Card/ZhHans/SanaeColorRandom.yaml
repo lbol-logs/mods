@@ -1,0 +1,11 @@
+﻿SanaeColorRandom:
+  Name: 光谱太阳雨
+  Description: >-
+    从 {Value1} 张随机的卡牌中选择 1 张加入手中。它|暂塑为|<sprite="ManaSprite" name="0">，具有|放逐|和|虚无|。
+
+    这些牌的颜色分别包含{Mana}。
+  DetailText: >-
+    不包含混合色。
+
+    |升级|后，|e:备选牌|无视基础法力数量和颜色限制。
+  FlavorText: ''

@@ -1,0 +1,14 @@
+﻿SanaeAttackRandom:
+  Name: 정화의 안개
+  Description: >-
+    무작위 적에게 피해를 {Damage}씩 {Value1}번 줍니다.
+
+    |순수한 빛|을 {Value2}장 뽑을 카드 더미 맨 위에 추가할 수 있습니다. 그렇게 하면 {Mana}를 얻습니다.
+  ExtraDescription1: >-
+    무작위 적에게 피해를 {Damage}씩 {Value1}번 줍니다.
+
+    |순수한 빛|을 {Value2}장 뽑을 카드 더미 맨 위에 추가합니다.
+
+    {Mana}를 얻습니다.
+  ExtraDescription2: 무작위 적에게 피해를 {Damage}씩 {Value1}번 줍니다.
+  FlavorText: ''

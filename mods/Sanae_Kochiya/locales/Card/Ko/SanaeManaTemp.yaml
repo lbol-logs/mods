@@ -1,0 +1,7 @@
+﻿SanaeManaTemp:
+  Name: 청록색 뱀 장식
+  Description: >-
+    |일시 영력|을 {Value1} 얻습니다.
+
+    손의 카드가 {Value3}장 이상이라면, |일시 영력|을 {Value2}만큼 |영력|으로 바꾸고, 카드를 {Value2}장 뽑습니다.
+  FlavorText: ''

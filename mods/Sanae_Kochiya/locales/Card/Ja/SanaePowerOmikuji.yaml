@@ -1,0 +1,4 @@
+﻿SanaePowerOmikuji:
+  Name: 御神籤ボーナス
+  Description: '{PlayerName}が<sprite="Point" name="Power">を持っているならば、<sprite="Point" name="Power">{Value1}を失って{PlayerName}のスペルカードのダメージを{Value2}増やす。'
+  FlavorText: ''

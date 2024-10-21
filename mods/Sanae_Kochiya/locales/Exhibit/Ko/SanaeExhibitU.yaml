@@ -1,0 +1,7 @@
+﻿SanaeExhibitU:
+  Name: 꼬인 뱀 장식
+  Description: >-
+    마나 풀에 {BaseMana}가 추가됩니다. |사나에|의 전용 카드가 카드 풀에 추가됩니다.
+
+    {PlayerName}가 |스펠 카드|를 사용하면, |방어|를 {Value1} 얻습니다.
+  FlavorText: 원래는 청록색이였지만 시간이 지나 빛이 바랬습니다.

@@ -1,0 +1,12 @@
+﻿SanaeStarterW:
+  Name: Duplex Basher
+  Description: >-
+    Deal {Damage} damage.
+
+    You may add a |Glare| to the hand. If you do, deal {GlareDamage} damage {Value2} times instead.
+  ExtraDescription1: >-
+    Add a |Glare| to the hand.
+
+    Deal {GlareDamage} damage {Value2} times.
+  ExtraDescription2: Deal {Damage} damage.
+  FlavorText: ''

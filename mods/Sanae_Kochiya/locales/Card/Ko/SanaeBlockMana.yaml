@@ -1,0 +1,12 @@
+﻿SanaeBlockMana:
+  Name: 달콤한 과일 잼
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    남은 마나는 {PlayerName}의 다음 턴 시작까지 사라지지 않습니다.
+
+    |가불| {Value1}.
+  UpgradedDescription: >-
+    |방어|를 {Block} 얻습니다.
+
+    남은 마나는 {PlayerName}의 다음 턴 시작까지 사라지지 않습니다.

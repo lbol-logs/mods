@@ -1,0 +1,4 @@
+﻿SanaePowerOmikuji:
+  Name: 御神签奖励
+  Description: 如果{PlayerName}拥有<sprite="Point" name="Power">失去 {Value1} 点<sprite="Point" name="Power">，提升{PlayerName}的符卡的伤害 {Value2} 点。
+  FlavorText: ''

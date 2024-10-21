@@ -1,0 +1,7 @@
+﻿SanaeBlockWard:
+  Name: Unorthodox Defending
+  Description: >-
+    Gain {Block} |Block| {Value1} times.
+
+    Gain {Value2} |Ward| {Value1} times.
+  FlavorText: Huh? Shouldn't this be damage instead of block?

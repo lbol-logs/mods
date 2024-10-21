@@ -1,0 +1,7 @@
+﻿SanaeGrazeWard:
+  Name: God's Windshield
+  Description: >-
+    Whenever {PlayerName} |Grazes| an attack, gain {Value1} |Ward|.
+
+    Gain {Value2} |Graze|.
+  FlavorText: ''

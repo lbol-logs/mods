@@ -1,0 +1,6 @@
+﻿SanaeDrawSplash:
+  Name: Moses's Miracle
+  Description: >-
+    Draw {Value1} cards.
+
+    Discard all skill cards from the hand and add that many |Splashes| to the hand. They have |Auto-Exile|.

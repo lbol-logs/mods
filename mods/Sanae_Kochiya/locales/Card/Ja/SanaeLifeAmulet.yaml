@@ -1,0 +1,9 @@
+﻿SanaeLifeAmulet:
+  Name: 守護の儀式
+  Description: >-
+    ライフを{Value1}失う。
+
+    {Shield}|バリア|を得る。
+
+    |加護|{Value2}を得る。
+  FlavorText: ''

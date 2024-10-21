@@ -1,0 +1,9 @@
+﻿SanaeSpiritShuffle:
+  Name: 霊魂捜索
+  Description: >-
+    |臨時霊力|{Value1}を得る。
+
+    捨て札を山札に加え、山札をシャッフルする。
+
+    カードを{Value2}枚引く。
+  FlavorText: ''

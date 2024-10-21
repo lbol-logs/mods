@@ -1,0 +1,4 @@
+﻿SanaePowerPotatoSe:
+  Name: 现代娱乐
+  Description: 战斗结束后，获得 {Level} 点<sprite="Point" name="Power">。
+  Brief: 战斗结束后，获得<sprite="Point" name="Power">。

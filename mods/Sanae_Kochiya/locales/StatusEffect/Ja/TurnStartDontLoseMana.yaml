@@ -1,0 +1,4 @@
+﻿TurnStartDontLoseMana:
+  Name: マナ保留
+  Description: "{Duration:plural one='次のターンまで' other='次の%ターン'}の間、{OwnerName}はターン終了時にマナを失わない。"
+  Brief: '{OwnerName}は次の数ターンの間ターン終了時にマナを失わない。'

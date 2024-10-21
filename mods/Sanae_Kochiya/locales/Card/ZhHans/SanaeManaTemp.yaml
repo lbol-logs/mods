@@ -1,0 +1,7 @@
+﻿SanaeManaTemp:
+  Name: 绀色蛇形发带
+  Description: >-
+    获得 {Value1} 点|暂得灵力|。
+
+    如果手中至少有 {Value3} 张牌，将 {Value2} 点|暂得灵力|转变成|灵力|，并抽 {Value2} 张牌。
+  FlavorText: ''

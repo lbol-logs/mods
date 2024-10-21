@@ -1,0 +1,10 @@
+﻿SanaeToolNews:
+  Name: 山頂の会議
+  Description: >-
+    |チョイス|：ランダムなレアでない河童の|道具|カードを{Value1}枚手札に加える、もしくはランダムな天狗の|道具|カードを{Value2}枚手札に加える。
+
+    それらは|複製|、|自動廃棄|、|消耗品1|を持つ。
+  ExtraDescription1: ランダムな河童の|道具|カードを{Value1}枚手札に加える。
+  ExtraDescription2: ランダムな天狗の|道具|カードを{Value2}枚手札に加える。
+  DetailText: 表示されているカードは河童と天狗の道具の例である。
+  FlavorText: ''

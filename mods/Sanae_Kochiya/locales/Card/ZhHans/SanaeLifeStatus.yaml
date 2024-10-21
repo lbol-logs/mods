@@ -1,0 +1,7 @@
+﻿SanaeLifeStatus:
+  Name: 呱太帽子戏法
+  Description: >-
+    获得 {Value1} 点最大生命。
+
+    将手牌，抽牌堆和/或弃牌堆中随机 {Value2} 张牌变形为|青蛙|。
+  FlavorText: You won't be seeing any rabbits or birds falling out of this hat~

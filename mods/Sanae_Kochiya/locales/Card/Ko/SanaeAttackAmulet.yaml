@@ -1,0 +1,7 @@
+﻿SanaeAttackAmulet:
+  Name: 고헤이 강타
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    {PlayerName}에게 |부적|이 없다면, |부적|을 {Value1} 얻습니다.
+  FlavorText: ''

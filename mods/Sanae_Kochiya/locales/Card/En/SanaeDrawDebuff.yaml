@@ -1,0 +1,11 @@
+﻿SanaeDrawDebuff:
+  Name: Turbulent Urban Wand
+  Description: >-
+    |While in hand|: Whenever a card is drawn outside of the draw step, gain {Mana}.
+
+    |When Exiled|: Lose {Value2} life. No more cards can be drawn this turn.
+  UpgradedDescription: >-
+    |While in hand|: Whenever a card is drawn outside of the draw step, gain {Value1} random mana.
+
+    |When Exiled|: Lose {Value2} life. No more cards can be drawn this turn.
+  FlavorText: ''

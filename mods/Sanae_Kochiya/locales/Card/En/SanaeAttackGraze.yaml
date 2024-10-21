@@ -1,0 +1,7 @@
+﻿SanaeAttackGraze:
+  Name: Sharp Breeze
+  Description: >-
+    Deal {Damage} damage to {Value1} different random enemies.
+
+    For each enemy that was attacked, gain {Mana}.
+  FlavorText: ''

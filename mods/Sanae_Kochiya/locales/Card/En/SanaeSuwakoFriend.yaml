@@ -1,0 +1,6 @@
+﻿SanaeSuwakoFriend:
+  Name: Suwako, Wily Toad-lover
+  Description: '{PassiveCostIcon}Add {Value1} |Dark Residues| to the draw pile.'
+  ExtraDescription1: '{ActiveCostIcon}Apply {Value1} |Weak| to each enemy.'
+  ExtraDescription2: <indent=0><sprite="Active" name="-4"><indent=80>Add a random uncommon Ability card to the hand. It |temporarily costs| {Mana} and has |Ethereal|.
+  FlavorText: ''

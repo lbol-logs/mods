@@ -1,0 +1,14 @@
+﻿SanaeAttackOverdraft:
+  Name: Five-Point Prism
+  Description: >-
+    Deal {Damage} damage.
+
+    You may gain {Block} |Block|. If you do, |Overdraft| {Value1}.
+  ExtraDescription1: >-
+    Deal {Damage} damage.
+
+    Gain {Block} |Block|.
+
+    |Overdraft| {Value1}.
+  ExtraDescription2: Deal {Damage} damage.
+  FlavorText: ''

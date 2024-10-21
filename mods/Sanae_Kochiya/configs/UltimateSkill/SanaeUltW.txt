@@ -1,0 +1,1 @@
+﻿{UltimateSkillConfig Id=, Order=10, PowerCost=50, PowerPerLevel=100, MaxPowerLevel=2, RepeatableType=FreeToUse, Damage=12, Value1=1, Value2=0, Keywords=Accuracy, RelativeEffects=[Amulet, AmuletForCard], RelativeCards=[]}

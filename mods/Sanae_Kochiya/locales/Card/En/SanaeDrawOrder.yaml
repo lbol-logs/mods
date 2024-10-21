@@ -1,0 +1,17 @@
+﻿SanaeDrawOrder:
+  Name: Seashell Swapping
+  Description: >-
+    Look at the top {Value1} cards of the draw pile. Choose one of them to move to the top of the draw pile.
+
+    If the card is a skill, draw {Value2} card.
+
+    Gain {Mana}.
+  UpgradedDescription: >-
+    Look at the top {Value1} cards of the draw pile. Choose one of them to move to the top of the draw pile.
+
+    If the card is a skill, draw {Value2} card.
+
+    Gain {Mana}.
+
+    Draw {Value2} card.
+  FlavorText: Keep your eyes on the prize!

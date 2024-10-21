@@ -1,0 +1,4 @@
+﻿SanaeStatusTalismanSe:
+  Name: 手作り護符
+  Description: "{OwnerName}のターン終了時、|守矢の護符|を{Level:plural one='%枚' other='%枚'}捨て札に加える。"
+  Brief: '{OwnerName}のターン終了時、|守矢の護符|を捨て札に加える。'

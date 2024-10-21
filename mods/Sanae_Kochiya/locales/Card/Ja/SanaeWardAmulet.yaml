@@ -1,0 +1,7 @@
+﻿SanaeWardAmulet:
+  Name: 徽章交換
+  Description: >-
+    |庇護|{Value1}を得る。
+
+    {PlayerName}が|加護|を持っているならば、代わりに|加護|{Value3}を失い|庇護|{Value2}を得る。
+  FlavorText: 吉祥で希少な徽章。

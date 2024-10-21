@@ -1,0 +1,6 @@
+﻿SanaeAttackExpel:
+  Name: 코발트 스프레드
+  Description: >-
+    모든 적에게 피해를 {Damage} 줍니다.
+
+    |퇴치|: <sprite="Point" name="Power">를 {Value1} 얻습니다.

@@ -1,0 +1,15 @@
+﻿SanaeStarterU:
+  Name: 무모한 박멸자
+  Description: >-
+    피해를 {Damage}씩 {Value1}번 줍니다.
+
+    {SelfName}로 적을 처치할 시,<sprite="Point" name="Power">를 {Value2} 얻습니다.
+
+    이 효과는 전투당 한번만 발동합니다.
+  ExtraDescription1: >-
+    피해를 {Damage}씩 {Value1}번 줍니다.
+
+    |d:{SelfName}로 적을 처치할 시,<sprite="Point" name="Power">를 {Value2} 얻습니다.|
+
+    이 효과는 전투당 한번만 발동합니다.
+  FlavorText: 이곳 환상향에서는 상식에 얽매여선 안 되니까요!?

@@ -1,0 +1,9 @@
+﻿SanaePowerTemp:
+  Name: 근력 테스트
+  Description: >-
+    |화력|을 {Value1} 얻습니다.
+
+    <sprite="Point" name="Power">를 {Value1} 얻습니다.
+
+    {PlayerName}의 다음 턴 시작시, |화력|을 {Value1} 잃습니다.
+  FlavorText: ''

@@ -1,0 +1,4 @@
+﻿NextTurnLosePower:
+  Name: 下回合失去P
+  Description: '{OwnerName}的下个回合开始时，失去 {Level} 点<sprite="Point" name="Power">。'
+  Brief: '{OwnerName}的下个回合开始时，失去<sprite="Point" name="Power">。'

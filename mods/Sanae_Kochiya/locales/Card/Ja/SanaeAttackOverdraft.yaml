@@ -1,0 +1,14 @@
+﻿SanaeAttackOverdraft:
+  Name: 五芒星のプリズム
+  Description: >-
+    {Damage}ダメージを与える。
+
+    {Block}|ブロック|を得てもよい。そうした場合、|オーバードラフト|{Value1}。
+  ExtraDescription1: >-
+    {Damage}ダメージを与える。
+
+    {Block}|ブロック|を得る。
+
+    |オーバードラフト|{Value1}。
+  ExtraDescription2: '{Damage}ダメージを与える。'
+  FlavorText: ''

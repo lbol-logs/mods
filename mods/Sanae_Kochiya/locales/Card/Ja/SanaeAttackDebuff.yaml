@@ -1,0 +1,7 @@
+﻿SanaeAttackDebuff:
+  Name: ミシャグジ様の轟き
+  Description: >-
+    敵全体に{Damage}ダメージを与える。
+
+    敵全体に|脱力|{Value1}と|弱体|{Value1}を与える。
+  FlavorText: ''

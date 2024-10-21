@@ -1,0 +1,12 @@
+﻿SanaeAttackOrder:
+  Name: 波打つ断層
+  Description: >-
+    {Damage}ダメージを与える。
+
+    山札の一番上にあるカードの|複製|を1枚手札に加える。それは|臨時コスト|<sprite="ManaSprite" name="0">となり、|廃棄|を持つ。
+  UpgradedDescription: >-
+    {Damage}ダメージを与える。
+
+    {Mana}を得る。
+
+    山札の一番上にあるカードの|複製|を1枚手札に加える。それは|臨時コスト|<sprite="ManaSprite" name="0">となり、|廃棄|を持つ。

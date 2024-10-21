@@ -1,0 +1,6 @@
+﻿SanaeSpellDamage:
+  Name: 绿色奇术
+  Description: >-
+    恢复 {Value1} 点生命。
+
+    使用符卡时，对随机敌人造成 8 点攻击伤害 {Value2} 次。

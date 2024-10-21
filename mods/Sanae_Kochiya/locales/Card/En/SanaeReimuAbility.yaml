@@ -1,0 +1,7 @@
+﻿SanaeReimuAbility:
+  Name: Shrine Rivalry
+  Description: >-
+    Choose 1 of {Value1} random Reimu rare Ability cards to add to the hand. It |temporarily costs| {Mana} and has |Ethereal|.
+
+    |Overdraft| {Value2}.
+  DetailText: These |e:alternate cards| ignore total mana, mana color and character restrictions.

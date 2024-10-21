@@ -1,0 +1,8 @@
+﻿SanaeDrawOrder:
+  Name: 海螺脱壳
+  Description: 检视抽牌堆顶的 {Value1} 张牌。将其中一张移动到抽牌堆顶。
+  UpgradedDescription: >-
+    检视抽牌堆顶的 {Value1} 张牌。将其中一张移动到抽牌堆顶。
+
+    抽 {Value2} 张牌。
+  FlavorText: Keep your eyes on the prize as I shuffle these around!

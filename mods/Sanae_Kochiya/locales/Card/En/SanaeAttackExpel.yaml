@@ -1,0 +1,6 @@
+﻿SanaeAttackExpel:
+  Name: Cobalt Spreadshot
+  Description: >-
+    Deal {Damage} damage to each enemy.
+
+    |Expel|: Gain {Value1} <sprite="Point" name="Power">.

@@ -1,0 +1,6 @@
+﻿SanaeWardTalisman:
+  Name: 预咏唱咒语
+  Description: >-
+    当{PlayerName}获得|庇护|时，获得等量的<sprite="Point" name="Power">。
+
+    当符卡被使用后，将 {Value1} 张|守矢护符|放入弃牌堆。

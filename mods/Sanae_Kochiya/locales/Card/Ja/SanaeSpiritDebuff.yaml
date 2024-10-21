@@ -1,0 +1,7 @@
+﻿SanaeSpiritDebuff:
+  Name: せっかちな祈祷者
+  Description: >-
+    |霊力|{Value1}を得る。
+
+    {PlayerName}のターン開始時、|霊力|{Value2}を失う。
+  FlavorText: ''

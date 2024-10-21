@@ -1,0 +1,8 @@
+﻿SanaeLifeStatus:
+  Name: ピョン太ハットトリック
+  Description: >-
+    最大ライフ{Value1}を得る。
+
+    手札、山札、捨て札にあるランダムな{Value2}枚のカードを|カエル|に変化させる。
+  DetailText: '{SelfName}は戦闘中に作成されることはない。'
+  FlavorText: この帽子からウサギやトリが出てくることはないよ~

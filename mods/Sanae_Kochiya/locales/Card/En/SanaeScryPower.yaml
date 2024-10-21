@@ -1,0 +1,18 @@
+﻿SanaeScryPower:
+  Name: Sleight Foresight
+  Description: >-
+    Scry {Scry}.
+
+    |Debut|: Gain {Value1} <sprite="Point" name="Power">.
+  UpgradedDescription: >-
+    Scry {Scry}.
+
+    |Debut|: Gain {Value1} <sprite="Point" name="Power">. {SelfName} costs {Mana} less this combat.
+  ExtraDescription1: >-
+    Scry {Scry}.
+
+    |d:Debut: Gain {Value1} <sprite="Point" name="Power">.|
+  UpgradedExtraDescription1: >-
+    Scry {Scry}.
+
+    |d:Debut: Gain {Value1} <sprite="Point" name="Power">. {SelfName} costs {Mana} less this combat.|

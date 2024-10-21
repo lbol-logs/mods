@@ -1,0 +1,4 @@
+﻿SanaeLibraryCard:
+  Name: Library Card
+  Description: At the start of {PlayerName}'s turn, if no attack cards were played last turn, gain {Value1} |Ward|.
+  FlavorText: With this thin board, the user could "borrow" books without any trouble.

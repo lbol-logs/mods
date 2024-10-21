@@ -1,0 +1,5 @@
+﻿SanaeMiracleAbility:
+  Name: 奇迹五芒星
+  Description: 从 {Value1} 张罕见能力牌中选择 1 张加入手中，它具有|回响|和|虚无|。
+  UpgradedDescription: 从 {Value1} 张稀有能力牌或 {Value1} 张罕见能力牌中选择 1 张加入手中，它具有|回响|和|虚无|。
+  DetailText: '|e:备选牌|无视法力数量和法力颜色限制。'

@@ -1,0 +1,4 @@
+﻿SanaeExileDamageSe:
+  Name: 삼색 에델바이스
+  Description: 상태 카드 또는 |자동 소멸|이 있는 카드가 |소멸|될 때마다 {OwnerName}가 무작위 적에게 피해를 {Level} 줍니다.
+  Brief: 상태 카드 또는 |자동 소멸|이 있는 카드가 |소멸|될 때마다 {OwnerName}가 무작위 적에게 피해를 줍니다.

@@ -1,0 +1,18 @@
+﻿SanaeScryPower:
+  Name: 先見の明
+  Description: >-
+    占術{Scry}。
+
+    |初見|：<sprite="Point" name="Power">{Value1}を得る。
+  UpgradedDescription: >-
+    占術{Scry}。
+
+    |初見|：<sprite="Point" name="Power">{Value1}を得る。戦闘終了まで{SelfName}のコストを{Mana}減らす。
+  ExtraDescription1: >-
+    占術{Scry}。
+
+    |d:初見:<sprite="Point" name="Power">{Value1}を得る。|
+  UpgradedExtraDescription1: >-
+    占術{Scry}。
+
+    |d:初見:<sprite="Point" name="Power">{Value1}を得る。戦闘終了まで{SelfName}のコストを{Mana}減らす。|

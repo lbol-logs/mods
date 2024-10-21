@@ -1,0 +1,7 @@
+﻿SanaeWardTalisman:
+  Name: 엉터리 주문
+  Description: >-
+    {PlayerName}가 |비호|를 얻을 때마다, 그만큼 <sprite="Point" name="Power">를 얻습니다.
+
+    스펠 카드를 발동할 때 마다, |모리야 부적|을 버린 카드 더미에 {Value1}장 추가합니다.
+  FlavorText: ''

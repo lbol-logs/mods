@@ -1,0 +1,8 @@
+﻿SanaeLifeStatus:
+  Name: Pyonta Hat Trick
+  Description: >-
+    Gain {Value1} maximum life.
+
+    Transform {Value2} random cards in the hand, draw pile and/or discard pile into |Frogs|.
+  DetailText: '{SelfName} cannot be randomly generated in combat.'
+  FlavorText: You won't be seeing any rabbits or birds falling out of this hat~

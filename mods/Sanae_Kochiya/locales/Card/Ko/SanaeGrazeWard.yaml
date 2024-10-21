@@ -1,0 +1,7 @@
+﻿SanaeGrazeWard:
+  Name: 신의 바람막이
+  Description: >-
+    {PlayerName}가 공격을 |그레이즈|할 때마다 |비호|를 {Value1} 얻습니다.
+
+    |그레이즈|를 {Value2} 얻습니다.
+  FlavorText: ''

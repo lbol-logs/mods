@@ -1,0 +1,18 @@
+﻿SanaeScryPower:
+  Name: 巧妙的预见
+  Description: >-
+    占卜 {Scry}。
+
+    |初见|：获得 {Value1} 点<sprite="Point" name="Power">。
+  UpgradedDescription: >-
+    占卜 {Scry}。
+
+    |初见|：获得 {Value1} 点<sprite="Point" name="Power">。本场战斗中{SelfName}的费用减少{Mana}。
+  ExtraDescription1: >-
+    占卜 {Scry}。
+
+    |d:初见：获得 {Value1} 点<sprite="Point" name="Power">。|
+  UpgradedExtraDescription1: >-
+    占卜 {Scry}。
+
+    |d:初见：获得 {Value1} 点<sprite="Point" name="Power">。本场战斗中{SelfName}的费用减少{Mana}。|

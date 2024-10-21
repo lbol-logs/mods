@@ -1,0 +1,4 @@
+﻿SanaeSpellDamageSe:
+  Name: 绿色奇术
+  Description: 当符卡被使用时，{OwnerName}对随机敌人造成 8 点攻击伤害 {Level} 次。
+  Brief: 当符卡被使用时，{OwnerName}对随机敌人造成 8 点攻击伤害。

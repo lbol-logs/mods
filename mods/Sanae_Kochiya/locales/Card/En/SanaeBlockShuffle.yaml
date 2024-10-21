@@ -1,0 +1,6 @@
+﻿SanaeBlockShuffle:
+  Name: Divining Dance
+  Description: >-
+    Whenever the draw pile is shuffled, gain {Value1} |Block|.
+
+    Scry {Scry}.

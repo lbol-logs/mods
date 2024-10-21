@@ -1,0 +1,7 @@
+﻿SanaeAttackSpirit:
+  Name: 기도자세
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |임시 영력|을 {Value1} 얻습니다.
+  FlavorText: ''

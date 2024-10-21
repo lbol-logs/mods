@@ -1,0 +1,10 @@
+﻿SanaeBlockDiscard:
+  Name: Rain Catcher
+  Description: >-
+    Gain {Block} |Block|.
+
+    Discard a card.
+  UpgradedDescription: >-
+    Gain {Block} |Block|.
+
+    Discard up to one card.

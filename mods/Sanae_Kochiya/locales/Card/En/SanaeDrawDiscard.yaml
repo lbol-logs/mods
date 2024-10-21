@@ -1,0 +1,12 @@
+﻿SanaeDrawDiscard:
+  Name: Water Walking
+  Description: >-
+    Draw {Value1} cards.
+
+    You may discard {Value2} random cards. If you do, draw {Value2} cards.
+  ExtraDescription1: >-
+    Discard {Value2} random cards.
+
+    Draw {Value2} cards.
+  ExtraDescription2: Do nothing.
+  FlavorText: Can't you just fly?

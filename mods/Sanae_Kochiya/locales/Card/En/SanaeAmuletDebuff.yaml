@@ -1,0 +1,11 @@
+﻿SanaeAmuletDebuff:
+  Name: Kouan Era Kochiya
+  Description: >-
+    |Choose| one or more:
+
+    - Gain {Value1} |Firepower| and |Weak|.
+
+    - Gain {Value1} |Spirit| and |Frail|.
+
+    - Gain {Value1} maximum life, |Vulnerable| and |Poison|.
+  FlavorText: ''

@@ -1,0 +1,4 @@
+﻿SanaeStatusTalismanSe:
+  Name: 종이 수공예
+  Description: '{OwnerName}의 턴이 끝날 때, |모리야 부적|을 {Level}장 버린 카드 더미에 추가합니다.'
+  Brief: '{OwnerName}의 턴이 끝날 때, |모리야 부적|을 버린 카드 더미에 추가합니다.'

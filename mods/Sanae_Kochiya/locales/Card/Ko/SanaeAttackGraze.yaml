@@ -1,0 +1,7 @@
+﻿SanaeAttackGraze:
+  Name: 날카로운 바람
+  Description: >-
+    무작위 적 {Value1}명에게 피해를 {Damage} 줍니다.
+
+    맞은 적 마다, {Mana}를 얻습니다.
+  FlavorText: ''

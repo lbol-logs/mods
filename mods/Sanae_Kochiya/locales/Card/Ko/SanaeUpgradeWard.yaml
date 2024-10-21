@@ -1,0 +1,15 @@
+﻿SanaeUpgradeWard:
+  Name: 용맥 조사
+  Description: >-
+    무작위 카드를 {Value1}장 강화합니다.
+
+    카드가 강화되지 않았다면, |비호|를 {Value2} 얻습니다.
+
+    |충원|: {Mana}를 얻습니다.
+  ExtraDescription1: >-
+    무작위 카드를 {Value1}장 강화합니다.
+
+    카드가 강화되지 않았다면, |비호|를 {Value2} 얻습니다.
+
+    |d:충원: {Mana}를 얻습니다.|
+  DetailText: 도구, 상태, 액운 카드는 강화할 수 없습니다.

@@ -1,0 +1,7 @@
+﻿SanaeReimuAbility:
+  Name: 神社对决
+  Description: >-
+    从 {Value1} 张随机的灵梦稀有能力牌中选择 1 张加入手中，它暂塑为{Mana}，具有|虚无|。
+
+    |透支| {Value2}。
+  DetailText: '|e:备选牌|无视总法力数量，法力颜色和角色限制。'

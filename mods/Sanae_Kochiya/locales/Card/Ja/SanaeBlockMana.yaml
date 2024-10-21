@@ -1,0 +1,12 @@
+﻿SanaeBlockMana:
+  Name: 貯蔵用スイートベリー
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    余剰のマナは次の{PlayerName}のターンまで失われない。
+
+    |オーバードラフト|{Value1}。
+  UpgradedDescription: >-
+    {Block}|ブロック|を得る。
+
+    余剰のマナは次の{PlayerName}のターンまで失われない。

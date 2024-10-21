@@ -1,0 +1,7 @@
+﻿SanaeManaShuffle:
+  Name: 飲用池水
+  Description: >-
+    |廃棄した時|：{Mana}を得る。
+
+    山札がシャッフルされるたび、{SelfName}を|廃棄場|から手札に戻す。
+  FlavorText: ''

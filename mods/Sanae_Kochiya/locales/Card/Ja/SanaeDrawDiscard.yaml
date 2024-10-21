@@ -1,0 +1,12 @@
+﻿SanaeDrawDiscard:
+  Name: 水上歩行
+  Description: >-
+    カードを{Value1}枚引く。
+
+    ランダムな手札{Value2}枚を捨ててもよい。そうした場合、カードを{Value2}枚引く。
+  ExtraDescription1: >-
+    ランダムな手札{Value2}枚を捨てる。
+
+    カードを{Value2}枚引く。
+  ExtraDescription2: なにもしない。
+  FlavorText: 普通に飛べばいいのでは？

@@ -1,0 +1,12 @@
+﻿SanaeAttackOrder:
+  Name: 파도 절개
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    뽑을 카드 더미 맨 위에 있는 카드의 |소멸|을 가진 |일시적으로| 비용이 <sprite="ManaSprite" name="0">인 |복사본|을 손에 추가합니다.
+  UpgradedDescription: >-
+    피해를 {Damage} 줍니다.
+
+    {Mana}를 얻습니다.
+
+    뽑을 카드 더미 맨 위에 있는 카드의 |소멸|을 가진 |일시적으로| 비용이 <sprite="ManaSprite" name="0">인 |복사본|을 손에 추가합니다.

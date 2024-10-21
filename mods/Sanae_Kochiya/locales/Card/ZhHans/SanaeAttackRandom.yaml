@@ -1,0 +1,12 @@
+﻿SanaeAttackRandom:
+  Name: 净化之雾
+  Description: >-
+    对随机敌人造成 {Damage} 点伤害 {Value1} 次。
+
+    你可以将 {Value2} 张|纯粹的光芒|置于牌堆顶，以获得{Mana}。
+  ExtraDescription1: >-
+    对随机敌人造成 {Damage} 点伤害 {Value1} 次。
+
+    你可以将 {Value2} 张|纯粹的光芒|置于牌堆顶，以获得{Mana}。
+  ExtraDescription2: 对随机敌人造成 {Damage} 点伤害 {Value1} 次。
+  FlavorText: ''

@@ -1,0 +1,7 @@
+﻿SanaeKanakoFriend:
+  Name: 카나코, 산과 호수의 신
+  Description: '{PassiveCostIcon}체력이 가장 많은 적에게 피해를 {Damage} 줍니다.'
+  UpgradedDescription: '{PassiveCostIcon}체력이 가장 많은 적에게 피해를 {Damage} 줍니다.'
+  ExtraDescription1: '{ActiveCostIcon}|보호막|을 {Shield} 얻습니다. |그레이즈|를 {Value3} 얻습니다.'
+  ExtraDescription2: '{UltimateCostIcon}이 전투가 끝날 때까지, 스펠 카드가 발동할 때마다 |화력|과 |그레이즈|를 {Value1} 얻습니다.'
+  FlavorText: ''

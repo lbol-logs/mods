@@ -1,0 +1,6 @@
+﻿SanaeBlockTalisman:
+  Name: Shrine Safeguard
+  Description: >-
+    Gain {Block} |Block|.
+
+    Add {Value1} |Moriya Talisman{Value1:plural one='' other='s'}| to the discard pile.
