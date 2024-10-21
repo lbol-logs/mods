@@ -1,4 +1,86 @@
 {
+  "plurals": {
+    "no": "",
+    "no_other": "<Duration />",
+    "turn": "次の",
+    "turn_other": "<Count />ターン後",
+    "until": "まで",
+    "until_other": ""
+  },
+
+  "AmuletForEnemy": {
+    "Name": "防波堤",
+    "Description": "次にデッキに加えられる<Level />枚の状態異常でないカードは無効化される(<h>廃棄</h>される)。"
+  },
+  "NextTurnLoseFire": {
+    "Name": "次ターン火力喪失",
+    "Description": "次の<OwnerName />のターン開始時、<h>火力</h><Level />を失う。"
+  },
+  "NextTurnLosePower": {
+    "Name": "次ターンパワー喪失",
+    "Description": "次の<OwnerName />のターン開始時、<Power /><Level />を失う。"
+  },
+  "OmikujiBonusSe": {
+    "Name": "スペカブースト",
+    "Description": "<OwnerName />の<h>スペルカード</h>が与えるダメージは<Level />増える。"
+  },
+  "SanaeBlockShuffleSe": {
+    "Name": "占いの舞",
+    "Description": "<OwnerName />が山札をシャッフルするたび、<Level /><h>ブロック</h>を得る。"
+  },
+  "SanaeDrawTempSe": {
+    "Name": "スクールサイエンスフェア",
+    "Description": "<OwnerName />のターン開始時、カードを<Level />枚引き、引いたスキルでないカードを全て捨てる。"
+  },
+  "SanaeExileDamageSe": {
+    "Name": "三色のエーデルワイス",
+    "Description": "状態異常カードまたは<h>自動廃棄</h>を持つカードが<h>廃棄</h>されるたび、<OwnerName />はランダムな敵に<Level />ダメージを与える。"
+  },
+  "SanaeGrazeWardSe": {
+    "Name": "神風の盾",
+    "Description": "<OwnerName />が攻撃を<h>グレイズ</h>するたび、<h>庇護</h><Level />を得る。"
+  },
+  "SanaeKanakoFriendSe": {
+    "Name": "召喚された神",
+    "Description": "スペルカードを使用するたび、<OwnerName />は<h>火力</h><Level />と<h>グレイズ</h><Level />を得る。"
+  },
+  "SanaeOrderShuffleSe": {
+    "Name": "断片的な洞察",
+    "Description": "スキルでないカードをを使用するたび、<Mana />を得て、山札をシャッフルする。"
+  },
+  "SanaePowerPotatoSe": {
+    "Name": "現代の娯楽",
+    "Description": "戦闘終了時、<Power /><Level />を得る。"
+  },
+  "SanaeSpellDamageSe": {
+    "Name": "グリーンソーマタージ",
+    "Description": "スペルカードを使用するたび、<OwnerName />はランダムな敵に8ダメージを<Level />回与える。"
+  },
+  "SanaeSpellManaGreenSe": {
+    "Name": "インターネット陰謀論",
+    "Description": "スペルカードを使用するたび、<Mana />を<Level />回得る。"
+  },
+  "SanaeSpellManaPhiloSe": {
+    "Name": "インターネット陰謀論",
+    "Description": "スペルカードを使用するたび、<Mana />を<Level />回得る。"
+  },
+  "SanaeSpiritManaSe": {
+    "Name": "召喚術の練習",
+    "Description": "$t(plurals.turn, { 'count': {{Count}} })の<PlayerName />のターン開始時、<h>霊力</h><Level />を得て<h>光明</h>を1枚手札に加える。"
+  },
+  "SanaeStatusTalismanSe": {
+    "Name": "手作り護符",
+    "Description": "<OwnerName />のターン終了時、<h>守矢の護符</h>を<Level />枚捨て札に加える。"
+  },
+  "SanaeWardTalismanSe": {
+    "Name": "事前詠唱",
+    "Description": "<OwnerName />が<h>庇護</h>を得るたび、同じ数の<Power />を得る。スペルカードを使用するたび、<h>守矢の護符</h>を<Level />枚捨て札に加える。"
+  },
+  "TurnStartDontLoseMana": {
+    "Name": "マナ保留",
+    "Description": "次の$t(plurals.no, { 'count': {{Duration}} })ターン$t(plurals.until, { 'count': {{Duration}} })の間、<OwnerName />はターン終了時にマナを失わない。"
+  },
+
   "CautionStatus": {
     "Name": "CAUTION!",
     "Description": "<PlayerName />のターン開始時、<h>バースト</h>状態になり、<h>時間制限</h><Mana1 />。"

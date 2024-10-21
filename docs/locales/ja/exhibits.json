@@ -1,4 +1,25 @@
 {
+  "SanaeClayVolcano": {
+    "Name": "粘土製の火山",
+    "Description": "山札をシャッフルするたび、<h>臨時霊力</h><Value1 />を得る。"
+  },
+  "SanaeExhibitU": {
+    "Name": "渦巻く蛇の髪飾り",
+    "Description": "マナ基盤に<Mana />を加え、<h>早苗</h>専用のカードが出現するようになる。<br /><PlayerName />が<h>スペルカード</h>を使用するたび、<Value1 /><h>ブロック</h>を得る。"
+  },
+  "SanaeExhibitW": {
+    "Name": "カエルのヘアクリップ",
+    "Description": "マナ基盤に<Mana />を加え、<h>早苗</h>専用のカードが出現するようになる。<br />戦闘開始時、<h>庇護</h><Value1 />を得る。"
+  },
+  "SanaeExpiredCoupon": {
+    "Name": "期限切れのクーポン",
+    "Description": "各戦闘中、<PlayerName />が初めて<h>スペルカード</h>を使用した時、<Power /><Value1 />を得る。"
+  },
+  "SanaeLibraryCard": {
+    "Name": "図書カード",
+    "Description": "<PlayerName />のターン開始時、前のターンに攻撃カードを使用してなかった場合、<h>庇護</h><Value1 />を得る。"
+  },
+
   "BlackSun": {
     "Name": "黒の太陽",
     "Description": "マナ基盤に<Mana />を加え、<h>空</h>専用のカードが出現するようになる。山札をシャッフルするたび、捨て札にあるカードの枚数だけ<Value1 />ダメージを敵全体に与える。"
@@ -7,6 +28,7 @@
     "Name": "制御棒",
     "Description": "マナ基盤に<Mana />を加え、<h>空</h>専用のカードが出現するようになる。カードをプレイするたびに、<h>熱</h>1を得る。"
   },
+
   "YoumuExhibitG": {
     "Name": "研ぎ澄まされた楼観剣",
     "Description": "マナ基盤に <Mana /> を加える。<h>妖夢</h> 固有のカードが出現するようになる.<br />戦闘開始時, 敵全体に<h>ロックオン</h><Value1 /> を与える。敵はターン開始時 <h>ロックオン</h> を失わない。"

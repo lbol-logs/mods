@@ -1,4 +1,360 @@
 {
+  "SanaeAmuletDebuff": {
+    "Name": "弘安东风谷",
+    "Description": "<h>抉择</h>至少一项：<br />- 获得 <Value1 /> 点<h>火力</h>和 <Value1 /> 层<h>虚弱</h>。<br />- 获得 <Value1 /> 点<h>灵力</h>和 <Value1 /> 层<h>脆弱</h>。<br />- 获得 <Value1 /> 点最大生命，<Value1 /> 层<h>易伤</h>和<h>中毒</h>。"
+  },
+  "SanaeAmuletDebuffFrail": {},
+  "SanaeAmuletDebuffVuln": {},
+  "SanaeAmuletDebuffWeak": {},
+  "SanaeAmuletTalisman": {
+    "Name": "一脉单传",
+    "Description": "获得 <Value1 /> 点<Power />。<br />将 <Value2 /> 张<h>守矢护符</h>洗入抽牌堆。<br /><PlayerName />每有一层<h>护身符</h>，<SelfName />的费用减少<Mana />。"
+  },
+  "SanaeAttackAmulet": {
+    "Name": "御币猛击",
+    "Description": "造成 <Damage /> 点伤害。<br />如果<PlayerName />没有<h>护身符</h>，获得 <Value1 /> 层<h>护身符</h>。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />如果<PlayerName />没有<h>护身符</h>，获得 <Value1 /> 层<h>护身符</h>。"
+  },
+  "SanaeAttackBlock": {
+    "Name": "魔法爆发",
+    "Description": "失去所有<h>格挡</h>，并对所有敌人造成等量的伤害。<br />获得 <Block /> 点<h>格挡</h>。<br />结束<PlayerName />的回合。"
+  },
+  "SanaeAttackCopy": {
+    "Name": "涟漪效应",
+    "Description": "造成 <Damage /> 点伤害。<br />将此牌的一张复制置于抽牌堆顶，它具有<h>放逐</h>。"
+  },
+  "SanaeAttackDebuff": {
+    "Name": "御社宫司神的谷粒",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br />对所有敌人施加 <Value1 /> 层<h>虚弱</h>和<h>易伤</h>。"
+  },
+  "SanaeAttackExpel": {
+    "Name": "钴蓝散射",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br /><h>退治时</h>：获得 <Value1 /> 点<Power />。"
+  },
+  "SanaeAttackGraze": {
+    "Name": "尖锐微风",
+    "Description": "对 <Value1 /> 个不同的敌人造成 <Damage /> 点伤害。<br />每击中一个敌人，获得<Mana />。"
+  },
+  "SanaeAttackOrder": {
+    "Name": "海浪断面",
+    "Description": "造成 <Damage /> 点伤害。<br />将抽牌堆顶的一张牌的<h>复制品</h>加入手中，<h>暂塑为</h> <Mana0 />，具有<h>放逐</h>。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />获得<Mana />。<br />将抽牌堆顶的一张牌的<h>复制品</h>加入手中，<h>暂塑为</h> <Mana0 />，具有<h>放逐</h>。"
+  },
+  "SanaeAttackOverdraft": {
+    "Name": "五芒星棱镜",
+    "Description": "造成 <Damage /> 点伤害。<br />你可以<h>透支</h> <Value1 /> 以获得 <Block /> 点<h>格挡</h>。"
+  },
+  "SanaeAttackPower": {
+    "Name": "妖力掠夺者",
+    "Description": "造成 <Damage /> 点伤害。<br />获得等同于造成未被格挡的伤害的数量的 <Power />。"
+  },
+  "SanaeAttackRandom": {
+    "Name": "净化之雾",
+    "Description": "对随机敌人造成 <Damage /> 点伤害 <Value1 /> 次。<br />你可以将 <Value2 /> 张<h>纯粹的光芒</h>置于牌堆顶，以获得<Mana />。"
+  },
+  "SanaeAttackRebuff": {
+    "Name": "米之浴",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br />如果有敌人的意图是添加负面效果，获得 <Value1 /> 层<h>护身符</h>。"
+  },
+  "SanaeAttackSpirit": {
+    "Name": "祈愿形态",
+    "Description": "造成 <Damage /> 点伤害。<br />获得 <Value1 /> 点<h>暂得灵力</h>。"
+  },
+  "SanaeAttackStatus": {
+    "Name": "闪光灯",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br />将一张<h>璀璨星光</h>加入手中。"
+  },
+  "SanaeAttackTwice": {
+    "Name": "被遗忘的秘传",
+    "Description": "造成 <Damage /> 点伤害。<br />如果<PlayerName />拥有<h>护身符</h>，失去 <Value1 /> 层<h>护身符</h>并改为造成两次伤害。<br />否则，获得 <Value2 /> 层<h>护身符</h>。"
+  },
+  "SanaeAttackU": {
+    "Name": "起浪",
+    "Description": "造成 <Damage /> 点伤害。"
+  },
+  "SanaeAttackW": {
+    "Name": "唤风",
+    "Description": "造成 <Damage /> 点伤害。"
+  },
+  "SanaeAttackWeak": {
+    "Name": "漩涡之眼",
+    "Description": "对目标施加 <Value1 /> 层<h>虚弱</h>。<br />然后对所有其他敌人造成 <Damage /> 点伤害。"
+  },
+  "SanaeBlockDiscard": {
+    "Name": "收集雨水",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />丢弃一张手牌",
+    "UpgradedDescription": "获得 <Block /> 点<h>格挡</h>。<br />丢弃至多一张手牌。"
+  },
+  "SanaeBlockG": {
+    "Name": "星落",
+    "Description": "获得 <Block /> <h>格挡</h>。"
+  },
+  "SanaeBlockMana": {
+    "Name": "保存甜浆果",
+    "Description": "获得 <Block /> <h>格挡</h>。<br />直到<PlayerName />的下个回合开始，剩余的法力不会流失。<br /><h>透支</h> <Value1 />。"
+  },
+  "SanaeBlockRebuff": {
+    "Name": "铸造护符",
+    "Description": "获得 <Block /> <h>格挡</h>和<h>护盾</h>。<br />如果<PlayerName />有<h>护身符</h>，失去 <Value1 /> 层<h>护身符</h>，对所有敌人施加 <Value2 /> 层<h>虚弱</h>。"
+  },
+  "SanaeBlockShuffle": {
+    "Name": "预见之舞",
+    "Description": "抽牌堆洗牌时，获得 <Value1 /> 点<h>格挡</h>。<br />占卜 <Scry />。"
+  },
+  "SanaeBlockTalisman": {
+    "Name": "神社安保",
+    "Description": "获得 <Block /> <h>格挡</h>。<br />将 <Value1 /> 张<h>守矢护符</h>放入弃牌堆。"
+  },
+  "SanaeBlockWard": {
+    "Name": "非正统防御",
+    "Description": "获得 <Block /> 点<h>格挡</h> <Value1 /> 次。<br />获得 <Value2 /> 层<h>庇护</h> <Value1 /> 次。"
+  },
+  "SanaeColorRandom": {
+    "Name": "光谱太阳雨",
+    "Description": "从 <Value1 /> 张随机的卡牌中选择 1 张加入手中。它<h>暂塑为</h><Mana0 />，具有<h>放逐</h>和<h>虚无</h>。<br />这些牌的颜色分别包含<Mana />。"
+  },
+  "SanaeCuriousAbility": {
+    "Name": "过时的外乡人",
+    "Description": "<PlayerName />打出一张能力牌后，获得 <Value1 /> 点<h>火力</h>。"
+  },
+  "SanaeDazzleDash": {
+    "Name": "超级烟花",
+    "Description": "获得 <Value1 /> 点<h>火力</h>。<br />获得 <Value2 /> 点<Power />。<br /><h>手牌中</h>：使用符卡时，<SelfName />在本回合中效果数值翻倍。"
+  },
+  "SanaeDrawAbility": {
+    "Name": "诹访湖的两柱半神明",
+    "Description": "抽 <Value1 /> 张牌。<br />抽到的能力牌的费用<h>暂时降低</h><Mana />。",
+    "UpgradedDescription": "抽 <Value1 /> 张牌。<br />抽到的能力牌的费用<h>暂时降低</h> 1 点随机的法力。"
+  },
+  "SanaeDrawDebuff": {
+    "Name": "湍流城市化魔杖",
+    "Description": "<h>手牌中</h>：抽牌阶段外每抽一张牌，获得<Mana />。<br /><h>被放逐时</h>：失去 <Value2 /> 点生命，本回合不能再抽牌。",
+    "UpgradedDescription": "<h>手牌中，</h>：抽牌阶段外每抽一张牌，获得 <Value1 /> 点随机法力。<br /><h>被放逐时</h>：失去 <Value2 /> 点生命，本回合不能再抽牌。"
+  },
+  "SanaeDrawDiscard": {
+    "Name": "水上行走",
+    "Description": "抽 <Value1 /> 张牌。<br />你可以丢弃随机 <Value2 /> 张牌，然后多抽 <Value2 /> 张牌。"
+  },
+  "SanaeDrawOrder": {
+    "Name": "海螺脱壳",
+    "Description": "检视抽牌堆顶的 <Value1 /> 张牌。将其中一张移动到抽牌堆顶。",
+    "UpgradedDescription": "检视抽牌堆顶的 <Value1 /> 张牌。将其中一张移动到抽牌堆顶。<br />抽 <Value2 /> 张牌。"
+  },
+  "SanaeDrawSplash": {
+    "Name": "摩西之奇迹",
+    "Description": "抽 <Value1 /> 张牌。<br />丢弃手中所有的技能牌，将等量的<h>水花</h>加入手中，它们具有<h>自动放逐</h>。"
+  },
+  "SanaeDrawTalisman": {
+    "Name": "堆积底图",
+    "Description": "将 <Value1 /> 张<h>守矢护符</h>置于抽牌堆顶。<br />抽 <Value2 /> 张牌。"
+  },
+  "SanaeDrawTemp": {
+    "Name": "校园科技集市",
+    "Description": "抽 <Value1 /> 张牌。<br /><PlayerName />的回合开始时，抽 <Value1 /> 张牌，然后丢弃其中所有的非技能牌。"
+  },
+  "SanaeDrawWard": {
+    "Name": "百搭牌",
+    "Description": "获得 <Value1 /> 层<h>庇护</h>。<br />抽 <Value2 /> 张牌。"
+  },
+  "SanaeExileDamage": {
+    "Name": "三色雪绒花",
+    "Description": "当一张牌被自动<h>放逐</h>时，对随机敌人造成 <Value1 /> 点伤害。",
+    "UpgradedDescription": "当一张牌被自动<h>放逐</h>时，对随机敌人造成 <Value1 /> 点伤害。<br />将 <Value2 /> 张<h>守矢护符</h>加入手中。"
+  },
+  "SanaeExilePower": {
+    "Name": "合流",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br />选择抽牌堆和弃牌堆中至多 X 张牌<h>放逐</h>。",
+    "UpgradedDescription": "获得 <Shield /> 点<h>护盾</h>。<br />选择抽牌堆和弃牌堆中至多 X 张牌<h>放逐</h>。<br />将等量的<h>守矢护符</h>放入弃牌堆。"
+  },
+  "SanaeGrazeAmulet": {
+    "Name": "风之祝福",
+    "Description": "获得 <Value1 /> 层<h>闪避</h>。<br />获得 <Value2 /> 层<h>护身符</h>。"
+  },
+  "SanaeGrazeWard": {
+    "Name": "神之风盾",
+    "Description": "当<PlayerName /><h>闪避</h>一次攻击时，获得 <Value1 /> 层<h>庇护</h>。<br />获得 <Value2 /> <h>闪避</h>。"
+  },
+  "SanaeHisouHead": {
+    "Name": "神秘机械生物非想天则",
+    "Description": "如果所有<h>神秘机械生物</h>牌均在手中，<h>放逐</h>所有<h>神秘机械生物</h>牌，击败所有敌人。<br />否则，从 <Value1 /> 张<h>神秘机械生物</h>牌中选择 1 张加入手中，然后结束<PlayerName />的回合。",
+    "UpgradedDescription": "如果所有<h>神秘机械生物</h>牌均在手中，<h>放逐</h>所有<h>神秘机械生物</h>牌，击败所有敌人。<br />否则，从 <Value1 /> 张已升级的<h>神秘机械生物</h>牌中选择 1 张加入手中，然后结束<PlayerName />的回合。"
+  },
+  "SanaeHisouLeftArm": {
+    "Name": "神秘机械生物的左臂",
+    "Description": "<h>回合结束时</h>：将 <Value1 /> 张<h>寂静月光</h>放入弃牌堆。"
+  },
+  "SanaeHisouLeftLeg": {
+    "Name": "神秘机械生物的左腿",
+    "Description": "<h>回合结束时</h>：获得 <Value1 /> 层<h>脆弱</h>。",
+    "UpgradedDescription": "<h>回合结束时</h>：获得 <Value1 /> 层<h>虚弱</h>。"
+  },
+  "SanaeHisouRightArm": {
+    "Name": "神秘机械生物的右臂",
+    "Description": "<h>回合结束时</h>：受到 <Value1 /> 点伤害。"
+  },
+  "SanaeHisouRightLeg": {
+    "Name": "神秘机械生物的右腿",
+    "Description": "<h>回合结束时</h>：<h>透支</h> <Value1 />。"
+  },
+  "SanaeKanakoFriend": {
+    "Name": "圣风之神神奈子",
+    "PassiveDescription": "对生命值最高的敌人造成 <Damage /> 点攻击伤害。",
+    "UpgradedPassiveDescription": "对生命值最高的敌人造成 <Damage /> 点攻击伤害。"
+  },
+  "SanaeLifeAmulet": {
+    "Name": "守护仪式",
+    "Description": "失去 <Value1 /> 点生命。<br />获得 <Shield /> 点<h>护盾</h>。<br />获得 <Value2 /> 层<h>护身符</h>。"
+  },
+  "SanaeLifeStatus": {
+    "Name": "呱太帽子戏法",
+    "Description": "获得 <Value1 /> 点最大生命。<br />将手牌，抽牌堆和/或弃牌堆中随机 <Value2 /> 张牌变形为<h>青蛙</h>。"
+  },
+  "SanaeManaRandom": {
+    "Name": "空中落物的奇迹",
+    "Description": "将 <Value1 /> 张法力总数不大于 4 点的随机卡牌加入手中。这些牌具有<h>虚无</h>，费用为<Mana />。",
+    "UpgradedDescription": "将 <Value1 /> 张法力总数不大于 4 点的<h>升级</h>后的随机卡牌加入手中。这些牌具有<h>虚无</h>，费用为<Mana />。"
+  },
+  "SanaeManaShuffle": {
+    "Name": "携带池塘水",
+    "Description": "<h>被放逐时</h>：获得<Mana />。<br />洗牌时从<h>放逐</h>区回到手中。"
+  },
+  "SanaeManaSynergy": {
+    "Name": "神秘果",
+    "Description": "<h>每支付<ManaW /></h>：获得<ManaU /><ManaG />。 <br /><h>每支付<ManaU /></h>：获得<ManaW /><ManaG />。<br /><h>透支</h> <Value1 />。",
+    "UpgradedDescription": "<h>每支付<ManaW /></h>：获得 <ManaU /><ManaG />。 <br /><h>每支付<ManaU /> </h>：获得<ManaW /><ManaG />。 <br /><h>每支付<ManaG /></h>：获得 <ManaW /><ManaU />。<br /><h>透支</h> <Value1 />。"
+  },
+  "SanaeManaTemp": {
+    "Name": "绀色蛇形发带",
+    "Description": "获得 <Value1 /> 点<h>暂得灵力</h>。<br />如果手中至少有 <Value3 /> 张牌，将 <Value2 /> 点<h>暂得灵力</h>转变成<h>灵力</h>，并抽 <Value2 /> 张牌。"
+  },
+  "SanaeManaTurbo": {
+    "Name": "月光湖",
+    "Description": "获得<Mana />。<br />将 <Value1 /> 张<h>寂静月光</h>放入弃牌堆。"
+  },
+  "SanaeMiracleAbility": {
+    "Name": "奇迹五芒星",
+    "Description": "从 <Value1 /> 张罕见能力牌中选择 1 张加入手中，它具有<h>回响</h>和<h>虚无</h>。",
+    "UpgradedDescription": "从 <Value1 /> 张稀有能力牌或 <Value1 /> 张罕见能力牌中选择 1 张加入手中，它具有<h>回响</h>和<h>虚无</h>。"
+  },
+  "SanaeMoneyWard": {
+    "Name": "守护商业繁荣",
+    "Description": "获得 <Value1 /> 层<h>庇护</h>。<br />获得 <Value2 /> 点<Money />。<br />获得 <Value3 /> 点随机法力。"
+  },
+  "SanaeOrderShuffle": {
+    "Name": "碎片化的观察力",
+    "Description": "获得<Mana />。<br />可以以实际顺序查看抽牌堆。<br />当一张非技能牌被打出后，重洗抽牌堆。"
+  },
+  "SanaePowerOmikuji": {
+    "Name": "御神签奖励",
+    "Description": "如果<PlayerName />拥有<Power />失去 <Value1 /> 点<Power />，提升<PlayerName />的符卡的伤害 <Value2 /> 点。"
+  },
+  "SanaePowerPotato": {
+    "Name": "现代娱乐",
+    "Description": "战斗结束后，获得 <Value1 /> 点<Power />。"
+  },
+  "SanaePowerTemp": {
+    "Name": "力量测试",
+    "Description": "获得 <Value1 /> 点<h>火力</h>。<br />获得 <Value1 /> 点<Power />。<br /><PlayerName />的下个回合开始时，失去 <Value1 /> 点<h>火力</h>。"
+  },
+  "SanaeReimuAbility": {
+    "Name": "神社对决",
+    "Description": "从 <Value1 /> 张随机的灵梦稀有能力牌中选择 1 张加入手中，它暂塑为<Mana />，具有<h>虚无</h>。<br /><h>透支</h> <Value2 />。"
+  },
+  "SanaeScryPower": {
+    "Name": "巧妙的预见",
+    "Description": "占卜 <Scry />。<br /><h>初见</h>：获得 <Value1 /> 点<Power />。",
+    "UpgradedDescription": "占卜 <Scry />。<br /><h>初见</h>：获得 <Value1 /> 点<Power />。本场战斗中<SelfName />的费用减少<Mana />。"
+  },
+  "SanaeScryReturn": {
+    "Name": "彻夜亮光",
+    "Description": "占卜 <Scry />。<br />如果抽牌堆为空，将弃牌堆中的一张牌移回手中。"
+  },
+  "SanaeScryShuffle": {
+    "Name": "预告未来",
+    "Description": "重洗抽牌堆。<br />占卜 <Scry />。"
+  },
+  "SanaeSpellDamage": {
+    "Name": "绿色奇术",
+    "Description": "恢复 <Value1 /> 点生命。<br />使用符卡时，对随机敌人造成 8 点攻击伤害 <Value2 /> 次。"
+  },
+  "SanaeSpellMana": {
+    "Name": "网络阴谋",
+    "Description": "<PlayerName />使用符卡后，获得<Mana />。<br />结束<PlayerName />的回合，然后获得一个额外的回合。<br /><h>时间有限</h><Mana1 />。",
+    "UpgradedDescription": "获得 <Value2 /> 点<Power />。<br /><PlayerName />使用符卡后，获得<Mana />。<br />结束<PlayerName />的回合，然后获得一个额外的回合。<br /><h>时间有限</h><Mana1 />。"
+  },
+  "SanaeSpellPower": {
+    "Name": "短暂的信仰",
+    "Description": "失去 <Value1 /> 点生命。<br />获得 <Value2 /> 点<Power />。<br /><PlayerName />的下个回合开始时，失去 100 点<Power />。"
+  },
+  "SanaeSpiritDebuff": {
+    "Name": "仓促的祈祷者们",
+    "Description": "获得 <Value1 /> 点<h>灵力</h>。<br /><PlayerName />的回合开始时，失去 <Value2 /> 点<h>灵力</h>。"
+  },
+  "SanaeSpiritMana": {
+    "Name": "召唤师练习",
+    "Description": "<PlayerName />的两个回合后的回合开始时，获得 <Value1 /> 点<h>灵力</h>，将一张<h>光芒</h>加入手中。",
+    "UpgradedDescription": "<PlayerName />的下个回合开始时，获得 <Value1 /> 点<h>灵力</h>，将一张<h>光芒</h>加入手中。"
+  },
+  "SanaeSpiritShuffle": {
+    "Name": "灵魂搜索",
+    "Description": "获得 <Value1 /> 点<h>暂得灵力</h>。<br />将弃牌堆洗入抽牌堆。<br />抽 <Value2 /> 张牌。"
+  },
+  "SanaeSpiritTalisman": {
+    "Name": "弘安东风谷",
+    "Description": "获得 <Value1 /> 点<h>灵力</h>。<br /><h>抉择</h>：获得 <Value2 /> 层<h>庇护</h>，或将 <Value2 /> 张<h>守矢护符</h>加入手中。"
+  },
+  "SanaeStarterU": {
+    "Name": "鲁莽退治者",
+    "Description": "造成 <Damage /> 点伤害 <Value1 /> 次。<br /><SelfName />击败了一个敌人时，获得 <Value2 /> 点<Power />。这个效果每场战斗只能触发一次。"
+  },
+  "SanaeStarterW": {
+    "Name": "双面冲击",
+    "Description": "造成 <Damage /> 点伤害。<br />你可以将一张<h>眩光</h>加入手中，并改为造成 <Value1 /> 点伤害 <Value2 /> 次。"
+  },
+  "SanaeStatus": {
+    "Name": "守矢护符",
+    "Description": "<h>被放逐时</h>：获得 <Block /> 点<h>格挡</h>和<h>护盾</h>。"
+  },
+  "SanaeStatusSynergy": {
+    "Name": "日晒仪式",
+    "Description": "<h>每支付<Mana /></h>：将 <Value1 /> 张<h>折射日光</h>洗入抽牌堆，它具有<h>自动放逐</h>。<br /><h>每支付<ManaW /><ManaW /></h>：获得 <Value2 /> 点<h>火力</h>。",
+    "UpgradedDescription": "<h>每支付<Mana /></h>：将 <Value1 /> 张<h>折射日光</h>洗入抽牌堆，它具有<h>自动放逐</h>。<br /><h>每支付<ManaW /><ManaW /></h>：获得 <Value2 /> 点<h>火力</h>和<h>灵力</h>。"
+  },
+  "SanaeStatusTalisman": {
+    "Name": "折纸工艺品",
+    "Description": "<PlayerName />的回合结束时，将 <Value1 /> 张<h>守矢护符</h>放入弃牌堆。"
+  },
+  "SanaeSuwakoFriend": {
+    "Name": "狡猾的蛤蟆爱好者诹访子",
+    "PassiveDescription": "将 <Value1 /> 张<h>黑暗残留</h>洗入抽牌堆。",
+    "ActiveDescription": "将 1 张随机罕见能力牌加入手中。它暂塑为<Mana />，具有<h>虚无</h>。"
+  },
+  "SanaeToolNews": {
+    "Name": "山顶集会",
+    "Description": "<h>抉择</h>：将 <Value1 /> 张随机的非稀有河童<h>道具</h>牌或 <Value2 /> 张天狗<h>道具</h>牌加入手中。<br />这些牌被标记为<h>复制品</h>，具有<h>自动放逐</h>，使用次数为 1 。"
+  },
+  "SanaeUpgradeWard": {
+    "Name": "地脉聚光灯",
+    "Description": "如果手中有可被升级的牌，随机升级手中的 <Value1 /> 张牌。<br />否则，获得 <Value2 /> 层庇护。<br /><h>充盈</h>：获得<Mana />。"
+  },
+  "SanaeWardAmulet": {
+    "Name": "徽章交换",
+    "Description": "获得 <Value1 /> 层<h>庇护</h>。<br />如果<PlayerName />拥有<h>护身符</h>，失去 <Value3 /> 层<h>护身符</h>并改为获得 <Value2 /> 层<h>庇护</h>。"
+  },
+  "SanaeWardReflect": {
+    "Name": "海豹蜷缩",
+    "Description": "获得 <Value1 /> 层<h>庇护</h>。<br />获得 <Value2 /> 点<h>反射</h>。"
+  },
+  "SanaeWardTalisman": {
+    "Name": "预咏唱咒语",
+    "Description": "当<PlayerName />获得<h>庇护</h>时，获得等量的<Power />。<br />当符卡被使用后，将 <Value1 /> 张<h>守矢护符</h>放入弃牌堆。"
+  },
+  "SanaeWineSplash": {
+    "Name": "酒和水",
+    "Description": "将 1 张<h>小酌怡情</h>和<h>水花</h>加入手中。",
+    "UpgradedDescription": "将 1 张<h>小酌怡情+</h>和<h>水花+</h>加入手中。"
+  },
+
   "YoumuAgelessObsession": {
     "Name": "无量劫",
     "Description": "对所有敌人施加 <Value1 /> 层<h>锁定</h>。<br />敌人受到的<h>锁定</h>翻倍。"

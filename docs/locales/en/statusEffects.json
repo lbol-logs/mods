@@ -1,8 +1,90 @@
 {
   "plurals": {
     "-s": "",
-    "-s_other": "s"
+    "-s_other": "s",
+    "no": "",
+    "no_other": "<Duration /> ",
+    "since": "",
+    "since_other": " from now"
   },
+  "ordinal_1": "next",
+  "ordinal_2": "<Count />nd",
+  "ordinal_3": "<Count />rd",
+  "ordinal": "<Count />th",
+
+  "AmuletForEnemy": {
+    "Name": "Bulwark",
+    "Description": "Negate the next <Level /> non-Status cards that would be added (<h>Exile</h> them instead)."
+  },
+  "NextTurnLoseFire": {
+    "Name": "Next Turn Lose Firepower",
+    "Description": "At the start of <OwnerName />'s next turn, lose <Level /> <h>Firepower</h>."
+  },
+  "NextTurnLosePower": {
+    "Name": "Next Turn Power Loss",
+    "Description": "At the start of <OwnerName />'s next turn, lose <Level /> <Power />."
+  },
+  "OmikujiBonusSe": {
+    "Name": "Spell Card Boost",
+    "Description": "<OwnerName /> deals <Level /> more damage when using her <h>Spell Card</h>."
+  },
+  "SanaeBlockShuffleSe": {
+    "Name": "Divining Dance",
+    "Description": "Whenever <OwnerName /> shuffles the draw pile, gain <Level /> <h>Block</h>."
+  },
+  "SanaeDrawTempSe": {
+    "Name": "School Science Fair",
+    "Description": "At the start of <OwnerName />'s turn, draw <Level /> cards and then discard any non-skill cards drawn this way."
+  },
+  "SanaeExileDamageSe": {
+    "Name": "Trichromatic Edelweiss",
+    "Description": "Whenever a status card or a card with <h>Auto-Exile</h> is <h>Exiled</h>, <OwnerName /> deals <Level /> damage to a random enemy."
+  },
+  "SanaeGrazeWardSe": {
+    "Name": "God's Windshield",
+    "Description": "Whenever <OwnerName /> <h>Grazes</h> an attack, she gains <Level /> <h>Ward</h>."
+  },
+  "SanaeKanakoFriendSe": {
+    "Name": "Evoked Deity",
+    "Description": "Whenever the Spell Card is activated, <OwnerName /> gains <Level /> <h>Firepower</h> and <h>Graze</h>."
+  },
+  "SanaeOrderShuffleSe": {
+    "Name": "Fragmental Insight",
+    "Description": "Whenever a non-skill card is played, gain <Mana />. Then, the draw pile is shuffled."
+  },
+  "SanaePowerPotatoSe": {
+    "Name": "Modern-Age Entertainment",
+    "Description": "After this combat, gain <Level /> <Power />."
+  },
+  "SanaeSpellDamageSe": {
+    "Name": "Green Thaumaturgy",
+    "Description": "Whenever the Spell Card is activated, <OwnerName /> deals 8 attack damage to a random enemy <Level /> time$t(plurals.-s, { 'count': {{Level}} })."
+  },
+  "SanaeSpellManaGreenSe": {
+    "Name": "Network Conspiracy",
+    "Description": "Whenever the Spell Card is activated, gain <Level /> <Mana />."
+  },
+  "SanaeSpellManaPhiloSe": {
+    "Name": "Network Conspiracy",
+    "Description": "Whenever the Spell Card is activated, gain <Level /> <Mana />."
+  },
+  "SanaeSpiritManaSe": {
+    "Name": "Summoner Practice",
+    "Description": "At the start of <PlayerName />'s $t(ordinal, { 'context': {{Count}} }) turn$t(plurals.since, { 'count': {{Count}} }), gain <Level /> <h>Spirit</h> and add a <h>Radiance</h> to the hand."
+  },
+  "SanaeStatusTalismanSe": {
+    "Name": "Paper Handicrafts",
+    "Description": "At the end of <OwnerName />'s turn, add <h><Level /> Moriya Talisman$t(plurals.-s, { 'count': {{Level}} })</h> to the discard pile."
+  },
+  "SanaeWardTalismanSe": {
+    "Name": "Prespoke Incantation",
+    "Description": "Whenever <OwnerName /> gains <h>Ward</h>, gain an equal amount of <Power />. Whenever the Spell Card is activated, add <Level /> <h>Moriya Talisman$t(plurals.-s, { 'count': {{Level}} })</h> to the discard pile."
+  },
+  "TurnStartDontLoseMana": {
+    "Name": "Retain Mana",
+    "Description": "<OwnerName /> does not lose Mana at the start of the next $t(plurals.no, { 'count': {{Duration}} })turn$t(plurals.-s, { 'count': {{Duration}} })."
+  },
+
   "CautionStatus": {
     "Name": "CAUTION!",
     "Description": "At the start of <PlayerName />'s turn, enter <h>Burst</h> and gain <h>Time Limit</h> <Mana1 />."

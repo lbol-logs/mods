@@ -892,7 +892,8 @@
     "0": {
       "Cost": "H:HUG",
       "Value1": 4,
-      "Value2": 2
+      "Value2": 2,
+      "Value3": 9
     },
     "1": {
       "Value1": 6,
@@ -943,7 +944,8 @@
       "Cost": "WG",
       "Value1": 4,
       "Value2": 10,
-      "Keywords": "Exile"
+      "Keywords": "Exile",
+      "Value3": 1
     },
     "1": {
       "Keywords": "Exile,Echo"
@@ -1082,11 +1084,13 @@
     "0": {
       "Cost": "1GG",
       "Value1": 4,
-      "Value2": 2
+      "Value2": 2,
+      "Value3": 8
     },
     "1": {
       "Value1": 6,
-      "Value2": 3
+      "Value2": 3,
+      "Value3": 8
     }
   },
   "SanaeSpellMana": {
@@ -1115,7 +1119,8 @@
       "Cost": "GGG",
       "Value1": 5,
       "Value2": 150,
-      "Keywords": "Exile,Ethereal"
+      "Keywords": "Exile,Ethereal",
+      "Value3": 100
     },
     "1": {
       "Value2": 250,
@@ -1178,11 +1183,13 @@
     "0": {
       "Cost": "3WW",
       "Value1": 4,
-      "Value2": 3
+      "Value2": 3,
+      "Value3": 3
     },
     "1": {
       "Value1": 6,
-      "Value2": 4
+      "Value2": 4,
+      "Value3": 4
     }
   },
   "SanaeStarterU": {
@@ -1328,7 +1335,8 @@
     "0": {
       "Cost": "W",
       "Value1": 2,
-      "Value2": 5
+      "Value2": 5,
+      "Value3": 1
     },
     "1": {
       "Value1": 3,

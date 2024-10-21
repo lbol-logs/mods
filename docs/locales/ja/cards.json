@@ -1,4 +1,368 @@
 {
+  "SanaeAmuletDebuff": {
+    "Name": "弘安の東風谷",
+    "Description": "一つ以上を<h>チョイス</h>：<br />- <h>火力</h><Value1 />と<h>脱力</h><Value1 />を得る。<br />- <h>霊力</h><Value1 />と<h>脆弱化</h><Value1 />を得る。<br />- 最大ライフを<Value1 />増加させて、<h>弱体</h><Value1 />と<h>毒</h><Value1 />を得る。"
+  },
+  "SanaeAmuletDebuffFrail": {
+    "Name": "防御儀式",
+    "Description": "<h>霊力</h><Value1 />と<h>脆弱化</h><Value1 />を得る。"
+  },
+  "SanaeAmuletDebuffVuln": {
+    "Name": "補助儀式",
+    "Description": "最大ライフを<Value1 />増加させて、<h>弱体</h><Value1 />と<h>毒</h><Value1 />を得る。"
+  },
+  "SanaeAmuletDebuffWeak": {
+    "Name": "攻撃儀式",
+    "Description": "<h>火力</h><Value1 />と<h>脱力</h><Value1 />を得る。"
+  },
+  "SanaeAmuletTalisman": {
+    "Name": "一子相伝",
+    "Description": "<Power /><Value1 />を得る。<br /><h>守矢の護符</h>を<Value2 />枚山札に加える。<br /><PlayerName />が持っている<h>加護</h>1につき、<SelfName />のコストを<Mana />減らす。"
+  },
+  "SanaeAttackAmulet": {
+    "Name": "御幣猛撃",
+    "Description": "<Damage />ダメージを与える。<br /><PlayerName />が<h>加護</h>を持っていないならば、<h>加護</h><Value1 />を得る。"
+  },
+  "SanaeAttackBlock": {
+    "Name": "マジックバースト",
+    "Description": "<PlayerName />の<h>ブロック</h>を0にし、減らした数値分のダメージを敵全体に与える。<br /><Block /><h>ブロック</h>を得る。<br /><PlayerName />のターンを終了する。"
+  },
+  "SanaeAttackCopy": {
+    "Name": "波及効果",
+    "Description": "<Damage />ダメージを与える。<br />このカードの<h>複製</h>を山札の一番上に加える。それは<h>廃棄</h>を持つ。"
+  },
+  "SanaeAttackDebuff": {
+    "Name": "ミシャグジ様の轟き",
+    "Description": "敵全体に<Damage />ダメージを与える。<br />敵全体に<h>脱力</h><Value1 />と<h>弱体</h><Value1 />を与える。"
+  },
+  "SanaeAttackExpel": {
+    "Name": "コバルトスプレッド",
+    "Description": "敵全体に<Damage />ダメージを与える。<br /><h>退治</h>：<Power /><Value1 />を得る。"
+  },
+  "SanaeAttackGraze": {
+    "Name": "鋭い微風",
+    "Description": "ランダムな<Value1 />体の敵に<Damage />ダメージを与える。<br />攻撃を受けた敵1体ごとに<Mana />を得る。"
+  },
+  "SanaeAttackOrder": {
+    "Name": "波打つ断層",
+    "Description": "<Damage />ダメージを与える。<br />山札の一番上にあるカードの<h>複製</h>を1枚手札に加える。それは<h>臨時コスト</h><Mana0 />となり、<h>廃棄</h>を持つ。",
+    "UpgradedDescription": "<Damage />ダメージを与える。<br /><Mana />を得る。<br />山札の一番上にあるカードの<h>複製</h>を1枚手札に加える。それは<h>臨時コスト</h><Mana0 />となり、<h>廃棄</h>を持つ。"
+  },
+  "SanaeAttackOverdraft": {
+    "Name": "五芒星のプリズム",
+    "Description": "<Damage />ダメージを与える。<br /><Block /><h>ブロック</h>を得てもよい。そうした場合、<h>オーバードラフト</h><Value1 />。"
+  },
+  "SanaeAttackPower": {
+    "Name": "妖力スポイラー",
+    "Description": "<Damage />ダメージを与える。<br />このダメージが敵のHPを減らした時、それと同じ値の<Power />を得る。"
+  },
+  "SanaeAttackRandom": {
+    "Name": "浄化の霧",
+    "Description": "ランダムな敵に<Damage />ダメージを<Value1 />回与える。<br /><h>純粋なる輝き</h>を<Value2 />枚山札の上に加えてもよい。そうした場合、<Mana />を得る。"
+  },
+  "SanaeAttackRebuff": {
+    "Name": "五穀の雨",
+    "Description": "敵全体に<Damage />ダメージを与える。<br />敵の行動予定がデバフの場合、<h>加護</h><Value1 />を得る。"
+  },
+  "SanaeAttackSpirit": {
+    "Name": "祈りの姿勢",
+    "Description": "<Damage />ダメージを与える。<br /><h>臨時霊力</h><Value1 />を得る。"
+  },
+  "SanaeAttackStatus": {
+    "Name": "輝くフラッドライト",
+    "Description": "敵全体に<Damage />ダメージを与える。<br /><h>星の煌めき</h>を1枚手札に加える。"
+  },
+  "SanaeAttackTwice": {
+    "Name": "忘れられた秘伝",
+    "Description": "<Damage />ダメージを与える。<br /><PlayerName />が<h>加護</h>を持っている場合、代わりに<h>加護</h><Value1 />を失い、ダメージを2回与える。<br />持っていない場合、<h>加護</h><Value2 />を得る。"
+  },
+  "SanaeAttackU": {
+    "Name": "波起こし",
+    "Description": "<Damage />ダメージを与える。"
+  },
+  "SanaeAttackW": {
+    "Name": "風起こし",
+    "Description": "<Damage />ダメージを与える。"
+  },
+  "SanaeAttackWeak": {
+    "Name": "渦巻く両目",
+    "Description": "<h>脱力</h><Value1 />を与える。<br />対象以外の敵全体に<Damage />ダメージを与える。"
+  },
+  "SanaeBlockDiscard": {
+    "Name": "雨水集め",
+    "Description": "<Block /><h>ブロック</h>を得る。<br />手札を1枚捨てる。",
+    "UpgradedDescription": "<Block /><h>ブロック</h>を得る。<br />手札を1枚まで捨てる。"
+  },
+  "SanaeBlockG": {
+    "Name": "星落とし",
+    "Description": "<Block /><h>ブロック</h>を得る。"
+  },
+  "SanaeBlockMana": {
+    "Name": "貯蔵用スイートベリー",
+    "Description": "<Block /><h>ブロック</h>を得る。<br />余剰のマナは次の<PlayerName />のターンまで失われない。<br /><h>オーバードラフト</h><Value1 />。",
+    "UpgradedDescription": "<Block /><h>ブロック</h>を得る。<br />余剰のマナは次の<PlayerName />のターンまで失われない。"
+  },
+  "SanaeBlockRebuff": {
+    "Name": "護符投射",
+    "Description": "<Block /><h>ブロック</h>と<Block /><h>バリア</h>を得る。<br /><PlayerName />が<h>加護</h>を持っているならば、<h>加護</h><Value1 />を失い敵全体に<h>脱力</h><Value2 />を与える。"
+  },
+  "SanaeBlockShuffle": {
+    "Name": "占いの舞",
+    "Description": "山札をシャッフルするたび、<Value1 /><h>ブロック</h>を得る。<br />占術<Scry />。"
+  },
+  "SanaeBlockTalisman": {
+    "Name": "神社のセキュリティガード",
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>守矢の護符</h>を<Value1 />枚捨て札に加える。"
+  },
+  "SanaeBlockWard": {
+    "Name": "型破りな護り",
+    "Description": "<Block /><h>ブロック</h>を<Value1 />回得る。<br /><h>庇護</h><Value2 />を<Value1 />回得る。"
+  },
+  "SanaeColorRandom": {
+    "Name": "太陽光スペクトル",
+    "Description": "<Value1 />枚のランダムなカードから1枚選び、手札に加える。それは<h>臨時コスト</h><Mana0 />となり、<h>廃棄</h>と<h>虚無</h>を持つ。<br />これらのカードは<Mana />からそれぞれ選ばれる。"
+  },
+  "SanaeCuriousAbility": {
+    "Name": "時代遅れの外来人",
+    "Description": "能力カードを使用するたび、<h>火力</h><Value1 />を得る。"
+  },
+  "SanaeDazzleDash": {
+    "Name": "輝く線香花火",
+    "Description": "<h>火力</h><Value1 />を得る。<br /><Power /><Value2 />を得る。<br /><h>手札効果</h>：スペルカードを使用するたび、<SelfName />の効果量はターン終了時まで2倍になる。"
+  },
+  "SanaeDrawAbility": {
+    "Name": "諏訪湖の二柱半の神様",
+    "Description": "カードを<Value1 />枚引く。<br />能力カードを引いた場合、それの<h>臨時コスト</h>を<Mana />減らす。",
+    "UpgradedDescription": "カードを<Value1 />枚引く。<br />能力カードを引いた場合、それの<h>臨時コスト</h>をランダムに<Value2 />つ減らす。"
+  },
+  "SanaeDrawDebuff": {
+    "Name": "動乱の都会の杖",
+    "Description": "<h>手札効果</h>：ドローフェイズ以外でカードを引くたび、<Mana />を得る。<br /><h>廃棄した時</h>：ライフを<Value2 />失う。このターン、追加でカードを引くことができない。",
+    "UpgradedDescription": "<h>手札効果</h>：ドローフェイズ以外でカードを引くたび、ランダムなマナ<Value1 />つを得る。<br /><h>廃棄した時</h>：ライフを<Value2 />失う。このターン、追加でカードを引くことができない。"
+  },
+  "SanaeDrawDiscard": {
+    "Name": "水上歩行",
+    "Description": "カードを<Value1 />枚引く。<br />ランダムな手札<Value2 />枚を捨ててもよい。そうした場合、カードを<Value2 />枚引く。"
+  },
+  "SanaeDrawOrder": {
+    "Name": "貝殻交換",
+    "Description": "山札の上から<Value1 />枚のカードを見て、1枚選んで山札の1番上に移動させる。<br />移動させたのがスキルカードの場合、カードを<Value2 />枚引く。<br /><Mana />を得る。",
+    "UpgradedDescription": "山札の上から<Value1 />枚のカードを見て、1枚選んで山札の1番上に移動させる。<br />移動させたのがスキルカードの場合、カードを<Value2 />枚引く。<br /><Mana />を得る。<br />カードを<Value2 />枚引く。"
+  },
+  "SanaeDrawSplash": {
+    "Name": "モーゼの奇跡",
+    "Description": "カードを<Value1 />枚引く。<br />手札にあるスキルカードを全て捨て、捨てた枚数と同じ数の<h>水沫</h>を手札に加える。それらは<h>自動廃棄</h>を持つ。"
+  },
+  "SanaeDrawTalisman": {
+    "Name": "積み込み",
+    "Description": "<h>守矢の護符</h>を<Value1 />枚山札の一番上に置く。<br />カードを<Value2 />枚引く。"
+  },
+  "SanaeDrawTemp": {
+    "Name": "スクールサイエンスフェア",
+    "Description": "カードを<Value1 />枚引く。<br /><PlayerName />のターン開始時、カードを<Value1 />枚引く。この効果でスキル以外のカードを引いた場合、それを捨てる。"
+  },
+  "SanaeDrawWard": {
+    "Name": "ワイルドカード",
+    "Description": "<h>庇護</h><Value1 />を得る。<br />カードを<Value2 />枚引く。"
+  },
+  "SanaeExileDamage": {
+    "Name": "三色のエーデルワイス",
+    "Description": "状態異常カードまたは<h>自動廃棄</h>を持つカードが廃棄されるたび、ランダムな敵に<Value1 />ダメージを与える。",
+    "UpgradedDescription": "状態異常カードまたは<h>自動廃棄</h>を持つカードが廃棄されるたび、ランダムな敵に<Value1 />ダメージを与える。<br /><h>守矢の護符</h>を<Value2 />枚手札に加える。"
+  },
+  "SanaeExilePower": {
+    "Name": "広がる御香",
+    "Description": "<Shield /><h>バリア</h>を得る。<br />山札、捨て札から最大X枚のカードを<h>廃棄</h>する。",
+    "UpgradedDescription": "<Shield /><h>バリア</h>を得る。<br />山札、捨て札から最大X枚のカードを<h>廃棄</h>する。<br /><h>廃棄</h>した枚数と同じ数の<h>守矢の護符</h>を捨て札に加える。"
+  },
+  "SanaeGrazeAmulet": {
+    "Name": "風の祝福",
+    "Description": "<h>グレイズ</h><Value1 />を得る。<br /><h>加護</h><Value2 />を得る。"
+  },
+  "SanaeGrazeWard": {
+    "Name": "神風の盾",
+    "Description": "<PlayerName />が攻撃を<h>グレイズ</h>するたび、<h>庇護</h><Value1 />を得る。<br /><h>グレイズ</h><Value2 />を得る。"
+  },
+  "SanaeHisouHead": {
+    "Name": "未確認巨大ロボ、非想天則",
+    "Description": "全ての<h>未確認巨大ロボ</h>カードが手札にある場合、<h>未確認巨大ロボ</h>カードを全て<h>廃棄</h>し、全ての敵を即死させる。<br />上記を満たしていない場合、<Value1 />枚の<h>未確認巨大ロボ</h>カードから1枚を選んで手札に加え、<PlayerName />のターンを終了する。<br /><h>充填</h>：<Mana />を得る。",
+    "UpgradedDescription": "全ての<h>未確認巨大ロボ</h>カードが手札にある場合、<h>未確認巨大ロボ</h>カードを全て<h>廃棄</h>し、全ての敵を即死させる。<br />上記を満たしていない場合、<Value1 />枚のアップグレード済みの<h>未確認巨大ロボ</h>カードから1枚を選んで手札に加え、<PlayerName />のターンを終了する。<br /><h>充填</h>：<Mana />を得る。"
+  },
+  "SanaeHisouLeftArm": {
+    "Name": "未確認巨大ロボの左腕",
+    "Description": "<h>ターン終了時</h>：<h>星の煌めき</h>を<Value1 />枚捨て札に加える。"
+  },
+  "SanaeHisouLeftLeg": {
+    "Name": "未確認巨大ロボの左足",
+    "Description": "<h>ターン終了時</h>：<h>脆弱化</h><Value1 />を得る。",
+    "UpgradedDescription": "<h>ターン終了時</h>：<h>脱力</h><Value1 />を得る。"
+  },
+  "SanaeHisouRightArm": {
+    "Name": "未確認巨大ロボの右腕",
+    "Description": "<h>ターン終了時</h>：<Value1 />ダメージを受ける。"
+  },
+  "SanaeHisouRightLeg": {
+    "Name": "未確認巨大ロボの右足",
+    "Description": "<h>ターン終了時</h>：<h>オーバードラフト</h><Value1 />。"
+  },
+  "SanaeKanakoFriend": {
+    "Name": "神風の支配者、神奈子",
+    "PassiveDescription": "最もライフが多い敵に<Damage />ダメージを与える。",
+    "UpgradedPassiveDescription": "最もライフが多い敵に<Damage />ダメージを与える。"
+  },
+  "SanaeLifeAmulet": {
+    "Name": "守護の儀式",
+    "Description": "ライフを<Value1 />失う。<br /><Shield /><h>バリア</h>を得る。<br /><h>加護</h><Value2 />を得る。"
+  },
+  "SanaeLifeStatus": {
+    "Name": "ピョン太ハットトリック",
+    "Description": "最大ライフ<Value1 />を得る。<br />手札、山札、捨て札にあるランダムな<Value2 />枚のカードを<h>カエル</h>に変化させる。"
+  },
+  "SanaeManaRandom": {
+    "Name": "ファフロッキーズの奇跡",
+    "Description": "ランダムな<Value1 />枚の総コストが4以下のカードを手札に加える。<br />それらはコストが<Mana />となり、<h>虚無</h>を持つ。",
+    "UpgradedDescription": "ランダムな<Value1 />枚の総コストが4以下の<h>アップグレード済み</h>カードを手札に加える。<br />それらはコストが<Mana />となり、<h>虚無</h>を持つ。"
+  },
+  "SanaeManaShuffle": {
+    "Name": "飲用池水",
+    "Description": "<h>廃棄した時</h>：<Mana />を得る。<br />山札がシャッフルされるたび、<SelfName />を<h>廃棄場</h>から手札に戻す。"
+  },
+  "SanaeManaSynergy": {
+    "Name": "ミラクルフルーツ",
+    "Description": "<h><ManaW />につき</h>：<ManaU /><ManaG />を得る。 <br /><h><ManaU />につき</h>：<ManaW /><ManaG />を得る。<br /><h>オーバードラフト</h><Value1 />。",
+    "UpgradedDescription": "<h><ManaW />につき</h>：<ManaU /><ManaG />を得る。 <br /><h><ManaU />につき</h>：<ManaW /><ManaG />を得る。 <br /><h><ManaG />につき</h>：<ManaW /><ManaU />を得る。<br /><h>オーバードラフト</h><Value1 />。"
+  },
+  "SanaeManaTemp": {
+    "Name": "青蛇の髪飾り",
+    "Description": "<h>臨時霊力</h><Value1 />を得る。<br />手札が<Value3 />枚以上あるならば、<h>臨時霊力</h><Value2 />を<h>霊力</h>に変換しカードを<Value2 />枚引く。"
+  },
+  "SanaeManaTurbo": {
+    "Name": "月明かりの湖",
+    "Description": "<Mana />を得る。<br /><h>月の静寂</h>を<Value1 />枚捨て札に加える。"
+  },
+  "SanaeMiracleAbility": {
+    "Name": "ミラクルペンタクル",
+    "Description": "ランダムなアンコモン能力カード<Value1 />枚から1枚を選んで手札に加える。それは<h>臨時コスト</h><Mana />となり、<h>反復</h>と<h>虚無</h>を持つ。",
+    "UpgradedDescription": "ランダムなレア能力カード<Value1 />枚とアンコモン能力カード<Value1 />枚から1枚を選んで手札に加える。それは<h>臨時コスト</h><Mana />となり、<h>反復</h>と<h>虚無</h>を持つ。"
+  },
+  "SanaeMoneyWard": {
+    "Name": "商売繁盛守り",
+    "Description": "<h>庇護</h><Value1 />を得る。<br /><Money /><Value2 />を得る。<br />ランダムなマナを<Value3 />つ得る。"
+  },
+  "SanaeOrderShuffle": {
+    "Name": "断片的な洞察",
+    "Description": "山札を見た時、実際のカードの並び順通りに表示される。<br />スキルでないカードを使用するたび、<Mana />を得て、捨て札を山札に加え、山札をシャッフルする。"
+  },
+  "SanaePowerOmikuji": {
+    "Name": "御神籤ボーナス",
+    "Description": "<PlayerName />が<Power />を持っているならば、<Power /><Value1 />を失って<PlayerName />のスペルカードのダメージを<Value2 />増やす。"
+  },
+  "SanaePowerPotato": {
+    "Name": "現代の娯楽",
+    "Description": "戦闘終了時、<Power /><Value1 />を得る。"
+  },
+  "SanaePowerTemp": {
+    "Name": "力試し",
+    "Description": "<h>火力</h><Value1 />を得る。<br /><Power /><Value1 />を得る。<br /><PlayerName />の次のターン開始時、<h>火力</h><Value1 />を失う。"
+  },
+  "SanaeReimuAbility": {
+    "Name": "神社対決",
+    "Description": "ランダムな霊夢専用のレア能力カード<Value1 />枚から1枚を選んで手札に加える。それは<h>臨時コスト</h><Mana />となり、<h>虚無</h>を持つ。<br /><h>オーバードラフト</h><Value2 />。"
+  },
+  "SanaeScryPower": {
+    "Name": "先見の明",
+    "Description": "占術<Scry />。<br /><h>初見</h>：<Power /><Value1 />を得る。",
+    "UpgradedDescription": "占術<Scry />。<br /><h>初見</h>：<Power /><Value1 />を得る。戦闘終了まで<SelfName />のコストを<Mana />減らす。"
+  },
+  "SanaeScryReturn": {
+    "Name": "白夜の輝き",
+    "Description": "占術<Scry />。<br />山札が空の場合、捨て札からカードを1枚選んで手札に戻す。"
+  },
+  "SanaeScryShuffle": {
+    "Name": "未来予知",
+    "Description": "捨て札を山札に加え、山札をシャッフルする。<br />占術<Scry />。"
+  },
+  "SanaeSpellDamage": {
+    "Name": "グリーンソーマタージ",
+    "Description": "ライフを<Value1 />回復する。<br />スペルカードを使用するたび、ランダムな敵に<Value3 />の攻撃ダメージを<Value2 />回与える。"
+  },
+  "SanaeSpellMana": {
+    "Name": "インターネット陰謀論",
+    "Description": "スペルカードを使用するたび、<Mana />を得る。<br />このターンを終了し、次の自分のターンを開始する。<br /><h>時間制限</h><Mana1 />。",
+    "UpgradedDescription": "<Power /><Value2 />を得る。<br />スペルカードを使用するたび、<Mana />を得る。<br />このターンを終了し、次の自分のターンを開始する。<br /><h>時間制限</h><Mana1 />。"
+  },
+  "SanaeSpellPower": {
+    "Name": "儚き信仰",
+    "Description": "ライフを<Value1 />失う。<br /><Power /><Value2 />を得る。<br />次の<PlayerName />のターン開始時、<Power /><Value3 />を失う。"
+  },
+  "SanaeSpiritDebuff": {
+    "Name": "せっかちな祈祷者",
+    "Description": "<h>霊力</h><Value1 />を得る。<br /><PlayerName />のターン開始時、<h>霊力</h><Value2 />を失う。"
+  },
+  "SanaeSpiritMana": {
+    "Name": "召喚術の練習",
+    "Description": "2ターン後の<PlayerName />のターン開始時：<h>霊力</h><Value1 />を得て、<h>光明</h>を1枚手札に加える。",
+    "UpgradedDescription": "次の<PlayerName />のターン開始時：<h>霊力</h><Value1 />を得て、<h>光明</h>を1枚手札に加える。"
+  },
+  "SanaeSpiritShuffle": {
+    "Name": "霊魂捜索",
+    "Description": "<h>臨時霊力</h><Value1 />を得る。<br />捨て札を山札に加え、山札をシャッフルする。<br />カードを<Value2 />枚引く。"
+  },
+  "SanaeSpiritTalisman": {
+    "Name": "Kouan Era Kochiya (old)",
+    "Description": "Gain <Value1 /> <h>Spirit</h>.<br /><h>Choose</h>: Gain <Value2 /> <h>Ward</h>, or add <Value3 /> <h>Moriya Talismans</h> to the hand."
+  },
+  "SanaeStarterU": {
+    "Name": "無謀な退治者",
+    "Description": "<Damage />ダメージを<Value1 />回与える。<br /><SelfName />で敵を倒した場合、<Power /><Value2 />を得る。<br />この効果は戦闘ごとに1回しか発動しない。"
+  },
+  "SanaeStarterW": {
+    "Name": "二重衝撃",
+    "Description": "<Damage />ダメージを与える。<br /><h>眩輝</h>を1枚手札に加えてもよい。そうした場合、代わりに<Value1 />ダメージを<Value2 />回与える。"
+  },
+  "SanaeStatus": {
+    "Name": "守矢の護符",
+    "Description": "<h>廃棄した時</h>：<Block /><h>ブロック</h>を得る。<Block /><h>バリア</h>を得る。"
+  },
+  "SanaeStatusSynergy": {
+    "Name": "烈日の儀式",
+    "Description": "<Mana />を得る。<br /><h>日の照射</h>を<Value1 />枚山札に加える。<br /><h>火力</h><Value2 />を得る。"
+  },
+  "SanaeStatusTalisman": {
+    "Name": "手作り護符",
+    "Description": "<PlayerName />のターン終了時、<h>守矢の護符</h>を<Value1 />枚捨て札に加える。"
+  },
+  "SanaeSuwakoFriend": {
+    "Name": "狡猾なカエルラバー、諏訪子",
+    "PassiveDescription": "<h>残留思念</h>を<Value1 />枚山札に加える。",
+    "ActiveDescription": "ランダムなアンコモンの能力カード1枚を手札に加える。それは<h>臨時コスト</h><Mana />となり、<h>虚無</h>を持つ。"
+  },
+  "SanaeToolNews": {
+    "Name": "山頂の会議",
+    "Description": "<h>チョイス</h>：ランダムなレアでない河童の<h>道具</h>カードを<Value1 />枚手札に加える、もしくはランダムな天狗の<h>道具</h>カードを<Value2 />枚手札に加える。<br />それらは<h>複製</h>、<h>自動廃棄</h>、<h>消耗品1</h>を持つ。"
+  },
+  "SanaeUpgradeWard": {
+    "Name": "レイラインスポットライト",
+    "Description": "ランダムな手札<Value1 />枚をアップグレードする。<br />この効果でカードをアップグレードできなかった場合、<h>庇護</h><Value2 />を得る。<br /><h>充填</h>：<Mana />を得る。"
+  },
+  "SanaeWardAmulet": {
+    "Name": "徽章交換",
+    "Description": "<h>庇護</h><Value1 />を得る。<br /><PlayerName />が<h>加護</h>を持っているならば、代わりに<h>加護</h><Value3 />を失い<h>庇護</h><Value2 />を得る。"
+  },
+  "SanaeWardReflect": {
+    "Name": "封印反動",
+    "Description": "<h>庇護</h><Value1 />を得る。<br /><h>反射</h><Value2 />を得る。"
+  },
+  "SanaeWardTalisman": {
+    "Name": "事前詠唱",
+    "Description": "<PlayerName />が<h>庇護</h>を得るたび、同じ数の<Power />を得る。<br />スペルカードを使用するたび、<h>守矢の護符</h>を<Value1 />枚捨て札に加える。"
+  },
+  "SanaeWineSplash": {
+    "Name": "水とワイン",
+    "Description": "<h>ちょい飲み</h>と<h>水沫</h>を1枚ずつ手札に加える。",
+    "UpgradedDescription": "<h>ちょい飲み+</h>と<h>水沫+</h>を1枚ずつ手札に加える。"
+  },
+
   "AblativeArmor": {
     "Name": "高温蒸気アーマー",
     "Description": "<Block /><h>ブロック</h>を得る。<br />手札にある<h>質量体</h>を全て<h>廃棄</h>し、<h>廃棄</h>したカード1枚につき<Value1 /><h>バリア</h>を得る。"
@@ -299,6 +663,7 @@
     "Name": "零点フィールド",
     "Description": "<h>質量体</h><br /><h>牽引された時</h>：<Shield /><h>バリア</h>を得て、<h>虚無</h>を持つ<SelfName />のコピーを1枚手札に加える。"
   },
+
   "YoumuAgelessObsession": {
     "Name": "一念無量劫",
     "Description": "すべての敵に<h>ロックオン</h><Value1 />を与える。<br />対象が受けるロックオンが倍になる。"

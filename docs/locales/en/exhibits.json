@@ -1,4 +1,25 @@
 {
+  "SanaeClayVolcano": {
+    "Name": "Clay Volcano",
+    "Description": "Whenever the draw pile is shuffled, gain <Value1 /> <h>Temporary Spirit</h>."
+  },
+  "SanaeExhibitU": {
+    "Name": "Snakespiral Accessory",
+    "Description": "Adds <Mana /> to the mana base. Cards unique to <h>Sanae</h> are added to the card pool.<br />After <PlayerName /> activates her <h>Spell Card</h>, gain <Value1 /> <h>Block</h>."
+  },
+  "SanaeExhibitW": {
+    "Name": "Froggish Hairclip",
+    "Description": "Adds <Mana /> to the mana base. Cards unique to <h>Sanae</h> are added to the card pool.<br />At the start of the first turn each combat, gain <Value1 /> <h>Ward</h>."
+  },
+  "SanaeExpiredCoupon": {
+    "Name": "Expired Coupon",
+    "Description": "After <PlayerName /> activates her <h>Spell Card</h> for the first time each combat, gain <Value1 /> <Power />."
+  },
+  "SanaeLibraryCard": {
+    "Name": "Library Card",
+    "Description": "At the start of <PlayerName />'s turn, if no attack cards were played last turn, gain <Value1 /> <h>Ward</h>."
+  },
+
   "BlackSun": {
     "Name": "Black Sun",
     "Description": "Adds <Mana /> to the mana base. Cards unique to <h>Utsuho</h> are added to the card pool. When the Draw pile is shuffled, deal <Value1 /> damage to each enemy for each card in the Discard pile."
@@ -7,6 +28,7 @@
     "Name": "Control Rod",
     "Description": "Adds <Mana /> to the mana base. Cards unique to <h>Utsuho</h> are added to the card pool. Whenever a card is played, gain 1 <h>Heat</h>."
   },
+
   "YoumuExhibitG": {
     "Name": "Honed Roukanken",
     "Description": "Adds <Mana /> to the mana base. Cards unique to <h>Youmu</h> are added to the card pool.<br />At the start of combat, apply <Value1 /> <h>Lock On</h> to each enemy.<br />Enemies do not lose <h>Lock on</h> at the start of each turn."

@@ -1,4 +1,14 @@
 {
+  "SanaeOrderShuffleSe": {
+    "Mana": "P"
+  },
+  "SanaeSpellManaGreenSe": {
+    "Mana": "GC"
+  },
+  "SanaeSpellManaPhiloSe": {
+    "Mana": "GP"
+  },
+
   "TurboFuelStatus": {
     "manatype": "P"
   },

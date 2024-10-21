@@ -3,6 +3,371 @@
     "-s": "",
     "-s_other": "s"
   },
+
+  "SanaeAmuletDebuff": {
+    "Name": "Kouan Era Kochiya",
+    "Description": "<h>Choose</h> one or more:<br />- Gain <Value1 /> <h>Firepower</h> and <h>Weak</h>.<br />- Gain <Value1 /> <h>Spirit</h> and <h>Frail</h>.<br />- Gain <Value1 /> maximum life, <h>Vulnerable</h> and <h>Poison</h>."
+  },
+  "SanaeAmuletDebuffFrail": {
+    "Name": "Defense",
+    "Description": "Gain <Value1 /> <h>Spirit</h> and <h>Frail</h>."
+  },
+  "SanaeAmuletDebuffVuln": {
+    "Name": "Support",
+    "Description": "Gain <Value1 /> maximum life, <h>Vulnerable</h> and <h>Poison</h>."
+  },
+  "SanaeAmuletDebuffWeak": {
+    "Name": "Offense",
+    "Description": "Gain <Value1 /> <h>Firepower</h> and <h>Weak</h>."
+  },
+  "SanaeAmuletTalisman": {
+    "Name": "Secretly Inherited Arts",
+    "Description": "Gain <Value1 /> <Power />.<br />Add <Value2 /> <h>Moriya Talismans</h> to the draw pile.<br />For each <h>Amulet</h> <PlayerName /> has, <SelfName /> costs <Mana /> less to play."
+  },
+  "SanaeAttackAmulet": {
+    "Name": "Gohei Whack",
+    "Description": "Deal <Damage /> damage.<br />If <PlayerName /> doesn't have <h>Amulet</h>, gain <Value1 /> <h>Amulet</h>."
+  },
+  "SanaeAttackBlock": {
+    "Name": "Magic Burst",
+    "Description": "Lose all <h>Block</h> and deal that much damage to each enemy.<br />Gain <Block /> <h>Block</h>.<br />End the Player's turn."
+  },
+  "SanaeAttackCopy": {
+    "Name": "Ripple Effect",
+    "Description": "Deal <Damage /> damage.<br />Add a <h>Copy</h> of this card to the top of the draw pile. It has <h>Exile</h>."
+  },
+  "SanaeAttackDebuff": {
+    "Name": "Thresh of Mishaguji",
+    "Description": "Deal <Damage /> damage to each enemy.<br />Apply <Value1 /> <h>Weak</h> and <h>Vulnerable</h> to each enemy."
+  },
+  "SanaeAttackExpel": {
+    "Name": "Cobalt Spreadshot",
+    "Description": "Deal <Damage /> damage to each enemy.<br /><h>Expel</h>: Gain <Value1 /> <Power />."
+  },
+  "SanaeAttackGraze": {
+    "Name": "Sharp Breeze",
+    "Description": "Deal <Damage /> damage to <Value1 /> different random enemies.<br />For each enemy that was attacked, gain <Mana />."
+  },
+  "SanaeAttackOrder": {
+    "Name": "Surge Transect",
+    "Description": "Deal <Damage /> damage.<br />Add a <h>Copy</h> of the card on top of the draw pile to the hand. It <h>temporarily costs</h> <Mana0 /> and has <h>Exile</h>.",
+    "UpgradedDescription": "Deal <Damage /> damage.<br />Gain <Mana />.<br />Add a <h>Copy</h> of the card on top of the draw pile to the hand. It <h>temporarily costs</h> <Mana0 /> and has <h>Exile</h>."
+  },
+  "SanaeAttackOverdraft": {
+    "Name": "Five-Point Prism",
+    "Description": "Deal <Damage /> damage.<br />You may gain <Block /> <h>Block</h>. If you do, <h>Overdraft</h> <Value1 />."
+  },
+  "SanaeAttackPower": {
+    "Name": "Youkai Power Spoiler",
+    "Description": "Deal <Damage /> damage.<br />Gain <Power /> equal to the amount of unblocked damage dealt this way."
+  },
+  "SanaeAttackRandom": {
+    "Name": "Purifying Mist",
+    "Description": "Deal <Damage /> damage to a random enemy <Value1 /> times.<br />You may add <Value2 /> <h>Pure Radiances</h> to the top of the draw pile. If you do, gain <Mana />."
+  },
+  "SanaeAttackRebuff": {
+    "Name": "Rain of Grains",
+    "Description": "Deal <Damage /> damage to each enemy.<br />If any enemy intends to debuff, gain <Value1 /> <h>Amulet</h>."
+  },
+  "SanaeAttackSpirit": {
+    "Name": "Prayer Stance",
+    "Description": "Deal <Damage /> damage.<br />Gain <Value1 /> <h>Temporary Spirit</h>."
+  },
+  "SanaeAttackStatus": {
+    "Name": "Flash Floodlight",
+    "Description": "Deal <Damage /> damage to each enemy.<br />Add a <h>Glamorous Starlight</h> to the hand."
+  },
+  "SanaeAttackTwice": {
+    "Name": "Forgotten Esoterica",
+    "Description": "Deal <Damage /> damage.<br />If <PlayerName /> has <h>Amulet</h>, lose <Value1 /> <h>Amulet</h> and deal that much damage twice instead.<br />Otherwise, gain <Value2 /> <h>Amulet</h>."
+  },
+  "SanaeAttackU": {
+    "Name": "Wave Calling",
+    "Description": "Deal <Damage /> damage."
+  },
+  "SanaeAttackW": {
+    "Name": "Wind Calling",
+    "Description": "Deal <Damage /> damage."
+  },
+  "SanaeAttackWeak": {
+    "Name": "Whirlpool Eyes",
+    "Description": "Apply <Value1 /> <h>Weak</h>.<br />Then, deal <Damage /> damage to each other enemy."
+  },
+  "SanaeBlockDiscard": {
+    "Name": "Rain Catcher",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Discard a card.",
+    "UpgradedDescription": "Gain <Block /> <h>Block</h>.<br />Discard up to one card."
+  },
+  "SanaeBlockG": {
+    "Name": "Star Falling",
+    "Description": "Gain <Block /> <h>Block</h>."
+  },
+  "SanaeBlockMana": {
+    "Name": "Sweet Berry Preserve",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Unspent mana isn't lost until the start of <PlayerName />'s next turn.<br /><h>Overdraft</h> <Value1 />.",
+    "UpgradedDescription": "Gain <Block /> <h>Block</h>.<br />Unspent mana isn't lost until the start of <PlayerName />'s next turn."
+  },
+  "SanaeBlockRebuff": {
+    "Name": "Charm Casting",
+    "Description": "Gain <Block /> <h>Block</h> and <h>Barrier</h>.<br />If <PlayerName /> has <h>Amulet</h>, lose <Value1 /> <h>Amulet</h> and apply <Value2 /> <h>Weak</h> to each enemy."
+  },
+  "SanaeBlockShuffle": {
+    "Name": "Divining Dance",
+    "Description": "Whenever the draw pile is shuffled, gain <Value1 /> <h>Block</h>.<br />Scry <Scry />."
+  },
+  "SanaeBlockTalisman": {
+    "Name": "Shrine Safeguard",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Add <Value1 /> <h>Moriya Talisman$t(plurals.-s, { 'count': {{Value1}} })</h> to the discard pile."
+  },
+  "SanaeBlockWard": {
+    "Name": "Unorthodox Defending",
+    "Description": "Gain <Block /> <h>Block</h> <Value1 /> times.<br />Gain <Value2 /> <h>Ward</h> <Value1 /> times."
+  },
+  "SanaeColorRandom": {
+    "Name": "Spectral Sunshowers",
+    "Description": "Choose 1 of <Value1 /> random cards to add to the hand. It <h>temporarily costs</h> <Mana0 /> and has <h>Exile</h> and <h>Ethereal</h>.<br />These cards have colors of <Mana /> respectively."
+  },
+  "SanaeCuriousAbility": {
+    "Name": "Outdated Outsider",
+    "Description": "Whenever an Ability card is played, gain <Value1 /> <h>Firepower</h>."
+  },
+  "SanaeDazzleDash": {
+    "Name": "Super Sparkler",
+    "Description": "Gain <Value1 /> <h>Firepower</h>.<br />Gain <Value2 /> <Power />.<br /><h>While in hand</h>: Whenever the Spell Card is activated, <SelfName />'s effects are doubled until end of turn."
+  },
+  "SanaeDrawAbility": {
+    "Name": "Two-and-a-half Gods of Lake Suwa",
+    "Description": "Draw <Value1 /> cards.<br />If an Ability card was drawn this way, it <h>temporarily costs</h> <Mana /> less.",
+    "UpgradedDescription": "Draw <Value1 /> cards.<br />If an Ability card was drawn this way, it <h>temporarily costs</h> <Value2 /> random mana less."
+  },
+  "SanaeDrawDebuff": {
+    "Name": "Turbulent Urban Wand",
+    "Description": "<h>While in hand</h>: Whenever a card is drawn outside of the draw step, gain <Mana />.<br /><h>When Exiled</h>: Lose <Value2 /> life. No more cards can be drawn this turn.",
+    "UpgradedDescription": "<h>While in hand</h>: Whenever a card is drawn outside of the draw step, gain <Value1 /> random mana.<br /><h>When Exiled</h>: Lose <Value2 /> life. No more cards can be drawn this turn."
+  },
+  "SanaeDrawDiscard": {
+    "Name": "Water Walking",
+    "Description": "Draw <Value1 /> cards.<br />You may discard <Value2 /> random cards. If you do, draw <Value2 /> cards."
+  },
+  "SanaeDrawOrder": {
+    "Name": "Seashell Swapping",
+    "Description": "Look at the top <Value1 /> cards of the draw pile. Choose one of them to move to the top of the draw pile.<br />If the card is a skill, draw <Value2 /> card.<br />Gain <Mana />.",
+    "UpgradedDescription": "Look at the top <Value1 /> cards of the draw pile. Choose one of them to move to the top of the draw pile.<br />If the card is a skill, draw <Value2 /> card.<br />Gain <Mana />.<br />Draw <Value2 /> card."
+  },
+  "SanaeDrawSplash": {
+    "Name": "Moses's Miracle",
+    "Description": "Draw <Value1 /> cards.<br />Discard all skill cards from the hand and add that many <h>Splashes</h> to the hand. They have <h>Auto-Exile</h>."
+  },
+  "SanaeDrawTalisman": {
+    "Name": "Stack Underdraw",
+    "Description": "Add <Value1 /> <h>Moriya Talismans</h> to the top of the draw pile.<br />Draw <Value2 /> card."
+  },
+  "SanaeDrawTemp": {
+    "Name": "School Science Fair",
+    "Description": "Draw <Value1 /> cards.<br />At the start of <PlayerName />'s turn, draw <Value1 /> cards. If a non-skill card was drawn this way, discard it."
+  },
+  "SanaeDrawWard": {
+    "Name": "Wildcard",
+    "Description": "Gain <Value1 /> <h>Ward</h>.<br />Draw <Value2 /> card."
+  },
+  "SanaeExileDamage": {
+    "Name": "Trichromatic Edelweiss",
+    "Description": "Whenever a status card or a card with <h>Auto-Exile</h> is <h>Exiled</h>, deal <Value1 /> damage to a random enemy.",
+    "UpgradedDescription": "Whenever a status card or a card with <h>Auto-Exile</h> is <h>Exiled</h>, deal <Value1 /> damage to a random enemy.<br />Add <Value2 /> <h>Moriya Talismans</h> to the hand."
+  },
+  "SanaeExilePower": {
+    "Name": "Incense Diffusion",
+    "Description": "Gain <Shield /> <h>Barrier</h>.<br /><h>Exile</h> up to X cards in the draw pile and/or discard pile.",
+    "UpgradedDescription": "Gain <Shield /> <h>Barrier</h>.<br /><h>Exile</h> up to X cards in the draw pile and/or discard pile.<br />Add that many <h>Moriya Talismans</h> to the discard pile."
+  },
+  "SanaeGrazeAmulet": {
+    "Name": "Wind's Blessing",
+    "Description": "Gain <Value1 /> <h>Graze</h>.<br />Gain <Value2 /> <h>Amulet</h>."
+  },
+  "SanaeGrazeWard": {
+    "Name": "God's Windshield",
+    "Description": "Whenever <PlayerName /> <h>Grazes</h> an attack, gain <Value1 /> <h>Ward</h>.<br />Gain <Value2 /> <h>Graze</h>."
+  },
+  "SanaeHisouHead": {
+    "Name": "Hisoutensoku, the Robotic Cryptid",
+    "Description": "If all <h>Robotic Cryptid</h> cards are in the hand, <h>Exile</h> all <h>Robotic Cryptid</h> cards and defeat all enemies.<br />If not, choose 1 of <Value1 /> <h>Robotic Cryptid</h> cards to add to the hand, then end <PlayerName />'s turn.<br /><h>Overflow</h>: Gain <Mana />.",
+    "UpgradedDescription": "If all <h>Robotic Cryptid</h> cards are in the hand, <h>Exile</h> all <h>Robotic Cryptid</h> cards and defeat all enemies.<br />If not, choose 1 of <Value1 /> upgraded <h>Robotic Cryptid</h> cards to add to the hand, then end <PlayerName />'s turn.<br /><h>Overflow</h>: Gain <Mana />."
+  },
+  "SanaeHisouLeftArm": {
+    "Name": "Left Arm of the Robotic Cryptid",
+    "Description": "<h>At the end of the turn</h>: Add <Value1 /> <h>Glamorous Starlight$t(plurals.-s, { 'count': {{Value1}} })</h> to the discard pile."
+  },
+  "SanaeHisouLeftLeg": {
+    "Name": "Left Leg of the Robotic Cryptid",
+    "Description": "<h>At the end of the turn</h>: Gain <Value1 /> <h>Frail</h>.",
+    "UpgradedDescription": "<h>At the end of the turn</h>: Gain <Value1 /> <h>Weak</h>."
+  },
+  "SanaeHisouRightArm": {
+    "Name": "Right Arm of the Robotic Cryptid",
+    "Description": "<h>At the end of the turn</h>: Take <Value1 /> damage."
+  },
+  "SanaeHisouRightLeg": {
+    "Name": "Right Leg of the Robotic Cryptid",
+    "Description": "<h>At the end of the turn</h>: <h>Overdraft</h> <Value1 />."
+  },
+  "SanaeKanakoFriend": {
+    "Name": "Kanako, Divine Wind Deity",
+    "PassiveDescription": "Deal <Damage /> attack damage to the enemy with the most life.",
+    "UpgradedPassiveDescription": "Deal <Damage /> attack damage to the enemy with the most life."
+  },
+  "SanaeLifeAmulet": {
+    "Name": "Rite of Protection",
+    "Description": "Lose <Value1 /> life.<br />Gain <Shield /> <h>Barrier</h>.<br />Gain <Value2 /> <h>Amulet</h>."
+  },
+  "SanaeLifeStatus": {
+    "Name": "Pyonta Hat Trick",
+    "Description": "Gain <Value1 /> maximum life.<br />Transform <Value2 /> random cards in the hand, draw pile and/or discard pile into <h>Frogs</h>."
+  },
+  "SanaeManaRandom": {
+    "Name": "Miracle of Fafrotskies",
+    "Description": "Add <Value1 /> random cards with a total cost of 4 or less to the hand.<br />These cards have <h>Ethereal</h> and cost <Mana />.",
+    "UpgradedDescription": "Add <Value1 /> random <h>Upgraded</h> cards with a total cost of 4 or less to the hand.<br />These cards have <h>Ethereal</h> and cost <Mana />."
+  },
+  "SanaeManaShuffle": {
+    "Name": "Potable Pondwater",
+    "Description": "<h>When Exiled</h>: Gain <Mana />.<br />When the draw pile is shuffled, return <SelfName /> from <h>Exile</h> to the hand."
+  },
+  "SanaeManaSynergy": {
+    "Name": "Miracle Fruit",
+    "Description": "<h>For each <ManaW /> spent</h>: Gain <ManaU /><ManaG />. <br /><h>For each <ManaU /> spent</h>: Gain <ManaW /><ManaG />.<br /><h>Overdraft</h> <Value1 />.",
+    "UpgradedDescription": "<h>For each <ManaW /> spent</h>: Gain <ManaU /><ManaG />. <br /><h>For each <ManaU /> spent</h>: Gain <ManaW /><ManaG />. <br /><h>For each <ManaG /> spent</h>: Gain <ManaW /><ManaU />.<br /><h>Overdraft</h> <Value1 />."
+  },
+  "SanaeManaTemp": {
+    "Name": "Cyan Snake-Binding",
+    "Description": "Gain <Value1 /> <h>Temporary Spirit</h>.<br />If there's at least <Value3 /> cards in the hand, convert <Value2 /> <h>Temporary Spirit</h> into <h>Spirit</h> and draw <Value2 /> cards."
+  },
+  "SanaeManaTurbo": {
+    "Name": "Moonlit Lake",
+    "Description": "Gain <Mana />.<br />Add <Value1 /> <h>Quiet Moonlight$t(plurals.-s, { 'count': {{Value1}} })</h> to the discard pile."
+  },
+  "SanaeMiracleAbility": {
+    "Name": "Miracle Pentacle",
+    "Description": "Choose 1 of <Value1 /> uncommon Ability cards to add to the hand. It <h>temporarily costs</h> <Mana /> and has <h>Echo</h> and <h>Ethereal</h>.",
+    "UpgradedDescription": "Choose 1 of <Value1 /> rare Ability cards or 1 of <Value1 /> uncommon Ability cards to add to the hand. It <h>temporarily costs</h> <Mana /> and has <h>Echo</h> and <h>Ethereal</h>."
+  },
+  "SanaeMoneyWard": {
+    "Name": "Charm of Good Commerce",
+    "Description": "Gain <Value1 /> <h>Ward</h>.<br />Gain <Value2 /> <Money />.<br />Gain <Value3 /> random mana."
+  },
+  "SanaeOrderShuffle": {
+    "Name": "Fragmental Insight",
+    "Description": "The draw pile can now be viewed in actual order.<br />Whenever a non-skill card is played, gain <Mana /> and shuffle the discard pile into the draw pile."
+  },
+  "SanaePowerOmikuji": {
+    "Name": "Omikuji Bonus",
+    "Description": "If <PlayerName /> has <Power />, lose <Value1 /> <Power /> and increase <PlayerName />'s Spell Card damage by <Value2 />."
+  },
+  "SanaePowerPotato": {
+    "Name": "Modern-Age Entertainment",
+    "Description": "At the end of combat, gain <Value1 /> <Power />."
+  },
+  "SanaePowerTemp": {
+    "Name": "Strength Testing",
+    "Description": "Gain <Value1 /> <h>Firepower</h>.<br />Gain <Value1 /> <Power />.<br />At the start of <PlayerName />'s next turn, lose <Value1 /> <h>Firepower</h>."
+  },
+  "SanaeReimuAbility": {
+    "Name": "Shrine Rivalry",
+    "Description": "Choose 1 of <Value1 /> random Reimu rare Ability cards to add to the hand. It <h>temporarily costs</h> <Mana /> and has <h>Ethereal</h>.<br /><h>Overdraft</h> <Value2 />."
+  },
+  "SanaeScryPower": {
+    "Name": "Sleight Foresight",
+    "Description": "Scry <Scry />.<br /><h>Debut</h>: Gain <Value1 /> <Power />.",
+    "UpgradedDescription": "Scry <Scry />.<br /><h>Debut</h>: Gain <Value1 /> <Power />. <SelfName /> costs <Mana /> less this combat."
+  },
+  "SanaeScryReturn": {
+    "Name": "Overnight Brightness",
+    "Description": "Scry <Scry />.<br />If the draw pile is empty, return a card from the discard pile to the hand."
+  },
+  "SanaeScryShuffle": {
+    "Name": "Future Forecast",
+    "Description": "Shuffle the discard pile into the draw pile.<br />Scry <Scry />."
+  },
+  "SanaeSpellDamage": {
+    "Name": "Green Thaumaturgy",
+    "Description": "Gain <Value1 /> life.<br />Whenever the Spell Card is activated, deal <Value3 /> attack damage to a random enemy <Value2 /> times."
+  },
+  "SanaeSpellMana": {
+    "Name": "Network Conspiracy",
+    "Description": "Whenever the Spell Card is activated, gain <Mana />.<br />End <PlayerName />'s turn. Then, take an extra turn.<br /><h>Time Limit</h> <Mana1 />.",
+    "UpgradedDescription": "Gain <Value2 /> <Power />.<br />Whenever the Spell Card is activated, gain <Mana />.<br />End <PlayerName />'s turn. Then, take an extra turn.<br /><h>Time Limit</h> <Mana1 />."
+  },
+  "SanaeSpellPower": {
+    "Name": "Transient Faith",
+    "Description": "Lose <Value1 /> life.<br />Gain <Value2 /> <Power />.<br />At the start of <PlayerName />'s next turn, lose <Value3 /> <Power />."
+  },
+  "SanaeSpiritDebuff": {
+    "Name": "Hasty Prayers",
+    "Description": "Gain <Value1 /> <h>Spirit</h>.<br />At the start of <PlayerName />'s turn, lose <Value2 /> <h>Spirit</h>."
+  },
+  "SanaeSpiritMana": {
+    "Name": "Summoner Practice",
+    "Description": "At the start of <PlayerName />'s second turn after <SelfName /> was played, gain <Value1 /> <h>Spirit</h> and add a <h>Radiance</h> to the hand.",
+    "UpgradedDescription": "At the start of <PlayerName />'s next turn, gain <Value1 /> <h>Spirit</h> and add a <h>Radiance</h> to the hand."
+  },
+  "SanaeSpiritShuffle": {
+    "Name": "Soul-Searching",
+    "Description": "Gain <Value1 /> <h>Temporary Spirit</h>.<br />Shuffle the discard pile into the draw pile.<br />Draw <Value2 /> cards."
+  },
+  "SanaeSpiritTalisman": {
+    "Name": "Kouan Era Kochiya (old)",
+    "Description": "Gain <Value1 /> <h>Spirit</h>.<br /><h>Choose</h>: Gain <Value2 /> <h>Ward</h>, or add <Value3 /> <h>Moriya Talismans</h> to the hand."
+  },
+  "SanaeStarterU": {
+    "Name": "Reckless Exterminator",
+    "Description": "Deal <Damage /> damage <Value1 /> times.<br />When an enemy is defeated using <SelfName />, gain <Value2 /> <Power />.<br />This effect can only happen once per combat."
+  },
+  "SanaeStarterW": {
+    "Name": "Duplex Basher",
+    "Description": "Deal <Damage /> damage.<br />You may add a <h>Glare</h> to the hand. If you do, deal <Value1 /> damage <Value2 /> times instead."
+  },
+  "SanaeStatus": {
+    "Name": "Moriya Talisman",
+    "Description": "<h>When Exiled</h>: Gain <Block /> <h>Block</h> and <h>Barrier</h>."
+  },
+  "SanaeStatusSynergy": {
+    "Name": "Sunburner Ritual",
+    "Description": "Gain <Mana />.<br />Add <Value1 /> <h>Refracted Sunlights</h> to the draw pile.<br />Gain <Value2 /> <h>Firepower</h>."
+  },
+  "SanaeStatusTalisman": {
+    "Name": "Paper Handicrafts",
+    "Description": "At the end of <PlayerName />'s turn, add <Value1 /> <h>Moriya Talisman$t(plurals.-s, { 'count': {{Value1}} })</h> to the discard pile."
+  },
+  "SanaeSuwakoFriend": {
+    "Name": "Suwako, Wily Toad-lover",
+    "PassiveDescription": "Add <Value1 /> <h>Dark Residues</h> to the draw pile.",
+    "ActiveDescription": "Add a random uncommon Ability card to the hand. It <h>temporarily costs</h> <Mana /> and has <h>Ethereal</h>."
+  },
+  "SanaeToolNews": {
+    "Name": "Mountaintop Meeting",
+    "Description": "<h>Choose</h>: Add <Value1 /> random non-rare Kappa <h>Tool</h> cards or <Value2 /> Tengu <h>Tool</h> cards to the hand.<br />They're treated as <h>Copies</h>, and have <h>Auto-Exile</h> and <h>Limited 1</h>."
+  },
+  "SanaeUpgradeWard": {
+    "Name": "Leyline Spotlight",
+    "Description": "Upgrade <Value1 /> random cards in the hand.<br />If no cards were upgraded this way, gain <Value2 /> <h>Ward</h>.<br /><h>Overflow</h>: Gain <Mana />."
+  },
+  "SanaeWardAmulet": {
+    "Name": "Emblem Exchange",
+    "Description": "Gain <Value1 /> <h>Ward</h>.<br />If <PlayerName /> has <h>Amulet</h>, lose <Value3 /> <h>Amulet</h> and gain <Value2 /> <h>Ward</h> instead."
+  },
+  "SanaeWardReflect": {
+    "Name": "Seal's Recoil",
+    "Description": "Gain <Value1 /> <h>Ward</h>.<br />Gain <Value2 /> <h>Reflection</h>."
+  },
+  "SanaeWardTalisman": {
+    "Name": "Prespoke Incantation",
+    "Description": "Whenever <PlayerName /> gains <h>Ward</h>, gain that much <Power />.<br />Whenever the Spell Card is activated, add <Value1 /> <h>Moriya Talismans</h> to the discard pile."
+  },
+  "SanaeWineSplash": {
+    "Name": "Wine and Water",
+    "Description": "Add a <h>Tipsy</h> and a <h>Splash</h> to the hand.",
+    "UpgradedDescription": "Add a <h>Tipsy+</h> and a <h>Splash+</h> to the hand."
+  },
+
   "AblativeArmor": {
     "Name": "Ablative Armor",
     "Description": "Gain <Block /> <h>Block</h>.<br /><h>Exile</h> all cards with <h>Mass</h> in the Hand, and gain <Value1 /> <h>Barrier</h> for each card <h>Exiled</h>."
@@ -303,6 +668,7 @@
     "Name": "Zero-Point Field",
     "Description": "Has <h>Mass</h>.<br /><h>When Pulled</h>: Gain <Shield /> <h>Barrier</h> and add a copy of <SelfName /> to the hand with <h>Ethereal</h>."
   },
+
   "YoumuAgelessObsession": {
     "Name": "Ageless Obsession",
     "Description": "Apply <Value1 /> <h>Lock On</h> to each enemy.<br />Whenever an enemy gains <h>Lock On</h>, double the amount gained."
