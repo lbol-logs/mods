@@ -6,6 +6,126 @@
     "turn_other": "<Count /> 回合后的"
   },
 
+  "PatchouliAstronomyStudySe": {
+    "Name": "天文研习",
+    "Description": "<PlayerName />的回合开始时，如果手中没有<h>天文学</h>，将 <Level /> 张<h>天文学</h>加入手中。"
+  },
+  "PatchouliAwakenedSpellbookSe": {
+    "Name": "觉醒的法术书",
+    "Description": "当<PlayerName />打出一张<h>增幅</h>层数至少为 <BoostThreshold1 /> 层的<h>增幅</h>牌后，<h>咏唱</h> <Level /> 个<h>火符</h>。"
+  },
+  "PatchouliBoostSe": {
+    "Name": "增幅",
+    "Description": ""
+  },
+  "PatchouliCircadianRhythmSe": {
+    "Name": "昼夜节律",
+    "Description": "当<h>日符</h>或<h>月符</h>触发<h>主动</h>效果后，<h>咏唱</h>等量的<h>月符</h>或<h>日符</h> <Level /> 次。"
+  },
+  "PatchouliCounterSe": {
+    "Name": "反制",
+    "Description": "当敌人将要实施这个意图时，触发对应的效果。"
+  },
+  "PatchouliCurrentConductorSe": {
+    "Name": "导电体",
+    "Description": "当<h>水符</h>触发时，对所有敌人施加 <Level /> 层<h>溺水</h>，然后触发<h>溺水</h>的效果。"
+  },
+  "PatchouliEarthSignSe": {
+    "Name": "土符",
+    "Description": "<h>被动</h>：将 <PassiveAmount /> 点随机法力转变为<h>彩色</h>。<br /><h>主动</h>：将 <ActiveAmount /> 点随机法力转变为彩色。获得<ManaP />。"
+  },
+  "PatchouliEnigmaticMagicSe": {
+    "Name": "神秘魔法",
+    "Description": "当<PlayerName /><h>咏唱</h>后，获得 <Level /> 点格挡。"
+  },
+  "PatchouliFireSignSe": {
+    "Name": "火符",
+    "Description": "<h>被动</h>：对生命值最低的敌人造成 <PassiveAmount /> 点伤害。<br /><h>主动</h>：对生命值最低的敌人造成 <ActiveAmount /> 点伤害。获得<ManaR />。"
+  },
+  "PatchouliFiveSeasonsSe": {
+    "Name": "五季",
+    "Description": "<PlayerName />的回合结束时，正在咏唱的<h>曜符</h>触发<h>被动效果</h> <Level /> 次。"
+  },
+  "PatchouliGirlOfShadeSe": {
+    "Name": "影之少女",
+    "Description": "当一张<h>状态</h>牌或<h>厄运</h>牌被<h>放逐</h>时，获得 <Level /> 点<h>火力</h>和<h>灵力</h>。"
+  },
+  "PatchouliGrandIncantationSe": {
+    "Name": "大型咒语",
+    "Description": "当<PlayerName />打出一张<h>增幅</h>牌后，对生命值最高的敌人造成<h>增幅层数</h> <Level /> 倍的伤害。"
+  },
+  "PatchouliIntelligenceSe": {
+    "Name": "魔力",
+    "Description": "<h>魔力</h>提升<h>咏唱符</h>的效果值 <Level /> 点。"
+  },
+  "PatchouliKoakumaFriendSe": {
+    "Name": "恶魔助手小恶魔",
+    "Description": "<h>火符</h>在本场战斗中额外造成 <Level /> 点伤害。"
+  },
+  "PatchouliMetalSignSe": {
+    "Name": "金符",
+    "Description": "<h>被动</h>：获得 <PassiveAmount /> 点<h>反射</h>。<br /><h>主动</h>：获得 <ActiveAmount /> 点<h>反射</h>获得<Mana1 />。"
+  },
+  "PatchouliMoonSignSe": {
+    "Name": "月符",
+    "Description": "<h>被动</h>：获得 <PassiveAmount /> 点<h>格挡</h>。<br /><h>主动</h>：获得 <ActiveAmount /> 点<h>格挡</h>。获得<ManaB />。"
+  },
+  "PatchouliOneWeekGirlSe": {
+    "Name": "七曜少女",
+    "Description": "<PlayerName />的回合开始时，<h>咏唱</h> <Level /> 个<h>曜符</h>，<h>曜符</h>的种类每回合都会切换。<br />下一个符：<h>t(PatchouliOneWeekGirlSe.NextSign, { 'context': {{NextSign}} })</h> <h>曜符</h>。",
+    "NextSign_0": "火",
+    "NextSign_1": "水",
+    "NextSign_2": "木",
+    "NextSign_3": "金",
+    "NextSign_4": "土",
+    "NextSign_5": "日",
+    "NextSign_6": "月"
+  },
+  "PatchouliPhlogisticPillarSe": {
+    "Name": "燃素之柱",
+    "Description": "当<PlayerName />打出一张<h>增幅</h>牌后，获得 <Level /> 点<h>护盾</h>。"
+  },
+  "PatchouliSaintElmoPillarSe": {
+    "Name": "圣爱尔摩之柱",
+    "Description": "当<h>反射</h>触发时，对所有敌人造成<h>反射</h>点数 <Level /> 倍的伤害。"
+  },
+  "PatchouliSatelliteHimawariSe": {
+    "Name": "卫星向日葵",
+    "Description": "<h>木符</h>的<h>被动</h>效果改为对本场战斗中的所有<h>木符</h>生效。<br /><h>木符</h>的伤害增加 <BonusDamage /> 点。"
+  },
+  "PatchouliSignKeywordSe": {
+    "Name": "曜符",
+    "Description": ""
+  },
+  "PatchouliSpellPowerGraspSe": {
+    "Name": "法力掌握",
+    "Description": "在每个回合开始时，<h>增幅</h>手中的所有牌 <Level /> 次。"
+  },
+  "PatchouliSunSignSe": {
+    "Name": "日符",
+    "Description": "<h>被动</h>：对所有敌人造成 <PassiveAmount /> 点伤害。<br /><h>主动</h>对所有敌人造成 <ActiveAmount /> 点伤害。获得<ManaW />。"
+  },
+  "PatchouliTemporaryIntelligenceSe": {
+    "Name": "暂得魔力",
+    "Description": "<h>魔力</h>增加，直到回合结束。<br /><h>魔力</h>提升<h>曜符</h>的效果值 <Level /> 点。"
+  },
+  "PatchouliTheUnmovingGreatLibrarySe": {
+    "Name": "不动的大图书馆",
+    "Description": "当一个<h>曜符</h>触发<h>主动</h>效果后，获得 <Level /> 点<h>魔力</h>。"
+  },
+  "PatchouliVoileSe": {
+    "Name": "伏瓦尔魔法图书馆",
+    "Description": "当<PlayerName />打出一张<h>增幅</h>牌后，根据其<h>增幅</h>层数触发以下效果：<br /><BoostThreshold1 />：抽 <Level /> 张牌。<br /><BoostThreshold2 />：获得<Mana />。<br /><BoostThreshold3 />获得 <Level /> 点<h>火力</h>。"
+  },
+  "PatchouliWaterSignSe": {
+    "Name": "水符",
+    "Description": "<h>被动</h>获得 <PassiveAmount /> 点<h>护盾</h>。<br /><h>主动</h>获得 <ActiveAmount /> 点<h>护盾</h>。获得<ManaU />。"
+  },
+  "PatchouliWoodSignSe": {
+    "Name": "木符",
+    "Description": "<h>被动</h>：<h>主动效果</h>造成的伤害提升 <PassiveAmount /> 点。<br /><h>主动</h>：对生命值最高的敌人造成 <ActiveAmount /> 点伤害。获得<ManaG />。"
+  },
+
   "AmuletForEnemy": {
     "Name": "堡垒",
     "Description": "抵挡下 <Level /> 张加入战斗的非状态牌（将它们<h>放逐</h>）。"

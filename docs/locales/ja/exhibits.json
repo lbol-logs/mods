@@ -1,4 +1,13 @@
 {
+  "PatchouliExhibitB": {
+    "Name": "精霊の印章",
+    "Description": "マナ基盤に<Mana />を加え、<h>パチュリー</h>専用のカードが出現するようになる。<br /><PlayerName />のターン開始時に<PlayerName />が<h>火の印</h>を得ていない場合、<h>火の印</h><Value1 />を得る。"
+  },
+  "PatchouliExhibitU": {
+    "Name": "水のグリモワール",
+    "Description": "マナ基盤に<Mana />を加え、<h>パチュリー</h>専用のカードが出現するようになる。<br />戦闘開始時、<h>天文学</h>を手札に加える。<br /><h>詠唱値</h><BoostThreshold1 />以上の<h>詠唱</h>カードを使用した場合、<Value2 /><h>ブロック</h>を得る。"
+  },
+
   "SanaeClayVolcano": {
     "Name": "粘土製の火山",
     "Description": "山札をシャッフルするたび、<h>臨時霊力</h><Value1 />を得る。"

@@ -1,4 +1,382 @@
 {
+  "PatchouliAgniRadiance": {
+    "Name": "火神的光辉",
+    "Description": "<h>咏唱</h> <Value1 /> 个<h>火符</h>。<br /><h>每层充能</h>：额外<h>咏唱</h> <Value2 /> 个<h>火符</h>。"
+  },
+  "PatchouliAgniShine": {
+    "Name": "火神之光",
+    "Description": "造成 <Damage /> 点伤害 <Value2 /> 次。<br /><h>咏唱</h> <Value1 /> 个<h>火符</h>。"
+  },
+  "PatchouliArcaneWard": {
+    "Name": "奥术守卫",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />获得 <Value2 /> 点<h>反射</h>。<br /><h>每层增幅</h>：额外获得 <Value1 /> 点<h>格挡</h>和<h>反射</h>。"
+  },
+  "PatchouliAstronomy": {
+    "Name": "天文学",
+    "Description": "抽 <Value1 /> 张牌。<br /><h>增幅</h> <BoostThreshold1 />：获得<Mana />。"
+  },
+  "PatchouliAstronomyStudy": {
+    "Name": "天文研习",
+    "Description": "<PlayerName />的回合开始时，如果<PlayerName />的手中没有<h>天文学</h>，将一张<h>天文学</h>加入手中。"
+  },
+  "PatchouliAttackB": {
+    "Name": "钻石刀刃",
+    "Description": "造成 <Damage /> 点伤害。"
+  },
+  "PatchouliAttackU": {
+    "Name": "水龙",
+    "Description": "造成 <Damage /> 点伤害。"
+  },
+  "PatchouliAutumnBlade": {
+    "Name": "秋之刃",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>增幅</h> <BoostThreshold1 />：获得 <Value1 /> 层<h>庇护</h>。<br /><h>增幅</h> <BoostThreshold2 />：获得 <Value2 /> 层<h>护身符</h>。"
+  },
+  "PatchouliAwakenedSpellbook": {
+    "Name": "觉醒的法术书",
+    "Description": "当<PlayerName />打出一张<h>增幅</h>层数至少为 <Value2 /> 层的<h>增幅</h>牌后，<h>咏唱</h> <Value1 /> 个<h>火符</h>。"
+  },
+  "PatchouliBlockB": {
+    "Name": "虚无精灵",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
+  },
+  "PatchouliBlockU": {
+    "Name": "北极冷风",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
+  },
+  "PatchouliBuryInLake": {
+    "Name": "湖葬",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br /><h>咏唱</h> <Value1 /> 个<h>水符</h>。",
+    "UpgradedDescription": "获得 <Shield /> 点<h>护盾</h>。<br /><h>咏唱</h> <Value1 /> 个<h>水符</h>。"
+  },
+  "PatchouliCircadianRhythm": {
+    "Name": "昼夜节律",
+    "Description": "<h>咏唱</h> <Value1 /> 个<h>日符</h>。<br />当<h>日符</h>或<h>月符</h>触发<h>主动</h>效果后，<h>咏唱</h>等量的<h>月符</h>或<h>日符</h>。"
+  },
+  "PatchouliConcentration": {
+    "Name": "专注",
+    "Description": "抽 <Value1 /> 张牌。<br /><h>增幅</h> <BoostThreshold1 /> 以及 <BoostThreshold2 />：获得 <Value2 /> 点<h>格挡</h>。"
+  },
+  "PatchouliCondensedBubble": {
+    "Name": "浓缩水泡",
+    "Description": "造成 <Damage /> 点伤害 <Value2 /> 次。<br /><h>每层增幅</h>额外造成 <Value1 /> 点伤害。"
+  },
+  "PatchouliCounterspell": {
+    "Name": "法术反制",
+    "Description": "<h>反制攻击</h>:获得 <Value1 /> 层<h>闪避</h>。<br /><h>反制精准攻击</h>:获得 <Block /> 点<h>格挡</h>。<br /><h>反制符卡</h>:获得 <Block /> 点<h>护盾</h>。"
+  },
+  "PatchouliCountersquall": {
+    "Name": "狂风反制",
+    "Description": "<h>反制攻击</h>：造成 <Damage /> 点伤害，获得 <Block /> 点<h>格挡</h>。<br /><h>反制减益</h>获得 <Value1 /> 层<h>护身符</h>。"
+  },
+  "PatchouliCurrentConductor": {
+    "Name": "导电体",
+    "Description": "当<h>水符</h>触发时，对所有敌人施加 <Value2 /> 层<h>溺水</h>，然后触发<h>溺水</h>的效果。<br /><h>咏唱</h> <Value1 /> 个<h>水符</h>。"
+  },
+  "PatchouliDiamondHardness": {
+    "Name": "钻石硬度",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br />获得 <Value1 /> 点<h>反射</h>。<br /><h>增幅</h> <BoostThreshold1 />：获得 <Value2 /> 点<h>带电</h>。"
+  },
+  "PatchouliDiamondRing": {
+    "Name": "钻石戒指",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>抉择</h>：<h>咏唱</h> <Value1 /> 个<h>日符</h>，或<h>咏唱</h> <Value1 /> 个<h>月符</h>。"
+  },
+  "PatchouliDimensionShift": {
+    "Name": "次元超越",
+    "Description": "结束<PlayerName />的回合。 然后获得一个额外的回合。<br /><h>时间有限</h><Mana1 />。<br /><h>每层增幅</h>：<SelfName />的费用减少<Mana />。",
+    "UpgradedDescription": "结束<PlayerName />的回合。 然后获得一个额外的回合。<br /><h>每层增幅</h>：<SelfName />的费用减少<Mana />。"
+  },
+  "PatchouliDistortionField": {
+    "Name": "扭曲力场",
+    "Description": "获得 <Value1 /> 层<h>闪避</h>。<br /><h>增幅</h>手中的所有牌。",
+    "UpgradedDescription": "获得 <Value1 /> 层<h>闪避</h>。<br /><h>增幅</h>手中的所有牌两次。"
+  },
+  "PatchouliDoyouSpear": {
+    "Name": "土用枪",
+    "Description": "造成 <Damage /> 点伤害。<br />如果<SelfName />击杀目标，获得<Mana />。"
+  },
+  "PatchouliElementalHarvester": {
+    "Name": "元素收获者",
+    "Description": "获得<Mana />。<br /><h>增幅</h> <BoostThreshold1 />：额外获得<BonusMana />。"
+  },
+  "PatchouliElementalTriangle": {
+    "Name": "元素三角",
+    "Description": "<h>抉择</h>：<h>咏唱</h> <Value1 /> 个<h>火符</h>，<h>水符</h>或<h>木符</h>。<br />触发它的<h>被动</h>效果。"
+  },
+  "PatchouliElementalTriangleFire": {
+    "Name": "火元素",
+    "Description": "<h>咏唱</h> <Value1 /> 个<h>火符</h>。"
+  },
+  "PatchouliElementalTriangleWater": {
+    "Name": "水元素",
+    "Description": "<h>咏唱</h> <Value1 /> 个<h>水符</h>。"
+  },
+  "PatchouliElementalTriangleWood": {
+    "Name": "木元素",
+    "Description": "<h>咏唱</h> <Value1 /> 个<h>木符</h>。"
+  },
+  "PatchouliEmeraldMegalith": {
+    "Name": "翡翠巨石",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />如果<PlayerName /> 拥有至少 <Value1 /> 种<h>曜符</h>，选择手中至多 <Value2 /> 张牌赋予<h>保留</h>。"
+  },
+  "PatchouliEnigmaticMagic": {
+    "Name": "神秘魔法",
+    "Description": "当<PlayerName /><h>咏唱</h>时，获得 <Value1 /> 点<h>格挡</h>。"
+  },
+  "PatchouliEveryAngleShot": {
+    "Name": "全方位射击",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>增幅</h> <BoostThreshold1 />：将一张<SelfName />加入手中，它具有<h>放逐</h>和<h>虚无</h>。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br /><h>增幅</h> <BoostThreshold1 />：将一张<SelfName />+加入手中，它具有<h>放逐</h>和<h>虚无</h>。"
+  },
+  "PatchouliFatesHand": {
+    "Name": "命运之手",
+    "Description": "抽 <Value1 /> 张牌。<br /><h>每层增幅</h>： <SelfName /> 的费用减少<Mana />。"
+  },
+  "PatchouliFiveSeasons": {
+    "Name": "五季",
+    "Description": "<PlayerName />的回合结束时，正在咏唱的<h>曜符</h>触发<h>被动</h>效果。"
+  },
+  "PatchouliFlashOfSpring": {
+    "Name": "春意乍现",
+    "Description": "抽 <Value1 /> 张牌。<br /><h>咏唱</h> <Value2 /> 个<h>木符</h>。"
+  },
+  "PatchouliForestBlaze": {
+    "Name": "森林大火",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>咏唱</h> <Value1 /> 个<h>火符</h>。<br /><h>咏唱</h> <Value1 /> 个<h>木符</h>。<br />每种正在咏唱的<h>曜符</h>使<SelfName />的费用减少<Mana />。"
+  },
+  "PatchouliGingerDust": {
+    "Name": "淡黄色的阵风",
+    "Description": "抽 <Value2 /> 张牌。<br /><h>咏唱</h> <Value1 /> 个<h>土符</h>。<br /><h>增幅</h> <BoostThreshold1 />： <h>咏唱</h> <Value1 /> 个<h>金符</h>。"
+  },
+  "PatchouliGirlOfKnowledge": {
+    "Name": "知识少女",
+    "Description": "获得 <Value1 /> 点<h>魔力</h>。"
+  },
+  "PatchouliGirlOfShade": {
+    "Name": "影之少女",
+    "Description": "将 <Value1 /> 张<h>暗影</h>洗入弃牌堆。赋予它们<h>填充</h>。<br />当一张<h>状态</h>牌或<h>厄运</h>牌被<h>放逐</h>时，获得 <Value2 /> 点<h>火力</h>和<h>灵力</h>。"
+  },
+  "PatchouliGrandIncantation": {
+    "Name": "大型咒语",
+    "Description": "当<PlayerName />打出一张<h>增幅</h>牌后，对生命值最高的敌人造成等于其<h>增幅</h>层数的伤害。"
+  },
+  "PatchouliGreenStorm": {
+    "Name": "翠绿风暴",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>每层充能</h>：额外造成一次伤害。"
+  },
+  "PatchouliHydrogenousProminence": {
+    "Name": "氢化日珥",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br /><h>咏唱</h> <Value1 /> 个<h>日符</h>。<br /><h>咏唱</h> <Value1 /> 个<h>水符</h>。<br />每种正在咏唱的<h>曜符</h>使<SelfName />的费用减少<Mana />。"
+  },
+  "PatchouliIntruderSecurity": {
+    "Name": "入侵者警报",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />选择弃牌堆中的至多 <Value1 /> 张牌，将其移回手牌。"
+  },
+  "PatchouliJellyfishPrincess": {
+    "Name": "水母公主",
+    "Description": "<h>每支付<ManaU /></h>：对所有敌人造成 <Damage /> 点伤害。<br /><h>每支付<ManaB /></h>：<h>咏唱</h> <Value1 /> 个<h>月符</h>。"
+  },
+  "PatchouliKnowledgeSeeker": {
+    "Name": "知识探索者",
+    "Description": "获得 <Value1 /> 点<h>魔力</h>。<br /><h>增幅</h> <BoostThreshold1 />：不会<h>放逐</h>。"
+  },
+  "PatchouliKoakumaFriend": {
+    "Name": "恶魔助手小恶魔",
+    "Description": "<h>咏唱</h> <Value1 /> 个<h>火符</h>。",
+    "UpgradedDescription": "<h>咏唱</h> <Value1 /> 个<h>火符</h>。",
+    "PassiveDescription": "抽 <Value1 /> 张牌。",
+    "UpgradedPassiveDescription": "抽 <Value1 /> 张牌。",
+    "ActiveDescription": "将一张<h>灵异</h>加入手中。",
+    "UpgradedActiveDescription": "将一张<h>幻虹</h>加入手中。",
+    "UltimateDescription": "<h>火符</h>在本场战斗中造成双倍伤害。"
+  },
+  "PatchouliKrakenWave": {
+    "Name": "海怪巨浪",
+    "Description": "<h>增幅</h> <BoostThreshold1 /> <h>次时</h>：对所有敌人造成 <Value1 /> 点伤害，获得 <Value1 /> 点<h>格挡</h>，丢弃并重置<SelfName />的<h>增幅</h>。"
+  },
+  "PatchouliLavaCromlech": {
+    "Name": "环状熔岩带",
+    "Description": "造成 <Damage /> 点伤害。<br />本场战斗中每<h>咏唱</h>过一个<h>曜符</h>，额外造成 <Value1 /> 点伤害。"
+  },
+  "PatchouliMagicalResearch": {
+    "Name": "魔法研究",
+    "Description": "从 <Value1 /> 张随机的<h>增幅</h>牌中选择 1 张加入手中。这张牌<h>暂塑</h>为<Mana />，具有<h>放逐</h>和<h>虚无</h>。"
+  },
+  "PatchouliManaDrain": {
+    "Name": "法力吸取",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>增幅</h> <BoostThreshold1 />：施加 <Value1 /> 层<h>虚弱</h>。"
+  },
+  "PatchouliMercuryPoisoning": {
+    "Name": "水银之毒",
+    "Description": "<h>咏唱</h> <Value3 /> 个<h>金符</h>。<br /><h>抉择</h>：施加 <Value1 /> 层<h>中毒</h>；或施加 <Value2 /> 层<h>虚弱</h>。"
+  },
+  "PatchouliMetalFatigue": {
+    "Name": "金属疲劳",
+    "Description": "<h>咏唱</h> <Value1 /> 个<h>金符</h>。<br />施加 <Value2 /> 层<h>暂失火力</h>。<br /><h>充能</h> <BoostThreshold1 />：施加 <Value2 /> 层<h>失去火力</h>，然后<h>放逐</h><SelfName />。"
+  },
+  "PatchouliMoongazing": {
+    "Name": "观月",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />将 <Value1 /> 张<h>天文学</h>加入手中。",
+    "UpgradedDescription": "获得 <Block /> 点<h>格挡</h>。<br />将 <Value1 /> 张<h>天文学</h>加入手中。<br /><h>增幅</h>手中的所有牌。"
+  },
+  "PatchouliMoonlitChill": {
+    "Name": "月下寒意",
+    "Description": "获得 <Value1 /> 点<h>火力</h>和 <Value2 /> 点<h>灵力</h>。<br /><h>增幅</h> <BoostThreshold1 />：额外获得 <Value2 /> 点 <h>火力</h>。<br /><h>增幅</h> <BoostThreshold2 />：额外获得 <Value1 /> 点<h>灵力</h>。"
+  },
+  "PatchouliNegate": {
+    "Name": "否定",
+    "Description": "<h>反制攻击</h>：获得 <Block /> 点<h>格挡</h>。<br /><h>反制状态</h>获得 <Value1 /> 层<h>庇护</h>。"
+  },
+  "PatchouliNoachianDeluge": {
+    "Name": "诺亚的大洪水",
+    "Description": "造成 <Damage /> 点伤害。<br /><SelfName />可以<h>增幅</h>任意次数。<br /><h>每层增幅</h>：额外造成 <Value1 /> 点伤害。"
+  },
+  "PatchouliObservatory": {
+    "Name": "天文台",
+    "Description": "造成 <Damage /> 点伤害。<br />将 <Value1 /> 张<h>天文学</h>加入手中。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />将 <Value1 /> 张<h>天文学</h>加入手中。<br /><h>增幅</h>手中的所有牌。"
+  },
+  "PatchouliOneWeekGirl": {
+    "Name": "七曜少女",
+    "Description": "<h>咏唱</h> <Value1 /> 个<h>火符</h>。<br /><PlayerName />的回合开始时，<h>咏唱</h> <Value1 /> 个<h>水符</h>。<h>曜符</h>的种类每回合都会切换。"
+  },
+  "PatchouliPhilosopherStone": {
+    "Name": "贤者之石",
+    "Description": "<h>咏唱</h> <Value1 /> 个<h>火符</h>。<br /><h>咏唱</h> <Value1 /> 个<h>水符</h>。<br /><h>咏唱</h> <Value1 /> 个<h>木符</h>。<br /><h>咏唱</h> <Value1 /> 个<h>金符</h>。<br /><h>咏唱</h> <Value1 /> 个<h>土符</h>。"
+  },
+  "PatchouliPhlogisticPillar": {
+    "Name": "燃素之柱",
+    "Description": "当<PlayerName />打出一张<h>增幅</h>牌后，获得 <Value1 /> 点<h>护盾</h>。"
+  },
+  "PatchouliPhlogisticRain": {
+    "Name": "燃素之雨",
+    "Description": "造成 <Damage /> 点伤害 <Value2 /> 次。<br /><h>增幅</h> <BoostThreshold1 />：获得<Mana />，抽 <Value1 /> 张牌。"
+  },
+  "PatchouliPhotosynthesis": {
+    "Name": "光合作用",
+    "Description": "选择手中的至多 <Value2 /> 张牌，将它们放逐。<br /><h>咏唱</h>等量的<h>日符</h>。"
+  },
+  "PatchouliRapidCharge": {
+    "Name": "快速充能",
+    "Description": "获得<Mana />。<br />触发所有<h>曜符</h>的<h>被动</h>效果。<br /><h>充盈</h>：获得<Mana />。",
+    "UpgradedDescription": "获得<Mana />。<br />触发所有<h>曜符</h>的<h>被动</h>效果两次。<br /><h>充盈</h>：获得<Mana />。"
+  },
+  "PatchouliRingOfAgni": {
+    "Name": "天火神印",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>每支付</h><Mana /><h>及每层增幅</h>：额外造成 <Value1 /> 点伤害。"
+  },
+  "PatchouliRoyalFlare": {
+    "Name": "皇家圣焰",
+    "Description": "<h>回合开始时</h>：获得 <Value1 /> 点<h>暂得魔力</h>。<br /><h>手牌中</h>：当<PlayerName /><h>咏唱</h> <Value2 /> 次后，对所有敌人造成 <Damage /> 点伤害，然后丢弃<SelfName />。"
+  },
+  "PatchouliSaintElmoPillar": {
+    "Name": "圣爱尔摩之柱",
+    "Description": "<h>咏唱</h> <Value1 /> 个<h>金符</h>。<br />当<PlayerName />的<h>反射</h>效果触发时，对所有敌人造成<h>反射</h>点数的伤害。"
+  },
+  "PatchouliSakuyaFriend": {
+    "Name": "时空主宰咲夜",
+    "Description": "将 <Value1 /> 张<h>飞刀</h>加入手中。",
+    "UpgradedDescription": "将 <Value1 /> 张<h>飞刀+</h>加入手中。",
+    "PassiveDescription": "将 <Value1 /> 张<h>飞刀</h>加入手中。",
+    "UpgradedPassiveDescription": "将 <Value1 /> 张<h>飞刀</h>加入手中。",
+    "ActiveDescription": "获得 <Value1 /> 层<h>闪避</h>。",
+    "UltimateDescription": "结束<PlayerName />的回合。获得一个额外的回合。"
+  },
+  "PatchouliSatelliteHimawari": {
+    "Name": "卫星向日葵",
+    "Description": "<h>咏唱</h> <Value1 /> 个<h>木符</h>。<br /><h>木符</h>的<h>被动</h>效果改为对本场战斗中的所有<h>木符</h>生效。"
+  },
+  "PatchouliSilentSelene": {
+    "Name": "沉静的月神",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br /><h>咏唱</h> <Value1 /> 个<h>月符</h>。"
+  },
+  "PatchouliSilverDragon": {
+    "Name": "银龙",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br /><h>咏唱</h> <Value1 /> 个<h>金符</h>。",
+    "UpgradedDescription": "获得 <Block /> 点<h>格挡</h>。<br /><h>咏唱</h> <Value1 /> 个<h>金符</h>。<br />触发<h>金符</h>的<h>被动</h>效果。"
+  },
+  "PatchouliSpellCreation": {
+    "Name": "法术创造",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>增幅</h> <BoostThreshold1 /> ， <BoostThreshold2 /> 以及 <BoostThreshold3 />：选择获得 <Value2 /> 项额外效果。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />选择获得 <Value2 /> 项额外效果。<br /><h>增幅</h> <BoostThreshold1 />, <BoostThreshold2 /> 以及 <BoostThreshold3 />：再选择获得 <Value2 /> 项额外效果。"
+  },
+  "PatchouliSpellCreationBlock": {
+    "Name": "盾牌",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
+  },
+  "PatchouliSpellCreationDraw": {
+    "Name": "恢复魔力",
+    "Description": "抽 <Value1 /> 张牌。"
+  },
+  "PatchouliSpellCreationFire": {
+    "Name": "火焰伤害",
+    "Description": "<h>咏唱</h> <Value1 /> 个<h>火符</h>。"
+  },
+  "PatchouliSpellCreationWeak": {
+    "Name": "冷静",
+    "Description": "对所有敌人施加 <Value2 /> 层<h>虚弱</h>。"
+  },
+  "PatchouliSpellDuplication": {
+    "Name": "法术复制器",
+    "Description": "选择一张手牌。 将它的 <Value1 /> 张<h>复制</h>加入手中。<br />这张复制<h>暂塑为</h><Mana />，具有<h>放逐</h>和<h>虚无</h>。<br />如果这是一张<h>增幅</h>牌，获得其<h>增幅</h>。"
+  },
+  "PatchouliSpellMastery": {
+    "Name": "法术精通",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>增幅</h> <BoostThreshold1 />：将一张<h>水花</h>放入手中。<br /><h>增幅</h> <BoostThreshold2 />：并将其<h>升级</h>。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br /><h>增幅</h> <BoostThreshold1 />：将一张<h>幻虹</h>放入手中。<br /><h>增幅</h> <BoostThreshold2 />：并将其<h>升级</h>。"
+  },
+  "PatchouliSpellPowerGrasp": {
+    "Name": "法力掌握",
+    "Description": "<PlayerName />的回合开始时，<h>增幅</h>手中的所有牌。",
+    "UpgradedDescription": "<h>增幅</h>手中的所有牌。<br /><PlayerName />的回合开始时，<h>增幅</h>手中的所有牌。"
+  },
+  "PatchouliSpringWind": {
+    "Name": "春之风",
+    "Description": "选择手中至多 <Value1 /> 张牌。赋予它们<h>回响</h>。<br /><h>增幅</h> <BoostThreshold1 />：将 <Value1 /> 张<h>生机</h>加入手中。",
+    "UpgradedDescription": "选择手中至多 <Value1 /> 张牌。赋予它们<h>回响</h>。<br /><h>增幅</h> <BoostThreshold1 />：将 <Value1 /> 张<h>幻虹</h>加入手中。"
+  },
+  "PatchouliSummerRed": {
+    "Name": "夏之红",
+    "Description": "选择手中的至多 <Value1 /> 张牌，<h>保留</h>它们一回合。<br />如果选择了<h>增幅</h>牌，还会<h>增幅</h>它  <Value2 /> 次。"
+  },
+  "PatchouliSungrazerComet": {
+    "Name": "掠日者彗星",
+    "Description": "<h>抉择</h>：获得 <Value1 /> 层<h>闪避</h>；或获得 <Block /> 点<h>格挡</h>。<br /><h>增幅</h> <BoostThreshold1 />：获得两者。"
+  },
+  "PatchouliSunshineReflector": {
+    "Name": "日光反射器",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br /><h>咏唱</h> <Value1 /> 个<h>日符</h>。"
+  },
+  "PatchouliSylphyHorn": {
+    "Name": "风灵的角笛",
+    "Description": "<h>咏唱</h> <Value1 /> 个<h>木符</h>。<br />当一个<h>曜符</h>触发<h>主动</h>效果后，将<SelfName />从<h>放逐</h>区移回手牌。"
+  },
+  "PatchouliTeaBreak": {
+    "Name": "饮茶时间",
+    "Description": "恢复 <Value1 /> 点生命。<br />移除<PlayerName />的<h>易伤</h>。",
+    "UpgradedDescription": "恢复 <Value1 /> 点生命。<br />移除<PlayerName />的<h>锁定</h>，<h>易伤</h>和<h>虚弱</h>。"
+  },
+  "PatchouliTheUnmovingGreatLibrary": {
+    "Name": "不动的大图书馆",
+    "Description": "获得 <Value1 /> 点<h>魔力</h>。<br />当<h>曜符</h>触发<h>主动</h>效果后，获得 <Value2 /> 点<h>魔力</h>。"
+  },
+  "PatchouliTidalWave": {
+    "Name": "潮汐巨浪",
+    "Description": "施加 <Value1 /> 层<h>溺水</h>。<br />触发敌人的<h>溺水</h>效果。<br /><h>增幅</h> <BoostThreshold1 />：额外施加 <Value2 /> 层<h>溺水</h>。"
+  },
+  "PatchouliTwinspell": {
+    "Name": "双生法术",
+    "Description": "抽 <Value1 /> 张牌。    <h>手牌中</h>：当<PlayerName />打出一张<h>增幅</h>牌后，<SelfName />在本场战斗中变形为其复制，并获得其<h>增幅</h>层数。",
+    "UpgradedDescription": "抽 <Value1 /> 张牌。    <h>手牌中</h>：当<PlayerName />打出一张<h>增幅</h>牌后，<SelfName />在本场战斗中变形为其<h>升级</h>后的复制，并获得其<h>增幅</h>层数。"
+  },
+  "PatchouliVoile": {
+    "Name": "伏瓦尔魔法图书馆",
+    "Description": "当<PlayerName />打出一张<h>增幅</h>牌后，根据其<h>增幅</h>层数获得以下效果：<br /><BoostThreshold1 /> 层：抽 <Value1 /> 张牌。<br /><BoostThreshold2 /> 层：获得<Mana />。<br /><BoostThreshold3 /> 层：获得 <Value1 /> 点<h>火力</h>。"
+  },
+  "PatchouliWaterElf": {
+    "Name": "水精灵",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>咏唱</h> <Value1 /> 个<h>水符</h>。<br /><h>咏唱</h> <Value1 /> 个<h>木符</h>。<br /><h>每层增幅</h>：<SelfName />的费用减少<Mana />。"
+  },
+
   "SanaeAmuletDebuff": {
     "Name": "弘安东风谷",
     "Description": "<h>抉择</h>至少一项：<br />- 获得 <Value1 /> 点<h>火力</h>和 <Value1 /> 层<h>虚弱</h>。<br />- 获得 <Value1 /> 点<h>灵力</h>和 <Value1 /> 层<h>脆弱</h>。<br />- 获得 <Value1 /> 点最大生命，<Value1 /> 层<h>易伤</h>和<h>中毒</h>。"

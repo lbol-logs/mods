@@ -1,4 +1,13 @@
 {
+  "PatchouliExhibitB": {
+    "Name": "元素印记",
+    "Description": "提供基础法力<Mana />。<h>帕秋莉</h>的专属卡牌会加入牌池。<br /><PlayerName />的回合开始时，如果<PlayerName />没有<h>火符</h>，<h>咏唱</h> <Value1 /> 个<h>火符</h>。"
+  },
+  "PatchouliExhibitU": {
+    "Name": "水之魔导书",
+    "Description": "提供基础法力<Mana />。<h>帕秋莉</h>的专属卡牌会加入牌池。<br />每场战斗的第一回合开始时，将一张<h>天文学</h>加入手中。<br />当一张<h>增幅</h>层数不小于 <BoostThreshold1 /> 的牌被打出时， 获得 <Value2 /> 点格挡。"
+  },
+
   "SanaeClayVolcano": {
     "Name": "黏土火山",
     "Description": "抽牌堆洗牌时，获得 <Value1 /> 点<h>暂得灵力</h>。"

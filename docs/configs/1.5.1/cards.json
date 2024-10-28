@@ -57,7 +57,8 @@
       "Cost": 0,
       "Value1": 1,
       "Mana": "U",
-      "Keywords": "Exile,Retain"
+      "Keywords": "Exile,Retain",
+      "BoostThreshold1": 5
     },
     "1": {
       "Mana": "P",
@@ -123,7 +124,9 @@
       "Cost": "1W",
       "Damage": 16,
       "Value1": 1,
-      "Value2": 1
+      "Value2": 1,
+      "BoostThreshold1": 3,
+      "BoostThreshold2": 5
     },
     "1": {
       "Damage": 22,
@@ -220,7 +223,9 @@
     "0": {
       "Cost": "1U",
       "Value1": 3,
-      "Value2": 5
+      "Value2": 5,
+      "BoostThreshold1": 3,
+      "BoostThreshold2": 5
     },
     "1": {
       "Cost": 1
@@ -304,7 +309,8 @@
       "Cost": "3C",
       "Shield": 15,
       "Value1": 15,
-      "Value2": 5
+      "Value2": 5,
+      "BoostThreshold1": 3
     },
     "1": {
       "Cost": "2C",
@@ -386,7 +392,9 @@
       "Cost": "U",
       "Value1": 2,
       "Value2": 1,
-      "Mana": "UU"
+      "Mana": "UU",
+      "BoostThreshold1": 5,
+      "BonusMana": "PP"
     },
     "1": {
       "Cost": 0,
@@ -483,7 +491,8 @@
     "0": {
       "Cost": 0,
       "Damage": 6,
-      "Keywords": "Accuracy,Exile"
+      "Keywords": "Accuracy,Exile",
+      "BoostThreshold1": 4
     },
     "1": {
       "Damage": 9,
@@ -564,7 +573,8 @@
     "0": {
       "Cost": "1B",
       "Value1": 1,
-      "Value2": 2
+      "Value2": 2,
+      "BoostThreshold1": 3
     },
     "1": {
       "Value2": 3
@@ -685,7 +695,8 @@
     "0": {
       "Cost": "3G",
       "Value1": 2,
-      "Keywords": "Exile"
+      "Keywords": "Exile",
+      "BoostThreshold1": 3
     },
     "1": {
       "Value1": 3,
@@ -724,7 +735,8 @@
       "Cost": 0,
       "Damage": 0,
       "Value1": 16,
-      "Keywords": "Forbidden,Retain"
+      "Keywords": "Forbidden,Retain",
+      "BoostThreshold1": 9
     },
     "1": {
       "Value1": 19,
@@ -775,7 +787,8 @@
       "Cost": "1U",
       "Damage": 15,
       "Value1": 1,
-      "Keywords": "Accuracy"
+      "Keywords": "Accuracy",
+      "BoostThreshold1": 2
     },
     "1": {
       "Damage": 19,
@@ -792,7 +805,8 @@
     "0": {
       "Cost": "H:HUB",
       "Value1": 3,
-      "Value2": 1
+      "Value2": 1,
+      "Value3": 1
     },
     "1": {
       "Value1": 4,
@@ -808,7 +822,8 @@
     "0": {
       "Cost": "UB",
       "Value1": 2,
-      "Value2": 2
+      "Value2": 2,
+      "BoostThreshold1": 4
     },
     "1": {
       "Value2": 3
@@ -839,7 +854,9 @@
     "0": {
       "Cost": "UB",
       "Value1": 1,
-      "Value2": 1
+      "Value2": 1,
+      "BoostThreshold1": 4,
+      "BoostThreshold2": 8
     },
     "1": {
       "Value1": 2
@@ -947,7 +964,8 @@
       "Damage": 8,
       "Value1": 1,
       "Value2": 2,
-      "Mana": "UU"
+      "Mana": "UU",
+      "BoostThreshold1": 4
     },
     "1": {
       "Damage": 7,
@@ -1119,7 +1137,10 @@
       "Cost": "HH:HUB",
       "Damage": 15,
       "Value1": 4,
-      "Value2": 1
+      "Value2": 1,
+      "BoostThreshold1": 2,
+      "BoostThreshold2": 4,
+      "BoostThreshold3": 6
     },
     "1": {
       "Damage": 18
@@ -1199,7 +1220,9 @@
       "Cost": "1U",
       "Damage": 17,
       "Value1": 1,
-      "Mana": 0
+      "Mana": 0,
+      "BoostThreshold1": 3,
+      "BoostThreshold2": 5
     },
     "1": {
       "Damage": 22
@@ -1229,7 +1252,8 @@
     "0": {
       "Cost": "G",
       "Value1": 1,
-      "Keywords": "Exile"
+      "Keywords": "Exile",
+      "BoostThreshold1": 5
     },
     "1": {
       "Cost": 1,
@@ -1260,7 +1284,8 @@
     "0": {
       "Cost": "UB",
       "Block": 12,
-      "Value1": 1
+      "Value1": 1,
+      "BoostThreshold1": 4
     },
     "1": {
       "Cost": 2,
@@ -1343,7 +1368,8 @@
     "0": {
       "Cost": "1U",
       "Value1": 5,
-      "Value2": 2
+      "Value2": 2,
+      "BoostThreshold1": 3
     },
     "1": {
       "Value1": 7
@@ -1372,7 +1398,10 @@
     "0": {
       "Cost": "2UUU",
       "Value1": 1,
-      "Mana": "U"
+      "Mana": "U",
+      "BoostThreshold1": 3,
+      "BoostThreshold2": 6,
+      "BoostThreshold3": 9
     },
     "1": {
       "Cost": "1UU"

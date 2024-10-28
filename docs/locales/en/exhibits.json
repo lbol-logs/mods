@@ -1,4 +1,13 @@
 {
+  "PatchouliExhibitB": {
+    "Name": "Elemental Sigil",
+    "Description": "Adds <Mana /> to the mana base. Cards unique to <h>Patchouli</h> are added to the card pool.<br />At the start of the Player's turn, if the Player doesn't have any <h>Fire Sign</h>, <h>Spellcast</h> <Value1 /> <h>Fire Sign</h>."
+  },
+  "PatchouliExhibitU": {
+    "Name": "Water Grimoire",
+    "Description": "Adds <Mana /> to the mana base. Cards unique to <h>Patchouli</h> are added to the card pool.<br />At the start of the first turn each combat, add an <h>Astronomy</h> to the hand.<br />Whenever a card that has been <h>Boosted</h> <BoostThreshold1 /> or more times is played, gain <Value2 /> Block."
+  },
+
   "SanaeClayVolcano": {
     "Name": "Clay Volcano",
     "Description": "Whenever the draw pile is shuffled, gain <Value1 /> <h>Temporary Spirit</h>."

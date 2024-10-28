@@ -13,7 +13,8 @@
     "Value1": 1,
     "Value2": 2,
     "Mana": "U",
-    "BaseMana": "U"
+    "BaseMana": "U",
+    "BoostThreshold1": 1
   },
 
   "SanaeClayVolcano": {
