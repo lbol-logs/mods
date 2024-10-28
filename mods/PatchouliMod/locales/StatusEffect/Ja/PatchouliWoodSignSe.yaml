@@ -1,0 +1,12 @@
+﻿PatchouliWoodSignSe:
+  Name: 木の印
+  Description: >-
+    |パッシブ|:|木の印|の|アクティブ|ダメージを{PassiveAmount}増やす。
+
+    |アクティブ|:ライフが最も多い敵に{ActiveAmount}ダメージを与える。<sprite="ManaSprite" name="G">を得る。
+
+    現在のレベル{Level}
+  Brief: >-
+    |パッシブ|:|木の印|の|アクティブ|ダメージを4増やす。
+
+    |アクティブ|:ライフが最も多い敵に4ダメージを与える。<sprite="ManaSprite" name="G">を得る。

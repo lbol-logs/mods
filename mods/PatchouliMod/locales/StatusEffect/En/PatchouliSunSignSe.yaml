@@ -1,0 +1,10 @@
+﻿PatchouliSunSignSe:
+  Name: Sun Sign
+  Description: >-
+    |Passive|: Deal {PassiveAmount} damage to each enemy. 
+
+    |Active|: Deal {ActiveAmount} to each enemy. Gain <sprite="ManaSprite" name="W">.
+  Brief: >-
+    |Passive|: Deal 2 damage to each enemy. 
+
+    |Active|: Deal 4 damage to each enemy. Gain <sprite="ManaSprite" name="W">.

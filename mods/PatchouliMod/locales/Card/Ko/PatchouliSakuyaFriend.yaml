@@ -1,0 +1,12 @@
+﻿PatchouliSakuyaFriend:
+  Name: 사쿠야, 시간의 주인
+  Description: >-
+    <indent=80>|단검|을 {Value1}장 손에 넣습니다.
+
+    <indent=0><sprite="Passive" name="1"><indent=80>|단검|을 {Value1}장 손에 넣습니다.
+  UpgradedDescription: >-
+    <indent=80>|단검+|을 {Value1}장 손에 넣습니다.
+
+    <indent=0><sprite="Passive" name="2"><indent=80>|단검|을 {Value1}장 손에 넣습니다.
+  ExtraDescription1: <indent=0><sprite="Active" name="-3"><indent=80>|그레이즈|를 {Value1} 얻습니다.
+  ExtraDescription2: <indent=0><sprite="Ultimate" name="-7"><indent=80>{PlayerName}의 턴을 종료합니다. 추가 턴을 얻습니다.

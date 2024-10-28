@@ -1,0 +1,8 @@
+﻿PatchouliAutumnBlade:
+  Name: Autumn Blade
+  Description: >-
+    Deal {Damage} damage.
+
+    |Boost| {BoostThreshold1}: Gain {Value1} |Ward|.
+
+    |Boost| {BoostThreshold2}: Gain {Value2} |Amulet|.

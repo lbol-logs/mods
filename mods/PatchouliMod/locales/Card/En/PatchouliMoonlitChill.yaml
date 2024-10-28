@@ -1,0 +1,8 @@
+﻿PatchouliMoonlitChill:
+  Name: Moonlit Chill
+  Description: >-
+    Gain {Value1} |Firepower| and {Value2} |Spirit|.
+
+    |Boost| {BoostThreshold1}: Gain {Value2} additional |Firepower|.
+
+    |Boost| {BoostThreshold2}: Gain {Value1} additional |Spirit|.

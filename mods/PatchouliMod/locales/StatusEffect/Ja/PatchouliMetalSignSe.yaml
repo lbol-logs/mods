@@ -1,0 +1,12 @@
+﻿PatchouliMetalSignSe:
+  Name: 金の印
+  Description: >-
+    |パッシブ|:{PassiveAmount}|反射|を得る。
+
+    |アクティブ|:{ActiveAmount}|反射|を得る。<sprite="ManaSprite" name="C">を得る。
+
+    現在のレベル{Level}
+  Brief: >-
+    |パッシブ|:3|反射|を得る。
+
+    |アクティブ|:5|反射|を得る。<sprite="ManaSprite" name="C">を得る。

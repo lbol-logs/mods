@@ -1,0 +1,10 @@
+﻿PatchouliArcaneWard:
+  Name: 秘術の防壁
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    {Value2}|反射|を得る。
+
+    |詠唱値|1につき、得られる|ブロック|と|反射|を{Value1}増やす。
+
+    |詠唱|

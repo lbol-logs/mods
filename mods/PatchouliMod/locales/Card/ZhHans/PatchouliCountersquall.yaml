@@ -1,0 +1,6 @@
+﻿PatchouliCountersquall:
+  Name: 狂风反制
+  Description: >-
+    |反制攻击|：造成 {Damage} 点伤害，获得 {Block} 点|格挡|。
+
+    |反制减益|获得 {Value1} 层|护身符|。

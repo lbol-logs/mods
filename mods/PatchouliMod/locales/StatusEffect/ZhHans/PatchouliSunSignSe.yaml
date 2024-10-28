@@ -1,0 +1,10 @@
+﻿PatchouliSunSignSe:
+  Name: 日符
+  Description: >-
+    |被动|：对所有敌人造成 {PassiveAmount} 点伤害。
+
+    |主动|对所有敌人造成 {ActiveAmount} 点伤害。获得<sprite="ManaSprite" name="W">。
+  Brief: >-
+    |被动|：对所有敌人造成 2 点伤害。
+
+    |主动|：对所有敌人造成 4 点伤害。获得<sprite="ManaSprite" name="W">。

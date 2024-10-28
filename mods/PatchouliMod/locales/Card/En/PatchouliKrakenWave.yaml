@@ -1,0 +1,3 @@
+﻿PatchouliKrakenWave:
+  Name: Kraken Wave
+  Description: '|When this card has been Boosted| {BoostThreshold1} |times|: Deal {Value1} damage to each enemy, gain {Value1} |Block|, discard {SelfName} and reset its |Boost|.'

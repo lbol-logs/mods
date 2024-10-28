@@ -1,0 +1,10 @@
+﻿PatchouliOneWeekGirl:
+  Name: 一週間少女
+  Description: >-
+    |火の印|{Value1}を得る。
+
+    {PlayerName}のターン開始時、|印|{Value1}を順番に得る。
+  DetailText: >-
+    |印|の順番:
+
+    "|水|→|木|→|金|→|土|→|日|→|月|→|火|→|水|"

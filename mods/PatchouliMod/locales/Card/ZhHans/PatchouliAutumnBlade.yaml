@@ -1,0 +1,8 @@
+﻿PatchouliAutumnBlade:
+  Name: 秋之刃
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    |增幅| {BoostThreshold1}：获得 {Value1} 层|庇护|。
+
+    |增幅| {BoostThreshold2}：获得 {Value2} 层|护身符|。

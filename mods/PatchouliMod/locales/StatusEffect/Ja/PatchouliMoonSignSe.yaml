@@ -1,0 +1,12 @@
+﻿PatchouliMoonSignSe:
+  Name: 月の印
+  Description: >-
+    |パッシブ|:{PassiveAmount}|ブロック|を得る。
+
+    |アクティブ|:{ActiveAmount}|ブロック|を得る。<sprite="ManaSprite" name="B">を得る。
+
+    現在のレベル{Level}
+  Brief: >-
+    |パッシブ|:2|ブロック|を得る。
+
+    |アクティブ|:4|ブロック|を得る。<sprite="ManaSprite" name="B">を得る。

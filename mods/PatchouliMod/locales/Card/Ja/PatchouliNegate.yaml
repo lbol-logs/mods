@@ -1,0 +1,6 @@
+﻿PatchouliNegate:
+  Name: 否認
+  Description: >-
+    |カウンター:攻撃|{Block}|ブロック|を得る。
+
+    |カウンター:状態異常|{Value1}|庇護|を得る。

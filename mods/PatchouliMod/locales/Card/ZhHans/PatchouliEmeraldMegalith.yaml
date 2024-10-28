@@ -1,0 +1,6 @@
+﻿PatchouliEmeraldMegalith:
+  Name: 翡翠巨石
+  Description: >-
+    获得 {Block} 点|格挡|。
+
+    如果{PlayerName} 拥有至少 {Value1} 种|曜符|，选择手中至多 {Value2} 张牌赋予|保留|。

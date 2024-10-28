@@ -1,0 +1,8 @@
+﻿PatchouliMercuryPoisoning:
+  Name: マーキュリポイズン
+  Description: >-
+    |金の印|{Value3}を得る。
+
+    |チョイス|:|毒|{Value1}を与える。もしくは|脱力|{Value2}を与える。
+  ExtraDescription1: '|毒|{Value1}を与える。'
+  ExtraDescription2: '|脱力|{Value2}を与える。'

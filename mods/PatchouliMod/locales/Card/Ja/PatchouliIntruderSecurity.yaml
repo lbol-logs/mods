@@ -1,0 +1,6 @@
+﻿PatchouliIntruderSecurity:
+  Name: 侵入者対策
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    捨て札から{Value1}枚までのカードを選んで手札に戻す。

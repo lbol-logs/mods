@@ -1,0 +1,10 @@
+﻿PatchouliForestBlaze:
+  Name: フォレストブレイズ
+  Description: >-
+    {Damage}ダメージを与える。
+
+    |火の印|{Value1}を得る。
+
+    |木の印|{Value1}を得る。
+
+    {PlayerName}が得ている|印|の種類と等しい数だけ、このカードのコストを{Mana}減らす。

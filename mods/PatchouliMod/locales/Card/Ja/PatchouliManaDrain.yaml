@@ -1,0 +1,8 @@
+﻿PatchouliManaDrain:
+  Name: マナ吸収
+  Description: >-
+    {Damage}ダメージを与える。
+
+    |詠唱値|{BoostThreshold1}以上なら、|脱力|{Value1}を与える。
+
+    |詠唱|

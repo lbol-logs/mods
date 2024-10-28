@@ -1,0 +1,8 @@
+﻿PatchouliEveryAngleShot:
+  Name: エブリアングルショット
+  Description: >-
+    {Damage}ダメージを与える。
+
+    |詠唱値|{BoostThreshold1}以上なら、使用されて|廃棄|されたこのカードを次の{PlayerName}のターン開始時に廃棄場から手札に戻す。
+
+    |詠唱|

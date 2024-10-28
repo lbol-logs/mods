@@ -1,0 +1,6 @@
+﻿PatchouliCountersquall:
+  Name: 対抗突風
+  Description: >-
+    |カウンター:攻撃|{Damage}ダメージを与え、{Block}|ブロック|を得る。
+
+    |カウンター:デバフ|:{Value1}|加護|を得る。

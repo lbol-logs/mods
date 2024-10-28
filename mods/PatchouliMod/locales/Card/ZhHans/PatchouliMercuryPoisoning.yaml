@@ -1,0 +1,8 @@
+﻿PatchouliMercuryPoisoning:
+  Name: 水银之毒
+  Description: >-
+    |咏唱| {Value3} 个|金符|。
+
+    |抉择|：施加 {Value1} 层|中毒|；或施加 {Value2} 层|虚弱|。
+  ExtraDescription1: 施加 {Value1} 层|中毒|。
+  ExtraDescription2: 施加 {Value2} 层|虚弱|。

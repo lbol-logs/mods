@@ -1,0 +1,12 @@
+﻿PatchouliDimensionShift:
+  Name: 次元超越
+  Description: >-
+    结束{PlayerName}的回合。 然后获得一个额外的回合。
+
+    |时间有限|<sprite="ManaSprite" name="1">。
+
+    |每层增幅|：{SelfName}的费用减少{Mana}。
+  UpgradedDescription: >-
+    结束{PlayerName}的回合。 然后获得一个额外的回合。
+
+    |每层增幅|：{SelfName}的费用减少{Mana}。

@@ -1,0 +1,16 @@
+﻿PatchouliDimensionShift:
+  Name: 차원 이동
+  Description: >-
+    {PlayerName}의 턴을 종료하고 추가 턴을 얻습니다.
+
+    |시간 제한| <sprite="ManaSprite" name="1">.
+
+    |증강 할 때 마다|: {SelfName}의 비용이 {Mana} 감소합니다.
+
+    (|증강|: {Boost})
+  UpgradedDescription: >-
+    {PlayerName}의 턴을 종료하고 추가 턴을 얻습니다.
+
+    |증강 할 때 마다|: {SelfName}의 비용이 {Mana} 감소합니다.
+
+    (|증강|: {Boost})

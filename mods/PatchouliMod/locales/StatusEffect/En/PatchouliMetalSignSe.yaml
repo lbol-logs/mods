@@ -1,0 +1,10 @@
+﻿PatchouliMetalSignSe:
+  Name: Metal Sign
+  Description: >-
+    |Passive|: Gain {PassiveAmount} |Reflection|. 
+
+    |Active|: Gain {ActiveAmount} |Reflection|. Gain <sprite="ManaSprite" name="C">.
+  Brief: >-
+    |Passive|: Gain 3 |Reflection|. 
+
+    |Active|: Gain 5 |Reflection|. Gain <sprite="ManaSprite" name="C">.

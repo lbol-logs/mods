@@ -1,0 +1,3 @@
+﻿PatchouliAstronomyStudy:
+  Name: 天文研习
+  Description: '{PlayerName}的回合开始时，如果{PlayerName}的手中没有|天文学|，将一张|天文学|加入手中。'

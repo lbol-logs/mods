@@ -1,0 +1,12 @@
+﻿PatchouliWaterSignSe:
+  Name: 水の印
+  Description: >-
+    |パッシブ|:{PassiveAmount}|バリア|を得る。
+
+    |アクティブ|:{ActiveAmount}|バリア|を得る。<sprite="ManaSprite" name="U">を得る。
+
+    現在のレベル{Level}
+  Brief: >-
+    |パッシブ|:1|バリア|を得る。
+
+    |アクティブ|:3|バリア|を得る。<sprite="ManaSprite" name="U">を得る。

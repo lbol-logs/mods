@@ -1,0 +1,12 @@
+﻿PatchouliPhilosopherStone:
+  Name: Philosopher's Stone
+  Description: >-
+    |Spellcast| {Value1} |Fire Sign|.
+
+    |Spellcast| {Value1} |Water Sign|.
+
+    |Spellcast| {Value1} |Wood Sign|.
+
+    |Spellcast| {Value1} |Metal Sign|.
+
+    |Spellcast| {Value1} |Earth Sign|.

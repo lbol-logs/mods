@@ -1,0 +1,6 @@
+﻿PatchouliSaintElmoPillar:
+  Name: セントエルモピラー
+  Description: >-
+    |金の印|{Value1}を得る。
+
+    {PlayerName}の|反射|が発動した場合、発動した|反射|分に等しいダメージを敵全体に与える。

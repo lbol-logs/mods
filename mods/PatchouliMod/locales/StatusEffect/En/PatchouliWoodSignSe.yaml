@@ -1,0 +1,10 @@
+﻿PatchouliWoodSignSe:
+  Name: Wood Sign
+  Description: >-
+    |Passive|: Increase this |Sign's Active| damage by {PassiveAmount}.
+
+    |Active|: Deal {ActiveAmount} to the enemy with the most life. Gain <sprite="ManaSprite" name="G">.
+  Brief: >-
+    |Passive|: Increase this |Sign's| |Active| damage by 4.
+
+    |Active|: Deal 4 to the enemy with the most life. Gain <sprite="ManaSprite" name="G">.

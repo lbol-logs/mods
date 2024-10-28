@@ -1,0 +1,6 @@
+﻿PatchouliCountersquall:
+  Name: 대응전투
+  Description: >-
+    |대응 공격|: 피해를 {Damage} 주고 |방어|를 {Block} 얻습니다.
+
+    |대응 약화|: |부적|을 {Value1} 얻습니다.

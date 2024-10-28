@@ -1,0 +1,12 @@
+﻿PatchouliWaterElf:
+  Name: 워터 엘프
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |수부| {Value1} |원소 전개|.
+
+    |목부| {Value1} |원소 전개|.
+
+    |증강 할 때 마다|: {SelfName}의 비용이 {Mana} 감소합니다.
+
+    (|증강|: {Boost})

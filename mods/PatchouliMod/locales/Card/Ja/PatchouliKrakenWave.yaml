@@ -1,0 +1,6 @@
+﻿PatchouliKrakenWave:
+  Name: クラーケンウェーブ
+  Description: >-
+    |詠唱値|{BoostThreshold1}になった時、敵全体に{Value1}ダメージを与え、{PlayerName}は{Value1}|ブロック|を得る。その後このカードは捨てられ、|詠唱値|は0になる。
+
+    |詠唱|

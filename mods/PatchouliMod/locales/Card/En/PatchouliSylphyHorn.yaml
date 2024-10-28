@@ -1,0 +1,6 @@
+﻿PatchouliSylphyHorn:
+  Name: Sylphy Horn
+  Description: >-
+    |Spellcast| {Value1} |Wood Sign|.
+
+    Whenever |Wood Sign's Active| effect triggers, return {SelfName} from |Exile| to the hand.

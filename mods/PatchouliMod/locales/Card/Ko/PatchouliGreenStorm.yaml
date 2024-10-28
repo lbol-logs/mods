@@ -1,0 +1,8 @@
+﻿PatchouliGreenStorm:
+  Name: 그린 스톰
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |증강 할 때 마다|: 추가로 1회 공격합니다.
+
+    (|증강|: {Boost})

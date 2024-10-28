@@ -1,0 +1,12 @@
+﻿PatchouliWaterElf:
+  Name: ウォーターエルフ
+  Description: >-
+    {Damage}ダメージを与える。
+
+    |水の印|{Value1}を得る。
+
+    |木の印|{Value1}を得る。
+
+    |詠唱値|1につき、このカードのコストを{Mana}減らす。
+
+    |詠唱|

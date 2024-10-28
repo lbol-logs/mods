@@ -1,0 +1,12 @@
+﻿PatchouliSilverDragon:
+  Name: 실버 드래곤
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    |금부| {Value1} |원소 전개|.
+  UpgradedDescription: >-
+    |방어|를 {Block} 얻습니다.
+
+    |금부| {Value1} |원소 전개|.
+
+    |원소 전개|된 |금부|의 |지속|능력을 발동합니다.

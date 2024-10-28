@@ -1,0 +1,8 @@
+﻿PatchouliMetalFatigue:
+  Name: 金属疲劳
+  Description: >-
+    |咏唱| {Value1} 个|金符|。
+
+    施加 {Value2} 层|暂失火力|。
+
+    |充能| {BoostThreshold1}：施加 {Value2} 层|失去火力|，然后|放逐|{SelfName}。

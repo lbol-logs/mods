@@ -1,0 +1,5 @@
+﻿PatchouliDiamondRing:
+  Name: Diamond Ring
+  Description: "Deal {Damage} damage.\n|Choose|: |Spellcast| {Value1} |Sun Sign|, or |Spellcast| {Value1} |Moon Sign|.  "
+  ExtraDescription1: '|Spellcast| {Value1} |Sun Sign|.'
+  ExtraDescription2: '|Spellcast| {Value1} |Moon Sign|.'

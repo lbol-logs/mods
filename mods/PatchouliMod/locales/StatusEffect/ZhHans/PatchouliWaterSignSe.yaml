@@ -1,0 +1,10 @@
+﻿PatchouliWaterSignSe:
+  Name: 水符
+  Description: >-
+    |被动|获得 {PassiveAmount} 点|护盾|。
+
+    |主动|获得 {ActiveAmount} 点|护盾|。获得<sprite="ManaSprite" name="U">。
+  Brief: >-
+    |被动|获得 1 点|护盾|。
+
+    |主动|获得 3 点|护盾|。 获得<sprite="ManaSprite" name="U">。

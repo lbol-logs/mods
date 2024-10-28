@@ -1,0 +1,3 @@
+﻿PatchouliCircadianRhythmSe:
+  Name: 概日リズム
+  Description: '|日の印|もしくは|月の印|の|アクティブ|効果が発動した場合、もう片方の|印|を|アクティブ|効果が発動した時の|印|のレベル×{Level}得る。'

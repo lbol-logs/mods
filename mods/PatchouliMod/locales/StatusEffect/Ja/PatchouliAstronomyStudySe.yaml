@@ -1,0 +1,3 @@
+﻿PatchouliAstronomyStudySe:
+  Name: 天文学研究
+  Description: '{PlayerName}のターン開始時、手札に|天文学|が無い場合、|天文学|を{Level}枚手札に加える。'

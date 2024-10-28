@@ -1,0 +1,10 @@
+﻿PatchouliSungrazerComet:
+  Name: サングレーザー
+  Description: >-
+    |チョイス|:|グレイズ|{Value1}を得る。もしくは、{Block}|ブロック|を得る。
+
+    |詠唱値|{BoostThreshold1}以上なら、代わりに両方の効果を適用する。
+
+    |詠唱|
+  ExtraDescription1: '|グレイズ|{Value1}を得る。'
+  ExtraDescription2: '{Block}|ブロック|を得る。'

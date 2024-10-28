@@ -1,0 +1,6 @@
+﻿PatchouliRingOfAgni:
+  Name: Ring of Agni
+  Description: >-
+    Deal {Damage} damage.
+
+    |For each| {Mana} |spent and for each Boost|: Deal {Value1} additional damage.

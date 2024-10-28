@@ -1,0 +1,6 @@
+﻿PatchouliKnowledgeSeeker:
+  Name: Knowledge Seeker
+  Description: >-
+    Gain {Value1} |Intelligence|.
+
+    |Boost| {BoostThreshold1}: Doesn't |Exile|.

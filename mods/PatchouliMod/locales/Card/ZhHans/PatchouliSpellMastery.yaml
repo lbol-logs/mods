@@ -1,0 +1,14 @@
+﻿PatchouliSpellMastery:
+  Name: 法术精通
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    |增幅| {BoostThreshold1}：将一张|水花|放入手中。
+
+    |增幅| {BoostThreshold2}：并将其|升级|。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害。
+
+    |增幅| {BoostThreshold1}：将一张|幻虹|放入手中。
+
+    |增幅| {BoostThreshold2}：并将其|升级|。

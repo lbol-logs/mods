@@ -1,0 +1,16 @@
+﻿PatchouliSpellCreation:
+  Name: 주문 창조
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |증강| {BoostThreshold1}, {BoostThreshold2}, {BoostThreshold3}: 추가효과를 {Value2}번 선택해 그 효과를 얻습니다.
+
+    (|증강|: {Boost})
+  UpgradedDescription: >-
+    피해를 {Damage} 줍니다.
+
+    추가효과를 {Value2}번 선택해 그 효과를 얻습니다.
+
+    |증강| {BoostThreshold1}, {BoostThreshold2}, {BoostThreshold3}: 추가효과를 {Value2}번 선택해 그 효과를 얻습니다.
+
+    (|증강|: {Boost})

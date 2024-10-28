@@ -1,0 +1,10 @@
+﻿PatchouliForestBlaze:
+  Name: 森林大火
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    |咏唱| {Value1} 个|火符|。
+
+    |咏唱| {Value1} 个|木符|。
+
+    每种正在咏唱的|曜符|使{SelfName}的费用减少{Mana}。

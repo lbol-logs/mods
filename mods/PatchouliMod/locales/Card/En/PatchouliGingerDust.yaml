@@ -1,0 +1,8 @@
+﻿PatchouliGingerDust:
+  Name: Ginger Dust
+  Description: >-
+    Draw {Value2} cards.
+
+    |Spellcast| {Value1} |Earth Sign|.
+
+    |Boost| {BoostThreshold1}: |Spellcast| {Value1} |Metal Sign|.

@@ -1,0 +1,10 @@
+﻿PatchouliEveryAngleShot:
+  Name: 全方位射击
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    |增幅| {BoostThreshold1}：将一张{SelfName}加入手中，它具有|放逐|和|虚无|。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害。
+
+    |增幅| {BoostThreshold1}：将一张{SelfName}+加入手中，它具有|放逐|和|虚无|。

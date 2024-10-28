@@ -1,0 +1,6 @@
+﻿PatchouliElementalHarvester:
+  Name: 元素收获者
+  Description: >-
+    获得{Mana}。
+
+    |增幅| {BoostThreshold1}：额外获得{BonusMana}。

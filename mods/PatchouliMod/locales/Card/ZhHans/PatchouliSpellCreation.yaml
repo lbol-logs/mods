@@ -1,0 +1,12 @@
+﻿PatchouliSpellCreation:
+  Name: 法术创造
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    |增幅| {BoostThreshold1} ， {BoostThreshold2} 以及 {BoostThreshold3}：选择获得 {Value2} 项额外效果。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害。
+
+    选择获得 {Value2} 项额外效果。
+
+    |增幅| {BoostThreshold1}, {BoostThreshold2} 以及 {BoostThreshold3}：再选择获得 {Value2} 项额外效果。

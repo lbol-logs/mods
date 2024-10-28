@@ -1,0 +1,10 @@
+﻿PatchouliEarthSignSe:
+  Name: Earth Sign
+  Description: >-
+    |Passive|: Convert {PassiveAmount} random mana into |Philosopher's Mana|.
+
+    |Active|: Convert {ActiveAmount} random mana into |Philosopher's Mana|. Gain <sprite="ManaSprite" name="P">.
+  Brief: >-
+    |Passive|: Convert 1 random mana into |Philosopher's Mana|.
+
+    |Active|: Convert 2 random mana into |Philosopher's Mana|. Gain <sprite="ManaSprite" name="P">.

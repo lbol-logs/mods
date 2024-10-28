@@ -1,0 +1,12 @@
+﻿PatchouliSakuyaFriend:
+  Name: 时空主宰咲夜
+  Description: >-
+    <indent=80>将 {Value1} 张|飞刀|加入手中。
+
+    <indent=0><sprite="Passive" name="1"><indent=80>将 {Value1} 张|飞刀|加入手中。
+  UpgradedDescription: >-
+    <indent=80>将 {Value1} 张|飞刀+|加入手中。
+
+    <indent=0><sprite="Passive" name="2"><indent=80>将 {Value1} 张|飞刀|加入手中。
+  ExtraDescription1: <indent=0><sprite="Active" name="-3"><indent=80>获得 {Value1} 层|闪避|。
+  ExtraDescription2: <indent=0><sprite="Ultimate" name="-7"><indent=80>结束{PlayerName}的回合。获得一个额外的回合。

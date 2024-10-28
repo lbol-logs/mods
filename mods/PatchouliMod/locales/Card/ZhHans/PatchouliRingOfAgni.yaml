@@ -1,0 +1,6 @@
+﻿PatchouliRingOfAgni:
+  Name: 天火神印
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    |每支付|{Mana}|及每层增幅|：额外造成 {Value1} 点伤害。

@@ -1,0 +1,7 @@
+﻿PatchouliExhibitB:
+  Name: 精霊の印章
+  Description: >-
+    マナ基盤に{Mana}を加え、|パチュリー|専用のカードが出現するようになる。
+
+    {PlayerName}のターン開始時に{PlayerName}が|火の印|を得ていない場合、|火の印|{Value1}を得る。
+  FlavorText: 精霊魔法は自然の力を借りて、小さな力から大きな力を生み出す。

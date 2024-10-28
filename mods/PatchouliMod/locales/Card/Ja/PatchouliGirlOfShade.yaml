@@ -1,0 +1,6 @@
+﻿PatchouliGirlOfShade:
+  Name: 得体の知れない魔法の元
+  Description: >-
+    |暗闇|を{Value1}枚捨て札に加える。それらは|補充|を持つ。
+
+    |厄災|または|状態異常|カードを|廃棄|した時、|火力|{Value2}と|霊力|{Value2}を得る。

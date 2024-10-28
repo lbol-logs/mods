@@ -1,0 +1,6 @@
+﻿PatchouliCurrentConductor:
+  Name: 水流の指揮者
+  Description: >-
+    |水の印|の効果が発動するたび、|溺水|{Value2}を敵全体に与え、|溺水|の効果を発動させる。
+
+    |水の印|{Value1}を得る。

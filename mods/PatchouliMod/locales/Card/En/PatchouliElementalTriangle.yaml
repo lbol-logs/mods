@@ -1,0 +1,6 @@
+﻿PatchouliElementalTriangle:
+  Name: Elemental Triangle
+  Description: >-
+    |Choose|: |Spellcast| {Value1} |Fire|, |Water| or |Wood Sign|.
+
+    Trigger its |Passive| effect.

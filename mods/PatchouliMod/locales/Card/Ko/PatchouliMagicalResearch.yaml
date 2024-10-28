@@ -1,0 +1,3 @@
+﻿PatchouliMagicalResearch:
+  Name: 마법 연구
+  Description: 무작위 |증강|카드 {Value1}장 중 하나를 골라 얻습니다. 그 카드의 비용은 |일시적으로| {Mana}가 되고 |소멸|과 |휘발성|을 얻습니다.

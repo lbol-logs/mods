@@ -1,0 +1,10 @@
+﻿PatchouliRapidCharge:
+  Name: 급속 충전
+  Description: >-
+    {Mana}를 얻습니다.
+
+    |원소 전개|된 |원소|의 |지속| 효과를 발동합니다.
+  UpgradedDescription: >-
+    {Mana}를 얻습니다.
+
+    |원소 전개|된 |원소|의 |지속| 효과를 두번 발동합니다.

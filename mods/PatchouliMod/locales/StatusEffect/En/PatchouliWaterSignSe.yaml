@@ -1,0 +1,10 @@
+﻿PatchouliWaterSignSe:
+  Name: Water Sign
+  Description: >-
+    |Passive|: Gain {PassiveAmount} |Barrier|. 
+
+    |Active|: Gain {ActiveAmount} |Barrier|. Gain <sprite="ManaSprite" name="U">.
+  Brief: >-
+    |Passive|: Gain 1 |Barrier|. 
+
+    |Active|: Gain 3 |Barrier|. Gain <sprite="ManaSprite" name="U">.

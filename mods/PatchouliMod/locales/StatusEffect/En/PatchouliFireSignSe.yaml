@@ -1,0 +1,10 @@
+﻿PatchouliFireSignSe:
+  Name: Fire Sign
+  Description: >-
+    |Passive|: Deal {PassiveAmount} damage to the enemy with the least life. 
+
+    |Active|: Deal {ActiveAmount} to the enemy with the least life. Gain <sprite="ManaSprite" name="R">.
+  Brief: >-
+    |Passive|: Deal 3 Damage to the enemy with the least life. 
+
+    |Active|: Deal 5 to the enemy with the least life. Gain <sprite="ManaSprite" name="R">.

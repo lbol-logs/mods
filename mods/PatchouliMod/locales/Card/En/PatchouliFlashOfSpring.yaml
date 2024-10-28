@@ -1,0 +1,3 @@
+﻿PatchouliFlashOfSpring:
+  Name: Flash of Spring
+  Description: "Draw {Value1} card{Value1:plural one='' other='s'}.\n|Spellcast| {Value2} |Wood Sign|. "

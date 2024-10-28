@@ -1,0 +1,12 @@
+﻿PatchouliMoongazing:
+  Name: 观月
+  Description: >-
+    获得 {Block} 点|格挡|。
+
+    将 {Value1} 张|天文学|加入手中。
+  UpgradedDescription: >-
+    获得 {Block} 点|格挡|。
+
+    将 {Value1} 张|天文学|加入手中。
+
+    |增幅|手中的所有牌。

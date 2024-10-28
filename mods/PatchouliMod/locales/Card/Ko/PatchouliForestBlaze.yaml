@@ -1,0 +1,10 @@
+﻿PatchouliForestBlaze:
+  Name: 포레스트 블레이즈
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |화부| {Value1} |원소 전개|.
+
+    |목부| {Value1} |원소 전개|.
+
+    {SelfName}의 비용이 전개된 |원소|마다 {Mana} 감소합니다.

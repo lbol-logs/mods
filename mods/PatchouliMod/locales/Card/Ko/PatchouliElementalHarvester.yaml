@@ -1,0 +1,8 @@
+﻿PatchouliElementalHarvester:
+  Name: 엘리멘탈 하베스터
+  Description: >-
+    {Mana}를 얻습니다.
+
+    |증강| {BoostThreshold1}: 추가로 {BonusMana}를 얻습니다.
+
+    (|증강|: {Boost})

@@ -1,0 +1,8 @@
+﻿PatchouliArcaneWard:
+  Name: Arcane Ward
+  Description: >-
+    Gain {Block} |Block|.
+
+    Gain {Value2} |Reflection|.
+
+    |For each Boost|: Gain {Value1} additional |Block| and |Reflection|.

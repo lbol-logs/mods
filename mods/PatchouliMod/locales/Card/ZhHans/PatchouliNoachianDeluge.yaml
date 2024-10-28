@@ -1,0 +1,8 @@
+﻿PatchouliNoachianDeluge:
+  Name: 诺亚的大洪水
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    {SelfName}可以|增幅|任意次数。
+
+    |每层增幅|：额外造成 {Value1} 点伤害。

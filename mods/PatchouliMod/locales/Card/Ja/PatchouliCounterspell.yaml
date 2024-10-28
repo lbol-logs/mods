@@ -1,0 +1,8 @@
+﻿PatchouliCounterspell:
+  Name: 対抗呪文
+  Description: >-
+    |カウンター:攻撃|:|グレイズ|{Value1}を得る。
+
+    |カウンター:精密攻撃|:{Block}ブロックを得る。
+
+    |カウンター:スペルカード|:{Block}|バリア|を得る。

@@ -1,0 +1,6 @@
+﻿PatchouliAstronomy:
+  Name: 天文学
+  Description: >-
+    抽 {Value1} 张牌。
+
+    |增幅| {BoostThreshold1}：获得{Mana}。

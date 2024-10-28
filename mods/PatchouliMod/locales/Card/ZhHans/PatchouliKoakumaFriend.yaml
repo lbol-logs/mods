@@ -1,0 +1,13 @@
+﻿PatchouliKoakumaFriend:
+  Name: 恶魔助手小恶魔
+  Description: >-
+    <indent=80>|咏唱| {Value1} 个|火符|。
+
+    <indent=0><sprite="Passive" name="1"><indent=80>抽 {Value1} 张牌。
+  UpgradedDescription: >-
+    <indent=80>|咏唱| {Value1} 个|火符|。
+
+    <indent=0><sprite="Passive" name="2"><indent=80>抽 {Value1} 张牌。
+  ExtraDescription1: <indent=0><sprite="Active" name="-4"><indent=80>将一张|灵异|加入手中。
+  UpgradedExtraDescription1: <indent=0><sprite="Active" name="-4"><indent=80>将一张|幻虹|加入手中。
+  ExtraDescription2: <indent=0><sprite="Ultimate" name="-8"><indent=80>|火符|在本场战斗中造成双倍伤害。

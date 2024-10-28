@@ -1,0 +1,6 @@
+﻿PatchouliSaintElmoPillar:
+  Name: 세인트 엘모 필러
+  Description: >-
+    |금부| {Value1} |원소 전개|.
+
+    {PlayerName}의 |반사|가 발동할 때 마다, 모든 적에게 |반사| 만큼 피해를 줍니다.

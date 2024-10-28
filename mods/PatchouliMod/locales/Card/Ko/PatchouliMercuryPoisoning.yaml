@@ -1,0 +1,8 @@
+﻿PatchouliMercuryPoisoning:
+  Name: 머큐리 포이즌
+  Description: >-
+    |금부| {Value3} |원소 전개|.
+
+    |선택|: |중독|을 {Value1} 줍니다. 또는 |허약|을 {Value2} 줍니다.
+  ExtraDescription1: '|중독|을 {Value1} 줍니다.'
+  ExtraDescription2: '|허약|을 {Value2} 줍니다.'

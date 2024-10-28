@@ -1,0 +1,6 @@
+﻿PatchouliEmeraldMegalith:
+  Name: 에메랄드 메갈리스
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    {PlayerName}에게 전개된 |원소|가 {Value1}개 이상 있다면, |원소 전개|된 |원소|들의 |지속|효과를 발동합니다.

@@ -1,0 +1,8 @@
+﻿PatchouliAstronomy:
+  Name: 天文学
+  Description: >-
+    カードを{Value1}枚引く。
+
+    |詠唱値|{BoostThreshold1}以上なら、{Mana}を得る。
+
+    |詠唱|

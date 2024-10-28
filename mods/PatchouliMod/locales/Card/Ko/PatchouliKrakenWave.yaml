@@ -1,0 +1,6 @@
+﻿PatchouliKrakenWave:
+  Name: 크라켄 웨이브
+  Description: >-
+    |이 카드가| {BoostThreshold1} |번 증강될시|: 모든 적에게 피해를 {Value1} 주고, |방어|를 {Value1} 얻고, {SelfName}를 버리고 |증강|을 초기화합니다.
+
+    (|증강|: {Boost})

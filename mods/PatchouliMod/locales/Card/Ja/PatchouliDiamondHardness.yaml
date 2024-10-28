@@ -1,0 +1,10 @@
+﻿PatchouliDiamondHardness:
+  Name: ダイアモンドハードネス
+  Description: >-
+    {Shield}|バリア|を得る。
+
+    {Value1}|反射|を得る。
+
+    |詠唱値|{BoostThreshold1}以上なら、|帯電|{Value2}を得る。
+
+    |詠唱|

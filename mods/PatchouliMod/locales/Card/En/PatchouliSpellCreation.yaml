@@ -1,0 +1,12 @@
+﻿PatchouliSpellCreation:
+  Name: Spell Creation
+  Description: >-
+    Deal {Damage} damage.
+
+    |Boost| {BoostThreshold1}, {BoostThreshold2} and {BoostThreshold3}: Choose {Value2} additional effects, gain their effects.
+  UpgradedDescription: >-
+    Deal {Damage} damage.
+
+    Choose {Value2} additional effects, gain their effects.
+
+    |Boost| {BoostThreshold1}, {BoostThreshold2} and {BoostThreshold3}: Choose {Value2} additional effects, gain their effects.

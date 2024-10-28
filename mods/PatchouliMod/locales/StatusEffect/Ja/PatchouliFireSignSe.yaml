@@ -1,0 +1,12 @@
+﻿PatchouliFireSignSe:
+  Name: 火の印
+  Description: >-
+    |パッシブ|:ライフが最も少ない敵に{PassiveAmount}ダメージを与える。
+
+    |アクティブ|:ライフが最も少ない敵に{ActiveAmount}ダメージを与える。<sprite="ManaSprite" name="R">を得る。
+
+    現在のレベル{Level}
+  Brief: >-
+    |パッシブ|:ライフが最も少ない敵に3ダメージを与える。
+
+    |アクティブ|:ライフが最も少ない敵に5ダメージを与える。<sprite="ManaSprite" name="R">を得る。

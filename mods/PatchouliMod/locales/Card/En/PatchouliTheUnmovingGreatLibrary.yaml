@@ -1,0 +1,6 @@
+﻿PatchouliTheUnmovingGreatLibrary:
+  Name: The Unmoving Great Library
+  Description: >-
+    Gain {Value1} |Intelligence|.
+
+    Whenever a |Sign Active| effect triggers, gain {Value2} |Intelligence|.

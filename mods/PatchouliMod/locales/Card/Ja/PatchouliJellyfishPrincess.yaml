@@ -1,0 +1,6 @@
+﻿PatchouliJellyfishPrincess:
+  Name: ジェリーフィッシュプリンセス
+  Description: >-
+    |<sprite="ManaSprite" name="U">につき|:敵全体に{Damage}ダメージを与える。
+
+    |<sprite="ManaSprite" name="B">につき|:|月の印|{Value1}を得る。

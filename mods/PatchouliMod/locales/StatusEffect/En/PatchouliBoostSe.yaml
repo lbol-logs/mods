@@ -1,0 +1,11 @@
+﻿PatchouliBoostSe:
+  Name: Boost
+  Description: ''
+  Brief: >-
+    Each time a card is played while this card is in the hand, increase the card's |Boost| by 1.
+
+    Cards can be |Boosted| up to 9 times.
+
+    Cards get additional effects when |Boosted|.
+
+    |Boost| is reset when the card is played while an additional effect has been gained.

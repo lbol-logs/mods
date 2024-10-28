@@ -1,0 +1,8 @@
+﻿PatchouliConcentration:
+  Name: 집중
+  Description: >-
+    카드를 {Value1}장 뽑습니다.
+
+    |증강| {BoostThreshold1} 과 {BoostThreshold2}: |방어|를 {Value2} 얻습니다.
+
+    (|증강|: {Boost})

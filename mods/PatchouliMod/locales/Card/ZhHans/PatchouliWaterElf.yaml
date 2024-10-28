@@ -1,0 +1,10 @@
+﻿PatchouliWaterElf:
+  Name: 水精灵
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    |咏唱| {Value1} 个|水符|。
+
+    |咏唱| {Value1} 个|木符|。
+
+    |每层增幅|：{SelfName}的费用减少{Mana}。

@@ -1,0 +1,6 @@
+﻿PatchouliFatesHand:
+  Name: Fate's Hand
+  Description: >-
+    Draw {Value1} cards.
+
+    |For each Boost|: {SelfName} costs {Mana} less to play.

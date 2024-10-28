@@ -1,0 +1,7 @@
+﻿PatchouliAgniShine:
+  Name: アグニシャイン
+  Description: >-
+    {Damage}ダメージを{Value2}回与える。
+
+    |火の印|{Value1}を得る。
+  UpgradedDescription: "{Damage}ダメージを{Value2}回与える。\n|火の印|{Value1}を得る。\n|火の印|の|パッシブ|効果を発動させる。  "

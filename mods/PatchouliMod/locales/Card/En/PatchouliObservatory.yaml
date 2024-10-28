@@ -1,0 +1,12 @@
+﻿PatchouliObservatory:
+  Name: Observatory
+  Description: >-
+    Deal {Damage} damage.
+
+    Add {Value1} |Astronomy| to the hand.
+  UpgradedDescription: >-
+    Deal {Damage} damage.
+
+    Add {Value1} |Astronomy| to the hand.
+
+    |Boost| all the cards in the hand.

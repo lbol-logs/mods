@@ -1,0 +1,10 @@
+﻿PatchouliFireSignSe:
+  Name: 火符
+  Description: >-
+    |被动|：对生命值最低的敌人造成 {PassiveAmount} 点伤害。
+
+    |主动|：对生命值最低的敌人造成 {ActiveAmount} 点伤害。获得<sprite="ManaSprite" name="R">。
+  Brief: >-
+    |被动|对生命值最低的敌人造成 3 点伤害。
+
+    |主动|对生命值最低的敌人造成 5 点伤害。获得<sprite="ManaSprite" name="R">。

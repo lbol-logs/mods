@@ -1,0 +1,8 @@
+﻿PatchouliMetalFatigue:
+  Name: Metal Fatigue
+  Description: >-
+    |Spellcast| {Value1} |Metal Sign|.
+
+    Apply {Value2} |Temporary Firepower Down|.
+
+    |Boost| {BoostThreshold1}: Apply {Value2} |Firepower Down| and |Exile| {SelfName}.

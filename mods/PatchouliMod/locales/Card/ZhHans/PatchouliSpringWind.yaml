@@ -1,0 +1,10 @@
+﻿PatchouliSpringWind:
+  Name: 春之风
+  Description: >-
+    选择手中至多 {Value1} 张牌。赋予它们|回响|。
+
+    |增幅| {BoostThreshold1}：将 {Value1} 张|生机|加入手中。
+  UpgradedDescription: >-
+    选择手中至多 {Value1} 张牌。赋予它们|回响|。
+
+    |增幅| {BoostThreshold1}：将 {Value1} 张|幻虹|加入手中。

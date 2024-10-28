@@ -1,0 +1,10 @@
+﻿PatchouliTemporaryIntelligenceSe:
+  Name: 일시 지혜
+  Description: >-
+    턴 종료시 까지 |지혜|가 증가합니다.
+
+    |지혜|는 |원소 전개된 원소|의 효과를 {Level} 만큼 증가시킵니다.
+  Brief: >-
+    턴 종료시 까지 |지혜|가 증가합니다.
+
+    |지혜|는 |원소 전개된 원소|의 효과를 증가시킵니다.

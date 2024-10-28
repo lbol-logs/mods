@@ -1,0 +1,3 @@
+﻿PatchouliMagicalResearch:
+  Name: 魔法研究
+  Description: 从 {Value1} 张随机的|增幅|牌中选择 1 张加入手中。这张牌|暂塑|为{Mana}，具有|放逐|和|虚无|。

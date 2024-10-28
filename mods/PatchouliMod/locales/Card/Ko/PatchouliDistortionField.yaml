@@ -1,0 +1,10 @@
+﻿PatchouliDistortionField:
+  Name: 왜곡장
+  Description: >-
+    |그레이즈|를 {Value1} 얻습니다.
+
+    패의 모든 카드를 |증강|합니다.
+  UpgradedDescription: >-
+    |그레이즈|를 {Value1} 얻습니다.
+
+    패의 모든 카드를 두번 |증강|합니다.

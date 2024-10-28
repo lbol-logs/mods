@@ -1,0 +1,6 @@
+﻿PatchouliFatesHand:
+  Name: 命运之手
+  Description: >-
+    抽 {Value1} 张牌。
+
+    |每层增幅|： {SelfName} 的费用减少{Mana}。

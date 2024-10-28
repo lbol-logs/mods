@@ -1,0 +1,6 @@
+﻿PatchouliLavaCromlech:
+  Name: 环状熔岩带
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    本场战斗中每|咏唱|过一个|曜符|，额外造成 {Value1} 点伤害。

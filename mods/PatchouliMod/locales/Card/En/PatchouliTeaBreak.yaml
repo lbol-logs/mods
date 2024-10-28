@@ -1,0 +1,10 @@
+﻿PatchouliTeaBreak:
+  Name: Tea Break
+  Description: >-
+    Gain {Value1} life.
+
+    Remove {PlayerName}'s |Vulnerable|.
+  UpgradedDescription: >-
+    Gain {Value1} life.
+
+    Remove {PlayerName}'s |Lock On|, |Vulnerable| and |Weak|.

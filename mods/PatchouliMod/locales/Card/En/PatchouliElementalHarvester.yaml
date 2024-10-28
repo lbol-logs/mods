@@ -1,0 +1,6 @@
+﻿PatchouliElementalHarvester:
+  Name: Elemental Harvester
+  Description: >-
+    Gain {Mana}.
+
+    |Boost| {BoostThreshold1}: Gain an additional {BonusMana}.

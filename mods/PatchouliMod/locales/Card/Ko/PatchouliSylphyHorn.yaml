@@ -1,0 +1,6 @@
+﻿PatchouliSylphyHorn:
+  Name: 실피 호른
+  Description: >-
+    |목부| {Value1} |원소 전개|.
+
+    |원소|의 |발동|효과가 발동될시, |소멸| 구역에서 {SelfName}을 손으로 가져옵니다.

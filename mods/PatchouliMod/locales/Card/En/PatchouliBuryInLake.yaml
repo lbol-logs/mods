@@ -1,0 +1,10 @@
+﻿PatchouliBuryInLake:
+  Name: Bury In Lake
+  Description: >-
+    Gain {Block} |Block|.
+
+    |Spellcast| {Value1} |Water Sign|.
+  UpgradedDescription: >-
+    Gain {Shield} |Barrier|.
+
+    |Spellcast| {Value1} |Water Sign|.

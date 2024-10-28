@@ -1,0 +1,13 @@
+﻿PatchouliKoakumaFriend:
+  Name: 소악마, 비서 사역마
+  Description: >-
+    <indent=80>|화부| {Value1} |원소 전개|.
+
+    <indent=0><sprite="Passive" name="1"><indent=80>카드를 {Value1} 뽑습니다.
+  UpgradedDescription: >-
+    <indent=80>|화부| {Value1} |원소 전개|.
+
+    <indent=0><sprite="Passive" name="2"><indent=80>카드를 {Value1} 뽑습니다.
+  ExtraDescription1: <indent=0><sprite="Active" name="-4"><indent=80>|괴이|를 손에 넣습니다.
+  UpgradedExtraDescription1: <indent=0><sprite="Active" name="-4"><indent=80>|채홍|을 손에 넣습니다.
+  ExtraDescription2: <indent=0><sprite="Ultimate" name="-8"><indent=80>이번 전투에서 |화부|가 피해를 두배로 줍니다.

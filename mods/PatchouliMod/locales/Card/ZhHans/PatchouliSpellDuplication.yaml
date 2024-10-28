@@ -1,0 +1,9 @@
+﻿PatchouliSpellDuplication:
+  Name: 法术复制器
+  Description: >-
+    选择一张手牌。 将它的 {Value1} 张|复制|加入手中。
+
+    这张复制|暂塑为|{Mana}，具有|放逐|和|虚无|。
+
+    如果这是一张|增幅|牌，获得其|增幅|。
+  DetailText: 不能选择|复制品|。

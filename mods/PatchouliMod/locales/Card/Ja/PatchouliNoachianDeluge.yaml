@@ -1,0 +1,10 @@
+﻿PatchouliNoachianDeluge:
+  Name: ノアの大洪水
+  Description: >-
+    {Damage}ダメージを与える。
+
+    {SelfName}の|詠唱値|上限は無い。
+
+    |詠唱値|1につきダメージを{Value1}増やす。
+
+    |詠唱|

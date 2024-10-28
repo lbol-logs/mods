@@ -1,0 +1,7 @@
+﻿PatchouliSpellPowerGrasp:
+  Name: 法力掌握
+  Description: '{PlayerName}的回合开始时，|增幅|手中的所有牌。'
+  UpgradedDescription: >-
+    |增幅|手中的所有牌。
+
+    {PlayerName}的回合开始时，|增幅|手中的所有牌。

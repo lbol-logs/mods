@@ -1,0 +1,8 @@
+﻿PatchouliMoonlitChill:
+  Name: 月下寒意
+  Description: >-
+    获得 {Value1} 点|火力|和 {Value2} 点|灵力|。
+
+    |增幅| {BoostThreshold1}：额外获得 {Value2} 点 |火力|。
+
+    |增幅| {BoostThreshold2}：额外获得 {Value1} 点|灵力|。

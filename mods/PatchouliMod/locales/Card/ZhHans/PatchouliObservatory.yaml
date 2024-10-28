@@ -1,0 +1,12 @@
+﻿PatchouliObservatory:
+  Name: 天文台
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    将 {Value1} 张|天文学|加入手中。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害。
+
+    将 {Value1} 张|天文学|加入手中。
+
+    |增幅|手中的所有牌。

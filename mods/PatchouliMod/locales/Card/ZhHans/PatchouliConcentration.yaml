@@ -1,0 +1,6 @@
+﻿PatchouliConcentration:
+  Name: 专注
+  Description: >-
+    抽 {Value1} 张牌。
+
+    |增幅| {BoostThreshold1} 以及 {BoostThreshold2}：获得 {Value2} 点|格挡|。

@@ -1,0 +1,10 @@
+﻿PatchouliDistortionField:
+  Name: 歪曲フィールド
+  Description: >-
+    |グレイズ|{Value1}を得る。
+
+    手札の|詠唱|カードの|詠唱値|を1増やす。
+  UpgradedDescription: >-
+    |グレイズ|{Value1}を得る。
+
+    手札の|詠唱|カードの|詠唱値|を2増やす。

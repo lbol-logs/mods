@@ -1,0 +1,10 @@
+﻿PatchouliOneWeekGirl:
+  Name: One-week Girl
+  Description: >-
+    Spellcast {Value1} |Fire sign|.
+
+    At the start of each turn, |Spellcast| {Value1} |Water Sign|, this |Sign| alternates every turn.
+  DetailText: >-
+    The |Signs| alternates in the following order:
+
+    |Fire| -> |Water| -> |Wood| -> |Metal| -> |Earth| -> |Sun| -> |Moon|"

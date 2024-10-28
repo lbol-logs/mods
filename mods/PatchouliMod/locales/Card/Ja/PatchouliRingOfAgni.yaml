@@ -1,0 +1,10 @@
+﻿PatchouliRingOfAgni:
+  Name: リングオブアグニ
+  Description: >-
+    {Damage}ダメージを与える。
+
+    |{Mana}につき|:{Value1}ダメージ増やす。
+
+    |詠唱値|1につき{Value1}ダメージ増やす。
+
+    |詠唱|

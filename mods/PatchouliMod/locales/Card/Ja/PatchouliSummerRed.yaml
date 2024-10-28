@@ -1,0 +1,6 @@
+﻿PatchouliSummerRed:
+  Name: サマーレッド
+  Description: >-
+    手札を{Value1}枚選び、1ターン|保留|する。
+
+    |詠唱|カードを選んだ場合、|詠唱値|を{Value2}増やす。

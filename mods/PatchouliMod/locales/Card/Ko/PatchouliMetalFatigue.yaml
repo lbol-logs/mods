@@ -1,0 +1,10 @@
+﻿PatchouliMetalFatigue:
+  Name: 메탈 퍼티그
+  Description: >-
+    |금부| {Value1} |원소 전개|.
+
+    |일시 화력 저하|를 {Value2} 줍니다.
+
+    |증강| {BoostThreshold1}: |취약|을 {Value2} 줍니다.
+
+    (|증강|: {Boost})

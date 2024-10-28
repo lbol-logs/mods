@@ -1,0 +1,10 @@
+﻿PatchouliVoile:
+  Name: ラクトガール
+  Description: >-
+    |詠唱|カードに以下の効果を追加する。
+
+    |詠唱値|{BoostThreshold1}以上なら、カードを{Value1}枚引く。
+
+    |詠唱値|{BoostThreshold2}以上なら、{Mana}を得る。
+
+    |詠唱値|{BoostThreshold3}以上なら、|火力|{Value1}を得る。

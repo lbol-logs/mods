@@ -1,0 +1,6 @@
+﻿PatchouliManaDrain:
+  Name: 마나 흡수
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |증강| {BoostThreshold1}: |허약|을 {Value1} 줍니다.(|증강|: {Boost})

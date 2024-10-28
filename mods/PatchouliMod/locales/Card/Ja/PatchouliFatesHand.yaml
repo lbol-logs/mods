@@ -1,0 +1,8 @@
+﻿PatchouliFatesHand:
+  Name: 運命の手
+  Description: >-
+    カードを{Value1}枚引く。
+
+    |詠唱値|1につき、このカードのコストを{Mana}減らす。
+
+    |詠唱|

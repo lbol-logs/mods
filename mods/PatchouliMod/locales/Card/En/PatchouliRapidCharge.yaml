@@ -1,0 +1,10 @@
+﻿PatchouliRapidCharge:
+  Name: Rapid Charge
+  Description: >-
+    Trigger the |Passive| effect of each |Sign| casting.
+
+    |Overflow|: Gain {Mana}
+  UpgradedDescription: >-
+    Trigger the |Passive| effect of each |Sign| casting twice.
+
+    |Overflow|: Gain {Mana}

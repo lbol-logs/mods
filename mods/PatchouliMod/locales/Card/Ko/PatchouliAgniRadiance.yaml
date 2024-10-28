@@ -1,0 +1,8 @@
+﻿PatchouliAgniRadiance:
+  Name: 아그니 레이디언스
+  Description: >-
+    |화부| {Value1} |원소 전개|.
+
+    |증강 할 때 마다|: 추가로 |화부| {Value2} |원소 전개|.
+
+    (|증강|: {Boost})

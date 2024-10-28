@@ -1,0 +1,8 @@
+﻿PatchouliDiamondHardness:
+  Name: Diamond Hardness
+  Description: >-
+    Gain {Shield} |Barrier|.
+
+    Gain {Value1} |Reflection|.
+
+    |Boost| {BoostThreshold1}: Gain {Value2} |Static Charge|.

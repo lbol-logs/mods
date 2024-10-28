@@ -1,0 +1,6 @@
+﻿PatchouliEmeraldMegalith:
+  Name: Emerald Megalith
+  Description: >-
+    Gain {Block} |Block|.
+
+    If {PlayerName} has {Value1} or more casting |Signs|, Trigger the |Passive| effect of each |Sign| casting.

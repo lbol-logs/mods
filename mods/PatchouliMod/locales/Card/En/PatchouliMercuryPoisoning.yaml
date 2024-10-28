@@ -1,0 +1,8 @@
+﻿PatchouliMercuryPoisoning:
+  Name: Mercury Poisoning
+  Description: >-
+    |Spellcast| {Value3} |Metal Sign|.
+
+    |Choose|: Apply {Value1} |Poison|, or Apply {Value2} |Weak|.
+  ExtraDescription1: Apply {Value1} |Poison|.
+  ExtraDescription2: Apply {Value2} |Weak|.

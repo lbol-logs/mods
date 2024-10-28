@@ -1,0 +1,4 @@
+﻿PatchouliTwinspell:
+  Name: 双生法术
+  Description: 抽 {Value1} 张牌。    |手牌中|：当{PlayerName}打出一张|增幅|牌后，{SelfName}在本场战斗中变形为其复制，并获得其|增幅|层数。
+  UpgradedDescription: 抽 {Value1} 张牌。    |手牌中|：当{PlayerName}打出一张|增幅|牌后，{SelfName}在本场战斗中变形为其|升级|后的复制，并获得其|增幅|层数。

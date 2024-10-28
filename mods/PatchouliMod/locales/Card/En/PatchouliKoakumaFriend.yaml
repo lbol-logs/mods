@@ -1,0 +1,13 @@
+﻿PatchouliKoakumaFriend:
+  Name: Koakuma, Devilish Assistant
+  Description: >-
+    <indent=80>|Spellcast| {Value1} |Fire Sign|.
+
+    <indent=0><sprite="Passive" name="1"><indent=80>Draw {Value1} card.
+  UpgradedDescription: >-
+    <indent=80>|Spellcast| {Value1} |Fire Sign|.
+
+    <indent=0><sprite="Passive" name="2"><indent=80>Draw {Value1} card.
+  ExtraDescription1: <indent=0><sprite="Active" name="-4"><indent=80>Add an |Occult| to the hand.
+  UpgradedExtraDescription1: <indent=0><sprite="Active" name="-4"><indent=80>Add a |Rainbow| to the hand.
+  ExtraDescription2: <indent=0><sprite="Ultimate" name="-8"><indent=80>|Fire Signs| deal double damage for the rest of combat.

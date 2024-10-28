@@ -1,0 +1,10 @@
+﻿PatchouliMoonlitChill:
+  Name: 寒月
+  Description: >-
+    |火力|{Value1}と|霊力|{Value2}を得る。
+
+    |詠唱値|{BoostThreshold1}以上なら、追加で|火力|{Value2}を得る。
+
+    |詠唱値|{BoostThreshold2}以上なら、追加で|霊力|{Value1}を得る。
+
+    |詠唱|

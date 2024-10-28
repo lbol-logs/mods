@@ -1,0 +1,8 @@
+﻿PatchouliPhlogisticRain:
+  Name: フロギスティックレイン
+  Description: >-
+    {Damage}ダメージを{Value2}回与える。
+
+    |詠唱値|{BoostThreshold1}以上なら、{Mana}を得て、カードを{Value1}枚引く。
+
+    |詠唱|

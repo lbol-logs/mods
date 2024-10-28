@@ -1,0 +1,8 @@
+﻿PatchouliDiamondHardness:
+  Name: 钻石硬度
+  Description: >-
+    获得 {Shield} 点|护盾|。
+
+    获得 {Value1} 点|反射|。
+
+    |增幅| {BoostThreshold1}：获得 {Value2} 点|带电|。
