@@ -1,4 +1,15 @@
 {
+  "PatchouliMod": {
+    "BaseMana": "UUBB",
+    "A": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "PatchouliAttackU", "PatchouliAttackU", "PatchouliBlockB", "PatchouliBlockB", "PatchouliBlockB", "PatchouliArcaneWard", "PatchouliCondensedBubble"],
+      "Exhibit": "PatchouliExhibitU"
+    },
+    "B": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "PatchouliAttackB", "PatchouliAttackB", "PatchouliBlockU", "PatchouliBlockU", "PatchouliBlockU", "PatchouliAgniShine"],
+      "Exhibit": "PatchouliExhibitB"
+    }
+  },
   "Sanae_Kochiya": {
     "BaseMana": "WUGG",
     "A": {
