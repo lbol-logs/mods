@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{15FA44C6-584E-4625-BF53-3EBE9D952EAB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PatchouliCharacterMod</RootNamespace>
+    <AssemblyName>PatchouliCharacterMod</AssemblyName>
+    <TargetFrameworkVersion>v2.1</TargetFrameworkVersion>
+    <TargetFrameworkIdentifier>.NETStandard</TargetFrameworkIdentifier>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony" />
+    <Reference Include="BepInEx" />
+    <Reference Include="LBoL-AddWatermark" />
+    <Reference Include="LBoL-Entity-Sideloader" />
+    <Reference Include="LBoL.Base">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.ConfigData">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.ConfigData.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.Core">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.EntityLib">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.EntityLib.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.Presentation">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.Presentation.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="UniTask">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\UniTask.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BattleActions\BoostAction.cs" />
+    <Compile Include="BattleActions\BoostAllInHandAction.cs" />
+    <Compile Include="BattleActions\BoostEventArgs.cs" />
+    <Compile Include="BattleActions\TriggerAllSignsPassiveAction.cs" />
+    <Compile Include="BattleActions\TriggerAllSignsPassiveEventArgs.cs" />
+    <Compile Include="BattleActions\TriggerSignAction.cs" />
+    <Compile Include="BattleActions\TriggerSignEventArgs.cs" />
+    <Compile Include="BattleActions\TriggerSignPassiveAction.cs" />
+    <Compile Include="BattleActions\TriggerSignPassiveEventArgs.cs" />
+    <Compile Include="BepinexPlugin.cs" />
+    <Compile Include="Cards\B\PatchouliKoakumaFriend.cs" />
+    <Compile Include="Cards\B\PatchouliKoakumaFriendDef.cs" />
+    <Compile Include="Cards\B\PatchouliMagicalResearch.cs" />
+    <Compile Include="Cards\B\PatchouliMagicalResearchDef.cs" />
+    <Compile Include="Cards\B\PatchouliSakuyaFriend.cs" />
+    <Compile Include="Cards\B\PatchouliSakuyaFriendDef.cs" />
+    <Compile Include="Cards\PatchouliAgniRadiance.cs" />
+    <Compile Include="Cards\PatchouliAgniRadianceDef.cs" />
+    <Compile Include="Cards\PatchouliAgniShine.cs" />
+    <Compile Include="Cards\PatchouliAgniShineDef.cs" />
+    <Compile Include="Cards\PatchouliArcaneWard.cs" />
+    <Compile Include="Cards\PatchouliArcaneWardDef.cs" />
+    <Compile Include="Cards\PatchouliAstronomy.cs" />
+    <Compile Include="Cards\PatchouliAstronomyDef.cs" />
+    <Compile Include="Cards\PatchouliAstronomyStudy.cs" />
+    <Compile Include="Cards\PatchouliAstronomyStudyDef.cs" />
+    <Compile Include="Cards\PatchouliAttackB.cs" />
+    <Compile Include="Cards\PatchouliAttackBDef.cs" />
+    <Compile Include="Cards\PatchouliAttackU.cs" />
+    <Compile Include="Cards\PatchouliAttackUDef.cs" />
+    <Compile Include="Cards\PatchouliAutumnBlade.cs" />
+    <Compile Include="Cards\PatchouliAutumnBladeDef.cs" />
+    <Compile Include="Cards\PatchouliAwakenedSpellbook.cs" />
+    <Compile Include="Cards\PatchouliAwakenedSpellbookDef.cs" />
+    <Compile Include="Cards\PatchouliBlockB.cs" />
+    <Compile Include="Cards\PatchouliBlockBDef.cs" />
+    <Compile Include="Cards\PatchouliBlockU.cs" />
+    <Compile Include="Cards\PatchouliBlockUDef.cs" />
+    <Compile Include="Cards\PatchouliBuryInLake.cs" />
+    <Compile Include="Cards\PatchouliBuryInLakeDef.cs" />
+    <Compile Include="Cards\PatchouliCircadianRhythm.cs" />
+    <Compile Include="Cards\PatchouliCircadianRhythmDef.cs" />
+    <Compile Include="Cards\PatchouliConcentration.cs" />
+    <Compile Include="Cards\PatchouliConcentrationDef.cs" />
+    <Compile Include="Cards\PatchouliCondensedBubble.cs" />
+    <Compile Include="Cards\PatchouliCondensedBubbleDef.cs" />
+    <Compile Include="Cards\PatchouliCounterspell.cs" />
+    <Compile Include="Cards\PatchouliCounterspellDef.cs" />
+    <Compile Include="Cards\PatchouliCountersquall.cs" />
+    <Compile Include="Cards\PatchouliCountersquallDef.cs" />
+    <Compile Include="Cards\PatchouliCurrentConductor.cs" />
+    <Compile Include="Cards\PatchouliCurrentConductorDef.cs" />
+    <Compile Include="Cards\PatchouliDiamondHardness.cs" />
+    <Compile Include="Cards\PatchouliDiamondHardnessDef.cs" />
+    <Compile Include="Cards\PatchouliDiamondRing.cs" />
+    <Compile Include="Cards\PatchouliDiamondRingDef.cs" />
+    <Compile Include="Cards\PatchouliDimensionShift.cs" />
+    <Compile Include="Cards\PatchouliDimensionShiftDef.cs" />
+    <Compile Include="Cards\PatchouliDistortionField.cs" />
+    <Compile Include="Cards\PatchouliDistortionFieldDef.cs" />
+    <Compile Include="Cards\PatchouliDoyouSpear.cs" />
+    <Compile Include="Cards\PatchouliDoyouSpearDef.cs" />
+    <Compile Include="Cards\PatchouliElementalHarvester.cs" />
+    <Compile Include="Cards\PatchouliElementalHarvesterDef.cs" />
+    <Compile Include="Cards\PatchouliElementalTriangle.cs" />
+    <Compile Include="Cards\PatchouliElementalTriangleDef.cs" />
+    <Compile Include="Cards\PatchouliElementalTriangleFire.cs" />
+    <Compile Include="Cards\PatchouliElementalTriangleFireDef.cs" />
+    <Compile Include="Cards\PatchouliElementalTriangleWater.cs" />
+    <Compile Include="Cards\PatchouliElementalTriangleWaterDef.cs" />
+    <Compile Include="Cards\PatchouliElementalTriangleWood.cs" />
+    <Compile Include="Cards\PatchouliElementalTriangleWoodDef.cs" />
+    <Compile Include="Cards\PatchouliEmeraldMegalith.cs" />
+    <Compile Include="Cards\PatchouliEmeraldMegalithDef.cs" />
+    <Compile Include="Cards\PatchouliEnigmaticMagic.cs" />
+    <Compile Include="Cards\PatchouliEnigmaticMagicDef.cs" />
+    <Compile Include="Cards\PatchouliEveryAngleShot.cs" />
+    <Compile Include="Cards\PatchouliEveryAngleShotDef.cs" />
+    <Compile Include="Cards\PatchouliFatesHand.cs" />
+    <Compile Include="Cards\PatchouliFatesHandDef.cs" />
+    <Compile Include="Cards\PatchouliFiveSeasons.cs" />
+    <Compile Include="Cards\PatchouliFiveSeasonsDef.cs" />
+    <Compile Include="Cards\PatchouliFlashOfSpring.cs" />
+    <Compile Include="Cards\PatchouliFlashOfSpringDef.cs" />
+    <Compile Include="Cards\PatchouliForestBlaze.cs" />
+    <Compile Include="Cards\PatchouliForestBlazeDef.cs" />
+    <Compile Include="Cards\PatchouliGingerDust.cs" />
+    <Compile Include="Cards\PatchouliGingerDustDef.cs" />
+    <Compile Include="Cards\PatchouliGirlOfKnowledge.cs" />
+    <Compile Include="Cards\PatchouliGirlOfKnowledgeDef.cs" />
+    <Compile Include="Cards\PatchouliGirlOfShade.cs" />
+    <Compile Include="Cards\PatchouliGirlOfShadeDef.cs" />
+    <Compile Include="Cards\PatchouliGrandIncantation.cs" />
+    <Compile Include="Cards\PatchouliGrandIncantationDef.cs" />
+    <Compile Include="Cards\PatchouliGreenStorm.cs" />
+    <Compile Include="Cards\PatchouliGreenStormDef.cs" />
+    <Compile Include="Cards\PatchouliHydrogenousProminence.cs" />
+    <Compile Include="Cards\PatchouliHydrogenousProminenceDef.cs" />
+    <Compile Include="Cards\PatchouliIntruderSecurity.cs" />
+    <Compile Include="Cards\PatchouliIntruderSecurityDef.cs" />
+    <Compile Include="Cards\PatchouliJellyfishPrincess.cs" />
+    <Compile Include="Cards\PatchouliJellyfishPrincessDef.cs" />
+    <Compile Include="Cards\PatchouliKnowledgeSeeker.cs" />
+    <Compile Include="Cards\PatchouliKnowledgeSeekerDef.cs" />
+    <Compile Include="Cards\PatchouliKrakenWave.cs" />
+    <Compile Include="Cards\PatchouliKrakenWaveDef.cs" />
+    <Compile Include="Cards\PatchouliLavaCromlech.cs" />
+    <Compile Include="Cards\PatchouliLavaCromlechDef.cs" />
+    <Compile Include="Cards\PatchouliManaDrain.cs" />
+    <Compile Include="Cards\PatchouliManaDrainDef.cs" />
+    <Compile Include="Cards\PatchouliMercuryPoisoning.cs" />
+    <Compile Include="Cards\PatchouliMercuryPoisoningDef.cs" />
+    <Compile Include="Cards\PatchouliMetalFatigue.cs" />
+    <Compile Include="Cards\PatchouliMetalFatigueDef.cs" />
+    <Compile Include="Cards\PatchouliMoongazing.cs" />
+    <Compile Include="Cards\PatchouliMoongazingDef.cs" />
+    <Compile Include="Cards\PatchouliMoonlitChill.cs" />
+    <Compile Include="Cards\PatchouliMoonlitChillDef.cs" />
+    <Compile Include="Cards\PatchouliNegate.cs" />
+    <Compile Include="Cards\PatchouliNegateDef.cs" />
+    <Compile Include="Cards\PatchouliNoachianDeluge.cs" />
+    <Compile Include="Cards\PatchouliNoachianDelugeDef.cs" />
+    <Compile Include="Cards\PatchouliObservatory.cs" />
+    <Compile Include="Cards\PatchouliObservatoryDef.cs" />
+    <Compile Include="Cards\PatchouliOneWeekGirl.cs" />
+    <Compile Include="Cards\PatchouliOneWeekGirlDef.cs" />
+    <Compile Include="Cards\PatchouliPhilosopherStone.cs" />
+    <Compile Include="Cards\PatchouliPhilosopherStoneDef.cs" />
+    <Compile Include="Cards\PatchouliPhlogisticPillar.cs" />
+    <Compile Include="Cards\PatchouliPhlogisticPillarDef.cs" />
+    <Compile Include="Cards\PatchouliPhlogisticRain.cs" />
+    <Compile Include="Cards\PatchouliPhlogisticRainDef.cs" />
+    <Compile Include="Cards\PatchouliPhotosynthesis.cs" />
+    <Compile Include="Cards\PatchouliPhotosynthesisDef.cs" />
+    <Compile Include="Cards\PatchouliRapidCharge.cs" />
+    <Compile Include="Cards\PatchouliRapidChargeDef.cs" />
+    <Compile Include="Cards\PatchouliRingOfAgni.cs" />
+    <Compile Include="Cards\PatchouliRingOfAgniDef.cs" />
+    <Compile Include="Cards\PatchouliRoyalFlare.cs" />
+    <Compile Include="Cards\PatchouliRoyalFlareDef.cs" />
+    <Compile Include="Cards\PatchouliSaintElmoPillar.cs" />
+    <Compile Include="Cards\PatchouliSaintElmoPillarDef.cs" />
+    <Compile Include="Cards\PatchouliSatelliteHimawari.cs" />
+    <Compile Include="Cards\PatchouliSatelliteHimawariDef.cs" />
+    <Compile Include="Cards\PatchouliSilentSelene.cs" />
+    <Compile Include="Cards\PatchouliSilentSeleneDef.cs" />
+    <Compile Include="Cards\PatchouliSilverDragon.cs" />
+    <Compile Include="Cards\PatchouliSilverDragonDef.cs" />
+    <Compile Include="Cards\PatchouliSpellCreation.cs" />
+    <Compile Include="Cards\PatchouliSpellCreationBlock.cs" />
+    <Compile Include="Cards\PatchouliSpellCreationBlockDef.cs" />
+    <Compile Include="Cards\PatchouliSpellCreationDef.cs" />
+    <Compile Include="Cards\PatchouliSpellCreationDraw.cs" />
+    <Compile Include="Cards\PatchouliSpellCreationDrawDef.cs" />
+    <Compile Include="Cards\PatchouliSpellCreationFire.cs" />
+    <Compile Include="Cards\PatchouliSpellCreationFireDef.cs" />
+    <Compile Include="Cards\PatchouliSpellCreationWeak.cs" />
+    <Compile Include="Cards\PatchouliSpellCreationWeakDef.cs" />
+    <Compile Include="Cards\PatchouliSpellDuplication.cs" />
+    <Compile Include="Cards\PatchouliSpellDuplicationDef.cs" />
+    <Compile Include="Cards\PatchouliSpellMastery.cs" />
+    <Compile Include="Cards\PatchouliSpellMasteryDef.cs" />
+    <Compile Include="Cards\PatchouliSpellPowerGrasp.cs" />
+    <Compile Include="Cards\PatchouliSpellPowerGraspDef.cs" />
+    <Compile Include="Cards\PatchouliSpringWind.cs" />
+    <Compile Include="Cards\PatchouliSpringWindDef.cs" />
+    <Compile Include="Cards\PatchouliSummerRed.cs" />
+    <Compile Include="Cards\PatchouliSummerRedDef.cs" />
+    <Compile Include="Cards\PatchouliSungrazerComet.cs" />
+    <Compile Include="Cards\PatchouliSungrazerCometDef.cs" />
+    <Compile Include="Cards\PatchouliSunshineReflector.cs" />
+    <Compile Include="Cards\PatchouliSunshineReflectorDef.cs" />
+    <Compile Include="Cards\PatchouliSylphyHorn.cs" />
+    <Compile Include="Cards\PatchouliSylphyHornDef.cs" />
+    <Compile Include="Cards\PatchouliTeaBreak.cs" />
+    <Compile Include="Cards\PatchouliTeaBreakDef.cs" />
+    <Compile Include="Cards\PatchouliTheUnmovingGreatLibrary.cs" />
+    <Compile Include="Cards\PatchouliTheUnmovingGreatLibraryDef.cs" />
+    <Compile Include="Cards\PatchouliTidalWave.cs" />
+    <Compile Include="Cards\PatchouliTidalWaveDef.cs" />
+    <Compile Include="Cards\PatchouliTwinspell.cs" />
+    <Compile Include="Cards\PatchouliTwinspellDef.cs" />
+    <Compile Include="Cards\PatchouliVoile.cs" />
+    <Compile Include="Cards\PatchouliVoileDef.cs" />
+    <Compile Include="Cards\PatchouliWaterElf.cs" />
+    <Compile Include="Cards\PatchouliWaterElfDef.cs" />
+    <Compile Include="Cards\Template\PatchouliBoostCard.cs" />
+    <Compile Include="Cards\Template\PatchouliCard.cs" />
+    <Compile Include="Cards\Template\PatchouliCardTemplate.cs" />
+    <Compile Include="Cards\Template\PatchouliCounterUtils.cs" />
+    <Compile Include="Exhibits\PatchouliExhibitB.cs" />
+    <Compile Include="Exhibits\PatchouliExhibitBDef.cs" />
+    <Compile Include="Exhibits\PatchouliExhibitTemplate.cs" />
+    <Compile Include="Exhibits\PatchouliExhibitU.cs" />
+    <Compile Include="Exhibits\PatchouliExhibitUDef.cs" />
+    <Compile Include="GunName\PatchouliGunName.cs" />
+    <Compile Include="Illustrator\PatchouliIllustrationRefs.cs" />
+    <Compile Include="Illustrator\PatchouliIllustrator.cs" />
+    <Compile Include="ImageLoader\PatchouliDefaultConfig.cs" />
+    <Compile Include="ImageLoader\PatchouliImageLoader.cs" />
+    <Compile Include="Localization\PatchouliLocalization.cs" />
+    <Compile Include="model\PatchouliPlayerModel.cs" />
+    <Compile Include="PatchouliLoadouts.cs" />
+    <Compile Include="PatchouliPlayerDef.cs" />
+    <Compile Include="PatchouliUlt\PatchouliUltB.cs" />
+    <Compile Include="PatchouliUlt\PatchouliUltBDef.cs" />
+    <Compile Include="PatchouliUlt\PatchouliUltTemplate.cs" />
+    <Compile Include="PatchouliUlt\PatchouliUltU.cs" />
+    <Compile Include="PatchouliUlt\PatchouliUltUDef.cs" />
+    <Compile Include="Patch\BoostCardWidgetPatch.cs" />
+    <Compile Include="Patch\CustomGameEventPatch.cs" />
+    <Compile Include="Patch\SignStatusEffectWidgetPatch.cs" />
+    <Compile Include="PInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StatusEffects\PatchouliAstronomyStudySe.cs" />
+    <Compile Include="StatusEffects\PatchouliAstronomyStudySeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliAwakenedSpellbookSe.cs" />
+    <Compile Include="StatusEffects\PatchouliAwakenedSpellbookSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliBoostSe.cs" />
+    <Compile Include="StatusEffects\PatchouliBoostSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliCircadianRhythmSe.cs" />
+    <Compile Include="StatusEffects\PatchouliCircadianRhythmSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliCounterSe.cs" />
+    <Compile Include="StatusEffects\PatchouliCounterSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliCurrentConductorSe.cs" />
+    <Compile Include="StatusEffects\PatchouliCurrentConductorSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliEarthSignSe.cs" />
+    <Compile Include="StatusEffects\PatchouliEarthSignSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliEnigmaticMagicSe.cs" />
+    <Compile Include="StatusEffects\PatchouliEnigmaticMagicSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliFireSignSe.cs" />
+    <Compile Include="StatusEffects\PatchouliFireSignSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliFiveSeasonsSe.cs" />
+    <Compile Include="StatusEffects\PatchouliFiveSeasonsSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliGirlOfShadeSe.cs" />
+    <Compile Include="StatusEffects\PatchouliGirlOfShadeSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliGrandIncantationSe.cs" />
+    <Compile Include="StatusEffects\PatchouliGrandIncantationSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliIntelligenceSe.cs" />
+    <Compile Include="StatusEffects\PatchouliIntelligenceSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliKoakumaFriendSe.cs" />
+    <Compile Include="StatusEffects\PatchouliKoakumaFriendSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliMetalSignSe.cs" />
+    <Compile Include="StatusEffects\PatchouliMetalSignSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliMoonSignSe.cs" />
+    <Compile Include="StatusEffects\PatchouliMoonSignSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliOneWeekGirlSe.cs" />
+    <Compile Include="StatusEffects\PatchouliOneWeekGirlSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliPhlogisticPillarSe.cs" />
+    <Compile Include="StatusEffects\PatchouliPhlogisticPillarSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliSaintElmoPillarSe.cs" />
+    <Compile Include="StatusEffects\PatchouliSaintElmoPillarSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliSatelliteHimawariSe.cs" />
+    <Compile Include="StatusEffects\PatchouliSatelliteHimawariSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliSignKeywordSe.cs" />
+    <Compile Include="StatusEffects\PatchouliSignKeywordSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliSignSe.cs" />
+    <Compile Include="StatusEffects\PatchouliSignTemplate.cs" />
+    <Compile Include="StatusEffects\PatchouliSpellPowerGraspSe.cs" />
+    <Compile Include="StatusEffects\PatchouliSpellPowerGraspSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliStatusEffectTemplate.cs" />
+    <Compile Include="StatusEffects\PatchouliSunSignSe.cs" />
+    <Compile Include="StatusEffects\PatchouliSunSignSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliTemporaryIntelligenceSe.cs" />
+    <Compile Include="StatusEffects\PatchouliTemporaryIntelligenceSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliTheUnmovingGreatLibrarySe.cs" />
+    <Compile Include="StatusEffects\PatchouliTheUnmovingGreatLibrarySeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliVoileSe.cs" />
+    <Compile Include="StatusEffects\PatchouliVoileSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliWaterSignSe.cs" />
+    <Compile Include="StatusEffects\PatchouliWaterSignSeDef.cs" />
+    <Compile Include="StatusEffects\PatchouliWoodSignSe.cs" />
+    <Compile Include="StatusEffects\PatchouliWoodSignSeDef.cs" />
+    <Compile Include="StatusEffects\Signs.cs" />
+    <Compile Include="System\Runtime\CompilerServices\IgnoresAccessChecksToAttribute.cs" />
+    <Compile Include="WatermarkWrapper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Cards\PatchouliAgniRadiance.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliAgniShine.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliArcaneWard.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliAstronomy.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliAstronomyStudy.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliAttackB.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliAttackU.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliAutumnBlade.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliAwakenedSpellbook.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliBlockB.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliBlockU.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliBuryInLake.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliCircadianRhythm.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliConcentration.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliCondensedBubble.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliCounterspell.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliCountersquall.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliCurrentConductor.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliDiamondHardness.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliDiamondRing.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliDimensionShift.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliDistortionField.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliDoyouSpear.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliElementalHarvester.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliElementalTriangle.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliElementalTriangleFire.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliElementalTriangleWater.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliElementalTriangleWood.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliEmeraldMegalith.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliEnigmaticMagic.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliEveryAngleShot.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliFatesHand.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliFiveSeasons.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliFlashOfSpring.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliForestBlaze.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliGingerDust.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliGirlOfKnowledge.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliGirlOfShade.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliGrandIncantation.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliGreenStorm.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliHydrogenousProminence.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliIntruderSecurity.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliJellyfishPrincess.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliKnowledgeSeeker.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliKoakumaFriend.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliKrakenWave.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliLavaCromlech.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliMagicalResearch.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliManaDrain.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliMercuryPoisoning.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliMetalFatigue.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliMoongazing.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliMoonlitChill.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliNegate.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliNoachianDeluge.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliObservatory.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliOneWeekGirl.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliPhilosopherStone.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliPhlogisticPillar.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliPhlogisticRain.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliPhotosynthesis.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliRapidCharge.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliRingOfAgni.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliRoyalFlare.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliSaintElmoPillar.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliSakuyaFriend.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliSatelliteHimawari.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliSilentSelene.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliSilverDragon.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliSpellCreation.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliSpellCreationBlock.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliSpellCreationDraw.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliSpellCreationFire.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliSpellCreationWeak.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliSpellDuplication.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliSpellMastery.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliSpellPowerGrasp.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliSpringWind.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliSummerRed.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliSungrazerComet.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliSunshineReflector.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliSylphyHorn.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliTeaBreak.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliTheUnmovingGreatLibrary.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliTidalWave.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliTwinspell.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliVoile.png" />
+    <EmbeddedResource Include="Resources\Cards\PatchouliWaterElf.png" />
+    <EmbeddedResource Include="Resources\Exhibits\PatchouliExhibitB.png" />
+    <EmbeddedResource Include="Resources\Exhibits\PatchouliExhibitU.png" />
+    <EmbeddedResource Include="Resources\PatchouliModel.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliAstronomyStudySe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliAwakenedSpellbookSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliBoostSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliCircadianRhythmSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliCounterSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliCurrentConductorSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliEarthSignSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliEnigmaticMagicSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliFireSignSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliFiveSeasonsSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliGirlOfShadeSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliGrandIncantationSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliIntelligenceSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliKoakumaFriendSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliMetalSignSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliMoonSignSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliOneWeekGirlSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliPhlogisticPillarSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliSaintElmoPillarSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliSatelliteHimawariSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliSignKeywordSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliSpellPowerGraspSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliSunSignSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliTemporaryIntelligenceSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliTheUnmovingGreatLibrarySe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliVoileSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliWaterSignSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\PatchouliWoodSignSe.png" />
+    <EmbeddedResource Include="Resources\Ult\PatchouliUltB.png" />
+    <EmbeddedResource Include="Resources\Ult\PatchouliUltU.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

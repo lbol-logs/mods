@@ -1,0 +1,132 @@
+PatchouliBoostSe:
+  Name: "Boost"
+  Description: ""
+  Brief: "Each time a card is played while this card is in the hand, increase the card's |Boost| by 1.\nCards can be |Boosted| up to 9 times.\nCards get additional effects when |Boosted|.\n|Boost| is reset when the card is played while an additional effect has been gained."
+
+PatchouliSignKeywordSe:
+  Name: "Sign"
+  Description: ""
+  Brief: "Gain the corresponding |Sign|.\nThe |Sign| |Passive| effect triggers when gained and at the start of each turn.\nAt the start of the Player 3rd turn after the |Sign| was gained, remove it and triggers the |Sign| |Active| effect instead."
+
+PatchouliCounterSe:
+  Name: "Counter"
+  Description: "If the target enemy intends to perform this action, activate the corresponding effect."
+  Brief: "If the target enemy intends to perform this action, activate the corresponding effect."
+
+PatchouliFireSignSe:
+  Name: Fire Sign
+  Description: "|Passive|: Deal {PassiveAmount} damage to the enemy with the least life. \n|Active|: Deal {ActiveAmount} to the enemy with the least life. Gain <sprite=\"ManaSprite\" name=\"R\">."
+  Brief: "|Passive|: Deal 3 Damage to the enemy with the least life. \n|Active|: Deal 5 to the enemy with the least life. Gain <sprite=\"ManaSprite\" name=\"R\">."
+
+PatchouliWaterSignSe:
+  Name: Water Sign
+  Description: "|Passive|: Gain {PassiveAmount} |Barrier|. \n|Active|: Gain {ActiveAmount} |Barrier|. Gain <sprite=\"ManaSprite\" name=\"U\">."
+  Brief: "|Passive|: Gain 1 |Barrier|. \n|Active|: Gain 3 |Barrier|. Gain <sprite=\"ManaSprite\" name=\"U\">."
+
+PatchouliWoodSignSe:
+  Name: Wood Sign
+  Description: "|Passive|: Increase this |Sign's Active| damage by {PassiveAmount}.\n|Active|: Deal {ActiveAmount} to the enemy with the most life. Gain <sprite=\"ManaSprite\" name=\"G\">."
+  Brief: "|Passive|: Increase this |Sign's| |Active| damage by 4.\n|Active|: Deal 4 to the enemy with the most life. Gain <sprite=\"ManaSprite\" name=\"G\">."
+
+PatchouliMetalSignSe:
+  Name: Metal Sign
+  Description: "|Passive|: Gain {PassiveAmount} |Reflection|. \n|Active|: Gain {ActiveAmount} |Reflection|. Gain <sprite=\"ManaSprite\" name=\"C\">."
+  Brief: "|Passive|: Gain 3 |Reflection|. \n|Active|: Gain 5 |Reflection|. Gain <sprite=\"ManaSprite\" name=\"C\">."
+
+PatchouliEarthSignSe:
+  Name: Earth Sign
+  Description: "|Passive|: Convert {PassiveAmount} random mana into |Philosopher's Mana|.\n|Active|: Convert {ActiveAmount} random mana into |Philosopher's Mana|. Gain <sprite=\"ManaSprite\" name=\"P\">."
+  Brief: "|Passive|: Convert 1 random mana into |Philosopher's Mana|.\n|Active|: Convert 2 random mana into |Philosopher's Mana|. Gain <sprite=\"ManaSprite\" name=\"P\">."
+
+PatchouliOldEarthSignSe:
+  Name: Earth Sign
+  Description: "|Passive|: Increases the effectiveness of |Spellcasted Signs| by {PassiveAmount} this turn.\n|Active|: Increases the effectiveness of |Spellcasted Signs| by {ActiveAmount} this turn. Gain <sprite=\"ManaSprite\" name=\"P\">."
+  Brief: "|Passive|: Increases the effectiveness of |Spellcasted Signs| by 1 this turn.\n|Active|: Increases the effectiveness of |Spellcasted Signs| by 2 this turn. Gain <sprite=\"ManaSprite\" name=\"P\">."
+
+PatchouliSunSignSe:
+  Name: Sun Sign
+  Description: "|Passive|: Deal {PassiveAmount} damage to each enemy. \n|Active|: Deal {ActiveAmount} to each enemy. Gain <sprite=\"ManaSprite\" name=\"W\">."
+  Brief: "|Passive|: Deal 2 damage to each enemy. \n|Active|: Deal 4 damage to each enemy. Gain <sprite=\"ManaSprite\" name=\"W\">."
+
+PatchouliMoonSignSe:
+  Name: Moon Sign
+  Description: "|Passive|: Gain {PassiveAmount} |Block|. \n|Active|: Gain {ActiveAmount} |Block|. Gain <sprite=\"ManaSprite\" name=\"B\">."
+  Brief: "|Passive|: Gain 2 |Block|. \n|Active|: Gain 4 |Block|. Gain <sprite=\"ManaSprite\" name=\"B\">."
+
+PatchouliAstronomyStudySe:
+  Name: Astronomy Study
+  Description: "At the start of the Player's turn, if there are no |Astronomies| in the hand, add {Level} |Astronomy| to the hand."
+
+PatchouliAwakenedSpellbookSe:
+  Name: Awakened Spellbook
+  Description: |-
+    Whenever a |Boost| card that has been |Boosted| {BoostThreshold1} or more times is played, |Spellcast| {Level} |Fire Sign|.
+    Whenever {PlayerName} |Spellcasts|, |Boost| all the cards in the hand time{Level:plural one='' other='s'} {Level}.
+
+PatchouliCircadianRhythmSe:
+  Name: Circadian Rhythm
+  Description: "When 1 or more |Sun| or |Moon Sign Active| effects trigger, |Spellcast| that many |Signs| of the other time{Level:plural one='' other='s'} {Level}."
+
+PatchouliCurrentConductorSe:
+  Name: Current Conductor
+  Description: "Whenever |Water Sign| triggers, Apply or add {Level} |Drowning| to each enemy and trigger |Drowning|."
+
+PatchouliEnigmaticMagicSe:
+  Name: Enigmatic Magic
+  Description: "Whenever the Player |Spellcasts|, gain {Level} Block."
+  Brief: "Whenever the Player |Spellcasts|, gain 1 Block."
+
+PatchouliFiveSeasonsSe:
+  Name: Five Seasons
+  Description: "At the end of each turn, trigger the |Passive| effect of each |Sign| casting {Level} time(s)."
+
+PatchouliIntelligenceSe:
+  Name: Intelligence
+  Description: "|Intelligence| increases the effectiveness of |Spellcasted Signs| by {Level}."
+  Brief: "|Intelligence| increases the effectiveness of |Spellcasted Signs|."
+
+PatchouliKoakumaFriendSe:
+  Name: Koakuma, Devilish Assistant
+  Description: "|Fire Signs| deal damage {Level} additional time{Level:plural one='' other='s'} for the rest of combat."
+
+PatchouliOneWeekGirlSe:
+  Name: One-week Girl
+  Description: "At the start of each turn, |Spellcast| {Level} |Sign|, the |Sign| alternates every turn.\nNext Sign: |{NextSign}| |Sign|"
+  Brief: "Fire Water Wood Metal Earth Sun Moon"
+
+PatchouliPhlogisticPillarSe:
+  Name: Phlogistic Pillar
+  Description: "Whenever a |Boost| card is played, gain {Level} |Barrier|."
+
+PatchouliSatelliteHimawariSe:
+  Name: Satellite Himawari
+  Description: "|Wood Sign's| |Passive| effect apply to all |Wood Sign| for the rest of the combat instead.\nAdd {BonusDamage} damage to |Wood Sign Active| effect."
+
+PatchouliGirlOfShadeSe:
+  Name: Girl of Shade
+  Description: "Whenever a |Status| or |Misfortune| card is |Exiled|, gain {Level} |Firepower| and |Spirit|."
+
+PatchouliGrandIncantationSe:
+  Name: Grand Incantation
+  Description: "Whenever a |Boost| card is played, deal damage to the enemy with the most life equal to that card's |Boost| time{Level:plural one='' other='s'} {Level}."
+
+PatchouliSaintElmoPillarSe:
+  Name: Saint Elmo's Pillar
+  Description: "Whenever |Reflection| triggers, deal damage to each enemy equal to the amount of |Reflection| time{Level:plural one='' other='s'} {Level}." 
+
+PatchouliSpellPowerGraspSe:
+  Name: Spell Power Grasp
+  Description: "At the start of each turn, |Boost| all the cards in the hand {Level} time(s)."
+
+PatchouliTemporaryIntelligenceSe:
+  Name: Temporary Intelligence
+  Description: "|Intelligence| Increases until end of turn.\n|Intelligence| increases the effectiveness of |Signs| by {Level}."
+  Brief: "|Intelligence| Increases until end of turn.\n|Intelligence| increases the effectiveness of |Signs|."
+
+PatchouliTheUnmovingGreatLibrarySe:
+  Name: The Unmoving Great Library
+  Description: "Whenever a |Sign Active| effect triggers, gain {Level} |Intelligence|."
+
+PatchouliVoileSe:
+  Name: Voile the Magic Library
+  Description: "Whenever a |Boost| cards is played, apply the following effects based on its |Boost|:\n{BoostThreshold1}: Draw {Level} cards.\n{BoostThreshold2}: Gain {Mana}.\n{BoostThreshold3}: Gain {Level} |Firepower|."

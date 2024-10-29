@@ -1,0 +1,18 @@
+PatchouliUltU:
+  Title: 符之二
+  Content: 大洪水四十日 
+  Description: |-
+    造成 {Damage} 点伤害。
+    将 {Value2} 张|天文学|加入手中。
+    |增幅|手中的所有牌。
+    |精准|
+
+PatchouliUltB:
+  Title: 符之一
+  Content: 圣爱尔摩爆炸
+  Description: |-
+    造成 {Damage} 点伤害。
+    |咏唱| {Value1} 个|月符|。
+    |咏唱| {Value1} 个|日符|。
+    |精准|
+

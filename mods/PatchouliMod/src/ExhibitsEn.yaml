@@ -1,0 +1,21 @@
+PatchouliExhibitU:
+  Name: Water Grimoire
+  Description: |-
+    Adds {Mana} to the mana base. Cards unique to |Patchouli| are added to the card pool.
+    At the start of the first turn each combat, add an |Astronomy| to the hand.
+    Whenever a card that has been |Boosted| {BoostThreshold1} or more times is played, gain {Value2} Block.
+  FlavorText: "A grimoire that has yet to be 'borrowed' by a Magician from a nearby forest."
+
+PatchouliExhibitB:
+  Name: Elemental Sigil
+  Description: |-
+    Adds {Mana} to the mana base. Cards unique to |Patchouli| are added to the card pool.
+    At the start of the Player's turn, if the Player doesn't have any |Fire Sign|, |Spellcast| {Value1} |Fire Sign|.
+  FlavorText: "Elemental magic borrows the power of nature to produce great outputs with minimal inputs."
+
+PatchouliAltExhibitB:
+  Name: Elemental Sigil
+  Description: |-
+    Adds {Mana} to the mana base.\nAt the start of the first turn each combat, |Spellcast| {Value1} |Fire Sign|.
+    Whenever a |Sign Active| effect triggers, gain {Value2} |Intelligence|.
+  FlavorText: "Elemental magic borrows the power of nature to produce great outputs with minimal inputs."

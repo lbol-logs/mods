@@ -1,0 +1,9 @@
+YoumuExhibitG:
+  Name: 研磨过的楼观剑
+  Description: "提供基础法力{Mana}，|妖梦|的专属卡牌会加入牌池。\n战斗开始时，对所有敌人施加 {Value1} 层|锁定|。\n敌人的回合开始时，不会减少|锁定|的层数"
+  FlavorText: "由妖怪锻造，具有一挥杀伤十只幽灵的威力。"
+
+YoumuExhibitW:
+  Name: 白楼剑
+  Description: "提供基础法力{Mana}，|妖梦|的专属卡牌会加入牌池。\n每场战斗的第一回合开始时，将 {Value1} 张|现世斩|加入手中。"
+  FlavorText: "魂魄家的家传宝刀。能斩断人类的迷惘。"

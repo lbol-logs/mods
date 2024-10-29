@@ -1,0 +1,10 @@
+YoumuUltG:
+  Title: 魂魄
+  Content: 幽明求聞持総明の法
+  Description: "{Damage} ダメージを {Value1} 回与える。\n|ロックオン|{Value1}を与える.\n|精密|"
+
+YoumuUltW:
+  Title: 人智剣
+  Content: 天女返し
+  Description: "{Damage} ダメージを与える.\n手札に|現世斬|を{Value1}枚加える。\n|精密|"
+

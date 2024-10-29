@@ -1,0 +1,436 @@
+# prettier-ignore
+SanaeAttackW:
+  Name: 바람 일으키기
+  Description: "피해를 {Damage} 줍니다."
+
+SanaeAttackU:
+  Name: 물결 일으키기
+  Description: "피해를 {Damage} 줍니다."
+
+SanaeBlockG:
+  Name: 별 떨어트리기
+  Description: "|방어|를 {Block} 얻습니다."
+
+SanaeStatus:
+  Name: 모리야 부적
+  Description: "|소멸될 시|: |방어|와 |보호막|을 {Block} 얻습니다."
+
+SanaeStarterW:
+  Name: 이중 강타
+  Description: "피해를 {Damage} 줍니다.\n|현광|을 손에 추가할 수 있습니다. 추가한다면, 대신 피해를 {GlareDamage}씩 {Value2}번 줍니다."
+  ExtraDescription1: "|현광|을 손에 추가합니다.\n피해를 {GlareDamage}씩 {Value2}번 줍니다."
+  ExtraDescription2: "피해를 {Damage} 줍니다."
+  FlavorText: ""
+
+SanaeStarterU:
+  Name: 무모한 박멸자
+  Description: "피해를 {Damage}씩 {Value1}번 줍니다.\n{SelfName}로 적을 처치할 시,<sprite=\"Point\" name=\"Power\">를 {Value2} 얻습니다.\n이 효과는 전투당 한번만 발동합니다."
+  ExtraDescription1: "피해를 {Damage}씩 {Value1}번 줍니다.\n|d:{SelfName}로 적을 처치할 시,<sprite=\"Point\" name=\"Power\">를 {Value2} 얻습니다.|\n이 효과는 전투당 한번만 발동합니다."
+  FlavorText: "이곳 환상향에서는 상식에 얽매여선 안 되니까요!?"
+  
+SanaePowerTemp:
+  Name: 근력 테스트
+  Description: "|화력|을 {Value1} 얻습니다.\n<sprite=\"Point\" name=\"Power\">를 {Value1} 얻습니다.\n{PlayerName}의 다음 턴 시작시, |화력|을 {Value1} 잃습니다."
+  FlavorText: ""
+
+SanaeAttackGraze:
+  Name: 날카로운 바람
+  Description: "무작위 적 {Value1}명에게 피해를 {Damage} 줍니다.\n맞은 적 마다, {Mana}를 얻습니다."
+  FlavorText: ""
+
+SanaeAttackOverdraft:
+  Name: 그레이 서머터지
+  Description: "피해를 {Damage} 줍니다.\n|방어|를 {Block} 얻을 수 있습니다. 방어를 얻는다면, |가불| {Value1}."
+  ExtraDescription1: "피해를 {Damage} 줍니다.\n|방어|를 {Block} 얻습니다.\n|가불| {Value1}."
+  ExtraDescription2: "피해를 {Damage} 줍니다."
+  FlavorText: ""
+
+SanaePowerPotato:
+  Name: 현대 오락
+  Description: "전투 종료시, <sprite=\"Point\" name=\"Power\">를 {Value1} 얻습니다."
+  FlavorText: "옛날 게임 콘솔은 NES나 SNES 비슷한거잖아요. 그렇죠?"
+
+SanaeGrazeAmulet:
+  Name: 바람의 축복
+  Description: "|그레이즈|를 {Value1} 얻습니다.\n|부적|을 {Value2} 얻습니다."
+  
+SanaeWardReflect:
+  Name: 인장 고치기
+  Description: "|비호|를 {Value1} 얻습니다.\n|반사|를 {Value2} 얻습니다."
+  FlavorText: ""
+
+SanaeAttackSpirit:
+  Name: 기도자세
+  Description: "피해를 {Damage} 줍니다.\n|임시 영력|을 {Value1} 얻습니다."
+  FlavorText: ""
+
+SanaeBlockTalisman:
+  Name: 신사 보호
+  Description: "|방어|를 {Block} 얻습니다.\n버린 카드 더미에 |모리야 부적|을 {Value1}장 추가합니다."
+
+SanaeDrawOrder:
+  Name: 조개 바꾸기
+  Description: "뽑을 카드 더미 위의 카드를 {Value1}장 확인합니다. 그중 하나를 선택하여 뽑을 카드 더미의 맨 위로 올립니다.\n그 카드가 스킬 카드라면, 카드를 {Value2}장 뽑습니다.\n{Mana}를 얻습니다."
+  UpgradedDescription: "뽑을 카드 더미 위의 카드를 {Value1}장 확인합니다. 그중 하나를 선택하여 뽑을 카드 더미의 맨 위로 올립니다.\n그 카드가 스킬 카드라면, 카드를 {Value2}장 뽑습니다.\n{Mana}를 얻습니다.\n카드를 {Value2}장 뽑습니다."
+  FlavorText: "절대로 한눈팔지 마세요!"
+  
+SanaeBlockDiscard:
+  Name: 비막이
+  Description: "|방어|를 {Block} 얻습니다.\n카드를 한장 버립니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n카드를 한장 까지 버립니다."
+  
+SanaeDrawDiscard:
+  Name: 수상보행
+  Description: "카드를 {Value1}장 뽑습니다.\n무작위 카드를 {Value2}장 버릴 수 있습니다. 버린다면, 카드를 {Value2}장 뽑습니다."
+  ExtraDescription1: "무작위 카드를 {Value2}장 버립니다.\n카드를 {Value2}장 더 뽑습니다."
+  ExtraDescription2: "하지 않습니다."
+  FlavorText: "그냥 날면 안돼?"
+  
+SanaeAttackAmulet:
+  Name: 고헤이 강타
+  Description: "피해를 {Damage} 줍니다.\n{PlayerName}에게 |부적|이 없다면, |부적|을 {Value1} 얻습니다."
+  FlavorText: ""
+
+SanaeDrawWard:
+  Name: 와일드 카드
+  Description: "|비호|를 {Value1} 얻습니다.\n카드를 {Value2}장 뽑습니다."
+  FlavorText: ""
+
+SanaeScryPower:
+  Name: 명중한 예언
+  Description: "예지 {Scry}.\n|선보임|: <sprite=\"Point\" name=\"Power\">를 {Value1} 얻습니다."
+  UpgradedDescription: "예지 {Scry}.\n|선보임|: <sprite=\"Point\" name=\"Power\">를 {Value1} 얻습니다. {SelfName}의 비용이 이번 전투동안 {Mana} 감소합니다."
+  ExtraDescription1: "예지 {Scry}.\n|d:선보임: <sprite=\"Point\" name=\"Power\">를 {Value1} 얻습니다.|"
+  UpgradedExtraDescription1: "예지 {Scry}.\n|d:선보임: <sprite=\"Point\" name=\"Power\">를 {Value1} 얻습니다. {SelfName}의 비용이 이번 전투동안 {Mana} 감소합니다.|"
+
+SanaeAttackStatus:
+  Name: 객성이 너무도 밝은 밤
+  Description: "모든 적에게 피해를 {Damage} 줍니다.\n손에 |찬란한 별빛|을 한 장 추가합니다."
+  
+SanaeManaTurbo:
+  Name: 달빛의 호수
+  Description: "{Mana}를 얻습니다.\n버린 카드 더미에 |고요한 달빛|을 {Value1}장 추가합니다."
+  FlavorText: ""
+
+SanaeDrawAbility:
+  Name: 스와호수의 둘 하고도 반신
+  Description: "카드를 {Value1} 뽑습니다.\n능력 카드를 뽑았다면, 그 비용이 |일시적으로| {Mana} 감소합니다."
+  UpgradedDescription: "카드를 {Value1} 뽑습니다.\n능력 카드를 뽑았다면, 그 비용이 |일시적으로| 무작위 마나 1 만큼 감소합니다."
+  FlavorText: ""
+
+SanaeDazzleDash:
+  Name: 대낮의 객성
+  Description: "|화력|을 {Value1} 얻습니다.\n<sprite=\"Point\" name=\"Power\">를 {Value2} 얻습니다.\n|손에 있을시|: 스펠카드 발동시, 이번 턴 동안 {SelfName}의 효과가 두배가 됩니다."
+  FlavorText: ""
+
+SanaeAttackRebuff:
+  Name: 라이스 샤워
+  Description: "모든 적에게 피해를 {Damage} 줍니다.\n만약 적이 상태이상을 주려하면, |부적|을 {Value1} 얻습니다."
+
+SanaeSpellDamage:
+  Name: 그린 서머터지
+  Description: "체력을 {Value1} 얻습니다.\n스펠 카드가 발동할 때 마다, 무작위 적에게 피해를 {Value3}씩 {Value2}번 줍니다."
+
+SanaeAttackBlock:
+  Name: 마법 폭발
+  Description: "모든 |방어|를 잃고 그만큼 모든 적에게 피해를 줍니다.\n|방어|를 {Block} 얻습니다.\n턴을 종료합니다."
+  FlavorText: "사나에가 모든 마법의 힘을 한번에 해방합니다!"
+
+SanaeWardAmulet:
+  Name: 상징 교환
+  Description: "|비호|를 {Value1} 얻습니다.\n{PlayerName}가 |부적|을 가지고있다면, |부적|을 {Value3} 잃고 대신 |비호|를 {Value2} 얻습니다."
+  FlavorText: "상징이라고 말하면 뭔가 진상이 떠올라요."
+
+SanaeSpiritMana:
+  Name: 소환사 연습
+  Description: "{SelfName}을 사용한 후 {PlayerName}의 두번째 턴 시작시, |영력|을 {Value1} 얻고 손에 |광휘|를 한장 추가합니다."
+  UpgradedDescription: "{PlayerName}의 다음 턴 시작시, |영력|을 {Value1} 얻고 손에 |광휘|를 한장 추가합니다."
+  FlavorText: ""
+
+SanaeUpgradeWard:
+  Name: 용맥 조사
+  Description: "무작위 카드를 {Value1}장 강화합니다.\n카드가 강화되지 않았다면, |비호|를 {Value2} 얻습니다.\n|충원|: {Mana}를 얻습니다."
+  ExtraDescription1: "무작위 카드를 {Value1}장 강화합니다.\n카드가 강화되지 않았다면, |비호|를 {Value2} 얻습니다.\n|d:충원: {Mana}를 얻습니다.|"
+  DetailText: "도구, 상태, 액운 카드는 강화할 수 없습니다."
+
+SanaeAttackRandom:
+  Name: 정화의 안개
+  Description: "무작위 적에게 피해를 {Damage}씩 {Value1}번 줍니다.\n|순수한 빛|을 {Value2}장 뽑을 카드 더미 맨 위에 추가할 수 있습니다. 그렇게 하면 {Mana}를 얻습니다."
+  ExtraDescription1: "무작위 적에게 피해를 {Damage}씩 {Value1}번 줍니다.\n|순수한 빛|을 {Value2}장 뽑을 카드 더미 맨 위에 추가합니다.\n{Mana}를 얻습니다."
+  ExtraDescription2: "무작위 적에게 피해를 {Damage}씩 {Value1}번 줍니다."
+  FlavorText: ""
+
+SanaeSpiritTalisman:
+  Name: 코안의 카미카제
+  Description: "|영력|을 {Value1} 얻습니다.\n|선택|: |비호|를 {Value2} 얻거나, |모리야 부적|을 손에 {Value3}장 추가합니다."
+  ExtraDescription1: "|비호|를 {Value2} 얻습니다."
+  ExtraDescription2: "|모리야 부적|을 {Value3}장 손에 추가합니다."
+
+SanaeAttackCopy:
+  Name: 파급 효과
+  Description: "피해를 {Damage} 줍니다.\n이 카드를 뽑을 카드 더미 맨 위에 |소멸|을 적용한 |복사본|으로 추가합니다."
+
+SanaeDrawTemp:
+  Name: 학교 과학 박람회
+  Description: "카드를 {Value1} 뽑습니다. {PlayerName}의 턴이 시작될 때, 카드를 {Value1}장 뽑습니다. 이렇게 뽑은 카드가 스킬카드가 아니라면, 그 카드를 버립니다."
+
+SanaeBlockShuffle:
+  Name: 예언무
+  Description: "뽑을 카드 더미가 섞일 때마다, |방어|를 {Value1} 얻습니다.\n|예지| {Scry}."
+
+SanaeBlockRebuff:
+  Name: 부적 던지기
+  Description: "|방어|와 |보호막|을 {Block} 얻습니다.\n{PlayerName}에게 |부적|이 있다면, |부적|을 {Value1} 잃고 모든 적에게 |허약|을 {Value2} 줍니다."
+
+SanaeDrawSplash:
+  Name: 모세의 기적
+  Description: "카드를 {Value1}장 뽑습니다.\n손에 있는 모든 스킬 카드를 버리고, 그 수만큼 |물결|을 손에 추가합니다. 이들은 |자동 소멸|이 적용됩니다."
+
+SanaeDrawTalisman:
+  Name: 밑줄 쌓기
+  Description: "|모리야 부적|을 {Value1}장 뽑을 카드 더미 맨 위에 놓습니다.\n카드를 {Value2}장 뽑습니다."
+
+SanaeMoneyWard:
+  Name: 장사번성 부적
+  Description: "|비호|를 {Value1} 얻습니다.\n<sprite=\"Point\" name=\"Gold\">을 {Value2} 얻습니다.\n무작위 마나를 {Value3} 얻습니다."
+
+SanaeAmuletTalisman:
+  Name: 비밀로 계승된 예술
+  Description: "<sprite=\"Point\" name=\"Power\">를 {Value1} 얻습니다.\n뽑을 카드 더미에 |모리야 부적|을 {Value2}장 추가합니다.\n{PlayerName}의 |부적|만큼, {SelfName}의 비용이 {Mana} 감소합니다."
+  FlavorText: ""
+
+SanaeManaTemp:
+  Name: 청록색 뱀 장식
+  Description: "|일시 영력|을 {Value1} 얻습니다.\n손의 카드가 {Value3}장 이상이라면, |일시 영력|을 {Value2}만큼 |영력|으로 바꾸고, 카드를 {Value2}장 뽑습니다."
+  FlavorText: ""
+
+SanaeBlockMana:
+  Name: 달콤한 과일 잼
+  Description: "|방어|를 {Block} 얻습니다.\n남은 마나는 {PlayerName}의 다음 턴 시작까지 사라지지 않습니다.\n|가불| {Value1}."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n남은 마나는 {PlayerName}의 다음 턴 시작까지 사라지지 않습니다."
+
+SanaeAttackExpel:
+  Name: 코발트 스프레드
+  Description: "모든 적에게 피해를 {Damage} 줍니다.\n|퇴치|: <sprite=\"Point\" name=\"Power\">를 {Value1} 얻습니다."
+
+SanaeManaShuffle:
+  Name: 휴대용 연못
+  Description: "|소멸될시| {Mana}를 얻습니다.\n뽑을 카드 더미가 섞일 때, |소멸|된 {SelfName}을 손으로 되돌립니다."
+  FlavorText: ""
+
+SanaeSpiritShuffle:
+  Name: 영혼 검색
+  Description: "|일시 영력|을 {Value1} 얻습니다.\n버린 카드 더미를 뽑을 카드 더미에 섞습니다.\n카드를 {Value2}장 뽑습니다."
+  FlavorText: ""
+
+SanaeStatusTalisman:
+  Name: 종이 수공예
+  Description: "{PlayerName}의 턴이 끝날 때, |모리야 부적|을 {Value1}장 버린 카드 더미에 추가합니다."
+
+SanaeCuriousAbility:
+  Name: 저 신경 쓰여요!
+  Description: "능력 카드를 사용할 때마다 |화력|을 {Value1} 얻습니다."
+  FlavorText: "이건 뭐죠? 이건 또 뭐죠?"
+
+SanaeToolNews:
+  Name: 산신회의
+  Description: "|선택|: 무작위 갓파 |도구| 카드 {Value1}장 또는 텐구 |도구| 카드 {Value2}장을 손에 추가합니다.\n이들은 |복사본|으로 취급되며, |자동 소멸| 및 |제한 1|을 가집니다."
+  ExtraDescription1: "무작위 갓파 |도구| 카드 {Value1}장 손에 추가합니다."
+  ExtraDescription2: "무작위 텐구 |도구| 카드 {Value2}장 손에 추가합니다."
+  DetailText: "옆의 카드는 각 |도구|들의 예시입니다."
+  FlavorText: ""
+
+SanaeSpellPower:
+  Name: 과도한 신앙
+  Description: "체력을 {Value1} 잃습니다.\n<sprite=\"Point\" name=\"Power\">를 {Value2} 얻습니다.\n{PlayerName}의 다음 턴 시작 시, <sprite=\"Point\" name=\"Power\">를 {Value3} 잃습니다."
+
+SanaeAttackPower:
+  Name: 요력 스포일러
+  Description: "피해를 {Damage} 줍니다.\n이 방식으로 막히지 않은 피해만큼 <sprite=\"Point\" name=\"Power\">를 얻습니다."
+  FlavorText: ""
+
+SanaeSpellMana:
+  Name: 네트워크 음모
+  Description: "스펠 카드가 발동할 때마다 {Mana}를 얻습니다.\n{PlayerName}의 턴을 종료합니다. 그 후, 추가 턴을 얻습니다.\n|시간 제한| <sprite=\"ManaSprite\" name=\"1\">."
+  UpgradedDescription: "<sprite=\"Point\" name=\"Power\">를 {Value2} 얻습니다.\n스펠 카드가 발동할 때마다 {Mana}를 얻습니다.\n{PlayerName}의 턴을 종료합니다. 그 후, 추가 턴을 얻습니다.\n|시간 제한| <sprite=\"ManaSprite\" name=\"1\">."
+  FlavorText: ""
+  
+SanaeBlockWard:
+  Name: 이단 방어
+  Description: "|방어|를 {Block}씩 {Value1}번 얻습니다.\n|비호|를 {Value2}씩 {Value1}번 얻습니다."
+  FlavorText: "허? 방어가 아니라 공격해야 되는거 아냐?"
+  
+SanaeStatusSynergy:
+  Name: 일광욕 의식
+  Description: "{Mana}를 얻습니다.\n|굴절된 햇빛|을 {Value1}장 뽑을 카드 더미에 추가합니다.\n|화력|을 {Value2} 얻습니다."
+
+SanaeColorRandom:
+  Name: 공허한 햇빛
+  Description: "무작위 카드 {Value1}장중 1장을 고릅니다. 그 비용이 |일시적으로| <sprite=\"ManaSprite\" name=\"0\">이 되고 |소멸| 및 |휘발성|을 얻습니다.\n이 카드들은 각각 {Mana}색 마나를 가지고있습니다."
+  DetailText: "하이브리드 카드는 포함되지 않습니다.\n|강화|될 시, 이 카드는 총 마나 및 마나 색 제한을 무시합니다."
+  FlavorText: ""
+
+SanaeAmuletDebuff:
+  Name: 코안의 카미카제
+  Description: "|선택| 하나 이상:\n- |화력|과 |허약|을 {Value1} 얻습니다.\n- |영력|과 |연약|을 {Value1} 얻습니다.\n- 최대 체력과 |취약|과 |중독|을 {Value1} 얻습니다."
+  FlavorText: ""
+
+SanaeAmuletDebuffWeak:
+  Name: 공격
+  Description: "|화력|과 |허약|을 {Value1} 얻습니다."
+
+SanaeAmuletDebuffFrail:
+  Name: 방어
+  Description: "|영력|과 |연약|을 {Value1} 얻습니다."
+
+SanaeAmuletDebuffVuln:
+  Name: 지원
+  Description: "최대 체력과 |취약|과 |중독|을 {Value1} 얻습니다."
+
+SanaeWineSplash:
+  Name: 와인과 물
+  Description: "|가벼운 한 잔|과 |물결|을 손에 추가합니다."
+  UpgradedDescription: "|가벼운 한 잔+|과 |물결+|을 손에 추가합니다."
+
+SanaeScryShuffle:
+  Name: 미래 예측
+  Description: "버린 카드 더미를 뽑을 카드 더미와 섞습니다.\n예지 {Scry}."
+  
+SanaeAttackOrder:
+  Name: 파도 절개
+  Description: "피해를 {Damage} 줍니다.\n뽑을 카드 더미 맨 위에 있는 카드의 |소멸|을 가진 |일시적으로| 비용이 <sprite=\"ManaSprite\" name=\"0\">인 |복사본|을 손에 추가합니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n{Mana}를 얻습니다.\n뽑을 카드 더미 맨 위에 있는 카드의 |소멸|을 가진 |일시적으로| 비용이 <sprite=\"ManaSprite\" name=\"0\">인 |복사본|을 손에 추가합니다."
+
+SanaeOrderShuffle:
+  Name: 단편적 통찰
+  Description: "뽑을 카드 더미를 실제 순서로 볼 수 있게 됩니다.\n스킬 이외의 카드를 사용할 때마다, {Mana}를 얻고 버린 카드 더미를 뽑을 카드 더미와 섞습니다."
+  FlavorText: "카드를 계속 사용하면 원하는 것을 얻을 수 있어요! ...언젠가는."
+
+SanaeAttackTwice:
+  Name: 잊혀진 비전
+  Description: "피해를 {Damage} 줍니다.\n{PlayerName}가 |부적|을 가지고 있다면, |부적|을 {Value1} 잃고 그 피해를 두 번 줍니다.\n그렇지 않으면, |부적|을 {Value2} 얻습니다."
+
+SanaeManaRandom:
+  Name: 패프러츠키스의 기적
+  Description: "비용 합계가 4 이하인 무작위 카드 {Value1}장을 뽑을 카드 더미에 추가합니다.\n이 카드들은 |휘발성|을 얻고 비용이 {Mana}가 됩니다."
+  UpgradedDescription: "비용 합계가 4 이하인 |강화된| 무작위 카드 {Value1}장을 뽑을 카드 더미에 추가합니다.\n이 카드들은 |휘발성|을 얻고 비용이 {Mana}가 됩니다."
+  DetailText: "{SelfName}과 X-비용 카드는 나오지 않습니다."
+  FlavorText: ""
+
+SanaeWardTalisman:
+  Name: 엉터리 주문
+  Description: "{PlayerName}가 |비호|를 얻을 때마다, 그만큼 <sprite=\"Point\" name=\"Power\">를 얻습니다.\n스펠 카드를 발동할 때 마다, |모리야 부적|을 버린 카드 더미에 {Value1}장 추가합니다."
+  FlavorText: ""
+
+SanaeExilePower:
+  Name: 향 확산
+  Description: "|보호막|을 {Shield} 얻습니다.\n뽑을 카드 더미와 버린 카드 더미에서 카드를 X장 |소멸|시킵니다."
+  UpgradedDescription: "|보호막|을 {Shield} 얻습니다.\n뽑을 카드 더미와 버린 카드 더미에서 카드를 X장 |소멸|시킵니다.\n그 수만큼 |모리야 부적|을 버린 카드 더미에 추가합니다."
+
+SanaeHisouHead:
+  Name: 봉인된 로봇, 비상천칙
+  Description: "모든 |봉인된 로봇| 카드가 손에 있다면, 모든 |봉인된 로봇| 카드를 |소멸|시키고 모든 적을 처치합니다.\n그렇지 않다면, {Value1}개의 |봉인된 로봇| 카드 중 1개를 선택하여 손에 추가하고, {PlayerName}의 턴을 종료합니다\n|충원|: {Mana}를 얻습니다."
+  ExtraDescription1: "모든 |봉인된 로봇| 카드가 손에 있다면, 모든 |봉인된 로봇| 카드를 |소멸|시키고 모든 적을 처치합니다.\n그렇지 않다면, {Value1}개의 |봉인된 로봇| 카드 중 1개를 선택하여 손에 추가하고, {PlayerName}의 턴을 종료합니다.\n|d:충원: Gain {Mana}.|"
+  UpgradedDescription: "모든 |봉인된 로봇| 카드가 손에 있다면, 모든 |봉인된 로봇| 카드를 |소멸|시키고 모든 적을 처치합니다.\n그렇지 않다면, {Value1}개의 강화된 |봉인된 로봇| 카드 중 1개를 선택하여 손에 추가하고, {PlayerName}의 턴을 종료합니다.\n|충원|: {Mana}를 얻습니다."
+  UpgradedExtraDescription1: "모든 |봉인된 로봇| 카드가 손에 있다면, 모든 |봉인된 로봇| 카드를 |소멸|시키고 모든 적을 처치합니다.\n그렇지 않다면, {Value1}개의 강화된 |봉인된 로봇| 카드 중 1개를 선택하여 손에 추가하고, {PlayerName}의 턴을 종료합니다.\n|d:충원: Gain {Mana}.|"
+
+SanaeHisouRightLeg:
+  Name: 봉인된 로봇의 오른쪽 다리
+  Description: "|턴 종료 시|: |가불| {Value1}."
+
+SanaeHisouLeftLeg:
+  Name: 봉인된 로봇의 왼쪽 다리
+  Description: "|턴 종료 시|: |연약|을 {Value1} 얻습니다."
+  UpgradedDescription: "|턴 종료 시|: |허약|을 {Value1} 얻습니다."
+
+SanaeHisouRightArm:
+  Name: 봉인된 로봇의 오른쪽 팔
+  Description: "|턴 종료 시|: 피해를 {Value1} 받습니다."
+
+SanaeHisouLeftArm:
+  Name: 봉인된 로봇의 왼쪽 팔
+  Description: "|턴 종료 시|: |찬란한 별빛|을 버린 카드 더미에 추가합니다."
+
+SanaeManaSynergy:
+  Name: 기적의 과일
+  Description: "|<sprite=\"ManaSprite\" name=\"W\">를 사용할 때마다|: <sprite=\"ManaSprite\" name=\"U\"><sprite=\"ManaSprite\" name=\"G\">를 얻습니다.\n|<sprite=\"ManaSprite\" name=\"U\">를 사용할 때마다|: <sprite=\"ManaSprite\" name=\"W\"><sprite=\"ManaSprite\" name=\"G\">를 얻습니다.\n|가불| {Value1}."
+  UpgradedDescription: "|<sprite=\"ManaSprite\" name=\"W\">를 사용할 때마다|: <sprite=\"ManaSprite\" name=\"U\"><sprite=\"ManaSprite\" name=\"G\">를 얻습니다.\n|<sprite=\"ManaSprite\" name=\"U\">를 사용할 때마다|: <sprite=\"ManaSprite\" name=\"W\"><sprite=\"ManaSprite\" name=\"G\">를 얻습니다.\n|<sprite=\"ManaSprite\" name=\"G\">를 사용할 때마다|: <sprite=\"ManaSprite\" name=\"W\"><sprite=\"ManaSprite\" name=\"U\">를 얻습니다.\n|가불| {Value1}."
+    
+SanaeExileDamage:
+  Name: 삼색 에델바이스
+  Description: "상태 카드 또는 |자동 소멸|이 있는 카드가 |소멸|될 때마다 무작위 적에게 피해를 {Value1} 줍니다."
+  UpgradedDescription: "상태 카드 또는 |자동 소멸|이 있는 카드가 |소멸|될 때마다 무작위 적에게 피해를 {Value1} 줍니다.\n|모리야 부적|을 {Value2}장 손에 추가합니다."
+  FlavorText: "이것은 원래 '비호 또는 소멸로 카드가 소멸될 때마다'였지만, 코딩을 시도하다 실패해서 대체했습니다 - Xeno"
+  
+SanaeLifeAmulet:
+  Name: 보호의식
+  Description: "생명력을 {Value1} 잃습니다.\n|보호막|을 {Shield} 얻습니다.\n|부적|을 {Value2} 얻습니다."
+  FlavorText: ""
+
+SanaeAttackDebuff:
+  Name: 미샤구지님의 재앙
+  Description: "모든 적에게 피해를 {Damage} 줍니다.\n모든 적에게 |허약|과 |취약|을 {Value1} 줍니다."
+  FlavorText: ""
+
+SanaeLifeStatus:
+  Name: 뿅타 모자 마술
+  Description: "최대 체력을 {Value1} 얻습니다.\n손, 뽑을 카드 더미, 버린 카드 더미의 무작위 카드 {Value2}장을 |개구리|로 바꿉니다."
+  DetailText: "{SelfName}은 전투 중 무작위로 생성될 수 없습니다."
+  FlavorText: "이 모자에서 떨어지는 것은 토끼나 새가 아니야~"
+
+SanaeScryReturn:
+  Name: 한밤중의 광휘
+  Description: "예지 {Scry}.\n뽑을 카드 더미가 비어 있으면 버린 카드 더미에서 카드를 손에 넣습니다."
+  FlavorText: ""
+
+SanaeSpiritDebuff:
+  Name: 성급한 기도
+  Description: "|영력|을 {Value1} 얻습니다.\n{PlayerName}의 턴 시작 시, |영력|을 {Value2} 잃습니다."
+  FlavorText: ""
+
+SanaeSuwakoFriend:
+  Name: 스와코, 교활한 개구리 사랑꾼
+  Description: "{PassiveCostIcon}|어둠의 잔재|를 {Value1}장 뽑을 카드 더미에 추가합니다."
+  ExtraDescription1: "{ActiveCostIcon}모든 적에게 |허약|을 {Value1} 줍니다."
+  ExtraDescription2: "<indent=0><sprite=\"Active\" name=\"-4\"><indent=80>무작위 고급 능력 카드를 손에 추가합니다. 이 카드의 비용은 |일시적으로| {Mana}가 되고 |휘발성|을 가집니다."
+  FlavorText: ""
+
+SanaeDrawDebuff:
+  Name: 폭풍의 도시 지팡이
+  Description: "|손에 있을 때|: 턴 시작 이외에 카드를 뽑을 때마다 {Mana}를 얻습니다.\n|소멸될 시|: 체력을 {Value2} 잃습니다. 이 턴에는 더 이상 카드를 뽑을 수 없습니다."
+  UpgradedDescription: "|손에 있을 때|: 턴 시작 이외에 카드를 뽑을 때마다 무작위 {Value1} 마나를 얻습니다.\n|소멸될 시|: 체력을 {Value2} 잃습니다. 이 턴에는 더 이상 카드를 뽑을 수 없습니다."
+  FlavorText: ""
+
+SanaeGrazeWard:
+  Name: 신의 바람막이
+  Description: "{PlayerName}가 공격을 |그레이즈|할 때마다 |비호|를 {Value1} 얻습니다.\n|그레이즈|를 {Value2} 얻습니다."
+  FlavorText: ""
+  
+SanaePowerOmikuji:
+  Name: 오미쿠지 보너스
+  Description: "{PlayerName}가 <sprite=\"Point\" name=\"Power\">를 가지고 있다면, <sprite=\"Point\" name=\"Power\">를 {Value1} 잃고 {PlayerName}의 스펠 카드 피해량을 {Value2}늘립니다."
+  FlavorText: ""
+
+SanaeReimuAbility:
+  Name: 신사 라이벌전
+  Description: "무작위 레이무의 희귀 능력 카드 {Value1}장중 1장을 선택하여 손에 추가합니다. 이 카드의 비용은 |일시적으로| {Mana}가 되며 |휘발성|을 가집니다.\n|가불| {Value2}."
+  DetailText: "이 카드는 총 마나, 마나 색상, 캐릭터 제한을 무시합니다."
+  
+SanaeAttackWeak:
+  Name: 태풍의 눈
+  Description: "|허약|을 {Value1} 적용합니다.\n그 후, 다른 모든 적에게 피해를 {Damage} 줍니다."
+  FlavorText: "혼란의 중심은 의외로 거주하기에 가장 안전한 곳입니다."
+
+SanaeKanakoFriend:
+  Name: 카나코, 산과 호수의 신
+  Description: "{PassiveCostIcon}체력이 가장 많은 적에게 피해를 {Damage} 줍니다."
+  UpgradedDescription: "{PassiveCostIcon}체력이 가장 많은 적에게 피해를 {Damage} 줍니다."
+  ExtraDescription1: "{ActiveCostIcon}|보호막|을 {Shield} 얻습니다. |그레이즈|를 {Value3} 얻습니다."
+  ExtraDescription2: "{UltimateCostIcon}이 전투가 끝날 때까지, 스펠 카드가 발동할 때마다 |화력|과 |그레이즈|를 {Value1} 얻습니다."
+  FlavorText: ""
+
+SanaeMiracleAbility:
+  Name: 미라클 펜타클
+  Description: "고급 능력 카드 {Value1}장중 1장을 선택하여 손에 추가합니다. 이 카드는 |일시적으로| 비용이 {Mana}이 되며 |메아리| 및 |휘발성|을 가집니다."
+  UpgradedDescription: "희귀 능력 카드 {Value1}장중 1장을 선택하여 손에 추가합니다. 이 카드는 |일시적으로| 비용이 {Mana}이 되며 |메아리| 및 |휘발성|을 가집니다."
+  DetailText: "이 카드는 총 마나 및 마나 색상 제한을 무시합니다."

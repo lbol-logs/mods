@@ -1,0 +1,7 @@
+VentIntention:
+  Name: Vent
+  Description: "{OwnerName} intends to remove all their Heat."
+  
+PullIntention:
+  Name: "Pulling Damage"
+  Description: "{OwnerName} will deal additional damage based on the Dark Matter in your hand."

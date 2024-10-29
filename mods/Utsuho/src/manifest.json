@@ -1,0 +1,7 @@
+{
+  "name": "UtsuhoCharacter",
+  "version_number": "1.5.0",
+  "website_url": "https://github.com/Zosit/Utsuho-character-mod/tree/master/Utsuho%20character%20mod",
+  "description": "Adds Utsuho as a character. Includes starter exhibits and character specific cards.",
+  "dependencies": [ "BepInEx-BepInExPack-5.4.2100", "TeamNeo-Sideloader-0.9.7000" ]
+}

@@ -1,0 +1,438 @@
+SanaeAttackW:
+  Name: Wind Calling
+  Description: "Deal {Damage} damage."
+
+SanaeAttackU:
+  Name: Wave Calling
+  Description: "Deal {Damage} damage."
+
+SanaeBlockG:
+  Name: Star Falling
+  Description: "Gain {Block} |Block|."
+
+SanaeStatus:
+  Name: Moriya Talisman
+  Description: "|When Exiled|: Gain {Block} |Block| and |Barrier|."
+
+SanaeStarterW:
+  Name: Duplex Basher
+  Description: "Deal {Damage} damage.\nYou may add a |Glare| to the hand. If you do, deal {GlareDamage} damage {Value2} times instead."
+  ExtraDescription1: "Add a |Glare| to the hand.\nDeal {GlareDamage} damage {Value2} times."
+  ExtraDescription2: "Deal {Damage} damage."
+  FlavorText: ""
+
+SanaeStarterU:
+  Name: Reckless Exterminator
+  Description: "Deal {Damage} damage {Value1} times.\nWhen an enemy is defeated using {SelfName}, gain {Value2} <sprite=\"Point\" name=\"Power\">.\nThis effect can only happen once per combat."
+  ExtraDescription1: "Deal {Damage} damage {Value1} times.\n|d:When an enemy is defeated using {SelfName}, gain {Value2} <sprite=\"Point\" name=\"Power\">.|\nThis effect can only happen once per combat."
+  FlavorText: "You can't let yourself be held back by common sense in Gensokyo, right!?"
+  
+SanaePowerTemp:
+  Name: Strength Testing
+  Description: "Gain {Value1} |Firepower|.\nGain {Value1} <sprite=\"Point\" name=\"Power\">.\nAt the start of {PlayerName}'s next turn, lose {Value1} |Firepower|."
+  FlavorText: ""
+
+SanaeAttackGraze:
+  Name: Sharp Breeze
+  Description: "Deal {Damage} damage to {Value1} different random enemies.\nFor each enemy that was attacked, gain {Mana}."
+  FlavorText: ""
+
+SanaeAttackOverdraft:
+  Name: Five-Point Prism
+  Description: "Deal {Damage} damage.\nYou may gain {Block} |Block|. If you do, |Overdraft| {Value1}."
+  ExtraDescription1: "Deal {Damage} damage.\nGain {Block} |Block|.\n|Overdraft| {Value1}."
+  ExtraDescription2: "Deal {Damage} damage."
+  FlavorText: ""
+
+SanaePowerPotato:
+  Name: Modern-Age Entertainment
+  Description: "At the end of combat, gain {Value1} <sprite=\"Point\" name=\"Power\">."
+  FlavorText: "Retro consoles are like the NES and SNES, right?"
+
+SanaeGrazeAmulet:
+  Name: Wind's Blessing
+  Description: "Gain {Value1} |Graze|.\nGain {Value2} |Amulet|."
+  
+SanaeWardReflect:
+  Name: Seal's Recoil
+  Description: "Gain {Value1} |Ward|.\nGain {Value2} |Reflection|."
+  FlavorText: ""
+
+SanaeAttackSpirit:
+  Name: Prayer Stance
+  Description: "Deal {Damage} damage.\nGain {Value1} |Temporary Spirit|."
+  FlavorText: ""
+
+SanaeBlockTalisman:
+  Name: Shrine Safeguard
+  Description: "Gain {Block} |Block|.\nAdd {Value1} |Moriya Talisman{Value1:plural one='' other='s'}| to the discard pile."
+
+SanaeDrawOrder:
+  Name: Seashell Swapping
+  Description: "Look at the top {Value1} cards of the draw pile. Choose one of them to move to the top of the draw pile.\nIf the card is a skill, draw {Value2} card.\nGain {Mana}."
+  UpgradedDescription: "Look at the top {Value1} cards of the draw pile. Choose one of them to move to the top of the draw pile.\nIf the card is a skill, draw {Value2} card.\nGain {Mana}.\nDraw {Value2} card."
+  FlavorText: "Keep your eyes on the prize!"
+  
+SanaeBlockDiscard:
+  Name: Rain Catcher
+  Description: "Gain {Block} |Block|.\nDiscard a card."
+  UpgradedDescription: "Gain {Block} |Block|.\nDiscard up to one card."
+  
+SanaeDrawDiscard:
+  Name: Water Walking
+  Description: "Draw {Value1} cards.\nYou may discard {Value2} random cards. If you do, draw {Value2} cards."
+  ExtraDescription1: "Discard {Value2} random cards.\nDraw {Value2} cards."
+  ExtraDescription2: "Do nothing."
+  FlavorText: "Can't you just fly?"
+  
+SanaeAttackAmulet:
+  Name: Gohei Whack
+  Description: "Deal {Damage} damage.\nIf {PlayerName} doesn't have |Amulet|, gain {Value1} |Amulet|."
+  FlavorText: ""
+
+SanaeDrawWard:
+  Name: Wildcard
+  Description: "Gain {Value1} |Ward|.\nDraw {Value2} card."
+  FlavorText: ""
+
+SanaeScryPower:
+  Name: Sleight Foresight
+  Description: "Scry {Scry}.\n|Debut|: Gain {Value1} <sprite=\"Point\" name=\"Power\">."
+  UpgradedDescription: "Scry {Scry}.\n|Debut|: Gain {Value1} <sprite=\"Point\" name=\"Power\">. {SelfName} costs {Mana} less this combat."
+  ExtraDescription1: "Scry {Scry}.\n|d:Debut: Gain {Value1} <sprite=\"Point\" name=\"Power\">.|"
+  UpgradedExtraDescription1: "Scry {Scry}.\n|d:Debut: Gain {Value1} <sprite=\"Point\" name=\"Power\">. {SelfName} costs {Mana} less this combat.|"
+  
+SanaeAttackStatus:
+  Name: Flash Floodlight
+  Description: "Deal {Damage} damage to each enemy.\nAdd a |Glamorous Starlight| to the hand."
+
+SanaeManaTurbo:
+  Name: Moonlit Lake
+  Description: "Gain {Mana}.\nAdd {Value1} |Quiet Moonlight{Value1:plural one='' other='s'}| to the discard pile."
+  FlavorText: ""
+
+SanaeDrawAbility:
+  Name: Two-and-a-half Gods of Lake Suwa
+  Description: "Draw {Value1} cards.\nIf an Ability card was drawn this way, it |temporarily costs| {Mana} less."
+  UpgradedDescription: "Draw {Value1} cards.\nIf an Ability card was drawn this way, it |temporarily costs| {Value2} random mana less."
+  FlavorText: ""
+
+SanaeDazzleDash:
+  Name: Super Sparkler
+  Description: "Gain {Value1} |Firepower|.\nGain {Value2} <sprite=\"Point\" name=\"Power\">.\n|While in hand|: Whenever the Spell Card is activated, {SelfName}'s effects are doubled until end of turn."
+  FlavorText: ""
+
+SanaeAttackRebuff:
+  Name: Rain of Grains
+  Description: "Deal {Damage} damage to each enemy.\nIf any enemy intends to debuff, gain {Value1} |Amulet|."
+
+SanaeSpellDamage:
+  Name: Green Thaumaturgy
+  Description: "Gain {Value1} life.\nWhenever the Spell Card is activated, deal {Value3} attack damage to a random enemy {Value2} times."
+  
+SanaeAttackBlock:
+  Name: Magic Burst
+  Description: "Lose all |Block| and deal that much damage to each enemy.\nGain {Block} |Block|.\nEnd the Player's turn."
+  FlavorText: "Sanae releases all her magic power at once!"
+
+SanaeWardAmulet:
+  Name: Emblem Exchange
+  Description: "Gain {Value1} |Ward|.\nIf {PlayerName} has |Amulet|, lose {Value3} |Amulet| and gain {Value2} |Ward| instead."
+  FlavorText: "Emblem kinda sounds like mlem mlem"
+
+SanaeSpiritMana:
+  Name: Summoner Practice
+  Description: "At the start of {PlayerName}'s second turn after {SelfName} was played, gain {Value1} |Spirit| and add a |Radiance| to the hand."
+  UpgradedDescription: "At the start of {PlayerName}'s next turn, gain {Value1} |Spirit| and add a |Radiance| to the hand."
+  FlavorText: ""
+
+SanaeUpgradeWard:
+  Name: Leyline Spotlight
+  Description: "Upgrade {Value1} random cards in the hand.\nIf no cards were upgraded this way, gain {Value2} |Ward|.\n|Overflow|: Gain {Mana}."
+  ExtraDescription1: "Upgrade {Value1} random cards in the hand.\nIf no cards were upgraded this way, gain {Value2} |Ward|.\n|d:Overflow: Gain {Mana}.|"
+  DetailText: "Tools, Statuses and Misfortunes cannot be upgraded."
+  
+SanaeAttackRandom:
+  Name: Purifying Mist
+  Description: "Deal {Damage} damage to a random enemy {Value1} times.\nYou may add {Value2} |Pure Radiances| to the top of the draw pile. If you do, gain {Mana}."
+  ExtraDescription1: "Deal {Damage} damage to a random enemy {Value1} times.\nAdd {Value2} |Pure Radiances| to the top of the draw pile.\nGain {Mana}."
+  ExtraDescription2: "Deal {Damage} damage to a random enemy {Value1} times."
+  FlavorText: ""
+
+SanaeSpiritTalisman:
+  Name: Kouan Era Kochiya (old)
+  Description: "Gain {Value1} |Spirit|.\n|Choose|: Gain {Value2} |Ward|, or add {Value3} |Moriya Talismans| to the hand."
+  ExtraDescription1: "Gain {Value2} |Ward|."
+  ExtraDescription2: "Add {Value3} |Moriya Talismans| to the hand."
+
+SanaeAttackCopy:
+  Name: Ripple Effect
+  Description: "Deal {Damage} damage.\nAdd a |Copy| of this card to the top of the draw pile. It has |Exile|."
+
+SanaeDrawTemp:
+  Name: School Science Fair
+  Description: "Draw {Value1} cards.\nAt the start of {PlayerName}'s turn, draw {Value1} cards. If a non-skill card was drawn this way, discard it."
+
+SanaeBlockShuffle:
+  Name: Divining Dance
+  Description: "Whenever the draw pile is shuffled, gain {Value1} |Block|.\nScry {Scry}."
+
+SanaeBlockRebuff:
+  Name: Charm Casting
+  Description: "Gain {Block} |Block| and |Barrier|.\nIf {PlayerName} has |Amulet|, lose {Value1} |Amulet| and apply {Value2} |Weak| to each enemy."
+
+SanaeDrawSplash:
+  Name: Moses's Miracle
+  Description: "Draw {Value1} cards.\nDiscard all skill cards from the hand and add that many |Splashes| to the hand. They have |Auto-Exile|."
+  
+SanaeDrawTalisman:
+  Name: Stack Underdraw
+  Description: "Add {Value1} |Moriya Talismans| to the top of the draw pile.\nDraw {Value2} card."
+  
+SanaeMoneyWard:
+  Name: Charm of Good Commerce
+  Description: "Gain {Value1} |Ward|.\nGain {Value2} <sprite=\"Point\" name=\"Gold\">.\nGain {Value3} random mana."
+  
+SanaeAmuletTalisman:
+  Name: Secretly Inherited Arts
+  Description: "Gain {Value1} <sprite=\"Point\" name=\"Power\">.\nAdd {Value2} |Moriya Talismans| to the draw pile.\nFor each |Amulet| {PlayerName} has, {SelfName} costs {Mana} less to play."
+  FlavorText: ""
+
+SanaeManaTemp:
+  Name: Cyan Snake-Binding
+  Description: "Gain {Value1} |Temporary Spirit|.\nIf there's at least {Value3} cards in the hand, convert {Value2} |Temporary Spirit| into |Spirit| and draw {Value2} cards."
+  FlavorText: ""
+  
+SanaeBlockMana:
+  Name: Sweet Berry Preserve
+  Description: "Gain {Block} |Block|.\nUnspent mana isn't lost until the start of {PlayerName}'s next turn.\n|Overdraft| {Value1}."
+  UpgradedDescription: "Gain {Block} |Block|.\nUnspent mana isn't lost until the start of {PlayerName}'s next turn."
+
+SanaeAttackExpel:
+  Name: Cobalt Spreadshot
+  Description: "Deal {Damage} damage to each enemy.\n|Expel|: Gain {Value1} <sprite=\"Point\" name=\"Power\">."
+  
+SanaeManaShuffle:
+  Name: Potable Pondwater
+  Description: "|When Exiled|: Gain {Mana}.\nWhen the draw pile is shuffled, return {SelfName} from |Exile| to the hand."
+  FlavorText: ""
+
+SanaeSpiritShuffle:
+  Name: Soul-Searching
+  Description: "Gain {Value1} |Temporary Spirit|.\nShuffle the discard pile into the draw pile.\nDraw {Value2} cards."
+  FlavorText: ""
+
+SanaeStatusTalisman:
+  Name: Paper Handicrafts
+  Description: "At the end of {PlayerName}'s turn, add {Value1} |Moriya Talisman{Value1:plural one='' other='s'}| to the discard pile."
+  
+SanaeCuriousAbility:
+  Name: Outdated Outsider
+  Description: "Whenever an Ability card is played, gain {Value1} |Firepower|."
+  FlavorText: "What's this? What's this?"
+  
+SanaeToolNews:
+  Name: Mountaintop Meeting
+  Description: "|Choose|: Add {Value1} random non-rare Kappa |Tool| cards or {Value2} Tengu |Tool| cards to the hand.\nThey're treated as |Copies|, and have |Auto-Exile| and |Limited 1|."
+  ExtraDescription1: "Add {Value1} random Kappa |Tool| cards to the hand."
+  ExtraDescription2: "Add {Value2} random Tengu |Tool| cards to the hand."
+  DetailText: "The cards at the side are examples of Kappa and Tengu tools."
+  FlavorText: ""
+
+SanaeSpellPower:
+  Name: Transient Faith
+  Description: "Lose {Value1} life.\nGain {Value2} <sprite=\"Point\" name=\"Power\">.\nAt the start of {PlayerName}'s next turn, lose {Value3} <sprite=\"Point\" name=\"Power\">."
+
+SanaeAttackPower:
+  Name: Youkai Power Spoiler
+  Description: "Deal {Damage} damage.\nGain <sprite=\"Point\" name=\"Power\"> equal to the amount of unblocked damage dealt this way."
+  FlavorText: ""
+
+SanaeSpellMana:
+  Name: Network Conspiracy
+  Description: "Whenever the Spell Card is activated, gain {Mana}.\nEnd {PlayerName}'s turn. Then, take an extra turn.\n|Time Limit| <sprite=\"ManaSprite\" name=\"1\">."
+  UpgradedDescription: "Gain {Value2} <sprite=\"Point\" name=\"Power\">.\nWhenever the Spell Card is activated, gain {Mana}.\nEnd {PlayerName}'s turn. Then, take an extra turn.\n|Time Limit| <sprite=\"ManaSprite\" name=\"1\">."
+  FlavorText: ""
+  
+SanaeBlockWard:
+  Name: Unorthodox Defending
+  Description: "Gain {Block} |Block| {Value1} times.\nGain {Value2} |Ward| {Value1} times."
+  FlavorText: "Huh? Shouldn't this be damage instead of block?"
+  
+SanaeStatusSynergy:
+  Name: Sunburner Ritual
+  Description: "Gain {Mana}.\nAdd {Value1} |Refracted Sunlights| to the draw pile.\nGain {Value2} |Firepower|."
+
+SanaeColorRandom:
+  Name: Spectral Sunshowers
+  Description: "Choose 1 of {Value1} random cards to add to the hand. It |temporarily costs| <sprite=\"ManaSprite\" name=\"0\"> and has |Exile| and |Ethereal|.\nThese cards have colors of {Mana} respectively."
+  DetailText: "Hybrid colors are not included.\nOn |Upgrade|, these |e:alternate cards| ignore total mana and mana color restrictions."
+  FlavorText: ""
+  
+SanaeAmuletDebuff:
+  Name: Kouan Era Kochiya
+  Description: "|Choose| one or more:\n- Gain {Value1} |Firepower| and |Weak|.\n- Gain {Value1} |Spirit| and |Frail|.\n- Gain {Value1} maximum life, |Vulnerable| and |Poison|."
+  FlavorText: ""
+  
+SanaeAmuletDebuffWeak:
+  Name: Offense
+  Description: "Gain {Value1} |Firepower| and |Weak|."
+
+SanaeAmuletDebuffFrail:
+  Name: Defense
+  Description: "Gain {Value1} |Spirit| and |Frail|."
+
+SanaeAmuletDebuffVuln:
+  Name: Support
+  Description: "Gain {Value1} maximum life, |Vulnerable| and |Poison|."
+
+SanaeWineSplash:
+  Name: Wine and Water
+  Description: "Add a |Tipsy| and a |Splash| to the hand."
+  UpgradedDescription: "Add a |Tipsy+| and a |Splash+| to the hand."
+
+SanaeScryShuffle:
+  Name: Future Forecast
+  Description: "Shuffle the discard pile into the draw pile.\nScry {Scry}."
+  
+SanaeAttackOrder:
+  Name: Surge Transect
+  Description: "Deal {Damage} damage.\nAdd a |Copy| of the card on top of the draw pile to the hand. It |temporarily costs| <sprite=\"ManaSprite\" name=\"0\"> and has |Exile|."
+  UpgradedDescription: "Deal {Damage} damage.\nGain {Mana}.\nAdd a |Copy| of the card on top of the draw pile to the hand. It |temporarily costs| <sprite=\"ManaSprite\" name=\"0\"> and has |Exile|."
+
+SanaeOrderShuffle:
+  Name: Fragmental Insight
+  Description: "The draw pile can now be viewed in actual order.\nWhenever a non-skill card is played, gain {Mana} and shuffle the discard pile into the draw pile."
+  FlavorText: "If you keep playing cards, you'll get what you want! ...Eventually."
+
+SanaeAttackTwice:
+  Name: Forgotten Esoterica
+  Description: "Deal {Damage} damage.\nIf {PlayerName} has |Amulet|, lose {Value1} |Amulet| and deal that much damage twice instead.\nOtherwise, gain {Value2} |Amulet|."
+
+SanaeManaRandom:
+  Name: Miracle of Fafrotskies
+  Description: "Add {Value1} random cards with a total cost of 4 or less to the hand.\nThese cards have |Ethereal| and cost {Mana}."
+  UpgradedDescription: "Add {Value1} random |Upgraded| cards with a total cost of 4 or less to the hand.\nThese cards have |Ethereal| and cost {Mana}."
+  DetailText: "{SelfName} and X-cost cards cannot be produced by this effect."
+  FlavorText: ""
+  
+SanaeWardTalisman:
+  Name: Prespoke Incantation
+  Description: "Whenever {PlayerName} gains |Ward|, gain that much <sprite=\"Point\" name=\"Power\">.\nWhenever the Spell Card is activated, add {Value1} |Moriya Talismans| to the discard pile."
+  FlavorText: ""
+
+SanaeExilePower:
+  Name: Incense Diffusion
+  Description: "Gain {Shield} |Barrier|.\n|Exile| up to X cards in the draw pile and/or discard pile."
+  UpgradedDescription: "Gain {Shield} |Barrier|.\n|Exile| up to X cards in the draw pile and/or discard pile.\nAdd that many |Moriya Talismans| to the discard pile."
+
+SanaeHisouHead:
+  Name: Hisoutensoku, the Robotic Cryptid
+  Description: "If all |Robotic Cryptid| cards are in the hand, |Exile| all |Robotic Cryptid| cards and defeat all enemies.\nIf not, choose 1 of {Value1} |Robotic Cryptid| cards to add to the hand, then end {PlayerName}'s turn.\n|Overflow|: Gain {Mana}."
+  ExtraDescription1: "If all |Robotic Cryptid| cards are in the hand, |Exile| all |Robotic Cryptid| cards and defeat all enemies.\nIf not, choose 1 of {Value1} |Robotic Cryptid| cards to add to the hand, then end {PlayerName}'s turn.\n|d:Overflow: Gain {Mana}.|"
+  UpgradedDescription: "If all |Robotic Cryptid| cards are in the hand, |Exile| all |Robotic Cryptid| cards and defeat all enemies.\nIf not, choose 1 of {Value1} upgraded |Robotic Cryptid| cards to add to the hand, then end {PlayerName}'s turn.\n|Overflow|: Gain {Mana}."
+  UpgradedExtraDescription1: "If all |Robotic Cryptid| cards are in the hand, |Exile| all |Robotic Cryptid| cards and defeat all enemies.\nIf not, choose 1 of {Value1} upgraded |Robotic Cryptid| cards to add to the hand, then end {PlayerName}'s turn.\n|d:Overflow: Gain {Mana}.|"
+
+SanaeHisouRightLeg:
+  Name: Right Leg of the Robotic Cryptid
+  Description: "|At the end of the turn|: |Overdraft| {Value1}."
+
+SanaeHisouLeftLeg:
+  Name: Left Leg of the Robotic Cryptid
+  Description: "|At the end of the turn|: Gain {Value1} |Frail|."
+  UpgradedDescription: "|At the end of the turn|: Gain {Value1} |Weak|."
+
+SanaeHisouRightArm:
+  Name: Right Arm of the Robotic Cryptid
+  Description: "|At the end of the turn|: Take {Value1} damage."
+
+SanaeHisouLeftArm:
+  Name: Left Arm of the Robotic Cryptid
+  Description: "|At the end of the turn|: Add {Value1} |Glamorous Starlight{Value1:plural one='' other='s'}| to the discard pile."
+
+SanaeManaSynergy:
+  Name: Miracle Fruit
+  Description: "|For each <sprite=\"ManaSprite\" name=\"W\"> spent|: Gain <sprite=\"ManaSprite\" name=\"U\"><sprite=\"ManaSprite\" name=\"G\">.
+    \n|For each <sprite=\"ManaSprite\" name=\"U\"> spent|: Gain <sprite=\"ManaSprite\" name=\"W\"><sprite=\"ManaSprite\" name=\"G\">.\n|Overdraft| {Value1}."
+  UpgradedDescription: "|For each <sprite=\"ManaSprite\" name=\"W\"> spent|: Gain <sprite=\"ManaSprite\" name=\"U\"><sprite=\"ManaSprite\" name=\"G\">.
+    \n|For each <sprite=\"ManaSprite\" name=\"U\"> spent|: Gain <sprite=\"ManaSprite\" name=\"W\"><sprite=\"ManaSprite\" name=\"G\">.
+    \n|For each <sprite=\"ManaSprite\" name=\"G\"> spent|: Gain <sprite=\"ManaSprite\" name=\"W\"><sprite=\"ManaSprite\" name=\"U\">.\n|Overdraft| {Value1}."
+    
+SanaeExileDamage:
+  Name: Trichromatic Edelweiss
+  Description: "Whenever a status card or a card with |Auto-Exile| is |Exiled|, deal {Value1} damage to a random enemy."
+  UpgradedDescription: "Whenever a status card or a card with |Auto-Exile| is |Exiled|, deal {Value1} damage to a random enemy.\nAdd {Value2} |Moriya Talismans| to the hand."
+  FlavorText: "This would've been \"Whenever a card is exiled via Ward or Auto-Exile\" but I've tried to code it and failed, so this is the backup plan - Xeno"
+  
+SanaeLifeAmulet:
+  Name: Rite of Protection
+  Description: "Lose {Value1} life.\nGain {Shield} |Barrier|.\nGain {Value2} |Amulet|."
+  FlavorText: ""
+
+SanaeAttackDebuff:
+  Name: Thresh of Mishaguji
+  Description: "Deal {Damage} damage to each enemy.\nApply {Value1} |Weak| and |Vulnerable| to each enemy."
+  FlavorText: ""
+
+SanaeLifeStatus:
+  Name: Pyonta Hat Trick
+  Description: "Gain {Value1} maximum life.\nTransform {Value2} random cards in the hand, draw pile and/or discard pile into |Frogs|."
+  DetailText: "{SelfName} cannot be randomly generated in combat."
+  FlavorText: "You won't be seeing any rabbits or birds falling out of this hat~"
+
+SanaeScryReturn:
+  Name: Overnight Brightness
+  Description: "Scry {Scry}.\nIf the draw pile is empty, return a card from the discard pile to the hand."
+  FlavorText: ""
+
+SanaeSpiritDebuff:
+  Name: Hasty Prayers
+  Description: "Gain {Value1} |Spirit|.\nAt the start of {PlayerName}'s turn, lose {Value2} |Spirit|."
+  FlavorText: ""
+
+SanaeSuwakoFriend:
+  Name: Suwako, Wily Toad-lover
+  Description: "{PassiveCostIcon}Add {Value1} |Dark Residues| to the draw pile."
+  ExtraDescription1: "{ActiveCostIcon}Apply {Value1} |Weak| to each enemy."
+  ExtraDescription2: "<indent=0><sprite=\"Active\" name=\"-4\"><indent=80>Add a random uncommon Ability card to the hand. It |temporarily costs| {Mana} and has |Ethereal|."
+  FlavorText: ""
+
+SanaeDrawDebuff:
+  Name: Turbulent Urban Wand
+  Description: "|While in hand|: Whenever a card is drawn outside of the draw step, gain {Mana}.\n|When Exiled|: Lose {Value2} life. No more cards can be drawn this turn."
+  UpgradedDescription: "|While in hand|: Whenever a card is drawn outside of the draw step, gain {Value1} random mana.\n|When Exiled|: Lose {Value2} life. No more cards can be drawn this turn."
+  FlavorText: ""
+
+SanaeGrazeWard:
+  Name: God's Windshield
+  Description: "Whenever {PlayerName} |Grazes| an attack, gain {Value1} |Ward|.\nGain {Value2} |Graze|."
+  FlavorText: ""
+  
+SanaePowerOmikuji:
+  Name: Omikuji Bonus
+  Description: "If {PlayerName} has <sprite=\"Point\" name=\"Power\">, lose {Value1} <sprite=\"Point\" name=\"Power\"> and increase {PlayerName}'s Spell Card damage by {Value2}."
+  FlavorText: ""
+
+SanaeReimuAbility:
+  Name: Shrine Rivalry
+  Description: "Choose 1 of {Value1} random Reimu rare Ability cards to add to the hand. It |temporarily costs| {Mana} and has |Ethereal|.\n|Overdraft| {Value2}."
+  DetailText: "These |e:alternate cards| ignore total mana, mana color and character restrictions."
+  
+SanaeAttackWeak:
+  Name: Whirlpool Eyes
+  Description: "Apply {Value1} |Weak|.\nThen, deal {Damage} damage to each other enemy."
+  FlavorText: "The center of chaos is unexpectedly the safest place to reside."
+
+SanaeKanakoFriend:
+  Name: Kanako, Divine Wind Deity
+  Description: "{PassiveCostIcon}Deal {Damage} attack damage to the enemy with the most life."
+  UpgradedDescription: "{PassiveCostIcon}Deal {Damage} attack damage to the enemy with the most life."
+  ExtraDescription1: "{ActiveCostIcon}Gain {Shield} |Barrier|. Gain {Value3} |Graze|."
+  ExtraDescription2: "{UltimateCostIcon}Gain {Value2} <sprite=\"Point\" name=\"Power\">. For the rest of this combat, whenever the Spell Card is activated gain {Value1} |Firepower| and |Graze|."
+  FlavorText: ""
+
+SanaeMiracleAbility:
+  Name: Miracle Pentacle
+  Description: "Choose 1 of {Value1} uncommon Ability cards to add to the hand. It |temporarily costs| {Mana} and has |Echo| and |Ethereal|."
+  UpgradedDescription: "Choose 1 of {Value1} rare Ability cards or 1 of {Value1} uncommon Ability cards to add to the hand. It |temporarily costs| {Mana} and has |Echo| and |Ethereal|."
+  DetailText: "These |e:alternate cards| ignore total mana and mana color restrictions."

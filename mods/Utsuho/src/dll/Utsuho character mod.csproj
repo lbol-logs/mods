@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6D01E4FE-DDB4-4392-8F1F-64822823C83F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Utsuho character mod</RootNamespace>
+    <AssemblyName>Utsuho character mod</AssemblyName>
+    <TargetFrameworkVersion>v2.1</TargetFrameworkVersion>
+    <TargetFrameworkIdentifier>.NETStandard</TargetFrameworkIdentifier>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony" />
+    <Reference Include="BepInEx" />
+    <Reference Include="LBoL-AddWatermark" />
+    <Reference Include="LBoL-Entity-Sideloader" />
+    <Reference Include="LBoL.Base">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.ConfigData">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.ConfigData.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.Core">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.EntityLib">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.EntityLib.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.Presentation">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.Presentation.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="UniTask">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\UniTask.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule" />
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PullFix\Patches\Helpers.cs" />
+    <Compile Include="System\Runtime\CompilerServices\IgnoresAccessChecksToAttribute.cs" />
+    <Compile Include="Utsuho_character_mod\BepinexPlugin.cs" />
+    <Compile Include="Utsuho_character_mod\CardsB\DarkMatterDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsB\FixedStarDefinition.cs" />
+    <Compile Include="Utsuho_character_mod\CardsB\GravityDistortionDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsB\GravityWellDefinition.cs" />
+    <Compile Include="Utsuho_character_mod\CardsB\MassDriverDefinition.cs" />
+    <Compile Include="Utsuho_character_mod\CardsB\QuantumDissonanceDefinition.cs" />
+    <Compile Include="Utsuho_character_mod\CardsB\SubterraneanSunDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsB\ZeroPointDefinition.cs" />
+    <Compile Include="Utsuho_character_mod\CardsG\GammaRaysDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsG\ReignitionDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsG\TurboFuelDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsMulti\AblativeArmorDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsMulti\AlphaProtocolDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsMulti\BetaProtocolDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsMulti\CoolantDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsMulti\CrossfeedDefinition.cs" />
+    <Compile Include="Utsuho_character_mod\CardsMulti\DojoDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsMulti\EternityEngineDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsMulti\GammaProtocolDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsMulti\HotSpringDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsMulti\IgnitionDefinition.cs" />
+    <Compile Include="Utsuho_character_mod\CardsMulti\MaintainReactionDefinition.cs" />
+    <Compile Include="Utsuho_character_mod\CardsMulti\RememberDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsMulti\SpatialRendDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsMulti\StarlightDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsMulti\SunCrowDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsMulti\SunSpotDefinition.cs" />
+    <Compile Include="Utsuho_character_mod\CardsMulti\UltravioletDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\AbyssNovaDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\AggregateDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\BlackHoleDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\BlowAwayDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\BunkerDownDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\CloakStarDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\EscapeVelocityDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\EverythingBurnsDefinition.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\FireBurstDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\FissionDefinition.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\FlareUpDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\GridlockDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\HeatShieldDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\HeatVisorDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\HellGeyserDefinition.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\HighTensionDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\InverseBeamDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\MaxPowerDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\MegaFlareDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\NightFallsDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\NuclearDiveDefinition.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\NuclearFusionDefinition.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\NuclearStrikeDefinition.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\PlanetaryOrbitDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\PlasmaBurnDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\RecklessGambleDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\SalvoDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\ShootingStarDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\SkyFlightDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\SpaceScannerDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\StartReactorDefinition.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\SunlightReverieDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\SuperGiantDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\TokamakDefinition.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\VacuumSlashDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\WarpShieldDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\WasteNotDefinition.cs" />
+    <Compile Include="Utsuho_character_mod\CardsR\WhiteHoleDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsU\BlueshiftDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsU\ResonanceDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsW\CautionDef.cs" />
+    <Compile Include="Utsuho_character_mod\CardsW\DisintegrateDefinition.cs" />
+    <Compile Include="Utsuho_character_mod\CardsW\ExpandingBrillianceDefinition.cs" />
+    <Compile Include="Utsuho_character_mod\Exhibits\BlackSunDefinition.cs" />
+    <Compile Include="Utsuho_character_mod\Exhibits\ControlRodDefinition.cs" />
+    <Compile Include="Utsuho_character_mod\PInfo.cs" />
+    <Compile Include="Utsuho_character_mod\PullIntentionDef.cs" />
+    <Compile Include="Utsuho_character_mod\Status\CautionEffect.cs" />
+    <Compile Include="Utsuho_character_mod\Status\CautionStatus.cs" />
+    <Compile Include="Utsuho_character_mod\Status\ChargingEffect.cs" />
+    <Compile Include="Utsuho_character_mod\Status\ChargingStatus.cs" />
+    <Compile Include="Utsuho_character_mod\Status\EnergyEffect.cs" />
+    <Compile Include="Utsuho_character_mod\Status\FixedStarEffect.cs" />
+    <Compile Include="Utsuho_character_mod\Status\FixedStarStatus.cs" />
+    <Compile Include="Utsuho_character_mod\Status\GravityWellEffect.cs" />
+    <Compile Include="Utsuho_character_mod\Status\GravityWellStatus.cs" />
+    <Compile Include="Utsuho_character_mod\Status\HeatStatus.cs" />
+    <Compile Include="Utsuho_character_mod\Status\HeatVisorEffect.cs" />
+    <Compile Include="Utsuho_character_mod\Status\HeatVisorStatus.cs" />
+    <Compile Include="Utsuho_character_mod\Status\HotSpringEffect.cs" />
+    <Compile Include="Utsuho_character_mod\Status\HotSpringStatus.cs" />
+    <Compile Include="Utsuho_character_mod\Status\MaintainReactionEffect.cs" />
+    <Compile Include="Utsuho_character_mod\Status\MaintainReactionStatus.cs" />
+    <Compile Include="Utsuho_character_mod\Status\MassDriverEffect.cs" />
+    <Compile Include="Utsuho_character_mod\Status\MassDriverStatus.cs" />
+    <Compile Include="Utsuho_character_mod\Status\PointDeviceEffect.cs" />
+    <Compile Include="Utsuho_character_mod\Status\PointDeviceStatus.cs" />
+    <Compile Include="Utsuho_character_mod\Status\QuantumDissonanceEffect.cs" />
+    <Compile Include="Utsuho_character_mod\Status\QuantumDissonanceStatus.cs" />
+    <Compile Include="Utsuho_character_mod\Status\RadiationEffect.cs" />
+    <Compile Include="Utsuho_character_mod\Status\RadiationStatus.cs" />
+    <Compile Include="Utsuho_character_mod\Status\ResonanceEffect.cs" />
+    <Compile Include="Utsuho_character_mod\Status\ResonancePlusEffect.cs" />
+    <Compile Include="Utsuho_character_mod\Status\ResonancePlusStatus.cs" />
+    <Compile Include="Utsuho_character_mod\Status\ResonanceStatus.cs" />
+    <Compile Include="Utsuho_character_mod\Status\SunSpotEffect.cs" />
+    <Compile Include="Utsuho_character_mod\Status\SunSpotStatus.cs" />
+    <Compile Include="Utsuho_character_mod\Status\TokamakEffect.cs" />
+    <Compile Include="Utsuho_character_mod\Status\TokamakStatus.cs" />
+    <Compile Include="Utsuho_character_mod\Status\TurboFuelEffect.cs" />
+    <Compile Include="Utsuho_character_mod\Status\TurboFuelStatus.cs" />
+    <Compile Include="Utsuho_character_mod\Status\WasteNotEffect.cs" />
+    <Compile Include="Utsuho_character_mod\Status\WasteNotStatus.cs" />
+    <Compile Include="Utsuho_character_mod\Util\UsefulFunctions.cs" />
+    <Compile Include="Utsuho_character_mod\Util\UtsuhoCard.cs" />
+    <Compile Include="Utsuho_character_mod\UtsuhoBossDef.cs" />
+    <Compile Include="Utsuho_character_mod\UtsuhoGroupDef.cs" />
+    <Compile Include="Utsuho_character_mod\UtsuhoModelDef.cs" />
+    <Compile Include="Utsuho_character_mod\UtsuhoPlayerDef.cs" />
+    <Compile Include="Utsuho_character_mod\UtsuhoUltB.cs" />
+    <Compile Include="Utsuho_character_mod\UtsuhoUltBDef.cs" />
+    <Compile Include="Utsuho_character_mod\UtsuhoUltR.cs" />
+    <Compile Include="Utsuho_character_mod\UtsuhoUltRDef.cs" />
+    <Compile Include="Utsuho_character_mod\VentIntentionDef.cs" />
+    <Compile Include="Utsuho_character_mod\WatermarkWrapper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Utsuho_character_mod\icon.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\AlphaProtocol.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\BetaProtocol.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\BlackSun.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\BlowAway.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\Blueshift.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\BunkerDown.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\Caution.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\Caution3.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\CautionSe.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\CautionSe_Outline.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\ControlRod.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\DarkMatter.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\EnergyStatus.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\FireBurst.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\Fission.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\FixedStar.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\GammaProtocol.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\GravityDistortion.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\GravityWellSe.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\Gridlock.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\HeatVisor.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\HellGeyser.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\HotSpring.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\InverseBeam.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\MassDriver.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\MaxPower.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\MegaFlare.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\NightFalls.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\Nuclear.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\NuclearDive.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\NuclearFusion.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\NuclearStrike.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\PullIntention.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\ReactorStartSe.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\Salvo.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\ShootingStar.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\SkyFlight.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\SpaceScanner.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\Starlight.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\SubterraneanSun.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\SunCrow.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\SunlightReverie.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\SunSpot.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\SuperGiant.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\Tokamak.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\TurboFuel.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\Ultraviolet.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\VentIntention.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\WasteNot.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\WasteNotSe.png" />
+    <EmbeddedResource Include="Utsuho_character_mod\Resources\ZeroPoint.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

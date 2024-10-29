@@ -1,0 +1,531 @@
+YoumuAttackG:
+  Name: Deva Realm Sword
+  Description: |-
+    Deal {Damage} damage.
+
+YoumuAttackW:
+  Name: Human Realm Sword
+  Description: |-
+    Deal {Damage} damage.
+
+YoumuBlockG:
+  Name: Defensive Stance
+  Description: |-
+    Gain {Block} |Block|.
+
+YoumuBlockW:
+  Name: Soul Sign
+  Description: |-
+    Gain {Block} |Block|.
+
+YoumuSlashOfPresent:
+  Name: Slash of Present
+  Description: |-
+    Deal {Damage} damage.
+
+YoumuAsuraSword:
+  Name: Asura Sword
+  Description: |-
+    Deal {Damage} damage {Value1} times.
+    Apply {Value1} |Lock On|.
+  FlavorText: |-
+    In spite of Youmu's incomplete training, she remains extremely skilled with a sword.
+
+YoumuInsightfulSword:
+  Name: Insightful Sword
+  Description: |-
+    Deal {Damage} Damage.
+    |Unsheathe|.
+  UpgradedDescription: |-
+    Deal {Damage} Damage.
+    Add a |Slash of Present| to the hand.
+    |Unsheathe|.
+  
+
+YoumuSwordOfBinding:
+  Name: Sword of Binding
+  Description: |-
+    Deal {Damage} damage to each enemy.
+    Apply {Value1} |Lock On| to each enemy.
+  FlavorText: |-
+    +5 DEF, +5 RES
+
+YoumuPretaSword:
+  Name: Preta Sword
+  Description: |-
+    Deal {Damage} damage.
+    If an enemy has {Value1} or more |Lock On|, draw {Value2} card.
+
+YoumuScatteredFlowers:
+  Name: Scattered Flowers 
+  Description: |-
+    Gain {Block} |Block|.
+    Deal damage to each enemy equal to their |Lock On|.
+  UpgradedDescription: |-
+    Gain {Block} |Block|.
+    Deal damage to each enemy equal to their |Lock On| times {Value1}.
+
+YoumuSpringWind:
+  Name: Spring Wind 
+  Description: |-
+    Apply {Value1} |Lock On| to each enemy.
+    Draw {Value2} card{Value2:plural one='' other='s'}.
+  
+YoumuStrangeBird:
+  Name: Strange Bird
+  Description: |-
+    Apply {Value2} |Lock On|.
+    Gain {Value1} |Graze|.
+  FlavorText: |-
+    Oki Jirōzaemon Hiroari splendidly shot down Itsumade with a kabura-ya.
+
+YoumuCounterSignalling:
+  Name: Counter Signalling
+  Description: |-
+    Gain {Block} |Block|.
+    Gain {Block} |Riposte|.
+    |Growth|: Gain {Value1} additional |Block| and |Riposte|.
+
+YoumuPhosphoricSlash:
+  Name: Phosphoric Slash
+  Description: |-
+    Deal {Damage} damage.
+    If an enemy has {Value1} or more |Lock On|, gain {Mana}.
+  
+
+YoumuSlashOfKarmicWind:
+  Name: Slash of Karmic Wind
+  Description: |-
+    Deal {Damage} damage {Value1} times.
+    |Lock On| increases {SelfName} damage 2 times.
+
+YoumuHalfBodyDistillation:
+  Name: Half-Body Distillation
+  Description: |-
+    Gain {Block} |Block|.
+    Choose up to {Value1} |Exiled| |Slash| or Youmu |Ethereal| card{Value1:plural one='' other='s'}, return them to the hand.
+  
+YoumuPhantomFormation:
+  Name: Phantom Formation
+  Description: |-
+    Gain {Block} |Block|.
+    Apply {Value1} |Temporary Firepower Down| to each enemy with |Lock On|.
+  
+YoumuDyingDeva:
+  Name: Dying Deva
+  Description: |-
+    |At the end of the turn|: Deal {Value1} damage to each enemy with |Lock On|.
+    |While in hand|: Whenever an enemy gains a debuff, increase {SelfName} damage by {Value2} this combat.
+  FlavorText: |-
+    Remember, time is a greedy player
+    Who always wins without even cheating.
+
+YoumuKarmaGust:
+  Name: Karma Gust
+  Description: |-
+    Apply {Value1} |Lock On| and |Weak| to each enemy.
+
+YoumuHesitationSign:
+  Name: Hesitation Sign
+  Description: |-
+    Apply {Value1} |Lock On|.
+    |When Exiled|: Apply {Value2} |Lock On| to each enemy.
+
+YoumuSingleThought:
+  Name: Single Thought
+  Description: |-
+    Gain {Mana}.
+    |When Exiled|: Gain {ManaEthereal} at the start of the next turn.
+
+YoumuTransmigrationSlash:
+  Name: Transmigration Slash
+  Description: |-
+    Deal {Damage} Damage.
+    Apply {Value1} |Lock On|.
+    |When Exiled|: Each enemy loses {Value2} life.
+
+YoumuWatchtowerSword:
+  Name: Watchtower Sword
+  Description: |-
+    Whenever {PlayerName} deals attack damage, also apply {Value1} |Lock On|.
+  FlavorText: |-
+    If only an Exhibit could do this and provide mana each turn.
+
+YoumuSilentNirvana:
+  Name: Silent Nirvana
+  Description: |-
+    Whenever an enemy gains a debuff, gain {Value1} |Block|.
+
+YoumuDefenseX:
+  Name: Retribution on the Preta
+  Description: |-
+    |For each {Mana} spent|: Gain {Block} |Riposte|.
+
+YoumuClosedEyeSlash:
+  Name: Closed-Eye Slash
+  Description: |-
+    Deal {Damage} damage.
+    Gain |Riposte| equal to the amount of unblocked damage dealt this way.
+
+YoumuInclemency:
+  Name: Inclemency of All Beings
+  Description: |-
+    All cards in the hand |temporarily cost| {Mana}.
+    No more cards can be drawn this turn.
+  UpgradedDescription: |-
+    Draw {Value1} cards.
+    All cards in the hand |temporarily cost| {Mana}.
+    No more cards can be drawn this turn.
+
+YoumuWickedSoul:
+  Name: Wicked Soul
+  Description: |-
+    Apply {Value1} |Lock On|.
+    Apply {Value2} |Firepower Down|.
+
+YoumuAscensionToBuddhahood:
+  Name: Ascension To Buddhahood
+  Description: |-
+    The first card played each turn gains |Echo|.
+    |Overflow|: Gain {Mana}.
+  DetailText: |-
+    |Copies| do not trigger this effect.
+
+YoumuWheelOfPain:
+  Name: Wheel of Pain
+  Description: |-
+    Apply {Value1} |Lock On| to each enemy.
+    At the start of {PlayerName}'s turn, apply {Value1} |Lock On| to each enemy.
+
+YoumuGhostSlash:
+  Name: Ghost Slash
+  Description: |-
+    Deal {Damage} Damage.
+    |When Exiled|: Gain {Block} |Block|.
+  
+YoumuHeavenlyHalo:
+  Name: Heavenly Halo
+  Description: |-
+    Gain {Block} |Block|.
+    Add {Value1} |Slash of Present{Value1:plural one='' other='s'}| to the hand.
+
+YoumuTwoHundredYojana:
+  Name: Two Hundred Yojana
+  Description: |-
+    Add {Value1} |Slash of Present| to the hand.
+    |Unsheathe|.
+  UpgradedDescription: |-
+    Add {Value1} |Slash of Present+| to the hand.
+    |Unsheathe|.
+
+YoumuQuickDraw:
+  Name: Quick Draw
+  Description: |-
+    Draw {Value1} card{Value1:plural one='' other='s'}.
+    |Unsheathe|.
+
+YoumuSatelliteSlash:
+  Name: Satellite Slash
+  Description: |-
+    Deal {Damage} damage.
+    Whenever {PlayerName} |Unsheathes|, return {SelfName} from the discard pile to the hand.
+
+YoumuSlashOfMeditation:
+  Name: Slash of Meditation
+  Description: |-
+    Deal {Damage} damage.
+    Gain {Block} |Block|.
+
+YoumuSlashOfDeparture:
+  Name: Slash of Departure
+  Description: |-
+    Deal {Damage} damage.
+    Increase Damage by {Value1} for each |Exiled| cards.
+
+YoumuCircularVicissitude:
+  Name: Circular Vicissitude
+  Description: |-
+    Gain {Block} |Block|.
+    If {PlayerName} has {Value1} or more |Slash| cards in hand, |Unsheathe|.
+  FlavorText: |-
+    A circle is a symbol of continuity and perfection and yet to be perfect is to change often.
+
+YoumuClearingMind:
+  Name: Clearing Mind
+  Description: |-
+    Exile up to {Value1} card{Value1:plural one='' other='s'} in the hand.
+    Add that many |Slash of Present| to the hand.
+  
+YoumuBulletCuttingSpirit:
+  Name: Bullet-Cutting Spirit
+  Description: |-
+    Gain {Value2} life.
+    |Upgrade| a card in the hand until the end of combat.
+  UpgradedDescription: |-
+    Gain {Value2} life.
+    |Upgrade| all cards in the hand until the end of combat.
+
+YoumuReflectionSlash:
+  Name: Reflection Slash
+  Description: |-
+    Deal {Damage} damage.
+    If any enemy intends to attack, gain {Block} |Riposte|.
+
+YoumuPreachingAvici:
+  Name: Preaching Avici
+  Description: |-
+    Add {Value1} |Slash of Presents| to the hand.
+    |When Exiled|: |Unsheathe|.
+
+YoumuSwordAura:
+  Name: Sword Aura
+  Description: |-
+    Gain {Value1} |Firepower|.
+    Whenever {PlayerName} |Unsheathes| while this card is in hand, gain {Value2} additional |Firepower| this turn.
+  FlavorText: |-
+    At maximum life it also shoots a projectile.
+
+YoumuInnerEye:
+  Name: Inner Eye
+  Description: |-
+    Whenever a |Slash| card is played, gain {Value1} |Riposte|.
+  FlavorText: |-
+    Be still like a mountain and flow like a great river.
+
+YoumuNetherMeditation:
+  Name: Nether Meditation
+  Description: |-
+    Choose {Value2} Attack card in the hand. Add {Value1} |Copies| to the hand.
+  DetailText: |-
+    You can't choose |Copies| for this effect.
+
+YoumuConventionalTruth:
+  Name: Conventional Truth
+  Description: |-
+    Return up to {Value1} card from the |Exile| pile to the hand.
+    |Unsheathe|.
+  DetailText: |-
+    {SelfName} cannot return {SelfName} to the hand.
+
+YoumuTenKingsRetribution:
+  Name: Ten King's Retribution
+  Description: |-
+    Gain {Block} |Riposte|.
+    Convert {PlayerName}'s |Block| into |Riposte|.
+
+YoumuGreatEnlightenment:
+  Name: Great Enlightenment
+  Description: |-
+    At the start of {PlayerName}'s turn, |Unsheathe|.
+    |Unsheathe|.
+  
+YoumuDivineSevering:
+  Name: Divine Severing
+  Description: |-
+    Whenever {PlayerName} |Unsheathes|, increase the damage of all |Slash| cards by {Value1} for the rest of combat.
+    |Unsheathe|
+  UpgradedDescription: |-
+    Whenever {PlayerName} |Unsheathes|, increase the damage of all |Slash| cards by {Value1} for the rest of combat.
+    |Unsheathe| twice.
+
+YoumuCrescentMoonSlash:
+  Name: Crescent Moon Slash
+  Description: |-
+    Deal {Damage} damage.
+    Apply {Value1} |Lock On|.
+    |Unsheathe|.
+
+YoumuSevenHakus:
+  Name: Seven Hakus
+  Description: |-
+    Gain {Block} |Block|.
+    Gain {Block} |Riposte|.
+    Gain {Value1} |Reflection|.
+    |When Exiled|: Block is not lost at the start of {PlayerName}'s turn.
+
+YoumuLotusPostureSlash:
+  Name: Lotus Posture Slash
+  Description: |-
+    Deal {Damage} damage.
+    Gain {Mana}.
+  FlavorText: |-
+    If it has lotus in its name, it adds 3 mana.
+
+YoumuBuddhahoodOfFlora:
+  Name: Buddhahood of Flora
+  Description: |-
+    Gain {Value1} |Graze|.
+    |Unsheathe|.
+
+YoumuKarmicPunishment:
+  Name: Karmic Punishment
+  Description: |-
+    Gain {Mana}.
+    Draw {Value1} card{Value1:plural one='' other='s'}.
+    Gain {Value2} |Lock On|.
+
+YoumuThreeKons:
+  Name: Three Kons
+  Description: |-
+    Draw {Value1} card{Value1:plural one='' other='s'}.
+    Gain {Value1} |Static Charge|.
+    |When Exiled|: At the start of {PlayerName}'s next turn, draw {Value2} card{Value2:plural one='' other='s'}.
+
+YoumuReinforcementOfTheArmy:
+  Name: Reinforcement of The Army
+  Description: |-
+    Choose up to {Value1} Attack card from the draw pile and put it into the hand, it |temporarily costs| {Mana}.
+  FlavorText: |-
+    No, you cannot link climb into Isolde.
+
+YoumuAppearingAndDisappearing:
+  Name: Appearing And Disappearing
+  Description: |-
+    |Exile| up to {Value1} card{Value1:plural one='' other='s'} from the hand, draw pile, and discard pile.
+    Then, add to the discard pile any Youmu |Ethereal| card |Exiled| by this effect.
+
+YoumuOldSpiritMediumBind:
+  Name: Spirit Medium's Bind
+  Description: |-
+    Whenever a card is |Exiled|, deal {Value1} damage to each enemy.
+    If the card was a Youmu |Ethereal| card, deal {Value2} damage instead.
+
+YoumuDualWielder:
+  Name: Dual-Wielder of Lives
+  Description: |-
+    Whenever {PlayerName} applies {Value1} |Lock On|, add {Value2} |Slash of Present| to the hand.
+  UpgradedDescription: |-
+    Add {Value2} |Slash of Present| to the hand.
+    Whenever {PlayerName} applies {Value1} |Lock On|, add {Value2} |Slash of Present| to the hand.
+
+YoumuInfiniteKalpas:
+  Name: Infinite Kalpas
+  Description: At the start of {PlayerName}'s turn, add {Value1} random Youmu |Ethereal| card to the hand. These cards have |Exile|.
+
+YoumuFlashOfTheNetherworld:
+  Name: Flash of the Netherworld
+  Description: |-
+    At the end of every extra turn, deal {Value1} Damage to each enemy for every card played that turn.
+    End {PlayerName}'s turn.
+    Then, take an extra turn.
+    |Time Limit| {Mana}.
+
+YoumuTurningAngelCut:
+  Name: Turning Angel Cut
+  Description: |-
+    |For each spent| {Mana}: Add {Value1} |Slash of Present| to the hand, it |temporarily costs| {ManaEmpty}.
+    |For each spent| {ManaGreen}: Apply {Value2} |Lock On|.
+
+YoumuSlashDraw:
+  Name: Slash Draw
+  Description: |-
+    |When drawn|: Deal {Damage} damage to each enemy and |Exile| {SelfName}.
+
+YoumuMatsuyoiReflecting:
+  Name: Matsuyoi-Reflecting
+  Description: |-
+    Double the current |Riposte|.
+    If {PlayerName} has less than {Block} |Riposte|, gain {Block} |Riposte| instead.
+
+YoumuWaterfowlDance:
+  Name: Waterfowl Dance
+  Description: |-
+    Deal {Damage} damage {Value1} times.
+    Gain additional effects based on the amount of time {PlayerName} |Unsheathed| this turn:    
+    {UnsheathedThreshold1}+: Apply {Value2} |Lock On|.
+    {UnsheathedThreshold2}+: Deal damage an additional time.
+    {UnsheathedThreshold3}+: Gain {Mana}.
+
+YoumuUnendingWinter:
+  Name: Unending Winter
+  Description: |-
+    Whenever {PlayerName} deals attack damage, also apply {Value1} |Cold|.
+  FlavorText: |-
+    Shouldn't this exile every 'Spring is here!' in the draw pile?
+
+YoumuBizareness:
+  Name: Bizarreness of Six Realms
+  Description: |-
+    Whenever an enemy gains |Lock On|, also apply {Value1} |Poison|.
+
+YoumuLivingAndDead:
+  Name: Living and Dead
+  Description: |-
+    Choose {Value2} of {Value1} Youmu |Ethereal| card{Value1:plural one='' other='s'}.
+    Add it to the hand, it |temporarily costs| {Mana} and has |Exile|.
+  FlavorText: |-
+    Death isn't the end of life, it's just a part of it.
+
+YoumuNextToNone:
+  Name: Next To None
+  Description: |-
+    Remove the enemy's |Block|, |Barrier|, |Graze|, |Optical Camouflage| and |Flawless|.
+    |Unsheathe|.
+  FlavorText: |-
+    The tiles (or lunarian rabbits) I cannot cut are next to none!
+
+YoumuClearingTheSixSenses:
+  Name: Clearing The Six Senses
+  Description: |-
+    Remove all debuffs from {PlayerName}.
+    If a debuff was removed, gain {Value1} |Firepower|.
+  
+YoumuEmbercleave:
+  Name: Embercleave
+  Description: |-
+    Whenever an |Attack| card is played while this card is in the hand, {SelfName} costs {Mana} less this combat.
+    |Attacks| deals double damage this turn.
+  FlavorText: |-
+    Math is for blockers.
+
+YoumuHesitationCuttingSword:
+  Name: Hesitation-Cutting Sword
+  Description: |-
+    Add {Value1} |Slash of Presents| to the hand.
+    |Unsheathe| twice.
+  UpgradedDescription: |-
+    Add {Value1} |Slash of Presents+| to the hand.
+    |Unsheathe| twice.
+  
+YoumuBloodOfAsura:
+  Name: Blood of Asura
+  Description: |-
+    Whenever an |Attack| card is played, gain {Value1} |Firepower|.
+  FlavorText: |-
+    Asuras are known for their inextinguishable spirits and everlasting volitions.
+
+YoumuMeikyoShisui:
+  Name: Meikyo Shisui
+  Description: |-
+    Gain {Block} |Riposte|.
+    Draw {Value1} card{Value1:plural one='' other='s'}.
+
+YoumuSpiritMediumBind:
+  Name: Spirit Medium's Bind
+  Description: |-
+    Whenever a card is |Exiled|, deal {Value1} damage to each enemy.
+
+YoumuHakugyokurou:
+  Name: Hakugyokurou
+  Description: |-
+    |At the start of the turn|: Draw {Value2} card{Value2:plural one='' other='s'}.
+    |While in hand|: If {Value1} |Slash| cards have been played while this card is in the hand, discard it and deal {Damage} Damage to each enemy.
+  
+YoumuAgelessObsession:
+  Name: Ageless Obsession
+  Description: |-
+    Apply {Value1} |Lock On| to each enemy.
+    Whenever an enemy gains |Lock On|, double the amount gained.
+
+YoumuYuyukoFriend:
+  Name: Yuyuko, Ghost of Idyll
+  Description: |-
+    {Indent}Apply {Value1} |Law of Mortality| to each enemy.
+    {PassiveCostIcon}Gain {Mana}.
+  ExtraDescription1: |-
+    {ActiveCostIcon}Apply {Value2} |Weak| and |Vulnerable| to each enemy.
+  ExtraDescription2: |-
+    {UltimateCostIcon}At the end of {PlayerName}'s turn, apply {Value1} |Law of Mortality| to each enemy.
+  FlavorText: |-
+    Mors certa, hora incerta. Nosce te ipsum. Vive hodie.
+

@@ -1,0 +1,88 @@
+OmikujiBonusSe:
+  Name: 스펠 카드 강화
+  Description: "{OwnerName}가 |스펠 카드|를 사용할 때마다, 추가로 피해를 {Level} 줍니다."
+  Brief: "{OwnerName}가 |스펠 카드|를 사용할 때마다, 추가 피해를 줍니다."
+
+SanaePowerPotatoSe:
+  Name: 현대 오락
+  Description: '전투 종료시, <sprite="Point" name="Power">를 {Level} 얻습니다.'
+  Brief: '전투 종료시, <sprite="Point" name="Power">를 {Level} 얻습니다.'
+
+SanaeSpellDamageSe:
+  Name: 그린 서머터지
+  Description: "스펠 카드가 발동할 때 마다, {OwnerName}가 무작위 적에게 피해를 8씩 {Level}회 줍니다."
+  Brief: "스펠 카드가 발동될 때마다,{OwnerName}가 무작위 적에게 피해를 8씩 몇번 줍니다."
+
+SanaeSpiritManaSe:
+  Name: 소환사 연습
+  Description: "{PlayerName}의 {Count:ordinal one='다음 턴 시작시' other='%턴 뒤'}, |영력|을 {Level} 얻고 손에 |광휘|를 한장 추가합니다."
+  Brief: "몇 턴 뒤, |영력|을 얻고 손에 |광휘|를 한장 추가합니다."
+
+SanaeDrawTempSe:
+  Name: 학교 과학 박람회
+  Description: "{OwnerName}의 턴이 시작될 때, 카드를 {Level}장 뽑습니다. 이렇게 뽑은 카드가 스킬카드가 아니라면, 그 카드를 버립니다."
+  Brief: "{OwnerName}의 턴이 시작될 때, 카드를 뽑습니다. 이렇게 뽑은 카드가 스킬카드가 아니라면, 그 카드를 버립니다."
+
+SanaeBlockShuffleSe:
+  Name: 예언무
+  Description: "{OwnerName}가 뽑을 카드 더미가 섞일 때마다, |방어|를 {Level} 얻습니다."
+  Brief: "{OwnerName}가 뽑을 카드 더미가 섞일 때마다, |방어|를 {Level} 얻습니다."
+
+SanaeStatusTalismanSe:
+  Name: 종이 수공예
+  Description: "{OwnerName}의 턴이 끝날 때, |모리야 부적|을 {Level}장 버린 카드 더미에 추가합니다."
+  Brief: "{OwnerName}의 턴이 끝날 때, |모리야 부적|을 버린 카드 더미에 추가합니다."
+
+SanaeWardTalismanSe:
+  Name: 엉터리 주문
+  Description: "{OwnerName}가 |비호|를 얻을 때마다, 그만큼 <sprite=\"Point\" name=\"Power\">를 얻습니다.\n스펠 카드를 발동할 때 마다, |모리야 부적|을 버린 카드 더미에 {Level}장 추가합니다."
+  Brief: "{OwnerName}가 |비호|를 얻을 때마다, 그만큼 <sprite=\"Point\" name=\"Power\">를 얻습니다.\n스펠 카드를 발동할 때 마다, |모리야 부적|을 버린 카드 더미에 추가합니다."
+
+SanaeSpellManaGreenSe:
+  Name: 네트워크 음모
+  Description: "스펠 카드가 발동할 때마다 {Mana}를 {Level}개 얻습니다."
+  Brief: "스펠 카드가 발동될 때마다, {Mana}를 얻습니다."
+
+SanaeSpellManaPhiloSe:
+  Name: 네트워크 음모
+  Description: "스펠 카드가 발동할 때마다 {Mana}를 {Level}개 얻습니다."
+  Brief: "스펠 카드가 발동될 때마다, {Mana}를 얻습니다."
+
+SanaeOrderShuffleSe:
+  Name: 단편적 통찰
+  Description: "스킬 이외의 카드를 사용할 때마다 {Mana}를 얻고, 버린 카드 더미를 뽑을 카드 더미와 섞습니다."
+
+SanaeExileDamageSe:
+  Name: 삼색 에델바이스
+  Description: "상태 카드 또는 |자동 소멸|이 있는 카드가 |소멸|될 때마다 {OwnerName}가 무작위 적에게 피해를 {Level} 줍니다."
+  Brief: "상태 카드 또는 |자동 소멸|이 있는 카드가 |소멸|될 때마다 {OwnerName}가 무작위 적에게 피해를 줍니다."
+
+SanaeGrazeWardSe:
+  Name: 신의 바람막이
+  Description: "{OwnerName}이 공격을 |그레이즈|할 때마다 |비호|를 {Level} 얻습니다."
+  Brief: "{OwnerName}이 공격을 |그레이즈|할 때마다 |비호|를 2 얻습니다."
+
+SanaeKanakoFriendSe:
+  Name: 불려진 신
+  Description: "스펠 카드가 발동할 때마다, {OwnerName}가 |화력|과 |그레이즈|를 {Level} 얻습니다."
+  Brief: "스펠 카드가 발동할 때마다, {OwnerName}가 |화력|과 |그레이즈|를 2 얻습니다."
+
+NextTurnLoseFire:
+  Name: 다음턴 화력 소실
+  Description: "{OwnerName}의 다음 턴 시작시, |화력|을 {Level} 잃습니다."
+  Brief: "{OwnerName}의 다음 턴 시작시, |화력|을 잃습니다."
+
+NextTurnLosePower:
+  Name: 다음 턴 파워 감소
+  Description: '{OwnerName}의 다음 턴 시작 시, <sprite="Point" name="Power">를 {Level} 잃습니다.'
+  Brief: '{OwnerName}의 다음 턴 시작 시, <sprite="Point" name="Power">를 잃습니다.'
+
+TurnStartDontLoseMana:
+  Name: 마나 회수
+  Description: "{OwnerName}는 다음 {Duration}턴 동안 턴 시작 시 마나를 잃지 않습니다."
+  Brief: "{OwnerName}는 특정 턴 동안 턴 시작 시 마나를 잃지 않습니다."
+
+AmuletForEnemy:
+  Name: 보루
+  Description: "추가될 다음 {Level}장의 비-상태카드를 차단합니다. (대신 |소멸| 시킵니다)."
+  Brief: "추가될 다음 비-상태카드를 차단합니다. (대신 |소멸| 시킵니다)."

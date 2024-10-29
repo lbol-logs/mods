@@ -1,0 +1,104 @@
+YoumuAgelessObsessionSe:
+  Name: Ageless Obsession
+  Description: "Whenever an enemy gains |Lock On|, apply |Lock On| {Level} additional times."
+  Brief: "Whenever an enemy gains |Lock On|,  apply |Lock On| {Level} additional times."
+
+YoumuAscensionToBuddhahoodSe:
+  Name: Ascension To Buddhahood
+  Description: "The first {Level} card{Level:plural one='' other='s'} played each turn gains |Echo|.\n(Remaining: {Count})"
+
+YoumuBizarenessSe:
+  Name: Bizarreness of Six Realms
+  Description: "Whenever an enemy gains |Lock On|, also apply {Level} |Poison|."
+  Brief: "Whenever an enemy gains |Lock On|, also apply 1 |Poison|."
+
+YoumuBloodOfAsuraSe:
+  Name: Blood Of Asura
+  Description: "Whenever {PlayerName} plays an |Attack| card, gain {Level} |Firepower|."
+  Brief: "Whenever {PlayerName} plays an |Attack| card, gain 1 |Firepower|."
+
+YoumuDivineSeveringSe:
+  Name: Divine Severing
+  Description: "Whenever {PlayerName} |Unsheathes|, increase the damage of all Slash cards by {Level} for the rest of combat."
+  Bried: "Whenever {PlayerName} |Unsheathes|, increase the damage of all Slash cards in hand by 1 for the rest of combat."
+
+YoumuDualWielderSe:
+  Name: Dual-Wielder of Lives
+  Description: "Whenever {PlayerName} applies 5 |Lock On|, add {Level} |Slash of Present| to the hand."
+  Bried: "Whenever {PlayerName} applies 5 |Lock On|, add 1 |Slash of Present| to the hand."
+
+YoumuDrawNextTurnSe:
+  Name: Draw Next Turn
+  Description: "At the start of {PlayerName}'s next turn, draw {Level} card(s)."
+  Brief: "At the start of {PlayerName}'s next turn, draw a card."
+
+YoumuFlashOfTheNetherworldSe:
+  Name: Flash Of The Netherworld
+  Description: "At the end of every extra turn, deal {Level} Damage to each enemy for every card played that turn."
+  Brief: "At the end of every extra turn, deal Damage to each enemy for every card played that turn."
+
+YoumuGreatEnlightenmentSe:
+  Name: Great Enlightenment
+  Description: "At the start of {PlayerName}'s turn, |Unsheathe| {Level} time(s)."
+  Brief: "At the start of {PlayerName}'s turn, |Unsheathe|."
+
+YoumuInfiniteKalpasSe:
+  Name: Infinite Kalpas
+  Description: "At the start of {PlayerName}'s turn, add {Level} random Youmu |Ethereal| card to the hand. These cards have |Exile|."
+  Brief: "At the start of {PlayerName}'s turn, add a random Youmu |Ethereal| card to the hand. These cards have |Exile|."
+
+YoumuSpiritMediumBindSe:
+  Name: Spirit Medium's Bind
+  Description: "Whenever a card is |Exiled|, deal {Level} damage toeach enemy."
+  Brief: "Whenever a card is |Exiled|, deal 1 damage to each enemy."
+
+YoumuOldSpiritMediumBindSe:
+  Name: Spirit Medium's Bind
+  Description: "Whenever a card is |Exiled|, deal {Level} damage toeach enemy.\nIf the card was a Youmu |Ethereal| card, deal triple damage instead."
+  Brief: "Whenever a card is |Exiled|, deal 1 damage to each enemy.\nIf the card was a Youmu |Ethereal| card, deal 3 damage instead."
+
+YoumuInnerEyeSe:
+  Name: Inner Eye
+  Description: "Whenever a Slash card is played, gain {Level} |Riposte|."
+  Brief: "Whenever a Slash card is played, gain 1 |Riposte|."
+
+YoumuWatchtowerSwordSe:
+  Name: Roukanken
+  Description: "Whenever {PlayerName} deals attack damage, also apply {Level} {Value1} |Lock On|."
+  Brief: "Whenever {PlayerName} deals attack damage, also apply 1 |Lock On|."
+
+YoumuRiposteSe:
+  Name: Riposte
+  Description: "Attack damage reduces |Riposte| instead of life. Deal damage to the attacker equal to the amount of |Riposte| lost."
+  Brief: "Attack damage reduces |Riposte| instead of life. Deal damage to the attacker equal to the amount of |Riposte| lost."
+
+YoumuSilentNirvanaSe:
+  Name: Silent Nirvana
+  Description: "Whenever an enemy gains a debuff, gain {Level} Block."
+  Brief: "Whenever an enemy gains a debuff, gain 1 Block."
+
+YoumuUnendingWinterSe:
+  Name: Unending Winter
+  Description: "Whenever {PlayerName} deals attack damage, apply {Level} |Cold| to the target(s)."
+  Brief: "Whenever {PlayerName} deals attack damage, apply |Cold| to the target(s)."
+
+YoumuWheelOfPainSe:
+  Name: Wheel Of Pain
+  Description: "At the start of {PlayerName}'s turn, apply {Level} |Lock On| to each enemy."
+  Brief: "At the start of {PlayerName}'s turn, apply |Lock On| to each enemy."
+
+YoumuYuyukoFriendSe:
+  Name: Border of life
+  Description: "At the end of {PlayerName}'s turn, apply {Level} |Law of Mortality| to each enemy."
+  Brief: "At the end of {PlayerName}'s turn, apply |Law of Mortality| to each enemy."
+
+YoumuUnsheatheSe:
+  Name: Unsheathe
+  Description: "This is a workaround to add keywords description to cards."
+  Brief: "|Slash| cards in the hand |temporarily cost| <sprite=\"ManaSprite\" name=\"1\"> less.\nThen, if there are no |Slash of Present| card in the hand, add 1 |Slash of Present| to hand."
+
+YoumuYuyukoDeathSe:
+  Name: Law of Mortality
+  Description: "This is a workaround to add keywords description to cards."
+  Brief: "At the end of the character's turn, they lose 1 life. When applied, the character can no longer gain life."
+

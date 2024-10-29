@@ -1,0 +1,7 @@
+VentIntention:
+  Name: 냉각
+  Description: "{OwnerName}가 모든 열을 제거하려고 합니다."
+
+PullIntention:
+  Name: "응집 피해"
+  Description: "{OwnerName}가 손의 암흑 물질을 기반으로 추가 피해를 줍니다."

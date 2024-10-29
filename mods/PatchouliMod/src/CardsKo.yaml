@@ -1,0 +1,395 @@
+PatchouliAttackU:
+  Name: 워터 드래곤
+  Description: "피해를 {Damage} 줍니다."
+
+PatchouliBlockB:
+  Name: 공허의 영혼
+  Description: "|방어|를 {Block} 얻습니다."
+
+PatchouliAttackB:
+  Name: 다이아몬드 커터
+  Description: "피해를 {Damage} 줍니다."
+
+PatchouliBlockU:
+  Name: 북극의 냉기
+  Description: "|방어|를 {Block} 얻습니다."
+
+PatchouliAstronomy:
+  Name: 천문학
+  Description: "카드를 {Value1}장 뽑습니다.\n|증강| {BoostThreshold1}: {Mana}를 얻습니다.\n(|증강|: {Boost})"
+
+PatchouliCondensedBubble:
+  Name: 컨덴스트 버블
+  Description: "피해를 {Damage} 만큼 {Value2}번 줍니다.\n|증강 할 때 마다|: 추가로 피해를 {Value1} 줍니다.\n(|증강|: {Boost})"
+
+PatchouliAgniShine:
+  Name: 아그니 샤인
+  Description: "피해를 {Damage} 만큼 {Value2}번 줍니다.\n|화부| {Value1} |원소 전개|."
+  UpgradedDescription: "피해를 {Damage} 만큼 {Value2}번 줍니다.\n|화부| {Value1} |원소 전개|.\n|원소 전개|된 |화부|의 |지속| 능력을 발동합니다."
+
+PatchouliObservatory:
+  Name: 전망대
+  Description: "피해를 {Damage} 줍니다.\n손에 |천문학|을 {Value1} 가져옵니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n손에 |천문학|을 {Value1} 가져옵니다.\n손의 모든 카드를 |증강|합니다."
+
+PatchouliNegate:
+  Name: 무효
+  Description: "|대응 공격|: |방어|를 {Block} 얻습니다.\n|대응 상태이상|: |비호|를 {Value1} 얻습니다."
+
+PatchouliManaDrain:
+  Name: 마나 흡수
+  Description: "피해를 {Damage} 줍니다.\n|증강| {BoostThreshold1}: |허약|을 {Value1} 줍니다.(|증강|: {Boost})"
+
+PatchouliFatesHand:
+  Name: 운명의 손
+  Description: "카드를 {Value1}장 뽑습니다.\n|증강 할 때 마다|: {SelfName}의 비용이 {Mana} 감소합니다.\n(|증강|: {Boost})"
+
+PatchouliArcaneWard:
+  Name: 미지의 방패
+  Description: "|방어|를 {Block} 얻습니다.\n|증강 할 때 마다|: 추가로 |방어|를 {Value1} 얻습니다.\n(|증강|: {Boost})"
+
+PatchouliDistortionField:
+  Name: 왜곡장
+  Description: "|그레이즈|를 {Value1} 얻습니다.\n패의 모든 카드를 |증강|합니다."
+  UpgradedDescription: "|그레이즈|를 {Value1} 얻습니다.\n패의 모든 카드를 두번 |증강|합니다."
+
+PatchouliDiamondRing:
+  Name: 다이아몬드 링
+  Description: "피해를 {Damage} 줍니다.\n|선택|: |일부| {Value1} |원소 전개|, 또는 |월부| {Value1} |원소 전개|."
+  ExtraDescription1: "|일부| {Value1} |원소 전개|."
+  ExtraDescription2: "|월부| {Value1} |원소 전개|."
+
+PatchouliSilverDragon:
+  Name: 실버 드래곤
+  Description: "|방어|를 {Block} 얻습니다.\n|금부| {Value1} |원소 전개|."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n|금부| {Value1} |원소 전개|.\n|원소 전개|된 |금부|의 |지속|능력을 발동합니다."
+
+PatchouliFlashOfSpring:
+  Name: 플래시 오브 스프링
+  Description: "카드를 {Value1} 뽑습니다.\n|목부| {Value2} |원소 전개|."
+
+PatchouliSunshineReflector:
+  Name: 선샤인 리플렉터
+  Description: "모든 적에게 피해를 {Damage} 줍니다.\n|일부| {Value1} |원소 전개|."
+
+PatchouliSilentSelene:
+  Name: 사일런트 셀레네
+  Description: "|방어|를 {Block} 얻습니다.\n|월부| {Value1} |원소 전개|."
+
+PatchouliWaterElf:
+  Name: 워터 엘프
+  Description: "피해를 {Damage} 줍니다.\n|수부| {Value1} |원소 전개|.\n|목부| {Value1} |원소 전개|.\n|증강 할 때 마다|: {SelfName}의 비용이 {Mana} 감소합니다.\n(|증강|: {Boost})"
+
+PatchouliTidalWave:
+  Name: 타이달 웨이브
+  Description: "|침수|를 {Value1} 줍니다.\n적의 |침수| 효과를 발동합니다.\n|증강| {BoostThreshold1}: 추가로 |침수|를 {Value2} 줍니다.\n(|증강|: {Boost})"
+
+PatchouliEveryAngleShot:
+  Name: 에브리 앵글 샷
+  Description: "피해를 {Damage} 줍니다.\n|증강| {BoostThreshold1}: |소멸|과 |휘발성|을 가진 {SelfName}을 한 장 손에 가져옵니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n|증강| {BoostThreshold1}: |소멸|과 |휘발성|을 가진 {SelfName}+를 한 장 손에 가져옵니다."
+
+PatchouliOldEveryAngleShot:
+  Name: 에브리 앵글 샷
+  Description: "피해를 {Damage}만큼 {Value1}번 줍니다.\n|증강 할 때 마다|: {SelfName}의 비용이 {Mana} 감소합니다.\n(|증강|: {Boost})"
+  UpgradedDescription: "피해를 {Damage}만큼 {Value1}번 줍니다.\n|증강 할 때 마다|: {SelfName}의 비용이 {Mana} 감소합니다.\n(|증강|: {Boost})"
+
+PatchouliTwinspell:
+  Name: 이중주문
+  Description: "카드를 {Value1}장 뽑습니다.\n|손에 있을 시|:|증강| 카드를 사용시, 남은 전투 동안 {SelfName}을 해당 카드의 복사본으로 바꾸고 그 |증강|도 얻습니다."
+  UpgradedDescription: "카드를 {Value1}장 뽑습니다.\n|손에 있을 시|: |증강| 카드를 사용시, 남은 전투 동안 {SelfName}을 해당 카드의 |강화된| 복사본으로 바꾸고 그 |증강|도 얻습니다."
+
+PatchouliMoonlitChill:
+  Name: 달빛의 냉기
+  Description: "|화력|을 {Value1} 얻고 |영력|을 {Value2} 얻습니다.\n|증강| {BoostThreshold1}: 추가로 |화력|을 {Value2} 얻습니다.\n|증강| {BoostThreshold2}: 추가로 |영력|을 {Value1} 얻습니다.\n(|증강|: {Boost})"
+
+PatchouliBuryInLake:
+  Name: 버리 인 레이크
+  Description: "|방어|를 {Block} 얻습니다.\n|수부| {Value1} |원소 전개|."
+  UpgradedDescription: "|보호막|을 {Shield} 얻습니다.\n|수부| {Value1} |원소 전개|."
+
+PatchouliConcentration:
+  Name: 집중
+  Description: "카드를 {Value1}장 뽑습니다.\n|증강| {BoostThreshold1} 과 {BoostThreshold2}: |방어|를 {Value2} 얻습니다.\n(|증강|: {Boost})"
+
+PatchouliMoongazing:
+  Name: 달 관측
+  Description: "|방어|를 {Block} 얻습니다.\n손에 |천문학|을 {Value1} 가져옵니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n손에 |천문학|을 {Value1} 가져옵니다.\n손의 모든 카드를 |증강|합니다."
+
+PatchouliPhlogisticRain:
+  Name: 플로지스틱 레인
+  Description: "피해를 {Damage} 만큼 {Value2}번 줍니다.\n|증강| {BoostThreshold1}: {Mana}를 얻고 카드를 {Value1}장 뽑습니다.\n(|증강|: {Boost})"
+
+PatchouliSpellMastery:
+  Name: 숙련된 주문
+  Description: "피해를 {Damage} 줍니다.\n|증강| {BoostThreshold1}: |물결|을 손에 추가합니다.\n|증강| {BoostThreshold2}: 그 카드를 |강화|합니다.\n(|증강|: {Boost})"
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n|증강| {BoostThreshold1}: |채홍|을 손에 추가합니다.\n|증강| {BoostThreshold2}: 그 카드를 |강화|합니다.\n(|증강|: {Boost})"
+
+PatchouliGrandIncantation:
+  Name: 웅장한 주문
+  Description: "|증강| 카드를 사용할 때 마다 해당 카드의 |증강|만큼 체력이 가장 많은 적에게 피해를 줍니다."
+
+PatchouliCounterspell:
+  Name: 대응마법
+  Description: "|대응 공격|: |그레이즈|를 {Value1} 얻습니다.\n|대응 명중 공격|: |방어|를 {Block} 얻습니다.\n|대응 스펠 카드|: |보호막|을 {Block} 얻습니다."
+
+PatchouliSpellPowerGrasp:
+  Name: 주문력 이해
+  Description: "턴 시작시, 손의 모든 카드를 |증강|합니다."
+  UpgradedDescription: "손의 모든 카드를 |증강|합니다.\n턴 시작시, 손의 모든 카드를 |증강|합니다."
+
+PatchouliAstronomyStudy:
+  Name: 천문학 연구
+  Description: "{PlayerName}의 턴 시작시 손에 |천문학|이 없을 경우 손에 |천문학|을 1장 추가합니다."
+
+PatchouliElementalHarvester:
+  Name: 엘리멘탈 하베스터
+  Description: "{Mana}를 얻습니다.\n|증강| {BoostThreshold1}: 추가로 {BonusMana}를 얻습니다.\n(|증강|: {Boost})"
+
+PatchouliKrakenWave:
+  Name: 크라켄 웨이브
+  Description: "|이 카드가| {BoostThreshold1} |번 증강될시|: 모든 적에게 피해를 {Value1} 주고, |방어|를 {Value1} 얻고, {SelfName}를 버리고 |증강|을 초기화합니다.\n(|증강|: {Boost})"
+
+PatchouliTeaBreak:
+  Name: 휴식시간
+  Description: "체력을 {Value1} 회복합니다.\n{PlayerName}의 |취약|을 제거합니다. "
+  UpgradedDescription: "체력을 {Value1} 회복합니다.\n{PlayerName}의 |취약|, |록온|, |허약|을 제거합니다."
+
+PatchouliPhotosynthesis:
+  Name: 포토신서시스
+  Description: "손의 카드를 {Value2}장 골라 소멸시킵니다.\n그 수 만큼 |일부| |원소 전개|."
+
+PatchouliSylphyHorn:
+  Name: 실피 호른
+  Description: "|목부| {Value1} |원소 전개|.\n|원소|의 |발동|효과가 발동될시, |소멸| 구역에서 {SelfName}을 손으로 가져옵니다."
+
+PatchouliGingerDust:
+  Name: 진저 더스트
+  Description: "카드를 {Value2} 뽑습니다.\n|토부| {Value1} |원소 전개|.\n|증강| {BoostThreshold1}: |금부| {Value1} |원소 전개|.\n(|증강|: {Boost})"
+
+PatchouliLazyTrilithon:
+  Name: 레이지 트릴리톤
+  Description: "카드를 {Value2} 뽑습니다.\n|토부| {Value1} |원소 전개|."
+
+PatchouliMercuryPoisoning:
+  Name: 머큐리 포이즌
+  Description: "|금부| {Value3} |원소 전개|.\n|선택|: |중독|을 {Value1} 줍니다. 또는 |허약|을 {Value2} 줍니다."
+  ExtraDescription1: "|중독|을 {Value1} 줍니다."
+  ExtraDescription2: "|허약|을 {Value2} 줍니다."
+
+PatchouliGirlOfKnowledge:
+  Name: 지혜의 소녀
+  Description: "|지혜|를 {Value1} 얻습니다."
+
+PatchouliEmeraldMegalith:
+  Name: 에메랄드 메갈리스
+  Description: "|방어|를 {Block} 얻습니다.\n{PlayerName}에게 전개된 |원소|가 {Value1}개 이상 있다면, |원소 전개|된 |원소|들의 |지속|효과를 발동합니다."
+
+PatchouliDoyouSpear:
+  Name: 도요 스피어
+  Description: "피해를 {Damage} 줍니다.\n|퇴치| : {Mana}를 얻습니다."
+
+PatchouliForestBlaze:
+  Name: 포레스트 블레이즈
+  Description: "피해를 {Damage} 줍니다.\n|화부| {Value1} |원소 전개|.\n|목부| {Value1} |원소 전개|.\n{SelfName}의 비용이 전개된 |원소|마다 {Mana} 감소합니다."
+
+PatchouliEnigmaticMagic:
+  Name: 미지의 마법
+  Description: "{PlayerName}가 |원소 전개| 할 때마다, |방어|를 {Value1} 얻습니다."
+
+PatchouliLavaCromlech:
+  Name: 라바 크롬렉
+  Description: "피해를 {Damage} 줍니다.\n이 전투에서 |원소 전개|된 |원소|마다 추가로 피해를 {Value1} 줍니다."
+
+PatchouliIntruderSecurity:
+  Name: 침입자 방지
+  Description: "|방어|를 {Block} 얻습니다.\n버린 카드 더미에서 카드를 {Value1}장 까지 선택하여 손으로 가져옵니다."
+
+PatchouliSungrazerComet:
+  Name: 선그레이저
+  Description: "|선택|: |그레이즈|를 {Value1} 얻습니다. 또는 |방어|를 {Block} 얻습니다.\n|증강| {BoostThreshold1}: 양쪽 다 적용합니다.\n(|증강|: {Boost})"
+  ExtraDescription1: "|그레이즈|를 {Value1} 얻습니다."
+  ExtraDescription2: "|방어|를 {Block} 얻습니다."
+
+PatchouliSpellCreation:
+  Name: 주문 창조
+  Description: "피해를 {Damage} 줍니다.\n|증강| {BoostThreshold1}, {BoostThreshold2}, {BoostThreshold3}: 추가효과를 {Value2}번 선택해 그 효과를 얻습니다.\n(|증강|: {Boost})"
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n추가효과를 {Value2}번 선택해 그 효과를 얻습니다.\n|증강| {BoostThreshold1}, {BoostThreshold2}, {BoostThreshold3}: 추가효과를 {Value2}번 선택해 그 효과를 얻습니다.\n(|증강|: {Boost})"
+
+PatchouliSpellCreationFire:
+  Name: 화염 피해
+  Description: "|화부| {Value1} |원소 전개|."
+
+PatchouliSpellCreationBlock:
+  Name: 방패
+  Description: "|방어|를 {Block} 얻습니다"
+
+PatchouliSpellCreationWeak:
+  Name: 진정
+  Description: "모든 적에게 |허약|을 {Value2} 줍니다."
+
+PatchouliSpellCreationDraw:
+  Name: 복원 마법
+  Description: "카드를 {Value1}장 뽑습니다."
+
+PatchouliOldSpellMastery:
+  Name: 숙련된 주문
+  Description: "|턴 시작시|: {turnMana}를 얻습니다.\n|손에 있을시|: |증강|카드를 {Value2}장 사용할 때 마다, 모든 적에게 피해를 {Value1} 주고 {SelfName}을 버립니다."
+
+PatchouliPhlogisticPillar:
+  Name: 플로지스틱 필러
+  Description: "|증강| 카드 사용시, |보호막|을 {Value1} 얻습니다."
+
+PatchouliSpellDuplication:
+  Name: 주문 복제
+  Description: "손의 카드를 선택합니다. 해당 카드의 |복사본|을 {Value1}장 손에 넣습니다.\n그 카드의 비용이 |일시적으로| {Mana}가 되고 |소멸|과 |휘발성|을 얻습니다.\n그것이 |증강|카드라면, 그 |증강|도 얻습니다."
+  DetailText: "이 효과로 |복사본|을 선택할 수 없습니다."
+
+PatchouliVoile:
+  Name: 브와르 마법 도서관
+  Description: "|증강| 카드를 사용할 때 마다, 그 카드의 |증강|을 기준으로 다음과 같은 효과를 적용합니다.\n{BoostThreshold1}: 카드를 뽑습니다.\n{BoostThreshold2}: {Mana}를 얻습니다.\n{BoostThreshold3}: |화력|을 {Value1} 얻습니다."
+
+PatchouliDimensionShift:
+  Name: 차원 이동
+  Description: "{PlayerName}의 턴을 종료하고 추가 턴을 얻습니다.\n|시간 제한| <sprite=\"ManaSprite\" name=\"1\">.\n|증강 할 때 마다|: {SelfName}의 비용이 {Mana} 감소합니다.\n(|증강|: {Boost})"
+  UpgradedDescription: "{PlayerName}의 턴을 종료하고 추가 턴을 얻습니다.\n|증강 할 때 마다|: {SelfName}의 비용이 {Mana} 감소합니다.\n(|증강|: {Boost})"
+
+PatchouliRapidCharge:
+  Name: 급속 충전
+  Description: "{Mana}를 얻습니다.\n|원소 전개|된 |원소|의 |지속| 효과를 발동합니다."
+  UpgradedDescription: "{Mana}를 얻습니다.\n|원소 전개|된 |원소|의 |지속| 효과를 두번 발동합니다."
+
+PatchouliFiveSeasons:
+  Name: 5계
+  Description: "턴 종료시, |원소 전개|된 |원소|의 |지속| 효과를 추가로 1번 발동합니다."
+
+PatchouliHydrogenousProminence:
+  Name: 하이드로지너스 프로미넌스
+  Description: "|보호막|을 {Shield} 얻습니다.\n|일부| {Value1} |원소 전개|.\n|수부| {Value1} |원소 전개|.\n{SelfName}의 비용은 |원소 전개|된 |원소|마다 {Mana} 감소합니다."
+
+PatchouliPhilosopherStone:
+  Name: 현자의 돌
+  Description: "|화부| {Value1} |원소 전개|.\n|수부| {Value1} |원소 전개|.\n|목부| {Value1} |원소 전개|.\n|금부| {Value1} |원소 전개|.\n|토부| {Value1} |원소 전개|."
+
+PatchouliOneWeekGirl:
+  Name: 1주일의 소녀
+  Description: "|화부| {Value1} |원소 전개|.\n턴 시작시, |수부| {Value1} |원소 전개|, 매 턴 |원소|가 바뀝니다."
+  DetailText: "|원소|는 다음 순서대로 바뀝니다.\n|화| -> |수| -> |목| -> |금| -> |토| -> |일| -> |월|"
+
+PatchouliCountersquall:
+  Name: 대응전투
+  Description: "|대응 공격|: 피해를 {Damage} 주고 |방어|를 {Block} 얻습니다.\n|대응 약화|: |부적|을 {Value1} 얻습니다."
+
+PatchouliMetalFatigue:
+  Name: 메탈 퍼티그
+  Description: "|금부| {Value1} |원소 전개|.\n|일시 화력 저하|를 {Value2} 줍니다.\n|증강| {BoostThreshold1}: |취약|을 {Value2} 줍니다.\n(|증강|: {Boost})"
+
+PatchouliAwakenedSpellbook:
+  Name: 깨어난 마도서
+  Description: "{Value2}번 이상 |증강|된 카드를 사용할 때 마다, |화부| {Value1} |원소 전개|."
+
+PatchouliJellyfishPrincess:
+  Name: 젤리피시 프린세스
+  Description: "|<sprite=\"ManaSprite\" name=\"U\">를 지불할 시|: 모든 적에게 피해를 {Damage} 줍니다.\n|<sprite=\"ManaSprite\" name=\"B\">를 지불할 시|: |월부| {Value1} |원소 전개|."
+
+PatchouliCurrentConductor:
+  Name: 흐름의 지휘자
+  Description: "|수부|가 발동할 때 마다, 모든 적에게 |침수|를 {Value2} 주고 |침수|의 효과를 발동한다.\n|수부| {Value1} |원소 전개|."
+
+PatchouliAutumnBlade:
+  Name: 어텀 블레이드
+  Description: "피해를 {Damage} 줍니다.\n|증강| {BoostThreshold1}: |비호|를 {Value1} 얻습니다.\n|증강| {BoostThreshold2}: |부적|을 {Value2} 얻습니다.\n(|증강|: {Boost})"
+
+PatchouliElementalTriangle:
+  Name: 엘리멘틀 트라이앵글
+  Description: "|선택|: |화부| 또는 |수부| 또는 |목부| {Value1} |원소 전개|\n고른 원소의 |지속| 효과를 발동합니다."
+
+PatchouliElementalTriangleFire:
+  Name: 화염의 원소
+  Description: "|화부| {Value1} |원소 전개|."
+
+PatchouliElementalTriangleWater:
+  Name: 물의 원소
+  Description: "|수부| {Value1} |원소 전개|."
+
+PatchouliElementalTriangleWood:
+  Name: 나무의 원소
+  Description: "|목부| {Value1} |원소 전개|."
+
+PatchouliCircadianRhythm:
+  Name: 생체 리듬
+  Description: "|일부| {Value1} |원소 전개|.\n{Value2} 이상의 |일부| 또는 |월부|의 |발동|효과가 발동하면, 그 만큼 다른 |원소| |원소 전개|"
+
+PatchouliMagicalResearch:
+  Name: 마법 연구
+  Description: "무작위 |증강|카드 {Value1}장 중 하나를 골라 얻습니다. 그 카드의 비용은 |일시적으로| {Mana}가 되고 |소멸|과 |휘발성|을 얻습니다."
+
+PatchouliSakuyaFriend:
+  Name: 사쿠야, 시간의 주인
+  Description: "<indent=80>|단검|을 {Value1}장 손에 넣습니다.\n<indent=0><sprite=\"Passive\" name=\"1\"><indent=80>|단검|을 {Value1}장 손에 넣습니다."
+  UpgradedDescription: "<indent=80>|단검+|을 {Value1}장 손에 넣습니다.\n<indent=0><sprite=\"Passive\" name=\"2\"><indent=80>|단검|을 {Value1}장 손에 넣습니다."
+  ExtraDescription1: '<indent=0><sprite="Active" name="-3"><indent=80>|그레이즈|를 {Value1} 얻습니다.'
+  ExtraDescription2: '<indent=0><sprite="Ultimate" name="-7"><indent=80>{PlayerName}의 턴을 종료합니다. 추가 턴을 얻습니다.'
+
+PatchouliRingOfAgni:
+  Name: 링 오브 아그니
+  Description: "피해를 {Damage} 줍니다.\n{Mana}|를 지불하거나 증강될 때 마다|: 추가로 피해를 {Value1} 줍니다.\n(|증강|: {Boost})"
+
+PatchouliKoakumaFriend:
+  Name: 소악마, 비서 사역마
+  Description: "<indent=80>|화부| {Value1} |원소 전개|.\n<indent=0><sprite=\"Passive\" name=\"1\"><indent=80>카드를 {Value1} 뽑습니다."
+  UpgradedDescription: "<indent=80>|화부| {Value1} |원소 전개|.\n<indent=0><sprite=\"Passive\" name=\"2\"><indent=80>카드를 {Value1} 뽑습니다."
+  ExtraDescription1: '<indent=0><sprite="Active" name="-4"><indent=80>|괴이|를 손에 넣습니다.'
+  UpgradedExtraDescription1: '<indent=0><sprite="Active" name="-4"><indent=80>|채홍|을 손에 넣습니다.'
+  ExtraDescription2: '<indent=0><sprite="Ultimate" name="-8"><indent=80>이번 전투에서 |화부|가 피해를 두배로 줍니다.'
+
+PatchouliAgniRadiance:
+  Name: 아그니 레이디언스
+  Description: "|화부| {Value1} |원소 전개|.\n|증강 할 때 마다|: 추가로 |화부| {Value2} |원소 전개|.\n(|증강|: {Boost})"
+
+PatchouliRoyalFlare:
+  Name: 로열 플레어
+  Description: "|턴 시작시|: |일시 지혜|를 {Value1} 얻습니다.\n|손에 있을 시|: {PlayerName}가 {Value2}번 |원소 전개| 할 때 마다, 모든 적에게 피해를 {Damage} 주고 {SelfName}를 버립니다."
+
+PatchouliSummerRed:
+  Name: 서머 레드
+  Description: "손에서 카드를 {Value1}장 고르고, 이 턴 |보존|을 부여합니다.\n그 카드가 |증강|카드라면, {Value2}번 |증강|합니다."
+
+PatchouliGreenStorm:
+  Name: 그린 스톰
+  Description: "피해를 {Damage} 줍니다.\n|증강 할 때 마다|: 추가로 1회 공격합니다.\n(|증강|: {Boost})"
+
+PatchouliKnowledgeSeeker:
+  Name: 지식의 탐구자
+  Description: "|지혜|를 {Value1} 얻습니다.\n|증강| {BoostThreshold1}: |소멸|하지 않습니다.\n(|증강|: {Boost})"
+
+PatchouliSpringWind:
+  Name: 스프링 윈드
+  Description: "손에서 카드를 {Value1}장 고르고, |메아리|를 부여합니다.\n|증강| {BoostThreshold1}: |활력|을 손에 추가합니다.\n(|증강|: {Boost})"
+  UpgradedDescription: "손에서 카드를 {Value1}장 고르고, |메아리|를 부여합니다.\n|증강| {BoostThreshold1}: |채홍|을 손에 추가합니다.\n(|증강|: {Boost})"
+
+PatchouliSatelliteHimawari:
+  Name: 새틀라이트 히마와리
+  Description: "|목부| {Value1} |원소 전개|.\n|목부|의 |지속| 효과가 남은 전투 동안 지속됩니다."
+
+PatchouliDiamondHardness:
+  Name: 다이아몬드 하드니스
+  Description: "|보호막|을 {Shield} 얻습니다.\n|반사|를 {Value1} 얻습니다.\n|증강| {BoostThreshold1}: |정전기|를 {Value2} 얻습니다.\n(|증강|: {Boost})"
+
+PatchouliSaintElmoPillar:
+  Name: 세인트 엘모 필러
+  Description: "|금부| {Value1} |원소 전개|.\n{PlayerName}의 |반사|가 발동할 때 마다, 모든 적에게 |반사| 만큼 피해를 줍니다."
+
+PatchouliNoachianDeluge:
+  Name: 노에키안 델류즈
+  Description: "피해를 {Damage} 줍니다.\n{SelfName}는 몇번이고 |증강|될 수 있습니다.\n|증강 할 때 마다|: 추가로 피해를 {Value1} 줍니다.\n(|증강|: {Boost})"
+
+PatchouliGirlOfShade:
+  Name: 그늘의 소녀
+  Description: "|보충|을 가진 |그림자|를 {Value1}장 버린 카드 더미에 추가합니다.
+    \n|상태| 또는 |액운| 카드가 |소멸|할 때, |화력|과 |영력| {Value2}를 얻습니다."
+
+PatchouliTheUnmovingGreatLibrary:
+  Name: 움직이지 않는 대도서관
+  Description: "|지혜|를 {Value1} 얻습니다.\n|원소|의 |발동|효과가 발동할 때 마다, |지혜|를 {Value2} 얻습니다."

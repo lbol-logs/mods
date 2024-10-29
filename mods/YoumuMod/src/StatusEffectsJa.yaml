@@ -1,0 +1,105 @@
+YoumuAgelessObsessionSe:
+  Name: 一念無量劫
+  Description: "対象にロックオン|ロックオン|が与えられた時, 追加でその{Level}倍の|ロックオン|を与える。"
+  Brief: "対象にロックオン|ロックオン|が与えられた時, 追加でその{Level}倍の|ロックオン|を与える。"
+
+YoumuAscensionToBuddhahoodSe:
+  Name: 成仏得脱
+  Description: "毎ターン最初にプレイしたカード{Level}枚に|反復|を与える。\n(残り: {Count})"
+
+YoumuBizarenessSe:
+  Name: 六道怪奇
+  Description: "対象に|ロックオン|を与える度,|毒|{Level}を与える。"
+  Brief: "対象に|ロックオン|を与える度, |毒|1を与える。"
+
+YoumuBloodOfAsuraSe:
+  Name: 修羅の血
+  Description: "{PlayerName}が|攻撃|カードをプレイする度、|火力|{Level}を得る。"
+  Brief: "{PlayerName}が|攻撃|カードをプレイする度、|火力|{Level}を得る。"
+
+YoumuDivineSeveringSe:
+  Name: 神閃
+  Description: "戦闘終了まで{PlayerName}が|抜刀|する度、すべての斬撃を{Level}ダメージ強化する。"
+  Bried: "戦闘終了まで{PlayerName}が|抜刀|する度、手札のすべての斬撃を1ダメージ強化する。"
+
+YoumuDualWielderSe:
+  Name: 生命の二刀流
+  Description: "{PlayerName}が|ロックオン|5を与える度に、|現世斬|{Level}枚を手札に加える。"
+  Bried: "{PlayerName}が|ロックオン|5を与える度に、|現世斬|1枚を手札に加える。"
+
+YoumuDrawNextTurnSe:
+  Name: Draw Next Turn
+  Description: "{PlayerName}の次のターン、カードを{Level}枚引く。"
+  Brief: "{PlayerName}の次のターン、カードを1枚引く。"
+
+YoumuFlashOfTheNetherworldSe:
+  Name: 冥府光芒一閃
+  Description: "追加ターンの終わりに、すべての敵に{Level}ダメージをそのターンプレイしたカードの枚数と同じ回数分与える。"
+  Brief: "追加ターンの終わりに、すべての敵にダメージを与える。その回数はそのターンプレイしたカードの枚数に等しい。"
+
+YoumuGreatEnlightenmentSe:
+  Name: 大悟
+  Description: "{PlayerName}のターン開始時、|抜刀|{Level}回"
+  Brief: "{PlayerName}のターン開始時、|抜刀|"
+
+YoumuInfiniteKalpasSe:
+  Name: 無量劫
+  Description: "{PlayerName}のターン開始時、{Level}枚のランダムな妖夢のカードを手札に加える。それらのカードは|虚無|"
+  Brief: "{PlayerName}のターン開始時、ランダムな妖夢のカードを手札に加える。それらのカードは|虚無|."
+
+YoumuSpiritMediumBindSe:
+  Name: 憑坐の縛
+  Description: "カードが|廃棄|されたとき、すべての敵に{Level}ダメージを与える。"
+  Brief: "カードが|廃棄|されたとき、すべての敵に1ダメージを与える。"
+
+YoumuOldSpiritMediumBindSe:
+  Name: 憑坐の縛
+  Description: "Whenever a card is |Exiled|, deal {Level} damage toeach enemy.\nIf the card was a Youmu |Ethereal| card, deal triple damage instead."
+  Brief: "Whenever a card is |Exiled|, deal 1 damage to each enemy.\nIf the card was a Youmu |Ethereal| card, deal 3 damage instead."
+
+YoumuInnerEyeSe:
+  Name: 心眼
+  Description: "|斬撃|カードがプレイされる度、|反撃|{Level}を得る。"
+  Brief: "|斬撃|カードがプレイされる度、|反撃|1を得る。"
+
+YoumuWatchtowerSwordSe:
+  Name: 楼観剣
+  Description: "{PlayerName}が攻撃でダメージを与える度に、対象に|ロックオン|{Level}を与える。"
+  Brief: "{PlayerName}が攻撃でダメージを与える度に、対象に|ロックオン|1を与える。"
+
+YoumuRiposteSe:
+  Name: 反撃
+  Description: "攻撃ダメージはライフの代わりに|反撃|を減少させる。失われた|反撃|に等しいダメージを攻撃者に与える。"
+  Brief: "攻撃ダメージはライフの代わりに|反撃|を減少させる。失われた|反撃|に等しいダメージを攻撃者に与える。"
+
+YoumuSilentNirvanaSe:
+  Name: 涅槃寂静
+  Description: "敵にデバフを与えるたびに、{Level}ブロックを得る。"
+  Brief: "敵にデバフを与えるたびに、1ブロックを得る。"
+
+YoumuUnendingWinterSe:
+  Name: 終わりなき冬
+  Description: "{PlayerName}が攻撃でダメージを与える度に、|冷気|{Level}を与える。"
+  Brief: "{PlayerName}が攻撃でダメージを与える度に、|冷気|を与える。"
+
+YoumuWheelOfPainSe:
+  Name: 幽明の苦輪
+  Description: "{PlayerName}のターン開始時、敵全体に|ロックオン|{Level}を与える。"
+  Brief: "{PlayerName}のターン開始時、敵全体に|ロックオン|を与える。"
+
+YoumuYuyukoFriendSe:
+  Name: 生死の境界
+  Description: "{PlayerName}のターン終了時、敵全体に|生者必滅の理|{Level}を与える。"
+  Brief: "{PlayerName}のターン終了時、敵全体に|生者必滅の理|を与える。"
+
+YoumuUnsheatheSe:
+  Name: 抜刀
+  Description: "This is a workaround to add keywords description to cards."
+  Brief: "手札の|斬撃|カードの|臨時コスト|を<sprite=\"ManaSprite\" name=\"1\"> 減らす。\n手札に|現世斬|がない場合、|現世斬|1枚を手札に加える。"
+
+YoumuYuyukoDeathSe:
+  Name: 生者必滅の理
+  Description: "This is a workaround to add keywords description to cards."
+  Brief: "ターン終了時、ライフ1を失う。生者必滅の理の影響を受けている時、回復できない。"
+
+

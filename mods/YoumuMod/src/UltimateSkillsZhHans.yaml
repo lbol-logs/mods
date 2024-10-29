@@ -1,0 +1,10 @@
+YoumuUltG:
+  Title: 魂魄
+  Content: 幽明求闻持聪明之法
+  Description: "造成 {Damage} 点伤害 {Value1} 次。\n施加 {Value1} 层|锁定|。\n|精准|"
+
+YoumuUltW:
+  Title: 人界剑
+  Content: 天女返
+  Description: "造成 {Damage} 点伤害。\n将 {Value1} 张|现世斩|加入手中。\n|精准|"
+

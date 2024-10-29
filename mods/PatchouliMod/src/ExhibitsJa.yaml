@@ -1,0 +1,22 @@
+PatchouliExhibitU:
+  Name: 水のグリモワール
+  Description: |-
+    マナ基盤に{Mana}を加え、|パチュリー|専用のカードが出現するようになる。
+    戦闘開始時、|天文学|を手札に加える。
+    |詠唱値|{BoostThreshold1}以上の|詠唱|カードを使用した場合、{Value2}|ブロック|を得る。
+  FlavorText: "森の魔法使いがまだ「借りていない」魔導書。"
+
+PatchouliExhibitB:
+  Name: 精霊の印章
+  Description: |-
+    マナ基盤に{Mana}を加え、|パチュリー|専用のカードが出現するようになる。
+    {PlayerName}のターン開始時に{PlayerName}が|火の印|を得ていない場合、|火の印|{Value1}を得る。
+  FlavorText: "精霊魔法は自然の力を借りて、小さな力から大きな力を生み出す。"
+
+PatchouliAltExhibitB:
+  Name: 精霊の印章
+  Description: |-
+    マナ基盤に{Mana}を加える。
+    戦闘開始時、|火の印|{Value1}を得る。
+    |印|の|アクティブ|効果が発動するたび、|知識|{Value2}を得る。
+  FlavorText: "精霊魔法は自然の力を借りて、小さな力から大きな力を生み出す。"

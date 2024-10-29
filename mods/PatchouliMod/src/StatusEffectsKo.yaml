@@ -1,0 +1,130 @@
+PatchouliBoostSe:
+  Name: "증강"
+  Description: ""
+  Brief: "이 카드가 손에 있는 상태에서 다른 카드를 사용할 때마다 이 카드의 |증강|이 1 증가합니다.\n최대 9회까지 |증강| 가능합니다.\n카드는 |증강될시| 추가 효과를 얻습니다.\n추가 효과를 얻은 카드를 사용할 시 |증강|이 초기화됩니다."
+
+PatchouliSignKeywordSe:
+  Name: "원소"
+  Description: ""
+  Brief: "해당 |원소|를 얻습니다.\n|원소|의 |지속| 효과는 얻을 때와 매 턴 시작 시 발동합니다.\n|원소|를 획득한 후 3번째 턴이 시작될 때 이를 제거하고 대신 |원소|의 |발동| 효과가 발동합니다."
+
+PatchouliCounterSe:
+  Name: "대응"
+  Description: "대상 적이 이 행동을 하려는 경우 발동합니다."
+  Brief: "대상 적이 이 행동을 하려는 경우 발동합니다."
+
+PatchouliFireSignSe:
+  Name: 화부
+  Description: "|지속|: 체력이 가장 적은 적에게 피해를 {PassiveAmount} 줍니다.\n|발동|: 체력이 가장 적은 적에게 피해를 {ActiveAmount} 줍니다. <sprite=\"ManaSprite\" name=\"R\">를 얻습니다."
+  Brief: "|지속|: 체력이 가장 적은 적에게 피해를 3 줍니다.\n|발동|: 체력이 가장 적은 적에게 피해를 5 줍니다. <sprite=\"ManaSprite\" name=\"R\">를 얻습니다."
+
+PatchouliWaterSignSe:
+  Name: 수부
+  Description: "|지속|: |보호막|을 {PassiveAmount} 얻습니다.\n|발동|: |보호막|을 {ActiveAmount} 얻습니다. <sprite=\"ManaSprite\" name=\"U\">를 얻습니다."
+  Brief: "|지속|: |보호막|을 1 얻습니다.\n|발동|: |보호막|을 3 얻습니다. <sprite=\"ManaSprite\" name=\"U\">를 얻습니다."
+
+PatchouliWoodSignSe:
+  Name: 목부
+  Description: "|지속|: {SelfName}의 |발동| 피해가 {PassiveAmount} 증가합니다.\n|발동|: 체력이 가장 많은 적에게 피해를 {ActiveAmount} 줍니다. <sprite=\"ManaSprite\" name=\"G\">를 얻습니다."
+  Brief: "|지속|: |목부|의 |발동| 피해가 5 증가합니다.\n|발동|: 체력이 가장 많은 적에게 피해를 5 줍니다. <sprite=\"ManaSprite\" name=\"G\">를 얻습니다."
+
+PatchouliMetalSignSe:
+  Name: 금부
+  Description: "|지속|: |반사|를 {PassiveAmount} 얻습니다. \n|발동|: |반사|를 {ActiveAmount} 얻습니다. <sprite=\"ManaSprite\" name=\"1\">를 얻습니다."
+  Brief: "|지속|: |반사|를 3 얻습니다. \n|발동|: |반사|를 5 얻습니다. <sprite=\"ManaSprite\" name=\"1\">를 얻습니다."
+
+PatchouliEarthSignSe:
+  Name: 토부
+  Description: "|지속|: 무작위 마나를 {PassiveAmount}개 |무지개색 마나|로 바꿉니다.\n|발동|: 무작위 마나를 {ActiveAmount}개 |무지개색 마나|로 바꿉니다. <sprite=\"ManaSprite\" name=\"P\">를 얻습니다."
+  Brief: "|지속|: 무작위 마나를 1개 |무지개색 마나|로 바꿉니다.\n|발동|: 무작위 마나를 2개 |무지개색 마나|로 바꿉니다. <sprite=\"ManaSprite\" name=\"P\">를 얻습니다."
+
+PatchouliOldEarthSignSe:
+  Name: 토부
+  Description: "|지속|: |원소 전개|된 |원소|의 효과가 이번 턴 {PassiveAmount}만큼 증가합니다.\n|발동|: |원소 전개|된 |원소|의 효과가 이번 턴 {ActiveAmount}만큼 증가합니다. <sprite=\"ManaSprite\" name=\"P\">를 얻습니다."
+  Brief: "|지속|: |원소 전개|된 |원소|의 효과가 이번 턴 1 만큼 증가합니다.\n|발동|: |원소 전개|된 |원소|의 효과가 이번 턴 2만큼 증가합니다. <sprite=\"ManaSprite\" name=\"P\">를 얻습니다."
+
+PatchouliSunSignSe:
+  Name: 일부
+  Description: "|지속|: 모든 적에게 피해를 {PassiveAmount} 줍니다. \n|발동|: 모든 적에게 피해를 {ActiveAmount} 줍니다. <sprite=\"ManaSprite\" name=\"W\">를 얻습니다."
+  Brief: "|지속|: 모든 적에게 피해를 2 줍니다. \n|발동|: 모든 적에게 피해를 4 줍니다. <sprite=\"ManaSprite\" name=\"W\">를 얻습니다."
+
+PatchouliMoonSignSe:
+  Name: 월부
+  Description: "|지속|: |방어|를 {PassiveAmount} 얻습니다. \n|발동|: |방어|를 {ActiveAmount} 얻습니다. <sprite=\"ManaSprite\" name=\"B\">를 얻습니다."
+  Brief: "|지속|: |방어|를 2 얻습니다. \n|발동|: |방어|를 4 얻습니다. <sprite=\"ManaSprite\" name=\"B\">를 얻습니다."
+
+PatchouliAstronomyStudySe:
+  Name: 천문학 연구
+  Description: "내 턴 시작시 손에 |천문학|이 없을 경우 손에 |천문학|을 {Level}장 추가합니다."
+
+PatchouliAwakenedSpellbookSe:
+  Name: 깨어난 마도서
+  Description: "{BoostThreshold1}번 이상 |증강|된 카드를 사용할 때 마다, |화부| {Level} |원소 전개|."
+
+PatchouliCircadianRhythmSe:
+  Name: 생체 리듬
+  Description: "1 이상의 |일부| 또는 |월부|의 |발동|효과가 발동하면, 그 만큼 다른 |원소| {Level} |원소 전개|"
+
+PatchouliCurrentConductorSe:
+  Name: 흐름의 지휘자
+  Description: "|수부|가 발동할 때 마다, 모든 적에게 |침수|를 {Level} 주고 |침수|의 효과를 발동한다."
+
+PatchouliEnigmaticMagicSe:
+  Name: 미지의 마법
+  Description: "|원소 전개|할 때 마다, |방어|를 {Level} 얻습니다."
+  Brief: "|원소 전개|할 때 마다, |방어|를 1 얻습니다."
+
+PatchouliFiveSeasonsSe:
+  Name: 5계
+  Description: "턴 종료시, |원소|의 |지속| 효과를 추가로 {Level}번 발동합니다."
+
+PatchouliIntelligenceSe:
+  Name: 지혜
+  Description: "|지혜|는 |원소 전개|된 |원소|의 효과를 {Level} 만큼 증가시킵니다."
+  Brief: "|지혜|는 |원소 전개|된 |원소|의 효과를 증가시킵니다."
+
+PatchouliKoakumaFriendSe:
+  Name: 소악마, 비서 사역마
+  Description: "이번 전투에서 |화부|가 피해를 추가로 {Level}번 더 줍니다."
+
+PatchouliOneWeekGirlSe:
+  Name: 1주일의 소녀
+  Description: "턴 시작시, |원소| {Level} |원소 전개|, 매 턴 |원소|가 바뀝니다.\n 다음 원소: |{NextSign}||부|"
+  Brief: "화 수 목 금 토 일 월"
+
+PatchouliPhlogisticPillarSe:
+  Name: 플로지스틱 필러
+  Description: "|증강| 카드 사용시, |보호막|을 {Level} 얻습니다."
+
+PatchouliSatelliteHimawariSe:
+  Name: 새틀라이트 히마와리
+  Description: "|목부|의 |지속| 효과가 남은 전투 동안 지속됩니다.\n|목부 발동| 효과의 피해가 {BonusDamage} 증가합니다."
+
+PatchouliGirlOfShadeSe:
+  Name: 그늘의 소녀
+  Description: "|상태| 또는 |액운| 카드가 |소멸|할 때, |화력|과 |영력| {Level}를 얻습니다."
+
+PatchouliGrandIncantationSe:
+  Name: 웅장한 주문
+  Description: "|증강| 카드를 사용할 때 마다 해당 카드의 |증강|만큼 체력이 가장 많은 적에게 피해를 {Level}번 줍니다."
+
+PatchouliSaintElmoPillarSe:
+  Name: 세인트 엘모 필러
+  Description: "|반사|가 발동할 때 마다, 모든 적에게 |반사| 만큼 {Level}번 피해를 줍니다."
+
+PatchouliSpellPowerGraspSe:
+  Name: 주문력 이해
+  Description: "턴 시작시, 손의 모든 카드를 {Level}번 |증강| 한다."
+
+PatchouliTemporaryIntelligenceSe:
+  Name: 일시 지혜
+  Description: "턴 종료시 까지 |지혜|가 증가합니다.\n|지혜|는 |원소 전개된 원소|의 효과를 {Level} 만큼 증가시킵니다."
+  Brief: "턴 종료시 까지 |지혜|가 증가합니다.\n|지혜|는 |원소 전개된 원소|의 효과를 증가시킵니다."
+
+PatchouliTheUnmovingGreatLibrarySe:
+  Name: 움직이지 않는 대도서관
+  Description: "|원소|의 |발동|효과가 발동할 때 마다, |지혜|를 {Level} 얻습니다."
+
+PatchouliVoileSe:
+  Name: 브와르 마법 도서관
+  Description: "|증강| 카드를 사용할 때 마다, 그 카드의 |증강|을 기준으로 다음과 같은 효과를 적용합니다.\n{BoostThreshold1}: 카드를 {Level}장 뽑습니다.\n{BoostThreshold2}: {Mana}를 얻습니다.\n{BoostThreshold3}: |화력|을 {Level} 얻습니다."

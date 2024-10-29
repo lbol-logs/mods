@@ -1,0 +1,7 @@
+{
+  "name": "Sanae_Kochiya",
+  "version_number": "0.5.4",
+  "website_url": "",
+  "description": "Adds Sanae as a playable character.",
+  "dependencies": [ "BepInEx-BepInExPack-5.4.2100", "TeamNeo-Sideloader-0.5.0"]
+}

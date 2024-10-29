@@ -1,0 +1,355 @@
+YoumuAttackG:
+  Name: 천계검
+  Description: "피해를 {Damage} 줍니다."
+
+YoumuAttackW:
+  Name: 인계검
+  Description: "피해를 {Damage} 줍니다."
+
+YoumuBlockG:
+  Name: 방어 태세
+  Description: "|방어|를 {Block} 얻습니다."
+
+YoumuBlockW:
+  Name: 혼부
+  Description: "|방어|를 {Block} 얻습니다."
+
+YoumuSlashOfPresent:
+  Name: 현세참
+  Description: "피해를 {Damage} 줍니다."
+
+YoumuAsuraSword:
+  Name: 수라검
+  Description: "피해를 {Damage}씩 {Value1}번 줍니다.\n|록 온|을 {Value1} 줍니다."
+  FlavorText: "요우무의 불완전한 훈련에도 불구하고, 그녀는 뛰어난 검술 실력을 가졌다."
+
+YoumuInsightfulSword:
+  Name: 형안검
+  Description: "피해를 {Damage} 줍니다.\n|발도|합니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n|현세참|을 1장 얻습니다.\n|발도|합니다."
+  FlavorText: ""
+
+YoumuSwordOfBinding:
+  Name: 전박검
+  Description: "모든 적에게 피해를 {Damage} 줍니다.\n모든 적에게 |록 온|을 {Value1} 줍니다."
+  FlavorText: "+5 DEF, +5 RES"
+
+YoumuPretaSword:
+  Name: 아귀검
+  Description: "피해를 {Damage} 줍니다.\n적에게 |록 온|이 {Value1} 이상 있다면, 카드를 {Value2}장 뽑습니다."
+
+YoumuScatteredFlowers:
+  Name: 섬섬산화
+  Description: "|방어|를 {Block} 얻습니다.\n모든 적에게 |록 온|만큼 피해를 줍니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n모든 적에게 |록 온|만큼 피해를 {Value1}번 줍니다."
+
+YoumuSpringWind:
+  Name: 춘풍
+  Description: "모든 적에게 |록 온|을 {Value1} 줍니다.\n카드를 {Value2}장 뽑습니다."
+  FlavorText: ""
+
+YoumuStrangeBird:
+  Name: 괴조
+  Description: "|록 온|을 {Value2} 줍니다. |그레이즈|를 {Value1} 얻습니다."
+  FlavorText: "사에몬 히로아리는 괴조를 쏘아 떨어뜨렸습니다."
+
+YoumuCounterSignalling:
+  Name: 반격 신호
+  Description: "|방어|를 {Block} 얻습니다.\n|반격|을 {Block} 얻습니다.\n|성장|: 추가로 |방어|와 |반격|을 {Value1} 얻습니다."
+
+YoumuPhosphoricSlash:
+  Name: 인기참
+  Description: "피해를 {Damage} 줍니다.\n대상에게 |록 온|이 {Value1} 이상 있다면, {Mana}를 얻습니다."
+  FlavorText: ""
+
+YoumuSlashOfKarmicWind:
+  Name: 업풍참
+  Description: "피해를 {Damage}씩 {Value1}번 줍니다.\n{SelfName}은 |록 온|의 효과를 두배로 받습니다."
+
+YoumuHalfBodyDistillation:
+  Name: 반인증류
+  Description: "|방어|를 {Block} 얻습니다.\n|소멸|구역에 있는 요우무의 |휘발성| 또는 |참| 카드를 {Value1}장 고르고, 손으로 가져옵니다."
+
+YoumuPhantomFormation:
+  Name: 영진
+  Description: "|방어|를 {Block} 얻습니다.\n|록 온|이 있는 모든 적에게 |일시 화력 저하|를 {Value1} 줍니다."
+  FlavorText: ""
+
+YoumuDyingDeva:
+  Name: 오쇠
+  Description: "|턴 종료 시|: |록 온|이 있는 모든 적에게 피해를 {Value1} 줍니다.\n|손에 있을 경우|: 적이 상태이상을 받을 때마다 {SelfName}의 피해 {Value2} 증가."
+  FlavorText: "기억하세요, 시간은 부정행위조차 하지 않고\n항상 이기는 욕심 많은 선수입니다."
+
+YoumuKarmaGust:
+  Name: 업풍
+  Description: "모든 적에게 |록 온|, |허약|을 {Value1} 줍니다."
+
+YoumuHesitationSign:
+  Name: 미부
+  Description: "|록 온|을 {Value1} 줍니다.\n|소멸할 시|: 모든 적에게 |록 온|을 {Value2} 줍니다."
+
+YoumuSingleThought:
+  Name: 일념
+  Description: "{Mana}를 얻습니다.\n|소멸할 시|: 다음 턴 시작시 <sprite=\"ManaSprite\" name=\"G\">를 얻습니다."
+
+YoumuTransmigrationSlash:
+  Name: 생사유전참
+  Description: "피해를 {Damage} 줍니다.\n|록 온|을 {Value1} 줍니다.\n|소멸할 시|: 모든 적은 체력을 {Value2} 잃습니다."
+
+YoumuWatchtowerSword:
+  Name: 관루검
+  Description: "피해를 가할 때 마다, |록 온|을 {Value1} 줍니다."
+  FlavorText: "전시품이 이것을 할 수 있다면 매 턴마다 마나를 바칠 수 있습니다."
+
+YoumuSilentNirvana:
+  Name: 열반의 적정
+  Description: "적이 상태이상을 받을 때 마다, |방어|를 {Value1} 얻습니다."
+
+YoumuDefenseX:
+  Name: 아귀십왕의 보답
+  Description: '|<sprite="ManaSprite" name="1"> 소모시 마다|: |반격|을 {Block} 얻습니다.'
+
+YoumuClosedEyeSlash:
+  Name: 명참
+  Description: "피해를 {Damage} 줍니다.\n막히지 않은 피해만큼 |반격|을 얻습니다."
+
+YoumuInclemency:
+  Name: 불심없는 중생의 울림
+  Description: "손의 모든 카드가 |일시비용|{Mana}이 됩니다.\n이번 턴에 더이상 카드를 뽑을 수 없습니다."
+  UpgradedDescription: "카드를 {Value1}장 뽑습니다.\n손의 모든 카드가 |일시비용|{Mana}이 됩니다.\n이번 턴에 더이상 카드를 뽑을 수 없습니다."
+
+YoumuWickedSoul:
+  Name: 악한 혼
+  Description: "|록 온|을 {Value1} 줍니다.\n|화력 소실|을 {Value2} 줍니다."
+
+YoumuAscensionToBuddhahood:
+  Name: 성불득탈
+  Description: "매 턴 처음 사용하는 카드가 |메아리|를 얻습니다."
+  UpgradedDescription: "패에서 카드를 {Value2}장 고릅니다. 그 카드들은 |메아리|를 얻습니다.\n매 턴 처음 사용하는 카드가 |메아리|를 얻습니다."
+  DetailText: "|복사본|에는 효과가 발동하지 않습니다."
+
+YoumuWheelOfPain:
+  Name: 고륜
+  Description: "모든 적에게 |록 온|을 {Value1} 줍니다.\n턴 시작시, 모든 적에게 |록 온|을 {Value1} 줍니다."
+
+YoumuGhostSlash:
+  Name: 령참
+  Description: "피해를 {Damage} 줍니다.\n|소멸할 시|: |방어|를 {Block} 얻습니다."
+
+YoumuHeavenlyHalo:
+  Name: 창공의 후광
+  Description: "|방어|를 {Block} 얻습니다.\n|현세참|을 {Value1}장 얻습니다."
+
+YoumuTwoHundredYojana:
+  Name: 이백유순
+  Description: "|현세참|을 {Value1}장 얻습니다.\n|발도|합니다."
+  UpgradedDescription: "|현세참+|을 {Value1}장 얻습니다.\n|발도|합니다."
+
+YoumuQuickDraw:
+  Name: 빨리뽑기
+  Description: "카드를 {Value1}장 뽑습니다.\n|발도|합니다."
+
+YoumuSatelliteSlash:
+  Name: 위성참
+  Description: "피해를 {Damage} 줍니다.\n|발도|할때마다, 버린 카드 더미에서 {SelfName}를 가져옵니다."
+
+YoumuSlashOfMeditation:
+  Name: 명상참
+  Description: "피해를 {Damage} 줍니다.\n|방어|를 {Block} 얻습니다."
+
+YoumuSlashOfDeparture:
+  Name: 자항참
+  Description: "피해를 {Damage} 줍니다.\n|소멸|구역에 있는 카드 한장당 피해량이 {Value1} 증가합니다."
+
+YoumuCircularVicissitude:
+  Name: 원심유전
+  Description: "|방어|를 {Block} 얻습니다.\n손에 |참|카드가 {Value1}장 이상 있다면, |발도|합니다."
+  FlavorText: "원은 연속성과 완벽함의 상징이지만 완벽하지 않은 것은 자주 변화하는 것입니다."
+
+YoumuClearingMind:
+  Name: 명상
+  Description: "손의 카드를 {Value1}장 |소멸|시킵니다.\n그 만큼 손에 |현세참|을 얻습니다."
+  FlavorText: ""
+
+YoumuBulletCuttingSpirit:
+  Name: 탄까지 베어내는 마음의 눈
+  Description: "체력을 {Value2} 얻습니다.\n이번 전투 동안 손의 카드를 한장 |강화|합니다."
+  UpgradedDescription: "체력을 {Value2} 얻습니다.\n이번 전투 동안 손의 모든 카드를 |강화|합니다."
+
+YoumuReflectionSlash:
+  Name: 반사참
+  Description: "피해를 {Damage} 줍니다.\n공격하려는 적이 있다면, |반격|을 {Block} 얻습니다."
+
+YoumuPreachingAvici:
+  Name: 설교하는 아비지옥
+  Description: "|현세참|을 {Value1}장 얻습니다.\n|소멸할 시|: |발도|합니다."
+
+YoumuSwordAura:
+  Name: 검기
+  Description: "|화력|을 {Value1} 얻습니다.\n이 카드가 손에 있는 동안 |발도|하면, 이번턴 추가로 |화력|을 {Value2} 얻습니다."
+  FlavorText: "최대 체력에서 발사체를 발사합니다."
+
+YoumuInnerEye:
+  Name: 심안
+  Description: "|참| 카드를 사용하면, |반격|을 {Value1} 얻는다."
+  FlavorText: "산처럼 영원하고 거대한 강처럼 흘러가라."
+
+YoumuNetherMeditation:
+  Name: 지옥 명상
+  Description: "손의 공격 카드를 {Value2}장 선택합니다.\n|복사본|을 {Value1}장 가져옵니다."
+  DetailText: "이 효과로 |복사본|을 선택할 수 없습니다."
+
+YoumuConventionalTruth:
+  Name: 속제상주
+  Description: "|소멸|구역의 카드를 {Value1}장 손으로 가져옵니다.\n|발도|."
+
+YoumuTenKingsRetribution:
+  Name: 아귀십왕의 보답
+  Description: "|반격|을 {Block} 얻습니다.\n플레이어의 |방어|를 |반격|으로 바꿉니다."
+
+YoumuGreatEnlightenment:
+  Name: 대오
+  Description: "턴 시작시 |발도|합니다.\n|발도|합니다."
+
+YoumuDivineSevering:
+  Name: 신섬
+  Description: "|발도|할시, 이번 전투 동안 모든 |참|카드의 피해량이 {Value1} 증가합니다.\n|발도|합니다."
+  UpgradedDescription: "|발도|할시, 이번 전투 동안 모든 |참|카드의 피해량이 {Value1} 증가합니다.\n두번 |발도|합니다."
+
+YoumuCrescentMoonSlash:
+  Name: 현월참
+  Description: "피해를 {Damage} 줍니다.\n|록 온|을 {Value1} 줍니다.\n|발도|합니다."
+
+YoumuSevenHakus:
+  Name: 칠백기휘
+  Description: "|방어|를 {Block} 얻습니다.\n|반격|을 {Block} 얻습니다.\n|반사|를 {Block} 얻습니다.\n|소멸할 시|: 다음 턴 시작시 방어가 사라지지 않습니다."
+
+YoumuLotusPostureSlash:
+  Name: 결가부참
+  Description: "피해를 {Damage} 줍니다.\n{Mana}를 얻습니다."
+  FlavorText: "이름에 연꽃이 있으면 마나 3개를 더합니다."
+
+YoumuBuddhahoodOfFlora:
+  Name: 초목성불
+  Description: "|그레이즈|를 {Value1} 얻습니다.\n|발도|합니다."
+
+YoumuKarmicPunishment:
+  Name: 무위무책의 명벌
+  Description: "{Mana}를 얻습니다.\n카드를 {Value1}장 뽑습니다.\n|록 온|을 {Value2} 얻습니다."
+
+YoumuThreeKons:
+  Name: 삼혼
+  Description: "카드를 {Value1}장 뽑습니다.\n|정전기|를 {Value1} 얻습니다.\n|소멸할 시|: 다음 턴 시작시 카드를 {Value2}장 뽑습니다."
+
+YoumuReinforcementOfTheArmy:
+  Name: 증원
+  Description: "뽑을 카드 더미에서 공격 카드를 {Value1}장 손으로 가져옵니다, 그 카드들은 |임시 비용| {Mana}이 됩니다."
+  FlavorText: "아니, 넌 이졸데로 링크소환할 수 없어."
+
+YoumuAppearingAndDisappearing:
+  Name: 현회
+  Description:
+    "손, 뽑을 카드 더미, 버린 카드 더미의 카드를 {Value1}장 |소멸|시킵니다.
+    \n버린 카드 더미에 그만큼 무작위 요우무의 |휘발성|카드를 추가합니다."
+
+YoumuOldSpiritMediumBind:
+  Name: 영매의 구속
+  Description: "카드가 |소멸|하면, 모든 적에게 피해를 {Value1} 줍니다.\n요우무의 |휘발성| 카드라면, 추가로 피해를 {Value2} 줍니다."
+
+YoumuDualWielder:
+  Name: 생명의 이도류
+  Description: "플레이어가 |록 온|을 {Value1}만큼 줄 때마다, |현세참|을 {Value2}장 얻습니다."
+  UpgradedDescription: "|현세참|을 {Value2}장 얻습니다.\n플레이어가 |록 온|을 {Value1}만큼 줄 때마다, |현세참|을 {Value2}장 얻습니다."
+
+YoumuInfiniteKalpas:
+  Name: 무량겁
+  Description: "턴 시작시, 무작위 요우무 |휘발성|카드를 {Value1}장 손으로 가져옵니다. 이 카드들은 |소멸|을 가집니다."
+
+YoumuFlashOfTheNetherworld:
+  Name: 명부광망
+  Description: "추가턴 종료시, 그 턴에 사용한 카드 만큼 모든 적에게 피해를 {Value1} 줍니다.\n플레이어의 턴을 종료합니다.\n추가 턴을 진행합니다.\n|시간 제한| <sprite=\"ManaSprite\" name=\"1\">"
+
+YoumuTurningAngelCut:
+  Name: 천녀 뒤집기
+  Description: "|{Mana}소모시 마다| : |일시 비용| <sprite=\"ManaSprite\" name=\"0\">의 |현세참|을 {Value1}장 손에 넣는다.\n|<sprite=\"ManaSprite\" name=\"G\">소모시 마다| : |록 온|을 {Value2} 준다."
+
+YoumuSlashDraw:
+  Name: 참격
+  Description: "|뽑을시|: 모든 적에게 피해를 {Damage} 주고 {SelfName}이 |소멸|합니다."
+
+YoumuMatsuyoiReflecting:
+  Name: 대소반사
+  Description: "|반격|이 두배로 증가합니다.\n|반격|이 {Block} 이하라면, 추가로 |반격|을 {Block} 얻습니다."
+
+YoumuWaterfowlDance:
+  Name: 물새난격
+  Description:
+    "피해를 {Damage}만큼 {Value1}번 줍니다.\n{PlayerName}가 이번 턴 |발도|한 수에 따라 추가효과를 얻습니다.:
+    \n{UnsheathedThreshold1}+: |록 온|을 {Value2} 줍니다.
+    \n{UnsheathedThreshold2}+: 피해를 추가로 한번 더 줍니다.
+    \n{UnsheathedThreshold3}+: {Mana}를 얻습니다."
+
+YoumuUnendingWinter:
+  Name: 끝나지 않는 겨울
+  Description: "플레이어가 공격 피해를 입힐 때마다, |빙결|을 {Value1} 부여합니다."
+  FlavorText: "이러면 덱의 '봄이에요!'가 전부 소멸해야되는거 아닌가?"
+
+YoumuBizareness:
+  Name: 육도괴기
+  Description: "적이 |록 온|을 받을때, 추가로 |중독|을 {Value1} 줍니다."
+  FlavorText: ""
+
+YoumuLivingAndDead:
+  Name: 삶과 죽음
+  Description: "요우무의 |휘발성|카드를 {Value1}장중 {Value2}장 고릅니다.\n그 카드를 손에 넣고, 이번 턴 비용이 {Mana}이 되며 |소멸|을 얻습니다."
+  FlavorText: "죽음은 끝이 아닌, 삶의 일부다."
+
+YoumuNextToNone:
+  Name: 벨 수 없는 것 따위, 별로 없어!
+  Description: "대상의 |보호막|, |방어|, |그레이즈|, |광학미채|, |천의무봉|을 제거합니다.\n|발도|합니다."
+  FlavorText: "내가 벨 수 없는 달토끼 따위, 별로 없어!"
+
+YoumuClearingTheSixSenses:
+  Name: 육근청정
+  Description: "자신의 상태이상을 전부 제거합니다.\n상태이상이 제거되면, |화력|을 {Value1} 얻습니다."
+  FlavorText: ""
+
+YoumuEmbercleave:
+  Name: 불씨칼날
+  Description: "이 카드가 손에 있는 동안 |공격|카드를 사용할 때마다, 이번 전투 동안 {SelfName}의 비용이 <sprite=\"ManaSprite\" name=\"1\"> 감소한다.\n이번 턴 |공격|으로 피해를 2배로 준다."
+  FlavorText: "Math is for blockers."
+
+YoumuHesitationCuttingSword:
+  Name: 단미검
+  Description: "|현세참|을 {Value1}장 가져옵니다.\n두번 |발도|합니다."
+  UpgradedDescription: "|현세참+|을 {Value1}장 가져옵니다.\n두번 |발도|합니다."
+  FlavorText: ""
+
+YoumuBloodOfAsura:
+  Name: 수라검
+  Description: "|참|카드 사용시, |화력|을 {Value1} 얻습니다."
+  FlavorText: "살생을 저지르더라도 공덕을 닦으면 부처가 될 수 있습니다."
+
+YoumuMeikyoShisui:
+  Name: 명경지수
+  Description: "|반격|을 {Block} 얻습니다.\n카드를 {Value1} 뽑습니다."
+
+YoumuSpiritMediumBind:
+  Name: 빙좌의 오랏줄
+  Description: "카드가 |소멸|하면, 모든 적에게 피해를 {Value1} 줍니다."
+
+YoumuHakugyokurou:
+  Name: 백옥루
+  Description: "|턴 시작시|: 카드를 {Value2}장 뽑습니다.\n|손에 있을시|: |참| 카드를 {Value1}장 사용시, 이 카드를 버리고 모든 적에게 피해를 {Damage} 줍니다."
+  FlavorText: ""
+
+YoumuAgelessObsession:
+  Name: 불사의 망집
+  Description: "모든 적에게 |록 온|을 {Value1} 줍니다.\n적이 |록 온|을 얻을 때 마다, 획득량이 2배가 됩니다."
+
+YoumuYuyukoFriend:
+  Name: 화서의 망령, 유유코
+  Description: "<indent=80>모든 적에게 |생자필멸|을 {Value1} 줍니다.\n<indent=0><sprite=\"Passive\" name=\"2\"><indent=80>{Mana}를 얻습니다."
+  ExtraDescription1: '<indent=0><sprite="Active" name="-3"><indent=80>모든 적에게 |허약|과 |취약|을 {Value2} 줍니다.'
+  ExtraDescription2: '<indent=0><sprite="Ultimate" name="-8"><indent=80>턴 종료시 마다 모든 적에게 |생자필멸|을 {Value1} 줍니다.'
+  FlavorText: "Mors certa, hora incerta. Nosce te ipsum. Vive hodie."

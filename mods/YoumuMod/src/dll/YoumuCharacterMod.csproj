@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{472DD77C-AE33-45B7-8DB5-6C313FDDDCC7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YoumuCharacterMod</RootNamespace>
+    <AssemblyName>YoumuCharacterMod</AssemblyName>
+    <TargetFrameworkVersion>v2.1</TargetFrameworkVersion>
+    <TargetFrameworkIdentifier>.NETStandard</TargetFrameworkIdentifier>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony" />
+    <Reference Include="BepInEx" />
+    <Reference Include="LBoL-AddWatermark" />
+    <Reference Include="LBoL-Entity-Sideloader" />
+    <Reference Include="LBoL.Base">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.ConfigData">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.ConfigData.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.Core">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.EntityLib">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.EntityLib.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.Presentation">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.Presentation.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="spine-unity" />
+    <Reference Include="UniTask">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\UniTask.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BattleActions\UnsheatheAllInHandAction.cs" />
+    <Compile Include="BepinexPlugin.cs" />
+    <Compile Include="Cards\Template\YoumuCard.cs" />
+    <Compile Include="Cards\Template\YoumuCardTemplate.cs" />
+    <Compile Include="Cards\YoumuAgelessObsession.cs" />
+    <Compile Include="Cards\YoumuAgelessObsessionDef.cs" />
+    <Compile Include="Cards\YoumuAppearingAndDisappearing.cs" />
+    <Compile Include="Cards\YoumuAppearingAndDisappearingDef.cs" />
+    <Compile Include="Cards\YoumuAscensionToBuddhahood.cs" />
+    <Compile Include="Cards\YoumuAscensionToBuddhahoodDef.cs" />
+    <Compile Include="Cards\YoumuAsuraSword.cs" />
+    <Compile Include="Cards\YoumuAsuraSwordDef.cs" />
+    <Compile Include="Cards\YoumuAttackG.cs" />
+    <Compile Include="Cards\YoumuAttackGDef.cs" />
+    <Compile Include="Cards\YoumuAttackW.cs" />
+    <Compile Include="Cards\YoumuAttackWDef.cs" />
+    <Compile Include="Cards\YoumuBizareness.cs" />
+    <Compile Include="Cards\YoumuBizarenessDef.cs" />
+    <Compile Include="Cards\YoumuBlockG.cs" />
+    <Compile Include="Cards\YoumuBlockGDef.cs" />
+    <Compile Include="Cards\YoumuBlockW.cs" />
+    <Compile Include="Cards\YoumuBlockWDef.cs" />
+    <Compile Include="Cards\YoumuBloodOfAsura.cs" />
+    <Compile Include="Cards\YoumuBloodOfAsuraDef.cs" />
+    <Compile Include="Cards\YoumuBuddhahoodOfFlora.cs" />
+    <Compile Include="Cards\YoumuBuddhahoodOfFloraDef.cs" />
+    <Compile Include="Cards\YoumuBulletCuttingSpirit.cs" />
+    <Compile Include="Cards\YoumuBulletCuttingSpiritDef.cs" />
+    <Compile Include="Cards\YoumuCircularVicissitude.cs" />
+    <Compile Include="Cards\YoumuCircularVicissitudeDef.cs" />
+    <Compile Include="Cards\YoumuClearingMind.cs" />
+    <Compile Include="Cards\YoumuClearingMindDef.cs" />
+    <Compile Include="Cards\YoumuClearingTheSixSenses.cs" />
+    <Compile Include="Cards\YoumuClearingTheSixSensesDef.cs" />
+    <Compile Include="Cards\YoumuClosedEyeSlash.cs" />
+    <Compile Include="Cards\YoumuClosedEyeSlashDef.cs" />
+    <Compile Include="Cards\YoumuConventionalTruth.cs" />
+    <Compile Include="Cards\YoumuConventionalTruthDef.cs" />
+    <Compile Include="Cards\YoumuCounterSignalling.cs" />
+    <Compile Include="Cards\YoumuCounterSignallingDef.cs" />
+    <Compile Include="Cards\YoumuCrescentMoonSlash.cs" />
+    <Compile Include="Cards\YoumuCrescentMoonSlashDef.cs" />
+    <Compile Include="Cards\YoumuDivineSevering.cs" />
+    <Compile Include="Cards\YoumuDivineSeveringDef.cs" />
+    <Compile Include="Cards\YoumuDualWielder.cs" />
+    <Compile Include="Cards\YoumuDualWielderDef.cs" />
+    <Compile Include="Cards\YoumuDyingDeva.cs" />
+    <Compile Include="Cards\YoumuDyingDevaDef.cs" />
+    <Compile Include="Cards\YoumuEmbercleave.cs" />
+    <Compile Include="Cards\YoumuEmbercleaveDef.cs" />
+    <Compile Include="Cards\YoumuFlashOfTheNetherworld.cs" />
+    <Compile Include="Cards\YoumuFlashOfTheNetherworldDef.cs" />
+    <Compile Include="Cards\YoumuGhostSlash.cs" />
+    <Compile Include="Cards\YoumuGhostSlashDef.cs" />
+    <Compile Include="Cards\YoumuGreatEnlightenment.cs" />
+    <Compile Include="Cards\YoumuGreatEnlightenmentDef.cs" />
+    <Compile Include="Cards\YoumuHakugyokurou.cs" />
+    <Compile Include="Cards\YoumuHakugyokurouDef.cs" />
+    <Compile Include="Cards\YoumuHalfBodyDistillation.cs" />
+    <Compile Include="Cards\YoumuHalfBodyDistillationDef.cs" />
+    <Compile Include="Cards\YoumuHeavenlyHalo.cs" />
+    <Compile Include="Cards\YoumuHeavenlyHaloDef.cs" />
+    <Compile Include="Cards\YoumuHesitationCuttingSword.cs" />
+    <Compile Include="Cards\YoumuHesitationCuttingSwordDef.cs" />
+    <Compile Include="Cards\YoumuHesitationSign.cs" />
+    <Compile Include="Cards\YoumuHesitationSignDef.cs" />
+    <Compile Include="Cards\YoumuInclemency.cs" />
+    <Compile Include="Cards\YoumuInclemencyDef.cs" />
+    <Compile Include="Cards\YoumuInfiniteKalpas.cs" />
+    <Compile Include="Cards\YoumuInfiniteKalpasDef.cs" />
+    <Compile Include="Cards\YoumuInnerEye.cs" />
+    <Compile Include="Cards\YoumuInnerEyeDef.cs" />
+    <Compile Include="Cards\YoumuInsightfulSword.cs" />
+    <Compile Include="Cards\YoumuInsightfulSwordDef.cs" />
+    <Compile Include="Cards\YoumuKarmaGust.cs" />
+    <Compile Include="Cards\YoumuKarmaGustDef.cs" />
+    <Compile Include="Cards\YoumuKarmicPunishment.cs" />
+    <Compile Include="Cards\YoumuKarmicPunishmentDef.cs" />
+    <Compile Include="Cards\YoumuLivingAndDead.cs" />
+    <Compile Include="Cards\YoumuLivingAndDeadDef.cs" />
+    <Compile Include="Cards\YoumuLotusPostureSlash.cs" />
+    <Compile Include="Cards\YoumuLotusPostureSlashDef.cs" />
+    <Compile Include="Cards\YoumuMatsuyoiReflecting.cs" />
+    <Compile Include="Cards\YoumuMatsuyoiReflectingDef.cs" />
+    <Compile Include="Cards\YoumuMeikyoShisui.cs" />
+    <Compile Include="Cards\YoumuMeikyoShisuiDef.cs" />
+    <Compile Include="Cards\YoumuNetherMeditation.cs" />
+    <Compile Include="Cards\YoumuNetherMeditationDef.cs" />
+    <Compile Include="Cards\YoumuNextToNone.cs" />
+    <Compile Include="Cards\YoumuNextToNoneDef.cs" />
+    <Compile Include="Cards\YoumuPhantomFormation.cs" />
+    <Compile Include="Cards\YoumuPhantomFormationDef.cs" />
+    <Compile Include="Cards\YoumuPhosphoricSlash.cs" />
+    <Compile Include="Cards\YoumuPhosphoricSlashDef.cs" />
+    <Compile Include="Cards\YoumuPreachingAvici.cs" />
+    <Compile Include="Cards\YoumuPreachingAviciDef.cs" />
+    <Compile Include="Cards\YoumuPretaSword.cs" />
+    <Compile Include="Cards\YoumuPretaSwordDef.cs" />
+    <Compile Include="Cards\YoumuQuickDraw.cs" />
+    <Compile Include="Cards\YoumuQuickDrawDef.cs" />
+    <Compile Include="Cards\YoumuReflectionSlash.cs" />
+    <Compile Include="Cards\YoumuReflectionSlashDef.cs" />
+    <Compile Include="Cards\YoumuReinforcementOfTheArmy.cs" />
+    <Compile Include="Cards\YoumuReinforcementOfTheArmyDef.cs" />
+    <Compile Include="Cards\YoumuSatelliteSlash.cs" />
+    <Compile Include="Cards\YoumuSatelliteSlashDef.cs" />
+    <Compile Include="Cards\YoumuScatteredFlowers.cs" />
+    <Compile Include="Cards\YoumuScatteredFlowersDef.cs" />
+    <Compile Include="Cards\YoumuSevenHakus.cs" />
+    <Compile Include="Cards\YoumuSevenHakusDef.cs" />
+    <Compile Include="Cards\YoumuSilentNirvana.cs" />
+    <Compile Include="Cards\YoumuSilentNirvanaDef.cs" />
+    <Compile Include="Cards\YoumuSingleThought.cs" />
+    <Compile Include="Cards\YoumuSingleThoughtDef.cs" />
+    <Compile Include="Cards\YoumuSlashDraw.cs" />
+    <Compile Include="Cards\YoumuSlashDrawDef.cs" />
+    <Compile Include="Cards\YoumuSlashOfDeparture.cs" />
+    <Compile Include="Cards\YoumuSlashOfDepartureDef.cs" />
+    <Compile Include="Cards\YoumuSlashOfKarmicWind.cs" />
+    <Compile Include="Cards\YoumuSlashOfKarmicWindDef.cs" />
+    <Compile Include="Cards\YoumuSlashOfMeditation.cs" />
+    <Compile Include="Cards\YoumuSlashOfMeditationDef.cs" />
+    <Compile Include="Cards\YoumuSlashOfPresent.cs" />
+    <Compile Include="Cards\YoumuSlashOfPresentDef.cs" />
+    <Compile Include="Cards\YoumuSpiritMediumBind.cs" />
+    <Compile Include="Cards\YoumuSpiritMediumBindDef.cs" />
+    <Compile Include="Cards\YoumuSpringWind.cs" />
+    <Compile Include="Cards\YoumuSpringWindDef.cs" />
+    <Compile Include="Cards\YoumuStrangeBird.cs" />
+    <Compile Include="Cards\YoumuStrangeBirdDef.cs" />
+    <Compile Include="Cards\YoumuSwordAura.cs" />
+    <Compile Include="Cards\YoumuSwordAuraDef.cs" />
+    <Compile Include="Cards\YoumuSwordOfBinding.cs" />
+    <Compile Include="Cards\YoumuSwordOfBindingDef.cs" />
+    <Compile Include="Cards\YoumuTenKingsRetribution.cs" />
+    <Compile Include="Cards\YoumuTenKingsRetributionDef.cs" />
+    <Compile Include="Cards\YoumuThreeKons.cs" />
+    <Compile Include="Cards\YoumuThreeKonsDef.cs" />
+    <Compile Include="Cards\YoumuTransmigrationSlash.cs" />
+    <Compile Include="Cards\YoumuTransmigrationSlashDef.cs" />
+    <Compile Include="Cards\YoumuTurningAngelCut.cs" />
+    <Compile Include="Cards\YoumuTurningAngelCutDef.cs" />
+    <Compile Include="Cards\YoumuTwoHundredYojana.cs" />
+    <Compile Include="Cards\YoumuTwoHundredYojanaDef.cs" />
+    <Compile Include="Cards\YoumuUnendingWinter.cs" />
+    <Compile Include="Cards\YoumuUnendingWinterDef.cs" />
+    <Compile Include="Cards\YoumuWatchtowerSword.cs" />
+    <Compile Include="Cards\YoumuWatchtowerSwordDef.cs" />
+    <Compile Include="Cards\YoumuWaterfowlDance.cs" />
+    <Compile Include="Cards\YoumuWaterfowlDanceDef.cs" />
+    <Compile Include="Cards\YoumuWheelOfPain.cs" />
+    <Compile Include="Cards\YoumuWheelOfPainDef.cs" />
+    <Compile Include="Cards\YoumuWickedSoul.cs" />
+    <Compile Include="Cards\YoumuWickedSoulDef.cs" />
+    <Compile Include="Cards\YoumuYuyukoFriend.cs" />
+    <Compile Include="Cards\YoumuYuyukoFriendDef.cs" />
+    <Compile Include="DefaultConfig\YoumuDefaultConfig.cs" />
+    <Compile Include="Exhibits\YoumuExhibitG.cs" />
+    <Compile Include="Exhibits\YoumuExhibitGDef.cs" />
+    <Compile Include="Exhibits\YoumuExhibitTemplate.cs" />
+    <Compile Include="Exhibits\YoumuExhibitW.cs" />
+    <Compile Include="Exhibits\YoumuExhibitWDef.cs" />
+    <Compile Include="GunName\YoumuGunName.cs" />
+    <Compile Include="Illustrator\YoumuIllustrationRefs.cs" />
+    <Compile Include="Illustrator\YoumuIllustrator.cs" />
+    <Compile Include="ImageLoader\YoumuImageLoader.cs" />
+    <Compile Include="Localization\YoumuLocalization.cs" />
+    <Compile Include="model\YoumuPlayerModel.cs" />
+    <Compile Include="Patches\CardWidgetPatch.cs" />
+    <Compile Include="Patches\CustomGameEventPatch.cs" />
+    <Compile Include="PInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StatusEffects\KeywordsWorkaround\YoumuUnsheatheSe.cs" />
+    <Compile Include="StatusEffects\KeywordsWorkaround\YoumuUnsheatheSeDef.cs" />
+    <Compile Include="StatusEffects\KeywordsWorkaround\YoumuYuyukoDeathSe.cs" />
+    <Compile Include="StatusEffects\KeywordsWorkaround\YoumuYuyukoDeathSeDef.cs" />
+    <Compile Include="StatusEffects\YoumuAgelessObsessionSe.cs" />
+    <Compile Include="StatusEffects\YoumuAgelessObsessionSeDef.cs" />
+    <Compile Include="StatusEffects\YoumuAscensionToBuddhahoodSe.cs" />
+    <Compile Include="StatusEffects\YoumuAscensionToBuddhahoodSeDef.cs" />
+    <Compile Include="StatusEffects\YoumuBizarenessSe.cs" />
+    <Compile Include="StatusEffects\YoumuBizarenessSeDef.cs" />
+    <Compile Include="StatusEffects\YoumuBloodOfAsuraSe.cs" />
+    <Compile Include="StatusEffects\YoumuBloodOfAsuraSeDef.cs" />
+    <Compile Include="StatusEffects\YoumuDivineSeveringSe.cs" />
+    <Compile Include="StatusEffects\YoumuDivineSeveringSeDef.cs" />
+    <Compile Include="StatusEffects\YoumuDrawNextTurnSe.cs" />
+    <Compile Include="StatusEffects\YoumuDrawNextTurnSeDef.cs" />
+    <Compile Include="StatusEffects\YoumuDualWielderSe.cs" />
+    <Compile Include="StatusEffects\YoumuDualWielderSeDef.cs" />
+    <Compile Include="StatusEffects\YoumuFlashOfTheNetherworldSe.cs" />
+    <Compile Include="StatusEffects\YoumuFlashOfTheNetherworldSeDef.cs" />
+    <Compile Include="StatusEffects\YoumuGreatEnlightenmentSe.cs" />
+    <Compile Include="StatusEffects\YoumuGreatEnlightenmentSeDef.cs" />
+    <Compile Include="StatusEffects\YoumuInfiniteKalpasSe.cs" />
+    <Compile Include="StatusEffects\YoumuInfiniteKalpasSeDef.cs" />
+    <Compile Include="StatusEffects\YoumuInnerEyeSe.cs" />
+    <Compile Include="StatusEffects\YoumuInnerEyeSeDef.cs" />
+    <Compile Include="StatusEffects\YoumuRiposteSe.cs" />
+    <Compile Include="StatusEffects\YoumuRiposteSeDef.cs" />
+    <Compile Include="StatusEffects\YoumuSilentNirvanaSe.cs" />
+    <Compile Include="StatusEffects\YoumuSilentNirvanaSeDef.cs" />
+    <Compile Include="StatusEffects\YoumuSpiritMediumBindSe.cs" />
+    <Compile Include="StatusEffects\YoumuSpiritMediumBindSeDef.cs" />
+    <Compile Include="StatusEffects\YoumuStatusEffectTemplate.cs" />
+    <Compile Include="StatusEffects\YoumuUnendingWinterSe.cs" />
+    <Compile Include="StatusEffects\YoumuUnendingWinterSeDef.cs" />
+    <Compile Include="StatusEffects\YoumuWatchtowerSwordSe.cs" />
+    <Compile Include="StatusEffects\YoumuWatchtowerSwordSeDef.cs" />
+    <Compile Include="StatusEffects\YoumuWheelOfPainSe.cs" />
+    <Compile Include="StatusEffects\YoumuWheelOfPainSeDef.cs" />
+    <Compile Include="StatusEffects\YoumuYuyukoFriendSe.cs" />
+    <Compile Include="StatusEffects\YoumuYuyukoFriendSeDef.cs" />
+    <Compile Include="System\Runtime\CompilerServices\IgnoresAccessChecksToAttribute.cs" />
+    <Compile Include="WatermarkWrapper.cs" />
+    <Compile Include="YoumuLoadouts.cs" />
+    <Compile Include="YoumuPlayerDef.cs" />
+    <Compile Include="YoumuUlt\YoumuUltG.cs" />
+    <Compile Include="YoumuUlt\YoumuUltGDef.cs" />
+    <Compile Include="YoumuUlt\YoumuUltTemplate.cs" />
+    <Compile Include="YoumuUlt\YoumuUltW.cs" />
+    <Compile Include="YoumuUlt\YoumuUltWDef.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Cards\YoumuAgelessObsession.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuAppearingAndDisappearing.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuAscensionToBuddhahood.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuAsuraSword.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuAttackG.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuAttackGAlt.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuAttackW.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuBizareness.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuBlockG.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuBlockW.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuBloodOfAsura.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuBuddhahoodOfFlora.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuBulletCuttingSpirit.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuCircularVicissitude.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuClearingMind.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuClearingTheSixSenses.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuClosedEyeSlash.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuConventionalTruth.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuCounterSignalling.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuCrescentMoonSlash.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuDefenseX.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuDivineSevering.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuDualWielder.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuDyingDeva.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuEmbercleave.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuFlashOfTheNetherworld.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuGhostSlash.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuGreatEnlightenment.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuHakugyokurou.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuHalfBodyDistillation.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuHeartExcerpt.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuHeavenlyHalo.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuHesitationCuttingSword.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuHesitationSign.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuInclemency.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuInfiniteKalpas.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuInnerEye.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuInsightfulSword.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuIrresoluteSoul.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuKarmaGust.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuKarmicPunishment.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuLivingAndDead.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuLotusPostureSlash.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuMatsuyoiReflecting.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuMeikyoShisui.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuNetherMeditation.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuNextToNone.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuPhantomFormation.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuPhosphoricSlash.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuPlaceholder_efc.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuPreachingAvici.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuPretaSword.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuQuickDraw.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuReflectionSlash.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuReinforcementOfTheArmy.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuSatelliteSlash.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuScatteredFlowers.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuSevenHakus.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuSilentNirvana.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuSingleThought.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuSlashDraw.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuSlashOfDeparture.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuSlashOfKarmicWind.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuSlashOfMeditation.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuSlashOfPresent.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuSpiritMediumBind.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuSpringWind.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuStrangeBird.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuSwordAura.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuSwordAura2.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuSwordOfBinding.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuSwordSkill.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuTenKingsRetribution.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuThreeKons.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuTransmigrationSlash.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuTurningAngelCut.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuTwoHundredYojana.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuUnendingWinter.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuWatchtowerSword.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuWaterfowlDance.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuWheelOfPain.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuWickedSoul.png" />
+    <EmbeddedResource Include="Resources\Cards\YoumuYuyukoFriend.png" />
+    <EmbeddedResource Include="Resources\Exhibits\YoumuExhibitG.png" />
+    <EmbeddedResource Include="Resources\Exhibits\YoumuExhibitW.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\YoumuAgelessObsessionSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\YoumuAscensionToBuddhahoodSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\YoumuBizarenessSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\YoumuBloodOfAsuraSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\YoumuDivineSeveringSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\YoumuDrawNextTurnSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\YoumuDualWielderSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\YoumuFlashOfTheNetherworldSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\YoumuGreatEnlightenmentSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\YoumuInfiniteKalpasSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\YoumuInnerEyeSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\YoumuPretaRealmSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\YoumuRiposteSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\YoumuSilentNirvanaSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\YoumuSpiritMediumBindSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\YoumuUnendingWinterSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\YoumuUnsheatheSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\YoumuWatchtowerSwordSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\YoumuWheelOfPainSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\YoumuYuyukoDeathSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\YoumuYuyukoFriendSe.png" />
+    <EmbeddedResource Include="Resources\Ult\YoumuUltG.png" />
+    <EmbeddedResource Include="Resources\Ult\YoumuUltW.png" />
+    <EmbeddedResource Include="Resources\Youmu.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

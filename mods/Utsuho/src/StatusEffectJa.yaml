@@ -1,0 +1,84 @@
+HeatStatus:
+  Name: 熱
+  Description: "{OwnerName}のターン終了時、持っている|熱|5点ごとに|熱|が1減衰し、減衰した|熱|と同じ値のダメージを敵全体に与える。({HeatDamage})\nキーワード|排熱|は持っている|熱|を全て消費して効果を発動する。"
+  Brief: "{OwnerName}のターン終了時、持っている|熱|5点ごとに|熱|が1減衰し、減衰した|熱|と同じ値のダメージを敵全体に与える。\nキーワード|排熱|は持っている|熱|を全て消費して効果を発動する。"
+
+ChargingStatus:
+  Name: 蓄熱
+  Description: "各ターンの終了時に|熱|{Level}を得る。"
+  Brief: "各ターンの終了時に|熱|を得る。"
+
+GravityWellStatus:
+  Name: 重力の井戸
+  Description: "{PlayerName}のターン終了時、{Level}|バリア|を得て、|ダークマター|を1枚手札に加える。"
+  Brief: "{PlayerName}のターン終了時、|バリア|を得て、|ダークマター|を1枚手札に加える。"
+  
+MassDriverStatus:
+  Name: マスドライバー
+  Description: "|質量体|が牽引されるたび、敵全体に{Level}ダメージを与える。"
+  Brief: "|質量体|が牽引されるたび、敵全体にダメージを与える。"
+
+ResonanceStatus:
+  Name: 共振
+  Description: "カードを|廃棄|するたび、|共振|を1枚手札に加える。"
+  Brief: "カードを|廃棄|するたび、|共振|を1枚手札に加える。"
+
+ResonancePlusStatus:
+  Name: 共振+
+  Description: "カードを|廃棄|するたび、|共振+|を1枚手札に加える。"
+  Brief: "カードを|廃棄|するたび、|共振+|を1枚手札に加える。"
+
+WasteNotStatus:
+  Name: 無駄省き
+  Description: "カードを|廃棄|するたび、|熱|{Level}を得る。"
+  Brief: "カードを|廃棄|するたび、|熱|を得る。"
+
+CautionStatus:
+  Name: CAUTION!
+  Description: "{PlayerName}のターン開始時、|バースト|状態になり、|時間制限|<sprite=\"ManaSprite\" name=\"1\">。"
+  Brief: "{PlayerName}のターン開始時、|バースト|状態になり、|時間制限|<sprite=\"ManaSprite\" name=\"1\">。"
+
+TurboFuelStatus:
+  Name: ターボ燃料
+  Description: "ターン開始時、{manatype}{Level}を得てカードを{Level}枚引く。\nランダムな手札1枚を|廃棄|する。"
+  Brief: "ターン開始時、マナを得てカードを引く。\nランダムな手札1枚を|廃棄|する。"
+
+RadiationStatus:
+  Name: 放射能
+  Description: "ターン終了時、敵全体に{Level}ダメージを与える。"
+  Brief: "ターン終了時、敵全体にダメージを与える。"
+
+HotSpringStatus:
+  Name: 温泉
+  Description: "ターン開始時、|放射能|{Level}と|温泉|1を得る。"
+  Brief: "ターン開始時、|放射能|と|温泉|1を得る。"
+
+MaintainReactionStatus:
+  Name: 反応継続
+  Description: "カードを|保留|するたび、|熱|{Level}を得る。"
+  Brief: "カードを|保留|するたび、|熱|{Level}を得る。"
+
+FixedStarStatus:
+  Name: フィクストスター
+  Description: "ターン終了時、手札を{Level}枚まで|保留|する。\nこの戦闘中、全ての|ダークマター|は|自動廃棄|を持つ。"
+  Brief: "ターン終了時、手札を枚まで|保留|する。\nこの戦闘中、全ての|ダークマター|は|自動廃棄|を持つ。"
+
+TokamakStatus:
+  Name: 「ヘルズトカマク」
+  Description: "ターン開始時、|熱|{Level}を得る。"
+  Brief: "ターン開始時、|熱|{Level}を得る。"
+
+QuantumDissonanceStatus:
+  Name: 量子不和
+  Description: "各ターン最初に使用された{Level}枚の|ダークマター|は占術3を行う。"
+  Brief: "各ターン最初に使用された枚の|ダークマター|は占術3を行う。"
+
+SunSpotStatus:
+  Name: 太陽黒点
+  Description: "|ダークマター|を使用した時、|熱|減衰ダメージを{Level:plural one='%回' other='%回'}発生させる。"
+  Brief: "|ダークマター|を使用した時、|熱|減衰ダメージを追加で発生させる。"
+
+HeatVisorStatus:
+  Name: ヒートバイザー
+  Description: "次のターンまでに{Level}回のライフ喪失を無効化する。"
+  Brief: "次のターンまでのライフ喪失を無効化する。"

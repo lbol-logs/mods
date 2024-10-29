@@ -1,0 +1,7 @@
+VentIntention:
+  Name: 排熱
+  Description: "{OwnerName}は全ての|熱|を取り除こうとしている。"
+  
+PullIntention:
+  Name: 「牽引ダメージ」
+  Description: "{OwnerName}はあなたの手札にあるダークマターの枚数によって追加のダメージを与える。"

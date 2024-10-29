@@ -1,0 +1,88 @@
+OmikujiBonusSe:
+  Name: 御签奖励
+  Description: "{OwnerName}的|符卡|额外造成 {Level} 点伤害"
+  Brief: "{OwnerName}的|符卡|造成更多伤害。"
+
+SanaePowerPotatoSe:
+  Name: 现代娱乐
+  Description: "战斗结束后，获得 {Level} 点<sprite=\"Point\" name=\"Power\">。"
+  Brief: "战斗结束后，获得<sprite=\"Point\" name=\"Power\">。"
+
+SanaeSpellDamageSe:
+  Name: 绿色奇术
+  Description: "当符卡被使用时，{OwnerName}对随机敌人造成 8 点攻击伤害 {Level} 次。"
+  Brief: "当符卡被使用时，{OwnerName}对随机敌人造成 8 点攻击伤害。"
+  
+SanaeSpiritManaSe:
+  Name: 召唤师练习
+  Description: "{PlayerName}的{Count:ordinal one='下' other='% 回合后的'}回合开始时，获得 {Level} 点|灵力|，将一张|光芒|加入手中"
+  Brief: "若干回合后，获得|灵力|，将一张|Radiance|加入手中。"
+
+SanaeDrawTempSe:
+  Name: 校园科技集市
+  Description: "{OwnerName}的回合开始时，抽 {Level} 张牌，然后丢弃其中所有的非技能牌。"
+  Brief: "{OwnerName}的回合开始时，抽若干张牌，然后丢弃其中所有的非技能牌。"
+
+SanaeBlockShuffleSe:
+  Name: Divining Dance
+  Description: "抽牌堆洗牌时，获得 {Level} 点|格挡|。"
+  Brief: "抽牌堆洗牌时，获得|格挡|。"
+    
+SanaeStatusTalismanSe:
+  Name: 折纸工艺品
+  Description: "{OwnerName}的回合结束时，将 {Level} 张|守矢护符|放入弃牌堆。"
+  Brief: "{OwnerName}的回合结束时，将|守矢护符|放入弃牌堆。"
+
+SanaeWardTalismanSe:
+  Name: 预咏唱咒语
+  Description: "当{OwnerName}获得|庇护|时，获得等量的<sprite=\"Point\" name=\"Power\">。\n当符卡被使用后，将 {Level} 张|守矢护符|放入弃牌堆。"
+  Brief: "当{OwnerName}获得|庇护|时，获得等量的<sprite=\"Point\" name=\"Power\">。\n当符卡被使用后，将|守矢护符|放入弃牌堆。"
+  
+SanaeSpellManaGreenSe:
+  Name: 网络阴谋
+  Description: "使用符卡后，获得 {Level} 点{Mana}。"
+  Brief: "使用符卡后，获得{Mana}。"
+
+SanaeSpellManaPhiloSe:
+  Name: 网络阴谋
+  Description: "使用符卡后，获得 {Level} 点{Mana}。"
+  Brief: "使用符卡后，获得{Mana}。"
+
+SanaeOrderShuffleSe:
+  Name: 碎片化的观察力
+  Description: "当一张非技能牌被打出后，重洗抽牌堆。"
+
+SanaeExileDamageSe:
+  Name: 在制品
+  Description: "当一张牌被自动|放逐|时，{OwnerName}对随机敌人造成 {Level} 点伤害。"
+  Brief: "当一张牌被自动|放逐|时，{OwnerName}对随机敌人造成伤害。"
+  
+SanaeGrazeWardSe:
+  Name: 神之风盾
+  Description: "当{OwnerName}|闪避|一次攻击时，获得 {Level} 层|庇护|。"
+  Brief: "当{OwnerName}|闪避|一次攻击时，获得 3 层|庇护|。"
+
+SanaeKanakoFriendSe:
+  Name: 被唤醒的神明
+  Description: "使用符卡后，{OwnerName}获得 {Level} 点|火力|。"
+  Brief: "使用符卡后{OwnerName}获得 2 点|火力|。"
+  
+NextTurnLoseFire:
+  Name: 下回合失去火力
+  Description: "{OwnerName}的下个回合开始时，失去 {Level} 点|火力|。"
+  Brief: "{OwnerName}的下个回合开始时，失去|火力|。"
+
+NextTurnLosePower:
+  Name: 下回合失去P
+  Description: "{OwnerName}的下个回合开始时，失去 {Level} 点<sprite=\"Point\" name=\"Power\">。"
+  Brief: "{OwnerName}的下个回合开始时，失去<sprite=\"Point\" name=\"Power\">。"
+
+TurnStartDontLoseMana:
+  Name: 保留法力
+  Description: "{OwnerName}的下{Duration:plural one='' other=' % '}个回合开始时，不会失去法力。"
+  Brief: "{OwnerName}的接下来若干个回合开始时，不会失去法力。"
+
+AmuletForEnemy:
+  Name: 堡垒
+  Description: "抵挡下 {Level} 张加入战斗的非状态牌（将它们|放逐|）。"
+  Brief: "抵挡下一张加入战斗的非状态牌（将它们|放逐|）。"

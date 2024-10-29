@@ -1,0 +1,84 @@
+HeatStatus:
+  Name: Heat
+  Description: "At the end of {OwnerName}'s turn, lose 1 of every 5 |Heat| ({HeatDamage}) and deal that much damage to all enemies.\nThe keyword |Vent| spends all of this at once for an effect."
+  Brief: "At the end of {OwnerName}s turn, lose 1 of every 5 |Heat| and deal that much damage to all enemies.\nThe keyword |Vent| spends all of this at once for an effect."
+
+ChargingStatus:
+  Name: Charging
+  Description: Gain {Level} |Heat| at the end of each turn.
+  Brief: Gain |Heat| at the end of each turn.
+
+GravityWellStatus:
+  Name: Gravity Well
+  Description: At the end of {PlayerName}'s turn, Gain {Level} Barrier and add a |Dark Matter| to your hand.
+  Brief: At the end of {PlayerName}'s turn, Gain Barrier and add a |Dark Matter| to your hand.
+
+MassDriverStatus:
+  Name: Mass Driver
+  Description: Whenever a card with |Mass| is Pulled, deal {Level} damage to all enemies.
+  Brief: Whenever a card with |Mass| is Pulled, deal damage to all enemies.
+
+ResonanceStatus:
+  Name: Resonance
+  Description: "When you |Exile| a card, add a |Resonance| to your hand."
+  Brief: "When you |Exile| a card, add a |Resonance| to your hand."
+
+ResonancePlusStatus:
+  Name: Resonance+
+  Description: "When you |Exile| a card, add a |Resonance+| to your hand."
+  Brief: "When you |Exile| a card, add a |Resonance+| to your hand."
+
+WasteNotStatus:
+  Name: Waste Not
+  Description: "When you exile a card, gain {Level} |Heat|"
+  Brief: "When you exile a card, gain  |Heat|"
+
+CautionStatus:
+  Name: CAUTION!
+  Description: "At the start of {PlayerName}'s turn, enter |Burst| and gain |Time Limit| <sprite=\"ManaSprite\" name=\"1\">."
+  Brief: "At the start of turn, enter |Burst| and gain |Time Limit| <sprite=\"ManaSprite\" name=\"1\">."
+
+TurboFuelStatus:
+  Name: Turbo Fuel
+  Description: "At the start of your turn, gain {Level} {manatype} and draw {Level} cards.\nThen exile a random card in your hand."
+  Brief: "At the start of your turn, gain mana and draw cards.\nThen exile a random card in your hand."
+
+RadiationStatus:
+  Name: Radiation
+  Description: "At the end of your turn, deal {Level} damage to all enemies."
+  Brief: "At the end of your turn, deal damage to all enemies."
+
+HotSpringStatus:
+  Name: Hot Spring
+  Description: "At the start of your turn, gain {Level} |Radiation| and 1 |Hot Spring|."
+  Brief: "At the start of your turn, gain |Radiation| and 1 |Hot Spring|."
+
+MaintainReactionStatus:
+  Name: Maintain Reaction
+  Description: "When you |Retain| a card, gain {Level} |Heat|."
+  Brief: "When you |Retain| a card, gain |Heat|."
+
+FixedStarStatus:
+  Name: Fixed Star
+  Description: "At the end of your turn, |retain| up to {Level} cards this turn.\n All |Dark Matter| have |Auto-Exile| until end of combat."
+  Brief: "At the end of your turn, |retain| up to cards this turn. All |Dark Matter| have |Auto-Exile| until end of combat."
+
+TokamakStatus:
+  Name: "Hell's Tokamak"
+  Description: "At the start of your turn, gain {Level} |Heat|."
+  Brief: "At the start of your turn, gain {Level} |Heat|."
+
+QuantumDissonanceStatus:
+  Name: Quantum Dissonance
+  Description: "When the first {Level} |Dark Matter| are played each turn, Scry 3."
+  Brief: "When the first |Dark Matter| are played each turn, Scry 3."
+
+SunSpotStatus:
+  Name: Sun Spot
+  Description: "When you play a |Dark Matter|, trigger your |Heat| {Level:plural one='% time' other='% times'}."
+  Brief: "When you play a |Dark Matter|, trigger your |Heat| additional times."
+
+HeatVisorStatus:
+  Name: Heat Visor
+  Description: "Prevent the next {Level} times the player would lose life before your next turn."
+  Brief: "Prevent the next time the player would lose life before your next turn."

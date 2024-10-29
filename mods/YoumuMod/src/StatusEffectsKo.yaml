@@ -1,0 +1,103 @@
+YoumuAgelessObsessionSe:
+  Name: 불사의 망집
+  Description: "적이 |록 온|을 받을 때 마다, 추가로 {Level}번 더 받습니다."
+  Brief: "적이 |록 온|을 얻을 때 마다, 추가로 {Level}번 더 얻습니다."
+
+YoumuAscensionToBuddhahoodSe:
+  Name: 성불득탈
+  Description: "매 턴 처음 사용하는 {Level}장의 카드가 |메아리|를 얻습니다.\n(남은 횟수: {Count})"
+
+YoumuBizarenessSe:
+  Name: 육도괴기
+  Description: "적이 |록 온|을 받을 때 마다, 추가로 |중독|을 {Level} 받습니다."
+  Brief: "적이 |록 온|을 받을 때 마다, 추가로 |중독|을 1 받습니다."
+
+YoumuBloodOfAsuraSe:
+  Name: 수라검
+  Description: "|참|카드 사용시, |화력|을 {Level} 얻습니다."
+  Brief: "|참|카드 사용시, |화력|을 1 얻습니다."
+
+YoumuDivineSeveringSe:
+  Name: 신섬
+  Description: "|발도|할시, 이번 전투 동안 모든 |참|카드의 피해량이 {Level} 증가합니다."
+  Bried: "|발도|할시, 이번 전투 동안 모든 |참|카드의 피해량이 1 증가합니다."
+
+YoumuDualWielderSe:
+  Name: 생명의 이도류
+  Description: "플레이어가 |록 온|을 5 줄 때마다, |현세참|을 {Level}장 손에 넣습니다."
+  Bried: "플레이어가 |록 온|을 5 줄 때마다, |현세참|을 1장 손에 넣습니다."
+
+YoumuDrawNextTurnSe:
+  Name: 다음 턴 드로우
+  Description: "다음 턴 시작시, 카드를 {Level}장 뽑습니다."
+  Brief: "다음 턴 시작시, 카드를 뽑습니다."
+
+YoumuFlashOfTheNetherworldSe:
+  Name: 명부광망
+  Description: "추가턴 종료시, 그 턴에 사용한 카드 만큼 모든 적에게 피해를 {Level} 줍니다."
+  Brief: "추가턴 종료시, 그 턴에 사용한 카드 만큼 모든 적에게 피해를 줍니다."
+
+YoumuGreatEnlightenmentSe:
+  Name: 대오
+  Description: "턴 시작시 {Level}번 |발도|합니다."
+  Brief: "턴 시작시 |발도|합니다."
+
+YoumuInfiniteKalpasSe:
+  Name: 무량겁
+  Description: "턴 시작시, 무작위 요우무 |휘발성|카드를 {Level}장 손으로 가져옵니다. 이 카드들은 |소멸|을 가집니다."
+  Brief: "턴 시작시, 무작위 요우무 |휘발성|카드를 손으로 가져옵니다. 이 카드들은 |소멸|을 가집니다."
+
+YoumuSpiritMediumBindSe:
+  Name: 빙좌의 오랏줄
+  Description: "카드가 |소멸|하면, 모든 적에게 피해를 {Level} 줍니다."
+  Brief: "카드가 |소멸|하면, 모든 적에게 피해를 1 줍니다."
+
+YoumuOldSpiritMediumBindSe:
+  Name: 영매의 구속
+  Description: "카드가 |소멸|하면, 모든 적에게 피해를 {Level} 줍니다.\n요우무의 |휘발성| 카드라면, 추가로 피해를 3회 줍니다."
+  Brief: "카드가 |소멸|하면, 모든 적에게 피해를 1 줍니다.\n요우무의 |휘발성| 카드라면, 추가로 피해를 3 줍니다."
+
+YoumuInnerEyeSe:
+  Name: 심안
+  Description: "|참| 카드를 사용하면, |반격|을 {Level} 얻는다."
+  Brief: "|참| 카드를 사용하면, |반격|을 1 얻는다."
+
+YoumuWatchtowerSwordSe:
+  Name: 관루검
+  Description: "피해를 가할 때 마다, |록 온|을 {Level} 줍니다."
+  Brief: "피해를 가할 때 마다, |록 온|을 1 줍니다."
+
+YoumuRiposteSe:
+  Name: 반격
+  Description: "공격 피해는 체력 대신 |반격|를 감소시킵니다. 공격자에게 감소한 |반격|과 동일한 피해를 입힙니다."
+  Brief: "공격 피해는 체력 대신 |반격|를 감소시킵니다. 공격자에게 감소한 |반격|과 동일한 피해를 입힙니다."
+
+YoumuSilentNirvanaSe:
+  Name: 열반의 적정
+  Description: "적이 상태이상을 받을 때 마다, |방어|를 {Level} 얻습니다."
+  Brief: "적이 상태이상을 받을 때 마다, |방어|를 얻습니다."
+
+YoumuUnendingWinterSe:
+  Name: 끝나지 않는 겨울
+  Description: "플레이어가 공격 피해를 입힐 때마다, |빙결|을 {Level} 부여합니다."
+  Brief: "플레이어가 공격 피해를 입힐 때마다, |빙결|을 {Level} 부여합니다."
+
+YoumuWheelOfPainSe:
+  Name: 고륜
+  Description: "턴 시작시, 모든 적에게 |록 온|을 {Level} 줍니다."
+  Brief: "턴 시작시, 모든 적에게 |록 온|을 줍니다."
+
+YoumuYuyukoFriendSe:
+  Name: Border of life
+  Description: "턴 종료시 마다 모든 적에게 |생자필멸|을 {Level} 줍니다."
+  Brief: "턴 종료시 마다 모든 적에게 |생자필멸|을 {Level} 줍니다."
+
+YoumuUnsheatheSe:
+  Name: 발도
+  Description: "이것은 카드에 키워드 설명을 추가하는 방법 입니다."
+  Brief: "손의 |참|카드의 비용이 |일시적으로| <sprite=\"ManaSprite\" name=\"1\">감소합니다.\n그 후 손에 |현세참|이 없다면, |현세참|을 1장 얻습니다."
+
+YoumuYuyukoDeathSe:
+  Name: 생자필멸
+  Description: "이것은 카드에 키워드 설명을 추가하는 방법 입니다."
+  Brief: "캐릭터의 턴 종료 시 체력을 잃습니다. 캐릭터는 체력을 회복하지 못합니다."

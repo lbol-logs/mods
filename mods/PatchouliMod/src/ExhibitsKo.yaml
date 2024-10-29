@@ -1,0 +1,14 @@
+PatchouliExhibitU:
+  Name: 물의 마도서
+  Description: "마나 풀에 {BaseMana}가 추가됩니다. |파츄리|의 전용 카드가 카드 풀에 추가됩니다.\n첫 턴 시작시 손에 |물결|을 1장 가져옵니다."
+  FlavorText: "근처 숲의 마녀가 '아직 빌리지 않은' 마도서입니다."
+
+PatchouliExhibitB:
+  Name: 원소부
+  Description: "마나 풀에 {BaseMana}가 추가됩니다. |파츄리|의 전용 카드가 카드 풀에 추가됩니다.\n내 턴 시작 시, |화부|를 가지고 있지 않다면, |화부| {Value1} |원소 전개|."
+  FlavorText: "원소 마법은 자연의 힘을 빌려 최소한의 대가로 훌륭한 결과물을 만들어낸다."
+
+PatchouliAltExhibitB:
+  Name: 원소부
+  Description: "마나 풀에 {BaseMana}가 추가됩니다.\n첫 턴 시작시, |화부| {Value1} |원소 전개|.\n|원소 전개|가 발동할 때 마다, |지혜|를 {Value2} 얻습니다."
+  FlavorText: "원소 마법은 자연의 힘을 빌려 최소한의 대가로 훌륭한 결과물을 만들어낸다."

@@ -1,0 +1,10 @@
+UtsuhoUltR:
+  Title: 焔星
+  Content: ヒートウェーブ
+  Description: "{Damage}ダメージを与える。 |精密|\n|熱|{Value1}を得る。" 
+
+UtsuhoUltB:
+  Title: 遠星
+  Content: スーパーノヴァ
+  Description: "敵全体に{Damage}ダメージを与える。 |精密|\n山札、捨て札、手札それぞれに|ダークマター|1枚を加える。" 
+  

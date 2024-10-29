@@ -1,0 +1,9 @@
+YoumuUltG:
+  Title: 혼백
+  Content: 유명구문지총명의 법
+  Description: "피해를 {Damage}만큼 {Value1}회 줍니다.\n|록 온|을 {Value1} 줍니다.\n|명중|"
+
+YoumuUltW:
+  Title: 인지검
+  Content: 천녀 뒤집기
+  Description: "피해를 {Damage} 줍니다.\n|현세참|을 {Value1}장 얻습니다.\n|명중|"

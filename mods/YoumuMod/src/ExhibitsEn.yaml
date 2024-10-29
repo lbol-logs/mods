@@ -1,0 +1,14 @@
+YoumuExhibitG:
+  Name: Honed Roukanken
+  Description: |-
+    Adds {Mana} to the mana base. Cards unique to |Youmu| are added to the card pool.
+    At the start of combat, apply {Value1} |Lock On| to each enemy.
+    Enemies do not lose |Lock on| at the start of each turn.
+  FlavorText: "Forged by youkai, it has enough power to kill ten phantoms in one stroke."
+
+YoumuExhibitW:
+  Name: Hakurouken
+  Description: |-
+    Adds {Mana} to the mana base. Cards unique to |Youmu| are added to the card pool.
+    At the start of the Player's first turn each combat, add {Value1} |Slash of Present| to the hand.
+  FlavorText: "Heirloom of the Konpaku family. This wakizashi can dispel the confusion of those it cuts."

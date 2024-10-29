@@ -1,0 +1,342 @@
+YoumuAttackG:
+  Name: 天界剑
+  Description: "造成 {Damage} 点伤害。"
+
+YoumuAttackW:
+  Name: 人界剑
+  Description: "造成 {Damage} 点伤害。"
+
+YoumuBlockG:
+  Name: 防御姿态
+  Description: "获得 {Block} 点|格挡|。"
+
+YoumuBlockW:
+  Name: 魂魄印记
+  Description: "获得 {Block} 点|格挡|。"
+
+YoumuSlashOfPresent:
+  Name: 现世斩
+  Description: "造成 {Damage} 点伤害。"
+
+YoumuAsuraSword:
+  Name: 修罗剑
+  Description: "造成 {Damage} 点伤害 {Value1} 次。\n施加 {Value1} 层|锁定|。"
+  FlavorText: "尽管妖梦的训练还不完整，她仍掌握着登峰造极的剑术。"
+
+YoumuInsightfulSword:
+  Name: 炯眼剑
+  Description: "造成 {Damage} 点伤害。\n|拔刀|。"
+  UpgradedDescription: "造成 {Damage} 点伤害。\n将一张|现世斩|加入手中。\n|拔刀|。"
+  FlavorText: ""
+
+YoumuSwordOfBinding:
+  Name: 缠缚剑
+  Description: "对所有敌人造成 {Damage} 点伤害。\n对所有敌人施加 {Value1} 层|锁定|。"
+  FlavorText: "+5 DEF, +5 RES"
+
+YoumuPretaSword:
+  Name: 饿鬼剑
+  Description: "造成 {Damage} 点伤害。\n如果一个敌人具有 {Value1} 层或更多的|锁定|，抽 {Value2} 张牌。"
+
+YoumuScatteredFlowers:
+  Name: 散花 
+  Description: "获得 {Block} 点|格挡|。\n对所有敌人造成等同于其|锁定|层数的伤害。"
+  UpgradedDescription: "获得 {Block} 点|格挡|。\n对所有敌人造成等同于其|锁定|层数 {Value1} 倍的伤害。"
+  FlavorText: ""
+
+YoumuSpringWind:
+  Name: 春风 
+  Description: "对所有敌人施加 {Value1} 层|锁定|。\n抽 {Value2} 张牌。"
+  FlavorText: ""
+
+YoumuStrangeBird:
+  Name: 怪鸟
+  Description: "施加 {Value2} 层|锁定|。\n获得 {Value1} 层|闪避|。"
+  FlavorText: "隐岐次郎左卫门广有出色地使用镝矢击落了以津真天。"
+
+YoumuCounterSignalling:
+  Name: 反击的狼烟
+  Description: "获得 {Block} 点|格挡|。\n获得 {Block} 点|还击|。\n|成长|：额外获得 {Value1} 点|格挡|和|还击|。"
+  FlavorText: ""
+
+YoumuPhosphoricSlash:
+  Name: 燐气斩
+  Description: "造成 {Damage} 点伤害。\n如果一名敌人拥有 {Value1} 层或更多|锁定|，获得{Mana}。"
+  FlavorText: ""
+
+YoumuSlashOfKarmicWind:
+  Name: 业风斩
+  Description: "造成 {Damage} 点伤害 {Value1} 次。\n|锁定|提升{SelfName}的伤害变为2倍。"
+
+YoumuClosedEyeSlash:
+  Name: 瞑斩
+  Description: "造成 {Damage} 点伤害。\n造成未被格挡的伤害时，获得等量的|还击|。"
+  FlavorText: ""
+
+YoumuHalfBodyDistillation:
+  Name: 半身大悟
+  Description: "获得 {Block} 点|格挡|。\n从|放逐|区选择 {Value1} 张妖梦的|斩|牌或|虚无|牌移回手中。"
+
+YoumuSevenHakus:
+  Name: 七魄
+  Description: "获得 {Block} 点|格挡|。\n获得 {Block} 点|还击|。\n获得 {Value1} 点|反射|。\n|被放逐时|：下回合开始时不会失去格挡。"
+
+YoumuPhantomFormation:
+  Name: 幻影形态
+  Description: "获得 {Block} 点|格挡|。\n对所有具有|锁定|的敌人施加 {Value1} 点|暂失火力|。"
+  FlavorText: ""
+
+YoumuDyingDeva:
+  Name: 天人之衰
+  Description: "|回合结束时|： 对具有|锁定|的敌人造成 {Value1} 点伤害。\n|手牌中|： 当敌人受到负面状态时，伤害提高 {Value2} 点。"
+  FlavorText: "记住，时间是是一个贪婪的对手。\n它不需要作弊也能百战百胜。"
+
+YoumuSingleThought:
+  Name: 一念
+  Description: "获得 {Mana}。\n|被放逐时|： 下回合获得<sprite=\"ManaSprite\" name=\"G\">。"
+
+YoumuTransmigrationSlash:
+  Name: 生死流转斩
+  Description: "造成 {Damage} 点伤害。\n施加 {Value1} 层|锁定|。\n|被放逐时|: 所有敌人失去 {Value2} 点生命。"
+
+YoumuWatchtowerSword:
+  Name: “楼观”剑
+  Description: "当{PlayerName}造成攻击伤害时，还会施加 {Value1} 层|锁定|。"
+  FlavorText: "如果它能每回合提供法力就好了。"
+
+YoumuSilentNirvana:
+  Name: 涅槃寂静
+  Description: "每当一个敌人受到负面状态，获得 {Value1} 点|格挡|。"
+  FlavorText: ""
+
+YoumuDefenseX:
+  Name: 饿鬼的报应
+  Description: "|每支付|<sprite=\"ManaSprite\" name=\"1\">： 获得 {Block} 点|还击|。"
+
+YoumuInclemency:
+  Name: 众生无情之声
+  Description: "所有手牌|暂塑|为 {Mana}。\n本回合内无法再抽牌。"
+  UpgradedDescription: "抽 {Value1} 张牌。\n所有手牌 |暂塑|为 {Mana}。\n本回合内无法再抽牌。"
+  FlavorText: ""
+
+YoumuWickedSoul:
+  Name: 恶魂
+  Description: "施加 {Value1} 层|锁定|。\n对敌人施加 {Value2} 点|失去火力|。"
+  FlavorText: ""
+
+YoumuAscensionToBuddhahood:
+  Name: 成佛得脱
+  Description: "每回合打出的第一张牌具有|回响|。"
+  UpgradedDescription: "选择手中至多 {Value2} 张牌，赋予它们|回响|。\n每回合打出的第一张牌具有|回响|。"
+  DetailText: "不会对|复制品|生效。"
+
+YoumuAgelessObsession:
+  Name: 无量劫
+  Description: "对所有敌人施加 {Value1} 层|锁定|。\n敌人受到的|锁定|翻倍。"
+
+YoumuWheelOfPain:
+  Name: 幽明的苦轮
+  Description: "对所有敌人施加 {Value1} 层|锁定|。\n{PlayerName}的回合开始时，对所有敌人施加 {Value1} 层|锁定|。"
+  FlavorText: ""
+
+YoumuGhostSlash:
+  Name: 幽鬼斩
+  Description: "造成 {Damage} 点伤害。\n|被放逐时|： 获得 {Block} 点|格挡|。"
+  
+YoumuHeavenlyHalo:
+  Name: 天界法轮
+  Description: "获得 {Block} 点|格挡|.\n将 {Value1} 张|现世斩|加入手中。"
+
+YoumuTwoHundredYojana:
+  Name: 二百由旬之一闪
+  Description: "将 {Value1} 张|现世斩|加入手中。\n|拔刀|。"
+
+YoumuQuickDraw:
+  Name: 快速抽刀
+  Description: "抽 {Value1} 张牌。\n|拔刀|。"
+
+YoumuSatelliteSlash:
+  Name: 卫星斩
+  Description: "造成 {Damage} 点伤害。\n当{PlayerName} |拔刀|时，{SelfName}从弃牌堆回到手中。"
+
+YoumuSlashOfMeditation:
+  Name: 冥想斩
+  Description: "造成 {Damage} 点伤害。\n获得 {Block} 点|格挡|。"
+
+YoumuSlashOfDeparture:
+  Name: 迷津慈航斩
+  Description: "造成 {Damage} 点伤害。\n|放逐|区每有一张牌，伤害提升 {Value1} 点。"
+
+YoumuCircularVicissitude:
+  Name: 圆心流转
+  Description: "获得 {Block} 点|格挡|。\n如果手中有 {Value1} 张或更多的名为|斩|的牌，|拔刀|。"
+  FlavorText: "圆是持久和完美的标志，但生命在于运动。"
+
+YoumuClearingMind:
+  Name: 消除杂念
+  Description: "选择至多 {Value1} 张手牌，|放逐|它们，\n将等量的|现世斩|加入手中。"
+  FlavorText: ""
+
+YoumuBulletCuttingSpirit:
+  Name: 斩断弹幕的心之眼
+  Description: "恢复 {Value2} 点生命。\n在本场战斗中|升级| 一张手牌。"
+  UpgradedDescription: "恢复 {Value2} 点生命。\n在本场战斗中|升级|所有手牌。"
+
+YoumuThreeKons:
+  Name: 三魂
+  Description: "抽 {Value1} 张牌。获得 {Value1} 点|带电|。\n|被放逐时|：下个回合开始时，抽 {Value2} 张牌。"
+  UpgradedDescription: "抽 {Value1} 张牌。\n|被放逐时|：下个回合开始时，抽 {Value2} 张牌。"
+
+YoumuAppearingAndDisappearing:
+  Name: 大悟显晦
+  Description: "选择手牌，弃牌堆和抽牌堆中至多 {Value1} 张牌|放逐|。\n然后将因此|放逐|的妖梦|虚无|牌洗入弃牌堆。"
+
+YoumuPreachingAvici:
+  Name: 折伏无间
+  Description: "将 {Value1} 张|现世斩|加入手中。\n|被放逐时|：|拔刀|。"
+
+YoumuSwordAura:
+  Name: 剑气
+  Description: "获得 {Value1} 点|火力|。\n|手牌中|：当{PlayerName}|拔刀|，本回合中此牌额外获得 {Value2} 点|火力|。"
+  FlavorText: "满血时，释放一个弹道。"
+
+YoumuInnerEye:
+  Name: 心眼
+  Description: "当一张名为|斩|的牌被打出后，获得 {Value1} 点|还击|。"
+  FlavorText: "不动如山，其势如滚滚大河。"
+
+YoumuNetherMeditation:
+  Name: 下界冥想
+  Description: "选择手牌中的 {Value2} 张攻击牌。\n将它的 {Value1} 张|复制|加入手中。"
+  DetailText: "不能以|复制品|为目标。"
+
+YoumuConventionalTruth:
+  Name: 俗谛常驻
+  Description: "从|放逐|区选择至多 {Value1} 张牌移回手中。\n|拔刀|。"
+
+YoumuHakugyokurou:
+  Name: 白玉楼
+  Description: "|回合开始时|：抽 {Value2} 张牌。\n|手牌中|： 如果此牌在手中时打出过至少 {Value1} 张名为|斩|的牌，弃掉此牌，对所有敌人造成 {Damage} 点伤害。"
+  FlavorText: ""
+
+YoumuTenKingsRetribution:
+  Name: 十王的报应
+  Description: "获得 {Block} 点|还击|。\n将{PlayerName}的|格挡|转化为等量的|还击|。"
+
+YoumuGreatEnlightenment:
+  Name: 大悟
+  Description: "{PlayerName}的回合开始时，|拔刀|。\n|拔刀|。"
+  
+YoumuDivineSevering:
+  Name: 神闪
+  Description: "当{PlayerName}|拔刀|时，在本场战斗中，提升名为|斩|的卡牌的伤害 {Value1} 点。\n|拔刀|。"
+  UpgradedDescription: "当{PlayerName}|拔刀|时，在本场战斗中，提升名为|斩|的卡牌的伤害 {Value1} 点。\n|拔刀|两次。"
+
+YoumuCrescentMoonSlash:
+  Name: 弦月斩
+  Description: "造成 {Damage} 点伤害。\n施加 {Value1} 层|锁定|。\n|拔刀|。"
+
+YoumuReflectionSlash:
+  Name: 反射斩
+  Description: "造成 {Damage} 点伤害。\n如果有敌人的意图为攻击，获得 {Block} 点|还击|。"
+
+YoumuBuddhahoodOfFlora:
+  Name: 草木成佛
+  Description: "获得 {Value1} 层|闪避|。\n|拔刀|。"
+
+YoumuKarmicPunishment:
+  Name: 无为无策之冥罚
+  Description: "获得 {Mana}。\n抽 {Value1} 张牌。\n获得 {Value2} 层|锁定|。"
+
+YoumuKarmaGust:
+  Name: 业之风
+  Description: "对所有敌人施加 {Value1} 层|锁定|和|虚弱|。"
+
+YoumuSpiritMediumBind:
+  Name: 凭依之缚
+  Description: "当一张牌被|放逐|后，对所有敌人造成 {Value1} 点伤害。"
+
+YoumuOldSpiritMediumBind:
+  Name: 凭依之缚
+  Description: "当一张牌被|放逐|后，对所有敌人造成 {Value1} 点伤害。\n如果被|放逐|的是妖梦的|Ethereal|虚无牌，则改为造成 {Value2} 点伤害。"
+
+YoumuDualWielder:
+  Name: 生命双持者
+  Description: "{PlayerName}每施加 {Value1} 层|锁定|，将 {Value2} 张|现世斩|加入手中。"
+  UpgradedDescription: "将 {Value2} 张|现世斩|加入手中。\n{PlayerName}每施加 {Value1} 层|锁定|，将 {Value2} 张|现世斩|加入手中。"
+
+YoumuInfiniteKalpas:
+  Name: 无尽之劫
+  Description: "{PlayerName}的回合开始时，将 {Value1} 张随机的妖梦|虚无|牌加入手中。这些卡牌具有|放逐|。"
+
+YoumuFlashOfTheNetherworld:
+  Name: 冥府光芒一闪
+  Description: "在每个额外回合结束时，此回合中每有一张牌被打出，对所有敌人造成 {Value1} 点伤害。\n结束{PlayerName}的回合。\n进行一个额外的回合。\n|时间有限|<sprite=\"ManaSprite\" name=\"1\">"
+
+YoumuTurningAngelCut:
+  Name: 天女返
+  Description: "|每支付|{Mana}：将 {Value1} 张|现世斩|加入手中，|暂塑|为<sprite=\"ManaSprite\" name=\"0\">。\n|每支付|<sprite=\"ManaSprite\" name=\"G\">：施加 {Value2} 层|锁定|。"
+
+YoumuSlashDraw:
+  Name: 抽刀斩
+  Description: "|抽到时|：对所有敌人造成 {Damage} 点伤害，然后|放逐|{SelfName}。"
+
+YoumuMeikyoShisui:
+  Name: 明镜止水
+  Description: "获得 {Block} 点|还击|。\n抽 {Value1} 张牌。"
+
+YoumuMatsuyoiReflecting:
+  Name: 待宵反射
+  Description: "将{PlayerName}的|还击|翻倍。\n如果{PlayerName}的|还击|小于 {Block} 点, 改为获得 {Block} 点|还击|。"
+
+YoumuWaterfowlDance:
+  Name: 水禽戏
+  Description: "造成 {Damage} 点伤害 {Value1} 次。\n依本回合中{PlayerName}|拔刀|的次数获得以下效果：\n{UnsheathedThreshold1}+：施加 {Value2} 层|锁定|。\n{UnsheathedThreshold2}+：多造成一次伤害。\n{UnsheathedThreshold3}+：获得{Mana}。"
+
+YoumuUnendingWinter:
+  Name: 无尽的冬天
+  Description: "当{PlayerName}造成攻击伤害时，还会施加 {Value1} 层|寒冷|。"
+  FlavorText: "这张牌是不是应该移除战场和牌库中所有的“春天来了”？"
+
+YoumuBizareness:
+  Name: 六道怪奇
+  Description: "当一个敌人受到|锁定|时，还会对其施加 {Value1} 层|中毒|。"
+  FlavorText: ""
+
+YoumuLivingAndDead:
+  Name: 生与死
+  Description: "从 {Value1} 张妖梦|虚无|牌中选择 {Value2} 张加入手中，这张牌|暂塑|为{Mana}，具有|放逐|。"
+  FlavorText: "死亡不是生命的终结，只是生命的一部分。"
+
+YoumuNextToNone:
+  Name: 基本不存在！
+  Description: "移除敌人的|护盾|，|格挡|，|闪避|和|天衣无缝|。\n|拔刀|。"
+  FlavorText: "基本不存在我砍不了的瓦片（和月兔）！"
+
+YoumuClearingTheSixSenses:
+  Name: 六根清净
+  Description: "移除{PlayerName}的所有负面状态。\n如果移除了负面状态，获得 {Value1} 点|火力|。"
+  FlavorText: ""
+
+YoumuEmbercleave:
+  Name: 鞍烬锋
+  Description: "|手牌中|：当一张|攻击|牌被打出时，本场战斗中，{SelfName}的费用降低<sprite=\"ManaSprite\" name=\"1\"> 。\n本回合中，|攻击|牌造成的伤害翻倍。"
+  FlavorText: "防守方才需要计算。"
+
+YoumuHesitationCuttingSword:
+  Name: 斩断迷惘的剑
+  Description: "将 {Value1} 张|现世斩|加入手中。\n|拔刀|两次。"
+  FlavorText: ""
+
+YoumuBloodOfAsura:
+  Name: 修罗之血
+  Description: "当一张名为|斩|的牌被打出时，获得 {Value1} 点|火力|。"
+  FlavorText: "修罗以他们不灭的精神和永存的意志为人所知。"
+
+YoumuYuyukoFriend:
+  Name: 华胥的亡灵幽幽子
+  Description: "<indent=80>对所有敌人施加 {Value1} 层|生者必灭之理|。\n<indent=0><sprite=\"Passive\" name=\"2\"><indent=80>获得{Mana}。"
+  ExtraDescription1: "<indent=0><sprite=\"Active\" name=\"-3\"><indent=80>对所有敌人施加 {Value2} 层|虚弱|和|易伤|。"
+  ExtraDescription2: "<indent=0><sprite=\"Ultimate\" name=\"-8\"><indent=80>{PlayerName}的每个回合结束时，对所有敌人施加 {Value1} 层|生者必灭之理|。"
+  FlavorText: "Mors certa, hora incerta. Nosce te ipsum. Vive hodie.（时机难料，终期于尽。惜己岁月，知己天命。）"
+

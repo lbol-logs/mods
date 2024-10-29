@@ -1,0 +1,420 @@
+SanaeAttackW:
+  Name: 唤风
+  Description: "造成 {Damage} 点伤害。"
+
+SanaeAttackU:
+  Name: 起浪
+  Description: "造成 {Damage} 点伤害。"
+
+SanaeBlockG:
+  Name: 星落
+  Description: "获得 {Block} |格挡|。"
+
+SanaeStatus:
+  Name: 守矢护符
+  Description: "|被放逐时|：获得 {Block} 点|格挡|和|护盾|。"
+
+SanaeStarterW:
+  Name: 双面冲击
+  Description: "造成 {Damage} 点伤害。\n你可以将一张|眩光|加入手中，并改为造成 {Value1} 点伤害 {Value2} 次。"
+  ExtraDescription1: "将一张|眩光|加入手中。\n造成 {Value1} 点伤害 {Value2} 次。"
+  ExtraDescription2: "造成 {Damage} 点伤害。"
+  FlavorText: ""
+
+SanaeStarterU:
+  Name: 鲁莽退治者
+  Description: "造成 {Damage} 点伤害 {Value1} 次。\n{SelfName}击败了一个敌人时，获得 {Value2} 点<sprite=\"Point\" name=\"Power\">。这个效果每场战斗只能触发一次。"
+  ExtraDescription1: "造成 {Damage} 点伤害 {Value1} 次。\n|d:{SelfName}击败了一个敌人时，获得 {Value2} 点<sprite=\"Point\" name=\"Power\">。|\n这个效果每场战斗只能触发一次。"
+  FlavorText: "在幻想乡，你可不能被常识束缚。"
+  
+SanaePowerTemp:
+  Name: 力量测试
+  Description: "获得 {Value1} 点|火力|。\n获得 {Value1} 点<sprite=\"Point\" name=\"Power\">。\n{PlayerName}的下个回合开始时，失去 {Value1} 点|火力|。"
+  FlavorText: ""
+  
+SanaeAttackGraze:
+  Name: 尖锐微风
+  Description: "对 {Value1} 个不同的敌人造成 {Damage} 点伤害。\n每击中一个敌人，获得{Mana}。"
+  FlavorText: ""
+  
+SanaeAttackOverdraft:
+  Name: 五芒星棱镜
+  Description: "造成 {Damage} 点伤害。\n你可以|透支| {Value1} 以获得 {Block} 点|格挡|。"
+  ExtraDescription1: "造成 {Damage} 点伤害。\n获得 {Block} 点|格挡|。\n|透支| {Value1}。"
+  ExtraDescription2: "造成 {Damage} 点伤害。"
+  FlavorText: ""
+
+SanaePowerPotato:
+  Name: 现代娱乐
+  Description: "战斗结束后，获得 {Value1} 点<sprite=\"Point\" name=\"Power\">。"
+
+SanaeGrazeAmulet:
+  Name: 风之祝福
+  Description: "获得 {Value1} 层|闪避|。\n获得 {Value2} 层|护身符|。"
+  
+SanaeWardReflect:
+  Name: 海豹蜷缩
+  Description: "获得 {Value1} 层|庇护|。\n获得 {Value2} 点|反射|。"
+  FlavorText: ""
+
+SanaeAttackSpirit:
+  Name: 祈愿形态
+  Description: "造成 {Damage} 点伤害。\n获得 {Value1} 点|暂得灵力|。"
+  FlavorText: ""
+
+SanaeBlockTalisman:
+  Name: 神社安保
+  Description: "获得 {Block} |格挡|。\n将 {Value1} 张|守矢护符|放入弃牌堆。"
+
+SanaeDrawOrder:
+  Name: 海螺脱壳
+  Description: "检视抽牌堆顶的 {Value1} 张牌。将其中一张移动到抽牌堆顶。"
+  UpgradedDescription: "检视抽牌堆顶的 {Value1} 张牌。将其中一张移动到抽牌堆顶。\n抽 {Value2} 张牌。"
+  FlavorText: "Keep your eyes on the prize as I shuffle these around!"
+  
+SanaeBlockDiscard:
+  Name: 收集雨水
+  Description: "获得 {Block} 点|格挡|。\n丢弃一张手牌"
+  UpgradedDescription: "获得 {Block} 点|格挡|。\n丢弃至多一张手牌。"
+
+SanaeDrawDiscard:
+  Name: 水上行走
+  Description: "抽 {Value1} 张牌。\n你可以丢弃随机 {Value2} 张牌，然后多抽 {Value2} 张牌。"
+  ExtraDescription1: "丢弃随机 {Value2} 张牌。\n抽 {Value2} 张牌。"
+  ExtraDescription2: "什么都不做。"
+  FlavorText: "飞不就行了？"
+  
+SanaeAttackAmulet:
+  Name: 御币猛击
+  Description: "造成 {Damage} 点伤害。\n如果{PlayerName}没有|护身符|，获得 {Value1} 层|护身符|。"
+  UpgradedDescription: "造成 {Damage} 点伤害。\n如果{PlayerName}没有|护身符|，获得 {Value1} 层|护身符|。"
+  FlavorText: ""
+
+SanaeDrawWard:
+  Name: 百搭牌
+  Description: "获得 {Value1} 层|庇护|。\n抽 {Value2} 张牌。"
+  FlavorText: ""
+
+SanaeScryPower:
+  Name: 巧妙的预见
+  Description: "占卜 {Scry}。\n|初见|：获得 {Value1} 点<sprite=\"Point\" name=\"Power\">。"
+  UpgradedDescription: "占卜 {Scry}。\n|初见|：获得 {Value1} 点<sprite=\"Point\" name=\"Power\">。本场战斗中{SelfName}的费用减少{Mana}。"
+  ExtraDescription1: "占卜 {Scry}。\n|d:初见：获得 {Value1} 点<sprite=\"Point\" name=\"Power\">。|"
+  UpgradedExtraDescription1: "占卜 {Scry}。\n|d:初见：获得 {Value1} 点<sprite=\"Point\" name=\"Power\">。本场战斗中{SelfName}的费用减少{Mana}。|"
+
+SanaeAttackStatus:
+  Name: 闪光灯
+  Description: "对所有敌人造成 {Damage} 点伤害。\n将一张|璀璨星光|加入手中。"
+
+SanaeManaTurbo:
+  Name: 月光湖
+  Description: "获得{Mana}。\n将 {Value1} 张|寂静月光|放入弃牌堆。"
+  FlavorText: ""
+
+SanaeDrawAbility:
+  Name: 诹访湖的两柱半神明
+  Description: "抽 {Value1} 张牌。\n抽到的能力牌的费用|暂时降低|{Mana}。"
+  UpgradedDescription: "抽 {Value1} 张牌。\n抽到的能力牌的费用|暂时降低| 1 点随机的法力。"
+  FlavorText: ""
+
+SanaeDazzleDash:
+  Name: 超级烟花
+  Description: "获得 {Value1} 点|火力|。\n获得 {Value2} 点<sprite=\"Point\" name=\"Power\">。\n|手牌中|：使用符卡时，{SelfName}在本回合中效果数值翻倍。"
+  FlavorText: ""
+
+SanaeAttackRebuff:
+  Name: 米之浴
+  Description: "对所有敌人造成 {Damage} 点伤害。\n如果有敌人的意图是添加负面效果，获得 {Value1} 层|护身符|。"
+
+SanaeSpellDamage:
+  Name: 绿色奇术
+  Description: "恢复 {Value1} 点生命。\n使用符卡时，对随机敌人造成 8 点攻击伤害 {Value2} 次。"
+  
+SanaeAttackBlock:
+  Name: 魔法爆发
+  Description: "失去所有|格挡|，并对所有敌人造成等量的伤害。\n获得 {Block} 点|格挡|。\n结束{PlayerName}的回合。"
+  FlavorText: "早苗一次释放了她所有的魔力！"
+
+SanaeWardAmulet:
+  Name: 徽章交换
+  Description: "获得 {Value1} 层|庇护|。\n如果{PlayerName}拥有|护身符|，失去 {Value3} 层|护身符|并改为获得 {Value2} 层|庇护|。"
+  FlavorText: "Emblem kinda sounds like mlem mlem"
+
+SanaeSpiritMana:
+  Name: 召唤师练习
+  Description: "{PlayerName}的两个回合后的回合开始时，获得 {Value1} 点|灵力|，将一张|光芒|加入手中。"
+  UpgradedDescription: "{PlayerName}的下个回合开始时，获得 {Value1} 点|灵力|，将一张|光芒|加入手中。"
+  FlavorText: ""
+
+SanaeUpgradeWard:
+  Name: 地脉聚光灯
+  Description: "如果手中有可被升级的牌，随机升级手中的 {Value1} 张牌。\n否则，获得 {Value2} 层庇护。\n|充盈|：获得{Mana}。"
+  ExtraDescription1: "升级手中的 {Value1} 张牌。\n如果没有升级任何牌，获得 {Value2} 层庇护。\n|充盈|：获得{Mana}。"
+  DetailText: "不能升级道具牌，状态牌和厄运牌。"
+  
+SanaeAttackRandom:
+  Name: 净化之雾
+  Description: "对随机敌人造成 {Damage} 点伤害 {Value1} 次。\n你可以将 {Value2} 张|纯粹的光芒|置于牌堆顶，以获得{Mana}。"
+  ExtraDescription1: "对随机敌人造成 {Damage} 点伤害 {Value1} 次。\n你可以将 {Value2} 张|纯粹的光芒|置于牌堆顶，以获得{Mana}。"
+  ExtraDescription2: "对随机敌人造成 {Damage} 点伤害 {Value1} 次。"
+  FlavorText: ""
+
+SanaeSpiritTalisman:
+  Name: 弘安东风谷
+  Description: "获得 {Value1} 点|灵力|。\n|抉择|：获得 {Value2} 层|庇护|，或将 {Value2} 张|守矢护符|加入手中。"
+  ExtraDescription1: "获得 {Value2} 层|庇护|。"
+  ExtraDescription2: "将 {Value2} |守矢护符|加入手中。"
+
+SanaeAttackCopy:
+  Name: 涟漪效应
+  Description: "造成 {Damage} 点伤害。\n将此牌的一张复制置于抽牌堆顶，它具有|放逐|。"
+    
+SanaeDrawTemp:
+  Name: 校园科技集市
+  Description: "抽 {Value1} 张牌。\n{PlayerName}的回合开始时，抽 {Value1} 张牌，然后丢弃其中所有的非技能牌。"
+
+SanaeBlockShuffle:
+  Name: 预见之舞
+  Description: "抽牌堆洗牌时，获得 {Value1} 点|格挡|。\n占卜 {Scry}。"
+
+SanaeBlockRebuff:
+  Name: 铸造护符
+  Description: "获得 {Block} |格挡|和|护盾|。\n如果{PlayerName}有|护身符|，失去 {Value1} 层|护身符|，对所有敌人施加 {Value2} 层|虚弱|。"
+
+SanaeDrawSplash:
+  Name: 摩西之奇迹
+  Description: "抽 {Value1} 张牌。\n丢弃手中所有的技能牌，将等量的|水花|加入手中，它们具有|自动放逐|。"
+
+SanaeMoneyWard:
+  Name: 守护商业繁荣
+  Description: "获得 {Value1} 层|庇护|。\n获得 {Value2} 点<sprite=\"Point\" name=\"Gold\">。\n获得 {Value3} 点随机法力。"
+  
+SanaeAmuletTalisman:
+  Name: 一脉单传
+  Description: "获得 {Value1} 点<sprite=\"Point\" name=\"Power\">。\n将 {Value2} 张|守矢护符|洗入抽牌堆。\n{PlayerName}每有一层|护身符|，{SelfName}的费用减少{Mana}。"
+  FlavorText: ""
+
+SanaeManaTemp:
+  Name: 绀色蛇形发带
+  Description: "获得 {Value1} 点|暂得灵力|。\n如果手中至少有 {Value3} 张牌，将 {Value2} 点|暂得灵力|转变成|灵力|，并抽 {Value2} 张牌。"
+  FlavorText: ""
+
+SanaeBlockMana:
+  Name: 保存甜浆果
+  Description: "获得 {Block} |格挡|。\n直到{PlayerName}的下个回合开始，剩余的法力不会流失。\n|透支| {Value1}。"
+
+SanaeManaShuffle:
+  Name: 携带池塘水
+  Description: "|被放逐时|：获得{Mana}。\n洗牌时从|放逐|区回到手中。"
+  FlavorText: ""
+
+SanaeSpiritShuffle:
+  Name: 灵魂搜索
+  Description: "获得 {Value1} 点|暂得灵力|。\n将弃牌堆洗入抽牌堆。\n抽 {Value2} 张牌。"
+  FlavorText: ""
+
+SanaeStatusTalisman:
+  Name: 折纸工艺品
+  Description: "{PlayerName}的回合结束时，将 {Value1} 张|守矢护符|放入弃牌堆。"
+
+SanaeAttackExpel:
+  Name: 钴蓝散射
+  Description: "对所有敌人造成 {Damage} 点伤害。\n|退治时|：获得 {Value1} 点<sprite=\"Point\" name=\"Power\">。"
+
+SanaeDrawTalisman:
+  Name: 堆积底图
+  Description: "将 {Value1} 张|守矢护符|置于抽牌堆顶。\n抽 {Value2} 张牌。"
+  
+SanaeCuriousAbility:
+  Name: 过时的外乡人
+  Description: "{PlayerName}打出一张能力牌后，获得 {Value1} 点|火力|。"
+  FlavorText: "这是什么？这是什么？"
+  
+SanaeToolNews:
+  Name: 山顶集会
+  Description: "|抉择|：将 {Value1} 张随机的非稀有河童|道具|牌或 {Value2} 张天狗|道具|牌加入手中。\n这些牌被标记为|复制品|，具有|自动放逐|，使用次数为 1 。"
+  ExtraDescription1: "将 {Value1} 张随机的非稀有河童|道具|牌加入手中。"
+  ExtraDescription2: "将 {Value2} 张随机的非稀有天狗|道具|牌加入手中。"
+  FlavorText: ""
+
+SanaeSpellPower:
+  Name: 短暂的信仰
+  Description: "失去 {Value1} 点生命。\n获得 {Value2} 点<sprite=\"Point\" name=\"Power\">。\n{PlayerName}的下个回合开始时，失去 100 点<sprite=\"Point\" name=\"Power\">。"
+
+SanaeAttackPower:
+  Name: 妖力掠夺者
+  Description: "造成 {Damage} 点伤害。\n获得等同于造成未被格挡的伤害的数量的 <sprite=\"Point\" name=\"Power\">。"
+  FlavorText: ""
+
+SanaeSpellMana:
+  Name: 网络阴谋
+  Description: "{PlayerName}使用符卡后，获得{Mana}。\n结束{PlayerName}的回合，然后获得一个额外的回合。\n|时间有限|<sprite=\"ManaSprite\" name=\"1\">。"
+  UpgradedDescription: "获得 {Value2} 点<sprite=\"Point\" name=\"Power\">。\n{PlayerName}使用符卡后，获得{Mana}。\n结束{PlayerName}的回合，然后获得一个额外的回合。\n|时间有限|<sprite=\"ManaSprite\" name=\"1\">。"
+  FlavorText: ""
+  
+SanaeBlockWard:
+  Name: 非正统防御
+  Description: "获得 {Block} 点|格挡| {Value1} 次。\n获得 {Value2} 层|庇护| {Value1} 次。"
+  FlavorText: "哈？这不应该改成伤害？"
+
+SanaeStatusSynergy:
+  Name: 日晒仪式
+  Description: "|每支付{Mana}|：将 {Value1} 张|折射日光|洗入抽牌堆，它具有|自动放逐|。\n|每支付<sprite=\"ManaSprite\" name=\"W\"><sprite=\"ManaSprite\" name=\"W\">|：获得 {Value2} 点|火力|。"
+  UpgradedDescription: "|每支付{Mana}|：将 {Value1} 张|折射日光|洗入抽牌堆，它具有|自动放逐|。\n|每支付<sprite=\"ManaSprite\" name=\"W\"><sprite=\"ManaSprite\" name=\"W\">|：获得 {Value2} 点|火力|和|灵力|。"
+
+SanaeColorRandom:
+  Name: 光谱太阳雨
+  Description: "从 {Value1} 张随机的卡牌中选择 1 张加入手中。它|暂塑为|<sprite=\"ManaSprite\" name=\"0\">，具有|放逐|和|虚无|。\n这些牌的颜色分别包含{Mana}。"
+  DetailText: "不包含混合色。\n|升级|后，|e:备选牌|无视基础法力数量和颜色限制。"
+  FlavorText: ""
+  
+SanaeAmuletDebuff:
+  Name: 弘安东风谷
+  Description: "|抉择|至少一项：\n- 获得 {Value1} 点|火力|和 {Value1} 层|虚弱|。\n- 获得 {Value1} 点|灵力|和 {Value1} 层|脆弱|。\n- 获得 {Value1} 点最大生命，{Value1} 层|易伤|和|中毒|。"
+  FlavorText: ""
+
+SanaeWardTalisman:
+  Name: 预咏唱咒语
+  Description: "当{PlayerName}获得|庇护|时，获得等量的<sprite=\"Point\" name=\"Power\">。\n当符卡被使用后，将 {Value1} 张|守矢护符|放入弃牌堆。"
+
+SanaeWineSplash:
+  Name: 酒和水
+  Description: "将 1 张|小酌怡情|和|水花|加入手中。"
+  UpgradedDescription: "将 1 张|小酌怡情+|和|水花+|加入手中。"
+  
+SanaeAttackOrder:
+  Name: 海浪断面
+  Description: "造成 {Damage} 点伤害。\n将抽牌堆顶的一张牌的|复制品|加入手中，|暂塑为| <sprite=\"ManaSprite\" name=\"0\">，具有|放逐|。"
+  UpgradedDescription: "造成 {Damage} 点伤害。\n获得{Mana}。\n将抽牌堆顶的一张牌的|复制品|加入手中，|暂塑为| <sprite=\"ManaSprite\" name=\"0\">，具有|放逐|。"
+
+SanaeScryShuffle:
+  Name: 预告未来
+  Description: "重洗抽牌堆。\n占卜 {Scry}。"
+
+SanaeOrderShuffle:
+  Name: 碎片化的观察力
+  Description: "获得{Mana}。\n可以以实际顺序查看抽牌堆。\n当一张非技能牌被打出后，重洗抽牌堆。"
+  FlavorText: "If you keep playing cards, you'll get what you want! 。。。Eventually。"
+
+SanaeAttackTwice:
+  Name: 被遗忘的秘传
+  Description: "造成 {Damage} 点伤害。\n如果{PlayerName}拥有|护身符|，失去 {Value1} 层|护身符|并改为造成两次伤害。\n否则，获得 {Value2} 层|护身符|。"
+
+SanaeManaRandom:
+  Name: 空中落物的奇迹
+  Description: "将 {Value1} 张法力总数不大于 4 点的随机卡牌加入手中。这些牌具有|虚无|，费用为{Mana}。"
+  UpgradedDescription: "将 {Value1} 张法力总数不大于 4 点的|升级|后的随机卡牌加入手中。这些牌具有|虚无|，费用为{Mana}。"
+  DetailText: "不能生成{SelfName}和X费卡牌。"
+
+SanaeExilePower:
+  Name: 合流
+  Description: "获得 {Shield} 点|护盾|。\n选择抽牌堆和弃牌堆中至多 X 张牌|放逐|。"
+  UpgradedDescription: "获得 {Shield} 点|护盾|。\n选择抽牌堆和弃牌堆中至多 X 张牌|放逐|。\n将等量的|守矢护符|放入弃牌堆。"
+
+SanaeHisouHead:
+  Name: 神秘机械生物非想天则
+  Description: "如果所有|神秘机械生物|牌均在手中，|放逐|所有|神秘机械生物|牌，击败所有敌人。\n否则，从 {Value1} 张|神秘机械生物|牌中选择 1 张加入手中，然后结束{PlayerName}的回合。"
+  UpgradedDescription: "如果所有|神秘机械生物|牌均在手中，|放逐|所有|神秘机械生物|牌，击败所有敌人。\n否则，从 {Value1} 张已升级的|神秘机械生物|牌中选择 1 张加入手中，然后结束{PlayerName}的回合。"
+
+SanaeHisouRightLeg:
+  Name: 神秘机械生物的右腿
+  Description: "|回合结束时|：|透支| {Value1}。"
+
+SanaeHisouLeftLeg:
+  Name: 神秘机械生物的左腿
+  Description: "|回合结束时|：获得 {Value1} 层|脆弱|。"
+  UpgradedDescription: "|回合结束时|：获得 {Value1} 层|虚弱|。"
+
+SanaeHisouRightArm:
+  Name: 神秘机械生物的右臂
+  Description: "|回合结束时|：受到 {Value1} 点伤害。"
+
+SanaeHisouLeftArm:
+  Name: 神秘机械生物的左臂
+  Description: "|回合结束时|：将 {Value1} 张|寂静月光|放入弃牌堆。"
+
+SanaeManaSynergy:
+  Name: 神秘果
+  Description: "|每支付<sprite=\"ManaSprite\" name=\"W\">|：获得<sprite=\"ManaSprite\" name=\"U\"><sprite=\"ManaSprite\" name=\"G\">。
+    \n|每支付<sprite=\"ManaSprite\" name=\"U\">|：获得<sprite=\"ManaSprite\" name=\"W\"><sprite=\"ManaSprite\" name=\"G\">。\n|透支| {Value1}。"
+  UpgradedDescription: "|每支付<sprite=\"ManaSprite\" name=\"W\">|：获得 <sprite=\"ManaSprite\" name=\"U\"><sprite=\"ManaSprite\" name=\"G\">。
+    \n|每支付<sprite=\"ManaSprite\" name=\"U\"> |：获得<sprite=\"ManaSprite\" name=\"W\"><sprite=\"ManaSprite\" name=\"G\">。
+    \n|每支付<sprite=\"ManaSprite\" name=\"G\">|：获得 <sprite=\"ManaSprite\" name=\"W\"><sprite=\"ManaSprite\" name=\"U\">。\n|透支| {Value1}。"
+
+SanaeExileDamage:
+  Name: 三色雪绒花
+  Description: "当一张牌被自动|放逐|时，对随机敌人造成 {Value1} 点伤害。"
+  UpgradedDescription: "当一张牌被自动|放逐|时，对随机敌人造成 {Value1} 点伤害。\n将 {Value2} 张|守矢护符|加入手中。"
+  FlavorText: "它本来是\"当一张牌被庇护效果或自动放逐效果放逐\"但我写不出来代码，这是替代方案 - Xeno"
+  
+SanaeLifeAmulet:
+  Name: 守护仪式
+  Description: "失去 {Value1} 点生命。\n获得 {Shield} 点|护盾|。\n获得 {Value2} 层|护身符|。"
+  FlavorText: ""
+
+SanaeAttackDebuff:
+  Name: 御社宫司神的谷粒
+  Description: "对所有敌人造成 {Damage} 点伤害。\n对所有敌人施加 {Value1} 层|虚弱|和|易伤|。"
+  FlavorText: ""
+
+SanaeLifeStatus:
+  Name: 呱太帽子戏法
+  Description: "获得 {Value1} 点最大生命。\n将手牌，抽牌堆和/或弃牌堆中随机 {Value2} 张牌变形为|青蛙|。"
+  FlavorText: "You won't be seeing any rabbits or birds falling out of this hat~"
+
+SanaeScryReturn:
+  Name: 彻夜亮光
+  Description: "占卜 {Scry}。\n如果抽牌堆为空，将弃牌堆中的一张牌移回手中。"
+  FlavorText: ""
+
+SanaeSpiritDebuff:
+  Name: 仓促的祈祷者们
+  Description: "获得 {Value1} 点|灵力|。\n{PlayerName}的回合开始时，失去 {Value2} 点|灵力|。"
+  FlavorText: ""
+
+SanaeSuwakoFriend:
+  Name: 狡猾的蛤蟆爱好者诹访子
+  Description: "{PassiveCostIcon}将 {Value1} 张|黑暗残留|洗入抽牌堆。"
+  ExtraDescription1: "{ActiveCostIcon}对随机敌人施加 {Value1} 层|虚弱|。"
+  ExtraDescription2: "<indent=0><sprite=\"Active\" name=\"-4\"><indent=80>将 1 张随机罕见能力牌加入手中。它暂塑为{Mana}，具有|虚无|。"
+  FlavorText: ""
+
+SanaeDrawDebuff:
+  Name: 湍流城市化魔杖
+  Description: "|手牌中|：抽牌阶段外每抽一张牌，获得{Mana}。\n|被放逐时|：失去 {Value2} 点生命，本回合不能再抽牌。"
+  UpgradedDescription: "|手牌中，|：抽牌阶段外每抽一张牌，获得 {Value1} 点随机法力。\n|被放逐时|：失去 {Value2} 点生命，本回合不能再抽牌。"
+  FlavorText: ""
+
+SanaeGrazeWard:
+  Name: 神之风盾
+  Description: "当{PlayerName}|闪避|一次攻击时，获得 {Value1} 层|庇护|。\n获得 {Value2} |闪避|。"
+  FlavorText: ""
+  
+SanaePowerOmikuji:
+  Name: 御神签奖励
+  Description: "如果{PlayerName}拥有<sprite=\"Point\" name=\"Power\">失去 {Value1} 点<sprite=\"Point\" name=\"Power\">，提升{PlayerName}的符卡的伤害 {Value2} 点。"
+  FlavorText: ""
+
+SanaeReimuAbility:
+  Name: 神社对决
+  Description: "从 {Value1} 张随机的灵梦稀有能力牌中选择 1 张加入手中，它暂塑为{Mana}，具有|虚无|。\n|透支| {Value2}。"
+  DetailText: "|e:备选牌|无视总法力数量，法力颜色和角色限制。"
+  
+SanaeAttackWeak:
+  Name: 漩涡之眼
+  Description: "对目标施加 {Value1} 层|虚弱|。\n然后对所有其他敌人造成 {Damage} 点伤害。"
+  FlavorText: "The center of chaos is unexpectedly the safest place to reside."
+
+SanaeKanakoFriend:
+  Name: 圣风之神神奈子
+  Description: "{PassiveCostIcon}对生命值最高的敌人造成 {Damage} 点攻击伤害。"
+  UpgradedDescription: "{PassiveCostIcon}对生命值最高的敌人造成 {Damage} 点攻击伤害。"
+  ExtraDescription1: "{ActiveCostIcon}获得 {Shield} 点|护盾|。获得 {Value1} 层|闪避|。"
+  ExtraDescription2: "{UltimateCostIcon}获得 {Value2} 点<sprite=\"Point\" name=\"Power\">。本场战斗中，使用符卡后，获得 {Value1} 点|火力|和|闪避|。"
+  FlavorText: ""
+
+SanaeMiracleAbility:
+  Name: 奇迹五芒星
+  Description: "从 {Value1} 张罕见能力牌中选择 1 张加入手中，它具有|回响|和|虚无|。"
+  UpgradedDescription: "从 {Value1} 张稀有能力牌或 {Value1} 张罕见能力牌中选择 1 张加入手中，它具有|回响|和|虚无|。"
+  DetailText: "|e:备选牌|无视法力数量和法力颜色限制。"

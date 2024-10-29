@@ -1,0 +1,9 @@
+UtsuhoUltR:
+  Title: "Blazing Star"
+  Content: Heatwave
+  Description: "Deal {Damage} damage. |Accurate|\nGain {Value1} |Heat|." 
+
+UtsuhoUltB:
+  Title: "Distant Star"
+  Content: Supernova
+  Description: "Deal {Damage} damage to all enemies. |Accurate|\nAdd a |Dark Matter| to your Draw and Discard piles, and your hand." 

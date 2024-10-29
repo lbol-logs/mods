@@ -1,0 +1,322 @@
+InverseBeam:
+  Name: 反転ビーム
+  Description: "{Damage}ダメージを与える。"
+
+BlowAway:
+  Description: "{Block}|ブロック|を得る。"
+  Name: 吹き飛ばし
+
+FireBurst:
+  Description: "{Damage}ダメージを与える。"
+  Name: ファイアバースト
+
+Gridlock:
+  Description: "{Block}|ブロック|を得る。"
+  Name: グリッドロック
+
+HellGeyser:
+  Name: ヘルゲイザー
+  ExtraDescription1: "|熱|{Value1}を得る。\n|排熱|してダメージを与える。\n|熱|{Value2}を得る"
+  Description: "|熱|{Value1}を得る。\n|排熱|して{Damage}ダメージを与える。\n|熱|{Value2}を得る。"
+
+FlareUp:
+  Name: フレアアップ
+  ExtraDescription1: "|排熱|してダメージを与える。\n|脱力|{Value1}を与える。\n|弱体|{Value1}を与える。"
+  Description: "|排熱|して{Damage}ダメージを与える。\n|脱力|{Value1}を与える。\n|弱体|{Value1}を与える。"
+  UpgradedExtraDescription1: "|脱力|{Value1}を与える。\n|弱体|{Value1}を与える。\n|排熱|してダメージを与える。"
+  UpgradedDescription: "|脱力|{Value1}を与える。\n|弱体|{Value1}を与える。\n|排熱|して{Damage}ダメージを与える。"
+
+PlasmaBurn:
+  Name: 高温プラズマ
+  ExtraDescription1: "|熱|{Value1}を得る\n{PlayerName}の|熱|が{Value2}以上ならば、|排熱|してダメージを与える。"
+  Description: "|熱|{Value1}を得る\n{PlayerName}の|熱|が{Value2}以上ならば、|排熱|して{Damage}ダメージを与える。"
+
+StartReactor:
+  Name: リアクター起動
+  Description: "{PlayerName}はターン終了時|熱|{Value1}を得る。"
+
+MaxPower:
+  Name: パワーマックス
+  Description: "手札を全て|廃棄|する。\n全てのマナを失い、{Mana}を得る。\nカードを{Value1}枚引く。\n|臨時火力|{Value1}を得る。\n|時間制限|<sprite=\"ManaSprite\" name=\"1\">."
+
+Aggregate:
+  Name: 凝集体
+  Description: "{Damage}ダメージを与える。\n{Block}|ブロック|を得る。\n|熱|{Value1}を得る。"
+
+Fission:
+  Name: 核分裂
+  Description: "ランダムな赤の攻撃と防御カードを1枚ずつ手札に加える。それらのカードはマナの色に関係なく使用できる。\n|熱|{Value1}を得る。\n{Mana}を得る。"
+  UpgradedDescription: "ランダムな赤の攻撃と防御カードを1枚ずつ手札に加える。それらのカードはマナの色に関係なく使用できる。\n|熱|{Value1}を得る。\n{Mana}を得る。"
+
+EverythingBurns:
+  Name: 全てを燃やし尽くせ
+  Description: "手札のカードをX+2枚まで|廃棄|する。\n|{Mana}につき|：{Damage}ダメージを与える。"
+
+SkyFlight:
+  Name: 高空飛行
+  Description: "|グレイズ|{Value1}を得る。"
+
+Salvo:
+  Name: 一斉射撃
+  Description: "ランダムな敵に{Damage}のダメージを{SalvoCount:plural one='%回与える。' other='%回与える。'}\nこのターン中使用したカード1枚につき、追加で1回ダメージを与える。"
+
+MegaFlare:
+  Name: メガフレア
+  Description: "敵全体に{Damage}ダメージを4回与える。\n|保留効果|：この戦闘中{SelfName}のダメージを{Value1}減らす。"
+
+NuclearFusion:
+  Name: ニュークリアフュージョン
+  Description: "手札を1枚|廃棄する|。\n|熱|Xを得る。\n|熱|Xを得られる|ニュークリアストライク|1枚を手札に加える。\nXは|廃棄|されたカードのコストの{Value1}倍に等しい。"
+
+NuclearStrike:
+  Name: ニュークリアストライク
+  ExtraDescription1: "|排熱|してダメージを与える。\n|熱|{Value1}を得る。"
+  Description: "|排熱|して{Damage}ダメージを与える。\n|熱|{Value1}を得る。"
+
+HeatVisor:
+  Name: 核熱バイザー
+  Description: "{Block}|ブロック|を得る。\n{PlayerName}の|熱|が{Value1}以上ならば、次のターンまでに1回だけライフの減少を無効化する。"
+
+HeatShield:
+  Name: 熱防壁
+  Description: "{Block}|ブロック|を得る。\n{PlayerName}の|熱|が{Value2}以下ならば、|熱|{Value1}を得る。"
+
+RecklessGamble:
+  Name: 無謀なギャンブル
+  Description: "カードを{Value1}枚引く。\nランダムな手札1枚を|廃棄|する。"
+
+SunlightReverie:
+  Name: サンライトレヴァリエ
+  Description: "|火焔|を2枚手札に加える。\nランダムな山札1枚を|廃棄|する。"
+  UpgradedDescription: "|火焔|を2枚手札に加える。\n|チョイス|：ランダムな捨て札1枚を|廃棄|する、もしくはランダムな山札1枚を|廃棄|する。"
+  ExtraDescription1: "ランダムな山札1枚を|廃棄|する。"
+  ExtraDescription2: "ランダムな捨て札1枚を|廃棄|する。"
+
+NuclearDive:
+  Name: 核反応制御不能ダイブ
+  Description: "{PlayerName}の|熱|を2倍にする。\n{PlayerName}の|熱|10点につき1ダメージを受ける。\n|排熱|して{Damage}ダメージを与える。\n|退治|：{Mana}を得る。"
+  UpgradedDescription: "{PlayerName}の|熱|を3倍にする。\n{PlayerName}の|熱|10点につき1ダメージを受ける。\n|排熱|して{Damage}ダメージを与える。\n|退治|：{Mana}を得る。"
+
+BunkerDown:
+  Name: 緊急遮断
+  Description: "{Block}|ブロック|を得る。\n|初見|：{Shield}バリアを得る。戦闘終了までこのカードのコストを{Mana}減らす。"
+  ExtraDescription1: "{Block}|ブロック|を得る。\n|d:初見:{Shield}バリアを得て、戦闘終了までこのカードのコストを{Mana}減らす。|"
+
+WasteNot:
+  Name: 無駄省き
+  Description: "カードを|廃棄|するたび、|熱|{Value1}を得る。"
+
+Tokamak:
+  Name: 「ヘルズトカマク」
+  Description: "|熱|{Value1}を得る。\n次のプレイヤーのターン開始時に|熱|{Value1}を得る。"
+
+DarkMatter:
+  Name: ダークマター
+  Description: "|手札に加わった時|：このターンの間|保留|を得る。\n|質量体|"
+  DetailText: "質量体：ランダムなカードを対象に選ぶ|空|のカード効果は{SelfName}を優先して選ぶ。これらの効果に選ばれた時、このカードは\"牽引された\"と見なされる。"
+
+ShootingStar:
+  Name: シューティングスター
+  Description: "{Damage}ダメージを2回与える。\n|質量体|\n|牽引された時|：{Block}|ブロック|を得て、|ダークマター|を1枚手札に加える。"
+  DetailText: "質量体：ランダムなカードを対象に選ぶ|空|のカード効果は{SelfName}を優先して選ぶ。これらの効果に選ばれた時、このカードは\"牽引された\"と見なされる。"
+
+CloakStar:
+  Name: 星の衣
+  Description: "{Block}|ブロック|を得る。\n|ダークマター|を2枚手札に加える。"
+
+SpaceScanner:
+  Name: 宇宙探査機
+  Description: "|ダークマター|を2枚山札に加える。\n|占術|{Scry}。\nカードを1枚引く。"
+
+WarpShield:
+  Name: ワープシールド
+  Description: "{Block}|ブロック|を得る。\n山札からランダムなカード{Value2}枚を手札に移動させる。\n移動させた|質量体|1枚につき追加で{Value1}|ブロック|を得る。"
+  UpgradedDescription: "{Block}|ブロック|を得る。\n山札からランダムなカード{Value2}枚を手札に移動させる。\n移動させた|質量体|1枚につき追加で{Value1}|バリア|を得る。"
+
+VacuumSlash:
+  Name: 真空波
+  Description: "敵全体に{Damage}ダメージを与える。\nランダムな手札1枚を捨てる。\nこのカードで|質量体|を牽引した時、追加でダメージを{Value1}回与える。"
+  UpgradedDescription: "敵全体に{Damage}ダメージを与える。\nランダムな手札1枚を捨てる。\nこのカードで|質量体|を牽引した時、追加でダメージを{Value1}回与える。"
+
+AbyssNova: 
+  Name: アビスノヴァ
+  Description: "{Damage}ダメージを与える。|フィールド|に存在する|質量体|1枚につき{SelfName}のダメージを{Value1}増やす。"
+
+SubterraneanSun: 
+  Name: サブタレイニアンサン
+  Description: "|手札効果|：{PlayerName}のターン開始時、ランダムな敵に{Damage}ダメージを与えて、手札、山札、捨て札からランダムなカード1枚をこの戦闘から消滅させる。この効果を{RemoveCount:plural one='%回繰り返す。' other='%回繰り返す。'}\n{SelfName}が|保留|されるたび、手札効果の発動回数を1回増やす。"
+
+NightFalls: 
+  Name: 夜の帳
+  Description: "|ダークマター|を手札上限に達するまで手札に加える。\n手札にある|質量体|の枚数の{Value1}倍のダメージを与える。({Damage})"
+
+BlackHole: 
+  Name: ブラックホール
+  Description: "|手札効果|：{PlayerName}のターン開始時、{Block}|ブロック|を得て、ランダムな手札1枚を捨てる。"
+  DetailText: "{SelfName}は使用しても|廃棄|される以外の効果を持たない。"
+
+GravityWell:
+  Name: 重力の井戸
+  Description: "{PlayerName}のターン終了時、{Value1}|バリア|を得て、|ダークマター|1枚を手札に加える。"
+
+PlanetaryOrbit:
+  Name: 惑星軌道
+  Description: "山札と捨て札を入れ替える。\n入れ替えたカードの枚数に等しいダメージを敵全体に与える。({Damage})\n{SelfName}は入れ替えられた全ての|質量体|を|牽引|したと見なされる。"
+  UpgradedDescription: "山札と捨て札を入れ替える。\n入れ替えたカードの枚数の2倍に等しいダメージを敵全体に与える。({Damage})\n{SelfName}は入れ替えられた全ての|質量体|を|牽引|したと見なされる。"
+  DetailText: "この効果は山札と捨て札それぞれの並び順を変化させない。"
+
+Ultraviolet:
+  Name: 紫外光線
+  Description: "{Mana}を得る。\n|質量体|\n|牽引された時|：カードを{Value1}枚引く。"
+  UpgradedDescription: "{Mana}を得る。\n|質量体|\n|牽引された時|：カードを{Value1}枚引く。"
+  DetailText: "質量体：ランダムなカードを対象に選ぶ|空|のカード効果は{SelfName}を優先して選ぶ。これらの効果に選ばれた時、このカードは\"牽引された\"と見なされる。"
+
+HighTension:
+  Name: 高電圧ブレード
+  Description: "山札からランダムなカード{Value1}枚を捨て札に移動させる。\n{Damage}ダメージを与える。\n移動された|質量体|1枚につき与えるダメージを{Value2}増やす。"
+
+EscapeVelocity:
+  Name: 脱出速度
+  Description: "ランダムな手札{Value2}枚を捨てる。\nカードを{Value1}枚引く。"
+  UpgradedDescription: "|チョイス|：ランダムな手札{Value2}枚を捨ててからカードを{Value1}枚引く、もしくはカードを{Value1}枚引いてからランダムな手札{Value2}枚を捨てる。"
+  ExtraDescription2: "カードを{Value1}枚引く。\nランダムな手札{Value2}枚を捨てる。"
+  ExtraDescription1: "ランダムな手札{Value2}枚を捨てる。\nカードを{Value1}枚引く。"
+
+MassDriver:
+  Name: マスドライバー
+  Description: "|質量体|が牽引されるたび、敵全体に{Value1}ダメージを与える。"
+
+ZeroPoint:
+  Name: 零点フィールド
+  Description: "|質量体|\n|牽引された時|：{Shield}|バリア|を得て、|虚無|を持つ{SelfName}のコピーを1枚手札に加える。"
+  DetailText: "質量体：ランダムなカードを対象に選ぶ|空|のカード効果は{SelfName}を優先して選ぶ。これらの効果に選ばれた時、このカードは\"牽引された\"と見なされる。"
+
+SuperGiant:
+  Name: 超巨星
+  Description: "{Damage}ダメージを与える。\n手札にある|質量体|1枚につき{SelfName}のコストを{Mana}減らす。"
+
+WhiteHole:
+  Name: ホワイトホール
+  Description: "|ターン終了時|：{Block}|ブロック|を得て、|ダークマター|1枚を捨て札に加える。"
+  DetailText: "{SelfName}は使用しても|廃棄|される以外の効果を持たない。"
+
+GravityDistortion:
+  Name: 重力場歪曲
+  Description: "敵全体に|脱力|{Value2}を与えて、{Damage}ダメージを与える。\n|質量体|\n|牽引された時|：{Mana}を得る。"
+  DetailText: "質量体：ランダムなカードを対象に選ぶ|空|のカード効果は{SelfName}を優先して選ぶ。これらの効果に選ばれた時、このカードは\"牽引された\"と見なされる。"
+
+FixedStar:
+  Name: フィクストスター
+  Description: "{PlayerName}のターン終了時、手札を{Value1}枚まで選び、1ターン|保留|する。\n全ての|ダークマター|は|自動廃棄|を持つ。"
+
+Coolant:
+  Name: クーラント
+  Description: "|過払い|{Mana}：|火力|{Value2}を得る。\n|霊力|{Value1}を得る。\n防御カード以外のカードをすべて捨てる。"
+  DetailText: "過払い：このカードを使用した時、選択されたマナは全て消費される。消費したマナのうち、このカードのコストを除いた残りが過払いコストを満たせた場合、追加の効果を得る。"
+
+Blueshift:
+  Name: 青方偏移
+  Description: "|重複過払い|{Mana}：{SelfName}を1枚手札に加える。\n{Block}|ブロック|を得る。"
+  UpgradedDescription: "|重複過払い|{Mana}：{SelfName}+を1枚手札に加える。\n{Block}|ブロック|を得る。"
+  DetailText: "重複過払い：このカードを使用した時、選択されたマナは全て消費される。消費したマナのうち、このカードのコストを除いた残りに含まれる過払い分のコスト1セットにつき追加効果を1回得る。"
+
+Resonance:
+  Name: 共振
+  Description: "{Damage}ダメージを与える。\nこの戦闘中、全ての{SelfName}が与えるダメージを{Value1}増やす。\n{PlayerName}が{SelfName}でないカードを|廃棄|するたび、{SelfName}を1枚手札に加える。"
+  UpgradedDescription: "{Damage}ダメージを与える。\nこの戦闘中、全ての{SelfName}+が与えるダメージを{Value1}増やす。\n{PlayerName}が{SelfName}+でないカードを|廃棄|するたび、{SelfName}+を1枚手札に加える。"
+
+Disintegrate:
+  Name: 物質崩壊
+  Description: "{Damage}ダメージを与える。\n|退治|：デッキからカードを1枚削除する"
+
+ExpandingBrilliance:
+  Name: 拡散する輝き
+  Description: "カードを1枚引く。\n敵全体に|臨時火力ダウン|{Value1}を与える。\n手札のカード1枚をこの戦闘中|アップグレード|する。"
+
+Caution:
+  Name: CAUTION!
+  Description: "{PlayerName}のターン開始時、|バースト|状態になり、|時間制限|<sprite=\"ManaSprite\" name=\"1\">。"
+
+GammaRays:
+  Name: ガンマ線
+  Description: "|放射能|{Value1}を得る。"
+  UpgradedDescription: "|放射能|{Value1}を得る。\n|成長|：得られる|放射能|を{Value2}増やす。"
+
+Reignition:
+  Name: 再着火
+  Description: "|廃棄場|にあるカードの枚数の{Value1}倍のダメージを与える。({Damage})"
+
+TurboFuel:
+  Name: ターボ燃料
+  Description: "{PlayerName}のターン開始時、{manatype}を得てカードを{Value1}枚引く。\nランダムな手札1枚を|廃棄|する。"
+
+MaintainReaction:
+  Name: 継続反応
+  Description: "カードが|保留|されるたび、|熱|{Value1}を得る。"
+
+Ignition:
+  Name: 着火
+  Description: "|{Mana}ごとに|：\n|熱|{Value1}を得て、|ダークマター|を1枚手札に加える。"
+
+Crossfeed:
+  Name: クロスフィード
+  ExtraDescription1: "|排熱|してダメージを与える。\n手札にある|質量体|1枚につき|熱|{Value1}を得る。\n{PlayerName}が持っている|熱|{Value2}点ごとに|ダークマター|を1枚手札に加える。"
+  Description: "|排熱|して{Damage}ダメージを与える。\n手札にある|質量体|1枚につき|熱|{Value1}を得る。\n{PlayerName}が持っている|熱|{Value2}点ごとに|ダークマター|を1枚手札に加える。"
+
+EternityEngine: 
+  Name: 悠久機関
+  Description: "|手札効果|：{PlayerName}のターン開始時、|火力|{Value1}を得て、ランダムな手札1枚を|廃棄|する。"
+  DetailText: "{SelfName}は使用しても|廃棄|される以外の効果を持たない。"
+
+Starlight:
+  Name: スターライト
+  Description: "{Block}|ブロック|を得る。\n|熱|{Value1}を得る。\n|ダークマター|を2枚手札に加える。"
+  UpgradedDescription: "{Shield}|バリア|を得る。\n|熱|{Value1}を得る。\n|ダークマター|を2枚手札に加える。"
+
+QuantumDissonance:
+  Name: 量子不和
+  Description: "各ターン最初に使用された{Value1}枚の|ダークマター|は占術3を行う。"
+
+AlphaProtocol:
+  Name: α崩壊プロトコル
+  Description: "|β崩壊プロトコル|を1枚山札に加える。\nランダムな手札{Value1}枚を捨てる。"
+  UpgradedDescription: "|β崩壊プロトコル+|を1枚山札に加える。\nランダムな手札{Value1}枚を捨てる。"
+
+BetaProtocol:
+  Name: β崩壊プロトコル
+  Description: "|γ崩壊プロトコル|を1枚山札に加える。\nランダムな手札{Value1}枚を|廃棄|する。"
+  UpgradedDescription: "|γ崩壊プロトコル+|を1枚山札に加える。\nランダムな手札{Value1}枚を|廃棄|する。"
+
+GammaProtocol:
+  Name: γ崩壊プロトコル
+  Description: "|放射能|{Value1}を得る。"
+
+SunSpot:
+  Name: 「人工太陽の黒点」
+  Description: "|熱|{Value1}を得る。\n|ダークマター|を{Value2}枚手札に加える。\n|ダークマター|を使用するたび、|熱|を失わずに|熱|の減衰ダメージを発生させる。"
+  UpgradedDescription: "|熱|{Value1}を得る。\n|ダークマター|を{Value2}枚手札に加える。\n|ダークマター|を使用するたび、|熱|を失わずに|熱|の減衰ダメージを2回発生させる。"
+
+AblativeArmor:
+  Name: 高温蒸気アーマー
+  Description: "{Block}|ブロック|を得る。\n手札にある|質量体|を全て|廃棄|し、|廃棄|したカード1枚につき{Value1}|バリア|を得る。"
+
+SpatialRend:
+  Name: 空間断裂
+  Description: "|廃棄場|からランダムに{Value1}枚のカードを手札に戻す。\n{Damage}ダメージを与える。\n戻したカード1枚ごとに与えるダメージを{Value2}増やす、戻したのが|質量体|ならばダメージを{doubleValue}増やす。"
+  DetailText: "永き夜は|廃棄場|から戻されない。"
+
+SunCrow: 
+  Name: 太陽を盗んだ鴉
+  Description: "|フィールド|からランダムなカード{Value2}枚を消滅させる。\n消滅させたカード1枚ごとに|熱|{Value1}点を得る、消滅させたのが|質量体|ならば2倍の|熱|を得る。"
+
+HotSpring:
+  Name: 地霊温泉
+  Description: "{PlayerName}のターン開始時、|放射能|{Value1}を得る。得られる|放射能|は毎ターン1ずつ増えていく。"
+
+Dojo:
+  Name: 『お空のニュークリアフュージョン道場』
+  Description: "|火力|{Value1}を得る。\nターンを終了する。"
+
+Remember:
+  Name: 『たすけて！おつかれさとり様』
+  Description: "|廃棄場|にあるカードを任意の枚数だけ手札に戻す。"

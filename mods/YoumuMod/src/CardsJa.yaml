@@ -1,0 +1,358 @@
+YoumuAttackG:
+  Name: 天界剣
+  Description: "{Damage}ダメージを与える。"
+
+YoumuAttackW:
+  Name: 人界剣
+  Description: "{Damage}ダメージを与える。"
+  
+YoumuBlockG:
+  Name: 防御姿勢
+  Description: "{Block}|ブロック|を得る。"
+
+YoumuBlockW:
+  Name: 魂符
+  Description: "{Block}|ブロック|を得る。"
+
+YoumuSlashOfPresent:
+  Name: 現世斬
+  Description: "{Damage}ダメージを与える。"
+
+YoumuAsuraSword:
+  Name: 修羅剣
+  Description: "{Damage} ダメージを{Value1}回与える。\n対象に|ロックオン|{Value1}を与える。"
+  FlavorText: "妖夢の剣の修行は不完全だが、剣の腕前は極めて高い"
+
+YoumuInsightfulSword:
+  Name: 炯眼剣
+  Description: "{Damage}ダメージを与える。\n|抜刀|"
+  UpgradedDescription: "{Damage}ダメージを与える。|現世斬|を手札に加える。\n|抜刀|"
+  
+
+YoumuSwordOfBinding:
+  Name: 纏縛剣
+  Description: "{Damage}ダメージをすべての敵に与える。\n敵全体|ロックオン|{Value1}を与える。"
+  FlavorText: "+5 DEF, +5 RES"
+
+YoumuPretaSword:
+  Name: 餓鬼剣
+  Description: "{Damage}ダメージを与える。\n対象が|ロックオン|{Value1}以上であれば、カードを{Value2}枚引く"
+
+
+YoumuScatteredFlowers:
+  Name: 散花
+  Description: "{Block}|ブロック|を得る。\n敵の|ロックオン|に等しいダメージをそれぞれの敵に与える。"
+  UpgradedDescription: "{Block}|ブロック|を得る。\n敵の|ロックオン|に等しいダメージを{Value1}回それぞれの敵に与える。"
+
+YoumuSpringWind:
+  Name: 春風
+  Description: "敵全体に|ロックオン|{Value1}を与える。\nカードを{Value2}枚引く。"
+  
+YoumuStrangeBird:
+  Name: 怪鳥
+  Description: "対象に|ロックオン|{Value2}を与える。\n|グレイズ|{Value1}を得る。"
+  FlavorText: "隠岐次郎左衛門広有はこの不気味な鳥イツマデを鏑矢で見事に撃ち落とした。"
+
+
+YoumuCounterSignalling:
+  Name: 反撃の狼煙
+  Description: "{Block}|ブロック|を得る。\n|反撃|{Block}を得る。\n|成長|:|ブロック|と|反撃|を{Value1}増やす。"
+
+YoumuPhosphoricSlash:
+  Name: 燐気斬
+  Description: "{Damage}ダメージを与える。対象が|ロックオン|{Value1}以上のとき、{Mana}を得る。"
+  
+
+YoumuSlashOfKarmicWind:
+  Name: 業風斬
+  Description: "{Damage}ダメージを{Value1}回与える。\n{SelfName}は|ロックオン|の影響が2倍になる。"
+
+YoumuHalfBodyDistillation:
+  Name: 半身大悟
+  Description: "{Block}|ブロック|を得る。\n|廃棄場|の|斬撃| または妖夢の|虚無|のカードを{Value1}枚まで選び、手札に戻す。"
+  
+YoumuPhantomFormation:
+  Name: 影陣
+  Description: "{Block}|ブロック|を得る。\n|ロックオン|を持ってる敵に臨時火力ダウン{Value1}を与える"
+  
+
+YoumuDyingDeva:
+  Name: 天人の五衰
+  Description: "|ターン終了時|: |ロックオン|がついてる敵に{Value1}ダメージを与える。\n|手札にある時|:敵にデバフを与えるたびに、{SelfName}のダメージが{Value2}増える(この戦闘中のみ)"
+  FlavorText: "思い出せ！「時間」という奴は、ごまかしはしないが何とかして必ず勝たずにはおかない強欲な博徒だぞ！"
+
+
+YoumuKarmaGust:
+  Name: 業風
+  Description: "すべての敵に|ロックオン|{Value1}と|脱力|{Value1}を与える。"
+
+
+YoumuHesitationSign:
+  Name: 迷符
+  Description: "|ロックオン|{Value1}を与える。\n|廃棄された時|:すべての敵に|ロックオン|{Value2}を与える。"
+
+
+YoumuSingleThought:
+  Name: 一念
+  Description: "{Mana}を得る。\n|廃棄された時|:次のターン{ManaEthereal}を得る。"
+
+
+YoumuTransmigrationSlash:
+  Name: 生死流転斬
+  Description: "{Damage}ダメージを与える。\n対象に|ロックオン|{Value1}を与える。\n|廃棄された時|:すべての敵がライフを{Value2}失う。"
+
+YoumuWatchtowerSword:
+  Name: 楼観剣
+  Description: "{PlayerName}が攻撃ダメージを与えるたびに、対象に|ロックオン|{Value1}を与える"
+  FlavorText: "もしマナを供給してくれるこんな展示品があったのなら・・・"
+
+YoumuSilentNirvana:
+  Name: 涅槃寂静
+  Description: "敵にデバフを与えるたびに、{Value1}|ブロック|を得る。"
+
+YoumuDefenseX:
+  Name: 餓鬼の報い
+  Description: "|{Mana}につき|:|反撃|{Block}を得る。"
+
+YoumuClosedEyeSlash:
+  Name: 瞑斬
+  Description: "{Damage}ダメージを与える。\nこのダメージが敵のHPを減らした時、それと同じ値の|反撃|を得る。"
+
+
+YoumuInclemency:
+  Name: 衆生無情
+  Description: "手札の全てのカードが|臨時コスト|{Mana}になる。\nこのターン、追加でカードを引くことができない。"
+  UpgradedDescription: "カードを{Value1}枚引く。\n手札の全てのカードが|臨時コスト|{Mana}になる。\nこのターン、追加でカードを引くことができない。"
+
+YoumuWickedSoul:
+  Name: 悪魂
+  Description: "対象に|ロックオン|{Value1}を与える。\n対象に|臨時火力ダウン|{Value2}を与える。"
+
+YoumuAscensionToBuddhahood:
+  Name: 成仏得脱
+  Description: "毎ターン最初にプレイしたカードに|反復|を与える。\n|充填|:{Mana}を得る。"
+  DetailText: "|コピー|はトリガーできない。"
+
+YoumuWheelOfPain:
+  Name: 幽明の苦輪
+  Description: "すべての敵に|ロックオン|{Value1}を与える。\n{PlayerName}のターン開始時、すべての敵に|ロックオン|{Value1}を与える。"
+
+YoumuGhostSlash:
+  Name: 幽鬼斬
+  Description: "{Damage}ダメージを与える。\n|廃棄された時|:{Block}|ブロック|を得る。"
+  
+YoumuHeavenlyHalo:
+  Name: 天界法輪
+  Description: "{Block}|ブロック|を得る。\n手札に|現世斬|を{Value1}枚加える。"
+
+YoumuTwoHundredYojana:
+  Name: 二百由旬
+  Description: "手札に|現世斬|を{Value1}枚加える。\n|抜刀|"
+  UpgradedDescription: "手札に|現世斬+|を{Value1}枚加える。\n|抜刀|"
+
+YoumuQuickDraw:
+  Name: 抜刀術
+  Description: "カードを{Value1}枚引く。\n|抜刀|"
+
+YoumuSatelliteSlash:
+  Name: 衛星斬
+  Description: "{Damage}ダメージを与える。\n{PlayerName}が|抜刀|するたびに、捨て札の{SelfName}を手札に戻す。"
+
+YoumuSlashOfMeditation:
+  Name: 冥想斬
+  Description: "{Damage}ダメージを与える。\n{Block} |ブロック|を得る。"
+
+YoumuSlashOfDeparture:
+  Name: 迷津慈航斬
+  Description: "{Damage}ダメージを与える。|廃棄場|のカード1枚につきダメージが{Value1}増加する。"
+
+YoumuCircularVicissitude:
+  Name: 円心流転
+  Description: "{Block}|ブロック|を得る。\nもし{PlayerName}の手札に{Value1}枚以上の|斬撃|があれば、|抜刀|"
+  FlavorText: "円は継続性と完璧さの象徴であり、完璧であることはしばしば変化するものである。"
+
+YoumuClearingMind:
+  Name: 無念無想
+  Description: "手札から{Value1}枚までカードを廃棄する。\nその枚数に等しい|現世斬|を手札に加える。"
+  
+YoumuBulletCuttingSpirit:
+  Name: 弾をも断つ心の眼
+  Description: "ライフを{Value2}を得る。\n戦闘終了まで手札のカードを1枚|アップグレード|する。"
+  UpgradedDescription: "ライフを{Value2}を得る。\n戦闘終了まで手札のカードをすべて|アップグレード|する。"
+
+YoumuReflectionSlash:
+  Name: 反射斬
+  Description: "{Damage}ダメージを与える。\n敵が攻撃しようとしている場合、|反撃|{Block}を得る。"
+
+YoumuPreachingAvici:
+  Name: 折伏無間
+  Description: "|現世斬|を手札に{Value1}枚加える。\n|廃棄された時|:|抜刀|"
+  
+YoumuSwordAura:
+  Name: 剣気
+  Description: "|火力|{Value1}を得る。このカードが手札にあるとき、そのターン内に{PlayerName}が|抜刀|した回数分、追加で|火力|{Value2}を得る。"
+  FlavorText: "ライフが最大になると弾幕も発射される。"
+
+
+YoumuInnerEye:
+  Name: 心眼
+  Description: "|斬撃|がプレイされるたびに、|反撃|{Value1} を得る。"
+  FlavorText: "山のように静まり、大河のように流れよ。"
+
+YoumuNetherMeditation:
+  Name: 冥界瞑想
+  Description: "手札から {Value2}枚攻撃カードを選ぶ。その|コピー|{Value1}枚手札に加える。"
+  DetailText: "You can't choose |Copies| for this effect."
+
+YoumuConventionalTruth:
+  Name: 俗諦
+  Description: "|廃棄場|から手札に{Value1}枚までのカードを戻す。\n|抜刀|"
+  DetailText: "{SelfName}は{SelfName}を手札に戻せない。"
+
+
+YoumuTenKingsRetribution:
+  Name: 十王の報い
+  Description: "|反撃|{Block}を得る。\n{PlayerName}の|ブロック|を全て|反撃|に変換する。"
+
+YoumuGreatEnlightenment:
+  Name: 大悟
+  Description: "{PlayerName}のターン開始時、|抜刀|\n|抜刀|"
+  
+YoumuDivineSevering:
+  Name: 神閃
+  Description: "戦闘終了まで{PlayerName}が|抜刀|する度、すべての|斬撃|を{Value1}ダメージ強化する。\n|抜刀|"
+  UpgradedDescription: "戦闘終了まで{PlayerName}が|抜刀|する度、すべての|斬撃|を{Value1}ダメージ強化する。\n|抜刀|2回"
+
+YoumuCrescentMoonSlash:
+  Name: 弦月斬
+  Description: "{Damage}ダメージを与える。\n対象に|ロックオン|{Value1}を与える。\n|抜刀|"
+
+YoumuSevenHakus:
+  Name: 七魄
+  Description: "{Block}|ブロック|を得る。\n|反撃|{Block}を得る。\n|反射|{Value1}を得る。\n|廃棄された時|:{PlayerName}のターン開始時、ブロックは失われない。"
+
+YoumuLotusPostureSlash:
+  Name: 結跏趺斬
+  Description: "{Damage}ダメージを与える。\n{Mana}を得る。"
+  FlavorText: "If it has lotus in its name, it adds 3 mana."
+
+YoumuBuddhahoodOfFlora:
+  Name: 草木成佛
+  Description: "|グレイズ|{Value1}を得る。\n|抜刀|"
+
+YoumuKarmicPunishment:
+  Name: 無為無策の冥罰
+  Description: "{Mana}を得る。\nカードを{Value1}枚引く。\n対象に|ロックオン|{Value2}を与える。"
+
+YoumuThreeKons:
+  Name: 三魂
+  Description: "カードを{Value1}枚引く。\n|帯電|{Value1}を得る。\n|廃棄された時|:{PlayerName}の次のターン開始時、カードを{Value2}枚引く。"
+
+YoumuReinforcementOfTheArmy:
+  Name: 増援
+  Description: "山札から{Value1}枚までの攻撃カードを選び、手札に加える。その|臨時コスト|は{Mana}"
+  FlavorText: "No, you cannot link climb into Isolde."
+
+YoumuAppearingAndDisappearing:
+  Name: 大悟顕晦
+  Description: "手札、山札、捨札から{Value1}枚までカードを|廃棄|する。この効果によって|廃棄|された妖夢の|虚無|カードを捨札に加える。"
+
+
+YoumuOldSpiritMediumBind:
+  Name: 憑坐の縛
+  Description: "カードが|廃棄|されるとき、すべての敵に{Value1}ダメージを与える。\nもしカードが妖夢の|虚無|カードの場合、代わりに{Value2}ダメージを与える。"
+
+YoumuDualWielder:
+  Name: 生命の二刀流
+  Description: "{PlayerName}が|ロックオン|{Value1}を与えるたびに、|現世斬|を{Value2}枚手札に加える。"
+  UpgradedDescription: "|現世斬|を{Value2}枚手札に加える。\n{PlayerName}が|ロックオン|{Value1}を与えるたびに、|現世斬|を{Value2}枚手札に加える。"
+
+YoumuInfiniteKalpas:
+  Name: 無量劫
+  Description: "{PlayerName}のターン開始時、{Value1}枚のランダムな妖夢のカードを手札に加える。それらのカードは|虚無|"
+
+YoumuFlashOfTheNetherworld:
+  Name: 冥府光芒一閃
+  Description: "追加ターンの終わりに、すべての敵に{Value1}ダメージをそのターンプレイしたカードの枚数と同じ回数分与える。\n{PlayerName}のターンを終了し、追加ターンを得る。\n|時間制限| {Mana}"
+
+
+YoumuTurningAngelCut:
+  Name: 天女返し
+  Description: "{Mana}につき:手札に|現世斬|を{Value1}枚加える、|臨時コスト|{ManaEmpty}\n{ManaGreen}につき:対象に|ロックオン|{Value2}を与える。"
+
+YoumuSlashDraw:
+  Name: 抽刀斬
+  Description: "|このカードを引いた時|:すべての敵に{Damage}ダメージを与え、{SelfName}を廃棄する。"
+
+YoumuMatsuyoiReflecting:
+  Name: 待宵反射
+  Description: "|反撃|の値を2倍にする。\nもし{PlayerName}が|反撃|{Block}未満なら、代わりに|反撃|{Block}を得る。 "
+
+YoumuWaterfowlDance:
+  Name: 水鳥乱舞
+  Description: "{Damage}ダメージを{Value1}回与える。\nこのターン|抜刀|した回数に応じて追加効果を得る。\n{UnsheathedThreshold1}+:対象に|ロックオン|{Value2}を与える。\n{UnsheathedThreshold2}+:追加でダメージをもう一回与える。\n{UnsheathedThreshold3}+:{Mana}を得る。"
+
+YoumuUnendingWinter:
+  Name: 終わりなき冬
+  Description: "{PlayerName}が攻撃でダメージを与える度に、|冷気|{Value1}を与える。"
+  FlavorText: "山札にある『春が来た！』を全部捨てるべきじゃないでしょうか？"
+
+YoumuBizareness:
+  Name: 六道怪奇
+  Description: "対象に|ロックオン|を与える度、|毒|{Value1}を与える。"
+
+YoumuLivingAndDead:
+  Name: 生と死
+  Description: "妖夢のカード{Value1}枚の中から{Value2}枚を選び、手札に加える。\nそれは|臨時コスト|{Mana}で|虚無|を持つ。"
+  FlavorText: "死は人生の終わりではなく、その一部に過ぎない。"
+
+YoumuNextToNone:
+  Name: 斬れぬものなど殆ど無い
+  Description: "対象から|ブロック|、|バリア|、|グレイズ|、|光学迷彩|、|天衣無縫|を取り除く。\n|抜刀|"
+  FlavorText: "斬れぬものなど殆ど無い!"
+
+YoumuClearingTheSixSenses:
+  Name: 六根清浄
+  Description: "{PlayerName}からすべてのデバフを取り除く。\nなにかデバフが取り除かれた時、|火力|{Value1}を得る。"
+  
+YoumuEmbercleave:
+  Name: エンバレスの宝剣
+  Description: "このカードが手札にある時、|攻撃|カードをプレイする度{SelfName}のコストが{Mana}減る(この戦闘中のみ)。\n使用したターンの|攻撃|のダメージを2倍にする。"
+  FlavorText: "Math is for blockers."
+
+YoumuHesitationCuttingSword:
+  Name: 断迷剣
+  Description: "手札に|現世斬|を{Value1}枚加える。\n|抜刀|2回"
+  UpgradedDescription: "手札に|現世斬+|を{Value1}枚加える。\n|抜刀|2回"
+
+  
+YoumuBloodOfAsura:
+  Name: 修羅の血
+  Description: "|攻撃|カードをプレイする度、|火力|{Value1}を得る。"
+  FlavorText: "Asuras are known for their inextinguishable spirits and everlasting volitions."
+
+YoumuMeikyoShisui:
+  Name: 明鏡止水
+  Description: "|反撃|{Block}を得る。\nカードを{Value1}枚引く。"
+
+YoumuSpiritMediumBind:
+  Name: 憑坐の縛
+  Description: "カードが|廃棄|される度に、すべての敵に{Value1}ダメージを与える。"
+  
+YoumuHakugyokurou:
+  Name: 白玉楼
+  Description: "|ターン開始時|:カードを{Value2}枚引く。\n|手札にある時|:{Value1}枚の|斬撃|カードをプレイしたなら、敵全体に{Damage}ダメージを与えこのカードを捨てる。"
+  
+YoumuAgelessObsession:
+  Name: 一念無量劫
+  Description: "すべての敵に|ロックオン|{Value1}を与える。\n対象が受けるロックオンが倍になる。"
+
+
+YoumuYuyukoFriend:
+  Name: 華胥の亡霊、幽々子
+  Description: "{Indent}敵全体に|生者必滅の理|{Value1}を与える。\n{PassiveCostIcon}{Mana}を得る。"
+  ExtraDescription1: "{ActiveCostIcon}敵全体に|脱力|{Value2}と|弱体|{Value2}を与える。"
+  ExtraDescription2: "{UltimateCostIcon}{PlayerName}のターン終了時に、敵全体に|生者必滅の理|{Value1}を与える。"
+  FlavorText: "死は確実だが、その時は、不確かだ。今日を生きよ。"
+ 
+

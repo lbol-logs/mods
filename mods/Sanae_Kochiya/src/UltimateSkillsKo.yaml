@@ -1,0 +1,13 @@
+SanaeUltW:
+  Title: 기원
+  Content: 공중 반발 중첩
+  Description: |-
+    모든 적에게 피해를 {Damage} 줍니다. |명중|
+    |비호|와 |부적|을 {Value1} 얻습니다.
+
+SanaeUltU:
+  Title: 제비
+  Content: 마구잡이 제비 연속뽑기
+  Description: |-
+    피해를 {Damage} 줍니다. |명중|
+    무작위 마나를 {Value1} 얻습니다.

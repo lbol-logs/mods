@@ -1,0 +1,620 @@
+PatchouliAttackU:
+  Name: 水龙
+  Description: |-
+    造成 {Damage} 点伤害。
+
+PatchouliBlockB:
+  Name: 虚无精灵
+  Description: |-
+    获得 {Block} 点|格挡|。
+
+PatchouliAttackB:
+  Name: 钻石刀刃
+  Description: |-
+    造成 {Damage} 点伤害。
+
+PatchouliBlockU:
+  Name: 北极冷风
+  Description: |-
+    获得 {Block} 点|格挡|。
+
+PatchouliAstronomy:
+  Name: 天文学
+  Description: |-
+    抽 {Value1} 张牌。
+    |增幅| {BoostThreshold1}：获得{Mana}。
+
+PatchouliCondensedBubble:
+  Name: 浓缩水泡
+  Description: |-
+    造成 {Damage} 点伤害 {Value2} 次。
+    |每层增幅|额外造成 {Value1} 点伤害。
+
+PatchouliAgniShine:
+  Name: 火神之光
+  Description: |-
+    造成 {Damage} 点伤害 {Value2} 次。
+    |咏唱| {Value1} 个|火符|。
+UpgradedDescription: |-
+    造成 {Damage} 点伤害 {Value2} 次。
+    |咏唱| {Value1} 个|火符|。
+    触发|火符|的|被动|效果。
+
+PatchouliObservatory:
+  Name: 天文台
+  Description: |-
+    造成 {Damage} 点伤害。
+    将 {Value1} 张|天文学|加入手中。
+  UpgradedDescription: |-
+    造成 {Damage} 点伤害。
+    将 {Value1} 张|天文学|加入手中。
+    |增幅|手中的所有牌。
+
+PatchouliNegate:
+  Name: 否定
+  Description: |-
+    |反制攻击|：获得 {Block} 点|格挡|。
+    |反制状态|获得 {Value1} 层|庇护|。
+
+PatchouliManaDrain:
+  Name: 法力吸取
+  Description: |-
+    造成 {Damage} 点伤害。
+    |增幅| {BoostThreshold1}：施加 {Value1} 层|虚弱|。
+
+PatchouliFatesHand:
+  Name: 命运之手
+  Description: |-
+    抽 {Value1} 张牌。
+    |每层增幅|： {SelfName} 的费用减少{Mana}。
+
+PatchouliArcaneWard:
+  Name: 奥术守卫
+  Description: |-
+    获得 {Block} 点|格挡|。
+    获得 {Value2} 点|反射|。
+    |每层增幅|：额外获得 {Value1} 点|格挡|和|反射|。
+
+PatchouliDistortionField:
+  Name: 扭曲力场
+  Description: |-
+    获得 {Value1} 层|闪避|。
+    |增幅|手中的所有牌。
+  UpgradedDescription: |-
+    获得 {Value1} 层|闪避|。
+    |增幅|手中的所有牌两次。
+
+PatchouliDiamondRing:
+  Name: 钻石戒指
+  Description: |-
+    造成 {Damage} 点伤害。
+    |抉择|：|咏唱| {Value1} 个|日符|，或|咏唱| {Value1} 个|月符|。
+  ExtraDescription1: |-
+    |咏唱| {Value1} 个|日符|。
+  ExtraDescription2: |-
+    |咏唱| {Value1} 个|月符|。
+
+PatchouliSilverDragon:
+  Name: 银龙
+  Description: |-
+    获得 {Block} 点|格挡|。
+    |咏唱| {Value1} 个|金符|。
+  UpgradedDescription: |-
+    获得 {Block} 点|格挡|。
+    |咏唱| {Value1} 个|金符|。
+    触发|金符|的|被动|效果。
+
+PatchouliFlashOfSpring:
+  Name: 春意乍现
+  Description: |-
+    抽 {Value1} 张牌。
+    |咏唱| {Value2} 个|木符|。
+
+PatchouliSunshineReflector:
+  Name: 日光反射器
+  Description: |-
+    对所有敌人造成 {Damage} 点伤害。
+    |咏唱| {Value1} 个|日符|。
+
+PatchouliSilentSelene:
+  Name: 沉静的月神
+  Description: |-
+    获得 {Block} 点|格挡|。
+    |咏唱| {Value1} 个|月符|。
+
+PatchouliWaterElf:
+  Name: 水精灵
+  Description: |-
+    造成 {Damage} 点伤害。
+    |咏唱| {Value1} 个|水符|。
+    |咏唱| {Value1} 个|木符|。
+    |每层增幅|：{SelfName}的费用减少{Mana}。
+
+PatchouliTidalWave:
+  Name: 潮汐巨浪
+  Description: |-
+    施加 {Value1} 层|溺水|。
+    触发敌人的|溺水|效果。
+    |增幅| {BoostThreshold1}：额外施加 {Value2} 层|溺水|。
+
+PatchouliEveryAngleShot:
+  Name: 全方位射击
+  Description: |-
+    造成 {Damage} 点伤害。
+    |增幅| {BoostThreshold1}：将一张{SelfName}加入手中，它具有|放逐|和|虚无|。
+  UpgradedDescription: |-
+    造成 {Damage} 点伤害。
+    |增幅| {BoostThreshold1}：将一张{SelfName}+加入手中，它具有|放逐|和|虚无|。
+
+PatchouliTwinspell:
+  Name: 双生法术 
+  Description: |-
+    抽 {Value1} 张牌。    |手牌中|：当{PlayerName}打出一张|增幅|牌后，{SelfName}在本场战斗中变形为其复制，并获得其|增幅|层数。
+  UpgradedDescription: |-
+    抽 {Value1} 张牌。    |手牌中|：当{PlayerName}打出一张|增幅|牌后，{SelfName}在本场战斗中变形为其|升级|后的复制，并获得其|增幅|层数。
+
+PatchouliMoonlitChill:
+  Name: 月下寒意
+  Description: |-
+    获得 {Value1} 点|火力|和 {Value2} 点|灵力|。
+    |增幅| {BoostThreshold1}：额外获得 {Value2} 点 |火力|。
+    |增幅| {BoostThreshold2}：额外获得 {Value1} 点|灵力|。
+  
+PatchouliBuryInLake:
+  Name: 湖葬
+  Description: |-
+    获得 {Block} 点|格挡|。
+    |咏唱| {Value1} 个|水符|。
+  UpgradedDescription: |-
+    获得 {Shield} 点|护盾|。
+    |咏唱| {Value1} 个|水符|。
+
+PatchouliConcentration:
+  Name: 专注
+  Description: |-
+    抽 {Value1} 张牌。
+    |增幅| {BoostThreshold1} 以及 {BoostThreshold2}：获得 {Value2} 点|格挡|。
+  
+PatchouliMoongazing:
+  Name: 观月
+  Description: |-
+    获得 {Block} 点|格挡|。
+    将 {Value1} 张|天文学|加入手中。
+  UpgradedDescription: |-
+    获得 {Block} 点|格挡|。
+    将 {Value1} 张|天文学|加入手中。
+    |增幅|手中的所有牌。
+
+PatchouliPhlogisticRain:
+  Name: 燃素之雨
+  Description: |-
+    造成 {Damage} 点伤害 {Value2} 次。
+    |增幅| {BoostThreshold1}：获得{Mana}，抽 {Value1} 张牌。
+  
+PatchouliSpellMastery:
+  Name: 法术精通
+  Description: |-
+    造成 {Damage} 点伤害。
+    |增幅| {BoostThreshold1}：将一张|水花|放入手中。
+    |增幅| {BoostThreshold2}：并将其|升级|。
+  UpgradedDescription: |-
+    造成 {Damage} 点伤害。
+    |增幅| {BoostThreshold1}：将一张|幻虹|放入手中。
+    |增幅| {BoostThreshold2}：并将其|升级|。
+
+PatchouliGrandIncantation:
+  Name: 大型咒语
+  Description: |-
+    当{PlayerName}打出一张|增幅|牌后，对生命值最高的敌人造成等于其|增幅|层数的伤害。
+
+PatchouliCounterspell:
+  Name: 法术反制
+  Description: |-
+    |反制攻击|:获得 {Value1} 层|闪避|。
+    |反制精准攻击|:获得 {Block} 点|格挡|。
+    |反制符卡|:获得 {Block} 点|护盾|。
+
+PatchouliSpellPowerGrasp:
+  Name: 法力掌握
+  Description: |-
+    {PlayerName}的回合开始时，|增幅|手中的所有牌。
+  UpgradedDescription: |-
+    |增幅|手中的所有牌。
+    {PlayerName}的回合开始时，|增幅|手中的所有牌。
+
+PatchouliAstronomyStudy:
+  Name: 天文研习
+  Description: |-
+    {PlayerName}的回合开始时，如果{PlayerName}的手中没有|天文学|，将一张|天文学|加入手中。
+
+PatchouliElementalHarvester:
+  Name: 元素收获者
+  Description: |-
+    获得{Mana}。
+    |增幅| {BoostThreshold1}：额外获得{BonusMana}。
+
+PatchouliKrakenWave:
+  Name: 海怪巨浪
+  Description: |-
+    |增幅| {BoostThreshold1} |次时|：对所有敌人造成 {Value1} 点伤害，获得 {Value1} 点|格挡|，丢弃并重置{SelfName}的|增幅|。
+
+PatchouliTeaBreak:
+  Name: 饮茶时间 
+  Description: |-
+    恢复 {Value1} 点生命。
+    移除{PlayerName}的|易伤|。
+  UpgradedDescription: |-
+    恢复 {Value1} 点生命。
+    移除{PlayerName}的|锁定|，|易伤|和|虚弱|。
+
+PatchouliPhotosynthesis:
+  Name: 光合作用
+  Description: |-
+    选择手中的至多 {Value2} 张牌，将它们放逐。
+    |咏唱|等量的|日符|。
+
+PatchouliSylphyHorn:
+  Name: 风灵的角笛
+  Description: |-
+    |咏唱| {Value1} 个|木符|。
+    当一个|曜符|触发|主动|效果后，将{SelfName}从|放逐|区移回手牌。
+
+PatchouliGingerDust:
+  Name: 淡黄色的阵风
+  Description: |-
+    抽 {Value2} 张牌。
+    |咏唱| {Value1} 个|土符|。
+    |增幅| {BoostThreshold1}： |咏唱| {Value1} 个|金符|。
+
+PatchouliLazyTrilithon:
+  Name: 慵懒三石塔
+  Description: |-
+    抽 {Value2} 张牌。
+    |咏唱| {Value1} 个|土符|。
+
+PatchouliMercuryPoisoning:
+  Name: 水银之毒
+  Description: |-
+    |咏唱| {Value3} 个|金符|。
+    |抉择|：施加 {Value1} 层|中毒|；或施加 {Value2} 层|虚弱|。
+  ExtraDescription1: |-
+    施加 {Value1} 层|中毒|。
+  ExtraDescription2: |-
+    施加 {Value2} 层|虚弱|。
+
+PatchouliGirlOfKnowledge:
+  Name: 知识少女
+  Description: |-
+    获得 {Value1} 点|魔力|。
+
+PatchouliEmeraldMegalith:
+  Name: 翡翠巨石
+  Description: |-
+    获得 {Block} 点|格挡|。
+    如果{PlayerName} 拥有至少 {Value1} 种|曜符|，选择手中至多 {Value2} 张牌赋予|保留|。
+
+PatchouliDoyouSpear:
+  Name: 土用枪
+  Description: |-
+    造成 {Damage} 点伤害。
+    如果{SelfName}击杀目标，获得{Mana}。
+
+PatchouliForestBlaze:
+  Name: 森林大火
+  Description: |-
+    造成 {Damage} 点伤害。
+    |咏唱| {Value1} 个|火符|。
+    |咏唱| {Value1} 个|木符|。
+    每种正在咏唱的|曜符|使{SelfName}的费用减少{Mana}。
+
+PatchouliEnigmaticMagic:
+  Name: 神秘魔法
+  Description: |-
+    当{PlayerName}|咏唱|时，获得 {Value1} 点|格挡|。
+
+PatchouliLavaCromlech:
+  Name: 环状熔岩带
+  Description: |-
+    造成 {Damage} 点伤害。
+    本场战斗中每|咏唱|过一个|曜符|，额外造成 {Value1} 点伤害。
+
+PatchouliIntruderSecurity:
+  Name: 入侵者警报
+  Description: |-
+    获得 {Block} 点|格挡|。
+    选择弃牌堆中的至多 {Value1} 张牌，将其移回手牌。
+
+PatchouliSungrazerComet:
+  Name: 掠日者彗星
+  Description: |-
+    |抉择|：获得 {Value1} 层|闪避|；或获得 {Block} 点|格挡|。
+    |增幅| {BoostThreshold1}：获得两者。
+  ExtraDescription1: |-
+    获得 {Value1} 层|闪避|。
+  ExtraDescription2: |-
+    获得 {Block} 点|格挡|。
+
+PatchouliSpellCreation:
+  Name: 法术创造
+  Description: |-
+    造成 {Damage} 点伤害。
+    |增幅| {BoostThreshold1} ， {BoostThreshold2} 以及 {BoostThreshold3}：选择获得 {Value2} 项额外效果。
+  UpgradedDescription: |-
+    造成 {Damage} 点伤害。
+    选择获得 {Value2} 项额外效果。
+    |增幅| {BoostThreshold1}, {BoostThreshold2} 以及 {BoostThreshold3}：再选择获得 {Value2} 项额外效果。
+
+PatchouliSpellCreationFire:
+  Name: 火焰伤害
+  Description: |-
+    |咏唱| {Value1} 个|火符|。
+
+PatchouliSpellCreationBlock:
+  Name: 盾牌
+  Description: |-
+    获得 {Block} 点|格挡|。
+
+PatchouliSpellCreationWeak:
+  Name: 冷静
+  Description: |-
+    对所有敌人施加 {Value2} 层|虚弱|。
+
+PatchouliSpellCreationDraw:
+  Name: 恢复魔力
+  Description: |-
+    抽 {Value1} 张牌。
+  
+PatchouliPhlogisticPillar:
+  Name: 燃素之柱
+  Description: |-
+    当{PlayerName}打出一张|增幅|牌后，获得 {Value1} 点|护盾|。
+
+PatchouliSpellDuplication:
+  Name: 法术复制器
+  Description: |-
+    选择一张手牌。 将它的 {Value1} 张|复制|加入手中。
+    这张复制|暂塑为|{Mana}，具有|放逐|和|虚无|。
+    如果这是一张|增幅|牌，获得其|增幅|。
+  DetailText: |-
+    不能选择|复制品|。
+
+PatchouliVoile:
+  Name: 伏瓦尔魔法图书馆
+  Description: |-
+    当{PlayerName}打出一张|增幅|牌后，根据其|增幅|层数获得以下效果：
+    {BoostThreshold1} 层：抽 {Value1} 张牌。
+    {BoostThreshold2} 层：获得{Mana}。
+    {BoostThreshold3} 层：获得 {Value1} 点|火力|。
+
+PatchouliDimensionShift:
+  Name: 次元超越
+  Description: |-
+    结束{PlayerName}的回合。 然后获得一个额外的回合。
+    |时间有限|<sprite="ManaSprite" name="1">。
+    |每层增幅|：{SelfName}的费用减少{Mana}。
+  UpgradedDescription: |-
+    结束{PlayerName}的回合。 然后获得一个额外的回合。
+    |每层增幅|：{SelfName}的费用减少{Mana}。
+
+PatchouliRapidCharge:
+  Name: 快速充能
+  Description: |-
+    获得{Mana}。
+    触发所有|曜符|的|被动|效果。
+    |充盈|：获得{Mana}。
+  UpgradedDescription: |-
+    获得{Mana}。
+    触发所有|曜符|的|被动|效果两次。
+    |充盈|：获得{Mana}。
+
+PatchouliFiveSeasons:
+  Name: 五季
+  Description: |-
+    {PlayerName}的回合结束时，正在咏唱的|曜符|触发|被动|效果。
+
+PatchouliHydrogenousProminence:
+  Name: 氢化日珥
+  Description: |-
+    获得 {Shield} 点|护盾|。
+    |咏唱| {Value1} 个|日符|。
+    |咏唱| {Value1} 个|水符|。
+    每种正在咏唱的|曜符|使{SelfName}的费用减少{Mana}。
+
+PatchouliPhilosopherStone:
+  Name: 贤者之石
+  Description: |-
+    |咏唱| {Value1} 个|火符|。
+    |咏唱| {Value1} 个|水符|。
+    |咏唱| {Value1} 个|木符|。
+    |咏唱| {Value1} 个|金符|。
+    |咏唱| {Value1} 个|土符|。
+
+PatchouliOneWeekGirl:
+  Name: 七曜少女
+  Description: |-
+    |咏唱| {Value1} 个|火符|。
+    {PlayerName}的回合开始时，|咏唱| {Value1} 个|水符|。|曜符|的种类每回合都会切换。
+  DetailText: |-
+    |曜符|的切换顺序如下：
+    |火| -> |水| -> |木| -> |金| -> |土| -> |日| -> |月|
+
+PatchouliCountersquall:
+  Name: 狂风反制
+  Description: |-
+    |反制攻击|：造成 {Damage} 点伤害，获得 {Block} 点|格挡|。
+    |反制减益|获得 {Value1} 层|护身符|。
+
+PatchouliMetalFatigue:
+  Name: 金属疲劳
+  Description: |-
+    |咏唱| {Value1} 个|金符|。
+    施加 {Value2} 层|暂失火力|。
+    |充能| {BoostThreshold1}：施加 {Value2} 层|失去火力|，然后|放逐|{SelfName}。
+
+PatchouliAwakenedSpellbook:
+  Name: 觉醒的法术书
+  Description: |-
+    当{PlayerName}打出一张|增幅|层数至少为 {Value2} 层的|增幅|牌后，|咏唱| {Value1} 个|火符|。
+
+PatchouliJellyfishPrincess:
+  Name: 水母公主
+  Description: |-
+    |每支付<sprite="ManaSprite" name="U">|：对所有敌人造成 {Damage} 点伤害。
+    |每支付<sprite="ManaSprite" name="B">|：|咏唱| {Value1} 个|月符|。
+  
+PatchouliCurrentConductor:
+  Name: 导电体
+  Description: |-
+    当|水符|触发时，对所有敌人施加 {Value2} 层|溺水|，然后触发|溺水|的效果。
+    |咏唱| {Value1} 个|水符|。
+
+PatchouliAutumnBlade:
+  Name: 秋之刃
+  Description: |-
+    造成 {Damage} 点伤害。
+    |增幅| {BoostThreshold1}：获得 {Value1} 层|庇护|。
+    |增幅| {BoostThreshold2}：获得 {Value2} 层|护身符|。
+
+PatchouliElementalTriangle:
+  Name: 元素三角
+  Description: |-
+    |抉择|：|咏唱| {Value1} 个|火符|，|水符|或|木符|。
+    触发它的|被动|效果。
+
+PatchouliElementalTriangleFire:
+  Name: 火元素
+  Description: |-
+    |咏唱| {Value1} 个|火符|。
+
+PatchouliElementalTriangleWater:
+  Name: 水元素
+  Description: |-
+    |咏唱| {Value1} 个|水符|。
+
+PatchouliElementalTriangleWood:
+  Name: 木元素
+  Description: |-
+    |咏唱| {Value1} 个|木符|。
+
+PatchouliCircadianRhythm:
+  Name: 昼夜节律
+  Description: |-
+    |咏唱| {Value1} 个|日符|。
+    当|日符|或|月符|触发|主动|效果后，|咏唱|等量的|月符|或|日符|。
+
+PatchouliMagicalResearch:
+  Name: 魔法研究
+  Description: |-
+    从 {Value1} 张随机的|增幅|牌中选择 1 张加入手中。这张牌|暂塑|为{Mana}，具有|放逐|和|虚无|。
+
+PatchouliSakuyaFriend:
+  Name: 时空主宰咲夜
+  Description: |-
+    <indent=80>将 {Value1} 张|飞刀|加入手中。
+    <indent=0><sprite="Passive" name="1"><indent=80>将 {Value1} 张|飞刀|加入手中。
+  UpgradedDescription: |-
+    <indent=80>将 {Value1} 张|飞刀+|加入手中。
+    <indent=0><sprite="Passive" name="2"><indent=80>将 {Value1} 张|飞刀|加入手中。
+  ExtraDescription1: |-
+    <indent=0><sprite="Active" name="-3"><indent=80>获得 {Value1} 层|闪避|。
+  ExtraDescription2: |-
+    <indent=0><sprite="Ultimate" name="-7"><indent=80>结束{PlayerName}的回合。获得一个额外的回合。
+
+PatchouliRingOfAgni:
+  Name: 天火神印
+  Description: |-
+    造成 {Damage} 点伤害。
+    |每支付|{Mana}|及每层增幅|：额外造成 {Value1} 点伤害。
+
+PatchouliKoakumaFriend:
+  Name: 恶魔助手小恶魔
+  Description: |-
+    <indent=80>|咏唱| {Value1} 个|火符|。
+    <indent=0><sprite="Passive" name="1"><indent=80>抽 {Value1} 张牌。
+  UpgradedDescription: |-
+    <indent=80>|咏唱| {Value1} 个|火符|。
+    <indent=0><sprite="Passive" name="2"><indent=80>抽 {Value1} 张牌。
+  ExtraDescription1: |-
+    <indent=0><sprite="Active" name="-4"><indent=80>将一张|灵异|加入手中。
+  UpgradedExtraDescription1: |-
+    <indent=0><sprite="Active" name="-4"><indent=80>将一张|幻虹|加入手中。
+  ExtraDescription2: |-
+    <indent=0><sprite="Ultimate" name="-8"><indent=80>|火符|在本场战斗中造成双倍伤害。
+
+PatchouliAgniRadiance:
+  Name: 火神的光辉
+  Description: |-
+    |咏唱| {Value1} 个|火符|。
+    |每层充能|：额外|咏唱| {Value2} 个|火符|。
+
+PatchouliRoyalFlare:
+  Name: 皇家圣焰
+  Description: |-
+    |回合开始时|：获得 {Value1} 点|暂得魔力|。
+    |手牌中|：当{PlayerName}|咏唱| {Value2} 次后，对所有敌人造成 {Damage} 点伤害，然后丢弃{SelfName}。
+
+PatchouliSummerRed:
+  Name: 夏之红
+  Description: |-
+    选择手中的至多 {Value1} 张牌，|保留|它们一回合。
+    如果选择了|增幅|牌，还会|增幅|它  {Value2} 次。
+
+PatchouliGreenStorm:
+  Name: 翠绿风暴
+  Description: |-
+    造成 {Damage} 点伤害。
+    |每层充能|：额外造成一次伤害。
+
+PatchouliKnowledgeSeeker:
+  Name: 知识探索者
+  Description: |-
+    获得 {Value1} 点|魔力|。
+    |增幅| {BoostThreshold1}：不会|放逐|。
+
+PatchouliSpringWind:
+  Name: 春之风
+  Description: |-
+    选择手中至多 {Value1} 张牌。赋予它们|回响|。
+    |增幅| {BoostThreshold1}：将 {Value1} 张|生机|加入手中。
+  UpgradedDescription: |-
+    选择手中至多 {Value1} 张牌。赋予它们|回响|。
+    |增幅| {BoostThreshold1}：将 {Value1} 张|幻虹|加入手中。
+
+PatchouliSatelliteHimawari:
+  Name: 卫星向日葵
+  Description: |-
+    |咏唱| {Value1} 个|木符|。
+    |木符|的|被动|效果改为对本场战斗中的所有|木符|生效。
+
+PatchouliDiamondHardness:
+  Name: 钻石硬度
+  Description: |-
+    获得 {Shield} 点|护盾|。
+    获得 {Value1} 点|反射|。
+    |增幅| {BoostThreshold1}：获得 {Value2} 点|带电|。
+
+PatchouliSaintElmoPillar:
+  Name: 圣爱尔摩之柱
+  Description: |-
+    |咏唱| {Value1} 个|金符|。
+    当{PlayerName}的|反射|效果触发时，对所有敌人造成|反射|点数的伤害。
+
+PatchouliNoachianDeluge:
+  Name: 诺亚的大洪水
+  Description: |-
+    造成 {Damage} 点伤害。
+    {SelfName}可以|增幅|任意次数。
+    |每层增幅|：额外造成 {Value1} 点伤害。
+
+PatchouliGirlOfShade:
+  Name: 影之少女
+  Description: |-
+    将 {Value1} 张|暗影|洗入弃牌堆。赋予它们|填充|。
+    当一张|状态|牌或|厄运|牌被|放逐|时，获得 {Value2} 点|火力|和|灵力|。
+
+PatchouliTheUnmovingGreatLibrary:
+  Name: 不动的大图书馆
+  Description: |-
+    获得 {Value1} 点|魔力|。
+    当|曜符|触发|主动|效果后，获得 {Value2} 点|魔力|。
+  

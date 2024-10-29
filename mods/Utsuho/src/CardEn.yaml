@@ -1,0 +1,324 @@
+InverseBeam:
+  Name: Inverse Beam
+  Description: Deal {Damage} damage.
+
+
+BlowAway:
+  Description: Gain {Block} |Block|.
+  Name: Blow Away
+
+FireBurst:
+  Description: Deal {Damage} damage.
+  Name: Fire Burst
+
+Gridlock:
+  Description: Gain {Block} |Block|.
+  Name: Gridlock
+
+HellGeyser:
+  Name: Hell Geyser
+  ExtraDescription1: "Gain {Value1} |Heat|.\n|Vent| for damage.\nGain {Value2} |Heat|."
+  Description: "Gain {Value1} |Heat|.\n|Vent| to deal {Damage} damage.\nGain {Value2} |Heat|."
+
+FlareUp:
+  Name: Flare Up
+  ExtraDescription1: "|Vent| for damage.\nApply {Value1} |Weak| and |Vulnerable|."
+  Description: "|Vent| to deal {Damage} damage.\nApply {Value1} |Weak| and |Vulnerable|."
+  UpgradedExtraDescription1: "Apply {Value1} |Weak| and |Vulnerable|.\n|Vent| for damage."
+  UpgradedDescription: "Apply {Value1} |Weak| and |Vulnerable|.\n|Vent| to deal {Damage} damage."
+
+PlasmaBurn:
+  Name: Plasma Burn
+  ExtraDescription1: "Gain {Value1} |Heat|.\nIf {PlayerName} has {Value2} or more |Heat|, |Vent| for Damage."
+  Description: "Gain {Value1} |Heat|.\nIf {PlayerName} has {Value2} or more |Heat|, |Vent| to deal {Damage} damage."
+
+StartReactor:
+  Name: Start Reactor
+  Description: "At the end of {PlayerName}'s turn, gain {Value1} |Heat|."
+
+MaxPower:
+  Name: Max Power
+  Description: "|Exile| the hand.\nLose all mana and gain {Mana}.\nDraw {Value1} cards.\nGain {Value1} |Temporary Firepower|.\n|Time Limit| <sprite=\"ManaSprite\" name=\"1\">."
+
+Aggregate:
+  Name: Aggregate
+  Description: "Deal {Damage} damage.\nGain {Block} |Block|.\nGain {Value1} |Heat|."
+
+Fission:
+  Name: Fission
+  Description: "Add a random |Red| attack and defense card to the hand. Mana of any color can be spent to pay their mana costs.\nGain {Value1} |Heat|.\nGain {Mana}."
+  UpgradedDescription: "Add a random upgraded |Red| attack and defense card to the hand. Mana of any color can be spent to pay their mana costs.\nGain {Value1} |Heat|.\nGain {Mana}."
+
+EverythingBurns:
+  Name: Everything Burns
+  Description: "|Exile| up to X+2 cards in the hand.\n|For each {Mana} spent|: Deal {Damage} damage."
+
+SkyFlight:
+  Name: Sky Flight
+  Description: "Gain {Value1} |Graze|."
+
+Salvo:
+  Name: Salvo
+  Description: "Deal {Damage} damage to a random enemy {SalvoCount:plural one='% time.' other='% times.'}\nFor each other card played this turn, deal damage an additional time."
+
+MegaFlare:
+  Name: Mega Flare
+  Description: "Deal {Damage} damage to each enemy 4 times.\n|When Retained|: Decrease {SelfName}'s damage by {Value1} this combat."
+
+NuclearFusion:
+  Name: Nuclear Fusion
+  Description: "|Exile| a card from the hand.\nGain X |Heat|.\nAdd a |Nuclear Strike| to the hand with X |Heat|.\nX is {Value1} times the cost of the card |Exiled|."
+
+NuclearStrike:
+  Name: Nuclear Strike
+  ExtraDescription1: "|Vent| for damage.\nGain {Value1} |Heat|."
+  Description: "|Vent| to deal {Damage} damage.\nGain {Value1} |Heat|."
+
+HeatVisor:
+  Name: Nuclear Heat Visor
+  Description: "Gain {Block} |Block|.\nIf {PlayerName} has {Value1} or more |Heat|, prevent the next time the player would lose life before your next turn."
+
+HeatShield:
+  Name: Heat Shield
+  Description: "Gain {Block} |Block|.\nIf {PlayerName} has {Value2} or less |Heat|, gain {Value1} |Heat|."
+
+RecklessGamble:
+  Name: Reckless Gamble
+  Description: "Draw {Value1} cards.\n|Exile| a random card in the hand."
+
+SunlightReverie:
+  Name: Sunlight Reverie
+  Description: "Add 2 |Flames| to the hand.\n|Exile| a random card in the draw pile."
+  UpgradedDescription: "Add 2 |Flames| to the hand.\n|Choose|: |Exile| a random card in the discard pile or the draw pile."
+  ExtraDescription1: "|Exile| a random card from the draw pile."
+  ExtraDescription2: "|Exile| a random card from the discard pile."
+
+NuclearDive:
+  Name: Uncontainable Nuclear Reaction Dive
+  Description: "Double {PlayerName}'s |Heat|.\nTake 1 damage for every 10 |Heat| {PlayerName} has.\n|Vent| to deal {Damage} damage.\n|Expel|: Gain {Mana}."
+  UpgradedDescription: "Triple {PlayerName}'s |Heat|.\nTake 1 damage for every 10 |Heat| {PlayerName} has.\n|Vent| to deal {Damage} damage.\n|Expel|: Gain {Mana}."
+
+BunkerDown:
+  Name: Bunker Down
+  Description: "Gain {Block} |Block|.\n|Debut:| Gain {Shield} |Barrier| and reduce the cost of {SelfName} by {Mana}."
+  ExtraDescription1: "Gain {Block} |Block|.\n|d:Debut: Gain {Shield} Barrier. {SelfName} costs {Mana} less this combat.|"
+
+WasteNot:
+  Name: Waste Not
+  Description: "Whenever a card is |Exiled|, gain {Value1} |Heat|."
+
+Tokamak:
+  Name: "Hell's Tokamak"
+  Description: "Gain {Value1} |Heat|.\nAt the start of your next turn, gain {Value1} |Heat|."
+
+DarkMatter:
+  Name: Dark Matter
+  Description: "|On Enter Hand|: |Retain| this turn.\nHas |Mass|."
+  DetailText: "Mass: |Utsuho| cards with random effects prioritize {SelfName}. These effects are considered \"Pulled\"."
+
+ShootingStar:
+  Name: Shooting Star
+  Description: "Deal {Damage} damage 2 times.\nHas |Mass|.\n|When Pulled|: Gain {Block} block and add a |Dark Matter| to the hand."
+  DetailText: "Mass: |Utsuho| cards with random effects prioritize {SelfName}. These effects are considered \"Pulled\"."
+
+CloakStar:
+  Name: Cloak of Stars
+  Description: "Gain {Block} |Block|.\nAdd 2 |Dark Matter| to the hand."
+
+SpaceScanner:
+  Name: Space Scanner
+  Description: "Add 2 |Dark Matter| to the draw pile.\n|Scry| {Scry}.\nDraw 1 card."
+
+WarpShield:
+  Name: Warp Shield
+  Description: "Gain {Block} |Block|.\nMove {Value2} random cards from the draw pile to the hand.\nGain {Value1} more |Block| for each card with |Mass| moved."
+  UpgradedDescription: "Gain {Block} |Block|.\nMove {Value2} random cards from the draw pile to the hand.\nGain {Value1} |Barrier| for each card with |Mass| moved."
+
+VacuumSlash:
+  Name: Vacuum Wave
+  Description: "Deal {Damage} damage to each enemy.\nDiscard a random card.\nIf you Pulled a card with |Mass|, deal that much damage {Value1} additional time."
+  UpgradedDescription: "Deal {Damage} damage to each enemy.\nDiscard a random card.\nIf you Pulled a card with |Mass|, deal that much damage {Value1} additional times."
+
+AbyssNova: 
+  Name: Abyss Nova
+  Description: "Deal {Damage} damage. For each card with |Mass| on the |battlefield|, {SelfName} deals {Value1} more damage."
+
+SubterraneanSun: 
+  Name: Subterranean Sun
+  Description: "|While in hand|: At the start of {PlayerName}'s turn, deal {Damage} damage to a random enemy and remove a random card from the Draw Pile, Discard Pile, or Hand {RemoveCount:plural one='% time.' other='% times.'}\nRepeat this an additional time for each turn {SelfName} is |Retained|."
+
+NightFalls: 
+  Name: Night Falls
+  Description: "Add |Dark Matter| to the hand until it is full.\nDeal damage equal to {Value1} times the cards with |Mass| in the hand. ({Damage})"
+
+BlackHole: 
+  Name: Black Hole
+  Description: "|While in hand|: At the start of {PlayerName}'s turn, gain {Block} |Block| and discard a random card."
+  DetailText: "Playing {SelfName} has no effect other than |Exiling| it from the hand."
+
+GravityWell:
+  Name: Gravity Well
+  Description: "At the end of {PlayerName}'s turn, Gain {Value1} |Barrier| and add a |Dark Matter| to the hand."
+
+PlanetaryOrbit:
+  Name: Planetary Orbit
+  Description: "Swap the draw and discard piles.\nDeal damage equal to the number of cards swapped to each enemy. ({Damage})\n{SelfName} |Pull| all cards with |Mass| that were swapped."
+  UpgradedDescription: "Swap the draw and discard piles.\nDeal damage equal to double the number of cards swapped to each enemy. ({Damage})\n{SelfName} |Pull| all cards with |Mass| that were swapped."
+  DetailText: "This does not change the order of the piles."
+
+Ultraviolet:
+  Name: Blazing Ultraviolet
+  Description: "Gain {Mana}.\nHas |Mass|\n|When Pulled|:\nDraw {Value1} card."
+  UpgradedDescription: "Gain {Mana}.\nHas |Mass|\n|When Pulled|:\nDraw {Value1} cards."
+  DetailText: "Mass: |Utsuho| cards with random effects prioritize {SelfName}. These effects are considered \"Pulled\"."
+
+HighTension:
+  Name: High Tension Blade
+  Description: "Move {Value1} random cards from the draw pile to the discard pile.\nDeal {Damage} damage.\nIncrease this damage by {Value2} for each card with |Mass| moved."
+
+EscapeVelocity:
+  Name: Escape Velocity
+  Description: "Discard {Value2} random cards.\nDraw {Value1} cards."
+  UpgradedDescription: "|Choose|: Discard {Value2} random cards then Draw {Value1} cards, or Draw {Value1} cards then Discard {Value2} random cards."
+  ExtraDescription2: "Draw {Value1} cards.\nDiscard {Value2} random cards."
+  ExtraDescription1: "Discard {Value2} random cards.\nDraw {Value1} cards."
+
+MassDriver:
+  Name: Mass Driver
+  Description: "Whenever a card with |Mass| is Pulled, deal {Value1} damage to each enemy."
+
+ZeroPoint:
+  Name: Zero-Point Field
+  Description: "Has |Mass|.\n|When Pulled|: Gain {Shield} |Barrier| and add a copy of {SelfName} to the hand with |Ethereal|."
+  DetailText: "Mass: |Utsuho| cards with random effects prioritize {SelfName}. These effects are considered \"Pulled\"."
+
+SuperGiant:
+  Name: Super Giant
+  Description: "Deal {Damage} damage.\nFor each card with |Mass| in the hand, reduce the cost of {SelfName} by {Mana}."
+
+WhiteHole:
+  Name: White Hole
+  Description: "|At the end of the turn|: Gain {Block} |Block| and add a |Dark Matter| to the discard pile."
+  DetailText: "Playing {SelfName} has no effect other than |Exiling| it from the hand."
+
+GravityDistortion:
+  Name: Gravity Distortion
+  Description: "Apply {Value2} |Weak| and deal {Damage} damage to each enemy.\nHas |Mass|.\n|When Pulled|: Gain {Mana}"
+  DetailText: "Mass: |Utsuho| cards with random effects prioritize {SelfName}. These effects are considered \"Pulled\"."
+
+
+FixedStar:
+  Name: Fixed Star
+  Description: "At the end of {PlayerName}'s turn, choose up to {Value1} cards in the hand. |Retain| them this turn.\nAll |Dark Matter| gain |Auto-Exile| when drawn."
+
+Coolant:
+  Name: Coolant
+  Description: "|Kicker| {Mana}: Gain {Value2} Firepower.\nGain {Value1} |Spirit|.\nDiscard all\nnon-defense cards from the hand."
+  DetailText: "Kicker: All pooled mana is spent when playing this card. If you can afford the card cost and the kicker, get an extra effect."
+
+Blueshift:
+  Name: Blueshift
+  Description: "|MultiKicker| {Mana}: Add a {SelfName} to the hand.\nGain {Block} |Block|."
+  UpgradedDescription: "|MultiKicker| {Mana}: Add a upgraded {SelfName} to the hand.\nGain {Block} |Block|."
+  DetailText: "MultiKicker: All pooled mana is spent when playing this card. For each time you can afford the kicker after the card cost, get an extra effect."
+
+Resonance:
+  Name: Resonance
+  Description: "Deal {Damage} damage.\nFor the rest of combat, each {SelfName} deals {Value1} more damage.\nWhenever {PlayerName} |Exiles| a card that isn't {SelfName}, add a {SelfName} to the hand."
+  UpgradedDescription: "Deal {Damage} damage.\nFor the rest of combat, each {SelfName} deals {Value1} more damage.\nWhenever {PlayerName} |Exiles| a card that isn't {SelfName}, add a {SelfName} to the hand."
+
+Disintegrate:
+  Name: Disintegrate
+  Description: "Deal {Damage} damage.\n|Expel|: Remove a card from the library."
+
+ExpandingBrilliance:
+  Name: Expanding Brilliance
+  Description: "Draw 1 card.\nApply {Value1} |Temporary Firepower Down| to each enemy.\n|Upgrade| a card in the hand until the end of combat."
+
+Caution:
+  Name: CAUTION!
+  Description: "At the start of {PlayerName}'s turn, enter |Burst| and gain |Time Limit| <sprite=\"ManaSprite\" name=\"1\">."
+
+GammaRays:
+  Name: Gamma Rays
+  Description: "Gain {Value1} |Radiation|."
+  UpgradedDescription: "Gain {Value1} |Radiation|.\n|Growth:| Gain {Value2} more |Radiation|."
+
+Reignition:
+  Name: Reignition
+  Description: "Deal damage equal to {Value1} times the number of cards in |Exile| ({Damage})."
+
+TurboFuel:
+  Name: Turbo Fuel
+  Description: "At the start of {PlayerName}'s turn, gain {manatype} and draw {Value1} cards.\nThen, |Exile| a random card in the hand."
+
+MaintainReaction:
+  Name: Maintain Reaction
+  Description: "Whenever a card is |Retained|, gain {Value1} |Heat|."
+
+Ignition:
+  Name: Ignition
+  Description: "|For each {Mana} spent|:\nGain {Value1} |Heat| and add a |Dark Matter| to the hand."
+
+Crossfeed:
+  Name: Crossfeed
+  ExtraDescription1: "|Vent| for damage.\nGain {Value1} |Heat| for each card with |Mass| in the hand.\nAdd 1 |Dark Matter| to the hand for every {Value2} |Heat| {PlayerName} had."
+  Description: "|Vent| for {Damage} damage.\nGain {Value1} |Heat| for each card with |Mass| in the hand.\nAdd 1 |Dark Matter| to the hand for every {Value2} |Heat| {PlayerName} had."
+
+EternityEngine: 
+  Name: Eternity Engine
+  Description: "|While in hand|: At the start of {PlayerName}'s turn, gain {Value1} |Firepower| and |Exile| a random card in the hand."
+  DetailText: "Playing {SelfName} has no effect other than |Exiling| it from the hand."
+
+Starlight:
+  Name: Starlight
+  Description: "Gain {Block} |Block|.\nGain {Value1} |Heat|.\nAdd 2 |Dark Matter| to the hand."
+  UpgradedDescription: "Gain {Shield} |Barrier|.\nGain {Value1} |Heat|.\nAdd 2 |Dark Matter| to the hand."
+
+QuantumDissonance:
+  Name: Quantum Dissonance
+  Description: "When the first {Value1} |Dark Matter| are played each turn, Scry 3."
+
+AlphaProtocol:
+  Name: Alpha Protocol
+  Description: "Add a |Beta Protocol| to the draw pile.\nDiscard {Value1} random cards."
+  UpgradedDescription: "Add a |Beta Protocol+| to the draw pile.\nDiscard {Value1} random cards."
+
+BetaProtocol:
+  Name: Beta Protocol
+  Description: "Add a |Gamma Protocol| to the draw pile.\n|Exile| {Value1} random cards from the hand."
+  UpgradedDescription: "Add a |Gamma Protocol+| to the draw pile.\n|Exile| {Value1} random cards from the hand."
+
+GammaProtocol:
+  Name: Gamma Protocol
+  Description: "Gain {Value1} |Radiation|."
+
+SunSpot:
+  Name: "Artificial Sun's Spot"
+  Description: "Gain {Value1} |Heat|.\nAdd {Value2} |Dark Matter| to the hand.\nWhenever a |Dark Matter| is played, trigger |Heat| without losing any |Heat|."
+  UpgradedDescription: "Gain {Value1} |Heat|.\nAdd {Value2} |Dark Matter| to the hand.\nWhenever a |Dark Matter| is played, trigger |Heat| twice without losing any |Heat|."
+
+AblativeArmor:
+  Name: Ablative Armor
+  Description: "Gain {Block} |Block|.\n|Exile| all cards with |Mass| in the Hand, and gain {Value1} |Barrier| for each card |Exiled|."
+
+SpatialRend:
+  Name: Spatial Rend
+  Description: "Return {Value1} random cards from |Exile| to your hand.\nDeal {Damage} damage.\nFor each card returned, deal {Value2} more damage, or {doubleValue} if it had mass."
+  DetailText: "Long Night will not be returned from |Exile|."
+
+SunCrow: 
+  Name: The Crow who Stole the Sun
+  Description: "Remove {Value2} random cards from the |battlefield|.\nGain {Value1} |Heat| for each card removed, double for cards with |Mass|."
+
+HotSpring:
+  Name: Earth Spirit Hot Spring
+  Description: "At the start of {PlayerName}'s turn, gain {Value1} |Radiation|; increase by 1 every turn."
+
+Dojo:
+  Name: "Okuu's Nuclear Fusion Dojo"
+  Description: "Gain {Value1} |Firepower|.\nEnd the turn."
+
+Remember:
+  Name: "Help Me Remember, Satori-sama!"
+  Description: "Return any number of cards from |Exile| to the hand."

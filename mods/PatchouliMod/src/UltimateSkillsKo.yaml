@@ -1,0 +1,9 @@
+PatchouliUltU:
+  Title: 부2
+  Content: 델류지 포티 데이
+  Description: "피해를 {Damage} 줍니다.\n손의 모든 카드가 |증강|됩니다.\n|명중|"
+
+PatchouliUltB:
+  Title: 부1
+  Content: 세인트 엘모 익스플로전
+  Description: "피해를 {Damage} 줍니다.\n|월부| {Value1} |원소 전개| .\n|일부| {Value1} |원소 전개|.\n|명중|"

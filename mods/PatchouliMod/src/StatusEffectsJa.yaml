@@ -1,0 +1,132 @@
+PatchouliBoostSe:
+  Name: "詠唱"
+  Description: ""
+  Brief: "このカードが手札にある状態で他のカードがプレイされるたび、カードの|詠唱値|が1増加する。\n|詠唱値|は最大9まで溜まる。\n一定の|詠唱値|が溜まった|詠唱|カードは追加効果を得る。\n追加効果を得た|詠唱|カードが使用されると|詠唱値|はリセットされる。"
+
+PatchouliSignKeywordSe:
+  Name: "印"
+  Description: ""
+  Brief: "対応する|印|を得る。\n|印|の|パッシブ|効果は|印|の獲得時および{PlayerName}のターンの開始時に発動する。\n|印|を獲得してから3ターン後の{PlayerName}のターン開始時に|印|の|アクティブ|効果を発動し、その|印|は取り除かれる。\n後から同じ|印|を得ても、|アクティブ|効果が発動するまでのターン数は増減しない。"
+
+PatchouliCounterSe:
+  Name: "カウンター"
+  Description: "対象の敵がこの行動を予定している場合、対応する効果を発動する。"
+  Brief: "対象の敵がこの行動を予定している場合、対応する効果を発動する。"
+
+PatchouliFireSignSe:
+  Name: 火の印
+  Description: "|パッシブ|:ライフが最も少ない敵に{PassiveAmount}ダメージを与える。\n|アクティブ|:ライフが最も少ない敵に{ActiveAmount}ダメージを与える。<sprite=\"ManaSprite\" name=\"R\">を得る。\n現在のレベル{Level}"
+  Brief: "|パッシブ|:ライフが最も少ない敵に3ダメージを与える。\n|アクティブ|:ライフが最も少ない敵に5ダメージを与える。<sprite=\"ManaSprite\" name=\"R\">を得る。"
+
+PatchouliWaterSignSe:
+  Name: 水の印
+  Description: "|パッシブ|:{PassiveAmount}|バリア|を得る。\n|アクティブ|:{ActiveAmount}|バリア|を得る。<sprite=\"ManaSprite\" name=\"U\">を得る。\n現在のレベル{Level}"
+  Brief: "|パッシブ|:1|バリア|を得る。\n|アクティブ|:3|バリア|を得る。<sprite=\"ManaSprite\" name=\"U\">を得る。"
+
+PatchouliWoodSignSe:
+  Name: 木の印
+  Description: "|パッシブ|:|木の印|の|アクティブ|ダメージを{PassiveAmount}増やす。\n|アクティブ|:ライフが最も多い敵に{ActiveAmount}ダメージを与える。<sprite=\"ManaSprite\" name=\"G\">を得る。\n現在のレベル{Level}"
+  Brief: "|パッシブ|:|木の印|の|アクティブ|ダメージを4増やす。\n|アクティブ|:ライフが最も多い敵に4ダメージを与える。<sprite=\"ManaSprite\" name=\"G\">を得る。"
+
+PatchouliMetalSignSe:
+  Name: 金の印
+  Description: "|パッシブ|:{PassiveAmount}|反射|を得る。\n|アクティブ|:{ActiveAmount}|反射|を得る。<sprite=\"ManaSprite\" name=\"C\">を得る。\n現在のレベル{Level}"
+  Brief: "|パッシブ|:3|反射|を得る。\n|アクティブ|:5|反射|を得る。<sprite=\"ManaSprite\" name=\"C\">を得る。"
+
+PatchouliEarthSignSe:
+  Name: 土の印
+  Description: "|パッシブ|:ランダムな{PassiveAmount}個のマナを|彩色|マナに変換する。\n|アクティブ|:ランダムな{ActiveAmount}個のマナを|彩色|マナに変換する。<sprite=\"ManaSprite\" name=\"P\">を得る。\n現在のレベル{Level}"
+  Brief: "|パッシブ|:ランダムな1個のマナを|彩色|マナに変換する。\n|アクティブ|:ランダムな2個のマナを|彩色|マナに変換する。<sprite=\"ManaSprite\" name=\"P\">を得る。"
+
+PatchouliOldEarthSignSe:
+  Name: Earth Sign
+  Description: "|パッシブ|: Increases the effectiveness of |Spellcasted Signs| by {PassiveAmount} this turn.\n|アクティブ|: Increases the effectiveness of |Spellcasted Signs| by {ActiveAmount} this turn. Gain <sprite=\"ManaSprite\" name=\"P\">."
+  Brief: "|パッシブ|: Increases the effectiveness of |Spellcasted Signs| by 1 this turn.\n|アクティブ|: Increases the effectiveness of |Spellcasted Signs| by 2 this turn. Gain <sprite=\"ManaSprite\" name=\"P\">."
+
+PatchouliSunSignSe:
+  Name: 日の印
+  Description: "|パッシブ|:敵全体に{PassiveAmount}ダメージを与える。\n|アクティブ|:敵全体に{ActiveAmount}ダメージを与える。<sprite=\"ManaSprite\" name=\"W\">を得る。\n現在のレベル{Level}"
+  Brief: "|パッシブ|:敵全体に2ダメージを与える。\n|アクティブ|:敵全体に4ダメージを与える。<sprite=\"ManaSprite\" name=\"W\">を得る。"
+
+PatchouliMoonSignSe:
+  Name: 月の印
+  Description: "|パッシブ|:{PassiveAmount}|ブロック|を得る。\n|アクティブ|:{ActiveAmount}|ブロック|を得る。<sprite=\"ManaSprite\" name=\"B\">を得る。\n現在のレベル{Level}"
+  Brief: "|パッシブ|:2|ブロック|を得る。\n|アクティブ|:4|ブロック|を得る。<sprite=\"ManaSprite\" name=\"B\">を得る。"
+
+PatchouliAstronomyStudySe:
+  Name: 天文学研究
+  Description: "{PlayerName}のターン開始時、手札に|天文学|が無い場合、|天文学|を{Level}枚手札に加える。"
+
+PatchouliAwakenedSpellbookSe:
+  Name: 覚醒する魔導書
+  Description: |-
+    |詠唱値|{BoostThreshold1}以上の|詠唱|カードをプレイするたび、|火の印|{Level}を得る。
+    {PlayerName}が|印|を得るたび、手札の|詠唱|カードの|詠唱値|を{Level}増やす。
+
+PatchouliCircadianRhythmSe:
+  Name: 概日リズム
+  Description: "|日の印|もしくは|月の印|の|アクティブ|効果が発動した場合、もう片方の|印|を|アクティブ|効果が発動した時の|印|のレベル×{Level}得る。"
+
+PatchouliCurrentConductorSe:
+  Name: 水流の指揮者
+  Description: "|水の印|の効果が発動するたび、|溺水|{Level}を敵全体に与え、|溺水|の効果を発動させる。"
+
+PatchouliEnigmaticMagicSe:
+  Name: 奇怪な魔法
+  Description: "{PlayerName}が|印|を得るたび、{Level}|ブロック|を得る。"
+  Brief: "{PlayerName}が|印|を得るたび、1|ブロック|を得る。"
+
+PatchouliFiveSeasonsSe:
+  Name: ファイブシーズン
+  Description: "{PlayerName}のターン終了時に、得ている|印|の|パッシブ|効果を{Level}回発動する。"
+
+PatchouliIntelligenceSe:
+  Name: 知力
+  Description: "|印|による効果の値を{Level}増やす。マナを増やす|アクティブ|効果は|知力|の影響を受けない。"
+  Brief: "|印|による効果の値を1増やす。マナを増やす|アクティブ|効果は|知力|の影響を受けない。"
+
+PatchouliKoakumaFriendSe:
+  Name: 小さな悪魔の小さな補助
+  Description: "この戦闘中、|火の印|のダメージを{Level}倍分増やす。"
+
+PatchouliOneWeekGirlSe:
+  Name: 一週間少女
+  Description: "次の{PlayerName}のターン開始時、|{NextSign}||印|{Level}を得る。"
+  Brief: "火の 水の 木の 金の 土の 日の 月の"
+
+PatchouliPhlogisticPillarSe:
+  Name: フロギスティックピラー
+  Description: "{PlayerName}が|詠唱|カードを使用するたび、{Level}|バリア|を得る。"
+
+PatchouliSatelliteHimawariSe:
+  Name: サテライトヒマワリ
+  Description: "この戦闘中、木の印の|パッシブ|効果で蓄積したダメージは全ての木の印の|アクティブ|効果ダメージを増やす。\n|木の印|の|アクティブ|効果ダメージを{BonusDamage}増やす。"
+
+PatchouliGirlOfShadeSe:
+  Name: 知識と日陰の少女
+  Description: "|厄災|または|状態異常|カードを|廃棄|した時、|火力|{Level}と|霊力|{Level}を得る。"
+
+PatchouliGrandIncantationSe:
+  Name: 堂々たる呪文
+  Description: "|詠唱|カードがプレイされるたび、そのカードの|詠唱値|×{Level}ダメージを最もライフの多い敵に与える。"
+
+PatchouliSaintElmoPillarSe:
+  Name: セントエルモピラー
+  Description: "{PlayerName}の|反射|が発動した場合、発動した|反射|の値×{Level}ダメージを敵全体に与える。" 
+
+PatchouliSpellPowerGraspSe:
+  Name: 魔力掌握
+  Description: "{PlayerName}のターン開始時、手札の|詠唱|カードの|詠唱値|を{Level}増やす。"
+
+PatchouliTemporaryIntelligenceSe:
+  Name: 臨時知力アップ
+  Description: "ターン終了まで{Level}点の知力を得る。\n知力は|印|による効果の値を{Level}増やす。マナを増やす|アクティブ|効果は知力の影響を受けない。"
+  Brief: "ターン終了まで知力を得る。\n知力は|印|による効果の値を増やす。マナを増やす|アクティブ|効果は知力の影響を受けない。"
+
+PatchouliTheUnmovingGreatLibrarySe:
+  Name: 大図書館の魔女
+  Description: "|印|の|アクティブ|効果が発動するたび、|知力|{Level}を得る。"
+
+PatchouliVoileSe:
+  Name: ラクトガール
+  Description: "|詠唱|カードに以下の効果を追加する。\n|詠唱値|{BoostThreshold1}以上なら、カードを{Level}枚引く。\n|詠唱値|{BoostThreshold2}以上なら、{Mana}を得る。\n|詠唱値|{BoostThreshold3}以上なら、|火力|{Level}を得る。"

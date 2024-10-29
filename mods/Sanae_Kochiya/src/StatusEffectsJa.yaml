@@ -1,0 +1,88 @@
+OmikujiBonusSe:
+  Name: スペカブースト
+  Description: "{OwnerName}の|スペルカード|が与えるダメージは{Level}増える。"
+  Brief: "{OwnerName}の|スペルカード|が与えるダメージは増える。"
+
+SanaePowerPotatoSe:
+  Name: 現代の娯楽
+  Description: "戦闘終了時、<sprite=\"Point\" name=\"Power\">{Level}を得る。"
+  Brief: "戦闘終了時に<sprite=\"Point\" name=\"Power\">を得る。"
+
+SanaeSpellDamageSe:
+  Name: グリーンソーマタージ
+  Description: "スペルカードを使用するたび、{OwnerName}はランダムな敵に8ダメージを{Level}回与える。"
+  Brief: "スペルカードを使用するたび、{OwnerName}はランダムな敵に8ダメージを1回与える。"
+  
+SanaeSpiritManaSe:
+  Name: 召喚術の練習
+  Description: "{Count:ordinal one='次の' two='%ターン' few='%ターン' other='%ターン'}{Count:plural one='' other='後'}の{PlayerName}のターン開始時、|霊力|{Level}を得て|光明|を1枚手札に加える。"
+  Brief: "数ターン後、|霊力|を得て|光明|を1枚手札に加える。"
+
+SanaeDrawTempSe:
+  Name: スクールサイエンスフェア
+  Description: "{OwnerName}のターン開始時、カードを{Level}枚引き、引いたスキルでないカードを全て捨てる。"
+  Brief: "{OwnerName}のターン開始時、カードを枚引き、引いたスキルでないカードを全て捨てる。"
+
+SanaeBlockShuffleSe:
+  Name: 占いの舞
+  Description: "{OwnerName}が山札をシャッフルするたび、{Level}|ブロック|を得る。"
+  Brief: "{OwnerName}が山札をシャッフルするたび、|ブロック|を得る。"
+    
+SanaeStatusTalismanSe:
+  Name: 手作り護符
+  Description: "{OwnerName}のターン終了時、|守矢の護符|を{Level:plural one='%枚' other='%枚'}捨て札に加える。"
+  Brief: "{OwnerName}のターン終了時、|守矢の護符|を捨て札に加える。"
+  
+SanaeWardTalismanSe:
+  Name: 事前詠唱
+  Description: "{OwnerName}が|庇護|を得るたび、同じ数の<sprite=\"Point\" name=\"Power\">を得る。スペルカードを使用するたび、|守矢の護符{Level:plural one='' other=''}|を{Level}枚捨て札に加える。"
+  Brief: "{OwnerName}が|庇護|を得るたび、同じ数の<sprite=\"Point\" name=\"Power\">を得る。スペルカードを使用するたび、|守矢の護符|を捨て札に加える。"
+  
+SanaeSpellManaGreenSe:
+  Name: インターネット陰謀論
+  Description: "スペルカードを使用するたび、{Mana}を{Level}回得る。"
+  Brief: "スペルカードを使用するたび、{Mana}を得る。"
+
+SanaeSpellManaPhiloSe:
+  Name: インターネット陰謀論
+  Description: "スペルカードを使用するたび、{Mana}を{Level}回得る。"
+  Brief: "スペルカードを使用するたび、{Mana}を得る。"
+
+SanaeOrderShuffleSe:
+  Name: 断片的な洞察
+  Description: "スキルでないカードをを使用するたび、{Mana}を得て、山札をシャッフルする。"
+
+SanaeExileDamageSe:
+  Name: 三色のエーデルワイス
+  Description: "状態異常カードまたは|自動廃棄|を持つカードが|廃棄|されるたび、{OwnerName}はランダムな敵に{Level}ダメージを与える。"
+  Brief: "状態異常カードまたは|自動廃棄|を持つカードが|廃棄|されるたび、{OwnerName}はランダムな敵にダメージを与える。"
+  
+SanaeGrazeWardSe:
+  Name: 神風の盾
+  Description: "{OwnerName}が攻撃を|グレイズ|するたび、|庇護|{Level}を得る。"
+  Brief: "{OwnerName}が攻撃を|グレイズ|するたび、|庇護|3を得る。"
+
+SanaeKanakoFriendSe:
+  Name: 召喚された神
+  Description: "スペルカードを使用するたび、{OwnerName}は|火力|{Level}と|グレイズ|{Level}を得る。"
+  Brief: "スペルカードを使用するたび、{OwnerName}は|火力|2と|グレイズ|2を得る。"
+  
+NextTurnLoseFire:
+  Name: 次ターン火力喪失
+  Description: "次の{OwnerName}のターン開始時、|火力|{Level}を失う。"
+  Brief: "次の{OwnerName}のターン開始時、|火力|を失う。"
+
+NextTurnLosePower:
+  Name: 次ターンパワー喪失
+  Description: "次の{OwnerName}のターン開始時、<sprite=\"Point\" name=\"Power\">{Level}を失う。"
+  Brief: "次の{OwnerName}のターン開始時、<sprite=\"Point\" name=\"Power\">を失う。"
+
+TurnStartDontLoseMana:
+  Name: マナ保留
+  Description: "{Duration:plural one='次のターンまで' other='次の%ターン'}の間、{OwnerName}はターン終了時にマナを失わない。"
+  Brief: "{OwnerName}は次の数ターンの間ターン終了時にマナを失わない。"
+  
+AmuletForEnemy:
+  Name: 防波堤
+  Description: "次にデッキに加えられる{Level}枚の状態異常でないカードは無効化される(|廃棄|される)。"
+  Brief: "次にデッキに加えられる状態異常でないカードは無効化される(|廃棄|される)。"

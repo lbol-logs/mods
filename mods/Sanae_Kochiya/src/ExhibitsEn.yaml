@@ -1,0 +1,31 @@
+SanaeExhibitW:
+  Name: Froggish Hairclip
+  Description: |-
+    Adds {Mana} to the mana base. Cards unique to |Sanae| are added to the card pool.
+    At the start of the first turn each combat, gain {Value1} |Ward|.
+  FlavorText: This used to be a headband, but it broke off during a danmaku battle.
+
+SanaeExhibitU:
+  Name: Snakespiral Accessory
+  Description: |-
+    Adds {Mana} to the mana base. Cards unique to |Sanae| are added to the card pool.
+    After {PlayerName} activates her |Spell Card|, gain {Value1} |Block|.
+  FlavorText: The original cyan coloration has faded over time.
+  
+SanaeClayVolcano:
+  Name: Clay Volcano
+  Description: |-
+    Whenever the draw pile is shuffled, gain {Value1} |Temporary Spirit|.
+  FlavorText: This odd-looking mountain has a hole at its peak.
+
+SanaeLibraryCard:
+  Name: Library Card
+  Description: |-
+    At the start of {PlayerName}'s turn, if no attack cards were played last turn, gain {Value1} |Ward|.
+  FlavorText: With this thin board, the user could "borrow" books without any trouble.
+
+SanaeExpiredCoupon:
+  Name: Expired Coupon
+  Description: |-
+    After {PlayerName} activates her |Spell Card| for the first time each combat, gain {Value1} <sprite="Point" name="Power">.
+  FlavorText: According to this note, eggs were on sale more than 10 years ago.

@@ -1,0 +1,326 @@
+# prettier-ignore
+InverseBeam:
+  Name: 반사 광선
+  Description: 피해를 {Damage} 줍니다.
+
+BlowAway:
+  Description: |-
+    |방어|를 {Block} 얻습니다.
+  Name: 날려버리기
+
+FireBurst:
+  Description: 피해를 {Damage} 줍니다.
+  Name: 화염 폭발
+
+Gridlock:
+  Description: |-
+    |방어|를 {Block} 얻습니다.
+  Name: 그리드 락
+  
+HellGeyser:
+  Name: 헬 가이저
+  Description: "|작열|을 {Value1} 얻습니다.\n|냉각|하고 그 수치만큼 피해를 줍니다.\n|작열|을 {Value2} 얻습니다."
+  ExtraDescription1: "|작열|을 {Value1} 얻습니다.\n|냉각|하고, 피해를 {Damage} 줍니다.\n|작열|을 {Value2} 얻습니다."
+
+FlareUp:
+  Name: 플레어 업
+  Description: "|냉각|하고 그 수치만큼 피해를 줍니다.\n|허약|과 |취약|을 {Value1} 부여합니다."
+  ExtraDescription1: "|냉각|하고 피해를 {Damage} 줍니다.\n|허약|과 |취약|을 {Value1} 부여합니다."
+  UpgradedDescription: "|허약|과 |취약|을 {Value1} 부여합니다.\n|냉각|하고 그 수치만큼 피해를 줍니다."
+  UpgradedExtraDescription1: "|허약|과 |취약|을 {Value1} 부여합니다.\n|냉각|하고 피해를 {Damage} 줍니다."
+
+PlasmaBurn:
+  Name: 플라즈마 연소
+  Description: "|작열|을 {Value1} 얻습니다.\n{PlayerName}의 |작열|이 {Value2} 이상이라면, |냉각|하고 그 수치만큼 피해를 줍니다."
+  ExtraDescription1: "|작열|을 {Value1} 얻습니다.\n{PlayerName}의 |작열|이 {Value2} 이상이라면, |냉각|하고 피해를 {Damage} 줍니다."
+
+StartReactor:
+  Name: 원자로 가동
+  Description: "{PlayerName}의 턴 시작시 |작열|을 {Value1} 얻습니다."
+
+MaxPower:
+  Name: 최대화력
+  Description: "패를 전부 |소멸|시킵니다.\n마나를 전부 잃고 {Mana}를 얻습니다. 카드를 {Value1}장 뽑습니다.\n|일시 화력|을 {Value1} 얻습니다.\n|시간 제한| <sprite=\"ManaSprite\" name=\"1\">."
+
+Aggregate:
+  Name: 집열
+  Description: "피해를 {Damage} 줍니다.\n|방어|를 {Block} 얻습니다.\n|작열|을 {Value1} 얻습니다."
+
+Fission:
+  Name: 핵분열
+  Description: "무작위 |빨간색| 공격과 방어카드를 얻습니다. 해당 카드의 코스트는 임의의 마나로 지불할 수 있습니다.\n|작열|을 {Value1} 얻습니다.\n{Mana}를 얻습니다."
+  UpgradedDescription: "무작위 |강화|된 |빨간색| 공격과 방어카드를 얻습니다. 해당 카드의 코스트는 임의의 마나로 지불할 수 있습니다.\n|작열|을 {Value1} 얻습니다.\n{Mana}를 얻습니다."
+
+EverythingBurns:
+  Name: 전부 불타버려
+  Description: "패의 카드를 X+2장 |소멸|시킵니다.\n{Mana}를 지불할 시: 피해를 {Damage} 줍니다."
+
+SkyFlight:
+  Name: 공중날기
+  Description: "|그레이즈|를 {Value1} 얻습니다."
+
+Salvo:
+  Name: 일제사격
+  Description: "무작위 적에게 피해를 {Damage}씩 {SalvoCount}번 줍니다.\n이 턴에 사용한 다른 카드의 수만큼 추가로 반복합니다."
+
+MegaFlare:
+  Name: 메가 플레어
+  Description: "모든 적에게 피해를 {Damage}씩 4번 줍니다.\n|보존될 시|: 이 전투에서 {SelfName}의 피해 {Value1} 감소"
+
+NuclearFusion:
+  Name: 뉴클리어 퓨전
+  Description: "패의 카드 한장을 |소멸|시킨다.\n|작열|을 X 얻습니다.\n|작열| X를 가진 |뉴클리어 스트라이크|를 패에 추가합니다.\nX는 |소멸|된 카드 비용의 {Value1}배입니다."
+
+NuclearStrike:
+  Name: 뉴클리어 스트라이크
+  Description: "|냉각|하고 그 수치만큼 피해를 줍니다.\n|작열|을 {Value1} 얻습니다."
+  ExtraDescription1: "|냉각|하고 피해를 {Damage} 줍니다.\n|작열|을 {Value1} 얻습니다."
+
+HeatVisor:
+  Name: 핵열 바이저
+  Description: "|방어|를 {Block} 얻습니다.\n{PlayerName}의 |작열|이 {Value1} 이상이라면, 다음 턴이 되기 전까지 받는 피해를 1회 방지합니다."
+
+HeatShield:
+  Name: 작열 방패
+  Description: "|방어|를 {Block} 얻습니다.\n{PlayerName}의 |작열|이 {Value2} 이하라면, |작열|을 {Value1} 얻습니다."
+
+RecklessGamble:
+  Name: 무모한 도박
+  Description: "카드를 {Value1}장 뽑습니다.\n패의 무작위 카드 1장을 |소멸|시킵니다."
+
+SunlightReverie:
+  Name: 선라이트 레버리
+  Description: "|화염| 2장을 얻습니다.\n버린 카드 더미에서 1장을 |소멸|시킵니다."
+  UpgradedDescription: "|화염| 2장을 얻습니다.\n|선택|: 버린 카드 더미 또는 뽑을 카드 더미에서 1장을 |소멸|시킵니다."
+  ExtraDescription2: "버린 카드 더미에서 1장을 |소멸|시킵니다."
+  ExtraDescription1: "뽑을 카드 더미에서 1장을 |소멸|시킵니다."
+
+NuclearDive:
+  Name: 핵반응 제어불능 다이브
+  Description: "{PlayerName}의 |작열|이 두배로 증가합니다.\n{PlayerName}의 |작열| 10 마다 피해를 1 받습니다.\n|냉각|하고 그 수치만큼 피해를 줍니다."
+  ExtraDescription1: "{PlayerName}의 |작열|이 두배로 증가합니다.\n{PlayerName}의 |작열| 10 마다 피해를 1 받습니다.\n|냉각|하고 피해를 {Damage} 줍니다."
+  UpgradedDescription: "{PlayerName}의 |작열|이 세배로 증가합니다.\n{PlayerName}의 |작열| 10 마다 1의 피해를 받습니다.\n|냉각|하고 그 수치만큼 피해를 줍니다."
+  UpgradedExtraDescription1: "{PlayerName}의 |작열|이 세배로 증가합니다.\n{PlayerName}의 |작열| 10 마다 피해를 1 받습니다.\n|냉각|하고 피해를 {Damage} 줍니다."
+
+BunkerDown:
+  Name: 긴급 대피
+  Description: "|방어|를 {Block} 얻습니다.\n|선보임:| |보호막|을 {Shield} 얻고 {SelfName}의 비용을 {Mana} 줄입니다."
+  ExtraDescription1: "|방어|를 {Block} 얻습니다.\n|d:선보임: |보호막|을 {Shield} 얻습니다. 이번 전투동안 {SelfName}의 비용이 {Mana} 감소합니다.|"
+
+WasteNot:
+  Name: 재활용
+  Description: "자신의 카드가 |소멸|할때, |작열|을 {Value1} 얻습니다."
+
+Tokamak:
+  Name: "헬스 토카막"
+  Description: "|작열|을 {Value1} 얻습니다.\n다음 턴 시작시, |작열|을 {Value1} 얻습니다."
+
+DarkMatter:
+  Name: 암흑 물질
+  Description: "|뽑을때 발동|: 이번 턴 |보존|됩니다.\n|응집|"
+  DetailText: "응집: |우츠호|의 무작위 카드 지정은 {SelfName}을 대상으로 합니다."
+
+ShootingStar:
+  Name: 유성
+  Description: "피해를 {Damage}씩 2번 줍니다.\n|응집|\n|응집될시 발동|: 방어를 {Block} 얻고 패에 |암흑 물질|을 추가합니다."
+  DetailText: "응집: |우츠호|의 무작위 카드 지정은 {SelfName}을 대상으로 합니다."
+
+CloakStar:
+  Name: 별의 망토
+  Description: "|방어|를 {Block} 얻습니다.\n패에 |암흑 물질|을 두장 추가합니다."
+
+SpaceScanner:
+  Name: 스페이스 스캐너
+  Description: "뽑을 카드 더미에 |암흑 물질|을 2장 추가합니다.\n|예지| {Scry}. 카드를 한장 뽑습니다."
+
+WarpShield:
+  Name: 왜곡 방패
+  Description: "|방어|를 {Block} 얻습니다.\n뽑을 카드 더미의 무작위 카드를 {Value2}장 패로 가져옵니다.\n|응집|한 만큼 |방어|를 추가로 {Value1} 얻습니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n뽑을 카드 더미의 무작위 카드를 {Value2}장 패로 가져옵니다.\n|응집|한 만큼 |보호막|을 추가로 {Value1} 얻습니다."
+
+VacuumSlash:
+  Name: 진공참
+  Description: "모든 적에게 피해를 {Damage} 줍니다.\n패의 무작위 카드를 한장 버립니다.\n|응집|했다면, 추가로 피해를 {Value1}번 더 줍니다."
+  UpgradedDescription: "모든 적에게 피해를 {Damage} 줍니다.\n패의 무작위 카드를 한장 버립니다.\n|응집|했다면, 추가로 피해를 {Value1}번 더 줍니다."
+
+AbyssNova:
+  Name: 어비스 노바
+  Description: "피해를 {Damage} 줍니다. |전장|의 |응집|카드 마다, {SelfName}가 추가로 피해를 {Value1} 줍니다."
+
+SubterraneanSun:
+  Name: 서브터레이니언 선
+  Description: "|손에 있을 경우:| {PlayerName}의 턴 시작시 |전장|의 무작위 카드를 {RemoveCount}장 제거하고 무작위 적에게 피해를 {Damage}씩 {RemoveCount}번 준다.\n{SelfName}이 |보존|된 턴만큼 이 효과를 추가로 반복합니다."
+
+NightFalls:
+  Name: 밤이 내려온다
+  Description: "패가 꽉찰때까지 |암흑 물질|을 얻습니다.\n패의 |응집|카드마다 피해를 {Value1} 줍니다. ({Damage})"
+ 
+BlackHole:
+  Name: 블랙홀
+  Description: "|손에 있을 경우:| {PlayerName}의 턴 시작시 |방어|를 {Block} 얻고 카드를 한장 버립니다."
+  DetailText: "{SelfName}을 사용하면 |소멸|할 뿐입니다."
+
+GravityWell:
+  Name: 중력 분출
+  Description: "{PlayerName}의 턴 종료시, |보호막|을 {Value1} 얻고 |암흑 물질|을 손에 1장 넣습니다."
+
+PlanetaryOrbit:
+  Name: 행성 궤도
+  Description: "뽑을 카드 더미와 버린 카드 더미를 바꿉니다.\n바뀐 카드의 수 만큼 모든 적에게 피해를 줍니다. ({Damage})\n바뀐 카드의 모든 |응집|카드를 |응집|합니다."
+  UpgradedDescription: "뽑을 카드 더미와 버린 카드 더미를 바꿉니다.\n바뀐 카드의 수의 두배 만큼 모든 적에게 피해를 줍니다. ({Damage})\n바뀐 카드의 모든 |응집|카드를 |응집|합니다."
+  DetailText: "그렇다고 해서 더미의 순서가 변경되지는 않습니다."
+
+Ultraviolet:
+  Name: 이글거리는 자외선
+  Description: "{Mana}를 얻습니다.\n|응집|\n|응집될 시 발동|: 카드를 {Value1}장 뽑습니다."
+  UpgradedDescriptionDescription: "{Mana}를 얻습니다.\n|응집|\n|응집될 시 발동|: 카드를 {Value1}장 뽑습니다."
+  DetailText: "응집: |우츠호|의 무작위 카드 지정은 {SelfName}을 대상으로 합니다."
+
+HighTension:
+  Name: 하이텐션 블레이드
+  Description: "뽑을 카드 더미에서 무작위 카드를 {Value1}장 버릴 카드 더미로 보냅니다.\n피해를 {Damage} 줍니다.\n|응집|한 카드 마다 피해량이 {Value2} 증가합니다."
+
+EscapeVelocity:
+  Name: 탈출 속도
+  Description: "카드를 무작위로 {Value2}장 버립니다.\n카드를 {Value1} 장 뽑습니다."
+  UpgradedDescription: "|선택|: 카드를 무작위로 {Value2}장 버리고 카드를 {Value1} 장 뽑거나, 카드를 {Value1} 장 뽑고 카드를 무작위로 {Value2}장 버립니다."
+  ExtraDescription2: "카드를 {Value1} 장 뽑고 카드를 무작위로 {Value2}장 버립니다."
+  ExtraDescription1: "카드를 무작위로 {Value2}장 버리고 카드를 {Value1} 장 뽑습니다."
+
+MassDriver:
+  Name: 매스 드라이버
+  Description: "|응집|될 때 마다, 모든 적에게 피해를 {Value1} 줍니다."
+
+ZeroPoint:
+  Name: 제로 포인트 모듈
+  Description: "|응집|.\n|응집될 시|: |보호막|을 {Shield} 얻고 |소멸|을 가진 {SelfName}의 복사본을 손에 넣습니다."
+  DetailText: "응집: |우츠호|의 무작위 카드 지정은 {SelfName}을 대상으로 합니다."
+
+SuperGiant:
+  Name: 초거성
+  Description: "피해를 {Damage} 줍니다.\n패의 |응집|카드 마다, {SelfName}의 {Mana}비용이 감소합니다."
+
+WhiteHole:
+  Name: 화이트홀
+  Description: "|턴 종료시|: |방어|를 {Block}얻고, 버린 카드 더미에 |암흑 물질|을 추가합니다."
+  DetailText: "{SelfName}을 사용하면 |소멸|될 뿐입니다."
+
+GravityDistortion:
+  Name: 공간 왜곡
+  Description: "모든 적에게 |허약|을 {Value2} 주고 피해를 {Damage} 줍니다.\n|응집|\n|응집될 시|: {Mana}를 얻습니다."
+  DetailText: "응집: |우츠호|의 무작위 카드 지정은 {SelfName}을 대상으로 합니다."
+
+FixedStar:
+  Name: 픽스드 스타
+  Description: "{PlayerName}의 턴 종료시, 손에서 카드를 {Value1}장 골라 이번 턴 |보존|합니다.\n모든 |암흑 물질|이 이 전투 동안 |자동소멸|을 얻습니다."
+
+Coolant:
+  Name: 냉각제
+  Description: "|전력| {Mana}: 화력을 {Value2} 얻습니다.\n|영력|을 {Value1} 얻습니다.\n손의 방어카드가 아닌 카드를 전부 버립니다."
+  DetailText: "전력: 이 카드를 사용할 때 모든 마나가 사용됩니다. 카드 비용과 전력 비용을 감당할 수 있다면 추가 효과를 얻습니다."
+
+Blueshift:
+  Name: 청색편이
+  Description: "|과잉전력| {Mana}: {SelfName}를 손으로 가져옵니다.\n|방어|를 {Block} 얻습니다."
+  UpgradedDescription: "|과잉전력| {Mana}: 강화된 {SelfName}를 손으로 가져옵니다\n|방어|를 {Block} 얻습니다."
+  DetailText: "과잉전력: 이 카드를 사용할 때 모든 마나가 사용됩니다. 카드 비용을 제외한 나머지 마나로 과잉전력의 비용을 충족할 때 마다 추가 효과가 발동합니다."
+
+Resonance:
+  Name: 공명
+  Description: "피해를 {Damage} 줍니다.\n남은 전투동안, {SelfName}이 피해를 추가로 {Value1} 줍니다.\n{SelfName}이외의 {PlayerName}의 카드가 |소멸|하면, {SelfName}을 패에 넣습니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n남은 전투동안, {SelfName}이 피해를 추가로 {Value1} 줍니다.\n{SelfName}이외의 {PlayerName}의 카드가 |소멸|하면, {SelfName}을 패에 넣습니다."
+
+Disintegrate:
+  Name: 붕괴
+  Description: "피해를 {Damage} 줍니다.\n|퇴치|: 카드를 한장 영구히 제거합니다."
+
+ExpandingBrilliance:
+  Name: 광휘 팽창
+  Description: "카드를 한장 뽑습니다.\n모든 적에게 |일시 화력 감소|를 {Value1} 부여합니다.\n이번 전투 동안 손의 카드를 한장 |강화|합니다."
+
+Caution:
+  Name: CAUTION!
+  Description: "{PlayerName}의 턴 시작시, |버스트|상태가 되고 |시간 제한| <sprite=\"ManaSprite\" name=\"1\">을 얻습니다."
+
+GammaRays:
+  Name: 감마광선
+  Description: "|방사능|을 {Value1} 얻습니다."
+  UpgradedDescription: "|방사능|을 {Value1} 얻습니다.\n|성장:| |방사능|을 추가로 {Value2} 얻습니다."
+
+Reignition:
+  Name: 재점화
+  Description: "|소멸|한 카드 수의 {Value1}배만큼 피해를 줍니다. ({Damage})"
+
+TurboFuel:
+  Name: 터보연료
+  Description: "{PlayerName}의 턴 시작시, {manatype}를 얻고 카드를 {Value1}장 뽑습니다.\n그 후 패의 무작위 카드를 |소멸|시킵니다."
+
+MaintainReaction:
+  Name: 유지보수
+  Description: "카드가 |보존|되면, |작열|을 {Value1} 얻습니다."
+
+Ignition:
+  Name: 점화
+  Description: "|{Mana}를 지불할 시:|\n|작열|을 {Value1} 얻고 패에 |암흑 물질|을 한장 추가합니다."
+
+Crossfeed:
+  Name: 교차공급
+  Description: "|냉각|하고 그 수치만큼 피해를 줍니다.\n패의 |응집|카드마다 |작열|을 {Value1} 얻습니다.\n{PlayerName}의 |작열| {Value2}마다 |암흑 물질|을 1장 손에 추가합니다."
+  ExtraDescription1: "|냉각|하고 피해를 {Damage} 줍니다.\n패의 |암흑 물질|마다 |작열|을 {Value1} 얻습니다.\n{PlayerName}의 |작열| 10마다 |암흑 물질|을 {Value2}장 손에 추가합니다."
+
+EternityEngine:
+  Name: 영구동력
+  Description: "|손에 있을 경우:| {PlayerName}의 턴 시작시 |화력|을 {Value1} 얻고 패의 무작위 카드를 |소멸|시킵니다."
+  DetailText: "{SelfName}을 사용하면 |소멸|할 뿐입니다."
+
+Starlight:
+  Name: 별빛
+  Description: "|방어|를 {Block} 얻습니다.\n|작열|을 {Value1} 얻습니다.\n|암흑 물질|을 2장 패에 추가합니다."
+  UpgradedDescription: "|보호막|을 {Shield} 얻습니다.\n|작열|을 {Value1} 얻습니다.\n|암흑 물질|을 2장 패에 추가합니다."
+
+QuantumDissonance:
+  Name: 양자 불일치
+  Description: "|응집|할 때마다, |응집될시|효과가 추가로 발동합니다."
+
+AlphaProtocol:
+  Name: 알파 프로토콜
+  Description: "뽑을 카드 더미에 |베타 프로토콜|을 추가합니다.\n패의 무작위 카드를 {Value1}장 버립니다."
+  UpgradedDescription: "뽑을 카드 더미에 |베타 프로토콜+|을 추가합니다.\n패의 무작위 카드를 {Value1}장 버립니다."
+
+BetaProtocol:
+  Name: 베타 프로토콜
+  Description: "뽑을 카드 더미에 |감마 프로토콜|을 추가합니다.\n패의 무작위 카드를 {Value1}장 |소멸|시킵니다."
+  UpgradedDescription: "뽑을 카드 더미에 |감마 프로토콜+|을 추가합니다.\n패의 무작위 카드를 {Value1}장 |소멸|시킵니다."
+
+GammaProtocol:
+  Name: 감마 프로토콜
+  Description: "|방사능|을 {Value1} 얻습니다."
+
+SunSpot:
+  Name: 인공태양의 흑점
+  Description: "|작열|을 {Value1} 얻습니다.\n|암흑 물질|을 손에 {Value2}장 추가합니다.\n|암흑 물질|을 사용할시, |작열|이 소모되지 않고 발동합니다."
+  UpgradedDescription: "|작열|을 {Value1} 얻습니다.\n|암흑 물질|을 손에 {Value2}장 추가합니다.\n|암흑 물질|을 사용할시, |작열|이 소모되지 않고 두번 발동합니다."
+
+AblativeArmor:
+  Name: 융제 장갑
+  Description: "|방어|를 {Block} 얻습니다.\n패의 모든 |응집|카드를 |소멸|시키고, |소멸|한 만큼 |보호막|을 {Value1} 얻습니다."
+
+SpatialRend:
+  Name: 공간 절단
+  Description: "|소멸|된 카드중 무작위 {Value1}장을 손으로 가져옵니다.\n피해를 {Damage} 줍니다.\n가져온 카드 마다, 피해를 추가로 {Value2} 주며, |응집|됐다면 대신 {doubleValue} 줍니다."
+
+SunCrow:
+  Name: 태양을 훔친 까마귀
+  Description: "|전장|의 무작위 카드를 {Value2}장 제거합니다.\n제거된 카드마다 |작열|을 {Value1} 얻습니다. ({RemoveCount})"
+
+HotSpring:
+  Name: 구 지옥 온천
+  Description: "{PlayerName}의 턴 시작시, |방사능|을 {Value1} 얻고 이 값이 1 증가합니다."
+
+Dojo:
+  Name: "오쿠의 뉴클리어퓨전 도장"
+  Description: "|화력|을 {Value1} 얻습니다.\n즉시 턴을 종료합니다."
+
+Remember:
+  Name: "도와주세요! 사토리님"
+  Description: "|소멸|한 카드들을 골라 패로 가져옵니다."

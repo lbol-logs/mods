@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7C7DA050-F23A-49DE-B0A7-D39BE9DC2041}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sanae_Kochiya</RootNamespace>
+    <AssemblyName>Sanae_Kochiya</AssemblyName>
+    <TargetFrameworkVersion>v2.1</TargetFrameworkVersion>
+    <TargetFrameworkIdentifier>.NETStandard</TargetFrameworkIdentifier>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony" />
+    <Reference Include="BepInEx" />
+    <Reference Include="LBoL-AddWatermark" />
+    <Reference Include="LBoL-Entity-Sideloader" />
+    <Reference Include="LBoL.Base">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.ConfigData">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.ConfigData.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.Core">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.EntityLib">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.EntityLib.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.Presentation">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.Presentation.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="spine-unity" />
+    <Reference Include="UniTask">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\UniTask.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BepinexPlugin.cs" />
+    <Compile Include="Cards\Template\CardIndexGenerator.cs" />
+    <Compile Include="Cards\Template\SampleCharacterCard.cs" />
+    <Compile Include="Cards\Template\SampleCharacterCardTemplate.cs" />
+    <Compile Include="Exhibits\SampleCharacterExhibitTemplate.cs" />
+    <Compile Include="Exhibits\SanaeExhibitU.cs" />
+    <Compile Include="Exhibits\SanaeExhibitUDef.cs" />
+    <Compile Include="Exhibits\SanaeExhibitW.cs" />
+    <Compile Include="Exhibits\SanaeExhibitWDef.cs" />
+    <Compile Include="GunName\GunNameID.cs" />
+    <Compile Include="ImageLoader\SampleCharacterImageLoader.cs" />
+    <Compile Include="model\SampleCharacterModel.cs" />
+    <Compile Include="PInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SampleCharacterLoadouts.cs" />
+    <Compile Include="SampleCharacterPlayerDef.cs" />
+    <Compile Include="SampleCharacterUlt\SampleCharacterUltTemplate.cs" />
+    <Compile Include="SampleCharacterUlt\SanaeUltU.cs" />
+    <Compile Include="SampleCharacterUlt\SanaeUltUDef.cs" />
+    <Compile Include="SampleCharacterUlt\SanaeUltW.cs" />
+    <Compile Include="SampleCharacterUlt\SanaeUltWDef.cs" />
+    <Compile Include="Siji_OnBattleStarted_Patch.cs" />
+    <Compile Include="Source\Boss\Sanae_KochiyaBossDef.cs" />
+    <Compile Include="Source\Boss\Sanae_KochiyaGroupDef.cs" />
+    <Compile Include="Source\Cards\Common\SanaeAttackAmulet.cs" />
+    <Compile Include="Source\Cards\Common\SanaeAttackAmuletDef.cs" />
+    <Compile Include="Source\Cards\Common\SanaeAttackGraze.cs" />
+    <Compile Include="Source\Cards\Common\SanaeAttackGrazeDef.cs" />
+    <Compile Include="Source\Cards\Common\SanaeAttackOverdraft.cs" />
+    <Compile Include="Source\Cards\Common\SanaeAttackOverdraftDef.cs" />
+    <Compile Include="Source\Cards\Common\SanaeAttackSpirit.cs" />
+    <Compile Include="Source\Cards\Common\SanaeAttackSpiritDef.cs" />
+    <Compile Include="Source\Cards\Common\SanaeAttackStatus.cs" />
+    <Compile Include="Source\Cards\Common\SanaeAttackStatusDef.cs" />
+    <Compile Include="Source\Cards\Common\SanaeBlockDiscard.cs" />
+    <Compile Include="Source\Cards\Common\SanaeBlockDiscardDef.cs" />
+    <Compile Include="Source\Cards\Common\SanaeBlockTalisman.cs" />
+    <Compile Include="Source\Cards\Common\SanaeBlockTalismanDef.cs" />
+    <Compile Include="Source\Cards\Common\SanaeDrawDiscard.cs" />
+    <Compile Include="Source\Cards\Common\SanaeDrawDiscardDef.cs" />
+    <Compile Include="Source\Cards\Common\SanaeDrawOrder.cs" />
+    <Compile Include="Source\Cards\Common\SanaeDrawOrderDef.cs" />
+    <Compile Include="Source\Cards\Common\SanaeDrawWard.cs" />
+    <Compile Include="Source\Cards\Common\SanaeDrawWardDef.cs" />
+    <Compile Include="Source\Cards\Common\SanaeGrazeAmulet.cs" />
+    <Compile Include="Source\Cards\Common\SanaeGrazeAmuletDef.cs" />
+    <Compile Include="Source\Cards\Common\SanaePowerPotato.cs" />
+    <Compile Include="Source\Cards\Common\SanaePowerPotatoDef.cs" />
+    <Compile Include="Source\Cards\Common\SanaePowerTemp.cs" />
+    <Compile Include="Source\Cards\Common\SanaePowerTempDef.cs" />
+    <Compile Include="Source\Cards\Common\SanaeScryPower.cs" />
+    <Compile Include="Source\Cards\Common\SanaeScryPowerDef.cs" />
+    <Compile Include="Source\Cards\Common\SanaeWardReflect.cs" />
+    <Compile Include="Source\Cards\Common\SanaeWardReflectDef.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeAttackDebuff.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeAttackDebuffDef.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeAttackWeak.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeAttackWeakDef.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeDrawDebuff.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeDrawDebuffDef.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeGrazeWard.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeGrazeWardDef.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeKanakoFriend.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeKanakoFriendDef.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeLifeAmulet.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeLifeAmuletDef.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeLifeStatus.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeLifeStatusDef.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeMiracleAbility.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeMiracleAbilityDef.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaePowerOmikuji.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaePowerOmikujiDef.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeReimuAbility.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeReimuAbilityDef.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeScryReturn.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeScryReturnDef.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeSpiritDebuff.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeSpiritDebuffDef.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeSuwakoFriend.cs" />
+    <Compile Include="Source\Cards\Offcolor\SanaeSuwakoFriendDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeAmuletDebuff.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeAmuletDebuffDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeAmuletDebuffFrail.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeAmuletDebuffFrailDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeAmuletDebuffVuln.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeAmuletDebuffVulnDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeAmuletDebuffWeak.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeAmuletDebuffWeakDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeAttackOrder.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeAttackOrderDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeAttackPower.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeAttackPowerDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeAttackTwice.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeAttackTwiceDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeBlockWard.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeBlockWardDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeColorRandom.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeColorRandomDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeCuriousAbility.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeCuriousAbilityDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeExileDamage.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeExileDamageDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeExilePower.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeExilePowerDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeHisouHead.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeHisouHeadDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeHisouLeftArm.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeHisouLeftArmDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeHisouLeftLeg.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeHisouLeftLegDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeHisouRightArm.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeHisouRightArmDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeHisouRightLeg.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeHisouRightLegDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeManaRandom.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeManaRandomDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeManaSynergy.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeManaSynergyDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeOrderShuffle.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeOrderShuffleDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeScryShuffle.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeScryShuffleDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeSpellMana.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeSpellManaDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeSpellPower.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeSpellPowerDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeStatusSynergy.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeStatusSynergyDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeToolNews.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeToolNewsDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeWardTalisman.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeWardTalismanDef.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeWineSplash.cs" />
+    <Compile Include="Source\Cards\Rare\SanaeWineSplashDef.cs" />
+    <Compile Include="Source\Cards\Starter\SanaeAttackU.cs" />
+    <Compile Include="Source\Cards\Starter\SanaeAttackUDef.cs" />
+    <Compile Include="Source\Cards\Starter\SanaeAttackW.cs" />
+    <Compile Include="Source\Cards\Starter\SanaeAttackWDef.cs" />
+    <Compile Include="Source\Cards\Starter\SanaeBlockG.cs" />
+    <Compile Include="Source\Cards\Starter\SanaeBlockGDef.cs" />
+    <Compile Include="Source\Cards\Starter\SanaeStarterU.cs" />
+    <Compile Include="Source\Cards\Starter\SanaeStarterUDef.cs" />
+    <Compile Include="Source\Cards\Starter\SanaeStarterW.cs" />
+    <Compile Include="Source\Cards\Starter\SanaeStarterWDef.cs" />
+    <Compile Include="Source\Cards\Starter\SanaeStatus.cs" />
+    <Compile Include="Source\Cards\Starter\SanaeStatusDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeAmuletTalisman.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeAmuletTalismanDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeAttackBlock.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeAttackBlockDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeAttackCopy.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeAttackCopyDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeAttackExpel.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeAttackExpelDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeAttackRandom.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeAttackRandomDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeAttackRebuff.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeAttackRebuffDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeBlockMana.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeBlockManaDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeBlockRebuff.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeBlockRebuffDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeBlockShuffle.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeBlockShuffleDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeDazzleDash.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeDazzleDashDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeDrawAbility.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeDrawAbilityDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeDrawSplash.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeDrawSplashDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeDrawTalisman.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeDrawTalismanDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeDrawTemp.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeDrawTempDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeManaShuffle.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeManaShuffleDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeManaTemp.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeManaTempDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeManaTurbo.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeManaTurboDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeMoneyWard.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeMoneyWardDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeSpellDamage.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeSpellDamageDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeSpiritMana.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeSpiritManaDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeSpiritShuffle.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeSpiritShuffleDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeSpiritTalisman.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeSpiritTalismanDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeStatusTalisman.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeStatusTalismanDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeUpgradeWard.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeUpgradeWardDef.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeWardAmulet.cs" />
+    <Compile Include="Source\Cards\Uncommon\SanaeWardAmuletDef.cs" />
+    <Compile Include="Source\Config\SampleCharacterDefaultConfig.cs" />
+    <Compile Include="Source\Exhibits\SanaeClayVolcano.cs" />
+    <Compile Include="Source\Exhibits\SanaeClayVolcanoDef.cs" />
+    <Compile Include="Source\Exhibits\SanaeExpiredCoupon.cs" />
+    <Compile Include="Source\Exhibits\SanaeExpiredCouponDef.cs" />
+    <Compile Include="Source\Exhibits\SanaeLibraryCard.cs" />
+    <Compile Include="Source\Exhibits\SanaeLibraryCardDef.cs" />
+    <Compile Include="Source\Localization\SampleCharacterLocalization.cs" />
+    <Compile Include="Source\StatusEffects\AmuletForEnemy.cs" />
+    <Compile Include="Source\StatusEffects\AmuletForEnemyDef.cs" />
+    <Compile Include="Source\StatusEffects\NextTurnLoseFire.cs" />
+    <Compile Include="Source\StatusEffects\NextTurnLoseFireDef.cs" />
+    <Compile Include="Source\StatusEffects\NextTurnLosePower.cs" />
+    <Compile Include="Source\StatusEffects\NextTurnLosePowerDef.cs" />
+    <Compile Include="Source\StatusEffects\OmikujiBonusSe.cs" />
+    <Compile Include="Source\StatusEffects\OmikujiBonusSeDef.cs" />
+    <Compile Include="Source\StatusEffects\SanaeAttackBlockSe.cs" />
+    <Compile Include="Source\StatusEffects\SanaeAttackBlockSeDef.cs" />
+    <Compile Include="Source\StatusEffects\SanaeBlockShuffleSe.cs" />
+    <Compile Include="Source\StatusEffects\SanaeBlockShuffleSeDef.cs" />
+    <Compile Include="Source\StatusEffects\SanaeDrawTempSe.cs" />
+    <Compile Include="Source\StatusEffects\SanaeDrawTempSeDef.cs" />
+    <Compile Include="Source\StatusEffects\SanaeExileDamageSe.cs" />
+    <Compile Include="Source\StatusEffects\SanaeExileDamageSeDef.cs" />
+    <Compile Include="Source\StatusEffects\SanaeGrazeWardSe.cs" />
+    <Compile Include="Source\StatusEffects\SanaeGrazeWardSeDef.cs" />
+    <Compile Include="Source\StatusEffects\SanaeKanakoFriendSe.cs" />
+    <Compile Include="Source\StatusEffects\SanaeKanakoFriendSeDef.cs" />
+    <Compile Include="Source\StatusEffects\SanaeOrderShuffleSe.cs" />
+    <Compile Include="Source\StatusEffects\SanaeOrderShuffleSeDef.cs" />
+    <Compile Include="Source\StatusEffects\SanaePowerPotatoSe.cs" />
+    <Compile Include="Source\StatusEffects\SanaePowerPotatoSeDef.cs" />
+    <Compile Include="Source\StatusEffects\SanaeSpellDamageSe.cs" />
+    <Compile Include="Source\StatusEffects\SanaeSpellDamageSeDef.cs" />
+    <Compile Include="Source\StatusEffects\SanaeSpellManaGreenSe.cs" />
+    <Compile Include="Source\StatusEffects\SanaeSpellManaGreenSeDef.cs" />
+    <Compile Include="Source\StatusEffects\SanaeSpellManaPhiloSe.cs" />
+    <Compile Include="Source\StatusEffects\SanaeSpellManaPhiloSeDef.cs" />
+    <Compile Include="Source\StatusEffects\SanaeSpiritManaSe.cs" />
+    <Compile Include="Source\StatusEffects\SanaeSpiritManaSeDef.cs" />
+    <Compile Include="Source\StatusEffects\SanaeStatusTalismanSe.cs" />
+    <Compile Include="Source\StatusEffects\SanaeStatusTalismanSeDef.cs" />
+    <Compile Include="Source\StatusEffects\SanaeWardTalismanSe.cs" />
+    <Compile Include="Source\StatusEffects\SanaeWardTalismanSeDef.cs" />
+    <Compile Include="Source\StatusEffects\TurnStartDontLoseMana.cs" />
+    <Compile Include="Source\StatusEffects\TurnStartDontLoseManaDef.cs" />
+    <Compile Include="StatusEffects\SampleCharacterCustomKeywordSe.cs" />
+    <Compile Include="StatusEffects\SampleCharacterCustomKeywordSeDef.cs" />
+    <Compile Include="StatusEffects\SampleCharacterStatusEffectTemplate.cs" />
+    <Compile Include="System\Runtime\CompilerServices\IgnoresAccessChecksToAttribute.cs" />
+    <Compile Include="WatermarkWrapper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Cards\SanaeAmuletDebuff.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeAmuletDebuffFrail.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeAmuletDebuffVuln.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeAmuletDebuffWeak.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeAmuletTalisman.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeAttackAmulet.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeAttackBlock.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeAttackCopy.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeAttackDebuff.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeAttackExpel.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeAttackGraze.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeAttackOrder.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeAttackOverdraft.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeAttackPower.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeAttackRandom.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeAttackRebuff.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeAttackSpirit.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeAttackStatus.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeAttackTwice.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeAttackU.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeAttackW.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeAttackWeak.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeBlockDiscard.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeBlockG.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeBlockMana.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeBlockRebuff.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeBlockShuffle.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeBlockTalisman.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeBlockWard.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeColorRandom.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeCuriousAbility.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeDazzleDash.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeDrawAbility.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeDrawDebuff.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeDrawDiscard.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeDrawOrder.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeDrawSplash.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeDrawTalisman.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeDrawTemp.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeDrawWard.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeExileDamage.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeExilePower.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeGrazeAmulet.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeGrazeWard.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeHisouHead.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeHisouLeftArm.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeHisouLeftLeg.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeHisouRightArm.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeHisouRightLeg.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeKanakoFriend.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeLifeAmulet.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeLifeStatus.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeManaRandom.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeManaShuffle.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeManaSynergy.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeManaTemp.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeManaTurbo.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeMiracleAbility.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeMoneyWard.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeOrderShuffle.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaePowerOmikuji.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaePowerPotato.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaePowerTemp.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeReimuAbility.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeScryPower.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeScryReturn.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeScryShuffle.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeSpellDamage.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeSpellMana.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeSpellPower.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeSpiritDebuff.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeSpiritMana.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeSpiritShuffle.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeSpiritTalisman.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeStarterU.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeStarterW.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeStatus.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeStatusSynergy.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeStatusTalisman.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeSuwakoFriend.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeToolNews.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeUpgradeWard.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeWardAmulet.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeWardReflect.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeWardTalisman.png" />
+    <EmbeddedResource Include="Resources\Cards\SanaeWineSplash.png" />
+    <EmbeddedResource Include="Resources\Exhibits\SanaeClayVolcano.png" />
+    <EmbeddedResource Include="Resources\Exhibits\SanaeExhibitU.png" />
+    <EmbeddedResource Include="Resources\Exhibits\SanaeExhibitW.png" />
+    <EmbeddedResource Include="Resources\Exhibits\SanaeExpiredCoupon.png" />
+    <EmbeddedResource Include="Resources\Exhibits\SanaeLibraryCard.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\Bulwark.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\NextTurnPowerLoss.png" />
+    <EmbeddedResource Include="Resources\Ult\SanaeUltA.png" />
+    <EmbeddedResource Include="Resources\Ult\SanaeUltB.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

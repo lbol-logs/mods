@@ -1,0 +1,125 @@
+PatchouliBoostSe:
+  Name: "增幅"
+  Description: ""
+  Brief: "此牌在你手中时，当你使用一张其他手牌后，|增幅|层数增加1。\n卡牌最多可以|增幅|9层。\n卡牌|增幅|后会获得额外效果。\n卡牌被打出并触发该额外效果后，清除其|增幅|。"
+
+PatchouliSignKeywordSe:
+  Name: "曜符"
+  Description: ""
+  Brief: "获得对应种类的|曜符|。\n获得时以及回合开始时，触发|曜符|的|被动|效果。\n获得|曜符|后的第三个回合开始时，移除并触发|曜符|的|主动|效果。"
+
+PatchouliCounterSe:
+  Name: "反制"
+  Description: "当敌人将要实施这个意图时，触发对应的效果。"
+  Brief: "当敌人将要实施这个意图时，触发对应的效果。"
+
+PatchouliFireSignSe:
+  Name: 火符
+  Description: "|被动|：对生命值最低的敌人造成 {PassiveAmount} 点伤害。\n|主动|：对生命值最低的敌人造成 {ActiveAmount} 点伤害。获得<sprite=\"ManaSprite\" name=\"R\">。"
+  Brief: "|被动|对生命值最低的敌人造成 3 点伤害。\n|主动|对生命值最低的敌人造成 5 点伤害。获得<sprite=\"ManaSprite\" name=\"R\">。"
+
+PatchouliWaterSignSe:
+  Name: 水符
+  Description: "|被动|获得 {PassiveAmount} 点|护盾|。\n|主动|获得 {ActiveAmount} 点|护盾|。获得<sprite=\"ManaSprite\" name=\"U\">。"
+  Brief: "|被动|获得 1 点|护盾|。\n|主动|获得 3 点|护盾|。 获得<sprite=\"ManaSprite\" name=\"U\">。"
+
+PatchouliWoodSignSe:
+  Name: 木符
+  Description: "|被动|：|主动效果|造成的伤害提升 {PassiveAmount} 点。\n|主动|：对生命值最高的敌人造成 {ActiveAmount} 点伤害。获得<sprite=\"ManaSprite\" name=\"G\">。"
+  Brief: "|被动|：|主动效果|造成的伤害提升 5 点。\n|主动|：对生命值最高的敌人造成 5 点伤害。获得<sprite=\"ManaSprite\" name=\"G\">。"
+
+PatchouliMetalSignSe:
+  Name: 金符
+  Description: "|被动|：获得 {PassiveAmount} 点|反射|。\n|主动|：获得 {ActiveAmount} 点|反射|获得<sprite=\"ManaSprite\" name=\"1\">。"
+  Brief: "|被动|获得 3 点|反射|。\n|主动|获得 5 点|反射|。获得<sprite=\"ManaSprite\" name=\"1\">。"
+
+PatchouliEarthSignSe:
+  Name: 土符
+  Description: "|被动|：将 {PassiveAmount} 点随机法力转变为|彩色|。\n|主动|：将 {ActiveAmount} 点随机法力转变为彩色。获得<sprite=\"ManaSprite\" name=\"P\">。"
+  Brief: "|被动|：将 1 点随机法力转变为|彩色|。\n|主动|：将 2 点随机法力转变为彩色。获得<sprite=\"ManaSprite\" name=\"P\">。"
+
+PatchouliSunSignSe:
+  Name: 日符
+  Description: "|被动|：对所有敌人造成 {PassiveAmount} 点伤害。\n|主动|对所有敌人造成 {ActiveAmount} 点伤害。获得<sprite=\"ManaSprite\" name=\"W\">。"
+  Brief: "|被动|：对所有敌人造成 2 点伤害。\n|主动|：对所有敌人造成 4 点伤害。获得<sprite=\"ManaSprite\" name=\"W\">。"
+
+PatchouliMoonSignSe:
+  Name: 月符
+  Description: "|被动|：获得 {PassiveAmount} 点|格挡|。\n|主动|：获得 {ActiveAmount} 点|格挡|。获得<sprite=\"ManaSprite\" name=\"B\">。"
+  Brief: "|被动|：获得 2 点|格挡|。\n|主动|：获得 4 点|格挡|。获得<sprite=\"ManaSprite\" name=\"B\">。"
+
+PatchouliAstronomyStudySe:
+  Name: 天文研习
+  Description: "{PlayerName}的回合开始时，如果手中没有|天文学|，将 {Level} 张|天文学|加入手中。"
+
+PatchouliAwakenedSpellbookSe:
+  Name: 觉醒的法术书
+  Description: "当{PlayerName}打出一张|增幅|层数至少为 {BoostThreshold1} 层的|增幅|牌后，|咏唱| {Level} 个|火符|。"
+
+PatchouliCircadianRhythmSe:
+  Name: 昼夜节律
+  Description: "当|日符|或|月符|触发|主动|效果后，|咏唱|等量的|月符|或|日符| {Level} 次。"
+  
+PatchouliCurrentConductorSe:
+  Name: 导电体
+  Description: "当|水符|触发时，对所有敌人施加 {Level} 层|溺水|，然后触发|溺水|的效果。"
+
+PatchouliFiveSeasonsSe:
+  Name: 五季
+  Description: "{PlayerName}的回合结束时，正在咏唱的|曜符|触发|被动效果| {Level} 次。"
+
+PatchouliIntelligenceSe:
+  Name: 魔力
+  Description: "|魔力|提升|咏唱符|的效果值 {Level} 点。"
+  Brief: "|魔力|提升|咏唱符|的效果值。"
+  
+PatchouliKoakumaFriendSe:
+  Name: 恶魔助手小恶魔
+  Description: "|火符|在本场战斗中额外造成 {Level} 点伤害。"
+
+PatchouliOneWeekGirlSe:
+  Name: 七曜少女
+  Description: "{PlayerName}的回合开始时，|咏唱| {Level} 个|曜符|，|曜符|的种类每回合都会切换。\n下一个符：|{NextSign}| |曜符|。"
+  Brief: "火水木金土日月"
+
+PatchouliPhlogisticPillarSe:
+  Name: 燃素之柱
+  Description: "当{PlayerName}打出一张|增幅|牌后，获得 {Level} 点|护盾|。"
+
+PatchouliSatelliteHimawariSe:
+  Name: 卫星向日葵
+  Description: "|木符|的|被动|效果改为对本场战斗中的所有|木符|生效。\n|木符|的伤害增加 {BonusDamage} 点。"
+
+PatchouliGirlOfShadeSe:
+  Name: 影之少女
+  Description: "当一张|状态|牌或|厄运|牌被|放逐|时，获得 {Level} 点|火力|和|灵力|。"
+
+PatchouliGrandIncantationSe:
+  Name: 大型咒语
+  Description: "当{PlayerName}打出一张|增幅|牌后，对生命值最高的敌人造成|增幅层数| {Level} 倍的伤害。"
+  
+PatchouliSaintElmoPillarSe:
+  Name: 圣爱尔摩之柱
+  Description: "当|反射|触发时，对所有敌人造成|反射|点数 {Level} 倍的伤害。" 
+
+PatchouliSpellPowerGraspSe:
+  Name: 法力掌握
+  Description: "在每个回合开始时，|增幅|手中的所有牌 {Level} 次。"
+
+PatchouliTemporaryIntelligenceSe:
+  Name: 暂得魔力
+  Description: "|魔力|增加，直到回合结束。\n|魔力|提升|曜符|的效果值 {Level} 点。"
+  Brief: "|魔力|增加，直到回合结束。\n|魔力|提升|曜符|的效果值。"
+
+PatchouliEnigmaticMagicSe:
+  Name: 神秘魔法
+  Description: "当{PlayerName}|咏唱|后，获得 {Level} 点格挡。"
+  Brief: "当{PlayerName}|咏唱|后，获得 1 点格挡。"
+  
+PatchouliTheUnmovingGreatLibrarySe:
+  Name: 不动的大图书馆
+  Description: "当一个|曜符|触发|主动|效果后，获得 {Level} 点|魔力|。"
+
+PatchouliVoileSe:
+  Name: 伏瓦尔魔法图书馆
+  Description: "当{PlayerName}打出一张|增幅|牌后，根据其|增幅|层数触发以下效果：\n{BoostThreshold1}：抽 {Level} 张牌。\n{BoostThreshold2}：获得{Mana}。\n{BoostThreshold3}获得 {Level} 点|火力|。"

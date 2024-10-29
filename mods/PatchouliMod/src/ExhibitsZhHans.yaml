@@ -1,0 +1,22 @@
+PatchouliExhibitU:
+  Name: 水之魔导书
+  Description: |-
+    提供基础法力{Mana}。|帕秋莉|的专属卡牌会加入牌池。
+    每场战斗的第一回合开始时，将一张|天文学|加入手中。
+    当一张|增幅|层数不小于 {BoostThreshold1} 的牌被打出时， 获得 {Value2} 点格挡。
+  FlavorText: 有一本魔导书至今仍被隔壁森林的一位魔法师'借' 走着。
+
+PatchouliExhibitB:
+  Name: 元素印记
+  Description: |-
+    提供基础法力{Mana}。|帕秋莉|的专属卡牌会加入牌池。
+    {PlayerName}的回合开始时，如果{PlayerName}没有|火符|，|咏唱| {Value1} 个|火符|。
+  FlavorText: 元素魔法借用了自然之力，以最小的魔力输入引发强大的效果。
+
+PatchouliAltExhibitB:
+  Name: 元素印记
+  Description: |-
+    提供基础法力{Mana}。
+    每场战斗的第一回合开始时，|咏唱| {Value1} 个|火符|。
+    当|符|触发|主动|效果后，获得 {Value2} 点|魔力|。
+  FlavorText: 元素魔法借用了自然之力，以最小的魔力输入引发强大的效果。

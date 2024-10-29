@@ -1,0 +1,632 @@
+PatchouliAttackU:
+  Name: Water Dragon
+  Description: |-
+    Deal {Damage} damage.
+
+PatchouliBlockB:
+  Name: Moonlight Shadow
+  Description: |-
+    Gain {Block} |Block|.
+
+PatchouliAttackB:
+  Name: Source of Magic
+  Description: |-
+    Deal {Damage} damage.
+
+PatchouliBlockU:
+  Name: Midnight Studies
+  Description: |-
+    Gain {Block} |Block|.
+
+PatchouliAstronomy:
+  Name: Astronomy
+  Description: |-
+    Draw {Value1} card.
+    |Boost| {BoostThreshold1}: Gain {Mana}.
+
+PatchouliCondensedBubble:
+  Name: Condensed Bubble
+  Description: |-
+    Deal {Damage} damage {Value2} times.
+    |For each Boost|: Deal {Value1} additional damage.
+
+PatchouliAgniShine:
+  Name: Agni Shine
+  Description: |-
+    Deal {Damage} damage {Value2} times.
+    |Spellcast| {Value1} |Fire Sign|.  
+  UpgradedDescription: |-
+    Deal {Damage} damage {Value2} times.
+    |Spellcast| {Value1} |Fire Sign|.
+    Trigger |Fire Sign's| |Passive| effect.  
+  
+PatchouliObservatory:
+  Name: Observatory
+  Description: |-
+    Deal {Damage} damage.
+    Add {Value1} |Astronomy| to the hand.
+  UpgradedDescription: |-
+    Deal {Damage} damage.
+    Add {Value1} |Astronomy| to the hand.
+    |Boost| all the cards in the hand.
+
+PatchouliNegate:
+  Name: Negate
+  Description: |-
+    |Counter Attack|: Gain {Block} |Block|.
+    |Counter Status|: Gain {Value1} |Ward|.
+
+PatchouliManaDrain:
+  Name: Mana Drain
+  Description: |-
+    Deal {Damage} damage.
+    |Boost| {BoostThreshold1}: Apply {Value1} |Weak|.
+
+PatchouliFatesHand:
+  Name: Fate's Hand
+  Description: |-
+    Draw {Value1} cards.
+    |For each Boost|: {SelfName} costs {Mana} less to play.
+
+PatchouliArcaneWard:
+  Name: Arcane Ward
+  Description: |-
+    Gain {Block} |Block|.
+    Gain {Value2} |Reflection|.
+    |For each Boost|: Gain {Value1} additional |Block| and |Reflection|.
+
+PatchouliDistortionField:
+  Name: Distortion Field
+  Description: |-
+    Gain {Value1} |Graze|.
+    |Boost| all the cards in the hand.
+  UpgradedDescription: |-
+    Gain {Value1} |Graze|.
+    |Boost| all the cards in the hand twice.
+
+PatchouliDiamondRing:
+  Name: Diamond Ring
+  Description: |-
+    Deal {Damage} damage.
+    |Choose|: |Spellcast| {Value1} |Sun Sign|, or |Spellcast| {Value1} |Moon Sign|.  
+  ExtraDescription1: |-
+    |Spellcast| {Value1} |Sun Sign|.
+  ExtraDescription2: |-
+    |Spellcast| {Value1} |Moon Sign|.
+
+PatchouliSilverDragon:
+  Name: Silver Dragon
+  Description: |-
+    Gain {Block} |Block|.
+    |Spellcast| {Value1} |Metal Sign|.
+  UpgradedDescription: |-
+    Gain {Block} |Block|.
+    |Spellcast| {Value1} |Metal Sign|.
+    Trigger |Metal Sign's| |Passive| effect.  
+
+PatchouliFlashOfSpring:
+  Name: Flash of Spring
+  Description: |-
+    Draw {Value1} card{Value1:plural one='' other='s'}.
+    |Spellcast| {Value2} |Wood Sign|. 
+
+PatchouliSunshineReflector:
+  Name: Sunshine Reflector
+  Description: |-
+    Deal {Damage} damage to each enemy.
+    |Spellcast| {Value1} |Sun Sign|.  
+
+PatchouliSilentSelene:
+  Name: Silent Selene
+  Description: |-
+    Gain {Block} |Block|.
+    |Spellcast| {Value1} |Moon Sign|.  
+
+PatchouliWaterElf:
+  Name: Water Elf
+  Description: |-
+    Deal {Damage} damage.
+    |Spellcast| {Value1} |Water Sign|.
+    |Spellcast| {Value1} |Wood Sign|.
+    |For each Boost|: {SelfName} costs {Mana} less to play.
+
+PatchouliTidalWave:
+  Name: Tidal Wave
+  Description: |-
+    Apply or Add {Value1} |Drowning|.
+    Trigger the enemy's |Drowning|.
+    |Boost| {BoostThreshold1}: Apply or Add {Value2} additional |Drowning|.
+
+PatchouliEveryAngleShot:
+  Name: Every Angle Shot 
+  Description: |-
+    Deal {Damage} damage.
+    |Boost| {BoostThreshold1}: At the start of {PlayerName}'s next turn, return {SelfName} from the |Exile| pile to the hand. 
+  
+PatchouliOldEveryAngleShot:
+  Name: Every Angle Shot 
+  Description: |-
+    Deal {Damage} damage {Value1} times.
+    |For each Boost|: {SelfName} costs {Mana} less to play.
+  UpgradedDescription: |-
+    Deal {Damage} damage {Value1} times.
+    |For each Boost|: {SelfName} costs {Mana} less to play.
+
+PatchouliTwinspell:
+  Name: Twinspell 
+  Description: |-
+    Draw {Value1} card.
+    |While in hand|: When a |Boost| card is played, transform {SelfName} card into a copy of that card for the rest of combat and gain its |Boost|.
+  UpgradedDescription: |-
+    Draw {Value1} card.
+    |While in hand|: When a |Boost| card is played, transform {SelfName} card into an |Upgraded| copy of that card for the rest of combat and gain its |Boost|.
+
+PatchouliMoonlitChill:
+  Name: Moonlit Chill
+  Description: |-
+    Gain {Value1} |Firepower| and {Value2} |Spirit|.
+    |Boost| {BoostThreshold1}: Gain {Value2} additional |Firepower|.
+    |Boost| {BoostThreshold2}: Gain {Value1} additional |Spirit|.
+  
+PatchouliBuryInLake:
+  Name: Bury In Lake
+  Description: |-
+    Gain {Block} |Block|.
+    |Spellcast| {Value1} |Water Sign|.
+  UpgradedDescription: |-
+    Gain {Shield} |Barrier|.
+    |Spellcast| {Value1} |Water Sign|.
+
+PatchouliConcentration:
+  Name: Concentration
+  Description: |-
+    Draw {Value1} cards.
+    |Boost| all the cards in the hand.
+    |Boost| {BoostThreshold1} and {BoostThreshold2}: Gain {Value2} |Block|.
+  
+PatchouliMoongazing:
+  Name: Moongazing
+  Description: |-
+    Gain {Block} |Block|.
+    Add {Value1} |Astronomy| to the hand.
+  UpgradedDescription: |-
+    Gain {Block} |Block|.
+    Add {Value1} |Astronomy| to the hand.
+    |Boost| all the cards in the hand.
+
+PatchouliPhlogisticRain:
+  Name: Phlogistic Rain
+  Description: |-
+    Deal {Damage} damage {Value2} times.
+    |Boost| {BoostThreshold1}: Gain {Mana} and draw {Value1} card.
+
+PatchouliSpellMastery:
+  Name: Spell Mastery
+  Description: |-
+    Deal {Damage} damage.
+    |Boost| {BoostThreshold1}: Add a |Splash| to the hand.
+    |Boost| {BoostThreshold2}: |Upgrade| it.
+  UpgradedDescription: |-
+    Deal {Damage} damage.
+    |Boost| {BoostThreshold1}: Add a |Rainbow| to the hand.
+    |Boost| {BoostThreshold2}: |Upgrade| it.
+
+PatchouliGrandIncantation:
+  Name: Grand Incantation
+  Description: |-
+    Whenever a |Boost| card is played, deal damage to the enemy with the most life equal to that card's |Boost|.
+
+PatchouliCounterspell:
+  Name: Counterspell
+  Description: |-
+    |Counter Attack|: Gain {Value1} |Graze|.
+    |Counter Accurate Attack|: Gain {Block} Block.
+    |Counter Spellcard|: Gain {Block} |Barrier|.
+
+PatchouliSpellPowerGrasp:
+  Name: Spell Power Grasp
+  Description: |-
+    At the start of each turn, |Boost| all the cards in the hand.
+  UpgradedDescription: |-
+    |Boost| all the cards in hand.
+    At the start of each turn, |Boost| all the cards in the hand.
+
+PatchouliAstronomyStudy:
+  Name: Astronomy Study
+  Description: |-
+    At the start of {PlayerName}'s turn, if there are no |Astronomies| in the hand, add an |Astronomy| to the hand.
+
+PatchouliElementalHarvester:
+  Name: Elemental Harvester
+  Description: |-
+    Gain {Mana}.
+    |Boost| {BoostThreshold1}: Gain an additional {BonusMana}.
+
+PatchouliKrakenWave:
+  Name: Kraken Wave
+  Description: |-
+    |When this card has been Boosted| {BoostThreshold1} |times|: Deal {Value1} damage to each enemy, gain {Value1} |Block|, discard {SelfName} and reset its |Boost|.
+
+PatchouliTeaBreak:
+  Name: Tea Break 
+  Description: |-
+    Gain {Value1} life.
+    Remove {PlayerName}'s |Vulnerable|.
+    
+  UpgradedDescription: |-
+    Gain {Value1} life.
+    Remove {PlayerName}'s |Lock On|, |Vulnerable| and |Weak|.
+
+PatchouliPhotosynthesis:
+  Name: Photosynthesis
+  Description: |-
+    Exile up to {Value2} cards in the hand.
+    |Spellcast| that many |Sun Signs|.  
+
+PatchouliSylphyHorn:
+  Name: Sylphy Horn
+  Description: |-
+    |Spellcast| {Value1} |Wood Sign|.
+    Whenever |Wood Sign's Active| effect triggers, return {SelfName} from |Exile| to the hand.
+
+PatchouliGingerDust:
+  Name: Ginger Dust
+  Description: |-
+    Draw {Value2} cards.
+    |Spellcast| {Value1} |Earth Sign|.
+    |Boost| {BoostThreshold1}: |Spellcast| {Value1} |Metal Sign|.
+
+PatchouliLazyTrilithon:
+  Name: Lazy Trilithon
+  Description: |-
+    Draw {Value2} cards.
+    |Spellcast| {Value1} |Earth Sign|.
+
+PatchouliMercuryPoisoning:
+  Name: Mercury Poisoning
+  Description: |-
+    |Spellcast| {Value3} |Metal Sign|.
+    |Choose|: Apply {Value1} |Poison|, or Apply {Value2} |Weak|.
+  ExtraDescription1: |-
+    Apply {Value1} |Poison|.
+  ExtraDescription2: |-
+    Apply {Value2} |Weak|.
+
+PatchouliGirlOfKnowledge:
+  Name: Girl of Knowledge
+  Description: |-
+    Gain {Value1} |Intelligence|.
+
+PatchouliEmeraldMegalith:
+  Name: Emerald Megalith
+  Description: |-
+    Gain {Block} |Block|.
+    If {PlayerName} has {Value1} or more casting |Signs|, Trigger the |Passive| effect of each |Sign| casting.
+
+PatchouliDoyouSpear:
+  Name: Doyou Spear
+  Description: |-
+    Deal {Damage} damage.
+    When an enemy is defeated using {SelfName}, Gain {Mana}.  
+
+PatchouliForestBlaze:
+  Name: Forest Blaze
+  Description: |-
+    Deal {Damage} damage.
+    |Spellcast| {Value1} |Fire Sign|.
+    |Spellcast| {Value1} |Wood Sign|.
+    {SelfName} costs {Mana} less for each |Sign| casting.  
+
+PatchouliEnigmaticMagic:
+  Name: Enigmatic Magic
+  Description: |-
+    Whenever {PlayerName} |Spellcasts|, gain {Value1} |Block|.
+
+PatchouliLavaCromlech:
+  Name: Lava Cromlech
+  Description: |-
+    Deal {Damage} damage.
+    Deal {Value1} additional damage for each |Sign| cast this combat.  
+
+PatchouliIntruderSecurity:
+  Name: Intruder Security
+  Description: |-
+    Gain {Block} |Block|.
+    Choose up to {Value1} card from the discard pile and return it to the hand.
+
+PatchouliSungrazerComet:
+  Name: Sungrazer Comet
+  Description: |-
+    |Choose|: Gain {Value1} |Graze|, or gain {Block} |Block|.
+    |Boost| {BoostThreshold1}: Apply both effects instead.
+  ExtraDescription1: |-
+    Gain {Value1} |Graze|.
+  ExtraDescription2: |-
+    Gain {Block} |Block|.
+
+PatchouliSpellCreation:
+  Name: Spell Creation
+  Description: |-
+    Deal {Damage} damage.
+    |Boost| {BoostThreshold1}, {BoostThreshold2} and {BoostThreshold3}: Choose {Value2} additional effects, gain their effects.
+  UpgradedDescription: |-
+    Deal {Damage} damage.
+    Choose {Value2} additional effects, gain their effects.
+    |Boost| {BoostThreshold1}, {BoostThreshold2} and {BoostThreshold3}: Choose {Value2} additional effects, gain their effects.
+
+PatchouliSpellCreationFire:
+  Name: Fire damage
+  Description: |-
+    |Spellcast| {Value1} |Fire Sign|.
+
+PatchouliSpellCreationBlock:
+  Name: Shield
+  Description: |-
+    Gain {Block} |Block|.
+
+PatchouliSpellCreationWeak:
+  Name: Calm
+  Description: |-
+    Apply {Value2} |Weak| to each enemy.
+
+PatchouliSpellCreationDraw:
+  Name: Restore Magicka
+  Description: |-
+    Draw {Value1} card.
+
+PatchouliOldSpellMastery:
+  Name: Spell Mastery
+  Description: |-
+    |At the start of the turn|: Gain {turnMana}.
+    |While in hand|: Whenever {Value2} |Boost| cards are played, deal {Value1} damage to each enemy and discard {SelfName}.
+  
+PatchouliPhlogisticPillar:
+  Name: Phlogistic Pillar
+  Description: |-
+    Whenever a |Boost| card is played, gain {Value1} |Barrier|.
+
+PatchouliSpellDuplication:
+  Name: Spell Duplication
+  Description: |-
+    Choose a card in the hand. Add {Value1} |Copy| of it to the hand.
+    It |temporarily costs| {Mana} and has |Exile| and |Ethereal|.
+    If it's a |Boost| Card, gain its |Boost|.
+
+PatchouliVoile:
+  Name: Voile, the Magic Library
+  Description: |-
+    Whenever a |Boost| cards is played, apply the following effects based on its |Boost|:
+    {BoostThreshold1}: Draw {Value1} card.
+    {BoostThreshold2}: Gain {Mana}.
+    {BoostThreshold3}: Gain {Value1} |Firepower|.
+
+PatchouliDimensionShift:
+  Name: Dimension Shift
+  Description: |-
+    End {PlayerName}'s turn. Then, take an extra turn.
+    |Time Limit| <sprite="ManaSprite" name="1">.
+    |For each Boost|: {SelfName} costs {Mana} less to play.
+  UpgradedDescription: |-
+    End {PlayerName}'s turn. Then, take an extra turn.
+    |For each Boost|: {SelfName} costs {Mana} less to play.
+
+PatchouliRapidCharge:
+  Name: Rapid Charge
+  Description: |-
+    Trigger the |Passive| effect of each |Sign| casting.
+    |Overflow|: Gain {Mana}
+  UpgradedDescription: |-
+    Trigger the |Passive| effect of each |Sign| casting twice.
+    |Overflow|: Gain {Mana}
+
+PatchouliFiveSeasons:
+  Name: Five Seasons
+  Description: |-
+    At the end of each turn, trigger the |Passive| effect of each |Sign| casting.
+
+PatchouliHydrogenousProminence:
+  Name: Hydrogenous Prominence
+  Description: |-
+    Gain {Shield} |Barrier|.
+    |Spellcast| {Value1} |Sun Sign|.
+    |Spellcast| {Value1} |Water Sign|.
+    {SelfName} costs {Mana} less for each |Sign| casting.  
+
+PatchouliPhilosopherStone:
+  Name: Philosopher's Stone
+  Description: |-
+    |Spellcast| {Value1} |Fire Sign|.
+    |Spellcast| {Value1} |Water Sign|.
+    |Spellcast| {Value1} |Wood Sign|.
+    |Spellcast| {Value1} |Metal Sign|.
+    |Spellcast| {Value1} |Earth Sign|.
+
+PatchouliOneWeekGirl:
+  Name: One-week Girl
+  Description: |-
+    Spellcast {Value1} |Fire sign|.
+    At the start of each turn, |Spellcast| {Value1} |Water Sign|, this |Sign| alternates every turn.
+  DetailText: |-
+    The |Signs| alternates in the following order:
+    |Fire| -> |Water| -> |Wood| -> |Metal| -> |Earth| -> |Sun| -> |Moon|"
+
+PatchouliCountersquall:
+  Name: Countersquall
+  Description: |-
+    |Counter Attack|: Deal {Damage} damage and Gain {Block} |Block|.
+    |Counter Debuff|: Gain {Value1} |Amulet|.
+
+PatchouliMetalFatigue:
+  Name: Metal Fatigue
+  Description: |-
+    |Spellcast| {Value1} |Metal Sign|.
+    Apply {Value2} |Temporary Firepower Down|.
+    |Boost| {BoostThreshold1}: Apply {Value2} |Firepower Down| and |Exile| {SelfName}.
+
+PatchouliAwakenedSpellbook:
+  Name: Awakened Spellbook
+  Description: |-
+    Whenever a |Boost| card that has been |Boosted| {Value2} or more times is played, |Spellcast| {Value1} |Fire Sign|.
+    Whenever {PlayerName} |Spellcasts|, |Boost| all the cards in the hand.
+
+PatchouliJellyfishPrincess:
+  Name: Jellyfish Princess
+  Description: |-
+    |For each <sprite="ManaSprite" name="U"> spent|: Deal {Damage} damage to each enemy.
+    |For each <sprite="ManaSprite" name="B"> spent|: |Spellcast| {Value1} |Moon Sign|.
+
+PatchouliCurrentConductor:
+  Name: Current Conductor
+  Description: |-
+    Whenever |Water Sign| triggers, Apply or Add {Value2} |Drowning| to each enemy and trigger |Drowning|.
+    |Spellcast| {Value1} |Water Sign|.
+
+PatchouliAutumnBlade:
+  Name: Autumn Blade
+  Description: |-
+    Deal {Damage} damage.
+    |Boost| {BoostThreshold1}: Gain {Value1} |Ward|.
+    |Boost| {BoostThreshold2}: Gain {Value2} |Amulet|.
+
+PatchouliElementalTriangle:
+  Name: Elemental Triangle
+  Description: |-
+    |Choose|: |Spellcast| {Value1} |Fire|, |Water| or |Wood Sign|.
+    Trigger its |Passive| effect.
+
+PatchouliElementalTriangleFire:
+  Name: Fire Element
+  Description: |-
+    |Spellcast| {Value1} |Fire Sign|.
+
+PatchouliElementalTriangleWater:
+  Name: Water Element
+  Description: |-
+    |Spellcast| {Value1} |Water Sign|.
+
+PatchouliElementalTriangleWood:
+  Name: Wood Element
+  Description: |-
+    |Spellcast| {Value1} |Wood Sign|.
+
+PatchouliCircadianRhythm:
+  Name: Circadian Rhythm
+  Description: |-
+    |Spellcast| {Value1} |Sun Sign|.
+    When {Value2} or more |Sun| or |Moon Sign Active| effects trigger, |Spellcast| that many |Signs| of the other.
+
+PatchouliMagicalResearch:
+  Name: Magical Research
+  Description: |-
+    Choose 1 of {Value1} random |Boost| cards to add to the hand. It |temporarily costs| {Mana} and has |Exile| and |Ethereal|.
+
+PatchouliSakuyaFriend:
+  Name: Sakuya, Master of Time
+  Description: |-
+    <indent=80>Add {Value1} |Throwing Knife| to the hand.
+    <indent=0><sprite="Passive" name="1"><indent=80>Add {Value1} |Throwing Knife| to the hand.
+  UpgradedDescription: |-
+    <indent=80>Add {Value1} |Throwing Knife+| to the hand.
+    <indent=0><sprite="Passive" name="2"><indent=80>Add {Value1} |Throwing Knife| to the hand.
+  ExtraDescription1: |-
+    <indent=0><sprite="Active" name="-3"><indent=80>Gain {Value1} |Graze|.
+  ExtraDescription2: |-
+    <indent=0><sprite="Ultimate" name="-7"><indent=80>End {PlayerName}'s turn. Then, take an extra turn.
+
+PatchouliRingOfAgni:
+  Name: Ring of Agni
+  Description: |-
+    Deal {Damage} damage.
+    |For each| {Mana} |spent and for each Boost|: Deal {Value1} additional damage.
+
+PatchouliKoakumaFriend:
+  Name: Koakuma, Devilish Assistant
+  Description: |-
+    <indent=80>|Spellcast| {Value1} |Fire Sign|.
+    <indent=0><sprite="Passive" name="1"><indent=80>Draw {Value1} card.
+  UpgradedDescription: |-
+    <indent=80>|Spellcast| {Value1} |Fire Sign|.
+    <indent=0><sprite="Passive" name="2"><indent=80>Draw {Value1} card.
+  ExtraDescription1: |-
+    <indent=0><sprite="Active" name="-4"><indent=80>Add an |Occult| to the hand.
+  UpgradedExtraDescription1: |-
+    <indent=0><sprite="Active" name="-4"><indent=80>Add a |Rainbow| to the hand.
+  ExtraDescription2: |-
+    <indent=0><sprite="Ultimate" name="-8"><indent=80>|Fire Signs| deal double damage for the rest of combat.
+
+PatchouliAgniRadiance:
+  Name: Agni Radiance
+  Description: |-
+    |Spellcast| {Value1} |Fire Sign|.
+    |For each Boost|: |Spellcast| {Value2} additional |Fire Sign|.
+
+PatchouliRoyalFlare:
+  Name: Royal Flare
+  Description: |-
+    |At the start of the turn|: Gain {Value1} |Temporary Intelligence|.
+    |While in hand|: When {PlayerName} |Spellcasts| {Value2} times, deal {Damage} damage to each enemy and discard {SelfName}.
+
+PatchouliSummerRed:
+  Name: Summer Red
+  Description: |-
+    Choose up to {Value1} card in the hand, it gains |Retain| this turn.
+    If it's a |Boost| Card, |Boost| it {Value2} times.
+
+PatchouliGreenStorm:
+  Name: Green Storm
+  Description: |-
+    Deal {Damage} damage.
+    |For each Boost|: Deal damage an additional time.
+
+PatchouliKnowledgeSeeker:
+  Name: Knowledge Seeker
+  Description: |-
+    Gain {Value1} |Intelligence|.
+    |Boost| {BoostThreshold1}: Doesn't |Exile|.
+
+PatchouliSpringWind:
+  Name: Spring Wind
+  Description: |-
+    Choose up to {Value1} card in the hand. It gains |Echo|.
+    |Boost| {BoostThreshold1}: Add {Value1} |Vitality| to the hand.
+  UpgradedDescription: |-
+    Choose up to {Value1} card in the hand. It gains |Echo|.
+    |Boost| {BoostThreshold1}: Add {Value1} |Rainbow| to the hand.
+
+PatchouliSatelliteHimawari:
+  Name: Satellite Himawari
+  Description: |-
+    |Spellcast| {Value1} |Wood Sign|.
+    |Wood Sign's| |Passive| effect apply to all |Wood Sign| for the rest of the combat instead.
+
+PatchouliDiamondHardness:
+  Name: Diamond Hardness
+  Description: |-
+    Gain {Shield} |Barrier|.
+    Gain {Value1} |Reflection|.
+    |Boost| {BoostThreshold1}: Gain {Value2} |Static Charge|.
+
+PatchouliSaintElmoPillar:
+  Name: Saint Elmo's Pillar
+  Description: |-
+    |Spellcast| {Value1} |Metal Sign|.
+    Whenever {PlayerName}'s |Reflection| triggers, deal damage to each enemy equal to the amount of |Reflection|.
+
+PatchouliNoachianDeluge:
+  Name: Noachian Deluge
+  Description: |-
+    Deal {Damage} damage.
+    {SelfName} can be |Boosted| any number of times.
+    |For each Boost|: Deal {Value1} additional damage.
+
+PatchouliGirlOfShade:
+  Name: Girl of Shade
+  Description: |-
+    Add {Value1} |Shadows| to the discard pile. They have |Replenish|.
+    Whenever a |Status| or |Misfortune| card is |Exiled|, gain {Value2} |Firepower| and |Spirit|.
+
+PatchouliTheUnmovingGreatLibrary:
+  Name: The Unmoving Great Library
+  Description: |-
+    Gain {Value1} |Intelligence|.
+    Whenever a |Sign Active| effect triggers, gain {Value2} |Intelligence|.

@@ -1,0 +1,88 @@
+OmikujiBonusSe:
+  Name: Spell Card Boost
+  Description: "{OwnerName} deals {Level} more damage when using her |Spell Card|."
+  Brief: "{OwnerName} deals more damage when using her |Spell Card|."
+
+SanaePowerPotatoSe:
+  Name: Modern-Age Entertainment
+  Description: "After this combat, gain {Level} <sprite=\"Point\" name=\"Power\">."
+  Brief: "Gain a certain amount of <sprite=\"Point\" name=\"Power\"> at the end of combat."
+
+SanaeSpellDamageSe:
+  Name: Green Thaumaturgy
+  Description: "Whenever the Spell Card is activated, {OwnerName} deals 8 attack damage to a random enemy {Level} time{Level:plural one='' other='s'}."
+  Brief: "Whenever the Spell Card is activated, {OwnerName} deals 8 attack damage to a random enemy 1 time."
+  
+SanaeSpiritManaSe:
+  Name: Summoner Practice
+  Description: "At the start of {PlayerName}'s {Count:ordinal one='next' two='%nd' few='%rd' other='%th'} turn {Count:plural one='' other='from now'}, gain {Level} |Spirit| and add a |Radiance| to the hand."
+  Brief: "After some turns, gain |Spirit| and add a |Radiance| to the hand."
+
+SanaeDrawTempSe:
+  Name: School Science Fair
+  Description: "At the start of {OwnerName}'s turn, draw {Level} cards and then discard any non-skill cards drawn this way."
+  Brief: "At the start of {OwnerName}'s turn, draw some cards and then discard any non-skill cards drawn this way."
+
+SanaeBlockShuffleSe:
+  Name: Divining Dance
+  Description: "Whenever {OwnerName} shuffles the draw pile, gain {Level} |Block|."
+  Brief: "Whenever {OwnerName} shuffles the draw pile, gain |Block|."
+    
+SanaeStatusTalismanSe:
+  Name: Paper Handicrafts
+  Description: "At the end of {OwnerName}'s turn, add {Level:plural one='|% Moriya Talisman|' other='|% Moriya Talismans|'} to the discard pile."
+  Brief: "At the end of {OwnerName}'s turn, add |Moriya Talismans| into the discard pile."
+  
+SanaeWardTalismanSe:
+  Name: Prespoke Incantation
+  Description: "Whenever {OwnerName} gains |Ward|, gain an equal amount of <sprite=\"Point\" name=\"Power\">. Whenever the Spell Card is activated, add {Level} |Moriya Talisman{Level:plural one='' other='s'}| to the discard pile."
+  Brief: "Whenever {OwnerName} gains |Ward|, gain an equal amount of <sprite=\"Point\" name=\"Power\">. Whenever the Spell Card is activated, add |Moriya Talismans| to the discard pile."
+  
+SanaeSpellManaGreenSe:
+  Name: Network Conspiracy
+  Description: "Whenever the Spell Card is activated, gain {Level} {Mana}."
+  Brief: "Whenever the Spell Card is activated, gain {Mana}."
+
+SanaeSpellManaPhiloSe:
+  Name: Network Conspiracy
+  Description: "Whenever the Spell Card is activated, gain {Level} {Mana}."
+  Brief: "Whenever the Spell Card is activated, gain {Mana}."
+
+SanaeOrderShuffleSe:
+  Name: Fragmental Insight
+  Description: "Whenever a non-skill card is played, gain {Mana}. Then, the draw pile is shuffled."
+
+SanaeExileDamageSe:
+  Name: Trichromatic Edelweiss
+  Description: "Whenever a status card or a card with |Auto-Exile| is |Exiled|, {OwnerName} deals {Level} damage to a random enemy."
+  Brief: "Whenever a status card or a card with |Auto-Exile| is |Exiled|, {OwnerName} deals damage to a random enemy."
+  
+SanaeGrazeWardSe:
+  Name: God's Windshield
+  Description: "Whenever {OwnerName} |Grazes| an attack, she gains {Level} |Ward|."
+  Brief: "Whenever {OwnerName} |Grazes| an attack, she gains 3 |Ward|."
+
+SanaeKanakoFriendSe:
+  Name: Evoked Deity
+  Description: "Whenever the Spell Card is activated, {OwnerName} gains {Level} |Firepower| and |Graze|."
+  Brief: "Whenever the Spell Card is activated, {OwnerName} gains 2 |Firepower| and |Graze|."
+  
+NextTurnLoseFire:
+  Name: Next Turn Lose Firepower
+  Description: "At the start of {OwnerName}'s next turn, lose {Level} |Firepower|."
+  Brief: "At the start of {OwnerName}'s next turn, lose |Firepower|."
+
+NextTurnLosePower:
+  Name: Next Turn Power Loss
+  Description: "At the start of {OwnerName}'s next turn, lose {Level} <sprite=\"Point\" name=\"Power\">."
+  Brief: "At the start of {OwnerName}'s next turn, lose <sprite=\"Point\" name=\"Power\">."
+
+TurnStartDontLoseMana:
+  Name: Retain Mana
+  Description: "{OwnerName} does not lose Mana at the start of the {Duration:plural one='next turn' other='next % turns'}."
+  Brief: "{OwnerName} does not lose Mana at the start of each turn for a certain number of turns."
+  
+AmuletForEnemy:
+  Name: Bulwark
+  Description: "Negate the next {Level} non-Status cards that would be added (|Exile| them instead)."
+  Brief: "Negate the next non-Status cards that would be added (|Exile| them instead)."

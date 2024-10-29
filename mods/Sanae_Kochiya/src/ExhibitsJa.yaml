@@ -1,0 +1,31 @@
+SanaeExhibitW:
+  Name: カエルのヘアクリップ
+  Description: |-
+    マナ基盤に{Mana}を加え、|早苗|専用のカードが出現するようになる。
+    戦闘開始時、|庇護|{Value1}を得る。
+  FlavorText: かつてはヘッドバンドだったけど、とある弾幕勝負の途中で壊れてしまった。
+
+SanaeExhibitU:
+  Name: 渦巻く蛇の髪飾り
+  Description: |-
+    マナ基盤に{Mana}を加え、|早苗|専用のカードが出現するようになる。
+    {PlayerName}が|スペルカード|を使用するたび、{Value1}|ブロック|を得る。
+  FlavorText: 元々の青い色合いは歳月と共に褪せていた。
+  
+SanaeClayVolcano:
+  Name: 粘土製の火山
+  Description: |-
+    山札をシャッフルするたび、|臨時霊力|{Value1}を得る。
+  FlavorText: 変な見た目のこの山の模型は頂点に穴が空いている。
+
+SanaeLibraryCard:
+  Name: 図書カード
+  Description: |-
+    {PlayerName}のターン開始時、前のターンに攻撃カードを使用してなかった場合、|庇護|{Value1}を得る。
+  FlavorText: この薄板を使えば、使用者はトラブルを起こすことなく本を「借りる」ことができる。
+
+SanaeExpiredCoupon:
+  Name: 期限切れのクーポン
+  Description: |-
+    各戦闘中、{PlayerName}が初めて|スペルカード|を使用した時、<sprite="Point" name="Power">{Value1}を得る。
+  FlavorText: この紙切れによると10年以上前にたまごのセールがあったらしい。

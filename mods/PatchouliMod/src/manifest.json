@@ -1,0 +1,7 @@
+{
+  "name": "Patchouli_Knowledge",
+  "version_number": "0.1.11",
+  "website_url": "https://gitlab.com/rmrfmaxxc1/lbol_patchouli_character_mod",
+  "description": "Adds Patchouli as a playable character.",
+  "dependencies": [ "BepInEx-BepInExPack-5.4.2100", "TeamNeo-Sideloader-0.5.0"]
+}
