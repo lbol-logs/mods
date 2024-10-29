@@ -78,7 +78,7 @@
   },
   "PatchouliOneWeekGirlSe": {
     "Name": "One-week Girl",
-    "Description": "At the start of each turn, <h>Spellcast</h> <Level /> <h>Sign</h>, the <h>Sign</h> alternates every turn.<br />Next Sign: <h>t(PatchouliOneWeekGirlSe.NextSign, { 'context': {{NextSign}} })</h> <h>Sign</h>",
+    "Description": "At the start of each turn, <h>Spellcast</h> <Level /> <h>Sign</h>, the <h>Sign</h> alternates every turn.<br />Next Sign: <h>$t(PatchouliOneWeekGirlSe.NextSign, { 'context': {{NextSign}} })</h> <h>Sign</h>",
     "NextSign_0": "Fire",
     "NextSign_1": "Water",
     "NextSign_2": "Wood",

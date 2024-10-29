@@ -72,7 +72,7 @@
   },
   "PatchouliOneWeekGirlSe": {
     "Name": "七曜少女",
-    "Description": "<PlayerName />的回合开始时，<h>咏唱</h> <Level /> 个<h>曜符</h>，<h>曜符</h>的种类每回合都会切换。<br />下一个符：<h>t(PatchouliOneWeekGirlSe.NextSign, { 'context': {{NextSign}} })</h> <h>曜符</h>。",
+    "Description": "<PlayerName />的回合开始时，<h>咏唱</h> <Level /> 个<h>曜符</h>，<h>曜符</h>的种类每回合都会切换。<br />下一个符：<h>$t(PatchouliOneWeekGirlSe.NextSign, { 'context': {{NextSign}} })</h> <h>曜符</h>。",
     "NextSign_0": "火",
     "NextSign_1": "水",
     "NextSign_2": "木",
