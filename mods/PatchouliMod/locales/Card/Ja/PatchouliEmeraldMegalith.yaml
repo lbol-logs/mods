@@ -1,0 +1,6 @@
+﻿PatchouliEmeraldMegalith:
+  Name: エメラルドメガリス
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    {PlayerName}が{Value1}種類以上の|印|を得ている場合、得ている|印|の|パッシブ|効果を発動する。

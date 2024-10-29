@@ -1,0 +1,12 @@
+﻿PatchouliEarthSignSe:
+  Name: 土の印
+  Description: >-
+    |パッシブ|:ランダムな{PassiveAmount}個のマナを|彩色|マナに変換する。
+
+    |アクティブ|:ランダムな{ActiveAmount}個のマナを|彩色|マナに変換する。<sprite="ManaSprite" name="P">を得る。
+
+    現在のレベル{Level}
+  Brief: >-
+    |パッシブ|:ランダムな1個のマナを|彩色|マナに変換する。
+
+    |アクティブ|:ランダムな2個のマナを|彩色|マナに変換する。<sprite="ManaSprite" name="P">を得る。

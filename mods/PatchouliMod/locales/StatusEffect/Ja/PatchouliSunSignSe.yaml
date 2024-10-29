@@ -1,0 +1,12 @@
+﻿PatchouliSunSignSe:
+  Name: 日の印
+  Description: >-
+    |パッシブ|:敵全体に{PassiveAmount}ダメージを与える。
+
+    |アクティブ|:敵全体に{ActiveAmount}ダメージを与える。<sprite="ManaSprite" name="W">を得る。
+
+    現在のレベル{Level}
+  Brief: >-
+    |パッシブ|:敵全体に2ダメージを与える。
+
+    |アクティブ|:敵全体に4ダメージを与える。<sprite="ManaSprite" name="W">を得る。

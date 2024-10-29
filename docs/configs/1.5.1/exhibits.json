@@ -1,4 +1,22 @@
 {
+  "PatchouliExhibitB": {
+    "Owner": "Patchouli",
+    "Rarity": "Shining",
+    "Value1": 1,
+    "Value2": 1,
+    "Mana": "B",
+    "BaseMana": "B"
+  },
+  "PatchouliExhibitU": {
+    "Owner": "Patchouli",
+    "Rarity": "Shining",
+    "Value1": 1,
+    "Value2": 2,
+    "Mana": "U",
+    "BaseMana": "U",
+    "BoostThreshold1": 1
+  },
+
   "SanaeClayVolcano": {
     "Rarity": "Common",
     "Value1": 2,

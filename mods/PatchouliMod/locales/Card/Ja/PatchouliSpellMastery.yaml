@@ -1,0 +1,18 @@
+﻿PatchouliSpellMastery:
+  Name: 魔巧
+  Description: >-
+    {Damage}ダメージを与える。
+
+    |詠唱値|{BoostThreshold1}以上なら、|水沫|を手札に加える。
+
+    |詠唱値|{BoostThreshold2}以上なら、|水沫+|を代わりに手札に加える。
+
+    |詠唱|
+  UpgradedDescription: >-
+    {Damage}ダメージを与える。
+
+    |詠唱値|{BoostThreshold1}以上なら、|幻虹|を手札に加える。
+
+    |詠唱値|{BoostThreshold2}以上なら、|幻虹+|を代わりに手札に加える。
+
+    |詠唱|

@@ -1,0 +1,10 @@
+﻿PatchouliVoile:
+  Name: 伏瓦尔魔法图书馆
+  Description: >-
+    当{PlayerName}打出一张|增幅|牌后，根据其|增幅|层数获得以下效果：
+
+    {BoostThreshold1} 层：抽 {Value1} 张牌。
+
+    {BoostThreshold2} 层：获得{Mana}。
+
+    {BoostThreshold3} 层：获得 {Value1} 点|火力|。

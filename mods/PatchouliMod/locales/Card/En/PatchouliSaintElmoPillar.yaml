@@ -1,0 +1,6 @@
+﻿PatchouliSaintElmoPillar:
+  Name: Saint Elmo's Pillar
+  Description: >-
+    |Spellcast| {Value1} |Metal Sign|.
+
+    Whenever {PlayerName}'s |Reflection| triggers, deal damage to each enemy equal to the amount of |Reflection|.

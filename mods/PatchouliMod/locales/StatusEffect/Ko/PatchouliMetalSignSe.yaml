@@ -1,0 +1,10 @@
+﻿PatchouliMetalSignSe:
+  Name: 금부
+  Description: >-
+    |지속|: |반사|를 {PassiveAmount} 얻습니다. 
+
+    |발동|: |반사|를 {ActiveAmount} 얻습니다. <sprite="ManaSprite" name="1">를 얻습니다.
+  Brief: >-
+    |지속|: |반사|를 3 얻습니다. 
+
+    |발동|: |반사|를 5 얻습니다. <sprite="ManaSprite" name="1">를 얻습니다.

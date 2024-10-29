@@ -1,4 +1,1430 @@
 {
+  "PatchouliAgniRadiance": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "2R",
+      "Value1": 1,
+      "Value2": 1
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "PatchouliAgniShine": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "BB",
+      "Damage": 7,
+      "Value1": 1,
+      "Value2": 2
+    },
+    "1": {
+      "Damage": 9
+    }
+  },
+  "PatchouliArcaneWard": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "UU",
+      "Block": 10,
+      "Value1": 1,
+      "Value2": 10
+    },
+    "1": {
+      "Block": 14,
+      "Value2": 14
+    }
+  },
+  "PatchouliAstronomy": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "C",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": 0,
+      "Value1": 1,
+      "Mana": "U",
+      "Keywords": "Exile,Retain",
+      "BoostThreshold1": 5
+    },
+    "1": {
+      "Mana": "P",
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "PatchouliAstronomyStudy": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "UUU",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "UU",
+      "Keywords": "Initial"
+    }
+  },
+  "PatchouliAttackB": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1B",
+      "Damage": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 14,
+      "Keywords": "Basic"
+    }
+  },
+  "PatchouliAttackU": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1U",
+      "Damage": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 14,
+      "Keywords": "Basic"
+    }
+  },
+  "PatchouliAutumnBlade": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1W",
+      "Damage": 16,
+      "Value1": 1,
+      "Value2": 1,
+      "BoostThreshold1": 3,
+      "BoostThreshold2": 5
+    },
+    "1": {
+      "Damage": 22,
+      "Value1": 2
+    }
+  },
+  "PatchouliAwakenedSpellbook": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "UUBB",
+      "Value1": 1,
+      "Value2": 4
+    },
+    "1": {
+      "Cost": "UB"
+    }
+  },
+  "PatchouliBlockB": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1B",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 13,
+      "Keywords": "Basic"
+    }
+  },
+  "PatchouliBlockU": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1U",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 13,
+      "Keywords": "Basic"
+    }
+  },
+  "PatchouliBuryInLake": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1U",
+      "Block": 12,
+      "Shield": 0,
+      "Value1": 1
+    },
+    "1": {
+      "Block": 0,
+      "Shield": 12
+    }
+  },
+  "PatchouliCircadianRhythm": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "WB",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "WB",
+      "Value1": 1,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "PatchouliConcentration": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1U",
+      "Value1": 3,
+      "Value2": 5,
+      "BoostThreshold1": 3,
+      "BoostThreshold2": 5
+    },
+    "1": {
+      "Cost": 1
+    }
+  },
+  "PatchouliCondensedBubble": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "U",
+      "Damage": 3,
+      "Value1": 1,
+      "Value2": 2
+    },
+    "1": {
+      "Cost": 1,
+      "Damage": 5
+    }
+  },
+  "PatchouliCounterspell": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "UU",
+      "Block": 12,
+      "Shield": 12,
+      "Value1": 1
+    },
+    "1": {
+      "Block": 15,
+      "Shield": 15
+    }
+  },
+  "PatchouliCountersquall": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "UB",
+      "Damage": 7,
+      "Block": 7,
+      "Value1": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Damage": 9,
+      "Block": 9,
+      "Keywords": "Exile"
+    }
+  },
+  "PatchouliCurrentConductor": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1UUBB",
+      "Value1": 2,
+      "Value2": 2
+    },
+    "1": {
+      "Value2": 3
+    }
+  },
+  "PatchouliDiamondHardness": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "C",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "3C",
+      "Shield": 15,
+      "Value1": 15,
+      "Value2": 5,
+      "BoostThreshold1": 3
+    },
+    "1": {
+      "Cost": "2C",
+      "Shield": 18,
+      "Value1": 18,
+      "Value2": 6
+    }
+  },
+  "PatchouliDiamondRing": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1B",
+      "Damage": 12,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 17
+    }
+  },
+  "PatchouliDimensionShift": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "8U",
+      "Value1": 1,
+      "Mana": 1,
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "PatchouliDistortionField": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1UU",
+      "Value1": 2,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": "1U"
+    }
+  },
+  "PatchouliDoyouSpear": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "2B",
+      "Damage": 18,
+      "Mana": "{5P}"
+    },
+    "1": {
+      "Damage": 24,
+      "Keywords": "Accuracy"
+    }
+  },
+  "PatchouliElementalHarvester": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "U",
+      "Value1": 2,
+      "Value2": 1,
+      "Mana": "UU",
+      "BoostThreshold1": 5,
+      "BonusMana": "PP"
+    },
+    "1": {
+      "Cost": 0,
+      "Mana": "UP"
+    }
+  },
+  "PatchouliElementalTriangle": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "W",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "PatchouliElementalTriangleFire": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": 0,
+      "Value1": 1
+    },
+    "1": {}
+  },
+  "PatchouliElementalTriangleWater": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": 0,
+      "Value1": 1
+    },
+    "1": {}
+  },
+  "PatchouliElementalTriangleWood": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": 0,
+      "Value1": 1
+    },
+    "1": {}
+  },
+  "PatchouliEmeraldMegalith": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "2B",
+      "Block": 18,
+      "Value1": 3,
+      "Value2": 1
+    },
+    "1": {
+      "Block": 24,
+      "Value1": 2
+    }
+  },
+  "PatchouliEnigmaticMagic": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1BB",
+      "Value1": 3
+    },
+    "1": {
+      "Value1": 5
+    }
+  },
+  "PatchouliEveryAngleShot": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": 0,
+      "Damage": 6,
+      "Keywords": "Accuracy,Exile",
+      "BoostThreshold1": 4
+    },
+    "1": {
+      "Damage": 9,
+      "Keywords": "Accuracy,Exile"
+    }
+  },
+  "PatchouliFatesHand": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "4U",
+      "Value1": 2,
+      "Mana": 1,
+      "Keywords": "Retain"
+    },
+    "1": {
+      "Cost": 5,
+      "Value1": 3,
+      "Keywords": "Retain"
+    }
+  },
+  "PatchouliFiveSeasons": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "BBB",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "B"
+    }
+  },
+  "PatchouliFlashOfSpring": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "B",
+      "Value1": 1,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": 1,
+      "Value1": 2
+    }
+  },
+  "PatchouliForestBlaze": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "3BB",
+      "Damage": 20,
+      "Value1": 1,
+      "Mana": 1
+    },
+    "1": {
+      "Cost": "4B",
+      "Damage": 25
+    }
+  },
+  "PatchouliGingerDust": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1B",
+      "Value1": 1,
+      "Value2": 2,
+      "BoostThreshold1": 3
+    },
+    "1": {
+      "Value2": 3
+    }
+  },
+  "PatchouliGirlOfKnowledge": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1B",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "PatchouliGirlOfShade": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "{4B}",
+      "Value1": 3,
+      "Value2": 1
+    },
+    "1": {
+      "Value1": 5
+    }
+  },
+  "PatchouliGrandIncantation": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "2UU",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "1U"
+    }
+  },
+  "PatchouliGreenStorm": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1G",
+      "Damage": 5,
+      "Value1": 1
+    },
+    "1": {
+      "Damage": 6
+    }
+  },
+  "PatchouliHydrogenousProminence": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "3B",
+      "Shield": 12,
+      "Value1": 1,
+      "Mana": 1
+    },
+    "1": {
+      "Cost": 4,
+      "Shield": 15
+    }
+  },
+  "PatchouliIntruderSecurity": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1UB",
+      "Block": 16,
+      "Value1": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Block": 22
+    }
+  },
+  "PatchouliJellyfishPrincess": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "UB",
+    "IsXCost": true,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "UB",
+      "Damage": 7,
+      "Value1": 1
+    },
+    "1": {
+      "Damage": 9
+    }
+  },
+  "PatchouliKnowledgeSeeker": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "3G",
+      "Value1": 2,
+      "Keywords": "Exile",
+      "BoostThreshold1": 3
+    },
+    "1": {
+      "Value1": 3,
+      "Keywords": "Exile"
+    }
+  },
+  "PatchouliKoakumaFriend": {
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "BR",
+      "Value1": 1,
+      "Value2": 1,
+      "Loyalty": 4,
+      "PassiveCost": 1,
+      "ActiveCost": "-4",
+      "UltimateCost": "-8"
+    },
+    "1": {
+      "Loyalty": 4,
+      "PassiveCost": 2,
+      "ActiveCost": "-4",
+      "UltimateCost": "-8"
+    }
+  },
+  "PatchouliKrakenWave": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": 0,
+      "Damage": 0,
+      "Value1": 16,
+      "Keywords": "Forbidden,Retain",
+      "BoostThreshold1": 9
+    },
+    "1": {
+      "Value1": 19,
+      "Keywords": "Forbidden,Retain"
+    }
+  },
+  "PatchouliLavaCromlech": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "3B",
+      "Damage": 20,
+      "Value1": 2,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 20,
+      "Value1": 3,
+      "Keywords": "Accuracy"
+    }
+  },
+  "PatchouliMagicalResearch": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "2W",
+      "Value1": 3,
+      "Value2": 1,
+      "Mana": 0
+    },
+    "1": {
+      "Value1": 5
+    }
+  },
+  "PatchouliManaDrain": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1U",
+      "Damage": 15,
+      "Value1": 1,
+      "Keywords": "Accuracy",
+      "BoostThreshold1": 2
+    },
+    "1": {
+      "Damage": 19,
+      "Value1": 2,
+      "Keywords": "Accuracy"
+    }
+  },
+  "PatchouliMercuryPoisoning": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "H:HUB",
+      "Value1": 3,
+      "Value2": 1,
+      "Value3": 1
+    },
+    "1": {
+      "Value1": 4,
+      "Value2": 2
+    }
+  },
+  "PatchouliMetalFatigue": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "UB",
+      "Value1": 2,
+      "Value2": 2,
+      "BoostThreshold1": 4
+    },
+    "1": {
+      "Value2": 3
+    }
+  },
+  "PatchouliMoongazing": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "2U",
+      "Block": 17,
+      "Value1": 1,
+      "Value2": 1
+    },
+    "1": {
+      "Block": 23
+    }
+  },
+  "PatchouliMoonlitChill": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "UB",
+      "Value1": 1,
+      "Value2": 1,
+      "BoostThreshold1": 4,
+      "BoostThreshold2": 8
+    },
+    "1": {
+      "Value1": 2
+    }
+  },
+  "PatchouliNegate": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1U",
+      "Block": 12,
+      "Value1": 1
+    },
+    "1": {
+      "Block": 14,
+      "Value1": 2
+    }
+  },
+  "PatchouliNoachianDeluge": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "{4U}",
+      "Damage": 5,
+      "Value1": 3,
+      "Keywords": "Accuracy,Exile,Retain"
+    },
+    "1": {
+      "Keywords": "Accuracy,Exile,Initial,Retain"
+    }
+  },
+  "PatchouliObservatory": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1U",
+      "Damage": 14,
+      "Value1": 1,
+      "Value2": 1
+    },
+    "1": {
+      "Damage": 18
+    }
+  },
+  "PatchouliOneWeekGirl": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "3BB",
+      "Value1": 1,
+      "Value2": 0
+    },
+    "1": {
+      "Cost": "1BB"
+    }
+  },
+  "PatchouliPhilosopherStone": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "2B",
+      "Value1": 1,
+      "Keywords": "Exile"
+    },
+    "1": {}
+  },
+  "PatchouliPhlogisticPillar": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1UU",
+      "Value1": 2
+    },
+    "1": {
+      "Cost": "UU",
+      "Value1": 3
+    }
+  },
+  "PatchouliPhlogisticRain": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "UU",
+      "Damage": 8,
+      "Value1": 1,
+      "Value2": 2,
+      "Mana": "UU",
+      "BoostThreshold1": 4
+    },
+    "1": {
+      "Damage": 7,
+      "Value2": 3,
+      "Mana": "UP"
+    }
+  },
+  "PatchouliPhotosynthesis": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "B",
+      "Value1": 1,
+      "Value2": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Exile"
+    }
+  },
+  "PatchouliRapidCharge": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "B",
+      "Value1": 1,
+      "Mana": "B",
+      "Keywords": "Exile,Plentiful"
+    },
+    "1": {
+      "Mana": "P",
+      "Keywords": "Exile,Plentiful"
+    }
+  },
+  "PatchouliRingOfAgni": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": true,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "R",
+      "Damage": 10,
+      "Value1": 3,
+      "Mana": 1,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Value1": 4,
+      "Keywords": "Accuracy"
+    }
+  },
+  "PatchouliRoyalFlare": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": 0,
+      "Damage": 40,
+      "Value1": 1,
+      "Value2": 7,
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Damage": 50,
+      "Value1": 1,
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "PatchouliSaintElmoPillar": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "C",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1C",
+      "Value1": 1,
+      "Value2": 1
+    },
+    "1": {
+      "Value1": 2
+    }
+  },
+  "PatchouliSakuyaFriend": {
+    "Rarity": "Rare",
+    "Type": "Friend",
+    "Colors": "WUB",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "WUB",
+      "Value1": 1,
+      "Value2": 1,
+      "Loyalty": 3,
+      "PassiveCost": 1,
+      "ActiveCost": "-3",
+      "UltimateCost": "-7"
+    },
+    "1": {
+      "Loyalty": 3,
+      "PassiveCost": 2,
+      "ActiveCost": "-3",
+      "UltimateCost": "-7"
+    }
+  },
+  "PatchouliSatelliteHimawari": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1G",
+      "Value1": 1,
+      "Value2": 1
+    },
+    "1": {
+      "Value1": 2
+    }
+  },
+  "PatchouliSilentSelene": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "2B",
+      "Block": 18,
+      "Value1": 1
+    },
+    "1": {
+      "Block": 20,
+      "Value1": 2
+    }
+  },
+  "PatchouliSilverDragon": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1B",
+      "Block": 12,
+      "Value1": 1
+    },
+    "1": {
+      "Block": 14
+    }
+  },
+  "PatchouliSpellCreation": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "HH:HUB",
+      "Damage": 15,
+      "Value1": 4,
+      "Value2": 1,
+      "BoostThreshold1": 2,
+      "BoostThreshold2": 4,
+      "BoostThreshold3": 6
+    },
+    "1": {
+      "Damage": 18
+    }
+  },
+  "PatchouliSpellCreationBlock": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": 0,
+      "Block": 10
+    },
+    "1": {}
+  },
+  "PatchouliSpellCreationDraw": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "UG",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": 0,
+      "Value1": 1
+    },
+    "1": {}
+  },
+  "PatchouliSpellCreationFire": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": 0,
+      "Value1": 1
+    },
+    "1": {}
+  },
+  "PatchouliSpellCreationWeak": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": 0,
+      "Value2": 2
+    },
+    "1": {}
+  },
+  "PatchouliSpellDuplication": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "2U",
+      "Value1": 1,
+      "Mana": 0,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile,Replenish"
+    }
+  },
+  "PatchouliSpellMastery": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1U",
+      "Damage": 17,
+      "Value1": 1,
+      "Mana": 0,
+      "BoostThreshold1": 3,
+      "BoostThreshold2": 5
+    },
+    "1": {
+      "Damage": 22
+    }
+  },
+  "PatchouliSpellPowerGrasp": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1U",
+      "Value1": 1,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": 2
+    }
+  },
+  "PatchouliSpringWind": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "G",
+      "Value1": 1,
+      "Keywords": "Exile",
+      "BoostThreshold1": 5
+    },
+    "1": {
+      "Cost": 1,
+      "Keywords": "Exile"
+    }
+  },
+  "PatchouliSummerRed": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "R",
+      "Value1": 1,
+      "Value2": 5
+    },
+    "1": {
+      "Keywords": "Replenish"
+    }
+  },
+  "PatchouliSungrazerComet": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "UB",
+      "Block": 12,
+      "Value1": 1,
+      "BoostThreshold1": 4
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 15
+    }
+  },
+  "PatchouliSunshineReflector": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "2B",
+      "Damage": 17,
+      "Value1": 1
+    },
+    "1": {
+      "Damage": 19,
+      "Value1": 2
+    }
+  },
+  "PatchouliSylphyHorn": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": 1,
+      "Value1": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Exile"
+    }
+  },
+  "PatchouliTeaBreak": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": 1,
+      "Value1": 4,
+      "Value2": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 6,
+      "Value2": 2,
+      "Keywords": "Exile"
+    }
+  },
+  "PatchouliTheUnmovingGreatLibrary": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "WUBRG",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "WUBRG",
+      "Value1": 3,
+      "Value2": 1,
+      "Keywords": "Initial"
+    },
+    "1": {
+      "Value1": 5,
+      "Keywords": "Initial"
+    }
+  },
+  "PatchouliTidalWave": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "1U",
+      "Value1": 5,
+      "Value2": 2,
+      "BoostThreshold1": 3
+    },
+    "1": {
+      "Value1": 7
+    }
+  },
+  "PatchouliTwinspell": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": 1,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "PatchouliVoile": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "2UUU",
+      "Value1": 1,
+      "Mana": "U",
+      "BoostThreshold1": 3,
+      "BoostThreshold2": 6,
+      "BoostThreshold3": 9
+    },
+    "1": {
+      "Cost": "1UU"
+    }
+  },
+  "PatchouliWaterElf": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "PatchouliMod",
+    "0": {
+      "Cost": "3UB",
+      "Damage": 20,
+      "Value1": 1,
+      "Mana": 1
+    },
+    "1": {
+      "Cost": "4H:HUB",
+      "Damage": 24
+    }
+  },
+
   "SanaeAmuletDebuff": {
     "Rarity": "Rare",
     "Type": "Ability",

@@ -1,0 +1,12 @@
+﻿PatchouliAgniShine:
+  Name: 아그니 샤인
+  Description: >-
+    피해를 {Damage} 만큼 {Value2}번 줍니다.
+
+    |화부| {Value1} |원소 전개|.
+  UpgradedDescription: >-
+    피해를 {Damage} 만큼 {Value2}번 줍니다.
+
+    |화부| {Value1} |원소 전개|.
+
+    |원소 전개|된 |화부|의 |지속| 능력을 발동합니다.

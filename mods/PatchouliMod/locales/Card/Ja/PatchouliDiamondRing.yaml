@@ -1,0 +1,5 @@
+﻿PatchouliDiamondRing:
+  Name: ロイヤルダイアモンドリング
+  Description: "{Damage}ダメージを与える。\n|チョイス|:|日の印|{Value1}を得る、もしくは|月の印|{Value1}を得る。  "
+  ExtraDescription1: '|日の印|{Value1}を得る。'
+  ExtraDescription2: '|月の印|{Value1}を得る。'

@@ -1,0 +1,6 @@
+﻿PatchouliKnowledgeSeeker:
+  Name: 知识探索者
+  Description: >-
+    获得 {Value1} 点|魔力|。
+
+    |增幅| {BoostThreshold1}：不会|放逐|。

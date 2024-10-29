@@ -1,0 +1,8 @@
+﻿PatchouliAstronomy:
+  Name: 천문학
+  Description: >-
+    카드를 {Value1}장 뽑습니다.
+
+    |증강| {BoostThreshold1}: {Mana}를 얻습니다.
+
+    (|증강|: {Boost})

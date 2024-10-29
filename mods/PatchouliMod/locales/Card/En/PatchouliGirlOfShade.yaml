@@ -1,0 +1,6 @@
+﻿PatchouliGirlOfShade:
+  Name: Girl of Shade
+  Description: >-
+    Add {Value1} |Shadows| to the discard pile. They have |Replenish|.
+
+    Whenever a |Status| or |Misfortune| card is |Exiled|, gain {Value2} |Firepower| and |Spirit|.

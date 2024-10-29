@@ -1,0 +1,6 @@
+﻿PatchouliIntruderSecurity:
+  Name: 入侵者警报
+  Description: >-
+    获得 {Block} 点|格挡|。
+
+    选择弃牌堆中的至多 {Value1} 张牌，将其移回手牌。

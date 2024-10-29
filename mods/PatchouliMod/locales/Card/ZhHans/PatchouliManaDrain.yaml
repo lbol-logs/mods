@@ -1,0 +1,6 @@
+﻿PatchouliManaDrain:
+  Name: 法力吸取
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    |增幅| {BoostThreshold1}：施加 {Value1} 层|虚弱|。

@@ -1,0 +1,6 @@
+﻿PatchouliJellyfishPrincess:
+  Name: 젤리피시 프린세스
+  Description: >-
+    |<sprite="ManaSprite" name="U">를 지불할 시|: 모든 적에게 피해를 {Damage} 줍니다.
+
+    |<sprite="ManaSprite" name="B">를 지불할 시|: |월부| {Value1} |원소 전개|.

@@ -1,0 +1,10 @@
+﻿PatchouliVoileSe:
+  Name: Voile the Magic Library
+  Description: >-
+    Whenever a |Boost| cards is played, apply the following effects based on its |Boost|:
+
+    {BoostThreshold1}: Draw {Level} cards.
+
+    {BoostThreshold2}: Gain {Mana}.
+
+    {BoostThreshold3}: Gain {Level} |Firepower|.

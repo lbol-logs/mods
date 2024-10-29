@@ -1,0 +1,7 @@
+﻿PatchouliExhibitB:
+  Name: Elemental Sigil
+  Description: >-
+    Adds {Mana} to the mana base. Cards unique to |Patchouli| are added to the card pool.
+
+    At the start of the Player's turn, if the Player doesn't have any |Fire Sign|, |Spellcast| {Value1} |Fire Sign|.
+  FlavorText: Elemental magic borrows the power of nature to produce great outputs with minimal inputs.

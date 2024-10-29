@@ -1,0 +1,6 @@
+﻿PatchouliJellyfishPrincess:
+  Name: Jellyfish Princess
+  Description: >-
+    |For each <sprite="ManaSprite" name="U"> spent|: Deal {Damage} damage to each enemy.
+
+    |For each <sprite="ManaSprite" name="B"> spent|: |Spellcast| {Value1} |Moon Sign|.

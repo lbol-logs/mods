@@ -1,0 +1,10 @@
+﻿PatchouliWoodSignSe:
+  Name: 목부
+  Description: >-
+    |지속|: {SelfName}의 |발동| 피해가 {PassiveAmount} 증가합니다.
+
+    |발동|: 체력이 가장 많은 적에게 피해를 {ActiveAmount} 줍니다. <sprite="ManaSprite" name="G">를 얻습니다.
+  Brief: >-
+    |지속|: |목부|의 |발동| 피해가 5 증가합니다.
+
+    |발동|: 체력이 가장 많은 적에게 피해를 5 줍니다. <sprite="ManaSprite" name="G">를 얻습니다.

@@ -1,0 +1,10 @@
+﻿PatchouliTidalWave:
+  Name: 타이달 웨이브
+  Description: >-
+    |침수|를 {Value1} 줍니다.
+
+    적의 |침수| 효과를 발동합니다.
+
+    |증강| {BoostThreshold1}: 추가로 |침수|를 {Value2} 줍니다.
+
+    (|증강|: {Boost})

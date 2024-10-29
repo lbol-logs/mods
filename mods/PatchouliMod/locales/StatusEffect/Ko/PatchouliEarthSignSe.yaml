@@ -1,0 +1,10 @@
+﻿PatchouliEarthSignSe:
+  Name: 토부
+  Description: >-
+    |지속|: 무작위 마나를 {PassiveAmount}개 |무지개색 마나|로 바꿉니다.
+
+    |발동|: 무작위 마나를 {ActiveAmount}개 |무지개색 마나|로 바꿉니다. <sprite="ManaSprite" name="P">를 얻습니다.
+  Brief: >-
+    |지속|: 무작위 마나를 1개 |무지개색 마나|로 바꿉니다.
+
+    |발동|: 무작위 마나를 2개 |무지개색 마나|로 바꿉니다. <sprite="ManaSprite" name="P">를 얻습니다.

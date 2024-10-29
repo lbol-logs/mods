@@ -1,0 +1,10 @@
+﻿PatchouliMoonSignSe:
+  Name: Moon Sign
+  Description: >-
+    |Passive|: Gain {PassiveAmount} |Block|. 
+
+    |Active|: Gain {ActiveAmount} |Block|. Gain <sprite="ManaSprite" name="B">.
+  Brief: >-
+    |Passive|: Gain 2 |Block|. 
+
+    |Active|: Gain 4 |Block|. Gain <sprite="ManaSprite" name="B">.

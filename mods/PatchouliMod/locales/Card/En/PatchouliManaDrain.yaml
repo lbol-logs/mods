@@ -1,0 +1,6 @@
+﻿PatchouliManaDrain:
+  Name: Mana Drain
+  Description: >-
+    Deal {Damage} damage.
+
+    |Boost| {BoostThreshold1}: Apply {Value1} |Weak|.

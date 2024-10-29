@@ -1,0 +1,6 @@
+﻿PatchouliRoyalFlare:
+  Name: 로열 플레어
+  Description: >-
+    |턴 시작시|: |일시 지혜|를 {Value1} 얻습니다.
+
+    |손에 있을 시|: {PlayerName}가 {Value2}번 |원소 전개| 할 때 마다, 모든 적에게 피해를 {Damage} 주고 {SelfName}를 버립니다.

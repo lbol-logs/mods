@@ -1,0 +1,8 @@
+﻿PatchouliArcaneWard:
+  Name: 미지의 방패
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    |증강 할 때 마다|: 추가로 |방어|를 {Value1} 얻습니다.
+
+    (|증강|: {Boost})

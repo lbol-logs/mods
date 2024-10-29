@@ -1,0 +1,8 @@
+﻿PatchouliDiamondRing:
+  Name: 다이아몬드 링
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |선택|: |일부| {Value1} |원소 전개|, 또는 |월부| {Value1} |원소 전개|.
+  ExtraDescription1: '|일부| {Value1} |원소 전개|.'
+  ExtraDescription2: '|월부| {Value1} |원소 전개|.'

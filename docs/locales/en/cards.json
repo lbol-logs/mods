@@ -4,6 +4,384 @@
     "-s_other": "s"
   },
 
+  "PatchouliAgniRadiance": {
+    "Name": "Agni Radiance",
+    "Description": "<h>Spellcast</h> <Value1 /> <h>Fire Sign</h>.<br /><h>For each Boost</h>: <h>Spellcast</h> <Value2 /> additional <h>Fire Sign</h>."
+  },
+  "PatchouliAgniShine": {
+    "Name": "Agni Shine",
+    "Description": "Deal <Damage /> damage <Value2 /> times.<br /><h>Spellcast</h> <Value1 /> <h>Fire Sign</h>.  ",
+    "UpgradedDescription": "Deal <Damage /> damage <Value2 /> times.<br /><h>Spellcast</h> <Value1 /> <h>Fire Sign</h>.<br />Trigger <h>Fire Sign's</h> <h>Passive</h> effect.  "
+  },
+  "PatchouliArcaneWard": {
+    "Name": "Arcane Ward",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Gain <Value2 /> <h>Reflection</h>.<br /><h>For each Boost</h>: Gain <Value1 /> additional <h>Block</h> and <h>Reflection</h>."
+  },
+  "PatchouliAstronomy": {
+    "Name": "Astronomy",
+    "Description": "Draw <Value1 /> card.<br /><h>Boost</h> <BoostThreshold1 />: Gain <Mana />."
+  },
+  "PatchouliAstronomyStudy": {
+    "Name": "Astronomy Study",
+    "Description": "At the start of <PlayerName />'s turn, if there are no <h>Astronomies</h> in the hand, add an <h>Astronomy</h> to the hand."
+  },
+  "PatchouliAttackB": {
+    "Name": "Source of Magic",
+    "Description": "Deal <Damage /> damage."
+  },
+  "PatchouliAttackU": {
+    "Name": "Water Dragon",
+    "Description": "Deal <Damage /> damage."
+  },
+  "PatchouliAutumnBlade": {
+    "Name": "Autumn Blade",
+    "Description": "Deal <Damage /> damage.<br /><h>Boost</h> <BoostThreshold1 />: Gain <Value1 /> <h>Ward</h>.<br /><h>Boost</h> <BoostThreshold2 />: Gain <Value2 /> <h>Amulet</h>."
+  },
+  "PatchouliAwakenedSpellbook": {
+    "Name": "Awakened Spellbook",
+    "Description": "Whenever a <h>Boost</h> card that has been <h>Boosted</h> <Value2 /> or more times is played, <h>Spellcast</h> <Value1 /> <h>Fire Sign</h>.<br />Whenever <PlayerName /> <h>Spellcasts</h>, <h>Boost</h> all the cards in the hand."
+  },
+  "PatchouliBlockB": {
+    "Name": "Moonlight Shadow",
+    "Description": "Gain <Block /> <h>Block</h>."
+  },
+  "PatchouliBlockU": {
+    "Name": "Midnight Studies",
+    "Description": "Gain <Block /> <h>Block</h>."
+  },
+  "PatchouliBuryInLake": {
+    "Name": "Bury In Lake",
+    "Description": "Gain <Block /> <h>Block</h>.<br /><h>Spellcast</h> <Value1 /> <h>Water Sign</h>.",
+    "UpgradedDescription": "Gain <Shield /> <h>Barrier</h>.<br /><h>Spellcast</h> <Value1 /> <h>Water Sign</h>."
+  },
+  "PatchouliCircadianRhythm": {
+    "Name": "Circadian Rhythm",
+    "Description": "<h>Spellcast</h> <Value1 /> <h>Sun Sign</h>.<br />When <Value2 /> or more <h>Sun</h> or <h>Moon Sign Active</h> effects trigger, <h>Spellcast</h> that many <h>Signs</h> of the other."
+  },
+  "PatchouliConcentration": {
+    "Name": "Concentration",
+    "Description": "Draw <Value1 /> cards.<br /><h>Boost</h> all the cards in the hand.<br /><h>Boost</h> <BoostThreshold1 /> and <BoostThreshold2 />: Gain <Value2 /> <h>Block</h>."
+  },
+  "PatchouliCondensedBubble": {
+    "Name": "Condensed Bubble",
+    "Description": "Deal <Damage /> damage <Value2 /> times.<br /><h>For each Boost</h>: Deal <Value1 /> additional damage."
+  },
+  "PatchouliCounterspell": {
+    "Name": "Counterspell",
+    "Description": "<h>Counter Attack</h>: Gain <Value1 /> <h>Graze</h>.<br /><h>Counter Accurate Attack</h>: Gain <Block /> Block.<br /><h>Counter Spellcard</h>: Gain <Block /> <h>Barrier</h>."
+  },
+  "PatchouliCountersquall": {
+    "Name": "Countersquall",
+    "Description": "<h>Counter Attack</h>: Deal <Damage /> damage and Gain <Block /> <h>Block</h>.<br /><h>Counter Debuff</h>: Gain <Value1 /> <h>Amulet</h>."
+  },
+  "PatchouliCurrentConductor": {
+    "Name": "Current Conductor",
+    "Description": "Whenever <h>Water Sign</h> triggers, Apply or Add <Value2 /> <h>Drowning</h> to each enemy and trigger <h>Drowning</h>.<br /><h>Spellcast</h> <Value1 /> <h>Water Sign</h>."
+  },
+  "PatchouliDiamondHardness": {
+    "Name": "Diamond Hardness",
+    "Description": "Gain <Shield /> <h>Barrier</h>.<br />Gain <Value1 /> <h>Reflection</h>.<br /><h>Boost</h> <BoostThreshold1 />: Gain <Value2 /> <h>Static Charge</h>."
+  },
+  "PatchouliDiamondRing": {
+    "Name": "Diamond Ring",
+    "Description": "Deal <Damage /> damage.<br /><h>Choose</h>: <h>Spellcast</h> <Value1 /> <h>Sun Sign</h>, or <h>Spellcast</h> <Value1 /> <h>Moon Sign</h>.  "
+  },
+  "PatchouliDimensionShift": {
+    "Name": "Dimension Shift",
+    "Description": "End <PlayerName />'s turn. Then, take an extra turn.<br /><h>Time Limit</h> <Mana1 />.<br /><h>For each Boost</h>: <SelfName /> costs <Mana /> less to play.",
+    "UpgradedDescription": "End <PlayerName />'s turn. Then, take an extra turn.<br /><h>For each Boost</h>: <SelfName /> costs <Mana /> less to play."
+  },
+  "PatchouliDistortionField": {
+    "Name": "Distortion Field",
+    "Description": "Gain <Value1 /> <h>Graze</h>.<br /><h>Boost</h> all the cards in the hand.",
+    "UpgradedDescription": "Gain <Value1 /> <h>Graze</h>.<br /><h>Boost</h> all the cards in the hand twice."
+  },
+  "PatchouliDoyouSpear": {
+    "Name": "Doyou Spear",
+    "Description": "Deal <Damage /> damage.<br />When an enemy is defeated using <SelfName />, Gain <Mana />.  "
+  },
+  "PatchouliElementalHarvester": {
+    "Name": "Elemental Harvester",
+    "Description": "Gain <Mana />.<br /><h>Boost</h> <BoostThreshold1 />: Gain an additional <BonusMana />."
+  },
+  "PatchouliElementalTriangle": {
+    "Name": "Elemental Triangle",
+    "Description": "<h>Choose</h>: <h>Spellcast</h> <Value1 /> <h>Fire</h>, <h>Water</h> or <h>Wood Sign</h>.<br />Trigger its <h>Passive</h> effect."
+  },
+  "PatchouliElementalTriangleFire": {
+    "Name": "Fire Element",
+    "Description": "<h>Spellcast</h> <Value1 /> <h>Fire Sign</h>."
+  },
+  "PatchouliElementalTriangleWater": {
+    "Name": "Water Element",
+    "Description": "<h>Spellcast</h> <Value1 /> <h>Water Sign</h>."
+  },
+  "PatchouliElementalTriangleWood": {
+    "Name": "Wood Element",
+    "Description": "<h>Spellcast</h> <Value1 /> <h>Wood Sign</h>."
+  },
+  "PatchouliEmeraldMegalith": {
+    "Name": "Emerald Megalith",
+    "Description": "Gain <Block /> <h>Block</h>.<br />If <PlayerName /> has <Value1 /> or more casting <h>Signs</h>, Trigger the <h>Passive</h> effect of each <h>Sign</h> casting."
+  },
+  "PatchouliEnigmaticMagic": {
+    "Name": "Enigmatic Magic",
+    "Description": "Whenever <PlayerName /> <h>Spellcasts</h>, gain <Value1 /> <h>Block</h>."
+  },
+  "PatchouliEveryAngleShot": {
+    "Name": "Every Angle Shot",
+    "Description": "Deal <Damage /> damage.<br /><h>Boost</h> <BoostThreshold1 />: At the start of <PlayerName />'s next turn, return <SelfName /> from the <h>Exile</h> pile to the hand. "
+  },
+  "PatchouliFatesHand": {
+    "Name": "Fate's Hand",
+    "Description": "Draw <Value1 /> cards.<br /><h>For each Boost</h>: <SelfName /> costs <Mana /> less to play."
+  },
+  "PatchouliFiveSeasons": {
+    "Name": "Five Seasons",
+    "Description": "At the end of each turn, trigger the <h>Passive</h> effect of each <h>Sign</h> casting."
+  },
+  "PatchouliFlashOfSpring": {
+    "Name": "Flash of Spring",
+    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>Spellcast</h> <Value2 /> <h>Wood Sign</h>. "
+  },
+  "PatchouliForestBlaze": {
+    "Name": "Forest Blaze",
+    "Description": "Deal <Damage /> damage.<br /><h>Spellcast</h> <Value1 /> <h>Fire Sign</h>.<br /><h>Spellcast</h> <Value1 /> <h>Wood Sign</h>.<br /><SelfName /> costs <Mana /> less for each <h>Sign</h> casting.  "
+  },
+  "PatchouliGingerDust": {
+    "Name": "Ginger Dust",
+    "Description": "Draw <Value2 /> cards.<br /><h>Spellcast</h> <Value1 /> <h>Earth Sign</h>.<br /><h>Boost</h> <BoostThreshold1 />: <h>Spellcast</h> <Value1 /> <h>Metal Sign</h>."
+  },
+  "PatchouliGirlOfKnowledge": {
+    "Name": "Girl of Knowledge",
+    "Description": "Gain <Value1 /> <h>Intelligence</h>."
+  },
+  "PatchouliGirlOfShade": {
+    "Name": "Girl of Shade",
+    "Description": "Add <Value1 /> <h>Shadows</h> to the discard pile. They have <h>Replenish</h>.<br />Whenever a <h>Status</h> or <h>Misfortune</h> card is <h>Exiled</h>, gain <Value2 /> <h>Firepower</h> and <h>Spirit</h>."
+  },
+  "PatchouliGrandIncantation": {
+    "Name": "Grand Incantation",
+    "Description": "Whenever a <h>Boost</h> card is played, deal damage to the enemy with the most life equal to that card's <h>Boost</h>."
+  },
+  "PatchouliGreenStorm": {
+    "Name": "Green Storm",
+    "Description": "Deal <Damage /> damage.<br /><h>For each Boost</h>: Deal damage an additional time."
+  },
+  "PatchouliHydrogenousProminence": {
+    "Name": "Hydrogenous Prominence",
+    "Description": "Gain <Shield /> <h>Barrier</h>.<br /><h>Spellcast</h> <Value1 /> <h>Sun Sign</h>.<br /><h>Spellcast</h> <Value1 /> <h>Water Sign</h>.<br /><SelfName /> costs <Mana /> less for each <h>Sign</h> casting.  "
+  },
+  "PatchouliIntruderSecurity": {
+    "Name": "Intruder Security",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Choose up to <Value1 /> card from the discard pile and return it to the hand."
+  },
+  "PatchouliJellyfishPrincess": {
+    "Name": "Jellyfish Princess",
+    "Description": "<h>For each <ManaU /> spent</h>: Deal <Damage /> damage to each enemy.<br /><h>For each <ManaB /> spent</h>: <h>Spellcast</h> <Value1 /> <h>Moon Sign</h>."
+  },
+  "PatchouliKnowledgeSeeker": {
+    "Name": "Knowledge Seeker",
+    "Description": "Gain <Value1 /> <h>Intelligence</h>.<br /><h>Boost</h> <BoostThreshold1 />: Doesn't <h>Exile</h>."
+  },
+  "PatchouliKoakumaFriend": {
+    "Name": "Koakuma, Devilish Assistant",
+    "Description": "<h>Spellcast</h> <Value1 /> <h>Fire Sign</h>.",
+    "UpgradedDescription": "<h>Spellcast</h> <Value1 /> <h>Fire Sign</h>.",
+    "PassiveDescription": "Draw <Value1 /> card.",
+    "UpgradedPassiveDescription": "Draw <Value1 /> card.",
+    "ActiveDescription": "Add an <h>Occult</h> to the hand.",
+    "UpgradedActiveDescription": "Add a <h>Rainbow</h> to the hand.",
+    "UltimateDescription": "<h>Fire Signs</h> deal double damage for the rest of combat."
+  },
+  "PatchouliKrakenWave": {
+    "Name": "Kraken Wave",
+    "Description": "<h>When this card has been Boosted</h> <BoostThreshold1 /> <h>times</h>: Deal <Value1 /> damage to each enemy, gain <Value1 /> <h>Block</h>, discard <SelfName /> and reset its <h>Boost</h>."
+  },
+  "PatchouliLavaCromlech": {
+    "Name": "Lava Cromlech",
+    "Description": "Deal <Damage /> damage.<br />Deal <Value1 /> additional damage for each <h>Sign</h> cast this combat.  "
+  },
+  "PatchouliMagicalResearch": {
+    "Name": "Magical Research",
+    "Description": "Choose 1 of <Value1 /> random <h>Boost</h> cards to add to the hand. It <h>temporarily costs</h> <Mana /> and has <h>Exile</h> and <h>Ethereal</h>."
+  },
+  "PatchouliManaDrain": {
+    "Name": "Mana Drain",
+    "Description": "Deal <Damage /> damage.<br /><h>Boost</h> <BoostThreshold1 />: Apply <Value1 /> <h>Weak</h>."
+  },
+  "PatchouliMercuryPoisoning": {
+    "Name": "Mercury Poisoning",
+    "Description": "<h>Spellcast</h> <Value3 /> <h>Metal Sign</h>.<br /><h>Choose</h>: Apply <Value1 /> <h>Poison</h>, or Apply <Value2 /> <h>Weak</h>."
+  },
+  "PatchouliMetalFatigue": {
+    "Name": "Metal Fatigue",
+    "Description": "<h>Spellcast</h> <Value1 /> <h>Metal Sign</h>.<br />Apply <Value2 /> <h>Temporary Firepower Down</h>.<br /><h>Boost</h> <BoostThreshold1 />: Apply <Value2 /> <h>Firepower Down</h> and <h>Exile</h> <SelfName />."
+  },
+  "PatchouliMoongazing": {
+    "Name": "Moongazing",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Add <Value1 /> <h>Astronomy</h> to the hand.",
+    "UpgradedDescription": "Gain <Block /> <h>Block</h>.<br />Add <Value1 /> <h>Astronomy</h> to the hand.<br /><h>Boost</h> all the cards in the hand."
+  },
+  "PatchouliMoonlitChill": {
+    "Name": "Moonlit Chill",
+    "Description": "Gain <Value1 /> <h>Firepower</h> and <Value2 /> <h>Spirit</h>.<br /><h>Boost</h> <BoostThreshold1 />: Gain <Value2 /> additional <h>Firepower</h>.<br /><h>Boost</h> <BoostThreshold2 />: Gain <Value1 /> additional <h>Spirit</h>."
+  },
+  "PatchouliNegate": {
+    "Name": "Negate",
+    "Description": "<h>Counter Attack</h>: Gain <Block /> <h>Block</h>.<br /><h>Counter Status</h>: Gain <Value1 /> <h>Ward</h>."
+  },
+  "PatchouliNoachianDeluge": {
+    "Name": "Noachian Deluge",
+    "Description": "Deal <Damage /> damage.<br /><SelfName /> can be <h>Boosted</h> any number of times.<br /><h>For each Boost</h>: Deal <Value1 /> additional damage."
+  },
+  "PatchouliObservatory": {
+    "Name": "Observatory",
+    "Description": "Deal <Damage /> damage.<br />Add <Value1 /> <h>Astronomy</h> to the hand.",
+    "UpgradedDescription": "Deal <Damage /> damage.<br />Add <Value1 /> <h>Astronomy</h> to the hand.<br /><h>Boost</h> all the cards in the hand."
+  },
+  "PatchouliOneWeekGirl": {
+    "Name": "One-week Girl",
+    "Description": "Spellcast <Value1 /> <h>Fire sign</h>.<br />At the start of each turn, <h>Spellcast</h> <Value1 /> <h>Water Sign</h>, this <h>Sign</h> alternates every turn."
+  },
+  "PatchouliPhilosopherStone": {
+    "Name": "Philosopher's Stone",
+    "Description": "<h>Spellcast</h> <Value1 /> <h>Fire Sign</h>.<br /><h>Spellcast</h> <Value1 /> <h>Water Sign</h>.<br /><h>Spellcast</h> <Value1 /> <h>Wood Sign</h>.<br /><h>Spellcast</h> <Value1 /> <h>Metal Sign</h>.<br /><h>Spellcast</h> <Value1 /> <h>Earth Sign</h>."
+  },
+  "PatchouliPhlogisticPillar": {
+    "Name": "Phlogistic Pillar",
+    "Description": "Whenever a <h>Boost</h> card is played, gain <Value1 /> <h>Barrier</h>."
+  },
+  "PatchouliPhlogisticRain": {
+    "Name": "Phlogistic Rain",
+    "Description": "Deal <Damage /> damage <Value2 /> times.<br /><h>Boost</h> <BoostThreshold1 />: Gain <Mana /> and draw <Value1 /> card."
+  },
+  "PatchouliPhotosynthesis": {
+    "Name": "Photosynthesis",
+    "Description": "Exile up to <Value2 /> cards in the hand.<br /><h>Spellcast</h> that many <h>Sun Signs</h>.  "
+  },
+  "PatchouliRapidCharge": {
+    "Name": "Rapid Charge",
+    "Description": "Trigger the <h>Passive</h> effect of each <h>Sign</h> casting.<br /><h>Overflow</h>: Gain <Mana />",
+    "UpgradedDescription": "Trigger the <h>Passive</h> effect of each <h>Sign</h> casting twice.<br /><h>Overflow</h>: Gain <Mana />"
+  },
+  "PatchouliRingOfAgni": {
+    "Name": "Ring of Agni",
+    "Description": "Deal <Damage /> damage.<br /><h>For each</h> <Mana /> <h>spent and for each Boost</h>: Deal <Value1 /> additional damage."
+  },
+  "PatchouliRoyalFlare": {
+    "Name": "Royal Flare",
+    "Description": "<h>At the start of the turn</h>: Gain <Value1 /> <h>Temporary Intelligence</h>.<br /><h>While in hand</h>: When <PlayerName /> <h>Spellcasts</h> <Value2 /> times, deal <Damage /> damage to each enemy and discard <SelfName />."
+  },
+  "PatchouliSaintElmoPillar": {
+    "Name": "Saint Elmo's Pillar",
+    "Description": "<h>Spellcast</h> <Value1 /> <h>Metal Sign</h>.<br />Whenever <PlayerName />'s <h>Reflection</h> triggers, deal damage to each enemy equal to the amount of <h>Reflection</h>."
+  },
+  "PatchouliSakuyaFriend": {
+    "Name": "Sakuya, Master of Time",
+    "Description": "Add <Value1 /> <h>Throwing Knife</h> to the hand.",
+    "UpgradedDescription": "Add <Value1 /> <h>Throwing Knife+</h> to the hand.",
+    "PassiveDescription": "Add <Value1 /> <h>Throwing Knife</h> to the hand.",
+    "UpgradedPassiveDescription": "Add <Value1 /> <h>Throwing Knife</h> to the hand.",
+    "ActiveDescription": "Gain <Value1 /> <h>Graze</h>.",
+    "UltimateDescription": "End <PlayerName />'s turn. Then, take an extra turn."
+  },
+  "PatchouliSatelliteHimawari": {
+    "Name": "Satellite Himawari",
+    "Description": "<h>Spellcast</h> <Value1 /> <h>Wood Sign</h>.<br /><h>Wood Sign's</h> <h>Passive</h> effect apply to all <h>Wood Sign</h> for the rest of the combat instead."
+  },
+  "PatchouliSilentSelene": {
+    "Name": "Silent Selene",
+    "Description": "Gain <Block /> <h>Block</h>.<br /><h>Spellcast</h> <Value1 /> <h>Moon Sign</h>.  "
+  },
+  "PatchouliSilverDragon": {
+    "Name": "Silver Dragon",
+    "Description": "Gain <Block /> <h>Block</h>.<br /><h>Spellcast</h> <Value1 /> <h>Metal Sign</h>.",
+    "UpgradedDescription": "Gain <Block /> <h>Block</h>.<br /><h>Spellcast</h> <Value1 /> <h>Metal Sign</h>.<br />Trigger <h>Metal Sign's</h> <h>Passive</h> effect.  "
+  },
+  "PatchouliSpellCreation": {
+    "Name": "Spell Creation",
+    "Description": "Deal <Damage /> damage.<br /><h>Boost</h> <BoostThreshold1 />, <BoostThreshold2 /> and <BoostThreshold3 />: Choose <Value2 /> additional effects, gain their effects.",
+    "UpgradedDescription": "Deal <Damage /> damage.<br />Choose <Value2 /> additional effects, gain their effects.<br /><h>Boost</h> <BoostThreshold1 />, <BoostThreshold2 /> and <BoostThreshold3 />: Choose <Value2 /> additional effects, gain their effects."
+  },
+  "PatchouliSpellCreationBlock": {
+    "Name": "Shield",
+    "Description": "Gain <Block /> <h>Block</h>."
+  },
+  "PatchouliSpellCreationDraw": {
+    "Name": "Restore Magicka",
+    "Description": "Draw <Value1 /> card."
+  },
+  "PatchouliSpellCreationFire": {
+    "Name": "Fire damage",
+    "Description": "<h>Spellcast</h> <Value1 /> <h>Fire Sign</h>."
+  },
+  "PatchouliSpellCreationWeak": {
+    "Name": "Calm",
+    "Description": "Apply <Value2 /> <h>Weak</h> to each enemy."
+  },
+  "PatchouliSpellDuplication": {
+    "Name": "Spell Duplication",
+    "Description": "Choose a card in the hand. Add <Value1 /> <h>Copy</h> of it to the hand.<br />It <h>temporarily costs</h> <Mana /> and has <h>Exile</h> and <h>Ethereal</h>.<br />If it's a <h>Boost</h> Card, gain its <h>Boost</h>."
+  },
+  "PatchouliSpellMastery": {
+    "Name": "Spell Mastery",
+    "Description": "Deal <Damage /> damage.<br /><h>Boost</h> <BoostThreshold1 />: Add a <h>Splash</h> to the hand.<br /><h>Boost</h> <BoostThreshold2 />: <h>Upgrade</h> it.",
+    "UpgradedDescription": "Deal <Damage /> damage.<br /><h>Boost</h> <BoostThreshold1 />: Add a <h>Rainbow</h> to the hand.<br /><h>Boost</h> <BoostThreshold2 />: <h>Upgrade</h> it."
+  },
+  "PatchouliSpellPowerGrasp": {
+    "Name": "Spell Power Grasp",
+    "Description": "At the start of each turn, <h>Boost</h> all the cards in the hand.",
+    "UpgradedDescription": "<h>Boost</h> all the cards in hand.<br />At the start of each turn, <h>Boost</h> all the cards in the hand."
+  },
+  "PatchouliSpringWind": {
+    "Name": "Spring Wind",
+    "Description": "Choose up to <Value1 /> card in the hand. It gains <h>Echo</h>.<br /><h>Boost</h> <BoostThreshold1 />: Add <Value1 /> <h>Vitality</h> to the hand.",
+    "UpgradedDescription": "Choose up to <Value1 /> card in the hand. It gains <h>Echo</h>.<br /><h>Boost</h> <BoostThreshold1 />: Add <Value1 /> <h>Rainbow</h> to the hand."
+  },
+  "PatchouliSummerRed": {
+    "Name": "Summer Red",
+    "Description": "Choose up to <Value1 /> card in the hand, it gains <h>Retain</h> this turn.<br />If it's a <h>Boost</h> Card, <h>Boost</h> it <Value2 /> times."
+  },
+  "PatchouliSungrazerComet": {
+    "Name": "Sungrazer Comet",
+    "Description": "<h>Choose</h>: Gain <Value1 /> <h>Graze</h>, or gain <Block /> <h>Block</h>.<br /><h>Boost</h> <BoostThreshold1 />: Apply both effects instead."
+  },
+  "PatchouliSunshineReflector": {
+    "Name": "Sunshine Reflector",
+    "Description": "Deal <Damage /> damage to each enemy.<br /><h>Spellcast</h> <Value1 /> <h>Sun Sign</h>.  "
+  },
+  "PatchouliSylphyHorn": {
+    "Name": "Sylphy Horn",
+    "Description": "<h>Spellcast</h> <Value1 /> <h>Wood Sign</h>.<br />Whenever <h>Wood Sign's Active</h> effect triggers, return <SelfName /> from <h>Exile</h> to the hand."
+  },
+  "PatchouliTeaBreak": {
+    "Name": "Tea Break",
+    "Description": "Gain <Value1 /> life.<br />Remove <PlayerName />'s <h>Vulnerable</h>.",
+    "UpgradedDescription": "Gain <Value1 /> life.<br />Remove <PlayerName />'s <h>Lock On</h>, <h>Vulnerable</h> and <h>Weak</h>."
+  },
+  "PatchouliTheUnmovingGreatLibrary": {
+    "Name": "The Unmoving Great Library",
+    "Description": "Gain <Value1 /> <h>Intelligence</h>.<br />Whenever a <h>Sign Active</h> effect triggers, gain <Value2 /> <h>Intelligence</h>."
+  },
+  "PatchouliTidalWave": {
+    "Name": "Tidal Wave",
+    "Description": "Apply or Add <Value1 /> <h>Drowning</h>.<br />Trigger the enemy's <h>Drowning</h>.<br /><h>Boost</h> <BoostThreshold1 />: Apply or Add <Value2 /> additional <h>Drowning</h>."
+  },
+  "PatchouliTwinspell": {
+    "Name": "Twinspell",
+    "Description": "Draw <Value1 /> card.<br /><h>While in hand</h>: When a <h>Boost</h> card is played, transform <SelfName /> card into a copy of that card for the rest of combat and gain its <h>Boost</h>.",
+    "UpgradedDescription": "Draw <Value1 /> card.<br /><h>While in hand</h>: When a <h>Boost</h> card is played, transform <SelfName /> card into an <h>Upgraded</h> copy of that card for the rest of combat and gain its <h>Boost</h>."
+  },
+  "PatchouliVoile": {
+    "Name": "Voile, the Magic Library",
+    "Description": "Whenever a <h>Boost</h> cards is played, apply the following effects based on its <h>Boost</h>:<br /><BoostThreshold1 />: Draw <Value1 /> card.<br /><BoostThreshold2 />: Gain <Mana />.<br /><BoostThreshold3 />: Gain <Value1 /> <h>Firepower</h>."
+  },
+  "PatchouliWaterElf": {
+    "Name": "Water Elf",
+    "Description": "Deal <Damage /> damage.<br /><h>Spellcast</h> <Value1 /> <h>Water Sign</h>.<br /><h>Spellcast</h> <Value1 /> <h>Wood Sign</h>.<br /><h>For each Boost</h>: <SelfName /> costs <Mana /> less to play."
+  },
+
   "SanaeAmuletDebuff": {
     "Name": "Kouan Era Kochiya",
     "Description": "<h>Choose</h> one or more:<br />- Gain <Value1 /> <h>Firepower</h> and <h>Weak</h>.<br />- Gain <Value1 /> <h>Spirit</h> and <h>Frail</h>.<br />- Gain <Value1 /> maximum life, <h>Vulnerable</h> and <h>Poison</h>."

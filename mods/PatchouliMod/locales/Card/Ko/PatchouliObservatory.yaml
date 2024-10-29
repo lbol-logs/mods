@@ -1,0 +1,12 @@
+﻿PatchouliObservatory:
+  Name: 전망대
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    손에 |천문학|을 {Value1} 가져옵니다.
+  UpgradedDescription: >-
+    피해를 {Damage} 줍니다.
+
+    손에 |천문학|을 {Value1} 가져옵니다.
+
+    손의 모든 카드를 |증강|합니다.

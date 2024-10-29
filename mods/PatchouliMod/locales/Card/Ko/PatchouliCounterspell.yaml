@@ -1,0 +1,8 @@
+﻿PatchouliCounterspell:
+  Name: 대응마법
+  Description: >-
+    |대응 공격|: |그레이즈|를 {Value1} 얻습니다.
+
+    |대응 명중 공격|: |방어|를 {Block} 얻습니다.
+
+    |대응 스펠 카드|: |보호막|을 {Block} 얻습니다.

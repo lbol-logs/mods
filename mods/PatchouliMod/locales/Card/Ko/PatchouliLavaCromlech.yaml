@@ -1,0 +1,6 @@
+﻿PatchouliLavaCromlech:
+  Name: 라바 크롬렉
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    이 전투에서 |원소 전개|된 |원소|마다 추가로 피해를 {Value1} 줍니다.

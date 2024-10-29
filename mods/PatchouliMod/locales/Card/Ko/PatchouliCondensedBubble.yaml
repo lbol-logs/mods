@@ -1,0 +1,8 @@
+﻿PatchouliCondensedBubble:
+  Name: 컨덴스트 버블
+  Description: >-
+    피해를 {Damage} 만큼 {Value2}번 줍니다.
+
+    |증강 할 때 마다|: 추가로 피해를 {Value1} 줍니다.
+
+    (|증강|: {Boost})

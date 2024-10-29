@@ -1,0 +1,12 @@
+﻿PatchouliMoongazing:
+  Name: Moongazing
+  Description: >-
+    Gain {Block} |Block|.
+
+    Add {Value1} |Astronomy| to the hand.
+  UpgradedDescription: >-
+    Gain {Block} |Block|.
+
+    Add {Value1} |Astronomy| to the hand.
+
+    |Boost| all the cards in the hand.

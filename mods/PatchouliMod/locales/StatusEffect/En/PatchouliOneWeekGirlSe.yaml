@@ -1,0 +1,7 @@
+﻿PatchouliOneWeekGirlSe:
+  Name: One-week Girl
+  Description: >-
+    At the start of each turn, |Spellcast| {Level} |Sign|, the |Sign| alternates every turn.
+
+    Next Sign: |{NextSign}| |Sign|
+  Brief: Fire Water Wood Metal Earth Sun Moon

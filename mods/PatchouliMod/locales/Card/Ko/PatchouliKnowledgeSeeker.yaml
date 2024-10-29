@@ -1,0 +1,8 @@
+﻿PatchouliKnowledgeSeeker:
+  Name: 지식의 탐구자
+  Description: >-
+    |지혜|를 {Value1} 얻습니다.
+
+    |증강| {BoostThreshold1}: |소멸|하지 않습니다.
+
+    (|증강|: {Boost})

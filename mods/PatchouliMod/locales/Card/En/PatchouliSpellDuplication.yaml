@@ -1,0 +1,8 @@
+﻿PatchouliSpellDuplication:
+  Name: Spell Duplication
+  Description: >-
+    Choose a card in the hand. Add {Value1} |Copy| of it to the hand.
+
+    It |temporarily costs| {Mana} and has |Exile| and |Ethereal|.
+
+    If it's a |Boost| Card, gain its |Boost|.

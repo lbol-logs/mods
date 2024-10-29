@@ -1,0 +1,6 @@
+﻿PatchouliCurrentConductor:
+  Name: Current Conductor
+  Description: >-
+    Whenever |Water Sign| triggers, Apply or Add {Value2} |Drowning| to each enemy and trigger |Drowning|.
+
+    |Spellcast| {Value1} |Water Sign|.

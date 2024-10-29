@@ -1,0 +1,10 @@
+﻿PatchouliVoile:
+  Name: 브와르 마법 도서관
+  Description: >-
+    |증강| 카드를 사용할 때 마다, 그 카드의 |증강|을 기준으로 다음과 같은 효과를 적용합니다.
+
+    {BoostThreshold1}: 카드를 뽑습니다.
+
+    {BoostThreshold2}: {Mana}를 얻습니다.
+
+    {BoostThreshold3}: |화력|을 {Value1} 얻습니다.

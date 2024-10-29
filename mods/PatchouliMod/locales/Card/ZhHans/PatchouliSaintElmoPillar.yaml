@@ -1,0 +1,6 @@
+﻿PatchouliSaintElmoPillar:
+  Name: 圣爱尔摩之柱
+  Description: >-
+    |咏唱| {Value1} 个|金符|。
+
+    当{PlayerName}的|反射|效果触发时，对所有敌人造成|反射|点数的伤害。

@@ -1,0 +1,10 @@
+﻿PatchouliSungrazerComet:
+  Name: 선그레이저
+  Description: >-
+    |선택|: |그레이즈|를 {Value1} 얻습니다. 또는 |방어|를 {Block} 얻습니다.
+
+    |증강| {BoostThreshold1}: 양쪽 다 적용합니다.
+
+    (|증강|: {Boost})
+  ExtraDescription1: '|그레이즈|를 {Value1} 얻습니다.'
+  ExtraDescription2: '|방어|를 {Block} 얻습니다.'

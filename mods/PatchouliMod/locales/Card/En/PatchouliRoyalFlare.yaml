@@ -1,0 +1,6 @@
+﻿PatchouliRoyalFlare:
+  Name: Royal Flare
+  Description: >-
+    |At the start of the turn|: Gain {Value1} |Temporary Intelligence|.
+
+    |While in hand|: When {PlayerName} |Spellcasts| {Value2} times, deal {Damage} damage to each enemy and discard {SelfName}.

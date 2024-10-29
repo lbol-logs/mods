@@ -1,0 +1,14 @@
+﻿PatchouliRapidCharge:
+  Name: 快速充能
+  Description: >-
+    获得{Mana}。
+
+    触发所有|曜符|的|被动|效果。
+
+    |充盈|：获得{Mana}。
+  UpgradedDescription: >-
+    获得{Mana}。
+
+    触发所有|曜符|的|被动|效果两次。
+
+    |充盈|：获得{Mana}。

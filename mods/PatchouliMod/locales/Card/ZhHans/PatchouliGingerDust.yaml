@@ -1,0 +1,8 @@
+﻿PatchouliGingerDust:
+  Name: 淡黄色的阵风
+  Description: >-
+    抽 {Value2} 张牌。
+
+    |咏唱| {Value1} 个|土符|。
+
+    |增幅| {BoostThreshold1}： |咏唱| {Value1} 个|金符|。

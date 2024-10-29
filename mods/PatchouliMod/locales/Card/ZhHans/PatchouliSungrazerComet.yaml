@@ -1,0 +1,8 @@
+﻿PatchouliSungrazerComet:
+  Name: 掠日者彗星
+  Description: >-
+    |抉择|：获得 {Value1} 层|闪避|；或获得 {Block} 点|格挡|。
+
+    |增幅| {BoostThreshold1}：获得两者。
+  ExtraDescription1: 获得 {Value1} 层|闪避|。
+  ExtraDescription2: 获得 {Block} 点|格挡|。

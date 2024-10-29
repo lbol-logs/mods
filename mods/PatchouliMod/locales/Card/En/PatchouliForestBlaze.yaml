@@ -1,0 +1,3 @@
+﻿PatchouliForestBlaze:
+  Name: Forest Blaze
+  Description: "Deal {Damage} damage.\n|Spellcast| {Value1} |Fire Sign|.\n|Spellcast| {Value1} |Wood Sign|.\n{SelfName} costs {Mana} less for each |Sign| casting.  "

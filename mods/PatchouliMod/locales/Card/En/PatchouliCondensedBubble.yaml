@@ -1,0 +1,6 @@
+﻿PatchouliCondensedBubble:
+  Name: Condensed Bubble
+  Description: >-
+    Deal {Damage} damage {Value2} times.
+
+    |For each Boost|: Deal {Value1} additional damage.

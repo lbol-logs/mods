@@ -1,0 +1,10 @@
+﻿PatchouliTwinspell:
+  Name: 이중주문
+  Description: >-
+    카드를 {Value1}장 뽑습니다.
+
+    |손에 있을 시|:|증강| 카드를 사용시, 남은 전투 동안 {SelfName}을 해당 카드의 복사본으로 바꾸고 그 |증강|도 얻습니다.
+  UpgradedDescription: >-
+    카드를 {Value1}장 뽑습니다.
+
+    |손에 있을 시|: |증강| 카드를 사용시, 남은 전투 동안 {SelfName}을 해당 카드의 |강화된| 복사본으로 바꾸고 그 |증강|도 얻습니다.

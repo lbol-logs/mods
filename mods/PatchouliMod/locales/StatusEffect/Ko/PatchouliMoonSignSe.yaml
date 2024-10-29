@@ -1,0 +1,10 @@
+﻿PatchouliMoonSignSe:
+  Name: 월부
+  Description: >-
+    |지속|: |방어|를 {PassiveAmount} 얻습니다. 
+
+    |발동|: |방어|를 {ActiveAmount} 얻습니다. <sprite="ManaSprite" name="B">를 얻습니다.
+  Brief: >-
+    |지속|: |방어|를 2 얻습니다. 
+
+    |발동|: |방어|를 4 얻습니다. <sprite="ManaSprite" name="B">를 얻습니다.

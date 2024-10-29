@@ -1,0 +1,8 @@
+﻿PatchouliCounterspell:
+  Name: Counterspell
+  Description: >-
+    |Counter Attack|: Gain {Value1} |Graze|.
+
+    |Counter Accurate Attack|: Gain {Block} Block.
+
+    |Counter Spellcard|: Gain {Block} |Barrier|.

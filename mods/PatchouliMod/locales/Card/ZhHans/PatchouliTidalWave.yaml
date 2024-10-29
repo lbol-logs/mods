@@ -1,0 +1,8 @@
+﻿PatchouliTidalWave:
+  Name: 潮汐巨浪
+  Description: >-
+    施加 {Value1} 层|溺水|。
+
+    触发敌人的|溺水|效果。
+
+    |增幅| {BoostThreshold1}：额外施加 {Value2} 层|溺水|。

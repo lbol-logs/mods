@@ -1,0 +1,3 @@
+﻿PatchouliAstronomyStudy:
+  Name: Astronomy Study
+  Description: At the start of {PlayerName}'s turn, if there are no |Astronomies| in the hand, add an |Astronomy| to the hand.

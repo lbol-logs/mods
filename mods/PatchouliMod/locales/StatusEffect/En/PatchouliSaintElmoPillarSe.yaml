@@ -1,0 +1,3 @@
+﻿PatchouliSaintElmoPillarSe:
+  Name: Saint Elmo's Pillar
+  Description: Whenever |Reflection| triggers, deal damage to each enemy equal to the amount of |Reflection| time{Level:plural one='' other='s'} {Level}.

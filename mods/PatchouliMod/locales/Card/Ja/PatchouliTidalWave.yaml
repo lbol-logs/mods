@@ -1,0 +1,10 @@
+﻿PatchouliTidalWave:
+  Name: タイダルウェイブ
+  Description: >-
+    |溺水|{Value1}を与える。
+
+    その敵の|溺水|効果を発動させる。
+
+    |詠唱値|{BoostThreshold1}以上なら、与える|溺水|を{Value2}増やす。
+
+    |詠唱|

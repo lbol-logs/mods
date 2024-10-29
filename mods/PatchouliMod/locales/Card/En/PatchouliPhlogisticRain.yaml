@@ -1,0 +1,6 @@
+﻿PatchouliPhlogisticRain:
+  Name: Phlogistic Rain
+  Description: >-
+    Deal {Damage} damage {Value2} times.
+
+    |Boost| {BoostThreshold1}: Gain {Mana} and draw {Value1} card.

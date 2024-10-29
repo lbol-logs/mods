@@ -1,0 +1,4 @@
+﻿PatchouliAgniShine:
+  Name: Agni Shine
+  Description: "Deal {Damage} damage {Value2} times.\n|Spellcast| {Value1} |Fire Sign|.  "
+  UpgradedDescription: "Deal {Damage} damage {Value2} times.\n|Spellcast| {Value1} |Fire Sign|.\nTrigger |Fire Sign's| |Passive| effect.  "

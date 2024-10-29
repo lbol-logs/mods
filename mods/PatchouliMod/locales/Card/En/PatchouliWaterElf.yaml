@@ -1,0 +1,10 @@
+﻿PatchouliWaterElf:
+  Name: Water Elf
+  Description: >-
+    Deal {Damage} damage.
+
+    |Spellcast| {Value1} |Water Sign|.
+
+    |Spellcast| {Value1} |Wood Sign|.
+
+    |For each Boost|: {SelfName} costs {Mana} less to play.

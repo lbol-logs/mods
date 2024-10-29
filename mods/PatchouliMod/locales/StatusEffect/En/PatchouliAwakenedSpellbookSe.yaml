@@ -1,0 +1,6 @@
+﻿PatchouliAwakenedSpellbookSe:
+  Name: Awakened Spellbook
+  Description: >-
+    Whenever a |Boost| card that has been |Boosted| {BoostThreshold1} or more times is played, |Spellcast| {Level} |Fire Sign|.
+
+    Whenever {PlayerName} |Spellcasts|, |Boost| all the cards in the hand time{Level:plural one='' other='s'} {Level}.

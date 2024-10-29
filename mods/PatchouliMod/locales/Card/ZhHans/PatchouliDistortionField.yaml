@@ -1,0 +1,10 @@
+﻿PatchouliDistortionField:
+  Name: 扭曲力场
+  Description: >-
+    获得 {Value1} 层|闪避|。
+
+    |增幅|手中的所有牌。
+  UpgradedDescription: >-
+    获得 {Value1} 层|闪避|。
+
+    |增幅|手中的所有牌两次。

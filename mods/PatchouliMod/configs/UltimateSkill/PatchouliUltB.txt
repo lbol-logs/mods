@@ -1,0 +1,1 @@
+﻿{UltimateSkillConfig Id=, Order=10, PowerCost=100, PowerPerLevel=100, MaxPowerLevel=2, RepeatableType=OncePerTurn, Damage=40, Value1=1, Value2=0, Keywords=Accuracy, RelativeEffects=[PatchouliSignKeywordSe, PatchouliMoonSignSe], RelativeCards=[]}

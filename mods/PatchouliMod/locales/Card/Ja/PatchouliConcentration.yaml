@@ -1,0 +1,12 @@
+﻿PatchouliConcentration:
+  Name: 集中
+  Description: >-
+    カードを{Value1}枚引く。
+
+    手札の|詠唱|カードの|詠唱値|を1増やす。
+
+    |詠唱値|{BoostThreshold1}以上なら、{Value2}|ブロック|を得る。
+
+    |詠唱値|{BoostThreshold2}以上なら、追加で{Value2}|ブロック|を得る。
+
+    |詠唱|

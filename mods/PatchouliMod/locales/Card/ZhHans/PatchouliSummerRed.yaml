@@ -1,0 +1,6 @@
+﻿PatchouliSummerRed:
+  Name: 夏之红
+  Description: >-
+    选择手中的至多 {Value1} 张牌，|保留|它们一回合。
+
+    如果选择了|增幅|牌，还会|增幅|它  {Value2} 次。

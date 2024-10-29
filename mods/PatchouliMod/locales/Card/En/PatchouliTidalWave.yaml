@@ -1,0 +1,8 @@
+﻿PatchouliTidalWave:
+  Name: Tidal Wave
+  Description: >-
+    Apply or Add {Value1} |Drowning|.
+
+    Trigger the enemy's |Drowning|.
+
+    |Boost| {BoostThreshold1}: Apply or Add {Value2} additional |Drowning|.

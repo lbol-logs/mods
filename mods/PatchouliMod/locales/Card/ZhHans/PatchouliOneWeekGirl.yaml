@@ -1,0 +1,10 @@
+﻿PatchouliOneWeekGirl:
+  Name: 七曜少女
+  Description: >-
+    |咏唱| {Value1} 个|火符|。
+
+    {PlayerName}的回合开始时，|咏唱| {Value1} 个|水符|。|曜符|的种类每回合都会切换。
+  DetailText: >-
+    |曜符|的切换顺序如下：
+
+    |火| -> |水| -> |木| -> |金| -> |土| -> |日| -> |月|

@@ -1,0 +1,3 @@
+﻿PatchouliCircadianRhythmSe:
+  Name: Circadian Rhythm
+  Description: When 1 or more |Sun| or |Moon Sign Active| effects trigger, |Spellcast| that many |Signs| of the other time{Level:plural one='' other='s'} {Level}.

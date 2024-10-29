@@ -1,0 +1,10 @@
+﻿PatchouliEarthSignSe:
+  Name: 土符
+  Description: >-
+    |被动|：将 {PassiveAmount} 点随机法力转变为|彩色|。
+
+    |主动|：将 {ActiveAmount} 点随机法力转变为彩色。获得<sprite="ManaSprite" name="P">。
+  Brief: >-
+    |被动|：将 1 点随机法力转变为|彩色|。
+
+    |主动|：将 2 点随机法力转变为彩色。获得<sprite="ManaSprite" name="P">。

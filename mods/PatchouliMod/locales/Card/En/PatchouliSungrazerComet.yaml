@@ -1,0 +1,8 @@
+﻿PatchouliSungrazerComet:
+  Name: Sungrazer Comet
+  Description: >-
+    |Choose|: Gain {Value1} |Graze|, or gain {Block} |Block|.
+
+    |Boost| {BoostThreshold1}: Apply both effects instead.
+  ExtraDescription1: Gain {Value1} |Graze|.
+  ExtraDescription2: Gain {Block} |Block|.

@@ -1,0 +1,6 @@
+﻿PatchouliSummerRed:
+  Name: Summer Red
+  Description: >-
+    Choose up to {Value1} card in the hand, it gains |Retain| this turn.
+
+    If it's a |Boost| Card, |Boost| it {Value2} times.

@@ -1,0 +1,7 @@
+﻿PatchouliTeaBreak:
+  Name: 휴식시간
+  Description: "체력을 {Value1} 회복합니다.\n{PlayerName}의 |취약|을 제거합니다. "
+  UpgradedDescription: >-
+    체력을 {Value1} 회복합니다.
+
+    {PlayerName}의 |취약|, |록온|, |허약|을 제거합니다.

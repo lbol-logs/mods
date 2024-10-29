@@ -1,0 +1,24 @@
+﻿PatchouliSpellCreation:
+  Name: 呪文創造
+  Description: >-
+    {Damage}ダメージを与える。
+
+    |詠唱値|{BoostThreshold1}以上なら、4枚の|魔法|から1枚まで選び、その効果を得る。
+
+    |詠唱値|{BoostThreshold2}以上なら、2枚まで選べる。
+
+    |詠唱値|{BoostThreshold3}以上なら、3枚まで選べる。
+
+    |詠唱|
+  UpgradedDescription: >-
+    {Damage}ダメージを与える。
+
+    4枚の|魔法|から1枚まで選び、その効果を得る。
+
+    |詠唱値|{BoostThreshold1}以上なら、2枚まで選べる。
+
+    |詠唱値|{BoostThreshold2}以上なら、3枚まで選べる。
+
+    |詠唱値|{BoostThreshold3}以上なら、4枚まで選べる。
+
+    |詠唱|

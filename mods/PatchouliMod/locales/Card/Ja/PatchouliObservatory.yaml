@@ -1,0 +1,12 @@
+﻿PatchouliObservatory:
+  Name: 天文台
+  Description: >-
+    {Damage}ダメージを与える。
+
+    |天文学|を{Value1}枚手札に加える。
+  UpgradedDescription: >-
+    {Damage}ダメージを与える。
+
+    |天文学|を{Value1}枚手札に加える。
+
+    手札の|詠唱|カードの|詠唱値|を1増やす。

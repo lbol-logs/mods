@@ -1,0 +1,8 @@
+﻿PatchouliGreenStorm:
+  Name: グリーンストーム
+  Description: >-
+    {Damage}ダメージを与える。
+
+    |詠唱値|2以上なら、|詠唱値|1につきダメージを与える回数を+1する。
+
+    |詠唱|

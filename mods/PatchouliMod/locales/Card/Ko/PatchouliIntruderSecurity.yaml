@@ -1,0 +1,6 @@
+﻿PatchouliIntruderSecurity:
+  Name: 침입자 방지
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    버린 카드 더미에서 카드를 {Value1}장 까지 선택하여 손으로 가져옵니다.

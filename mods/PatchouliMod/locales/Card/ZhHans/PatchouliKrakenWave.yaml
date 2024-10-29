@@ -1,0 +1,3 @@
+﻿PatchouliKrakenWave:
+  Name: 海怪巨浪
+  Description: '|增幅| {BoostThreshold1} |次时|：对所有敌人造成 {Value1} 点伤害，获得 {Value1} 点|格挡|，丢弃并重置{SelfName}的|增幅|。'

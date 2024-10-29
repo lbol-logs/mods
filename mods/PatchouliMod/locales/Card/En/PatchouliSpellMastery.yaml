@@ -1,0 +1,14 @@
+﻿PatchouliSpellMastery:
+  Name: Spell Mastery
+  Description: >-
+    Deal {Damage} damage.
+
+    |Boost| {BoostThreshold1}: Add a |Splash| to the hand.
+
+    |Boost| {BoostThreshold2}: |Upgrade| it.
+  UpgradedDescription: >-
+    Deal {Damage} damage.
+
+    |Boost| {BoostThreshold1}: Add a |Rainbow| to the hand.
+
+    |Boost| {BoostThreshold2}: |Upgrade| it.

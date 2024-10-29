@@ -1,0 +1,6 @@
+﻿PatchouliCurrentConductor:
+  Name: 흐름의 지휘자
+  Description: >-
+    |수부|가 발동할 때 마다, 모든 적에게 |침수|를 {Value2} 주고 |침수|의 효과를 발동한다.
+
+    |수부| {Value1} |원소 전개|.

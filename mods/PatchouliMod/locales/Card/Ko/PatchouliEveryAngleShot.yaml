@@ -1,0 +1,10 @@
+﻿PatchouliEveryAngleShot:
+  Name: 에브리 앵글 샷
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |증강| {BoostThreshold1}: |소멸|과 |휘발성|을 가진 {SelfName}을 한 장 손에 가져옵니다.
+  UpgradedDescription: >-
+    피해를 {Damage} 줍니다.
+
+    |증강| {BoostThreshold1}: |소멸|과 |휘발성|을 가진 {SelfName}+를 한 장 손에 가져옵니다.

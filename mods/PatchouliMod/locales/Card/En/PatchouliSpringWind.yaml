@@ -1,0 +1,10 @@
+﻿PatchouliSpringWind:
+  Name: Spring Wind
+  Description: >-
+    Choose up to {Value1} card in the hand. It gains |Echo|.
+
+    |Boost| {BoostThreshold1}: Add {Value1} |Vitality| to the hand.
+  UpgradedDescription: >-
+    Choose up to {Value1} card in the hand. It gains |Echo|.
+
+    |Boost| {BoostThreshold1}: Add {Value1} |Rainbow| to the hand.

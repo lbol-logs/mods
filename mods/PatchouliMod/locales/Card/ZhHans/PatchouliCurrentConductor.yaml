@@ -1,0 +1,6 @@
+﻿PatchouliCurrentConductor:
+  Name: 导电体
+  Description: >-
+    当|水符|触发时，对所有敌人施加 {Value2} 层|溺水|，然后触发|溺水|的效果。
+
+    |咏唱| {Value1} 个|水符|。

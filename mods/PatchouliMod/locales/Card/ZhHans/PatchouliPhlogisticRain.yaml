@@ -1,0 +1,6 @@
+﻿PatchouliPhlogisticRain:
+  Name: 燃素之雨
+  Description: >-
+    造成 {Damage} 点伤害 {Value2} 次。
+
+    |增幅| {BoostThreshold1}：获得{Mana}，抽 {Value1} 张牌。

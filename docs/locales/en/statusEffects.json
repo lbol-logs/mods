@@ -12,6 +12,126 @@
   "ordinal_3": "<Count />rd",
   "ordinal": "<Count />th",
 
+  "PatchouliAstronomyStudySe": {
+    "Name": "Astronomy Study",
+    "Description": "At the start of the Player's turn, if there are no <h>Astronomies</h> in the hand, add <Level /> <h>Astronomy</h> to the hand."
+  },
+  "PatchouliAwakenedSpellbookSe": {
+    "Name": "Awakened Spellbook",
+    "Description": "Whenever a <h>Boost</h> card that has been <h>Boosted</h> <BoostThreshold1 /> or more times is played, <h>Spellcast</h> <Level /> <h>Fire Sign</h>.<br />Whenever <PlayerName /> <h>Spellcasts</h>, <h>Boost</h> all the cards in the hand time$t(plurals.-s, { 'count': {{Level}} }) <Level />."
+  },
+  "PatchouliBoostSe": {
+    "Name": "Boost",
+    "Description": ""
+  },
+  "PatchouliCircadianRhythmSe": {
+    "Name": "Circadian Rhythm",
+    "Description": "When 1 or more <h>Sun</h> or <h>Moon Sign Active</h> effects trigger, <h>Spellcast</h> that many <h>Signs</h> of the other time$t(plurals.-s, { 'count': {{Level}} }) <Level />."
+  },
+  "PatchouliCounterSe": {
+    "Name": "Counter",
+    "Description": "If the target enemy intends to perform this action, activate the corresponding effect."
+  },
+  "PatchouliCurrentConductorSe": {
+    "Name": "Current Conductor",
+    "Description": "Whenever <h>Water Sign</h> triggers, Apply or add <Level /> <h>Drowning</h> to each enemy and trigger <h>Drowning</h>."
+  },
+  "PatchouliEarthSignSe": {
+    "Name": "Earth Sign",
+    "Description": "<h>Passive</h>: Convert <PassiveAmount /> random mana into <h>Philosopher's Mana</h>.<br /><h>Active</h>: Convert <ActiveAmount /> random mana into <h>Philosopher's Mana</h>. Gain <ManaP />."
+  },
+  "PatchouliEnigmaticMagicSe": {
+    "Name": "Enigmatic Magic",
+    "Description": "Whenever the Player <h>Spellcasts</h>, gain <Level /> Block."
+  },
+  "PatchouliFireSignSe": {
+    "Name": "Fire Sign",
+    "Description": "<h>Passive</h>: Deal <PassiveAmount /> damage to the enemy with the least life. <br /><h>Active</h>: Deal <ActiveAmount /> to the enemy with the least life. Gain <ManaR />."
+  },
+  "PatchouliFiveSeasonsSe": {
+    "Name": "Five Seasons",
+    "Description": "At the end of each turn, trigger the <h>Passive</h> effect of each <h>Sign</h> casting <Level /> time(s)."
+  },
+  "PatchouliGirlOfShadeSe": {
+    "Name": "Girl of Shade",
+    "Description": "Whenever a <h>Status</h> or <h>Misfortune</h> card is <h>Exiled</h>, gain <Level /> <h>Firepower</h> and <h>Spirit</h>."
+  },
+  "PatchouliGrandIncantationSe": {
+    "Name": "Grand Incantation",
+    "Description": "Whenever a <h>Boost</h> card is played, deal damage to the enemy with the most life equal to that card's <h>Boost</h> time$t(plurals.-s, { 'count': {{Level}} }) <Level />."
+  },
+  "PatchouliIntelligenceSe": {
+    "Name": "Intelligence",
+    "Description": "<h>Intelligence</h> increases the effectiveness of <h>Spellcasted Signs</h> by <Level />."
+  },
+  "PatchouliKoakumaFriendSe": {
+    "Name": "Koakuma, Devilish Assistant",
+    "Description": "<h>Fire Signs</h> deal damage <Level /> additional time$t(plurals.-s, { 'count': {{Level}} }) for the rest of combat."
+  },
+  "PatchouliMetalSignSe": {
+    "Name": "Metal Sign",
+    "Description": "<h>Passive</h>: Gain <PassiveAmount /> <h>Reflection</h>. <br /><h>Active</h>: Gain <ActiveAmount /> <h>Reflection</h>. Gain <ManaC />."
+  },
+  "PatchouliMoonSignSe": {
+    "Name": "Moon Sign",
+    "Description": "<h>Passive</h>: Gain <PassiveAmount /> <h>Block</h>. <br /><h>Active</h>: Gain <ActiveAmount /> <h>Block</h>. Gain <ManaB />."
+  },
+  "PatchouliOneWeekGirlSe": {
+    "Name": "One-week Girl",
+    "Description": "At the start of each turn, <h>Spellcast</h> <Level /> <h>Sign</h>, the <h>Sign</h> alternates every turn.<br />Next Sign: <h>t(PatchouliOneWeekGirlSe.NextSign, { 'context': {{NextSign}} })</h> <h>Sign</h>",
+    "NextSign_0": "Fire",
+    "NextSign_1": "Water",
+    "NextSign_2": "Wood",
+    "NextSign_3": "Metal",
+    "NextSign_4": "Earth",
+    "NextSign_5": "Sun",
+    "NextSign_6": "Moon"
+  },
+  "PatchouliPhlogisticPillarSe": {
+    "Name": "Phlogistic Pillar",
+    "Description": "Whenever a <h>Boost</h> card is played, gain <Level /> <h>Barrier</h>."
+  },
+  "PatchouliSaintElmoPillarSe": {
+    "Name": "Saint Elmo's Pillar",
+    "Description": "Whenever <h>Reflection</h> triggers, deal damage to each enemy equal to the amount of <h>Reflection</h> time$t(plurals.-s, { 'count': {{Level}} }) <Level />."
+  },
+  "PatchouliSatelliteHimawariSe": {
+    "Name": "Satellite Himawari",
+    "Description": "<h>Wood Sign's</h> <h>Passive</h> effect apply to all <h>Wood Sign</h> for the rest of the combat instead.<br />Add <BonusDamage /> damage to <h>Wood Sign Active</h> effect."
+  },
+  "PatchouliSignKeywordSe": {
+    "Name": "Sign",
+    "Description": ""
+  },
+  "PatchouliSpellPowerGraspSe": {
+    "Name": "Spell Power Grasp",
+    "Description": "At the start of each turn, <h>Boost</h> all the cards in the hand <Level /> time(s)."
+  },
+  "PatchouliSunSignSe": {
+    "Name": "Sun Sign",
+    "Description": "<h>Passive</h>: Deal <PassiveAmount /> damage to each enemy. <br /><h>Active</h>: Deal <ActiveAmount /> to each enemy. Gain <ManaW />."
+  },
+  "PatchouliTemporaryIntelligenceSe": {
+    "Name": "Temporary Intelligence",
+    "Description": "<h>Intelligence</h> Increases until end of turn.<br /><h>Intelligence</h> increases the effectiveness of <h>Signs</h> by <Level />."
+  },
+  "PatchouliTheUnmovingGreatLibrarySe": {
+    "Name": "The Unmoving Great Library",
+    "Description": "Whenever a <h>Sign Active</h> effect triggers, gain <Level /> <h>Intelligence</h>."
+  },
+  "PatchouliVoileSe": {
+    "Name": "Voile the Magic Library",
+    "Description": "Whenever a <h>Boost</h> cards is played, apply the following effects based on its <h>Boost</h>:<br /><BoostThreshold1 />: Draw <Level /> cards.<br /><BoostThreshold2 />: Gain <Mana />.<br /><BoostThreshold3 />: Gain <Level /> <h>Firepower</h>."
+  },
+  "PatchouliWaterSignSe": {
+    "Name": "Water Sign",
+    "Description": "<h>Passive</h>: Gain <PassiveAmount /> <h>Barrier</h>. <br /><h>Active</h>: Gain <ActiveAmount /> <h>Barrier</h>. Gain <ManaU />."
+  },
+  "PatchouliWoodSignSe": {
+    "Name": "Wood Sign",
+    "Description": "<h>Passive</h>: Increase this <h>Sign's Active</h> damage by <PassiveAmount />.<br /><h>Active</h>: Deal <ActiveAmount /> to the enemy with the most life. Gain <ManaG />."
+  },
+
   "AmuletForEnemy": {
     "Name": "Bulwark",
     "Description": "Negate the next <Level /> non-Status cards that would be added (<h>Exile</h> them instead)."

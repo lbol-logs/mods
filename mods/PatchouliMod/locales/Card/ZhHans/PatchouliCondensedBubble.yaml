@@ -1,0 +1,6 @@
+﻿PatchouliCondensedBubble:
+  Name: 浓缩水泡
+  Description: >-
+    造成 {Damage} 点伤害 {Value2} 次。
+
+    |每层增幅|额外造成 {Value1} 点伤害。

@@ -1,0 +1,10 @@
+﻿PatchouliBuryInLake:
+  Name: 버리 인 레이크
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    |수부| {Value1} |원소 전개|.
+  UpgradedDescription: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    |수부| {Value1} |원소 전개|.

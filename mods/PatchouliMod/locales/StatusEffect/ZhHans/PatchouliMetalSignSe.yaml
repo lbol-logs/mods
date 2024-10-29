@@ -1,0 +1,10 @@
+﻿PatchouliMetalSignSe:
+  Name: 金符
+  Description: >-
+    |被动|：获得 {PassiveAmount} 点|反射|。
+
+    |主动|：获得 {ActiveAmount} 点|反射|获得<sprite="ManaSprite" name="1">。
+  Brief: >-
+    |被动|获得 3 点|反射|。
+
+    |主动|获得 5 点|反射|。获得<sprite="ManaSprite" name="1">。

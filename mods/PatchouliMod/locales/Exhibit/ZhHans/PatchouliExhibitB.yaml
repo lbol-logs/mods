@@ -1,0 +1,7 @@
+﻿PatchouliExhibitB:
+  Name: 元素印记
+  Description: >-
+    提供基础法力{Mana}。|帕秋莉|的专属卡牌会加入牌池。
+
+    {PlayerName}的回合开始时，如果{PlayerName}没有|火符|，|咏唱| {Value1} 个|火符|。
+  FlavorText: 元素魔法借用了自然之力，以最小的魔力输入引发强大的效果。

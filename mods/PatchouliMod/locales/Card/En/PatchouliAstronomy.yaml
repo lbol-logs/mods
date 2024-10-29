@@ -1,0 +1,6 @@
+﻿PatchouliAstronomy:
+  Name: Astronomy
+  Description: >-
+    Draw {Value1} card.
+
+    |Boost| {BoostThreshold1}: Gain {Mana}.

@@ -1,0 +1,8 @@
+﻿PatchouliRingOfAgni:
+  Name: 링 오브 아그니
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    {Mana}|를 지불하거나 증강될 때 마다|: 추가로 피해를 {Value1} 줍니다.
+
+    (|증강|: {Boost})

@@ -1,0 +1,4 @@
+﻿PatchouliEnigmaticMagicSe:
+  Name: 奇怪な魔法
+  Description: '{PlayerName}が|印|を得るたび、{Level}|ブロック|を得る。'
+  Brief: '{PlayerName}が|印|を得るたび、1|ブロック|を得る。'

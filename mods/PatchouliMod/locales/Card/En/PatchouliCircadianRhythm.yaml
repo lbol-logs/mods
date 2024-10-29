@@ -1,0 +1,6 @@
+﻿PatchouliCircadianRhythm:
+  Name: Circadian Rhythm
+  Description: >-
+    |Spellcast| {Value1} |Sun Sign|.
+
+    When {Value2} or more |Sun| or |Moon Sign Active| effects trigger, |Spellcast| that many |Signs| of the other.

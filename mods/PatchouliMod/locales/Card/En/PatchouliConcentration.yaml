@@ -1,0 +1,8 @@
+﻿PatchouliConcentration:
+  Name: Concentration
+  Description: >-
+    Draw {Value1} cards.
+
+    |Boost| all the cards in the hand.
+
+    |Boost| {BoostThreshold1} and {BoostThreshold2}: Gain {Value2} |Block|.

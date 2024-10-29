@@ -1,0 +1,6 @@
+﻿PatchouliSylphyHorn:
+  Name: 风灵的角笛
+  Description: >-
+    |咏唱| {Value1} 个|木符|。
+
+    当一个|曜符|触发|主动|效果后，将{SelfName}从|放逐|区移回手牌。

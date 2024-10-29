@@ -1,0 +1,10 @@
+﻿PatchouliMoonSignSe:
+  Name: 月符
+  Description: >-
+    |被动|：获得 {PassiveAmount} 点|格挡|。
+
+    |主动|：获得 {ActiveAmount} 点|格挡|。获得<sprite="ManaSprite" name="B">。
+  Brief: >-
+    |被动|：获得 2 点|格挡|。
+
+    |主动|：获得 4 点|格挡|。获得<sprite="ManaSprite" name="B">。

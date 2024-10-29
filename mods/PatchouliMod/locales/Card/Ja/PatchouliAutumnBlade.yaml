@@ -1,0 +1,10 @@
+﻿PatchouliAutumnBlade:
+  Name: オータムエッジ
+  Description: >-
+    {Damage}ダメージを与える。
+
+    |詠唱値|{BoostThreshold1}以上なら、|庇護|{Value1}を得る。
+
+    |詠唱値|{BoostThreshold2}以上なら、|加護|{Value2}を得る。
+
+    |詠唱|

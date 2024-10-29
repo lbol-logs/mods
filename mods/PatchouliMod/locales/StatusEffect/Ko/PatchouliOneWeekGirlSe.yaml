@@ -1,0 +1,6 @@
+﻿PatchouliOneWeekGirlSe:
+  Name: 1주일의 소녀
+  Description: >-
+    턴 시작시, |원소| {Level} |원소 전개|, 매 턴 |원소|가 바뀝니다.
+     다음 원소: |{NextSign}||부|
+  Brief: 화 수 목 금 토 일 월

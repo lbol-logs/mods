@@ -1,0 +1,10 @@
+﻿PatchouliBuryInLake:
+  Name: 湖葬
+  Description: >-
+    获得 {Block} 点|格挡|。
+
+    |咏唱| {Value1} 个|水符|。
+  UpgradedDescription: >-
+    获得 {Shield} 点|护盾|。
+
+    |咏唱| {Value1} 个|水符|。

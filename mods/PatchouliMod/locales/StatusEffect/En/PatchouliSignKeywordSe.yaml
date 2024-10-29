@@ -1,0 +1,9 @@
+﻿PatchouliSignKeywordSe:
+  Name: Sign
+  Description: ''
+  Brief: >-
+    Gain the corresponding |Sign|.
+
+    The |Sign| |Passive| effect triggers when gained and at the start of each turn.
+
+    At the start of the Player 3rd turn after the |Sign| was gained, remove it and triggers the |Sign| |Active| effect instead.

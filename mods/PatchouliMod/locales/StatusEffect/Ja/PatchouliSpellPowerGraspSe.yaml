@@ -1,0 +1,3 @@
+﻿PatchouliSpellPowerGraspSe:
+  Name: 魔力掌握
+  Description: '{PlayerName}のターン開始時、手札の|詠唱|カードの|詠唱値|を{Level}増やす。'

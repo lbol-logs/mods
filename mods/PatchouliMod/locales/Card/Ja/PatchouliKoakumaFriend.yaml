@@ -1,0 +1,13 @@
+﻿PatchouliKoakumaFriend:
+  Name: 名も無き小さな悪魔、小悪魔
+  Description: >-
+    <indent=80>|火の印|{Value1}を得る。
+
+    <indent=0><sprite="Passive" name="1"><indent=80>カードを{Value1}枚引く。
+  UpgradedDescription: >-
+    <indent=80>|火の印|{Value1}を得る。
+
+    <indent=0><sprite="Passive" name="2"><indent=80>カードを{Value1}枚引く。
+  ExtraDescription1: <indent=0><sprite="Active" name="-4"><indent=80>|怪奇|を手札に加える。
+  UpgradedExtraDescription1: <indent=0><sprite="Active" name="-4"><indent=80>|幻虹|を手札に加える。
+  ExtraDescription2: <indent=0><sprite="Ultimate" name="-8"><indent=80>戦闘終了まで|火の印|のダメージを1倍分増やす。

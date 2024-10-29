@@ -1,0 +1,12 @@
+﻿PatchouliDimensionShift:
+  Name: Dimension Shift
+  Description: >-
+    End {PlayerName}'s turn. Then, take an extra turn.
+
+    |Time Limit| <sprite="ManaSprite" name="1">.
+
+    |For each Boost|: {SelfName} costs {Mana} less to play.
+  UpgradedDescription: >-
+    End {PlayerName}'s turn. Then, take an extra turn.
+
+    |For each Boost|: {SelfName} costs {Mana} less to play.

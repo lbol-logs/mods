@@ -1,0 +1,10 @@
+﻿PatchouliTemporaryIntelligenceSe:
+  Name: Temporary Intelligence
+  Description: >-
+    |Intelligence| Increases until end of turn.
+
+    |Intelligence| increases the effectiveness of |Signs| by {Level}.
+  Brief: >-
+    |Intelligence| Increases until end of turn.
+
+    |Intelligence| increases the effectiveness of |Signs|.

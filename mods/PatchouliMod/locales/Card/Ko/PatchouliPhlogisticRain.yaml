@@ -1,0 +1,8 @@
+﻿PatchouliPhlogisticRain:
+  Name: 플로지스틱 레인
+  Description: >-
+    피해를 {Damage} 만큼 {Value2}번 줍니다.
+
+    |증강| {BoostThreshold1}: {Mana}를 얻고 카드를 {Value1}장 뽑습니다.
+
+    (|증강|: {Boost})

@@ -1,0 +1,11 @@
+﻿PatchouliUltB:
+  Title: 부1
+  Content: 세인트 엘모 익스플로전
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |월부| {Value1} |원소 전개| .
+
+    |일부| {Value1} |원소 전개|.
+
+    |명중|

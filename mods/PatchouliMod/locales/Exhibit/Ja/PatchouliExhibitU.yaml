@@ -1,0 +1,9 @@
+﻿PatchouliExhibitU:
+  Name: 水のグリモワール
+  Description: >-
+    マナ基盤に{Mana}を加え、|パチュリー|専用のカードが出現するようになる。
+
+    戦闘開始時、|天文学|を手札に加える。
+
+    |詠唱値|{BoostThreshold1}以上の|詠唱|カードを使用した場合、{Value2}|ブロック|を得る。
+  FlavorText: 森の魔法使いがまだ「借りていない」魔導書。

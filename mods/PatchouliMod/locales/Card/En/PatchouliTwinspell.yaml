@@ -1,0 +1,10 @@
+﻿PatchouliTwinspell:
+  Name: Twinspell
+  Description: >-
+    Draw {Value1} card.
+
+    |While in hand|: When a |Boost| card is played, transform {SelfName} card into a copy of that card for the rest of combat and gain its |Boost|.
+  UpgradedDescription: >-
+    Draw {Value1} card.
+
+    |While in hand|: When a |Boost| card is played, transform {SelfName} card into an |Upgraded| copy of that card for the rest of combat and gain its |Boost|.

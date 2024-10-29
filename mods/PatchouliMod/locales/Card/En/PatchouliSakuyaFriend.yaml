@@ -1,0 +1,12 @@
+﻿PatchouliSakuyaFriend:
+  Name: Sakuya, Master of Time
+  Description: >-
+    <indent=80>Add {Value1} |Throwing Knife| to the hand.
+
+    <indent=0><sprite="Passive" name="1"><indent=80>Add {Value1} |Throwing Knife| to the hand.
+  UpgradedDescription: >-
+    <indent=80>Add {Value1} |Throwing Knife+| to the hand.
+
+    <indent=0><sprite="Passive" name="2"><indent=80>Add {Value1} |Throwing Knife| to the hand.
+  ExtraDescription1: <indent=0><sprite="Active" name="-3"><indent=80>Gain {Value1} |Graze|.
+  ExtraDescription2: <indent=0><sprite="Ultimate" name="-7"><indent=80>End {PlayerName}'s turn. Then, take an extra turn.

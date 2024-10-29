@@ -1,0 +1,10 @@
+﻿PatchouliDiamondHardness:
+  Name: 다이아몬드 하드니스
+  Description: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    |반사|를 {Value1} 얻습니다.
+
+    |증강| {BoostThreshold1}: |정전기|를 {Value2} 얻습니다.
+
+    (|증강|: {Boost})

@@ -1,0 +1,10 @@
+﻿PatchouliTeaBreak:
+  Name: 饮茶时间
+  Description: >-
+    恢复 {Value1} 点生命。
+
+    移除{PlayerName}的|易伤|。
+  UpgradedDescription: >-
+    恢复 {Value1} 点生命。
+
+    移除{PlayerName}的|锁定|，|易伤|和|虚弱|。

@@ -1,0 +1,6 @@
+﻿PatchouliAgniRadiance:
+  Name: Agni Radiance
+  Description: >-
+    |Spellcast| {Value1} |Fire Sign|.
+
+    |For each Boost|: |Spellcast| {Value2} additional |Fire Sign|.

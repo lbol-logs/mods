@@ -1,0 +1,3 @@
+﻿PatchouliSaintElmoPillarSe:
+  Name: セントエルモピラー
+  Description: '{PlayerName}の|反射|が発動した場合、発動した|反射|の値×{Level}ダメージを敵全体に与える。'

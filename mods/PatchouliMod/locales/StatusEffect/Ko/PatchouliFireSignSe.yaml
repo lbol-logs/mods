@@ -1,0 +1,10 @@
+﻿PatchouliFireSignSe:
+  Name: 화부
+  Description: >-
+    |지속|: 체력이 가장 적은 적에게 피해를 {PassiveAmount} 줍니다.
+
+    |발동|: 체력이 가장 적은 적에게 피해를 {ActiveAmount} 줍니다. <sprite="ManaSprite" name="R">를 얻습니다.
+  Brief: >-
+    |지속|: 체력이 가장 적은 적에게 피해를 3 줍니다.
+
+    |발동|: 체력이 가장 적은 적에게 피해를 5 줍니다. <sprite="ManaSprite" name="R">를 얻습니다.

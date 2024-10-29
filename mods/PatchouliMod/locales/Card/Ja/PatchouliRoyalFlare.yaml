@@ -1,0 +1,7 @@
+﻿PatchouliRoyalFlare:
+  Name: ロイヤルフレア
+  Description: >-
+    |手札効果|:{PlayerName}のターン開始時、|臨時知力アップ|{Value1}を得る。
+
+    |手札効果|:{PlayerName}が{Value2}回|印|を得た時、敵全体に{Damage}ダメージを与え、このカードを捨てる。
+  DetailText: '{SelfName}は使用しても|廃棄|される以外の効果を持たない。'

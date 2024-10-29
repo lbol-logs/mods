@@ -1,0 +1,10 @@
+﻿PatchouliWaterSignSe:
+  Name: 수부
+  Description: >-
+    |지속|: |보호막|을 {PassiveAmount} 얻습니다.
+
+    |발동|: |보호막|을 {ActiveAmount} 얻습니다. <sprite="ManaSprite" name="U">를 얻습니다.
+  Brief: >-
+    |지속|: |보호막|을 1 얻습니다.
+
+    |발동|: |보호막|을 3 얻습니다. <sprite="ManaSprite" name="U">를 얻습니다.

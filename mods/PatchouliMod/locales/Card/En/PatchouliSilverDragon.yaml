@@ -1,0 +1,7 @@
+﻿PatchouliSilverDragon:
+  Name: Silver Dragon
+  Description: >-
+    Gain {Block} |Block|.
+
+    |Spellcast| {Value1} |Metal Sign|.
+  UpgradedDescription: "Gain {Block} |Block|.\n|Spellcast| {Value1} |Metal Sign|.\nTrigger |Metal Sign's| |Passive| effect.  "

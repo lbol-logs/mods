@@ -1,0 +1,7 @@
+﻿PatchouliSilverDragon:
+  Name: シルバードラゴン
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    |金の印|{Value1}を得る。
+  UpgradedDescription: "{Block}|ブロック|を得る。\n|金の印|{Value1}を得る。\n|金の印|の|パッシブ|効果を発動する。 "

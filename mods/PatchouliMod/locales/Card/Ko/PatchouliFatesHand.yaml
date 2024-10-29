@@ -1,0 +1,8 @@
+﻿PatchouliFatesHand:
+  Name: 운명의 손
+  Description: >-
+    카드를 {Value1}장 뽑습니다.
+
+    |증강 할 때 마다|: {SelfName}의 비용이 {Mana} 감소합니다.
+
+    (|증강|: {Boost})

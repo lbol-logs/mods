@@ -1,0 +1,6 @@
+﻿PatchouliRoyalFlare:
+  Name: 皇家圣焰
+  Description: >-
+    |回合开始时|：获得 {Value1} 点|暂得魔力|。
+
+    |手牌中|：当{PlayerName}|咏唱| {Value2} 次后，对所有敌人造成 {Damage} 点伤害，然后丢弃{SelfName}。

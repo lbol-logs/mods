@@ -1,0 +1,6 @@
+﻿PatchouliSummerRed:
+  Name: 서머 레드
+  Description: >-
+    손에서 카드를 {Value1}장 고르고, 이 턴 |보존|을 부여합니다.
+
+    그 카드가 |증강|카드라면, {Value2}번 |증강|합니다.

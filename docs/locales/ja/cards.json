@@ -1,4 +1,382 @@
 {
+  "PatchouliAgniRadiance": {
+    "Name": "アグニレイディアンス",
+    "Description": "<h>火の印</h><Value1 />を得る。<br /><h>詠唱値</h>1につき<h>火の印</h><Value2 />を得る。<br /><h>詠唱</h>"
+  },
+  "PatchouliAgniShine": {
+    "Name": "アグニシャイン",
+    "Description": "<Damage />ダメージを<Value2 />回与える。<br /><h>火の印</h><Value1 />を得る。",
+    "UpgradedDescription": "<Damage />ダメージを<Value2 />回与える。<br /><h>火の印</h><Value1 />を得る。<br /><h>火の印</h>の<h>パッシブ</h>効果を発動させる。  "
+  },
+  "PatchouliArcaneWard": {
+    "Name": "秘術の防壁",
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><Value2 /><h>反射</h>を得る。<br /><h>詠唱値</h>1につき、得られる<h>ブロック</h>と<h>反射</h>を<Value1 />増やす。<br /><h>詠唱</h>"
+  },
+  "PatchouliAstronomy": {
+    "Name": "天文学",
+    "Description": "カードを<Value1 />枚引く。<br /><h>詠唱値</h><BoostThreshold1 />以上なら、<Mana />を得る。<br /><h>詠唱</h>"
+  },
+  "PatchouliAstronomyStudy": {
+    "Name": "天文学研究",
+    "Description": "<PlayerName />のターン開始時、手札に<h>天文学</h>が無い場合、<h>天文学</h>を1枚手札に加える。"
+  },
+  "PatchouliAttackB": {
+    "Name": "魔力の源",
+    "Description": "<Damage />ダメージを与える。"
+  },
+  "PatchouliAttackU": {
+    "Name": "ウォータードラゴン",
+    "Description": "<Damage />ダメージを与える。"
+  },
+  "PatchouliAutumnBlade": {
+    "Name": "オータムエッジ",
+    "Description": "<Damage />ダメージを与える。<br /><h>詠唱値</h><BoostThreshold1 />以上なら、<h>庇護</h><Value1 />を得る。<br /><h>詠唱値</h><BoostThreshold2 />以上なら、<h>加護</h><Value2 />を得る。<br /><h>詠唱</h>"
+  },
+  "PatchouliAwakenedSpellbook": {
+    "Name": "覚醒する魔導書",
+    "Description": "<h>詠唱値</h><Value2 />以上の<h>詠唱</h>カードをプレイするたび、<h>火の印</h><Value1 />を得る。<br /><PlayerName />が<h>印</h>を得るたび、手札の<h>詠唱</h>カードの<h>詠唱値</h>を1増やす。"
+  },
+  "PatchouliBlockB": {
+    "Name": "ムーンライトシャドウ",
+    "Description": "<Block /><h>ブロック</h>を得る。"
+  },
+  "PatchouliBlockU": {
+    "Name": "真夜中の研究",
+    "Description": "<Block /><h>ブロック</h>を得る。"
+  },
+  "PatchouliBuryInLake": {
+    "Name": "ベリーインレイク",
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>水の印</h><Value1 />を得る。",
+    "UpgradedDescription": "<Shield /><h>バリア</h>を得る。<br /><h>水の印</h><Value1 />を得る。"
+  },
+  "PatchouliCircadianRhythm": {
+    "Name": "概日リズム",
+    "Description": "<h>日の印</h><Value1 />を得る。<br /><h>日の印</h>もしくは<h>月の印</h>の<h>アクティブ</h>効果が発動した場合、もう片方の<h>印</h>を<h>アクティブ</h>効果が発動した時の<h>印</h>のレベルだけ得る。"
+  },
+  "PatchouliConcentration": {
+    "Name": "集中",
+    "Description": "カードを<Value1 />枚引く。<br />手札の<h>詠唱</h>カードの<h>詠唱値</h>を1増やす。<br /><h>詠唱値</h><BoostThreshold1 />以上なら、<Value2 /><h>ブロック</h>を得る。<br /><h>詠唱値</h><BoostThreshold2 />以上なら、追加で<Value2 /><h>ブロック</h>を得る。<br /><h>詠唱</h>"
+  },
+  "PatchouliCondensedBubble": {
+    "Name": "コンデンスドバブル",
+    "Description": "<Damage />ダメージを<Value2 />回与える。<br /><h>詠唱値</h>1につき、与えるダメージを<Value1 />増やす。<br /><h>詠唱</h>"
+  },
+  "PatchouliCounterspell": {
+    "Name": "対抗呪文",
+    "Description": "<h>カウンター:攻撃</h>:<h>グレイズ</h><Value1 />を得る。<br /><h>カウンター:精密攻撃</h>:<Block />ブロックを得る。<br /><h>カウンター:スペルカード</h>:<Block /><h>バリア</h>を得る。"
+  },
+  "PatchouliCountersquall": {
+    "Name": "対抗突風",
+    "Description": "<h>カウンター:攻撃</h><Damage />ダメージを与え、<Block /><h>ブロック</h>を得る。<br /><h>カウンター:デバフ</h>:<Value1 /><h>加護</h>を得る。"
+  },
+  "PatchouliCurrentConductor": {
+    "Name": "水流の指揮者",
+    "Description": "<h>水の印</h>の効果が発動するたび、<h>溺水</h><Value2 />を敵全体に与え、<h>溺水</h>の効果を発動させる。<br /><h>水の印</h><Value1 />を得る。"
+  },
+  "PatchouliDiamondHardness": {
+    "Name": "ダイアモンドハードネス",
+    "Description": "<Shield /><h>バリア</h>を得る。<br /><Value1 /><h>反射</h>を得る。<br /><h>詠唱値</h><BoostThreshold1 />以上なら、<h>帯電</h><Value2 />を得る。<br /><h>詠唱</h>"
+  },
+  "PatchouliDiamondRing": {
+    "Name": "ロイヤルダイアモンドリング",
+    "Description": "<Damage />ダメージを与える。<br /><h>チョイス</h>:<h>日の印</h><Value1 />を得る、もしくは<h>月の印</h><Value1 />を得る。  "
+  },
+  "PatchouliDimensionShift": {
+    "Name": "次元の超越",
+    "Description": "<PlayerName />はターンを終了し、追加ターンを得る。<h>時間制限</h><Mana1 />。<br /><h>詠唱値</h>1につき、このカードのコストを<Mana />減らす。<br /><h>詠唱</h>",
+    "UpgradedDescription": "<PlayerName />はターンを終了し、追加ターンを得る。<br /><h>詠唱値</h>1につき、このカードのコストを<Mana />減らす。<br /><h>詠唱</h>"
+  },
+  "PatchouliDistortionField": {
+    "Name": "歪曲フィールド",
+    "Description": "<h>グレイズ</h><Value1 />を得る。<br />手札の<h>詠唱</h>カードの<h>詠唱値</h>を1増やす。",
+    "UpgradedDescription": "<h>グレイズ</h><Value1 />を得る。<br />手札の<h>詠唱</h>カードの<h>詠唱値</h>を2増やす。"
+  },
+  "PatchouliDoyouSpear": {
+    "Name": "ドヨースピア",
+    "Description": "<Damage />ダメージを与える。<br /><SelfName />で敵を撃破した場合、<Mana />を得る。  "
+  },
+  "PatchouliElementalHarvester": {
+    "Name": "エレメンタルハーベスター",
+    "Description": "<Mana />を得る。<br /><h>詠唱値</h><BoostThreshold1 />以上なら、追加で<BonusMana />を得る。<br /><h>詠唱</h>"
+  },
+  "PatchouliElementalTriangle": {
+    "Name": "三大属性",
+    "Description": "3枚の<h>属性魔法</h>から1枚まで選び、その効果を得る。<br />その効果で得た<h>印</h>の<h>パッシブ</h>効果を発動する。"
+  },
+  "PatchouliElementalTriangleFire": {
+    "Name": "火の魔法",
+    "Description": "<h>火の印</h><Value1 />を得る。"
+  },
+  "PatchouliElementalTriangleWater": {
+    "Name": "水の魔法",
+    "Description": "<h>水の印</h><Value1 />を得る。"
+  },
+  "PatchouliElementalTriangleWood": {
+    "Name": "風の魔法",
+    "Description": "<h>木の印</h><Value1 />を得る。"
+  },
+  "PatchouliEmeraldMegalith": {
+    "Name": "エメラルドメガリス",
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><PlayerName />が<Value1 />種類以上の<h>印</h>を得ている場合、得ている<h>印</h>の<h>パッシブ</h>効果を発動する。"
+  },
+  "PatchouliEnigmaticMagic": {
+    "Name": "奇怪な魔法",
+    "Description": "<PlayerName />が<h>印</h>を得るたび、<Value1 /><h>ブロック</h>を得る。"
+  },
+  "PatchouliEveryAngleShot": {
+    "Name": "エブリアングルショット",
+    "Description": "<Damage />ダメージを与える。<br /><h>詠唱値</h><BoostThreshold1 />以上なら、使用されて<h>廃棄</h>されたこのカードを次の<PlayerName />のターン開始時に廃棄場から手札に戻す。<br /><h>詠唱</h>"
+  },
+  "PatchouliFatesHand": {
+    "Name": "運命の手",
+    "Description": "カードを<Value1 />枚引く。<br /><h>詠唱値</h>1につき、このカードのコストを<Mana />減らす。<br /><h>詠唱</h>"
+  },
+  "PatchouliFiveSeasons": {
+    "Name": "ファイブシーズン",
+    "Description": "<PlayerName />のターン終了時に、得ている<h>印</h>の<h>パッシブ</h>効果を発動させる。"
+  },
+  "PatchouliFlashOfSpring": {
+    "Name": "フラッシュオブスプリング",
+    "Description": "カードを<Value1 />枚引く。<br /><h>木の印</h><Value2 />を得る。"
+  },
+  "PatchouliForestBlaze": {
+    "Name": "フォレストブレイズ",
+    "Description": "<Damage />ダメージを与える。<br /><h>火の印</h><Value1 />を得る。<br /><h>木の印</h><Value1 />を得る。<br /><PlayerName />が得ている<h>印</h>の種類と等しい数だけ、このカードのコストを<Mana />減らす。"
+  },
+  "PatchouliGingerDust": {
+    "Name": "ジンジャガスト",
+    "Description": "カードを<Value2 />枚引く。<br /><h>土の印</h><Value1 />を得る。<br /><h>詠唱値</h><BoostThreshold1 />以上なら、<h>金の印</h><Value1 />を得る。<br /><h>詠唱</h>"
+  },
+  "PatchouliGirlOfKnowledge": {
+    "Name": "知識と日陰の少女",
+    "Description": "<h>知力</h><Value1 />を得る。"
+  },
+  "PatchouliGirlOfShade": {
+    "Name": "得体の知れない魔法の元",
+    "Description": "<h>暗闇</h>を<Value1 />枚捨て札に加える。それらは<h>補充</h>を持つ。<br /><h>厄災</h>または<h>状態異常</h>カードを<h>廃棄</h>した時、<h>火力</h><Value2 />と<h>霊力</h><Value2 />を得る。"
+  },
+  "PatchouliGrandIncantation": {
+    "Name": "堂々たる呪文",
+    "Description": "<h>詠唱</h>カードがプレイされるたび、最もライフの多い敵にそのカードの<h>詠唱値</h>に等しい数のダメージを与える。"
+  },
+  "PatchouliGreenStorm": {
+    "Name": "グリーンストーム",
+    "Description": "<Damage />ダメージを与える。<br /><h>詠唱値</h>2以上なら、<h>詠唱値</h>1につきダメージを与える回数を+1する。<br /><h>詠唱</h>"
+  },
+  "PatchouliHydrogenousProminence": {
+    "Name": "ハイドロジェナスプロミネンス",
+    "Description": "<Shield /><h>バリア</h>を得る。<br /><h>日の印</h><Value1 />を得る。<br /><h>水の印</h><Value1 />を得る。<br />このカードのコストは、得ている<h>印</h>のレベルの合計と等しい数の<Mana />だけ減る。  "
+  },
+  "PatchouliIntruderSecurity": {
+    "Name": "侵入者対策",
+    "Description": "<Block /><h>ブロック</h>を得る。<br />捨て札から<Value1 />枚までのカードを選んで手札に戻す。"
+  },
+  "PatchouliJellyfishPrincess": {
+    "Name": "ジェリーフィッシュプリンセス",
+    "Description": "<h><ManaU />につき</h>:敵全体に<Damage />ダメージを与える。<br /><h><ManaB />につき</h>:<h>月の印</h><Value1 />を得る。"
+  },
+  "PatchouliKnowledgeSeeker": {
+    "Name": "知識の探求者",
+    "Description": "<h>知力</h><Value1 />を得る。<br /><h>詠唱値</h><BoostThreshold1 />以上なら、このカードは使用しても<h>廃棄</h>されない。<br /><h>詠唱</h>"
+  },
+  "PatchouliKoakumaFriend": {
+    "Name": "名も無き小さな悪魔、小悪魔",
+    "Description": "<h>火の印</h><Value1 />を得る。",
+    "UpgradedDescription": "<h>火の印</h><Value1 />を得る。",
+    "PassiveDescription": "カードを<Value1 />枚引く。",
+    "UpgradedPassiveDescription": "カードを<Value1 />枚引く。",
+    "ActiveDescription": "<h>怪奇</h>を手札に加える。",
+    "UpgradedActiveDescription": "<h>幻虹</h>を手札に加える。",
+    "UltimateDescription": "戦闘終了まで<h>火の印</h>のダメージを1倍分増やす。"
+  },
+  "PatchouliKrakenWave": {
+    "Name": "クラーケンウェーブ",
+    "Description": "<h>詠唱値</h><BoostThreshold1 />になった時、敵全体に<Value1 />ダメージを与え、<PlayerName />は<Value1 /><h>ブロック</h>を得る。その後このカードは捨てられ、<h>詠唱値</h>は0になる。<br /><h>詠唱</h>"
+  },
+  "PatchouliLavaCromlech": {
+    "Name": "ラーヴァクロムレク",
+    "Description": "<Damage />ダメージを与える。<br />この戦闘で得た<h>印</h>のレベルの合計分、このカードのダメージを<Value1 />増やす。"
+  },
+  "PatchouliMagicalResearch": {
+    "Name": "魔法の研究",
+    "Description": "<Value1 />枚のランダムな<h>詠唱</h>カードから1枚選び、手札に加える。<br />それは<h>臨時コスト</h><Mana />となり、<h>廃棄</h>、<h>虚無</h>を持つ。<br />その後、手札の<h>詠唱</h>カードの<h>詠唱値</h>を1増やす。"
+  },
+  "PatchouliManaDrain": {
+    "Name": "マナ吸収",
+    "Description": "<Damage />ダメージを与える。<br /><h>詠唱値</h><BoostThreshold1 />以上なら、<h>脱力</h><Value1 />を与える。<br /><h>詠唱</h>"
+  },
+  "PatchouliMercuryPoisoning": {
+    "Name": "マーキュリポイズン",
+    "Description": "<h>金の印</h><Value3 />を得る。<br /><h>チョイス</h>:<h>毒</h><Value1 />を与える。もしくは<h>脱力</h><Value2 />を与える。"
+  },
+  "PatchouliMetalFatigue": {
+    "Name": "メタルファティーグ",
+    "Description": "<h>臨時火力ダウン</h><Value2 />を与える。<br /><h>金の印</h><Value1 />を得る。<br /><h>詠唱値</h><BoostThreshold1 />以上なら、<h>火力ダウン</h><Value2 />を与え、このカードを<h>廃棄</h>する。<br /><h>詠唱</h>"
+  },
+  "PatchouliMoongazing": {
+    "Name": "観月",
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>天文学</h>を<Value1 />枚手札に加える。",
+    "UpgradedDescription": "<Block /><h>ブロック</h>を得る。<br /><h>天文学</h>を<Value1 />枚手札に加える。<br />手札の<h>詠唱</h>カードの<h>詠唱値</h>を1増やす。"
+  },
+  "PatchouliMoonlitChill": {
+    "Name": "寒月",
+    "Description": "<h>火力</h><Value1 />と<h>霊力</h><Value2 />を得る。<br /><h>詠唱値</h><BoostThreshold1 />以上なら、追加で<h>火力</h><Value2 />を得る。<br /><h>詠唱値</h><BoostThreshold2 />以上なら、追加で<h>霊力</h><Value1 />を得る。<br /><h>詠唱</h>"
+  },
+  "PatchouliNegate": {
+    "Name": "否認",
+    "Description": "<h>カウンター:攻撃</h><Block /><h>ブロック</h>を得る。<br /><h>カウンター:状態異常</h><Value1 /><h>庇護</h>を得る。"
+  },
+  "PatchouliNoachianDeluge": {
+    "Name": "ノアの大洪水",
+    "Description": "<Damage />ダメージを与える。<br /><SelfName />の<h>詠唱値</h>上限は無い。<br /><h>詠唱値</h>1につきダメージを<Value1 />増やす。<br /><h>詠唱</h>"
+  },
+  "PatchouliObservatory": {
+    "Name": "天文台",
+    "Description": "<Damage />ダメージを与える。<br /><h>天文学</h>を<Value1 />枚手札に加える。",
+    "UpgradedDescription": "<Damage />ダメージを与える。<br /><h>天文学</h>を<Value1 />枚手札に加える。<br />手札の<h>詠唱</h>カードの<h>詠唱値</h>を1増やす。"
+  },
+  "PatchouliOneWeekGirl": {
+    "Name": "一週間少女",
+    "Description": "<h>火の印</h><Value1 />を得る。<br /><PlayerName />のターン開始時、<h>印</h><Value1 />を順番に得る。"
+  },
+  "PatchouliPhilosopherStone": {
+    "Name": "賢者の石",
+    "Description": "<h>火の印</h><Value1 />を得る。<br /><h>水の印</h><Value1 />を得る。<br /><h>木の印</h><Value1 />を得る。<br /><h>金の印</h><Value1 />を得る。<br /><h>土の印</h><Value1 />を得る。"
+  },
+  "PatchouliPhlogisticPillar": {
+    "Name": "フロギスティックピラー",
+    "Description": "<PlayerName />が<h>詠唱</h>カードを使用するたび、<Value1 /><h>バリア</h>を得る。"
+  },
+  "PatchouliPhlogisticRain": {
+    "Name": "フロギスティックレイン",
+    "Description": "<Damage />ダメージを<Value2 />回与える。<br /><h>詠唱値</h><BoostThreshold1 />以上なら、<Mana />を得て、カードを<Value1 />枚引く。<br /><h>詠唱</h>"
+  },
+  "PatchouliPhotosynthesis": {
+    "Name": "光合成",
+    "Description": "手札のカードを<Value2 />枚まで<h>廃棄</h>する。<br /><h>廃棄</h>した枚数と同じ数の<h>日の印</h>を得る。  "
+  },
+  "PatchouliRapidCharge": {
+    "Name": "速読術",
+    "Description": "得ている<h>印</h>の<h>パッシブ</h>効果を発動する。<br /><h>充填</h>:<Mana />を得る。",
+    "UpgradedDescription": "得ている<h>印</h>の<h>パッシブ</h>効果を2回発動する。<br /><h>充填</h>:<Mana />を得る。"
+  },
+  "PatchouliRingOfAgni": {
+    "Name": "リングオブアグニ",
+    "Description": "<Damage />ダメージを与える。<br /><h><Mana />につき</h>:<Value1 />ダメージ増やす。<br /><h>詠唱値</h>1につき<Value1 />ダメージ増やす。<br /><h>詠唱</h>"
+  },
+  "PatchouliRoyalFlare": {
+    "Name": "ロイヤルフレア",
+    "Description": "<h>手札効果</h>:<PlayerName />のターン開始時、<h>臨時知力アップ</h><Value1 />を得る。<br /><h>手札効果</h>:<PlayerName />が<Value2 />回<h>印</h>を得た時、敵全体に<Damage />ダメージを与え、このカードを捨てる。"
+  },
+  "PatchouliSaintElmoPillar": {
+    "Name": "セントエルモピラー",
+    "Description": "<h>金の印</h><Value1 />を得る。<br /><PlayerName />の<h>反射</h>が発動した場合、発動した<h>反射</h>分に等しいダメージを敵全体に与える。"
+  },
+  "PatchouliSakuyaFriend": {
+    "Name": "紅魔館のメイド、十六夜咲夜",
+    "Description": "<h>投げナイフ</h>を<Value1 />枚手札に加える。",
+    "UpgradedDescription": "<h>投げナイフ+</h>を<Value1 />枚手札に加える。",
+    "PassiveDescription": "<h>投げナイフ</h>を<Value1 />枚手札に加える。",
+    "UpgradedPassiveDescription": "<h>投げナイフ</h>を<Value1 />枚手札に加える。",
+    "ActiveDescription": "<h>グレイズ</h><Value1 />を得る。",
+    "UltimateDescription": "<PlayerName />はターンを終了し、追加ターンを得る。"
+  },
+  "PatchouliSatelliteHimawari": {
+    "Name": "サテライトヒマワリ",
+    "Description": "<h>木の印</h><Value1 />を得る。<br /><h>木の印</h>の<h>アクティブ</h>効果が発動する時、<h>アクティブ</h>効果で与える予定のダメージ数値を蓄積する。<h>木の印</h>の<h>アクティブ</h>ダメージは、このカードの効果で蓄積している数値分増える。"
+  },
+  "PatchouliSilentSelene": {
+    "Name": "サイレントセレナ",
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>月の印</h><Value1 />を得る。  "
+  },
+  "PatchouliSilverDragon": {
+    "Name": "シルバードラゴン",
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>金の印</h><Value1 />を得る。",
+    "UpgradedDescription": "<Block /><h>ブロック</h>を得る。<br /><h>金の印</h><Value1 />を得る。<br /><h>金の印</h>の<h>パッシブ</h>効果を発動する。 "
+  },
+  "PatchouliSpellCreation": {
+    "Name": "呪文創造",
+    "Description": "<Damage />ダメージを与える。<br /><h>詠唱値</h><BoostThreshold1 />以上なら、4枚の<h>魔法</h>から1枚まで選び、その効果を得る。<br /><h>詠唱値</h><BoostThreshold2 />以上なら、2枚まで選べる。<br /><h>詠唱値</h><BoostThreshold3 />以上なら、3枚まで選べる。<br /><h>詠唱</h>",
+    "UpgradedDescription": "<Damage />ダメージを与える。<br />4枚の<h>魔法</h>から1枚まで選び、その効果を得る。<br /><h>詠唱値</h><BoostThreshold1 />以上なら、2枚まで選べる。<br /><h>詠唱値</h><BoostThreshold2 />以上なら、3枚まで選べる。<br /><h>詠唱値</h><BoostThreshold3 />以上なら、4枚まで選べる。<br /><h>詠唱</h>"
+  },
+  "PatchouliSpellCreationBlock": {
+    "Name": "防御魔法",
+    "Description": "<Block /><h>ブロック</h>を得る。"
+  },
+  "PatchouliSpellCreationDraw": {
+    "Name": "魔力回復",
+    "Description": "カードを<Value1 />枚引く。"
+  },
+  "PatchouliSpellCreationFire": {
+    "Name": "攻撃魔法",
+    "Description": "<h>火の印</h><Value1 />を得る。"
+  },
+  "PatchouliSpellCreationWeak": {
+    "Name": "弱体魔法",
+    "Description": "<h>脱力</h><Value2 />を敵全体に与える。"
+  },
+  "PatchouliSpellDuplication": {
+    "Name": "呪文複製",
+    "Description": "手札を1枚選び、そのカードのコピーを1枚手札に加える。<br />それは<h>臨時コスト</h><Mana />となり、<h>廃棄</h>と<h>虚無</h>を持つ。<br /><h>詠唱</h>カードをコピーした場合、<h>詠唱値</h>もコピーする。"
+  },
+  "PatchouliSpellMastery": {
+    "Name": "魔巧",
+    "Description": "<Damage />ダメージを与える。<br /><h>詠唱値</h><BoostThreshold1 />以上なら、<h>水沫</h>を手札に加える。<br /><h>詠唱値</h><BoostThreshold2 />以上なら、<h>水沫+</h>を代わりに手札に加える。<br /><h>詠唱</h>",
+    "UpgradedDescription": "<Damage />ダメージを与える。<br /><h>詠唱値</h><BoostThreshold1 />以上なら、<h>幻虹</h>を手札に加える。<br /><h>詠唱値</h><BoostThreshold2 />以上なら、<h>幻虹+</h>を代わりに手札に加える。<br /><h>詠唱</h>"
+  },
+  "PatchouliSpellPowerGrasp": {
+    "Name": "魔力掌握",
+    "Description": "<PlayerName />のターン開始時、手札の<h>詠唱</h>カードの<h>詠唱値</h>を1増やす。",
+    "UpgradedDescription": "手札の<h>詠唱</h>カードの<h>詠唱値</h>を1増やす。<br /><PlayerName />のターン開始時、手札の<h>詠唱</h>カードの<h>詠唱値</h>を1増やす。"
+  },
+  "PatchouliSpringWind": {
+    "Name": "スプリングウィンド",
+    "Description": "手札からカードを<Value1 />枚まで選び、<h>反復</h>を与える。<br /><h>詠唱値</h><BoostThreshold1 />以上なら、<h>活力</h>を<Value1 />枚手札に加える。<br /><h>詠唱</h>",
+    "UpgradedDescription": "手札からカードを<Value1 />枚まで選び、<h>反復</h>を与える。<br /><h>詠唱値</h><BoostThreshold1 />以上なら、<h>幻虹</h>を<Value1 />枚手札に加える。<br /><h>詠唱</h>"
+  },
+  "PatchouliSummerRed": {
+    "Name": "サマーレッド",
+    "Description": "手札を<Value1 />枚選び、1ターン<h>保留</h>する。<br /><h>詠唱</h>カードを選んだ場合、<h>詠唱値</h>を<Value2 />増やす。"
+  },
+  "PatchouliSungrazerComet": {
+    "Name": "サングレーザー",
+    "Description": "<h>チョイス</h>:<h>グレイズ</h><Value1 />を得る。もしくは、<Block /><h>ブロック</h>を得る。<br /><h>詠唱値</h><BoostThreshold1 />以上なら、代わりに両方の効果を適用する。<br /><h>詠唱</h>"
+  },
+  "PatchouliSunshineReflector": {
+    "Name": "サンシャインリフレクター",
+    "Description": "敵全体に<Damage />ダメージを与える。<br /><h>日の印</h><Value1 />を得る。  "
+  },
+  "PatchouliSylphyHorn": {
+    "Name": "シルフィホルン",
+    "Description": "<h>木の印</h><Value1 />を得る。<br /><h>木の印</h>の<h>アクティブ</h>効果が発動するたび、このカードを<h>廃棄場</h>から手札に戻す。"
+  },
+  "PatchouliTeaBreak": {
+    "Name": "小休止",
+    "Description": "ライフを<Value1 />回復する。<br /><PlayerName />の<h>弱体</h>を解除する。",
+    "UpgradedDescription": "ライフを<Value1 />回復する。<br /><PlayerName />の<h>ロックオン</h>、<h>弱体</h>、<h>脱力</h>を解除する。"
+  },
+  "PatchouliTheUnmovingGreatLibrary": {
+    "Name": "大図書館の魔女",
+    "Description": "<h>知力</h><Value1 />を得る。<br /><h>印</h>の<h>アクティブ</h>効果が発動するたび、<h>知力</h><Value2 />を得る。"
+  },
+  "PatchouliTidalWave": {
+    "Name": "タイダルウェイブ",
+    "Description": "<h>溺水</h><Value1 />を与える。<br />その敵の<h>溺水</h>効果を発動させる。<br /><h>詠唱値</h><BoostThreshold1 />以上なら、与える<h>溺水</h>を<Value2 />増やす。<br /><h>詠唱</h>"
+  },
+  "PatchouliTwinspell": {
+    "Name": "呪文二重化",
+    "Description": "カードを<Value1 />枚引く。<br /><h>手札効果</h>:<h>詠唱</h>カードを使用した場合、戦闘終了までこのカードはその<h>詠唱</h>カードに変化する。それは<h>詠唱値</h>を引き継ぎ、<h>複製</h>を持つ。",
+    "UpgradedDescription": "カードを<Value1 />枚引く。<br /><h>手札効果</h>:<h>詠唱</h>カードを使用した場合、戦闘終了までこのカードは<h>アップグレード</h>済みのその<h>詠唱</h>カードに変化する。それは<h>詠唱値</h>を引き継ぎ、<h>複製</h>を持つ。"
+  },
+  "PatchouliVoile": {
+    "Name": "ラクトガール",
+    "Description": "<h>詠唱</h>カードに以下の効果を追加する。<br /><h>詠唱値</h><BoostThreshold1 />以上なら、カードを<Value1 />枚引く。<br /><h>詠唱値</h><BoostThreshold2 />以上なら、<Mana />を得る。<br /><h>詠唱値</h><BoostThreshold3 />以上なら、<h>火力</h><Value1 />を得る。"
+  },
+  "PatchouliWaterElf": {
+    "Name": "ウォーターエルフ",
+    "Description": "<Damage />ダメージを与える。<br /><h>水の印</h><Value1 />を得る。<br /><h>木の印</h><Value1 />を得る。<br /><h>詠唱値</h>1につき、このカードのコストを<Mana />減らす。<br /><h>詠唱</h>"
+  },
+
   "SanaeAmuletDebuff": {
     "Name": "弘安の東風谷",
     "Description": "一つ以上を<h>チョイス</h>：<br />- <h>火力</h><Value1 />と<h>脱力</h><Value1 />を得る。<br />- <h>霊力</h><Value1 />と<h>脆弱化</h><Value1 />を得る。<br />- 最大ライフを<Value1 />増加させて、<h>弱体</h><Value1 />と<h>毒</h><Value1 />を得る。"

@@ -1,0 +1,14 @@
+﻿PatchouliSpringWind:
+  Name: 스프링 윈드
+  Description: >-
+    손에서 카드를 {Value1}장 고르고, |메아리|를 부여합니다.
+
+    |증강| {BoostThreshold1}: |활력|을 손에 추가합니다.
+
+    (|증강|: {Boost})
+  UpgradedDescription: >-
+    손에서 카드를 {Value1}장 고르고, |메아리|를 부여합니다.
+
+    |증강| {BoostThreshold1}: |채홍|을 손에 추가합니다.
+
+    (|증강|: {Boost})

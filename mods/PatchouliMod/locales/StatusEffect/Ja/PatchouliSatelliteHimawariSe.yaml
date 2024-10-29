@@ -1,0 +1,6 @@
+﻿PatchouliSatelliteHimawariSe:
+  Name: サテライトヒマワリ
+  Description: >-
+    この戦闘中、木の印の|パッシブ|効果で蓄積したダメージは全ての木の印の|アクティブ|効果ダメージを増やす。
+
+    |木の印|の|アクティブ|効果ダメージを{BonusDamage}増やす。

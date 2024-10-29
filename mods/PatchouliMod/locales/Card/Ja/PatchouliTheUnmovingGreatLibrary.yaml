@@ -1,0 +1,6 @@
+﻿PatchouliTheUnmovingGreatLibrary:
+  Name: 大図書館の魔女
+  Description: >-
+    |知力|{Value1}を得る。
+
+    |印|の|アクティブ|効果が発動するたび、|知力|{Value2}を得る。

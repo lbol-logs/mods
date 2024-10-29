@@ -1,0 +1,10 @@
+﻿PatchouliHydrogenousProminence:
+  Name: 하이드로지너스 프로미넌스
+  Description: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    |일부| {Value1} |원소 전개|.
+
+    |수부| {Value1} |원소 전개|.
+
+    {SelfName}의 비용은 |원소 전개|된 |원소|마다 {Mana} 감소합니다.

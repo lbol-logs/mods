@@ -1,0 +1,10 @@
+﻿PatchouliAutumnBlade:
+  Name: 어텀 블레이드
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |증강| {BoostThreshold1}: |비호|를 {Value1} 얻습니다.
+
+    |증강| {BoostThreshold2}: |부적|을 {Value2} 얻습니다.
+
+    (|증강|: {Boost})

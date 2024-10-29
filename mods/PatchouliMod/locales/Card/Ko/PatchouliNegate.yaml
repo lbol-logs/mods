@@ -1,0 +1,6 @@
+﻿PatchouliNegate:
+  Name: 무효
+  Description: >-
+    |대응 공격|: |방어|를 {Block} 얻습니다.
+
+    |대응 상태이상|: |비호|를 {Value1} 얻습니다.

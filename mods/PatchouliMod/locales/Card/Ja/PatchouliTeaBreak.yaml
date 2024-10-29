@@ -1,0 +1,10 @@
+﻿PatchouliTeaBreak:
+  Name: 小休止
+  Description: >-
+    ライフを{Value1}回復する。
+
+    {PlayerName}の|弱体|を解除する。
+  UpgradedDescription: >-
+    ライフを{Value1}回復する。
+
+    {PlayerName}の|ロックオン|、|弱体|、|脱力|を解除する。

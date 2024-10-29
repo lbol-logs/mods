@@ -1,0 +1,8 @@
+﻿PatchouliElementalHarvester:
+  Name: エレメンタルハーベスター
+  Description: >-
+    {Mana}を得る。
+
+    |詠唱値|{BoostThreshold1}以上なら、追加で{BonusMana}を得る。
+
+    |詠唱|

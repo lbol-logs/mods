@@ -1,0 +1,8 @@
+﻿PatchouliNoachianDeluge:
+  Name: Noachian Deluge
+  Description: >-
+    Deal {Damage} damage.
+
+    {SelfName} can be |Boosted| any number of times.
+
+    |For each Boost|: Deal {Value1} additional damage.

@@ -1,0 +1,10 @@
+﻿PatchouliGingerDust:
+  Name: 진저 더스트
+  Description: >-
+    카드를 {Value2} 뽑습니다.
+
+    |토부| {Value1} |원소 전개|.
+
+    |증강| {BoostThreshold1}: |금부| {Value1} |원소 전개|.
+
+    (|증강|: {Boost})

@@ -1,0 +1,14 @@
+﻿PatchouliSpringWind:
+  Name: スプリングウィンド
+  Description: >-
+    手札からカードを{Value1}枚まで選び、|反復|を与える。
+
+    |詠唱値|{BoostThreshold1}以上なら、|活力|を{Value1}枚手札に加える。
+
+    |詠唱|
+  UpgradedDescription: >-
+    手札からカードを{Value1}枚まで選び、|反復|を与える。
+
+    |詠唱値|{BoostThreshold1}以上なら、|幻虹|を{Value1}枚手札に加える。
+
+    |詠唱|

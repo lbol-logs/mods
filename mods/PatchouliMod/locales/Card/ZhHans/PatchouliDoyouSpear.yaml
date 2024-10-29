@@ -1,0 +1,6 @@
+﻿PatchouliDoyouSpear:
+  Name: 土用枪
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    如果{SelfName}击杀目标，获得{Mana}。

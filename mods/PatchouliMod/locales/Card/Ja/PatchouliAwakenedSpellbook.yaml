@@ -1,0 +1,6 @@
+﻿PatchouliAwakenedSpellbook:
+  Name: 覚醒する魔導書
+  Description: >-
+    |詠唱値|{Value2}以上の|詠唱|カードをプレイするたび、|火の印|{Value1}を得る。
+
+    {PlayerName}が|印|を得るたび、手札の|詠唱|カードの|詠唱値|を1増やす。

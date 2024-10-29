@@ -1,0 +1,6 @@
+﻿PatchouliJellyfishPrincess:
+  Name: 水母公主
+  Description: >-
+    |每支付<sprite="ManaSprite" name="U">|：对所有敌人造成 {Damage} 点伤害。
+
+    |每支付<sprite="ManaSprite" name="B">|：|咏唱| {Value1} 个|月符|。

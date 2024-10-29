@@ -1,0 +1,10 @@
+﻿PatchouliGingerDust:
+  Name: ジンジャガスト
+  Description: >-
+    カードを{Value2}枚引く。
+
+    |土の印|{Value1}を得る。
+
+    |詠唱値|{BoostThreshold1}以上なら、|金の印|{Value1}を得る。
+
+    |詠唱|

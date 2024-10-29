@@ -1,5 +1,12 @@
 [
   {
+    "GUID": "rmrfmaxx.lbol.PatchouliCharacterMod",
+    "Name": "Patchouli Character Mod",
+    "Version": "0.1.11",
+    "Character": "PatchouliMod",
+    "Url": "https://thunderstore.io/c/touhou-lost-branch-of-legend/p/rmrfmaxx/Patchouli_Knowledge/"
+  },
+  {
     "GUID": "xeno.lbol.character.Sanae_Kochiya",
     "Name": "Sanae_Kochiya",
     "Version": "0.5.4",

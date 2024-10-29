@@ -1,0 +1,10 @@
+﻿PatchouliMoonlitChill:
+  Name: 달빛의 냉기
+  Description: >-
+    |화력|을 {Value1} 얻고 |영력|을 {Value2} 얻습니다.
+
+    |증강| {BoostThreshold1}: 추가로 |화력|을 {Value2} 얻습니다.
+
+    |증강| {BoostThreshold2}: 추가로 |영력|을 {Value1} 얻습니다.
+
+    (|증강|: {Boost})

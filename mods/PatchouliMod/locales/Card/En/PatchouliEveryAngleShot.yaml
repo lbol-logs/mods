@@ -1,0 +1,3 @@
+﻿PatchouliEveryAngleShot:
+  Name: Every Angle Shot
+  Description: "Deal {Damage} damage.\n|Boost| {BoostThreshold1}: At the start of {PlayerName}'s next turn, return {SelfName} from the |Exile| pile to the hand. "

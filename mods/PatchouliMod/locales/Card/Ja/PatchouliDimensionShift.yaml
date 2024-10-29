@@ -1,0 +1,14 @@
+﻿PatchouliDimensionShift:
+  Name: 次元の超越
+  Description: >-
+    {PlayerName}はターンを終了し、追加ターンを得る。|時間制限|<sprite="ManaSprite" name="1">。
+
+    |詠唱値|1につき、このカードのコストを{Mana}減らす。
+
+    |詠唱|
+  UpgradedDescription: >-
+    {PlayerName}はターンを終了し、追加ターンを得る。
+
+    |詠唱値|1につき、このカードのコストを{Mana}減らす。
+
+    |詠唱|

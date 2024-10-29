@@ -1,0 +1,8 @@
+﻿PatchouliKnowledgeSeeker:
+  Name: 知識の探求者
+  Description: >-
+    |知力|{Value1}を得る。
+
+    |詠唱値|{BoostThreshold1}以上なら、このカードは使用しても|廃棄|されない。
+
+    |詠唱|

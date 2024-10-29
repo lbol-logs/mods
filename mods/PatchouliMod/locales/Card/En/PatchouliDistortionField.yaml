@@ -1,0 +1,10 @@
+﻿PatchouliDistortionField:
+  Name: Distortion Field
+  Description: >-
+    Gain {Value1} |Graze|.
+
+    |Boost| all the cards in the hand.
+  UpgradedDescription: >-
+    Gain {Value1} |Graze|.
+
+    |Boost| all the cards in the hand twice.

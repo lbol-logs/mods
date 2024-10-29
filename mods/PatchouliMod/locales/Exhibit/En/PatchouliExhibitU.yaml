@@ -1,0 +1,9 @@
+﻿PatchouliExhibitU:
+  Name: Water Grimoire
+  Description: >-
+    Adds {Mana} to the mana base. Cards unique to |Patchouli| are added to the card pool.
+
+    At the start of the first turn each combat, add an |Astronomy| to the hand.
+
+    Whenever a card that has been |Boosted| {BoostThreshold1} or more times is played, gain {Value2} Block.
+  FlavorText: A grimoire that has yet to be 'borrowed' by a Magician from a nearby forest.

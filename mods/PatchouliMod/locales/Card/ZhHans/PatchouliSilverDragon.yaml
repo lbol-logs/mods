@@ -1,0 +1,12 @@
+﻿PatchouliSilverDragon:
+  Name: 银龙
+  Description: >-
+    获得 {Block} 点|格挡|。
+
+    |咏唱| {Value1} 个|金符|。
+  UpgradedDescription: >-
+    获得 {Block} 点|格挡|。
+
+    |咏唱| {Value1} 个|金符|。
+
+    触发|金符|的|被动|效果。
