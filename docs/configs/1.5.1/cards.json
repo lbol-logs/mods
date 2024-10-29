@@ -715,14 +715,14 @@
       "Value2": 1,
       "Loyalty": 4,
       "PassiveCost": 1,
-      "ActiveCost": "-4",
-      "UltimateCost": "-8"
+      "ActiveCost": -4,
+      "UltimateCost": -8
     },
     "1": {
       "Loyalty": 4,
       "PassiveCost": 2,
-      "ActiveCost": "-4",
-      "UltimateCost": "-8"
+      "ActiveCost": -4,
+      "UltimateCost": -8
     }
   },
   "PatchouliKrakenWave": {
@@ -1071,14 +1071,14 @@
       "Value2": 1,
       "Loyalty": 3,
       "PassiveCost": 1,
-      "ActiveCost": "-3",
-      "UltimateCost": "-7"
+      "ActiveCost": -3,
+      "UltimateCost": -7
     },
     "1": {
       "Loyalty": 3,
       "PassiveCost": 2,
-      "ActiveCost": "-3",
-      "UltimateCost": "-7"
+      "ActiveCost": -3,
+      "UltimateCost": -7
     }
   },
   "PatchouliSatelliteHimawari": {
@@ -2220,8 +2220,8 @@
       "Value2": 25,
       "Loyalty": 2,
       "PassiveCost": 1,
-      "ActiveCost": "-3",
-      "UltimateCost": "-8"
+      "ActiveCost": -3,
+      "UltimateCost": -8
     },
     "1": {
       "Damage": 14,
@@ -2708,7 +2708,7 @@
       "Loyalty": 2,
       "PassiveCost": 3,
       "ActiveCost": 0,
-      "UltimateCost": "-4"
+      "UltimateCost": -4
     },
     "1": {
       "Cost": "1BG",
@@ -5270,15 +5270,15 @@
       "Mana": "BG",
       "Loyalty": 4,
       "PassiveCost": 2,
-      "ActiveCost": "-3",
-      "UltimateCost": "-8"
+      "ActiveCost": -3,
+      "UltimateCost": -8
     },
     "1": {
       "Value1": 8,
       "Loyalty": 4,
       "PassiveCost": 2,
-      "ActiveCost": "-3",
-      "UltimateCost": "-8"
+      "ActiveCost": -3,
+      "UltimateCost": -8
     }
   }
 }
