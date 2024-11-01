@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7C7DA050-F23A-49DE-B0A7-D39BE9DC2041}</ProjectGuid>
+    <ProjectGuid>{3D604077-200F-4D7A-A07C-FE63BEC49776}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Sanae_Kochiya</RootNamespace>
