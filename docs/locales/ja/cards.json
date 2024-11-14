@@ -713,7 +713,8 @@
   "SanaeSuwakoFriend": {
     "Name": "狡猾なカエルラバー、諏訪子",
     "PassiveDescription": "<h>残留思念</h>を<Value1 />枚山札に加える。",
-    "ActiveDescription": "ランダムなアンコモンの能力カード1枚を手札に加える。それは<h>臨時コスト</h><Mana />となり、<h>虚無</h>を持つ。"
+    "ActiveDescription": "敵全体に<h>脱力</h><Value1 />を与える。",
+    "Active2Description": "ランダムなアンコモンの能力カード1枚を手札に加える。それは<h>臨時コスト</h><Mana />となり、<h>虚無</h>を持つ。"
   },
   "SanaeToolNews": {
     "Name": "山頂の会議",

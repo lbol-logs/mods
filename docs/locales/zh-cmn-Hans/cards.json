@@ -705,7 +705,8 @@
   "SanaeSuwakoFriend": {
     "Name": "狡猾的蛤蟆爱好者诹访子",
     "PassiveDescription": "将 <Value1 /> 张<h>黑暗残留</h>洗入抽牌堆。",
-    "ActiveDescription": "将 1 张随机罕见能力牌加入手中。它暂塑为<Mana />，具有<h>虚无</h>。"
+    "ActiveDescription": "对随机敌人施加 <Value1 /> 层<h>虚弱</h>。",
+    "Active2Description": "将 1 张随机罕见能力牌加入手中。它暂塑为<Mana />，具有<h>虚无</h>。"
   },
   "SanaeToolNews": {
     "Name": "山顶集会",

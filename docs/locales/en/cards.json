@@ -718,7 +718,8 @@
   "SanaeSuwakoFriend": {
     "Name": "Suwako, Wily Toad-lover",
     "PassiveDescription": "Add <Value1 /> <h>Dark Residues</h> to the draw pile.",
-    "ActiveDescription": "Add a random uncommon Ability card to the hand. It <h>temporarily costs</h> <Mana /> and has <h>Ethereal</h>."
+    "ActiveDescription": "Apply <Value1 /> <h>Weak</h> to each enemy.",
+    "Active2Description": "Add a random uncommon Ability card to the hand. It <h>temporarily costs</h> <Mana /> and has <h>Ethereal</h>."
   },
   "SanaeToolNews": {
     "Name": "Mountaintop Meeting",
