@@ -1,0 +1,79 @@
+{
+  "PatchouliExhibitB": {
+    "Owner": "Patchouli",
+    "Rarity": "Shining",
+    "Value1": 1,
+    "Value2": 1,
+    "Mana": "B",
+    "BaseMana": "B"
+  },
+  "PatchouliExhibitU": {
+    "Owner": "Patchouli",
+    "Rarity": "Shining",
+    "Value1": 1,
+    "Value2": 2,
+    "Mana": "U",
+    "BaseMana": "U",
+    "BoostThreshold1": 1
+  },
+
+  "SanaeClayVolcano": {
+    "Rarity": "Common",
+    "Value1": 2,
+    "Mana": 0
+  },
+  "SanaeExhibitU": {
+    "Owner": "Sanae_Kochiya",
+    "Rarity": "Shining",
+    "Value1": 10,
+    "Mana": "U",
+    "BaseMana": "U"
+  },
+  "SanaeExhibitW": {
+    "Owner": "Sanae_Kochiya",
+    "Rarity": "Shining",
+    "Value1": 2,
+    "Mana": "W",
+    "BaseMana": "W"
+  },
+  "SanaeExpiredCoupon": {
+    "Rarity": "Common",
+    "Value1": 20,
+    "Mana": 0
+  },
+  "SanaeLibraryCard": {
+    "Rarity": "Common",
+    "Value1": 2,
+    "Mana": 0
+  },
+
+  "BlackSun": {
+    "Owner": "Utsuho",
+    "Rarity": "Shining",
+    "Value1": 1,
+    "Mana": "B",
+    "BaseMana": "B"
+  },
+  "ControlRod": {
+    "Owner": "Utsuho",
+    "Rarity": "Shining",
+    "Value1": 1,
+    "Mana": "R",
+    "BaseMana": "R"
+  },
+
+  "YoumuExhibitG": {
+    "Owner": "Youmu",
+    "Rarity": "Shining",
+    "Value1": 1,
+    "Mana": "G",
+    "BaseMana": "G"
+  },
+  "YoumuExhibitW": {
+    "Owner": "Youmu",
+    "Rarity": "Shining",
+    "Value1": 1,
+    "Mana": "W",
+    "BaseMana": "W"
+  }
+}

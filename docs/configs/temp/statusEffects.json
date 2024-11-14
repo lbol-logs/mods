@@ -1,0 +1,56 @@
+{
+  "PatchouliAwakenedSpellbookSe": {
+    "BoostThreshold1": 4
+  },
+  "PatchouliVoileSe": {
+    "BoostThreshold1": 3,
+    "BoostThreshold2": 6,
+    "BoostThreshold3": 9,
+    "Mana": "U"
+  },
+  "PatchouliEarthSignSe": {
+    "BasePassive": 1,
+    "BaseActive": 2
+  },
+  "PatchouliFireSignSe": {
+    "BasePassive": 3,
+    "BaseActive": 5
+  },
+  "PatchouliMetalSignSe": {
+    "BasePassive": 3,
+    "BaseActive": 5
+  },
+  "PatchouliMoonSignSe": {
+    "BasePassive": 2,
+    "BaseActive": 4
+  },
+  "PatchouliSunSignSe": {
+    "BasePassive": 2,
+    "BaseActive": 4
+  },
+  "PatchouliWaterSignSe": {
+    "BasePassive": 1,
+    "BaseActive": 3
+  },
+  "PatchouliWoodSignSe": {
+    "BasePassive": 4,
+    "BaseActive": 4
+  },
+
+  "SanaeOrderShuffleSe": {
+    "Mana": "P"
+  },
+  "SanaeSpellManaGreenSe": {
+    "Mana": "GC"
+  },
+  "SanaeSpellManaPhiloSe": {
+    "Mana": "GP"
+  },
+
+  "TurboFuelStatus": {
+    "manatype": "P"
+  },
+  "HeatStatus": {
+    "HeatDamageRatio": 0.2
+  }
+}
