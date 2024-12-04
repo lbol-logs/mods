@@ -13,11 +13,11 @@
   "Sanae_Kochiya": {
     "BaseMana": "WUGG",
     "A": {
-      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "SanaeAttackW", "SanaeAttackW", "SanaeBlockG", "SanaeBlockG", "SanaeBlockG", "SanaeStarterW"],
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "SanaeAttackW", "SanaeAttackU", "SanaeBlockG", "SanaeBlockG", "SanaeBlockG", "SanaeStarterW"],
       "Exhibit": "SanaeExhibitW"
     },
     "B": {
-      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "SanaeAttackU", "SanaeAttackU", "SanaeBlockG", "SanaeBlockG", "SanaeBlockG", "SanaeStarterU"],
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "SanaeAttackW", "SanaeAttackU", "SanaeBlockG", "SanaeBlockG", "SanaeBlockG", "SanaeStarterU"],
       "Exhibit": "SanaeExhibitU"
     }
   },
