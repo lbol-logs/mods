@@ -8,6 +8,11 @@
     "Name": "Agni Radiance",
     "Description": "<h>Spellcast</h> <Value1 /> <h>Fire Sign</h>.<br /><h>For each Boost</h>: <h>Spellcast</h> <Value2 /> additional <h>Fire Sign</h>."
   },
+  "PatchouliElementalManipulation": {
+    "Name": "Elemental Manipulation",
+    "Description": "Deal <Damage /> damage <Value2 /> times.<br /><h>Spellcast</h> <Value1 /> <h>Fire Sign</h>.  ",
+    "UpgradedDescription": "Deal <Damage /> damage <Value2 /> times.<br /><h>Spellcast</h> <Value1 /> <h>Fire Sign</h>.<br />Trigger <h>Fire Sign's</h> <h>Passive</h> effect.  "
+  },
   "PatchouliAgniShine": {
     "Name": "Agni Shine",
     "Description": "Deal <Damage /> damage <Value2 /> times.<br /><h>Spellcast</h> <Value1 /> <h>Fire Sign</h>.  ",

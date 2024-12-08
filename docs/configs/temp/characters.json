@@ -6,7 +6,7 @@
       "Exhibit": "PatchouliExhibitU"
     },
     "B": {
-      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "PatchouliAttackB", "PatchouliAttackB", "PatchouliBlockU", "PatchouliBlockU", "PatchouliBlockU", "PatchouliAgniShine"],
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "PatchouliAttackB", "PatchouliAttackB", "PatchouliBlockU", "PatchouliBlockU", "PatchouliBlockU", "PatchouliElementalManipulation"],
       "Exhibit": "PatchouliExhibitB"
     }
   },

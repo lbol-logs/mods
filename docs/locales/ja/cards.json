@@ -3,6 +3,11 @@
     "Name": "アグニレイディアンス",
     "Description": "<h>火の印</h><Value1 />を得る。<br /><h>詠唱値</h>1につき<h>火の印</h><Value2 />を得る。<br /><h>詠唱</h>"
   },
+  "PatchouliElementalManipulation": {
+    "Name": "アグニシャイン",
+    "Description": "<Damage />ダメージを<Value2 />回与える。<br /><h>火の印</h><Value1 />を得る。",
+    "UpgradedDescription": "<Damage />ダメージを<Value2 />回与える。<br /><h>火の印</h><Value1 />を得る。<br /><h>火の印</h>の<h>パッシブ</h>効果を発動させる。  "
+  },
   "PatchouliAgniShine": {
     "Name": "アグニシャイン",
     "Description": "<Damage />ダメージを<Value2 />回与える。<br /><h>火の印</h><Value1 />を得る。",

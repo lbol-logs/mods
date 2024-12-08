@@ -3,6 +3,10 @@
     "Name": "火神的光辉",
     "Description": "<h>咏唱</h> <Value1 /> 个<h>火符</h>。<br /><h>每层充能</h>：额外<h>咏唱</h> <Value2 /> 个<h>火符</h>。"
   },
+  "PatchouliElementalManipulation": {
+    "Name": "火神之光",
+    "Description": "造成 <Damage /> 点伤害 <Value2 /> 次。<br /><h>咏唱</h> <Value1 /> 个<h>火符</h>。"
+  },
   "PatchouliAgniShine": {
     "Name": "火神之光",
     "Description": "造成 <Damage /> 点伤害 <Value2 /> 次。<br /><h>咏唱</h> <Value1 /> 个<h>火符</h>。"
