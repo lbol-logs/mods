@@ -74,7 +74,7 @@
   },
   "PatchouliOneWeekGirlSe": {
     "Name": "一週間少女",
-    "Description": "次の<PlayerName />のターン開始時、<h>$t(PatchouliOneWeekGirlSe.NextSign, { 'context': {{NextSign}} })</h><h>印</h><Level />を得る。",
+    "Description": "次の<PlayerName />のターン開始時、<h>$t(PatchouliOneWeekGirlSe.NextSign, { 'context': {{NextSign}} })印</h><Level />を得る。",
     "NextSign_0": "火の",
     "NextSign_1": "水の",
     "NextSign_2": "木の",
