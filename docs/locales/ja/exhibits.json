@@ -1,7 +1,14 @@
 {
   "PatchouliExhibitB": {
     "Name": "精霊の印章",
-    "Description": "マナ基盤に<Mana />を加え、<h>パチュリー</h>専用のカードが出現するようになる。<br /><PlayerName />のターン開始時に<PlayerName />が<h>火の印</h>を得ていない場合、<h>火の印</h><Value1 />を得る。"
+    "Description": "マナ基盤に<Mana />を加え、<h>パチュリー</h>専用のカードが出現するようになる。<br /><PlayerName />のターン開始時に<PlayerName />が<h>$t(PatchouliExhibitB.Sign, { 'context': {{Sign}} })印</h>を得ていない場合、<h>$t(PatchouliExhibitB.Sign, { 'context': {{Sign}} })印</h><Value1 />を得る。",
+    "Sign_0": "火の",
+    "Sign_1": "水の",
+    "Sign_2": "木の",
+    "Sign_3": "金の",
+    "Sign_4": "土の",
+    "Sign_5": "日の",
+    "Sign_6": "月の"
   },
   "PatchouliExhibitU": {
     "Name": "水のグリモワール",

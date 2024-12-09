@@ -1,7 +1,14 @@
 {
   "PatchouliExhibitB": {
     "Name": "元素印记",
-    "Description": "提供基础法力<Mana />。<h>帕秋莉</h>的专属卡牌会加入牌池。<br /><PlayerName />的回合开始时，如果<PlayerName />没有<h>火符</h>，<h>咏唱</h> <Value1 /> 个<h>火符</h>。"
+    "Description": "提供基础法力<Mana />。<h>帕秋莉</h>的专属卡牌会加入牌池。<br /><PlayerName />的回合开始时，如果<PlayerName />没有<h>$t(PatchouliExhibitB.Sign, { 'context': {{Sign}} })符</h>，<h>咏唱</h> <Value1 /> 个<h>$t(PatchouliExhibitB.Sign, { 'context': {{Sign}} })符</h>。",
+    "Sign_0": "火",
+    "Sign_1": "水",
+    "Sign_2": "木",
+    "Sign_3": "金",
+    "Sign_4": "土",
+    "Sign_5": "日",
+    "Sign_6": "月"
   },
   "PatchouliExhibitU": {
     "Name": "水之魔导书",

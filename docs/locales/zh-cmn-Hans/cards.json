@@ -5,7 +5,14 @@
   },
   "PatchouliElementalManipulation": {
     "Name": "火神之光",
-    "Description": "造成 <Damage /> 点伤害 <Value2 /> 次。<br /><h>咏唱</h> <Value1 /> 个<h>火符</h>。"
+    "Description": "造成 <Damage /> 点伤害 <Value2 /> 次。<br /><h>咏唱</h> <Value1 /> 个<h>$t(PatchouliElementalManipulation.Sign, { 'context': {{Sign}} })符</h>。",
+    "Sign_0": "火",
+    "Sign_1": "水",
+    "Sign_2": "木",
+    "Sign_3": "金",
+    "Sign_4": "土",
+    "Sign_5": "日",
+    "Sign_6": "月"
   },
   "PatchouliAgniShine": {
     "Name": "火神之光",

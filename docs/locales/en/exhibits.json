@@ -1,7 +1,14 @@
 {
   "PatchouliExhibitB": {
     "Name": "Elemental Sigil",
-    "Description": "Adds <Mana /> to the mana base. Cards unique to <h>Patchouli</h> are added to the card pool.<br />At the start of the Player's turn, if the Player doesn't have any <h>Fire Sign</h>, <h>Spellcast</h> <Value1 /> <h>Fire Sign</h>."
+    "Description": "Adds <Mana /> to the mana base. Cards unique to <h>Patchouli</h> are added to the card pool.<br />At the start of the Player's turn, if the Player doesn't have any <h>$t(PatchouliExhibitB.Sign, { 'context': {{Sign}} }) Sign</h>, <h>Spellcast</h> <Value1 /> <h>$t(PatchouliExhibitB.Sign, { 'context': {{Sign}} }) Sign</h>.",
+    "Sign_0": "Fire",
+    "Sign_1": "Water",
+    "Sign_2": "Wood",
+    "Sign_3": "Metal",
+    "Sign_4": "Earth",
+    "Sign_5": "Sun",
+    "Sign_6": "Moon"
   },
   "PatchouliExhibitU": {
     "Name": "Water Grimoire",

@@ -10,8 +10,15 @@
   },
   "PatchouliElementalManipulation": {
     "Name": "Elemental Manipulation",
-    "Description": "Deal <Damage /> damage <Value2 /> times.<br /><h>Spellcast</h> <Value1 /> <h>Fire Sign</h>.  ",
-    "UpgradedDescription": "Deal <Damage /> damage <Value2 /> times.<br /><h>Spellcast</h> <Value1 /> <h>Fire Sign</h>.<br />Trigger <h>Fire Sign's</h> <h>Passive</h> effect.  "
+    "Description": "Deal <Damage /> damage <Value2 /> times.<br /><h>Spellcast</h> <Value1 /> <h>$t(PatchouliElementalManipulation.Sign, { 'context': {{Sign}} }) Sign</h>.  ",
+    "UpgradedDescription": "Deal <Damage /> damage <Value2 /> times.<br /><h>Spellcast</h> <Value1 /> <h>$t(PatchouliElementalManipulation.Sign, { 'context': {{Sign}} }) Sign</h>.<br />Trigger <h>$t(PatchouliElementalManipulation.Sign, { 'context': {{Sign}} }) Sign's</h> <h>Passive</h> effect.  ",
+    "Sign_0": "Fire",
+    "Sign_1": "Water",
+    "Sign_2": "Wood",
+    "Sign_3": "Metal",
+    "Sign_4": "Earth",
+    "Sign_5": "Sun",
+    "Sign_6": "Moon"
   },
   "PatchouliAgniShine": {
     "Name": "Agni Shine",
