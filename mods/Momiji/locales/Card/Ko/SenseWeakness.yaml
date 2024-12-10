@@ -1,0 +1,4 @@
+﻿SenseWeakness:
+  Name: 약점 감지
+  Description: 모든 적에게 |취약|을 {Value1} 줍니다. |취약| 상태인 적은 {Value2}% 더 많은 피해를 받습니다.
+  FlavorText: 날카로운 눈은 상대의 방어에서 가장 미세한 틈도 감지한다.

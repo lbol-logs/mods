@@ -1,0 +1,7 @@
+﻿FollowUp:
+  Name: 追撃
+  Description: >-
+    {Damage}ダメージを与える。
+
+    対象が|弱体|を持っている時、{Mana}を得る。
+  FlavorText: 隙をついて一気に攻撃する

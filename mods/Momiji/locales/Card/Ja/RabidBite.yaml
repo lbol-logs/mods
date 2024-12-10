@@ -1,0 +1,4 @@
+﻿RabidBite:
+  Name: 獣の一噛み
+  Description: '{Damage}ダメージを与える。 ライフ{Value1}を回復する。'
+  Flavortext: 獰猛な敵を打ち負かすための獰猛な一撃。

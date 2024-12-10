@@ -1,0 +1,7 @@
+﻿TirelessGuard:
+  Name: 지치지 않는 수호
+  Description: >-
+    |반사|가 발동할 때마다, {PlayerName}의 |반사|가 입힌 피해의 절반만큼 |반사|를 얻습니다.
+
+    |반사|를 {Value2} 얻습니다.
+  FlavorText: 하루종일도 할 수 있어.

@@ -1,0 +1,6 @@
+﻿EyeforanEye:
+  Name: 目には目を
+  Description: >-
+    {Damage}ダメージを与える。
+
+    対象の敵が{PlayerName}に{Value1}ダメージを与える。

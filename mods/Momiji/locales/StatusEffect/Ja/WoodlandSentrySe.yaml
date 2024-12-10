@@ -1,0 +1,3 @@
+﻿WoodlandSentrySe:
+  Name: 森の守護者
+  Description: '{OwnerName}のターン終了時、手札1枚につき{level}|ブロック|を得る。'

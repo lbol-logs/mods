@@ -1,0 +1,9 @@
+﻿StandWatch:
+  Name: Stand Watch
+  Description: >-
+    Gain {Block} |Block|.
+
+    At the start of {PlayerName}'s turn, gain {Value1} |Block|.
+
+    Block is not lost at the start of {PlayerName}'s turn for the next {Value2} turns.
+  FlavorText: The duty of a sentry is tireless. There is no excuse for faltering.

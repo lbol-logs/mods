@@ -1,0 +1,11 @@
+﻿PartingSlice:
+  Name: 別れの一刀
+  Description: >-
+    すべての敵に{Damage}ダメージを与える。
+
+    |攻撃態勢|の敵の数ごとに、グレイズ{Value1}を得る。
+  UpgradedDescription: >-
+    すべての敵に{Damage}ダメージを2回与える。
+
+    |攻撃態勢|の敵の数ごとに、グレイズ{Value1}を得る。
+  Flavortext: 去り際に一歩劣る

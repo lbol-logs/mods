@@ -1,0 +1,124 @@
+RetaliationSe:
+  Name: Retaliation
+  Description: At the start of {OwnerName}'s turn, gain {Level} |Reflection|.
+  Brief: |-
+    Whenever {OwnerName} gains |Retaliation|, gain that much |Reflection|. 
+    Gain x |Reflection| at the start of the turn, where x is the level of |Retaliation| {OwnerName} has. Then, lose 1 |Retaliation|.
+
+BlackWindSe:
+    Name: Black Wind
+    Description: |-
+        |Air Cutters| inflict 1 Vulnerable.
+
+CircularPacingSe:
+    Name: Circular Pacing
+    Description: Whenever an enemy gains a debuff, gain {Level} |Barrier|.
+
+CrispFallAirSe:
+    Name: Crisp Fall Air
+    Description: at the start of {OwnerName}'s next turn, add {Level} |Air Cutter|s to the hand.
+
+DestabilizeSe:
+    Name: Destabilize
+    Description: Whenever {Ownername} deals unblocked attack damage to an enemy, they gain {Level} |Block|.
+
+DistractSe:
+    Name: Distract
+    Description: Whenever {OwnerName} deals damage to an enemy with |Vulnerable|, apply 1 |Weak| to that enemy.
+
+FakeOpeningSe:
+    Name: Fake Opening
+    Description: At the start of {OwnerName}'s turn, gain {Level} |Retaliation|.
+
+FeedOnTheWeakSe:
+    Name: Feed on the Weak
+    Description: Whenever an enemy dies, gain 10 <sprite="Point" name="Power"\> and 4 life.
+
+ForestAmbushSe:
+    Name: Forest Ambush
+    Description: Whenever {OwnerName} deals attack damage, deal additional damage to all damaged enemies equal to {OwnerName}'s |Retaliation|.
+
+FrigidSkySe:
+    Name: Frigid Sky    
+    Description: Whenever an |Air Cutter| deals unblocked attack damage to an enemy, apply |Cold| to that enemy.
+
+HowlingMountainWindSe:
+    Name: Howling Mountain Wind
+    Description: Whenever {OwnerName} plays an |Air Cutter| targeting an enemy with |Vulnerable|, that |Air Cutter| deals damage twice.
+
+ImageTrainingSe:
+    Name: Image Training
+    Description: At the start of {OwnerName}'s turn, add an |Air Cutter| to the hand.
+
+IndiscriminateRevengeSe:
+    Name: Indiscriminate Revenge
+    Description: When |Reflection| is triggered, {OwnerName} deals damage to each enemy equal to their |Retaliation|.
+
+InstantofContactSe:
+    Name: Instant of Contact
+    Description: Whenever {OwnerName} gains |Block| or |Barrier|, gain {Level} |Retaliation|.
+
+MapleLeafFestivalSe:
+    Name: Maple Leaf Festival
+    Description: At the start of {OwnerName}'s turn, add a |Maple Leaf| to the hand.
+
+MountainsideTrailTrackingSe:
+    Name: Mountainside Trail Tracking
+    Description: Whenever {OwnerName} deals damage to an enemy with |Vulnerable| for the first time each turn, draw {Level} cards.
+
+NextTurnDrawSe:
+    Name: Next Turn Draw
+    Description: at the start of {OwnerName}'s next turn, draw {Level} additional cards.
+
+SenseWeaknessSe:
+    Name: Sense Weakness
+    Description: Enemies with Vulnerable take {Level}% more damage.
+
+ShieldCounterSe:
+    Name: Shield Counter
+    Description: When |Reflection| or |Static Charge| is triggered, apply {Level} |Vulnerable| to the attacker.
+
+SmellofDeathSe:
+    Name: Smell of Death
+    Description: When {OwnerName} dies, they deal {FinalDamage} damage to all other enemies.
+    Brief: When the target dies, it deals damage to all other enemies equal to half of its own max HP.
+
+StandWatchSe:
+    Name: Stand Watch
+    Description: At the start of {OwnerName}'s turn, gain {Level} |Block|.
+
+SurgeofPowerSe:
+    Name: Surge of Power
+    Description: the next {Level} cards {OwnerName} plays will cost {Mana}.
+
+TirelessGuardSe:
+    Name: Tireless Guard
+    Description: Whenever |Reflection| is triggered, gain |Reflection| equal to half the damage dealt.
+
+TrapStanceSe:
+    Name: Trap Stance    
+    Description: The first time that {OwnerName} is attacked each turn, {OwnerName} gains |Reflection| equal to their |Retaliation|.
+
+TwinFangSe:
+    Name: Twin Fang
+    Description: The next time |Reflection| is triggered, gain |Reflection| equal to the amount of damage dealt.
+
+OffensiveIntention:
+    Name: Offensive Intention
+    Description: |-
+        "An Offensive Intention is one of the following Intentions: |Attack|, |Debuff|, |Status|, |Detonate|, or |Spell Card|."
+    Brief: "An offensive intention is one of the following intentions: |Attack|, |Debuff|, |Status|, |Detonate|, or |Spell Card|."
+
+DefensiveIntention:
+    Name: Defensive Intention
+    Description: "a Defensive Intention is one of the following: |Buff|, |Cleanse|, |Defense|, |Graze|, |Escape|, or |Repair|."
+    Brief: "a Defensive Intention is one of the following: |Buff|, |Cleanse|, |Defense|, |Graze|, |Escape|, or |Repair|."
+
+SpecialIntention:
+    Name: Special Intention
+    Description: "A Special Intention is one of the following: |Summon|, |Stunned|, |Do Nothing|, |Charge|, |Heal|, |Noh of Darkness|, or |Jinx|."
+    Brief: "A Special Intention is one of the following: |Summon|, |Stunned|, |Do Nothing|, |Charge|, |Heal|, |Noh of Darkness|, or |Jinx|."
+
+WoodlandSentrySe:
+    Name: Woodland Sentry
+    Description: At the end of {OwnerName}'s turn, gain |Block| equal to {level} times the number of cards in hand.

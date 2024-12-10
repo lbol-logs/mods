@@ -1,0 +1,7 @@
+﻿HeavyBlade:
+  Description: >-
+    마나 풀에 {BaseMana}가 추가됩니다. |이누바시리 모미지|의 전용 카드가 카드 풀에 추가됩니다.
+
+    {PlayerName}가 매 전투에서 처음 적에게 피해를 줄 때, 그 적에게 |일시 화력 감소|를 {Value1} 줍니다.
+  Name: 무거운 검
+  FlavorText: 다년간의 근속에 대해 모미지가 받은 보상.

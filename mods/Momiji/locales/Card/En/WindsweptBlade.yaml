@@ -1,0 +1,7 @@
+﻿WindsweptBlade:
+  Name: Windswept Blade
+  Description: >-
+    Deal {Damage} damage 2 times.
+
+    Gain {Value1} |Retaliation|.
+  FlavorText: Hiyah!

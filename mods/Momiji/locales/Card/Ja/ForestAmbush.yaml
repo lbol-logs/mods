@@ -1,0 +1,4 @@
+﻿ForestAmbush:
+  Name: 森の待ち伏せ
+  Description: '|報復|{Value1}を得る。 このターン{PlayerName}がダメージを与える度に,{PlayerName}の|報復|に等しいダメージを追加で与える。'
+  FlavorText: 完璧。

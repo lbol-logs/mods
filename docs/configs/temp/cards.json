@@ -1,4 +1,1380 @@
 {
+  "AdvantageousPosition": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "R",
+      "Block": 6,
+      "Value1": 2
+    },
+    "1": {
+      "Cost": 1,
+      "Block": 8,
+      "Value1": 3
+    }
+  },
+  "AirCutter": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "C",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": 1,
+      "Damage": 8,
+      "Block": 8,
+      "Keywords": "Exile,Ethereal"
+    },
+    "1": {
+      "Cost": 1,
+      "Damage": 10,
+      "Block": 10,
+      "Keywords": "Exile,Ethereal"
+    }
+  },
+  "AlwaysWatching": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "2W",
+      "Block": 15,
+      "Shield": 15,
+      "Value1": 2
+    },
+    "1": {
+      "Cost": "2W",
+      "Block": 18,
+      "Shield": 18,
+      "Value1": 3
+    }
+  },
+  "AutumnView": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": 0,
+      "Value1": 12,
+      "Keywords": "Block,Forbidden,Replenish,AutoExile"
+    },
+    "1": {
+      "Cost": 0,
+      "Value1": 12,
+      "Value2": 1,
+      "Keywords": "Shield,Forbidden,Replenish,AutoExile"
+    }
+  },
+  "AyaTeammate": {
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "RG",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1RG",
+      "Value1": 1,
+      "Value2": 3,
+      "Loyalty": 2,
+      "PassiveCost": 1,
+      "ActiveCost": -3,
+      "UltimateCost": -6,
+      "Graze": 2
+    },
+    "1": {
+      "Value1": 2,
+      "Value2": 4,
+      "Loyalty": 2,
+      "PassiveCost": 1,
+      "ActiveCost": -3,
+      "UltimateCost": -6,
+      "Graze": 2
+    }
+  },
+  "BlackWind": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1BB",
+      "Value1": 1,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": "1B",
+      "Value2": 2
+    }
+  },
+  "BladeWarding": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "R",
+      "Value1": 2,
+      "Value2": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 1,
+      "Value1": 3,
+      "Value2": 1,
+      "Keywords": "Exile"
+    }
+  },
+  "BloodScent": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1R",
+      "Damage": 12,
+      "Value1": 12
+    },
+    "1": {
+      "Cost": "1R",
+      "Damage": 16,
+      "Value1": 16
+    }
+  },
+  "CallToArms": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1W",
+      "Value1": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "W",
+      "Keywords": "Exile"
+    }
+  },
+  "CircularPacing": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "2R",
+      "Value1": 3
+    },
+    "1": {
+      "Cost": "1R",
+      "Value1": 4
+    }
+  },
+  "CleanKill": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "2WR",
+      "Damage": 24,
+      "Value1": 20,
+      "Value2": 20,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "2WR",
+      "Damage": 30,
+      "Keywords": "Accuracy,Exile"
+    }
+  },
+  "CleavingSwipe": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "WR",
+      "Damage": 14,
+      "Value1": 2
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 10,
+      "Value1": 2
+    }
+  },
+  "CollectingMomiji": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "R",
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "CrashingWaterBlade": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "2U",
+      "Damage": 15,
+      "Value1": 10
+    },
+    "1": {
+      "Cost": "1U",
+      "Damage": 15,
+      "Value1": 8
+    }
+  },
+  "CrispFallAir": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "2R",
+      "Value1": 2,
+      "Mana": "R"
+    },
+    "1": {
+      "Value1": 2,
+      "Mana": "R"
+    }
+  },
+  "DefensiveStrike": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1W",
+      "Damage": 12
+    },
+    "1": {
+      "Cost": "1W",
+      "Damage": 17
+    }
+  },
+  "Destabilize": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1WW",
+      "Value1": 2
+    },
+    "1": {
+      "Cost": "1W",
+      "Value1": 3
+    }
+  },
+  "Distract": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "2RR",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "1R",
+      "Value1": 1
+    }
+  },
+  "DoubleDown": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1W",
+      "Damage": 10,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "1W",
+      "Damage": 10,
+      "Value1": 2
+    }
+  },
+  "ExploitOpenings": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1RR",
+      "Value1": 2,
+      "Value2": 3,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "1R",
+      "Value1": 2,
+      "Value2": 2,
+      "Keywords": "Exile"
+    }
+  },
+  "ExtrasensoryPerception": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "2R",
+      "Block": 18,
+      "Value1": 2
+    },
+    "1": {
+      "Cost": "2R",
+      "Block": 24,
+      "Value1": 3
+    }
+  },
+  "EyeforanEye": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "W",
+      "Damage": 8,
+      "Value1": 4
+    },
+    "1": {
+      "Cost": 1,
+      "Damage": 10,
+      "Value1": 2
+    }
+  },
+  "FakeOpening": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "RR",
+      "Value1": 4
+    },
+    "1": {
+      "Cost": "RR",
+      "Value1": 6
+    }
+  },
+  "FalseWeakness": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1W",
+      "Block": 12,
+      "Value1": 4
+    },
+    "1": {
+      "Cost": "1W",
+      "Block": 17,
+      "Value1": 6
+    }
+  },
+  "FarSight": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "WW",
+      "Block": 12,
+      "Value1": 12
+    },
+    "1": {
+      "Cost": "W",
+      "Block": 12,
+      "Value1": 12
+    }
+  },
+  "FeedOnTheWeak": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "2B",
+      "Value1": 4
+    },
+    "1": {
+      "Cost": "1B",
+      "Value1": 10
+    }
+  },
+  "FollowUp": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "R",
+      "Damage": 9,
+      "Mana": "R"
+    },
+    "1": {
+      "Cost": "R",
+      "Damage": 13,
+      "Mana": "RR"
+    }
+  },
+  "ForestAmbush": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "G",
+      "Value1": 3,
+      "Value2": 5
+    },
+    "1": {
+      "Cost": 1
+    }
+  },
+  "FrigidSky": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "3U",
+      "Value1": 1,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": "2U",
+      "Value1": 1,
+      "Value2": 2
+    }
+  },
+  "GentlyCirclingLeaves": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "WR",
+      "Block": 4,
+      "Value1": 3,
+      "Value2": 3
+    },
+    "1": {
+      "Cost": "H:HWR",
+      "Block": 4,
+      "Value1": 3,
+      "Value2": 3
+    }
+  },
+  "GuardBreak": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "RR",
+      "Damage": 6,
+      "Value1": 2
+    },
+    "1": {
+      "Cost": "1R",
+      "Damage": 6,
+      "Value1": 3
+    }
+  },
+  "Howl": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "W",
+      "Value1": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 1,
+      "Value1": 3,
+      "Keywords": "Exile"
+    }
+  },
+  "HowlingMountainWind": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "3RR",
+      "Value1": 3,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": "2R",
+      "Value2": 2
+    }
+  },
+  "HuntersTrap": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1R",
+      "Block": 12,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "1R",
+      "Block": 16,
+      "Value1": 1
+    }
+  },
+  "HuntingCall": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "RR",
+      "Value1": 2,
+      "Value2": 2
+    },
+    "1": {
+      "Cost": "1R",
+      "Value2": 3
+    }
+  },
+  "HuntingHurricanes": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "2RR",
+      "Damage": 10,
+      "Value1": 10,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Cost": "2R",
+      "Damage": 10,
+      "Keywords": "Accuracy"
+    }
+  },
+  "ImageTraining": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "2R",
+      "Value1": 1,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": "1R",
+      "Value1": 2,
+      "Value2": 2
+    }
+  },
+  "IndiscriminateRevenge": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "WWRR",
+      "Value1": 7
+    },
+    "1": {
+      "Cost": "WWRR",
+      "Value1": 12
+    }
+  },
+  "InstantofContact": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "3WR",
+      "Value1": 4,
+      "Value2": 3,
+      "Mana": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "2WR",
+      "Keywords": "Exile"
+    }
+  },
+  "IronStance": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1W",
+      "Block": 12,
+      "Shield": 0,
+      "Value1": 3
+    },
+    "1": {
+      "Cost": "1W",
+      "Block": 0,
+      "Shield": 16,
+      "Value1": 4
+    }
+  },
+  "LongVigil": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1W",
+      "Block": 7,
+      "Value1": 3,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "1W",
+      "Block": 7,
+      "Keywords": "Exile"
+    }
+  },
+  "LookoutsIntuition": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "2R",
+      "Shield": 3,
+      "Value1": 2,
+      "Value2": 3
+    },
+    "1": {
+      "Cost": "1R",
+      "Shield": 3,
+      "Value2": 2
+    }
+  },
+  "MapleLeaf": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "C",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": 0,
+      "Value1": 1,
+      "Mana": "P",
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Cost": 0,
+      "Mana": "PP",
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "MapleLeafFestival": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1H:HWR",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 1
+    }
+  },
+  "MomijiAttackR": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1R",
+      "Damage": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 14,
+      "Keywords": "Basic"
+    }
+  },
+  "MomijiAttackW": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1W",
+      "Damage": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 14,
+      "Keywords": "Basic"
+    }
+  },
+  "MomijiBlockR": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1R",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 13,
+      "Keywords": "Basic"
+    }
+  },
+  "MomijiBlockW": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1W",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 13,
+      "Keywords": "Basic"
+    }
+  },
+  "MomijiReflect": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1W",
+      "Shield": 10,
+      "Value1": 4,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Shield": 12,
+      "Value1": 6,
+      "Keywords": "Exile"
+    }
+  },
+  "MomijiRiposte": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1H:HWR",
+      "Value1": 6
+    },
+    "1": {
+      "Cost": "H:HWR",
+      "Value1": 7
+    }
+  },
+  "MountainsideTrailTracking": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1R",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "1R",
+      "Value1": 2
+    }
+  },
+  "OverhandBlade": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1R",
+      "Damage": 14,
+      "Value1": 2
+    },
+    "1": {
+      "Cost": "1R",
+      "Damage": 18,
+      "Value1": 2
+    }
+  },
+  "PartingSlice": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1WR",
+      "Damage": 18,
+      "Value1": 1,
+      "Value2": 2
+    },
+    "1": {
+      "Damage": 12
+    }
+  },
+  "PatientHunter": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "HH:HWR",
+      "Block": 13
+    },
+    "1": {
+      "Cost": "1H:HWR",
+      "Block": 17
+    }
+  },
+  "Patrol": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1R",
+      "Value1": 3,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": "1R",
+      "Value1": 4,
+      "Value2": 1
+    }
+  },
+  "PlungePool": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "2U",
+      "Block": 13,
+      "Shield": 0
+    },
+    "1": {
+      "Cost": "2U",
+      "Block": 0,
+      "Shield": 13
+    }
+  },
+  "PreparedDefense": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "W",
+      "Value1": 4
+    },
+    "1": {
+      "Cost": 1,
+      "Value1": 6
+    }
+  },
+  "RabidBite": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "RB",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "2H:HBR",
+      "Damage": 12,
+      "Value1": 3,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Cost": "1H:HBR",
+      "Damage": 12,
+      "Keywords": "Accuracy"
+    }
+  },
+  "RagingWaterfall": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "2W",
+      "Block": 19,
+      "Value1": 2
+    },
+    "1": {
+      "Cost": "2W",
+      "Block": 25,
+      "Value1": 3
+    }
+  },
+  "RecklessStrike": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1WR",
+      "Damage": 24,
+      "Value1": 3,
+      "Value2": 2
+    },
+    "1": {
+      "Cost": "2H:HWR",
+      "Damage": 30,
+      "Value2": 2
+    }
+  },
+  "RipApart": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "HH:HWR",
+      "Damage": 13,
+      "Value1": 2
+    },
+    "1": {
+      "Cost": "1H:HWR",
+      "Damage": 9,
+      "Value1": 2
+    }
+  },
+  "ScatteringLeaves": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "RR",
+      "Damage": 5,
+      "Value1": 3,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Cost": "1R",
+      "Damage": 5,
+      "Value1": 4,
+      "Keywords": "Accuracy"
+    }
+  },
+  "SeizeTheMoment": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1WW",
+      "Damage": 16,
+      "Value1": 3,
+      "Value2": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "1W",
+      "Damage": 16,
+      "Value1": 4,
+      "Value2": 2,
+      "Keywords": "Accuracy,Exile"
+    }
+  },
+  "SenseWeakness": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "RRR",
+      "Value1": 2,
+      "Value2": 25
+    },
+    "1": {
+      "Cost": "RR",
+      "Value1": 2,
+      "Value2": 25
+    }
+  },
+  "ShieldCounter": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1RR",
+      "Value1": 2,
+      "Value2": 10
+    },
+    "1": {
+      "Cost": "R",
+      "Value1": 2,
+      "Value2": 15
+    }
+  },
+  "SmellofDeath": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1B",
+      "Value1": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Exile"
+    }
+  },
+  "StandWatch": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "2WR",
+      "Block": 10,
+      "Shield": 0,
+      "Value1": 5,
+      "Value2": 4
+    },
+    "1": {
+      "Cost": "1WR",
+      "Block": 15,
+      "Shield": 0,
+      "Value1": 5,
+      "Value2": 4
+    }
+  },
+  "SurgeofPower": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1R",
+      "Value1": 2,
+      "Mana": 0
+    },
+    "1": {
+      "Cost": 1,
+      "Value1": 2,
+      "Mana": 0
+    }
+  },
+  "TacticalInsight": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1W",
+      "Value1": 3,
+      "Value2": 1,
+      "Mana": 0
+    },
+    "1": {
+      "Value1": 5
+    }
+  },
+  "Taunt": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "R",
+      "Value1": 2,
+      "Value2": 4
+    },
+    "1": {
+      "Cost": 1,
+      "Value1": 2,
+      "Value2": 2
+    }
+  },
+  "TengusForesight": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "W",
+      "Value1": 2
+    },
+    "1": {
+      "Cost": 1,
+      "Value1": 3
+    }
+  },
+  "TirelessGuard": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1WWW",
+      "Value1": 1,
+      "Value2": 6
+    },
+    "1": {
+      "Cost": "1WW",
+      "Value1": 1,
+      "Value2": 12
+    }
+  },
+  "TrainingRecord": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "WR",
+    "IsXCost": false,
+    "ToolPlayableTimes": 4,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1WR",
+      "Damage": 10,
+      "Value1": 2,
+      "Value2": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "2H:HWR",
+      "Damage": 15,
+      "Value1": 3,
+      "Value2": 2,
+      "Keywords": "Exile"
+    }
+  },
+  "TrapStance": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "WWW",
+      "Value1": 4,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": "WW",
+      "Value1": 8,
+      "Value2": 1
+    }
+  },
+  "TwinFang": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1W",
+      "Value1": 1,
+      "Value2": 4
+    },
+    "1": {
+      "Cost": "W",
+      "Value1": 1,
+      "Value2": 7
+    }
+  },
+  "VacuumCutter": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1R",
+      "Damage": 12,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "R",
+      "Damage": 12,
+      "Value1": 1
+    }
+  },
+  "WardingStrike": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "WW",
+      "Damage": 10,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Cost": "W",
+      "Damage": 10,
+      "Keywords": "Accuracy"
+    }
+  },
+  "WaterfallMeditation": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "W",
+      "Block": 6,
+      "Value1": 2,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": "W",
+      "Block": 9,
+      "Value1": 3,
+      "Value2": 2
+    }
+  },
+  "WindsweptBlade": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "1W",
+      "Damage": 7,
+      "Value1": 3,
+      "Value2": 6,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Cost": "1W",
+      "Damage": 9,
+      "Keywords": "Accuracy"
+    }
+  },
+  "WoodlandSentry": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "WG",
+    "IsXCost": false,
+    "Owner": "Momiji",
+    "0": {
+      "Cost": "WG",
+      "Value1": 1,
+      "Value2": 3
+    },
+    "1": {
+      "Value1": 2
+    }
+  },
+
   "PatchouliAgniRadiance": {
     "Rarity": "Rare",
     "Type": "Skill",

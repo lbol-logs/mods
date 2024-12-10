@@ -1,0 +1,4 @@
+﻿ScatteringLeaves:
+  Name: Scattering Leaves
+  Description: Deal {Damage} damage to a random enemy {Value1} times.
+  FlavorText: A flurry of blinding red.

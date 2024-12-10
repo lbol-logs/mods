@@ -1,0 +1,3 @@
+﻿TrapStanceSe:
+  Name: 함정 태세
+  Description: 매 턴마다 {OwnerName}가 처음 공격받을 때, {OwnerName}의 |보복|과 같은 양의 |반사|를 얻습니다.

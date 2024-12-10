@@ -1,0 +1,7 @@
+﻿VacuumCutter:
+  Name: 真空刃
+  Description: >-
+    {Damage}ダメージを与える。
+
+    手札に|エアカッター|を1枚加える。
+  FlavorText: 音を残すほど速く空気を切り裂く

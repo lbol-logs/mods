@@ -1,0 +1,7 @@
+﻿TwinFang:
+  Name: Twin Fang
+  Description: >-
+    Gain {Value2} |Reflection|.
+
+    The next time |Reflection| is triggered, gain |Reflection| equal to the amount of damage dealt by {PlayerName}'s |Reflection|.
+  FlavorText: Always strike twice.

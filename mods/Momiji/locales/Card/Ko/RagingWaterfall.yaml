@@ -1,0 +1,6 @@
+﻿RagingWaterfall:
+  Name: 맹렬한 폭포
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    {PlayerName}의 다음 턴 시작 시 카드를 {Value1}장 뽑습니다.

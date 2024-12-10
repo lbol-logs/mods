@@ -1,0 +1,11 @@
+﻿RipApart:
+  Name: 찢어발기기
+  Description: >-
+    모든 적에게 피해를 {Damage} 줍니다.
+
+    모든 적에게 |취약|을 {Value1} 줍니다.
+  UpgradedDescription: >-
+    모든 적에게 피해를 {Damage}씩 {Value1}번 줍니다.
+
+    모든 적에게 |취약|을 {Value1} 줍니다.
+  FlavorText: 재빠르게 그들을 베어라.

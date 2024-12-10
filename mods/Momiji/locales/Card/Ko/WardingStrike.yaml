@@ -1,0 +1,11 @@
+﻿WardingStrike:
+  Name: 방어의 일격
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    {PlayerName}의 |반사|와 같은 양의 추가 피해를 줍니다. ({ReflectDamage})
+  NonbattleDescription: >-
+    피해를 {Damage} 줍니다.
+
+    {PlayerName}의 |반사|와 같은 양의 추가 피해를 줍니다.
+  FlavorText: 안일함에 대한 대가를 치르게 하라.

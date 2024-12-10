@@ -1,0 +1,7 @@
+﻿FalseWeakness:
+  Name: 見せかけの弱点
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    |報復|{Value1}を得る。
+  FlavorText: なぜこれがいつも効果的なのか？

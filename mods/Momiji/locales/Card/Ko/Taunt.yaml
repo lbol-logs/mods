@@ -1,0 +1,6 @@
+﻿Taunt:
+  Name: 도발
+  Description: >-
+    |허약|과 |취약|을 {Value1} 줍니다.
+
+    대상 적이 {PlayerName}에게 피해를 {Value2} 줍니다.

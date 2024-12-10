@@ -1,0 +1,7 @@
+﻿HuntingHurricanes:
+  Name: 사냥하는 회오리바람
+  Description: >-
+    모든 적에게 피해를 {Damage} 줍니다.
+
+    {SelfName}은 추방된 |에어 커터|마다 한 번 더 피해를 줍니다.
+  Flavortext: 실로 거대한 폭풍.

@@ -12,6 +12,119 @@
   "ordinal_3": "<Count />rd",
   "ordinal": "<Count />th",
 
+  "BlackWindSe": {
+    "Name": "Black Wind",
+    "Description": "<h>Air Cutters</h> inflict 1 Vulnerable."
+  },
+  "CircularPacingSe": {
+    "Name": "Circular Pacing",
+    "Description": "Whenever an enemy gains a debuff, gain <Level /> <h>Barrier</h>."
+  },
+  "CrispFallAirSe": {
+    "Name": "Crisp Fall Air",
+    "Description": "at the start of <OwnerName />'s next turn, add <Level /> <h>Air Cutter</h>s to the hand."
+  },
+  "DefensiveIntention": {
+    "Name": "Defensive Intention",
+    "Description": "a Defensive Intention is one of the following: <h>Buff</h>, <h>Cleanse</h>, <h>Defense</h>, <h>Graze</h>, <h>Escape</h>, or <h>Repair</h>."
+  },
+  "DestabilizeSe": {
+    "Name": "Destabilize",
+    "Description": "Whenever <OwnerName /> deals unblocked attack damage to an enemy, they gain <Level /> <h>Block</h>."
+  },
+  "DistractSe": {
+    "Name": "Distract",
+    "Description": "Whenever <OwnerName /> deals damage to an enemy with <h>Vulnerable</h>, apply 1 <h>Weak</h> to that enemy."
+  },
+  "FakeOpeningSe": {
+    "Name": "Fake Opening",
+    "Description": "At the start of <OwnerName />'s turn, gain <Level /> <h>Retaliation</h>."
+  },
+  "FeedOnTheWeakSe": {
+    "Name": "Feed on the Weak",
+    "Description": "Whenever an enemy dies, gain 10 <Power /> and 4 life."
+  },
+  "ForestAmbushSe": {
+    "Name": "Forest Ambush",
+    "Description": "Whenever <OwnerName /> deals attack damage, deal additional damage to all damaged enemies equal to <OwnerName />'s <h>Retaliation</h>."
+  },
+  "FrigidSkySe": {
+    "Name": "Frigid Sky",
+    "Description": "Whenever an <h>Air Cutter</h> deals unblocked attack damage to an enemy, apply <h>Cold</h> to that enemy."
+  },
+  "HowlingMountainWindSe": {
+    "Name": "Howling Mountain Wind",
+    "Description": "Whenever <OwnerName /> plays an <h>Air Cutter</h> targeting an enemy with <h>Vulnerable</h>, that <h>Air Cutter</h> deals damage twice."
+  },
+  "ImageTrainingSe": {
+    "Name": "Image Training",
+    "Description": "At the start of <OwnerName />'s turn, add an <h>Air Cutter</h> to the hand."
+  },
+  "IndiscriminateRevengeSe": {
+    "Name": "Indiscriminate Revenge",
+    "Description": "When <h>Reflection</h> is triggered, <OwnerName /> deals damage to each enemy equal to their <h>Retaliation</h>."
+  },
+  "InstantofContactSe": {
+    "Name": "Instant of Contact",
+    "Description": "Whenever <OwnerName /> gains <h>Block</h> or <h>Barrier</h>, gain <Level /> <h>Retaliation</h>."
+  },
+  "MapleLeafFestivalSe": {
+    "Name": "Maple Leaf Festival",
+    "Description": "At the start of <OwnerName />'s turn, add a <h>Maple Leaf</h> to the hand."
+  },
+  "MountainsideTrailTrackingSe": {
+    "Name": "Mountainside Trail Tracking",
+    "Description": "Whenever <OwnerName /> deals damage to an enemy with <h>Vulnerable</h> for the first time each turn, draw <Level /> cards."
+  },
+  "OffensiveIntention": {
+    "Name": "Offensive Intention",
+    "Description": "\"An Offensive Intention is one of the following Intentions: <h>Attack</h>, <h>Debuff</h>, <h>Status</h>, <h>Detonate</h>, or <h>Spell Card</h>.\""
+  },
+  "RetaliationSe": {
+    "Name": "Retaliation",
+    "Description": "At the start of <OwnerName />'s turn, gain <Level /> <h>Reflection</h>."
+  },
+  "SenseWeaknessSe": {
+    "Name": "Sense Weakness",
+    "Description": "Enemies with Vulnerable take <Level />% more damage."
+  },
+  "ShieldCounterSe": {
+    "Name": "Shield Counter",
+    "Description": "When <h>Reflection</h> or <h>Static Charge</h> is triggered, apply <Level /> <h>Vulnerable</h> to the attacker."
+  },
+  "SmellofDeathSe": {
+    "Name": "Smell of Death",
+    "Description": "When <OwnerName /> dies, they deal <FinalDamage /> damage to all other enemies."
+  },
+  "SpecialIntention": {
+    "Name": "Special Intention",
+    "Description": "A Special Intention is one of the following: <h>Summon</h>, <h>Stunned</h>, <h>Do Nothing</h>, <h>Charge</h>, <h>Heal</h>, <h>Noh of Darkness</h>, or <h>Jinx</h>."
+  },
+  "StandWatchSe": {
+    "Name": "Stand Watch",
+    "Description": "At the start of <OwnerName />'s turn, gain <Level /> <h>Block</h>."
+  },
+  "SurgeofPowerSe": {
+    "Name": "Surge of Power",
+    "Description": "the next <Level /> cards <OwnerName /> plays will cost <Mana />."
+  },
+  "TirelessGuardSe": {
+    "Name": "Tireless Guard",
+    "Description": "Whenever <h>Reflection</h> is triggered, gain <h>Reflection</h> equal to half the damage dealt."
+  },
+  "TrapStanceSe": {
+    "Name": "Trap Stance",
+    "Description": "The first time that <OwnerName /> is attacked each turn, <OwnerName /> gains <h>Reflection</h> equal to their <h>Retaliation</h>."
+  },
+  "TwinFangSe": {
+    "Name": "Twin Fang",
+    "Description": "The next time <h>Reflection</h> is triggered, gain <h>Reflection</h> equal to the amount of damage dealt."
+  },
+  "WoodlandSentrySe": {
+    "Name": "Woodland Sentry",
+    "Description": "At the end of <OwnerName />'s turn, gain <h>Block</h> equal to <Level /> times the number of cards in hand."
+  },
+
   "PatchouliAstronomyStudySe": {
     "Name": "Astronomy Study",
     "Description": "At the start of the Player's turn, if there are no <h>Astronomies</h> in the hand, add <Level /> <h>Astronomy</h> to the hand."

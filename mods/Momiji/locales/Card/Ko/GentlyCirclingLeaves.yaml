@@ -1,0 +1,9 @@
+﻿GentlyCirclingLeaves:
+  Name: 부드럽게 도는 잎
+  Description: >-
+    카드를 {Value1}장 뽑습니다.
+
+    뽑은 공격 카드마다 |반사|를 {Value2} 얻습니다.
+
+    뽑은 방어 카드마다 |방어|를 {Block} 얻습니다.
+  FlavorText: 천천히 떨어져라, 작은 잎들아.

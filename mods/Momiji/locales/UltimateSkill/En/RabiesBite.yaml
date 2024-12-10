@@ -1,0 +1,11 @@
+﻿RabiesBite:
+  Title: Rabies Sign
+  Content: Rabies Bite
+  Description: >-
+    Deal {Damage} damage 2 times.
+
+    Apply {Value1} Vulnerable.
+
+    |Expel| : gain {Value2} maximum life.
+
+    |Accurate|

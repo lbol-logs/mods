@@ -1,0 +1,9 @@
+﻿OverhandBlade:
+  Name: 오버핸드 블레이드
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    대상이 |취약| 상태라면, |허약|을 {Value1} 줍니다.
+
+    대상이 |허약| 상태라면, |취약|을 {Value1} 줍니다.
+  Flavortext: 균형을 잃었을 때 치고 들어가라.

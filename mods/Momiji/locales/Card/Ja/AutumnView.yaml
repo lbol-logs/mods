@@ -1,0 +1,8 @@
+﻿AutumnView:
+  Name: 秋模様
+  Description: このカードが手札に加えられた時、|バリア|{Value1}を得て{SelfName}を廃棄する。
+  UpgradedDescription: >-
+    このカードが手札に加えられた時、|バリア|{Value1}を得て敵全体に|臨時火力ダウン|{Value2}を与える。
+
+    {SelfName}を廃棄する。
+  FlavorText: もっと鮮やかなのある？

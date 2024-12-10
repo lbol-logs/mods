@@ -1,0 +1,4 @@
+﻿HowlingMountainWind:
+  Name: Howling Mountain Wind
+  Description: Whenever {PlayerName} plays an |Air Cutter| targeting an enemy with |Vulnerable|, that |Air Cutter| deals damage twice. Add {Value2} |Air Cutter{Value2:plural one='' other='s'}| to the hand.
+  FlavorText: Come, Wind! Blow! Wrack!

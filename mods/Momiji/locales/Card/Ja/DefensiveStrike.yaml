@@ -1,0 +1,7 @@
+﻿DefensiveStrike:
+  Name: 防御の一撃
+  Description: >-
+    {Damage}ダメージを与える。
+
+    このカードでブロックされたなかったダメージに等しい|ブロック|を得る。
+  FlavorText: 下がれ！

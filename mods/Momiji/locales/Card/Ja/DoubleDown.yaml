@@ -1,0 +1,7 @@
+﻿DoubleDown:
+  Name: 追い打ち
+  Description: >-
+    {Damage}ダメージを与える。
+
+    もし対象が攻撃しようとしていないならば、{Value1}回追加で攻撃する。
+  FlavorText: 逃げようとするものは強く伐つ

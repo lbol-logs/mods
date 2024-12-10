@@ -1,4 +1,337 @@
 {
+  "AdvantageousPosition": {
+    "Name": "見下ろす優位",
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>臨時火力</h><Value1 />を得る。"
+  },
+  "AirCutter": {
+    "Name": "エアカッター",
+    "Description": "<Damage />ダメージを与える。<br /><Block /><h>ブロック</h>を得る。"
+  },
+  "AlwaysWatching": {
+    "Name": "警戒の眼差し",
+    "Description": "<Shield /><h>バリア</h>を得る。<br /><h>攻撃姿勢</h>の敵がいれば、<Block /><h>ブロック</h>を得る。"
+  },
+  "AutumnView": {
+    "Name": "秋模様",
+    "Description": "このカードが手札に加えられた時、<h>バリア</h><Value1 />を得て<SelfName />を廃棄する。",
+    "UpgradedDescription": "このカードが手札に加えられた時、<h>バリア</h><Value1 />を得て敵全体に<h>臨時火力ダウン</h><Value2 />を与える。<br /><SelfName />を廃棄する。"
+  },
+  "AyaTeammate": {
+    "Name": "天狗記者、文",
+    "Description": "<h>グレイズ</h><Graze />を得る。",
+    "UpgradedDescription": "<h>グレイズ</h><Graze />を得る。",
+    "PassiveDescription": "<h>グレイズ</h>は<PlayerName />のターン開始時失われない。",
+    "UpgradedPassiveDescription": "<h>グレイズ</h>は<PlayerName />のターン開始時失われない。"
+  },
+  "BlackWind": {
+    "Name": "黒い風",
+    "Description": "<h>エアカッター</h>は<h>弱体</h><Value1 />を与えるようになる。<br /><h>エアカッター</h>を<Value2 />枚手札に加える。"
+  },
+  "BladeWarding": {
+    "Name": "拒絶の刃",
+    "Description": "<h>脱力</h><Value1 />を与える。<br /><h>報復</h><Value1 />を得る。<br /><h>エアカッター</h>を1枚手札に加える。"
+  },
+  "BloodScent": {
+    "Name": "血の香り",
+    "Description": "<Damage />ダメージを与える。<br />対象が<h>弱体</h>を持っている時、<h>反射</h><Value1 />を得る。"
+  },
+  "CallToArms": {
+    "Name": "白狼の召集",
+    "Description": "山札か捨て札からカードを<Value1 />枚まで選び、手札に加える。<br />それをアップグレードする。"
+  },
+  "CircularPacing": {
+    "Name": "円環の舞",
+    "Description": "敵がデバフを得る度に、<PlayerName />は<h>バリア</h><Value1 />を得る。"
+  },
+  "CleanKill": {
+    "Name": "無垢な殺し",
+    "Description": "<Damage />ダメージを与える。<br /><h>退治</h>: <Power /><Value1 />を得る。"
+  },
+  "CleavingSwipe": {
+    "Name": "広域斬り",
+    "Description": "すべての敵に<Damage />ダメージを与える。<br />カードを<Value1 />枚引く。",
+    "UpgradedDescription": "すべての敵に<Damage />ダメージを2回与える。<br />カードを<Value1 />枚引く。"
+  },
+  "CollectingMomiji": {
+    "Name": "椛集め",
+    "Description": "手札に<h>楓の葉</h>を<Value1 />枚加える。"
+  },
+  "CrashingWaterBlade": {
+    "Name": "水流の刃",
+    "Description": "<Damage />ダメージを与える。<br />プレイヤーの<h>反射</h><Value1 />ごとに、追加で1回ダメージを与える。"
+  },
+  "CrispFallAir": {
+    "Name": "木枯らし",
+    "Description": "<h>エアカッター</h>を<Value1 />枚手札に加える。<br /><PlayerName />の次のターン開始時、<Mana />を得る。",
+    "UpgradedDescription": "<h>エアカッター</h>を<Value1 />枚手札に加える。<br />次のター開始時、<h>エアカッター</h>を<Value1 />枚手札に加える。<br /><PlayerName />の次のターン開始時、<Mana />を得る。"
+  },
+  "DefensiveStrike": {
+    "Name": "防御の一撃",
+    "Description": "<Damage />ダメージを与える。<br />このカードでブロックされたなかったダメージに等しい<h>ブロック</h>を得る。"
+  },
+  "Destabilize": {
+    "Name": "揺らぐ足元",
+    "Description": "<PlayerName />の攻撃がブロックされなかった度に、<Value1 /><h>ブロック</h>を得る。"
+  },
+  "Distract": {
+    "Name": "狼狽",
+    "Description": "<PlayerName />が敵に攻撃する度に、相手が<h>弱体</h>を持っていれば<h>脱力</h>1を与える。"
+  },
+  "DoubleDown": {
+    "Name": "追い打ち",
+    "Description": "<Damage />ダメージを与える。<br />もし対象が攻撃しようとしていないならば、<Value1 />回追加で攻撃する。"
+  },
+  "ExploitOpenings": {
+    "Name": "隙を突く",
+    "Description": "<h>弱体</h><Value1 />を得る。<br /><h>火力</h><Value1 />を得る。対象の<h>弱体</h>2ごとに、追加で<h>火力</h>1を得る。"
+  },
+  "ExtrasensoryPerception": {
+    "Name": "超感覚的直感",
+    "Description": "<Block /><h>ブロック</h>を得る。敵全体に<h>弱体</h><Value1 />を与える。"
+  },
+  "EyeforanEye": {
+    "Name": "目には目を",
+    "Description": "<Damage />ダメージを与える。<br />対象の敵が<PlayerName />に<Value1 />ダメージを与える。"
+  },
+  "FakeOpening": {
+    "Name": "欺きの隙",
+    "Description": "<h>報復</h><Value1 />を得る。<br /><PlayerName />のターン開始時、"
+  },
+  "FalseWeakness": {
+    "Name": "見せかけの弱点",
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>報復</h><Value1 />を得る。"
+  },
+  "FarSight": {
+    "Name": "千里眼",
+    "Description": "<h>反射</h><Value1 />を得る。<br />敵が攻撃しようとしているならば、<Block /><h>ブロック</h>を得る。"
+  },
+  "FeedOnTheWeak": {
+    "Name": "弱者狩り",
+    "Description": "敵が倒れる度、<PlayerName />は<Power /> 10を得て、ライフ4を回復する。"
+  },
+  "FollowUp": {
+    "Name": "追撃",
+    "Description": "<Damage />ダメージを与える。<br />対象が<h>弱体</h>を持っている時、<Mana />を得る。"
+  },
+  "ForestAmbush": {
+    "Name": "森の待ち伏せ",
+    "Description": "<h>報復</h><Value1 />を得る。 このターン<PlayerName />がダメージを与える度に,<PlayerName />の<h>報復</h>に等しいダメージを追加で与える。"
+  },
+  "FrigidSky": {
+    "Name": "極寒の空",
+    "Description": "<h>エアカッター</h>が敵にブロックされなかった度に、その敵に<h>凍結</h>を与える。<br />手札に<h>エアカッター</h>を1枚加える。",
+    "UpgradedDescription": "<h>エアカッター</h>が敵にブロックされなかった度に、その敵に<h>凍結</h>を与える。<br />手札に<h>エアカッター</h>を2枚加える。"
+  },
+  "GentlyCirclingLeaves": {
+    "Name": "木の葉の舞",
+    "Description": "カードを<Value1 />枚引く。<br />このカードで引いた攻撃かスキルカードの1枚につき<h>反射</h><Value2 />を得る。<br />このカードで引いた防御カード1枚につき、<Block /><h>ブロック</h>を得る。"
+  },
+  "GuardBreak": {
+    "Name": "防御突破",
+    "Description": "<Damage />ダメージを<Value1 />回与える。<h>弱体</h><Value1 />を与える。"
+  },
+  "Howl": {
+    "Name": "吠える",
+    "Description": "もし対象が<h>攻撃姿勢</h>ならば、対象は<h>火力</h><Value1 />を失う。"
+  },
+  "HowlingMountainWind": {
+    "Name": "山風のうなり",
+    "Description": "<PlayerName />が<h>弱体</h>を持ってる敵に<h>エアカッター</h>を使うと、その<h>エアカッター</h>のダメージは2倍になる。<br />手札に<h>エアカッター</h>を<Value2 />枚加える。"
+  },
+  "HuntersTrap": {
+    "Name": "狩人の罠",
+    "Description": "<Block /><h>ブロック</h>を得る。<br />手札に<h>エアカッター</h>か<h>楓の葉</h>を1枚加える。"
+  },
+  "HuntingCall": {
+    "Name": "狩りの合図",
+    "Description": "敵全体に<h>弱体</h>2を与える。<br /><h>攻撃姿勢</h>の敵がいればカードを<Value2 />枚引く。"
+  },
+  "HuntingHurricanes": {
+    "Name": "暴風の狩人",
+    "Description": "すべての敵に<Damage />ダメージを与える。<br /><h>廃棄されたエアカッター</h>の1枚につき、<SelfName />は追加でダメージを1回与える。"
+  },
+  "ImageTraining": {
+    "Name": "イメージトレーニング",
+    "Description": "<h>エアカッター</h>を手札に加える。<br />ターン開始時、<h>エアカッター</h>を手札に加える。"
+  },
+  "IndiscriminateRevenge": {
+    "Name": "無情な復讐",
+    "Description": "<h>反射</h>が発動する時、すべての敵に<h>報復</h>に等しいダメージを与える。"
+  },
+  "InstantofContact": {
+    "Name": "睨み合う剣",
+    "Description": "<h>報復</h><Value1 />を得る。<PlayerName />のターン終了時、追加ターンを得る。<br />この追加ターン中に<PlayerName />が<h>ブロック</h>又は<h>バリア</h>を得る度に、<h>報復</h><Value2 />を得る。<br /><h>時間制限<Mana /></h>"
+  },
+  "IronStance": {
+    "Name": "鉄の構え",
+    "Description": "<Block /><h>ブロック</h>と<Value1 /><h>帯電</h>を得る。次のターンまで失われない。"
+  },
+  "LongVigil": {
+    "Name": "長時間の監視",
+    "Description": "手札から<Value1 />枚までカードを<h>廃棄</h>する。<br />このカードで廃棄したカード1枚につき、<Block /><h>ブロック</h>を得る。",
+    "UpgradedDescription": "手札、山札、捨て札から<Value1 />枚までカードを<h>廃棄</h>する。<br />このカードで廃棄したカード1枚につき、<Block /><h>ブロック</h>を得る。"
+  },
+  "LookoutsIntuition": {
+    "Name": "見張りの直感",
+    "Description": "<h>グレイズ</h><Value1 />を得る。<br />対象を選び、その対象が持っている<h>弱体</h><Value2 />ごとに、<Shield /><h>バリア</h>を得る。"
+  },
+  "MapleLeaf": {
+    "Name": "楓の葉",
+    "Description": "<Mana />を得る。"
+  },
+  "MapleLeafFestival": {
+    "Name": "紅葉祭り",
+    "Description": "<PlayerName />のターン開始時、<h>楓の葉</h>を手札に加える。"
+  },
+  "MomijiAttackR": {
+    "Name": "スライス",
+    "Description": "<Damage />ダメージを与える。"
+  },
+  "MomijiAttackW": {
+    "Name": "シールドバッシュ",
+    "Description": "<Damage />ダメージを与える。"
+  },
+  "MomijiBlockR": {
+    "Name": "パリィ",
+    "Description": "<Block /><h>ブロック</h>を得る。"
+  },
+  "MomijiBlockW": {
+    "Name": "警戒",
+    "Description": "<Block /><h>ブロック</h>を得る。"
+  },
+  "MomijiReflect": {
+    "Name": "反省する",
+    "Description": "ライフを<Value1 />回復する。<br /><Shield />バリアを得る。"
+  },
+  "MomijiRiposte": {
+    "Name": "反撃の構え",
+    "Description": "<h>報復</h><Value1 />を得る。"
+  },
+  "MountainsideTrailTracking": {
+    "Name": "山道の追跡",
+    "Description": "プレイヤーのそれぞれのターンの最初に<h>弱体</h>を持ってる敵にダメージを与えた時、<br />カードを<Value1 />枚引く。"
+  },
+  "OverhandBlade": {
+    "Name": "頭上からの一撃",
+    "Description": "<Damage />ダメージを与える。<br />対象が<h>弱体</h>を持っているならば、<h>脱力</h><Value1 />を得る。<br />対象が<h>脱力</h>を持っているならば、<h>弱体</h><Value1 />を得る。        "
+  },
+  "PartingSlice": {
+    "Name": "別れの一刀",
+    "Description": "すべての敵に<Damage />ダメージを与える。<br /><h>攻撃態勢</h>の敵の数ごとに、グレイズ<Value1 />を得る。",
+    "UpgradedDescription": "すべての敵に<Damage />ダメージを2回与える。<br /><h>攻撃態勢</h>の敵の数ごとに、グレイズ<Value1 />を得る。"
+  },
+  "PatientHunter": {
+    "Name": "好機を待つ狩人",
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>ブロック保留</h>。"
+  },
+  "Patrol": {
+    "Name": "巡回",
+    "Description": "カードを<Value1 />枚引く。<br />このカードで引いた赤のカードごとに、<h>グレイズ</h><Value2 />を得る。",
+    "UpgradedDescription": "カードを<Value1 />枚引く。<br />このカードで引いた赤のカードか<h>厄災</h>ごとに、<h>グレイズ</h><Value2 />を得る。"
+  },
+  "PlungePool": {
+    "Name": "滝壺",
+    "Description": "<Block /><h>ブロック</h>を得る。<br />追加で<PlayerName />の<h>報復</h>に等しい<h>ブロック</h>を得る。",
+    "UpgradedDescription": "<Shield /><h>バリア</h>を得る。<br />追加で<PlayerName />の<h>報復</h>に等しい<h>バリア</h>を得る。"
+  },
+  "PreparedDefense": {
+    "Name": "万全の防御",
+    "Description": "<h>反射</h><Value1 />を得る。<br />このターンの間、<PlayerName />が持っている<h>反射</h>をすべて<h>帯電</h>に変換する。"
+  },
+  "RabidBite": {
+    "Name": "獣の一噛み",
+    "Description": "<Damage />ダメージを与える。 ライフ<Value1 />を回復する。"
+  },
+  "RagingWaterfall": {
+    "Name": "怒涛の滝",
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><PlayerName />の次のターン開始時、追加でカードを<Value1 />枚引く。"
+  },
+  "RecklessStrike": {
+    "Name": "捨て身の一閃",
+    "Description": "<Damage />ダメージを与える。<br /><h>弱体</h><Value1 />を与える。<br /><h>脱力</h><Value2 />を得る。"
+  },
+  "RipApart": {
+    "Name": "裂閃",
+    "Description": "すべての敵に<Damage />ダメージを与える。<br />敵全体に<h>弱体</h><Value1 />",
+    "UpgradedDescription": "すべての敵に<Damage />ダメージを<Value1 />回与える。<br />敵全体に<h>弱体</h><Value1 />"
+  },
+  "ScatteringLeaves": {
+    "Name": "紅葉の舞",
+    "Description": "ランダムな敵に<Damage />ダメージを<Value1 />回与える。"
+  },
+  "SeizeTheMoment": {
+    "Name": "チャンスを掴め",
+    "Description": "<Damage />ダメージを与える。<br />敵の行動により、追加効果を得る。"
+  },
+  "SenseWeakness": {
+    "Name": "弱点感知",
+    "Description": "敵全体に<h>弱体</h><Value1 />を与える。敵が受ける弱体の効果を<Value2 />%増加させる。"
+  },
+  "ShieldCounter": {
+    "Name": "シールドカウンター",
+    "Description": "<h>反射</h><Value2 />を得る。<br /><h>反射</h>か<h>帯電</h>が発動する度に、その対象に<h>弱体</h><Value1 />を与える。"
+  },
+  "SmellofDeath": {
+    "Name": "死を呼ぶ香",
+    "Description": "<h>弱体</h><Value1 />を与える。<br />敵が倒れる時、その最大HPの半分に等しいダメージを他の敵に与える。"
+  },
+  "StandWatch": {
+    "Name": "警備",
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><PlayerName />のターン開始時、<Value1 /><h>ブロック</h>を得る。<br /><PlayerName />の次の<Value2 />ターンの開始時、ブロックは失われない。"
+  },
+  "SurgeofPower": {
+    "Name": "力の奔流",
+    "Description": "次にプレイする<Value1 />枚のカードコストが<Mana />になる。"
+  },
+  "TacticalInsight": {
+    "Name": "戦術的考察",
+    "Description": "<Value1 />枚の防御カードから<Value2 />枚を選び、手札に加える。<br />そのコストは<Mana />で<h>廃棄</h>と<h>虚無</h>を持つ。"
+  },
+  "Taunt": {
+    "Name": "嘲弄",
+    "Description": "<h>脱力</h><Value1 />と<h>弱体</h><Value1 />を与える。<br />対象の敵が<PlayerName />に<Value2 />ダメージを与える。"
+  },
+  "TengusForesight": {
+    "Name": "天狗の予知",
+    "Description": "カードを<Value1 />枚引く。<br /><PlayerName />の次のターン開始時、<h>ブロック</h>は失われない。"
+  },
+  "TirelessGuard": {
+    "Name": "不屈の守護",
+    "Description": "<h>反射</h>が発動する度に、<h>反射</h>で与えたダメージの半分の<h>反射</h>を得る。<br /><h>反射</h><Value2 />を得る。"
+  },
+  "TrainingRecord": {
+    "Name": "訓練記録",
+    "Description": "<Damage />ダメージを与える。<br />この戦闘において<SelfName />が最初に使われたカードならば、相手の行動に基づいて<PlayerName />のデッキのカードを1枚アップグレードする。"
+  },
+  "TrapStance": {
+    "Name": "待ち伏せの構え",
+    "Description": "<h>報復</h><Value1 />を得る。<br />それぞれのターン<PlayerName />が最初に攻撃された時、<PlayerName />の<h>報復</h>に等し<h>反射</h>を得る。"
+  },
+  "TwinFang": {
+    "Name": "二つの牙",
+    "Description": "次に<h>反射</h>は発動する時、<h>反射</h>で与えたダメージに等しい<h>反射</h>を得る。"
+  },
+  "VacuumCutter": {
+    "Name": "真空刃",
+    "Description": "<Damage />ダメージを与える。<br />手札に<h>エアカッター</h>を1枚加える。"
+  },
+  "WardingStrike": {
+    "Name": "守りの一撃",
+    "Description": "<Damage />ダメージを与える。<br /><PlayerName />の<h>反射</h>に等しいダメージを追加で与える。"
+  },
+  "WaterfallMeditation": {
+    "Name": "滝の瞑想",
+    "Description": "対象を選ぶ。<br />敵の行動によって効果が変わる。<br />カードを<Value1 />枚引く。"
+  },
+  "WindsweptBlade": {
+    "Name": "吹きさらしの刃",
+    "Description": "<Damage />ダメージを2回与える。<br /><h>報復</h><Value1 />を得る。"
+  },
+  "WoodlandSentry": {
+    "Name": "森の守護者",
+    "Description": "ライフ<Value2 />を回復する。<br /><PlayerName />のターン終了時、手札1枚につき<Value1 /><h>ブロック</h>を得る。"
+  },
+
   "PatchouliAgniRadiance": {
     "Name": "アグニレイディアンス",
     "Description": "<h>火の印</h><Value1 />を得る。<br /><h>詠唱値</h>1につき<h>火の印</h><Value2 />を得る。<br /><h>詠唱</h>"

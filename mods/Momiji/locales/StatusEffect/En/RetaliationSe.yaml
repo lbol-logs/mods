@@ -1,0 +1,7 @@
+﻿RetaliationSe:
+  Name: Retaliation
+  Description: At the start of {OwnerName}'s turn, gain {Level} |Reflection|.
+  Brief: >-
+    Whenever {OwnerName} gains |Retaliation|, gain that much |Reflection|. 
+
+    Gain x |Reflection| at the start of the turn, where x is the level of |Retaliation| {OwnerName} has. Then, lose 1 |Retaliation|.

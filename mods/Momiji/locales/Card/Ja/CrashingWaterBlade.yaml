@@ -1,0 +1,7 @@
+﻿CrashingWaterBlade:
+  Name: 水流の刃
+  Description: >-
+    {Damage}ダメージを与える。
+
+    プレイヤーの|反射|{Value1}ごとに、追加で1回ダメージを与える。
+  FlavorText: 椛のお気に入りの滝の力を一撃に込めて

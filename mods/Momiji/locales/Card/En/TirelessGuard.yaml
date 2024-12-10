@@ -1,0 +1,7 @@
+﻿TirelessGuard:
+  Name: Tireless Guard
+  Description: >-
+    Whenever |Reflection| is triggered, gain |Reflection| equal to half the damage dealt by {PlayerName}'s |Reflection|.
+
+    Gain {Value2} |Reflection|.
+  FlavorText: Always be ready for their second strike.

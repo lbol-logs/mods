@@ -1,0 +1,4 @@
+﻿CircularPacing:
+  Name: 円環の舞
+  Description: 敵がデバフを得る度に、{PlayerName}は|バリア|{Value1}を得る。
+  FlavorText: 常に相手の周りを回ることで、椛は相手のバランスを崩すことができる

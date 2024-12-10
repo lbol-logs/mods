@@ -1,0 +1,7 @@
+﻿WindsweptBlade:
+  Name: 吹きさらしの刃
+  Description: >-
+    {Damage}ダメージを2回与える。
+
+    |報復|{Value1}を得る。
+  FlavorText: Hiyah!

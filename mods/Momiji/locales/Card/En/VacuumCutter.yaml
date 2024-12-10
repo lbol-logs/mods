@@ -1,0 +1,4 @@
+﻿VacuumCutter:
+  Name: Vacuum Cutter
+  Description: Deal {Damage} damage. Add an |Air Cutter| to the hand.
+  FlavorText: Slice through the air fast enough to leave a sound.

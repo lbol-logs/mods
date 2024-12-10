@@ -1,0 +1,4 @@
+﻿VacuumCutter:
+  Name: 진공 절단
+  Description: 피해를 {Damage} 줍니다. 손에 |에어 커터|를 추가합니다.
+  FlavorText: 소리를 남기고 공기를 가르는 속도로 베어라.

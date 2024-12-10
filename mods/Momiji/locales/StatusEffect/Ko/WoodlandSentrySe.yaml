@@ -1,0 +1,3 @@
+﻿WoodlandSentrySe:
+  Name: 산림 감시
+  Description: '{OwnerName}의 턴 종료시, 손의 카드 한장 마다 |방어|를 {level} 얻습니다.'

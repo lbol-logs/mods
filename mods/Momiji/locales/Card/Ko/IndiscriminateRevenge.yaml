@@ -1,0 +1,6 @@
+﻿IndiscriminateRevenge:
+  Name: 무차별 복수
+  Description: >-
+    |반사|가 발동할 시, {PlayerName}가 모든 적에게 피해를 |보복|만큼 줍니다.
+
+    |보복|을 {Value1} 얻습니다.

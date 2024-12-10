@@ -1,0 +1,7 @@
+﻿TrapStance:
+  Name: 함정 태세
+  Description: >-
+    |보복|을 {Value1} 얻습니다.
+
+    매 턴마다 {PlayerName}가 처음 공격받을 때, {PlayerName}의 |보복|과 같은 양의 |반사|를 얻습니다.
+  FlavorText: 항상 계획을 세워라. 그리고 첫 번째 계획이 실패할 경우에 대한 계획을 세워라.

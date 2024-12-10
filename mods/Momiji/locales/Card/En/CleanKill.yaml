@@ -1,0 +1,7 @@
+﻿CleanKill:
+  Name: Clean Kill
+  Description: >-
+    Deal {Damage} Damage.
+
+    |Expel|: Gain {Value1} <sprite="Point" name="Power"\>.
+  FlavorText: I thank you for your life, so that I may survive.

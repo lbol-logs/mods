@@ -1,0 +1,4 @@
+﻿ForestAmbush:
+  Name: Forest Ambush
+  Description: Gain {Value1} |Retaliation|. Whenever {PlayerName} deals attack damage this turn, deal additional damage equal to {PlayerName}'s |Retaliation|.
+  FlavorText: Perfect.

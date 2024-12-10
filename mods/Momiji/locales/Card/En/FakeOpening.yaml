@@ -1,0 +1,7 @@
+﻿FakeOpening:
+  Name: Fake Opening
+  Description: >-
+    Gain {Value1} |Retaliation|.
+
+    At the start of {PlayerName}'s turn, gain {Value1} |Retaliation|.
+  FlavorText: You fell for it.

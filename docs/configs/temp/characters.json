@@ -1,4 +1,15 @@
 {
+  "Momiji": {
+    "BaseMana": "WWRR",
+    "A": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "MomijiAttackR", "MomijiAttackR", "MomijiBlockW", "MomijiBlockW", "MomijiBlockW", "GuardBreak"],
+      "Exhibit": "HeavyBlade"
+    },
+    "B": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "MomijiAttackW", "MomijiAttackW", "MomijiBlockR", "MomijiBlockR", "EyeforanEye", "FarSight"],
+      "Exhibit": "BatteredShield"
+    }
+  },
   "PatchouliMod": {
     "BaseMana": "UUBB",
     "A": {

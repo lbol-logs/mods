@@ -1,0 +1,7 @@
+﻿MountainsideTrailTracking:
+  Name: 山道の追跡
+  Description: >-
+    プレイヤーのそれぞれのターンの最初に|弱体|を持ってる敵にダメージを与えた時、
+
+    カードを{Value1}枚引く。
+  FlavorText: 誰も彼女からは隠れられない

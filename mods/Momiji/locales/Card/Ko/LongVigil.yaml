@@ -1,0 +1,4 @@
+﻿LongVigil:
+  Name: 기나긴 감시
+  Description: 손에서 최대 {Value1}장의 카드를 소멸시킵니다. 이렇게 소멸된 카드마다 |방어|를 {Block} 얻습니다.
+  UpgradedDescription: 손, 뽑을 카드 더미 또는 버릴 카드 더미에서 최대 {Value1}장의 카드를 소멸시킵니다. 이렇게 소멸된 카드마다 |방어|를 {Block} 얻습니다.

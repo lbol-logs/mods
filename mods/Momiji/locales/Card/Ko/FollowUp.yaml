@@ -1,0 +1,7 @@
+﻿FollowUp:
+  Name: 후속 타격
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    대상이 |취약| 상태라면, {Mana}를 얻습니다.
+  FlavorText: 엄청 빠르고 강력하게 쳐라.

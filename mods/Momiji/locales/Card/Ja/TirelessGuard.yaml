@@ -1,0 +1,7 @@
+﻿TirelessGuard:
+  Name: 不屈の守護
+  Description: >-
+    |反射|が発動する度に、|反射|で与えたダメージの半分の|反射|を得る。
+
+    |反射|{Value2}を得る。
+  FlavorText: 必ず彼らの二の矢に備えておけ。

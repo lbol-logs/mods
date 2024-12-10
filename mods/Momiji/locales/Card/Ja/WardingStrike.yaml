@@ -1,0 +1,11 @@
+﻿WardingStrike:
+  Name: 守りの一撃
+  Description: >-
+    {Damage}ダメージを与える。
+
+    {PlayerName}の|反射|に等しいダメージを追加で与える。({ReflectDamage})
+  NonbattleDescription: >-
+    {Damage}ダメージを与える。
+
+    {PlayerName}の|反射|に等しいダメージを追加で与える。
+  FlavorText: 油断してるやつには代償を

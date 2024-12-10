@@ -1,0 +1,11 @@
+﻿RipApart:
+  Name: 裂閃
+  Description: >-
+    すべての敵に{Damage}ダメージを与える。
+
+    敵全体に|弱体|{Value1}
+  UpgradedDescription: >-
+    すべての敵に{Damage}ダメージを{Value1}回与える。
+
+    敵全体に|弱体|{Value1}
+  FlavorText: 素早く斬り込め

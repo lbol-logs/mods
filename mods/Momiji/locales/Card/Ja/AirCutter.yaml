@@ -1,0 +1,7 @@
+﻿AirCutter:
+  Name: エアカッター
+  Description: >-
+    {Damage}ダメージを与える。
+
+    {Block}|ブロック|を得る。
+  Flavortext: 空を切り裂く。

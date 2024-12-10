@@ -1,0 +1,9 @@
+﻿BladeWarding:
+  Name: 拒絶の刃
+  Description: >-
+    |脱力|{Value1}を与える。
+
+    |報復|{Value1}を得る。
+
+    |エアカッター|を1枚手札に加える。
+  Flavortext: 私に近づくな！

@@ -1,0 +1,9 @@
+﻿InstantofContact:
+  Name: 睨み合う剣
+  Description: >-
+    |報復|{Value1}を得る。{PlayerName}のターン終了時、追加ターンを得る。
+
+    この追加ターン中に{PlayerName}が|ブロック|又は|バリア|を得る度に、|報復|{Value2}を得る。
+
+    |時間制限{Mana}|
+  FlavorText: 刀が交わり、視線が交差する瞬間

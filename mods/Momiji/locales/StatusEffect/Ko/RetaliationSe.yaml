@@ -1,0 +1,4 @@
+﻿RetaliationSe:
+  Name: 보복
+  Description: '{OwnerName}의 턴 시작 시 |반사|를 {Level} 얻습니다.'
+  Brief: '{OwnerName}가 |보복|을 얻으면, 그만큼 |반사|를 얻습니다. {OwnerName}의 턴 시작 시 |반사|를 얻습니다.'

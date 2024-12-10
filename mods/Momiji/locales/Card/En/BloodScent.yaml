@@ -1,0 +1,7 @@
+﻿BloodScent:
+  Name: Blood Scent
+  Description: >-
+    Deal {Damage} damage.
+
+    If the targeted enemy has |Vulnerable|, gain {Value1} |Reflection|.
+  FlavorText: So sickly sweet.

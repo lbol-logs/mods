@@ -1,0 +1,7 @@
+﻿FakeOpening:
+  Name: 가짜 틈새
+  Description: >-
+    |보복|을 {Value1} 얻습니다.
+
+    {PlayerName}의 턴 시작 시 |보복|을 {Value1} 얻습니다.
+  FlavorText: 걸려들었구나.

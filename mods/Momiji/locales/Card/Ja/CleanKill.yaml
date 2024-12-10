@@ -1,0 +1,7 @@
+﻿CleanKill:
+  Name: 無垢な殺し
+  Description: >-
+    {Damage}ダメージを与える。
+
+    |退治|: <sprite="Point" name="Power"\>{Value1}を得る。
+  FlavorText: あなたの命に感謝する、生き延びるために。

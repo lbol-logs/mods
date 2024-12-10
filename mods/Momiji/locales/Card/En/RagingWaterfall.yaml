@@ -1,0 +1,7 @@
+﻿RagingWaterfall:
+  Name: Raging Waterfall
+  Description: >-
+    Gain {Block} Block.
+
+    Draw {Value1} extra cards at the stard of {PlayerName}'s next turn.
+  FlavorText: Perfect for meditation or ambushes.

@@ -1,0 +1,7 @@
+﻿LookoutsIntuition:
+  Name: 경계자의 직감
+  Description: >-
+    |그레이즈|를 {Value1} 얻습니다.
+
+    선택한 적의 |취약| 값 {Value2}마다 |보호막|을 {Shield} 얻습니다.
+  FlavorText: 왼쪽으로 작은 도약.

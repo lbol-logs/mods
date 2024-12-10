@@ -1,0 +1,7 @@
+﻿DefensiveStrike:
+  Name: 방패 밀어치기
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    막히지 않은 피해만큼 |방어|를 얻습니다.
+  FlavorText: 물러서!

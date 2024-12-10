@@ -1,0 +1,4 @@
+﻿GuardBreak:
+  Name: Guard Break
+  Description: Deal {Damage} damage {Value1} times. Apply {Value1} |Vulnerable|.
+  FlavorText: One blow to break the shield, one blow to break the head.

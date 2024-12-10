@@ -1,0 +1,7 @@
+﻿FarSight:
+  Name: 千里眼
+  Description: >-
+    |反射|{Value1}を得る。
+
+    敵が攻撃しようとしているならば、{Block}|ブロック|を得る。
+  FlavorText: 彼女は千里先の弾幕も見える

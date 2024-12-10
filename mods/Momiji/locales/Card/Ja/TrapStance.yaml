@@ -1,0 +1,7 @@
+﻿TrapStance:
+  Name: 待ち伏せの構え
+  Description: >-
+    |報復|{Value1}を得る。
+
+    それぞれのターン{PlayerName}が最初に攻撃された時、{PlayerName}の|報復|に等し|反射|を得る。
+  FlavorText: 常に計画を持て。そして、最初の計画が失敗した場合の計画も持て。

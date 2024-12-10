@@ -1,0 +1,7 @@
+﻿BloodScent:
+  Name: 피의 냄새
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    대상 적이 |취약| 상태라면, |반사|를 {Value1} 얻습니다.
+  FlavorText: 너무 달콤하다.

@@ -1,0 +1,8 @@
+﻿CleavingSwipe:
+  Name: 휩쓸기
+  Description: >-
+    모든 적에게 피해를 {Damage} 줍니다.
+
+    카드를 {Value1}장 뽑습니다.
+  UpgradedDescription: 모든 적에게 피해를 {Damage}씩 2번 줍니다. 카드를 {Value1}장 뽑습니다.
+  FlavorText: 공간을 확보하기 위한 넓은 궤적의 일격.

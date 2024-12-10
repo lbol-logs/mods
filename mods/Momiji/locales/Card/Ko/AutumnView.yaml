@@ -1,0 +1,5 @@
+﻿AutumnView:
+  Name: 가을 풍경
+  Description: '|{SelfName}이 손에 들어올 때|: |보호막|을 {Value1} 얻고 {SelfName}은 소멸합니다.'
+  UpgradedDescription: '|{SelfName}이 손에 들어올 때|: |보호막|을 {Value1} 얻고, 모든 적에게 |화력 저하|를 {Value2} 줍니다. {SelfName}은 소멸합니다.'
+  FlavorText: 이보다 더 화려한 것이 있을까?

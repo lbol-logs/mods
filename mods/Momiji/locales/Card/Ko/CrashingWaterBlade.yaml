@@ -1,0 +1,4 @@
+﻿CrashingWaterBlade:
+  Name: 폭포 떨구기
+  Description: 피해를 {Damage} 줍니다. {PlayerName}가 가진 |반사|만큼 추가로 피해를 줍니다.
+  FlavorText: 모미지가 가장 좋아하는 폭포의 힘이 일격으로 응축되었다.

@@ -1,0 +1,7 @@
+﻿FakeOpening:
+  Name: 欺きの隙
+  Description: >-
+    |報復|{Value1}を得る。
+
+    {PlayerName}のターン開始時、
+  FlavorText: 引っかかったな

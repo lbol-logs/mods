@@ -1,0 +1,7 @@
+﻿IndiscriminateRevenge:
+  Name: Indiscriminate Revenge
+  Description: >-
+    Whenever |Reflection| is triggered, {PlayerName} deals damage to all enemies equal to her |Retaliation|.
+
+    Gain {Value1} |Retaliation|.
+  FlavorText: Two graves? When I'm done, I'll fill a cemetery.

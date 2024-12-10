@@ -1,0 +1,3 @@
+﻿ShieldCounterSe:
+  Name: Shield Counter
+  Description: When |Reflection| or |Static Charge| is triggered, apply {Level} |Vulnerable| to the attacker.

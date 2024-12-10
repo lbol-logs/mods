@@ -1,0 +1,15 @@
+﻿AyaTeammate:
+  Name: Aya, Tengu Reporter
+  Description: >-
+    {FriendS} Gain {Graze} |Graze|.
+
+    {PassiveCostIcon}|Graze| does not decay at the start of {PlayerName}'s turn.
+  UpgradedDescription: >-
+    {FriendS}Gain {Graze} |Graze|
+
+    {PassiveCostIcon}|Graze| does not decay at the start of {PlayerName}'s turn.
+  ExtraDescription1: "{ActiveCostIcon}Apply {Value2} |Lock On| to each enemy. Add {Value1} |Air Cutter{Value1:plural one='' other='s'}| to the hand."
+  UpgradedExtraDescription1: "{ActiveCostIcon}Apply {Value2} |Lock On| to each enemy. Add {Value1} |Air Cutter{Value1:plural one='' other='s'}| to the hand."
+  ExtraDescription2: "{UltimateCostIcon}Gain 1 |Wind God Girl|. {PlayerName}'s attacks are |Accurate| for the rest of combat."
+  UpgradedExtraDescription2: "{UltimateCostIcon}Gain 1 |Wind God Girl|. {PlayerName}'s attacks are |Accurate| for the rest of combat."
+  FlavorText: Many decades of mutual animosity have led to a grudging antipathy.

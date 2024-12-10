@@ -1,0 +1,4 @@
+﻿MountainsideTrailTracking:
+  Name: Mountainside Trail Tracking
+  Description: the first time {PlayerName} deals attack damage to an enemy with Vulnerable each turn, draw {Value1} card{Value1:plural one='' other='s'}.
+  FlavorText: No one can hide from her

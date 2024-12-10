@@ -1,0 +1,4 @@
+﻿CallToArms:
+  Name: Call to Arms
+  Description: "Choose up to {Value1} card{Value1:plural one='' other='s'} in the draw or discard piles and put {Value1:plural one='it' other='them'} into the hand. \nUpgrade {Value1:plural one='it' other='them'}. "
+  FlavorText: A clarion call to tell other White Wolves that an intruder has been discovered.

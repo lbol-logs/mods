@@ -1,0 +1,4 @@
+﻿DoubleDown:
+  Name: Double Down
+  Description: Deal {Damage} damage. If the enemy does not intend to attack, deal damage {Value1} additional time{Value1:plural one='' other='s'}.
+  FlavorText: press hard against any attempt to disengage

@@ -1,0 +1,7 @@
+﻿DefensiveStrike:
+  Name: Defensive Strike
+  Description: >-
+    Deal {Damage} damage.
+
+    Gain |Block| equal to the amount of unblocked damage dealt this way.
+  FlavorText: Back!

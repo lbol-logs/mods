@@ -1,0 +1,11 @@
+﻿ExpelleesCanan:
+  Title: 산와
+  Content: 익스펠리즈 가나안
+  Description: >-
+    모든 적에게 피해를 {Damage} 줍니다.
+
+    |방어|를 {Value2} 얻습니다.
+
+    모든 적에게 |화력 감소|를 {Value1} 줍니다.
+
+    |명중|

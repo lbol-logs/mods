@@ -1,0 +1,9 @@
+﻿RecklessStrike:
+  Name: 捨て身の一閃
+  Description: >-
+    {Damage}ダメージを与える。
+
+    |弱体|{Value1}を与える。
+
+    |脱力|{Value2}を得る。
+  FlavorText: どんな犠牲を払ってでも勝利を手にする

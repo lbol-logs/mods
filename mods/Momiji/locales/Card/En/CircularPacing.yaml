@@ -1,0 +1,4 @@
+﻿CircularPacing:
+  Name: Circular Pacing
+  Description: Whenever an enemy gains a debuff, {PlayerName} gains {Value1} |Barrier|.
+  FlavorText: by constantly circling her opponent, Momiji is able to keep them off balance.

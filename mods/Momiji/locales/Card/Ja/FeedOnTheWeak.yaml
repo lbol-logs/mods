@@ -1,0 +1,4 @@
+﻿FeedOnTheWeak:
+  Name: 弱者狩り
+  Description: 敵が倒れる度、{PlayerName}は<sprite="Point" name="Power"\> 10を得て、ライフ4を回復する。
+  FlavorText: 強者と幸運だけが生き残る。

@@ -1,0 +1,4 @@
+﻿TengusForesight:
+  Name: 텐구의 예지
+  Description: 카드를 {Value1}장 뽑습니다. {PlayerName}의 다음 턴 시작 시 |방어|가 사라지지 않습니다.
+  FlavorText: 다음에 네가 할말은...

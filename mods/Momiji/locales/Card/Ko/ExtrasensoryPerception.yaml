@@ -1,0 +1,4 @@
+﻿ExtrasensoryPerception:
+  Name: 초감각
+  Description: '|방어|를 {Block} 얻습니다. 모든 적에게 |취약|을 {Value1} 줍니다.'
+  FlavorText: 단 한 번의 떨림으로 충분하다.

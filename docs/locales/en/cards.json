@@ -3,6 +3,344 @@
     "-s": "",
     "-s_other": "s"
   },
+  "objects": {
+    "it": "it",
+    "it_other": "them"
+  },
+
+  "AdvantageousPosition": {
+    "Name": "Advantageous Position",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Gain <Value1 /> <h>Temporary Firepower</h>."
+  },
+  "AirCutter": {
+    "Name": "Air Cutter",
+    "Description": "Deal <Damage /> damage. <br />Gain <Block /> <h>Block</h>."
+  },
+  "AlwaysWatching": {
+    "Name": "Always Watching",
+    "Description": "Gain <Shield /> <h>Barrier</h>.<br />If any enemy has an <h>Offensive Intention</h>, gain <Block /> <h>Block</h>."
+  },
+  "AutumnView": {
+    "Name": "Autumn View",
+    "Description": "<h>When <SelfName /> enters the hand</h>: Gain <Value1 /> <h>Barrier</h> and exile <SelfName />.",
+    "UpgradedDescription": "<h>When <SelfName /> enters the hand</h>: Gain <Value1 /> <h>Barrier</h>, apply <Value2 /> <h>Firepower Down</h> to each enemy, and exile <SelfName />."
+  },
+  "AyaTeammate": {
+    "Name": "Aya, Tengu Reporter",
+    "Description": "Gain <Graze /> <h>Graze</h>.",
+    "UpgradedDescription": "Gain <Graze /> <h>Graze</h>",
+    "PassiveDescription": "<h>Graze</h> does not decay at the start of <PlayerName />'s turn.",
+    "UpgradedPassiveDescription": "<h>Graze</h> does not decay at the start of <PlayerName />'s turn."
+  },
+  "BlackWind": {
+    "Name": "Black Wind",
+    "Description": "Air Cutters inflict <Value1 /> <h>Vulnerable</h>.<br />Add <Value2 /> <h>Air Cutter$t(plurals.-s, { 'count': {{Value2}} })</h> to the hand."
+  },
+  "BladeWarding": {
+    "Name": "Blade Warding",
+    "Description": "Apply <Value1 /> <h>Weak</h>.<br />Gain <Value1 /> <h>Retaliation</h>.<br />Add an <h>Air Cutter</h> to the hand."
+  },
+  "BloodScent": {
+    "Name": "Blood Scent",
+    "Description": "Deal <Damage /> damage.<br />If the targeted enemy has <h>Vulnerable</h>, gain <Value1 /> <h>Reflection</h>."
+  },
+  "CallToArms": {
+    "Name": "Call to Arms",
+    "Description": "Choose up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) in the draw or discard piles and put $t(objects.it, { 'count': {{Value1}} }) into the hand. <br />Upgrade $t(objects.it, { 'count': {{Value1}} }). "
+  },
+  "CircularPacing": {
+    "Name": "Circular Pacing",
+    "Description": "Whenever an enemy gains a debuff, <PlayerName /> gains <Value1 /> <h>Barrier</h>."
+  },
+  "CleanKill": {
+    "Name": "Clean Kill",
+    "Description": "Deal <Damage /> Damage.<br /><h>Expel</h>: Gain <Value1 /> <Power />."
+  },
+  "CleavingSwipe": {
+    "Name": "Cleaving Swipe",
+    "Description": "Deal <Damage /> damage to each enemy.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).",
+    "UpgradedDescription": "Deal <Damage /> damage to each enemy 2 times. Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
+  },
+  "CollectingMomiji": {
+    "Name": "Collecting Momiji",
+    "Description": "Add <Value1 /> <h>Maple Leaves</h> to the hand."
+  },
+  "CrashingWaterBlade": {
+    "Name": "Crashing Water Blade",
+    "Description": "Deal <Damage /> damage. Deals damage an additional time for every <Value1 /> <h>Reflection</h> <PlayerName /> has."
+  },
+  "CrispFallAir": {
+    "Name": "Crisp Fall Air",
+    "Description": "Add <Value1 /> <h>Air Cutters</h> to the hand.<br />At the start of <PlayerName />'s next turn, gain <Mana />.",
+    "UpgradedDescription": "Now and at the start of <PlayerName />'s next turn, add <Value1 /> <h>Air Cutters</h> to the hand and gain <Mana />."
+  },
+  "DefensiveStrike": {
+    "Name": "Defensive Strike",
+    "Description": "Deal <Damage /> damage.<br />Gain <h>Block</h> equal to the amount of unblocked damage dealt this way."
+  },
+  "Destabilize": {
+    "Name": "Destabilize",
+    "Description": "Whenever <PlayerName /> deals unblocked attack damage, they gain <Value1 /> <h>Block</h>."
+  },
+  "Distract": {
+    "Name": "Distract",
+    "Description": "Whenever <PlayerName /> deals attack damage to an enemy, if that enemy has <h>Vulnerable</h>, apply 1 <h>Weak</h> to that enemy."
+  },
+  "DoubleDown": {
+    "Name": "Double Down",
+    "Description": "Deal <Damage /> damage. If the enemy does not intend to attack, deal damage <Value1 /> additional time$t(plurals.-s, { 'count': {{Value1}} })."
+  },
+  "ExploitOpenings": {
+    "Name": "Exploit Openings",
+    "Description": "Apply <Value1 /> <h>Vulnerable</h>.<br />Gain <Value1 /> <h>Firepower</h>. Gain 1 additional <h>Firepower</h> for every <Value2 /> levels of <h>Vulnerable</h> target enemy has."
+  },
+  "ExtrasensoryPerception": {
+    "Name": "Extrasensory Perception",
+    "Description": "Gain <Block /> <h>Block</h>. Apply <Value1 /> <h>Vulnerable</h> to each enemy."
+  },
+  "EyeforanEye": {
+    "Name": "Eye for an Eye",
+    "Description": "Deal <Damage /> damage.<br />The targeted enemy deals <Value1 /> damage to <PlayerName />."
+  },
+  "FakeOpening": {
+    "Name": "Fake Opening",
+    "Description": "Gain <Value1 /> <h>Retaliation</h>.<br />At the start of <PlayerName />'s turn, gain <Value1 /> <h>Retaliation</h>."
+  },
+  "FalseWeakness": {
+    "Name": "False Weakness",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Gain <Value1 /> <h>Retaliation</h>."
+  },
+  "FarSight": {
+    "Name": "Far Sight",
+    "Description": "gain <Value1 /> <h>Reflection</h>. If any enemy intends to attack, gain <Block /> <h>Block</h>."
+  },
+  "FeedOnTheWeak": {
+    "Name": "Feed on the Weak",
+    "Description": "Whenever an enemy dies, <PlayerName /> gains 10 <Power /> and 4 life."
+  },
+  "FollowUp": {
+    "Name": "Follow Up",
+    "Description": "Deal <Damage /> damage.<br />If the target has <h>Vulnerable</h>, gain <Mana />."
+  },
+  "ForestAmbush": {
+    "Name": "Forest Ambush",
+    "Description": "Gain <Value1 /> <h>Retaliation</h>. Whenever <PlayerName /> deals attack damage this turn, deal additional damage equal to <PlayerName />'s <h>Retaliation</h>."
+  },
+  "FrigidSky": {
+    "Name": "Frigid Sky",
+    "Description": "Whenever an <h>Air Cutter</h> deals unblocked damage to an enemy, apply <h>Cold</h> to that enemy.<br />Add an <h>Air Cutter</h> to the hand.",
+    "UpgradedDescription": "Whenever an <h>Air Cutter</h> deals unblocked damage to an enemy, apply <h>Cold</h> to that enemy. Add two <h>Air Cutters</h> to the hand."
+  },
+  "GentlyCirclingLeaves": {
+    "Name": "Gently Circling Leaves",
+    "Description": "Draw <Value1 /> cards. <br />Gain <Value2 /> <h>Reflection</h> for each Attack card drawn this way.<br />Gain <Block /> <h>Block</h> for each Defense card drawn this way"
+  },
+  "GuardBreak": {
+    "Name": "Guard Break",
+    "Description": "Deal <Damage /> damage <Value1 /> times. Apply <Value1 /> <h>Vulnerable</h>."
+  },
+  "Howl": {
+    "Name": "Howl",
+    "Description": "If the enemy has an <h>Offensive Intention</h>, Apply <Value1 /> <h>Firepower Down</h>."
+  },
+  "HowlingMountainWind": {
+    "Name": "Howling Mountain Wind",
+    "Description": "Whenever <PlayerName /> plays an <h>Air Cutter</h> targeting an enemy with <h>Vulnerable</h>, that <h>Air Cutter</h> deals damage twice. Add <Value2 /> <h>Air Cutter$t(plurals.-s, { 'count': {{Value2}} })</h> to the hand."
+  },
+  "HuntersTrap": {
+    "Name": "Hunter's Trap",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Add an <h>Air Cutter</h> or a <h>Maple Leaf</h> to the hand."
+  },
+  "HuntingCall": {
+    "Name": "Hunting Call",
+    "Description": "Apply 2 <h>Vulnerable</h> to each enemy. If any enemy has an <h>Offensive Intention</h>, draw <Value2 /> cards."
+  },
+  "HuntingHurricanes": {
+    "Name": "Hunting Hurricanes",
+    "Description": "Deal <Damage /> damage to each enemy. <br /><SelfName /> deals damage an additional time for each <h>Exiled Air Cutter</h>."
+  },
+  "ImageTraining": {
+    "Name": "Image Training",
+    "Description": "Add an <h>Air Cutter</h> to the hand. <br />At the start of the turn, add an <h>Air Cutter</h> to the hand."
+  },
+  "IndiscriminateRevenge": {
+    "Name": "Indiscriminate Revenge",
+    "Description": "Whenever <h>Reflection</h> is triggered, <PlayerName /> deals damage to all enemies equal to her <h>Retaliation</h>.<br />Gain <Value1 /> <h>Retaliation</h>."
+  },
+  "InstantofContact": {
+    "Name": "Instant of Contact",
+    "Description": "Gain <Value1 /> <h>Retaliation</h>.<br />End <PlayerName />'s turn. Then, take an extra turn.<br />During this extra turn, whenever <PlayerName /> gains <h>Block</h> or <h>Barrier</h>, <PlayerName /> gains <Value2 /> <h>Retaliation</h>.<br /><hd>Time Limit <Mana />.</hd>"
+  },
+  "IronStance": {
+    "Name": "Iron Stance",
+    "Description": "Gain <Block /> <h>Block</h> and <Value1 /> <h>Static Charge</h> until <PlayerName />'s next turn.",
+    "UpgradedDescription": "Gain <Shield /> <h>Barrier</h> and <Value1 /> <h>Static Charge</h> until <PlayerName />'s next turn."
+  },
+  "LongVigil": {
+    "Name": "Long Vigil",
+    "Description": "Exile up to <Value1 /> cards from your hand. Gain <Block /> <h>Block</h> for each card exiled this way.",
+    "UpgradedDescription": "Exile up the <Value1 /> cards from your hand, draw, or discard piles. Gain <Block /> <h>Block</h> for each card exiled this way."
+  },
+  "LookoutsIntuition": {
+    "Name": "Lookout's Intuition",
+    "Description": "Gain <Value1 /> <h>Graze</h>. Select an enemy. Gain <Shield /> <h>Barrier</h> for every <Value2 /> levels of <h>Vulnerable</h> that enemy has."
+  },
+  "MapleLeaf": {
+    "Name": "Maple Leaf",
+    "Description": "Gain <Mana />."
+  },
+  "MapleLeafFestival": {
+    "Name": "Maple Leaf Festival",
+    "Description": "At the start of <PlayerName />'s turn, add a <h>Maple Leaf</h> to the hand."
+  },
+  "MomijiAttackR": {
+    "Name": "Slice",
+    "Description": "Deal <Damage /> damage."
+  },
+  "MomijiAttackW": {
+    "Name": "Shield Bash",
+    "Description": "Deal <Damage /> damage."
+  },
+  "MomijiBlockR": {
+    "Name": "Parry",
+    "Description": "Gain <Block /> <h>Block</h>."
+  },
+  "MomijiBlockW": {
+    "Name": "Guard Up",
+    "Description": "Gain <Block /> <h>Block</h>."
+  },
+  "MomijiReflect": {
+    "Name": "Reflect",
+    "Description": "Gain <Value1 /> life.<br />Gain <Shield /> <h>Barrier</h>."
+  },
+  "MomijiRiposte": {
+    "Name": "Riposte",
+    "Description": "Gain <Value1 /> <h>Retaliation</h>."
+  },
+  "MountainsideTrailTracking": {
+    "Name": "Mountainside Trail Tracking",
+    "Description": "the first time <PlayerName /> deals attack damage to an enemy with Vulnerable each turn, draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
+  },
+  "OverhandBlade": {
+    "Name": "Overhand Blade",
+    "Description": "Deal <Damage /> damage.<br />If the target has <h>Vulnerable</h>, apply <Value1 /> <h>Weak</h>.<br />If the target has <h>Weak</h>, apply <Value1 /> <h>Vulnerable</h>."
+  },
+  "PartingSlice": {
+    "Name": "Parting Slice",
+    "Description": "Deal <Damage /> damage to each enemy.<br />For each enemy with an <h>Offensive Intention</h>, gain <Value1 /> <h>Graze</h>.",
+    "UpgradedDescription": "Deal <Damage /> damage to each enemy two times.<br />For each enemy with an <h>Offensive Intention</h>, gain <Value1 /> <h>Graze</h>."
+  },
+  "PatientHunter": {
+    "Name": "Patient Hunter",
+    "Description": "gain <Block /> <h>Block</h>. Block is not lost at the start of <PlayerName />'s next turn."
+  },
+  "Patrol": {
+    "Name": "Patrol",
+    "Description": "Draw <Value1 /> Cards. <br />Gain <Value2 /> <h>Graze</h> for each red card drawn this way.",
+    "UpgradedDescription": "Draw <Value1 /> Cards.<br />Gain <Value2 /> <h>Graze</h> for each red, Status, or <h>Misfortune</h> card drawn this way."
+  },
+  "PlungePool": {
+    "Name": "Plunge Pool",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Gain additional <h>Block</h> Equal to <PlayerName />'s <h>Retaliation</h>.",
+    "UpgradedDescription": "Gain <Shield /> <h>Barrier</h>.<br />Gain additional <h>Barrier</h> Equal to <PlayerName />'s <h>Retaliation</h>."
+  },
+  "PreparedDefense": {
+    "Name": "Prepared Defense",
+    "Description": "Gain <Value1 /> <h>Reflection</h>.<br />Convert all <h>Reflection</h> <PlayerName /> currently possesses into <h>Static Charge</h> for this turn."
+  },
+  "RabidBite": {
+    "Name": "Rabid Bite",
+    "Description": "Deal <Damage /> damage. Gain <Value1 /> life."
+  },
+  "RagingWaterfall": {
+    "Name": "Raging Waterfall",
+    "Description": "Gain <Block /> Block.<br />Draw <Value1 /> extra cards at the stard of <PlayerName />'s next turn."
+  },
+  "RecklessStrike": {
+    "Name": "Reckless Strike",
+    "Description": "Deal <Damage /> damage.<br />Apply <Value1 /> <h>Vulnerable</h>.<br />Gain <Value2 /> <h>Frail</h>."
+  },
+  "RipApart": {
+    "Name": "Rip Apart",
+    "Description": "Deal <Damage /> damage to each enemy.<br />Apply <Value1 /> <h>Vulnerable</h> to each enemy.",
+    "UpgradedDescription": "Deal <Damage /> damage to each enemy <Value1 /> times.<br />Apply <Value1 /> <h>Vulnerable</h> to each enemy."
+  },
+  "ScatteringLeaves": {
+    "Name": "Scattering Leaves",
+    "Description": "Deal <Damage /> damage to a random enemy <Value1 /> times."
+  },
+  "SeizeTheMoment": {
+    "Name": "Seize the Moment",
+    "Description": "Deal <Damage /> damage.<br />Apply an additional effect based on the enemy's <h>Intention</h>."
+  },
+  "SenseWeakness": {
+    "Name": "Sense Weakness",
+    "Description": "Apply <Value1 /> <h>Vulnerable</h> to all enemies. Enemies with <h>Vulnerable</h> take <Value2 />% more damage."
+  },
+  "ShieldCounter": {
+    "Name": "Shield Counter",
+    "Description": "Gain <Value2 /> <h>Reflection</h>.<br />Whenever <h>Reflection</h> or <h>Static Charge</h> is triggered, apply <Value1 /> <h>Vulnerable</h> to the enemy that triggered it."
+  },
+  "SmellofDeath": {
+    "Name": "Smell of Death",
+    "Description": "Apply <Value1 /> <h>Vulnerable</h>.<br />When target enemy dies, it deals damage to all other enemies equal to half its max HP."
+  },
+  "StandWatch": {
+    "Name": "Stand Watch",
+    "Description": "Gain <Block /> <h>Block</h>.<br />At the start of <PlayerName />'s turn, gain <Value1 /> <h>Block</h>.<br />Block is not lost at the start of <PlayerName />'s turn for the next <Value2 /> turns."
+  },
+  "SurgeofPower": {
+    "Name": "Surge of Power",
+    "Description": "the next <Value1 /> cards that <PlayerName /> plays cost <Mana />."
+  },
+  "TacticalInsight": {
+    "Name": "Tactical Insight",
+    "Description": "Add <Value2 /> of <Value1 /> <hp>completely random</hp> defense cards to the hand. It temporarily costs <Mana /> and has <h>Exile</h> and <h>Ethereal</h>."
+  },
+  "Taunt": {
+    "Name": "Taunt",
+    "Description": "Apply <Value1 /> <h>Weak</h> and <Value1 /> <h>Vulnerable</h>.<br />The targeted enemy deals <Value2 /> damage to <PlayerName />."
+  },
+  "TengusForesight": {
+    "Name": "Tengu's Foresight",
+    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }). <h>Block</h> is not lost at the start of <PlayerName />'s next turn."
+  },
+  "TirelessGuard": {
+    "Name": "Tireless Guard",
+    "Description": "Whenever <h>Reflection</h> is triggered, gain <h>Reflection</h> equal to half the damage dealt by <PlayerName />'s <h>Reflection</h>.<br />Gain <Value2 /> <h>Reflection</h>."
+  },
+  "TrainingRecord": {
+    "Name": "Training Record",
+    "Description": "Deal <Damage /> damage.<br />If this is the first time a <SelfName /> has been played this combat, upgrade a card in <PlayerName />'s deck based on the targeted enemy's intention."
+  },
+  "TrapStance": {
+    "Name": "Trap Stance",
+    "Description": "Gain <Value1 /> <h>Retaliation</h>.<br />The first time that <PlayerName /> is attacked each turn, gain <h>Reflection</h> equal to <PlayerName />'s <h>Retaliation</h>."
+  },
+  "TwinFang": {
+    "Name": "Twin Fang",
+    "Description": "Gain <Value2 /> <h>Reflection</h>.<br />The next time <h>Reflection</h> is triggered, gain <h>Reflection</h> equal to the amount of damage dealt by <PlayerName />'s <h>Reflection</h>."
+  },
+  "VacuumCutter": {
+    "Name": "Vacuum Cutter",
+    "Description": "Deal <Damage /> damage. Add an <h>Air Cutter</h> to the hand."
+  },
+  "WardingStrike": {
+    "Name": "Warding Strike",
+    "Description": "Deal <Damage /> damage.<br />Deal additional damage equal to <PlayerName />'s <h>Reflection</h>."
+  },
+  "WaterfallMeditation": {
+    "Name": "Waterfall Meditation",
+    "Description": "Select an enemy. Perform an action based on the selected enemy's intentions.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
+  },
+  "WindsweptBlade": {
+    "Name": "Windswept Blade",
+    "Description": "Deal <Damage /> damage 2 times.<br />Gain <Value1 /> <h>Retaliation</h>."
+  },
+  "WoodlandSentry": {
+    "Name": "Woodland Sentry",
+    "Description": "Gain <Value2 /> life.<br />At the end of <PlayerName />'s turn, gain <Value1 /> block for each card in hand."
+  },
 
   "PatchouliAgniRadiance": {
     "Name": "Agni Radiance",
