@@ -86,7 +86,8 @@
       "Loyalty": 2,
       "PassiveCost": 1,
       "ActiveCost": -3,
-      "UltimateCost": -6
+      "UltimateCost": -6,
+      "Graze": 2
     },
     "1": {
       "Value1": 2,
@@ -94,7 +95,8 @@
       "Loyalty": 2,
       "PassiveCost": 1,
       "ActiveCost": -3,
-      "UltimateCost": -6
+      "UltimateCost": -6,
+      "Graze": 2
     }
   },
   "BlackWind": {
