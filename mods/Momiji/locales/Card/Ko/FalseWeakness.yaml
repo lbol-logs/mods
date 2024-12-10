@@ -1,0 +1,7 @@
+﻿FalseWeakness:
+  Name: 가짜 약점
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    |보복|을 {Value1} 얻습니다.
+  FlavorText: 왜 항상 이렇게 잘 먹히지?

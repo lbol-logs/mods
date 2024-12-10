@@ -1,0 +1,15 @@
+﻿AyaTeammate:
+  Name: 天狗記者、文
+  Description: >-
+    {FriendS}|グレイズ|{Graze}を得る。
+
+    {PassiveCostIcon}|グレイズ|は{PlayerName}のターン開始時失われない。
+  UpgradedDescription: >-
+    {FriendS}|グレイズ|{Graze}を得る。
+
+    {PassiveCostIcon}|グレイズ|は{PlayerName}のターン開始時失われない。
+  ExtraDescription1: '{ActiveCostIcon}敵全体に|ロックオン|{Value2}を与える。手札に|エアカッター|を{Value1}枚加える。'
+  UpgradedExtraDescription1: '{ActiveCostIcon}敵全体に|ロックオン|{Value2}を与える。手札に|エアカッター|を{Value1}枚加える。'
+  ExtraDescription2: '{UltimateCostIcon}|風神少女|1を得る。戦闘終了まで{PlayerName}の攻撃は|精密|を持つ。'
+  UpgradedExtraDescription2: '{UltimateCostIcon}|風神少女|1を得る。戦闘終了まで{PlayerName}の攻撃は|精密|を持つ。'
+  FlavorText: 何十年もの間、互いに喧嘩しあってきた。

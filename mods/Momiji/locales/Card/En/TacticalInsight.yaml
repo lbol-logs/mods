@@ -1,0 +1,4 @@
+﻿TacticalInsight:
+  Name: Tactical Insight
+  Description: Add {Value2} of {Value1} |p:completely random| defense cards to the hand. It temporarily costs {Mana} and has |Exile| and |Ethereal|.
+  FlavorText: Study your opponents to know them. Then, steal their best tactics

@@ -1,0 +1,5 @@
+﻿IronStance:
+  Name: 강철 태세
+  Description: '{PlayerName}의 다음 턴까지 |방어|를 {Block} 얻고, |정전기|를 {Value1} 얻습니다.'
+  UpgradedDescription: '{PlayerName}의 다음 턴까지 |보호막|을 {Block} 얻고, |정전기|를 {Value1} 얻습니다.'
+  Flavortext: 강철은 튼튼하고, 더 중요한 것은, 전도성이 있다.

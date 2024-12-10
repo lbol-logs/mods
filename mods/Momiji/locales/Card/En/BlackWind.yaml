@@ -1,0 +1,7 @@
+﻿BlackWind:
+  Name: Black Wind
+  Description: >-
+    Air Cutters inflict {Value1} |Vulnerable|.
+
+    Add {Value2} |Air Cutter{Value2:plural one='' other='s'}| to the hand.
+  FlavorText: Dark winds bring ill omens.

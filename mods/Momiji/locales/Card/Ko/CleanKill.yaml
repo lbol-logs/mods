@@ -1,0 +1,7 @@
+﻿CleanKill:
+  Name: 깔끔한 처치
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |퇴치|: <sprite="Point" name="Power"\>를 {Value1} 얻습니다.
+  FlavorText: 내가 살아남을 수 있게 해준 네 생명에 감사를.

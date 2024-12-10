@@ -1,0 +1,551 @@
+MomijiAttackW:
+  Name: 방패 강타
+  Description: 피해를 {Damage} 줍니다.
+  FlavorText: 방패도 훌륭한 무기가 될 수 있다.
+
+MomijiAttackR:
+  Name: 베기
+  Description: 피해를 {Damage} 줍니다.
+  FlavorText: 그리고 난도질.
+
+MomijiBlockR:
+  Name: 튕겨내기
+  Description: "|방어|를 {Block} 얻습니다."
+  FlavorText: 검은 좋은 방어 도구가 될 수 있다.
+
+MomijiBlockW:
+  Name: 방어 태세
+  Description: "|방어|를 {Block} 얻습니다."
+  FlavorText: 언제나 심장을 겨냥한 위협이 있을지 모른다.
+
+MapleLeaf:
+  Name: 단풍잎
+  Description: |-
+    마나를 {Mana} 얻습니다.
+  FlavorText: 모미지라고도 부릅니다.
+
+AirCutter:
+  Name: 에어 커터
+  Description: |-
+    피해를 {Damage} 줍니다. 
+    |방어|를 {Block} 얻습니다.
+  Flavortext: 공기를 가르는 검격.
+
+BlackWind:
+  Name: 흑풍
+  Description: |-
+    에어 커터가 |취약|을 {Value1} 줍니다.
+    |에어 커터|를 {Value2}장 얻습니다.
+
+FeedOnTheWeak:
+  Name: 약자의 피
+  Description: |-
+    적이 죽을 때마다, {PlayerName}가 <sprite="Point" name="Power"\> 10과 체력 4를 얻습니다.
+  FlavorText: 강자와 운 좋은 자만이 살아남는다.
+
+ScentofDeath:
+  Name: 죽음의 냄새
+  Description: |-
+    |취약|을 {Value1} 줍니다.
+    대상 적이 죽으면, 그 최대 체력의 절반만큼 모든 적에게 피해를 줍니다.
+  FlavorText: 역겨워.
+
+ForestAmbush:
+  Name: 숲의 매복
+  Description: "|보복|을 {Value1} 얻습니다. 이 턴 동안 {PlayerName}가 공격 피해를 줄 때마다, {PlayerName}의 |보복|만큼 추가로 피해를 줍니다."
+  FlavorText: 완벽해.
+
+RabidBite:
+  Name: 레이비즈 바이트
+  Description: 피해를 {Damage} 줍니다. 체력을 {Value1} 얻습니다.
+  Flavortext: 야만적인 적을 쓰러뜨리기 위한 야만적인 일격.
+
+AyaTeammate:
+  Name: 아야, 텐구 기자
+  Description: |-
+    "{FriendS}|그레이즈|를 {Graze} 얻습니다.
+    {PassiveCostIcon}|그레이즈|는 {PlayerName}의 턴 시작 시 감소하지 않습니다."
+  UpgradedDescription: |-
+    "{FriendS}|그레이즈|를 {Graze} 얻습니다.
+    {PassiveCostIcon}|그레이즈|는 {PlayerName}의 턴 시작 시 감소하지 않습니다."
+  ExtraDescription1: "{ActiveCostIcon}모든 적에게 |록 온|을 {Value2} 줍니다. |에어 커터|를 {Value1}장 손에 추가합니다."
+  UpgradedExtraDescription1: "{ActiveCostIcon}모든 적에게 |록 온|을 {Value2} 줍니다. |에어 커터|를 {Value1}장 손에 추가합니다"
+  ExtraDescription2: "{UltimateCostIcon}|풍신소녀| 1을 얻습니다. {PlayerName}의 공격이 전투가 끝날 때까지 |명중|을 얻습니다."
+  UpgradedExtraDescription2: "{UltimateCostIcon}|풍신소녀| 1을 얻습니다. {PlayerName}의 공격이 전투가 끝날 때까지 |명중|을 얻습니다."
+  FlavorText: 오랜 세월 동안의 상호 적대감이 마침내 억제된 반감을 만들었다.
+
+WoodlandSentry:
+  Name: 숲의 경비병
+  Description: |-
+    체력을 {Value2} 얻습니다.
+    {PlayerName}의 턴 종료 시, 손에 있는 카드 1장당 |방어|를 {Value1} 얻습니다.
+
+AutumnView:
+  Name: 가을 풍경
+  Description: "|{SelfName}이 손에 들어올 때|: |보호막|을 {Value1} 얻고 {SelfName}은 소멸합니다."
+  UpgradedDescription: "|{SelfName}이 손에 들어올 때|: |보호막|을 {Value1} 얻고, 모든 적에게 |화력 저하|를 {Value2} 줍니다. {SelfName}은 소멸합니다."
+  FlavorText: 이보다 더 화려한 것이 있을까?
+
+CleanKill:
+  Name: 깔끔한 처치
+  Description: |-
+    피해를 {Damage} 줍니다.
+    |퇴치|: <sprite="Point" name="Power"\>를 {Value1} 얻습니다.
+  FlavorText: 내가 살아남을 수 있게 해준 네 생명에 감사를.
+
+CleavingSwipe:
+  Name: 휩쓸기
+  Description: |-
+    모든 적에게 피해를 {Damage} 줍니다.
+    카드를 {Value1}장 뽑습니다.
+  UpgradedDescription: 모든 적에게 피해를 {Damage}씩 2번 줍니다.
+    카드를 {Value1}장 뽑습니다.
+  FlavorText: 공간을 확보하기 위한 넓은 궤적의 일격.
+
+GentlyCirclingLeaves:
+  Name: 부드럽게 도는 잎
+  Description: |-
+    카드를 {Value1}장 뽑습니다.
+    뽑은 공격 카드마다 |반사|를 {Value2} 얻습니다.
+    뽑은 방어 카드마다 |방어|를 {Block} 얻습니다.
+  FlavorText: 천천히 떨어져라, 작은 잎들아.
+
+HowlingMountainWind:
+  Name: 울부짖는 산바람
+  Description: "{PlayerName}가 |에어 커터|로 |취약| 상태의 적을 공격할 때마다, |에어 커터|가 한 번 더 피해를 줍니다. |에어 커터|를 {Value2}장 손에 추가합니다."
+  FlavorText: 바람아 불어라! 휘몰아쳐라!
+
+IndiscriminateRevenge:
+  Name: 무차별 복수
+  Description: |-
+    |반사|가 발동할 시, {PlayerName}가 모든 적에게 피해를 |보복|만큼 줍니다.
+    |보복|을 {Value1} 얻습니다.
+
+HuntingHurricanes:
+  Name: 사냥하는 회오리바람
+  Description: |-
+    모든 적에게 피해를 {Damage} 줍니다.
+    {SelfName}은 추방된 |에어 커터|마다 한 번 더 피해를 줍니다.
+  Flavortext: 실로 거대한 폭풍.
+
+InstantofContact:
+  Name: 접촉의 순간
+  Description: |-
+    |보복|을 {Value1} 얻습니다.
+    {PlayerName}의 턴이 종료됩니다. 그리고 추가 턴을 얻습니다.
+    이 추가 턴 동안, {PlayerName}가 |방어| 또는 |보호막|을 얻을 때마다, {PlayerName}는 |보복|을 {Value2} 얻습니다.
+    |d:시간 제한 {Mana}.|
+  FlavorText: 칼날이 엇갈리고, 날카로운 시선이 교차한다.
+
+MapleLeafFestival:
+  Name: 단풍잎 축제
+  Description: "{PlayerName}의 턴 시작 시, |단풍잎|을 손에 추가합니다."
+  Flavortext: 여름의 끝을 기념하는 축제.
+
+MomijiRiposte:
+  Name: 되찌르기
+  Description: |-
+    |보복|을 {Value1} 얻습니다.
+  Flavortext: 니 차례다.
+
+PatientHunter:
+  Name: 인내의 사냥꾼
+  Description: "|방어|를 {Block} 얻습니다. {PlayerName}의 다음 턴까지 |방어|가 사라지지 않습니다."
+  FlavorText: 적절한 기회에만 공격하라.
+
+RecklessStrike:
+  Name: 무모한 일격
+  Description: |-
+    피해를 {Damage} 줍니다.
+    |취약|을 {Value1} 줍니다.
+    |연약|을 {Value2} 얻습니다.
+  FlavorText: 어떤 대가를 치르더라도 승리를 쟁취하라.
+
+RipApart:
+  Name: 찢어발기기
+  Description: |-
+    모든 적에게 피해를 {Damage} 줍니다.
+    모든 적에게 |취약|을 {Value1} 줍니다.
+  UpgradedDescription: |-
+    모든 적에게 피해를 {Damage}씩 {Value1}번 줍니다.
+    모든 적에게 |취약|을 {Value1} 줍니다.
+  FlavorText: 재빠르게 그들을 베어라.
+
+StandWatch:
+  Name: 경계 태세
+  Description: |-
+    |방어|를 {Block} 얻습니다.
+    {PlayerName}의 턴 시작 시 |방어|를 {Value1} 얻습니다.
+    |방어|는 다음 {Value2} 턴 동안 {PlayerName}의 턴 시작 시 사라지지 않습니다.
+  FlavorText: 경비병의 의무는 피곤하지 않다. 주저함은 용납되지 않는다.
+
+TrainingRecord:
+  Name: 훈련 기록
+  Description: |-
+    피해를 {Damage} 줍니다.
+    {SelfName}이 이 전투에서 처음으로 사용된 경우, {PlayerName}의 덱에서 카드 1장을 대상 적의 행동에 따라 강화합니다.
+  DetailText: |-
+    적이 |공격|하려 한다면, 공격 카드를 강화합니다.
+    적이 |방어|하려 한다면, 방어 카드를 강화합니다.
+    적이 |특수한 행동|을 하려 한다면, 능력 또는 스킬 카드를 강화합니다.
+
+AdvantageousPosition:
+  Name: 유리한 위치
+  Description: |-
+    |방어|를 {Block} 얻습니다.
+    |일시 화력|을 {Value1} 얻습니다.
+  Flavortext: 그들은 결코 위를 보지 않는다, 비록 그들이 날고 있다 하더라도.
+
+BladeWarding:
+  Name: 검의 비호
+  Description: |-
+    |허약|을 {Value1} 줍니다.
+    |보복|을 {Value1} 얻습니다.
+    |에어 커터|를 손에 추가합니다.
+  Flavortext: "나에게서 떨어져!"
+
+BloodScent:
+  Name: 피의 냄새
+  Description: |-
+    피해를 {Damage} 줍니다.
+    대상 적이 |취약| 상태라면, |반사|를 {Value1} 얻습니다.
+  FlavorText: 너무 달콤하다.
+
+CircularPacing:
+  Name: 원형 순환
+  Description: 적이 상태이상을 얻을 때마다, {PlayerName}는 |보호막|을 {Value1} 얻습니다.
+  FlavorText: 상대를 계속해서 돌며, 모미지는 그들을 경계할 수 있다.
+
+CollectingMomiji:
+  Name: 단풍 모으기
+  Description: |-
+    |단풍잎|을 {Value1}장 손에 추가합니다.
+  Flavortext: 나뭇잎들이지, 텐구가 아니다.
+
+CrispFallAir:
+  Name: 상쾌한 가을 공기
+  Description: |-
+    |에어 커터|를 {Value1}장 손에 추가합니다.
+    {PlayerName}의 다음 턴 시작 시, {Mana}를 얻습니다.
+  UpgradedDescription: |-
+    지금과 {PlayerName}의 다음 턴 시작 시, |에어 커터|를 {Value1}장 손에 추가하고 {Mana}를 얻습니다.
+  FlavorText: 차가워서 얼어붙을 것 같다.
+
+Distract:
+  Name: 방해
+  Description: "{PlayerName}가 적에게 공격 피해를 줄 때마다, 그 적이 |취약| 상태라면 |허약|을 1 줍니다."
+
+ExploitOpenings:
+  Name: 틈새 포착
+  Description: |-
+    |취약|을 {Value1} 줍니다.
+    |화력|을 {Value1} 얻습니다. 대상이 가진 |취약| {Value2}마다 |화력|을 추가로 1 얻습니다.
+
+ExtrasensoryPerception:
+  Name: 초감각
+  Description: "|방어|를 {Block} 얻습니다. 모든 적에게 |취약|을 {Value1} 줍니다."
+  FlavorText: 단 한 번의 떨림으로 충분하다.
+
+FakeOpening:
+  Name: 가짜 틈새
+  Description: |-
+    |보복|을 {Value1} 얻습니다.
+    {PlayerName}의 턴 시작 시 |보복|을 {Value1} 얻습니다.
+  FlavorText: 걸려들었구나.
+
+FollowUp:
+  Name: 후속 타격
+  Description: |-
+    피해를 {Damage} 줍니다.
+    대상이 |취약| 상태라면, {Mana}를 얻습니다.
+  FlavorText: 엄청 빠르고 강력하게 쳐라.
+
+GuardBreak:
+  Name: 방어 파괴
+  Description: 피해를 {Damage}씩 {Value1}번 줍니다. |취약|을 {Value1} 줍니다.
+  FlavorText: 방패와 머리를 부수는 일격.
+
+HuntersTrap:
+  Name: 사냥꾼의 함정
+  Description: |-
+    |방어|를 {Block} 얻습니다.
+    손에 |에어 커터| 또는 |단풍잎|을 추가합니다.
+  FlavorText: 함정, 덫, 죽음의 덫... 일은 제대로 처리한다.
+
+HuntingCall:
+  Name: 사냥의 부름
+  Description: 모든 적에게 |취약|을 2 줍니다. |공격|하려는 적이 있다면, 카드를 {Value2}장 뽑습니다.
+
+ImageTraining:
+  Name: 이미지 트레이닝
+  Description: |-
+    손에 |에어 커터|를 1장 추가합니다.
+    턴 시작 시 손에 |에어 커터|를 1장 추가합니다.
+  FlavorText: 상상의 적과의 결투, 검이 공기를 가른다.
+
+LookoutsIntuition:
+  Name: 경계자의 직감
+  Description: |-
+    |그레이즈|를 {Value1} 얻습니다.
+    선택한 적의 |취약| 값 {Value2}마다 |보호막|을 {Shield} 얻습니다.
+  FlavorText: 왼쪽으로 작은 도약.
+
+MountainsideTrailTracking:
+  Name: 오솔길 추적
+  Description: "{PlayerName}가 매 턴 처음 |취약|를 가진 적에게 공격 피해를 줄 때마다 카드를 {Value1}장 뽑습니다."
+  FlavorText: 그녀에게는 아무도 숨을 수 없다.
+
+OverhandBlade:
+  Name: 오버핸드 블레이드
+  Description: |-
+    피해를 {Damage} 줍니다.
+    대상이 |취약| 상태라면, |허약|을 {Value1} 줍니다.
+    대상이 |허약| 상태라면, |취약|을 {Value1} 줍니다.
+  Flavortext: 균형을 잃었을 때 치고 들어가라.
+
+PartingSlice:
+  Name: 이별의 일격
+  Description: |-
+    모든 적에게 피해를 {Damage} 줍니다.
+    |공격|하려는 적마다 |그레이즈|를 {Value1} 얻습니다.
+  UpgradedDescription: |-
+    모든 적에게 피해를 {Damage}를 2번 줍니다.
+    |공격|하려는 적마다 |그레이즈|를 {Value1} 얻습니다.
+  Flavortext: 이별의 발사보다 약간 덜 효과적이다.
+
+Patrol:
+  Name: 순찰
+  Description: |-
+    카드를 {Value1}장 뽑습니다.
+    이렇게 뽑은 적색 카드마다 |그레이즈|를 {Value2} 얻습니다.
+  UpgradedDescription: |-
+    카드를 {Value1}장 뽑습니다.
+    이렇게 뽑은 적색 카드, 상태 카드, 또는 |액운| 카드마다 |그레이즈|를 {Value2} 얻습니다.
+  FlavorText: 모미지의 끝나지 않는 임무.
+
+ScatteringLeaves:
+  Name: 흩날리는 잎
+  Description: 무작위 적에게 피해를 {Damage}씩 {Value1}번 줍니다.
+  Flavortext: 눈이 부실 정도로 터져나가는 붉은색.
+
+SenseWeakness:
+  Name: 약점 감지
+  Description: 모든 적에게 |취약|을 {Value1} 줍니다. |취약| 상태인 적은 {Value2}% 더 많은 피해를 받습니다.
+  FlavorText: 날카로운 눈은 상대의 방어에서 가장 미세한 틈도 감지한다.
+
+ShieldCounter:
+  Name: 방패 반격
+  Description: |-
+    |반사|를 {Value2} 얻습니다.
+    |반사| 또는 |정전기|가 발동할 때마다, 그 적에게 |취약|을 {Value1} 줍니다.
+
+SurgeofPower:
+  Name: 힘의 급증
+  Description: "{PlayerName}의 다음 {Value1}장의 카드 비용이 {Mana}가 됩니다."
+
+Taunt:
+  Name: 도발
+  Description: |-
+    |허약|과 |취약|을 {Value1} 줍니다.
+    대상 적이 {PlayerName}에게 피해를 {Value2} 줍니다.
+
+CrashingWaterBlade:
+  Name: 폭포 떨구기
+  Description: 피해를 {Damage} 줍니다. {PlayerName}가 가진 |반사|만큼 추가로 피해를 줍니다.
+  FlavorText: 모미지가 가장 좋아하는 폭포의 힘이 일격으로 응축되었다.
+
+FrigidSky:
+  Name: 냉혹한 하늘
+  Description: |-
+    |에어 커터|가 적에게 막히지 않은 피해를 줄 때마다, 그 적에게 |빙결|을 줍니다.
+    손에 |에어 커터|를 추가합니다.
+  UpgradedDescription: |-
+    |에어 커터|가 적에게 막히지 않은 피해를 줄 때마다, 그 적에게 |빙결|을 줍니다.
+    손에 |에어 커터|를 2장 추가합니다.
+  FlavorText: 베일 만큼 차갑게.
+
+PlungePool:
+  Name: 급류
+  Description: |-
+    |방어|를 {Block} 얻습니다.
+    {PlayerName}의 |보복|에 따라 추가로 |방어|를 얻습니다. ({ReflectShield})
+  NonBattleDescription: |-
+    |방어|를 {Block} 얻습니다.
+    {PlayerName}의 |보복|에 따라 추가로 |방어|를 얻습니다.
+  UpgradedDescription: |-
+    |보호막|을 {Shield} 얻습니다.
+    {PlayerName}의 |보복|에 따라 추가로 |보호막|을 얻습니다. ({ReflectShield})
+  UpgradedNonBattleDescription: |-
+    |보호막|을 {Shield} 얻습니다.
+    {PlayerName}의 |보복|에 따라 추가로 |보호막|을 얻습니다.
+  FlavorText: 스스로를 가두지 마라.
+
+AlwaysWatching:
+  Name: 지켜보고있다.
+  Description: |-
+    |보호막|을 {Shield} 얻습니다.
+    |공격|하려는 적이 있다면, |방어|를 {Block} 얻습니다.
+
+CallToArms:
+  Name: 무장 호출
+  Description: |-
+    뽑을 카드 더미나 버린 카드 더미에서 카드를 최대 {Value1}장 선택해 손으로 가져옵니다. 
+    그 카드들을 강화합니다.
+  FlavorText: 침입자가 발견되었음을 다른 백랑 텐구에게 알리는 경종.
+
+DefensiveStrike:
+  Name: 방패 밀어치기
+  Description: |-
+    피해를 {Damage} 줍니다.
+    막히지 않은 피해만큼 |방어|를 얻습니다.
+  FlavorText: "물러서!"
+
+Destabilize:
+  Name: 불안정화
+  Description: "{PlayerName}가 막히지 않은 공격 피해를 줄 때마다, |방어|를 {Value1} 얻습니다."
+  Flavortext: 빠르고 가벼운 타격으로 상대의 균형을 잃게 하며, 그들이 제대로된 공격을 가하는 것을 막는다.
+
+DoubleDown:
+  Name: 확인 제압
+  Description: 피해를 {Damage} 줍니다. 적이 공격하려하지 않으면, 추가로 {Value1}번 피해를 줍니다.
+  FlavorText: 어떤 시도에도 강하게 맞서라.
+
+EyeforanEye:
+  Name: 눈에는 눈
+  Description: |-
+    피해를 {Damage} 줍니다.
+    대상이 {Value1}의 피해를 {PlayerName}에게 줍니다.
+
+FalseWeakness:
+  Name: 가짜 약점
+  Description: |-
+    |방어|를 {Block} 얻습니다.
+    |보복|을 {Value1} 얻습니다.
+  FlavorText: 왜 항상 이렇게 잘 먹히지?
+
+FarSight:
+  Name: 망원
+  Description: "|반사|를 {Value1} 얻습니다. 공격하려는 적이 있다면, |방어|를 {Block} 얻습니다."
+  FlavorText: 그녀는 천 리 밖의 탄막을 볼 수 있다.
+
+Howl:
+  Name: 울부짖기
+  Description: 공격하려는 적이 있다면, |화력 저하|를 {Value1} 적용합니다.
+  FlavorText: 아우~~~~!
+
+IronStance:
+  Name: 강철 태세
+  Description: |-
+    {PlayerName}의 다음 턴까지 |방어|를 {Block} 얻고, |정전기|를 {Value1} 얻습니다.
+  UpgradedDescription: |-
+    {PlayerName}의 다음 턴까지 |보호막|을 {Block} 얻고, |정전기|를 {Value1} 얻습니다.
+  Flavortext: 강철은 튼튼하고, 더 중요한 것은, 전도성이 있다.
+
+LongVigil:
+  Name: 기나긴 감시
+  Description: |-
+    손에서 최대 {Value1}장의 카드를 소멸시킵니다. 이렇게 소멸된 카드마다 |방어|를 {Block} 얻습니다.
+  UpgradedDescription: |-
+    손, 뽑을 카드 더미 또는 버릴 카드 더미에서 최대 {Value1}장의 카드를 소멸시킵니다. 이렇게 소멸된 카드마다 |방어|를 {Block} 얻습니다.
+
+MomijiReflect:
+  Name: 반격
+  Description: |-
+    체력을 {Value1} 얻습니다.
+    |보호막|을 {Shield} 얻습니다.
+  FlavorText: 반격. 탐구. 연습.
+
+PreparedDefense:
+  Name: 준비된 방어
+  Description: |-
+    |반사|를 {Value1} 얻습니다.
+    {PlayerName}가 현재 가지고 있는 모든 |반사|를 이번 턴 동안 |정전기|로 바꿉니다.
+  FlavorText: 오게 두어라.
+
+RagingWaterfall:
+  Name: 맹렬한 폭포
+  Description: |-
+    |방어|를 {Block} 얻습니다.
+    {PlayerName}의 다음 턴 시작 시 카드를 {Value1}장 뽑습니다.
+
+SeizeTheMoment:
+  Name: 순간 포착
+  Description: |-
+    피해를 {Damage} 줍니다.
+    적의 |행동|에 따라 추가 효과를 적용합니다.
+  DetailText: |-
+    적이 |공격|하려 한다면, 적에게 |일시 화력 저하|를 {Value1} 줍니다. 
+    적이 |방어|하려 한다면, |취약| {Value2}와 |영력 저하| {Value1}를 적용합니다.
+    적이 |특수한 행동|을 하려 한다면, 추가로 피해를 줍니다.
+  FlavorText: 순간의 경과에 즉시 행동할 준비를 하라.
+
+TacticalInsight:
+  Name: 전술적 통찰
+  Description: 손에 |방어| 카드를 {Value2}장중 {Value1}장 추가합니다. 그 카드들은 일시적으로 비용이 {Mana}가 되며 |소멸|과 |휘발성| 얻습니다.
+  FlavorText: 상대를 파악하여 그들을 알라. 그런 다음, 그들의 최고의 전술을 훔쳐라.
+
+TengusForesight:
+  Name: 텐구의 예지
+  Description: |-
+    카드를 {Value1}장 뽑습니다. {PlayerName}의 다음 턴 시작 시 |방어|가 사라지지 않습니다.
+  FlavorText: 다음에 네가 할말은...
+
+TirelessGuard:
+  Name: 지치지 않는 수호
+  Description: |-
+    |반사|가 발동할 때마다, {PlayerName}의 |반사|가 입힌 피해의 절반만큼 |반사|를 얻습니다.
+    |반사|를 {Value2} 얻습니다.
+  FlavorText: 하루종일도 할 수 있어.
+
+TrapStance:
+  Name: 함정 태세
+  Description: |-
+    |보복|을 {Value1} 얻습니다.
+    매 턴마다 {PlayerName}가 처음 공격받을 때, {PlayerName}의 |보복|과 같은 양의 |반사|를 얻습니다.
+  FlavorText: 항상 계획을 세워라. 그리고 첫 번째 계획이 실패할 경우에 대한 계획을 세워라.
+
+TwinFang:
+  Name: 쌍송곳니
+  Description: |-
+    |반사|를 {Value2} 얻습니다.
+    다음 |반사|가 발동할 때, {PlayerName}의 |반사|가 입힌 피해량과 같은 양의 |반사|를 얻습니다.
+  Flavortext: 항상 두 번 타격하라.
+
+VacuumCutter:
+  Name: 진공 절단
+  Description: 피해를 {Damage} 줍니다. 손에 |에어 커터|를 추가합니다.
+  FlavorText: 소리를 남기고 공기를 가르는 속도로 베어라.
+
+WardingStrike:
+  Name: 방어의 일격
+  Description: |-
+    피해를 {Damage} 줍니다.
+    {PlayerName}의 |반사|와 같은 양의 추가 피해를 줍니다. ({ReflectDamage})
+  NonbattleDescription: |-
+    피해를 {Damage} 줍니다.
+    {PlayerName}의 |반사|와 같은 양의 추가 피해를 줍니다.
+  FlavorText: 안일함에 대한 대가를 치르게 하라.
+
+WaterfallMeditation:
+  Name: 폭포의 명상
+  Description: |-
+    대상 적의 의도에 따라 효과를 얻습니다.
+    카드를 {Value1}장 뽑습니다.
+  DetailText: |-
+    적이 |공격|하려 한다면, |방어|를 {Value2} 얻고, 손의 카드를 {Value1}장(공격 카드를 우선적으로) 강화합니다.
+    적이 |방어|하려 한다면, 적에게 |취약|과 |영력 저하|를 {Value1} 적용합니다.
+    적이 |특수한 행동|을 하려 한다면, |화력|을 {Value1} 얻습니다.
+
+WindsweptBlade:
+  Name: 바람의 상처
+  Description: |-
+    피해를 {Damage} 2번 줍니다.
+    |보복|을 {Value1} 얻습니다.
+  FlavorText: "히야!"
+
+SampleCharacterXCost:
+  Name: X-비용 카드
+  Description: |-
+    피해를 {Damage} 줍니다.
+    |사용한 {Mana}마다|: 추가로 피해를 {Value1} 줍니다.
+    |사용한 {BlueMana}마다|: 체력을 {Value2} 얻습니다.

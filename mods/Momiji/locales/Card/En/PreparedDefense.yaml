@@ -1,0 +1,7 @@
+﻿PreparedDefense:
+  Name: Prepared Defense
+  Description: >-
+    Gain {Value1} |Reflection|.
+
+    Convert all |Reflection| {PlayerName} currently possesses into |Static Charge| for this turn.
+  FlavorText: Let them Come.

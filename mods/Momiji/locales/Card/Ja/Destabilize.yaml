@@ -1,0 +1,4 @@
+﻿Destabilize:
+  Name: 揺らぐ足元
+  Description: '{PlayerName}の攻撃がブロックされなかった度に、{Value1}|ブロック|を得る。'
+  Flavortext: 素早く軽い打撃で相手のバランスを崩し、相手の攻撃をそらす。

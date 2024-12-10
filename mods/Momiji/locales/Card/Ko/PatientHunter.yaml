@@ -1,0 +1,4 @@
+﻿PatientHunter:
+  Name: 인내의 사냥꾼
+  Description: '|방어|를 {Block} 얻습니다. {PlayerName}의 다음 턴까지 |방어|가 사라지지 않습니다.'
+  FlavorText: 적절한 기회에만 공격하라.

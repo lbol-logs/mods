@@ -1,0 +1,9 @@
+﻿RecklessStrike:
+  Name: 무모한 일격
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |취약|을 {Value1} 줍니다.
+
+    |연약|을 {Value2} 얻습니다.
+  FlavorText: 어떤 대가를 치르더라도 승리를 쟁취하라.

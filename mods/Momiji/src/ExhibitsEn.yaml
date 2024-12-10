@@ -1,0 +1,13 @@
+BatteredShield:
+  Description: |-
+    Adds {Mana} to the mana base. Cards unique to |Momiji Inubashiri| are added to the card pool.
+    The first time Block or Barrier is gained each turn, gain {Value1} |Reflection|.
+  Name: Battered Shield
+  FlavorText: She recieved this when she joined the Patrol Corps.
+
+HeavyBlade:
+  Description: |-
+    Adds {Mana} to the mana base. Cards unique to |Momiji Inubashiri| are added to the card pool.
+    The first time {PlayerName} deals attack damage to an enemy each combat, apply {Value1} |Temporary Firepower Down| to that enemy.
+  Name: Heavy Blade
+  FlavorText: Momiji's reward for her many years of continued service.

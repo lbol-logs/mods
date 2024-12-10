@@ -1,0 +1,11 @@
+﻿Patrol:
+  Name: 순찰
+  Description: >-
+    카드를 {Value1}장 뽑습니다.
+
+    이렇게 뽑은 적색 카드마다 |그레이즈|를 {Value2} 얻습니다.
+  UpgradedDescription: >-
+    카드를 {Value1}장 뽑습니다.
+
+    이렇게 뽑은 적색 카드, 상태 카드, 또는 |액운| 카드마다 |그레이즈|를 {Value2} 얻습니다.
+  FlavorText: 모미지의 끝나지 않는 임무.

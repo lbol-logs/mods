@@ -1,0 +1,9 @@
+﻿GentlyCirclingLeaves:
+  Name: 木の葉の舞
+  Description: >-
+    カードを{Value1}枚引く。
+
+    このカードで引いた攻撃かスキルカードの1枚につき|反射|{Value2}を得る。
+
+    このカードで引いた防御カード1枚につき、{Block}|ブロック|を得る。
+  FlavorText: ゆっくりと落ちてきて、紅葉達

@@ -1,0 +1,9 @@
+﻿RecklessStrike:
+  Name: Reckless Strike
+  Description: >-
+    Deal {Damage} damage.
+
+    Apply {Value1} |Vulnerable|.
+
+    Gain {Value2} |Frail|.
+  FlavorText: Seize victory at any cost.

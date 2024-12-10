@@ -1,0 +1,3 @@
+﻿StandWatchSe:
+  Name: 警備
+  Description: '{OwnerName}のターン開始時、{Level}|ブロック|を得る。'

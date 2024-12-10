@@ -1,0 +1,4 @@
+﻿Distract:
+  Name: Distract
+  Description: Whenever {PlayerName} deals attack damage to an enemy, if that enemy has |Vulnerable|, apply 1 |Weak| to that enemy.
+  FlavorText: By constantly presenting a changing image, you can make your opponent hesitate.

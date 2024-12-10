@@ -1,0 +1,7 @@
+﻿HuntersTrap:
+  Name: 사냥꾼의 함정
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    손에 |에어 커터| 또는 |단풍잎|을 추가합니다.
+  FlavorText: 함정, 덫, 죽음의 덫... 일은 제대로 처리한다.

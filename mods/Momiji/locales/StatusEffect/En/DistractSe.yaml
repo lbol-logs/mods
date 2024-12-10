@@ -1,0 +1,3 @@
+﻿DistractSe:
+  Name: Distract
+  Description: Whenever {OwnerName} deals damage to an enemy with |Vulnerable|, apply 1 |Weak| to that enemy.

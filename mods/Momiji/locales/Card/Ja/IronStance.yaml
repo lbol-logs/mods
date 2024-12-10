@@ -1,0 +1,4 @@
+﻿IronStance:
+  Name: 鉄の構え
+  Description: '{Block}|ブロック|と{Value1}|帯電|を得る。次のターンまで失われない。'
+  Flavortext: 鉄は頑丈である。そして、より重要なのは、導電性があるということ。

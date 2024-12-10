@@ -1,0 +1,9 @@
+﻿RetaliationSe:
+  Name: 報復
+  Description: '{OwnerName}のターン開始時、|反射|{Level}を得る。'
+  Brief: >-
+    {OwnerName}が|報復|を得る時、それに等しい|反射|を得る。
+
+    ターン開始時|反射|xを得る。(xは{OwnerName}が持つ|報復|に等しい)
+
+    それから|報復|のカウントを1減らす。

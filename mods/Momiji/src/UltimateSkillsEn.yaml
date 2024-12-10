@@ -1,0 +1,18 @@
+RabiesBite:
+  Title: Rabies Sign
+  Content: Rabies Bite
+  Description: |-
+    Deal {Damage} damage 2 times.
+    Apply {Value1} Vulnerable.
+    |Expel| : gain {Value2} maximum life.
+    |Accurate|
+
+ExpelleesCanan:
+  Title: Mountain Nomad
+  Content: Expellee's Canan
+  Description: |-
+    Deal {Damage} damage to all enemies.
+    Gain {Value2} Block.
+    Apply {Value1} |Firepower Down| to all enemies.
+    |Accurate|
+

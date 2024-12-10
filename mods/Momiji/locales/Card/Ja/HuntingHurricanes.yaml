@@ -1,0 +1,7 @@
+﻿HuntingHurricanes:
+  Name: 暴風の狩人
+  Description: >-
+    すべての敵に{Damage}ダメージを与える。
+
+    |廃棄されたエアカッター|の1枚につき、{SelfName}は追加でダメージを1回与える。
+  Flavortext: 本物の竜巻

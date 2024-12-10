@@ -1,0 +1,8 @@
+﻿CrispFallAir:
+  Name: 상쾌한 가을 공기
+  Description: >-
+    |에어 커터|를 {Value1}장 손에 추가합니다.
+
+    {PlayerName}의 다음 턴 시작 시, {Mana}를 얻습니다.
+  UpgradedDescription: 지금과 {PlayerName}의 다음 턴 시작 시, |에어 커터|를 {Value1}장 손에 추가하고 {Mana}를 얻습니다.
+  FlavorText: 차가워서 얼어붙을 것 같다.

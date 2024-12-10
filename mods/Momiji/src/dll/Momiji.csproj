@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3D604077-200F-4D7A-A07C-FE63BEC49776}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Momiji</RootNamespace>
+    <AssemblyName>Momiji</AssemblyName>
+    <TargetFrameworkVersion>v2.1</TargetFrameworkVersion>
+    <TargetFrameworkIdentifier>.NETStandard</TargetFrameworkIdentifier>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony" />
+    <Reference Include="BepInEx" />
+    <Reference Include="LBoL-AddWatermark" />
+    <Reference Include="LBoL-Entity-Sideloader" />
+    <Reference Include="LBoL.Base">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.ConfigData">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.ConfigData.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.Core">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.EntityLib">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.EntityLib.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.Presentation">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.Presentation.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="spine-unity" />
+    <Reference Include="UniTask">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\UniTask.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BepinexPlugin.cs" />
+    <Compile Include="MomijiDef.cs" />
+    <Compile Include="PInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Source\AirCutter.cs" />
+    <Compile Include="Source\AirCutterDef.cs" />
+    <Compile Include="Source\BattleActions\BuffAttackCardAction.cs" />
+    <Compile Include="Source\BattleActions\BuffAttackEventArgs.cs" />
+    <Compile Include="Source\CardIndexGenerator.cs" />
+    <Compile Include="Source\Cards\AdvantageousPosition.cs" />
+    <Compile Include="Source\Cards\AdvantageousPositionDef.cs" />
+    <Compile Include="Source\Cards\AlwaysWatching.cs" />
+    <Compile Include="Source\Cards\AlwaysWatchingDef.cs" />
+    <Compile Include="Source\Cards\AutumnView.cs" />
+    <Compile Include="Source\Cards\AutumnViewDef.cs" />
+    <Compile Include="Source\Cards\AyaTeammate.cs" />
+    <Compile Include="Source\Cards\AyaTeammateDef.cs" />
+    <Compile Include="Source\Cards\BlackWind.cs" />
+    <Compile Include="Source\Cards\BlackWindDef.cs" />
+    <Compile Include="Source\Cards\BloodScent.cs" />
+    <Compile Include="Source\Cards\BloodScentDef.cs" />
+    <Compile Include="Source\Cards\CallToArms.cs" />
+    <Compile Include="Source\Cards\CallToArmsDef.cs" />
+    <Compile Include="Source\Cards\CircularPacing.cs" />
+    <Compile Include="Source\Cards\CircularPacingDef.cs" />
+    <Compile Include="Source\Cards\CleanKill.cs" />
+    <Compile Include="Source\Cards\CleanKillDef.cs" />
+    <Compile Include="Source\Cards\CrashingWaterBlade.cs" />
+    <Compile Include="Source\Cards\CrashingWaterBladeDef.cs" />
+    <Compile Include="Source\Cards\CrispFallAir.cs" />
+    <Compile Include="Source\Cards\CrispFallAirDef.cs" />
+    <Compile Include="Source\Cards\DefensiveStrike.cs" />
+    <Compile Include="Source\Cards\DefensiveStrikeDef.cs" />
+    <Compile Include="Source\Cards\Distract.cs" />
+    <Compile Include="Source\Cards\DistractDef.cs" />
+    <Compile Include="Source\Cards\DoubleDown.cs" />
+    <Compile Include="Source\Cards\DoubleDownDef.cs" />
+    <Compile Include="Source\Cards\ExploitOpenings.cs" />
+    <Compile Include="Source\Cards\ExploitOpeningsDef.cs" />
+    <Compile Include="Source\Cards\ExtrasensoryPerception.cs" />
+    <Compile Include="Source\Cards\ExtrasensoryPerceptionDef.cs" />
+    <Compile Include="Source\Cards\EyeforanEye.cs" />
+    <Compile Include="Source\Cards\EyeforanEyeDef.cs" />
+    <Compile Include="Source\Cards\FakeOpening.cs" />
+    <Compile Include="Source\Cards\FakeOpeningDef.cs" />
+    <Compile Include="Source\Cards\FalseWeakness.cs" />
+    <Compile Include="Source\Cards\FalseWeaknessDef.cs" />
+    <Compile Include="Source\Cards\FarSight.cs" />
+    <Compile Include="Source\Cards\FarSightDef.cs" />
+    <Compile Include="Source\Cards\FeedOnTheWeak.cs" />
+    <Compile Include="Source\Cards\FeedOnTheWeakDef.cs" />
+    <Compile Include="Source\Cards\FollowUp.cs" />
+    <Compile Include="Source\Cards\FollowUpDef.cs" />
+    <Compile Include="Source\Cards\ForestAmbush.cs" />
+    <Compile Include="Source\Cards\ForestAmbushDef.cs" />
+    <Compile Include="Source\Cards\FrigidSky.cs" />
+    <Compile Include="Source\Cards\FrigidSkyDef.cs" />
+    <Compile Include="Source\Cards\GentlyCirclingLeaves.cs" />
+    <Compile Include="Source\Cards\GentlyCirclingLeavesDef.cs" />
+    <Compile Include="Source\Cards\GuardBreak.cs" />
+    <Compile Include="Source\Cards\GuardBreakDef.cs" />
+    <Compile Include="Source\Cards\Howl.cs" />
+    <Compile Include="Source\Cards\HowlDef.cs" />
+    <Compile Include="Source\Cards\HowlingMountainWind.cs" />
+    <Compile Include="Source\Cards\HowlingMountainWindDef.cs" />
+    <Compile Include="Source\Cards\HuntersTrap.cs" />
+    <Compile Include="Source\Cards\HuntersTrapDef.cs" />
+    <Compile Include="Source\Cards\HuntingCall.cs" />
+    <Compile Include="Source\Cards\HuntingCallDef.cs" />
+    <Compile Include="Source\Cards\HuntingHurricanes.cs" />
+    <Compile Include="Source\Cards\HuntingHurricanesDef.cs" />
+    <Compile Include="Source\Cards\ImageTraining.cs" />
+    <Compile Include="Source\Cards\ImageTrainingDef.cs" />
+    <Compile Include="Source\Cards\IndiscriminateRevenge.cs" />
+    <Compile Include="Source\Cards\IndiscriminateRevengeDef.cs" />
+    <Compile Include="Source\Cards\InstantofContact.cs" />
+    <Compile Include="Source\Cards\InstantofContactDef.cs" />
+    <Compile Include="Source\Cards\IronStance.cs" />
+    <Compile Include="Source\Cards\IronStanceDef.cs" />
+    <Compile Include="Source\Cards\LongVigil.cs" />
+    <Compile Include="Source\Cards\LongVigilDef.cs" />
+    <Compile Include="Source\Cards\LookoutsIntuition.cs" />
+    <Compile Include="Source\Cards\LookoutsIntuitionDef.cs" />
+    <Compile Include="Source\Cards\MapleLeafFestival.cs" />
+    <Compile Include="Source\Cards\MapleLeafFestivalDef.cs" />
+    <Compile Include="Source\Cards\MomijiAttackR.cs" />
+    <Compile Include="Source\Cards\MomijiAttackRDef.cs" />
+    <Compile Include="Source\Cards\MomijiAttackW.cs" />
+    <Compile Include="Source\Cards\MomijiAttackWDef.cs" />
+    <Compile Include="Source\Cards\MomijiBlockR.cs" />
+    <Compile Include="Source\Cards\MomijiBlockRDef.cs" />
+    <Compile Include="Source\Cards\MomijiBlockW.cs" />
+    <Compile Include="Source\Cards\MomijiBlockWDef.cs" />
+    <Compile Include="Source\Cards\MomijiReflect.cs" />
+    <Compile Include="Source\Cards\MomijiReflectDef.cs" />
+    <Compile Include="Source\Cards\MomijiRiposte.cs" />
+    <Compile Include="Source\Cards\MomijiRiposteDef.cs" />
+    <Compile Include="Source\Cards\MountainsideTrailTracking.cs" />
+    <Compile Include="Source\Cards\MountainsideTrailTrackingDef.cs" />
+    <Compile Include="Source\Cards\OverhandBlade.cs" />
+    <Compile Include="Source\Cards\OverhandBladeDef.cs" />
+    <Compile Include="Source\Cards\PartingSlice.cs" />
+    <Compile Include="Source\Cards\PartingSliceDef.cs" />
+    <Compile Include="Source\Cards\PatientHunter.cs" />
+    <Compile Include="Source\Cards\PatientHunterDef.cs" />
+    <Compile Include="Source\Cards\Patrol.cs" />
+    <Compile Include="Source\Cards\PatrolDef.cs" />
+    <Compile Include="Source\Cards\PlungePool.cs" />
+    <Compile Include="Source\Cards\PlungePoolDef.cs" />
+    <Compile Include="Source\Cards\PreparedDefense.cs" />
+    <Compile Include="Source\Cards\PreparedDefenseDef.cs" />
+    <Compile Include="Source\Cards\RabidBite.cs" />
+    <Compile Include="Source\Cards\RabidBiteDef.cs" />
+    <Compile Include="Source\Cards\RagingWaterfall.cs" />
+    <Compile Include="Source\Cards\RagingWaterfallDef.cs" />
+    <Compile Include="Source\Cards\RecklessStrike.cs" />
+    <Compile Include="Source\Cards\RecklessStrikeDef.cs" />
+    <Compile Include="Source\Cards\RipApart.cs" />
+    <Compile Include="Source\Cards\RipApartDef.cs" />
+    <Compile Include="Source\Cards\R\BladeWarding.cs" />
+    <Compile Include="Source\Cards\R\BladeWardingDef.cs" />
+    <Compile Include="Source\Cards\R\Taunt.cs" />
+    <Compile Include="Source\Cards\R\TauntDef.cs" />
+    <Compile Include="Source\Cards\ScatteringLeaves.cs" />
+    <Compile Include="Source\Cards\ScatteringLeavesDef.cs" />
+    <Compile Include="Source\Cards\SeizeTheMoment.cs" />
+    <Compile Include="Source\Cards\SeizeTheMomentDef.cs" />
+    <Compile Include="Source\Cards\SenseWeakness.cs" />
+    <Compile Include="Source\Cards\SenseWeaknessDef.cs" />
+    <Compile Include="Source\Cards\ShieldCounter.cs" />
+    <Compile Include="Source\Cards\ShieldCounterDef.cs" />
+    <Compile Include="Source\Cards\SmellofDeath.cs" />
+    <Compile Include="Source\Cards\SmellofDeathDef.cs" />
+    <Compile Include="Source\Cards\StandWatch.cs" />
+    <Compile Include="Source\Cards\StandWatchDef.cs" />
+    <Compile Include="Source\Cards\TacticalInsight.cs" />
+    <Compile Include="Source\Cards\TacticalInsightDef.cs" />
+    <Compile Include="Source\Cards\TengusForesight.cs" />
+    <Compile Include="Source\Cards\TengusForesightDef.cs" />
+    <Compile Include="Source\Cards\TwinFang.cs" />
+    <Compile Include="Source\Cards\TwinFangDef.cs" />
+    <Compile Include="Source\Cards\VacuumCutter.cs" />
+    <Compile Include="Source\Cards\VacuumCutterDef.cs" />
+    <Compile Include="Source\Cards\WardingStrike.cs" />
+    <Compile Include="Source\Cards\WardingStrikeDef.cs" />
+    <Compile Include="Source\Cards\WaterfallMeditation.cs" />
+    <Compile Include="Source\Cards\WaterfallMeditationDef.cs" />
+    <Compile Include="Source\Cards\WindsweptBlade.cs" />
+    <Compile Include="Source\Cards\WindsweptBladeDef.cs" />
+    <Compile Include="Source\Cards\WoodlandSentry.cs" />
+    <Compile Include="Source\Cards\WoodlandSentryDef.cs" />
+    <Compile Include="Source\Cards\W\Destabilize.cs" />
+    <Compile Include="Source\Cards\W\DestabilizeDef.cs" />
+    <Compile Include="Source\Cards\W\TirelessGuard.cs" />
+    <Compile Include="Source\Cards\W\TirelessGuardDef.cs" />
+    <Compile Include="Source\Cards\W\TrapStance.cs" />
+    <Compile Include="Source\Cards\W\TrapStanceDef.cs" />
+    <Compile Include="Source\CleavingSwipe.cs" />
+    <Compile Include="Source\CleavingSwipeDef.cs" />
+    <Compile Include="Source\CollectingMomiji.cs" />
+    <Compile Include="Source\CollectingMomijiDef.cs" />
+    <Compile Include="Source\Exhibits\BatteredShield.cs" />
+    <Compile Include="Source\Exhibits\BatteredShieldDef.cs" />
+    <Compile Include="Source\Exhibits\HeavyBlade.cs" />
+    <Compile Include="Source\Exhibits\HeavyBladeDef.cs" />
+    <Compile Include="Source\Exhibits\SampleCharacterExhibitTemplate.cs" />
+    <Compile Include="Source\GunName\GunNameID.cs" />
+    <Compile Include="Source\ImageLoader\SampleCharacterDefaultConfig.cs" />
+    <Compile Include="Source\ImageLoader\SampleCharacterImageLoader.cs" />
+    <Compile Include="Source\Localization\SampleCharacterLocalization.cs" />
+    <Compile Include="Source\MapleLeaf.cs" />
+    <Compile Include="Source\MapleLeafDef.cs" />
+    <Compile Include="Source\model\MomijiModelDef.cs" />
+    <Compile Include="Source\SampleCharacterCard.cs" />
+    <Compile Include="Source\SampleCharacterCardTemplate.cs" />
+    <Compile Include="Source\SampleCharacterLoadouts.cs" />
+    <Compile Include="Source\StatusEffects\BlackWindSe.cs" />
+    <Compile Include="Source\StatusEffects\BlackWindSeDef.cs" />
+    <Compile Include="Source\StatusEffects\CircularPacingSe.cs" />
+    <Compile Include="Source\StatusEffects\CircularPacingSeDef.cs" />
+    <Compile Include="Source\StatusEffects\CrispFallAirSe.cs" />
+    <Compile Include="Source\StatusEffects\CrispFallAirSeDef.cs" />
+    <Compile Include="Source\StatusEffects\DefensiveIntention.cs" />
+    <Compile Include="Source\StatusEffects\DefensiveIntentionDef.cs" />
+    <Compile Include="Source\StatusEffects\DestabilizeSe.cs" />
+    <Compile Include="Source\StatusEffects\DestabilizeSeDef.cs" />
+    <Compile Include="Source\StatusEffects\DistractSe.cs" />
+    <Compile Include="Source\StatusEffects\DistractSeDef.cs" />
+    <Compile Include="Source\StatusEffects\DrawNextTurnSe.cs" />
+    <Compile Include="Source\StatusEffects\DrawNextTurnSeDef.cs" />
+    <Compile Include="Source\StatusEffects\FakeOpeningSe.cs" />
+    <Compile Include="Source\StatusEffects\FakeOpeningSeDef.cs" />
+    <Compile Include="Source\StatusEffects\FeedOnTheWeakSe.cs" />
+    <Compile Include="Source\StatusEffects\FeedOnTheWeakSeDef.cs" />
+    <Compile Include="Source\StatusEffects\ForestAmbushSe.cs" />
+    <Compile Include="Source\StatusEffects\ForestAmbushSeDef.cs" />
+    <Compile Include="Source\StatusEffects\FragilForEnemies.cs" />
+    <Compile Include="Source\StatusEffects\FragilForEnemiesDef.cs" />
+    <Compile Include="Source\StatusEffects\FrigidSkySe.cs" />
+    <Compile Include="Source\StatusEffects\FrigidSkySeDef.cs" />
+    <Compile Include="Source\StatusEffects\HowlingMountainWindSe.cs" />
+    <Compile Include="Source\StatusEffects\HowlingMountainWindSeDef.cs" />
+    <Compile Include="Source\StatusEffects\ImageTrainingSe.cs" />
+    <Compile Include="Source\StatusEffects\ImageTrainingSeDef.cs" />
+    <Compile Include="Source\StatusEffects\IndiscriminateRevengeSe.cs" />
+    <Compile Include="Source\StatusEffects\IndiscriminateRevengeSeDef.cs" />
+    <Compile Include="Source\StatusEffects\InstantofContactSe.cs" />
+    <Compile Include="Source\StatusEffects\InstantofContactSeDef.cs" />
+    <Compile Include="Source\StatusEffects\MapleLeafFestivalSe.cs" />
+    <Compile Include="Source\StatusEffects\MapleLeafFestivalSeDef.cs" />
+    <Compile Include="Source\StatusEffects\MountainsideTrailTrackingSe.cs" />
+    <Compile Include="Source\StatusEffects\MountainsideTrailTrackingSeDef.cs" />
+    <Compile Include="Source\StatusEffects\OffensiveIntention.cs" />
+    <Compile Include="Source\StatusEffects\OffensiveIntentionDef.cs" />
+    <Compile Include="Source\StatusEffects\RetaliationSe.cs" />
+    <Compile Include="Source\StatusEffects\RetaliationSeDef.cs" />
+    <Compile Include="Source\StatusEffects\SampleCharacterCustomKeywordSe.cs" />
+    <Compile Include="Source\StatusEffects\SampleCharacterCustomKeywordSeDef.cs" />
+    <Compile Include="Source\StatusEffects\SampleCharacterStatusEffectTemplate.cs" />
+    <Compile Include="Source\StatusEffects\SenseWeaknessSe.cs" />
+    <Compile Include="Source\StatusEffects\SenseWeaknessSeDef.cs" />
+    <Compile Include="Source\StatusEffects\ShieldCounterSe.cs" />
+    <Compile Include="Source\StatusEffects\ShieldCounterSeDef.cs" />
+    <Compile Include="Source\StatusEffects\SmellofDeathSe.cs" />
+    <Compile Include="Source\StatusEffects\SmellofDeathSeDef.cs" />
+    <Compile Include="Source\StatusEffects\SpecialIntention.cs" />
+    <Compile Include="Source\StatusEffects\SpecialIntentionDef.cs" />
+    <Compile Include="Source\StatusEffects\StandWatchSe.cs" />
+    <Compile Include="Source\StatusEffects\StandWatchSeDef.cs" />
+    <Compile Include="Source\StatusEffects\SurgeofPowerSe.cs" />
+    <Compile Include="Source\StatusEffects\SurgeofPowerSeDef.cs" />
+    <Compile Include="Source\StatusEffects\TirelessGuardSe.cs" />
+    <Compile Include="Source\StatusEffects\TirelessGuardSeDef.cs" />
+    <Compile Include="Source\StatusEffects\TrapStanceSe.cs" />
+    <Compile Include="Source\StatusEffects\TrapStanceSeDef.cs" />
+    <Compile Include="Source\StatusEffects\TwinFangSe.cs" />
+    <Compile Include="Source\StatusEffects\TwinFangSeDef.cs" />
+    <Compile Include="Source\StatusEffects\WoodlandSentrySe.cs" />
+    <Compile Include="Source\StatusEffects\WoodlandSentrySeDef.cs" />
+    <Compile Include="Source\SurgeofPower.cs" />
+    <Compile Include="Source\SurgeofPowerDef.cs" />
+    <Compile Include="Source\TrainingRecord.cs" />
+    <Compile Include="Source\TrainingRecordDef.cs" />
+    <Compile Include="Source\Ultimate\ExpelleesCanan.cs" />
+    <Compile Include="Source\Ultimate\ExpelleesCananDef.cs" />
+    <Compile Include="Source\Ultimate\RabiesBite.cs" />
+    <Compile Include="Source\Ultimate\RabiesBiteDef.cs" />
+    <Compile Include="Source\Ultimate\SampleCharacterUltTemplate.cs" />
+    <Compile Include="System\Runtime\CompilerServices\IgnoresAccessChecksToAttribute.cs" />
+    <Compile Include="WatermarkWrapper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Cards\AdvantageousPosition.png" />
+    <EmbeddedResource Include="Resources\Cards\AirCutter.png" />
+    <EmbeddedResource Include="Resources\Cards\AlwaysWatching.png" />
+    <EmbeddedResource Include="Resources\Cards\AutumnView.png" />
+    <EmbeddedResource Include="Resources\Cards\AyaTeammate.png" />
+    <EmbeddedResource Include="Resources\Cards\BlackWind.png" />
+    <EmbeddedResource Include="Resources\Cards\BladeWarding.png" />
+    <EmbeddedResource Include="Resources\Cards\BloodScent.png" />
+    <EmbeddedResource Include="Resources\Cards\CallToArms.png" />
+    <EmbeddedResource Include="Resources\Cards\CircularPacing.png" />
+    <EmbeddedResource Include="Resources\Cards\CleanKill.png" />
+    <EmbeddedResource Include="Resources\Cards\CleavingSwipe.png" />
+    <EmbeddedResource Include="Resources\Cards\CollectingMomiji.png" />
+    <EmbeddedResource Include="Resources\Cards\CrashingWaterBlade.png" />
+    <EmbeddedResource Include="Resources\Cards\CrispFallAir.png" />
+    <EmbeddedResource Include="Resources\Cards\DefensiveStrike.png" />
+    <EmbeddedResource Include="Resources\Cards\Destabilize.png" />
+    <EmbeddedResource Include="Resources\Cards\Distract.png" />
+    <EmbeddedResource Include="Resources\Cards\DoubleDown.png" />
+    <EmbeddedResource Include="Resources\Cards\ExploitOpenings.png" />
+    <EmbeddedResource Include="Resources\Cards\ExtrasensoryPerception.png" />
+    <EmbeddedResource Include="Resources\Cards\EyeforanEye.png" />
+    <EmbeddedResource Include="Resources\Cards\FakeOpening.png" />
+    <EmbeddedResource Include="Resources\Cards\FalseWeakness.png" />
+    <EmbeddedResource Include="Resources\Cards\FarSight.png" />
+    <EmbeddedResource Include="Resources\Cards\FeedOnTheWeak.png" />
+    <EmbeddedResource Include="Resources\Cards\FollowUp.png" />
+    <EmbeddedResource Include="Resources\Cards\ForestAmbush.png" />
+    <EmbeddedResource Include="Resources\Cards\FrigidSky.png" />
+    <EmbeddedResource Include="Resources\Cards\GentlyCirclingLeaves.png" />
+    <EmbeddedResource Include="Resources\Cards\GuardBreak.png" />
+    <EmbeddedResource Include="Resources\Cards\Howl.png" />
+    <EmbeddedResource Include="Resources\Cards\HowlingMountainWind.png" />
+    <EmbeddedResource Include="Resources\Cards\HuntersTrap.png" />
+    <EmbeddedResource Include="Resources\Cards\HuntingCall.png" />
+    <EmbeddedResource Include="Resources\Cards\HuntingHurricanes.png" />
+    <EmbeddedResource Include="Resources\Cards\ImageTraining.png" />
+    <EmbeddedResource Include="Resources\Cards\IndiscriminateRevenge.png" />
+    <EmbeddedResource Include="Resources\Cards\InstantofContact.png" />
+    <EmbeddedResource Include="Resources\Cards\IronStance.png" />
+    <EmbeddedResource Include="Resources\Cards\LongVigil.png" />
+    <EmbeddedResource Include="Resources\Cards\LookoutsIntuition.png" />
+    <EmbeddedResource Include="Resources\Cards\MapleLeaf.png" />
+    <EmbeddedResource Include="Resources\Cards\MapleLeafFestival.png" />
+    <EmbeddedResource Include="Resources\Cards\MomijiAttackR.png" />
+    <EmbeddedResource Include="Resources\Cards\MomijiAttackW.png" />
+    <EmbeddedResource Include="Resources\Cards\MomijiBlockR.png" />
+    <EmbeddedResource Include="Resources\Cards\MomijiBlockW.png" />
+    <EmbeddedResource Include="Resources\Cards\MomijiReflect.png" />
+    <EmbeddedResource Include="Resources\Cards\MomijiRiposte.png" />
+    <EmbeddedResource Include="Resources\Cards\MountainsideTrailTracking.png" />
+    <EmbeddedResource Include="Resources\Cards\OverhandBlade.png" />
+    <EmbeddedResource Include="Resources\Cards\PartingSlice.png" />
+    <EmbeddedResource Include="Resources\Cards\PatientHunter.png" />
+    <EmbeddedResource Include="Resources\Cards\Patrol.png" />
+    <EmbeddedResource Include="Resources\Cards\PlungePool.png" />
+    <EmbeddedResource Include="Resources\Cards\PreparedDefense.png" />
+    <EmbeddedResource Include="Resources\Cards\RabidBite.png" />
+    <EmbeddedResource Include="Resources\Cards\RagingWaterfall.png" />
+    <EmbeddedResource Include="Resources\Cards\RecklessStrike.png" />
+    <EmbeddedResource Include="Resources\Cards\RipApart.png" />
+    <EmbeddedResource Include="Resources\Cards\SampleCharacterAttackR.png" />
+    <EmbeddedResource Include="Resources\Cards\SampleCharacterAttackW.png" />
+    <EmbeddedResource Include="Resources\Cards\SampleCharacterBlockB.png" />
+    <EmbeddedResource Include="Resources\Cards\SampleCharacterBlockU.png" />
+    <EmbeddedResource Include="Resources\Cards\ScatteringLeaves.png" />
+    <EmbeddedResource Include="Resources\Cards\SeizeTheMoment.png" />
+    <EmbeddedResource Include="Resources\Cards\SenseWeakness.png" />
+    <EmbeddedResource Include="Resources\Cards\ShieldCounter.png" />
+    <EmbeddedResource Include="Resources\Cards\SmellofDeath.png" />
+    <EmbeddedResource Include="Resources\Cards\StandWatch.png" />
+    <EmbeddedResource Include="Resources\Cards\SurgeofPower.png" />
+    <EmbeddedResource Include="Resources\Cards\TacticalInsight.png" />
+    <EmbeddedResource Include="Resources\Cards\Taunt.png" />
+    <EmbeddedResource Include="Resources\Cards\TengusForesight.png" />
+    <EmbeddedResource Include="Resources\Cards\TirelessGuard.png" />
+    <EmbeddedResource Include="Resources\Cards\TrainingRecord.png" />
+    <EmbeddedResource Include="Resources\Cards\TrapStance.png" />
+    <EmbeddedResource Include="Resources\Cards\TwinFang.png" />
+    <EmbeddedResource Include="Resources\Cards\VacuumCutter.png" />
+    <EmbeddedResource Include="Resources\Cards\WardingStrike.png" />
+    <EmbeddedResource Include="Resources\Cards\WaterfallMeditation.png" />
+    <EmbeddedResource Include="Resources\Cards\WindsweptBlade.png" />
+    <EmbeddedResource Include="Resources\Cards\WoodlandSentry.png" />
+    <EmbeddedResource Include="Resources\Exhibits\BatteredShield.png" />
+    <EmbeddedResource Include="Resources\Exhibits\HeavyBlade.png" />
+    <EmbeddedResource Include="Resources\Exhibits\SampleCharacterExhibitA.png" />
+    <EmbeddedResource Include="Resources\Exhibits\SampleCharacterExhibitB.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\BlackWindSe.jpg" />
+    <EmbeddedResource Include="Resources\StatusEffects\CircularPacingSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\CrispFallAirSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\DestabilizeSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\DistractSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\FakeOpeningSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\FeedOnTheWeakSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\ForestAmbushSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\FragilForEnemies.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\FrigidSkySe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\HowlingMountainWindSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\ImageTrainingSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\IndiscriminateRevengeSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\InstantofContactSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\MapleLeafFestivalSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\MountainsideTrailTrackingSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\NextTurnDrawSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\RetaliationSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\SampleCharacterTurnGainSpiritSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\SenseWeaknessSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\ShieldCounterSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\SmellofDeathSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\StandWatchSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\SurgeofPowerSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\TirelessGuardSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\TrapStanceSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\TwinFangSe.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\WoodlandSentrySe.png" />
+    <EmbeddedResource Include="Resources\Ult\ExpelleesCanan.png" />
+    <EmbeddedResource Include="Resources\Ult\RabiesBite.png" />
+    <EmbeddedResource Include="Resources\Ult\SampleCharacterUltA.png" />
+    <EmbeddedResource Include="Resources\Ult\SampleCharacterUltB.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

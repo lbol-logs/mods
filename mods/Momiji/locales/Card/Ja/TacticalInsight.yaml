@@ -1,0 +1,7 @@
+﻿TacticalInsight:
+  Name: 戦術的考察
+  Description: >-
+    {Value1}枚の防御カードから{Value2}枚を選び、手札に加える。
+
+    そのコストは{Mana}で|廃棄|と|虚無|を持つ。
+  FlavorText: 対戦相手のことを知るために研究しろ。そして、相手の得意な戦術を盗め

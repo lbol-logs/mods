@@ -1,0 +1,11 @@
+﻿CleavingSwipe:
+  Name: 広域斬り
+  Description: >-
+    すべての敵に{Damage}ダメージを与える。
+
+    カードを{Value1}枚引く。
+  UpgradedDescription: >-
+    すべての敵に{Damage}ダメージを2回与える。
+
+    カードを{Value1}枚引く。
+  FlavorText: 広く、弧を描く斬撃

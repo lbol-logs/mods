@@ -1,0 +1,6 @@
+﻿RagingWaterfall:
+  Name: 怒涛の滝
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    {PlayerName}の次のターン開始時、追加でカードを{Value1}枚引く。

@@ -1,0 +1,4 @@
+﻿Destabilize:
+  Name: 불안정화
+  Description: '{PlayerName}가 막히지 않은 공격 피해를 줄 때마다, |방어|를 {Value1} 얻습니다.'
+  Flavortext: 빠르고 가벼운 타격으로 상대의 균형을 잃게 하며, 그들이 제대로된 공격을 가하는 것을 막는다.

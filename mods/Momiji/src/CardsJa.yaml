@@ -1,0 +1,589 @@
+MomijiAttackW:
+  Name: シールドバッシュ
+  Description: "{Damage}ダメージを与える。"
+  FlavorText: 盾はいい武器にもなりえる。
+  
+MomijiAttackR:
+  Name: スライス
+  Description: "{Damage}ダメージを与える。"
+  FlavorText: それとダイス。
+
+MomijiBlockR:
+  Name: パリィ
+  Description: "{Block}|ブロック|を得る。"
+  FlavorText: 剣は良い防具にもなり得る。
+
+MomijiBlockW:
+  Name: 警戒
+  Description: "{Block}|ブロック|を得る。"
+  FlavorText: あなたの心臓を狙ってるものをあなたは知らない。
+
+MapleLeaf:
+  Name: 楓の葉
+  Description: |-
+    {Mana}を得る。
+  FlavorText: 椛としても知られる。
+
+AirCutter:
+  Name: エアカッター
+  Description: |-
+    {Damage}ダメージを与える。
+    {Block}|ブロック|を得る。
+  Flavortext: 空を切り裂く。
+
+BlackWind:
+    Name: 黒い風
+    Description: |-
+        |エアカッター|は|弱体|{Value1}を与えるようになる。
+        |エアカッター|を{Value2}枚手札に加える。
+
+FeedOnTheWeak:
+    Name: 弱者狩り
+    Description: |-
+        敵が倒れる度、{PlayerName}は<sprite="Point" name="Power"\> 10を得て、ライフ4を回復する。
+    FlavorText: 強者と幸運だけが生き残る。
+
+SmellofDeath:
+    Name: 死を呼ぶ香
+    Description: |-
+        |弱体|{Value1}を与える。
+        敵が倒れる時、その最大HPの半分に等しいダメージを他の敵に与える。
+    FlavorText: 不愉快だ。
+
+ForestAmbush:
+    Name: "森の待ち伏せ"
+    Description: "|報復|{Value1}を得る。 このターン{PlayerName}がダメージを与える度に,{PlayerName}の|報復|に等しいダメージを追加で与える。"
+    FlavorText: "完璧。"
+
+RabidBite:
+    Name: 獣の一噛み
+    Description: "{Damage}ダメージを与える。 ライフ{Value1}を回復する。"
+    Flavortext: "獰猛な敵を打ち負かすための獰猛な一撃。"
+
+AyaTeammate:
+    Name: 天狗記者、文
+    Description: |-
+        {FriendS}|グレイズ|{Graze}を得る。
+        {PassiveCostIcon}|グレイズ|は{PlayerName}のターン開始時失われない。
+    UpgradedDescription: |-
+        {FriendS}|グレイズ|{Graze}を得る。
+        {PassiveCostIcon}|グレイズ|は{PlayerName}のターン開始時失われない。
+    ExtraDescription1: "{ActiveCostIcon}敵全体に|ロックオン|{Value2}を与える。手札に|エアカッター|を{Value1}枚加える。"
+    UpgradedExtraDescription1: "{ActiveCostIcon}敵全体に|ロックオン|{Value2}を与える。手札に|エアカッター|を{Value1}枚加える。"
+    ExtraDescription2: "{UltimateCostIcon}|風神少女|1を得る。戦闘終了まで{PlayerName}の攻撃は|精密|を持つ。"
+    UpgradedExtraDescription2: "{UltimateCostIcon}|風神少女|1を得る。戦闘終了まで{PlayerName}の攻撃は|精密|を持つ。"
+    FlavorText: 何十年もの間、互いに喧嘩しあってきた。
+
+WoodlandSentry:
+    Name: 森の守護者
+    Description: |-
+        ライフ{Value2}を回復する。
+        {PlayerName}のターン終了時、手札1枚につき{Value1}|ブロック|を得る。
+
+AutumnView:
+    Name: 秋模様
+    Description: "このカードが手札に加えられた時、|バリア|{Value1}を得て{SelfName}を廃棄する。"
+    UpgradedDescription: "このカードが手札に加えられた時、|バリア|{Value1}を得て敵全体に|臨時火力ダウン|{Value2}を与える。\n{SelfName}を廃棄する。"
+    FlavorText: "もっと鮮やかなのある？"
+
+CleanKill:
+    Name: 無垢な殺し
+    Description: |-
+        {Damage}ダメージを与える。
+        |退治|: <sprite="Point" name="Power"\>{Value1}を得る。
+    FlavorText: あなたの命に感謝する、生き延びるために。
+
+CleavingSwipe:
+    Name: 広域斬り
+    Description: |-
+        すべての敵に{Damage}ダメージを与える。
+        カードを{Value1}枚引く。
+    UpgradedDescription: |-
+        すべての敵に{Damage}ダメージを2回与える。
+        カードを{Value1}枚引く。
+    FlavorText: 広く、弧を描く斬撃
+
+GentlyCirclingLeaves:
+    Name: 木の葉の舞
+    Description: |-
+        カードを{Value1}枚引く。
+        このカードで引いた攻撃かスキルカードの1枚につき|反射|{Value2}を得る。
+        このカードで引いた防御カード1枚につき、{Block}|ブロック|を得る。
+    FlavorText: ゆっくりと落ちてきて、紅葉達
+
+HowlingMountainWind:
+    Name: 山風のうなり
+    Description: |-
+        {PlayerName}が|弱体|を持ってる敵に|エアカッター|を使うと、その|エアカッター|のダメージは2倍になる。
+        手札に|エアカッター|を{Value2}枚加える。
+    FlavorText: 来い、風よ！吹け！荒れ狂え！
+
+HuntingHurricanes:
+    Name: 暴風の狩人
+    Description: |-
+        すべての敵に{Damage}ダメージを与える。
+        |廃棄されたエアカッター|の1枚につき、{SelfName}は追加でダメージを1回与える。
+    Flavortext: 本物の竜巻
+
+IndiscriminateRevenge:
+    Name: 無情な復讐
+    Description: |-
+        |反射|が発動する時、すべての敵に|報復|に等しいダメージを与える。
+
+InstantofContact:
+    Name: 睨み合う剣
+    Description: |-
+        |報復|{Value1}を得る。{PlayerName}のターン終了時、追加ターンを得る。
+        この追加ターン中に{PlayerName}が|ブロック|又は|バリア|を得る度に、|報復|{Value2}を得る。
+        |時間制限{Mana}|
+    FlavorText: 刀が交わり、視線が交差する瞬間
+
+MapleLeafFestival:
+    Name: 紅葉祭り
+    Description: |-
+        {PlayerName}のターン開始時、|楓の葉|を手札に加える。
+    Flavortext: 夏の終わりのお祝い
+
+MomijiRiposte:
+    Name: 反撃の構え
+    Description: |-
+        |報復|{Value1}を得る。
+    Flavortext: 私の守りに踏み込め
+
+PatientHunter:
+    Name: 好機を待つ狩人
+    Description: |-
+        {Block}|ブロック|を得る。
+        |ブロック保留|。
+    FlavorText: 隙ができたときだけ攻撃する
+
+RecklessStrike:
+    Name: 捨て身の一閃
+    Description: |-
+        {Damage}ダメージを与える。
+        |弱体|{Value1}を与える。
+        |脱力|{Value2}を得る。
+    FlavorText: どんな犠牲を払ってでも勝利を手にする
+
+RipApart:
+    Name: 裂閃
+    Description: |-
+        すべての敵に{Damage}ダメージを与える。
+        敵全体に|弱体|{Value1}
+    UpgradedDescription: |-
+        すべての敵に{Damage}ダメージを{Value1}回与える。
+        敵全体に|弱体|{Value1}
+    FlavorText: 素早く斬り込め
+
+StandWatch:
+    Name: 警備
+    Description: |-
+        {Block}|ブロック|を得る。
+        {PlayerName}のターン開始時、{Value1}|ブロック|を得る。
+        {PlayerName}の次の{Value2}ターンの開始時、ブロックは失われない。
+    FlavorText: 哨戒の任務は絶え間なく続けるものであり、怠る言い訳はない
+
+TrainingRecord:
+    Name: 訓練記録
+    Description: |-
+        {Damage}ダメージを与える。
+        この戦闘において{SelfName}が最初に使われたカードならば、相手の行動に基づいて{PlayerName}のデッキのカードを1枚アップグレードする。
+    DetailText: |-
+        |攻撃姿勢|なら、攻撃カードをアップグレードできる。
+        |防御姿勢|なら、防御カードをアップグレードできる。 
+        |特殊姿勢|なら、能力かスキルカードをアップグレードできる。 
+
+AdvantageousPosition:
+    Name: 見下ろす優位
+    Description: |-
+        {Block}|ブロック|を得る。
+        |臨時火力|{Value1}を得る。
+    Flavortext: 彼らは空を飛んでいても、上を警戒しない
+
+BladeWarding:
+    Name: 拒絶の刃
+    Description: |-
+        |脱力|{Value1}を与える。
+        |報復|{Value1}を得る。
+        |エアカッター|を1枚手札に加える。
+    Flavortext: "私に近づくな！"
+
+BloodScent:
+    Name: 血の香り
+    Description: |-
+        {Damage}ダメージを与える。
+        対象が|弱体|を持っている時、|反射|{Value1}を得る。
+    FlavorText: やけに甘い
+
+CircularPacing:
+    Name: 円環の舞
+    Description: |-
+        敵がデバフを得る度に、{PlayerName}は|バリア|{Value1}を得る。
+    FlavorText: 常に相手の周りを回ることで、椛は相手のバランスを崩すことができる
+
+CollectingMomiji:
+    Name: 椛集め
+    Description: |-
+        手札に|楓の葉|を{Value1}枚加える。
+    Flavortext: 天狗じゃなくて葉っぱ
+
+CrispFallAir:
+    Name: 木枯らし
+    Description: |-
+        |エアカッター|を{Value1}枚手札に加える。
+        {PlayerName}の次のターン開始時、{Mana}を得る。
+    UpgradedDescription: |-
+        |エアカッター|を{Value1}枚手札に加える。
+        次のター開始時、|エアカッター|を{Value1}枚手札に加える。
+        {PlayerName}の次のターン開始時、{Mana}を得る。
+    FlavorText: 冷やすには十分な切れ味
+
+Distract:
+    Name: 狼狽
+    Description: |-
+        {PlayerName}が敵に攻撃する度に、相手が|弱体|を持っていれば|脱力|1を与える。
+
+ExploitOpenings:
+    Name: 隙を突く
+    Description: |-
+        |弱体|{Value1}を得る。
+        |火力|{Value1}を得る。対象の|弱体|2ごとに、追加で|火力|1を得る。
+
+ExtrasensoryPerception:
+    Name: 超感覚的直感
+    Description: |-
+        {Block}|ブロック|を得る。敵全体に|弱体|{Value1}を与える。
+    FlavorText: 小さな動きが全てを決める
+
+FakeOpening:
+    Name: 欺きの隙
+    Description: |-
+        |報復|{Value1}を得る。
+        {PlayerName}のターン開始時、
+    FlavorText: 引っかかったな
+    
+FollowUp:
+    Name: 追撃
+    Description: |-
+        {Damage}ダメージを与える。
+        対象が|弱体|を持っている時、{Mana}を得る。
+    FlavorText: 隙をついて一気に攻撃する
+
+GuardBreak:
+    Name: 防御突破
+    Description: |-
+        {Damage}ダメージを{Value1}回与える。|弱体|{Value1}を与える。
+    FlavorText: 一撃で盾を破り、一撃で頭を砕く
+
+HuntersTrap:
+    Name: 狩人の罠
+    Description: |-
+        {Block}|ブロック|を得る。
+        手札に|エアカッター|か|楓の葉|を1枚加える。
+    FlavorText: 落とし穴、罠、落下物。。。 全てが役に立つ
+
+HuntingCall:
+    Name: 狩りの合図
+    Description: |-
+        敵全体に|弱体|2を与える。
+        |攻撃姿勢|の敵がいればカードを{Value2}枚引く。
+
+ImageTraining:
+    Name: イメージトレーニング
+    Description: |- 
+        |エアカッター|を手札に加える。
+        ターン開始時、|エアカッター|を手札に加える。
+    FlavorText: 心の中で敵を想像し、剣を振るう
+
+LookoutsIntuition:
+    Name: 見張りの直感
+    Description: |- 
+        |グレイズ|{Value1}を得る。
+        対象を選び、その対象が持っている|弱体|{Value2}ごとに、{Shield}|バリア|を得る。
+    FlavorText: ほんの小さな動きで危険を回避
+
+MountainsideTrailTracking:
+    Name: 山道の追跡
+    Description: |- 
+        プレイヤーのそれぞれのターンの最初に|弱体|を持ってる敵にダメージを与えた時、
+        カードを{Value1}枚引く。
+    FlavorText: 誰も彼女からは隠れられない
+
+OverhandBlade:
+    Name: 頭上からの一撃
+    Description: |-
+        {Damage}ダメージを与える。
+        対象が|弱体|を持っているならば、|脱力|{Value1}を得る。
+        対象が|脱力|を持っているならば、|弱体|{Value1}を得る。        
+    Flavortext: バランスを崩した瞬間を狙う
+
+PartingSlice:
+    Name: 別れの一刀
+    Description: |-
+        すべての敵に{Damage}ダメージを与える。
+        |攻撃態勢|の敵の数ごとに、グレイズ{Value1}を得る。
+    UpgradedDescription: |-
+        すべての敵に{Damage}ダメージを2回与える。
+        |攻撃態勢|の敵の数ごとに、グレイズ{Value1}を得る。
+    Flavortext: 去り際に一歩劣る
+
+Patrol:
+    Name: 巡回
+    Description: |-
+        カードを{Value1}枚引く。
+        このカードで引いた赤のカードごとに、|グレイズ|{Value2}を得る。
+    UpgradedDescription: |-
+        カードを{Value1}枚引く。
+        このカードで引いた赤のカードか|厄災|ごとに、|グレイズ|{Value2}を得る。
+    FlavorText: 椛の日常
+
+ScatteringLeaves:
+    Name: 紅葉の舞
+    Description: |-
+        ランダムな敵に{Damage}ダメージを{Value1}回与える。
+    Flavortext: 目もくらむような赤い閃光
+
+SenseWeakness:
+    Name: 弱点感知
+    Description: |- 
+        敵全体に|弱体|{Value1}を与える。敵が受ける弱体の効果を{Value2}%増加させる。
+    FlavorText: 鋭い目が、相手の防御のほんの僅かな隙を察知する
+
+ShieldCounter:
+    Name: シールドカウンター
+    Description: |-
+        |反射|{Value2}を得る。
+        |反射|か|帯電|が発動する度に、その対象に|弱体|{Value1}を与える。
+
+SurgeofPower:
+    Name: 力の奔流
+    Description: |-
+        次にプレイする{Value1}枚のカードコストが{Mana}になる。
+
+Taunt:
+    Name: 嘲弄
+    Description: |-
+        |脱力|{Value1}と|弱体|{Value1}を与える。
+        対象の敵が{PlayerName}に{Value2}ダメージを与える。
+
+CrashingWaterBlade:
+    Name: 水流の刃
+    Description: |-
+        {Damage}ダメージを与える。
+        プレイヤーの|反射|{Value1}ごとに、追加で1回ダメージを与える。
+    FlavorText: 椛のお気に入りの滝の力を一撃に込めて
+
+FrigidSky:
+    Name: 極寒の空
+    Description: |-
+        |エアカッター|が敵にブロックされなかった度に、その敵に|凍結|を与える。
+        手札に|エアカッター|を1枚加える。
+    UpgradedDescription: |-
+        |エアカッター|が敵にブロックされなかった度に、その敵に|凍結|を与える。
+        手札に|エアカッター|を2枚加える。
+    FlavorText: 切るには十分な寒さ
+
+PlungePool:
+    Name: 滝壺
+    Description: |-
+        {Block}|ブロック|を得る。
+        追加で{PlayerName}の|報復|に等しい|ブロック|を得る。({ReflectShield})
+    NonBattleDescription: |-
+        {Block}ブロックを得る。
+        追加で{PlayerName}の|報復|に等しい|ブロック|を得る。
+    UpgradedDescription: |-
+        {Shield}|バリア|を得る。
+        追加で{PlayerName}の|報復|に等しい|バリア|を得る。({ReflectShield})
+    UpgradedNonBattleDescription: |-
+        {Shield}|バリア|を得る。
+        追加で{PlayerName}の|報復|に等しい|バリア|を得る。
+    FlavorText: ハマるなよ
+
+AlwaysWatching:
+    Name: 警戒の眼差し
+    Description: |-
+        {Shield}|バリア|を得る。
+        |攻撃姿勢|の敵がいれば、{Block}|ブロック|を得る。
+
+CallToArms:
+    Name: 白狼の召集
+    Description: |-
+        山札か捨て札からカードを{Value1}枚まで選び、手札に加える。
+        それをアップグレードする。
+    FlavorText: 侵入者が発見されたことを他の白狼たちに知らせる、はっきりとした号令
+
+DefensiveStrike:
+    Name: 防御の一撃
+    Description: |-
+        {Damage}ダメージを与える。
+        このカードでブロックされたなかったダメージに等しい|ブロック|を得る。
+    FlavorText: "下がれ！"
+
+Destabilize:
+    Name: 揺らぐ足元
+    Description: |-
+        {PlayerName}の攻撃がブロックされなかった度に、{Value1}|ブロック|を得る。
+    Flavortext: 素早く軽い打撃で相手のバランスを崩し、相手の攻撃をそらす。
+
+DoubleDown:
+    Name: 追い打ち
+    Description: |-
+        {Damage}ダメージを与える。
+        もし対象が攻撃しようとしていないならば、{Value1}回追加で攻撃する。
+    FlavorText: 逃げようとするものは強く伐つ
+
+EyeforanEye:
+    Name: 目には目を
+    Description: |-
+        {Damage}ダメージを与える。
+        対象の敵が{PlayerName}に{Value1}ダメージを与える。
+
+FalseWeakness:
+    Name: 見せかけの弱点
+    Description: |-
+        {Block}|ブロック|を得る。
+        |報復|{Value1}を得る。
+    FlavorText: なぜこれがいつも効果的なのか？
+
+FarSight:
+    Name: 千里眼
+    Description: |-
+        |反射|{Value1}を得る。
+        敵が攻撃しようとしているならば、{Block}|ブロック|を得る。
+    FlavorText: 彼女は千里先の弾幕も見える
+
+Howl:
+    Name: 吠える
+    Description: |-
+        もし対象が|攻撃姿勢|ならば、対象は|火力|{Value1}を失う。
+    FlavorText: アウウウウウ！
+
+IronStance:
+    Name: 鉄の構え
+    Description: |-
+        {Block}|ブロック|と{Value1}|帯電|を得る。次のターンまで失われない。
+    Flavortext: 鉄は頑丈である。そして、より重要なのは、導電性があるということ。
+
+LongVigil:
+    Name: 長時間の監視
+    Description: |-
+        手札から{Value1}枚までカードを|廃棄|する。
+        このカードで廃棄したカード1枚につき、{Block}|ブロック|を得る。
+    UpgradedDescription: |-
+        手札、山札、捨て札から{Value1}枚までカードを|廃棄|する。
+        このカードで廃棄したカード1枚につき、{Block}|ブロック|を得る。
+
+MomijiReflect:
+  Name: 反省する
+  Description: |-
+        ライフを{Value1}回復する。
+        {Shield}バリアを得る。
+  FlavorText: 反省する。学ぶ。練習する。
+
+PreparedDefense:
+    Name: 万全の防御
+    Description: |-
+        |反射|{Value1}を得る。
+        このターンの間、{PlayerName}が持っている|反射|をすべて|帯電|に変換する。
+    FlavorText: 来るがいい。
+
+RagingWaterfall:
+    Name: 怒涛の滝
+    Description: |-
+        {Block}|ブロック|を得る。
+        {PlayerName}の次のターン開始時、追加でカードを{Value1}枚引く。
+
+SeizeTheMoment:
+    Name: チャンスを掴め
+    Description: |-
+        {Damage}ダメージを与える。
+        敵の行動により、追加効果を得る。
+    DetailText: |-
+        敵が攻撃姿勢の時： 対象に|臨時火力ダウン|{Value1}を与える。
+        
+        敵が防御姿勢の時： |弱体|{Value2}と|霊力ダウン|{Value2}を与える。
+        
+        特殊行動の時： 追加でもう1回攻撃する。
+    FlavorText: いつも一瞬の判断で行動できるように準備しておけ
+
+TacticalInsight:
+    Name: 戦術的考察
+    Description: |-
+        {Value1}枚の防御カードから{Value2}枚を選び、手札に加える。
+        そのコストは{Mana}で|廃棄|と|虚無|を持つ。
+    FlavorText: 対戦相手のことを知るために研究しろ。そして、相手の得意な戦術を盗め
+
+TengusForesight:
+    Name: 天狗の予知
+    Description: |- 
+        カードを{Value1}枚引く。
+        {PlayerName}の次のターン開始時、|ブロック|は失われない。
+    FlavorText: 次の一手は・・・
+
+TirelessGuard:
+    Name: 不屈の守護
+    Description: |- 
+        |反射|が発動する度に、|反射|で与えたダメージの半分の|反射|を得る。
+        |反射|{Value2}を得る。
+    FlavorText: 必ず彼らの二の矢に備えておけ。
+
+TrapStance:
+    Name: 待ち伏せの構え
+    Description: |-
+        |報復|{Value1}を得る。
+        それぞれのターン{PlayerName}が最初に攻撃された時、{PlayerName}の|報復|に等し|反射|を得る。
+    FlavorText: 常に計画を持て。そして、最初の計画が失敗した場合の計画も持て。
+
+TwinFang:
+    Name: 二つの牙
+    Description: |-
+        次に|反射|は発動する時、|反射|で与えたダメージに等しい|反射|を得る。
+    Flavortext: 必ず二度攻撃する！
+
+VacuumCutter:
+    Name: 真空刃
+    Description: |-
+        {Damage}ダメージを与える。
+        手札に|エアカッター|を1枚加える。
+    FlavorText: 音を残すほど速く空気を切り裂く
+    
+WardingStrike:
+    Name: 守りの一撃
+    Description: |-
+        {Damage}ダメージを与える。
+        {PlayerName}の|反射|に等しいダメージを追加で与える。({ReflectDamage})
+    NonbattleDescription: |-
+        {Damage}ダメージを与える。
+        {PlayerName}の|反射|に等しいダメージを追加で与える。
+    FlavorText: 油断してるやつには代償を
+
+WaterfallMeditation:
+    Name: 滝の瞑想
+    Description: |-
+        対象を選ぶ。
+        敵の行動によって効果が変わる。
+        カードを{Value1}枚引く。
+    DetailText: |-
+        敵が攻撃姿勢の時： {Value2}|ブロック|を得て、手札のランダムな{Value1}枚のカードをアップグレードする。
+        攻撃カードが優先される。
+        (|攻撃|、|デバフ|、|状態異常|、|爆発|、|スペルカード|)
+        
+        敵が防御姿勢の時： 敵に|弱体|{Value1}と|霊力ダウン|{Value1}を与える。
+        (|バフ|、|浄化|、|デバフを解除?|、|防御|、|グレイズ|、|逃走|、|修理|)
+        
+        特殊行動の時： |火力|{Value1}を得る。
+        (|召喚|、|スタン|、|なにもしない|、|チャージ|、|回復|、|暗黒能楽|、|呪い|)
+
+WindsweptBlade:
+    Name: 吹きさらしの刃
+    Description: |-
+        {Damage}ダメージを2回与える。
+        |報復|{Value1}を得る。
+    FlavorText: "Hiyah!"
+
+SampleCharacterXCost:
+  Name: X-Cost card
+  Description: |-
+    {Damage}ダメージを与える。    
+    |{Mana}ごとに|: 追加で{Value1}ダメージを与える。
+    |BlueMana}ごとに|: ライフを{Value2}回復する。

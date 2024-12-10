@@ -1,0 +1,4 @@
+﻿FeedOnTheWeak:
+  Name: Feed on the Weak
+  Description: Whenever an enemy dies, {PlayerName} gains 10 <sprite="Point" name="Power"\> and 4 life.
+  FlavorText: Only the strong and the lucky survive.

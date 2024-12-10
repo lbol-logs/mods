@@ -1,0 +1,8 @@
+﻿CrispFallAir:
+  Name: Crisp Fall Air
+  Description: >-
+    Add {Value1} |Air Cutters| to the hand.
+
+    At the start of {PlayerName}'s next turn, gain {Mana}.
+  UpgradedDescription: Now and at the start of {PlayerName}'s next turn, add {Value1} |Air Cutters| to the hand and gain {Mana}.
+  FlavorText: Sharp enough to chill

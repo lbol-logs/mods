@@ -1,0 +1,7 @@
+﻿PatientHunter:
+  Name: 好機を待つ狩人
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    |ブロック保留|。
+  FlavorText: 隙ができたときだけ攻撃する

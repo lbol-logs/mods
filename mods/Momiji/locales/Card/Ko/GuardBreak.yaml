@@ -1,0 +1,4 @@
+﻿GuardBreak:
+  Name: 방어 파괴
+  Description: 피해를 {Damage}씩 {Value1}번 줍니다. |취약|을 {Value1} 줍니다.
+  FlavorText: 방패와 머리를 부수는 일격.

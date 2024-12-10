@@ -1,0 +1,7 @@
+﻿FollowUp:
+  Name: Follow Up
+  Description: >-
+    Deal {Damage} damage.
+
+    If the target has |Vulnerable|, gain {Mana}.
+  FlavorText: hit any weakness hard.

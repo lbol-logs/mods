@@ -1,0 +1,4 @@
+﻿TacticalInsight:
+  Name: 전술적 통찰
+  Description: 손에 |방어| 카드를 {Value2}장중 {Value1}장 추가합니다. 그 카드들은 일시적으로 비용이 {Mana}가 되며 |소멸|과 |휘발성| 얻습니다.
+  FlavorText: 상대를 파악하여 그들을 알라. 그런 다음, 그들의 최고의 전술을 훔쳐라.

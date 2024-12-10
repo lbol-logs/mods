@@ -1,0 +1,4 @@
+﻿CrashingWaterBlade:
+  Name: Crashing Water Blade
+  Description: Deal {Damage} damage. Deals damage an additional time for every {Value1} |Reflection| {PlayerName} has.
+  FlavorText: The force of Momiji's favorite waterfall, channeled into a single strike.

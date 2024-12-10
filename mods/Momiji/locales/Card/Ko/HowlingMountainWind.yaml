@@ -1,0 +1,4 @@
+﻿HowlingMountainWind:
+  Name: 울부짖는 산바람
+  Description: '{PlayerName}가 |에어 커터|로 |취약| 상태의 적을 공격할 때마다, |에어 커터|가 한 번 더 피해를 줍니다. |에어 커터|를 {Value2}장 손에 추가합니다.'
+  FlavorText: 바람아 불어라! 휘몰아쳐라!

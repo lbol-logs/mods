@@ -1,0 +1,13 @@
+﻿CrispFallAir:
+  Name: 木枯らし
+  Description: >-
+    |エアカッター|を{Value1}枚手札に加える。
+
+    {PlayerName}の次のターン開始時、{Mana}を得る。
+  UpgradedDescription: >-
+    |エアカッター|を{Value1}枚手札に加える。
+
+    次のター開始時、|エアカッター|を{Value1}枚手札に加える。
+
+    {PlayerName}の次のターン開始時、{Mana}を得る。
+  FlavorText: 冷やすには十分な切れ味

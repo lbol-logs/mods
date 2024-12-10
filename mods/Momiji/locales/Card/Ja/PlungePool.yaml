@@ -1,0 +1,19 @@
+﻿PlungePool:
+  Name: 滝壺
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    追加で{PlayerName}の|報復|に等しい|ブロック|を得る。({ReflectShield})
+  NonBattleDescription: >-
+    {Block}ブロックを得る。
+
+    追加で{PlayerName}の|報復|に等しい|ブロック|を得る。
+  UpgradedDescription: >-
+    {Shield}|バリア|を得る。
+
+    追加で{PlayerName}の|報復|に等しい|バリア|を得る。({ReflectShield})
+  UpgradedNonBattleDescription: >-
+    {Shield}|バリア|を得る。
+
+    追加で{PlayerName}の|報復|に等しい|バリア|を得る。
+  FlavorText: ハマるなよ

@@ -1,0 +1,11 @@
+﻿RabiesBite:
+  Title: 구부
+  Content: 레이비즈 바이트
+  Description: >-
+    피해를 {Damage}씩 2번 줍니다.
+
+    취약을 {Value1} 줍니다.
+
+    |퇴치| : 최대 체력을 {Value2} 얻습니다.
+
+    |명중|

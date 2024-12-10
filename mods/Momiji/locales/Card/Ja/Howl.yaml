@@ -1,0 +1,4 @@
+﻿Howl:
+  Name: 吠える
+  Description: もし対象が|攻撃姿勢|ならば、対象は|火力|{Value1}を失う。
+  FlavorText: アウウウウウ！

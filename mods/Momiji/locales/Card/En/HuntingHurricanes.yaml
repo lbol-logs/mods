@@ -1,0 +1,7 @@
+﻿HuntingHurricanes:
+  Name: Hunting Hurricanes
+  Description: >-
+    Deal {Damage} damage to each enemy. 
+
+    {SelfName} deals damage an additional time for each |Exiled Air Cutter|.
+  FlavorText: A veritable Tornado

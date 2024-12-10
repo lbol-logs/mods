@@ -1,0 +1,7 @@
+﻿WoodlandSentry:
+  Name: Woodland Sentry
+  Description: >-
+    Gain {Value2} life.
+
+    At the end of {PlayerName}'s turn, gain {Value1} block for each card in hand.
+  FlavorText: The woods are a friend, more than most other Tengu.

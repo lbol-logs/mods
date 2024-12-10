@@ -1,0 +1,6 @@
+﻿EyeforanEye:
+  Name: 눈에는 눈
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    대상이 {Value1}의 피해를 {PlayerName}에게 줍니다.

@@ -1,0 +1,4 @@
+﻿CircularPacing:
+  Name: 원형 순환
+  Description: 적이 상태이상을 얻을 때마다, {PlayerName}는 |보호막|을 {Value1} 얻습니다.
+  FlavorText: 상대를 계속해서 돌며, 모미지는 그들을 경계할 수 있다.

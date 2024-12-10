@@ -1,0 +1,11 @@
+﻿RipApart:
+  Name: Rip Apart
+  Description: >-
+    Deal {Damage} damage to each enemy.
+
+    Apply {Value1} |Vulnerable| to each enemy.
+  UpgradedDescription: >-
+    Deal {Damage} damage to each enemy {Value1} times.
+
+    Apply {Value1} |Vulnerable| to each enemy.
+  FlavorText: Cleave into them quickly.

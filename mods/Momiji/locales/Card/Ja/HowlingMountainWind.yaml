@@ -1,0 +1,7 @@
+﻿HowlingMountainWind:
+  Name: 山風のうなり
+  Description: >-
+    {PlayerName}が|弱体|を持ってる敵に|エアカッター|を使うと、その|エアカッター|のダメージは2倍になる。
+
+    手札に|エアカッター|を{Value2}枚加える。
+  FlavorText: 来い、風よ！吹け！荒れ狂え！

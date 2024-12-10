@@ -1,0 +1,7 @@
+﻿TrapStance:
+  Name: Trap Stance
+  Description: >-
+    Gain {Value1} |Retaliation|.
+
+    The first time that {PlayerName} is attacked each turn, gain |Reflection| equal to {PlayerName}'s |Retaliation|.
+  FlavorText: Always have a plan. And a plan for if the first plan fails.

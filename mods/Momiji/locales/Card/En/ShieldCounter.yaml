@@ -1,0 +1,7 @@
+﻿ShieldCounter:
+  Name: Shield Counter
+  Description: >-
+    Gain {Value2} |Reflection|.
+
+    Whenever |Reflection| or |Static Charge| is triggered, apply {Value1} |Vulnerable| to the enemy that triggered it.
+  FlavorText: You're wide open

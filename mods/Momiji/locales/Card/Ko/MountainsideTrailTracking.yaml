@@ -1,0 +1,4 @@
+﻿MountainsideTrailTracking:
+  Name: 오솔길 추적
+  Description: '{PlayerName}가 매 턴 처음 |취약|를 가진 적에게 공격 피해를 줄 때마다 카드를 {Value1}장 뽑습니다.'
+  FlavorText: 그녀에게는 아무도 숨을 수 없다.

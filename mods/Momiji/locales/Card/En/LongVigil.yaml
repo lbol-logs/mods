@@ -1,0 +1,5 @@
+﻿LongVigil:
+  Name: Long Vigil
+  Description: Exile up to {Value1} cards from your hand. Gain {Block} |Block| for each card exiled this way.
+  UpgradedDescription: Exile up the {Value1} cards from your hand, draw, or discard piles. Gain {Block} |Block| for each card exiled this way.
+  FlavorText: The Night will be long. Best be prepared.

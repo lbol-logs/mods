@@ -1,0 +1,3 @@
+﻿ForestAmbushSe:
+  Name: 숲의 매복
+  Description: '{OwnerName}가 공격 피해를 줄 때마다, 피해를 입은 모든 적에게 {OwnerName}의 |보복|만큼 추가 피해를 줍니다.'

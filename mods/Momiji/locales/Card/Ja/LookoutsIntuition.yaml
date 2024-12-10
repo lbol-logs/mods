@@ -1,0 +1,7 @@
+﻿LookoutsIntuition:
+  Name: 見張りの直感
+  Description: >-
+    |グレイズ|{Value1}を得る。
+
+    対象を選び、その対象が持っている|弱体|{Value2}ごとに、{Shield}|バリア|を得る。
+  FlavorText: ほんの小さな動きで危険を回避

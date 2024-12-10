@@ -1,0 +1,7 @@
+﻿AirCutter:
+  Name: Air Cutter
+  Description: >-
+    Deal {Damage} damage. 
+
+    Gain {Block} |Block|.
+  Flavortext: Slice the air

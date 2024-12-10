@@ -1,0 +1,5 @@
+﻿IronStance:
+  Name: Iron Stance
+  Description: Gain {Block} |Block| and {Value1} |Static Charge| until {PlayerName}'s next turn.
+  UpgradedDescription: Gain {Shield} |Barrier| and {Value1} |Static Charge| until {Playername}'s next turn.
+  FlavorText: Iron is sturdy, and, more importantly, conductive.

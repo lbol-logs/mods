@@ -1,0 +1,9 @@
+﻿OverhandBlade:
+  Name: Overhand Blade
+  Description: >-
+    Deal {Damage} damage.
+
+    If the target has |Vulnerable|, apply {Value1} |Weak|.
+
+    If the target has |Weak|, apply {Value1} |Vulnerable|.
+  FlavorText: Strike when they're off balance.

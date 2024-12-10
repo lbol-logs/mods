@@ -1,0 +1,7 @@
+﻿PreparedDefense:
+  Name: 준비된 방어
+  Description: >-
+    |반사|를 {Value1} 얻습니다.
+
+    {PlayerName}가 현재 가지고 있는 모든 |반사|를 이번 턴 동안 |정전기|로 바꿉니다.
+  FlavorText: 오게 두어라.

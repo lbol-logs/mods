@@ -1,0 +1,5 @@
+﻿AutumnView:
+  Name: Autumn View
+  Description: '|When {SelfName} enters the hand|: Gain {Value1} |Barrier| and exile {SelfName}.'
+  UpgradedDescription: '|When {SelfName} enters the hand|: Gain {Value1} |Barrier|, apply {Value2} |Firepower Down| to each enemy, and exile {SelfName}.'
+  FlavorText: is there anything more vibrant?

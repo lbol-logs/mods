@@ -1,0 +1,7 @@
+﻿TengusForesight:
+  Name: 天狗の予知
+  Description: >-
+    カードを{Value1}枚引く。
+
+    {PlayerName}の次のターン開始時、|ブロック|は失われない。
+  FlavorText: 次の一手は・・・

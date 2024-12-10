@@ -1,0 +1,4 @@
+﻿FeedOnTheWeak:
+  Name: 약자의 피
+  Description: 적이 죽을 때마다, {PlayerName}가 <sprite="Point" name="Power"\> 10과 체력 4를 얻습니다.
+  FlavorText: 강자와 운 좋은 자만이 살아남는다.

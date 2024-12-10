@@ -1,0 +1,3 @@
+﻿DestabilizeSe:
+  Name: 揺らぐ足元
+  Description: 敵を攻撃してブロックされなかった時、その度に{Level}|ブロック|を得る。

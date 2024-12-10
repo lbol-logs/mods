@@ -1,0 +1,3 @@
+﻿WoodlandSentrySe:
+  Name: Woodland Sentry
+  Description: At the end of {OwnerName}'s turn, gain |Block| equal to {level} times the number of cards in hand.

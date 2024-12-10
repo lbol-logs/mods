@@ -1,0 +1,9 @@
+﻿BladeWarding:
+  Name: Blade Warding
+  Description: >-
+    Apply {Value1} |Weak|.
+
+    Gain {Value1} |Retaliation|.
+
+    Add an |Air Cutter| to the hand.
+  FlavorText: Get away from me!

@@ -1,0 +1,4 @@
+﻿DoubleDown:
+  Name: 확인 제압
+  Description: 피해를 {Damage} 줍니다. 적이 공격하려하지 않으면, 추가로 {Value1}번 피해를 줍니다.
+  FlavorText: 어떤 시도에도 강하게 맞서라.

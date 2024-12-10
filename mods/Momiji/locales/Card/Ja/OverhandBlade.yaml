@@ -1,0 +1,4 @@
+﻿OverhandBlade:
+  Name: 頭上からの一撃
+  Description: "{Damage}ダメージを与える。\n対象が|弱体|を持っているならば、|脱力|{Value1}を得る。\n対象が|脱力|を持っているならば、|弱体|{Value1}を得る。        "
+  Flavortext: バランスを崩した瞬間を狙う

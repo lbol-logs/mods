@@ -1,0 +1,11 @@
+﻿PartingSlice:
+  Name: Parting Slice
+  Description: >-
+    Deal {Damage} damage to each enemy.
+
+    For each enemy with an |Offensive Intention|, gain {Value1} |Graze|.
+  UpgradedDescription: >-
+    Deal {Damage} damage to each enemy two times.
+
+    For each enemy with an |Offensive Intention|, gain {Value1} |Graze|.
+  FlavorText: Marginally less effective than a Parting Shot.

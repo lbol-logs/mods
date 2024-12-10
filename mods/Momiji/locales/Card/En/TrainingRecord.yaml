@@ -1,0 +1,13 @@
+﻿TrainingRecord:
+  Name: Training Record
+  Description: >-
+    Deal {Damage} damage.
+
+    If this is the first time a {SelfName} has been played this combat, upgrade a card in {PlayerName}'s deck based on the targeted enemy's intention.
+  DetailText: >-
+    If the enemy has an |Offensive Intention|, an Attack card may be upgraded. 
+
+    If the enemy has a |Defensive Intention|, a Defense card may be upgraded.
+
+    If the enemy has a |Special Intention|, an Ability or Skill card may be upgraded.
+  FlavorText: Your opponents are your most important teachers.

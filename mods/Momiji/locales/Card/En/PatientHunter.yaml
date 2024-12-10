@@ -1,0 +1,4 @@
+﻿PatientHunter:
+  Name: Patient Hunter
+  Description: gain {Block} |Block|. Block is not lost at the start of {PlayerName}'s next turn.
+  FlavorText: Only strike when the opening is right.

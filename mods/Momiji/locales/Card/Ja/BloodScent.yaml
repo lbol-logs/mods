@@ -1,0 +1,7 @@
+﻿BloodScent:
+  Name: 血の香り
+  Description: >-
+    {Damage}ダメージを与える。
+
+    対象が|弱体|を持っている時、|反射|{Value1}を得る。
+  FlavorText: やけに甘い

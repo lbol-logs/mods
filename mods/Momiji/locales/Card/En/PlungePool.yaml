@@ -1,0 +1,16 @@
+﻿PlungePool:
+  Name: Plunge Pool
+  Description: >-
+    Gain {Block} |Block|.
+
+    Gain additional |Block| Equal to {PlayerName}'s |Retaliation|. ({ReflectShield})
+  NonBattleDescription: >-
+    Gain {Block} |Block|.
+
+    Gain additional |Block| Equal to {PlayerName}'s |Retaliation|.
+  UpgradedDescription: >-
+    Gain {Shield} |Barrier|.
+
+    Gain additional |Barrier| Equal to {PlayerName}'s |Retaliation|. ({ReflectShield})
+  UpgradedNonBattleDescription: Gain {Shield} |Barrier|. Gain additional |Barrier| Equal to {PlayerName}'s |Retaliation|.
+  FlavorText: Don't let it trap you.

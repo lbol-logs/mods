@@ -1,0 +1,15 @@
+﻿AyaTeammate:
+  Name: 아야, 텐구 기자
+  Description: >-
+    "{FriendS}|그레이즈|를 {Graze} 얻습니다.
+
+    {PassiveCostIcon}|그레이즈|는 {PlayerName}의 턴 시작 시 감소하지 않습니다."
+  UpgradedDescription: >-
+    "{FriendS}|그레이즈|를 {Graze} 얻습니다.
+
+    {PassiveCostIcon}|그레이즈|는 {PlayerName}의 턴 시작 시 감소하지 않습니다."
+  ExtraDescription1: '{ActiveCostIcon}모든 적에게 |록 온|을 {Value2} 줍니다. |에어 커터|를 {Value1}장 손에 추가합니다.'
+  UpgradedExtraDescription1: '{ActiveCostIcon}모든 적에게 |록 온|을 {Value2} 줍니다. |에어 커터|를 {Value1}장 손에 추가합니다'
+  ExtraDescription2: '{UltimateCostIcon}|풍신소녀| 1을 얻습니다. {PlayerName}의 공격이 전투가 끝날 때까지 |명중|을 얻습니다.'
+  UpgradedExtraDescription2: '{UltimateCostIcon}|풍신소녀| 1을 얻습니다. {PlayerName}의 공격이 전투가 끝날 때까지 |명중|을 얻습니다.'
+  FlavorText: 오랜 세월 동안의 상호 적대감이 마침내 억제된 반감을 만들었다.

@@ -1,5 +1,12 @@
 [
   {
+    "GUID": "worldsoul.test.momiji.mod",
+    "Name": "Momiji Mod",
+    "Version": "1.1.3",
+    "Character": "Momiji",
+    "Url": "https://thunderstore.io/c/touhou-lost-branch-of-legend/p/Worldsoul15/MomijiMod/"
+  },
+  {
     "GUID": "rmrfmaxx.lbol.PatchouliCharacterMod",
     "Name": "Patchouli Character Mod",
     "Version": "0.1.11",

@@ -1,0 +1,4 @@
+﻿Destabilize:
+  Name: Destabilize
+  Description: Whenever {PlayerName} deals unblocked attack damage, they gain {Value1} |Block|.
+  FlavorText: with quick, light strikes to keep her opponents off balance, Momiji leaves them unable to land a solid hit on her.

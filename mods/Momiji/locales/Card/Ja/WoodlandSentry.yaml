@@ -1,0 +1,6 @@
+﻿WoodlandSentry:
+  Name: 森の守護者
+  Description: >-
+    ライフ{Value2}を回復する。
+
+    {PlayerName}のターン終了時、手札1枚につき{Value1}|ブロック|を得る。

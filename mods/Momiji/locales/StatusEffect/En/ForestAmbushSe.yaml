@@ -1,0 +1,3 @@
+﻿ForestAmbushSe:
+  Name: Forest Ambush
+  Description: Whenever {OwnerName} deals attack damage, deal additional damage to all damaged enemies equal to {OwnerName}'s |Retaliation|.

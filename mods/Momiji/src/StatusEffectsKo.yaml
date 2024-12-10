@@ -1,0 +1,122 @@
+RetaliationSe:
+  Name: 보복
+  Description: "{OwnerName}의 턴 시작 시 |반사|를 {Level} 얻습니다."
+  Brief: "{OwnerName}가 |보복|을 얻으면, 그만큼 |반사|를 얻습니다. {OwnerName}의 턴 시작 시 |반사|를 얻습니다."
+
+BlackWindSe:
+  Name: 흑풍
+  Description: |-
+    |에어 커터|가 |취약|을 1 줍니다.
+
+CircularPacingSe:
+  Name: 원형 순환
+  Description: 적이 상태이상을 얻을 때마다 |보호막|을 {Level} 얻습니다.
+
+CrispFallAirSe:
+  Name: 상쾌한 가을 공기
+  Description: "{OwnerName}의 다음 턴 시작 시 손에 |에어 커터|를 {Level}장 추가합니다."
+
+DestabilizeSe:
+  Name: 불안정화
+  Description: "{Ownername}가 막히지 않은 공격 피해를 줄 때마다 |방어|를 {Level} 얻습니다."
+
+DistractSe:
+  Name: 방해
+  Description: "{OwnerName}가 적에게 공격 피해를 줄 때마다, 그 적이 |취약| 상태라면 |허약|을 1 줍니다."
+
+FakeOpeningSe:
+  Name: 가짜 틈새
+  Description: "{OwnerName}의 턴 시작 시 |보복|을 {Level} 얻습니다."
+
+FeedOnTheWeakSe:
+  Name: 약자의 피
+  Description: 적이 죽을 때마다, {OwnerName}가 <sprite="Point" name="Power"\> 10과 체력 4를 얻습니다.
+
+ForestAmbushSe:
+  Name: 숲의 매복
+  Description: "{OwnerName}가 공격 피해를 줄 때마다, 피해를 입은 모든 적에게 {OwnerName}의 |보복|만큼 추가 피해를 줍니다."
+
+FrigidSkySe:
+  Name: 냉혹한 하늘
+  Description: "|에어 커터|가 적에게 막히지 않은 피해를 줄 때마다, 그 적에게 |빙결|을 줍니다."
+
+HowlingMountainWindSe:
+  Name: 울부짖는 산바람
+  Description: "{OwnerName}가 |에어 커터|로 |취약| 상태의 적을 공격할 때마다, |에어 커터|가 한 번 더 피해를 줍니다."
+
+ImageTrainingSe:
+  Name: 이미지 트레이닝
+  Description: "{OwnerName}의 턴 시작 시 손에 |에어 커터|를 추가합니다."
+
+IndiscriminateRevengeSe:
+  Name: 무차별 복수
+  Description: "|반사|가 발동할 시, {PlayerName}가 모든 적에게 피해를 |보복|만큼 줍니다."
+
+InstantofContactSe:
+  Name: 접촉의 순간
+  Description: "{OwnerName}가 |방어| 또는 |보호막|을 얻을 때마다, {OwnerName}는 |보복|을 {Level} 얻습니다."
+
+MapleLeafFestivalSe:
+  Name: 단풍 잎 축제
+  Description: "{OwnerName}의 턴 시작 시, |단풍잎|을 손에 추가합니다."
+
+MountainsideTrailTrackingSe:
+  Name: 오솔길 추적
+  Description: "{OwnerName}가 매 턴 처음 |취약|를 가진 적에게 공격 피해를 줄 때마다 카드를 {Level}장 뽑습니다."
+
+NextTurnDrawSe:
+  Name: 다음 턴 드로우
+  Description: "{OwnerName}의 턴 시작시, 카드를 추가로 {Level}장 뽑습니다."
+
+SenseWeaknessSe:
+  Name: 약점 감지
+  Description: "|취약| 상태인 적은 {Level}% 더 많은 피해를 받습니다."
+
+ShieldCounterSe:
+  Name: 방패 반격
+  Description: "|반사| 또는 |정전기|가 발동할 때, 그 적에게 |취약|을 {Level} 줍니다."
+
+ScentofDeathSe:
+  Name: 죽음의 냄새
+  Description: "{OwnerName}가 죽을 때, 다른 모든 적에게 피해를 {FinalDamage} 줍니다."
+  Brief: 대상이 죽으면, 다른 모든 적에게 최대 체력의 절반에 해당하는 피해를 입힙니다.
+
+StandWatchSe:
+  Name: 경계 태세
+  Description: "{OwnerName}의 턴 시작 시 |방어|를 {Level} 얻습니다."
+
+SurgeofPowerSe:
+  Name: 힘의 급증
+  Description: "{OwnerName}의 다음 {Level}장의 카드 비용이 {Mana}가 됩니다."
+
+TirelessGuardSe:
+  Name: 지치지 않는 수호
+  Description: "|반사|가 발동할 때마다 입힌 피해의 절반만큼 |반사|를 얻습니다."
+
+TrapStanceSe:
+  Name: 함정 태세
+  Description: "매 턴마다 {OwnerName}가 처음 공격받을 때, {OwnerName}의 |보복|과 같은 양의 |반사|를 얻습니다."
+
+TwinFangSe:
+  Name: 쌍송곳니
+  Description: 다음 |반사|가 발동할 때, 입힌 피해량과 같은 양의 |반사|를 얻습니다.
+
+OffensiveIntention:
+  Name: 공격 의도
+  Description: |-
+    "공격 의도는 다음 중 하나입니다: |공격|, |상태 이상|, |상태|, |폭발|,|스펠 카드|"
+  Brief: "공격 의도는 다음 중 하나입니다: |공격|, |상태 이상|, |상태|, |폭발|,|스펠 카드|"
+
+DefensiveIntention:
+  Name: 방어 의도
+  Description: "방어 의도는 다음 중 하나입니다: |버프|, |방어|, |그레이즈|, |탈출|, |수리|"
+  Brief: "방어 의도는 다음 중 하나입니다: |버프|, |방어|, |그레이즈|, |탈출|, |수리|"
+
+SpecialIntention:
+  Name: 특수 의도
+  Description: "특수 의도는 다음 중 하나입니다: |소환|, |기절|, |아무것도 하지 않기|, |충전|, |치유|, |암흑 노가쿠|, |방해|"
+  Brief: "특수 의도는 다음 중 하나입니다: |소환|, |기절|, |아무것도 하지 않기|, |충전|, |치유|, |암흑 노가쿠|, |방해|"
+
+WoodlandSentrySe:
+  Name: 산림 감시
+  Description: "{OwnerName}의 턴 종료시, 손의 카드 한장 마다 |방어|를 {level} 얻습니다."

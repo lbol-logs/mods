@@ -1,0 +1,4 @@
+﻿SmellofDeathSe:
+  Name: Smell of Death
+  Description: When {OwnerName} dies, they deal {FinalDamage} damage to all other enemies.
+  Brief: When the target dies, it deals damage to all other enemies equal to half of its own max HP.

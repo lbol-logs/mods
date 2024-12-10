@@ -1,0 +1,8 @@
+﻿CleavingSwipe:
+  Name: Cleaving Swipe
+  Description: >-
+    Deal {Damage} damage to each enemy.
+
+    Draw {Value1} card{Value1:plural one='' other='s'}.
+  UpgradedDescription: Deal {Damage} damage to each enemy 2 times. Draw {Value1} card{Value1:plural one='' other='s'}.
+  FlavorText: A wide, arcing slash to clear space.

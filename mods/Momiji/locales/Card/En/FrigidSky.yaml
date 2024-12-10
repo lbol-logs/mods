@@ -1,0 +1,8 @@
+﻿FrigidSky:
+  Name: Frigid Sky
+  Description: >-
+    Whenever an |Air Cutter| deals unblocked damage to an enemy, apply |Cold| to that enemy.
+
+    Add an |Air Cutter| to the hand.
+  UpgradedDescription: Whenever an |Air Cutter| deals unblocked damage to an enemy, apply |Cold| to that enemy. Add two |Air Cutters| to the hand.
+  FlavorText: Cold enough to cut.

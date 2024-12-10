@@ -1,0 +1,4 @@
+﻿SmellofDeathSe:
+  Name: 死を呼ぶ香
+  Description: '{OwnerName}が倒れる時、他のすべて敵に最大HPの半分に等しいダメージ与える。'
+  Brief: 敵が倒れる時、その最大HPの半分に等しいダメージを他の敵に与える。

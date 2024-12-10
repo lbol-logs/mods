@@ -1,0 +1,9 @@
+﻿StandWatch:
+  Name: 경계 태세
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    {PlayerName}의 턴 시작 시 |방어|를 {Value1} 얻습니다.
+
+    |방어|는 다음 {Value2} 턴 동안 {PlayerName}의 턴 시작 시 사라지지 않습니다.
+  FlavorText: 경비병의 의무는 피곤하지 않다. 주저함은 용납되지 않는다.

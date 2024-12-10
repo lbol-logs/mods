@@ -1,0 +1,7 @@
+﻿WindsweptBlade:
+  Name: 바람의 상처
+  Description: >-
+    피해를 {Damage} 2번 줍니다.
+
+    |보복|을 {Value1} 얻습니다.
+  FlavorText: 히야!

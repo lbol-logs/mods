@@ -1,0 +1,4 @@
+﻿SenseWeakness:
+  Name: Sense Weakness
+  Description: Apply {Value1} |Vulnerable| to all enemies. Enemies with |Vulnerable| take {Value2}% more damage.
+  FlavorText: Keen eyes detect even the slightest gaps in the opponent's guard.

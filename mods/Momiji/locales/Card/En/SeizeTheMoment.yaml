@@ -1,0 +1,13 @@
+﻿SeizeTheMoment:
+  Name: Seize the Moment
+  Description: >-
+    Deal {Damage} damage.
+
+    Apply an additional effect based on the enemy's |Intention|.
+  DetailText: >-
+    If the enemy has an |Offensive Intention|, apply {Value1} |Temporary Firepower Down| to the enemy. 
+
+    If the enemy has a |Defensive Intention|, apply {Value2} |Vulnerable| and {Value1} |Spirit Down|.
+
+    If the enemy has a |Special Intention|, deal damage an additional time.
+  FlavorText: Always be prepared to act at a moment's notice.

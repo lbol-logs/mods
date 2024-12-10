@@ -1,0 +1,11 @@
+﻿InstantofContact:
+  Name: 접촉의 순간
+  Description: >-
+    |보복|을 {Value1} 얻습니다.
+
+    {PlayerName}의 턴이 종료됩니다. 그리고 추가 턴을 얻습니다.
+
+    이 추가 턴 동안, {PlayerName}가 |방어| 또는 |보호막|을 얻을 때마다, {PlayerName}는 |보복|을 {Value2} 얻습니다.
+
+    |d:시간 제한 {Mana}.|
+  FlavorText: 칼날이 엇갈리고, 날카로운 시선이 교차한다.

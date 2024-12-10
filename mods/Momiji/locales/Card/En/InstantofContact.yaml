@@ -1,0 +1,11 @@
+﻿InstantofContact:
+  Name: Instant of Contact
+  Description: >-
+    Gain {Value1} |Retaliation|.
+
+    End {PlayerName}'s turn. Then, take an extra turn.
+
+    During this extra turn, whenever {PlayerName} gains |Block| or |Barrier|, {PlayerName} gains {Value2} |Retaliation|.
+
+    |d:Time Limit {Mana}.|
+  FlavorText: When Blades lock, and glares meet over crossed swords.

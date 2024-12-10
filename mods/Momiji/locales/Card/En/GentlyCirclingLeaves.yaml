@@ -1,0 +1,9 @@
+﻿GentlyCirclingLeaves:
+  Name: Gently Circling Leaves
+  Description: >-
+    Draw {Value1} cards. 
+
+    Gain {Value2} |Reflection| for each Attack card drawn this way.
+
+    Gain {Block} |Block| for each Defense card drawn this way
+  FlavorText: Fall slowly, little ones.

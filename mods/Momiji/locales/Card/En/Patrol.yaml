@@ -1,0 +1,11 @@
+﻿Patrol:
+  Name: Patrol
+  Description: >-
+    Draw {Value1} Cards. 
+
+    Gain {Value2} |Graze| for each red card drawn this way.
+  UpgradedDescription: >-
+    Draw {Value1} Cards.
+
+    Gain {Value2} |Graze| for each red, Status, or |Misfortune| card drawn this way.
+  FlavorText: Momiji's constant task.

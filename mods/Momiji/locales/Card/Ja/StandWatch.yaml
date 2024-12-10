@@ -1,0 +1,9 @@
+﻿StandWatch:
+  Name: 警備
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    {PlayerName}のターン開始時、{Value1}|ブロック|を得る。
+
+    {PlayerName}の次の{Value2}ターンの開始時、ブロックは失われない。
+  FlavorText: 哨戒の任務は絶え間なく続けるものであり、怠る言い訳はない

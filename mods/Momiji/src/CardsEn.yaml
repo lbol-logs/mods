@@ -1,0 +1,569 @@
+MomijiAttackW:
+  Name: Shield Bash
+  Description: Deal {Damage} damage.
+  FlavorText: And a shield can be a good weapon.
+
+MomijiAttackR:
+  Name: Slice
+  Description: Deal {Damage} damage.
+  FlavorText: and Dice.
+
+MomijiBlockR:
+  Name: Parry
+  Description: Gain {Block} |Block|.
+  FlavorText: A sword can be a good defensive tool.
+
+MomijiBlockW:
+  Name: Guard Up
+  Description: Gain {Block} |Block|.
+  FlavorText: You never know what's aimed at your heart.
+
+MapleLeaf:
+  Name: Maple Leaf
+  Description: |-
+    Gain {Mana}.
+  FlavorText: Also known as a Momiji
+
+AirCutter:
+  Name: Air Cutter
+  Description: |-
+    Deal {Damage} damage. 
+    Gain {Block} |Block|.
+  Flavortext: Slice the air
+
+BlackWind:
+    Name: Black Wind
+    Description: |-
+        Air Cutters inflict {Value1} |Vulnerable|.
+        Add {Value2} |Air Cutter{Value2:plural one='' other='s'}| to the hand.
+    FlavorText: Dark winds bring ill omens.
+
+FeedOnTheWeak:
+    Name: Feed on the Weak
+    Description: |-
+        Whenever an enemy dies, {PlayerName} gains 10 <sprite="Point" name="Power"\> and 4 life.
+    FlavorText: Only the strong and the lucky survive.
+
+SmellofDeath:
+    Name: Smell of Death
+    Description: |-
+        Apply {Value1} |Vulnerable|.
+        When target enemy dies, it deals damage to all other enemies equal to half its max HP.
+    FlavorText: It's foul.
+
+ForestAmbush:
+    Name: Forest Ambush
+    Description: Gain {Value1} |Retaliation|. Whenever {PlayerName} deals attack damage this turn, deal additional damage equal to {PlayerName}'s |Retaliation|.
+    FlavorText: Perfect.
+
+RabidBite:
+    Name: Rabid Bite
+    Description: Deal {Damage} damage. Gain {Value1} life.
+    Flavortext: A savage blow to defeat a savage enemy
+
+AyaTeammate:
+  Name: Aya, Tengu Reporter
+  Description: |-
+    {FriendS} Gain {Graze} |Graze|.
+    {PassiveCostIcon}|Graze| does not decay at the start of {PlayerName}'s turn.
+  UpgradedDescription: |-
+    {FriendS}Gain {Graze} |Graze|
+    {PassiveCostIcon}|Graze| does not decay at the start of {PlayerName}'s turn.
+  ExtraDescription1: "{ActiveCostIcon}Apply {Value2} |Lock On| to each enemy. Add {Value1} |Air Cutter{Value1:plural one='' other='s'}| to the hand."
+  UpgradedExtraDescription1: "{ActiveCostIcon}Apply {Value2} |Lock On| to each enemy. Add {Value1} |Air Cutter{Value1:plural one='' other='s'}| to the hand."
+  ExtraDescription2: "{UltimateCostIcon}Gain 1 |Wind God Girl|. {PlayerName}'s attacks are |Accurate| for the rest of combat."
+  UpgradedExtraDescription2: "{UltimateCostIcon}Gain 1 |Wind God Girl|. {PlayerName}'s attacks are |Accurate| for the rest of combat."
+  FlavorText: Many decades of mutual animosity have led to a grudging antipathy.
+
+WoodlandSentry:
+    Name: Woodland Sentry
+    Description: |-
+        Gain {Value2} life.
+        At the end of {PlayerName}'s turn, gain {Value1} block for each card in hand.
+    FlavorText: The woods are a friend, more than most other Tengu.
+
+AutumnView:
+    Name: Autumn View
+    Description: "|When {SelfName} enters the hand|: Gain {Value1} |Barrier| and exile {SelfName}."
+    UpgradedDescription: "|When {SelfName} enters the hand|: Gain {Value1} |Barrier|, apply {Value2} |Firepower Down| to each enemy, and exile {SelfName}."
+    FlavorText: is there anything more vibrant?
+
+CleanKill:
+    Name: Clean Kill
+    Description: |-
+        Deal {Damage} Damage.
+        |Expel|: Gain {Value1} <sprite="Point" name="Power"\>.
+    FlavorText: I thank you for your life, so that I may survive.
+
+CleavingSwipe:
+  Name: Cleaving Swipe
+  Description: |-
+    Deal {Damage} damage to each enemy.
+    Draw {Value1} card{Value1:plural one='' other='s'}.
+  UpgradedDescription:
+    Deal {Damage} damage to each enemy 2 times.
+    Draw {Value1} card{Value1:plural one='' other='s'}.
+  FlavorText: A wide, arcing slash to clear space.
+
+GentlyCirclingLeaves:
+    Name: Gently Circling Leaves
+    Description: |-
+        Draw {Value1} cards. 
+        Gain {Value2} |Reflection| for each Attack card drawn this way.
+        Gain {Block} |Block| for each Defense card drawn this way
+    FlavorText: Fall slowly, little ones.
+
+HowlingMountainWind:
+    Name: Howling Mountain Wind
+    Description: Whenever {PlayerName} plays an |Air Cutter| targeting an enemy with |Vulnerable|, that |Air Cutter| deals damage twice. Add {Value2} |Air Cutter{Value2:plural one='' other='s'}| to the hand.
+    FlavorText: Come, Wind! Blow! Wrack!
+
+HuntingHurricanes:
+    Name: Hunting Hurricanes
+    Description: |-
+        Deal {Damage} damage to each enemy. 
+        {SelfName} deals damage an additional time for each |Exiled Air Cutter|.
+    FlavorText: A veritable Tornado
+
+IndiscriminateRevenge:
+    Name: Indiscriminate Revenge
+    Description: |-
+        Whenever |Reflection| is triggered, {PlayerName} deals damage to all enemies equal to her |Retaliation|.
+        Gain {Value1} |Retaliation|.
+    FlavorText: "Two graves? When I'm done, I'll fill a cemetery."
+
+InstantofContact:
+    Name: Instant of Contact
+    Description: |-
+        Gain {Value1} |Retaliation|.
+        End {PlayerName}'s turn. Then, take an extra turn.
+        During this extra turn, whenever {PlayerName} gains |Block| or |Barrier|, {PlayerName} gains {Value2} |Retaliation|.
+        |d:Time Limit {Mana}.|
+    FlavorText: When Blades lock, and glares meet over crossed swords.
+
+MapleLeafFestival:
+  Name: Maple Leaf Festival
+  Description: At the start of {PlayerName}'s turn, add a |Maple Leaf| to the hand.
+  FlavorText: a celebration of the end of Summer.
+
+MomijiRiposte:
+  Name: Riposte
+  Description: |-
+    Gain {Value1} |Retaliation|.
+  FlavorText: Step into my guard.
+
+PatientHunter:
+    Name: Patient Hunter
+    Description: gain {Block} |Block|. Block is not lost at the start of {PlayerName}'s next turn.
+    FlavorText: Only strike when the opening is right.
+
+RecklessStrike:
+    Name: Reckless Strike
+    Description: |-
+        Deal {Damage} damage.
+        Apply {Value1} |Vulnerable|.
+        Gain {Value2} |Frail|.
+    FlavorText: Seize victory at any cost.
+
+RipApart:
+  Name: Rip Apart
+  Description: |-
+    Deal {Damage} damage to each enemy.
+    Apply {Value1} |Vulnerable| to each enemy.
+  UpgradedDescription: |-
+    Deal {Damage} damage to each enemy {Value1} times.
+    Apply {Value1} |Vulnerable| to each enemy.
+  FlavorText: Cleave into them quickly.
+
+StandWatch:
+    Name: Stand Watch
+    Description: |-
+        Gain {Block} |Block|.
+        At the start of {PlayerName}'s turn, gain {Value1} |Block|.
+        Block is not lost at the start of {PlayerName}'s turn for the next {Value2} turns.
+    FlavorText: The duty of a sentry is tireless. There is no excuse for faltering.
+
+TrainingRecord:
+    Name: Training Record
+    Description: |-
+        Deal {Damage} damage.
+        If this is the first time a {SelfName} has been played this combat, upgrade a card in {PlayerName}'s deck based on the targeted enemy's intention.
+    DetailText: |-
+        If the enemy has an |Offensive Intention|, an Attack card may be upgraded. 
+        If the enemy has a |Defensive Intention|, a Defense card may be upgraded.
+        If the enemy has a |Special Intention|, an Ability or Skill card may be upgraded.
+    FlavorText: Your opponents are your most important teachers.
+
+
+AdvantageousPosition:
+    Name: Advantageous Position
+    Description: |-
+        Gain {Block} |Block|.
+        Gain {Value1} |Temporary Firepower|.
+    FlavorText: They never look up, even if they're flying.
+
+BladeWarding:
+    Name: Blade Warding
+    Description: |-
+        Apply {Value1} |Weak|.
+        Gain {Value1} |Retaliation|.
+        Add an |Air Cutter| to the hand.
+    FlavorText: "Get away from me!"
+
+BloodScent:
+  Name: Blood Scent
+  Description: |-
+    Deal {Damage} damage.
+    If the targeted enemy has |Vulnerable|, gain {Value1} |Reflection|.
+  FlavorText: So sickly sweet.
+
+CircularPacing:
+    Name: Circular Pacing
+    Description: Whenever an enemy gains a debuff, {PlayerName} gains {Value1} |Barrier|.
+    FlavorText: by constantly circling her opponent, Momiji is able to keep them off balance.
+
+CollectingMomiji:
+  Name: Collecting Momiji 
+  Description: |-
+    Add {Value1} |Maple Leaves| to the hand.
+  Flavortext: The leaves, not the Tengu.
+
+CrispFallAir:
+    Name: Crisp Fall Air
+    Description: |-
+        Add {Value1} |Air Cutters| to the hand.
+        At the start of {PlayerName}'s next turn, gain {Mana}.
+    UpgradedDescription: |-
+        Now and at the start of {PlayerName}'s next turn, add {Value1} |Air Cutters| to the hand and gain {Mana}.
+    FlavorText: Sharp enough to chill
+
+Distract:
+    Name: Distract
+    Description: Whenever {PlayerName} deals attack damage to an enemy, if that enemy has |Vulnerable|, apply 1 |Weak| to that enemy.
+    FlavorText: By constantly presenting a changing image, you can make your opponent hesitate.
+
+ExploitOpenings:
+    Name: Exploit Openings
+    Description: |-
+        Apply {Value1} |Vulnerable|.
+        Gain {Value1} |Firepower|. Gain 1 additional |Firepower| for every {Value2} levels of |Vulnerable| target enemy has.
+    FlavorText: "everyone has one."
+
+ExtrasensoryPerception:
+    Name: Extrasensory Perception
+    Description: Gain {Block} |Block|. Apply {Value1} |Vulnerable| to each enemy.
+    FlavorText: One twitch is all it takes.
+
+FakeOpening:
+  Name: Fake Opening
+  Description: |-
+    Gain {Value1} |Retaliation|.
+    At the start of {PlayerName}'s turn, gain {Value1} |Retaliation|.
+  FlavorText: You fell for it.
+
+FollowUp:
+    Name: Follow Up
+    Description: |-
+        Deal {Damage} damage.
+        If the target has |Vulnerable|, gain {Mana}.
+    FlavorText: hit any weakness hard.
+
+GuardBreak:
+    Name: Guard Break
+    Description: Deal {Damage} damage {Value1} times. Apply {Value1} |Vulnerable|.
+    FlavorText: One blow to break the shield, one blow to break the head.
+
+HuntersTrap:
+    Name: Hunter's Trap
+    Description: |-
+        Gain {Block} |Block|.
+        Add an |Air Cutter| or a |Maple Leaf| to the hand.
+    FlavorText: Pitfalls, snares, deadfalls... they get the job done.
+
+HuntingCall:
+    Name: Hunting Call
+    Description: Apply 2 |Vulnerable| to each enemy. If any enemy has an |Offensive Intention|, draw {Value2} cards. 
+    Flavortext: The signal to Momiji's fellow Patrol Tengu that an intruder has been sighted.
+
+ImageTraining:
+    Name: Image Training
+    Description: |- 
+        Add an |Air Cutter| to the hand. 
+        At the start of the turn, add an |Air Cutter| to the hand.
+    FlavorText: Dueling Imaginary Enemies, a sword slices through the air.
+
+LookoutsIntuition:
+    Name: Lookout's Intuition
+    Description:
+        Gain {Value1} |Graze|.
+        Select an enemy. Gain {Shield} |Barrier| for every {Value2} levels of |Vulnerable| that enemy has.
+    FlavorText: Just a small hop to the left.
+
+MountainsideTrailTracking:
+    Name: Mountainside Trail Tracking
+    Description: the first time {PlayerName} deals attack damage to an enemy with Vulnerable each turn, draw {Value1} card{Value1:plural one='' other='s'}.
+    FlavorText: No one can hide from her
+
+OverhandBlade:
+    Name: Overhand Blade
+    Description: |-
+        Deal {Damage} damage.
+        If the target has |Vulnerable|, apply {Value1} |Weak|.
+        If the target has |Weak|, apply {Value1} |Vulnerable|.
+    FlavorText: Strike when they're off balance.
+
+PartingSlice:
+    Name: Parting Slice
+    Description: |-
+        Deal {Damage} damage to each enemy.
+        For each enemy with an |Offensive Intention|, gain {Value1} |Graze|.
+    UpgradedDescription: |-
+        Deal {Damage} damage to each enemy two times.
+        For each enemy with an |Offensive Intention|, gain {Value1} |Graze|.
+    FlavorText: Marginally less effective than a Parting Shot.
+
+Patrol:
+    Name: Patrol
+    Description: |-
+        Draw {Value1} Cards. 
+        Gain {Value2} |Graze| for each red card drawn this way.
+    UpgradedDescription: |-
+        Draw {Value1} Cards.
+        Gain {Value2} |Graze| for each red, Status, or |Misfortune| card drawn this way.
+    FlavorText: Momiji's constant task.
+
+ScatteringLeaves:
+  Name: Scattering Leaves
+  Description: Deal {Damage} damage to a random enemy {Value1} times.
+  FlavorText: A flurry of blinding red.
+
+SenseWeakness:
+    Name: Sense Weakness
+    Description: Apply {Value1} |Vulnerable| to all enemies. Enemies with |Vulnerable| take {Value2}% more damage.
+    FlavorText: Keen eyes detect even the slightest gaps in the opponent's guard.
+
+ShieldCounter:
+    Name: Shield Counter
+    Description: |-
+        Gain {Value2} |Reflection|.
+        Whenever |Reflection| or |Static Charge| is triggered, apply {Value1} |Vulnerable| to the enemy that triggered it.
+    FlavorText: You're wide open
+
+SurgeofPower:
+    Name: Surge of Power
+    Description: the next {Value1} cards that {PlayerName} plays cost {Mana}.
+    FlavorText: Often accompanied by loud yells and bleached hair.
+
+Taunt:
+    Name: Taunt
+    Description: |-
+        Apply {Value1} |Weak| and {Value1} |Vulnerable|.
+        The targeted enemy deals {Value2} damage to {PlayerName}.
+    FlavorText: A technique learned from the best.
+
+CrashingWaterBlade:
+    Name: Crashing Water Blade
+    Description: Deal {Damage} damage. Deals damage an additional time for every {Value1} |Reflection| {PlayerName} has.
+    FlavorText: The force of Momiji's favorite waterfall, channeled into a single strike.
+
+FrigidSky:
+    Name: Frigid Sky
+    Description: |-
+        Whenever an |Air Cutter| deals unblocked damage to an enemy, apply |Cold| to that enemy.
+        Add an |Air Cutter| to the hand.
+    UpgradedDescription:
+        Whenever an |Air Cutter| deals unblocked damage to an enemy, apply |Cold| to that enemy.
+        Add two |Air Cutters| to the hand.
+    FlavorText: Cold enough to cut.
+
+PlungePool:
+    Name: Plunge Pool
+    Description: |-
+        Gain {Block} |Block|.
+        Gain additional |Block| Equal to {PlayerName}'s |Retaliation|. ({ReflectShield})
+    NonBattleDescription: |-
+        Gain {Block} |Block|.
+        Gain additional |Block| Equal to {PlayerName}'s |Retaliation|.
+    UpgradedDescription: |-
+        Gain {Shield} |Barrier|.
+        Gain additional |Barrier| Equal to {PlayerName}'s |Retaliation|. ({ReflectShield})
+    UpgradedNonBattleDescription:
+        Gain {Shield} |Barrier|.
+        Gain additional |Barrier| Equal to {PlayerName}'s |Retaliation|.
+    FlavorText: Don't let it trap you.
+
+AlwaysWatching:
+    Name: Always Watching
+    Description: |-
+        Gain {Shield} |Barrier|.
+        If any enemy has an |Offensive Intention|, gain {Block} |Block|.
+    FlavorText: Alwways listening.
+
+CallToArms:
+    Name: Call to Arms
+    Description: |-
+        Choose up to {Value1} card{Value1:plural one='' other='s'} in the draw or discard piles and put {Value1:plural one='it' other='them'} into the hand. 
+        Upgrade {Value1:plural one='it' other='them'}. 
+    FlavorText: A clarion call to tell other White Wolves that an intruder has been discovered.
+
+DefensiveStrike:
+    Name: Defensive Strike
+    Description: |-
+        Deal {Damage} damage.
+        Gain |Block| equal to the amount of unblocked damage dealt this way.
+    FlavorText: "Back!"
+
+Destabilize:
+    Name: Destabilize
+    Description: Whenever {PlayerName} deals unblocked attack damage, they gain {Value1} |Block|.
+    FlavorText: with quick, light strikes to keep her opponents off balance, Momiji leaves them unable to land a solid hit on her.
+
+DoubleDown:
+    Name: Double Down
+    Description: Deal {Damage} damage. If the enemy does not intend to attack, deal damage {Value1} additional time{Value1:plural one='' other='s'}.
+    FlavorText: press hard against any attempt to disengage
+
+EyeforanEye:
+    Name: Eye for an Eye
+    Description: |-
+        Deal {Damage} damage.
+        The targeted enemy deals {Value1} damage to {PlayerName}.
+    FlavorText: They'll go blind first.
+
+FalseWeakness:
+    Name: False Weakness
+    Description: |-
+        Gain {Block} |Block|.
+        Gain {Value1} |Retaliation|.
+    FlavorText: Why does this always work?
+
+FarSight:
+    Name: Far Sight
+    Description: gain {Value1} |Reflection|. If any enemy intends to attack, gain {Block} |Block|.
+    FlavorText: She can see Danmaku a thousand Ri away.
+
+Howl:
+    Name: Howl
+    Description: If the enemy has an |Offensive Intention|, Apply {Value1} |Firepower Down|.
+    FlavorText: Awooooooo!
+
+IronStance:
+    Name: Iron Stance
+    Description: |-
+        Gain {Block} |Block| and {Value1} |Static Charge| until {PlayerName}'s next turn.
+    UpgradedDescription: |-
+        Gain {Shield} |Barrier| and {Value1} |Static Charge| until {Playername}'s next turn.
+    FlavorText: Iron is sturdy, and, more importantly, conductive.
+
+LongVigil:
+    Name: Long Vigil
+    Description: |-
+        Exile up to {Value1} cards from your hand. Gain {Block} |Block| for each card exiled this way.
+    UpgradedDescription: |-
+        Exile up the {Value1} cards from your hand, draw, or discard piles. Gain {Block} |Block| for each card exiled this way.
+    FlavorText: The Night will be long. Best be prepared.
+
+MomijiReflect:
+  Name: Reflect
+  Description: |-
+    Gain {Value1} life.
+    Gain {Shield} |Barrier|.
+  FlavorText: Reflect. Study. Practice.
+
+PreparedDefense:
+    Name: Prepared Defense
+    Description: |-
+        Gain {Value1} |Reflection|.
+        Convert all |Reflection| {PlayerName} currently possesses into |Static Charge| for this turn.
+    FlavorText: Let them Come.
+
+RagingWaterfall:
+    Name: Raging Waterfall
+    Description: |-
+        Gain {Block} Block.
+        Draw {Value1} extra cards at the stard of {PlayerName}'s next turn.
+    FlavorText: Perfect for meditation or ambushes.
+
+SeizeTheMoment:
+    Name: Seize the Moment
+    Description: |-
+        Deal {Damage} damage.
+        Apply an additional effect based on the enemy's |Intention|.
+    DetailText: |-
+        If the enemy has an |Offensive Intention|, apply {Value1} |Temporary Firepower Down| to the enemy. 
+        If the enemy has a |Defensive Intention|, apply {Value2} |Vulnerable| and {Value1} |Spirit Down|.
+        If the enemy has a |Special Intention|, deal damage an additional time.
+    FlavorText: Always be prepared to act at a moment's notice.
+
+TacticalInsight:
+    Name: Tactical Insight
+    Description: Add {Value2} of {Value1} |p:completely random| defense cards to the hand. It temporarily costs {Mana} and has |Exile| and |Ethereal|.
+    FlavorText: Study your opponents to know them. Then, steal their best tactics
+
+TengusForesight:
+    Name: Tengu's Foresight
+    Description: |- 
+        Draw {Value1} card{Value1:plural one='' other='s'}. |Block| is not lost at the start of {PlayerName}'s next turn.
+    FlavorText: Your next line is...
+
+TirelessGuard:
+    Name: Tireless Guard
+    Description: |-
+        Whenever |Reflection| is triggered, gain |Reflection| equal to half the damage dealt by {PlayerName}'s |Reflection|.
+        Gain {Value2} |Reflection|.
+    FlavorText: Always be ready for their second strike.
+
+TrapStance:
+    Name: Trap Stance
+    Description: |-
+        Gain {Value1} |Retaliation|.
+        The first time that {PlayerName} is attacked each turn, gain |Reflection| equal to {PlayerName}'s |Retaliation|.
+    FlavorText: Always have a plan. And a plan for if the first plan fails.
+
+TwinFang:
+    Name: Twin Fang    
+    Description: |-
+        Gain {Value2} |Reflection|.
+        The next time |Reflection| is triggered, gain |Reflection| equal to the amount of damage dealt by {PlayerName}'s |Reflection|.
+    FlavorText: Always strike twice.
+
+VacuumCutter:
+    Name: Vacuum Cutter
+    Description: Deal {Damage} damage. Add an |Air Cutter| to the hand.
+    FlavorText: Slice through the air fast enough to leave a sound.
+
+WardingStrike:
+    Name: Warding Strike
+    Description: |-
+        Deal {Damage} damage.
+        Deal additional damage equal to {PlayerName}'s |Reflection|. ({ReflectDamage})
+    NonbattleDescription: |-
+        Deal {Damage} damage.
+        Deal additional damage equal to {PlayerName}'s |Reflection|.
+    FlavorText: Make them pay for complacency.
+
+WaterfallMeditation:
+    Name: Waterfall Meditation
+    Description: |-
+        Select an enemy. Perform an action based on the selected enemy's intentions.
+        Draw {Value1} card{Value1:plural one='' other='s'}.
+    DetailText: |-
+        If the enemy has an |Offensive Intention|, gain {Value2} block and upgrade {Value1} random card in the hand{Value1:plural one='' other='s'}, prioritizing Attack cards.
+        If the enemy has a |Defensive Intention|, apply {Value1} |Vulnerable| and |Spirit Down| to the enemy.
+        If the enemy has a |Special Intention|, gain {Value1} |Firepower|.
+    FlavorText: Just don't ask her how long it takes her tail to dry.
+
+WindsweptBlade:
+    Name: Windswept Blade
+    Description: |-
+        Deal {Damage} damage 2 times.
+        Gain {Value1} |Retaliation|.
+    FlavorText: "Hiyah!"
+
+SampleCharacterXCost:
+  Name: X-Cost card
+  Description: |-
+    Deal {Damage} damage.
+    |For each {Mana} spent|: Deal {Value1} additional damage.
+    |For each {BlueMana} spent|: Gain {Value2} life.
+

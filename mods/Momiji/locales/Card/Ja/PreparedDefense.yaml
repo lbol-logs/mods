@@ -1,0 +1,7 @@
+﻿PreparedDefense:
+  Name: 万全の防御
+  Description: >-
+    |反射|{Value1}を得る。
+
+    このターンの間、{PlayerName}が持っている|反射|をすべて|帯電|に変換する。
+  FlavorText: 来るがいい。

@@ -1,0 +1,4 @@
+﻿FarSight:
+  Name: 망원
+  Description: '|반사|를 {Value1} 얻습니다. 공격하려는 적이 있다면, |방어|를 {Block} 얻습니다.'
+  FlavorText: 그녀는 천 리 밖의 탄막을 볼 수 있다.

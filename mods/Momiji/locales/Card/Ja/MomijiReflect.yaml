@@ -1,0 +1,7 @@
+﻿MomijiReflect:
+  Name: 反省する
+  Description: >-
+    ライフを{Value1}回復する。
+
+    {Shield}バリアを得る。
+  FlavorText: 反省する。学ぶ。練習する。

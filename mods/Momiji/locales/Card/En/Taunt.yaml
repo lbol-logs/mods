@@ -1,0 +1,7 @@
+﻿Taunt:
+  Name: Taunt
+  Description: >-
+    Apply {Value1} |Weak| and {Value1} |Vulnerable|.
+
+    The targeted enemy deals {Value2} damage to {PlayerName}.
+  FlavorText: A technique learned from the best.

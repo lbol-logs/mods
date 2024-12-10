@@ -1,0 +1,6 @@
+﻿HuntingCall:
+  Name: 狩りの合図
+  Description: >-
+    敵全体に|弱体|2を与える。
+
+    |攻撃姿勢|の敵がいればカードを{Value2}枚引く。

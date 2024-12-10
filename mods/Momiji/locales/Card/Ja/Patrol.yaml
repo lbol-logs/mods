@@ -1,0 +1,11 @@
+﻿Patrol:
+  Name: 巡回
+  Description: >-
+    カードを{Value1}枚引く。
+
+    このカードで引いた赤のカードごとに、|グレイズ|{Value2}を得る。
+  UpgradedDescription: >-
+    カードを{Value1}枚引く。
+
+    このカードで引いた赤のカードか|厄災|ごとに、|グレイズ|{Value2}を得る。
+  FlavorText: 椛の日常

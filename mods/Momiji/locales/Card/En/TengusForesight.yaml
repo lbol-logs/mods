@@ -1,0 +1,4 @@
+﻿TengusForesight:
+  Name: Tengu's Foresight
+  Description: Draw {Value1} card{Value1:plural one='' other='s'}. |Block| is not lost at the start of {PlayerName}'s next turn.
+  FlavorText: Your next line is...

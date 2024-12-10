@@ -1,0 +1,11 @@
+﻿WardingStrike:
+  Name: Warding Strike
+  Description: >-
+    Deal {Damage} damage.
+
+    Deal additional damage equal to {PlayerName}'s |Reflection|. ({ReflectDamage})
+  NonbattleDescription: >-
+    Deal {Damage} damage.
+
+    Deal additional damage equal to {PlayerName}'s |Reflection|.
+  FlavorText: Make them pay for complacency.

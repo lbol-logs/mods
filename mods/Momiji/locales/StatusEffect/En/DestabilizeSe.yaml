@@ -1,0 +1,3 @@
+﻿DestabilizeSe:
+  Name: Destabilize
+  Description: Whenever {Ownername} deals unblocked attack damage to an enemy, they gain {Level} |Block|.

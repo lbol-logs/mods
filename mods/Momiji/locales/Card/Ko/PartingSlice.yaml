@@ -1,0 +1,11 @@
+﻿PartingSlice:
+  Name: 이별의 일격
+  Description: >-
+    모든 적에게 피해를 {Damage} 줍니다.
+
+    |공격|하려는 적마다 |그레이즈|를 {Value1} 얻습니다.
+  UpgradedDescription: >-
+    모든 적에게 피해를 {Damage}를 2번 줍니다.
+
+    |공격|하려는 적마다 |그레이즈|를 {Value1} 얻습니다.
+  Flavortext: 이별의 발사보다 약간 덜 효과적이다.

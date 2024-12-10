@@ -1,0 +1,7 @@
+﻿MomijiReflect:
+  Name: 반격
+  Description: >-
+    체력을 {Value1} 얻습니다.
+
+    |보호막|을 {Shield} 얻습니다.
+  FlavorText: 반격. 탐구. 연습.
