@@ -8,6 +8,119 @@
     "until_other": ""
   },
 
+  "BlackWindSe": {
+    "Name": "黒い風",
+    "Description": "<h>エアカッター</h>は弱体1を付与する。"
+  },
+  "CircularPacingSe": {
+    "Name": "円環の舞",
+    "Description": "敵がデバフを得る度に、<Level /><h>バリア</h>を得る。"
+  },
+  "CrispFallAirSe": {
+    "Name": "木枯らし",
+    "Description": "<OwnerName />の次のターン、<h>エアカッター</h>を<Level />枚手札に加える。"
+  },
+  "DefensiveIntention": {
+    "Name": "防御姿勢",
+    "Description": "防御姿勢は次のいずれかに該当する行動である。<br /><br /><h>バフ</h>、<h>浄化</h>、<h>デバフを解除?</h>、<h>防御</h>、<h>グレイズ</h>、<h>逃走</h>、<h>修理</h>"
+  },
+  "DestabilizeSe": {
+    "Name": "揺らぐ足元",
+    "Description": "敵を攻撃してブロックされなかった時、その度に<Level /><h>ブロック</h>を得る。"
+  },
+  "DistractSe": {
+    "Name": "狼狽",
+    "Description": "<OwnerName />が敵を攻撃する度に、相手が<h>弱体</h>を持っていれば<h>脱力</h>1を与える。"
+  },
+  "FakeOpeningSe": {
+    "Name": "欺きの隙",
+    "Description": "<OwnerName />のターン開始時、<h>報復</h><Level />を得る。"
+  },
+  "FeedOnTheWeakSe": {
+    "Name": "弱者狩り",
+    "Description": "敵が倒れる度、<sprite=\"Point\" name=\"Power\"\\> 10を得て、ライフ4を回復する。"
+  },
+  "ForestAmbushSe": {
+    "Name": "森の待ち伏せ",
+    "Description": "<OwnerName />がダメージを与える度に、<h>報復</h>に等しいダメージを追加で与える。"
+  },
+  "FrigidSkySe": {
+    "Name": "極寒の空",
+    "Description": "<h>エアカッター</h>が敵にブロックされなかった度に、その敵に<h>凍結</h>を与える。"
+  },
+  "HowlingMountainWindSe": {
+    "Name": "山風のうなり",
+    "Description": "<OwnerName />が<h>弱体</h>を持ってる敵に<h>エアカッター</h>を使うと、その<h>エアカッター</h>のダメージは2倍になる。"
+  },
+  "ImageTrainingSe": {
+    "Name": "イメージトレーニング",
+    "Description": "<OwnerName />のターン開始時、<h>エアカッター</h>を手札に加える。"
+  },
+  "IndiscriminateRevengeSe": {
+    "Name": "無情な復讐",
+    "Description": "<h>反射</h>が発動する時、すべての敵に<h>報復</h>に等しいダメージを与える。"
+  },
+  "InstantofContactSe": {
+    "Name": "睨み合う剣",
+    "Description": "この追加ターン中に<PlayerName />が<h>ブロック</h>又は<h>バリア</h>を得る度に、<h>報復</h>3を得る。"
+  },
+  "MapleLeafFestivalSe": {
+    "Name": "紅葉祭り",
+    "Description": "<OwnerName />のターン開始時、<h>楓の葉</h>を手札に加える。"
+  },
+  "MountainsideTrailTrackingSe": {
+    "Name": "山道の追跡",
+    "Description": "プレイヤーのそれぞれのターンの最初に<h>弱体</h>を持ってる敵にダメージを与えた時、カードを<Level />枚引く。"
+  },
+  "OffensiveIntention": {
+    "Name": "攻撃姿勢",
+    "Description": "攻撃姿勢は次のいずれかに該当する行動である。<br /><br /><h>攻撃</h>、<h>デバフ</h>、<h>状態異常</h>、<h>爆発</h>、<h>スペルカード</h>"
+  },
+  "RetaliationSe": {
+    "Name": "報復",
+    "Description": "<OwnerName />のターン開始時、<h>反射</h><Level />を得る。"
+  },
+  "SenseWeaknessSe": {
+    "Name": "弱点感知",
+    "Description": "敵が受ける弱体の効果を<Level />%増加させる。"
+  },
+  "ShieldCounterSe": {
+    "Name": "シールドカウンター",
+    "Description": "<h>反射</h>か<h>帯電</h>が発動する度に、その対象に<h>弱体</h><Level />を与える。"
+  },
+  "SmellofDeathSe": {
+    "Name": "死を呼ぶ香",
+    "Description": "<OwnerName />が倒れる時、他のすべて敵に最大HPの半分に等しいダメージ与える。"
+  },
+  "SpecialIntention": {
+    "Name": "特殊行動",
+    "Description": "特殊行動は次のいずれかに該当する行動である。<br /><h>召喚</h>、<h>スタン</h>、<h>なにもしない</h>、<h>チャージ</h>、<h>回復</h>、<h>暗黒能楽</h>、<h>呪い</h>"
+  },
+  "StandWatchSe": {
+    "Name": "警備",
+    "Description": "<OwnerName />のターン開始時、<Level /><h>ブロック</h>を得る。"
+  },
+  "SurgeofPowerSe": {
+    "Name": "力の奔流",
+    "Description": "次に<OwnerName />がプレイする<Level />枚のカードコストが<Mana />になる。"
+  },
+  "TirelessGuardSe": {
+    "Name": "不屈の守護",
+    "Description": "<h>反射</h>が発動する度に、<h>反射</h>で与えたダメージの半分の<h>反射</h>を得る。"
+  },
+  "TrapStanceSe": {
+    "Name": "待ち伏せの構え",
+    "Description": "それぞれのターン<OwnerName />が最初に攻撃された時、<OwnerName />の<h>報復</h>に等し<h>反射</h>を得る。"
+  },
+  "TwinFangSe": {
+    "Name": "二つの牙",
+    "Description": "次に<h>反射</h>は発動する時、<h>反射</h>で与えたダメージに等しい<h>反射</h>を得る。"
+  },
+  "WoodlandSentrySe": {
+    "Name": "森の守護者",
+    "Description": "<OwnerName />のターン終了時、手札1枚につき<Level /><h>ブロック</h>を得る。"
+  },
+
   "PatchouliAstronomyStudySe": {
     "Name": "天文学研究",
     "Description": "<PlayerName />のターン開始時、手札に<h>天文学</h>が無い場合、<h>天文学</h>を<Level />枚手札に加える。"
