@@ -22,6 +22,7 @@ namespace ExportModImgs.Exporters
     {
         // add guid here
         public Dictionary<string, string> targetGUIDs = new Dictionary<string, string>() {
+            { "Momiji", "worldsoul.test.momiji.mod" },
             { "PatchouliMod", "rmrfmaxx.lbol.PatchouliCharacterMod" },
             { "Sanae_Kochiya", "xeno.lbol.character.Sanae_Kochiya" },
             { "Utsuho", "zosit.lbol.test.utsuho" },
