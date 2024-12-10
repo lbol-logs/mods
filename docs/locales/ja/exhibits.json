@@ -1,4 +1,13 @@
 {
+  "BatteredShield": {
+    "Name": "使い古された盾",
+    "Description": "マナ基盤に<Mana />を加える。<h>椛</h>固有のカードが出現するようになる。<br />各ターン<h>ブロック</h>か<h>バリア</h>を得た時、一度だけ<h>反射</h>を得る。"
+  },
+  "HeavyBlade": {
+    "Name": "ヘビーブレード",
+    "Description": "マナ基盤に<Mana />を加える。<h>椛</h>固有のカードが出現するようになる。<br />各ターン最初に攻撃した敵に対し、<h>臨時火力ダウン</h><Value1 />を与える。<br />(それぞれの敵につき各戦闘中1回まで)"
+  },
+
   "PatchouliExhibitB": {
     "Name": "精霊の印章",
     "Description": "マナ基盤に<Mana />を加え、<h>パチュリー</h>専用のカードが出現するようになる。<br /><PlayerName />のターン開始時に<PlayerName />が<h>$t(PatchouliExhibitB.Sign, { 'context': {{Sign}} })印</h>を得ていない場合、<h>$t(PatchouliExhibitB.Sign, { 'context': {{Sign}} })印</h><Value1 />を得る。",

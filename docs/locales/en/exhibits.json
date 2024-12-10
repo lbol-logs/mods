@@ -1,4 +1,13 @@
 {
+  "BatteredShield": {
+    "Name": "Battered Shield",
+    "Description": "Adds <Mana /> to the mana base. Cards unique to <h>Momiji Inubashiri</h> are added to the card pool.<br />The first time Block or Barrier is gained each turn, gain <Value1 /> <h>Reflection</h>."
+  },
+  "HeavyBlade": {
+    "Name": "Heavy Blade",
+    "Description": "Adds <Mana /> to the mana base. Cards unique to <h>Momiji Inubashiri</h> are added to the card pool.<br />The first time <PlayerName /> deals attack damage to an enemy each combat, apply <Value1 /> <h>Temporary Firepower Down</h> to that enemy."
+  },
+
   "PatchouliExhibitB": {
     "Name": "Elemental Sigil",
     "Description": "Adds <Mana /> to the mana base. Cards unique to <h>Patchouli</h> are added to the card pool.<br />At the start of the Player's turn, if the Player doesn't have any <h>$t(PatchouliExhibitB.Sign, { 'context': {{Sign}} }) Sign</h>, <h>Spellcast</h> <Value1 /> <h>$t(PatchouliExhibitB.Sign, { 'context': {{Sign}} }) Sign</h>.",
