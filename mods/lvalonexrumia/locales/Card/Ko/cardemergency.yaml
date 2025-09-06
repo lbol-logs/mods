@@ -1,0 +1,16 @@
+﻿cardemergency:
+  Name: 긴급 방호
+  Description: >-
+    현재 체력의 {Value1}%를 {healstring}|상실|합니다.
+
+    |방어|를 {Block} 얻습니다.
+
+    |어둠의 피 토큰|을 {Value2} 얻습니다.
+  UpgradedDescription: >-
+    현재 체력의 {Value1}%를 {healstring}|상실|합니다.
+
+    |방어|를 {Block} 얻습니다.
+
+    |어둠의 피 토큰|을 {Value2} 얻습니다.
+
+    적이 공격을 의도하고 있다면 |혈전|을 {Value1} 얻습니다.

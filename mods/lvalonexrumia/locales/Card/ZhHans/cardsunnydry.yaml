@@ -1,0 +1,10 @@
+﻿cardsunnydry:
+  Name: 阳光普照
+  Description: >-
+    |减少| {Value1}% {healstring}生命值。
+
+    获得{Mana}。
+
+    获得 {Value2} 层|血块|。
+
+    将 |n:1| 张|折射日光|加入手中。

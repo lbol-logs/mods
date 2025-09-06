@@ -1,0 +1,14 @@
+﻿carddarkblood:
+  Name: 闇の血
+  Description: >-
+    |生命増幅|{Value1}% {healstring} 
+
+    カードを{Value2}枚引く。
+
+    {PlayerName}が|加速|を持っていない場合、|加速|{Value2}を得る。
+  UpgradedDescription: >-
+    |生命増幅| {Value1}% {healstring} 
+
+    カードを{Value2}枚引く。
+
+    |グレイズ|{Value2}を得る。

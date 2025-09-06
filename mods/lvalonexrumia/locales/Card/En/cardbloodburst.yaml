@@ -1,0 +1,8 @@
+﻿cardbloodburst:
+  Name: Blood Burst
+  Description: >-
+    |Decrease| {Value1}% {healstring}life.
+
+    Apply |n:1| |Bleed| to each enemy {Value2} time{Value2:plural one='' other='s'}.
+
+    Deal {Damage} damage to each enemy with |Bleed| |n:3| times.

@@ -1,0 +1,24 @@
+exulta:
+  Title: EX
+  Content: "Termination"
+  Description: |-
+    Apply {Value1} |Blood Mark|.
+    Deal {Damage} damage {Value2} time{Value2:plural one='' other='s'}.
+    |Accurate|
+
+exultb:
+  Title: Blood Sign
+  Content: "Crimson Moonlight Sonata"
+  Description: |-
+    Apply {Value1} |Bleed| to each enemy.
+    Deal {Damage} damage to each enemy {Value2} time{Value2:plural one='' other='s'}.
+    |Accurate|
+
+extenshaded:
+  Content: "Ten-Shaded Slash"
+
+exshadowcut:
+  Content: "Shadow Cut"
+
+exgojo:
+  Content: "Infinite Void"

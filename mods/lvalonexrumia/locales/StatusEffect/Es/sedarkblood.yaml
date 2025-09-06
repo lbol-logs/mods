@@ -1,0 +1,4 @@
+﻿sedarkblood:
+  Name: Emblema de Sangre Oscura
+  Description: '|Una vez por turno|, cuando la vida de {PlayerName} se reduce, pierde |n:1| {SelfName} y agrega una |Sangre Oscura| a la mano, pierde todos los |n:Emblemas de Sangre Oscura| para ganar esa misma cantidad de {mana}.'
+  Brief: '|Una vez por turno|, cuando la vida de {PlayerName} se reduce, pierde |n:1| {SelfName} y agrega una |Sangre Oscura| a la mano, pierde todos los |m:Emblemas de Sangre Oscura| para ganar esa misma cantidad de {mana}.'

@@ -1,0 +1,6 @@
+﻿cardblooduse:
+  Name: 血の活用
+  Description: >-
+    敵全体に{Damage}ダメージを与える。
+
+    もし{PlayerName}ライフが|50|%未満{needstring}なら、手札に|深紅の血|を{Value1}枚加える。

@@ -1,0 +1,14 @@
+﻿cardnoradrenaline:
+  Name: 去甲腎上腺素
+  Description: >-
+    |減少| {Value1}% {healstring}生命值。
+
+    對所有擁有|血跡|或|流血|的敵人造成 {Damage} 點傷害 |n:3| 次。
+
+    如果{PlayerName}的生命值少於 |n:50|% {needstring}，將 {Value2} 張|紅血|加入手中。
+  UpgradedDescription: >-
+    |減少| {Value1}% {healstring}生命值。
+
+    對所有敵人造成 {Damage} 點傷害 |n:3| 次。
+
+    如果{PlayerName}的生命值少於 |n:50|% {needstring}，將 {Value2} 張|紅血|加入手中。

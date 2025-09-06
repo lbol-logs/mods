@@ -1,0 +1,16 @@
+﻿cardemergency:
+  Name: Emergency Cover
+  Description: >-
+    |Decrease| {Value1}% {healstring}of current life.
+
+    Gain {Block} |Block|.
+
+    Gain {Value2} |Dark Blood Token|.
+  UpgradedDescription: >-
+    |Decrease| {Value1}% {healstring}of current life.
+
+    Gain {Block} |Block|.
+
+    Gain {Value2} |Dark Blood Token|.
+
+    If an enemy intends to attack, gain {Value1} |Blood Clot|.

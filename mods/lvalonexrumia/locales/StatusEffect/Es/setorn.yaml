@@ -1,0 +1,4 @@
+﻿setorn:
+  Name: Cinta Roja Desgarrada
+  Description: 'Mientras {PlayerName} tenga menos del |n:50|% ({lifeneed}) de vida: Cada vez que {PlayerName} |Evada| un ataque, gana {increase} de |Incremento de Ataque|, |Incrementa| la vida en un {increase}% ({increaselife}).'
+  Brief: 'Mientras {PlayerName} tenga menos del |n:50|% de vida: Cada vez que {PlayerName} |Evada| un ataque, gana |n:10| de |Incremento de Ataque|, |Incrementa| la vida en un |n:10|%.'

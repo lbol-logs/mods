@@ -1,0 +1,4 @@
+﻿sequickrestore:
+  Name: 瞬間再生
+  Description: 這輪結束時，將生命值回復至 {truecounter}。
+  Brief: 這輪結束時，回復生命值。

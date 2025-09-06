@@ -1,0 +1,10 @@
+﻿sebossheal:
+  Name: Enraged
+  Description: >-
+    {OwnerName}'s moves are enhanced when her life is below |n:50|% .
+
+    Whenever {PlayerName} is attacked, {OwnerName}'s life is |increased| by |n:1|%.
+  Brief: >-
+    {OwnerName}'s moves are enhanced when her life is below |n:50|% .
+
+    Whenever {PlayerName} is attacked, {OwnerName}'s life is |increased| by |n:1|%.

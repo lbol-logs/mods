@@ -1,0 +1,4 @@
+﻿semixedblood:
+  Name: Sangre Mezclada al 200%
+  Description: Hasta el final del turno, siempre que se juegue |Sangre Oscura|, se juega |Sangre Carmesí| {Level} ve{Level:plural one='z' other='ces'}, Siempre que se juegue |Sangre Carmesí|, gana {Level} |Emblema de Sangre Oscura|.
+  Brief: Hasta el final del turno, siempre que se juegue |Dark Blood|, se juegan |Sangres Carmesí|, Siempre que se juegue |Sangre Carmesí|, gana |Emblemas de Sangre Oscura|.

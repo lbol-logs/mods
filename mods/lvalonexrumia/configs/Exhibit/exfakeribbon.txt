@@ -1,0 +1,1 @@
+﻿{ExhibitConfig Index=0, Id=, Order=10, IsDebug=False, IsPooled=True, IsSentinel=False, Revealable=False, Appearance=ShopOnly, Owner=, LosableType=Losable, Rarity=Rare, Value1=null, Value2=null, Value3=null, Mana=R, BaseManaRequirement=null, BaseManaColor=null, BaseManaAmount=1, HasCounter=False, InitialCounter=null, Keywords=None, RelativeEffects=[], RelativeCards=[]}

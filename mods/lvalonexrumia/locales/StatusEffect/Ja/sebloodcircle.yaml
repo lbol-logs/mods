@@ -1,0 +1,4 @@
+﻿sebloodcircle:
+  Name: 血液循環
+  Description: '{PlayerName}のターン開始時、|廃棄された血|のカードを好きな枚数だけ手札に戻す。'
+  Brief: '{PlayerName}のターン開始時、|廃棄された血|のカードを好きな枚数だけ手札に戻す。'

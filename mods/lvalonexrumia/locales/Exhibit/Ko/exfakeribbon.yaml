@@ -1,0 +1,4 @@
+﻿exfakeribbon:
+  Description: 보스 또는 정예 전투 중, {PlayerName}의 턴 시작 시 {ManaFake}를 얻습니다.
+  Name: 리본
+  FlavorText: '"봉인을 풀면 마신의 힘이 깨어난다고 들었어요."'

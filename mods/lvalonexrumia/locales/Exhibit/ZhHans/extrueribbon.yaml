@@ -1,0 +1,8 @@
+﻿extrueribbon:
+  Name: 真正的缎带
+  Description: >-
+    提供基础法力{BaseMana}。
+
+    每场战斗的最开始时，所有敌人|减少| {Value2}% 生命值 (最少 {Value2} 点生命值) {Value1} 次。
+
+    每场战斗的最开始时，对所有敌人施加 {Value1} 层|血迹|和|严重流血|。

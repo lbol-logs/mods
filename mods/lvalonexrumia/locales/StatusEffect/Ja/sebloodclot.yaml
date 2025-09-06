@@ -1,0 +1,4 @@
+﻿sebloodclot:
+  Name: 血盾
+  Description: '{OwnerName}はこのラウンドの終了まで、受ける攻撃ダメージが{Value}%減少 (上限|n:100|%)'
+  Brief: '{OwnerName}はこのラウンドの終了まで、受ける攻撃ダメージが{Value}%減少 (上限|n:100|%)'

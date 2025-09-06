@@ -1,0 +1,4 @@
+﻿sepastpresent:
+  Name: 前世今生
+  Description: 下回合開始時，追加打出獲得{SelfName}後所有打出的牌，移除{SelfName}。
+  Brief: 下回合開始時，追加打出獲得{SelfName}後所有打出的牌，移除{SelfName}。

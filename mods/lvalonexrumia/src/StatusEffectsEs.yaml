@@ -1,0 +1,215 @@
+sedecrease:
+  Name: Reducción de Vida
+  Description: "Un método especial que reduce la vida en lugar de perderla normalmente. Se muere cuando la vida se establece en |n:<= 0|."
+  Brief: "Un método especial que reduce la vida en lugar de perderla normalmente. Se muere cuando la vida se establece en |n:<= 0|."
+
+seincrease:
+  Name: Incremento de Vida
+  Description: "Un método especial que aumenta la vida en lugar de ganarla normalmente. No sobrepasa la vida máxima."
+  Brief: "Un método especial que aumenta la vida en lugar de ganarla normalmente. No sobrepasa la vida máxima."
+
+sebloodmark:
+  Name: Marca de Sangre
+  Description: "{OwnerName} recibe {Value}% más de daño de los ataques.\nPierde |n:1| {SelfName} al comienzo del turno de {OwnerName}."
+  Brief: "{OwnerName} recibe {Value}% más de daño de los ataques.\nPierde |n:1| {SelfName} al comienzo del turno de {OwnerName}."
+
+sebleed:
+  Name: Sangrado
+  Description: "{OwnerName} |Reduce| |n:1|% ({truecount}) de vida al ser atacado.\nPierde |n:1| {SelfName} al comienzo del turno de {OwnerName}.\n{OwnerName} tiene {lifenow} de vida ahora mismo."
+  Brief: "{OwnerName} |Reduce| |n:1|% de vida (redondeado hacia arriba) al ser atacado.\nPierde |n:1| {SelfName} al comienzo del turno de {OwnerName}."
+
+sedeepbleed:
+  Name: Sangrado Severo
+  Description: "{OwnerName} |Reduce| |n:2|% ({truecount}) de vida al ser atacado.\nPierde |n:1| {SelfName} al comienzo del turno de {OwnerName}.\n{OwnerName} tiene {lifenow} de vida ahora mismo."
+  Brief: "{OwnerName} |Reduce| |n:2|% de vida (redondeado hacia arriba) al ser atacado.\nPierde |n:1| {SelfName} al comienzo del turno de {OwnerName}."
+
+sebloodsword:
+  Name: Emblema de Espada de Sangre
+  Description: "Siempre que haya {lim} o más |n:Emblemas de Espada de Sangre|, pierde {lim} |n:Emblemas de Espada de Sangre| para agregar una |Espada de Sangre| a la mano."
+  Brief: "Siempre que haya {lim} o más |n:Emblemas de Espada de Sangre|, pierde {lim} |n:Emblemas de Espada de Sangre| para agregar una |Espada de Sangre| a la mano."
+
+sebloodstorm:
+  Name: Emblema de Tormenta de Sangre
+  Description: "Siempre que haya {lim} o más |n:Emblemas de Tormenta de Sangre|, pierde {lim} |n:Emblemas de Tormenta de Sangre| para agregar una |Tormenta de Sangre| a la mano."
+  Brief: "Siempre que haya {lim} o más |n:Emblemas de Tormenta de Sangre|, pierde {lim} |n:Emblemas de Tormenta de Sangre| para agregar una |Tormenta de Sangre| a la mano."
+
+seatkincrease:
+  Name: Incremento de Ataque
+  Description: "{OwnerName} inflige {truecounter}% más de daño.\nPierde la mitad del {SelfName} al final del turno de {OwnerName} (redondeado al múltiplo de 5 más cercano)."
+  Brief: "{OwnerName} inflige |n:Level|% más de daño hasta el final del turno.\nPierde la mitad del {SelfName} al final del turno de {OwnerName} (redondeado al múltiplo de 5 más cercano)."
+
+seaccel:
+  Name: Acelerar
+  Description: "Al comienzo del próximo turno de {OwnerName}, gana {Level} de |Evasión|."
+  Brief: "Al comienzo del próximo turno de {OwnerName}, gana |Evasión|."
+
+sebloodclot:
+  Name: Coágulo de Sangre
+  Description: "{OwnerName} recibe {Value}% menos de daño de los ataques hasta el final del turno. Como máximo un |n:100|% menos de daño."
+  Brief: "{OwnerName} recibe {Value}% menos de daño de los ataques hasta el final del turno. Como máximo un |n:100|% menos de daño."
+
+sedarkblood:
+  Name: Emblema de Sangre Oscura
+  Description: "|Una vez por turno|, cuando la vida de {PlayerName} se reduce, pierde |n:1| {SelfName} y agrega una |Sangre Oscura| a la mano, pierde todos los |n:Emblemas de Sangre Oscura| para ganar esa misma cantidad de {mana}."
+  Brief: "|Una vez por turno|, cuando la vida de {PlayerName} se reduce, pierde |n:1| {SelfName} y agrega una |Sangre Oscura| a la mano, pierde todos los |m:Emblemas de Sangre Oscura| para ganar esa misma cantidad de {mana}."
+
+sebloodcontract:
+  Name: Contrato de Sangre
+  Description: "Cada vez que la vida de {PlayerName} se reduce, gana {Level} |Emblema de Espada de Sangre|."
+  Brief: "Cada vez que la vida de {PlayerName} se reduce, gana |Emblemas de Espada de Sangre|."
+
+seadrenaline:
+  Name: Adrenalina
+  Description: "Mientras {PlayerName} tenga menos del |n:50|% ({lifeneed}) de vida: Siempre que la vida de {PlayerName} es reducido, gana {atkincrease} de |Incremento de Ataque| y {Level} |Coágulo de Sangre|."
+  Brief: "Mientras {PlayerName} tenga menos del |n:50|% de vida: Siempre que la vida de {PlayerName} es reducido, gana |n:5| de |Incremento de Ataque| y |n:1| |Coágulo de Sangre|."
+
+sebloodyhell:
+  Name: Infierno Sangriento
+  Description: "Cada vez que se juega una carta roja, gana {atkincrease} de |Incremento de Ataque|."
+  Brief: "Cada vez que se juega una carta roja, gana |n:10| de |Incremento de Ataque|."
+
+setorn:
+  Name: Cinta Roja Desgarrada
+  Description: "Mientras {PlayerName} tenga menos del |n:50|% ({lifeneed}) de vida: Cada vez que {PlayerName} |Evada| un ataque, gana {increase} de |Incremento de Ataque|, |Incrementa| la vida en un {increase}% ({increaselife})."
+  Brief: "Mientras {PlayerName} tenga menos del |n:50|% de vida: Cada vez que {PlayerName} |Evada| un ataque, gana |n:10| de |Incremento de Ataque|, |Incrementa| la vida en un |n:10|%."
+
+seendurance:
+  Name: Robustez
+  Description: "Mientras {PlayerName} tenga menos del |n:50|% ({lifeneed}) de vida: Siempre que la vida de {PlayerName} se reduce, aumenta el |n:Contador| en |n:1| .\nAl comienzo del turno de {PlayerName}, pierde todo el |n:Contador| y agrega esa misma cantidad de |Sangre Carmesí| a la mano."
+  Brief: "Mientras {PlayerName} tenga menos del |n:50|% de vida: Siempre que la vida de {PlayerName} se reduce, aumenta el |n:Contador| en |n:1| .\nAl comienzo del turno de {PlayerName}, pierde todo el |n:Contador| y agrega esa misma cantidad de |Sangre Carmesí| a la mano."
+
+setearmedo:
+  Name: Hazme Pedazos
+  Description: "Siempre que la vida de {PlayerName} es reducido, gana {Level} |Emblema de Tormenta de Sangre| y {atkincrease} de |Incremento de Ataque|."
+  Brief: "Siempre que la vida de {PlayerName} es reducido, gana |n:1| |Emblema de Tormenta de Sangre| y |n:10| de |Incremento de Ataque|."
+
+semagia:
+  Name: Magia de las Sombras Rumia
+  Description: "Hasta el final del turno, gana {Level} |Emblema{Level:plural one='' other='s'} de Espada de Sangre| cada vez que {PlayerName} es atacado."
+  Brief: "Hasta el final del turno, gana |Emblemas de Espada de Sangre| cada vez que {PlayerName} es atacado."
+
+segojo:
+  Name: Vacio Infinito
+  Description: "Hasta el final del turno, {OwnerName} no puede perder vida."
+  Brief: "Hasta el final del turno, {OwnerName} no puede perder vida."
+
+seworldburn:
+  Name: El Mundo Ardera
+  Description: Siempre que {PlayerName} aplica una |Marca de Sangre| o |Sangrado| a un enemigo, también aplica {Level} del otro efecto."
+  Brief: "Siempre que {PlayerName} aplica |Blood Mark| o |Bleed| a un enemigo, también aplica del otro efecto."
+
+secorruptedblood:
+  Name: Sangre Corrupta
+  Description: "Cuando la vida de {PlayerName} se reduce, gana {Level} |Emblema de Sangre Oscura|."
+  Brief: "Cuando la vida de {PlayerName} se reduce, gana |Emblemas de Sangre Oscura|."
+
+sebloodofmysword:
+  Name: La Sangre de mi Espada
+  Description: "Siempre que {OwnerName} inflige daño por un ataque a un enemigo, |Incrementa| la vida del enemigo en {Level}, gana {Level} de |Poder Temporal|."
+  Brief: "Siempre que {OwnerName} inflige daño por un ataque a un enemigo, |Incrementa| la vida del enemigo, gana |Poder Temporal|."
+
+seimmerse:
+  Name: Sumergirse en Rojo
+  Description: "Hasta el final del turno, siempre que se juegue una carta de ataque, gana {Level} |Emblema de Tormenta de Sangre|."
+  Brief: "Hasta el final del turno, siempre que se juegue una carta de ataque, gana |Emblemas de Tormenta de Sangre|."
+
+semissribbon:
+  Name: Señorita Cinta
+  Description: "Siempre que {PlayerName} aplica |Marca de Sangre| a un enemigo, gana {Level} |Emblema de Espada de Sangre|."
+  Brief: "Siempre que {PlayerName} aplica |Marca de Sangre| a un enemigo, gana |Emblemas de Espada de Sangre|."
+
+sebleedslash:
+  Name: Desangrar y Cortar
+  Description: "Cuando una carta negra es jugada, gana {Level} |Emblema de Espada de Sangre|."
+  Brief: "Cuando una carta negra es jugada, gana |Emblemas de Espada de Sangre|."
+
+semarkblood:
+  Name: Marcado con mi Sangre
+  Description: "Siempre que un enemigo sin |Marca de Sangre| es atacado, aplica {Level} |Marca de Sangre|."
+  Brief: "Siempre que un enemigo sin |Marca de Sangre| es atacado, aplica |Marca de Sangre|."
+
+sebloodcircle:
+  Name: Circulación Sanguínea
+  Description: "Al comienzo del turno de {PlayerName}, regresa cualquier cantidad de cartas de |Sangre Exiladas| a la mano."
+  Brief: "Al comienzo del turno de {PlayerName}, regresa cualquier cantidad de cartas de |Sangre Exiladas| a la mano."
+
+sedearsword:
+  Name: Mi Amada Espada
+  Description: "Al comienzo del turno de {PlayerName}, agrega {Level} |Tormenta de Sangre| a la mano."
+  Brief: "Al comienzo del turno de {PlayerName}, agrega |Tormentas de Sangre| a la mano."
+
+seinfuseddarkness:
+  Name: Oscuridad Imbuida
+  Description: "Hasta el final del turno, Siempre que se juegue una |Sangre Oscura|, gana {Mana}."
+  Brief: "Hasta el final del turno, Siempre que se juegue una |Sangre Oscura|, gana {Mana}."
+
+senightfalls:
+  Name: Cae la Noche
+  Description: "Hasta el final del turno, siempre que se juegue una carta negra, gana {Level} |Emblema de Espada de Sangre|."
+  Brief: "Hasta el final del turno, siempre que se juegue una carta negra, gana |Emblemas de Espada de Sangre|."
+
+semixedblood:
+  Name: Sangre Mezclada al 200%
+  Description: "Hasta el final del turno, siempre que se juegue |Sangre Oscura|, se juega |Sangre Carmesí| {Level} ve{Level:plural one='z' other='ces'}, Siempre que se juegue |Sangre Carmesí|, gana {Level} |Emblema de Sangre Oscura|."
+  Brief: "Hasta el final del turno, siempre que se juegue |Dark Blood|, se juegan |Sangres Carmesí|, Siempre que se juegue |Sangre Carmesí|, gana |Emblemas de Sangre Oscura|."
+
+seetude:
+  Name: Mi Preludio
+  Description: "Al comienzo del siguiente turno de {PlayerName}, se |Reduce| |n:5|% ({heal}) de su vida actual, inflige {Damage} de daño a un enemigo aleatorio |n:3| veces."
+  Brief: "Al comienzo del siguiente turno de {PlayerName}, se |reduce| |n:5|% de su vida, inflige |n:5| de daño a un enemigo aleatorio |n:3| veces."
+
+seshadowcut:
+  Name: Corte de la Sombras
+  Description: "Al comienzo del turno de {PlayerName}, inflige {Damage} de daño a un enemigo aleatorio {Level} veces."
+  ExtraDescription: "Al comienzo del turno de {PlayerName}, inflige {Damage} de daño a un enemigo aleatorio {Level} veces.\n{SelfName} está inactivo y solo se removerá después del turno en que se resuelva."
+  Brief: "Al comienzo del turno de {PlayerName}, inflige |n:5| de daño a un enemigo aleatorio |n:5| veces."
+
+sebewater:
+  Name: Se el Agua
+  Description: "Siempre que se juegue una carta de |Sangre|, elige hasta {Level} carta{Level:plural one='' other='s'} de la pila de descarte, se baraja{Level:plural one='' other='n'} en la pila de robo y se roba {Level} carta{Level:plural one='' other='s'}."
+  Brief: "Siempre que se juegue una carta de |Sangre|, elige hasta |n:1| carta de la pila de descarte, se barajan en la pila de robo y se roba 1 carta."
+
+sequickrestore:
+  Name: Restauración Rápida
+  Description: "Al final de este turno, restaura {truecounter} de vida."
+  Brief: "Al final de este turno, restaura vida."
+
+sepastpresent:
+  Name: Pasado y Presente
+  Description: "Al comienzo del siguiente turno, se activa todas las cartas que se jugaron tras {SelfName}, luego se retira {SelfName}."
+  Brief: "Al comienzo del siguiente turno, se activa todas las cartas que se jugaron tras {SelfName}, luego se retira {SelfName}."
+
+semutualdepletion:
+  Name: Agotación Mutua
+  Description: "Siempre que la vida de {PlayerName} se reduce en al menos |n:1|%, todos los enemigos se |Reducen| el mismo % de vida (redondeado hacia abajo)."
+  Brief: "Siempre que la vida de {PlayerName} se reduce en al menos |n:1|%, todos los enemigos |Reducen| el mismo % de vida (redondeado hacia abajo)."
+
+seidlive:
+  Name: Ser Hacia la Muerte
+  Description: "Hasta el final de este turno, {PlayerName} no perderá la partida."
+  Brief: "Hasta el final de este turno, {PlayerName} no perderá la partida."
+
+sefuckyou:
+  Name: Cuenta Regresiva Final
+  Description: "Cuando se haya reducido acumulativamente el |n:200|% de la vida, gana la batalla.\n{Count}% para ser reducido."
+  Brief: "Cuando se haya reducido acumulativamente el |n:200|% de la vida, gana la batalla."
+
+sebossheal:
+  Name: Enfurecida
+  Description: "Las intenciones de {OwnerName} se mejoran cuando su vida está por debajo del |n:50|%.\nCada vez que {PlayerName} es atacado, la vida de {OwnerName} es |Incrementado| en |n:1|%."
+  Brief: "Las intenciones de {OwnerName} se mejoran cuando su vida está por debajo del |n:50|%.\nCada vez que {PlayerName} es atacado, la vida de {OwnerName} es |Incrementado| en |n:1|%."
+
+setwilight1:
+  Name: Invitación de la Muerte
+  Description: "Mientras {OwnerName} tenga menos del |n:50|% ({lifeneed}) de vida: El daño de los ataques de {OwnerName} aumenta en {Level}% de la vida perdida (redondeado hacia arriba)."
+  Brief: "Mientras {OwnerName} tenga menos del |n:50|% de vida: El daño de los ataques de {OwnerName} aumenta en un % de la vida perdida (redondeado hacia arriba)."
+
+setwilight2:
+  Name: En mi Mejor Momento
+  Description: "Mientras {OwnerName} tenga menos del |n:25|% ({lifeneed}) de vida: Siempre que se juegue una carta, se juega {Level} |Sangre Carmesí| (No |Incrementa| la vida)."
+  Brief: "Mientras {OwnerName} tenga menos del |n:25|% de vida: Siempre que se juegue una carta, se juega |Sangre Carmesí| (No |Incrementa| la vida)."
+
+setwilight3:
+  Name: La Batalla Final
+  Description: "Mientras {OwnerName} tenga menos del |n:15|% ({lifeneed}) de vida: Siempre que se juega una carta, gana {Level} |Carga{Level:plural one='' other='s'}|."
+  Brief: "Mientras {OwnerName} tenga menos del |n:15|% de vida: Siempre que se juega una carta, gana |Cargas|."

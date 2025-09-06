@@ -1,0 +1,4 @@
+﻿exfakeribbon:
+  Description: ボスまたはエリートとの戦闘中、{PlayerName}のターン開始時に{ManaFake}を得る。
+  Name: リボン
+  FlavorText: 「これを解放すると、封印された魔の力が目覚めるって聞いたの。」

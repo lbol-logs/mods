@@ -1,0 +1,14 @@
+﻿cardnoradrenaline:
+  Name: 노르아드레날린
+  Description: >-
+    체력을 {Value1}% {healstring}만큼 |상실|합니다.
+
+    |혈흔| 또는 |출혈|이 있는 모든 적에게 피해를 {Damage}씩 |n:3|회 줍니다.
+
+    {PlayerName}의 체력이 |n:50|% {needstring} 미만이라면, |진홍의 피|를 {Value2}장 손에 추가합니다.
+  UpgradedDescription: >-
+    체력을 {Value1}% {healstring}만큼 |상실|합니다.
+
+    모든 적에게 피해를 {Damage}씩 |n:3|회 줍니다.
+
+    {PlayerName}의 체력이 |n:50|% {needstring} 미만이라면, |진홍의 피|를 {Value2}장 손에 추가합니다.

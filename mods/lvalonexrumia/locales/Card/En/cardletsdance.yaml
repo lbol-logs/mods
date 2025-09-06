@@ -1,0 +1,8 @@
+﻿cardletsdance:
+  Name: Let's Dance
+  Description: >-
+    Apply {Value1} |Blood Mark| to each enemy.
+
+    Deal {Damage} damage to each enemy {Value2} time{Value2:plural one='' other='s'}.
+
+    Gain {Value2} |Graze|.

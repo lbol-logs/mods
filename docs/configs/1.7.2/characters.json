@@ -1,4 +1,15 @@
 {
+  "lvalonexrumia": {
+    "BaseMana": "BBRR",
+    "A": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "cardexaa", "cardexaa", "cardexab", "cardexab", "cardbite", "cardbloodwork"],
+      "Exhibit": "exexa"
+    },
+    "B": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "cardexba", "cardexba", "cardexbb", "cardexbb", "cardexbb", "cardblooduse"],
+      "Exhibit": "exexb"
+    }
+  },
   "Momiji": {
     "BaseMana": "WWRR",
     "A": {

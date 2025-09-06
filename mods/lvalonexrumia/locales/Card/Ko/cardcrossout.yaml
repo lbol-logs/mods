@@ -1,0 +1,3 @@
+﻿cardcrossout:
+  Name: 지정 말소
+  Description: '|{Mana2}를 지불할 시|: |방어|를 {Block} 얻고 |혈전|을 {Value1} 얻습니다.'

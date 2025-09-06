@@ -1,0 +1,8 @@
+﻿cardunstableblood:
+  Name: 不稳定的血
+  Description: >-
+    |减少| {Value1}% {healstring}生命值。
+
+    对所有敌人施加 |n:1| 层|流血|。每有一个已有|流血|的人，获得 {Value2} 层|血之风暴衍生物|。
+
+    对所有敌人造成 {Damage} 点伤害。

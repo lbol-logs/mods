@@ -1,0 +1,6 @@
+﻿cardintodarkness:
+  Name: 暗之地狱
+  Description: >-
+    施加 {Value1} 层|血迹|。
+
+    对所有拥有|血迹|的敌人造成 {Damage} 点伤害。

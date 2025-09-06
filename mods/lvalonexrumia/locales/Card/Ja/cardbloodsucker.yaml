@@ -1,0 +1,6 @@
+﻿cardbloodsucker:
+  Name: 血を吸うもの
+  Description: >-
+    {Damage}ダメージを与える。
+
+    手札に|深紅の血|を{Value1}枚加える。

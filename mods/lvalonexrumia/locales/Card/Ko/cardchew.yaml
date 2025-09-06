@@ -1,0 +1,14 @@
+﻿cardchew:
+  Name: 조금 씹어줘
+  Description: >-
+    체력을 {Value1}% {healstring}만큼 |상실|합니다.
+
+    모든 적에게 피해를 {Damage}씩 {battleatk}회 줍니다.
+
+    |성장|: 피해를 {Value2}회 추가로 줍니다.
+  NonbattleDescription: >-
+    체력을 {Value1}% {healstring}만큼 |상실|합니다.
+
+    모든 적에게 피해를 {Damage}씩 |n:2|회 줍니다.
+
+    |성장|: 피해를 {Value2}회 추가로 줍니다.

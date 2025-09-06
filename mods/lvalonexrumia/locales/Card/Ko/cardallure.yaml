@@ -1,0 +1,10 @@
+﻿cardallure:
+  Name: 진홍의 유혹
+  Description: >-
+    현재 체력의 {Value1}%를 {healstring}|상실|합니다.
+
+    |예지| {Scry}.
+
+    카드를 {Value2}장 뽑습니다.
+
+    모든 적에게 |출혈|을 {Value2} 부여합니다.

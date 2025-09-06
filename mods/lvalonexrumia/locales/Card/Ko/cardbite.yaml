@@ -1,0 +1,6 @@
+﻿cardbite:
+  Name: 물어뜯기
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |어둠의 피 토큰|을 {Value1} 얻습니다.

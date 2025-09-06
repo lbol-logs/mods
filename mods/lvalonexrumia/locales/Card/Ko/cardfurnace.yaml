@@ -1,0 +1,8 @@
+﻿cardfurnace:
+  Name: 살덩이 화로
+  Description: >-
+    체력을 {Value1}% {healstring}만큼 |상실|합니다.
+
+    |공격력 증가| |n:20|과 |진홍의 피| |n:1|장을 손에 추가합니다.
+
+    {PlayerName}의 체력이 |n:50|% {needstring} 미만이라면, |진홍의 피|를 {Value2}장 손에 추가합니다.

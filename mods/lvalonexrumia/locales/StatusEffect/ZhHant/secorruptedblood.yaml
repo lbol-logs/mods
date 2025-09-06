@@ -1,0 +1,4 @@
+﻿secorruptedblood:
+  Name: 腐化的血
+  Description: 當{PlayerName}的生命值降低時，獲得 {Level} 層|黑血衍生物|。
+  Brief: 當{PlayerName}的生命值降低時，獲得|黑血衍生物|。

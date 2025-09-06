@@ -1,0 +1,14 @@
+﻿cardboilingblood:
+  Name: 끓어오르는 피
+  Description: >-
+    체력을 {Value1}% {healstring}만큼 |상실|합니다.
+
+    |출혈|이 있는 모든 적에게 피해를 {Damage} 줍니다.
+
+    |공격력 증가|를 {Value2} 얻습니다.
+  UpgradedDescription: >-
+    체력을 {Value1}% {healstring}만큼 |상실|합니다.
+
+    모든 적에게 피해를 {Damage} 줍니다.
+
+    |공격력 증가|를 {Value2} 얻습니다.

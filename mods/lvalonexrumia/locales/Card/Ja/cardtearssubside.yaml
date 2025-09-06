@@ -1,0 +1,8 @@
+﻿cardtearssubside:
+  Name: 涙のあとに
+  Description: >-
+    |生命減衰||n:5|% {healstring}
+
+    カードを{Value2}枚引く。
+
+    この方法で引いた赤色のカード1枚につき、|血盾|{Value1}を得る。

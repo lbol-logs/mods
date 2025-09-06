@@ -1,0 +1,3 @@
+﻿cardendurance:
+  Name: Endurance
+  Description: "|While {PlayerName} has less than| |n:50|% {needstring}|life|: Whenever {PlayerName}'s life decreases, at the start of the next turn, add {Value1} |Crimson Blood| to the hand."

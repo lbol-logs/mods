@@ -1,0 +1,8 @@
+﻿carddearsword:
+  Name: My Dear Sword
+  Description: >-
+    {FriendS}|Decrease| |n:5|% {healstring}life.
+
+    {FriendP}Add {Value1} |Crimson Blood| to the hand.
+  ExtraDescription1: '{FriendA}Apply {Value1} |Blood Mark| and |Bleed| to each enemy.'
+  ExtraDescription3: "{FriendU}At the start of {PlayerName}'s turn, add {Value1} |Blood Storm| to the hand."

@@ -1,0 +1,8 @@
+﻿extrueribbon:
+  Name: 真のリボン
+  Description: >-
+    マナ基盤に{Mana}を加える。
+
+    戦闘開始時、敵全体のライフを{Value2}%最低({Value2}ライフ)だけ{Value1}回|減少|させる。
+
+    戦闘開始時、敵全体に|血の印|{Value1}と|大量出血|{Value1}を与える。

@@ -1,0 +1,8 @@
+﻿cardgojo:
+  Name: 무한의 공허
+  Description: >-
+    현재 체력의 {Value1}%를 |n:2|회 {healstring2}|상실|합니다.
+
+    이번 턴이 끝날 때까지 {PlayerName}은 체력을 잃지 않습니다.
+
+    |추가 턴|을 {Value2} 얻습니다.

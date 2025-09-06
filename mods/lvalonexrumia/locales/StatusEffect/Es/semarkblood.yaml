@@ -1,0 +1,4 @@
+﻿semarkblood:
+  Name: Marcado con mi Sangre
+  Description: Siempre que un enemigo sin |Marca de Sangre| es atacado, aplica {Level} |Marca de Sangre|.
+  Brief: Siempre que un enemigo sin |Marca de Sangre| es atacado, aplica |Marca de Sangre|.

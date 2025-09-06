@@ -1,0 +1,7 @@
+﻿carddevour:
+  Name: 貪り食う
+  Description: >-
+    {Damage}ダメージを与える。
+
+    |退治|: 最大ライフ{Value1}% {healstring}を得る、{SelfName}をこの戦闘とライブラリから削除する。
+  DetailText: '{SelfName}は戦闘中にランダム生成されず、コピーもできない。'

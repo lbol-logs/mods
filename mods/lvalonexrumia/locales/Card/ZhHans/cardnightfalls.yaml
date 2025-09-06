@@ -1,0 +1,6 @@
+﻿cardnightfalls:
+  Name: 夜幕降临
+  Description: >-
+    回合结束前，每当打出一张黑色牌时，获得 {Value1} 层|血剑衍生物|。
+
+    从抽牌堆将 {Value2} 张随机黑色牌置入手中，获得等量{Mana}。

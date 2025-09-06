@@ -1,0 +1,8 @@
+﻿cardhakureimiko:
+  Name: The Hakurei Miko
+  Description: >-
+    {FriendS}|While in hand|: Whenever {PlayerName} adds a card, |Upgrade| it.
+
+    {FriendP}|Increase| {Value1}% {healstring}life.
+  ExtraDescription1: '{FriendA}Choose a card from |Exile|, |Upgrade| it, return it and {SelfName} to the hand.'
+  ExtraDescription3: '{FriendU}All cards lose |Exile| and |Ethereal|.'

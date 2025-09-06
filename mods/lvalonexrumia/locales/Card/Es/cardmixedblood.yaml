@@ -1,0 +1,7 @@
+﻿cardmixedblood:
+  Name: Sangre Mezclada al 200%
+  Description: Hasta el final del turno, siempre que |Sangre Oscura| es jugado, se juega una |Sangre Carmesí|, siempre que |Sangre Carmesí|  se juega, gana {Value1} |Emblema de Sangre Oscura|.
+  UpgradedDescription: >-
+    Hasta el final del turno, siempre que |Sangre Oscura| es jugado, se juega una |Sangre Carmesí|, siempre que |Sangre Carmesí|  se juega, gana {Value1} |Emblema de Sangre Oscura|.
+
+    Agrega {Value1} |Sangre Oscura| y |Sangre Carmesí| a la mano.

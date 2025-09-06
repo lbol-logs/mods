@@ -1,0 +1,10 @@
+﻿seendurance:
+  Name: 持久力
+  Description: >-
+    {PlayerName}ライフが|n:50|%未満の間({lifeneed}): {PlayerName}のライフが減る度に|n:カウント|が|n:1|増える。
+
+    {PlayerName}のターン開始時すべての|n:カウント|を失い、その枚数に等しい|深紅の血|を手札に加える。
+  Brief: >-
+    {PlayerName}ライフが|n:50|%未満の間: {PlayerName}のライフが減る度に|n:カウント|が|n:1|増える。
+
+    {PlayerName}のターン開始時すべての|n:カウント|を失い、その枚数に等しい|深紅の血|を手札に加える。

@@ -1,0 +1,10 @@
+﻿seatkincrease:
+  Name: 攻撃増大
+  Description: >-
+    {OwnerName}はこのターンの終了時まで、与える攻撃ダメージが{truecounter}%増加する。
+
+    {OwnerName} のターン終了時に、{SelfName}の半分を失う。(5の倍数になるよう切り捨て)
+  Brief: >-
+    {OwnerName}の攻撃ダメージがターン終了時まで |n:Level|%増加する。
+
+    {OwnerName} のターン終了時に、{SelfName}の半分を失う。(5の倍数になるよう切り捨て)

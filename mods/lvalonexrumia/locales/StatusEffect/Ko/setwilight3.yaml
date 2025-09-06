@@ -1,0 +1,4 @@
+﻿setwilight3:
+  Name: 최후의 발악
+  Description: '{OwnerName}의 체력이 |n:15|% ({lifeneed}) 미만일 때: 카드를 사용할 때마다 |충전|을 {Level} 얻습니다.'
+  Brief: '{OwnerName}의 체력이 |n:15|% 미만일 때: 카드를 사용할 때마다 |충전|을 얻습니다.'

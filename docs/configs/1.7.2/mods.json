@@ -1,5 +1,12 @@
 [
   {
+    "GUID": "llbol.char.exrumia",
+    "Name": "EX Rumia",
+    "Version": "1.0.4",
+    "Character": "lvalonexrumia",
+    "Url": "https://thunderstore.io/c/touhou-lost-branch-of-legend/p/Lvalon/EX_Rumia/"
+  },
+  {
     "GUID": "worldsoul.test.momiji.mod",
     "Name": "Momiji Mod",
     "Version": "1.1.3",

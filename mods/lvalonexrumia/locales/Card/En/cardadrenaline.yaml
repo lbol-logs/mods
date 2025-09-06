@@ -1,0 +1,3 @@
+﻿cardadrenaline:
+  Name: Adrenaline
+  Description: "|While {PlayerName} has less than| |n:50|% {needstring}|life|: Whenever {PlayerName}'s life decreases, gain {Value1} |Attack Increase| and {Value2} |Blood Clot|."

@@ -1,0 +1,4 @@
+﻿sebloodcontract:
+  Name: Contrato de Sangre
+  Description: Cada vez que la vida de {PlayerName} se reduce, gana {Level} |Emblema de Espada de Sangre|.
+  Brief: Cada vez que la vida de {PlayerName} se reduce, gana |Emblemas de Espada de Sangre|.

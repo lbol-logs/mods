@@ -1,0 +1,7 @@
+﻿cardcorruptedblood:
+  Name: 穢れた血
+  Description: '{PlayerName}の体力が減少したとき、|闇の血の雫|{Value1}を得る。'
+  UpgradedDescription: >-
+    {PlayerName}の体力が減少したとき、|闇の血の雫|{Value1}を得る。
+
+    手札に|闇の血|を{Value2}枚加える。

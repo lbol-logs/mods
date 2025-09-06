@@ -1,0 +1,4 @@
+﻿seworldburn:
+  Name: The World Burns
+  Description: Whevener {PlayerName} applies |Blood Mark| or |Bleed| to an enemy, also apply {Level} of the other."
+  Brief: Whevener {PlayerName} applies |Blood Mark| or |Bleed| to an enemy, also apply the other.

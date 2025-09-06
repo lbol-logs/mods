@@ -1,0 +1,215 @@
+sedecrease:
+  Name: Decrease Life
+  Description: "A special method that sets life to be a lower amount instead of losing life normally. Kills when life is set to |n:<= 0|."
+  Brief: "A special method that sets life to be a lower amount instead of losing life normally. Kills when life is set to |n:<= 0|."
+
+seincrease:
+  Name: Increase Life
+  Description: "A special method that sets life to be a higher amount instead of gaining life normally. Does not bypass the maximum life."
+  Brief: "A special method that sets life to be a higher amount instead of gaining life normally. Does not bypass the maximum life."
+
+sebloodmark:
+  Name: Blood Mark
+  Description: "{OwnerName} takes {Value}% more damage from attacks.\nLose |n:1| {SelfName} at the start of {OwnerName}'s turn."
+  Brief: "{OwnerName} takes {Value}% more damage from attacks.\nLose |n:1| {SelfName} at the start of {OwnerName}'s turn."
+
+sebleed:
+  Name: Bleed
+  Description: "{OwnerName} |decreases| |n:1|% ({truecount}) life when attacked.\nLose |n:1| {SelfName} at the start of {OwnerName}'s turn.\n{OwnerName} has {lifenow} life right now."
+  Brief: "{OwnerName} |decreases| |n:1|% life (rounded up) when attacked.\nLose |n:1| {SelfName} at the start of {OwnerName}'s turn."
+
+sedeepbleed:
+  Name: Severe Bleed
+  Description: "{OwnerName} |decreases| |n:2|% ({truecount}) life when attacked.\nLose |n:1| {SelfName} at the start of {OwnerName}'s turn.\n{OwnerName} has {lifenow} life right now."
+  Brief: "{OwnerName} |decreases| |n:2|% life (rounded up) when attacked.\nLose |n:1| {SelfName} at the start of {OwnerName}'s turn."
+
+sebloodsword:
+  Name: Blood Sword Token
+  Description: "Whenever there are {lim} or more {SelfName}|n:s|, lose {lim} {SelfName}|n:s| to add a |Blood Sword| to the hand."
+  Brief: "Whenever there are {lim} or more {SelfName}|n:s|, lose {lim} {SelfName}|n:s| to add a |Blood Sword| to the hand."
+
+sebloodstorm:
+  Name: Blood Storm Token
+  Description: "Whenever there are {lim} or more {SelfName}|n:s|, lose {lim} {SelfName}|n:s| to add a |Blood Storm| to the hand."
+  Brief: "Whenever there are {lim} or more {SelfName}|n:s|, lose {lim} {SelfName}|n:s| to add a |Blood Storm| to the hand."
+
+seatkincrease:
+  Name: Attack Increase
+  Description: "{OwnerName} deals {truecounter}% more attack damage.\nLose half of {SelfName} at the end of {OwnerName}'s turn (rounded down to the nearest multiple of 5)."
+  Brief: "{OwnerName} deals |n:Level|% more attack damage until end of turn.\nLose half of {SelfName} at the end of {OwnerName}'s turn (rounded down to the nearest multiple of 5)."
+
+seaccel:
+  Name: Accelerate
+  Description: "At the start of {OwnerName}'s next turn, gain {Level} |Graze|."
+  Brief: "At the start of {OwnerName}'s next turn, gain |Graze|."
+
+sebloodclot:
+  Name: Blood Clot
+  Description: "{OwnerName} takes {Value}% less damage from attacks until end of round. |n:100|% less damage maximum."
+  Brief: "{OwnerName} takes {Value}% less damage from attacks until end of round. |n:100|% less damage maximum."
+
+sedarkblood:
+  Name: Dark Blood Token
+  Description: "|Once per turn|, when {PlayerName}'s life decreases, lose |n:1| {SelfName} and add a |Dark Blood| to the hand, lose all {SelfName} to gain that many {mana}."
+  Brief: "|Once per turn|, when {PlayerName}'s life decreases, lose |n:1| {SelfName} and add a |Dark Blood| to the hand, lose all {SelfName} to gain that many {mana}."
+
+sebloodcontract:
+  Name: Blood Contract
+  Description: "Whenever {PlayerName}'s life decreases, gain {Level} |Blood Sword Token|."
+  Brief: "Whenever {PlayerName}'s life decreases, gain |Blood Sword Token|."
+
+seadrenaline:
+  Name: Adrenaline
+  Description: "While {PlayerName} has less than |n:50|% ({lifeneed}) life: Whenever {PlayerName}'s life decreases, gain {atkincrease} |Attack Increase| and {Level} |Blood Clot|."
+  Brief: "While {PlayerName} has less than |n:50|% life: Whenever {PlayerName}'s life decreases, gain |n:5| |Attack Increase| and |n:1| |Blood Clot|."
+
+sebloodyhell:
+  Name: Bloody Hell
+  Description: "Whenever a red card is played, gain {atkincrease} |Attack Increase|."
+  Brief: "Whenever a red card is played, gain |n:10| |Attack Increase|."
+
+setorn:
+  Name: Torn Red Ribbon
+  Description: "While {PlayerName} has less than |n:50|% ({lifeneed}) life: Whenever {PlayerName} |Grazes| an attack, gain {increase} |Attack Increase|, |increase| life by {increase}% ({increaselife})."
+  Brief: "While {PlayerName} has less than |n:50|% life: Whenever {PlayerName} |Grazes| an attack, gain |n:10| |Attack Increase|, |increase| life by |n:10|%."
+
+seendurance:
+  Name: Endurance
+  Description: "While {PlayerName} has less than |n:50|% ({lifeneed}) life: Whenever {PlayerName}'s life decreases, increase |n:Count| by |n:1| .\nAt the start of {PlayerName}'s turn, lose all |n:Count| and add that many |Crimson Blood| to the hand."
+  Brief: "While {PlayerName} has less than |n:50|% life: Whenever {PlayerName}'s life decreases, increase |n:Count| by |n:1| .\nAt the start of {PlayerName}'s turn, lose all |n:Count| and add that many |Crimson Blood| to the hand."
+
+setearmedo:
+  Name: Tear Me Do
+  Description: "Whenever {PlayerName}'s life decreases, gain {Level} |Blood Storm Token| and {atkincrease} |Attack Increase|."
+  Brief: "Whenever {PlayerName}'s life decreases, gain |n:1| |Blood Storm Token| and |n:10| |Attack Increase|."
+
+semagia:
+  Name: Shadow Magia Form
+  Description: "Until end of round, gain {Level} |Blood Sword Token| whenever {PlayerName} is attacked."
+  Brief: "Until end of round, gain |Blood Sword Token| whenever {PlayerName} is attacked."
+
+segojo:
+  Name: Infinite Void
+  Description: "Until end of round, {OwnerName} cannot lose life."
+  Brief: "Until end of round, {OwnerName} cannot lose life."
+
+seworldburn:
+  Name: The World Burns
+  Description: Whevener {PlayerName} applies |Blood Mark| or |Bleed| to an enemy, also apply {Level} of the other."
+  Brief: "Whevener {PlayerName} applies |Blood Mark| or |Bleed| to an enemy, also apply the other."
+
+secorruptedblood:
+  Name: Corrupted Blood
+  Description: "When {PlayerName}'s life decreases, gain {Level} |Dark Blood Token|."
+  Brief: "|When {PlayerName}'s life decreases, gain |Dark Blood Token|."
+
+sebloodofmysword:
+  Name: Blood of My Sword
+  Description: "Whenever {OwnerName} deals attack damage to an enemy, |increase| the enemy's life by {Level}, gain {Level} |Temporary Firepower|."
+  Brief: "Whenever {OwnerName} deals attack damage to an enemy, |increase| the enemy's life, gain |Temporary Firepower|."
+
+seimmerse:
+  Name: Immerse in Red
+  Description: "Until end of turn, whenever an attack card is played, gain {Level} |Blood Storm Token|."
+  Brief: "Until end of turn, whenever an attack card is played, gain |Blood Storm Token|."
+
+semissribbon:
+  Name: Miss Ribbon
+  Description: "Whenever {PlayerName} applies |Blood Mark| to an enemy, gain {Level} |Blood Sword Token|."
+  Brief: "Whenever {PlayerName} applies |Blood Mark| to an enemy, gain |Blood Sword Token|."
+
+sebleedslash:
+  Name: Bleed and Slash
+  Description: "When a black card is played, gain {Level} |Blood Sword Token|."
+  Brief: "When a black card is played, gain |Blood Sword Token|."
+
+semarkblood:
+  Name: Mark My Blood
+  Description: "Whenever an enemy without |Blood Mark| is attacked, apply {Level} |Blood Mark|."
+  Brief: "Whenever an enemy without |Blood Mark| is attacked, apply |Blood Mark|."
+
+sebloodcircle:
+  Name: Blood Circulation
+  Description: "At the start of {PlayerName}'s turn, return any number of |Exiled Blood| cards to the hand."
+  Brief: "At the start of {PlayerName}'s turn, return any number of |Exiled Blood| cards to the hand."
+
+sedearsword:
+  Name: My Dear Sword
+  Description: "At the start of {PlayerName}'s turn, add {Level} |Blood Storm| to the hand."
+  Brief: "At the start of {PlayerName}'s turn, add |Blood Storm| to the hand."
+
+seinfuseddarkness:
+  Name: Infused Darkness
+  Description: "Until end of turn, whenever |Dark Blood| is played, gain {Mana}."
+  Brief: "Until end of turn, whenever |Dark Blood| is played, gain {Mana}."
+
+senightfalls:
+  Name: Night Falls
+  Description: "Until end of turn, whenever a black card is played, gain {Level} |Blood Sword Token|."
+  Brief: "Until end of turn, whenever a black card is played, gain |Blood Sword Token|."
+
+semixedblood:
+  Name: 200% Mixed Blood
+  Description: "Until end of turn, whenever |Dark Blood| is played, play a |Crimson Blood| {Level} time{Level:plural one='' other='s'}, whenever |Crimson Blood| is played, gain {Level} |Dark Blood Token|."
+  Brief: "Until end of turn, whenever |Dark Blood| is played, play a |Crimson Blood|, whenever |Crimson Blood| is played, gain |Dark Blood Token|."
+
+seetude:
+  Name: My Etude
+  Description: "At the start of {PlayerName}'s next turn, she |decreases| |n:5|% ({heal}) of current life, deal {Damage} damage a random enemy |n:3| times."
+  Brief: "At the start of {PlayerName}'s next turn, she |decreases| |n:5|% life, deal |n:5| damage to a random enemy |n:3| times."
+
+seshadowcut:
+  Name: Shadow Cut
+  Description: "At the start of {PlayerName}'s turn, deal {Damage} damage to a random enemy {Level} times."
+  ExtraDescription: "At the start of {PlayerName}'s turn, deal {Damage} damage to a random enemy {Level} times.\n{SelfName} is inactive and will only be removed after the turn it resolves."
+  Brief: "At the start of {PlayerName}'s turn, deal |n:5| damage to a random enemy |n:5| times."
+
+sebewater:
+  Name: Be Water
+  Description: "Whenever a |Blood| card is played, choose up to {Level} card{Level:plural one='' other='s'} in the discard pile, shuffle {Level:plural one='it' other='them'} into the draw pile, draw {Level} card{Level:plural one='' other='s'}."
+  Brief: "Whenever a |Blood| card is played, choose up to |n:1| card in the discard pile, shuffle it into the draw pile, draw 1 card."
+
+sequickrestore:
+  Name: Quick Restoration
+  Description: "At the end of this round, restore life to {truecounter}."
+  Brief: "At the end of this round, restore life."
+
+sepastpresent:
+  Name: Past and Present
+  Description: "At the start of the next turn, play cards played after {SelfName} is added, then remove {SelfName}."
+  Brief: "At the start of the next turn, play cards played after {SelfName} is added, then remove {SelfName}."
+
+semutualdepletion:
+  Name: Mutual Depletion
+  Description: "Whenever {PlayerName}'s life is decreased by at least |n:1|%, all enemies |decrease| the same % of life (rounded down)."
+  Brief: "Whenever {PlayerName}'s life is decreased by at least |n:1|%, all enemies |decrease| the same % of life (rounded down)."
+
+seidlive:
+  Name: I'd Live
+  Description: "Until the end of this round, {PlayerName} will not lose the game."
+  Brief: "Until the end of this round, {PlayerName} will not lose the game."
+
+sefuckyou:
+  Name: Final Countdown
+  Description: "When |n:200|% of life has been decreased accumulatively, win the battle.\n{Count}% to be decreased."
+  Brief: "When |n:200|% of life has been decreased accumulatively, win the battle."
+
+sebossheal:
+  Name: Enraged
+  Description: "{OwnerName}'s moves are enhanced when her life is below |n:50|% .\nWhenever {PlayerName} is attacked, {OwnerName}'s life is |increased| by |n:1|%."
+  Brief: "{OwnerName}'s moves are enhanced when her life is below |n:50|% .\nWhenever {PlayerName} is attacked, {OwnerName}'s life is |increased| by |n:1|%."
+
+setwilight1:
+  Name: Death's Invitation
+  Description: "While {OwnerName} has less than |n:50|% ({lifeneed}) life: {OwnerName}'s attack damage is increased by {Level}% of life lost (rounded up)."
+  Brief: "While {OwnerName} has less than |n:50|% life: {OwnerName}'s attack damage is increased by % of life lost (rounded up)."
+
+setwilight2:
+  Name: Coming Roses
+  Description: "While {OwnerName} has less than |n:25|% ({lifeneed}) life: Whenever a card is played, play {Level} |Crimson Blood| (does not |increase| life)."
+  Brief: "While {OwnerName} has less than |n:25|% life: Whenever a card is played, play |Crimson Blood| (does not |increase| life)."
+
+setwilight3:
+  Name: Last Stand
+  Description: "While {OwnerName} has less than |n:15|% ({lifeneed}) life: Whenever a card is played, gain {Level} |Charge|."
+  Brief: "While {OwnerName} has less than |n:15|% life: Whenever a card is played, gain |Charge|."

@@ -1,0 +1,32 @@
+exexa:
+  Name: 존귀한 어둠
+  Description: |-
+    마나 기반에 {Mana}를 추가합니다. |EX 루미아| 전용 카드가 카드 풀에 추가됩니다.
+    전투 시작 시 첫 턴에 모든 적에게 |혈흔|을 {Value1} 부여합니다.
+    {PlayerName}가 잃은 체력의 {Value2}%만큼 공격 피해가 증가합니다 (올림 적용).
+  FlavorText: 하늘 아래 오직 나만이 존귀한가? 과연 그럴까?
+
+exexb:
+  Name: 고통의 세계
+  Description: |-
+    마나 기반에 {Mana}를 추가합니다. |EX 루미아| 전용 카드가 카드 풀에 추가됩니다.
+    |턴당 1회|, {PlayerName}가 피해를 줄 때 모든 적에게 |출혈|을 {Value1} 부여합니다.
+    {PlayerName}의 체력이 감소할 때마다, 모든 적도 동일한 양의 체력을 |상실|합니다.
+  FlavorText: 세상은 나에게 고통의 입맞춤을 내려주었지...
+
+extrueribbon:
+  Name: 진짜 리본
+  Description: |-
+    마나 기반에 {Mana}를 추가합니다.
+    전투 시작 시, 모든 적의 체력을 {Value2}%만큼 (최소 {Value2}) {Value1}번 |상실|시킵니다.
+    전투 시작 시, 모든 적에게 |혈흔|과 |과다출혈|을 {Value1} 부여합니다.
+
+exfakeribbon:
+  Description: 보스 또는 정예 전투 중, {PlayerName}의 턴 시작 시 {ManaFake}를 얻습니다.
+  Name: 리본
+  FlavorText: '"봉인을 풀면 마신의 힘이 깨어난다고 들었어요."'
+
+exrumiafumo:
+  Description: "|피| 카드를 사용할 때마다 |일시 화력|을 {Value1} 얻습니다."
+  Name: "황혼 요괴 봉제인형"
+  FlavorText: "그저 어둠 그 자체인 털뭉치일 때가 많다."

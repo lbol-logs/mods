@@ -1,0 +1,12 @@
+﻿sedeepbleed:
+  Name: Sangrado Severo
+  Description: >-
+    {OwnerName} |Reduce| |n:2|% ({truecount}) de vida al ser atacado.
+
+    Pierde |n:1| {SelfName} al comienzo del turno de {OwnerName}.
+
+    {OwnerName} tiene {lifenow} de vida ahora mismo.
+  Brief: >-
+    {OwnerName} |Reduce| |n:2|% de vida (redondeado hacia arriba) al ser atacado.
+
+    Pierde |n:1| {SelfName} al comienzo del turno de {OwnerName}.

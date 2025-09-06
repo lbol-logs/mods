@@ -1,0 +1,11 @@
+﻿cardbloodsword:
+  Name: Espada de Sangre
+  Description: >-
+    Inflige {Damage} de daño.
+
+    Si el objetivo no tiene una |Marca de Sangre|, aplica {Value2} |Marca de Sangre|, de lo contrario, consume {Value2} |Marca de Sangre| del objetivo para |Incrementar| {Value1}% {healstring}de vida.
+  UpgradedDescription: >-
+    Inflige {Damage} de daño.
+
+    Aplica {Value2} |Marca de Sangre| e |Incrementa| {Value1}% {healstring}de vida.
+  DetailText: Cuando {SelfName} es |Exiliado| de la mano sin ser jugado, se juega {SelfName}.

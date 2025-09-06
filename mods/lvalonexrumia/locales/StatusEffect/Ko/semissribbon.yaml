@@ -1,0 +1,4 @@
+﻿semissribbon:
+  Name: 미스 리본
+  Description: '{PlayerName}이 적에게 |혈흔|을 부여할 때마다 |혈검 토큰|을 {Level} 얻습니다.'
+  Brief: '{PlayerName}이 적에게 |혈흔|을 부여할 때마다 |혈검 토큰|을 얻습니다.'

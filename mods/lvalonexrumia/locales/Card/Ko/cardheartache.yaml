@@ -1,0 +1,6 @@
+﻿cardheartache:
+  Name: 심장통
+  Description: >-
+    체력을 {Value1}% {healstring}만큼 |상실|합니다.
+
+    |방어|를 {Block} 얻습니다.

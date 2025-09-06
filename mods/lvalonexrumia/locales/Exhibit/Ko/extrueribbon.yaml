@@ -1,0 +1,8 @@
+﻿extrueribbon:
+  Name: 진짜 리본
+  Description: >-
+    마나 기반에 {Mana}를 추가합니다.
+
+    전투 시작 시, 모든 적의 체력을 {Value2}%만큼 (최소 {Value2}) {Value1}번 |상실|시킵니다.
+
+    전투 시작 시, 모든 적에게 |혈흔|과 |과다출혈|을 {Value1} 부여합니다.

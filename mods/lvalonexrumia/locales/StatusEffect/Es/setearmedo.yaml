@@ -1,0 +1,4 @@
+﻿setearmedo:
+  Name: Hazme Pedazos
+  Description: Siempre que la vida de {PlayerName} es reducido, gana {Level} |Emblema de Tormenta de Sangre| y {atkincrease} de |Incremento de Ataque|.
+  Brief: Siempre que la vida de {PlayerName} es reducido, gana |n:1| |Emblema de Tormenta de Sangre| y |n:10| de |Incremento de Ataque|.

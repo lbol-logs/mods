@@ -1,0 +1,6 @@
+﻿cardheartache:
+  Name: Dolor del Corazón
+  Description: >-
+    |Reduce| {Value1}% {healstring}de vida.
+
+    Gana {Block} de |Bloqueo|.

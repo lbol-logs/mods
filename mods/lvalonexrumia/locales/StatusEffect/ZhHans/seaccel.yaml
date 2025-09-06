@@ -1,0 +1,4 @@
+﻿seaccel:
+  Name: 加速
+  Description: '{OwnerName}的下回合开始时，获得 {Level} 层|闪避|。'
+  Brief: '{OwnerName}的下回合开始时，获得|闪避|。'

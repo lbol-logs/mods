@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EC47AB60-88CE-49FF-9EAF-EAB7E7866230}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>lvalonexrumia</RootNamespace>
+    <AssemblyName>lvalonexrumia</AssemblyName>
+    <TargetFrameworkVersion>v2.1</TargetFrameworkVersion>
+    <TargetFrameworkIdentifier>.NETStandard</TargetFrameworkIdentifier>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony" />
+    <Reference Include="BepInEx" />
+    <Reference Include="LBoL-Entity-Sideloader" />
+    <Reference Include="LBoL.Base">
+      <HintPath>..\..\..\SteamLibrary\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.ConfigData">
+      <HintPath>..\..\..\SteamLibrary\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.ConfigData.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.Core">
+      <HintPath>..\..\..\SteamLibrary\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.EntityLib">
+      <HintPath>..\..\..\SteamLibrary\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.EntityLib.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.Presentation">
+      <HintPath>..\..\..\SteamLibrary\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.Presentation.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>..\..\..\SteamLibrary\steamapps\common\LBoL\LBoL_Data\Managed\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="spine-unity">
+      <HintPath>..\..\..\SteamLibrary\steamapps\common\LBoL\LBoL_Data\Managed\spine-unity.dll</HintPath>
+    </Reference>
+    <Reference Include="UniTask">
+      <HintPath>..\..\..\SteamLibrary\steamapps\common\LBoL\LBoL_Data\Managed\UniTask.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\..\SteamLibrary\steamapps\common\LBoL\LBoL_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\SteamLibrary\steamapps\common\LBoL\LBoL_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BepinexPlugin.cs" />
+    <Compile Include="Cards\cardadrenaline.cs" />
+    <Compile Include="Cards\cardadrenalineDef.cs" />
+    <Compile Include="Cards\cardallure.cs" />
+    <Compile Include="Cards\cardallureDef.cs" />
+    <Compile Include="Cards\cardbefallen.cs" />
+    <Compile Include="Cards\cardbefallenDef.cs" />
+    <Compile Include="Cards\cardbewater.cs" />
+    <Compile Include="Cards\cardbewaterDef.cs" />
+    <Compile Include="Cards\cardbite.cs" />
+    <Compile Include="Cards\cardbiteDef.cs" />
+    <Compile Include="Cards\cardbleedslash.cs" />
+    <Compile Include="Cards\cardbleedslashDef.cs" />
+    <Compile Include="Cards\cardbloodburn.cs" />
+    <Compile Include="Cards\cardbloodburnDef.cs" />
+    <Compile Include="Cards\cardbloodburst.cs" />
+    <Compile Include="Cards\cardbloodburstDef.cs" />
+    <Compile Include="Cards\cardbloodcircle.cs" />
+    <Compile Include="Cards\cardbloodcircleDef.cs" />
+    <Compile Include="Cards\cardbloodcontract.cs" />
+    <Compile Include="Cards\cardbloodcontractDef.cs" />
+    <Compile Include="Cards\cardblooddisciple.cs" />
+    <Compile Include="Cards\cardblooddiscipleDef.cs" />
+    <Compile Include="Cards\cardbloodlaser.cs" />
+    <Compile Include="Cards\cardbloodlaserDef.cs" />
+    <Compile Include="Cards\cardbloodmanip.cs" />
+    <Compile Include="Cards\cardbloodmanipDef.cs" />
+    <Compile Include="Cards\cardbloodofmysword.cs" />
+    <Compile Include="Cards\cardbloodofmyswordDef.cs" />
+    <Compile Include="Cards\cardbloodpulse.cs" />
+    <Compile Include="Cards\cardbloodpulseDef.cs" />
+    <Compile Include="Cards\cardbloodspeed.cs" />
+    <Compile Include="Cards\cardbloodspeedDef.cs" />
+    <Compile Include="Cards\cardbloodstorm.cs" />
+    <Compile Include="Cards\cardbloodstormDef.cs" />
+    <Compile Include="Cards\cardbloodsucker.cs" />
+    <Compile Include="Cards\cardbloodsuckerDef.cs" />
+    <Compile Include="Cards\cardbloodsword.cs" />
+    <Compile Include="Cards\cardbloodswordDef.cs" />
+    <Compile Include="Cards\cardblooduse.cs" />
+    <Compile Include="Cards\cardblooduseDef.cs" />
+    <Compile Include="Cards\cardbloodwork.cs" />
+    <Compile Include="Cards\cardbloodworkDef.cs" />
+    <Compile Include="Cards\cardbloodyhell.cs" />
+    <Compile Include="Cards\cardbloodyhellDef.cs" />
+    <Compile Include="Cards\cardbloodyinyang.cs" />
+    <Compile Include="Cards\cardbloodyinyangDef.cs" />
+    <Compile Include="Cards\cardboilingblood.cs" />
+    <Compile Include="Cards\cardboilingbloodDef.cs" />
+    <Compile Include="Cards\cardchew.cs" />
+    <Compile Include="Cards\cardchewDef.cs" />
+    <Compile Include="Cards\cardcorruptedblood.cs" />
+    <Compile Include="Cards\cardcorruptedbloodDef.cs" />
+    <Compile Include="Cards\cardcrimsondomain.cs" />
+    <Compile Include="Cards\cardcrimsondomainDef.cs" />
+    <Compile Include="Cards\cardcrimsonray.cs" />
+    <Compile Include="Cards\cardcrimsonrayDef.cs" />
+    <Compile Include="Cards\cardcrimsontheater.cs" />
+    <Compile Include="Cards\cardcrimsontheaterDef.cs" />
+    <Compile Include="Cards\cardcrossout.cs" />
+    <Compile Include="Cards\cardcrossoutDef.cs" />
+    <Compile Include="Cards\carddarkblood.cs" />
+    <Compile Include="Cards\carddarkbloodDef.cs" />
+    <Compile Include="Cards\carddarkexpulsion.cs" />
+    <Compile Include="Cards\carddarkexpulsionDef.cs" />
+    <Compile Include="Cards\carddearsword.cs" />
+    <Compile Include="Cards\carddearswordDef.cs" />
+    <Compile Include="Cards\carddevour.cs" />
+    <Compile Include="Cards\carddevourDef.cs" />
+    <Compile Include="Cards\cardemergency.cs" />
+    <Compile Include="Cards\cardemergencyDef.cs" />
+    <Compile Include="Cards\cardendurance.cs" />
+    <Compile Include="Cards\cardenduranceDef.cs" />
+    <Compile Include="Cards\cardetude.cs" />
+    <Compile Include="Cards\cardetudeDef.cs" />
+    <Compile Include="Cards\cardexaa.cs" />
+    <Compile Include="Cards\cardexaaDef.cs" />
+    <Compile Include="Cards\cardexab.cs" />
+    <Compile Include="Cards\cardexabDef.cs" />
+    <Compile Include="Cards\cardexba.cs" />
+    <Compile Include="Cards\cardexbaDef.cs" />
+    <Compile Include="Cards\cardexbb.cs" />
+    <Compile Include="Cards\cardexbbDef.cs" />
+    <Compile Include="Cards\cardfurnace.cs" />
+    <Compile Include="Cards\cardfurnaceDef.cs" />
+    <Compile Include="Cards\cardgojo.cs" />
+    <Compile Include="Cards\cardgojoDef.cs" />
+    <Compile Include="Cards\cardhakureimiko.cs" />
+    <Compile Include="Cards\cardhakureimikoDef.cs" />
+    <Compile Include="Cards\cardheartache.cs" />
+    <Compile Include="Cards\cardheartacheDef.cs" />
+    <Compile Include="Cards\cardidlive.cs" />
+    <Compile Include="Cards\cardidliveDef.cs" />
+    <Compile Include="Cards\cardimmerse.cs" />
+    <Compile Include="Cards\cardimmerseDef.cs" />
+    <Compile Include="Cards\cardinfuseddarkness.cs" />
+    <Compile Include="Cards\cardinfuseddarknessDef.cs" />
+    <Compile Include="Cards\cardintodarkness.cs" />
+    <Compile Include="Cards\cardintodarknessDef.cs" />
+    <Compile Include="Cards\cardkaleido.cs" />
+    <Compile Include="Cards\cardkaleidoDef.cs" />
+    <Compile Include="Cards\cardletsdance.cs" />
+    <Compile Include="Cards\cardletsdanceDef.cs" />
+    <Compile Include="Cards\cardlowtide.cs" />
+    <Compile Include="Cards\cardlowtideDef.cs" />
+    <Compile Include="Cards\cardmagia.cs" />
+    <Compile Include="Cards\cardmagiaDef.cs" />
+    <Compile Include="Cards\cardmarkblood.cs" />
+    <Compile Include="Cards\cardmarkbloodDef.cs" />
+    <Compile Include="Cards\cardmissribbon.cs" />
+    <Compile Include="Cards\cardmissribbonDef.cs" />
+    <Compile Include="Cards\cardmixedblood.cs" />
+    <Compile Include="Cards\cardmixedbloodDef.cs" />
+    <Compile Include="Cards\cardmutualdepletion.cs" />
+    <Compile Include="Cards\cardmutualdepletionDef.cs" />
+    <Compile Include="Cards\cardnether.cs" />
+    <Compile Include="Cards\cardnetherDef.cs" />
+    <Compile Include="Cards\cardnightfalls.cs" />
+    <Compile Include="Cards\cardnightfallsDef.cs" />
+    <Compile Include="Cards\cardnoradrenaline.cs" />
+    <Compile Include="Cards\cardnoradrenalineDef.cs" />
+    <Compile Include="Cards\cardpastpresent.cs" />
+    <Compile Include="Cards\cardpastpresentDef.cs" />
+    <Compile Include="Cards\cardquickrestore.cs" />
+    <Compile Include="Cards\cardquickrestoreDef.cs" />
+    <Compile Include="Cards\cardredblood.cs" />
+    <Compile Include="Cards\cardredbloodDef.cs" />
+    <Compile Include="Cards\cardshadowcut.cs" />
+    <Compile Include="Cards\cardshadowcutDef.cs" />
+    <Compile Include="Cards\cardshady.cs" />
+    <Compile Include="Cards\cardshadyDef.cs" />
+    <Compile Include="Cards\cardslicepast.cs" />
+    <Compile Include="Cards\cardslicepastDef.cs" />
+    <Compile Include="Cards\cardsonanoka.cs" />
+    <Compile Include="Cards\cardsonanokaDef.cs" />
+    <Compile Include="Cards\cardsunnydry.cs" />
+    <Compile Include="Cards\cardsunnydryDef.cs" />
+    <Compile Include="Cards\cardtakeover.cs" />
+    <Compile Include="Cards\cardtakeoverDef.cs" />
+    <Compile Include="Cards\cardtearmedo.cs" />
+    <Compile Include="Cards\cardtearmedoDef.cs" />
+    <Compile Include="Cards\cardtearssubside.cs" />
+    <Compile Include="Cards\cardtearssubsideDef.cs" />
+    <Compile Include="Cards\cardtenshaded.cs" />
+    <Compile Include="Cards\cardtenshadedDef.cs" />
+    <Compile Include="Cards\cardtorn.cs" />
+    <Compile Include="Cards\cardtornDef.cs" />
+    <Compile Include="Cards\cardtwilight.cs" />
+    <Compile Include="Cards\cardtwilightDef.cs" />
+    <Compile Include="Cards\cardunstableblood.cs" />
+    <Compile Include="Cards\cardunstablebloodDef.cs" />
+    <Compile Include="Cards\cardworldburn.cs" />
+    <Compile Include="Cards\cardworldburnDef.cs" />
+    <Compile Include="Cards\Template\CardIndexGenerator.cs" />
+    <Compile Include="Cards\Template\lvalonexrumiaCard.cs" />
+    <Compile Include="Cards\Template\lvalonexrumiaCardTemplate.cs" />
+    <Compile Include="Cards\Template\reactcard.cs" />
+    <Compile Include="Config\CustomConfigEntry.cs" />
+    <Compile Include="Config\lvalonexrumiaDefaultConfig.cs" />
+    <Compile Include="Enemies\lvalonexrumia.cs" />
+    <Compile Include="Enemies\lvalonexrumiabgm.cs" />
+    <Compile Include="Enemies\lvalonexrumiaEnemyGroupDef.cs" />
+    <Compile Include="Enemies\lvalonexrumiaEnemyUnitDef.cs" />
+    <Compile Include="Enemies\Template\lvalonexrumiaEnemyGroupTemplate.cs" />
+    <Compile Include="Enemies\Template\lvalonexrumiaEnemyUnitTemplate.cs" />
+    <Compile Include="Exhibits\exexa.cs" />
+    <Compile Include="Exhibits\exexaDef.cs" />
+    <Compile Include="Exhibits\exexb.cs" />
+    <Compile Include="Exhibits\exexbDef.cs" />
+    <Compile Include="Exhibits\exfakeribbon.cs" />
+    <Compile Include="Exhibits\exfakeribbonDef.cs" />
+    <Compile Include="Exhibits\exrumiafumo.cs" />
+    <Compile Include="Exhibits\exrumiafumoDef.cs" />
+    <Compile Include="Exhibits\extrueribbon.cs" />
+    <Compile Include="Exhibits\extrueribbonDef.cs" />
+    <Compile Include="Exhibits\lvalonexrumiaExhibitTemplate.cs" />
+    <Compile Include="GunName\GunNameID.cs" />
+    <Compile Include="ImageLoader\lvalonexrumiaImageLoader.cs" />
+    <Compile Include="Localization\lvalonexrumiaLocalization.cs" />
+    <Compile Include="lvalonexrumiaDef.cs" />
+    <Compile Include="lvalonexrumiaLoadouts.cs" />
+    <Compile Include="lvalonexrumiaUlt\exgojo.cs" />
+    <Compile Include="lvalonexrumiaUlt\exgojoDef.cs" />
+    <Compile Include="lvalonexrumiaUlt\exshadowcut.cs" />
+    <Compile Include="lvalonexrumiaUlt\exshadowcutDef.cs" />
+    <Compile Include="lvalonexrumiaUlt\extenshaded.cs" />
+    <Compile Include="lvalonexrumiaUlt\extenshadedDef.cs" />
+    <Compile Include="lvalonexrumiaUlt\exulta.cs" />
+    <Compile Include="lvalonexrumiaUlt\exultaDef.cs" />
+    <Compile Include="lvalonexrumiaUlt\exultb.cs" />
+    <Compile Include="lvalonexrumiaUlt\exultbDef.cs" />
+    <Compile Include="lvalonexrumiaUlt\lvalonexrumiaUltTemplate.cs" />
+    <Compile Include="lvalonmeme\StatusEffects\sebossheal.cs" />
+    <Compile Include="lvalonmeme\StatusEffects\sebosshealDef.cs" />
+    <Compile Include="lvalonmeme\StatusEffects\sedecrease.cs" />
+    <Compile Include="lvalonmeme\StatusEffects\sedecreaseDef.cs" />
+    <Compile Include="lvalonmeme\StatusEffects\seincrease.cs" />
+    <Compile Include="lvalonmeme\StatusEffects\seincreaseDef.cs" />
+    <Compile Include="model\lvalonexrumiamodel.cs" />
+    <Compile Include="Patches\ChangeLifeAction.cs" />
+    <Compile Include="Patches\ChangeLifeEventArgs.cs" />
+    <Compile Include="Patches\CustomGameEventManager.cs" />
+    <Compile Include="PInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StatusEffects\lvalonexrumiaStatusEffectTemplate.cs" />
+    <Compile Include="StatusEffects\seaccel.cs" />
+    <Compile Include="StatusEffects\seaccelDef.cs" />
+    <Compile Include="StatusEffects\seadrenaline.cs" />
+    <Compile Include="StatusEffects\seadrenalineDef.cs" />
+    <Compile Include="StatusEffects\seatkincrease.cs" />
+    <Compile Include="StatusEffects\seatkincreaseDef.cs" />
+    <Compile Include="StatusEffects\sebewater.cs" />
+    <Compile Include="StatusEffects\sebewaterDef.cs" />
+    <Compile Include="StatusEffects\sebleed.cs" />
+    <Compile Include="StatusEffects\sebleedDef.cs" />
+    <Compile Include="StatusEffects\sebleedslash.cs" />
+    <Compile Include="StatusEffects\sebleedslashDef.cs" />
+    <Compile Include="StatusEffects\sebloodcircle.cs" />
+    <Compile Include="StatusEffects\sebloodcircleDef.cs" />
+    <Compile Include="StatusEffects\sebloodclot.cs" />
+    <Compile Include="StatusEffects\sebloodclotDef.cs" />
+    <Compile Include="StatusEffects\sebloodcontract.cs" />
+    <Compile Include="StatusEffects\sebloodcontractDef.cs" />
+    <Compile Include="StatusEffects\sebloodmark.cs" />
+    <Compile Include="StatusEffects\sebloodmarkDef.cs" />
+    <Compile Include="StatusEffects\sebloodofmysword.cs" />
+    <Compile Include="StatusEffects\sebloodofmyswordDef.cs" />
+    <Compile Include="StatusEffects\sebloodstorm.cs" />
+    <Compile Include="StatusEffects\sebloodstormDef.cs" />
+    <Compile Include="StatusEffects\sebloodsword.cs" />
+    <Compile Include="StatusEffects\sebloodswordDef.cs" />
+    <Compile Include="StatusEffects\sebloodyhell.cs" />
+    <Compile Include="StatusEffects\sebloodyhellDef.cs" />
+    <Compile Include="StatusEffects\secorruptedblood.cs" />
+    <Compile Include="StatusEffects\secorruptedbloodDef.cs" />
+    <Compile Include="StatusEffects\sedarkblood.cs" />
+    <Compile Include="StatusEffects\sedarkbloodDef.cs" />
+    <Compile Include="StatusEffects\sedearsword.cs" />
+    <Compile Include="StatusEffects\sedearswordDef.cs" />
+    <Compile Include="StatusEffects\sedeepbleed.cs" />
+    <Compile Include="StatusEffects\sedeepbleedDef.cs" />
+    <Compile Include="StatusEffects\seendurance.cs" />
+    <Compile Include="StatusEffects\seenduranceDef.cs" />
+    <Compile Include="StatusEffects\seetude.cs" />
+    <Compile Include="StatusEffects\seetudeDef.cs" />
+    <Compile Include="StatusEffects\sefuckyou.cs" />
+    <Compile Include="StatusEffects\sefuckyouDef.cs" />
+    <Compile Include="StatusEffects\segojo.cs" />
+    <Compile Include="StatusEffects\segojoDef.cs" />
+    <Compile Include="StatusEffects\seidlive.cs" />
+    <Compile Include="StatusEffects\seidliveDef.cs" />
+    <Compile Include="StatusEffects\seimmerse.cs" />
+    <Compile Include="StatusEffects\seimmerseDef.cs" />
+    <Compile Include="StatusEffects\seinfuseddarkness.cs" />
+    <Compile Include="StatusEffects\seinfuseddarknessDef.cs" />
+    <Compile Include="StatusEffects\semagia.cs" />
+    <Compile Include="StatusEffects\semagiaDef.cs" />
+    <Compile Include="StatusEffects\semarkblood.cs" />
+    <Compile Include="StatusEffects\semarkbloodDef.cs" />
+    <Compile Include="StatusEffects\semissribbon.cs" />
+    <Compile Include="StatusEffects\semissribbonDef.cs" />
+    <Compile Include="StatusEffects\semixedblood.cs" />
+    <Compile Include="StatusEffects\semixedbloodDef.cs" />
+    <Compile Include="StatusEffects\semutualdepletion.cs" />
+    <Compile Include="StatusEffects\semutualdepletionDef.cs" />
+    <Compile Include="StatusEffects\senightfalls.cs" />
+    <Compile Include="StatusEffects\senightfallsDef.cs" />
+    <Compile Include="StatusEffects\sepastpresent.cs" />
+    <Compile Include="StatusEffects\sepastpresentDef.cs" />
+    <Compile Include="StatusEffects\sequickrestore.cs" />
+    <Compile Include="StatusEffects\sequickrestoreDef.cs" />
+    <Compile Include="StatusEffects\sereact.cs" />
+    <Compile Include="StatusEffects\seshadowcut.cs" />
+    <Compile Include="StatusEffects\seshadowcutDef.cs" />
+    <Compile Include="StatusEffects\setearmedo.cs" />
+    <Compile Include="StatusEffects\setearmedoDef.cs" />
+    <Compile Include="StatusEffects\setorn.cs" />
+    <Compile Include="StatusEffects\setornDef.cs" />
+    <Compile Include="StatusEffects\setwilight1.cs" />
+    <Compile Include="StatusEffects\setwilight1Def.cs" />
+    <Compile Include="StatusEffects\setwilight2.cs" />
+    <Compile Include="StatusEffects\setwilight2Def.cs" />
+    <Compile Include="StatusEffects\setwilight3.cs" />
+    <Compile Include="StatusEffects\setwilight3Def.cs" />
+    <Compile Include="StatusEffects\seworldburn.cs" />
+    <Compile Include="StatusEffects\seworldburnDef.cs" />
+    <Compile Include="System\Runtime\CompilerServices\IgnoresAccessChecksToAttribute.cs" />
+    <Compile Include="toolbox.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Cards\cardadrenaline.png" />
+    <EmbeddedResource Include="Resources\Cards\cardallure.png" />
+    <EmbeddedResource Include="Resources\Cards\cardbefallen.png" />
+    <EmbeddedResource Include="Resources\Cards\cardbewater.png" />
+    <EmbeddedResource Include="Resources\Cards\cardbite.png" />
+    <EmbeddedResource Include="Resources\Cards\cardbiteワイテイ.png" />
+    <EmbeddedResource Include="Resources\Cards\cardbleedslash.png" />
+    <EmbeddedResource Include="Resources\Cards\cardbloodburn.png" />
+    <EmbeddedResource Include="Resources\Cards\cardbloodburst.png" />
+    <EmbeddedResource Include="Resources\Cards\cardbloodcircle.png" />
+    <EmbeddedResource Include="Resources\Cards\cardbloodcontract.png" />
+    <EmbeddedResource Include="Resources\Cards\cardblooddisciple.png" />
+    <EmbeddedResource Include="Resources\Cards\cardbloodlaser.png" />
+    <EmbeddedResource Include="Resources\Cards\cardbloodmanip.png" />
+    <EmbeddedResource Include="Resources\Cards\cardbloodofmysword.png" />
+    <EmbeddedResource Include="Resources\Cards\cardbloodpulse.png" />
+    <EmbeddedResource Include="Resources\Cards\cardbloodspeed.png" />
+    <EmbeddedResource Include="Resources\Cards\cardbloodstorm.png" />
+    <EmbeddedResource Include="Resources\Cards\cardbloodsucker.png" />
+    <EmbeddedResource Include="Resources\Cards\cardbloodsword.png" />
+    <EmbeddedResource Include="Resources\Cards\cardblooduse.png" />
+    <EmbeddedResource Include="Resources\Cards\cardbloodwork.png" />
+    <EmbeddedResource Include="Resources\Cards\cardbloodyhell.png" />
+    <EmbeddedResource Include="Resources\Cards\cardbloodyinyang.png" />
+    <EmbeddedResource Include="Resources\Cards\cardboilingblood.png" />
+    <EmbeddedResource Include="Resources\Cards\cardchew.png" />
+    <EmbeddedResource Include="Resources\Cards\cardcorruptedblood.png" />
+    <EmbeddedResource Include="Resources\Cards\cardcrimsondomain.png" />
+    <EmbeddedResource Include="Resources\Cards\cardcrimsonray.png" />
+    <EmbeddedResource Include="Resources\Cards\cardcrimsontheater.png" />
+    <EmbeddedResource Include="Resources\Cards\cardcrossout.png" />
+    <EmbeddedResource Include="Resources\Cards\carddarkblood.png" />
+    <EmbeddedResource Include="Resources\Cards\carddarkexpulsion.png" />
+    <EmbeddedResource Include="Resources\Cards\carddearsword.png" />
+    <EmbeddedResource Include="Resources\Cards\carddevour.png" />
+    <EmbeddedResource Include="Resources\Cards\cardemergency.png" />
+    <EmbeddedResource Include="Resources\Cards\cardendurance.png" />
+    <EmbeddedResource Include="Resources\Cards\cardetude.png" />
+    <EmbeddedResource Include="Resources\Cards\cardexaa.png" />
+    <EmbeddedResource Include="Resources\Cards\cardexab.png" />
+    <EmbeddedResource Include="Resources\Cards\cardexba.png" />
+    <EmbeddedResource Include="Resources\Cards\cardexbb.png" />
+    <EmbeddedResource Include="Resources\Cards\cardfurnace.png" />
+    <EmbeddedResource Include="Resources\Cards\cardgojo.png" />
+    <EmbeddedResource Include="Resources\Cards\cardhakureimiko.png" />
+    <EmbeddedResource Include="Resources\Cards\cardheartache.png" />
+    <EmbeddedResource Include="Resources\Cards\cardidlive.png" />
+    <EmbeddedResource Include="Resources\Cards\cardimmerse.png" />
+    <EmbeddedResource Include="Resources\Cards\cardinfuseddarkness.png" />
+    <EmbeddedResource Include="Resources\Cards\cardintodarkness.png" />
+    <EmbeddedResource Include="Resources\Cards\cardkaleido.png" />
+    <EmbeddedResource Include="Resources\Cards\cardletsdance.png" />
+    <EmbeddedResource Include="Resources\Cards\cardlowtide.png" />
+    <EmbeddedResource Include="Resources\Cards\cardmagia.png" />
+    <EmbeddedResource Include="Resources\Cards\cardmarkblood.png" />
+    <EmbeddedResource Include="Resources\Cards\cardmissribbon.png" />
+    <EmbeddedResource Include="Resources\Cards\cardmixedblood.png" />
+    <EmbeddedResource Include="Resources\Cards\cardmutualdepletion.png" />
+    <EmbeddedResource Include="Resources\Cards\cardnether.png" />
+    <EmbeddedResource Include="Resources\Cards\cardnightfalls.png" />
+    <EmbeddedResource Include="Resources\Cards\cardnoradrenaline.png" />
+    <EmbeddedResource Include="Resources\Cards\cardpastpresent.png" />
+    <EmbeddedResource Include="Resources\Cards\cardquickrestore.png" />
+    <EmbeddedResource Include="Resources\Cards\cardredblood.png" />
+    <EmbeddedResource Include="Resources\Cards\cardshadowcut.png" />
+    <EmbeddedResource Include="Resources\Cards\cardshady.png" />
+    <EmbeddedResource Include="Resources\Cards\cardslicepast.png" />
+    <EmbeddedResource Include="Resources\Cards\cardsonanoka.png" />
+    <EmbeddedResource Include="Resources\Cards\cardsunnydry.png" />
+    <EmbeddedResource Include="Resources\Cards\cardtakeover.png" />
+    <EmbeddedResource Include="Resources\Cards\cardtearmedo.png" />
+    <EmbeddedResource Include="Resources\Cards\cardtearssubside.png" />
+    <EmbeddedResource Include="Resources\Cards\cardtenshaded.png" />
+    <EmbeddedResource Include="Resources\Cards\cardtorn.png" />
+    <EmbeddedResource Include="Resources\Cards\cardtwilight.png" />
+    <EmbeddedResource Include="Resources\Cards\cardunstableblood.png" />
+    <EmbeddedResource Include="Resources\Cards\cardworldburn.png" />
+    <EmbeddedResource Include="Resources\Exhibits.DS_Store" />
+    <EmbeddedResource Include="Resources\Exhibits\exexa.png" />
+    <EmbeddedResource Include="Resources\Exhibits\exexb.png" />
+    <EmbeddedResource Include="Resources\Exhibits\exfakeribbon.png" />
+    <EmbeddedResource Include="Resources\Exhibits\exfakeribbonreal.png" />
+    <EmbeddedResource Include="Resources\Exhibits\exrumiafumo.png" />
+    <EmbeddedResource Include="Resources\Exhibits\extrueribbon.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\seaccel.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\seadrenaline.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\seatkincrease.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\sebewater.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\sebleed.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\sebleedslash.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\sebloodcircle.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\sebloodclot.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\sebloodcontract.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\sebloodmark.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\sebloodofmysword.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\sebloodstorm.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\sebloodsword.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\sebloodyhell.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\sebossheal.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\secorruptedblood.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\sedarkblood.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\sedearsword.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\sedeepbleed.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\seendurance.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\seetude.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\sefuckyou.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\segojo.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\seidlive.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\seimmerse.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\seinfuseddarkness.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\semagia.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\semarkblood.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\semissribbon.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\semixedblood.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\semutualdepletion.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\senightfalls.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\sepastpresent.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\sequickrestore.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\seshadowcut.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\setearmedo.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\setorn.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\setwilight1.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\setwilight2.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\setwilight3.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\seworldburn.png" />
+    <EmbeddedResource Include="Resources\Ult\exulta.png" />
+    <EmbeddedResource Include="Resources\Ult\exultb.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

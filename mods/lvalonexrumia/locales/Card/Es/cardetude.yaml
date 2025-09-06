@@ -1,0 +1,10 @@
+﻿cardetude:
+  Name: Mi Preludio
+  Description: >-
+    |Reduce| {Value1}% {healstring}de la vida actual.
+
+    Gana {Value2} |Incrementos de Ataque|.
+
+    Inflige {Damage} de daño a un enemigo aleatorio |n:3| veces.
+
+    Repite estos efectos al comienzo del próximo turno de {PlayerName}

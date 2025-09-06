@@ -1,0 +1,8 @@
+﻿seshadowcut:
+  Name: Shadow Cut
+  Description: At the start of {PlayerName}'s turn, deal {Damage} damage to a random enemy {Level} times.
+  ExtraDescription: >-
+    At the start of {PlayerName}'s turn, deal {Damage} damage to a random enemy {Level} times.
+
+    {SelfName} is inactive and will only be removed after the turn it resolves.
+  Brief: At the start of {PlayerName}'s turn, deal |n:5| damage to a random enemy |n:5| times.

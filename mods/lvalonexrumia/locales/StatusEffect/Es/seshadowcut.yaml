@@ -1,0 +1,8 @@
+﻿seshadowcut:
+  Name: Corte de la Sombras
+  Description: Al comienzo del turno de {PlayerName}, inflige {Damage} de daño a un enemigo aleatorio {Level} veces.
+  ExtraDescription: >-
+    Al comienzo del turno de {PlayerName}, inflige {Damage} de daño a un enemigo aleatorio {Level} veces.
+
+    {SelfName} está inactivo y solo se removerá después del turno en que se resuelva.
+  Brief: Al comienzo del turno de {PlayerName}, inflige |n:5| de daño a un enemigo aleatorio |n:5| veces.

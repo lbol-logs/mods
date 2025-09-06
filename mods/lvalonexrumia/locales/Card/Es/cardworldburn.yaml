@@ -1,0 +1,8 @@
+﻿cardworldburn:
+  Name: El Mundo Arderá
+  Description: Cuando {PlayerName} aplica una |Marca de Sangre| o |Sangrado| a un enemigo, también aplica {Value1} del otro efecto.
+  UpgradedDescription: >-
+    Cuando {PlayerName} aplica una |Marca de Sangre| o |Sangrado| a un enemigo, también aplica {Value1} el otro efecto.
+
+    Aplica {Value1} |Marca de Sangre| y |Sangrado| a cada enemigo.
+  DetailText: Nah, no se repite consigo mismo infinitamente lol

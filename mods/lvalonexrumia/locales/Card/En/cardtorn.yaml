@@ -1,0 +1,6 @@
+﻿cardtorn:
+  Name: Torn Red Ribbon
+  Description: >-
+    |While {PlayerName} has less than| |n:50|% {needstring}|life|: Whenever {PlayerName} |Grazes| an attack, gain {Value1} |Attack Increase|, |increase| life by {Value1}%{healstringnos}.
+
+    Gain {Value2} |Graze|.

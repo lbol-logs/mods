@@ -1,0 +1,4 @@
+﻿sedearsword:
+  Name: My Dear Sword
+  Description: At the start of {PlayerName}'s turn, add {Level} |Blood Storm| to the hand.
+  Brief: At the start of {PlayerName}'s turn, add |Blood Storm| to the hand.

@@ -1,0 +1,14 @@
+﻿cardchew:
+  Name: ひとくちだけ
+  Description: >-
+    |生命減衰|{Value1}% {healstring} 
+
+    全ての敵に{Damage}ダメージを{battleatk}回与える。
+
+    |成長|:ダメージをさらに{Value2}回与える。
+  NonbattleDescription: >-
+    |生命減衰|{Value1}% {healstring} 
+
+    敵全体に{Damage}ダメージを|n:2| 回与える。
+
+    |成長|:ダメージをさらに{Value2}回与える。

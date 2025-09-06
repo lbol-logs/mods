@@ -1,0 +1,6 @@
+﻿cardbloodyinyang:
+  Name: 血塗られた陰陽玉
+  Description: >-
+    |廃棄場|から最大{truevalue}枚のカードを選び、それらを手札に戻す。
+
+    手札の全てのカードを|アップグレード|する。

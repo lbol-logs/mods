@@ -1,0 +1,25 @@
+exulta:
+  Title: EX
+  Content: "終焉"
+  Description: |-
+    |血の印|{Value1}を与える。
+    {Damage}ダメージを{Value2}回数与える。
+    |精密|
+
+exultb:
+  Title: 血符
+  Content: "真紅の月光ソナタ"
+  Description: |-
+    敵全体に|出血|{Value1}を与える。
+    敵全体に{Damage}ダメージを{Value2}回数与える。
+    |精密|
+    
+extenshaded:
+  Content: "十影斬り"
+
+exshadowcut:
+  Content: "影斬り"
+
+exgojo:
+  Content: "無量空処"
+

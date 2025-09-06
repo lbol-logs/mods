@@ -1,0 +1,6 @@
+﻿cardbloodwork:
+  Name: Técnica de Sangre
+  Description: >-
+    Gana {Block} de |Bloqueo|.
+
+    Gana {Value1} |Coágulo{Value1:plural one='' other='s'} de Sangre|.

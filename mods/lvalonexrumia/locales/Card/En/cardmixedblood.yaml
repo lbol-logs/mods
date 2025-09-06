@@ -1,0 +1,7 @@
+﻿cardmixedblood:
+  Name: 200% Mixed Blood
+  Description: Until end of turn, whenever |Dark Blood| is played, play a |Crimson Blood|, whenever |Crimson Blood| is played, gain {Value1} |Dark Blood Token|.
+  UpgradedDescription: >-
+    Until end of turn, whenever |Dark Blood| is played, play a |Crimson Blood|, whenever |Crimson Blood| is played, gain {Value1} |Dark Blood Token|.
+
+    Add {Value1} |Dark Blood| and |Crimson Blood| to the hand.

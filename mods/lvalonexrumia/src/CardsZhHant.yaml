@@ -1,0 +1,332 @@
+cardexaa:
+  Name: 背着砍
+  Description: 造成 {Damage} 點傷害。
+
+cardexab:
+  Name: 黑暗護盾
+  Description: 獲得 {Block} 點|格擋|。
+
+cardexba:
+  Name: 正面砍
+  Description: 造成 {Damage} 點傷害。
+
+cardexbb:
+  Name: 完美格擋
+  Description: 獲得 {Block} 點|格擋|。
+
+cardbloodsword:
+  Name: 血劍
+  Description: "造成 {Damage} 點傷害。\n如果目標沒有|血跡|，施加 {Value2} 層|血跡|，否則從目標上消耗 {Value2} 層|血跡|以|提升| {Value1}% {healstring}生命值。"
+  UpgradedDescription: "造成 {Damage} 點傷害。\n施加 {Value2} 層|血跡|和|提升| {Value1}% {healstring}生命值。"
+  DetailText: "當{SelfName}在手牌未被打出而被|放逐|時，打出{SelfName}。"
+
+cardbloodstorm:
+  Name: 血之風暴
+  Description: "對所有敵人造成 {Damage} 點傷害。\n對所有敵人施加 {Value1} 層|流血|。"
+  UpgradedDescription: "對所有敵人造成 {Damage} 點傷害。\n對所有敵人施加 {Value1} 層|流血|和|血跡|。"
+  DetailText: "當{SelfName}在手牌未被打出而被|放逐|時，打出{SelfName}。"
+
+carddarkblood:
+  Name: 黑血
+  Description: "|提升| {Value1}% {healstring}生命值。\n抽 {Value2} 張牌。\n如果{PlayerName}沒有|加速|，則獲得 {Value2} 層|加速|。"
+  UpgradedDescription: "|提升| {Value1}% {healstring}生命值。\n抽 {Value2} 張牌。\n獲得 {Value2} 層|閃避|。"
+
+cardredblood:
+  Name: 紅血
+  Description: "如果{PlayerName}的生命值少於 |n:50|% {needstring}，|提升| {Value1}% {healstring}生命值。\n獲得{Mana}。\n對所有擁有|流血|的敵人造成 {Damage} 點|精準|攻擊傷害。"
+  UpgradedDescription: "|提升| {Value1}% {healstring}生命值。\n獲得{Mana}。\n對所有擁有|流血|的敵人造成 {Damage} 點|精準|攻擊傷害。"
+
+cardbloodcontract:
+  Name: 血契
+  Description: "每當{PlayerName}的生命值降低時，獲得 {Value1} 層|血劍衍生物|。"
+
+cardbloodlaser:
+  Name: 血色雷射
+  Description: "|減少|現有生命值的 {Value1}% {healstring}。\n施加 {Value2} 層|血跡|。\n造成 {Damage} 點傷害。"
+
+carddevour:
+  Name: 吞噬
+  Description: "造成 {Damage} 點傷害。\n|退治|：獲得 {Value1}% {healstring}最大生命值，將{SelfName}移出戰鬥和牌庫。"
+  DetailText: "{SelfName}不會在戰鬥中被隨機獲得，不能成為複製效果的對象。"
+
+cardletsdance:
+  Name: 齊起舞
+  Description: "對所有敵人施加 {Value1} 層|血跡|。\n對所有敵人造成 {Damage} 點傷害 {Value2} 次。\n獲得 {Value2} 層|閃避|。"
+
+cardbloodburn:
+  Name: 血燃
+  Description: "|減少| {Value1}% {healstring}生命值。\n獲得{Mana}。"
+
+cardbite:
+  Name: 噬咬
+  Description: "造成 {Damage} 點傷害。\n獲得 {Value1} 層|黑血衍生物|。"
+
+cardshady:
+  Name: 陰影中的秘密
+  Description: "獲得 {Value1} 層|閃避|和 {Value2} 層|黑血衍生物|。"
+
+cardadrenaline:
+  Name: 腎上腺素
+  Description: "|當{PlayerName}的生命值少於| |n:50|% {needstring}|時|：每當{PlayerName}的生命值降低時，獲得 {Value1} 層|攻擊提升|和 {Value2} 層|血塊|。"
+
+cardbloodyhell:
+  Name: 血色地獄
+  Description: "每當打出一張紅色牌時，獲得 {Value1} 層|攻擊提升|。"
+
+cardintodarkness:
+  Name: 暗之地獄
+  Description: "施加 {Value1} 層|血跡|。\n對所有擁有|血跡|的敵人造成 {Damage} 點傷害。"
+
+cardbloodspeed:
+  Name: 血液加速
+  Description: "|減少|現有生命值的 {Value1}% |n:2| 次{healstring2s}。\n獲得 |n:1| 層|加速|。\n抽 {Value2} 張牌。"
+
+cardtorn:
+  Name: 被撕開的緞帶
+  Description: "|當{PlayerName}的生命值少於| |n:50|% {needstring}|時|：每當{PlayerName}|閃避|傷害時，獲得 {Value1} 層|攻擊提升|, |提升| {Value1}% 的生命值{healstrings}。\n獲得 {Value2} 層|閃避|。"
+
+cardendurance:
+  Name: 耐力
+  Description: "|當{PlayerName}的生命值少於| |n:50|% {needstring}|時|：每當{PlayerName}的生命值降低時，下回合開始時將 {Value1} 張|紅血|加入手中。"
+
+cardcrimsonray:
+  Name: 腥紅光線
+  Description: "|減少| {Value1}% {healstring}生命值。\n施加 {Value2} 層|流血|。\n造成 {Damage} 點傷害。"
+
+cardbloodsucker:
+  Name: 吸血吸的
+  Description: "造成 {Damage} 點傷害。\n將 {Value1} 張|紅血|加入手中。"
+
+cardblooduse:
+  Name: 血的妙用
+  Description: "對所有敵人造成 {Damage} 點傷害。\n如果{PlayerName}的生命值少於 |n:50|% {needstring}，將 {Value1} 張|紅血|加入手中。"
+
+cardboilingblood:
+  Name: 沸騰的血液
+  Description: "|減少| {Value1}% {healstring}生命值。\n對所有擁有|流血|的敵人造成 {Damage} 點傷害。\n獲得 {Value2} 層|攻擊提升|。"
+  UpgradedDescription: "|減少| {Value1}% {healstring}生命值。\n對所有敵人造成 {Damage} 點傷害。\n獲得 {Value2} 層|攻擊提升|。"
+
+cardchew:
+  Name: 淺咬億點
+  Description: "|減少| {Value1}% {healstring}生命值。\n對所有敵人造成 {Damage} 點傷害 {battleatk} 次。\n|成長|：多造成傷害 {Value2} 次。"
+  NonbattleDescription: "|減少| {Value1}% {healstring}生命值。\n對所有敵人造成 {Damage} 點傷害 |n:2| 次。\n|成長|：多造成傷害 {Value2} 次。"
+
+cardfurnace:
+  Name: 血肉熔爐
+  Description: "|減少| {Value1}% {healstring}生命值。\n獲得 |n:20| 點|攻擊提升|和將 |n:1| 張|紅血|加入手中。\n如果{PlayerName}的生命值少於 |n:50|% {needstring}，將 {Value2} 張|紅血|加入手中。"
+
+cardnoradrenaline:
+  Name: 去甲腎上腺素
+  Description: "|減少| {Value1}% {healstring}生命值。\n對所有擁有|血跡|或|流血|的敵人造成 {Damage} 點傷害 |n:3| 次。\n如果{PlayerName}的生命值少於 |n:50|% {needstring}，將 {Value2} 張|紅血|加入手中。"
+  UpgradedDescription: "|減少| {Value1}% {healstring}生命值。\n對所有敵人造成 {Damage} 點傷害 |n:3| 次。\n如果{PlayerName}的生命值少於 |n:50|% {needstring}，將 {Value2} 張|紅血|加入手中。"
+
+cardbloodburst:
+  Name: 血液爆發
+  Description: "|減少| {Value1}% {healstring}生命值。\n對所有敵人施加 |n:1| 層|流血| {Value2} 次。\n對所有擁有|流血|的敵人造成 {Damage} 點傷害 |n:3| 次。"
+
+cardtearmedo:
+  Name: Tear Me Do
+  Description: "每當{PlayerName}的生命值降低時，獲得 {Value1} 層|血之風暴衍生物|和 {Value2} 層|攻擊提升|。"
+
+cardbloodwork:
+  Name: 血藝
+  Description: "獲得 {Block} 點|格擋|。\n獲得 {Value1} 層|血塊|。"
+
+cardsonanoka:
+  Name: 是這樣嗎？
+  Description: "|減少|現有生命值的 {Value1}% {healstring}。\n獲得 {Block} 點|格擋|。\n獲得 {Value2} 層|閃避|。"
+
+cardcrossout:
+  Name: 抹殺的指名
+  Description: "|每支付|{Mana2}：獲得 {Block} 點|格擋|和 {Value1} 層|血塊|。"
+
+cardemergency:
+  Name: 緊急遮蓋
+  Description: "|減少|現有生命值的 {Value1}% {healstring}。\n獲得 {Block} 點|格擋|。\n獲得 {Value2} |黑血衍生物|。"
+  UpgradedDescription: "|減少|現有生命值的 {Value1}% {healstring}。\n獲得 {Block} 點|格擋|。\n獲得 {Value2} |黑血衍生物|。\n如果有敵人的意圖為攻擊，獲得 {Value1} 層|血塊|。"
+
+cardmagia:
+  Name: 魔法少女露米婭
+  Description: "獲得 {Block} 點|格擋|。\n獲得 {Value1} 層|加速|。\n這輪結束前，{PlayerName}受到攻擊時獲得 {Value2} 層|血劍衍生物|。"
+
+cardbloodmanip:
+  Name: 血液操縱
+  Description: "|減少| |n:5|% {healstring}生命值。\n獲得 {Value1} 層|血塊|。\n對所有敵人施加 {Value2} 層|血跡|和|流血|。"
+
+cardnether:
+  Name: 下界陰影
+  Description: "獲得 {Shield} 點|護盾|。\n獲得 {Value1} 層|血塊|。\n將 {Value2} 張|暗影|加入手中。"
+
+cardheartache:
+  Name: 心痛
+  Description: "|減少| {Value1}% {healstring}生命值。\n獲得 {Block} 點|格擋|。"
+
+cardgojo:
+  Name: 無量空處
+  Description: "|減少|現有生命值的 {Value1}% |n:2| 次{healstring2s}。\n這輪結束前，{PlayerName}免疫所有傷害。\n獲得 {Value2} 層|額外回合|。"
+
+cardworldburn:
+  Name: 燃點世界
+  Description: "每當{PlayerName}對敵人施加|血跡|或|流血|，也施加 {Value1} 層另外那個狀態。"
+  UpgradedDescription: "每當{PlayerName}對敵人施加|血跡|或|流血|，也施加 {Value1} 層另外那個狀態。\n對所有敵人施加 {Value1} 層|血跡|和|流血|。"
+  DetailText: "笑死 根本不會自己無限"
+
+cardcorruptedblood:
+  Name: 腐化的血
+  Description: "當{PlayerName}的生命值降低時，獲得 {Value1} 層|黑血衍生物|。"
+  UpgradedDescription: "當{PlayerName}的生命值降低時，獲得 {Value1} 層|黑血衍生物|。\n將 {Value2} 張|黑血|加入手中。"
+
+cardbloodofmysword:
+  Name: 吾劍之血
+  Description: "每當{PlayerName}對敵人造成攻擊傷害時，將敵人的生命值|提升| {Value1} 點，獲得 {Value1} 點|暫得火力|。"
+  UpgradedDescription: "每當{PlayerName}對敵人造成攻擊傷害時，將敵人的生命值|提升| {Value1} 點，獲得 {Value1} 點|暫得火力|。\n將 {Value2} 張|血劍|加入手中。"
+
+carddarkexpulsion:
+  Name: 黑暗分離
+  Description: "獲得 {Value2} 層|黑血衍生物|。\n將 {Value1} 張|暗影|加入手中。"
+
+cardbefallen:
+  Name: 被引導的血液
+  Description: "獲得 {Value2} 層|黑血衍生物|。\n|減少|現有生命值的 {Value1}% {healstring}。\n將 |n:1| 張|暗影|加入手中。"
+
+cardimmerse:
+  Name: 紅色浸淫
+  Description: "|減少| {Value1}% {healstring}生命值。\n回合結束前，每當打出一張攻擊牌時，獲得 |n:1| 層|血之風暴衍生物|。\n將 {Value2} 張|紅血|加入手中。"
+
+cardallure:
+  Name: 血腥引誘
+  Description: "|減少|現有生命值的 {Value1}% {healstring}。\n|占卜| {Scry} 。\n抽 {Value2} 張牌。\n對所有敵人施加 {Value2} 層|流血|。"
+
+cardmissribbon:
+  Name: 緞帶小姐
+  Description: "{FriendS}|減少|現有生命值的 {Value1}% {healstring}，獲得{Mana}。\n{FriendP}|減少|現有生命值的 {Value1}% {healstring}，獲得{Mana}。"
+  ExtraDescription1: "{FriendA}對所有敵人施加 {Value2} 層|血跡|。"
+  ExtraDescription3: "{FriendU}每當{PlayerName}施加|血跡|，獲得 |n:1| 層|血劍衍生物|。"
+
+cardbleedslash:
+  Name: 血與砍
+  Description: "每當打出一張黑色牌時，獲得 {Value1} 層|血劍衍生物|。"
+
+cardmarkblood:
+  Name: 血的標記
+  Description: "沒有|血跡|的敵人受到攻擊時，施加 {Value2} 層|血跡|。"
+  UpgradedDescription: "沒有|血跡|的敵人受到攻擊時，施加 {Value2} 層|血跡|。\n對所有敵人施加 {Value2} 層|血跡|。"
+
+cardbloodcircle:
+  Name: 血液循環
+  Description: "{PlayerName}的回合開始時，將任意數量的|被放逐|的|血|牌加入手中。"
+
+carddearsword:
+  Name: 親愛的寶劍
+  Description: "{FriendS}|減少| |n:5|% {healstring}生命值。\n{FriendP}將 {Value1} 張|紅血|加入手中。"
+  ExtraDescription1: "{FriendA}對所有敵人施加 {Value1} 層|血跡|和|流血|。"
+  ExtraDescription3: "{FriendU}{PlayerName}的回合開始時，將 {Value1} 張|血之風暴|加入手中。"
+
+cardcrimsontheater:
+  Name: 血腥劇場
+  Description: "獲得 {Value1} 層|閃避|。\n將 {Value2} 張|血之風暴|加入手中。"
+
+cardtearssubside:
+  Name: 淚止之時
+  Description: "|減少| |n:5|% {healstring}生命值。\n抽 {Value2} 張牌。\n抽到每張紅色牌獲得 {Value1} 層|血塊|。"
+
+cardsunnydry:
+  Name: 陽光普照
+  Description: "|減少| {Value1}% {healstring}生命值。\n獲得{Mana}。\n獲得 {Value2} 層|血塊|。\n將 |n:1| 張|折射日光|加入手中。"
+
+cardblooddisciple:
+  Name: 血之使徒
+  Description: "|減少| {Value1}% {healstring}生命值。\n從手牌裡放逐至多 {Value2} 張牌。獲得等量的|血塊|和將等量的|紅血|加入手中。"
+
+cardcrimsondomain:
+  Name: 腥紅領域
+  Description: "對所有敵人施加 {Value1} 層|流血|和|血跡|。如敵人已有|流血|，則施加 {Value1} 層|嚴重流血|和|血跡|。\n將 {Value1} 張|血之風暴|加入手中。"
+
+cardinfuseddarkness:
+  Name: 注入黑暗
+  Description: "回合結束前，每當打出一張|黑血|，獲得一點{Mana}。\n將 {Value2} 張|黑血|加入手中。"
+
+cardnightfalls:
+  Name: 夜幕降臨
+  Description: "回合結束前，每當打出一張黑色牌時，獲得 {Value1} 層|血劍衍生物|。\n從抽牌堆將 {Value2} 張隨機黑色牌置入手中，獲得等量{Mana}。"
+
+cardmixedblood:
+  Name: 200% 混成血
+  Description: "回合結束前，每當打出一張|黑血|，追加打出一張|紅血|，每當打出一張|紅血|，獲得 {Value1} 層|黑血衍生物|。"
+  UpgradedDescription: "回合結束前，每當打出一張|黑血|，追加打出一張|紅血|，每當打出一張|紅血|，獲得 {Value1} 層|黑血衍生物|。\n將 {Value1} 張|黑血|和|紅血|加入手中。"
+
+cardbloodyinyang:
+  Name: 染血的陰陽玉
+  Description: "選擇至多 {truevalue} 張被|放逐|的牌置入手中。\n|升級|所有的手牌。"
+
+cardunstableblood:
+  Name: 不穩定的血
+  Description: "|減少| {Value1}% {healstring}生命值。\n對所有敵人施加 |n:1| 層|流血|。每有一個已有|流血|的人，獲得 {Value2} 層|血之風暴衍生物|。\n對所有敵人造成 {Damage} 點傷害。"
+
+cardbloodpulse:
+  Name: 血的脈搏
+  Description: "|減少| {Value1}% {healstring}生命值 |n:2| 次。\n對所有敵人施加 |n:1| 層|流血|。\n對所有敵人造成 {Damage} 點傷害 {Value2} 次。\n|初見|：|放逐|任意數量的手牌，將等量的|紅血|加入手中。"
+  ExtraDescription1: "|減少| {Value1}% {healstring}生命值 |n:2| 次。\n對所有敵人施加 |n:1| 層|流血|。\n對所有敵人造成 {Damage} 點傷害 {Value2} 次。\n|d:初見:放逐任意數量的手牌，將等量的紅血加入手中。|"
+
+cardtenshaded:
+  Name: 十影斬
+  Description: "|減少|現有生命值的 {Value1}% {healstring}。\n對隨機敵人造成 {Damage} 點傷害 {Value2} 次。\n將 {Value3} 張|暗影|加入手中。"
+  UpgradedDescription: "|減少|現有生命值的 {Value1}% {healstring}。\n對所有敵人施加 |n:1| 層|血跡|。\n對隨機敵人造成 {Damage} 點傷害 {Value2} 次。\n將 {Value3} 張|暗影|加入手中。"
+
+cardtakeover:
+  Name: 影替
+  Description: "|減少|現有生命值的 {Value1}% |n:2| 次{healstring2s}。\n施加 |n:1| 層|血跡|，|流血|，|虛弱|和|易傷|。\n造成 {Damage} 點傷害 {Value2} 次。"
+  UpgradedDescription: "|減少|現有生命值的 {Value1}% |n:2| 次{healstring2s} 。\n施加 |n:1| 層|血跡|，|流血|，|虛弱|，|易傷|和 {Value2} 點|失去火力|。\n造成 {Damage} 點傷害 {Value2} 次。"
+
+cardetude:
+  Name: 我的即兇劇
+  Description: "|減少|現有生命值的 {Value1}% {healstring}。\n獲得 {Value2} 層|攻擊提升|。\n對隨機敵人造成 {Damage} 點傷害 |n:3| 次。\n下回合開始時再次生效。"
+
+cardshadowcut:
+  Name: 暗元斬
+  Description: "將 {Value1} 張|暗影|加入手中。\n結束{PlayerName}的回合，進行一個額外的回合，這回合開始時對所有敵人造成 {Damage} 點傷害 {Value2} 次。"
+
+cardhakureimiko:
+  Name: 那位博麗巫女
+  Description: "{FriendS}|在手中時|：所有臨時獲得的卡牌都會|升級|。\n{FriendP}|提升| {Value1}% {healstring}生命值。"
+  ExtraDescription1: "{FriendA}從|放逐|區選擇一張牌，|升級|它，將它和{SelfName}置入手中。"
+  ExtraDescription3: "{FriendU}所有卡牌失去|放逐|和|虛無|。"
+
+cardslicepast:
+  Name: 昔日光陰
+  Description: "|提升| {Value1}% {healstring}生命值。\n|升級|所有的手牌。"
+
+cardbewater:
+  Name: Be Water
+  Description: "每當打出一張|血|牌時，從棄牌堆裡選擇至多 {Value1} 張牌洗入抽牌堆，抽 {Value1} 張牌。"
+
+cardlowtide:
+  Name: 低潮
+  Description: "|減少|現有生命值的 {Value1}% {healstring}。\n從抽牌堆、棄牌堆和|放逐|區中各選擇至多 {Value2} 張牌加入手中。"
+
+cardquickrestore:
+  Name: 瞬間再生
+  Description: "這輪結束時，將生命值回復至打出{SelfName}時的生命值。"
+
+cardpastpresent:
+  Name: 前世今生
+  Description: "造成 {Damage} 點傷害。\n下回合開始時，追加打出{SelfName}打出後所有打出的牌。"
+
+cardmutualdepletion:
+  Name: 兩相消耗
+  Description: "每當{PlayerName}的生命值降低至少 |n:1|% 時，所有敵人|減少|相同%的生命值（向下取整）。"
+  UpgradedDescription: "每當{PlayerName}的生命值降低至少 |n:1|% 時，所有敵人|減少|相同%的生命值（向下取整）。\n當累計降低 |n:200|% 的生命值時，獲得戰鬥勝利。"
+
+cardidlive:
+  Name: 向死而生
+  Description: "直到這輪結束前，{PlayerName}不會死亡。\n這輪結束時，將生命值設定為打出{SelfName}時的生命值的一半。"
+  DetailText: "{PlayerName}達到 |n:0| 點生命值時不會死亡。\n如果戰鬥在這輪結束前結束，立即將生命值設定為打出{SelfName}時的生命值的一半。"
+
+cardkaleido:
+  Name: 殘虹亂舞
+  Description: "|每支付一點不同顔色的費用|：|減少|現有生命值的 {Value1}% ，所有敵人|減少| {Value1}% 生命值 (最少 {Value2} 點生命值) 。\n|退治|：獲得等於打出{SelfName}所支付的費用總數的最大生命值。"
+  DetailText: "打出{SelfName}後而它的效果處理完成前，擊敗任何非|使魔|的敵人都會觸發{SelfName}的|退治|效果。"
+
+cardtwilight:
+  Name: 暮光
+  Description: "|當{PlayerName}的生命值少於| |n:50|% {needstring}|時|：{PlayerName}的攻擊傷害提升已損生命值的 |n:10|% （向上取整）。\n|當{PlayerName}的生命值少於| |n:25|% {needstring25}|時|：每當打出一張牌時，追加打出 |n:1| 張|紅血|(不會|提升|生命值)。\n|當{PlayerName}的生命值少於| |n:15|% {needstring15}|時|：每當打出一張牌時，獲得 |n:2| 層|充能|。"

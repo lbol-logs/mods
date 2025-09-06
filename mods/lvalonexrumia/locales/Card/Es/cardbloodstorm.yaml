@@ -1,0 +1,11 @@
+﻿cardbloodstorm:
+  Name: Tormenta de Sangre
+  Description: >-
+    Inflige {Damage} de daño a cada enemigo.
+
+    Aplica {Value1} |Sangrado| a cada enemigo.
+  UpgradedDescription: >-
+    Inflige {Damage} de daño a cada enemigo.
+
+    Aplica {Value1} |Sangrado| y |Marca de Sangre| a cada enemigo.
+  DetailText: Cuando {SelfName} es |Exiliado| de la mano sin ser jugado, se juega {SelfName}.

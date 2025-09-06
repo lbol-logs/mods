@@ -1,0 +1,11 @@
+﻿cardbloodstorm:
+  Name: 혈폭풍
+  Description: >-
+    모든 적에게 피해를 {Damage} 줍니다.
+
+    모든 적에게 |출혈|을 {Value1} 부여합니다.
+  UpgradedDescription: >-
+    모든 적에게 피해를 {Damage} 줍니다.
+
+    모든 적에게 |출혈|과 |혈흔|을 {Value1} 부여합니다.
+  DetailText: '{SelfName}이 사용되지 않은 채 |소멸|되면 자동으로 발동됩니다.'

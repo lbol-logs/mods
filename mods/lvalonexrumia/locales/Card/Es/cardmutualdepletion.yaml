@@ -1,0 +1,7 @@
+﻿cardmutualdepletion:
+  Name: Agotación Mutua
+  Description: Siempre que la vida de {PlayerName} se reduzca en al menos  un |n:1|%, todos los enemigos se |reducen| el mismo % de vida (redondeado hacia abajo).
+  UpgradedDescription: >-
+    Siempre que la vida de {PlayerName} se reduzca en al menos  un |n:1|%, todos los enemigos se |reducen| el mismo % de vida (redondeado hacia abajo).
+
+    Cuando la vida se haya reducido acumulativamente en un |n:200|% gana la batalla.

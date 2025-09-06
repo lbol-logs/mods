@@ -1,0 +1,7 @@
+﻿cardkaleido:
+  Name: Kaleidoscopic Dazzles
+  Description: >-
+    |For each mana of a different color spent|: |Decrease| {Value1}% of current life, all enemies |decrease| {Value1}% of life (minimum {Value2} life).
+
+    |Expel|: Gain maximum life equal to the total mana spent to play {SelfName}.
+  DetailText: After playing {SelfName} and before it finishes resolving, any non-|Summon| enemies defeated will trigger {SelfName}'s |Expel| effect.

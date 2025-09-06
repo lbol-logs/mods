@@ -1,0 +1,8 @@
+﻿cardtwilight:
+  Name: 黄昏
+  Description: >-
+    |{PlayerName}のライフが||n:50|% {needstring}未満の時: 失われたライフの|n:10|%分、{PlayerName}の攻撃ダメージが増加する。(端数切り上げ)
+
+    |{PlayerName}のライフが||n:25|% {needstring25}未満の時:カードをプレイするたびに|n:1|枚の|深紅の血|をプレイする。(|生命増幅|はしない)
+
+    |{PlayerName}のライフが||n:15|% {needstring15}未満の時:カードをプレイする度に、|チャージ||n:2|を得る。

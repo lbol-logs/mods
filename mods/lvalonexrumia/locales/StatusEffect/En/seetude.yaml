@@ -1,0 +1,4 @@
+﻿seetude:
+  Name: My Etude
+  Description: At the start of {PlayerName}'s next turn, she |decreases| |n:5|% ({heal}) of current life, deal {Damage} damage a random enemy |n:3| times.
+  Brief: At the start of {PlayerName}'s next turn, she |decreases| |n:5|% life, deal |n:5| damage to a random enemy |n:3| times.

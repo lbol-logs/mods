@@ -1,0 +1,12 @@
+﻿sebleed:
+  Name: Sangrado
+  Description: >-
+    {OwnerName} |Reduce| |n:1|% ({truecount}) de vida al ser atacado.
+
+    Pierde |n:1| {SelfName} al comienzo del turno de {OwnerName}.
+
+    {OwnerName} tiene {lifenow} de vida ahora mismo.
+  Brief: >-
+    {OwnerName} |Reduce| |n:1|% de vida (redondeado hacia arriba) al ser atacado.
+
+    Pierde |n:1| {SelfName} al comienzo del turno de {OwnerName}.

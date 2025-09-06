@@ -1,0 +1,3 @@
+﻿cardadrenaline:
+  Name: アドレナリン
+  Description: '|{PlayerName}ライフが|50|%未満の間{needstring}|:{PlayerName}の体力が減少するたびに、|攻撃増大|{Value1}と|血盾|{Value2}を得る。'

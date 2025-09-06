@@ -1,0 +1,8 @@
+﻿cardmissribbon:
+  Name: 미스 리본
+  Description: >-
+    {FriendS}|현재 생명력의| {Value1}%를 |상실|하고 {Mana}를 얻습니다.
+
+    {FriendP}|현재 생명력의| {Value1}%를 |상실|하고 {Mana}를 얻습니다.
+  ExtraDescription1: '{FriendA}모든 적에게 |혈흔|을 {Value2} 부여합니다.'
+  ExtraDescription3: '{FriendU}{PlayerName}가 적에게 |혈흔|을 부여할 때마다 |n:1| |혈검 토큰|을 얻습니다.'

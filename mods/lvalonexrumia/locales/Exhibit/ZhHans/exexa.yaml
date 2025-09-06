@@ -1,0 +1,9 @@
+﻿exexa:
+  Name: 唯暗独尊
+  Description: >-
+    提供基础法力{BaseMana}，|EX露米娅|的专属卡牌会加入牌池。
+
+    在第一回合的开始时,对所有敌人施加 {Value1} 层|血迹|。
+
+    {PlayerName}的攻击伤害提升已损生命值的 {Value2}% （向上取整）。
+  FlavorText: 天上天下为我独尊？是这样吗？

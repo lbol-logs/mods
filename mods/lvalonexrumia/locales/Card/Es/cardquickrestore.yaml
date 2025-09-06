@@ -1,0 +1,3 @@
+﻿cardquickrestore:
+  Name: Restauración Rápida
+  Description: Al final del turno, se restaura la vida a cuando se jugó {SelfName}.

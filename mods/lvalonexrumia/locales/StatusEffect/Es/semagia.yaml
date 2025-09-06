@@ -1,0 +1,4 @@
+﻿semagia:
+  Name: Magia de las Sombras Rumia
+  Description: Hasta el final del turno, gana {Level} |Emblema{Level:plural one='' other='s'} de Espada de Sangre| cada vez que {PlayerName} es atacado.
+  Brief: Hasta el final del turno, gana |Emblemas de Espada de Sangre| cada vez que {PlayerName} es atacado.

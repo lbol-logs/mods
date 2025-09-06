@@ -1,0 +1,8 @@
+﻿cardmagia:
+  Name: Magia de las Sombras Rumia
+  Description: >-
+    Gana {Block} de |Bloqueo|.
+
+    Gana {Value1} |Acelerar|.
+
+    Hasta el final del turno, gana {Value2} |Emblema de Espada de Sangre| siempre que {PlayerName} sea atacado.

@@ -1,0 +1,8 @@
+﻿cardsonanoka:
+  Name: そうなのか？
+  Description: >-
+    現在のライフから|生命減衰|{Value1}% {healstring} 
+
+    {Block}|ブロック|を得る。
+
+    |グレイズ|{Value2}を得る。

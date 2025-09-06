@@ -1,0 +1,22 @@
+{
+  "exexa": {
+    "Name": "唯暗獨尊",
+    "Description": "提供基礎法力<BaseMana />，<h>EX露米婭</h>的專屬卡牌會加入牌池。<br />在第一回合的開始時,對所有敵人施加 <Value1 /> 層<h>血跡</h>。<br /><PlayerName />的攻擊傷害提升已損生命值的 <Value2 />% （向上取整）。"
+  },
+  "exexb": {
+    "Name": "苦痛的世界",
+    "Description": "提供基礎法力<BaseMana />，<h>EX露米婭</h>的專屬卡牌會加入牌池。<br /><h>一回合一次</h>，當<PlayerName />造成傷害時，對每個敵人施加 <Value1 /> 層<h>流血</h>。<br />每當<PlayerName />的生命值降低時，所有敵人也<h>減少</h>等量的的生命值。"
+  },
+  "exfakeribbon": {
+    "Name": "緞帶",
+    "Description": "對戰精英與首領敵人時，每回合開始時獲得<Mana />。"
+  },
+  "exrumiafumo": {
+    "Name": "宵暗的毛絨玩具",
+    "Description": "每當打出一張<h>血</h>牌時，獲得 <Value1 /> 層<h>暫得火力</h>。"
+  },
+  "extrueribbon": {
+    "Name": "真正的緞帶",
+    "Description": "提供基礎法力<BaseMana />。<br />每場戰鬥的最開始時，所有敵人<h>減少</h> <Value2 />% 生命值 (最少 <Value2 /> 點生命值) <Value1 /> 次。<br />每場戰鬥的最開始時，對所有敵人施加 <Value1 /> 層<h>血跡</h>和<h>嚴重流血</h>。"
+  }
+}

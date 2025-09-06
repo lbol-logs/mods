@@ -1,0 +1,24 @@
+exulta:
+  Title: EX
+  Content: "Terminación"
+  Description: |-
+    Applica {Value1} |Marca{Value1:plural one='' other='s'} de Sangre|.
+    Inflige {Damage} de daño {Value2} vece{Value2:plural one='z' other='ces'}.
+    |Certero|
+
+exultb:
+  Title: Signo de Sangre
+  Content: "Sonata de Luz Lunar Carmesí"
+  Description: |-
+    Aplica {Value1} |Sangrado| a cada enemigo.
+    Inflige {Damage} de daño a cada enemigo {Value2} vece{Value2:plural one='z' other='ces'}.
+    |Certero|
+
+extenshaded:
+  Content: "Tajada de las 10 Sombras"
+
+exshadowcut:
+  Content: "Corte de la Sombras"
+
+exgojo:
+  Content: "Vacio Infinito"

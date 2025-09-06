@@ -1,0 +1,8 @@
+﻿cardunstableblood:
+  Name: Sangre Inestable
+  Description: >-
+    |Reduce| {Value1}% {healstring}de vida.
+
+    Aplica |n:1| |Sangrado| a cada enemigo. Por cada enemigo que tiene |Sangrado|, gana {Value2} |Emblema{Value2:plural one='' other='s'} de Tormenta de Sangre|.
+
+    Inflige {Damage} de daño a cada enemigo.

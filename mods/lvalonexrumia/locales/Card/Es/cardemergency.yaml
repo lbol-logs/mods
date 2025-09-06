@@ -1,0 +1,16 @@
+﻿cardemergency:
+  Name: Cobertura de Emergencia
+  Description: >-
+    |Reduce| {Value1}% {healstring}de la vida actual.
+
+    Gana {Block} de |Bloqueo|.
+
+    Gana {Value2} |Emblema{Value2:plural one='' other='s'} de Sangre Oscura|.
+  UpgradedDescription: >-
+    |Reduce| {Value1}% {healstring}de la vida actual.
+
+    Gana {Block} |Bloqueo|.
+
+    Gana {Value2} |Emblema de Sangre Oscura|.
+
+    Si un enemigo intenta atacar, gana {Value1} |Coágulo{Value1:plural one='' other='s'} de Sangre|.

@@ -1,0 +1,24 @@
+exulta:
+  Title: EX
+  Content: "종결"
+  Description: |-
+    |혈흔|을 {Value1} 부여합니다.
+    피해를 {Damage}씩 {Value2}번 줍니다.
+    |명중|
+
+exultb:
+  Title: 혈부
+  Content: "진홍빛 월광 소나타"
+  Description: |-
+    모든 적에게 |출혈|을 {Value1} 부여합니다.
+    모든 적에게 피해를 {Damage}씩 {Value2}번 줍니다.
+    |명중|
+
+extenshaded:
+  Content: "십중그림자 참격"
+
+exshadowcut:
+  Content: "그림자 베기"
+
+exgojo:
+  Content: "무한의 허공"

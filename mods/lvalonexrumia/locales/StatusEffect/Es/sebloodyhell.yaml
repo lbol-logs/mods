@@ -1,0 +1,4 @@
+﻿sebloodyhell:
+  Name: Infierno Sangriento
+  Description: Cada vez que se juega una carta roja, gana {atkincrease} de |Incremento de Ataque|.
+  Brief: Cada vez que se juega una carta roja, gana |n:10| de |Incremento de Ataque|.

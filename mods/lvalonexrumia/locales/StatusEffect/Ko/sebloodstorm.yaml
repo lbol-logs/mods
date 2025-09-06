@@ -1,0 +1,4 @@
+﻿sebloodstorm:
+  Name: 혈폭풍 토큰
+  Description: '{SelfName}이 {lim}개 이상일 경우, {SelfName}을 {lim}개 잃고 |혈폭풍|을 손에 추가합니다.'
+  Brief: '{SelfName}이 {lim}개 이상일 경우, {SelfName}을 {lim}개 잃고 |혈폭풍|을 손에 추가합니다.'

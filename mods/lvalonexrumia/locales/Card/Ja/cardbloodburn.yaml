@@ -1,0 +1,6 @@
+﻿cardbloodburn:
+  Name: 血の燃焼
+  Description: >-
+    |生命減衰|{Value1}% {healstring}ライフ。
+
+    {Mana}を得る。

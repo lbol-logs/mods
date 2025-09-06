@@ -1,0 +1,8 @@
+﻿cardtwilight:
+  Name: 暮光
+  Description: >-
+    |當{PlayerName}的生命值少於| |n:50|% {needstring}|時|：{PlayerName}的攻擊傷害提升已損生命值的 |n:10|% （向上取整）。
+
+    |當{PlayerName}的生命值少於| |n:25|% {needstring25}|時|：每當打出一張牌時，追加打出 |n:1| 張|紅血|(不會|提升|生命值)。
+
+    |當{PlayerName}的生命值少於| |n:15|% {needstring15}|時|：每當打出一張牌時，獲得 |n:2| 層|充能|。

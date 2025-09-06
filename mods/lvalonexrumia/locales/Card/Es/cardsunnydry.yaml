@@ -1,0 +1,10 @@
+﻿cardsunnydry:
+  Name: Sol Radiante
+  Description: >-
+    |Reduce| {Value1}% {healstring}de vida.
+
+    Gana {Mana}.
+
+    Gana {Value2} |Coágulo{Value2:plural one='' other='s'} de Sangre|.
+
+    Agrega |n:1| |Luz Solar Refractada| a la mano.

@@ -1,0 +1,3 @@
+﻿cardtearmedo:
+  Name: 引き裂いてよ
+  Description: '{PlayerName}のライフが減る度に、|血の嵐の破片|{Value1}と|攻撃増大|{Value2}を得る。'

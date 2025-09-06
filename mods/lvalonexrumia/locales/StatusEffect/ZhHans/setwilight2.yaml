@@ -1,0 +1,4 @@
+﻿setwilight2:
+  Name: 渐入佳境
+  Description: 当{OwnerName}的生命值少于 |n:25|% ({lifeneed}) 时：每当打出一张牌时，追加打出 {Level} 张|红血|(不会|提升|生命值)。
+  Brief: 当{OwnerName}的生命值少于 |n:25|% 时：每当打出一张牌时，追加打出|红血|(不会|提升|生命值)。

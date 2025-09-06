@@ -1,0 +1,6 @@
+﻿cardslicepast:
+  Name: Slice of Past
+  Description: >-
+    |Increase| {Value1}% {healstring}life.
+
+    |Upgrade| all cards in the hand.

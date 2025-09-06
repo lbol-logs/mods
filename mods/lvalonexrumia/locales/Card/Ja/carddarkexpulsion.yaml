@@ -1,0 +1,6 @@
+﻿carddarkexpulsion:
+  Name: 闇の排出
+  Description: >-
+    |闇の血の雫|{Value2}を得る。
+
+    手札に|暗闇|を{Value1}枚加える。

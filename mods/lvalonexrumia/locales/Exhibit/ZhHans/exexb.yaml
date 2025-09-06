@@ -1,0 +1,9 @@
+﻿exexb:
+  Name: 苦痛的世界
+  Description: >-
+    提供基础法力{BaseMana}，|EX露米娅|的专属卡牌会加入牌池。
+
+    |一回合一次|，当{PlayerName}造成伤害时，对每个敌人施加 {Value1} 层|流血|。
+
+    每当{PlayerName}的生命值降低时，所有敌人也|减少|等量的的生命值。
+  FlavorText: 世界以痛吻我。。。

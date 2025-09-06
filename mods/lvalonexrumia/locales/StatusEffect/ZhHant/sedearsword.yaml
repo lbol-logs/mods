@@ -1,0 +1,4 @@
+﻿sedearsword:
+  Name: 親愛的寶劍
+  Description: '{PlayerName}的回合開始時，將 {Level} 張|血之風暴|加入手中。'
+  Brief: '{PlayerName}的回合開始時，將|血之風暴|加入手中。'

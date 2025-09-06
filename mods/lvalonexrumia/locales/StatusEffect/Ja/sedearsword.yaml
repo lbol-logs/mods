@@ -1,0 +1,4 @@
+﻿sedearsword:
+  Name: 我が愛剣
+  Description: '{PlayerName}のターン開始時、手札に|血の嵐|を{Level}枚加える。'
+  Brief: '{PlayerName}のターン開始時、手札に|血の嵐|を加える。'

@@ -1,0 +1,16 @@
+﻿cardemergency:
+  Name: 緊急避難
+  Description: >-
+    現在のライフから|生命減衰| {Value1}% {healstring} 
+
+    {Block}|ブロック|を得る。
+
+    |闇の血の雫|{Value2}を得る。
+  UpgradedDescription: >-
+    現在のライフから|生命減衰| {Value1}% {healstring} 
+
+    {Block}|ブロック|を得る。
+
+    |闇の血の雫|{Value2}を得る。
+
+    もし敵が攻撃しようとしているならば、|血盾|{Value1}を得る。

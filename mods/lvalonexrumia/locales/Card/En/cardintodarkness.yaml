@@ -1,0 +1,6 @@
+﻿cardintodarkness:
+  Name: Into the Darkness
+  Description: >-
+    Apply {Value1} |Blood Mark|.
+
+    Deal {Damage} damage to each enemy with |Blood Mark|.

@@ -1,0 +1,7 @@
+﻿cardmarkblood:
+  Name: 나의 피를 새기다
+  Description: '|혈흔|이 없는 적을 공격할 때마다 |혈흔|을 {Value2} 부여합니다.'
+  UpgradedDescription: >-
+    |혈흔|이 없는 적을 공격할 때마다 |혈흔|을 {Value2} 부여합니다.
+
+    모든 적에게 |혈흔|을 {Value2} 부여합니다.

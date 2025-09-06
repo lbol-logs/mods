@@ -1,0 +1,10 @@
+﻿cardallure:
+  Name: 深紅の魅惑
+  Description: >-
+    現在のライフから|生命減衰|{Value1}% {healstring} 
+
+    |占術|{Scry}。
+
+    カードを{Value2}枚引く。
+
+    敵全体に|出血|{Value2}を与える。

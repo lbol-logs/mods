@@ -1,0 +1,8 @@
+﻿carddearsword:
+  Name: 亲爱的宝剑
+  Description: >-
+    {FriendS}|减少| |n:5|% {healstring}生命值。
+
+    {FriendP}将 {Value1} 张|红血|加入手中。
+  ExtraDescription1: '{FriendA}对所有敌人施加 {Value1} 层|血迹|和|流血|。'
+  ExtraDescription3: '{FriendU}{PlayerName}的回合开始时，将 {Value1} 张|血之风暴|加入手中。'

@@ -1,0 +1,8 @@
+﻿cardworldburn:
+  Name: 燃點世界
+  Description: 每當{PlayerName}對敵人施加|血跡|或|流血|，也施加 {Value1} 層另外那個狀態。
+  UpgradedDescription: >-
+    每當{PlayerName}對敵人施加|血跡|或|流血|，也施加 {Value1} 層另外那個狀態。
+
+    對所有敵人施加 {Value1} 層|血跡|和|流血|。
+  DetailText: 笑死 根本不會自己無限

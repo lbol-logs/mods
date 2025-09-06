@@ -1,0 +1,6 @@
+﻿cardtorn:
+  Name: Cinta Roja Desgarrada
+  Description: >-
+    |Mientras {PlayerName} tenga menos del| |n:50|% {needstring}|de vida|: Siempre que {PlayerName} |Evada| un ataque, gana {Value1} |Incrementos de Ataque|, |Incrementa| la vida en un {Value1}%{healstringnos}.
+
+    Gana {Value2} de |Evasión|.

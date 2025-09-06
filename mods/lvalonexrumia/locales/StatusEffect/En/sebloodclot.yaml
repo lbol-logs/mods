@@ -1,0 +1,4 @@
+﻿sebloodclot:
+  Name: Blood Clot
+  Description: '{OwnerName} takes {Value}% less damage from attacks until end of round. |n:100|% less damage maximum.'
+  Brief: '{OwnerName} takes {Value}% less damage from attacks until end of round. |n:100|% less damage maximum.'

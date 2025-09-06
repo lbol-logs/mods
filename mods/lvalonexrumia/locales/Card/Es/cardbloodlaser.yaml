@@ -1,0 +1,8 @@
+﻿cardbloodlaser:
+  Name: Láser Sangriento
+  Description: >-
+    |Reduce| {Value1}% {healstring}de la vida actual.
+
+    Aplica {Value2} |Marca de Sangre|.
+
+    Inflige {Damage} de daño.

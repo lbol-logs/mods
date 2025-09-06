@@ -1,0 +1,4 @@
+﻿semarkblood:
+  Name: Mark My Blood
+  Description: Whenever an enemy without |Blood Mark| is attacked, apply {Level} |Blood Mark|.
+  Brief: Whenever an enemy without |Blood Mark| is attacked, apply |Blood Mark|.

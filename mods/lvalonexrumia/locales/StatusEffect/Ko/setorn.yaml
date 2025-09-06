@@ -1,0 +1,4 @@
+﻿setorn:
+  Name: 찢어진 붉은 리본
+  Description: '{PlayerName}의 체력이 |n:50|% ({lifeneed}) 미만일 경우: 공격을 |그레이즈|할 때마다 |공격력 증가| {increase}, 체력을 {increase}% ({increaselife})만큼 |증가|시킵니다.'
+  Brief: '{PlayerName}의 체력이 |n:50|% 미만일 경우: 공격을 |그레이즈|할 때마다 |공격력 증가| |n:10|, 체력 |n:10|% |증가|.'

@@ -1,0 +1,8 @@
+﻿cardsunnydry:
+  Name: 맑은 날의 고갈
+  Description: >-
+    |체력|을 {Value1}% |상실|합니다.
+
+    {Mana}를 얻습니다.
+
+    |혈전|을 {Value2} 얻고 |굴절된 햇빛|을 |n:1|장 손에 추가합니다.

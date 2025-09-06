@@ -1,0 +1,6 @@
+﻿cardbite:
+  Name: Mordedura
+  Description: >-
+    Inflige {Damage} de daño.
+
+    Gana {Value1} |Emblema{Value1:plural one='' other='s'} de Sangre Oscura|.

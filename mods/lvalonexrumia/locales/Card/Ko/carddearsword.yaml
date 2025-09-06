@@ -1,0 +1,8 @@
+﻿carddearsword:
+  Name: 나의 검
+  Description: >-
+    {FriendS}|체력|을 |n:5|% |상실|합니다.
+
+    {FriendP}|진홍의 피|를 {Value1}장 손에 추가합니다.
+  ExtraDescription1: '{FriendA}모든 적에게 |혈흔|과 |출혈|을 {Value1} 부여합니다.'
+  ExtraDescription3: '{FriendU}{PlayerName}의 턴 시작 시, |혈폭풍|을 {Value1}장 손에 추가합니다.'

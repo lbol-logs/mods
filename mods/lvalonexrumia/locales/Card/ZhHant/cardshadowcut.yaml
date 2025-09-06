@@ -1,0 +1,6 @@
+﻿cardshadowcut:
+  Name: 暗元斬
+  Description: >-
+    將 {Value1} 張|暗影|加入手中。
+
+    結束{PlayerName}的回合，進行一個額外的回合，這回合開始時對所有敵人造成 {Damage} 點傷害 {Value2} 次。

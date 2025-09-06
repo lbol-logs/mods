@@ -1,0 +1,4 @@
+﻿seetude:
+  Name: Mi Preludio
+  Description: Al comienzo del siguiente turno de {PlayerName}, se |Reduce| |n:5|% ({heal}) de su vida actual, inflige {Damage} de daño a un enemigo aleatorio |n:3| veces.
+  Brief: Al comienzo del siguiente turno de {PlayerName}, se |reduce| |n:5|% de su vida, inflige |n:5| de daño a un enemigo aleatorio |n:3| veces.

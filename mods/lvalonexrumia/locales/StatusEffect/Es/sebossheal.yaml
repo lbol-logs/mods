@@ -1,0 +1,10 @@
+﻿sebossheal:
+  Name: Enfurecida
+  Description: >-
+    Las intenciones de {OwnerName} se mejoran cuando su vida está por debajo del |n:50|%.
+
+    Cada vez que {PlayerName} es atacado, la vida de {OwnerName} es |Incrementado| en |n:1|%.
+  Brief: >-
+    Las intenciones de {OwnerName} se mejoran cuando su vida está por debajo del |n:50|%.
+
+    Cada vez que {PlayerName} es atacado, la vida de {OwnerName} es |Incrementado| en |n:1|%.

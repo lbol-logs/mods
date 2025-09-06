@@ -1,0 +1,8 @@
+﻿cardmissribbon:
+  Name: 緞帶小姐
+  Description: >-
+    {FriendS}|減少|現有生命值的 {Value1}% {healstring}，獲得{Mana}。
+
+    {FriendP}|減少|現有生命值的 {Value1}% {healstring}，獲得{Mana}。
+  ExtraDescription1: '{FriendA}對所有敵人施加 {Value2} 層|血跡|。'
+  ExtraDescription3: '{FriendU}每當{PlayerName}施加|血跡|，獲得 |n:1| 層|血劍衍生物|。'

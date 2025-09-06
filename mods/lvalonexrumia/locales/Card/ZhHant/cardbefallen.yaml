@@ -1,0 +1,8 @@
+﻿cardbefallen:
+  Name: 被引導的血液
+  Description: >-
+    獲得 {Value2} 層|黑血衍生物|。
+
+    |減少|現有生命值的 {Value1}% {healstring}。
+
+    將 |n:1| 張|暗影|加入手中。

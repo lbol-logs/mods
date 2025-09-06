@@ -1,0 +1,3 @@
+﻿cardbloodcircle:
+  Name: Circulación Sanguínea
+  Description: Al comienzo de cada turno de {PlayerName}, regresa cualquier cantidad de cartas de |Sangres Exiliadas| a la mano.

@@ -1,0 +1,8 @@
+﻿cardbloodspeed:
+  Name: Blood Acceleration
+  Description: >-
+    |Decrease| {Value1}% of current life |n:2| times{healstring2}.
+
+    Gain |n:1| |Accelerate|.
+
+    Draw {Value2} cards.

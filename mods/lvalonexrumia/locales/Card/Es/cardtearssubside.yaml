@@ -1,0 +1,8 @@
+﻿cardtearssubside:
+  Name: Cuando las Lágrimas Cesan
+  Description: >-
+    |Reduce| |n:5|% {healstring}de vida.
+
+    Roba {Value2} carta{Value2:plural one='' other='s'}.
+
+    Gana {Value1} |Coágulo{Value1:plural one='' other='s'} de Sangre| por cada carta roja que ha sido robada de esta manera.

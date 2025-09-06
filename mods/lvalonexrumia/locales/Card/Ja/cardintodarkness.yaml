@@ -1,0 +1,6 @@
+﻿cardintodarkness:
+  Name: 闇の中へ
+  Description: >-
+    |血の印|{Value1}を与える。
+
+    |血の印|状態の全ての敵に{Damage}ダメージを与える。

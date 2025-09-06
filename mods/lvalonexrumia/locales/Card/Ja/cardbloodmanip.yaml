@@ -1,0 +1,8 @@
+﻿cardbloodmanip:
+  Name: 血操術
+  Description: >-
+    |生命減衰||n:5|% {healstring} 
+
+    |血盾|{Value1}を得る。
+
+    敵全体に|血の印|{Value2}と|出血|{Value2}を与える。

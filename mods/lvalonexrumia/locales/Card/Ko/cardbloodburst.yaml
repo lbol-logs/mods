@@ -1,0 +1,8 @@
+﻿cardbloodburst:
+  Name: 피의 폭발
+  Description: >-
+    체력을 {Value1}% {healstring}만큼 |상실|합니다.
+
+    모든 적에게 |출혈|을 |n:1|씩 {Value2}회 부여합니다.
+
+    |출혈|이 있는 모든 적에게 피해를 {Damage}씩 |n:3|회 줍니다.

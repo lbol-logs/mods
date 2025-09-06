@@ -1,0 +1,7 @@
+﻿carddevour:
+  Name: Devorar
+  Description: >-
+    Inflige {Damage} de daño.
+
+    |Exterminar|: Gana {Value1}% {healstring}de vida máxima, se remueve {SelfName} del combate y la biblioteca.
+  DetailText: '{SelfName} no se puede generar aleatoriamente en combate y no se puede copiar.'

@@ -1,0 +1,6 @@
+﻿cardblooduse:
+  Name: 血的妙用
+  Description: >-
+    對所有敵人造成 {Damage} 點傷害。
+
+    如果{PlayerName}的生命值少於 |n:50|% {needstring}，將 {Value1} 張|紅血|加入手中。

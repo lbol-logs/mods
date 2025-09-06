@@ -1,0 +1,4 @@
+﻿seadrenaline:
+  Name: アドレナリン
+  Description: '{PlayerName}ライフが|n:50|%未満の間({lifeneed}): {PlayerName}の体力が減少するたびに、|攻撃増大|{atkincrease}と|血盾|{Level}を得る。'
+  Brief: '{PlayerName}ライフが|n:50|%未満の間({lifeneed}): {PlayerName}の体力が減少するたびに、|攻撃増大||n:5|と|血盾||n:1|を得る。'

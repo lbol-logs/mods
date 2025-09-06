@@ -1,0 +1,7 @@
+﻿cardcorruptedblood:
+  Name: Corrupted Blood
+  Description: When {PlayerName}'s life decreases, gain {Value1} |Dark Blood Token|.
+  UpgradedDescription: >-
+    When {PlayerName}'s life decreases, gain {Value1} |Dark Blood Token|.
+
+    Add {Value2} |Dark Blood| to the hand.

@@ -1,0 +1,4 @@
+﻿secorruptedblood:
+  Name: Corrupted Blood
+  Description: When {PlayerName}'s life decreases, gain {Level} |Dark Blood Token|.
+  Brief: "|When {PlayerName}'s life decreases, gain |Dark Blood Token|."

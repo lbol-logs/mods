@@ -1,0 +1,8 @@
+﻿cardmissribbon:
+  Name: 缎带小姐
+  Description: >-
+    {FriendS}|减少|现有生命值的 {Value1}% {healstring}，获得{Mana}。
+
+    {FriendP}|减少|现有生命值的 {Value1}% {healstring}，获得{Mana}。
+  ExtraDescription1: '{FriendA}对所有敌人施加 {Value2} 层|血迹|。'
+  ExtraDescription3: '{FriendU}每当{PlayerName}施加|血迹|，获得 |n:1| 层|血剑衍生物|。'

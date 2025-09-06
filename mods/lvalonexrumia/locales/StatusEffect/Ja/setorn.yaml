@@ -1,0 +1,4 @@
+﻿setorn:
+  Name: 裂けた赤いリボン
+  Description: '{PlayerName}ライフが|n:50|%未満の間({lifeneed}): {PlayerName}が攻撃を|グレイズ|する度に、|攻撃増大|{increase} と|生命増幅|{increase}%得る({increaselife})。'
+  Brief: '{PlayerName}ライフが|n:50|%未満の間: {PlayerName}が攻撃を|グレイズ|する度に、|攻撃増大||n:10|と|生命増幅||n:10|%得る。'

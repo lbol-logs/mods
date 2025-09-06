@@ -1,0 +1,8 @@
+﻿cardnether:
+  Name: Sombra Abisal
+  Description: >-
+    Gana {Shield} de |Barrera|.
+
+    Gana {Value1} |Coágulo{Value1:plural one='' other='s'} de Sangre|.
+
+    Agrega {Value2} |Sombra{Value2:plural one='' other='s'}| a la mano.

@@ -1,0 +1,24 @@
+exulta:
+  Title: 终符
+  Content: "灭绝"
+  Description: |-
+    施加 {Value1} 层|血迹|。
+    造成 {Damage} 点伤害 {Value2} 次。
+    |精准|
+
+exultb:
+  Title: 血符
+  Content: "腥红的月光奏鸣曲"
+  Description: |-
+    对所有敌人施加 {Value1} 层|流血|。
+    对所有敌人造成 {Damage} 点伤害 {Value2} 次。
+    |精准|
+
+extenshaded:
+  Content: "十影斩"
+
+exshadowcut:
+  Content: "暗元斩"
+
+exgojo:
+  Content: "无量空处"

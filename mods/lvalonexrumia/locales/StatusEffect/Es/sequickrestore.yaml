@@ -1,0 +1,4 @@
+﻿sequickrestore:
+  Name: Restauración Rápida
+  Description: Al final de este turno, restaura {truecounter} de vida.
+  Brief: Al final de este turno, restaura vida.

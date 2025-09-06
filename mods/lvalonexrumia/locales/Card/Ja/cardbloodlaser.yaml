@@ -1,0 +1,8 @@
+﻿cardbloodlaser:
+  Name: ブラッドレーザー
+  Description: >-
+    現在のライフから|生命減衰|{Value1}% {healstring} 
+
+    |血の印|{Value2}を与える。
+
+    {Damage}ダメージを与える。

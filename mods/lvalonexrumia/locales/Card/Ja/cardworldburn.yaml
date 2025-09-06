@@ -1,0 +1,8 @@
+﻿cardworldburn:
+  Name: 燃え上がる世界
+  Description: '{PlayerName}が敵に|血の印|又は|出血|を与える度に、そうでない方を{Value1}あたえる。'
+  UpgradedDescription: >-
+    {PlayerName}が敵に|血の印|又は|出血|を与える度に、そうでない方を{Value1}あたえる。
+
+    敵全体に|血の印|{Value1}と|出血|{Value1}を与える。
+  DetailText: もちろん自分自身で無限にはならない

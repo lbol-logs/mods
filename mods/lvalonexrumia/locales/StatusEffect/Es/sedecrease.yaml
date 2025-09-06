@@ -1,0 +1,4 @@
+﻿sedecrease:
+  Name: Reducción de Vida
+  Description: Un método especial que reduce la vida en lugar de perderla normalmente. Se muere cuando la vida se establece en |n:<= 0|.
+  Brief: Un método especial que reduce la vida en lugar de perderla normalmente. Se muere cuando la vida se establece en |n:<= 0|.

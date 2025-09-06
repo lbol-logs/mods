@@ -1,0 +1,4 @@
+﻿exfakeribbon:
+  Description: During Boss or Elite combat, at the start of {PlayerName}'s turn, gain {ManaFake}.
+  Name: Ribbon
+  FlavorText: '"I heard that unlocking it would release the sealed demonic power."'

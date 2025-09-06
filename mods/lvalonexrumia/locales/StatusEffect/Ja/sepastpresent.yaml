@@ -1,0 +1,4 @@
+﻿sepastpresent:
+  Name: 時をなぞる刃
+  Description: 次のターン開始時、{SelfName}が加えられた後にプレイした後にプレイしたカードをプレイする。それから{SelfName}を取り除く。
+  Brief: 次のターン開始時、{SelfName}が加えられた後にプレイした後にプレイしたカードをプレイする。それから{SelfName}を取り除く。

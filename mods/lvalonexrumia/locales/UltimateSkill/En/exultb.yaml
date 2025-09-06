@@ -1,0 +1,9 @@
+﻿exultb:
+  Title: Blood Sign
+  Content: Crimson Moonlight Sonata
+  Description: >-
+    Apply {Value1} |Bleed| to each enemy.
+
+    Deal {Damage} damage to each enemy {Value2} time{Value2:plural one='' other='s'}.
+
+    |Accurate|

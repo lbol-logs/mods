@@ -1,0 +1,14 @@
+﻿cardredblood:
+  Name: Sangre Carmesí
+  Description: >-
+    Si {PlayerName} tiene menos del |n:50|% {needstring}de vida, |Incrementa| {Value1}% {healstring}de vida.
+
+    Gana {Mana}.
+
+    Inflige {Damage} de daño de ataque |Certero| a cada enemigo con |Sangrado|.
+  UpgradedDescription: >-
+    |Incrementa| {Value1}% {healstring}de vida.
+
+    Gana {Mana}.
+
+    Inflige {Damage} de daño de ataque |Certero| a cada enemigo con |Sangrado|.

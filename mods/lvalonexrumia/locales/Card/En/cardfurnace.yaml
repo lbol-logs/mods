@@ -1,0 +1,8 @@
+﻿cardfurnace:
+  Name: Flesh Furnace
+  Description: >-
+    |Decrease| {Value1}% {healstring}life.
+
+    Gain |n:20| |Attack Increase| and add |n:1| |Crimson Blood| to the hand.
+
+    If {PlayerName} has less than |n:50|% {needstring}life, add {Value2} |Crimson Blood| to the hand.

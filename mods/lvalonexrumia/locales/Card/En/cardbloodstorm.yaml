@@ -1,0 +1,11 @@
+﻿cardbloodstorm:
+  Name: Blood Storm
+  Description: >-
+    Deal {Damage} damage to each enemy.
+
+    Apply {Value1} |Bleed| to each enemy.
+  UpgradedDescription: >-
+    Deal {Damage} damage to each enemy.
+
+    Apply {Value1} |Bleed| and |Blood Mark| to each enemy.
+  DetailText: When {SelfName} is |Exiled| from the hand without being played, play {SelfName}.

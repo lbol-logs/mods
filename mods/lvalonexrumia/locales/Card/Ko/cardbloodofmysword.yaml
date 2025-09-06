@@ -1,0 +1,7 @@
+﻿cardbloodofmysword:
+  Name: 나의 검에 깃든 피
+  Description: '{PlayerName}이 적에게 공격 피해를 줄 때마다, 적의 체력을 {Value1}만큼 |증가|시키고 |일시 화력|을 {Value1} 얻습니다.'
+  UpgradedDescription: >-
+    {PlayerName}이 적에게 공격 피해를 줄 때마다, 적의 체력을 {Value1}만큼 |증가|시키고 |일시 화력|을 {Value1} 얻습니다.
+
+    |혈검|을 {Value2}장 손에 추가합니다.

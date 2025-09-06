@@ -1,4 +1,25 @@
 {
+  "exexa": {
+    "Name": "唯暗独尊",
+    "Description": "提供基础法力<BaseMana />，<h>EX露米娅</h>的专属卡牌会加入牌池。<br />在第一回合的开始时,对所有敌人施加 <Value1 /> 层<h>血迹</h>。<br /><PlayerName />的攻击伤害提升已损生命值的 <Value2 />% （向上取整）。"
+  },
+  "exexb": {
+    "Name": "苦痛的世界",
+    "Description": "提供基础法力<BaseMana />，<h>EX露米娅</h>的专属卡牌会加入牌池。<br /><h>一回合一次</h>，当<PlayerName />造成伤害时，对每个敌人施加 <Value1 /> 层<h>流血</h>。<br />每当<PlayerName />的生命值降低时，所有敌人也<h>减少</h>等量的的生命值。"
+  },
+  "exfakeribbon": {
+    "Name": "缎带",
+    "Description": "对战精英与首领敌人时，每回合开始时获得<Mana />。"
+  },
+  "exrumiafumo": {
+    "Name": "宵暗的毛绒玩具",
+    "Description": "每当打出一张<h>血</h>牌时，获得 <Value1 /> 层<h>暂得火力</h>。"
+  },
+  "extrueribbon": {
+    "Name": "真正的缎带",
+    "Description": "提供基础法力<BaseMana />。<br />每场战斗的最开始时，所有敌人<h>减少</h> <Value2 />% 生命值 (最少 <Value2 /> 点生命值) <Value1 /> 次。<br />每场战斗的最开始时，对所有敌人施加 <Value1 /> 层<h>血迹</h>和<h>严重流血</h>。"
+  },
+
   "PatchouliExhibitB": {
     "Name": "元素印记",
     "Description": "提供基础法力<Mana />。<h>帕秋莉</h>的专属卡牌会加入牌池。<br /><PlayerName />的回合开始时，如果<PlayerName />没有<h>$t(PatchouliExhibitB.Sign, { 'context': {{Sign}} })符</h>，<h>咏唱</h> <Value1 /> 个<h>$t(PatchouliExhibitB.Sign, { 'context': {{Sign}} })符</h>。",

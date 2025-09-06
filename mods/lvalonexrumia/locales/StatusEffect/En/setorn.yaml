@@ -1,0 +1,4 @@
+﻿setorn:
+  Name: Torn Red Ribbon
+  Description: 'While {PlayerName} has less than |n:50|% ({lifeneed}) life: Whenever {PlayerName} |Grazes| an attack, gain {increase} |Attack Increase|, |increase| life by {increase}% ({increaselife}).'
+  Brief: 'While {PlayerName} has less than |n:50|% life: Whenever {PlayerName} |Grazes| an attack, gain |n:10| |Attack Increase|, |increase| life by |n:10|%.'

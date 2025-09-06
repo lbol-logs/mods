@@ -1,0 +1,4 @@
+﻿sebewater:
+  Name: Se el Agua
+  Description: Siempre que se juegue una carta de |Sangre|, elige hasta {Level} carta{Level:plural one='' other='s'} de la pila de descarte, se baraja{Level:plural one='' other='n'} en la pila de robo y se roba {Level} carta{Level:plural one='' other='s'}.
+  Brief: Siempre que se juegue una carta de |Sangre|, elige hasta |n:1| carta de la pila de descarte, se barajan en la pila de robo y se roba 1 carta.

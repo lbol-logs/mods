@@ -1,0 +1,14 @@
+﻿carddarkblood:
+  Name: Dark Blood
+  Description: >-
+    |Increase| {Value1}% {healstring}life.
+
+    Draw {Value2} card{Value2:plural one='' other='s'}.
+
+    If {PlayerName} has no |Accelerate|, gain {Value2} |Accelerate|.
+  UpgradedDescription: >-
+    |Increase| {Value1}% {healstring}life.
+
+    Draw {Value2} card{Value2:plural one='' other='s'}.
+
+    Gain {Value2} |Graze|.

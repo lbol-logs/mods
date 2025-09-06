@@ -1,0 +1,4 @@
+﻿setwilight3:
+  Name: La Batalla Final
+  Description: "Mientras {OwnerName} tenga menos del |n:15|% ({lifeneed}) de vida: Siempre que se juega una carta, gana {Level} |Carga{Level:plural one='' other='s'}|."
+  Brief: 'Mientras {OwnerName} tenga menos del |n:15|% de vida: Siempre que se juega una carta, gana |Cargas|.'

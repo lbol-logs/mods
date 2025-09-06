@@ -1,0 +1,8 @@
+﻿cardcrimsonray:
+  Name: Rayo Carmesí
+  Description: >-
+    |Reduce| {Value1}% {healstring}de vida.
+
+    Aplica {Value2} |Sangrado{Value2:plural one='' other='s'}|.
+
+    Inflige {Damage} de daño.

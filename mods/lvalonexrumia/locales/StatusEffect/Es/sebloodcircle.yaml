@@ -1,0 +1,4 @@
+﻿sebloodcircle:
+  Name: Circulación Sanguínea
+  Description: Al comienzo del turno de {PlayerName}, regresa cualquier cantidad de cartas de |Sangre Exiladas| a la mano.
+  Brief: Al comienzo del turno de {PlayerName}, regresa cualquier cantidad de cartas de |Sangre Exiladas| a la mano.

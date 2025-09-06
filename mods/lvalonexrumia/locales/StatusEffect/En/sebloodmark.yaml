@@ -1,0 +1,10 @@
+﻿sebloodmark:
+  Name: Blood Mark
+  Description: >-
+    {OwnerName} takes {Value}% more damage from attacks.
+
+    Lose |n:1| {SelfName} at the start of {OwnerName}'s turn.
+  Brief: >-
+    {OwnerName} takes {Value}% more damage from attacks.
+
+    Lose |n:1| {SelfName} at the start of {OwnerName}'s turn.

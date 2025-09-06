@@ -1,0 +1,3 @@
+﻿cardbloodcontract:
+  Name: Blood Contract
+  Description: Whenever {PlayerName}'s life decreases, gain {Value1} |Blood Sword Token|.

@@ -1,0 +1,8 @@
+﻿cardfurnace:
+  Name: Horno de Carne y Sangre
+  Description: >-
+    |Reduce| {Value1}% {healstring}de vida.
+
+    Gana |n:20| |Ataque Incrementado| y agrega |n:1| |Sangre Carmesí| a la mano.
+
+    Si {PlayerName} tiene menos del |n:50|% {needstring}de vida, agrega {Value2} |Sangre{Value2:plural one='' other='s'} Carmesí| a la mano.

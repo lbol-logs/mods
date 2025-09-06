@@ -1,0 +1,6 @@
+﻿cardnightfalls:
+  Name: Night Falls
+  Description: >-
+    Until end of turn, whenever a black card is played, gain {Value1} |Blood Sword Token|.
+
+    Put {Value2} random black card{Value2:plural one='' other='s'} from the draw pile to the hand, then gain that many {Mana}.

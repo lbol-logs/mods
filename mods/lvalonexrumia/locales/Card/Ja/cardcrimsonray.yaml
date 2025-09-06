@@ -1,0 +1,8 @@
+﻿cardcrimsonray:
+  Name: 深紅の光線
+  Description: >-
+    |生命減衰|{Value1}% {healstring} 
+
+    |出血|{Value2}を与える。
+
+    {Damage}ダメージを与える。

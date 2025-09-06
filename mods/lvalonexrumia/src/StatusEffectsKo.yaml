@@ -1,0 +1,215 @@
+sedecrease:
+  Name: 상실
+  Description: "체력을 일반적인 방식으로 잃는 대신 더 낮은 값으로 설정하는 특수한 방식입니다. 체력이 |n:<= 0|이 되면 사망합니다."
+  Brief: "체력을 일반적인 방식으로 잃는 대신 더 낮은 값으로 설정하는 특수한 방식입니다. 체력이 |n:<= 0|이 되면 사망합니다."
+
+seincrease:
+  Name: 체력 증가
+  Description: "체력을 일반적으로 회복하는 대신 더 높은 값으로 설정하는 특수한 방식입니다. 최대 체력을 초과할 수는 없습니다."
+  Brief: "체력을 일반적으로 회복하는 대신 더 높은 값으로 설정하는 특수한 방식입니다. 최대 체력을 초과할 수는 없습니다."
+
+sebloodmark:
+  Name: 혈흔
+  Description: "{OwnerName}가 공격으로 받는 피해가 {Value}% 증가합니다.\n{OwnerName}의 턴 시작 시 {SelfName}을 |n:1| 잃습니다."
+  Brief: "{OwnerName}가 공격으로 받는 피해가 {Value}% 증가합니다.\n{OwnerName}의 턴 시작 시 {SelfName}을 |n:1| 잃습니다."
+
+sebleed:
+  Name: 출혈
+  Description: "{OwnerName}가 공격받을 때 체력이 |n:1|% ({truecount})만큼 |상실|됩니다.\n{OwnerName}의 턴 시작 시 {SelfName}을 |n:1| 잃습니다.\n현재 체력: {lifenow}"
+  Brief: "{OwnerName}가 공격받을 때 체력이 |n:1|%만큼 (올림) |상실|됩니다.\n{OwnerName}의 턴 시작 시 {SelfName}을 |n:1| 잃습니다."
+
+sedeepbleed:
+  Name: 과다 출혈
+  Description: "{OwnerName}가 공격받을 때 체력이 |n:2|% ({truecount})만큼 |상실|됩니다.\n{OwnerName}의 턴 시작 시 {SelfName}을 |n:1| 잃습니다.\n현재 체력: {lifenow}"
+  Brief: "{OwnerName}가 공격받을 때 체력이 |n:2|%만큼 (올림) |상실|됩니다.\n{OwnerName}의 턴 시작 시 {SelfName}을 |n:1| 잃습니다."
+
+sebloodsword:
+  Name: 혈검 토큰
+  Description: "{SelfName}이 {lim}개 이상일 경우, {SelfName}을 {lim}개 잃고 |혈검|을 손에 추가합니다."
+  Brief: "{SelfName}이 {lim}개 이상일 경우, {SelfName}을 {lim}개 잃고 |혈검|을 손에 추가합니다."
+
+sebloodstorm:
+  Name: 혈폭풍 토큰
+  Description: "{SelfName}이 {lim}개 이상일 경우, {SelfName}을 {lim}개 잃고 |혈폭풍|을 손에 추가합니다."
+  Brief: "{SelfName}이 {lim}개 이상일 경우, {SelfName}을 {lim}개 잃고 |혈폭풍|을 손에 추가합니다."
+
+seatkincrease:
+  Name: 공격력 증가
+  Description: "{OwnerName}의 공격 피해가 {truecounter}% 증가합니다.\n{OwnerName}의 턴 종료 시 {SelfName}의 절반을 잃습니다 (5의 배수로 내림)."
+  Brief: "{OwnerName}의 공격 피해가 턴 종료 시까지 |n:수치|% 증가합니다.\n턴 종료 시 {SelfName}의 절반을 잃습니다 (5의 배수로 내림)."
+
+seaccel:
+  Name: 가속
+  Description: "{OwnerName}의 다음 턴 시작 시 |그레이즈|를 {Level} 얻습니다."
+  Brief: "{OwnerName}의 다음 턴 시작 시 |그레이즈|를 얻습니다."
+
+sebloodclot:
+  Name: 혈전
+  Description: "라운드 종료 시까지 {OwnerName}가 받는 공격 피해가 {Value}% 감소합니다. 최대 |n:100|%까지 감소합니다."
+  Brief: "라운드 종료 시까지 {OwnerName}가 받는 공격 피해가 {Value}% 감소합니다. 최대 |n:100|%까지 감소합니다."
+
+sedarkblood:
+  Name: 어둠의 피 토큰
+  Description: "|턴당 1회|, {PlayerName}의 체력이 감소할 때 {SelfName}을 |n:1| 잃고 |어둠의 피|를 손에 추가합니다. 모든 {SelfName}을 잃고 해당 수만큼 {mana}를 얻습니다."
+  Brief: "|턴당 1회|, {PlayerName}의 체력이 감소할 때 {SelfName}을 |n:1| 잃고 |어둠의 피|를 손에 추가합니다. 모든 {SelfName}을 잃고 해당 수만큼 {mana}를 얻습니다."
+
+sebloodcontract:
+  Name: 혈계 계약
+  Description: "{PlayerName}의 체력이 감소할 때마다 |혈검 토큰|을 {Level} 얻습니다."
+  Brief: "{PlayerName}의 체력이 감소할 때마다 |혈검 토큰|을 얻습니다."
+
+seadrenaline:
+  Name: 아드레날린
+  Description: "{PlayerName}의 체력이 |n:50|% ({lifeneed}) 미만일 경우: 체력이 감소할 때마다 |공격력 증가| {atkincrease}와 |혈전|을 {Level} 얻습니다."
+  Brief: "{PlayerName}의 체력이 |n:50|% 미만일 경우: 체력이 감소할 때마다 |공격력 증가| |n:5|, |혈전|을 |n:1| 얻습니다."
+
+sebloodyhell:
+  Name: 블러디 헬
+  Description: "적색 카드를 사용할 때마다 |공격력 증가| {atkincrease}를 얻습니다."
+  Brief: "적색 카드를 사용할 때마다 |공격력 증가| |n:10|을 얻습니다."
+
+setorn:
+  Name: 찢어진 붉은 리본
+  Description: "{PlayerName}의 체력이 |n:50|% ({lifeneed}) 미만일 경우: 공격을 |그레이즈|할 때마다 |공격력 증가| {increase}, 체력을 {increase}% ({increaselife})만큼 |증가|시킵니다."
+  Brief: "{PlayerName}의 체력이 |n:50|% 미만일 경우: 공격을 |그레이즈|할 때마다 |공격력 증가| |n:10|, 체력 |n:10|% |증가|."
+
+seendurance:
+  Name: 인내
+  Description: "{PlayerName}의 체력이 |n:50|% ({lifeneed}) 미만일 경우: 체력이 감소할 때마다 |n:Count|가 |n:1| 증가합니다.\n{PlayerName}의 턴 시작 시 모든 |n:Count|를 잃고 그 수만큼 |진홍의 피|를 손에 추가합니다."
+  Brief: "{PlayerName}의 체력이 |n:50|% 미만일 경우: 체력이 감소할 때마다 |n:Count|가 |n:1| 증가합니다.\n턴 시작 시 모든 |n:Count|를 잃고 그 수만큼 |진홍의 피|를 손에 추가합니다."
+
+setearmedo:
+  Name: 날 찢어줘
+  Description: "{PlayerName}의 체력이 감소할 때마다 |혈폭풍 토큰| {Level}과 |공격력 증가|를 {atkincrease} 얻습니다."
+  Brief: "{PlayerName}의 체력이 감소할 때마다 |혈폭풍 토큰| |n:1|, |공격력 증가|를 |n:10|을 얻습니다."
+
+semagia:
+  Name: 섀도우 마기아 폼
+  Description: "라운드 종료 시까지 {PlayerName}가 공격받을 때마다 |혈검 토큰|을 {Level} 얻습니다."
+  Brief: "라운드 종료 시까지 {PlayerName}가 공격받을 때마다 |혈검 토큰|을 얻습니다."
+
+segojo:
+  Name: 무한의 허공
+  Description: "라운드 종료 시까지 {OwnerName}는 체력을 잃지 않습니다."
+  Brief: "라운드 종료 시까지 {OwnerName}는 체력을 잃지 않습니다."
+
+seworldburn:
+  Name: 세계가 타오른다
+  Description: "{PlayerName}가 적에게 |혈흔| 또는 |출혈|을 부여할 때마다, 반대 효과도 {Level} 부여합니다."
+  Brief: "{PlayerName}가 적에게 |혈흔| 또는 |출혈|을 부여할 때마다, 반대 효과도 함께 부여합니다."
+
+secorruptedblood:
+  Name: 오염된 피
+  Description: "{PlayerName}의 체력이 감소할 때마다 |어둠의 피 토큰| {Level}을 얻습니다."
+  Brief: "{PlayerName}의 체력이 감소할 때마다 |어둠의 피 토큰|을 얻습니다."
+
+sebloodofmysword:
+  Name: 나의 검에 깃든 피
+  Description: "{OwnerName}이 적에게 공격 피해를 줄 때마다 적의 체력을 {Level} |증가|시키고 |일시 화력|을 {Level} 얻습니다."
+  Brief: "{OwnerName}이 적에게 공격 피해를 줄 때마다 적의 체력을 |증가|시키고 |일시 화력|을 얻습니다."
+
+seimmerse:
+  Name: 붉게 물들다
+  Description: "턴 종료 시까지 공격 카드를 사용할 때마다 |혈폭풍 토큰|을 {Level} 얻습니다."
+  Brief: "턴 종료 시까지 공격 카드를 사용할 때마다 |혈폭풍 토큰|을 얻습니다."
+
+semissribbon:
+  Name: 미스 리본
+  Description: "{PlayerName}이 적에게 |혈흔|을 부여할 때마다 |혈검 토큰|을 {Level} 얻습니다."
+  Brief: "{PlayerName}이 적에게 |혈흔|을 부여할 때마다 |혈검 토큰|을 얻습니다."
+
+sebleedslash:
+  Name: 절혈
+  Description: "검은 카드를 사용할 때마다 |혈검 토큰|을 {Level} 얻습니다."
+  Brief: "검은 카드를 사용할 때마다 |혈검 토큰|을 얻습니다."
+
+semarkblood:
+  Name: 내 피를 새겨라
+  Description: "|혈흔|이 없는 적이 공격받을 때마다 |혈흔|을 {Level} 부여합니다."
+  Brief: "|혈흔|이 없는 적이 공격받을 때마다 |혈흔|을 부여합니다."
+
+sebloodcircle:
+  Name: 혈액 순환
+  Description: "{PlayerName}의 턴 시작 시 |소멸된 피| 카드를 원하는 만큼 손으로 되돌립니다."
+  Brief: "{PlayerName}의 턴 시작 시 |소멸된 피| 카드를 원하는 만큼 손으로 되돌립니다."
+
+sedearsword:
+  Name: 나의 사랑스러운 검
+  Description: "{PlayerName}의 턴 시작 시 |혈폭풍|을 {Level} 손에 추가합니다."
+  Brief: "{PlayerName}의 턴 시작 시 |혈폭풍|을 손에 추가합니다."
+
+seinfuseddarkness:
+  Name: 스며든 어둠
+  Description: "턴 종료 시까지 |어둠의 피|를 사용할 때마다 {Mana}를 얻습니다."
+  Brief: "턴 종료 시까지 |어둠의 피|를 사용할 때마다 {Mana}를 얻습니다."
+
+senightfalls:
+  Name: 밤이 내려앉다
+  Description: "턴 종료 시까지 검은 카드를 사용할 때마다 |혈검 토큰|을 {Level} 얻습니다."
+  Brief: "턴 종료 시까지 검은 카드를 사용할 때마다 |혈검 토큰|을 얻습니다."
+
+semixedblood:
+  Name: 200% 혼혈
+  Description: "턴 종료 시까지 |어둠의 피|를 사용할 때마다 |진홍의 피|를 {Level}번 발동합니다. |진홍의 피|를 사용할 때마다 |어둠의 피 토큰|을 {Level} 얻습니다."
+  Brief: "턴 종료 시까지 |어둠의 피|를 사용할 때마다 |진홍의 피|를 발동하고, |진홍의 피|를 사용할 때마다 |어둠의 피 토큰|을 얻습니다."
+
+seetude:
+  Name: 나의 에튀드
+  Description: "{PlayerName}의 다음 턴 시작 시, 현재 체력의 |n:5|% ({heal})를 |상실|하고 무작위 적에게 피해를 {Damage}씩 |n:3|회 줍니다."
+  Brief: "{PlayerName}의 다음 턴 시작 시, 체력을 |n:5|% |상실|하고 무작위 적에게 |n:5| 피해를 |n:3|회 줍니다."
+
+seshadowcut:
+  Name: 그림자 베기
+  Description: "{PlayerName}의 턴 시작 시 무작위 적에게 피해를 {Damage}씩 {Level}회 줍니다."
+  ExtraDescription: "{PlayerName}의 턴 시작 시 무작위 적에게 피해를 {Damage}씩 {Level}회 줍니다.\n{SelfName}는 비활성 상태이며 해당 턴 종료 후에만 제거됩니다."
+  Brief: "{PlayerName}의 턴 시작 시 무작위 적에게 |n:5| 피해를 |n:5|회 줍니다."
+
+sebewater:
+  Name: 물처럼
+  Description: "|출혈| 카드를 사용할 때마다 버린 카드 더미에서 최대 {Level}장 카드를 골라 뽑을 카드 더미에 섞고, 카드를 {Level}장 뽑습니다."
+  Brief: "|출혈| 카드를 사용할 때마다 버린 카드 중 최대 |n:1|장을 골라 뽑을 카드 더미에 섞고 카드 1장을 뽑습니다."
+
+sequickrestore:
+  Name: 빠른 회복
+  Description: "이번 라운드 종료 시 체력을 {truecounter}까지 회복합니다."
+  Brief: "이번 라운드 종료 시 체력을 회복합니다."
+
+sepastpresent:
+  Name: 과거와 현재
+  Description: "다음 턴 시작 시 {SelfName}가 추가된 이후 사용된 카드들을 다시 발동한 후 {SelfName}를 제거합니다."
+  Brief: "다음 턴 시작 시 {SelfName}가 추가된 이후 사용된 카드들을 다시 발동한 후 {SelfName}를 제거합니다."
+
+semutualdepletion:
+  Name: 동귀어진
+  Description: "{PlayerName}의 체력이 |n:1|% 이상 감소할 때마다, 모든 적도 같은 비율만큼의 체력을 |상실|합니다 (내림)."
+  Brief: "{PlayerName}의 체력이 |n:1|% 이상 감소할 때마다, 모든 적도 같은 비율만큼의 체력을 |상실|합니다 (내림)."
+
+seidlive:
+  Name: 나는 살아남는다
+  Description: "이번 라운드 종료 시까지 {PlayerName}는 패배하지 않습니다."
+  Brief: "이번 라운드 종료 시까지 {PlayerName}는 패배하지 않습니다."
+
+sefuckyou:
+  Name: 파이널 카운트다운
+  Description: "누적된 체력 감소량이 |n:200|%에 도달하면 전투에서 승리합니다.\n현재 {Count}% 남음."
+  Brief: "누적된 체력 감소량이 |n:200|%에 도달하면 전투에서 승리합니다."
+
+sebossheal:
+  Name: 격노
+  Description: "{OwnerName}의 체력이 |n:50|% 이하일 경우 행동이 강화됩니다.\n{PlayerName}이 공격당할 때마다 {OwnerName}의 체력이 |n:1|% |증가|합니다."
+  Brief: "{OwnerName}의 체력이 |n:50|% 이하일 경우 행동이 강화됩니다.\n{PlayerName}이 공격당할 때마다 {OwnerName}의 체력이 |n:1|% |증가|합니다."
+
+setwilight1:
+  Name: 죽음의 초대
+  Description: "{OwnerName}의 체력이 |n:50|% ({lifeneed}) 미만일 때: 잃은 체력의 {Level}%만큼 공격 피해가 증가합니다 (올림)."
+  Brief: "{OwnerName}의 체력이 |n:50|% 미만일 때: 잃은 체력의 %만큼 공격 피해가 증가합니다 (올림)."
+
+setwilight2:
+  Name: 피어오르는 장미
+  Description: "{OwnerName}의 체력이 |n:25|% ({lifeneed}) 미만일 때: 카드를 사용할 때마다 |진홍의 피|를 {Level}번 발동합니다 (체력은 |증가|되지 않음)."
+  Brief: "{OwnerName}의 체력이 |n:25|% 미만일 때: 카드를 사용할 때마다 |진홍의 피|를 발동합니다 (체력은 |증가|되지 않음)."
+
+setwilight3:
+  Name: 최후의 발악
+  Description: "{OwnerName}의 체력이 |n:15|% ({lifeneed}) 미만일 때: 카드를 사용할 때마다 |충전|을 {Level} 얻습니다."
+  Brief: "{OwnerName}의 체력이 |n:15|% 미만일 때: 카드를 사용할 때마다 |충전|을 얻습니다."

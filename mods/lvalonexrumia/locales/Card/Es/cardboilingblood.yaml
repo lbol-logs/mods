@@ -1,0 +1,14 @@
+﻿cardboilingblood:
+  Name: Sangre Hirviente
+  Description: >-
+    |Reduce| {Value1}% {healstring}de vida.
+
+    Inflige {Damage} de daño a cada enemigo con |Sangrado|.
+
+    Gana {Value2} |Ataque Incrementado|.
+  UpgradedDescription: >-
+    |Reduce| {Value1}% {healstring}de vida.
+
+    Inflige {Damage} de daño a cada enemigo.
+
+    Gana {Value2} |Ataque Incrementado|.

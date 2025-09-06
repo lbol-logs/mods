@@ -1,0 +1,4 @@
+﻿setwilight2:
+  Name: Coming Roses
+  Description: 'While {OwnerName} has less than |n:25|% ({lifeneed}) life: Whenever a card is played, play {Level} |Crimson Blood| (does not |increase| life).'
+  Brief: 'While {OwnerName} has less than |n:25|% life: Whenever a card is played, play |Crimson Blood| (does not |increase| life).'

@@ -1,0 +1,8 @@
+﻿cardbloodspeed:
+  Name: 피의 가속
+  Description: >-
+    현재 체력의 {Value1}%를 |n:2|회 |상실|합니다{healstring2}.
+
+    |가속|을 |n:1| 얻습니다.
+
+    카드를 {Value2}장 뽑습니다.

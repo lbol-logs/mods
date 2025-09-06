@@ -1,0 +1,6 @@
+﻿cardpastpresent:
+  Name: 前世今生
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    下回合开始时，追加打出{SelfName}打出后所有打出的牌。

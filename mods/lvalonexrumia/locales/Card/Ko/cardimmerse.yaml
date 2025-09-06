@@ -1,0 +1,8 @@
+﻿cardimmerse:
+  Name: 붉게 물들다
+  Description: >-
+    체력을 {Value1}% {healstring}만큼 |상실|합니다.
+
+    이번 턴이 끝날 때까지, 공격 카드를 사용할 때마다 |혈폭풍 토큰|을 |n:1| 얻습니다.
+
+    |진홍의 피|를 {Value2}장 손에 추가합니다.

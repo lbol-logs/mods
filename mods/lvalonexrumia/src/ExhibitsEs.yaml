@@ -1,0 +1,34 @@
+exexa:
+  Name: Ocuridad Glorificada
+  Description: |-
+    Agrega {BaseMana} al base de maná. Cartas exclusivas de |EX Rumia| se agregan al grupo de cartas.
+    Al comienzo del primer turno de cada combate, aplica {Value1} |Marca{Value1:plural one='' other='s'} de Sangre| a cada enemigo.
+    El daño de los ataques de {PlayerName} aumenta en un {Value2}% de la vida que se ha perdido (redondeado hacia arriba).
+  FlavorText: ¿Soy yo el único digno de honor entre el cielo y la tierra? ¿Eso es así?
+
+exexb:
+  Name: Mundo de Dolor
+  Description: |-
+    Agrega {BaseMana} al base de maná. Cartas exclusivas de |EX Rumia| se agregan al grupo de cartas.
+    |Una vez por turno|, cuando {PlayerName} inflige daño, aplica {Value1} |Sangrado| a cada enemigo.
+    Cada vez que la vida de {PlayerName} disminuye, todos los enemigos también |Reduce| esa misma cantidad de vida.
+  FlavorText: El mundo me bendijo con el beso del dolor…
+
+extrueribbon:
+  Name: Cinta Auténtica
+  Description: |-
+    Agrega {BaseMana} al base de maná.
+    Al comienzo de cada combate, |Reduce| la vida de cada enemigo en un {Value2}% (un mínimo de {Value2} de vida) {Val1} veces.
+    Al comienzo de cada combate, aplica {Value1} |Marca{Value1:plural one='' other='s'} de sangre| y |Sangrado Severo| a cada enemigo.
+
+exfakeribbon:
+  Description:
+    Al comienzo de cada turno de {PlayerName} durante los combates contra jefes o élite, gana
+    {ManaFake}.
+  Name: Cinta
+  FlavorText: '"Escuché que al liberarlo se despertará el poder demoníaco sellado."'
+
+exrumiafumo:
+  Description: "Siempre que se juega una carta de |Sangre|, gana {Value1} de |Poder Temporal|."
+  Name: "Peluche Youkai del Crepúsculo"
+  FlavorText: "A menudo es solo una esfera de oscuridad pura."

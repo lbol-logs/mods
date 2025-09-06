@@ -1,4 +1,25 @@
 {
+  "exexa": {
+    "Name": "崇められし闇",
+    "Description": "マナ基盤に<Mana />を加える。<h>EXルーミア</h>固有のカードが出現するようになる。<br />各戦闘の最初のターン開始時、敵全体に<h>血の印</h><Value1 />を与える。<br /><PlayerName />の攻撃ダメージが、失ったライフの<Value2 />%分だけ増加する。（端数切り上げ）"
+  },
+  "exexb": {
+    "Name": "苦痛の世界",
+    "Description": "マナ基盤に<Mana />を加える。<h>EXルーミア</h>固有のカードが出現するようになる。<br /><h>各ターンに1回まで</h>、<PlayerName />がダメージを与える時、敵全体に<h>出血</h><Value1 />を与える。<br /><PlayerName />のライフが減少するたび、すべての敵も同じ値だけライフを<h>減少</h>させる。"
+  },
+  "exfakeribbon": {
+    "Name": "リボン",
+    "Description": "ボスまたはエリートとの戦闘中、<PlayerName />のターン開始時に<Mana />を得る。"
+  },
+  "exrumiafumo": {
+    "Name": "黄昏妖怪のぬいぐるみ",
+    "Description": "<h>血</h>のカードをプレイする度に、<h>臨時火力</h><Value1 />を得る。"
+  },
+  "extrueribbon": {
+    "Name": "真のリボン",
+    "Description": "マナ基盤に<Mana />を加える。<br />戦闘開始時、敵全体のライフを<Value2 />%最低(<Value2 />ライフ)だけ<Value1 />回<h>減少</h>させる。<br />戦闘開始時、敵全体に<h>血の印</h><Value1 />と<h>大量出血</h><Value1 />を与える。"
+  },
+
   "BatteredShield": {
     "Name": "使い古された盾",
     "Description": "マナ基盤に<Mana />を加える。<h>椛</h>固有のカードが出現するようになる。<br />各ターン<h>ブロック</h>か<h>バリア</h>を得た時、一度だけ<h>反射</h>を得る。"

@@ -1,0 +1,14 @@
+﻿cardredblood:
+  Name: Crimson Blood
+  Description: >-
+    If {PlayerName} has less than |n:50|% {needstring}life, |increase| {Value1}% {healstring}life.
+
+    Gain {Mana}.
+
+    Deal {Damage} |Accurate| attack damage to each enemy with |Bleed|.
+  UpgradedDescription: >-
+    |Increase| {Value1}% {healstring}life.
+
+    Gain {Mana}.
+
+    Deal {Damage} |Accurate| attack damage to each enemy with |Bleed|.

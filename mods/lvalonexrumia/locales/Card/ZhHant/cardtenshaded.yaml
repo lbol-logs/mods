@@ -1,0 +1,16 @@
+﻿cardtenshaded:
+  Name: 十影斬
+  Description: >-
+    |減少|現有生命值的 {Value1}% {healstring}。
+
+    對隨機敵人造成 {Damage} 點傷害 {Value2} 次。
+
+    將 {Value3} 張|暗影|加入手中。
+  UpgradedDescription: >-
+    |減少|現有生命值的 {Value1}% {healstring}。
+
+    對所有敵人施加 |n:1| 層|血跡|。
+
+    對隨機敵人造成 {Damage} 點傷害 {Value2} 次。
+
+    將 {Value3} 張|暗影|加入手中。

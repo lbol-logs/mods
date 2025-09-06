@@ -1,0 +1,7 @@
+﻿carddevour:
+  Name: 포식
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |퇴치|: 최대 체력의 {Value1}% {healstring}를 얻고 {SelfName}은 전투 및 덱에서 제거됩니다.
+  DetailText: '{SelfName}은 전투 중 무작위로 생성되지 않으며 복사될 수 없습니다.'

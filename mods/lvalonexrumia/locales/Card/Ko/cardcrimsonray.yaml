@@ -1,0 +1,8 @@
+﻿cardcrimsonray:
+  Name: 진홍광선
+  Description: >-
+    체력을 {Value1}% {healstring}만큼 |상실|합니다.
+
+    |출혈|을 {Value2} 부여합니다.
+
+    피해를 {Damage} 줍니다.

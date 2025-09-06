@@ -1,0 +1,10 @@
+﻿sebloodmark:
+  Name: 血の印
+  Description: >-
+    {OwnerName}が攻撃を受ける際、被ダメージが{Value}%増加する。
+
+    {OwnerName}のターン開始時に、{SelfName}|n:1|を失う。
+  Brief: >-
+    {OwnerName}が攻撃を受ける際、被ダメージが{Value}%増加する。
+
+    {OwnerName}のターン開始時に、{SelfName}|n:1|を失う。

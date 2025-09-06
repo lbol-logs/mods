@@ -1,0 +1,8 @@
+﻿cardbefallen:
+  Name: 피에 쓰러지다
+  Description: >-
+    |어둠의 피 토큰|을 {Value2} 얻습니다.
+
+    현재 체력의 {Value1}%를 {healstring}|상실|합니다.
+
+    |그림자|를 |n:1|장 손에 추가합니다.

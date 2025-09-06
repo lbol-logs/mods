@@ -1,0 +1,7 @@
+﻿cardmarkblood:
+  Name: Marcado con mi Sangre
+  Description: Siempre que un enemigo sin |Marca de Sangre| es atacado, aplica {Value2} |Marca de Sangre|.
+  UpgradedDescription: >-
+    Siempre que un enemigo sin |Marca de Sangre| es atacado, aplica {Value2} |Marca de Sangre|.
+
+    Aplica {Value2} |Marca de Sangre| a cada enemigo.

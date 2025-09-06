@@ -1,0 +1,8 @@
+﻿cardmissribbon:
+  Name: Señorita Cinta
+  Description: >-
+    {FriendS}|Reduce| {Value1}% {healstring}de la vida actual, Gana {Mana}.
+
+    {FriendP}|Reduce| {Value1}% {healstring}de la vida actual, Gana {Mana}.
+  ExtraDescription1: '{FriendA}Aplica {Value2} |Marca de Sangre| a cada enemigo.'
+  ExtraDescription3: '{FriendU}Siempre que {PlayerName} aplica  una |Marca de Sangre| a un enemigo, gana |n:1| |Emblema de Espada de Sangre|.'

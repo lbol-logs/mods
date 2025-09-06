@@ -1,0 +1,4 @@
+﻿sebewater:
+  Name: Be Water
+  Description: Whenever a |Blood| card is played, choose up to {Level} card{Level:plural one='' other='s'} in the discard pile, shuffle {Level:plural one='it' other='them'} into the draw pile, draw {Level} card{Level:plural one='' other='s'}.
+  Brief: Whenever a |Blood| card is played, choose up to |n:1| card in the discard pile, shuffle it into the draw pile, draw 1 card.

@@ -1,0 +1,8 @@
+﻿cardbloodmanip:
+  Name: Manipulación de la Sangre
+  Description: >-
+    |Reduce| |n:5|% {healstring}de vida.
+
+    Gana {Value1} |Coágulo{Value1:plural one='' other='s'} de Sangre|.
+
+    Aplica {Value2} |Marca{Value2:plural one='' other='s'} de Sangre| y |Sangrado| a cada enemigo.

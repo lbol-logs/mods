@@ -1,0 +1,8 @@
+﻿cardbloodspeed:
+  Name: 血流加速
+  Description: >-
+    現在のライフから|生命減衰|{Value1}%を|n:2|回。 {healstring2} 
+
+    |加速||n:1|を得る。
+
+    カードを{Value2}枚引く。

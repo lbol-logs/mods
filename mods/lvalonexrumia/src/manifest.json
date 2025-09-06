@@ -1,0 +1,7 @@
+{
+  "name": "EX_Rumia",
+  "version_number": "1.0.4",
+  "website_url": "",
+  "description": "(EN/繁/簡/日/ES/KO) Adds EX Rumia to the game. 将EX露米娅加入游戏。",
+  "dependencies": [ "BepInEx-BepInExPack-5.4.2100", "TeamNeo-Sideloader-0.5.0"]
+}

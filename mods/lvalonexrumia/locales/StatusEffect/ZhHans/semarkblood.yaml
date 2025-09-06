@@ -1,0 +1,4 @@
+﻿semarkblood:
+  Name: 血的标记
+  Description: 没有|血迹|的敌人受到攻击时，施加 {Level} 层|血迹|。
+  Brief: 没有|血迹|的敌人受到攻击时，施加|血迹|。

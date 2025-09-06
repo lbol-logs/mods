@@ -1,0 +1,8 @@
+﻿cardbefallen:
+  Name: 災いの血
+  Description: >-
+    |闇の血の雫|{Value2}を得る。
+
+    現在のライフから|生命減衰|{Value1}% {healstring} 
+
+    手札に|暗闇|を|n:1|枚加える。

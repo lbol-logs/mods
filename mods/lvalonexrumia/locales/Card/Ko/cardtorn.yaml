@@ -1,0 +1,6 @@
+﻿cardtorn:
+  Name: 찢어진 붉은 리본
+  Description: >-
+    |{PlayerName}의 체력이| |n:50|% {needstring} 미만일 때: 공격을 |그레이즈|할 때마다 |공격력 증가| {Value1}, 체력을 {Value1}% {healstringnos}만큼 |증가|시킵니다.
+
+    |그레이즈|를 {Value2} 얻습니다.

@@ -1,4 +1,17 @@
 {
+  "sebloodstorm": {
+    "lim": 4
+  },
+  "sebloodsword": {
+    "lim": 5
+  },
+  "sedarkblood": {
+    "mana": "B"
+  },
+  "seinfuseddarkness": {
+    "Mana": "P"
+  },
+
   "SurgeofPowerSe": {
     "Mana": 0
   },

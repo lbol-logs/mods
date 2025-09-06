@@ -1,0 +1,14 @@
+﻿cardboilingblood:
+  Name: 沸腾的血液
+  Description: >-
+    |减少| {Value1}% {healstring}生命值。
+
+    对所有拥有|流血|的敌人造成 {Damage} 点伤害。
+
+    获得 {Value2} 层|攻击提升|。
+  UpgradedDescription: >-
+    |减少| {Value1}% {healstring}生命值。
+
+    对所有敌人造成 {Damage} 点伤害。
+
+    获得 {Value2} 层|攻击提升|。

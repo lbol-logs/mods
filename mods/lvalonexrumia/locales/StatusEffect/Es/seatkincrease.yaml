@@ -1,0 +1,10 @@
+﻿seatkincrease:
+  Name: Incremento de Ataque
+  Description: >-
+    {OwnerName} inflige {truecounter}% más de daño.
+
+    Pierde la mitad del {SelfName} al final del turno de {OwnerName} (redondeado al múltiplo de 5 más cercano).
+  Brief: >-
+    {OwnerName} inflige |n:Level|% más de daño hasta el final del turno.
+
+    Pierde la mitad del {SelfName} al final del turno de {OwnerName} (redondeado al múltiplo de 5 más cercano).

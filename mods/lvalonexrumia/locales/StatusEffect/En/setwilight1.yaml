@@ -1,0 +1,4 @@
+﻿setwilight1:
+  Name: Death's Invitation
+  Description: "While {OwnerName} has less than |n:50|% ({lifeneed}) life: {OwnerName}'s attack damage is increased by {Level}% of life lost (rounded up)."
+  Brief: "While {OwnerName} has less than |n:50|% life: {OwnerName}'s attack damage is increased by % of life lost (rounded up)."

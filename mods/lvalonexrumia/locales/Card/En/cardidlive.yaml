@@ -1,0 +1,10 @@
+﻿cardidlive:
+  Name: Being Towards Death
+  Description: >-
+    Until the end of this round, {PlayerName} will not lose the game.
+
+    At the end of this round, set life to half of {PlayerName}'s life when {SelfName} was played.
+  DetailText: >-
+    {PlayerName} reaching |n:0| life will not lose the game.
+
+    If the combat ends before the round has ended, set life to half of {PlayerName}'s life when {SelfName} was played immediately.

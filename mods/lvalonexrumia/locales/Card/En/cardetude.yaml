@@ -1,0 +1,10 @@
+﻿cardetude:
+  Name: My Etude
+  Description: >-
+    |Decrease| {Value1}% {healstring}of current life.
+
+    Gain {Value2} |Attack Increase|.
+
+    Deal {Damage} damage to a random enemy |n:3| times.
+
+    Repeat these effects at the start of {PlayerName}'s next turn.

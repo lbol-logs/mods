@@ -1,0 +1,4 @@
+﻿secorruptedblood:
+  Name: 오염된 피
+  Description: '{PlayerName}의 체력이 감소할 때마다 |어둠의 피 토큰| {Level}을 얻습니다.'
+  Brief: '{PlayerName}의 체력이 감소할 때마다 |어둠의 피 토큰|을 얻습니다.'

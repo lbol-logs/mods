@@ -1,0 +1,8 @@
+﻿cardtearssubside:
+  Name: As Tears Subside
+  Description: >-
+    |Decrease| |n:5|% {healstring}life.
+
+    Draw {Value2} card{Value2:plural one='' other='s'}.
+
+    Gain {Value1} |Blood Clot| for each red card drawn this way.

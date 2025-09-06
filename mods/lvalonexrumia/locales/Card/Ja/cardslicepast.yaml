@@ -1,0 +1,6 @@
+﻿cardslicepast:
+  Name: 昔日の一片
+  Description: >-
+    |生命増幅|{Value1}% {healstring}
+
+    手札のカードをすべて|アップグレード|する。

@@ -1,0 +1,8 @@
+﻿cardmissribbon:
+  Name: Miss Ribbon
+  Description: >-
+    {FriendS}|Decrease| {Value1}% {healstring}of current life, Gain {Mana}.
+
+    {FriendP}|Decrease| {Value1}% {healstring}of current life, Gain {Mana}.
+  ExtraDescription1: '{FriendA}Apply {Value2} |Blood Mark| to each enemy.'
+  ExtraDescription3: '{FriendU}Whenever {PlayerName} applies |Blood Mark| to an enemy, gain |n:1| |Blood Sword Token|.'

@@ -1,0 +1,4 @@
+﻿semagia:
+  Name: 섀도우 마기아 폼
+  Description: 라운드 종료 시까지 {PlayerName}가 공격받을 때마다 |혈검 토큰|을 {Level} 얻습니다.
+  Brief: 라운드 종료 시까지 {PlayerName}가 공격받을 때마다 |혈검 토큰|을 얻습니다.

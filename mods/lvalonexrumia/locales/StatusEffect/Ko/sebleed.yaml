@@ -1,0 +1,12 @@
+﻿sebleed:
+  Name: 출혈
+  Description: >-
+    {OwnerName}가 공격받을 때 체력이 |n:1|% ({truecount})만큼 |상실|됩니다.
+
+    {OwnerName}의 턴 시작 시 {SelfName}을 |n:1| 잃습니다.
+
+    현재 체력: {lifenow}
+  Brief: >-
+    {OwnerName}가 공격받을 때 체력이 |n:1|%만큼 (올림) |상실|됩니다.
+
+    {OwnerName}의 턴 시작 시 {SelfName}을 |n:1| 잃습니다.

@@ -1,0 +1,12 @@
+﻿sedeepbleed:
+  Name: Severe Bleed
+  Description: >-
+    {OwnerName} |decreases| |n:2|% ({truecount}) life when attacked.
+
+    Lose |n:1| {SelfName} at the start of {OwnerName}'s turn.
+
+    {OwnerName} has {lifenow} life right now.
+  Brief: >-
+    {OwnerName} |decreases| |n:2|% life (rounded up) when attacked.
+
+    Lose |n:1| {SelfName} at the start of {OwnerName}'s turn.

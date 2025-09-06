@@ -1,0 +1,4 @@
+﻿setwilight1:
+  Name: Invitación de la Muerte
+  Description: 'Mientras {OwnerName} tenga menos del |n:50|% ({lifeneed}) de vida: El daño de los ataques de {OwnerName} aumenta en {Level}% de la vida perdida (redondeado hacia arriba).'
+  Brief: 'Mientras {OwnerName} tenga menos del |n:50|% de vida: El daño de los ataques de {OwnerName} aumenta en un % de la vida perdida (redondeado hacia arriba).'

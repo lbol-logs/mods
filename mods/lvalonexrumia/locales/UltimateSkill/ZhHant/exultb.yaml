@@ -1,0 +1,9 @@
+﻿exultb:
+  Title: 血符
+  Content: 腥紅的月光奏鳴曲
+  Description: >-
+    對所有敵人施加 {Value1} 層|流血|。
+
+    對所有敵人造成 {Damage} 點傷害 {Value2} 次。
+
+    |精準|

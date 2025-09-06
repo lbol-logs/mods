@@ -1,0 +1,14 @@
+﻿cardchew:
+  Name: 浅咬亿点
+  Description: >-
+    |减少| {Value1}% {healstring}生命值。
+
+    对所有敌人造成 {Damage} 点伤害 {battleatk} 次。
+
+    |成长|：多造成伤害 {Value2} 次。
+  NonbattleDescription: >-
+    |减少| {Value1}% {healstring}生命值。
+
+    对所有敌人造成 {Damage} 点伤害 |n:2| 次。
+
+    |成长|：多造成伤害 {Value2} 次。

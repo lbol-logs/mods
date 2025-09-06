@@ -1,0 +1,8 @@
+﻿cardworldburn:
+  Name: 세계는 불탄다
+  Description: '{PlayerName}가 적에게 |혈흔| 또는 |출혈|을 부여할 때마다, 다른 하나도 {Value1}만큼 부여합니다.'
+  UpgradedDescription: >-
+    {PlayerName}가 적에게 |혈흔| 또는 |출혈|을 부여할 때마다, 다른 하나도 {Value1}만큼 부여합니다.
+
+    모든 적에게 |혈흔|과 |출혈|을 {Value1} 부여합니다.
+  DetailText: 물론 스스로 무한루프 돌진 않음 ㅋㅋ

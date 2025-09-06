@@ -1,0 +1,14 @@
+﻿carddarkblood:
+  Name: 어둠의 피
+  Description: >-
+    체력을 {Value1}% {healstring}만큼 |증가|시킵니다.
+
+    카드를 {Value2}장 뽑습니다.
+
+    {PlayerName}에게 |가속|이 없다면 |가속|을 {Value2} 얻습니다.
+  UpgradedDescription: >-
+    체력을 {Value1}% {healstring}만큼 |증가|시킵니다.
+
+    카드를 {Value2}장 뽑습니다.
+
+    |그레이즈|를 {Value2} 얻습니다.

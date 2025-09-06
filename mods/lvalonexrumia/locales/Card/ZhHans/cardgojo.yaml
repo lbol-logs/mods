@@ -1,0 +1,8 @@
+﻿cardgojo:
+  Name: 无量空处
+  Description: >-
+    |减少|现有生命值的 {Value1}% |n:2| 次{healstring2s}。
+
+    这轮结束前，{PlayerName}免疫所有伤害。
+
+    获得 {Value2} 层|额外回合|。

@@ -1,0 +1,4 @@
+﻿secorruptedblood:
+  Name: 穢れた血
+  Description: '{PlayerName}がライフを減らす時、|闇の血の雫|{Level}を得る。'
+  Brief: '{PlayerName}がライフを減らす時、|闇の血の雫|を得る。'

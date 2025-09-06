@@ -1,0 +1,9 @@
+﻿exexb:
+  Name: Mundo de Dolor
+  Description: >-
+    Agrega {BaseMana} al base de maná. Cartas exclusivas de |EX Rumia| se agregan al grupo de cartas.
+
+    |Una vez por turno|, cuando {PlayerName} inflige daño, aplica {Value1} |Sangrado| a cada enemigo.
+
+    Cada vez que la vida de {PlayerName} disminuye, todos los enemigos también |Reduce| esa misma cantidad de vida.
+  FlavorText: El mundo me bendijo con el beso del dolor…

@@ -1,0 +1,4 @@
+﻿sebloodcircle:
+  Name: 혈액 순환
+  Description: '{PlayerName}의 턴 시작 시 |소멸된 피| 카드를 원하는 만큼 손으로 되돌립니다.'
+  Brief: '{PlayerName}의 턴 시작 시 |소멸된 피| 카드를 원하는 만큼 손으로 되돌립니다.'

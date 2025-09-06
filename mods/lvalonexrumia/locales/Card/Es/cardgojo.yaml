@@ -1,0 +1,8 @@
+﻿cardgojo:
+  Name: Vacío Infinito
+  Description: >-
+    |Reduce| {Value1}% de la vida actual |n:2| veces{healstring2}.
+
+    Hasta el final del turno, {PlayerName} no puede perder vida.
+
+    Gana {Value2} |Turno Extra|.

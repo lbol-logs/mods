@@ -7,10 +7,187 @@
     "since": "",
     "since_other": " from now"
   },
+  "objects": {
+    "it": "it",
+    "it_other": "them"
+  },
   "ordinal_1": "next",
   "ordinal_2": "<Count />nd",
   "ordinal_3": "<Count />rd",
   "ordinal": "<Count />th",
+
+  "seaccel": {
+    "Name": "Accelerate",
+    "Description": "At the start of <OwnerName />'s next turn, gain <Level /> <h>Graze</h>."
+  },
+  "seadrenaline": {
+    "Name": "Adrenaline",
+    "Description": "While <PlayerName /> has less than <he>50</he>% life: Whenever <PlayerName />'s life decreases, gain <atkincrease /> <h>Attack Increase</h> and <Level /> <h>Blood Clot</h>."
+  },
+  "seatkincrease": {
+    "Name": "Attack Increase",
+    "Description": "<OwnerName /> deals <Count />% more attack damage.<br />Lose half of <SelfName /> at the end of <OwnerName />'s turn (rounded down to the nearest multiple of 5)."
+  },
+  "sebewater": {
+    "Name": "Be Water",
+    "Description": "Whenever a <h>Blood</h> card is played, choose up to <Level /> card$t(plurals.-s, { 'count': {{Level}} }) in the discard pile, shuffle $t(objects.it, { 'count': {{Level}} }) into the draw pile, draw <Level /> card$t(plurals.-s, { 'count': {{Level}} })."
+  },
+  "sebleed": {
+    "Name": "Bleed",
+    "Description": "<OwnerName /> <h>decreases</h> <he>1</he>% life when attacked.<br />Lose <he>1</he> <SelfName /> at the start of <OwnerName />'s turn."
+  },
+  "sebleedslash": {
+    "Name": "Bleed and Slash",
+    "Description": "When a black card is played, gain <Level /> <h>Blood Sword Token</h>."
+  },
+  "sebloodcircle": {
+    "Name": "Blood Circulation",
+    "Description": "At the start of <PlayerName />'s turn, return any number of <h>Exiled Blood</h> cards to the hand."
+  },
+  "sebloodclot": {
+    "Name": "Blood Clot",
+    "Description": "<OwnerName /> takes <Value />% less damage from attacks until end of round. <he>100</he>% less damage maximum."
+  },
+  "sebloodcontract": {
+    "Name": "Blood Contract",
+    "Description": "Whenever <PlayerName />'s life decreases, gain <Level /> <h>Blood Sword Token</h>."
+  },
+  "sebloodmark": {
+    "Name": "Blood Mark",
+    "Description": "<OwnerName /> takes <Value />% more damage from attacks.<br />Lose <he>1</he> <SelfName /> at the start of <OwnerName />'s turn."
+  },
+  "sebloodofmysword": {
+    "Name": "Blood of My Sword",
+    "Description": "Whenever <OwnerName /> deals attack damage to an enemy, <h>increase</h> the enemy's life by <Level />, gain <Level /> <h>Temporary Firepower</h>."
+  },
+  "sebloodstorm": {
+    "Name": "Blood Storm Token",
+    "Description": "Whenever there are <lim /> or more <SelfName /><he>s</he>, lose <lim /> <SelfName /><he>s</he> to add a <h>Blood Storm</h> to the hand."
+  },
+  "sebloodsword": {
+    "Name": "Blood Sword Token",
+    "Description": "Whenever there are <lim /> or more <SelfName /><he>s</he>, lose <lim /> <SelfName /><he>s</he> to add a <h>Blood Sword</h> to the hand."
+  },
+  "sebloodyhell": {
+    "Name": "Bloody Hell",
+    "Description": "Whenever a red card is played, gain <atkincrease /> <h>Attack Increase</h>."
+  },
+  "sebossheal": {
+    "Name": "Enraged",
+    "Description": "<OwnerName />'s moves are enhanced when her life is below <he>50</he>% .<br />Whenever <PlayerName /> is attacked, <OwnerName />'s life is <h>increased</h> by <he>1</he>%."
+  },
+  "secorruptedblood": {
+    "Name": "Corrupted Blood",
+    "Description": "When <PlayerName />'s life decreases, gain <Level /> <h>Dark Blood Token</h>."
+  },
+  "sedarkblood": {
+    "Name": "Dark Blood Token",
+    "Description": "<h>Once per turn</h>, when <PlayerName />'s life decreases, lose <he>1</he> <SelfName /> and add a <h>Dark Blood</h> to the hand, lose all <SelfName /> to gain that many <mana />."
+  },
+  "sedearsword": {
+    "Name": "My Dear Sword",
+    "Description": "At the start of <PlayerName />'s turn, add <Level /> <h>Blood Storm</h> to the hand."
+  },
+  "sedecrease": {
+    "Name": "Decrease Life",
+    "Description": "A special method that sets life to be a lower amount instead of losing life normally. Kills when life is set to <he><= 0</he>."
+  },
+  "sedeepbleed": {
+    "Name": "Severe Bleed",
+    "Description": "<OwnerName /> <h>decreases</h> <he>2</he>% life when attacked.<br />Lose <he>1</he> <SelfName /> at the start of <OwnerName />'s turn."
+  },
+  "seendurance": {
+    "Name": "Endurance",
+    "Description": "While <PlayerName /> has less than <he>50</he>% life: Whenever <PlayerName />'s life decreases, increase <he>Count</he> by <he>1</he> .<br />At the start of <PlayerName />'s turn, lose all <he>Count</he> and add that many <h>Crimson Blood</h> to the hand."
+  },
+  "seetude": {
+    "Name": "My Etude",
+    "Description": "At the start of <PlayerName />'s next turn, she <h>decreases</h> <he>5</he>% of current life, deal <Level /> damage a random enemy <he>3</he> times."
+  },
+  "sefuckyou": {
+    "Name": "Final Countdown",
+    "Description": "When <he>200</he>% of life has been decreased accumulatively, win the battle.<br /><Count />% to be decreased."
+  },
+  "segojo": {
+    "Name": "Infinite Void",
+    "Description": "Until end of round, <OwnerName /> cannot lose life."
+  },
+  "seidlive": {
+    "Name": "I'd Live",
+    "Description": "Until the end of this round, <PlayerName /> will not lose the game."
+  },
+  "seimmerse": {
+    "Name": "Immerse in Red",
+    "Description": "Until end of turn, whenever an attack card is played, gain <Level /> <h>Blood Storm Token</h>."
+  },
+  "seincrease": {
+    "Name": "Increase Life",
+    "Description": "A special method that sets life to be a higher amount instead of gaining life normally. Does not bypass the maximum life."
+  },
+  "seinfuseddarkness": {
+    "Name": "Infused Darkness",
+    "Description": "Until end of turn, whenever <h>Dark Blood</h> is played, gain <Mana />."
+  },
+  "semagia": {
+    "Name": "Shadow Magia Form",
+    "Description": "Until end of round, gain <Level /> <h>Blood Sword Token</h> whenever <PlayerName /> is attacked."
+  },
+  "semarkblood": {
+    "Name": "Mark My Blood",
+    "Description": "Whenever an enemy without <h>Blood Mark</h> is attacked, apply <Level /> <h>Blood Mark</h>."
+  },
+  "semissribbon": {
+    "Name": "Miss Ribbon",
+    "Description": "Whenever <PlayerName /> applies <h>Blood Mark</h> to an enemy, gain <Level /> <h>Blood Sword Token</h>."
+  },
+  "semixedblood": {
+    "Name": "200% Mixed Blood",
+    "Description": "Until end of turn, whenever <h>Dark Blood</h> is played, play a <h>Crimson Blood</h> <Level /> time$t(plurals.-s, { 'count': {{Level}} }), whenever <h>Crimson Blood</h> is played, gain <Level /> <h>Dark Blood Token</h>."
+  },
+  "semutualdepletion": {
+    "Name": "Mutual Depletion",
+    "Description": "Whenever <PlayerName />'s life is decreased by at least <he>1</he>%, all enemies <h>decrease</h> the same % of life (rounded down)."
+  },
+  "senightfalls": {
+    "Name": "Night Falls",
+    "Description": "Until end of turn, whenever a black card is played, gain <Level /> <h>Blood Sword Token</h>."
+  },
+  "sepastpresent": {
+    "Name": "Past and Present",
+    "Description": "At the start of the next turn, play cards played after <SelfName /> is added, then remove <SelfName />."
+  },
+  "sequickrestore": {
+    "Name": "Quick Restoration",
+    "Description": "At the end of this round, restore life to <Count />."
+  },
+  "seshadowcut": {
+    "Name": "Shadow Cut",
+    "Description": "At the start of <PlayerName />'s turn, deal <Level /> damage to a random enemy <Level /> times."
+  },
+  "setearmedo": {
+    "Name": "Tear Me Do",
+    "Description": "Whenever <PlayerName />'s life decreases, gain <Level /> <h>Blood Storm Token</h> and <atkincrease /> <h>Attack Increase</h>."
+  },
+  "setorn": {
+    "Name": "Torn Red Ribbon",
+    "Description": "While <PlayerName /> has less than <he>50</he>% life: Whenever <PlayerName /> <h>Grazes</h> an attack, gain <increase /> <h>Attack Increase</h>, <h>increase</h> life by <increase />%."
+  },
+  "setwilight1": {
+    "Name": "Death's Invitation",
+    "Description": "While <OwnerName /> has less than <he>50</he>% life: <OwnerName />'s attack damage is increased by <Level />% of life lost (rounded up)."
+  },
+  "setwilight2": {
+    "Name": "Coming Roses",
+    "Description": "While <OwnerName /> has less than <he>25</he>% life: Whenever a card is played, play <Level /> <h>Crimson Blood</h> (does not <h>increase</h> life)."
+  },
+  "setwilight3": {
+    "Name": "Last Stand",
+    "Description": "While <OwnerName /> has less than <he>15</he>% life: Whenever a card is played, gain <Level /> <h>Charge</h>."
+  },
+  "seworldburn": {
+    "Name": "The World Burns",
+    "Description": "Whevener <PlayerName /> applies <h>Blood Mark</h> or <h>Bleed</h> to an enemy, also apply <Level /> of the other.\""
+  },
 
   "BlackWindSe": {
     "Name": "Black Wind",

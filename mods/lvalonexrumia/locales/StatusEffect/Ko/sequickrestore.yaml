@@ -1,0 +1,4 @@
+﻿sequickrestore:
+  Name: 빠른 회복
+  Description: 이번 라운드 종료 시 체력을 {truecounter}까지 회복합니다.
+  Brief: 이번 라운드 종료 시 체력을 회복합니다.

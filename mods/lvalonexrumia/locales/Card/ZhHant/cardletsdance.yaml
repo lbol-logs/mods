@@ -1,0 +1,8 @@
+﻿cardletsdance:
+  Name: 齊起舞
+  Description: >-
+    對所有敵人施加 {Value1} 層|血跡|。
+
+    對所有敵人造成 {Damage} 點傷害 {Value2} 次。
+
+    獲得 {Value2} 層|閃避|。

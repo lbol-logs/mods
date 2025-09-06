@@ -1,0 +1,6 @@
+﻿cardblooddisciple:
+  Name: Apóstol de la Sangre
+  Description: >-
+    |Reduce| {Value1}% {healstring}de vida.
+
+    Exilia hasta {Value2} carta{Value2:plural one='' other='s'} en la mano. Gana esa misma cantidad de |Coágulos de sangre| y agrega esa cantidad de |Sangre carmesí| a la mano.

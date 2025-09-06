@@ -1,0 +1,8 @@
+﻿cardbloodmanip:
+  Name: 血液操縱
+  Description: >-
+    |減少| |n:5|% {healstring}生命值。
+
+    獲得 {Value1} 層|血塊|。
+
+    對所有敵人施加 {Value2} 層|血跡|和|流血|。

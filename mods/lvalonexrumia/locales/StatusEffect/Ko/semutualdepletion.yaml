@@ -1,0 +1,4 @@
+﻿semutualdepletion:
+  Name: 동귀어진
+  Description: '{PlayerName}의 체력이 |n:1|% 이상 감소할 때마다, 모든 적도 같은 비율만큼의 체력을 |상실|합니다 (내림).'
+  Brief: '{PlayerName}의 체력이 |n:1|% 이상 감소할 때마다, 모든 적도 같은 비율만큼의 체력을 |상실|합니다 (내림).'

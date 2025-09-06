@@ -1,0 +1,10 @@
+﻿seatkincrease:
+  Name: Attack Increase
+  Description: >-
+    {OwnerName} deals {truecounter}% more attack damage.
+
+    Lose half of {SelfName} at the end of {OwnerName}'s turn (rounded down to the nearest multiple of 5).
+  Brief: >-
+    {OwnerName} deals |n:Level|% more attack damage until end of turn.
+
+    Lose half of {SelfName} at the end of {OwnerName}'s turn (rounded down to the nearest multiple of 5).

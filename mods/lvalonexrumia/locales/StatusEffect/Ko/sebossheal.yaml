@@ -1,0 +1,10 @@
+﻿sebossheal:
+  Name: 격노
+  Description: >-
+    {OwnerName}의 체력이 |n:50|% 이하일 경우 행동이 강화됩니다.
+
+    {PlayerName}이 공격당할 때마다 {OwnerName}의 체력이 |n:1|% |증가|합니다.
+  Brief: >-
+    {OwnerName}의 체력이 |n:50|% 이하일 경우 행동이 강화됩니다.
+
+    {PlayerName}이 공격당할 때마다 {OwnerName}의 체력이 |n:1|% |증가|합니다.

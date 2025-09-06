@@ -1,0 +1,10 @@
+﻿cardallure:
+  Name: 血腥引誘
+  Description: >-
+    |減少|現有生命值的 {Value1}% {healstring}。
+
+    |占卜| {Scry} 。
+
+    抽 {Value2} 張牌。
+
+    對所有敵人施加 {Value2} 層|流血|。

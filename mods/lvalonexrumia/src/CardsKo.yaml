@@ -1,0 +1,332 @@
+cardexaa:
+  Name: 역베기
+  Description: 피해를 {Damage} 줍니다.
+
+cardexab:
+  Name: 어둠의 방벽
+  Description: "|방어|를 {Block} 얻습니다."
+
+cardexba:
+  Name: 정면베기
+  Description: 피해를 {Damage} 줍니다.
+
+cardexbb:
+  Name: 받아치기
+  Description: "|방어|를 {Block} 얻습니다."
+
+cardbloodsword:
+  Name: 혈검
+  Description: "피해를 {Damage} 줍니다.\n대상에게 |혈흔|이 없으면 {Value2} |혈흔|을 부여하고, 있다면 {Value2} |혈흔|을 소모하여 체력을 {Value1}% {healstring}만큼 |증가|시킵니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n{Value2} |혈흔|을 부여하고 체력을 {Value1}% {healstring}만큼 |증가|시킵니다."
+  DetailText: "{SelfName}이 사용되지 않은 채 |소멸|되면 자동으로 발동됩니다."
+
+cardbloodstorm:
+  Name: 혈폭풍
+  Description: "모든 적에게 피해를 {Damage} 줍니다.\n모든 적에게 |출혈|을 {Value1} 부여합니다."
+  UpgradedDescription: "모든 적에게 피해를 {Damage} 줍니다.\n모든 적에게 |출혈|과 |혈흔|을 {Value1} 부여합니다."
+  DetailText: "{SelfName}이 사용되지 않은 채 |소멸|되면 자동으로 발동됩니다."
+
+carddarkblood:
+  Name: 어둠의 피
+  Description: "체력을 {Value1}% {healstring}만큼 |증가|시킵니다.\n카드를 {Value2}장 뽑습니다.\n{PlayerName}에게 |가속|이 없다면 |가속|을 {Value2} 얻습니다."
+  UpgradedDescription: "체력을 {Value1}% {healstring}만큼 |증가|시킵니다.\n카드를 {Value2}장 뽑습니다.\n|그레이즈|를 {Value2} 얻습니다."
+
+cardredblood:
+  Name: 진홍의 피
+  Description: "{PlayerName}의 체력이 |n:50|% {needstring} 미만일 경우, 체력을 {Value1}% {healstring}만큼 |증가|시킵니다.\n{Mana}를 얻습니다.\n|출혈|이 있는 모든 적에게 |명중| 피해를 {Damage} 줍니다."
+  UpgradedDescription: "체력을 {Value1}% {healstring}만큼 |증가|시킵니다.\n{Mana}를 얻습니다.\n|출혈|이 있는 모든 적에게 |명중| 피해를 {Damage} 줍니다."
+
+cardbloodcontract:
+  Name: 혈계 계약
+  Description: "{PlayerName}의 체력이 감소할 때마다 |혈검 토큰|을 {Value1} 얻습니다."
+
+cardbloodlaser:
+  Name: 혈레이저
+  Description: "현재 체력의 {Value1}%를 {healstring}|상실|합니다.\n|혈흔|을 {Value2} 부여합니다.\n피해를 {Damage} 줍니다."
+
+carddevour:
+  Name: 포식
+  Description: "피해를 {Damage} 줍니다.\n|퇴치|: 최대 체력의 {Value1}% {healstring}를 얻고 {SelfName}은 전투 및 덱에서 제거됩니다."
+  DetailText: "{SelfName}은 전투 중 무작위로 생성되지 않으며 복사될 수 없습니다."
+
+cardletsdance:
+  Name: 춤을 춰요
+  Description: "모든 적에게 |혈흔|을 {Value1} 부여합니다.\n모든 적에게 피해를 {Damage}씩 {Value2}회 줍니다.\n|그레이즈|를 {Value2} 얻습니다."
+
+cardbloodburn:
+  Name: 피의 연소
+  Description: "체력을 {Value1}% {healstring}만큼 |상실|합니다.\n{Mana}를 얻습니다."
+
+cardbite:
+  Name: 물어뜯기
+  Description: "피해를 {Damage} 줍니다.\n|어둠의 피 토큰|을 {Value1} 얻습니다."
+
+cardshady:
+  Name: 어두운 비밀
+  Description: "|그레이즈|를 {Value1}, |어둠의 피 토큰|을 {Value2} 얻습니다."
+
+cardadrenaline:
+  Name: 아드레날린
+  Description: "|{PlayerName}의 체력이| |n:50|% {needstring} 미만일 때: 체력이 감소할 때마다 |공격력 증가| {Value1}, |혈전|을 {Value2} 얻습니다."
+
+cardbloodyhell:
+  Name: 블러디 헬
+  Description: "적색 카드를 사용할 때마다 |공격력 증가|를 {Value1} 얻습니다."
+
+cardintodarkness:
+  Name: 어둠 속으로
+  Description: "|혈흔|을 {Value1} 부여합니다.\n|혈흔|이 있는 적 모두에게 피해를 {Damage} 줍니다."
+
+cardbloodspeed:
+  Name: 피의 가속
+  Description: "현재 체력의 {Value1}%를 |n:2|회 |상실|합니다{healstring2}.\n|가속|을 |n:1| 얻습니다.\n카드를 {Value2}장 뽑습니다."
+
+cardtorn:
+  Name: 찢어진 붉은 리본
+  Description: "|{PlayerName}의 체력이| |n:50|% {needstring} 미만일 때: 공격을 |그레이즈|할 때마다 |공격력 증가| {Value1}, 체력을 {Value1}% {healstringnos}만큼 |증가|시킵니다.\n|그레이즈|를 {Value2} 얻습니다."
+
+cardendurance:
+  Name: 인내
+  Description: "|{PlayerName}의 체력이| |n:50|% {needstring} 미만일 때: 체력이 감소할 경우, 다음 턴 시작 시 |진홍의 피|를 {Value1}장 손에 추가합니다."
+
+cardcrimsonray:
+  Name: 진홍광선
+  Description: "체력을 {Value1}% {healstring}만큼 |상실|합니다.\n|출혈|을 {Value2} 부여합니다.\n피해를 {Damage} 줍니다."
+
+cardbloodsucker:
+  Name: 피 빨기
+  Description: "피해를 {Damage} 줍니다.\n|진홍의 피|를 {Value1}장 손에 추가합니다."
+
+cardblooduse:
+  Name: 피의 활용
+  Description: "모든 적에게 피해를 {Damage} 줍니다.\n{PlayerName}의 체력이 |n:50|% {needstring} 미만이라면, |진홍의 피|를 {Value1}장 손에 추가합니다."
+
+cardboilingblood:
+  Name: 끓어오르는 피
+  Description: "체력을 {Value1}% {healstring}만큼 |상실|합니다.\n|출혈|이 있는 모든 적에게 피해를 {Damage} 줍니다.\n|공격력 증가|를 {Value2} 얻습니다."
+  UpgradedDescription: "체력을 {Value1}% {healstring}만큼 |상실|합니다.\n모든 적에게 피해를 {Damage} 줍니다.\n|공격력 증가|를 {Value2} 얻습니다."
+
+cardchew:
+  Name: 조금 씹어줘
+  Description: "체력을 {Value1}% {healstring}만큼 |상실|합니다.\n모든 적에게 피해를 {Damage}씩 {battleatk}회 줍니다.\n|성장|: 피해를 {Value2}회 추가로 줍니다."
+  NonbattleDescription: "체력을 {Value1}% {healstring}만큼 |상실|합니다.\n모든 적에게 피해를 {Damage}씩 |n:2|회 줍니다.\n|성장|: 피해를 {Value2}회 추가로 줍니다."
+
+cardfurnace:
+  Name: 살덩이 화로
+  Description: "체력을 {Value1}% {healstring}만큼 |상실|합니다.\n|공격력 증가| |n:20|과 |진홍의 피| |n:1|장을 손에 추가합니다.\n{PlayerName}의 체력이 |n:50|% {needstring} 미만이라면, |진홍의 피|를 {Value2}장 손에 추가합니다."
+
+cardnoradrenaline:
+  Name: 노르아드레날린
+  Description: "체력을 {Value1}% {healstring}만큼 |상실|합니다.\n|혈흔| 또는 |출혈|이 있는 모든 적에게 피해를 {Damage}씩 |n:3|회 줍니다.\n{PlayerName}의 체력이 |n:50|% {needstring} 미만이라면, |진홍의 피|를 {Value2}장 손에 추가합니다."
+  UpgradedDescription: "체력을 {Value1}% {healstring}만큼 |상실|합니다.\n모든 적에게 피해를 {Damage}씩 |n:3|회 줍니다.\n{PlayerName}의 체력이 |n:50|% {needstring} 미만이라면, |진홍의 피|를 {Value2}장 손에 추가합니다."
+
+cardbloodburst:
+  Name: 피의 폭발
+  Description: "체력을 {Value1}% {healstring}만큼 |상실|합니다.\n모든 적에게 |출혈|을 |n:1|씩 {Value2}회 부여합니다.\n|출혈|이 있는 모든 적에게 피해를 {Damage}씩 |n:3|회 줍니다."
+
+cardtearmedo:
+  Name: 날 찢어줘
+  Description: "{PlayerName}의 체력이 감소할 때마다, |혈폭풍 토큰| {Value1}와 |공격력 증가|를 {Value2} 얻습니다."
+
+cardbloodwork:
+  Name: 혈액 작업
+  Description: "|방어|를 {Block} 얻습니다.\n|혈전|을 {Value1} 얻습니다."
+
+cardsonanoka:
+  Name: 그런건가?
+  Description: "현재 체력의 {Value1}%를 {healstring}|상실|합니다.\n|방어|를 {Block} 얻습니다.\n|그레이즈|를 {Value2} 얻습니다."
+
+cardcrossout:
+  Name: 지정 말소
+  Description: "|{Mana2}를 지불할 시|: |방어|를 {Block} 얻고 |혈전|을 {Value1} 얻습니다."
+
+cardemergency:
+  Name: 긴급 방호
+  Description: "현재 체력의 {Value1}%를 {healstring}|상실|합니다.\n|방어|를 {Block} 얻습니다.\n|어둠의 피 토큰|을 {Value2} 얻습니다."
+  UpgradedDescription: "현재 체력의 {Value1}%를 {healstring}|상실|합니다.\n|방어|를 {Block} 얻습니다.\n|어둠의 피 토큰|을 {Value2} 얻습니다.\n적이 공격을 의도하고 있다면 |혈전|을 {Value1} 얻습니다."
+
+cardmagia:
+  Name: 그림자 마기아 루미아
+  Description: "|방어|를 {Block} 얻습니다.\n|가속|을 {Value1} 얻습니다.\n이번 턴이 끝날 때까지, {PlayerName}이 공격받을 때마다 |혈검 토큰|을 {Value2} 얻습니다."
+
+cardbloodmanip:
+  Name: 피 조작
+  Description: "체력을 |n:5|% {healstring}만큼 |상실|합니다.\n|혈전|을 {Value1} 얻습니다.\n모든 적에게 |혈흔|과 |출혈|을 {Value2} 부여합니다."
+
+cardnether:
+  Name: 그림자 기운
+  Description: "|보호막|을 {Shield} 얻습니다.\n|혈전|을 {Value1} 얻습니다.\n|그림자|를 {Value2}장 손에 추가합니다."
+
+cardheartache:
+  Name: 심장통
+  Description: "체력을 {Value1}% {healstring}만큼 |상실|합니다.\n|방어|를 {Block} 얻습니다."
+
+cardgojo:
+  Name: 무한의 공허
+  Description: "현재 체력의 {Value1}%를 |n:2|회 {healstring2}|상실|합니다.\n이번 턴이 끝날 때까지 {PlayerName}은 체력을 잃지 않습니다.\n|추가 턴|을 {Value2} 얻습니다."
+
+cardworldburn:
+  Name: 세계는 불탄다
+  Description: "{PlayerName}가 적에게 |혈흔| 또는 |출혈|을 부여할 때마다, 다른 하나도 {Value1}만큼 부여합니다."
+  UpgradedDescription: "{PlayerName}가 적에게 |혈흔| 또는 |출혈|을 부여할 때마다, 다른 하나도 {Value1}만큼 부여합니다.\n모든 적에게 |혈흔|과 |출혈|을 {Value1} 부여합니다."
+  DetailText: "물론 스스로 무한루프 돌진 않음 ㅋㅋ"
+
+cardcorruptedblood:
+  Name: 타락한 피
+  Description: "{PlayerName}의 체력이 감소할 때마다, |어둠의 피 토큰|을 {Value1} 얻습니다."
+  UpgradedDescription: "{PlayerName}의 체력이 감소할 때마다, |어둠의 피 토큰|을 {Value1} 얻습니다.\n|어둠의 피|를 {Value2}장 손에 추가합니다."
+
+cardbloodofmysword:
+  Name: 나의 검에 깃든 피
+  Description: "{PlayerName}이 적에게 공격 피해를 줄 때마다, 적의 체력을 {Value1}만큼 |증가|시키고 |일시 화력|을 {Value1} 얻습니다."
+  UpgradedDescription: "{PlayerName}이 적에게 공격 피해를 줄 때마다, 적의 체력을 {Value1}만큼 |증가|시키고 |일시 화력|을 {Value1} 얻습니다.\n|혈검|을 {Value2}장 손에 추가합니다."
+
+carddarkexpulsion:
+  Name: 어둠의 방출
+  Description: "|어둠의 피 토큰|을 {Value2} 얻습니다.\n|그림자|를 {Value1}장 손에 추가합니다."
+
+cardbefallen:
+  Name: 피에 쓰러지다
+  Description: "|어둠의 피 토큰|을 {Value2} 얻습니다.\n현재 체력의 {Value1}%를 {healstring}|상실|합니다.\n|그림자|를 |n:1|장 손에 추가합니다."
+
+cardimmerse:
+  Name: 붉게 물들다
+  Description: "체력을 {Value1}% {healstring}만큼 |상실|합니다.\n이번 턴이 끝날 때까지, 공격 카드를 사용할 때마다 |혈폭풍 토큰|을 |n:1| 얻습니다.\n|진홍의 피|를 {Value2}장 손에 추가합니다."
+
+cardallure:
+  Name: 진홍의 유혹
+  Description: "현재 체력의 {Value1}%를 {healstring}|상실|합니다.\n|예지| {Scry}.\n카드를 {Value2}장 뽑습니다.\n모든 적에게 |출혈|을 {Value2} 부여합니다."
+
+cardmissribbon:
+  Name: 미스 리본
+  Description: "{FriendS}|현재 생명력의| {Value1}%를 |상실|하고 {Mana}를 얻습니다.\n{FriendP}|현재 생명력의| {Value1}%를 |상실|하고 {Mana}를 얻습니다."
+  ExtraDescription1: "{FriendA}모든 적에게 |혈흔|을 {Value2} 부여합니다."
+  ExtraDescription3: "{FriendU}{PlayerName}가 적에게 |혈흔|을 부여할 때마다 |n:1| |혈검 토큰|을 얻습니다."
+
+cardbleedslash:
+  Name: 베고 또 베기
+  Description: "흑색 카드를 사용할 때마다 {Value1} |혈검 토큰|을 얻습니다."
+
+cardmarkblood:
+  Name: 나의 피를 새기다
+  Description: "|혈흔|이 없는 적을 공격할 때마다 |혈흔|을 {Value2} 부여합니다."
+  UpgradedDescription: "|혈흔|이 없는 적을 공격할 때마다 |혈흔|을 {Value2} 부여합니다.\n모든 적에게 |혈흔|을 {Value2} 부여합니다."
+
+cardbloodcircle:
+  Name: 피의 순환
+  Description: "{PlayerName}의 턴 시작 시, 원하는 수의 |소멸된 피| 카드를 손으로 되돌립니다."
+
+carddearsword:
+  Name: 나의 검
+  Description: "{FriendS}|체력|을 |n:5|% |상실|합니다.\n{FriendP}|진홍의 피|를 {Value1}장 손에 추가합니다."
+  ExtraDescription1: "{FriendA}모든 적에게 |혈흔|과 |출혈|을 {Value1} 부여합니다."
+  ExtraDescription3: "{FriendU}{PlayerName}의 턴 시작 시, |혈폭풍|을 {Value1}장 손에 추가합니다."
+
+cardcrimsontheater:
+  Name: 진홍의 극장
+  Description: "|그레이즈|를 {Value1} 얻고 |혈폭풍|을 {Value2}장 손에 추가합니다."
+
+cardtearssubside:
+  Name: 눈물이 잦아들 때
+  Description: "|체력|을 |n:5|% |상실|합니다.\n카드를 {Value2}장 뽑습니다.\n뽑은 적색 카드 1장마다 |혈전|을 {Value1} 얻습니다."
+
+cardsunnydry:
+  Name: 맑은 날의 고갈
+  Description: "|체력|을 {Value1}% |상실|합니다.\n{Mana}를 얻습니다.\n|혈전|을 {Value2} 얻고 |굴절된 햇빛|을 |n:1|장 손에 추가합니다."
+
+cardblooddisciple:
+  Name: 피의 사도
+  Description: "|체력|을 {Value1}% |상실|합니다.\n손에서 최대 {Value2}장의 카드를 소멸시킵니다. 그 수만큼 |혈전|을 얻고 같은 수의 |진홍의 피|를 손에 추가합니다."
+
+cardcrimsondomain:
+  Name: 진홍의 영역
+  Description: "모든 적에게 |출혈|과 |혈흔|을 {Value1} 부여합니다. 대상이 이미 |출혈| 상태일 경우 대신 |과다 출혈|과 |혈흔|을 {Value1} 부여합니다.\n|혈폭풍|을 {Value1}장 손에 추가합니다."
+
+cardinfuseddarkness:
+  Name: 스며든 어둠
+  Description: "턴 종료 전까지 |어둠의 피|를 사용할 때마다 {Mana}를 1 얻습니다.\n|어둠의 피|를 {Value2}장 손에 추가합니다."
+
+cardnightfalls:
+  Name: 밤이 내려앉을 때
+  Description: "턴 종료 전까지 흑색 카드를 사용할 때마다 |혈검 토큰|을 {Value1} 얻습니다.\n뽑을 카드 더미에서 무작위 흑색 카드를 {Value2}장 손으로 가져온 뒤, 그 수만큼 {Mana}를 얻습니다."
+
+cardmixedblood:
+  Name: 200% 혼혈
+  Description: "턴 종료 전까지 |어둠의 피|를 사용할 때마다 |진홍의 피|를 1장 사용하고,\n|진홍의 피|를 사용할 때마다 |어둠의 피 토큰|을 {Value1} 얻습니다."
+  UpgradedDescription: "턴 종료 전까지 |어둠의 피|를 사용할 때마다 |진홍의 피|를 1장 사용하고,\n|진홍의 피|를 사용할 때마다 |어둠의 피 토큰|을 {Value1} 얻습니다.\n|어둠의 피|와 |진홍의 피|를 {Value1}장 손에 추가합니다."
+
+cardbloodyinyang:
+  Name: 피 묻은 음양옥
+  Description: "|소멸|된 카드 중 최대 {truevalue}장을 선택해 손으로 되돌립니다.\n손에 있는 모든 카드를 |강화|합니다."
+
+cardunstableblood:
+  Name: 불안정한 피
+  Description: "|체력|을 {Value1}% |상실|합니다.\n모든 적에게 |n:1| |출혈|을 부여하고, 이미 |출혈| 상태인 적마다 |혈폭풍 토큰|을 {Value2} 얻습니다.\n모든 적에게 피해를 {Damage} 줍니다."
+
+cardbloodpulse:
+  Name: 피의 맥동
+  Description: "|체력|을 {Value1}%씩 |n:2|회 |상실|합니다.\n모든 적에게 |출혈|을 |n:1| 부여합니다.\n모든 적에게 피해를 {Damage}씩 {Value2}번 줍니다.\n|선보임|: 손의 카드를 원하는 만큼 소멸시키고 그 수만큼 |진홍의 피|를 손에 추가합니다."
+  ExtraDescription1: "|체력|을 {Value1}%씩 |n:2|회 |상실|합니다.\n모든 적에게 |출혈|을 |n:1| 부여합니다.\n모든 적에게 피해를 {Damage}씩 {Value2}번 줍니다.\n|선보임: 손의 카드를 원하는 만큼 소멸시키고 그 수만큼 진홍의 피를 손에 추가합니다.|"
+
+cardtenshaded:
+  Name: 십흑의 일섬
+  Description: "현재 체력의 {Value1}%를 |상실|합니다.\n무작위 적에게 피해를 {Damage}씩 {Value2}번 줍니다.\n|그림자|를 {Value3}장 손에 넣습니다."
+  UpgradedDescription: "현재 체력의 {Value1}%를 |상실|합니다.\n모든 적에게 |혈흔|을 |n:1| 부여합니다.\n무작위 적에게 피해를 {Damage}씩 {Value2}번 줍니다.\n|그림자|를 {Value3}장 손에 넣습니다."
+
+cardtakeover:
+  Name: 그림자 장악
+  Description: "현재 체력의 {Value1}%를 {Value2}번 |상실|합니다{healstring2}.\n|혈흔|, |출혈|, |허약|, |취약|을 |n:1|씩 부여합니다.\n피해를 {Damage}씩 {Value2}번 줍니다."
+  UpgradedDescription: "현재 체력의 {Value1}%를 {Value2}번 |상실|합니다{healstring2}.\n|혈흔|, |출혈|, |허약|, |취약|을 |n:1|씩, |화력 감소| {Value2}도 부여합니다.\n피해를 {Damage}씩 {Value2}번 줍니다."
+
+cardetude:
+  Name: 나의 에튀드
+  Description: "현재 체력의 {Value1}%를 |상실|합니다.\n|공격력 증가|를 {Value2} 획득합니다.\n무작위 적에게 피해를 {Damage}씩 |n:3|번 줍니다.\n다음 턴 시작 시 이 효과를 다시 실행합니다."
+
+cardshadowcut:
+  Name: 그림자 베기
+  Description: "|그림자|를 {Value1}장 손에 넣습니다.\n이번 턴을 종료하고 추가 턴을 얻습니다.\n그 턴 시작 시 모든 적에게 피해를 {Damage}씩 {Value2}번 줍니다."
+
+cardhakureimiko:
+  Name: 하쿠레이 무녀
+  Description: "{FriendS}|손에 있을 때|: {PlayerName}가 카드를 얻을 때마다 그 카드를 |강화|합니다.\n{FriendP}체력이 {Value1}% |증가|합니다."
+  ExtraDescription1: "{FriendA}|소멸|된 카드 한 장을 선택해 |강화|하고, 그 카드와 {SelfName}를 손으로 되돌립니다."
+  ExtraDescription3: "{FriendU}모든 카드에서 |소멸| 및 |휘발성|이 제거됩니다."
+
+cardslicepast:
+  Name: 과거를 가르다
+  Description: "체력이 {Value1}% |증가|합니다.\n손에 있는 모든 카드를 |강화|합니다."
+
+cardbewater:
+  Name: 물처럼 되어라
+  Description: "|피| 카드를 사용할 때마다 버린 카드 더미에서 최대 {Value1}장까지 카드를 골라 뽑을 카드 더미에 섞고, {Value1}장 뽑습니다."
+
+cardlowtide:
+  Name: 썰물
+  Description: "현재 체력의 {Value1}%를 |상실|합니다.\n뽑을 카드 더미, 버린 카드 더미, 소멸된 카드에서 최대 {Value2}장씩 손으로 가져옵니다."
+
+cardquickrestore:
+  Name: 빠른 회복
+  Description: "이번 턴이 끝날 때, {SelfName}을 사용한 시점의 체력으로 회복합니다."
+
+cardpastpresent:
+  Name: 과거와 현재
+  Description: "피해를 {Damage} 줍니다.\n다음 턴 시작 시, {SelfName}가 사용된 이후 사용된 카드들을 다시 사용합니다."
+
+cardmutualdepletion:
+  Name: 동반 붕괴
+  Description: "{PlayerName}의 체력이 |n:1|% 이상 감소할 때마다, 모든 적의 체력도 같은 비율로 |상실|됩니다 (반올림 내림)."
+  UpgradedDescription: "{PlayerName}의 체력이 |n:1|% 이상 감소할 때마다, 모든 적의 체력도 같은 비율로 |상실|됩니다 (반올림 내림).\n누적 체력 감소량이 |n:200|%에 도달하면 전투에서 승리합니다."
+
+cardidlive:
+  Name: 죽음을 향한 존재
+  Description: "이번 턴이 끝날 때까지 {PlayerName}는 패배하지 않습니다.\n턴이 종료되면 {SelfName}를 사용했을 때의 체력의 절반으로 설정합니다."
+  DetailText: "{PlayerName}의 체력이 |n:0|이 되어도 게임에서 패배하지 않습니다.\n전투가 라운드 종료 전에 끝날 경우, 즉시 체력을 사용 시점의 절반으로 설정합니다."
+
+cardkaleido:
+  Name: 만화경 찬란
+  Description: "|서로 다른 색 마나 하나당|: 현재 체력의 {Value1}%를 |상실|하고, 모든 적은 체력을 {Value1}% |상실|합니다 (최소 {Value2} 체력).\n|퇴치|: {SelfName} 사용 시 소비한 마나 총합만큼 최대 체력을 획득합니다."
+  DetailText: "{SelfName} 사용 후 발동되기 전, 비-|소환| 적을 처치할 경우 |퇴치| 효과가 발동합니다."
+
+cardtwilight:
+  Name: 황혼
+  Description: "|{PlayerName}의 체력이| |n:50|% 미만일 때: 공격 피해가 잃은 체력의 |n:10|%만큼 증가합니다 (반올림).\n|체력이| |n:25|% 미만일 때: 카드를 사용할 때마다 |진홍의 피| 1장을 사용합니다 (체력 회복 없음).\n|체력이| |n:15|% 미만일 때: 카드를 사용할 때마다 |충전| |n:2|를 획득합니다."

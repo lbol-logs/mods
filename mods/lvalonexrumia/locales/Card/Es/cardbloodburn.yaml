@@ -1,0 +1,6 @@
+﻿cardbloodburn:
+  Name: Quemadura de Sangre
+  Description: >-
+    |Reduce| {Value1}% {healstring}de vida.
+
+    Gana {Mana}.

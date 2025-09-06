@@ -1,0 +1,8 @@
+﻿cardfurnace:
+  Name: 血肉熔炉
+  Description: >-
+    |减少| {Value1}% {healstring}生命值。
+
+    获得 |n:20| 点|攻击提升|和将 |n:1| 张|红血|加入手中。
+
+    如果{PlayerName}的生命值少于 |n:50|% {needstring}，将 {Value2} 张|红血|加入手中。

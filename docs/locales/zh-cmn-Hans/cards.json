@@ -1,4 +1,326 @@
 {
+  "cardadrenaline": {
+    "Name": "肾上腺素",
+    "Description": "<h>当<PlayerName />的生命值少于</h> <he>50</he>% <h>时</h>：每当<PlayerName />的生命值降低时，获得 <Value1 /> 层<h>攻击提升</h>和 <Value2 /> 层<h>血块</h>。"
+  },
+  "cardallure": {
+    "Name": "血腥引诱",
+    "Description": "<h>减少</h>现有生命值的 <Value1 />% 。<br /><h>占卜</h> <Scry /> 。<br />抽 <Value2 /> 张牌。<br />对所有敌人施加 <Value2 /> 层<h>流血</h>。"
+  },
+  "cardbefallen": {
+    "Name": "被引导的血液",
+    "Description": "获得 <Value2 /> 层<h>黑血衍生物</h>。<br /><h>减少</h>现有生命值的 <Value1 />% 。<br />将 <he>1</he> 张<h>暗影</h>加入手中。"
+  },
+  "cardbewater": {
+    "Name": "Be Water",
+    "Description": "每当打出一张<h>血</h>牌时，从弃牌堆里选择至多 <Value1 /> 张牌洗入抽牌堆，抽 <Value1 /> 张牌。"
+  },
+  "cardbite": {
+    "Name": "噬咬",
+    "Description": "造成 <Damage /> 点伤害。<br />获得 <Value1 /> 层<h>黑血衍生物</h>。"
+  },
+  "cardbleedslash": {
+    "Name": "血与砍",
+    "Description": "每當打出一張黑色牌時，獲得 <Value1 /> 層<h>血劍衍生物</h>。"
+  },
+  "cardbloodburn": {
+    "Name": "血燃",
+    "Description": "<h>减少</h> <Value1 />% 生命值。<br />获得<Mana />。"
+  },
+  "cardbloodburst": {
+    "Name": "血液爆发",
+    "Description": "<h>减少</h> <Value1 />% 生命值。<br />对所有敌人施加 <he>1</he> 层<h>流血</h> <Value2 /> 次。<br />对所有拥有<h>流血</h>的敌人造成 <Damage /> 点伤害 <he>3</he> 次。"
+  },
+  "cardbloodcircle": {
+    "Name": "血液循环",
+    "Description": "<PlayerName />的回合开始时，将任意数量的<h>被放逐</h>的<h>血</h>牌加入手中。"
+  },
+  "cardbloodcontract": {
+    "Name": "血契",
+    "Description": "每当<PlayerName />的生命值降低时，获得 <Value1 /> 层<h>血剑衍生物</h>。"
+  },
+  "cardblooddisciple": {
+    "Name": "血之使徒",
+    "Description": "<h>减少</h> <Value1 />% 生命值。<br />从手牌里放逐至多 <Value2 /> 张牌。获得等量的<h>血块</h>和将等量的<h>红血</h>加入手中。"
+  },
+  "cardbloodlaser": {
+    "Name": "血色雷射",
+    "Description": "<h>减少</h>现有生命值的 <Value1 />% 。<br />施加 <Value2 /> 层<h>血迹</h>。<br />造成 <Damage /> 点伤害。"
+  },
+  "cardbloodmanip": {
+    "Name": "血液操纵",
+    "Description": "<h>减少</h> <he>5</he>% 生命值。<br />获得 <Value1 /> 层<h>血块</h>。<br />对所有敌人施加 <Value2 /> 层<h>血迹</h>和<h>流血</h>。"
+  },
+  "cardbloodofmysword": {
+    "Name": "吾剑之血",
+    "Description": "每当<PlayerName />对敌人造成攻击伤害时，将敌人的生命值<h>提升</h> <Value1 /> 点，获得 <Value1 /> 点<h>暂得火力</h>。",
+    "UpgradedDescription": "每当<PlayerName />对敌人造成攻击伤害时，将敌人的生命值<h>提升</h> <Value1 /> 点，获得 <Value1 /> 点<h>暂得火力</h>。<br />将 <Value2 /> 张<h>血剑</h>加入手中。"
+  },
+  "cardbloodpulse": {
+    "Name": "血的脉搏",
+    "Description": "<h>减少</h> <Value1 />% 生命值 <he>2</he> 次。<br />对所有敌人施加 <he>1</he> 层<h>流血</h>。<br />对所有敌人造成 <Damage /> 点伤害 <Value2 /> 次。<br /><h>初见</h>：<h>放逐</h>任意数量的手牌，将等量的<h>红血</h>加入手中。"
+  },
+  "cardbloodspeed": {
+    "Name": "血液加速",
+    "Description": "<h>减少</h>现有生命值的 <Value1 />% <he>2</he> 次。<br />获得 <he>1</he> 层<h>加速</h>。<br />抽 <Value2 /> 张牌。"
+  },
+  "cardbloodstorm": {
+    "Name": "血之风暴",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br />对所有敌人施加 <Value1 /> 层<h>流血</h>和<h>血迹</h>。"
+  },
+  "cardbloodsucker": {
+    "Name": "吸血吸的",
+    "Description": "造成 <Damage /> 点伤害。<br />将 <Value1 /> 张<h>红血</h>加入手中。"
+  },
+  "cardbloodsword": {
+    "Name": "血剑",
+    "Description": "造成 <Damage /> 点伤害。<br />如果目标没有<h>血迹</h>，施加 <Value2 /> 层<h>血迹</h>，否则从目标上消耗 <Value2 /> 层<h>血迹</h>以<h>提升</h> <Value1 />% 生命值。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />施加 <Value2 /> 层<h>血迹</h>和<h>提升</h> <Value1 />% 生命值。"
+  },
+  "cardblooduse": {
+    "Name": "血的妙用",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br />如果<PlayerName />的生命值少于 <he>50</he>% ，将 <Value1 /> 张<h>红血</h>加入手中。"
+  },
+  "cardbloodwork": {
+    "Name": "血艺",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />获得 <Value1 /> 层<h>血块</h>。"
+  },
+  "cardbloodyhell": {
+    "Name": "血色地狱",
+    "Description": "每当打出一张红色牌时，获得 <Value1 /> 层<h>攻击提升</h>。"
+  },
+  "cardbloodyinyang": {
+    "Name": "染血的阴阳玉",
+    "Description": "选择至多 <Value1 /> 张被<h>放逐</h>的牌置入手中。<br /><h>升级</h>所有的手牌。"
+  },
+  "cardboilingblood": {
+    "Name": "沸腾的血液",
+    "Description": "<h>减少</h> <Value1 />% 生命值。<br />对所有拥有<h>流血</h>的敌人造成 <Damage /> 点伤害。<br />获得 <Value2 /> 层<h>攻击提升</h>。",
+    "UpgradedDescription": "<h>减少</h> <Value1 />% 生命值。<br />对所有敌人造成 <Damage /> 点伤害。<br />获得 <Value2 /> 层<h>攻击提升</h>。"
+  },
+  "cardchew": {
+    "Name": "浅咬亿点",
+    "Description": "<h>减少</h> <Value1 />% 生命值。<br />对所有敌人造成 <Damage /> 点伤害 <he>2</he> 次。<br /><h>成长</h>：多造成伤害 <Value2 /> 次。"
+  },
+  "cardcorruptedblood": {
+    "Name": "腐化的血",
+    "Description": "当<PlayerName />的生命值降低时，获得 <Value1 /> 层<h>黑血衍生物</h>。",
+    "UpgradedDescription": "当<PlayerName />的生命值降低时，获得 <Value1 /> 层<h>黑血衍生物</h>。<br />将 <Value2 /> 张<h>黑血</h>加入手中。"
+  },
+  "cardcrimsondomain": {
+    "Name": "腥红领域",
+    "Description": "对所有敌人施加 <Value1 /> 层<h>流血</h>和<h>血迹</h>。如敌人已有<h>流血</h>，则施加 <Value1 /> 层<h>严重流血</h>和<h>血迹</h>。<br />将 <Value1 /> 张<h>血之风暴</h>加入手中。"
+  },
+  "cardcrimsonray": {
+    "Name": "腥红光线",
+    "Description": "<h>减少</h> <Value1 />% 生命值。<br />施加 <Value2 /> 层<h>流血</h>。<br />造成 <Damage /> 点伤害。"
+  },
+  "cardcrimsontheater": {
+    "Name": "血腥剧场",
+    "Description": "获得 <Value1 /> 层<h>闪避</h>。<br />将 <Value2 /> 张<h>血之风暴</h>加入手中。"
+  },
+  "cardcrossout": {
+    "Name": "抹杀的指名",
+    "Description": "<h>每支付</h><Mana2 />：获得 <Block /> 点<h>格挡</h>和 <Value1 /> 层<h>血块</h>。"
+  },
+  "carddarkblood": {
+    "Name": "黑血",
+    "Description": "<h>提升</h> <Value1 />% 生命值。<br />抽 <Value2 /> 张牌。<br />如果<PlayerName />没有<h>加速</h>，则获得 <Value2 /> 层<h>加速</h>。",
+    "UpgradedDescription": "<h>提升</h> <Value1 />% 生命值。<br />抽 <Value2 /> 张牌。<br />获得 <Value2 /> 层<h>闪避</h>。"
+  },
+  "carddarkexpulsion": {
+    "Name": "黑暗分离",
+    "Description": "获得 <Value2 /> 层<h>黑血衍生物</h>。<br />将 <Value1 /> 张<h>暗影</h>加入手中。"
+  },
+  "carddearsword": {
+    "Name": "亲爱的宝剑",
+    "Description": "<h>减少</h> <he>5</he>% 生命值。",
+    "PassiveDescription": "将 <Value1 /> 张<h>红血</h>加入手中。"
+  },
+  "carddevour": {
+    "Name": "吞噬",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>退治</h>：获得 <Value1 />% 最大生命值，将<SelfName />移出战斗和牌库。"
+  },
+  "cardemergency": {
+    "Name": "紧急遮盖",
+    "Description": "<h>减少</h>现有生命值的 <Value1 />% 。<br />获得 <Block /> 点<h>格挡</h>。<br />获得 <Value2 /> <h>黑血衍生物</h>。",
+    "UpgradedDescription": "<h>减少</h>现有生命值的 <Value1 />% 。<br />获得 <Block /> 点<h>格挡</h>。<br />获得 <Value2 /> <h>黑血衍生物</h>。<br />如果有敌人的意图为攻击，获得 <Value1 /> 层<h>血块</h>。"
+  },
+  "cardendurance": {
+    "Name": "耐力",
+    "Description": "<h>当<PlayerName />的生命值少于</h> <he>50</he>% <h>时</h>：每当<PlayerName />的生命值降低时，下回合开始时将 <Value1 /> 张<h>红血</h>加入手中。"
+  },
+  "cardetude": {
+    "Name": "我的即凶剧",
+    "Description": "<h>减少</h>现有生命值的 <Value1 />% 。<br />获得 <Value2 /> 层<h>攻击提升</h>。<br />对随机敌人造成 <Damage /> 点伤害 <he>3</he> 次。<br />下回合开始时再次生效。"
+  },
+  "cardexaa": {
+    "Name": "背着砍",
+    "Description": "造成 <Damage /> 点伤害。"
+  },
+  "cardexab": {
+    "Name": "黑暗护盾",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
+  },
+  "cardexba": {
+    "Name": "正面砍",
+    "Description": "造成 <Damage /> 点伤害。"
+  },
+  "cardexbb": {
+    "Name": "完美格挡",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
+  },
+  "cardfurnace": {
+    "Name": "血肉熔炉",
+    "Description": "<h>减少</h> <Value1 />% 生命值。<br />获得 <he>20</he> 点<h>攻击提升</h>和将 <he>1</he> 张<h>红血</h>加入手中。<br />如果<PlayerName />的生命值少于 <he>50</he>% ，将 <Value2 /> 张<h>红血</h>加入手中。"
+  },
+  "cardgojo": {
+    "Name": "无量空处",
+    "Description": "<h>减少</h>现有生命值的 <Value1 />% <he>2</he> 次。<br />这轮结束前，<PlayerName />免疫所有伤害。<br />获得 <Value2 /> 层<h>额外回合</h>。"
+  },
+  "cardhakureimiko": {
+    "Name": "那位博丽巫女",
+    "Description": "<h>在手中时</h>：所有临时获得的卡牌都会<h>升级</h>。",
+    "PassiveDescription": "<h>提升</h> <Value1 />% 生命值。"
+  },
+  "cardheartache": {
+    "Name": "心痛",
+    "Description": "<h>减少</h> <Value1 />% 生命值。<br />获得 <Block /> 点<h>格挡</h>。"
+  },
+  "cardidlive": {
+    "Name": "向死而生",
+    "Description": "直到这轮结束前，<PlayerName />不会死亡。<br />这轮结束时，将生命值设定为打出<SelfName />时的生命值的一半。"
+  },
+  "cardimmerse": {
+    "Name": "红色浸淫",
+    "Description": "<h>减少</h> <Value1 />% 生命值。<br />回合结束前，每当打出一张攻击牌时，获得 <he>1</he> 层<h>血之风暴衍生物</h>。<br />将 <Value2 /> 张<h>红血</h>加入手中。"
+  },
+  "cardinfuseddarkness": {
+    "Name": "注入黑暗",
+    "Description": "回合结束前，每当打出一张<h>黑血</h>，获得一点<Mana />。<br />将 <Value2 /> 张<h>黑血</h>加入手中。"
+  },
+  "cardintodarkness": {
+    "Name": "暗之地狱",
+    "Description": "施加 <Value1 /> 层<h>血迹</h>。<br />对所有拥有<h>血迹</h>的敌人造成 <Damage /> 点伤害。"
+  },
+  "cardkaleido": {
+    "Name": "残虹乱舞",
+    "Description": "<h>每支付一点不同颜色的费用</h>：<h>减少</h>现有生命值的 <Value1 />% ，所有敌人<h>减少</h> <Value1 />% 生命值 (最少 <Value2 /> 点生命值) 。<br /><h>退治</h>：获得等于打出<SelfName />所支付的费用总数的最大生命值。"
+  },
+  "cardletsdance": {
+    "Name": "齐起舞",
+    "Description": "对所有敌人施加 <Value1 /> 层<h>血迹</h>。<br />对所有敌人造成 <Damage /> 点伤害 <Value2 /> 次。<br />获得 <Value2 /> 层<h>闪避</h>。"
+  },
+  "cardlowtide": {
+    "Name": "低潮",
+    "Description": "<h>减少</h>现有生命值的 <Value1 />% 。<br />从抽牌堆、弃牌堆和<h>放逐</h>区中各选择至多 <Value2 /> 张牌加入手中。"
+  },
+  "cardmagia": {
+    "Name": "魔法少女露米娅",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />获得 <Value1 /> 层<h>加速</h>。<br />这轮结束前，<PlayerName />受到攻击时获得 <Value2 /> 层<h>血剑衍生物</h>。"
+  },
+  "cardmarkblood": {
+    "Name": "血的标记",
+    "Description": "没有<h>血迹</h>的敌人受到攻击时，施加 <Value2 /> 层<h>血迹</h>。",
+    "UpgradedDescription": "没有<h>血迹</h>的敌人受到攻击时，施加 <Value2 /> 层<h>血迹</h>。<br />对所有敌人施加 <Value2 /> 层<h>血迹</h>。"
+  },
+  "cardmissribbon": {
+    "Name": "缎带小姐",
+    "Description": "<h>减少</h>现有生命值的 <Value1 />% ，获得<Mana />。",
+    "PassiveDescription": "<h>减少</h>现有生命值的 <Value1 />% ，获得<Mana />。"
+  },
+  "cardmixedblood": {
+    "Name": "200% 混成血",
+    "Description": "回合结束前，每当打出一张<h>黑血</h>，追加打出一张<h>红血</h>，每当打出一张<h>红血</h>，获得 <Value1 /> 层<h>黑血衍生物</h>。",
+    "UpgradedDescription": "回合结束前，每当打出一张<h>黑血</h>，追加打出一张<h>红血</h>，每当打出一张<h>红血</h>，获得 <Value1 /> 层<h>黑血衍生物</h>。<br />将 <Value1 /> 张<h>黑血</h>和<h>红血</h>加入手中。"
+  },
+  "cardmutualdepletion": {
+    "Name": "两相消耗",
+    "Description": "每当<PlayerName />的生命值降低至少 <he>1</he>% 时，所有敌人<h>减少</h>相同%的生命值（向下取整）。",
+    "UpgradedDescription": "每当<PlayerName />的生命值降低至少 <he>1</he>% 时，所有敌人<h>减少</h>相同%的生命值（向下取整）。<br />当累计降低 <he>200</he>% 的生命值时，获得战斗胜利。"
+  },
+  "cardnether": {
+    "Name": "下界阴影",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br />获得 <Value1 /> 层<h>血块</h>。<br />将 <Value2 /> 张<h>暗影</h>加入手中。"
+  },
+  "cardnightfalls": {
+    "Name": "夜幕降临",
+    "Description": "回合结束前，每当打出一张黑色牌时，获得 <Value1 /> 层<h>血剑衍生物</h>。<br />从抽牌堆将 <Value2 /> 张随机黑色牌置入手中，获得等量<Mana />。"
+  },
+  "cardnoradrenaline": {
+    "Name": "去甲肾上腺素",
+    "Description": "<h>减少</h> <Value1 />% 生命值。<br />对所有拥有<h>血迹</h>或<h>流血</h>的敌人造成 <Damage /> 点伤害 <he>3</he> 次。<br />如果<PlayerName />的生命值少于 <he>50</he>% ，将 <Value2 /> 张<h>红血</h>加入手中。",
+    "UpgradedDescription": "<h>减少</h> <Value1 />% 生命值。<br />对所有敌人造成 <Damage /> 点伤害 <he>3</he> 次。<br />如果<PlayerName />的生命值少于 <he>50</he>% ，将 <Value2 /> 张<h>红血</h>加入手中。"
+  },
+  "cardpastpresent": {
+    "Name": "前世今生",
+    "Description": "造成 <Damage /> 点伤害。<br />下回合开始时，追加打出<SelfName />打出后所有打出的牌。"
+  },
+  "cardquickrestore": {
+    "Name": "瞬间再生",
+    "Description": "这轮结束时，将生命值回复至打出<SelfName />时的生命值。"
+  },
+  "cardredblood": {
+    "Name": "红血",
+    "Description": "如果<PlayerName />的生命值少於 <he>50</he>% ，<h>提升</h> <Value1 />% 生命值。<br />获得<Mana />。<br />对所有拥有<h>流血</h>的敌人造成 <Damage /> 点<h>精准</h>攻击伤害。",
+    "UpgradedDescription": "<h>提升</h> <Value1 />% 生命值。<br />获得<Mana />。<br />对所有拥有<h>流血</h>的敌人造成 <Damage /> 点<h>精准</h>攻击伤害。"
+  },
+  "cardshadowcut": {
+    "Name": "暗元斩",
+    "Description": "将 <Value1 /> 张<h>暗影</h>加入手中。<br />结束<PlayerName />的回合，进行一个额外的回合，这回合开始时对所有敌人造成 <Damage /> 点伤害 <Value2 /> 次。"
+  },
+  "cardshady": {
+    "Name": "阴影中的秘密",
+    "Description": "获得 <Value1 /> 层<h>闪避</h>和 <Value2 /> 层<h>黑血衍生物</h>。"
+  },
+  "cardslicepast": {
+    "Name": "昔日光阴",
+    "Description": "<h>提升</h> <Value1 />% 生命值。<br /><h>升级</h>所有的手牌。"
+  },
+  "cardsonanoka": {
+    "Name": "是这样吗？",
+    "Description": "<h>减少</h>现有生命值的 <Value1 />% 。<br />获得 <Block /> 点<h>格挡</h>。<br />获得 <Value2 /> 层<h>闪避</h>。"
+  },
+  "cardsunnydry": {
+    "Name": "阳光普照",
+    "Description": "<h>减少</h> <Value1 />% 生命值。<br />获得<Mana />。<br />获得 <Value2 /> 层<h>血块</h>。<br />将 <he>1</he> 张<h>折射日光</h>加入手中。"
+  },
+  "cardtakeover": {
+    "Name": "影替",
+    "Description": "<h>减少</h>现有生命值的 <Value1 />% <he>2</he> 次。<br />施加 <he>1</he> 层<h>血迹</h>，<h>流血</h>，<h>虚弱</h>和<h>易伤</h>。<br />造成 <Damage /> 点伤害 <Value2 /> 次。",
+    "UpgradedDescription": "<h>减少</h>现有生命值的 <Value1 />% <he>2</he> 次。<br />施加 <he>1</he> 层<h>血迹</h>，<h>流血</h>，<h>虚弱</h>，<h>易伤</h>和 <Value2 /> 点<h>失去火力</h>。<br />造成 <Damage /> 点伤害 <Value2 /> 次。"
+  },
+  "cardtearmedo": {
+    "Name": "Tear Me Do",
+    "Description": "每当<PlayerName />的生命值降低时，获得 <Value1 /> 层<h>血之风暴衍生物</h>和 <Value2 /> 层<h>攻击提升</h>。"
+  },
+  "cardtearssubside": {
+    "Name": "泪止之时",
+    "Description": "<h>减少</h> <he>5</he>% 生命值。<br />抽 <Value2 /> 张牌。<br />抽到每张红色牌获得 <Value1 /> 层<h>血块</h>。"
+  },
+  "cardtenshaded": {
+    "Name": "十影斩",
+    "Description": "<h>减少</h>现有生命值的 <Value1 />% 。<br />对随机敌人造成 <Damage /> 点伤害 <Value2 /> 次。<br />将 <Value3 /> 张<h>暗影</h>加入手中。",
+    "UpgradedDescription": "<h>减少</h>现有生命值的 <Value1 />% 。<br />对所有敌人施加 <he>1</he> 层<h>血迹</h>。<br />对随机敌人造成 <Damage /> 点伤害 <Value2 /> 次。<br />将 <Value3 /> 张<h>暗影</h>加入手中。"
+  },
+  "cardtorn": {
+    "Name": "被撕开的缎带",
+    "Description": "<h>当<PlayerName />的生命值少于</h> <he>50</he>% <h>时</h>：每当<PlayerName /><h>闪避</h>伤害时，获得 <Value1 /> 层<h>攻击提升</h>, <h>提升</h> <Value1 />% 的生命值。<br />获得 <Value2 /> 层<h>闪避</h>。"
+  },
+  "cardtwilight": {
+    "Name": "暮光",
+    "Description": "<h>當<PlayerName />的生命值少於</h> <he>50</he>% <h>時</h>：<PlayerName />的攻擊傷害提升已損生命值的 <he>10</he>% （向上取整）。<br /><h>當<PlayerName />的生命值少於</h> <he>25</he>% <h>時</h>：每當打出一張牌時，追加打出 <he>1</he> 張<h>紅血</h>(不会<h>提升</h>生命值)。<br /><h>當<PlayerName />的生命值少於</h> <he>15</he>% <h>時</h>：每當打出一張牌時，獲得 <he>2</he> 層<h>充能</h>。"
+  },
+  "cardunstableblood": {
+    "Name": "不稳定的血",
+    "Description": "<h>减少</h> <Value1 />% 生命值。<br />对所有敌人施加 <he>1</he> 层<h>流血</h>。每有一个已有<h>流血</h>的人，获得 <Value2 /> 层<h>血之风暴衍生物</h>。<br />对所有敌人造成 <Damage /> 点伤害。"
+  },
+  "cardworldburn": {
+    "Name": "燃点世界",
+    "Description": "每当<PlayerName />对敌人施加<h>血迹</h>或<h>流血</h>，也施加 <Value1 /> 层另外那个状态。",
+    "UpgradedDescription": "每当<PlayerName />对敌人施加<h>血迹</h>或<h>流血</h>，也施加 <Value1 /> 层另外那个状态。<br />对所有敌人施加 <Value1 /> 层<h>血迹</h>和<h>流血</h>。"
+  },
+
   "PatchouliAgniRadiance": {
     "Name": "火神的光辉",
     "Description": "<h>咏唱</h> <Value1 /> 个<h>火符</h>。<br /><h>每层充能</h>：额外<h>咏唱</h> <Value2 /> 个<h>火符</h>。"

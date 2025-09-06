@@ -1,0 +1,18 @@
+﻿cardbloodpulse:
+  Name: Pulso Sangriento
+  Description: >-
+    |Reduce| {Value1}% {healstring}de vida |n:2| veces.
+
+    Aplica |n:1| |Sangrado| a cada enemigo.
+
+    Inflige {Damage} de daño a cada enemigo {Value2} ve{Value2:plural one='z' other='ces'}.
+
+    |Debut|: |Exilia| cualquier cantidad de cartas en la mano, agrega esa misma cantidad de |Sangre Carmesí| a la mano.
+  ExtraDescription1: >-
+    |Reduce| {Value1}% {healstring}de vida |n:2| veces.
+
+    Aplica |n:1| |Sangrado| a cada enemigo.
+
+    Inflige {Damage} de daño a cada enemigo {Value2} ve{Value2:plural one='z' other='ces'}.
+
+    |d:Debut: Exilia cualquier cantidad de cartas en la mano, agrega esa misma cantidad de Sangre Carmesí a la mano.|

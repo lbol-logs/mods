@@ -1,0 +1,6 @@
+﻿cardinfuseddarkness:
+  Name: 闇の浸透
+  Description: >-
+    ターン終了時まで|闇の血|をプレイする度に、{Mana}を得る。
+
+    手札に|闇の血|を{Value2}枚加える。

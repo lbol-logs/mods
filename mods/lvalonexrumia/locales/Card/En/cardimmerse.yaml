@@ -1,0 +1,8 @@
+﻿cardimmerse:
+  Name: Immerse in Red
+  Description: >-
+    |Decrease| {Value1}% {healstring}life.
+
+    Until end of turn, whenever an attack card is played, gain |n:1| |Blood Storm Token|.
+
+    Add {Value2} |Crimson Blood| to the hand.

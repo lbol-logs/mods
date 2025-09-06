@@ -1,0 +1,7 @@
+﻿carddevour:
+  Name: 吞噬
+  Description: >-
+    造成 {Damage} 點傷害。
+
+    |退治|：獲得 {Value1}% {healstring}最大生命值，將{SelfName}移出戰鬥和牌庫。
+  DetailText: '{SelfName}不會在戰鬥中被隨機獲得，不能成為複製效果的對象。'

@@ -1,0 +1,8 @@
+﻿cardgojo:
+  Name: Infinite Void
+  Description: >-
+    |Decrease| {Value1}% of current life |n:2| times{healstring2}.
+
+    Until end of round, {PlayerName} cannot lose life.
+
+    Gain {Value2} |Extra Turn|.

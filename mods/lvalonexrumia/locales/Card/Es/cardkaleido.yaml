@@ -1,0 +1,7 @@
+﻿cardkaleido:
+  Name: Caleidoscópios Brillantes
+  Description: >-
+    |Por cada maná gastado de un color diferente|: |Reduce| {Value1}% de la vida actual, todos los enemigos |Reducen| {Value1}% de vida (mínimo {Value2} de vida).
+
+    |Extermino|: Gana la vida máxima igual al maná total gastado por jugar {SelfName}.
+  DetailText: Después de jugar {SelfName} y antes de que termine de resolverse, cualquier enemigo que no sea una Invocación y que sea derrotado activará el efecto de Exterminio de {SelfName}.

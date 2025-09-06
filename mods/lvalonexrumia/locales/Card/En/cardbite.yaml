@@ -1,0 +1,6 @@
+﻿cardbite:
+  Name: Bite
+  Description: >-
+    Deal {Damage} damage.
+
+    Gain {Value1} |Dark Blood Token|.

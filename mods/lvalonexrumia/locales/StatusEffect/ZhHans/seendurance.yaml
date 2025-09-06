@@ -1,0 +1,10 @@
+﻿seendurance:
+  Name: 耐力
+  Description: >-
+    当{PlayerName}的生命值少于 |n:50|% ({lifeneed}) 时：每当{PlayerName}的生命值降低时，|n:计算器|提升 |n:1| 点。
+
+    {PlayerName}的回合开始时，失去所有的|n:计算器|以将等量的|红血|加入手中。
+  Brief: >-
+    当{PlayerName}的生命值少于 |n:50|% 时：每当{PlayerName}的生命值降低时，|n:计算器|提升 |n:1| 点。
+
+    {PlayerName}的回合开始时，失去所有的|n:计算器|以将等量的|红血|加入手中。

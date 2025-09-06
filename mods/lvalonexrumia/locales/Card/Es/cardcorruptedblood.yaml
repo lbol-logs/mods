@@ -1,0 +1,7 @@
+﻿cardcorruptedblood:
+  Name: Sangre Corrupta
+  Description: Cuando la vida de {PlayerName} se reduce, gana {Value1} |Emblema de Sangre Oscura|.
+  UpgradedDescription: >-
+    Cuando la vida de {PlayerName} se reduce, gana {Value1} |Emblema de Sangre Oscura|.
+
+    Agrega {Value2} |Sangre{Value2:plural one=' Oscura' other='s Oscuras'}| a la mano.

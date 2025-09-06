@@ -1,0 +1,6 @@
+﻿cardblooduse:
+  Name: Aplicaciones de la Sangre
+  Description: >-
+    Inflige {Damage} de daño a cada enemigo.
+
+    Si {PlayerName} tiene menos del |n:50|% {needstring}de vida, agrega {Value1} |Sangre Carmesí| a la mano.

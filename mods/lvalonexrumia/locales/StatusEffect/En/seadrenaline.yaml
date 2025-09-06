@@ -1,0 +1,4 @@
+﻿seadrenaline:
+  Name: Adrenaline
+  Description: "While {PlayerName} has less than |n:50|% ({lifeneed}) life: Whenever {PlayerName}'s life decreases, gain {atkincrease} |Attack Increase| and {Level} |Blood Clot|."
+  Brief: "While {PlayerName} has less than |n:50|% life: Whenever {PlayerName}'s life decreases, gain |n:5| |Attack Increase| and |n:1| |Blood Clot|."

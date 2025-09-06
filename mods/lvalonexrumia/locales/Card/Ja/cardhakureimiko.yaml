@@ -1,0 +1,8 @@
+﻿cardhakureimiko:
+  Name: 博麗巫女
+  Description: >-
+    {FriendS}|手札効果|: {PlayerName}がカードを追加する度に、それを|アップグレード|する。
+
+    {FriendP}|生命増幅|{Value1}% {healstring}
+  ExtraDescription1: '{FriendA}|廃棄場|からカードを1枚選び、それを|アップグレード|して{SelfName}を手札に戻す。'
+  ExtraDescription3: '{FriendU}全てのカードは|廃棄|と|虚無|を失う。'
