@@ -1,4 +1,35 @@
 {
+  "exexa": {
+    "Owner": "lvalonexrumia",
+    "Rarity": "Shining",
+    "Value1": 1,
+    "Value2": 5,
+    "Mana": "B",
+    "BaseMana": "B"
+  },
+  "exexb": {
+    "Owner": "lvalonexrumia",
+    "Rarity": "Shining",
+    "Value1": 1,
+    "Mana": "R",
+    "BaseMana": "R"
+  },
+  "exfakeribbon": {
+    "Rarity": "Rare",
+    "Mana": "R"
+  },
+  "exrumiafumo": {
+    "Rarity": "Uncommon",
+    "Value1": 1,
+    "Mana": 0
+  },
+  "extrueribbon": {
+    "Rarity": "Mythic",
+    "Value1": 2,
+    "Value2": 10,
+    "Mana": "P"
+  },
+
   "BatteredShield": {
     "Owner": "Momiji",
     "Rarity": "Shining",
