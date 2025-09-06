@@ -1,4 +1,25 @@
 {
+  "exexa": {
+    "Name": "Honored Darkness",
+    "Description": "Adds <Mana /> to the mana base. Cards unique to <h>EX Rumia</h> are added to the card pool.<br />At the start of the first turn each combat, apply <Value1 /> <h>Blood Mark</h> to each enemy.<br /><PlayerName />'s attack damage is increased by <Value2 />% of life lost (rounded up)."
+  },
+  "exexb": {
+    "Name": "World of Hurt",
+    "Description": "Adds <Mana /> to the mana base. Cards unique to <h>EX Rumia</h> are added to the card pool.<br /><h>Once per turn</h>, when <PlayerName /> deals damage, apply <Value1 /> <h>Bleed</h> to each enemy.<br />Whenever <PlayerName />'s life decreases, all enemies also <h>decrease</h> that much life."
+  },
+  "exfakeribbon": {
+    "Name": "Ribbon",
+    "Description": "During Boss or Elite combat, at the start of <PlayerName />'s turn, gain <Mana />."
+  },
+  "exrumiafumo": {
+    "Name": "Dusk Youkai Plushie",
+    "Description": "Whenever a <h>Blood</h> card is played, gain <Value1 /> <h>Temporary Firepower</h>."
+  },
+  "extrueribbon": {
+    "Name": "True Ribbon",
+    "Description": "Adds <Mana /> to the mana base.<br />At the very start of each combat, <h>decrease</h> life of each enemy by <Value2 />% (minimum <Value2 /> life) <Value1 /> times.<br />At the very start of each combat, apply <Value1 /> <h>Blood Mark</h> and <h>Severe Bleed</h> to each enemy."
+  },
+
   "BatteredShield": {
     "Name": "Battered Shield",
     "Description": "Adds <Mana /> to the mana base. Cards unique to <h>Momiji Inubashiri</h> are added to the card pool.<br />The first time Block or Barrier is gained each turn, gain <Value1 /> <h>Reflection</h>."
