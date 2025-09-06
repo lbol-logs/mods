@@ -27,6 +27,7 @@ namespace ExportModImgs.Exporters
             { "Sanae_Kochiya", "xeno.lbol.character.Sanae_Kochiya" },
             { "Utsuho", "zosit.lbol.test.utsuho" },
             { "YoumuMod", "rmrfmaxx.lbol.YoumuCharacterMod" },
+            { "lvalonexrumia", "llbol.char.exrumia" },
 
             //{ "AyaPlayerUnit", "intoxicatedkid.ayashameimaru" },
             //{ "PKaguya", "aqing0601.PKaguya" },
