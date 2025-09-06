@@ -7,6 +7,10 @@
     "since": "",
     "since_other": " from now"
   },
+  "objects": {
+    "it": "it",
+    "it_other": "them"
+  },
   "ordinal_1": "next",
   "ordinal_2": "<Count />nd",
   "ordinal_3": "<Count />rd",
