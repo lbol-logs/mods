@@ -8,6 +8,329 @@
     "it_other": "them"
   },
 
+  "cardadrenaline": {
+    "Name": "Adrenaline",
+    "Description": "<h>While <PlayerName /> has less than</h> <he>50</he>% <h>life</h>: Whenever <PlayerName />'s life decreases, gain <Value1 /> <h>Attack Increase</h> and <Value2 /> <h>Blood Clot</h>."
+  },
+  "cardallure": {
+    "Name": "Crimson Allure",
+    "Description": "<h>Decrease</h> <Value1 />% of current life.<br /><h>Scry</h> <Scry />.<br />Draw <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }).<br />Apply <Value2 /> <h>Bleed</h> to each enemy."
+  },
+  "cardbefallen": {
+    "Name": "Befallen Blood",
+    "Description": "Gain <Value2 /> <h>Dark Blood Token</h>.<br /><h>Decrease</h> <Value1 />% of current life.<br />Add <he>1</he> <h>Shadow</h> to the hand."
+  },
+  "cardbewater": {
+    "Name": "Be Water",
+    "Description": "Whenever a <h>Blood</h> card is played, choose up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) in the discard pile, shuffle $t(objects.it, { 'count': {{Value1}} }) into the draw pile, draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
+  },
+  "cardbite": {
+    "Name": "Bite",
+    "Description": "Deal <Damage /> damage.<br />Gain <Value1 /> <h>Dark Blood Token</h>."
+  },
+  "cardbleedslash": {
+    "Name": "Bleed and Slash",
+    "Description": "When a black card is played, gain <Value1 /> <h>Blood Sword Token</h>."
+  },
+  "cardbloodburn": {
+    "Name": "Blood Burn",
+    "Description": "<h>Decrease</h> <Value1 />% life.<br />Gain <Mana />."
+  },
+  "cardbloodburst": {
+    "Name": "Blood Burst",
+    "Description": "<h>Decrease</h> <Value1 />% life.<br />Apply <he>1</he> <h>Bleed</h> to each enemy <Value2 /> time$t(plurals.-s, { 'count': {{Value2}} }).<br />Deal <Damage /> damage to each enemy with <h>Bleed</h> <he>3</he> times."
+  },
+  "cardbloodcircle": {
+    "Name": "Blood Circulation",
+    "Description": "At the start of <PlayerName />'s turn, return any number of <h>Exiled Blood</h> cards to the hand."
+  },
+  "cardbloodcontract": {
+    "Name": "Blood Contract",
+    "Description": "Whenever <PlayerName />'s life decreases, gain <Value1 /> <h>Blood Sword Token</h>."
+  },
+  "cardblooddisciple": {
+    "Name": "Blood Disciple",
+    "Description": "<h>Decrease</h> <Value1 />% life.<br />Exile up to <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }) in the hand. Gain that many <h>Blood Clot</h> and add that many <h>Crimson Blood</h> to the hand."
+  },
+  "cardbloodlaser": {
+    "Name": "Blood laser",
+    "Description": "<h>Decrease</h> <Value1 />% of current life.<br />Apply <Value2 /> <h>Blood Mark</h>.<br />Deal <Damage /> damage."
+  },
+  "cardbloodmanip": {
+    "Name": "Blood Manipulation",
+    "Description": "<h>Decrease</h> <he>5</he>% life.<br />Gain <Value1 /> <h>Blood Clot</h>.<br />Apply <Value2 /> <h>Blood Mark</h> and <h>Bleed</h> to each enemy."
+  },
+  "cardbloodofmysword": {
+    "Name": "Blood of My Sword",
+    "Description": "Whenever <PlayerName /> deals attack damage to an enemy, <h>increase</h> the enemy's life by <Value1 />, gain <Value1 /> <h>Temporary Firepower</h>.",
+    "UpgradedDescription": "Whenever <PlayerName /> deals attack damage to an enemy, <h>increase</h> the enemy's life by <Value1 />, gain <Value1 /> <h>Temporary Firepower</h>.<br />Add <Value2 /> <h>Blood Sword$t(plurals.-s, { 'count': {{Value2}} })</h> to the hand."
+  },
+  "cardbloodpulse": {
+    "Name": "Blood Pulse",
+    "Description": "<h>Decrease</h> <Value1 />% life <he>2</he> times.<br />Apply <he>1</he> <h>Bleed</h> to each enemy.<br />Deal <Damage /> damage to each enemy <Value2 /> time$t(plurals.-s, { 'count': {{Value2}} }).<br /><h>Debut</h>: <h>Exile</h> any number of cards in hand, add that many <h>Crimson Blood</h> to the hand."
+  },
+  "cardbloodspeed": {
+    "Name": "Blood Acceleration",
+    "Description": "<h>Decrease</h> <Value1 />% of current life <he>2</he> times.<br />Gain <he>1</he> <h>Accelerate</h>.<br />Draw <Value2 /> cards."
+  },
+  "cardbloodstorm": {
+    "Name": "Blood Storm",
+    "Description": "Deal <Damage /> damage to each enemy.<br />Apply <Value1 /> <h>Bleed</h> to each enemy.",
+    "UpgradedDescription": "Deal <Damage /> damage to each enemy.<br />Apply <Value1 /> <h>Bleed</h> and <h>Blood Mark</h> to each enemy."
+  },
+  "cardbloodsucker": {
+    "Name": "Blood-Sucker",
+    "Description": "Deal <Damage /> damage.<br />Add <Value1 /> <h>Crimson Blood</h> to the hand."
+  },
+  "cardbloodsword": {
+    "Name": "Blood Sword",
+    "Description": "Deal <Damage /> damage.<br />If the target does not have <h>Blood Mark</h>, apply <Value2 /> <h>Blood Mark</h>, otherwise consume <Value2 /> <h>Blood Mark</h> from the target to <h>increase</h> <Value1 />% life.",
+    "UpgradedDescription": "Deal <Damage /> damage.<br />Apply <Value2 /> <h>Blood Mark</h> and <h>increase</h> <Value1 />% life."
+  },
+  "cardblooduse": {
+    "Name": "Uses of Blood",
+    "Description": "Deal <Damage /> damage to each enemy.<br />If <PlayerName /> has less than <he>50</he>% life, add <Value1 /> <h>Crimson Blood</h> to the hand."
+  },
+  "cardbloodwork": {
+    "Name": "Bloodwork",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Gain <Value1 /> <h>Blood Clot</h>."
+  },
+  "cardbloodyhell": {
+    "Name": "Bloody Hell",
+    "Description": "Whenever a red card is played, gain <Value1 /> <h>Attack Increase</h>."
+  },
+  "cardbloodyinyang": {
+    "Name": "Blood-Stained Yin-Yang Orb",
+    "Description": "Choose up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) from <h>Exile</h> and return $t(objects.it, { 'count': {{Value1}} }) to the hand.<br /><h>Upgrade</h> all cards in the hand."
+  },
+  "cardboilingblood": {
+    "Name": "Boiling Blood",
+    "Description": "<h>Decrease</h> <Value1 />% life.<br />Deal <Damage /> damage to each enemy with <h>Bleed</h>.<br />Gain <Value2 /> <h>Attack Increase</h>.",
+    "UpgradedDescription": "<h>Decrease</h> <Value1 />% life.<br />Deal <Damage /> damage to each enemy.<br />Gain <Value2 /> <h>Attack Increase</h>."
+  },
+  "cardchew": {
+    "Name": "Chew a Little",
+    "Description": "<h>Decrease</h> <Value1 />% life.<br />Deal <Damage /> damage to each enemy <he>2</he> times.<br /><h>Growth</h>: Deal damage <Value2 /> more time$t(plurals.-s, { 'count': {{Value2}} })."
+  },
+  "cardcorruptedblood": {
+    "Name": "Corrupted Blood",
+    "Description": "When <PlayerName />'s life decreases, gain <Value1 /> <h>Dark Blood Token</h>.",
+    "UpgradedDescription": "When <PlayerName />'s life decreases, gain <Value1 /> <h>Dark Blood Token</h>.<br />Add <Value2 /> <h>Dark Blood</h> to the hand."
+  },
+  "cardcrimsondomain": {
+    "Name": "Crimson Domain",
+    "Description": "Apply <Value1 /> <h>Bleed</h> and <h>Blood Mark</h> to each enemy. If an enemy already has <h>Bleed</h>, apply <Value1 /> <h>Severe Bleed</h> and <h>Blood Mark</h> instead.<br />Add <Value1 /> <h>Blood Storm</h> to the hand."
+  },
+  "cardcrimsonray": {
+    "Name": "Crimson Ray",
+    "Description": "<h>Decrease</h> <Value1 />% life.<br />Apply <Value2 /> <h>Bleed</h>.<br />Deal <Damage /> damage."
+  },
+  "cardcrimsontheater": {
+    "Name": "Crimson Theater",
+    "Description": "Gain <Value1 /> <h>Graze</h>.<br />Add <Value2 /> <h>Blood Storm</h> to the hand."
+  },
+  "cardcrossout": {
+    "Name": "Crossout Designating",
+    "Description": "<h>For each</h> <Mana2 /> <h>spent</h>: Gain <Block /> <h>Block</h> and <Value1 /> <h>Blood Clot</h>."
+  },
+  "carddarkblood": {
+    "Name": "Dark Blood",
+    "Description": "<h>Increase</h> <Value1 />% life.<br />Draw <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }).<br />If <PlayerName /> has no <h>Accelerate</h>, gain <Value2 /> <h>Accelerate</h>.",
+    "UpgradedDescription": "<h>Increase</h> <Value1 />% life.<br />Draw <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }).<br />Gain <Value2 /> <h>Graze</h>."
+  },
+  "carddarkexpulsion": {
+    "Name": "Dark Expulsion",
+    "Description": "Gain <Value2 /> <h>Dark Blood Token</h>.<br />Add <Value1 /> <h>Shadow$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand."
+  },
+  "carddearsword": {
+    "Name": "My Dear Sword",
+    "Description": "<h>Decrease</h> <he>5</he>% life.",
+    "PassiveDescription": "Add <Value1 /> <h>Crimson Blood</h> to the hand."
+  },
+  "carddevour": {
+    "Name": "Devour",
+    "Description": "Deal <Damage /> damage.<br /><h>Expel</h>: Gain <Value1 />% maximum life, remove <SelfName /> from combat and the library."
+  },
+  "cardemergency": {
+    "Name": "Emergency Cover",
+    "Description": "<h>Decrease</h> <Value1 />% of current life.<br />Gain <Block /> <h>Block</h>.<br />Gain <Value2 /> <h>Dark Blood Token</h>.",
+    "UpgradedDescription": "<h>Decrease</h> <Value1 />% of current life.<br />Gain <Block /> <h>Block</h>.<br />Gain <Value2 /> <h>Dark Blood Token</h>.<br />If an enemy intends to attack, gain <Value1 /> <h>Blood Clot</h>."
+  },
+  "cardendurance": {
+    "Name": "Endurance",
+    "Description": "<h>While <PlayerName /> has less than</h> <he>50</he>% <h>life</h>: Whenever <PlayerName />'s life decreases, at the start of the next turn, add <Value1 /> <h>Crimson Blood</h> to the hand."
+  },
+  "cardetude": {
+    "Name": "My Etude",
+    "Description": "<h>Decrease</h> <Value1 />% of current life.<br />Gain <Value2 /> <h>Attack Increase</h>.<br />Deal <Damage /> damage to a random enemy <he>3</he> times.<br />Repeat these effects at the start of <PlayerName />'s next turn."
+  },
+  "cardexaa": {
+    "Name": "Backslash",
+    "Description": "Deal <Damage /> damage."
+  },
+  "cardexab": {
+    "Name": "Dark Barrier",
+    "Description": "Gain <Block /> <h>Block</h>."
+  },
+  "cardexba": {
+    "Name": "Forward Slash",
+    "Description": "Deal <Damage /> damage."
+  },
+  "cardexbb": {
+    "Name": "Parry",
+    "Description": "Gain <Block /> <h>Block</h>."
+  },
+  "cardfurnace": {
+    "Name": "Flesh Furnace",
+    "Description": "<h>Decrease</h> <Value1 />% life.<br />Gain <he>20</he> <h>Attack Increase</h> and add <he>1</he> <h>Crimson Blood</h> to the hand.<br />If <PlayerName /> has less than <he>50</he>% life, add <Value2 /> <h>Crimson Blood</h> to the hand."
+  },
+  "cardgojo": {
+    "Name": "Infinite Void",
+    "Description": "<h>Decrease</h> <Value1 />% of current life <he>2</he> times.<br />Until end of round, <PlayerName /> cannot lose life.<br />Gain <Value2 /> <h>Extra Turn</h>."
+  },
+  "cardhakureimiko": {
+    "Name": "The Hakurei Miko",
+    "Description": "<h>While in hand</h>: Whenever <PlayerName /> adds a card, <h>Upgrade</h> it.",
+    "PassiveDescription": "<h>Increase</h> <Value1 />% life."
+  },
+  "cardheartache": {
+    "Name": "Heartache",
+    "Description": "<h>Decrease</h> <Value1 />% life.<br />Gain <Block /> <h>Block</h>."
+  },
+  "cardidlive": {
+    "Name": "Being Towards Death",
+    "Description": "Until the end of this round, <PlayerName /> will not lose the game.<br />At the end of this round, set life to half of <PlayerName />'s life when <SelfName /> was played."
+  },
+  "cardimmerse": {
+    "Name": "Immerse in Red",
+    "Description": "<h>Decrease</h> <Value1 />% life.<br />Until end of turn, whenever an attack card is played, gain <he>1</he> <h>Blood Storm Token</h>.<br />Add <Value2 /> <h>Crimson Blood</h> to the hand."
+  },
+  "cardinfuseddarkness": {
+    "Name": "Infused Darkness",
+    "Description": "Until end of turn, whenever <h>Dark Blood</h> is played, gain one <Mana />.<br />Add <Value2 /> <h>Dark Blood</h> to the hand."
+  },
+  "cardintodarkness": {
+    "Name": "Into the Darkness",
+    "Description": "Apply <Value1 /> <h>Blood Mark</h>.<br />Deal <Damage /> damage to each enemy with <h>Blood Mark</h>."
+  },
+  "cardkaleido": {
+    "Name": "Kaleidoscopic Dazzles",
+    "Description": "<h>For each mana of a different color spent</h>: <h>Decrease</h> <Value1 />% of current life, all enemies <h>decrease</h> <Value1 />% of life (minimum <Value2 /> life).<br /><h>Expel</h>: Gain maximum life equal to the total mana spent to play <SelfName />."
+  },
+  "cardletsdance": {
+    "Name": "Let's Dance",
+    "Description": "Apply <Value1 /> <h>Blood Mark</h> to each enemy.<br />Deal <Damage /> damage to each enemy <Value2 /> time$t(plurals.-s, { 'count': {{Value2}} }).<br />Gain <Value2 /> <h>Graze</h>."
+  },
+  "cardlowtide": {
+    "Name": "Low Tide",
+    "Description": "<h>Decrease</h> <Value1 />% of current life.<br />Add up to <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }) from each of draw pile, discard pile and <h>Exiled</h> cards to the hand."
+  },
+  "cardmagia": {
+    "Name": "Shadow Magia Rumia",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Gain <Value1 /> <h>Accelerate</h>.<br />Until end of round, gain <Value2 /> <h>Blood Sword Token</h> whenever <PlayerName /> is attacked."
+  },
+  "cardmarkblood": {
+    "Name": "Mark My Blood",
+    "Description": "Whenever an enemy without <h>Blood Mark</h> is attacked, apply <Value2 /> <h>Blood Mark</h>.",
+    "UpgradedDescription": "Whenever an enemy without <h>Blood Mark</h> is attacked, apply <Value2 /> <h>Blood Mark</h>.<br />Apply <Value2 /> <h>Blood Mark</h> to each enemy."
+  },
+  "cardmissribbon": {
+    "Name": "Miss Ribbon",
+    "Description": "<h>Decrease</h> <Value1 />% of current life, Gain <Mana />.",
+    "PassiveDescription": "<h>Decrease</h> <Value1 />% of current life, Gain <Mana />."
+  },
+  "cardmixedblood": {
+    "Name": "200% Mixed Blood",
+    "Description": "Until end of turn, whenever <h>Dark Blood</h> is played, play a <h>Crimson Blood</h>, whenever <h>Crimson Blood</h> is played, gain <Value1 /> <h>Dark Blood Token</h>.",
+    "UpgradedDescription": "Until end of turn, whenever <h>Dark Blood</h> is played, play a <h>Crimson Blood</h>, whenever <h>Crimson Blood</h> is played, gain <Value1 /> <h>Dark Blood Token</h>.<br />Add <Value1 /> <h>Dark Blood</h> and <h>Crimson Blood</h> to the hand."
+  },
+  "cardmutualdepletion": {
+    "Name": "Mutual Depletion",
+    "Description": "Whenever <PlayerName />'s life is decreased by at least <he>1</he>%, all enemies <h>decrease</h> the same % of life (rounded down).",
+    "UpgradedDescription": "Whenever <PlayerName />'s life is decreased by at least <he>1</he>%, all enemies <h>decrease</h> the same % of life (rounded down).<br />When <he>200</he>% life has been decreased accumulatively, win the battle."
+  },
+  "cardnether": {
+    "Name": "Nether Shade",
+    "Description": "Gain <Shield /> <h>Barrier</h>.<br />Gain <Value1 /> <h>Blood Clot</h>.<br />Add <Value2 /> <h>Shadow$t(plurals.-s, { 'count': {{Value2}} })</h> to the hand."
+  },
+  "cardnightfalls": {
+    "Name": "Night Falls",
+    "Description": "Until end of turn, whenever a black card is played, gain <Value1 /> <h>Blood Sword Token</h>.<br />Put <Value2 /> random black card$t(plurals.-s, { 'count': {{Value2}} }) from the draw pile to the hand, then gain that many <Mana />."
+  },
+  "cardnoradrenaline": {
+    "Name": "Noradrenaline",
+    "Description": "<h>Decrease</h> <Value1 />% life.<br />Deal <Damage /> damage to each enemy with <h>Blood Mark</h> or <h>Bleed</h> <he>3</he> times.<br />If <PlayerName /> has less than <he>50</he>% life, add <Value2 /> <h>Crimson Blood</h> to the hand.",
+    "UpgradedDescription": "<h>Decrease</h> <Value1 />% life.<br />Deal <Damage /> damage to each enemy <he>3</he> times.<br />If <PlayerName /> has less than <he>50</he>% life, add <Value2 /> <h>Crimson Blood</h> to the hand."
+  },
+  "cardpastpresent": {
+    "Name": "Past and Present",
+    "Description": "Deal <Damage /> damage.<br />At the start of the next turn, play cards played after <SelfName /> is played."
+  },
+  "cardquickrestore": {
+    "Name": "Quick Restoration",
+    "Description": "At the end of this round, restore life to when <SelfName /> was played."
+  },
+  "cardredblood": {
+    "Name": "Crimson Blood",
+    "Description": "If <PlayerName /> has less than <he>50</he>% life, <h>increase</h> <Value1 />% life.<br />Gain <Mana />.<br />Deal <Damage /> <h>Accurate</h> attack damage to each enemy with <h>Bleed</h>.",
+    "UpgradedDescription": "<h>Increase</h> <Value1 />% life.<br />Gain <Mana />.<br />Deal <Damage /> <h>Accurate</h> attack damage to each enemy with <h>Bleed</h>."
+  },
+  "cardshadowcut": {
+    "Name": "Shadow Cut",
+    "Description": "Add <Value1 /> <h>Shadow$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand.<br />End this turn. Then, take an extra turn. At the start of that extra turn, deal <Damage /> damage to each enemy <Value2 /> time$t(plurals.-s, { 'count': {{Value2}} })."
+  },
+  "cardshady": {
+    "Name": "Shady Secrets",
+    "Description": "Gain <Value1 /> <h>Graze</h> and <Value2 /> <h>Dark Blood Token</h>."
+  },
+  "cardslicepast": {
+    "Name": "Slice of Past",
+    "Description": "<h>Increase</h> <Value1 />% life.<br /><h>Upgrade</h> all cards in the hand."
+  },
+  "cardsonanoka": {
+    "Name": "Is that so?",
+    "Description": "<h>Decrease</h> <Value1 />% of current life.<br />Gain <Block /> <h>Block</h>.<br />Gain <Value2 /> <h>Graze</h>."
+  },
+  "cardsunnydry": {
+    "Name": "Sunny Dry Up",
+    "Description": "<h>Decrease</h> <Value1 />% life.<br />Gain <Mana />.<br />Gain <Value2 /> <h>Blood Clot</h>.<br />Add <he>1</he> <h>Refracted Sunlight</h> to the hand."
+  },
+  "cardtakeover": {
+    "Name": "Shadow Takeover",
+    "Description": "<h>Decrease</h> <Value1 />% of current life <Value2 /> times.<br />Apply <he>1</he> <h>Blood Mark</h>, <h>Bleed</h>, <h>Weak</h> and <h>Vulnerable</h>.<br />Deal <Damage /> damage <Value2 /> time$t(plurals.-s, { 'count': {{Value2}} }).",
+    "UpgradedDescription": "<h>Decrease</h> <Value1 />% of current life <Value2 /> times.<br />Apply <he>1</he> <h>Blood Mark</h>, <h>Bleed</h>, <h>Weak</h>, <h>Vulnerable</h> and <Value2 /> <h>Firepower Down</h>.<br />Deal <Damage /> damage <Value2 /> time$t(plurals.-s, { 'count': {{Value2}} })."
+  },
+  "cardtearmedo": {
+    "Name": "Tear Me Do",
+    "Description": "Whenever <PlayerName />'s life decreases, gain <Value1 /> <h>Blood Storm Token</h> and <Value2 /> <h>Attack Increase</h>."
+  },
+  "cardtearssubside": {
+    "Name": "As Tears Subside",
+    "Description": "<h>Decrease</h> <he>5</he>% life.<br />Draw <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }).<br />Gain <Value1 /> <h>Blood Clot</h> for each red card drawn this way."
+  },
+  "cardtenshaded": {
+    "Name": "Ten-Shaded Slash",
+    "Description": "<h>Decrease</h> <Value1 />% of current life.<br />Deal <Damage /> damage to a random enemy <Value2 /> time$t(plurals.-s, { 'count': {{Value2}} }).<br />Add <Value3 /> <h>Shadow$t(plurals.-s, { 'count': {{Value3}} })</h> to the hand.",
+    "UpgradedDescription": "<h>Decrease</h> <Value1 />% of current life.<br />Apply <he>1</he> <h>Blood Mark</h> to each enemy.<br />Deal <Damage /> damage to a random enemy <Value2 /> time$t(plurals.-s, { 'count': {{Value2}} }).<br />Add <Value3 /> <h>Shadow$t(plurals.-s, { 'count': {{Value3}} })</h> to the hand."
+  },
+  "cardtorn": {
+    "Name": "Torn Red Ribbon",
+    "Description": "<h>While <PlayerName /> has less than</h> <he>50</he>% <h>life</h>: Whenever <PlayerName /> <h>Grazes</h> an attack, gain <Value1 /> <h>Attack Increase</h>, <h>increase</h> life by <Value1 />%.<br />Gain <Value2 /> <h>Graze</h>."
+  },
+  "cardtwilight": {
+    "Name": "Twilight",
+    "Description": "<h>While <PlayerName /> has less than</h> <he>50</he>% <h>life</h>: <PlayerName />'s attack damage is increased by <he>10</he>% of life lost (rounded up).<br /><h>While <PlayerName /> has less than</h> <he>25</he>% <h>life</h>: Whenever a card is played, play <he>1</he> <h>Crimson Blood</h> (does not <h>increase</h> life).<br /><h>While <PlayerName /> has less than</h> <he>15</he>% <h>life</h>: Whenever a card is played, gain <he>2</he> <h>Charge</h>."
+  },
+  "cardunstableblood": {
+    "Name": "Unstable Blood",
+    "Description": "<h>Decrease</h> <Value1 />% life.<br />Apply <he>1</he> <h>Bleed</h> to each enemy. For each enemy that already has <h>Bleed</h>, gain <Value2 /> <h>Blood Storm Token</h>.<br />Deal <Damage /> damage to each enemy."
+  },
+  "cardworldburn": {
+    "Name": "The World Burns",
+    "Description": "Whevener <PlayerName /> applies <h>Blood Mark</h> or <h>Bleed</h> to an enemy, also apply <Value1 /> of the other.",
+    "UpgradedDescription": "Whevener <PlayerName /> applies <h>Blood Mark</h> or <h>Bleed</h> to an enemy, also apply <Value1 /> of the other.<br />Apply <Value1 /> <h>Blood Mark</h> and <h>Bleed</h> to each enemy."
+  },
+
   "AdvantageousPosition": {
     "Name": "Advantageous Position",
     "Description": "Gain <Block /> <h>Block</h>.<br />Gain <Value1 /> <h>Temporary Firepower</h>."
