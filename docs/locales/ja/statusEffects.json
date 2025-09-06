@@ -8,6 +8,167 @@
     "until_other": ""
   },
 
+  "seaccel": {
+    "Name": "加速",
+    "Description": "<OwnerName />の次のターン開始時、<h>グレイズ</h><Level />を得る。"
+  },
+  "seadrenaline": {
+    "Name": "アドレナリン",
+    "Description": "<PlayerName />ライフが<he>50</he>%未満の間: <PlayerName />の体力が減少するたびに、<h>攻撃増大</h><atkincrease />と<h>血盾</h><Level />を得る。"
+  },
+  "seatkincrease": {
+    "Name": "攻撃増大",
+    "Description": "<OwnerName />はこのターンの終了時まで、与える攻撃ダメージが<Count />%増加する。<br /><OwnerName /> のターン終了時に、<SelfName />の半分を失う。(5の倍数になるよう切り捨て)"
+  },
+  "sebewater": {
+    "Name": "水の如し",
+    "Description": "<h>血</h>のカードをプレイする度に、捨て札から最大<Level />枚のカードを選び、そのカードを山札にシャッフルし、<Level />枚のカードを引く。"
+  },
+  "sebleed": {
+    "Name": "出血",
+    "Description": "<OwnerName />は攻撃される度にライフを<he>1</he>%失う。<br /><OwnerName />のターン開始時に、<SelfName /><he>1</he>を失う。"
+  },
+  "sebleedslash": {
+    "Name": "斬って血を啜れ",
+    "Description": "黒色のカードをプレイした時、<h>血の剣の破片</h><Level />を得る。"
+  },
+  "sebloodcircle": {
+    "Name": "血液循環",
+    "Description": "<PlayerName />のターン開始時、<h>廃棄された血</h>のカードを好きな枚数だけ手札に戻す。"
+  },
+  "sebloodclot": {
+    "Name": "血盾",
+    "Description": "<OwnerName />はこのラウンドの終了まで、受ける攻撃ダメージが<Value />%減少 (上限<he>100</he>%)"
+  },
+  "sebloodcontract": {
+    "Name": "血の契約",
+    "Description": "<PlayerName />のライフが減る度に、<h>血の剣の破片</h><Level />を得る。"
+  },
+  "sebloodmark": {
+    "Name": "血の印",
+    "Description": "<OwnerName />が攻撃を受ける際、被ダメージが<Value />%増加する。<br /><OwnerName />のターン開始時に、<SelfName /><he>1</he>を失う。"
+  },
+  "sebloodofmysword": {
+    "Name": "血染めの剣",
+    "Description": "<h>血の剣</h>ではないアタックカードをプレイする度に、<h>血の剣の破片</h><Level />を得る。"
+  },
+  "sebloodstorm": {
+    "Name": "血の嵐の破片",
+    "Description": "<SelfName />が<he><lim /></he>以上あるとき、<SelfName />を<he><lim /></he>消費し、手札に<h>血の嵐</h>を加える。"
+  },
+  "sebloodsword": {
+    "Name": "血の剣の破片",
+    "Description": "<SelfName />が<he><lim /></he>以上あるとき、<SelfName />を<he><lim /></he>消費し、手札に<h>血の剣</h>を加える。"
+  },
+  "sebloodyhell": {
+    "Name": "血の地獄",
+    "Description": "赤色のカードをプレイする度に、<h>攻撃増大</h><atkincrease />を得る。"
+  },
+  "sebossheal": {
+    "Name": "激昂",
+    "Description": "<OwnerName />のライフが<he>50</he>%未満のとき、行動が強化される。<br /><PlayerName />が攻撃されるたびに、<OwnerName />のライフが<he>1</he>%<h>回復</h>する。"
+  },
+  "secorruptedblood": {
+    "Name": "穢れた血",
+    "Description": "<PlayerName />がライフを減らす時、<h>闇の血の雫</h><Level />を得る。"
+  },
+  "sedarkblood": {
+    "Name": "闇の血の雫",
+    "Description": "<h>各ターンに1回まで</h>、<PlayerName />のライフが減少したとき、<SelfName /><he>1</he>失い、手札に<h>闇の血</h>を1枚加える。その後、すべての<SelfName />を失い、その数だけ<mana />を得る。"
+  },
+  "sedearsword": {
+    "Name": "我が愛剣",
+    "Description": "<PlayerName />のターン開始時、手札に<h>血の嵐</h>を<Level />枚加える。"
+  },
+  "sedecrease": {
+    "Name": "生命減衰",
+    "Description": "通常のダメージによる減少とは異なり、ライフを特別な方法で一定値まで下げる。ライフが<he>0</he>以下に設定された場合、即座に戦闘不能となる。"
+  },
+  "sedeepbleed": {
+    "Name": "大量出血",
+    "Description": "<OwnerName />は攻撃される度にライフを<he>2</he>%失う。<br /><OwnerName />のターン開始時に、<SelfName /><he>1</he>を失う。"
+  },
+  "seendurance": {
+    "Name": "持久力",
+    "Description": "<PlayerName />ライフが<he>50</he>%未満の間: <PlayerName />のライフが減る度に<he>カウント</he>が<he>1</he>増える。<br /><PlayerName />のターン開始時すべての<he>カウント</he>を失い、その枚数に等しい<h>深紅の血</h>を手札に加える。"
+  },
+  "seetude": {
+    "Name": "私の練習曲",
+    "Description": "<PlayerName />の次のターン開始時、現在のライフから<h>生命減衰</h><he>5</he>%、ランダムな敵に<Level />ダメージを<he>3</he>回与える。"
+  },
+  "sefuckyou": {
+    "Name": "終焉への秒読み",
+    "Description": "累計で<he>200</he>%の体力が減少すると、戦闘に勝利します。<br />残り<Count />%"
+  },
+  "segojo": {
+    "Name": "無量空処",
+    "Description": "ラウンド終了まで、<OwnerName />はライフを失わない。"
+  },
+  "seidlive": {
+    "Name": "死への存在",
+    "Description": "このラウンドの終了まで、<PlayerName />はゲームに敗北しません。"
+  },
+  "seimmerse": {
+    "Name": "紅に染まる",
+    "Description": "ターン終了までアタックカードをプレイする度に、<h>血の嵐の破片</h><Level />を得る。"
+  },
+  "seincrease": {
+    "Name": "生命増幅",
+    "Description": "通常の回復とは異なり、ライフを特別な方法でより高い値に設定する。ただし最大ライフを超えることはない。"
+  },
+  "seinfuseddarkness": {
+    "Name": "闇の浸透",
+    "Description": "ターン終了時まで<h>闇の血</h>をプレイする度に、<Mana />を得る。"
+  },
+  "semagia": {
+    "Name": "闇魔法形態",
+    "Description": "ラウンド終了まで、<PlayerName />が攻撃される度に<h>血の剣の破片</h><Level />を得る。"
+  },
+  "semarkblood": {
+    "Name": "我が血を刻め",
+    "Description": "<h>血の印</h>がない敵が攻撃される度に、<h>血の印</h><Level />を与える。"
+  },
+  "semissribbon": {
+    "Name": "リボン嬢",
+    "Description": "<PlayerName />が敵に<h>血の印</h>を与える度に、<h>血の剣の破片</h><Level />を得る。"
+  },
+  "semixedblood": {
+    "Name": "究極の混血",
+    "Description": "ターン終了まで<h>闇の血</h>をプレイする度に、<h>深紅の血</h>を<Level />回プレイする。<br />ターン終了まで<h>深紅の血</h>がプレイされる度に、<h>闇の血の雫</h><Level />を得る。"
+  },
+  "semutualdepletion": {
+    "Name": "相互消耗",
+    "Description": "<PlayerName />の体力が<he>1</he>%以上減少したとき、全ての敵も同じ割合(小数点以下切り捨て)のライフを失う。"
+  },
+  "senightfalls": {
+    "Name": "夜の訪れ",
+    "Description": "ターン終了まで黒色のカードをプレイする度に、<h>血の剣の破片</h><Level />を得る。"
+  },
+  "sepastpresent": {
+    "Name": "時をなぞる刃",
+    "Description": "次のターン開始時、<SelfName />が加えられた後にプレイした後にプレイしたカードをプレイする。それから<SelfName />を取り除く。"
+  },
+  "sequickrestore": {
+    "Name": "即時回復",
+    "Description": "このラウンド終了時に、ライフを<Count />回復する。"
+  },
+  "seshadowcut": {
+    "Name": "影斬り",
+    "Description": "<PlayerName />のターン開始時、ランダムな敵に<Level />ダメージを<Level />回与える。"
+  },
+  "setearmedo": {
+    "Name": "引き裂いてよ",
+    "Description": "<PlayerName />のライフが減る度に、<h>血の嵐の破片</h><Level />と<h>攻撃増大</h><atkincrease />を得る。"
+  },
+  "setorn": {
+    "Name": "裂けた赤いリボン",
+    "Description": "<PlayerName />ライフが<he>50</he>%未満の間: <PlayerName />が攻撃を<h>グレイズ</h>する度に、<h>攻撃増大</h><increase /> と<h>生命増幅</h><increase />%得る。"
+  },
+  "seworldburn": {
+    "Name": "燃え上がる世界",
+    "Description": "<PlayerName />が敵に<h>血の印</h>を与える度に、<h>出血</h><Level />を与える。<br /><PlayerName />が敵に<h>出血</h>を与える度に、<h>血の印</h><Level />を与える。"
+  },
+
   "BlackWindSe": {
     "Name": "黒い風",
     "Description": "<h>エアカッター</h>は弱体1を付与する。"
