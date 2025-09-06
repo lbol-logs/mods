@@ -1,0 +1,8 @@
+﻿carddearsword:
+  Name: Mi Amada Espada
+  Description: >-
+    {FriendS}|Reduce| |n:5|% {healstring}de vida.
+
+    {FriendP}Agrega {Value1} |Sangre Carmesí| a la mano.
+  ExtraDescription1: '{FriendA}Aplica {Value1} |Marca de Sangre| y |Sangrado| a cada enemigo.'
+  ExtraDescription3: '{FriendU}Al comienzo de cada turno de {PlayerName}, agrega {Value1} |Tormenta de Sangre| a la mano.'

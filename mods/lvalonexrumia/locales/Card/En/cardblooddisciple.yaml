@@ -1,0 +1,6 @@
+﻿cardblooddisciple:
+  Name: Blood Disciple
+  Description: >-
+    |Decrease| {Value1}% {healstring}life.
+
+    Exile up to {Value2} card{Value2:plural one='' other='s'} in the hand. Gain that many |Blood Clot| and add that many |Crimson Blood| to the hand.

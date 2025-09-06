@@ -1,0 +1,6 @@
+﻿cardlowtide:
+  Name: 低潮
+  Description: >-
+    |减少|现有生命值的 {Value1}% {healstring}。
+
+    从抽牌堆、弃牌堆和|放逐|区中各选择至多 {Value2} 张牌加入手中。

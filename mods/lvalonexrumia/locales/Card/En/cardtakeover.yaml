@@ -1,0 +1,14 @@
+﻿cardtakeover:
+  Name: Shadow Takeover
+  Description: >-
+    |Decrease| {Value1}% of current life {Value2} times{healstring2}.
+
+    Apply |n:1| |Blood Mark|, |Bleed|, |Weak| and |Vulnerable|.
+
+    Deal {Damage} damage {Value2} time{Value2:plural one='' other='s'}.
+  UpgradedDescription: >-
+    |Decrease| {Value1}% of current life {Value2} times{healstring2}.
+
+    Apply |n:1| |Blood Mark|, |Bleed|, |Weak|, |Vulnerable| and {Value2} |Firepower Down|.
+
+    Deal {Damage} damage {Value2} time{Value2:plural one='' other='s'}.

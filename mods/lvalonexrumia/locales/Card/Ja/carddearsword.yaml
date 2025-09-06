@@ -1,0 +1,8 @@
+﻿carddearsword:
+  Name: 我が愛剣
+  Description: >-
+    {FriendS}|生命減衰||n:5|% {healstring}
+
+    {FriendP}手札に|深紅の血|を{Value1}枚加える。
+  ExtraDescription1: '{FriendA}敵全体に|血の印|{Value1}と|出血|{Value1}を与える。'
+  ExtraDescription3: '{FriendU}{PlayerName}のターン開始時、手札に|血の嵐|を{Value1}枚加える。'

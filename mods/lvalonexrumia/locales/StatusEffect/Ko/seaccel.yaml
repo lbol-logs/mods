@@ -1,0 +1,4 @@
+﻿seaccel:
+  Name: 가속
+  Description: '{OwnerName}의 다음 턴 시작 시 |그레이즈|를 {Level} 얻습니다.'
+  Brief: '{OwnerName}의 다음 턴 시작 시 |그레이즈|를 얻습니다.'

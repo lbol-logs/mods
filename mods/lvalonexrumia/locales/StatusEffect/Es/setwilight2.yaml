@@ -1,0 +1,4 @@
+﻿setwilight2:
+  Name: En mi Mejor Momento
+  Description: 'Mientras {OwnerName} tenga menos del |n:25|% ({lifeneed}) de vida: Siempre que se juegue una carta, se juega {Level} |Sangre Carmesí| (No |Incrementa| la vida).'
+  Brief: 'Mientras {OwnerName} tenga menos del |n:25|% de vida: Siempre que se juegue una carta, se juega |Sangre Carmesí| (No |Incrementa| la vida).'

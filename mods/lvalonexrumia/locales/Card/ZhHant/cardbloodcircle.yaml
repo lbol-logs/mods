@@ -1,0 +1,3 @@
+﻿cardbloodcircle:
+  Name: 血液循環
+  Description: '{PlayerName}的回合開始時，將任意數量的|被放逐|的|血|牌加入手中。'

@@ -1,0 +1,215 @@
+sedecrease:
+  Name: 減少生命值
+  Description: "以一種特別的方法將生命值設定為低於原先生命值，而不是正常損失生命值。當生命值設定為 |n:<= 0| 時，擊殺目標。"
+  Brief: "以一種特別的方法將生命值設定為低於原先生命值，而不是正常損失生命值。當生命值設定為 |n:<= 0| 時，擊殺目標。"
+
+seincrease:
+  Name: 提升生命值
+  Description: "以一種特別的方法將生命值設定為高於原先生命值，而不是正常增加生命值。不會超過最大生命值。"
+  Brief: "以一種特別的方法將生命值設定為高於原先生命值，而不是正常增加生命值。不會超過最大生命值。"
+
+sebloodmark:
+  Name: 血跡
+  Description: "{OwnerName}受到攻擊的傷害提升 {Value}% 。\n{OwnerName}的回合開始時失去一層{SelfName}。"
+  Brief: "{OwnerName}受到攻擊的傷害提升 {Value}% 。\n{OwnerName}的回合開始時失去一層{SelfName}。"
+
+sebleed:
+  Name: 流血
+  Description: "{OwnerName}在受到攻擊時|減少| |n:1|% ({truecount}) 生命值。\n{OwnerName}的回合開始時失去一層{SelfName}。\n{OwnerName}目前擁有 {lifenow} 點生命值。"
+  Brief: "{OwnerName}在受到攻擊時|減少| |n:1|% 生命值(向上取整)。\n{OwnerName}的回合開始時失去一層{SelfName}。"
+
+sedeepbleed:
+  Name: 嚴重流血
+  Description: "{OwnerName}在受到攻擊時|減少| |n:2|% ({truecount}) 生命值。\n{OwnerName}的回合開始時失去一層{SelfName}。\n{OwnerName}目前擁有 {lifenow} 點生命值。"
+  Brief: "{OwnerName}在受到攻擊時|減少| |n:2|% 生命值(向上取整)。\n{OwnerName}的回合開始時失去一層{SelfName}。"
+
+sebloodsword:
+  Name: 血劍衍生物
+  Description: "每當有 {lim} 或更多層{SelfName}時，失去 {lim} 層{SelfName}以將一張|血劍|加入手中。"
+  Brief: "每當有 {lim} 或更多層{SelfName}時，失去 {lim} 層{SelfName}以將一張|血劍|加入手中。"
+
+sebloodstorm:
+  Name: 血之風暴衍生物
+  Description: "每當有 {lim} 或更多層{SelfName}時，失去 {lim} 層{SelfName}以將一張|血之風暴|加入手中。"
+  Brief: "每當有 {lim} 或更多層{SelfName}時，失去 {lim} 層{SelfName}以將一張|血之風暴|加入手中。"
+
+seatkincrease:
+  Name: 攻擊提升
+  Description: "{OwnerName}造成的攻擊傷害提升 {truecounter}%。\n{OwnerName}的回合結束時失去一半{SelfName}（向下取整至最接近的五的倍數）。"
+  Brief: "{OwnerName}造成的攻擊傷害提升|n:層數|%。\n{OwnerName}的回合結束時失去一半{SelfName}（向下取整至最接近的五的倍數）。"
+
+seaccel:
+  Name: 加速
+  Description: "{OwnerName}的下回合開始時，獲得 {Level} 層|閃避|。"
+  Brief: "{OwnerName}的下回合開始時，獲得|閃避|。"
+
+sebloodclot:
+  Name: 血塊
+  Description: "直至回合結束前，{OwnerName}受到的攻擊傷害減少 {Value}%。最多減少 |n:100|%。"
+  Brief: "直至回合結束前，{OwnerName}受到的攻擊傷害減少 {Value}%。最多減少 |n:100|%。"
+
+sedarkblood:
+  Name: 黑血衍生物
+  Description: "|一回合一次|，當{PlayerName}的生命值|減少|時，失去 |n:1| 層{SelfName}，將一張|黑血|加入手中，失去所有層{SelfName}以獲得等量的{mana}。"
+  Brief: "|一回合一次|，當{PlayerName}的生命值|減少|時，失去 |n:1| 層{SelfName}，將一張|黑血|加入手中，失去所有層{SelfName}以獲得等量的{mana}。"
+
+sebloodcontract:
+  Name: 血契
+  Description: "每當{PlayerName}的生命值|減少|時，獲得 {Level} 層|血劍衍生物|。"
+  Brief: "每當{PlayerName}的生命值|減少|時，獲得|血劍衍生物|。"
+
+seadrenaline:
+  Name: 腎上腺素
+  Description: "當{PlayerName}的生命值少於 |n:50|% ({lifeneed}) 時：每當{PlayerName}的生命值降低時，獲得 {atkincrease} 層|攻擊提升|和 {Level} 層|血塊|。"
+  Brief: "當{PlayerName}的生命值少於 |n:50|% 時：每當{PlayerName}的生命值降低時，獲得 |n:5| 層|攻擊提升|和 |n:1| 層|血塊|。"
+
+sebloodyhell:
+  Name: 血色地獄
+  Description: "每當打出一張紅色牌時，獲得 {atkincrease} 層|攻擊提升|。"
+  Brief: "每當打出一張紅色牌時，獲得 |n:10| 層|攻擊提升|。"
+
+setorn:
+  Name: 被撕開的緞帶
+  Description: "當{PlayerName}的生命值少於 |n:50|% ({lifeneed}) 時：每當{PlayerName}|閃避|傷害時，獲得 {increase} 點|攻擊提升|，|提升| {increase}% 的生命值 ({increaselife}) 。"
+  Brief: "當{PlayerName}的生命值少於 |n:50|% 時：每當{PlayerName}|閃避|傷害時，獲得 |n:10| 點|攻擊提升|，|提升| |n:10|% 的生命值。"
+
+seendurance:
+  Name: 耐力
+  Description: "當{PlayerName}的生命值少於 |n:50|% ({lifeneed}) 時：每當{PlayerName}的生命值降低時，|n:計算器|提升 |n:1| 點。\n{PlayerName}的回合開始時，失去所有的|n:計算器|以將等量的|紅血|加入手中。"
+  Brief: "當{PlayerName}的生命值少於 |n:50|% 時：每當{PlayerName}的生命值降低時，|n:計算器|提升 |n:1| 點。\n{PlayerName}的回合開始時，失去所有的|n:計算器|以將等量的|紅血|加入手中。"
+
+setearmedo:
+  Name: Tear Me Do
+  Description: "每當{PlayerName}的生命值降低時，獲得 {Level} 層|血之風暴衍生物|和 {atkincrease} 層|攻擊提升|。"
+  Brief: "每當{PlayerName}的生命值降低時，獲得 |n:1| 層|血之風暴衍生物|和 |n:10| 層|攻擊提升|。"
+
+semagia:
+  Name: 影之魔女形態
+  Description: "這輪結束前，{PlayerName}受到攻擊時獲得 {Level} 層|血劍衍生物|。"
+  Brief: "這輪結束前，{PlayerName}受到攻擊時獲得|血劍衍生物|。"
+
+segojo:
+  Name: 無量空處
+  Description: "這輪結束前，{OwnerName}免疫所有傷害。"
+  Brief: "這輪結束前，{OwnerName}免疫所有傷害。"
+
+seworldburn:
+  Name: 燃點世界
+  Description: "每當{PlayerName}對敵人施加|血跡|或|流血|，也施加 {Level} 層另外那個狀態。"
+  Brief: "每當{PlayerName}對敵人施加|血跡|或|流血|，也施加另外那個狀態。"
+
+secorruptedblood:
+  Name: 腐化的血
+  Description: "當{PlayerName}的生命值降低時，獲得 {Level} 層|黑血衍生物|。"
+  Brief: "當{PlayerName}的生命值降低時，獲得|黑血衍生物|。"
+
+sebloodofmysword:
+  Name: 吾劍之血
+  Description: "每當{PlayerName}對敵人造成攻擊傷害時，將敵人的生命值|提升| {Level} 點，獲得 {Level} 點|暫得火力|。"
+  Brief: "每當{PlayerName}對敵人造成攻擊傷害時，將敵人的生命值|提升|，獲得|暫得火力|。"
+
+seimmerse:
+  Name: 紅色浸淫
+  Description: "回合結束前，每當打出一張攻擊牌時，獲得 {Level} 層|血之風暴衍生物|。"
+  Brief: "回合結束前，每當打出一張攻擊牌時，獲得|血之風暴衍生物|。"
+
+semissribbon:
+  Name: 緞帶小姐
+  Description: "每當{PlayerName}施加|血跡|，獲得 {Level} 層|血劍衍生物|。"
+  Brief: "每當{PlayerName}施加|血跡|，獲得|血劍衍生物|。"
+
+sebleedslash:
+  Name: 血與砍
+  Description: "每當打出一張黑色牌時，獲得 {Level} 層|血劍衍生物|。"
+  Brief: "每當打出一張黑色牌時，獲得|血劍衍生物|。"
+
+semarkblood:
+  Name: 血的標記
+  Description: "沒有|血跡|的敵人受到攻擊時，施加 {Level} 層|血跡|。"
+  Brief: "沒有|血跡|的敵人受到攻擊時，施加|血跡|。"
+
+sebloodcircle:
+  Name: 血液循環
+  Description: "{PlayerName}的回合開始時，將任意數量的|被放逐|的|血|牌加入手中。"
+  Brief: "{PlayerName}的回合開始時，將任意數量的|被放逐|的|血|牌加入手中。"
+
+sedearsword:
+  Name: 親愛的寶劍
+  Description: "{PlayerName}的回合開始時，將 {Level} 張|血之風暴|加入手中。"
+  Brief: "{PlayerName}的回合開始時，將|血之風暴|加入手中。"
+
+seinfuseddarkness:
+  Name: 注入黑暗
+  Description: "回合結束前，每當打出一張|黑血|，獲得{Mana}。"
+  Brief: "回合結束前，每當打出一張|黑血|，獲得{Mana}。"
+
+senightfalls:
+  Name: 夜幕降臨
+  Description: "回合結束前，每當打出一張黑色牌時，獲得 {Level} |血劍衍生物|。"
+  Brief: "回合結束前，每當打出一張黑色牌時，獲得|血劍衍生物|。"
+
+semixedblood:
+  Name: 200% 混成血
+  Description: "回合結束前，每當打出一張|黑血|，追加打出一張|紅血| {Level} 次，每當打出一張|紅血|，獲得 {Level} 層|黑血衍生物|。"
+  Brief: "回合結束前，每當打出一張|黑血|，追加打出一張|紅血|，每當打出一張|紅血|，獲得|黑血衍生物|。"
+
+seetude:
+  Name: 我的即兇劇
+  Description: "下回合開始時，|減少|現有生命值的 |n:5|% ({heal})，對隨機敵人造成 {Damage} 點傷害 |n:3| 次。"
+  Brief: "下回合開始時，|減少|現有生命值的 |n:5|% ，對隨機敵人造成 |n:5| 點傷害 |n:3| 次。"
+
+seshadowcut:
+  Name: 暗元斬
+  Description: "{PlayerName}的回合開始時對所有敵人造成 {Damage} 點傷害 {Level} 次。"
+  ExtraDescription: "{PlayerName}的回合開始時對所有敵人造成 {Damage} 點傷害 {Level} 次。\n還未生效；只有在生效的回合結束時才會移除{SelfName}。"
+  Brief: "{PlayerName}的回合開始時對所有敵人造成 |n:5| 點傷害 |n:5| 次。"
+
+sebewater:
+  Name: Be Water
+  Description: "每當打出一張|血|牌時，從棄牌堆裡選擇至多 {Level} 張牌洗入抽牌堆，抽 {Level} 張牌。"
+  Brief: "每當打出一張|血|牌時，從棄牌堆裡選擇至多 |n:1| 張牌洗入抽牌堆，抽 |n:1| 張牌。"
+
+sequickrestore:
+  Name: 瞬間再生
+  Description: "這輪結束時，將生命值回復至 {truecounter}。"
+  Brief: "這輪結束時，回復生命值。"
+
+sepastpresent:
+  Name: 前世今生
+  Description: "下回合開始時，追加打出獲得{SelfName}後所有打出的牌，移除{SelfName}。"
+  Brief: "下回合開始時，追加打出獲得{SelfName}後所有打出的牌，移除{SelfName}。"
+
+semutualdepletion:
+  Name: 兩相消耗
+  Description: "每當{PlayerName}的生命值降低至少 |n:1|% 時，所有敵人|減少|相同%的生命值（向下取整）。"
+  Brief: "每當{PlayerName}的生命值降低至少 |n:1|% 時，所有敵人|減少|相同%的生命值（向下取整）。"
+
+seidlive:
+  Name: 會活的
+  Description: "直到這輪結束前，{PlayerName}不會死亡。"
+  Brief: "直到這輪結束前，{PlayerName}不會死亡。"
+
+sefuckyou:
+  Name: 終焉的倒計時
+  Description: "當累計降低 |n:200|% 的生命值時，獲得戰鬥勝利。\n還差 {Count}% 。"
+  Brief: "當累計降低 |n:200|% 的生命值時，獲得戰鬥勝利。"
+
+sebossheal:
+  Name: 憤怒
+  Description: "{OwnerName}的行動在生命值低於 |n:50|% 時會被加強。\n每當{PlayerName}被攻擊時，{OwnerName}的生命值|提升| |n:1|%。"
+  Brief: "{OwnerName}的行動在生命值低於 |n:50|% 時會被加強。\n每當{PlayerName}被攻擊時，{OwnerName}的生命值|提升| |n:1|%。"
+
+setwilight1:
+  Name: 死亡的邀約
+  Description: "當{OwnerName}的生命值少於 |n:50|% ({lifeneed}) 時：{PlayerName}的攻擊傷害提升已損生命值的 {Level}% （向上取整）。"
+  Brief: "當{OwnerName}的生命值少於 |n:50|% 時：{PlayerName}的攻擊傷害提升已損生命值的若干% （向上取整）。"
+
+setwilight2:
+  Name: 漸入佳境
+  Description: "當{OwnerName}的生命值少於 |n:25|% ({lifeneed}) 時：每當打出一張牌時，追加打出 {Level} 張|紅血|(不會|提升|生命值)。"
+  Brief: "當{OwnerName}的生命值少於 |n:25|% 時：每當打出一張牌時，追加打出|紅血|(不會|提升|生命值)。"
+
+setwilight3:
+  Name: 挽天傾
+  Description: "當{OwnerName}的生命值少於 |n:15|% ({lifeneed}) 時：每當打出一張牌時，獲得 {Level} 層|充能|。"
+  Brief: "當{OwnerName}的生命值少於 |n:15|% 時：每當打出一張牌時，獲得|充能|。"

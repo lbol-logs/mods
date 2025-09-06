@@ -1,0 +1,8 @@
+﻿cardshadowcut:
+  Name: 그림자 베기
+  Description: >-
+    |그림자|를 {Value1}장 손에 넣습니다.
+
+    이번 턴을 종료하고 추가 턴을 얻습니다.
+
+    그 턴 시작 시 모든 적에게 피해를 {Damage}씩 {Value2}번 줍니다.

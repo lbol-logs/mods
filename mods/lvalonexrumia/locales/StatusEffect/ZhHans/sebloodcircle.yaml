@@ -1,0 +1,4 @@
+﻿sebloodcircle:
+  Name: 血液循环
+  Description: '{PlayerName}的回合开始时，将任意数量的|被放逐|的|血|牌加入手中。'
+  Brief: '{PlayerName}的回合开始时，将任意数量的|被放逐|的|血|牌加入手中。'

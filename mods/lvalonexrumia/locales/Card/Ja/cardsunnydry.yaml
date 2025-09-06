@@ -1,0 +1,10 @@
+﻿cardsunnydry:
+  Name: カラカラ日和
+  Description: >-
+    |生命減衰|{Value1}% {healstring}
+
+    {Mana}を得る。
+
+    |血盾|{Value2}を得る。
+
+    手札に|日の照射|を|n:1|枚加える。

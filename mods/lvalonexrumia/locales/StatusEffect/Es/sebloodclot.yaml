@@ -1,0 +1,4 @@
+﻿sebloodclot:
+  Name: Coágulo de Sangre
+  Description: '{OwnerName} recibe {Value}% menos de daño de los ataques hasta el final del turno. Como máximo un |n:100|% menos de daño.'
+  Brief: '{OwnerName} recibe {Value}% menos de daño de los ataques hasta el final del turno. Como máximo un |n:100|% menos de daño.'

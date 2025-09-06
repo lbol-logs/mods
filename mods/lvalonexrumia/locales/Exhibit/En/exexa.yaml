@@ -1,0 +1,9 @@
+﻿exexa:
+  Name: Honored Darkness
+  Description: >-
+    Adds {Mana} to the mana base. Cards unique to |EX Rumia| are added to the card pool.
+
+    At the start of the first turn each combat, apply {Value1} |Blood Mark| to each enemy.
+
+    {PlayerName}'s attack damage is increased by {Value2}% of life lost (rounded up).
+  FlavorText: I alone am the honored one throughout heaven and earth? Is that so?

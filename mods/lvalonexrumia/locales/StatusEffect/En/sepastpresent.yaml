@@ -1,0 +1,4 @@
+﻿sepastpresent:
+  Name: Past and Present
+  Description: At the start of the next turn, play cards played after {SelfName} is added, then remove {SelfName}.
+  Brief: At the start of the next turn, play cards played after {SelfName} is added, then remove {SelfName}.

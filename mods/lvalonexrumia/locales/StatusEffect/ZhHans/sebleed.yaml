@@ -1,0 +1,12 @@
+﻿sebleed:
+  Name: 流血
+  Description: >-
+    {OwnerName}在受到攻击时|减少| |n:1|% ({truecount}) 生命值。
+
+    {OwnerName}的回合开始时失去一层{SelfName}。
+
+    {OwnerName}目前拥有 {lifenow} 点生命值。
+  Brief: >-
+    {OwnerName}在受到攻击时|减少| |n:1|% 生命值(向上取整)。
+
+    {OwnerName}的回合开始时失去一层{SelfName}。

@@ -1,0 +1,4 @@
+﻿seetude:
+  Name: 私の練習曲
+  Description: '{PlayerName}の次のターン開始時、現在のライフから|生命減衰||n:5|% ({heal})、ランダムな敵に{Damage}ダメージを|n:3|回与える。'
+  Brief: '{PlayerName}の次のターン開始時、現在のライフから|生命減衰||n:5|% 、ランダムな敵に{Damage}ダメージを|n:3|回与える。'

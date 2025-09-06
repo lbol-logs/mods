@@ -1,0 +1,14 @@
+﻿carddarkblood:
+  Name: Sangre Oscura
+  Description: >-
+    |Incrementa| {Value1}% {healstring}de vida.
+
+    Roba {Value2} carta{Value2:plural one='' other='s'}.
+
+    Si {PlayerName} no tiene |Acelerar|, gana {Value2} |Acelerar|.
+  UpgradedDescription: >-
+    |Incrementa| {Value1}% {healstring}de vida.
+
+    Roba {Value2} carta{Value2:plural one='' other='s'}.
+
+    Gana {Value2} de |Evasión|.

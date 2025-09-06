@@ -1,0 +1,4 @@
+﻿sebloodclot:
+  Name: 혈전
+  Description: 라운드 종료 시까지 {OwnerName}가 받는 공격 피해가 {Value}% 감소합니다. 최대 |n:100|%까지 감소합니다.
+  Brief: 라운드 종료 시까지 {OwnerName}가 받는 공격 피해가 {Value}% 감소합니다. 최대 |n:100|%까지 감소합니다.

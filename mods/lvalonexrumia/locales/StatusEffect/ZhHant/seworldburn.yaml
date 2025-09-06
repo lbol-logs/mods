@@ -1,0 +1,4 @@
+﻿seworldburn:
+  Name: 燃點世界
+  Description: 每當{PlayerName}對敵人施加|血跡|或|流血|，也施加 {Level} 層另外那個狀態。
+  Brief: 每當{PlayerName}對敵人施加|血跡|或|流血|，也施加另外那個狀態。

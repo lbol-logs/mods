@@ -1,0 +1,6 @@
+﻿cardpastpresent:
+  Name: Pasado y Presente
+  Description: >-
+    Inflige {Damage} de daño.
+
+    Al comienzo del siguiente turno, se juegan las cartas jugadas después de que haya sido jugado {SelfName}.

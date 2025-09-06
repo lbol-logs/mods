@@ -1,0 +1,8 @@
+﻿cardsonanoka:
+  Name: 그런건가?
+  Description: >-
+    현재 체력의 {Value1}%를 {healstring}|상실|합니다.
+
+    |방어|를 {Block} 얻습니다.
+
+    |그레이즈|를 {Value2} 얻습니다.

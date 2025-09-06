@@ -1,0 +1,4 @@
+﻿sedarkblood:
+  Name: 어둠의 피 토큰
+  Description: '|턴당 1회|, {PlayerName}의 체력이 감소할 때 {SelfName}을 |n:1| 잃고 |어둠의 피|를 손에 추가합니다. 모든 {SelfName}을 잃고 해당 수만큼 {mana}를 얻습니다.'
+  Brief: '|턴당 1회|, {PlayerName}의 체력이 감소할 때 {SelfName}을 |n:1| 잃고 |어둠의 피|를 손에 추가합니다. 모든 {SelfName}을 잃고 해당 수만큼 {mana}를 얻습니다.'

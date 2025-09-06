@@ -1,0 +1,6 @@
+﻿cardbloodburn:
+  Name: Blood Burn
+  Description: >-
+    |Decrease| {Value1}% {healstring}life.
+
+    Gain {Mana}.

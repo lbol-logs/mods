@@ -1,0 +1,12 @@
+﻿sebleed:
+  Name: 出血
+  Description: >-
+    {OwnerName}は攻撃される度にライフを|n:1|%({truecount})失う。
+
+    {OwnerName}のターン開始時に、{SelfName}|n:1|を失う。
+
+    {OwnerName}の現在のライフは{lifenow}。
+  Brief: >-
+    {OwnerName}は攻撃される度にライフを|n:1|%(切り上げ)失う。
+
+    {OwnerName}のターン開始時に、{SelfName}|n:1|を失う。

@@ -1,0 +1,4 @@
+﻿sedarkblood:
+  Name: Dark Blood Token
+  Description: "|Once per turn|, when {PlayerName}'s life decreases, lose |n:1| {SelfName} and add a |Dark Blood| to the hand, lose all {SelfName} to gain that many {mana}."
+  Brief: "|Once per turn|, when {PlayerName}'s life decreases, lose |n:1| {SelfName} and add a |Dark Blood| to the hand, lose all {SelfName} to gain that many {mana}."

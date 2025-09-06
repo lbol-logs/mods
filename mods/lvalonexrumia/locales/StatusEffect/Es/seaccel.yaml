@@ -1,0 +1,4 @@
+﻿seaccel:
+  Name: Acelerar
+  Description: Al comienzo del próximo turno de {OwnerName}, gana {Level} de |Evasión|.
+  Brief: Al comienzo del próximo turno de {OwnerName}, gana |Evasión|.

@@ -1,0 +1,14 @@
+﻿cardchew:
+  Name: Muerde un Poco
+  Description: >-
+    |Reduce| {Value1}% {healstring}de vida.
+
+    Inflige {Damage} de daño a cada enemigo {battleatk} ve{battleatk:plural one='z' other='ces'}.
+
+    |Crecimiento|: Inflige daño {Value2} ve{Value2:plural one='z' other='ces'} más.
+  NonbattleDescription: >-
+    |Reduce| {Value1}% {healstring}de vida.
+
+    Inflige {Damage} de daño a cada enemigo |n:2| veces.
+
+    |Crecimiento|: Inflige daño {Value2} ve{Value2:plural one='z' other='ces'} más.

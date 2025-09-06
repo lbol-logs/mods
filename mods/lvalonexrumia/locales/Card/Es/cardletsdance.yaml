@@ -1,0 +1,8 @@
+﻿cardletsdance:
+  Name: ¡Que Comience el Baile!
+  Description: >-
+    Aplica {Value1} |Marca{Value1:plural one='' other='s'} de Sangre| a cada enemigo.
+
+    Inflige {Damage} de daño a cada enemigo {Value2} ve{Value2:plural one='z' other='ces'}.
+
+    Gana {Value2} de |Evasión|.

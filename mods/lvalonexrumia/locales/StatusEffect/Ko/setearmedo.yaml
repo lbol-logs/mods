@@ -1,0 +1,4 @@
+﻿setearmedo:
+  Name: 날 찢어줘
+  Description: '{PlayerName}의 체력이 감소할 때마다 |혈폭풍 토큰| {Level}과 |공격력 증가|를 {atkincrease} 얻습니다.'
+  Brief: '{PlayerName}의 체력이 감소할 때마다 |혈폭풍 토큰| |n:1|, |공격력 증가|를 |n:10|을 얻습니다.'

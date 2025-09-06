@@ -1,0 +1,4 @@
+﻿seadrenaline:
+  Name: Adrenalina
+  Description: 'Mientras {PlayerName} tenga menos del |n:50|% ({lifeneed}) de vida: Siempre que la vida de {PlayerName} es reducido, gana {atkincrease} de |Incremento de Ataque| y {Level} |Coágulo de Sangre|.'
+  Brief: 'Mientras {PlayerName} tenga menos del |n:50|% de vida: Siempre que la vida de {PlayerName} es reducido, gana |n:5| de |Incremento de Ataque| y |n:1| |Coágulo de Sangre|.'

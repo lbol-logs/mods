@@ -1,0 +1,6 @@
+﻿cardshadowcut:
+  Name: Shadow Cut
+  Description: >-
+    Add {Value1} |Shadow{Value1:plural one='' other='s'}| to the hand.
+
+    End this turn. Then, take an extra turn. At the start of that extra turn, deal {Damage} damage to each enemy {Value2} time{Value2:plural one='' other='s'}.

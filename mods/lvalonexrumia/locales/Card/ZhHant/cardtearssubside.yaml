@@ -1,0 +1,8 @@
+﻿cardtearssubside:
+  Name: 淚止之時
+  Description: >-
+    |減少| |n:5|% {healstring}生命值。
+
+    抽 {Value2} 張牌。
+
+    抽到每張紅色牌獲得 {Value1} 層|血塊|。

@@ -1,0 +1,3 @@
+﻿cardtearmedo:
+  Name: Tear Me Do
+  Description: Whenever {PlayerName}'s life decreases, gain {Value1} |Blood Storm Token| and {Value2} |Attack Increase|.

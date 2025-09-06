@@ -1,0 +1,10 @@
+﻿seatkincrease:
+  Name: 攻擊提升
+  Description: >-
+    {OwnerName}造成的攻擊傷害提升 {truecounter}%。
+
+    {OwnerName}的回合結束時失去一半{SelfName}（向下取整至最接近的五的倍數）。
+  Brief: >-
+    {OwnerName}造成的攻擊傷害提升|n:層數|%。
+
+    {OwnerName}的回合結束時失去一半{SelfName}（向下取整至最接近的五的倍數）。

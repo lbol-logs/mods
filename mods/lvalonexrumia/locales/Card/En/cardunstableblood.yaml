@@ -1,0 +1,8 @@
+﻿cardunstableblood:
+  Name: Unstable Blood
+  Description: >-
+    |Decrease| {Value1}% {healstring}life.
+
+    Apply |n:1| |Bleed| to each enemy. For each enemy that already has |Bleed|, gain {Value2} |Blood Storm Token|.
+
+    Deal {Damage} damage to each enemy.

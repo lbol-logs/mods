@@ -1,0 +1,16 @@
+﻿cardemergency:
+  Name: 緊急遮蓋
+  Description: >-
+    |減少|現有生命值的 {Value1}% {healstring}。
+
+    獲得 {Block} 點|格擋|。
+
+    獲得 {Value2} |黑血衍生物|。
+  UpgradedDescription: >-
+    |減少|現有生命值的 {Value1}% {healstring}。
+
+    獲得 {Block} 點|格擋|。
+
+    獲得 {Value2} |黑血衍生物|。
+
+    如果有敵人的意圖為攻擊，獲得 {Value1} 層|血塊|。

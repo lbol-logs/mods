@@ -1,0 +1,7 @@
+﻿cardmarkblood:
+  Name: 我が血を刻め
+  Description: '|血の印|がない敵が攻撃される度に、|血の印|{Value2}を与える。'
+  UpgradedDescription: >-
+    |血の印|がない敵が攻撃される度に、|血の印|{Value2}を与える。
+
+    敵全体に|血の印|{Value2}を与える。

@@ -1,0 +1,4 @@
+﻿cardmutualdepletion:
+  Name: 相互消耗
+  Description: '{PlayerName}の体力が|n:1|%以上減少したとき、全ての敵も同じ割合(小数点以下切り捨て)のライフを失う。'
+  UpgradedDescription: '{PlayerName}の体力が|n:1|%以上減少したとき、全ての敵も同じ割合(小数点以下切り捨て)のライフを失う。累計で|n:200|%の体力が減少すると、戦闘に勝利します。'

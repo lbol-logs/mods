@@ -1,0 +1,8 @@
+﻿cardbefallen:
+  Name: Sangre de la Calamidad
+  Description: >-
+    Gana {Value2} |Emblema{Value2:plural one='' other='s'} de Sangre Oscura|.
+
+    |Reduce| {Value1}% {healstring}de la vida actual.
+
+    Agrega |n:1| |Sombra| a la mano.

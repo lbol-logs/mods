@@ -1,0 +1,4 @@
+﻿sebloodofmysword:
+  Name: Blood of My Sword
+  Description: Whenever {OwnerName} deals attack damage to an enemy, |increase| the enemy's life by {Level}, gain {Level} |Temporary Firepower|.
+  Brief: Whenever {OwnerName} deals attack damage to an enemy, |increase| the enemy's life, gain |Temporary Firepower|.

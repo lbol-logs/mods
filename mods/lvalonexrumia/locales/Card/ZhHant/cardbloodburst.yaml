@@ -1,0 +1,8 @@
+﻿cardbloodburst:
+  Name: 血液爆發
+  Description: >-
+    |減少| {Value1}% {healstring}生命值。
+
+    對所有敵人施加 |n:1| 層|流血| {Value2} 次。
+
+    對所有擁有|流血|的敵人造成 {Damage} 點傷害 |n:3| 次。

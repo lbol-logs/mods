@@ -1,0 +1,6 @@
+﻿cardbloodsucker:
+  Name: 吸血吸的
+  Description: >-
+    造成 {Damage} 點傷害。
+
+    將 {Value1} 張|紅血|加入手中。

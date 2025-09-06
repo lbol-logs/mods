@@ -1,0 +1,4 @@
+﻿sebloodstorm:
+  Name: 血の嵐の破片
+  Description: '{SelfName}が|n:{lim}|以上あるとき、{SelfName}を|n:{lim}|消費し、手札に|血の嵐|を加える。'
+  Brief: '{SelfName}が{lim}以上あるとき、{lim}個を失って手札に|血の嵐|を加える。'

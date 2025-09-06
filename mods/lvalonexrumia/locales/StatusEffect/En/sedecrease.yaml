@@ -1,0 +1,4 @@
+﻿sedecrease:
+  Name: Decrease Life
+  Description: A special method that sets life to be a lower amount instead of losing life normally. Kills when life is set to |n:<= 0|.
+  Brief: A special method that sets life to be a lower amount instead of losing life normally. Kills when life is set to |n:<= 0|.

@@ -1,0 +1,11 @@
+﻿cardbloodstorm:
+  Name: 血の嵐
+  Description: >-
+    敵全体に{Damage}ダメージを与える。
+
+    敵全体に|出血|{Value1}を与える。
+  UpgradedDescription: >-
+    敵全体に{Damage}ダメージを与える。
+
+    敵全体に|出血|{Value1}と|血の印|{Value1}を与える。
+  DetailText: プレイされることなく{SelfName}が廃棄されるとき、{SelfName}をプレイする。

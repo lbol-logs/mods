@@ -1,0 +1,14 @@
+﻿carddarkblood:
+  Name: 黑血
+  Description: >-
+    |提升| {Value1}% {healstring}生命值。
+
+    抽 {Value2} 张牌。
+
+    如果{PlayerName}没有|加速|，则获得 {Value2} 层|加速|。
+  UpgradedDescription: >-
+    |提升| {Value1}% {healstring}生命值。
+
+    抽 {Value2} 张牌。
+
+    获得 {Value2} 层|闪避|。

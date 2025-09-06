@@ -1,0 +1,8 @@
+﻿cardbloodspeed:
+  Name: Aceleración Sangrienta
+  Description: >-
+    |Reduce| {Value1}% de la vida actual |n:2| veces{healstring2}.
+
+    Gana |n:1| |Acelerar|.
+
+    Roba {Value2} cartas.

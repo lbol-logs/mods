@@ -1,0 +1,6 @@
+﻿cardnightfalls:
+  Name: Cae la Noche
+  Description: >-
+    Hasta el final del turno, siempre que se juegue una carta negra, gana {Value1} |Emblema de Espada de Sangre|.
+
+    Coloca {Value2} carta{Value2:plural one=' negra aleatoria' other='s negras aleatorias'} de la pila de robo a la mano, luego gana esa misma cantidad de {Mana}.

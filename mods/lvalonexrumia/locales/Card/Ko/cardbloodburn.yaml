@@ -1,0 +1,6 @@
+﻿cardbloodburn:
+  Name: 피의 연소
+  Description: >-
+    체력을 {Value1}% {healstring}만큼 |상실|합니다.
+
+    {Mana}를 얻습니다.

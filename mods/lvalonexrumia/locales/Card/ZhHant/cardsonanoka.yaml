@@ -1,0 +1,8 @@
+﻿cardsonanoka:
+  Name: 是這樣嗎？
+  Description: >-
+    |減少|現有生命值的 {Value1}% {healstring}。
+
+    獲得 {Block} 點|格擋|。
+
+    獲得 {Value2} 層|閃避|。

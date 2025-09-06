@@ -1,0 +1,6 @@
+﻿cardcrimsondomain:
+  Name: 腥紅領域
+  Description: >-
+    對所有敵人施加 {Value1} 層|流血|和|血跡|。如敵人已有|流血|，則施加 {Value1} 層|嚴重流血|和|血跡|。
+
+    將 {Value1} 張|血之風暴|加入手中。

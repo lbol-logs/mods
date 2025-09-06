@@ -1,0 +1,8 @@
+﻿cardgojo:
+  Name: 無量空処
+  Description: >-
+    現在の体力から|生命減衰|{Value1}%を|n:2|回。 {healstring2} 
+
+    ラウンド終了まで{PlayerName}はライフを失わない。
+
+    |追加ターン|{Value2}を得る。

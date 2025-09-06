@@ -1,0 +1,8 @@
+﻿cardbloodlaser:
+  Name: Blood laser
+  Description: >-
+    |Decrease| {Value1}% {healstring}of current life.
+
+    Apply {Value2} |Blood Mark|.
+
+    Deal {Damage} damage.

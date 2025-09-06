@@ -1,0 +1,6 @@
+﻿cardlowtide:
+  Name: 引き潮
+  Description: >-
+    現在のライフから|生命減衰|{Value1}% {healstring}
+
+    山札、捨て札、|廃棄場|からそれぞれ最大{Value2}枚ずつ手札に加える。

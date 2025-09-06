@@ -1,0 +1,10 @@
+﻿sebloodmark:
+  Name: Marca de Sangre
+  Description: >-
+    {OwnerName} recibe {Value}% más de daño de los ataques.
+
+    Pierde |n:1| {SelfName} al comienzo del turno de {OwnerName}.
+  Brief: >-
+    {OwnerName} recibe {Value}% más de daño de los ataques.
+
+    Pierde |n:1| {SelfName} al comienzo del turno de {OwnerName}.

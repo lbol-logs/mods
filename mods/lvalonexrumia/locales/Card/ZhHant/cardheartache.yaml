@@ -1,0 +1,6 @@
+﻿cardheartache:
+  Name: 心痛
+  Description: >-
+    |減少| {Value1}% {healstring}生命值。
+
+    獲得 {Block} 點|格擋|。

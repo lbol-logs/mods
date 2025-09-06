@@ -1,0 +1,4 @@
+﻿sebloodclot:
+  Name: 血塊
+  Description: 直至回合結束前，{OwnerName}受到的攻擊傷害減少 {Value}%。最多減少 |n:100|%。
+  Brief: 直至回合結束前，{OwnerName}受到的攻擊傷害減少 {Value}%。最多減少 |n:100|%。

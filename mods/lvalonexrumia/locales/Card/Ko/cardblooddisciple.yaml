@@ -1,0 +1,6 @@
+﻿cardblooddisciple:
+  Name: 피의 사도
+  Description: >-
+    |체력|을 {Value1}% |상실|합니다.
+
+    손에서 최대 {Value2}장의 카드를 소멸시킵니다. 그 수만큼 |혈전|을 얻고 같은 수의 |진홍의 피|를 손에 추가합니다.

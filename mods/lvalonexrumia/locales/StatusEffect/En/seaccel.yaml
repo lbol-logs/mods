@@ -1,0 +1,4 @@
+﻿seaccel:
+  Name: Accelerate
+  Description: At the start of {OwnerName}'s next turn, gain {Level} |Graze|.
+  Brief: At the start of {OwnerName}'s next turn, gain |Graze|.

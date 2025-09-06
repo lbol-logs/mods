@@ -1,0 +1,8 @@
+﻿cardletsdance:
+  Name: 踊りましょう
+  Description: >-
+    敵全体に|血の印|{Value1}を与える。
+
+    敵全体に{Damage}ダメージを{Value2}回与える。
+
+    |グレイズ|{Value2}を得る。

@@ -1,0 +1,6 @@
+﻿carddarkexpulsion:
+  Name: Dark Expulsion
+  Description: >-
+    Gain {Value2} |Dark Blood Token|.
+
+    Add {Value1} |Shadow{Value1:plural one='' other='s'}| to the hand.

@@ -1,0 +1,14 @@
+﻿cardnoradrenaline:
+  Name: Noradrenalina
+  Description: >-
+    |Reduce| {Value1}% {healstring}de vida.
+
+    Inflige {Damage} de daño a cada enemigo con |Marca de Sangre| o |Sangrado| |n:3| veces.
+
+    Si {PlayerName} tiene menos del |n:50|% {needstring}de vida, agrega {Value2} |Sangre{Value2:plural one='' other='s'} Carmesí| a la mano.
+  UpgradedDescription: >-
+    |Reduce| {Value1}% {healstring}de vida.
+
+    Inflige {Damage} de daño a cada enemigo |n:3| veces.
+
+    Si {PlayerName} tiene menos del |n:50|% {needstring}de vida, agrega {Value2} |Sangre{Value2:plural one='' other='s'} Carmesí| a la mano.

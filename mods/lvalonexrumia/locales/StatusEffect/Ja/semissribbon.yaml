@@ -1,0 +1,4 @@
+﻿semissribbon:
+  Name: リボン嬢
+  Description: '{PlayerName}が敵に|血の印|を与える度に、|血の剣の破片|{Level}を得る。'
+  Brief: '{PlayerName}が敵に|血の印|を与える度に、|血の剣の破片|を得る。'

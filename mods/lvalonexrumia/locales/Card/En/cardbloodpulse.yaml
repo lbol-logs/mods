@@ -1,0 +1,18 @@
+﻿cardbloodpulse:
+  Name: Blood Pulse
+  Description: >-
+    |Decrease| {Value1}% {healstring}life |n:2| times.
+
+    Apply |n:1| |Bleed| to each enemy.
+
+    Deal {Damage} damage to each enemy {Value2} time{Value2:plural one='' other='s'}.
+
+    |Debut|: |Exile| any number of cards in hand, add that many |Crimson Blood| to the hand.
+  ExtraDescription1: >-
+    |Decrease| {Value1}% {healstring}life |n:2| times.
+
+    Apply |n:1| |Bleed| to each enemy.
+
+    Deal {Damage} damage to each enemy {Value2} time{Value2:plural one='' other='s'}.
+
+    |d:Debut: Exile any number of cards in hand, add that many Crimson Blood to the hand.|

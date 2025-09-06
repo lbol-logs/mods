@@ -1,0 +1,4 @@
+﻿semutualdepletion:
+  Name: Agotación Mutua
+  Description: Siempre que la vida de {PlayerName} se reduce en al menos |n:1|%, todos los enemigos se |Reducen| el mismo % de vida (redondeado hacia abajo).
+  Brief: Siempre que la vida de {PlayerName} se reduce en al menos |n:1|%, todos los enemigos |Reducen| el mismo % de vida (redondeado hacia abajo).

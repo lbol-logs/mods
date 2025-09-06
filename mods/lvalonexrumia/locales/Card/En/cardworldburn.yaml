@@ -1,0 +1,8 @@
+﻿cardworldburn:
+  Name: The World Burns
+  Description: Whevener {PlayerName} applies |Blood Mark| or |Bleed| to an enemy, also apply {Value1} of the other.
+  UpgradedDescription: >-
+    Whevener {PlayerName} applies |Blood Mark| or |Bleed| to an enemy, also apply {Value1} of the other.
+
+    Apply {Value1} |Blood Mark| and |Bleed| to each enemy.
+  DetailText: no ofc it doesnt infinite with itself lmao

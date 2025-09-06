@@ -1,0 +1,4 @@
+﻿seadrenaline:
+  Name: 腎上腺素
+  Description: 當{PlayerName}的生命值少於 |n:50|% ({lifeneed}) 時：每當{PlayerName}的生命值降低時，獲得 {atkincrease} 層|攻擊提升|和 {Level} 層|血塊|。
+  Brief: 當{PlayerName}的生命值少於 |n:50|% 時：每當{PlayerName}的生命值降低時，獲得 |n:5| 層|攻擊提升|和 |n:1| 層|血塊|。

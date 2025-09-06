@@ -1,0 +1,7 @@
+﻿cardkaleido:
+  Name: 殘虹亂舞
+  Description: >-
+    |每支付一點不同顔色的費用|：|減少|現有生命值的 {Value1}% ，所有敵人|減少| {Value1}% 生命值 (最少 {Value2} 點生命值) 。
+
+    |退治|：獲得等於打出{SelfName}所支付的費用總數的最大生命值。
+  DetailText: 打出{SelfName}後而它的效果處理完成前，擊敗任何非|使魔|的敵人都會觸發{SelfName}的|退治|效果。

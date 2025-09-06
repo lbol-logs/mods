@@ -1,0 +1,6 @@
+﻿cardlowtide:
+  Name: Marea Baja
+  Description: >-
+    |Reduce| {Value1}% {healstring}de la vida actual.
+
+    Agrega hasta {Value2} carta{Value2:plural one='' other='s'} de la pila de robo, pila de descarte y cartas |Exiliadas| hacia la mano.

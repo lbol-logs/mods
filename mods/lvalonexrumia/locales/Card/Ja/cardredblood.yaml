@@ -1,0 +1,14 @@
+﻿cardredblood:
+  Name: 深紅の血
+  Description: >-
+    もし{PlayerName}のライフが|n:50|% {needstring}ライフより少ないなら, |生命増幅|{Value1}% {healstring} 
+
+    {Mana}を得る。
+
+    |出血|状態の全ての敵に{Damage}ダメージ(|精密|攻撃)を与える。
+  UpgradedDescription: >-
+    |生命増幅|{Value1}% {healstring} 
+
+    {Mana}を得る。
+
+    |出血|状態の全ての敵に{Damage}ダメージ(|精密|攻撃)を与える。

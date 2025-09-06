@@ -1,0 +1,8 @@
+﻿cardcrimsonray:
+  Name: Crimson Ray
+  Description: >-
+    |Decrease| {Value1}% {healstring}life.
+
+    Apply {Value2} |Bleed|.
+
+    Deal {Damage} damage.

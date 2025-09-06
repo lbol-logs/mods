@@ -1,0 +1,8 @@
+﻿cardhakureimiko:
+  Name: 那位博麗巫女
+  Description: >-
+    {FriendS}|在手中時|：所有臨時獲得的卡牌都會|升級|。
+
+    {FriendP}|提升| {Value1}% {healstring}生命值。
+  ExtraDescription1: '{FriendA}從|放逐|區選擇一張牌，|升級|它，將它和{SelfName}置入手中。'
+  ExtraDescription3: '{FriendU}所有卡牌失去|放逐|和|虛無|。'

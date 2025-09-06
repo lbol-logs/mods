@@ -1,0 +1,8 @@
+﻿cardbloodmanip:
+  Name: Blood Manipulation
+  Description: >-
+    |Decrease| |n:5|% {healstring}life.
+
+    Gain {Value1} |Blood Clot|.
+
+    Apply {Value2} |Blood Mark| and |Bleed| to each enemy.

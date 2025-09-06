@@ -1,0 +1,8 @@
+﻿cardcrimsondomain:
+  Name: 紅の支配
+  Description: >-
+    敵全体に|出血|{Value1}と|血の印|{Value1}を与える。
+
+    もし敵が|出血|状態にあるならば、代わりに|大量出血|{Value1}と|血の印|{Value1}を与える。 
+
+    手札に|血の嵐|を{Value1}枚加える。

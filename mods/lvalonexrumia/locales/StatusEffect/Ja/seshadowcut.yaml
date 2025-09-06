@@ -1,0 +1,8 @@
+﻿seshadowcut:
+  Name: 影斬り
+  Description: '{PlayerName}のターン開始時、ランダムな敵に{Damage}ダメージを{Level}回与える。'
+  ExtraDescription: >-
+    {PlayerName}のターン開始時、ランダムな敵に{Damage}ダメージを{Level}回与える。
+
+    {SelfName}は非アクティブ状態となり、効果を発動したターンの終了後にのみ取り除かれる。
+  Brief: '{PlayerName}のターン開始時、|n:5|ダメージをランダムな敵に|n:5|回与える。'

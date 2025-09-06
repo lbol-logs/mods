@@ -1,0 +1,4 @@
+﻿sebloodcontract:
+  Name: 血契
+  Description: 每当{PlayerName}的生命值|减少|时，获得 {Level} 层|血剑衍生物|。
+  Brief: 每当{PlayerName}的生命值|减少|时，获得|血剑衍生物|。

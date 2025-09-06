@@ -1,0 +1,10 @@
+﻿sebossheal:
+  Name: 愤怒
+  Description: >-
+    {OwnerName}的行动在生命值低于 |n:50|% 时会被加强。
+
+    每当{PlayerName}被攻击时，{OwnerName}的生命值|提升| |n:1|%。
+  Brief: >-
+    {OwnerName}的行动在生命值低于 |n:50|% 时会被加强。
+
+    每当{PlayerName}被攻击时，{OwnerName}的生命值|提升| |n:1|%。

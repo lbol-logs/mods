@@ -1,0 +1,6 @@
+﻿cardintodarkness:
+  Name: En la Oscuridad
+  Description: >-
+    Aplica {Value1} |Marca{Value1:plural one='' other='s'} de Sangre|.
+
+    Inflige {Damage} de daño a cada enemigo con |Marca de Sangre|.

@@ -1,0 +1,9 @@
+﻿exexa:
+  Name: Ocuridad Glorificada
+  Description: >-
+    Agrega {BaseMana} al base de maná. Cartas exclusivas de |EX Rumia| se agregan al grupo de cartas.
+
+    Al comienzo del primer turno de cada combate, aplica {Value1} |Marca{Value1:plural one='' other='s'} de Sangre| a cada enemigo.
+
+    El daño de los ataques de {PlayerName} aumenta en un {Value2}% de la vida que se ha perdido (redondeado hacia arriba).
+  FlavorText: ¿Soy yo el único digno de honor entre el cielo y la tierra? ¿Eso es así?

@@ -1,0 +1,3 @@
+﻿cardadrenaline:
+  Name: Adrenalina
+  Description: "|Mientras {PlayerName} tenga menos del| |n:50|% {needstring}|de vida|: Cada vez que la vida de {PlayerName} se reduce, gana {Value1} |Incrementos de Ataque| y {Value2} |Coágulo{Value2:plural one='' other='s'} de Sangre|."

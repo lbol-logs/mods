@@ -1,0 +1,10 @@
+﻿sebossheal:
+  Name: 激昂
+  Description: >-
+    {OwnerName}のライフが|n:50|%未満のとき、行動が強化される。
+
+    {PlayerName}が攻撃されるたびに、{OwnerName}のライフが|n:1|%|回復|する。
+  Brief: >-
+    {OwnerName}のライフが|n:50|%未満のとき、行動が強化される。
+
+    {PlayerName}が攻撃されるたびに、{OwnerName}のライフが|n:1|%|回復|する。

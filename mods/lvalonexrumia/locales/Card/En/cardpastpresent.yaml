@@ -1,0 +1,6 @@
+﻿cardpastpresent:
+  Name: Past and Present
+  Description: >-
+    Deal {Damage} damage.
+
+    At the start of the next turn, play cards played after {SelfName} is played.

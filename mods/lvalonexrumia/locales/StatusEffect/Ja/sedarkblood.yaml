@@ -1,0 +1,4 @@
+﻿sedarkblood:
+  Name: 闇の血の雫
+  Description: '|各ターンに1回まで|、{PlayerName}のライフが減少したとき、{SelfName}|n:1|失い、手札に|闇の血|を1枚加える。その後、すべての{SelfName}を失い、その数だけ{mana}を得る。'
+  Brief: '|各ターンに1回まで|、{PlayerName}のライフが減少したとき、{SelfName}|n:1|失い、手札に|闇の血|を1枚加える。その後、すべての{SelfName}を失い、その数だけ{mana}を得る。'

@@ -1,0 +1,8 @@
+﻿extrueribbon:
+  Name: 真正的緞帶
+  Description: >-
+    提供基礎法力{BaseMana}。
+
+    每場戰鬥的最開始時，所有敵人|減少| {Value2}% 生命值 (最少 {Value2} 點生命值) {Value1} 次。
+
+    每場戰鬥的最開始時，對所有敵人施加 {Value1} 層|血跡|和|嚴重流血|。

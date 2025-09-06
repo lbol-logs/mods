@@ -1,0 +1,16 @@
+﻿cardtenshaded:
+  Name: Tajada de las 10 Sombras
+  Description: >-
+    |Reduce| {Value1}% {healstring}de la vida actual.
+
+    Inflige {Damage} de daño a un enemigo aleatorio {Value2} ve{Value2:plural one='z' other='ces'}.
+
+    Agrega {Value3} |Sombra{Value3:plural one='' other='s'}| a la mano.
+  UpgradedDescription: >-
+    |Reduce| {Value1}% {healstring}de la vida actual.
+
+    Aplica |n:1| |Marca de Sangre| a cada enemigo.
+
+    Inflige {Damage} de daño a un enemigo aleatorio {Value2} ve{Value2:plural one='z' other='ces'}.
+
+    Agrega {Value3} |Sombra{Value3:plural one='' other='s'}| a la mano.

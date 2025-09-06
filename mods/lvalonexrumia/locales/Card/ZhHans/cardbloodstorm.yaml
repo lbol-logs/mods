@@ -1,0 +1,7 @@
+﻿cardbloodstorm:
+  Name: 血之风暴
+  Description: >-
+    对所有敌人造成 {Damage} 点伤害。
+
+    对所有敌人施加 {Value1} 层|流血|和|血迹|。
+  DetailText: 当{SelfName}在手牌未被打出而被|放逐|时，打出{SelfName}。

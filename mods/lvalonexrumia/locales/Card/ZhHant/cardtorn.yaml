@@ -1,0 +1,6 @@
+﻿cardtorn:
+  Name: 被撕開的緞帶
+  Description: >-
+    |當{PlayerName}的生命值少於| |n:50|% {needstring}|時|：每當{PlayerName}|閃避|傷害時，獲得 {Value1} 層|攻擊提升|, |提升| {Value1}% 的生命值{healstrings}。
+
+    獲得 {Value2} 層|閃避|。

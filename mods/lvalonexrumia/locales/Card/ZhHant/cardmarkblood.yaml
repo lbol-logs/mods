@@ -1,0 +1,7 @@
+﻿cardmarkblood:
+  Name: 血的標記
+  Description: 沒有|血跡|的敵人受到攻擊時，施加 {Value2} 層|血跡|。
+  UpgradedDescription: >-
+    沒有|血跡|的敵人受到攻擊時，施加 {Value2} 層|血跡|。
+
+    對所有敵人施加 {Value2} 層|血跡|。

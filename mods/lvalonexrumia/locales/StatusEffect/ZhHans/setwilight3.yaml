@@ -1,0 +1,4 @@
+﻿setwilight3:
+  Name: 挽天倾
+  Description: 当{OwnerName}的生命值少于 |n:15|% ({lifeneed}) 时：每当打出一张牌时，获得 {Level} 层|充能|。
+  Brief: 当{OwnerName}的生命值少于 |n:15|% 时：每当打出一张牌时，获得|充能|。

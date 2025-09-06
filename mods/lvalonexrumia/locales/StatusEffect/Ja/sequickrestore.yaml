@@ -1,0 +1,4 @@
+﻿sequickrestore:
+  Name: 即時回復
+  Description: このラウンド終了時に、ライフを{truecounter}回復する。
+  Brief: このラウンド終了時に、ライフを回復する。

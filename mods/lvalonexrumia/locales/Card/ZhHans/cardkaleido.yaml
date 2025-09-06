@@ -1,0 +1,7 @@
+﻿cardkaleido:
+  Name: 残虹乱舞
+  Description: >-
+    |每支付一点不同颜色的费用|：|减少|现有生命值的 {Value1}% ，所有敌人|减少| {Value1}% 生命值 (最少 {Value2} 点生命值) 。
+
+    |退治|：获得等于打出{SelfName}所支付的费用总数的最大生命值。
+  DetailText: 打出{SelfName}后而它的效果处理完成前，击败任何非|使魔|的敌人都会触发{SelfName}的|退治|效果。

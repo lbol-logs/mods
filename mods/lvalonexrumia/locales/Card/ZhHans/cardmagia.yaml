@@ -1,0 +1,8 @@
+﻿cardmagia:
+  Name: 魔法少女露米娅
+  Description: >-
+    获得 {Block} 点|格挡|。
+
+    获得 {Value1} 层|加速|。
+
+    这轮结束前，{PlayerName}受到攻击时获得 {Value2} 层|血剑衍生物|。

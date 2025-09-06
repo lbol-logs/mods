@@ -1,0 +1,8 @@
+﻿cardtwilight:
+  Name: Crepúsculo
+  Description: >-
+    |Mientras {PlayerName} tenga menos del| |n:50|% {needstring}|de vida|: El daño de los ataques de {PlayerName} aumenta en un |n:10|% de la vida perdida (redondeado hacia arriba).
+
+    |Mientras {PlayerName} tenga menos del| |n:25|% {needstring25}|de vida|: Cada vez que se juega una carta, se juega automáticamente |n:1| |Sangre Carmesí| (esto no |Incrementa| la vida).
+
+    |Mientras {PlayerName} tenga menos del| |n:15|% {needstring15}|vida|: Cada vez que se juega una carta, gana |n:2| |Cargas|.

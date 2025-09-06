@@ -1,0 +1,10 @@
+﻿sebloodmark:
+  Name: 혈흔
+  Description: >-
+    {OwnerName}가 공격으로 받는 피해가 {Value}% 증가합니다.
+
+    {OwnerName}의 턴 시작 시 {SelfName}을 |n:1| 잃습니다.
+  Brief: >-
+    {OwnerName}가 공격으로 받는 피해가 {Value}% 증가합니다.
+
+    {OwnerName}의 턴 시작 시 {SelfName}을 |n:1| 잃습니다.

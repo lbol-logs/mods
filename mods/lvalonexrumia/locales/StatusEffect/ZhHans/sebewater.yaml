@@ -1,0 +1,4 @@
+﻿sebewater:
+  Name: Be Water
+  Description: 每当打出一张|血|牌时，从弃牌堆里选择至多 {Level} 张牌洗入抽牌堆，抽 {Level} 张牌。
+  Brief: 每当打出一张|血|牌时，从弃牌堆里选择至多 |n:1| 张牌洗入抽牌堆，抽 |n:1| 张牌。

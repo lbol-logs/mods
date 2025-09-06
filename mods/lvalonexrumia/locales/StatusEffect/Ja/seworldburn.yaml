@@ -1,0 +1,10 @@
+﻿seworldburn:
+  Name: 燃え上がる世界
+  Description: >-
+    {PlayerName}が敵に|血の印|を与える度に、|出血|{Level}を与える。
+
+    {PlayerName}が敵に|出血|を与える度に、|血の印|{Level}を与える。
+  Brief: >-
+    {PlayerName}が敵に|血の印|を与える度に、|出血|を与える。
+
+    {PlayerName}が敵に|出血|を与える度に、|血の印|を与える。

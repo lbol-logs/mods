@@ -1,0 +1,8 @@
+﻿cardbloodlaser:
+  Name: 혈레이저
+  Description: >-
+    현재 체력의 {Value1}%를 {healstring}|상실|합니다.
+
+    |혈흔|을 {Value2} 부여합니다.
+
+    피해를 {Damage} 줍니다.

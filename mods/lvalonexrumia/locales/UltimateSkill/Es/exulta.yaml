@@ -1,0 +1,9 @@
+﻿exulta:
+  Title: EX
+  Content: Terminación
+  Description: >-
+    Applica {Value1} |Marca{Value1:plural one='' other='s'} de Sangre|.
+
+    Inflige {Damage} de daño {Value2} vece{Value2:plural one='z' other='ces'}.
+
+    |Certero|

@@ -1,0 +1,14 @@
+﻿cardtakeover:
+  Name: Dominio de las Sombras
+  Description: >-
+    |Reduce| {Value1}% de la vida actual {Value2} veces{healstring2}.
+
+    Aplica |n:1| |Marca de Sangre|, |Sangrado|, |Débil| y |Vulnerable|.
+
+    Inflige {Damage} de daño {Value2} ve{Value2:plural one='z' other='ces'}.
+  UpgradedDescription: >-
+    |Reduce| {Value1}% de la vida actual {Value2} veces{healstring2}.
+
+    Aplica |n:1| |Marca de Sangre|, |Sangrado|, |Débil|, |Vulnerable| y{Value2} |Reducción de Poder|.
+
+    Inflige {Damage} de daño {Value2} ve{Value2:plural one='z' other='ces'}.

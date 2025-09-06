@@ -1,0 +1,4 @@
+﻿seworldburn:
+  Name: El Mundo Ardera
+  Description: Siempre que {PlayerName} aplica una |Marca de Sangre| o |Sangrado| a un enemigo, también aplica {Level} del otro efecto."
+  Brief: Siempre que {PlayerName} aplica |Blood Mark| o |Bleed| a un enemigo, también aplica del otro efecto.

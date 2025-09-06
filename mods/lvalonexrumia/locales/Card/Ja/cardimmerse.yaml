@@ -1,0 +1,8 @@
+﻿cardimmerse:
+  Name: 紅に染まる
+  Description: >-
+    |生命減衰|{Value1}% {healstring} 
+
+    ターン終了までアタックカードをプレイする度に、|血の嵐の破片||n:1|を得る。
+
+    手札に|深紅の血|を{Value2}枚加える。

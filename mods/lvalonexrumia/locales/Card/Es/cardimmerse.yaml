@@ -1,0 +1,8 @@
+﻿cardimmerse:
+  Name: Sumergirse en Rojo
+  Description: >-
+    |Reduce| {Value1}% {healstring}de vida.
+
+    Hasta el final del turno, siempre que se juegue una carta de ataque, gana |n:1| |Emblema de Tormenta de Sangre|.
+
+    Agrega {Value2} |Sangre{Value2:plural one='' other='s'} Carmesí| a la mano.

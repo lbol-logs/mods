@@ -1,0 +1,6 @@
+﻿cardbloodburn:
+  Name: 血燃
+  Description: >-
+    |减少| {Value1}% {healstring}生命值。
+
+    获得{Mana}。

@@ -1,0 +1,8 @@
+﻿cardnether:
+  Name: Nether Shade
+  Description: >-
+    Gain {Shield} |Barrier|.
+
+    Gain {Value1} |Blood Clot|.
+
+    Add {Value2} |Shadow{Value2:plural one='' other='s'}| to the hand.

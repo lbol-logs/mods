@@ -1,0 +1,10 @@
+﻿seendurance:
+  Name: Robustez
+  Description: >-
+    Mientras {PlayerName} tenga menos del |n:50|% ({lifeneed}) de vida: Siempre que la vida de {PlayerName} se reduce, aumenta el |n:Contador| en |n:1| .
+
+    Al comienzo del turno de {PlayerName}, pierde todo el |n:Contador| y agrega esa misma cantidad de |Sangre Carmesí| a la mano.
+  Brief: >-
+    Mientras {PlayerName} tenga menos del |n:50|% de vida: Siempre que la vida de {PlayerName} se reduce, aumenta el |n:Contador| en |n:1| .
+
+    Al comienzo del turno de {PlayerName}, pierde todo el |n:Contador| y agrega esa misma cantidad de |Sangre Carmesí| a la mano.

@@ -1,0 +1,4 @@
+﻿sepastpresent:
+  Name: Pasado y Presente
+  Description: Al comienzo del siguiente turno, se activa todas las cartas que se jugaron tras {SelfName}, luego se retira {SelfName}.
+  Brief: Al comienzo del siguiente turno, se activa todas las cartas que se jugaron tras {SelfName}, luego se retira {SelfName}.

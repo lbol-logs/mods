@@ -1,0 +1,9 @@
+﻿exulta:
+  Title: 终符
+  Content: 灭绝
+  Description: >-
+    施加 {Value1} 层|血迹|。
+
+    造成 {Damage} 点伤害 {Value2} 次。
+
+    |精准|

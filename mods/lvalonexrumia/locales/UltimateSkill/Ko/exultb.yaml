@@ -1,0 +1,9 @@
+﻿exultb:
+  Title: 혈부
+  Content: 진홍빛 월광 소나타
+  Description: >-
+    모든 적에게 |출혈|을 {Value1} 부여합니다.
+
+    모든 적에게 피해를 {Damage}씩 {Value2}번 줍니다.
+
+    |명중|

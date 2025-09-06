@@ -1,0 +1,8 @@
+﻿cardbloodlaser:
+  Name: 血色雷射
+  Description: >-
+    |减少|现有生命值的 {Value1}% {healstring}。
+
+    施加 {Value2} 层|血迹|。
+
+    造成 {Damage} 点伤害。

@@ -1,0 +1,8 @@
+﻿cardmagia:
+  Name: 闇魔法・ルーミア
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    |加速|{Value1}を得る。
+
+    ラウンド終了までに{PlayerName}が攻撃される度に、|血の剣の破片|{Value2}を得る。

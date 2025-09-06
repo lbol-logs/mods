@@ -1,0 +1,4 @@
+﻿setearmedo:
+  Name: Tear Me Do
+  Description: 每当{PlayerName}的生命值降低时，获得 {Level} 层|血之风暴衍生物|和 {atkincrease} 层|攻击提升|。
+  Brief: 每当{PlayerName}的生命值降低时，获得 |n:1| 层|血之风暴衍生物|和 |n:10| 层|攻击提升|。

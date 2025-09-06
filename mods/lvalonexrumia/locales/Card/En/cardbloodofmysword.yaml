@@ -1,0 +1,7 @@
+﻿cardbloodofmysword:
+  Name: Blood of My Sword
+  Description: Whenever {PlayerName} deals attack damage to an enemy, |increase| the enemy's life by {Value1}, gain {Value1} |Temporary Firepower|.
+  UpgradedDescription: >-
+    Whenever {PlayerName} deals attack damage to an enemy, |increase| the enemy's life by {Value1}, gain {Value1} |Temporary Firepower|.
+
+    Add {Value2} |Blood Sword{Value2:plural one='' other='s'}| to the hand.

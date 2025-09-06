@@ -1,0 +1,8 @@
+﻿cardmissribbon:
+  Name: リボン嬢
+  Description: >-
+    {FriendS}現在のライフから|生命減衰|{Value1}% {healstring}、{Mana}を得る。
+
+    {FriendP}現在のライフから|生命減衰|{Value1}% {healstring},{Mana}を得る。
+  ExtraDescription1: '{FriendA}敵全体に|血の印|{Value2}を与える。'
+  ExtraDescription3: '{FriendU}{PlayerName}が敵に|血の印|を与える度に、|血の剣の破片||n:1|を得る。'

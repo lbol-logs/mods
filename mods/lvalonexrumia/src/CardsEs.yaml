@@ -1,0 +1,332 @@
+cardexaa:
+  Name: Corte por la Espalda
+  Description: Inflige {Damage} de daño.
+
+cardexab:
+  Name: Barrera Oscura
+  Description: Gana {Block} de |Bloqueo|.
+
+cardexba:
+  Name: Corte Frontal
+  Description: Inflige {Damage} de daño.
+
+cardexbb:
+  Name: Parar
+  Description: Gana {Block} de |Bloqueo|.
+
+cardbloodsword:
+  Name: Espada de Sangre
+  Description: "Inflige {Damage} de daño.\nSi el objetivo no tiene una |Marca de Sangre|, aplica {Value2} |Marca de Sangre|, de lo contrario, consume {Value2} |Marca de Sangre| del objetivo para |Incrementar| {Value1}% {healstring}de vida."
+  UpgradedDescription: "Inflige {Damage} de daño.\nAplica {Value2} |Marca de Sangre| e |Incrementa| {Value1}% {healstring}de vida."
+  DetailText: "Cuando {SelfName} es |Exiliado| de la mano sin ser jugado, se juega {SelfName}."
+
+cardbloodstorm:
+  Name: Tormenta de Sangre
+  Description: "Inflige {Damage} de daño a cada enemigo.\nAplica {Value1} |Sangrado| a cada enemigo."
+  UpgradedDescription: "Inflige {Damage} de daño a cada enemigo.\nAplica {Value1} |Sangrado| y |Marca de Sangre| a cada enemigo."
+  DetailText: "Cuando {SelfName} es |Exiliado| de la mano sin ser jugado, se juega {SelfName}."
+
+carddarkblood:
+  Name: Sangre Oscura
+  Description: "|Incrementa| {Value1}% {healstring}de vida.\nRoba {Value2} carta{Value2:plural one='' other='s'}.\nSi {PlayerName} no tiene |Acelerar|, gana {Value2} |Acelerar|."
+  UpgradedDescription: "|Incrementa| {Value1}% {healstring}de vida.\nRoba {Value2} carta{Value2:plural one='' other='s'}.\nGana {Value2} de |Evasión|."
+
+cardredblood:
+  Name: Sangre Carmesí
+  Description: "Si {PlayerName} tiene menos del |n:50|% {needstring}de vida, |Incrementa| {Value1}% {healstring}de vida.\nGana {Mana}.\nInflige {Damage} de daño de ataque |Certero| a cada enemigo con |Sangrado|."
+  UpgradedDescription: "|Incrementa| {Value1}% {healstring}de vida.\nGana {Mana}.\nInflige {Damage} de daño de ataque |Certero| a cada enemigo con |Sangrado|."
+
+cardbloodcontract:
+  Name: Contrato de Sangre
+  Description: "Siempre que la vida de {PlayerName} se reduzca, gana {Value1} |Emblema de Espada de Sangre|."
+
+cardbloodlaser:
+  Name: Láser Sangriento
+  Description: "|Reduce| {Value1}% {healstring}de la vida actual.\nAplica {Value2} |Marca de Sangre|.\nInflige {Damage} de daño."
+
+carddevour:
+  Name: Devorar
+  Description: "Inflige {Damage} de daño.\n|Exterminar|: Gana {Value1}% {healstring}de vida máxima, se remueve {SelfName} del combate y la biblioteca."
+  DetailText: "{SelfName} no se puede generar aleatoriamente en combate y no se puede copiar."
+
+cardletsdance:
+  Name: ¡Que Comience el Baile!
+  Description: "Aplica {Value1} |Marca{Value1:plural one='' other='s'} de Sangre| a cada enemigo.\nInflige {Damage} de daño a cada enemigo {Value2} ve{Value2:plural one='z' other='ces'}.\nGana {Value2} de |Evasión|."
+
+cardbloodburn:
+  Name: Quemadura de Sangre
+  Description: "|Reduce| {Value1}% {healstring}de vida.\nGana {Mana}."
+
+cardbite:
+  Name: Mordedura
+  Description: "Inflige {Damage} de daño.\nGana {Value1} |Emblema{Value1:plural one='' other='s'} de Sangre Oscura|."
+
+cardshady:
+  Name: Secretos Sombríos
+  Description: "Gana {Value1} |Evasión| y {Value2} |Emblema{Value2:plural one='' other='s'} de Sangre Oscura|."
+
+cardadrenaline:
+  Name: Adrenalina
+  Description: "|Mientras {PlayerName} tenga menos del| |n:50|% {needstring}|de vida|: Cada vez que la vida de {PlayerName} se reduce, gana {Value1} |Incrementos de Ataque| y {Value2} |Coágulo{Value2:plural one='' other='s'} de Sangre|."
+
+cardbloodyhell:
+  Name: Infierno Sangriento
+  Description: "Siempre que una carta roja es jugada, gana {Value1} |Incrementos de Ataque|."
+
+cardintodarkness:
+  Name: En la Oscuridad
+  Description: "Aplica {Value1} |Marca{Value1:plural one='' other='s'} de Sangre|.\nInflige {Damage} de daño a cada enemigo con |Marca de Sangre|."
+
+cardbloodspeed:
+  Name: Aceleración Sangrienta
+  Description: "|Reduce| {Value1}% de la vida actual |n:2| veces{healstring2}.\nGana |n:1| |Acelerar|.\nRoba {Value2} cartas."
+
+cardtorn:
+  Name: Cinta Roja Desgarrada
+  Description: "|Mientras {PlayerName} tenga menos del| |n:50|% {needstring}|de vida|: Siempre que {PlayerName} |Evada| un ataque, gana {Value1} |Incrementos de Ataque|, |Incrementa| la vida en un {Value1}%{healstringnos}.\nGana {Value2} de |Evasión|."
+
+cardendurance:
+  Name: Robustez
+  Description: "|Mientras {PlayerName} tenga menos del| |n:50|% {needstring}|de vida|: Siempre que la vida de {PlayerName} sea reducida, al comienzo del siguiente turno, agrega {Value1} |Sangre Carmesí| a la mano."
+
+cardcrimsonray:
+  Name: Rayo Carmesí
+  Description: "|Reduce| {Value1}% {healstring}de vida.\nAplica {Value2} |Sangrado{Value2:plural one='' other='s'}|.\nInflige {Damage} de daño."
+
+cardbloodsucker:
+  Name: Chupasangre
+  Description: "Inflige {Damage} de daño.\nAgrega {Value1} |Sangre Carmesí| a la mano."
+
+cardblooduse:
+  Name: Aplicaciones de la Sangre
+  Description: "Inflige {Damage} de daño a cada enemigo.\nSi {PlayerName} tiene menos del |n:50|% {needstring}de vida, agrega {Value1} |Sangre Carmesí| a la mano."
+
+cardboilingblood:
+  Name: Sangre Hirviente
+  Description: "|Reduce| {Value1}% {healstring}de vida.\nInflige {Damage} de daño a cada enemigo con |Sangrado|.\nGana {Value2} |Ataque Incrementado|."
+  UpgradedDescription: "|Reduce| {Value1}% {healstring}de vida.\nInflige {Damage} de daño a cada enemigo.\nGana {Value2} |Ataque Incrementado|."
+
+cardchew:
+  Name: Muerde un Poco
+  Description: "|Reduce| {Value1}% {healstring}de vida.\nInflige {Damage} de daño a cada enemigo {battleatk} ve{battleatk:plural one='z' other='ces'}.\n|Crecimiento|: Inflige daño {Value2} ve{Value2:plural one='z' other='ces'} más."
+  NonbattleDescription: "|Reduce| {Value1}% {healstring}de vida.\nInflige {Damage} de daño a cada enemigo |n:2| veces.\n|Crecimiento|: Inflige daño {Value2} ve{Value2:plural one='z' other='ces'} más."
+
+cardfurnace:
+  Name: Horno de Carne y Sangre
+  Description: "|Reduce| {Value1}% {healstring}de vida.\nGana |n:20| |Ataque Incrementado| y agrega |n:1| |Sangre Carmesí| a la mano.\nSi {PlayerName} tiene menos del |n:50|% {needstring}de vida, agrega {Value2} |Sangre{Value2:plural one='' other='s'} Carmesí| a la mano."
+
+cardnoradrenaline:
+  Name: Noradrenalina
+  Description: "|Reduce| {Value1}% {healstring}de vida.\nInflige {Damage} de daño a cada enemigo con |Marca de Sangre| o |Sangrado| |n:3| veces.\nSi {PlayerName} tiene menos del |n:50|% {needstring}de vida, agrega {Value2} |Sangre{Value2:plural one='' other='s'} Carmesí| a la mano."
+  UpgradedDescription: "|Reduce| {Value1}% {healstring}de vida.\nInflige {Damage} de daño a cada enemigo |n:3| veces.\nSi {PlayerName} tiene menos del |n:50|% {needstring}de vida, agrega {Value2} |Sangre{Value2:plural one='' other='s'} Carmesí| a la mano."
+
+cardbloodburst:
+  Name: Estallido de Sangre
+  Description: "|Reduce| {Value1}% {healstring}de vida.\nAplica |n:1| |Sangrado| a cada enemigo {Value2} ve{Value2:plural one='z' other='ces'}.\nInflige {Damage} de daño a cada enemigo con |Sangrado| |n:3| veces."
+
+cardtearmedo:
+  Name: Hazme Pedazos
+  Description: "Siempre que la vida de {PlayerName} sea reducida, gana {Value1} |Emblema de Tormenta de Sangre| y {Value2} |Incrementos de Ataque|."
+
+cardbloodwork:
+  Name: Técnica de Sangre
+  Description: "Gana {Block} de |Bloqueo|.\nGana {Value1} |Coágulo{Value1:plural one='' other='s'} de Sangre|."
+
+cardsonanoka:
+  Name: ¿Eso es así?
+  Description: "|Reduce| {Value1}% {healstring}de la vida actual.\nGana {Block} de |Bloqueo|.\nGana {Value2} de |Evasión|."
+
+cardcrossout:
+  Name: Orden de Aniquilación
+  Description: "|Por cada| {Mana2} |gastado|: Gana {Block} de |Bloqueo| y {Value1} |Coágulo de Sangre|."
+
+cardemergency:
+  Name: Cobertura de Emergencia
+  Description: "|Reduce| {Value1}% {healstring}de la vida actual.\nGana {Block} de |Bloqueo|.\nGana {Value2} |Emblema{Value2:plural one='' other='s'} de Sangre Oscura|."
+  UpgradedDescription: "|Reduce| {Value1}% {healstring}de la vida actual.\nGana {Block} |Bloqueo|.\nGana {Value2} |Emblema de Sangre Oscura|.\nSi un enemigo intenta atacar, gana {Value1} |Coágulo{Value1:plural one='' other='s'} de Sangre|."
+
+cardmagia:
+  Name: Magia de las Sombras Rumia
+  Description: "Gana {Block} de |Bloqueo|.\nGana {Value1} |Acelerar|.\nHasta el final del turno, gana {Value2} |Emblema de Espada de Sangre| siempre que {PlayerName} sea atacado."
+
+cardbloodmanip:
+  Name: Manipulación de la Sangre
+  Description: "|Reduce| |n:5|% {healstring}de vida.\nGana {Value1} |Coágulo{Value1:plural one='' other='s'} de Sangre|.\nAplica {Value2} |Marca{Value2:plural one='' other='s'} de Sangre| y |Sangrado| a cada enemigo."
+
+cardnether:
+  Name: Sombra Abisal
+  Description: "Gana {Shield} de |Barrera|.\nGana {Value1} |Coágulo{Value1:plural one='' other='s'} de Sangre|.\nAgrega {Value2} |Sombra{Value2:plural one='' other='s'}| a la mano."
+
+cardheartache:
+  Name: Dolor del Corazón
+  Description: "|Reduce| {Value1}% {healstring}de vida.\nGana {Block} de |Bloqueo|."
+
+cardgojo:
+  Name: Vacío Infinito
+  Description: "|Reduce| {Value1}% de la vida actual |n:2| veces{healstring2}.\nHasta el final del turno, {PlayerName} no puede perder vida.\nGana {Value2} |Turno Extra|."
+
+cardworldburn:
+  Name: El Mundo Arderá
+  Description: "Cuando {PlayerName} aplica una |Marca de Sangre| o |Sangrado| a un enemigo, también aplica {Value1} del otro efecto."
+  UpgradedDescription: "Cuando {PlayerName} aplica una |Marca de Sangre| o |Sangrado| a un enemigo, también aplica {Value1} el otro efecto.\nAplica {Value1} |Marca de Sangre| y |Sangrado| a cada enemigo."
+  DetailText: "Nah, no se repite consigo mismo infinitamente lol"
+
+cardcorruptedblood:
+  Name: Sangre Corrupta
+  Description: "Cuando la vida de {PlayerName} se reduce, gana {Value1} |Emblema de Sangre Oscura|."
+  UpgradedDescription: "Cuando la vida de {PlayerName} se reduce, gana {Value1} |Emblema de Sangre Oscura|.\nAgrega {Value2} |Sangre{Value2:plural one=' Oscura' other='s Oscuras'}| a la mano."
+
+cardbloodofmysword:
+  Name: La Sangre de mi Espada
+  Description: "Siempre que {PlayerName} inflige daño por un ataque a un enemigo, |Incrementa| la vida del enemigo en {Value1}, gana {Value1} de |Poder Temporal|."
+  UpgradedDescription: "Siempre que {PlayerName} inflige daño por un ataque a un enemigo, |Incrementa| la vida del enemigo en {Value1}, gana {Value1} de |Poder Temporal|.\nAgrega {Value2} |Espada{Value2:plural one='' other='s'} de sangre| a la mano."
+
+carddarkexpulsion:
+  Name: Expulsión Oscura
+  Description: "Gana {Value2} |Emblema{Value2:plural one='' other='s'} de Sangre Oscura|.\nAgrega {Value1} |Sombra{Value1:plural one='' other='s'}| a la mano."
+
+cardbefallen:
+  Name: Sangre de la Calamidad
+  Description: "Gana {Value2} |Emblema{Value2:plural one='' other='s'} de Sangre Oscura|.\n|Reduce| {Value1}% {healstring}de la vida actual.\nAgrega |n:1| |Sombra| a la mano."
+
+cardimmerse:
+  Name: Sumergirse en Rojo
+  Description: "|Reduce| {Value1}% {healstring}de vida.\nHasta el final del turno, siempre que se juegue una carta de ataque, gana |n:1| |Emblema de Tormenta de Sangre|.\nAgrega {Value2} |Sangre{Value2:plural one='' other='s'} Carmesí| a la mano."
+
+cardallure:
+  Name: Seducción Carmesí
+  Description: "|Reduce| {Value1}% {healstring}de la vida actual.\n|Explora| {Scry}.\nRoba {Value2} carta{Value2:plural one='' other='s'}.\nAplica {Value2} |Sangrado| a cada enemigo."
+
+cardmissribbon:
+  Name: Señorita Cinta
+  Description: "{FriendS}|Reduce| {Value1}% {healstring}de la vida actual, Gana {Mana}.\n{FriendP}|Reduce| {Value1}% {healstring}de la vida actual, Gana {Mana}."
+  ExtraDescription1: "{FriendA}Aplica {Value2} |Marca de Sangre| a cada enemigo."
+  ExtraDescription3: "{FriendU}Siempre que {PlayerName} aplica  una |Marca de Sangre| a un enemigo, gana |n:1| |Emblema de Espada de Sangre|."
+
+cardbleedslash:
+  Name: Desangrar y Cortar
+  Description: "Cuando se juega una carta negra, gana {Value1} |Emblema de Espada de Sangre|."
+
+cardmarkblood:
+  Name: Marcado con mi Sangre
+  Description: "Siempre que un enemigo sin |Marca de Sangre| es atacado, aplica {Value2} |Marca de Sangre|."
+  UpgradedDescription: "Siempre que un enemigo sin |Marca de Sangre| es atacado, aplica {Value2} |Marca de Sangre|.\nAplica {Value2} |Marca de Sangre| a cada enemigo."
+
+cardbloodcircle:
+  Name: Circulación Sanguínea
+  Description: "Al comienzo de cada turno de {PlayerName}, regresa cualquier cantidad de cartas de |Sangres Exiliadas| a la mano."
+
+carddearsword:
+  Name: Mi Amada Espada
+  Description: "{FriendS}|Reduce| |n:5|% {healstring}de vida.\n{FriendP}Agrega {Value1} |Sangre Carmesí| a la mano."
+  ExtraDescription1: "{FriendA}Aplica {Value1} |Marca de Sangre| y |Sangrado| a cada enemigo."
+  ExtraDescription3: "{FriendU}Al comienzo de cada turno de {PlayerName}, agrega {Value1} |Tormenta de Sangre| a la mano."
+
+cardcrimsontheater:
+  Name: Teatro Carmesí
+  Description: "Gana {Value1} |Evasión|.\nAgrega {Value2} |Tormenta de Sangre| a la mano."
+
+cardtearssubside:
+  Name: Cuando las Lágrimas Cesan
+  Description: "|Reduce| |n:5|% {healstring}de vida.\nRoba {Value2} carta{Value2:plural one='' other='s'}.\nGana {Value1} |Coágulo{Value1:plural one='' other='s'} de Sangre| por cada carta roja que ha sido robada de esta manera."
+
+cardsunnydry:
+  Name: Sol Radiante
+  Description: "|Reduce| {Value1}% {healstring}de vida.\nGana {Mana}.\nGana {Value2} |Coágulo{Value2:plural one='' other='s'} de Sangre|.\nAgrega |n:1| |Luz Solar Refractada| a la mano."
+
+cardblooddisciple:
+  Name: Apóstol de la Sangre
+  Description: "|Reduce| {Value1}% {healstring}de vida.\nExilia hasta {Value2} carta{Value2:plural one='' other='s'} en la mano. Gana esa misma cantidad de |Coágulos de sangre| y agrega esa cantidad de |Sangre carmesí| a la mano."
+
+cardcrimsondomain:
+  Name: Dominio Carmesí
+  Description: "Aplica {Value1} |Sangrado| y |Marca de Sangre| a cada enemigo. Si un enemigo ya tiene |Sangrado|, aplica {Value1} |Sangrado Severo| y |Marca de Sangre| en su lugar.\nAgrega {Value1} |Tormenta de Sangre| a la mano."
+
+cardinfuseddarkness:
+  Name: Oscuridad Imbuida
+  Description: "Hasta el final del turno, siempre que se juegue una |Sangre Oscura|, gana un {Mana}.\nAgrega {Value2} |Sangre Oscura| a la mano."
+
+cardnightfalls:
+  Name: Cae la Noche
+  Description: "Hasta el final del turno, siempre que se juegue una carta negra, gana {Value1} |Emblema de Espada de Sangre|.\nColoca {Value2} carta{Value2:plural one=' negra aleatoria' other='s negras aleatorias'} de la pila de robo a la mano, luego gana esa misma cantidad de {Mana}."
+
+cardmixedblood:
+  Name: Sangre Mezclada al 200%
+  Description: "Hasta el final del turno, siempre que |Sangre Oscura| es jugado, se juega una |Sangre Carmesí|, siempre que |Sangre Carmesí|  se juega, gana {Value1} |Emblema de Sangre Oscura|."
+  UpgradedDescription: "Hasta el final del turno, siempre que |Sangre Oscura| es jugado, se juega una |Sangre Carmesí|, siempre que |Sangre Carmesí|  se juega, gana {Value1} |Emblema de Sangre Oscura|.\nAgrega {Value1} |Sangre Oscura| y |Sangre Carmesí| a la mano."
+
+cardbloodyinyang:
+  Name: Orbe Yin-Yang Cubierto de Sangre
+  Description: "Elige hasta {truevalue} carta{truevalue:plural one='' other='s'} del |Exilio| y devuélvela{truevalue:plural one='' other='s'} a la mano.\n|Mejora| todas las cartas de la mano."
+
+cardunstableblood:
+  Name: Sangre Inestable
+  Description: "|Reduce| {Value1}% {healstring}de vida.\nAplica |n:1| |Sangrado| a cada enemigo. Por cada enemigo que tiene |Sangrado|, gana {Value2} |Emblema{Value2:plural one='' other='s'} de Tormenta de Sangre|.\nInflige {Damage} de daño a cada enemigo."
+
+cardbloodpulse:
+  Name: Pulso Sangriento
+  Description: "|Reduce| {Value1}% {healstring}de vida |n:2| veces.\nAplica |n:1| |Sangrado| a cada enemigo.\nInflige {Damage} de daño a cada enemigo {Value2} ve{Value2:plural one='z' other='ces'}.\n|Debut|: |Exilia| cualquier cantidad de cartas en la mano, agrega esa misma cantidad de |Sangre Carmesí| a la mano."
+  ExtraDescription1: "|Reduce| {Value1}% {healstring}de vida |n:2| veces.\nAplica |n:1| |Sangrado| a cada enemigo.\nInflige {Damage} de daño a cada enemigo {Value2} ve{Value2:plural one='z' other='ces'}.\n|d:Debut: Exilia cualquier cantidad de cartas en la mano, agrega esa misma cantidad de Sangre Carmesí a la mano.|"
+
+cardtenshaded:
+  Name: Tajada de las 10 Sombras
+  Description: "|Reduce| {Value1}% {healstring}de la vida actual.\nInflige {Damage} de daño a un enemigo aleatorio {Value2} ve{Value2:plural one='z' other='ces'}.\nAgrega {Value3} |Sombra{Value3:plural one='' other='s'}| a la mano."
+  UpgradedDescription: "|Reduce| {Value1}% {healstring}de la vida actual.\nAplica |n:1| |Marca de Sangre| a cada enemigo.\nInflige {Damage} de daño a un enemigo aleatorio {Value2} ve{Value2:plural one='z' other='ces'}.\nAgrega {Value3} |Sombra{Value3:plural one='' other='s'}| a la mano."
+
+cardtakeover:
+  Name: Dominio de las Sombras
+  Description: "|Reduce| {Value1}% de la vida actual {Value2} veces{healstring2}.\nAplica |n:1| |Marca de Sangre|, |Sangrado|, |Débil| y |Vulnerable|.\nInflige {Damage} de daño {Value2} ve{Value2:plural one='z' other='ces'}."
+  UpgradedDescription: "|Reduce| {Value1}% de la vida actual {Value2} veces{healstring2}.\nAplica |n:1| |Marca de Sangre|, |Sangrado|, |Débil|, |Vulnerable| y{Value2} |Reducción de Poder|.\nInflige {Damage} de daño {Value2} ve{Value2:plural one='z' other='ces'}."
+
+cardetude:
+  Name: Mi Preludio
+  Description: "|Reduce| {Value1}% {healstring}de la vida actual.\nGana {Value2} |Incrementos de Ataque|.\nInflige {Damage} de daño a un enemigo aleatorio |n:3| veces.\nRepite estos efectos al comienzo del próximo turno de {PlayerName}"
+
+cardshadowcut:
+  Name: Corte de la Sombras
+  Description: "Agrega {Value1} |Sombra{Value1:plural one='' other='s'}| a la mano.\nFinaliza el turno. Luego toma un turno extra. Al comienzo del turno extra, inflige {Damage} de daño a cada enemigo {Value2} ve{Value2:plural one='z' other='ces'}."
+
+cardhakureimiko:
+  Name: La Miko Hakurei
+  Description: "{FriendS}|Mientras esté en la mano|: Cada vez que {PlayerName} agrega una carta, se |Mejora|.\n{FriendP}|Incrementa| {Value1}% {healstring}de vida."
+  ExtraDescription1: "{FriendA}Elige una carta del |Exilio|, se |Mejora| y se devuelve junto con {SelfName} a la mano."
+  ExtraDescription3: "{FriendU}Todas las carta pierden |Exilio| y |Etéreo|."
+
+cardslicepast:
+  Name: Fragmento del Pasado
+  Description: "|Incrementa| {Value1}% {healstring}de vida.\n|Mejora| todas las cartas de la mano."
+
+cardbewater:
+  Name: Sé el Agua
+  Description: "Siempre que se juegue una carta de |Sangre|, Elige hasta {Value1} carta{Value1:plural one='' other='s'} en la pila de descarte, bar{Value1:plural one='ajala' other='ájalas'} hacia la pila de robo, roba {Value1} carta{Value1:plural one='' other='s'}."
+
+cardlowtide:
+  Name: Marea Baja
+  Description: "|Reduce| {Value1}% {healstring}de la vida actual.\nAgrega hasta {Value2} carta{Value2:plural one='' other='s'} de la pila de robo, pila de descarte y cartas |Exiliadas| hacia la mano."
+
+cardquickrestore:
+  Name: Restauración Rápida
+  Description: "Al final del turno, se restaura la vida a cuando se jugó {SelfName}."
+
+cardpastpresent:
+  Name: Pasado y Presente
+  Description: "Inflige {Damage} de daño.\nAl comienzo del siguiente turno, se juegan las cartas jugadas después de que haya sido jugado {SelfName}."
+
+cardmutualdepletion:
+  Name: Agotación Mutua
+  Description: "Siempre que la vida de {PlayerName} se reduzca en al menos  un |n:1|%, todos los enemigos se |reducen| el mismo % de vida (redondeado hacia abajo)."
+  UpgradedDescription: "Siempre que la vida de {PlayerName} se reduzca en al menos  un |n:1|%, todos los enemigos se |reducen| el mismo % de vida (redondeado hacia abajo).\nCuando la vida se haya reducido acumulativamente en un |n:200|% gana la batalla."
+
+cardidlive:
+  Name: Ser Hacia la Muerte
+  Description: "Hasta el final de este turno, {PlayerName} no perderá la partida.\nAl final de este turno, establece la vida a la mitad de la que tenía {PlayerName} cuando se juega {SelfName}."
+  DetailText: "Si {PlayerName} llega a |n:0| de vida no perderá la partida.\nSi el combate termina antes del final del turno, la vida se reduce a la mitad de la que tenía {PlayerName} al jugar {SelfName}"
+
+cardkaleido:
+  Name: Caleidoscópios Brillantes
+  Description: "|Por cada maná gastado de un color diferente|: |Reduce| {Value1}% de la vida actual, todos los enemigos |Reducen| {Value1}% de vida (mínimo {Value2} de vida).\n|Extermino|: Gana la vida máxima igual al maná total gastado por jugar {SelfName}."
+  DetailText: "Después de jugar {SelfName} y antes de que termine de resolverse, cualquier enemigo que no sea una Invocación y que sea derrotado activará el efecto de Exterminio de {SelfName}."
+
+cardtwilight:
+  Name: Crepúsculo
+  Description: "|Mientras {PlayerName} tenga menos del| |n:50|% {needstring}|de vida|: El daño de los ataques de {PlayerName} aumenta en un |n:10|% de la vida perdida (redondeado hacia arriba).\n|Mientras {PlayerName} tenga menos del| |n:25|% {needstring25}|de vida|: Cada vez que se juega una carta, se juega automáticamente |n:1| |Sangre Carmesí| (esto no |Incrementa| la vida).\n|Mientras {PlayerName} tenga menos del| |n:15|% {needstring15}|vida|: Cada vez que se juega una carta, gana |n:2| |Cargas|."

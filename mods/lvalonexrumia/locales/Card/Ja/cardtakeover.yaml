@@ -1,0 +1,14 @@
+﻿cardtakeover:
+  Name: 影の支配
+  Description: >-
+    現在のライフから|生命減衰|{Value1}% {Value2}回 {healstring2} 
+
+    |血の印||n:1|、|出血||n:1|、|脱力||n:1|、|弱体||n:1|を与える。
+
+    {Damage}ダメージを{Value2}回与える。
+  UpgradedDescription: >-
+    現在のライフから|生命減衰|{Value1}% {Value2}回 {healstring2} 
+
+    |血の印||n:1|、|出血||n:1|、|脱力||n:1|、|弱体||n:1|、|火力ダウン|{Value2}を与える。
+
+    {Damage}ダメージを{Value2}回与える。

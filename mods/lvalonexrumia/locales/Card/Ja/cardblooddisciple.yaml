@@ -1,0 +1,6 @@
+﻿cardblooddisciple:
+  Name: 血の使徒
+  Description: >-
+    |生命減衰|{Value1}% {healstring}
+
+    手札のカードを{Value2}枚まで|廃棄|する。その枚数に等しい|血盾|を得て、それに等しい枚数の|深紅の血|を手札に加える。

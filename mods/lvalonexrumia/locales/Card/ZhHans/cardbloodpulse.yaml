@@ -1,0 +1,18 @@
+﻿cardbloodpulse:
+  Name: 血的脉搏
+  Description: >-
+    |减少| {Value1}% {healstring}生命值 |n:2| 次。
+
+    对所有敌人施加 |n:1| 层|流血|。
+
+    对所有敌人造成 {Damage} 点伤害 {Value2} 次。
+
+    |初见|：|放逐|任意数量的手牌，将等量的|红血|加入手中。
+  ExtraDescription1: >-
+    |减少| {Value1}% {healstring}生命值 |n:2| 次。
+
+    对所有敌人施加 |n:1| 层|流血|。
+
+    对所有敌人造成 {Damage} 点伤害 {Value2} 次。
+
+    |d:初见:放逐任意数量的手牌，将等量的红血加入手中。|

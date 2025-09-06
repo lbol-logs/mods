@@ -1,0 +1,3 @@
+﻿cardtearmedo:
+  Name: 날 찢어줘
+  Description: '{PlayerName}의 체력이 감소할 때마다, |혈폭풍 토큰| {Value1}와 |공격력 증가|를 {Value2} 얻습니다.'

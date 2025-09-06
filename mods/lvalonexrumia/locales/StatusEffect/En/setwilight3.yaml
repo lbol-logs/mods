@@ -1,0 +1,4 @@
+﻿setwilight3:
+  Name: Last Stand
+  Description: 'While {OwnerName} has less than |n:15|% ({lifeneed}) life: Whenever a card is played, gain {Level} |Charge|.'
+  Brief: 'While {OwnerName} has less than |n:15|% life: Whenever a card is played, gain |Charge|.'

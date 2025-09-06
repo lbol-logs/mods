@@ -1,0 +1,3 @@
+﻿cardbewater:
+  Name: Be Water
+  Description: 每当打出一张|血|牌时，从弃牌堆里选择至多 {Value1} 张牌洗入抽牌堆，抽 {Value1} 张牌。

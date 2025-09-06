@@ -1,0 +1,16 @@
+﻿cardtenshaded:
+  Name: 십흑의 일섬
+  Description: >-
+    현재 체력의 {Value1}%를 |상실|합니다.
+
+    무작위 적에게 피해를 {Damage}씩 {Value2}번 줍니다.
+
+    |그림자|를 {Value3}장 손에 넣습니다.
+  UpgradedDescription: >-
+    현재 체력의 {Value1}%를 |상실|합니다.
+
+    모든 적에게 |혈흔|을 |n:1| 부여합니다.
+
+    무작위 적에게 피해를 {Damage}씩 {Value2}번 줍니다.
+
+    |그림자|를 {Value3}장 손에 넣습니다.

@@ -1,0 +1,6 @@
+﻿cardblooddisciple:
+  Name: 血之使徒
+  Description: >-
+    |减少| {Value1}% {healstring}生命值。
+
+    从手牌里放逐至多 {Value2} 张牌。获得等量的|血块|和将等量的|红血|加入手中。

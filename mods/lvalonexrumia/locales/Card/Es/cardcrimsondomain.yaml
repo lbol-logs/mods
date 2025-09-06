@@ -1,0 +1,6 @@
+﻿cardcrimsondomain:
+  Name: Dominio Carmesí
+  Description: >-
+    Aplica {Value1} |Sangrado| y |Marca de Sangre| a cada enemigo. Si un enemigo ya tiene |Sangrado|, aplica {Value1} |Sangrado Severo| y |Marca de Sangre| en su lugar.
+
+    Agrega {Value1} |Tormenta de Sangre| a la mano.

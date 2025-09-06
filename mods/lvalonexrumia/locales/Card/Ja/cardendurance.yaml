@@ -1,0 +1,3 @@
+﻿cardendurance:
+  Name: 持久力
+  Description: '|{PlayerName}ライフが|50|%未満の間{needstring}|:{PlayerName}のライフが減る度に、次のターン開始時手札に|深紅の血|を{Value1}枚加える。'

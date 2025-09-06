@@ -1,0 +1,11 @@
+﻿cardbloodsword:
+  Name: Blood Sword
+  Description: >-
+    Deal {Damage} damage.
+
+    If the target does not have |Blood Mark|, apply {Value2} |Blood Mark|, otherwise consume {Value2} |Blood Mark| from the target to |increase| {Value1}% {healstring}life.
+  UpgradedDescription: >-
+    Deal {Damage} damage.
+
+    Apply {Value2} |Blood Mark| and |increase| {Value1}% {healstring}life.
+  DetailText: When {SelfName} is |Exiled| from the hand without being played, play {SelfName}.

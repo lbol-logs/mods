@@ -1,0 +1,10 @@
+﻿seatkincrease:
+  Name: 공격력 증가
+  Description: >-
+    {OwnerName}의 공격 피해가 {truecounter}% 증가합니다.
+
+    {OwnerName}의 턴 종료 시 {SelfName}의 절반을 잃습니다 (5의 배수로 내림).
+  Brief: >-
+    {OwnerName}의 공격 피해가 턴 종료 시까지 |n:수치|% 증가합니다.
+
+    턴 종료 시 {SelfName}의 절반을 잃습니다 (5의 배수로 내림).

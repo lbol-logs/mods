@@ -1,0 +1,7 @@
+﻿cardbloodofmysword:
+  Name: 血染めの剣
+  Description: '{PlayerName}が敵を攻撃する度に、敵のライフを|生命増幅|{Value1}し、|臨時火力|{Value1}を得る。'
+  UpgradedDescription: >-
+    {PlayerName}が敵を攻撃する度に、敵のライフを|生命増幅|{Value1}し、|臨時火力|{Value1}を得る。
+
+    |血染めの剣|を手札に{Value2}枚加える。

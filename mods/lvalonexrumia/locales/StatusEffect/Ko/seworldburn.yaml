@@ -1,0 +1,4 @@
+﻿seworldburn:
+  Name: 세계가 타오른다
+  Description: '{PlayerName}가 적에게 |혈흔| 또는 |출혈|을 부여할 때마다, 반대 효과도 {Level} 부여합니다.'
+  Brief: '{PlayerName}가 적에게 |혈흔| 또는 |출혈|을 부여할 때마다, 반대 효과도 함께 부여합니다.'

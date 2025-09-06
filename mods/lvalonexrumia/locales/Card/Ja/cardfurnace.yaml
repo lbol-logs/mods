@@ -1,0 +1,8 @@
+﻿cardfurnace:
+  Name: 肉体炉心
+  Description: >-
+    |生命減衰|{Value1}% {healstring} 
+
+    |攻撃増大||n:20|を得て、手札に|深紅の血|を|n:1|枚加える。
+
+    もし{PlayerName}ライフが|50|%未満{needstring}なら、手札に|深紅の血|を{Value2}枚加える。

@@ -1,0 +1,4 @@
+﻿setwilight1:
+  Name: 죽음의 초대
+  Description: '{OwnerName}의 체력이 |n:50|% ({lifeneed}) 미만일 때: 잃은 체력의 {Level}%만큼 공격 피해가 증가합니다 (올림).'
+  Brief: '{OwnerName}의 체력이 |n:50|% 미만일 때: 잃은 체력의 %만큼 공격 피해가 증가합니다 (올림).'

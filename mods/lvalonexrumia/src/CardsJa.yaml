@@ -1,0 +1,332 @@
+cardexaa:
+  Name: 黒の刃
+  Description: "{Damage}ダメージを与える。"
+
+cardexab:
+  Name: ダークバリア
+  Description: "{Block}|ブロック|を得る。"
+
+cardexba:
+  Name: 前方斬り
+  Description: "{Damage}ダメージを与える。"
+
+cardexbb:
+  Name: パリィ
+  Description: "{Block}|ブロック|を得る。"
+
+cardbloodsword:
+  Name: 血の剣
+  Description: "{Damage}ダメージを与える。\n対象が|血の印|を持っていないならば|血の印|{Value2}を与え、そうでなければ対象から|血の印|{Value2}を消費し|生命増幅|{Value1}% {healstring}"
+  UpgradedDescription: "{Damage}ダメージを与える。\n|血の印|{Value2}を与え、|生命増幅|{Value1}% {healstring}"
+  DetailText: "プレイされることなく{SelfName}が廃棄されるとき、{SelfName}をプレイする。"
+
+cardbloodstorm:
+  Name: 血の嵐
+  Description: "敵全体に{Damage}ダメージを与える。\n敵全体に|出血|{Value1}を与える。"
+  UpgradedDescription: "敵全体に{Damage}ダメージを与える。\n敵全体に|出血|{Value1}と|血の印|{Value1}を与える。"
+  DetailText: "プレイされることなく{SelfName}が廃棄されるとき、{SelfName}をプレイする。"
+
+carddarkblood:
+  Name: 闇の血
+  Description: "|生命増幅|{Value1}% {healstring} \nカードを{Value2}枚引く。\n{PlayerName}が|加速|を持っていない場合、|加速|{Value2}を得る。"
+  UpgradedDescription: "|生命増幅| {Value1}% {healstring} \nカードを{Value2}枚引く。\n|グレイズ|{Value2}を得る。"
+
+cardredblood:
+  Name: 深紅の血
+  Description: "もし{PlayerName}のライフが|n:50|% {needstring}ライフより少ないなら, |生命増幅|{Value1}% {healstring} \n{Mana}を得る。\n|出血|状態の全ての敵に{Damage}ダメージ(|精密|攻撃)を与える。"
+  UpgradedDescription: "|生命増幅|{Value1}% {healstring} \n{Mana}を得る。\n|出血|状態の全ての敵に{Damage}ダメージ(|精密|攻撃)を与える。"
+
+cardbloodcontract:
+  Name: 血の契約
+  Description: "{PlayerName}のライフが減る度に、|血の剣の破片|{Value1}を得る。"
+
+cardbloodlaser:
+  Name: ブラッドレーザー
+  Description: "現在のライフから|生命減衰|{Value1}% {healstring} \n|血の印|{Value2}を与える。\n{Damage}ダメージを与える。"
+
+carddevour:
+  Name: 貪り食う
+  Description: "{Damage}ダメージを与える。\n|退治|: 最大ライフ{Value1}% {healstring}を得る、{SelfName}をこの戦闘とライブラリから削除する。"
+  DetailText: "{SelfName}は戦闘中にランダム生成されず、コピーもできない。"
+
+cardletsdance:
+  Name: 踊りましょう
+  Description: "敵全体に|血の印|{Value1}を与える。\n敵全体に{Damage}ダメージを{Value2}回与える。\n|グレイズ|{Value2}を得る。"
+
+cardbloodburn:
+  Name: 血の燃焼
+  Description: "|生命減衰|{Value1}% {healstring}ライフ。\n{Mana}を得る。"
+
+cardbite:
+  Name: 噛みつく
+  Description: "{Damage}ダメージを与える。\n|闇の血の雫|{Value1}を得る。"
+
+cardshady:
+  Name: 怪しい秘密
+  Description: "|グレイズ|{Value1}と|闇の血の雫|{Value2}を得る。"
+
+cardadrenaline:
+  Name: アドレナリン
+  Description: "|{PlayerName}ライフが|50|%未満の間{needstring}|:{PlayerName}の体力が減少するたびに、|攻撃増大|{Value1}と|血盾|{Value2}を得る。"
+
+cardbloodyhell:
+  Name: 血の地獄
+  Description: "赤色のカードをプレイする度に、|攻撃増大|{Value1}を得る。"
+
+cardintodarkness:
+  Name: 闇の中へ
+  Description: "|血の印|{Value1}を与える。\n|血の印|状態の全ての敵に{Damage}ダメージを与える。"
+
+cardbloodspeed:
+  Name: 血流加速
+  Description: "現在のライフから|生命減衰|{Value1}%を|n:2|回。 {healstring2} \n|加速||n:1|を得る。\nカードを{Value2}枚引く。"
+
+cardtorn:
+  Name: 裂けた赤いリボン
+  Description: "|{PlayerName}ライフが|50|%未満の間{needstring}|:{PlayerName}が攻撃を|グレイズ|する度に、|攻撃増大|{Value1}と|生命増幅|{Value1}%得る{healstringnos}\n|グレイズ|{Value2}を得る。"
+
+cardendurance:
+  Name: 持久力
+  Description: "|{PlayerName}ライフが|50|%未満の間{needstring}|:{PlayerName}のライフが減る度に、次のターン開始時手札に|深紅の血|を{Value1}枚加える。"
+
+cardcrimsonray:
+  Name: 深紅の光線
+  Description: "|生命減衰|{Value1}% {healstring} \n|出血|{Value2}を与える。\n{Damage}ダメージを与える。"
+
+cardbloodsucker:
+  Name: 血を吸うもの
+  Description: "{Damage}ダメージを与える。\n手札に|深紅の血|を{Value1}枚加える。"
+
+cardblooduse:
+  Name: 血の活用
+  Description: "敵全体に{Damage}ダメージを与える。\nもし{PlayerName}ライフが|50|%未満{needstring}なら、手札に|深紅の血|を{Value1}枚加える。"
+
+cardboilingblood:
+  Name: 煮えたぎる血
+  Description: "|生命減衰|{Value1}% {healstring} \n|出血|状態の全ての敵に{Damage}ダメージを与える。\n|攻撃増大|{Value2}を得る。"
+  UpgradedDescription: "|生命減衰| {Value1}% {healstring} \n敵全体に{Damage}ダメージを与える。\n|攻撃増大|{Value2}を得る。"
+
+cardchew:
+  Name: ひとくちだけ
+  Description: "|生命減衰|{Value1}% {healstring} \n全ての敵に{Damage}ダメージを{battleatk}回与える。\n|成長|:ダメージをさらに{Value2}回与える。"
+  NonbattleDescription: "|生命減衰|{Value1}% {healstring} \n敵全体に{Damage}ダメージを|n:2| 回与える。\n|成長|:ダメージをさらに{Value2}回与える。"
+
+cardfurnace:
+  Name: 肉体炉心
+  Description: "|生命減衰|{Value1}% {healstring} \n|攻撃増大||n:20|を得て、手札に|深紅の血|を|n:1|枚加える。\nもし{PlayerName}ライフが|50|%未満{needstring}なら、手札に|深紅の血|を{Value2}枚加える。"
+
+cardnoradrenaline:
+  Name: ノルアドレナリン
+  Description: "|生命減衰| {Value1}% {healstring} \n|血の印|または|出血|状態の全ての敵に{Damage}ダメージを|n:3|回与える。\nもし{PlayerName}ライフが|50|%未満{needstring}なら、手札に|深紅の血|を{Value2}枚加える。"
+  UpgradedDescription: "|生命減衰|{Value1}% {healstring} \n敵全体に{Damage}ダメージを|n:3|回与える。\nもし{PlayerName}ライフが|50|%未満{needstring}なら、手札に|深紅の血|を{Value2}枚加える。"
+
+cardbloodburst:
+  Name: 血潮の奔流
+  Description: "|生命減衰|{Value1}% {healstring} \n敵全体に|出血||n:1|を{Value2}回与える。\n|出血|状態の全ての敵に{Damage}ダメージを|n:3|回与える。"
+
+cardtearmedo:
+  Name: 引き裂いてよ
+  Description: "{PlayerName}のライフが減る度に、|血の嵐の破片|{Value1}と|攻撃増大|{Value2}を得る。"
+
+cardbloodwork:
+  Name: 血防術
+  Description: "{Block}|ブロック|を得る。\n|血盾|{Value1}を得る。"
+
+cardsonanoka:
+  Name: そうなのか？
+  Description: "現在のライフから|生命減衰|{Value1}% {healstring} \n{Block}|ブロック|を得る。\n|グレイズ|{Value2}を得る。"
+
+cardcrossout:
+  Name: 抹殺の指名者
+  Description: "{Mana2}|ごとに|: {Block}|ブロック|と|血盾|{Value1}を得る。"
+
+cardemergency:
+  Name: 緊急避難
+  Description: "現在のライフから|生命減衰| {Value1}% {healstring} \n{Block}|ブロック|を得る。\n|闇の血の雫|{Value2}を得る。"
+  UpgradedDescription: "現在のライフから|生命減衰| {Value1}% {healstring} \n{Block}|ブロック|を得る。\n|闇の血の雫|{Value2}を得る。\nもし敵が攻撃しようとしているならば、|血盾|{Value1}を得る。"
+
+cardmagia:
+  Name: 闇魔法・ルーミア
+  Description: "{Block}|ブロック|を得る。\n|加速|{Value1}を得る。\nラウンド終了までに{PlayerName}が攻撃される度に、|血の剣の破片|{Value2}を得る。"
+
+cardbloodmanip:
+  Name: 血操術
+  Description: "|生命減衰||n:5|% {healstring} \n|血盾|{Value1}を得る。\n敵全体に|血の印|{Value2}と|出血|{Value2}を与える。"
+
+cardnether:
+  Name: 冥影
+  Description: "{Shield}|バリア|を得る。\n|血盾|{Value1}を得る。\n手札に|暗闇|を{Value2}枚加える。"
+
+cardheartache:
+  Name: 切ない痛み
+  Description: "|生命減衰|{Value1}% {healstring} \n{Block}|ブロック|を得る。"
+
+cardgojo:
+  Name: 無量空処
+  Description: "現在の体力から|生命減衰|{Value1}%を|n:2|回。 {healstring2} \nラウンド終了まで{PlayerName}はライフを失わない。\n|追加ターン|{Value2}を得る。"
+
+cardworldburn:
+  Name: 燃え上がる世界
+  Description: "{PlayerName}が敵に|血の印|又は|出血|を与える度に、そうでない方を{Value1}あたえる。"
+  UpgradedDescription: "{PlayerName}が敵に|血の印|又は|出血|を与える度に、そうでない方を{Value1}あたえる。\n敵全体に|血の印|{Value1}と|出血|{Value1}を与える。"
+  DetailText: "もちろん自分自身で無限にはならない"
+
+cardcorruptedblood:
+  Name: 穢れた血
+  Description: "{PlayerName}の体力が減少したとき、|闇の血の雫|{Value1}を得る。"
+  UpgradedDescription: "{PlayerName}の体力が減少したとき、|闇の血の雫|{Value1}を得る。\n手札に|闇の血|を{Value2}枚加える。"
+
+cardbloodofmysword:
+  Name: 血染めの剣
+  Description: "{PlayerName}が敵を攻撃する度に、敵のライフを|生命増幅|{Value1}し、|臨時火力|{Value1}を得る。"
+  UpgradedDescription: "{PlayerName}が敵を攻撃する度に、敵のライフを|生命増幅|{Value1}し、|臨時火力|{Value1}を得る。\n|血染めの剣|を手札に{Value2}枚加える。"
+
+carddarkexpulsion:
+  Name: 闇の排出
+  Description: "|闇の血の雫|{Value2}を得る。\n手札に|暗闇|を{Value1}枚加える。"
+
+cardbefallen:
+  Name: 災いの血
+  Description: "|闇の血の雫|{Value2}を得る。\n現在のライフから|生命減衰|{Value1}% {healstring} \n手札に|暗闇|を|n:1|枚加える。"
+
+cardimmerse:
+  Name: 紅に染まる
+  Description: "|生命減衰|{Value1}% {healstring} \nターン終了までアタックカードをプレイする度に、|血の嵐の破片||n:1|を得る。\n手札に|深紅の血|を{Value2}枚加える。"
+
+cardallure:
+  Name: 深紅の魅惑
+  Description: "現在のライフから|生命減衰|{Value1}% {healstring} \n|占術|{Scry}。\nカードを{Value2}枚引く。\n敵全体に|出血|{Value2}を与える。"
+
+cardmissribbon:
+  Name: リボン嬢
+  Description: "{FriendS}現在のライフから|生命減衰|{Value1}% {healstring}、{Mana}を得る。\n{FriendP}現在のライフから|生命減衰|{Value1}% {healstring},{Mana}を得る。"
+  ExtraDescription1: "{FriendA}敵全体に|血の印|{Value2}を与える。"
+  ExtraDescription3: "{FriendU}{PlayerName}が敵に|血の印|を与える度に、|血の剣の破片||n:1|を得る。"
+
+cardbleedslash:
+  Name: 斬って血を啜れ
+  Description: "黒色のカードをプレイした時、|血の剣の破片|{Value1}を得る。"
+
+cardmarkblood:
+  Name: 我が血を刻め
+  Description: "|血の印|がない敵が攻撃される度に、|血の印|{Value2}を与える。"
+  UpgradedDescription: "|血の印|がない敵が攻撃される度に、|血の印|{Value2}を与える。\n敵全体に|血の印|{Value2}を与える。"
+
+cardbloodcircle:
+  Name: 血液循環
+  Description: "{PlayerName}のターン開始時、|廃棄された血|のカードを好きな枚数だけ手札に戻す。"
+
+carddearsword:
+  Name: 我が愛剣
+  Description: "{FriendS}|生命減衰||n:5|% {healstring}\n{FriendP}手札に|深紅の血|を{Value1}枚加える。"
+  ExtraDescription1: "{FriendA}敵全体に|血の印|{Value1}と|出血|{Value1}を与える。"
+  ExtraDescription3: "{FriendU}{PlayerName}のターン開始時、手札に|血の嵐|を{Value1}枚加える。"
+
+cardcrimsontheater:
+  Name: 深紅の劇場
+  Description: "|グレイズ|{Value1}を得る。\n手札に|血の嵐|を{Value2}枚加える。"
+
+cardtearssubside:
+  Name: 涙のあとに
+  Description: "|生命減衰||n:5|% {healstring}\nカードを{Value2}枚引く。\nこの方法で引いた赤色のカード1枚につき、|血盾|{Value1}を得る。"
+
+cardsunnydry:
+  Name: カラカラ日和
+  Description: "|生命減衰|{Value1}% {healstring}\n{Mana}を得る。\n|血盾|{Value2}を得る。\n手札に|日の照射|を|n:1|枚加える。"
+
+cardblooddisciple:
+  Name: 血の使徒
+  Description: "|生命減衰|{Value1}% {healstring}\n手札のカードを{Value2}枚まで|廃棄|する。その枚数に等しい|血盾|を得て、それに等しい枚数の|深紅の血|を手札に加える。"
+
+cardcrimsondomain:
+  Name: 紅の支配
+  Description: "敵全体に|出血|{Value1}と|血の印|{Value1}を与える。\nもし敵が|出血|状態にあるならば、代わりに|大量出血|{Value1}と|血の印|{Value1}を与える。 \n手札に|血の嵐|を{Value1}枚加える。"
+
+cardinfuseddarkness:
+  Name: 闇の浸透
+  Description: "ターン終了時まで|闇の血|をプレイする度に、{Mana}を得る。\n手札に|闇の血|を{Value2}枚加える。"
+
+cardnightfalls:
+  Name: 夜の訪れ
+  Description: "ターン終了まで黒色のカードをプレイする度に、|血の剣の破片|{Value1}を得る。\n山札から手札にランダムな黒色のカードを{Value2}枚加え、その枚数分の{Mana}を得る。"
+
+cardmixedblood:
+  Name: 究極の混血
+  Description: "ターン終了まで|闇の血|をプレイする度に、|深紅の血|をプレイする。\nターン終了まで|深紅の血|がプレイされる度に、|闇の血の雫|{Value1}を得る。"
+  UpgradedDescription: "ターン終了まで|闇の血|をプレイする度に、|深紅の血|をプレイする。\nターン終了まで|深紅の血|がプレイされる度に、|闇の血の雫|{Value1}を得る。\n手札に|闇の血|と|深紅の血|を{Value1}枚ずつ加える。"
+
+cardbloodyinyang:
+  Name: 血塗られた陰陽玉
+  Description: "|廃棄場|から最大{truevalue}枚のカードを選び、それらを手札に戻す。\n手札の全てのカードを|アップグレード|する。"
+
+cardunstableblood:
+  Name: 不安定な血
+  Description: "|生命減衰|{Value1}% {healstring}\n敵全体に|出血||n:1|を与える。\nすでに|出血|状態の敵1体につき、|血の嵐の破片|{Value2}を得る。\n敵全体に{Damage}ダメージを与える。"
+
+cardbloodpulse:
+  Name: 血の鼓動
+  Description: "|生命減衰|{Value1}% {healstring} |n:2|回。\n敵全体に|出血||n:1|を与える。\n敵全体に{Damage}ダメージを{Value2}回与える。\n|初見|:手札のカードを好きな枚数|廃棄|し、その枚数に等しい|深紅の血|を手札に加える。"
+  ExtraDescription1: "|生命減衰|{Value1}% {healstring} |n:2|回。\n敵全体に|出血||n:1|を与える。\n敵全体に{Damage}ダメージを{Value2}回与える。\n|初見|:手札のカードを好きな枚数|廃棄|し、その枚数に等しい|深紅の血|を手札に加える。"
+
+cardtenshaded:
+  Name: 十影斬り
+  Description: "現在のライフから|生命減衰|{Value1}% {healstring}\nランダムな敵に{Damage}ダメージを{Value2}回与える。\n手札に|暗闇|を{Value3}枚加える。"
+  UpgradedDescription: "現在のライフから|生命減衰|{Value1}% {healstring}\n敵全体に|血の印||n:1|を与える。\nランダムな敵に{Damage}ダメージを{Value2}回与える。\n手札に|暗闇|を{Value3}枚加える。"
+
+cardtakeover:
+  Name: 影の支配
+  Description: "現在のライフから|生命減衰|{Value1}% {Value2}回 {healstring2} \n|血の印||n:1|、|出血||n:1|、|脱力||n:1|、|弱体||n:1|を与える。\n{Damage}ダメージを{Value2}回与える。"
+  UpgradedDescription: "現在のライフから|生命減衰|{Value1}% {Value2}回 {healstring2} \n|血の印||n:1|、|出血||n:1|、|脱力||n:1|、|弱体||n:1|、|火力ダウン|{Value2}を与える。\n{Damage}ダメージを{Value2}回与える。"
+
+cardetude:
+  Name: 私の練習曲
+  Description: "現在のライフから|生命減衰|{Value1}% {healstring}\n|攻撃増大|{Value2}を得る。\nランダムな敵に{Damage}ダメージを|n:3|回与える。\nこれらの効果を{PlayerName}の次のターン開始時にも繰り返す。"
+
+cardshadowcut:
+  Name: 影斬り
+  Description: "手札に|暗闇|を{Value1}枚加える。\nこのターンを終了する。それから追加ターンを得る。\n追加ターン開始時に、敵全体に{Damage}ダメージを{Value2}回与える。"
+
+cardhakureimiko:
+  Name: 博麗巫女
+  Description: "{FriendS}|手札効果|: {PlayerName}がカードを追加する度に、それを|アップグレード|する。\n{FriendP}|生命増幅|{Value1}% {healstring}"
+  ExtraDescription1: "{FriendA}|廃棄場|からカードを1枚選び、それを|アップグレード|して{SelfName}を手札に戻す。"
+  ExtraDescription3: "{FriendU}全てのカードは|廃棄|と|虚無|を失う。"
+
+cardslicepast:
+  Name: 昔日の一片
+  Description: "|生命増幅|{Value1}% {healstring}\n手札のカードをすべて|アップグレード|する。"
+
+cardbewater:
+  Name: 水の如し
+  Description: "|血|のカードをプレイする度に、捨て札から最大{Value1}枚のカードを選び、そのカードを山札にシャッフルし、{Value1}枚のカードを引く。"
+
+cardlowtide:
+  Name: 引き潮
+  Description: "現在のライフから|生命減衰|{Value1}% {healstring}\n山札、捨て札、|廃棄場|からそれぞれ最大{Value2}枚ずつ手札に加える。"
+
+cardquickrestore:
+  Name: 即時回復
+  Description: "このラウンド終了時に、{SelfName}が使用されたときの体力に回復する。"
+
+cardpastpresent:
+  Name: 時をなぞる刃
+  Description: "{Damage}ダメージを与える。\n次のターン開始時に、{SelfName}使用後にプレイされたカードを再度プレイする。"
+
+cardmutualdepletion:
+  Name: 相互消耗
+  Description: "{PlayerName}の体力が|n:1|%以上減少したとき、全ての敵も同じ割合(小数点以下切り捨て)のライフを失う。"
+  UpgradedDescription: "{PlayerName}の体力が|n:1|%以上減少したとき、全ての敵も同じ割合(小数点以下切り捨て)のライフを失う。累計で|n:200|%の体力が減少すると、戦闘に勝利します。"
+
+cardidlive:
+  Name: 死への存在
+  Description: "このラウンドの終了まで、{PlayerName}はゲームに敗北しません。ラウンド終了時に、{SelfName}がプレイされた時の体力の半分になります。"
+  DetailText: "{PlayerName}の体力が|n:0|になっても、ゲームに敗北しません。戦闘がラウンド終了前に終わった場合、{SelfName}がプレイされた時の体力の半分になります。\n(最大値が減るわけではない)"
+
+cardkaleido:
+  Name: 残虹乱舞
+  Description: "|異なる色のマナ1点ごとに|: 現在のライフから|生命減衰|{Value1}%、全ての敵のライフから|生命減衰|{Value1}%(最低 {Value2}ライフ)。\n|退治|:{SelfName}をプレイするために使用したマナの合計分、最大ライフを得る。"
+  DetailText: "{SelfName}をプレイして効果を完了する前に、|召喚|されていない敵を倒すことでも{SelfName}の|退治|効果は発動する。"
+
+cardtwilight:
+  Name: 黄昏
+  Description: "|{PlayerName}のライフが||n:50|% {needstring}未満の時: 失われたライフの|n:10|%分、{PlayerName}の攻撃ダメージが増加する。(端数切り上げ)\n|{PlayerName}のライフが||n:25|% {needstring25}未満の時:カードをプレイするたびに|n:1|枚の|深紅の血|をプレイする。(|生命増幅|はしない)\n|{PlayerName}のライフが||n:15|% {needstring15}未満の時:カードをプレイする度に、|チャージ||n:2|を得る。"

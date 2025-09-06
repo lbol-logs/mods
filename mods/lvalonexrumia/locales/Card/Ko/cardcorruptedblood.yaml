@@ -1,0 +1,7 @@
+﻿cardcorruptedblood:
+  Name: 타락한 피
+  Description: '{PlayerName}의 체력이 감소할 때마다, |어둠의 피 토큰|을 {Value1} 얻습니다.'
+  UpgradedDescription: >-
+    {PlayerName}의 체력이 감소할 때마다, |어둠의 피 토큰|을 {Value1} 얻습니다.
+
+    |어둠의 피|를 {Value2}장 손에 추가합니다.

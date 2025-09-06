@@ -1,0 +1,4 @@
+﻿seetude:
+  Name: 나의 에튀드
+  Description: '{PlayerName}의 다음 턴 시작 시, 현재 체력의 |n:5|% ({heal})를 |상실|하고 무작위 적에게 피해를 {Damage}씩 |n:3|회 줍니다.'
+  Brief: '{PlayerName}의 다음 턴 시작 시, 체력을 |n:5|% |상실|하고 무작위 적에게 |n:5| 피해를 |n:3|회 줍니다.'

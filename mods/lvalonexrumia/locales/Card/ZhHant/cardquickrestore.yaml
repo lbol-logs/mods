@@ -1,0 +1,3 @@
+﻿cardquickrestore:
+  Name: 瞬間再生
+  Description: 這輪結束時，將生命值回復至打出{SelfName}時的生命值。

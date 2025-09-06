@@ -1,0 +1,8 @@
+﻿extrueribbon:
+  Name: Cinta Auténtica
+  Description: >-
+    Agrega {BaseMana} al base de maná.
+
+    Al comienzo de cada combate, |Reduce| la vida de cada enemigo en un {Value2}% (un mínimo de {Value2} de vida) {Val1} veces.
+
+    Al comienzo de cada combate, aplica {Value1} |Marca{Value1:plural one='' other='s'} de sangre| y |Sangrado Severo| a cada enemigo.

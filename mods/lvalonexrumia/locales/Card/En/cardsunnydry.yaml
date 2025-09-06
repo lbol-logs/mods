@@ -1,0 +1,10 @@
+﻿cardsunnydry:
+  Name: Sunny Dry Up
+  Description: >-
+    |Decrease| {Value1}% {healstring}life.
+
+    Gain {Mana}.
+
+    Gain {Value2} |Blood Clot|.
+
+    Add |n:1| |Refracted Sunlight| to the hand.

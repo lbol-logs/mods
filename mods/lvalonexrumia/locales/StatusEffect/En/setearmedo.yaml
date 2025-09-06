@@ -1,0 +1,4 @@
+﻿setearmedo:
+  Name: Tear Me Do
+  Description: Whenever {PlayerName}'s life decreases, gain {Level} |Blood Storm Token| and {atkincrease} |Attack Increase|.
+  Brief: Whenever {PlayerName}'s life decreases, gain |n:1| |Blood Storm Token| and |n:10| |Attack Increase|.

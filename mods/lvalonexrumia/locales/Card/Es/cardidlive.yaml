@@ -1,0 +1,10 @@
+﻿cardidlive:
+  Name: Ser Hacia la Muerte
+  Description: >-
+    Hasta el final de este turno, {PlayerName} no perderá la partida.
+
+    Al final de este turno, establece la vida a la mitad de la que tenía {PlayerName} cuando se juega {SelfName}.
+  DetailText: >-
+    Si {PlayerName} llega a |n:0| de vida no perderá la partida.
+
+    Si el combate termina antes del final del turno, la vida se reduce a la mitad de la que tenía {PlayerName} al jugar {SelfName}

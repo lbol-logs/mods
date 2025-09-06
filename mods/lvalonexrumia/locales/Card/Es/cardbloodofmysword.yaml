@@ -1,0 +1,7 @@
+﻿cardbloodofmysword:
+  Name: La Sangre de mi Espada
+  Description: Siempre que {PlayerName} inflige daño por un ataque a un enemigo, |Incrementa| la vida del enemigo en {Value1}, gana {Value1} de |Poder Temporal|.
+  UpgradedDescription: >-
+    Siempre que {PlayerName} inflige daño por un ataque a un enemigo, |Incrementa| la vida del enemigo en {Value1}, gana {Value1} de |Poder Temporal|.
+
+    Agrega {Value2} |Espada{Value2:plural one='' other='s'} de sangre| a la mano.

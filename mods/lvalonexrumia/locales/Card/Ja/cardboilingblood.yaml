@@ -1,0 +1,14 @@
+﻿cardboilingblood:
+  Name: 煮えたぎる血
+  Description: >-
+    |生命減衰|{Value1}% {healstring} 
+
+    |出血|状態の全ての敵に{Damage}ダメージを与える。
+
+    |攻撃増大|{Value2}を得る。
+  UpgradedDescription: >-
+    |生命減衰| {Value1}% {healstring} 
+
+    敵全体に{Damage}ダメージを与える。
+
+    |攻撃増大|{Value2}を得る。

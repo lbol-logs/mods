@@ -1,0 +1,6 @@
+﻿cardinfuseddarkness:
+  Name: 注入黑暗
+  Description: >-
+    回合結束前，每當打出一張|黑血|，獲得一點{Mana}。
+
+    將 {Value2} 張|黑血|加入手中。

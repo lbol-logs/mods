@@ -1,0 +1,8 @@
+﻿cardbloodburst:
+  Name: 血潮の奔流
+  Description: >-
+    |生命減衰|{Value1}% {healstring} 
+
+    敵全体に|出血||n:1|を{Value2}回与える。
+
+    |出血|状態の全ての敵に{Damage}ダメージを|n:3|回与える。

@@ -1,0 +1,9 @@
+﻿exultb:
+  Title: 血符
+  Content: 真紅の月光ソナタ
+  Description: >-
+    敵全体に|出血|{Value1}を与える。
+
+    敵全体に{Damage}ダメージを{Value2}回数与える。
+
+    |精密|

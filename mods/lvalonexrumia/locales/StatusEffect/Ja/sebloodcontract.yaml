@@ -1,0 +1,4 @@
+﻿sebloodcontract:
+  Name: 血の契約
+  Description: '{PlayerName}のライフが減る度に、|血の剣の破片|{Level}を得る。'
+  Brief: '{PlayerName}のライフが減る度に、|血の剣の破片|を得る。'

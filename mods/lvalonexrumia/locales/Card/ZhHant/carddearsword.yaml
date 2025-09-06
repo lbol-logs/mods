@@ -1,0 +1,8 @@
+﻿carddearsword:
+  Name: 親愛的寶劍
+  Description: >-
+    {FriendS}|減少| |n:5|% {healstring}生命值。
+
+    {FriendP}將 {Value1} 張|紅血|加入手中。
+  ExtraDescription1: '{FriendA}對所有敵人施加 {Value1} 層|血跡|和|流血|。'
+  ExtraDescription3: '{FriendU}{PlayerName}的回合開始時，將 {Value1} 張|血之風暴|加入手中。'

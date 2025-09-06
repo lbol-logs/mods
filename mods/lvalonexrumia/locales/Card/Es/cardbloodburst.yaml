@@ -1,0 +1,8 @@
+﻿cardbloodburst:
+  Name: Estallido de Sangre
+  Description: >-
+    |Reduce| {Value1}% {healstring}de vida.
+
+    Aplica |n:1| |Sangrado| a cada enemigo {Value2} ve{Value2:plural one='z' other='ces'}.
+
+    Inflige {Damage} de daño a cada enemigo con |Sangrado| |n:3| veces.

@@ -1,0 +1,10 @@
+﻿sebloodmark:
+  Name: 血跡
+  Description: >-
+    {OwnerName}受到攻擊的傷害提升 {Value}% 。
+
+    {OwnerName}的回合開始時失去一層{SelfName}。
+  Brief: >-
+    {OwnerName}受到攻擊的傷害提升 {Value}% 。
+
+    {OwnerName}的回合開始時失去一層{SelfName}。

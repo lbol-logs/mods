@@ -1,0 +1,4 @@
+﻿sebloodsword:
+  Name: 血剑衍生物
+  Description: 每当有 {lim} 或更多层{SelfName}时，失去 {lim} 层{SelfName}以将一张|血剑|加入手中。
+  Brief: 每当有 {lim} 或更多层{SelfName}时，失去 {lim} 层{SelfName}以将一张|血剑|加入手中。

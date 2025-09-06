@@ -1,0 +1,3 @@
+﻿cardbloodcontract:
+  Name: 血契
+  Description: 每當{PlayerName}的生命值降低時，獲得 {Value1} 層|血劍衍生物|。

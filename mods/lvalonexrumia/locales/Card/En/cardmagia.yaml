@@ -1,0 +1,8 @@
+﻿cardmagia:
+  Name: Shadow Magia Rumia
+  Description: >-
+    Gain {Block} |Block|.
+
+    Gain {Value1} |Accelerate|.
+
+    Until end of round, gain {Value2} |Blood Sword Token| whenever {PlayerName} is attacked.

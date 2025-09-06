@@ -1,0 +1,3 @@
+﻿cardbewater:
+  Name: Sé el Agua
+  Description: Siempre que se juegue una carta de |Sangre|, Elige hasta {Value1} carta{Value1:plural one='' other='s'} en la pila de descarte, bar{Value1:plural one='ajala' other='ájalas'} hacia la pila de robo, roba {Value1} carta{Value1:plural one='' other='s'}.

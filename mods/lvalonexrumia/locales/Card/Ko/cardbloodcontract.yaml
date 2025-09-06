@@ -1,0 +1,3 @@
+﻿cardbloodcontract:
+  Name: 혈계 계약
+  Description: '{PlayerName}의 체력이 감소할 때마다 |혈검 토큰|을 {Value1} 얻습니다.'

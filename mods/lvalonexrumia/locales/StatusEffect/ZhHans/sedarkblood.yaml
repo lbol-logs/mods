@@ -1,0 +1,4 @@
+﻿sedarkblood:
+  Name: 黑血衍生物
+  Description: '|一回合一次|，当{PlayerName}的生命值|减少|时，失去 |n:1| 层{SelfName}，将一张|黑血|加入手中，失去所有层{SelfName}以获得等量的{mana}。'
+  Brief: '|一回合一次|，当{PlayerName}的生命值|减少|时，失去 |n:1| 层{SelfName}，将一张|黑血|加入手中，失去所有层{SelfName}以获得等量的{mana}。'

@@ -1,0 +1,3 @@
+﻿cardbloodcircle:
+  Name: 피의 순환
+  Description: '{PlayerName}의 턴 시작 시, 원하는 수의 |소멸된 피| 카드를 손으로 되돌립니다.'

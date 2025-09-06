@@ -1,0 +1,14 @@
+﻿cardtakeover:
+  Name: 그림자 장악
+  Description: >-
+    현재 체력의 {Value1}%를 {Value2}번 |상실|합니다{healstring2}.
+
+    |혈흔|, |출혈|, |허약|, |취약|을 |n:1|씩 부여합니다.
+
+    피해를 {Damage}씩 {Value2}번 줍니다.
+  UpgradedDescription: >-
+    현재 체력의 {Value1}%를 {Value2}번 |상실|합니다{healstring2}.
+
+    |혈흔|, |출혈|, |허약|, |취약|을 |n:1|씩, |화력 감소| {Value2}도 부여합니다.
+
+    피해를 {Damage}씩 {Value2}번 줍니다.

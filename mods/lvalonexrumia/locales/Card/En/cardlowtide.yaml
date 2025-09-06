@@ -1,0 +1,6 @@
+﻿cardlowtide:
+  Name: Low Tide
+  Description: >-
+    |Decrease| {Value1}% {healstring}of current life.
+
+    Add up to {Value2} card{Value2:plural one='' other='s'} from each of draw pile, discard pile and |Exiled| cards to the hand.

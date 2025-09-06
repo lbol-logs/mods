@@ -1,0 +1,33 @@
+exexa:
+  Name: 崇められし闇
+  Description: |-
+    マナ基盤に{Mana}を加える。|EXルーミア|固有のカードが出現するようになる。
+    各戦闘の最初のターン開始時、敵全体に|血の印|{Value1}を与える。
+    {PlayerName}の攻撃ダメージが、失ったライフの{Value2}%分だけ増加する。（端数切り上げ）
+  FlavorText: 天上天下、唯我独尊？そうなの？
+
+exexb:
+  Name: 苦痛の世界
+  Description: |-
+    マナ基盤に{Mana}を加える。|EXルーミア|固有のカードが出現するようになる。
+    |各ターンに1回まで|、{PlayerName}がダメージを与える時、敵全体に|出血|{Value1}を与える。
+    {PlayerName}のライフが減少するたび、すべての敵も同じ値だけライフを|減少|させる。
+  FlavorText: 世界は私に、痛みという口づけを授けた...
+
+extrueribbon:
+  Name: 真のリボン
+  Description: |-
+    マナ基盤に{Mana}を加える。
+    戦闘開始時、敵全体のライフを{Value2}%最低({Value2}ライフ)だけ{Value1}回|減少|させる。
+    戦闘開始時、敵全体に|血の印|{Value1}と|大量出血|{Value1}を与える。
+    
+exfakeribbon:
+  Description: |-
+    ボスまたはエリートとの戦闘中、{PlayerName}のターン開始時に{ManaFake}を得る。
+  Name: リボン
+  FlavorText: '「これを解放すると、封印された魔の力が目覚めるって聞いたの。」'
+
+exrumiafumo:
+  Description: "|血|のカードをプレイする度に、|臨時火力|{Value1}を得る。"
+  Name: "黄昏妖怪のぬいぐるみ"
+  FlavorText: "しばしば純粋な闇の塊でしかない。"

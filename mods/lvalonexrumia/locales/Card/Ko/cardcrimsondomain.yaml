@@ -1,0 +1,6 @@
+﻿cardcrimsondomain:
+  Name: 진홍의 영역
+  Description: >-
+    모든 적에게 |출혈|과 |혈흔|을 {Value1} 부여합니다. 대상이 이미 |출혈| 상태일 경우 대신 |과다 출혈|과 |혈흔|을 {Value1} 부여합니다.
+
+    |혈폭풍|을 {Value1}장 손에 추가합니다.

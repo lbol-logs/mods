@@ -1,0 +1,16 @@
+﻿cardtenshaded:
+  Name: 十影斬り
+  Description: >-
+    現在のライフから|生命減衰|{Value1}% {healstring}
+
+    ランダムな敵に{Damage}ダメージを{Value2}回与える。
+
+    手札に|暗闇|を{Value3}枚加える。
+  UpgradedDescription: >-
+    現在のライフから|生命減衰|{Value1}% {healstring}
+
+    敵全体に|血の印||n:1|を与える。
+
+    ランダムな敵に{Damage}ダメージを{Value2}回与える。
+
+    手札に|暗闇|を{Value3}枚加える。

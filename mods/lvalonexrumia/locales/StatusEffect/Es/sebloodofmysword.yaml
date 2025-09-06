@@ -1,0 +1,4 @@
+﻿sebloodofmysword:
+  Name: La Sangre de mi Espada
+  Description: Siempre que {OwnerName} inflige daño por un ataque a un enemigo, |Incrementa| la vida del enemigo en {Level}, gana {Level} de |Poder Temporal|.
+  Brief: Siempre que {OwnerName} inflige daño por un ataque a un enemigo, |Incrementa| la vida del enemigo, gana |Poder Temporal|.

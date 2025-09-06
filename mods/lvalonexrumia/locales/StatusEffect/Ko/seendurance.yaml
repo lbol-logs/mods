@@ -1,0 +1,10 @@
+﻿seendurance:
+  Name: 인내
+  Description: >-
+    {PlayerName}의 체력이 |n:50|% ({lifeneed}) 미만일 경우: 체력이 감소할 때마다 |n:Count|가 |n:1| 증가합니다.
+
+    {PlayerName}의 턴 시작 시 모든 |n:Count|를 잃고 그 수만큼 |진홍의 피|를 손에 추가합니다.
+  Brief: >-
+    {PlayerName}의 체력이 |n:50|% 미만일 경우: 체력이 감소할 때마다 |n:Count|가 |n:1| 증가합니다.
+
+    턴 시작 시 모든 |n:Count|를 잃고 그 수만큼 |진홍의 피|를 손에 추가합니다.

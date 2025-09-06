@@ -1,0 +1,4 @@
+﻿sebloodcontract:
+  Name: Blood Contract
+  Description: Whenever {PlayerName}'s life decreases, gain {Level} |Blood Sword Token|.
+  Brief: Whenever {PlayerName}'s life decreases, gain |Blood Sword Token|.

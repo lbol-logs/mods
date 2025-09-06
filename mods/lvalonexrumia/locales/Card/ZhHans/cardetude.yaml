@@ -1,0 +1,10 @@
+﻿cardetude:
+  Name: 我的即凶剧
+  Description: >-
+    |减少|现有生命值的 {Value1}% {healstring}。
+
+    获得 {Value2} 层|攻击提升|。
+
+    对随机敌人造成 {Damage} 点伤害 |n:3| 次。
+
+    下回合开始时再次生效。

@@ -1,0 +1,4 @@
+﻿setwilight2:
+  Name: 피어오르는 장미
+  Description: '{OwnerName}의 체력이 |n:25|% ({lifeneed}) 미만일 때: 카드를 사용할 때마다 |진홍의 피|를 {Level}번 발동합니다 (체력은 |증가|되지 않음).'
+  Brief: '{OwnerName}의 체력이 |n:25|% 미만일 때: 카드를 사용할 때마다 |진홍의 피|를 발동합니다 (체력은 |증가|되지 않음).'

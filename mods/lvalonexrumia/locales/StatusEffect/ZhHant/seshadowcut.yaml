@@ -1,0 +1,8 @@
+﻿seshadowcut:
+  Name: 暗元斬
+  Description: '{PlayerName}的回合開始時對所有敵人造成 {Damage} 點傷害 {Level} 次。'
+  ExtraDescription: >-
+    {PlayerName}的回合開始時對所有敵人造成 {Damage} 點傷害 {Level} 次。
+
+    還未生效；只有在生效的回合結束時才會移除{SelfName}。
+  Brief: '{PlayerName}的回合開始時對所有敵人造成 |n:5| 點傷害 |n:5| 次。'

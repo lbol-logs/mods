@@ -1,0 +1,6 @@
+﻿cardheartache:
+  Name: Heartache
+  Description: >-
+    |Decrease| {Value1}% {healstring}life.
+
+    Gain {Block} |Block|.

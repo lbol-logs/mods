@@ -1,0 +1,8 @@
+﻿cardsonanoka:
+  Name: ¿Eso es así?
+  Description: >-
+    |Reduce| {Value1}% {healstring}de la vida actual.
+
+    Gana {Block} de |Bloqueo|.
+
+    Gana {Value2} de |Evasión|.

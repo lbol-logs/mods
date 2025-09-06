@@ -1,0 +1,10 @@
+﻿seendurance:
+  Name: Endurance
+  Description: >-
+    While {PlayerName} has less than |n:50|% ({lifeneed}) life: Whenever {PlayerName}'s life decreases, increase |n:Count| by |n:1| .
+
+    At the start of {PlayerName}'s turn, lose all |n:Count| and add that many |Crimson Blood| to the hand.
+  Brief: >-
+    While {PlayerName} has less than |n:50|% life: Whenever {PlayerName}'s life decreases, increase |n:Count| by |n:1| .
+
+    At the start of {PlayerName}'s turn, lose all |n:Count| and add that many |Crimson Blood| to the hand.

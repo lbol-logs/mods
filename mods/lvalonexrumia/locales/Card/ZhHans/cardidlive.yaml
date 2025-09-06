@@ -1,0 +1,10 @@
+﻿cardidlive:
+  Name: 向死而生
+  Description: >-
+    直到这轮结束前，{PlayerName}不会死亡。
+
+    这轮结束时，将生命值设定为打出{SelfName}时的生命值的一半。
+  DetailText: >-
+    {PlayerName}达到 |n:0| 点生命值时不会死亡。
+
+    如果战斗在这轮结束前结束，立即将生命值设定为打出{SelfName}时的生命值的一半。

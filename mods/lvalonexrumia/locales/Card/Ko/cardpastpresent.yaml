@@ -1,0 +1,6 @@
+﻿cardpastpresent:
+  Name: 과거와 현재
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    다음 턴 시작 시, {SelfName}가 사용된 이후 사용된 카드들을 다시 사용합니다.

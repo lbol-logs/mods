@@ -1,0 +1,3 @@
+﻿cardendurance:
+  Name: 耐力
+  Description: '|當{PlayerName}的生命值少於| |n:50|% {needstring}|時|：每當{PlayerName}的生命值降低時，下回合開始時將 {Value1} 張|紅血|加入手中。'

@@ -1,0 +1,3 @@
+﻿cardbloodcontract:
+  Name: 血の契約
+  Description: '{PlayerName}のライフが減る度に、|血の剣の破片|{Value1}を得る。'

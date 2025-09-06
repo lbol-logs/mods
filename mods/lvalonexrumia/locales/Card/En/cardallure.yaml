@@ -1,0 +1,10 @@
+﻿cardallure:
+  Name: Crimson Allure
+  Description: >-
+    |Decrease| {Value1}% {healstring}of current life.
+
+    |Scry| {Scry}.
+
+    Draw {Value2} card{Value2:plural one='' other='s'}.
+
+    Apply {Value2} |Bleed| to each enemy.

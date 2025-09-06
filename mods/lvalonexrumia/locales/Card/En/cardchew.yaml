@@ -1,0 +1,14 @@
+﻿cardchew:
+  Name: Chew a Little
+  Description: >-
+    |Decrease| {Value1}% {healstring}life.
+
+    Deal {Damage} damage to each enemy {battleatk} time{battleatk:plural one='' other='s'}.
+
+    |Growth|: Deal damage {Value2} more time{Value2:plural one='' other='s'}.
+  NonbattleDescription: >-
+    |Decrease| {Value1}% {healstring}life.
+
+    Deal {Damage} damage to each enemy |n:2| times.
+
+    |Growth|: Deal damage {Value2} more time{Value2:plural one='' other='s'}.

@@ -1,0 +1,8 @@
+﻿cardshadowcut:
+  Name: 影斬り
+  Description: >-
+    手札に|暗闇|を{Value1}枚加える。
+
+    このターンを終了する。それから追加ターンを得る。
+
+    追加ターン開始時に、敵全体に{Damage}ダメージを{Value2}回与える。

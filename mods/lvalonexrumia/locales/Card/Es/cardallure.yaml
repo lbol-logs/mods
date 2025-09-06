@@ -1,0 +1,10 @@
+﻿cardallure:
+  Name: Seducción Carmesí
+  Description: >-
+    |Reduce| {Value1}% {healstring}de la vida actual.
+
+    |Explora| {Scry}.
+
+    Roba {Value2} carta{Value2:plural one='' other='s'}.
+
+    Aplica {Value2} |Sangrado| a cada enemigo.

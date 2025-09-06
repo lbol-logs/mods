@@ -1,0 +1,6 @@
+﻿cardintodarkness:
+  Name: 어둠 속으로
+  Description: >-
+    |혈흔|을 {Value1} 부여합니다.
+
+    |혈흔|이 있는 적 모두에게 피해를 {Damage} 줍니다.

@@ -1,0 +1,14 @@
+﻿cardtakeover:
+  Name: 影替
+  Description: >-
+    |减少|现有生命值的 {Value1}% |n:2| 次{healstring2s}。
+
+    施加 |n:1| 层|血迹|，|流血|，|虚弱|和|易伤|。
+
+    造成 {Damage} 点伤害 {Value2} 次。
+  UpgradedDescription: >-
+    |减少|现有生命值的 {Value1}% |n:2| 次{healstring2s}。
+
+    施加 |n:1| 层|血迹|，|流血|，|虚弱|，|易伤|和 {Value2} 点|失去火力|。
+
+    造成 {Damage} 点伤害 {Value2} 次。

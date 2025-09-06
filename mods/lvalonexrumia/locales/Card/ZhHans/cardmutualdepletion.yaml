@@ -1,0 +1,7 @@
+﻿cardmutualdepletion:
+  Name: 两相消耗
+  Description: 每当{PlayerName}的生命值降低至少 |n:1|% 时，所有敌人|减少|相同%的生命值（向下取整）。
+  UpgradedDescription: >-
+    每当{PlayerName}的生命值降低至少 |n:1|% 时，所有敌人|减少|相同%的生命值（向下取整）。
+
+    当累计降低 |n:200|% 的生命值时，获得战斗胜利。

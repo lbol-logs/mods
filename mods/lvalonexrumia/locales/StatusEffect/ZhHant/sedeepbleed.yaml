@@ -1,0 +1,12 @@
+﻿sedeepbleed:
+  Name: 嚴重流血
+  Description: >-
+    {OwnerName}在受到攻擊時|減少| |n:2|% ({truecount}) 生命值。
+
+    {OwnerName}的回合開始時失去一層{SelfName}。
+
+    {OwnerName}目前擁有 {lifenow} 點生命值。
+  Brief: >-
+    {OwnerName}在受到攻擊時|減少| |n:2|% 生命值(向上取整)。
+
+    {OwnerName}的回合開始時失去一層{SelfName}。

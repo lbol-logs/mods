@@ -1,0 +1,8 @@
+﻿cardcrimsonray:
+  Name: 腥紅光線
+  Description: >-
+    |減少| {Value1}% {healstring}生命值。
+
+    施加 {Value2} 層|流血|。
+
+    造成 {Damage} 點傷害。

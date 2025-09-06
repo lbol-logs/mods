@@ -1,0 +1,14 @@
+﻿cardboilingblood:
+  Name: Boiling Blood
+  Description: >-
+    |Decrease| {Value1}% {healstring}life.
+
+    Deal {Damage} damage to each enemy with |Bleed|.
+
+    Gain {Value2} |Attack Increase|.
+  UpgradedDescription: >-
+    |Decrease| {Value1}% {healstring}life.
+
+    Deal {Damage} damage to each enemy.
+
+    Gain {Value2} |Attack Increase|.

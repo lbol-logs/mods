@@ -1,0 +1,6 @@
+﻿cardtorn:
+  Name: 裂けた赤いリボン
+  Description: >-
+    |{PlayerName}ライフが|50|%未満の間{needstring}|:{PlayerName}が攻撃を|グレイズ|する度に、|攻撃増大|{Value1}と|生命増幅|{Value1}%得る{healstringnos}
+
+    |グレイズ|{Value2}を得る。

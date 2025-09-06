@@ -1,0 +1,14 @@
+﻿cardnoradrenaline:
+  Name: Noradrenaline
+  Description: >-
+    |Decrease| {Value1}% {healstring}life.
+
+    Deal {Damage} damage to each enemy with |Blood Mark| or |Bleed| |n:3| times.
+
+    If {PlayerName} has less than |n:50|% {needstring}life, add {Value2} |Crimson Blood| to the hand.
+  UpgradedDescription: >-
+    |Decrease| {Value1}% {healstring}life.
+
+    Deal {Damage} damage to each enemy |n:3| times.
+
+    If {PlayerName} has less than |n:50|% {needstring}life, add {Value2} |Crimson Blood| to the hand.

@@ -1,0 +1,4 @@
+﻿setorn:
+  Name: 被撕开的缎带
+  Description: 当{PlayerName}的生命值少于 |n:50|% ({lifeneed}) 时：每当{PlayerName}|闪避|伤害时，获得 {increase} 点|攻击提升|，|提升| {increase}% 的生命值 ({increaselife}) 。
+  Brief: 当{PlayerName}的生命值少于 |n:50|% 时：每当{PlayerName}|闪避|伤害时，获得 |n:10| 点|攻击提升|，|提升| |n:10|% 的生命值。

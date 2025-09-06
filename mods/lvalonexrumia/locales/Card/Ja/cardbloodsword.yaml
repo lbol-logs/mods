@@ -1,0 +1,11 @@
+﻿cardbloodsword:
+  Name: 血の剣
+  Description: >-
+    {Damage}ダメージを与える。
+
+    対象が|血の印|を持っていないならば|血の印|{Value2}を与え、そうでなければ対象から|血の印|{Value2}を消費し|生命増幅|{Value1}% {healstring}
+  UpgradedDescription: >-
+    {Damage}ダメージを与える。
+
+    |血の印|{Value2}を与え、|生命増幅|{Value1}% {healstring}
+  DetailText: プレイされることなく{SelfName}が廃棄されるとき、{SelfName}をプレイする。

@@ -1,0 +1,11 @@
+﻿cardbloodsword:
+  Name: 血剑
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    如果目标没有|血迹|，施加 {Value2} 层|血迹|，否则从目标上消耗 {Value2} 层|血迹|以|提升| {Value1}% {healstring}生命值。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害。
+
+    施加 {Value2} 层|血迹|和|提升| {Value1}% {healstring}生命值。
+  DetailText: 当{SelfName}在手牌未被打出而被|放逐|时，打出{SelfName}。

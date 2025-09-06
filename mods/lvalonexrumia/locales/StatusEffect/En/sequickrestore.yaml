@@ -1,0 +1,4 @@
+﻿sequickrestore:
+  Name: Quick Restoration
+  Description: At the end of this round, restore life to {truecounter}.
+  Brief: At the end of this round, restore life.

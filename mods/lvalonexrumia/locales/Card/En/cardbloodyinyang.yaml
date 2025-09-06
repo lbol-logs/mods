@@ -1,0 +1,6 @@
+﻿cardbloodyinyang:
+  Name: Blood-Stained Yin-Yang Orb
+  Description: >-
+    Choose up to {truevalue} card{truevalue:plural one='' other='s'} from |Exile| and return {truevalue:plural one='it' other='them'} to the hand.
+
+    |Upgrade| all cards in the hand.

@@ -1,0 +1,4 @@
+﻿setearmedo:
+  Name: 引き裂いてよ
+  Description: '{PlayerName}のライフが減る度に、|血の嵐の破片|{Level}と|攻撃増大|{atkincrease}を得る。'
+  Brief: '{PlayerName}のライフが減る度に、|血の嵐の破片||n:1|と|攻撃増大||n:10|を得る。'

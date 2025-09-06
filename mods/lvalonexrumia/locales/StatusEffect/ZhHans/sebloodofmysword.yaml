@@ -1,0 +1,4 @@
+﻿sebloodofmysword:
+  Name: 吾剑之血
+  Description: 每当{PlayerName}对敌人造成攻击伤害时，将敌人的生命值|提升| {Level} 点，获得 {Level} 点|暂得火力|。
+  Brief: 每当{PlayerName}对敌人造成攻击伤害时，将敌人的生命值|提升|，获得|暂得火力|。

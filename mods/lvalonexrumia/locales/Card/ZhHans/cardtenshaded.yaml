@@ -1,0 +1,16 @@
+﻿cardtenshaded:
+  Name: 十影斩
+  Description: >-
+    |减少|现有生命值的 {Value1}% {healstring}。
+
+    对随机敌人造成 {Damage} 点伤害 {Value2} 次。
+
+    将 {Value3} 张|暗影|加入手中。
+  UpgradedDescription: >-
+    |减少|现有生命值的 {Value1}% {healstring}。
+
+    对所有敌人施加 |n:1| 层|血迹|。
+
+    对随机敌人造成 {Damage} 点伤害 {Value2} 次。
+
+    将 {Value3} 张|暗影|加入手中。

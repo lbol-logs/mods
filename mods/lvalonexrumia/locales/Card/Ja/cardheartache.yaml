@@ -1,0 +1,6 @@
+﻿cardheartache:
+  Name: 切ない痛み
+  Description: >-
+    |生命減衰|{Value1}% {healstring} 
+
+    {Block}|ブロック|を得る。

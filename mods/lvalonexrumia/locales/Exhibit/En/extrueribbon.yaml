@@ -1,0 +1,8 @@
+﻿extrueribbon:
+  Name: True Ribbon
+  Description: >-
+    Adds {Mana} to the mana base.
+
+    At the very start of each combat, |decrease| life of each enemy by {Value2}% (minimum {Value2} life) {Value1} times.
+
+    At the very start of each combat, apply {Value1} |Blood Mark| and |Severe Bleed| to each enemy.

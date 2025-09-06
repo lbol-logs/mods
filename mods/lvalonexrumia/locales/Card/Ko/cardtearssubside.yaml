@@ -1,0 +1,8 @@
+﻿cardtearssubside:
+  Name: 눈물이 잦아들 때
+  Description: >-
+    |체력|을 |n:5|% |상실|합니다.
+
+    카드를 {Value2}장 뽑습니다.
+
+    뽑은 적색 카드 1장마다 |혈전|을 {Value1} 얻습니다.

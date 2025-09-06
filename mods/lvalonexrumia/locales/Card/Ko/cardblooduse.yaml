@@ -1,0 +1,6 @@
+﻿cardblooduse:
+  Name: 피의 활용
+  Description: >-
+    모든 적에게 피해를 {Damage} 줍니다.
+
+    {PlayerName}의 체력이 |n:50|% {needstring} 미만이라면, |진홍의 피|를 {Value1}장 손에 추가합니다.

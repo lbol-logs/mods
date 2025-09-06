@@ -1,0 +1,4 @@
+﻿exfakeribbon:
+  Description: Al comienzo de cada turno de {PlayerName} durante los combates contra jefes o élite, gana {ManaFake}.
+  Name: Cinta
+  FlavorText: '"Escuché que al liberarlo se despertará el poder demoníaco sellado."'

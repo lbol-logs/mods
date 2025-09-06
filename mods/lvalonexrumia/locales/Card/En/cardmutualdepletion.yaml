@@ -1,0 +1,7 @@
+﻿cardmutualdepletion:
+  Name: Mutual Depletion
+  Description: Whenever {PlayerName}'s life is decreased by at least |n:1|%, all enemies |decrease| the same % of life (rounded down).
+  UpgradedDescription: >-
+    Whenever {PlayerName}'s life is decreased by at least |n:1|%, all enemies |decrease| the same % of life (rounded down).
+
+    When |n:200|% life has been decreased accumulatively, win the battle.

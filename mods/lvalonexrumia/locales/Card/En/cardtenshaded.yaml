@@ -1,0 +1,16 @@
+﻿cardtenshaded:
+  Name: Ten-Shaded Slash
+  Description: >-
+    |Decrease| {Value1}% {healstring}of current life.
+
+    Deal {Damage} damage to a random enemy {Value2} time{Value2:plural one='' other='s'}.
+
+    Add {Value3} |Shadow{Value3:plural one='' other='s'}| to the hand.
+  UpgradedDescription: >-
+    |Decrease| {Value1}% {healstring}of current life.
+
+    Apply |n:1| |Blood Mark| to each enemy.
+
+    Deal {Damage} damage to a random enemy {Value2} time{Value2:plural one='' other='s'}.
+
+    Add {Value3} |Shadow{Value3:plural one='' other='s'}| to the hand.

@@ -1,0 +1,4 @@
+﻿semagia:
+  Name: 闇魔法形態
+  Description: ラウンド終了まで、{PlayerName}が攻撃される度に|血の剣の破片|{Level}を得る。
+  Brief: ラウンド終了まで、{PlayerName}が攻撃される度に|血の剣の破片|を得る。

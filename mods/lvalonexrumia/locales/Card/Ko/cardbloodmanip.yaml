@@ -1,0 +1,8 @@
+﻿cardbloodmanip:
+  Name: 피 조작
+  Description: >-
+    체력을 |n:5|% {healstring}만큼 |상실|합니다.
+
+    |혈전|을 {Value1} 얻습니다.
+
+    모든 적에게 |혈흔|과 |출혈|을 {Value2} 부여합니다.

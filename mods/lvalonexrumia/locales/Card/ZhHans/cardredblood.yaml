@@ -1,0 +1,14 @@
+﻿cardredblood:
+  Name: 红血
+  Description: >-
+    如果{PlayerName}的生命值少於 |n:50|% {needstring}，|提升| {Value1}% {healstring}生命值。
+
+    获得{Mana}。
+
+    对所有拥有|流血|的敌人造成 {Damage} 点|精准|攻击伤害。
+  UpgradedDescription: >-
+    |提升| {Value1}% {healstring}生命值。
+
+    获得{Mana}。
+
+    对所有拥有|流血|的敌人造成 {Damage} 点|精准|攻击伤害。

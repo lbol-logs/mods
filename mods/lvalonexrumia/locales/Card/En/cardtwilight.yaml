@@ -1,0 +1,8 @@
+﻿cardtwilight:
+  Name: Twilight
+  Description: >-
+    |While {PlayerName} has less than| |n:50|% {needstring}|life|: {PlayerName}'s attack damage is increased by |n:10|% of life lost (rounded up).
+
+    |While {PlayerName} has less than| |n:25|% {needstring25}|life|: Whenever a card is played, play |n:1| |Crimson Blood| (does not |increase| life).
+
+    |While {PlayerName} has less than| |n:15|% {needstring15}|life|: Whenever a card is played, gain |n:2| |Charge|.

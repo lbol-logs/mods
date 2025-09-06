@@ -1,0 +1,34 @@
+exexa:
+  Name: Honored Darkness
+  Description: |-
+    Adds {Mana} to the mana base. Cards unique to |EX Rumia| are added to the card pool.
+    At the start of the first turn each combat, apply {Value1} |Blood Mark| to each enemy.
+    {PlayerName}'s attack damage is increased by {Value2}% of life lost (rounded up).
+  FlavorText: I alone am the honored one throughout heaven and earth? Is that so?
+
+exexb:
+  Name: World of Hurt
+  Description: |-
+    Adds {Mana} to the mana base. Cards unique to |EX Rumia| are added to the card pool.
+    |Once per turn|, when {PlayerName} deals damage, apply {Value1} |Bleed| to each enemy.
+    Whenever {PlayerName}'s life decreases, all enemies also |decrease| that much life.
+  FlavorText: The world blessed me with the kiss of pain...
+
+extrueribbon:
+  Name: True Ribbon
+  Description: |-
+    Adds {Mana} to the mana base.
+    At the very start of each combat, |decrease| life of each enemy by {Value2}% (minimum {Value2} life) {Value1} times.
+    At the very start of each combat, apply {Value1} |Blood Mark| and |Severe Bleed| to each enemy.
+
+exfakeribbon:
+  Description:
+    During Boss or Elite combat, at the start of {PlayerName}'s turn, gain
+    {ManaFake}.
+  Name: Ribbon
+  FlavorText: '"I heard that unlocking it would release the sealed demonic power."'
+
+exrumiafumo:
+  Description: "Whenever a |Blood| card is played, gain {Value1} |Temporary Firepower|."
+  Name: "Dusk Youkai Plushie"
+  FlavorText: "Often just a ball of pure darkness."

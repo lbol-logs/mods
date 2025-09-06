@@ -1,0 +1,10 @@
+﻿cardetude:
+  Name: 私の練習曲
+  Description: >-
+    現在のライフから|生命減衰|{Value1}% {healstring}
+
+    |攻撃増大|{Value2}を得る。
+
+    ランダムな敵に{Damage}ダメージを|n:3|回与える。
+
+    これらの効果を{PlayerName}の次のターン開始時にも繰り返す。

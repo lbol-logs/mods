@@ -1,0 +1,8 @@
+﻿cardhakureimiko:
+  Name: 하쿠레이 무녀
+  Description: >-
+    {FriendS}|손에 있을 때|: {PlayerName}가 카드를 얻을 때마다 그 카드를 |강화|합니다.
+
+    {FriendP}체력이 {Value1}% |증가|합니다.
+  ExtraDescription1: '{FriendA}|소멸|된 카드 한 장을 선택해 |강화|하고, 그 카드와 {SelfName}를 손으로 되돌립니다.'
+  ExtraDescription3: '{FriendU}모든 카드에서 |소멸| 및 |휘발성|이 제거됩니다.'

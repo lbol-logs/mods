@@ -1,0 +1,4 @@
+﻿sebloodsword:
+  Name: Blood Sword Token
+  Description: Whenever there are {lim} or more {SelfName}|n:s|, lose {lim} {SelfName}|n:s| to add a |Blood Sword| to the hand.
+  Brief: Whenever there are {lim} or more {SelfName}|n:s|, lose {lim} {SelfName}|n:s| to add a |Blood Sword| to the hand.

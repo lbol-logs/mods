@@ -1,0 +1,7 @@
+﻿carddevour:
+  Name: Devour
+  Description: >-
+    Deal {Damage} damage.
+
+    |Expel|: Gain {Value1}% {healstring}maximum life, remove {SelfName} from combat and the library.
+  DetailText: '{SelfName} cannot be randomly generated in combat, and cannot be copied.'

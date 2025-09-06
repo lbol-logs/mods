@@ -1,0 +1,32 @@
+exexa:
+  Name: 唯暗独尊
+  Description: |-
+    提供基础法力{BaseMana}，|EX露米娅|的专属卡牌会加入牌池。
+    在第一回合的开始时,对所有敌人施加 {Value1} 层|血迹|。
+    {PlayerName}的攻击伤害提升已损生命值的 {Value2}% （向上取整）。
+  FlavorText: 天上天下为我独尊？是这样吗？
+
+exexb:
+  Name: 苦痛的世界
+  Description: |-
+    提供基础法力{BaseMana}，|EX露米娅|的专属卡牌会加入牌池。
+    |一回合一次|，当{PlayerName}造成伤害时，对每个敌人施加 {Value1} 层|流血|。
+    每当{PlayerName}的生命值降低时，所有敌人也|减少|等量的的生命值。
+  FlavorText: 世界以痛吻我。。。
+
+extrueribbon:
+  Name: 真正的缎带
+  Description: |-
+    提供基础法力{BaseMana}。
+    每场战斗的最开始时，所有敌人|减少| {Value2}% 生命值 (最少 {Value2} 点生命值) {Value1} 次。
+    每场战斗的最开始时，对所有敌人施加 {Value1} 层|血迹|和|严重流血|。
+
+exfakeribbon:
+  Description: 对战精英与首领敌人时，每回合开始时获得{ManaFake}。
+  Name: 缎带
+  FlavorText: "「听说解开它就能释放被封印的恶魔之力。」"
+
+exrumiafumo:
+  Description: "每当打出一张|血|牌时，获得 {Value1} 层|暂得火力|。"
+  Name: "宵暗的毛绒玩具"
+  FlavorText: "大部分时候都只是一团黑球。"

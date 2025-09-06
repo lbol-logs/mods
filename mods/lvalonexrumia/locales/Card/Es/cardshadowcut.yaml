@@ -1,0 +1,6 @@
+﻿cardshadowcut:
+  Name: Corte de la Sombras
+  Description: >-
+    Agrega {Value1} |Sombra{Value1:plural one='' other='s'}| a la mano.
+
+    Finaliza el turno. Luego toma un turno extra. Al comienzo del turno extra, inflige {Damage} de daño a cada enemigo {Value2} ve{Value2:plural one='z' other='ces'}.

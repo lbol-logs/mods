@@ -1,0 +1,8 @@
+﻿cardhakureimiko:
+  Name: La Miko Hakurei
+  Description: >-
+    {FriendS}|Mientras esté en la mano|: Cada vez que {PlayerName} agrega una carta, se |Mejora|.
+
+    {FriendP}|Incrementa| {Value1}% {healstring}de vida.
+  ExtraDescription1: '{FriendA}Elige una carta del |Exilio|, se |Mejora| y se devuelve junto con {SelfName} a la mano.'
+  ExtraDescription3: '{FriendU}Todas las carta pierden |Exilio| y |Etéreo|.'

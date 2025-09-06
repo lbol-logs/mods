@@ -1,0 +1,332 @@
+cardexaa:
+  Name: Backslash
+  Description: Deal {Damage} damage.
+
+cardexab:
+  Name: Dark Barrier
+  Description: Gain {Block} |Block|.
+
+cardexba:
+  Name: Forward Slash
+  Description: Deal {Damage} damage.
+
+cardexbb:
+  Name: Parry
+  Description: Gain {Block} |Block|.
+
+cardbloodsword:
+  Name: Blood Sword
+  Description: "Deal {Damage} damage.\nIf the target does not have |Blood Mark|, apply {Value2} |Blood Mark|, otherwise consume {Value2} |Blood Mark| from the target to |increase| {Value1}% {healstring}life."
+  UpgradedDescription: "Deal {Damage} damage.\nApply {Value2} |Blood Mark| and |increase| {Value1}% {healstring}life."
+  DetailText: "When {SelfName} is |Exiled| from the hand without being played, play {SelfName}."
+
+cardbloodstorm:
+  Name: Blood Storm
+  Description: "Deal {Damage} damage to each enemy.\nApply {Value1} |Bleed| to each enemy."
+  UpgradedDescription: "Deal {Damage} damage to each enemy.\nApply {Value1} |Bleed| and |Blood Mark| to each enemy."
+  DetailText: "When {SelfName} is |Exiled| from the hand without being played, play {SelfName}."
+
+carddarkblood:
+  Name: Dark Blood
+  Description: "|Increase| {Value1}% {healstring}life.\nDraw {Value2} card{Value2:plural one='' other='s'}.\nIf {PlayerName} has no |Accelerate|, gain {Value2} |Accelerate|."
+  UpgradedDescription: "|Increase| {Value1}% {healstring}life.\nDraw {Value2} card{Value2:plural one='' other='s'}.\nGain {Value2} |Graze|."
+
+cardredblood:
+  Name: Crimson Blood
+  Description: "If {PlayerName} has less than |n:50|% {needstring}life, |increase| {Value1}% {healstring}life.\nGain {Mana}.\nDeal {Damage} |Accurate| attack damage to each enemy with |Bleed|."
+  UpgradedDescription: "|Increase| {Value1}% {healstring}life.\nGain {Mana}.\nDeal {Damage} |Accurate| attack damage to each enemy with |Bleed|."
+
+cardbloodcontract:
+  Name: Blood Contract
+  Description: "Whenever {PlayerName}'s life decreases, gain {Value1} |Blood Sword Token|."
+
+cardbloodlaser:
+  Name: Blood laser
+  Description: "|Decrease| {Value1}% {healstring}of current life.\nApply {Value2} |Blood Mark|.\nDeal {Damage} damage."
+
+carddevour:
+  Name: Devour
+  Description: "Deal {Damage} damage.\n|Expel|: Gain {Value1}% {healstring}maximum life, remove {SelfName} from combat and the library."
+  DetailText: "{SelfName} cannot be randomly generated in combat, and cannot be copied."
+
+cardletsdance:
+  Name: Let's Dance
+  Description: "Apply {Value1} |Blood Mark| to each enemy.\nDeal {Damage} damage to each enemy {Value2} time{Value2:plural one='' other='s'}.\nGain {Value2} |Graze|."
+
+cardbloodburn:
+  Name: Blood Burn
+  Description: "|Decrease| {Value1}% {healstring}life.\nGain {Mana}."
+
+cardbite:
+  Name: Bite
+  Description: "Deal {Damage} damage.\nGain {Value1} |Dark Blood Token|."
+
+cardshady:
+  Name: Shady Secrets
+  Description: "Gain {Value1} |Graze| and {Value2} |Dark Blood Token|."
+
+cardadrenaline:
+  Name: Adrenaline
+  Description: "|While {PlayerName} has less than| |n:50|% {needstring}|life|: Whenever {PlayerName}'s life decreases, gain {Value1} |Attack Increase| and {Value2} |Blood Clot|."
+
+cardbloodyhell:
+  Name: Bloody Hell
+  Description: "Whenever a red card is played, gain {Value1} |Attack Increase|."
+
+cardintodarkness:
+  Name: Into the Darkness
+  Description: "Apply {Value1} |Blood Mark|.\nDeal {Damage} damage to each enemy with |Blood Mark|."
+
+cardbloodspeed:
+  Name: Blood Acceleration
+  Description: "|Decrease| {Value1}% of current life |n:2| times{healstring2}.\nGain |n:1| |Accelerate|.\nDraw {Value2} cards."
+
+cardtorn:
+  Name: Torn Red Ribbon
+  Description: "|While {PlayerName} has less than| |n:50|% {needstring}|life|: Whenever {PlayerName} |Grazes| an attack, gain {Value1} |Attack Increase|, |increase| life by {Value1}%{healstringnos}.\nGain {Value2} |Graze|."
+
+cardendurance:
+  Name: Endurance
+  Description: "|While {PlayerName} has less than| |n:50|% {needstring}|life|: Whenever {PlayerName}'s life decreases, at the start of the next turn, add {Value1} |Crimson Blood| to the hand."
+
+cardcrimsonray:
+  Name: Crimson Ray
+  Description: "|Decrease| {Value1}% {healstring}life.\nApply {Value2} |Bleed|.\nDeal {Damage} damage."
+
+cardbloodsucker:
+  Name: Blood-Sucker
+  Description: "Deal {Damage} damage.\nAdd {Value1} |Crimson Blood| to the hand."
+
+cardblooduse:
+  Name: Uses of Blood
+  Description: "Deal {Damage} damage to each enemy.\nIf {PlayerName} has less than |n:50|% {needstring}life, add {Value1} |Crimson Blood| to the hand."
+
+cardboilingblood:
+  Name: Boiling Blood
+  Description: "|Decrease| {Value1}% {healstring}life.\nDeal {Damage} damage to each enemy with |Bleed|.\nGain {Value2} |Attack Increase|."
+  UpgradedDescription: "|Decrease| {Value1}% {healstring}life.\nDeal {Damage} damage to each enemy.\nGain {Value2} |Attack Increase|."
+
+cardchew:
+  Name: Chew a Little
+  Description: "|Decrease| {Value1}% {healstring}life.\nDeal {Damage} damage to each enemy {battleatk} time{battleatk:plural one='' other='s'}.\n|Growth|: Deal damage {Value2} more time{Value2:plural one='' other='s'}."
+  NonbattleDescription: "|Decrease| {Value1}% {healstring}life.\nDeal {Damage} damage to each enemy |n:2| times.\n|Growth|: Deal damage {Value2} more time{Value2:plural one='' other='s'}."
+
+cardfurnace:
+  Name: Flesh Furnace
+  Description: "|Decrease| {Value1}% {healstring}life.\nGain |n:20| |Attack Increase| and add |n:1| |Crimson Blood| to the hand.\nIf {PlayerName} has less than |n:50|% {needstring}life, add {Value2} |Crimson Blood| to the hand."
+
+cardnoradrenaline:
+  Name: Noradrenaline
+  Description: "|Decrease| {Value1}% {healstring}life.\nDeal {Damage} damage to each enemy with |Blood Mark| or |Bleed| |n:3| times.\nIf {PlayerName} has less than |n:50|% {needstring}life, add {Value2} |Crimson Blood| to the hand."
+  UpgradedDescription: "|Decrease| {Value1}% {healstring}life.\nDeal {Damage} damage to each enemy |n:3| times.\nIf {PlayerName} has less than |n:50|% {needstring}life, add {Value2} |Crimson Blood| to the hand."
+
+cardbloodburst:
+  Name: Blood Burst
+  Description: "|Decrease| {Value1}% {healstring}life.\nApply |n:1| |Bleed| to each enemy {Value2} time{Value2:plural one='' other='s'}.\nDeal {Damage} damage to each enemy with |Bleed| |n:3| times."
+
+cardtearmedo:
+  Name: Tear Me Do
+  Description: "Whenever {PlayerName}'s life decreases, gain {Value1} |Blood Storm Token| and {Value2} |Attack Increase|."
+
+cardbloodwork:
+  Name: Bloodwork
+  Description: "Gain {Block} |Block|.\nGain {Value1} |Blood Clot|."
+
+cardsonanoka:
+  Name: Is that so?
+  Description: "|Decrease| {Value1}% {healstring}of current life.\nGain {Block} |Block|.\nGain {Value2} |Graze|."
+
+cardcrossout:
+  Name: Crossout Designating
+  Description: "|For each| {Mana2} |spent|: Gain {Block} |Block| and {Value1} |Blood Clot|."
+
+cardemergency:
+  Name: Emergency Cover
+  Description: "|Decrease| {Value1}% {healstring}of current life.\nGain {Block} |Block|.\nGain {Value2} |Dark Blood Token|."
+  UpgradedDescription: "|Decrease| {Value1}% {healstring}of current life.\nGain {Block} |Block|.\nGain {Value2} |Dark Blood Token|.\nIf an enemy intends to attack, gain {Value1} |Blood Clot|."
+
+cardmagia:
+  Name: Shadow Magia Rumia
+  Description: "Gain {Block} |Block|.\nGain {Value1} |Accelerate|.\nUntil end of round, gain {Value2} |Blood Sword Token| whenever {PlayerName} is attacked."
+
+cardbloodmanip:
+  Name: Blood Manipulation
+  Description: "|Decrease| |n:5|% {healstring}life.\nGain {Value1} |Blood Clot|.\nApply {Value2} |Blood Mark| and |Bleed| to each enemy."
+
+cardnether:
+  Name: Nether Shade
+  Description: "Gain {Shield} |Barrier|.\nGain {Value1} |Blood Clot|.\nAdd {Value2} |Shadow{Value2:plural one='' other='s'}| to the hand."
+
+cardheartache:
+  Name: Heartache
+  Description: "|Decrease| {Value1}% {healstring}life.\nGain {Block} |Block|."
+
+cardgojo:
+  Name: Infinite Void
+  Description: "|Decrease| {Value1}% of current life |n:2| times{healstring2}.\nUntil end of round, {PlayerName} cannot lose life.\nGain {Value2} |Extra Turn|."
+
+cardworldburn:
+  Name: The World Burns
+  Description: "Whevener {PlayerName} applies |Blood Mark| or |Bleed| to an enemy, also apply {Value1} of the other."
+  UpgradedDescription: "Whevener {PlayerName} applies |Blood Mark| or |Bleed| to an enemy, also apply {Value1} of the other.\nApply {Value1} |Blood Mark| and |Bleed| to each enemy."
+  DetailText: "no ofc it doesnt infinite with itself lmao"
+
+cardcorruptedblood:
+  Name: Corrupted Blood
+  Description: "When {PlayerName}'s life decreases, gain {Value1} |Dark Blood Token|."
+  UpgradedDescription: "When {PlayerName}'s life decreases, gain {Value1} |Dark Blood Token|.\nAdd {Value2} |Dark Blood| to the hand."
+
+cardbloodofmysword:
+  Name: Blood of My Sword
+  Description: "Whenever {PlayerName} deals attack damage to an enemy, |increase| the enemy's life by {Value1}, gain {Value1} |Temporary Firepower|."
+  UpgradedDescription: "Whenever {PlayerName} deals attack damage to an enemy, |increase| the enemy's life by {Value1}, gain {Value1} |Temporary Firepower|.\nAdd {Value2} |Blood Sword{Value2:plural one='' other='s'}| to the hand."
+
+carddarkexpulsion:
+  Name: Dark Expulsion
+  Description: "Gain {Value2} |Dark Blood Token|.\nAdd {Value1} |Shadow{Value1:plural one='' other='s'}| to the hand."
+
+cardbefallen:
+  Name: Befallen Blood
+  Description: "Gain {Value2} |Dark Blood Token|.\n|Decrease| {Value1}% {healstring}of current life.\nAdd |n:1| |Shadow| to the hand."
+
+cardimmerse:
+  Name: Immerse in Red
+  Description: "|Decrease| {Value1}% {healstring}life.\nUntil end of turn, whenever an attack card is played, gain |n:1| |Blood Storm Token|.\nAdd {Value2} |Crimson Blood| to the hand."
+
+cardallure:
+  Name: Crimson Allure
+  Description: "|Decrease| {Value1}% {healstring}of current life.\n|Scry| {Scry}.\nDraw {Value2} card{Value2:plural one='' other='s'}.\nApply {Value2} |Bleed| to each enemy."
+
+cardmissribbon:
+  Name: Miss Ribbon
+  Description: "{FriendS}|Decrease| {Value1}% {healstring}of current life, Gain {Mana}.\n{FriendP}|Decrease| {Value1}% {healstring}of current life, Gain {Mana}."
+  ExtraDescription1: "{FriendA}Apply {Value2} |Blood Mark| to each enemy."
+  ExtraDescription3: "{FriendU}Whenever {PlayerName} applies |Blood Mark| to an enemy, gain |n:1| |Blood Sword Token|."
+
+cardbleedslash:
+  Name: Bleed and Slash
+  Description: "When a black card is played, gain {Value1} |Blood Sword Token|."
+
+cardmarkblood:
+  Name: Mark My Blood
+  Description: "Whenever an enemy without |Blood Mark| is attacked, apply {Value2} |Blood Mark|."
+  UpgradedDescription: "Whenever an enemy without |Blood Mark| is attacked, apply {Value2} |Blood Mark|.\nApply {Value2} |Blood Mark| to each enemy."
+
+cardbloodcircle:
+  Name: Blood Circulation
+  Description: "At the start of {PlayerName}'s turn, return any number of |Exiled Blood| cards to the hand."
+
+carddearsword:
+  Name: My Dear Sword
+  Description: "{FriendS}|Decrease| |n:5|% {healstring}life.\n{FriendP}Add {Value1} |Crimson Blood| to the hand."
+  ExtraDescription1: "{FriendA}Apply {Value1} |Blood Mark| and |Bleed| to each enemy."
+  ExtraDescription3: "{FriendU}At the start of {PlayerName}'s turn, add {Value1} |Blood Storm| to the hand."
+
+cardcrimsontheater:
+  Name: Crimson Theater
+  Description: "Gain {Value1} |Graze|.\nAdd {Value2} |Blood Storm| to the hand."
+
+cardtearssubside:
+  Name: As Tears Subside
+  Description: "|Decrease| |n:5|% {healstring}life.\nDraw {Value2} card{Value2:plural one='' other='s'}.\nGain {Value1} |Blood Clot| for each red card drawn this way."
+
+cardsunnydry:
+  Name: Sunny Dry Up
+  Description: "|Decrease| {Value1}% {healstring}life.\nGain {Mana}.\nGain {Value2} |Blood Clot|.\nAdd |n:1| |Refracted Sunlight| to the hand."
+
+cardblooddisciple:
+  Name: Blood Disciple
+  Description: "|Decrease| {Value1}% {healstring}life.\nExile up to {Value2} card{Value2:plural one='' other='s'} in the hand. Gain that many |Blood Clot| and add that many |Crimson Blood| to the hand."
+
+cardcrimsondomain:
+  Name: Crimson Domain
+  Description: "Apply {Value1} |Bleed| and |Blood Mark| to each enemy. If an enemy already has |Bleed|, apply {Value1} |Severe Bleed| and |Blood Mark| instead.\nAdd {Value1} |Blood Storm| to the hand."
+
+cardinfuseddarkness:
+  Name: Infused Darkness
+  Description: "Until end of turn, whenever |Dark Blood| is played, gain one {Mana}.\nAdd {Value2} |Dark Blood| to the hand."
+
+cardnightfalls:
+  Name: Night Falls
+  Description: "Until end of turn, whenever a black card is played, gain {Value1} |Blood Sword Token|.\nPut {Value2} random black card{Value2:plural one='' other='s'} from the draw pile to the hand, then gain that many {Mana}."
+
+cardmixedblood:
+  Name: 200% Mixed Blood
+  Description: "Until end of turn, whenever |Dark Blood| is played, play a |Crimson Blood|, whenever |Crimson Blood| is played, gain {Value1} |Dark Blood Token|."
+  UpgradedDescription: "Until end of turn, whenever |Dark Blood| is played, play a |Crimson Blood|, whenever |Crimson Blood| is played, gain {Value1} |Dark Blood Token|.\nAdd {Value1} |Dark Blood| and |Crimson Blood| to the hand."
+
+cardbloodyinyang:
+  Name: Blood-Stained Yin-Yang Orb
+  Description: "Choose up to {truevalue} card{truevalue:plural one='' other='s'} from |Exile| and return {truevalue:plural one='it' other='them'} to the hand.\n|Upgrade| all cards in the hand."
+
+cardunstableblood:
+  Name: Unstable Blood
+  Description: "|Decrease| {Value1}% {healstring}life.\nApply |n:1| |Bleed| to each enemy. For each enemy that already has |Bleed|, gain {Value2} |Blood Storm Token|.\nDeal {Damage} damage to each enemy."
+
+cardbloodpulse:
+  Name: Blood Pulse
+  Description: "|Decrease| {Value1}% {healstring}life |n:2| times.\nApply |n:1| |Bleed| to each enemy.\nDeal {Damage} damage to each enemy {Value2} time{Value2:plural one='' other='s'}.\n|Debut|: |Exile| any number of cards in hand, add that many |Crimson Blood| to the hand."
+  ExtraDescription1: "|Decrease| {Value1}% {healstring}life |n:2| times.\nApply |n:1| |Bleed| to each enemy.\nDeal {Damage} damage to each enemy {Value2} time{Value2:plural one='' other='s'}.\n|d:Debut: Exile any number of cards in hand, add that many Crimson Blood to the hand.|"
+
+cardtenshaded:
+  Name: Ten-Shaded Slash
+  Description: "|Decrease| {Value1}% {healstring}of current life.\nDeal {Damage} damage to a random enemy {Value2} time{Value2:plural one='' other='s'}.\nAdd {Value3} |Shadow{Value3:plural one='' other='s'}| to the hand."
+  UpgradedDescription: "|Decrease| {Value1}% {healstring}of current life.\nApply |n:1| |Blood Mark| to each enemy.\nDeal {Damage} damage to a random enemy {Value2} time{Value2:plural one='' other='s'}.\nAdd {Value3} |Shadow{Value3:plural one='' other='s'}| to the hand."
+
+cardtakeover:
+  Name: Shadow Takeover
+  Description: "|Decrease| {Value1}% of current life {Value2} times{healstring2}.\nApply |n:1| |Blood Mark|, |Bleed|, |Weak| and |Vulnerable|.\nDeal {Damage} damage {Value2} time{Value2:plural one='' other='s'}."
+  UpgradedDescription: "|Decrease| {Value1}% of current life {Value2} times{healstring2}.\nApply |n:1| |Blood Mark|, |Bleed|, |Weak|, |Vulnerable| and {Value2} |Firepower Down|.\nDeal {Damage} damage {Value2} time{Value2:plural one='' other='s'}."
+
+cardetude:
+  Name: My Etude
+  Description: "|Decrease| {Value1}% {healstring}of current life.\nGain {Value2} |Attack Increase|.\nDeal {Damage} damage to a random enemy |n:3| times.\nRepeat these effects at the start of {PlayerName}'s next turn."
+
+cardshadowcut:
+  Name: Shadow Cut
+  Description: "Add {Value1} |Shadow{Value1:plural one='' other='s'}| to the hand.\nEnd this turn. Then, take an extra turn. At the start of that extra turn, deal {Damage} damage to each enemy {Value2} time{Value2:plural one='' other='s'}."
+
+cardhakureimiko:
+  Name: The Hakurei Miko
+  Description: "{FriendS}|While in hand|: Whenever {PlayerName} adds a card, |Upgrade| it.\n{FriendP}|Increase| {Value1}% {healstring}life."
+  ExtraDescription1: "{FriendA}Choose a card from |Exile|, |Upgrade| it, return it and {SelfName} to the hand."
+  ExtraDescription3: "{FriendU}All cards lose |Exile| and |Ethereal|."
+
+cardslicepast:
+  Name: Slice of Past
+  Description: "|Increase| {Value1}% {healstring}life.\n|Upgrade| all cards in the hand."
+
+cardbewater:
+  Name: Be Water
+  Description: "Whenever a |Blood| card is played, choose up to {Value1} card{Value1:plural one='' other='s'} in the discard pile, shuffle {Value1:plural one='it' other='them'} into the draw pile, draw {Value1} card{Value1:plural one='' other='s'}."
+
+cardlowtide:
+  Name: Low Tide
+  Description: "|Decrease| {Value1}% {healstring}of current life.\nAdd up to {Value2} card{Value2:plural one='' other='s'} from each of draw pile, discard pile and |Exiled| cards to the hand."
+
+cardquickrestore:
+  Name: Quick Restoration
+  Description: "At the end of this round, restore life to when {SelfName} was played."
+
+cardpastpresent:
+  Name: Past and Present
+  Description: "Deal {Damage} damage.\nAt the start of the next turn, play cards played after {SelfName} is played."
+
+cardmutualdepletion:
+  Name: Mutual Depletion
+  Description: "Whenever {PlayerName}'s life is decreased by at least |n:1|%, all enemies |decrease| the same % of life (rounded down)."
+  UpgradedDescription: "Whenever {PlayerName}'s life is decreased by at least |n:1|%, all enemies |decrease| the same % of life (rounded down).\nWhen |n:200|% life has been decreased accumulatively, win the battle."
+
+cardidlive:
+  Name: Being Towards Death
+  Description: "Until the end of this round, {PlayerName} will not lose the game.\nAt the end of this round, set life to half of {PlayerName}'s life when {SelfName} was played."
+  DetailText: "{PlayerName} reaching |n:0| life will not lose the game.\nIf the combat ends before the round has ended, set life to half of {PlayerName}'s life when {SelfName} was played immediately."
+
+cardkaleido:
+  Name: Kaleidoscopic Dazzles
+  Description: "|For each mana of a different color spent|: |Decrease| {Value1}% of current life, all enemies |decrease| {Value1}% of life (minimum {Value2} life).\n|Expel|: Gain maximum life equal to the total mana spent to play {SelfName}."
+  DetailText: "After playing {SelfName} and before it finishes resolving, any non-|Summon| enemies defeated will trigger {SelfName}'s |Expel| effect."
+
+cardtwilight:
+  Name: Twilight
+  Description: "|While {PlayerName} has less than| |n:50|% {needstring}|life|: {PlayerName}'s attack damage is increased by |n:10|% of life lost (rounded up).\n|While {PlayerName} has less than| |n:25|% {needstring25}|life|: Whenever a card is played, play |n:1| |Crimson Blood| (does not |increase| life).\n|While {PlayerName} has less than| |n:15|% {needstring15}|life|: Whenever a card is played, gain |n:2| |Charge|."

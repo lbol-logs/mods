@@ -1,0 +1,9 @@
+﻿exultb:
+  Title: Signo de Sangre
+  Content: Sonata de Luz Lunar Carmesí
+  Description: >-
+    Aplica {Value1} |Sangrado| a cada enemigo.
+
+    Inflige {Damage} de daño a cada enemigo {Value2} vece{Value2:plural one='z' other='ces'}.
+
+    |Certero|

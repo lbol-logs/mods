@@ -1,0 +1,10 @@
+﻿sebossheal:
+  Name: 憤怒
+  Description: >-
+    {OwnerName}的行動在生命值低於 |n:50|% 時會被加強。
+
+    每當{PlayerName}被攻擊時，{OwnerName}的生命值|提升| |n:1|%。
+  Brief: >-
+    {OwnerName}的行動在生命值低於 |n:50|% 時會被加強。
+
+    每當{PlayerName}被攻擊時，{OwnerName}的生命值|提升| |n:1|%。

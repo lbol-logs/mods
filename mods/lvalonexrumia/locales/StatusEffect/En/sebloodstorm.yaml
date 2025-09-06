@@ -1,0 +1,4 @@
+﻿sebloodstorm:
+  Name: Blood Storm Token
+  Description: Whenever there are {lim} or more {SelfName}|n:s|, lose {lim} {SelfName}|n:s| to add a |Blood Storm| to the hand.
+  Brief: Whenever there are {lim} or more {SelfName}|n:s|, lose {lim} {SelfName}|n:s| to add a |Blood Storm| to the hand.

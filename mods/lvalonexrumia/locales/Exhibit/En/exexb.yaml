@@ -1,0 +1,9 @@
+﻿exexb:
+  Name: World of Hurt
+  Description: >-
+    Adds {Mana} to the mana base. Cards unique to |EX Rumia| are added to the card pool.
+
+    |Once per turn|, when {PlayerName} deals damage, apply {Value1} |Bleed| to each enemy.
+
+    Whenever {PlayerName}'s life decreases, all enemies also |decrease| that much life.
+  FlavorText: The world blessed me with the kiss of pain...

@@ -1,0 +1,6 @@
+﻿cardbloodyinyang:
+  Name: Orbe Yin-Yang Cubierto de Sangre
+  Description: >-
+    Elige hasta {truevalue} carta{truevalue:plural one='' other='s'} del |Exilio| y devuélvela{truevalue:plural one='' other='s'} a la mano.
+
+    |Mejora| todas las cartas de la mano.

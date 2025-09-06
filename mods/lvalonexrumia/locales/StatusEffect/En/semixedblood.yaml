@@ -1,0 +1,4 @@
+﻿semixedblood:
+  Name: 200% Mixed Blood
+  Description: Until end of turn, whenever |Dark Blood| is played, play a |Crimson Blood| {Level} time{Level:plural one='' other='s'}, whenever |Crimson Blood| is played, gain {Level} |Dark Blood Token|.
+  Brief: Until end of turn, whenever |Dark Blood| is played, play a |Crimson Blood|, whenever |Crimson Blood| is played, gain |Dark Blood Token|.

@@ -1,0 +1,8 @@
+﻿cardsonanoka:
+  Name: Is that so?
+  Description: >-
+    |Decrease| {Value1}% {healstring}of current life.
+
+    Gain {Block} |Block|.
+
+    Gain {Value2} |Graze|.

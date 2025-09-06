@@ -1,0 +1,7 @@
+﻿cardbloodofmysword:
+  Name: 吾剑之血
+  Description: 每当{PlayerName}对敌人造成攻击伤害时，将敌人的生命值|提升| {Value1} 点，获得 {Value1} 点|暂得火力|。
+  UpgradedDescription: >-
+    每当{PlayerName}对敌人造成攻击伤害时，将敌人的生命值|提升| {Value1} 点，获得 {Value1} 点|暂得火力|。
+
+    将 {Value2} 张|血剑|加入手中。

@@ -1,0 +1,3 @@
+﻿cardquickrestore:
+  Name: 即時回復
+  Description: このラウンド終了時に、{SelfName}が使用されたときの体力に回復する。

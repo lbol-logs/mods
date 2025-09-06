@@ -1,0 +1,4 @@
+﻿setwilight1:
+  Name: 死亡的邀约
+  Description: 当{OwnerName}的生命值少于 |n:50|% ({lifeneed}) 时：{PlayerName}的攻击伤害提升已损生命值的 {Level}% （向上取整）。
+  Brief: 当{OwnerName}的生命值少于 |n:50|% 时：{PlayerName}的攻击伤害提升已损生命值的若干% （向上取整）。

@@ -1,0 +1,3 @@
+﻿cardadrenaline:
+  Name: 腎上腺素
+  Description: '|當{PlayerName}的生命值少於| |n:50|% {needstring}|時|：每當{PlayerName}的生命值降低時，獲得 {Value1} 層|攻擊提升|和 {Value2} 層|血塊|。'

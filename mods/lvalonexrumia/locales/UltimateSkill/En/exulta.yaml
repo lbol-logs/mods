@@ -1,0 +1,9 @@
+﻿exulta:
+  Title: EX
+  Content: Termination
+  Description: >-
+    Apply {Value1} |Blood Mark|.
+
+    Deal {Damage} damage {Value2} time{Value2:plural one='' other='s'}.
+
+    |Accurate|

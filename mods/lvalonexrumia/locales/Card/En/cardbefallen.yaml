@@ -1,0 +1,8 @@
+﻿cardbefallen:
+  Name: Befallen Blood
+  Description: >-
+    Gain {Value2} |Dark Blood Token|.
+
+    |Decrease| {Value1}% {healstring}of current life.
+
+    Add |n:1| |Shadow| to the hand.

@@ -1,0 +1,6 @@
+﻿carddarkexpulsion:
+  Name: Expulsión Oscura
+  Description: >-
+    Gana {Value2} |Emblema{Value2:plural one='' other='s'} de Sangre Oscura|.
+
+    Agrega {Value1} |Sombra{Value1:plural one='' other='s'}| a la mano.

@@ -1,0 +1,6 @@
+﻿cardpastpresent:
+  Name: 時をなぞる刃
+  Description: >-
+    {Damage}ダメージを与える。
+
+    次のターン開始時に、{SelfName}使用後にプレイされたカードを再度プレイする。

@@ -1,0 +1,4 @@
+﻿sebloodofmysword:
+  Name: 나의 검에 깃든 피
+  Description: '{OwnerName}이 적에게 공격 피해를 줄 때마다 적의 체력을 {Level} |증가|시키고 |일시 화력|을 {Level} 얻습니다.'
+  Brief: '{OwnerName}이 적에게 공격 피해를 줄 때마다 적의 체력을 |증가|시키고 |일시 화력|을 얻습니다.'

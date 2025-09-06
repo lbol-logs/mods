@@ -1,0 +1,4 @@
+﻿semissribbon:
+  Name: Miss Ribbon
+  Description: Whenever {PlayerName} applies |Blood Mark| to an enemy, gain {Level} |Blood Sword Token|.
+  Brief: Whenever {PlayerName} applies |Blood Mark| to an enemy, gain |Blood Sword Token|.

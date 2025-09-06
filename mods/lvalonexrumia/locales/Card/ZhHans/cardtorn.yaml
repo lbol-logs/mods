@@ -1,0 +1,6 @@
+﻿cardtorn:
+  Name: 被撕开的缎带
+  Description: >-
+    |当{PlayerName}的生命值少于| |n:50|% {needstring}|时|：每当{PlayerName}|闪避|伤害时，获得 {Value1} 层|攻击提升|, |提升| {Value1}% 的生命值{healstrings}。
+
+    获得 {Value2} 层|闪避|。

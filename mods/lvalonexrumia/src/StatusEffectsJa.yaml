@@ -1,0 +1,200 @@
+sedecrease:
+  Name: 生命減衰
+  Description: "通常のダメージによる減少とは異なり、ライフを特別な方法で一定値まで下げる。ライフが|n:0|以下に設定された場合、即座に戦闘不能となる。"
+  Brief: "通常のダメージによる減少とは異なり、ライフを特別な方法で一定値まで下げる。ライフが|n:0|以下に設定された場合、即座に戦闘不能となる。"
+
+seincrease:
+  Name: 生命増幅
+  Description: "通常の回復とは異なり、ライフを特別な方法でより高い値に設定する。ただし最大ライフを超えることはない。"
+  Brief: "通常の回復とは異なり、ライフを特別な方法でより高い値に設定する。ただし最大ライフを超えることはない。"
+
+sebloodmark:
+  Name: 血の印
+  Description: "{OwnerName}が攻撃を受ける際、被ダメージが{Value}%増加する。\n{OwnerName}のターン開始時に、{SelfName}|n:1|を失う。"
+  Brief: "{OwnerName}が攻撃を受ける際、被ダメージが{Value}%増加する。\n{OwnerName}のターン開始時に、{SelfName}|n:1|を失う。"
+
+sebleed:
+  Name: 出血
+  Description: "{OwnerName}は攻撃される度にライフを|n:1|%({truecount})失う。\n{OwnerName}のターン開始時に、{SelfName}|n:1|を失う。\n{OwnerName}の現在のライフは{lifenow}。"
+  Brief: "{OwnerName}は攻撃される度にライフを|n:1|%(切り上げ)失う。\n{OwnerName}のターン開始時に、{SelfName}|n:1|を失う。"
+
+sedeepbleed:
+  Name: 大量出血
+  Description: "{OwnerName}は攻撃される度にライフを|n:2|%({truecount})失う。\n{OwnerName}のターン開始時に、{SelfName}|n:1|を失う。\n{OwnerName}の現在のライフは{lifenow}。"
+  Brief: "{OwnerName}は攻撃される度にライフを|n:2|%(切り上げ)失う。\n{OwnerName}のターン開始時に、{SelfName}|n:1|を失う。"
+
+sebloodsword:
+  Name: 血の剣の破片
+  Description: "{SelfName}が|n:{lim}|以上あるとき、{SelfName}を|n:{lim}|消費し、手札に|血の剣|を加える。"
+  Brief: "{SelfName}が{lim}以上あるとき、{lim}個を失って手札に|血の剣|を加える。"
+
+sebloodstorm:
+  Name: 血の嵐の破片
+  Description: "{SelfName}が|n:{lim}|以上あるとき、{SelfName}を|n:{lim}|消費し、手札に|血の嵐|を加える。"
+  Brief: "{SelfName}が{lim}以上あるとき、{lim}個を失って手札に|血の嵐|を加える。"
+
+seatkincrease:
+  Name: 攻撃増大
+  Description: "{OwnerName}はこのターンの終了時まで、与える攻撃ダメージが{truecounter}%増加する。\n{OwnerName} のターン終了時に、{SelfName}の半分を失う。(5の倍数になるよう切り捨て)"
+  Brief: "{OwnerName}の攻撃ダメージがターン終了時まで |n:Level|%増加する。\n{OwnerName} のターン終了時に、{SelfName}の半分を失う。(5の倍数になるよう切り捨て)"
+
+seaccel:
+  Name: 加速
+  Description: "{OwnerName}の次のターン開始時、|グレイズ|{Level}を得る。"
+  Brief: "{OwnerName}の次のターン開始時、|グレイズ|を得る。"
+
+sebloodclot:
+  Name: 血盾
+  Description: "{OwnerName}はこのラウンドの終了まで、受ける攻撃ダメージが{Value}%減少 (上限|n:100|%)"
+  Brief: "{OwnerName}はこのラウンドの終了まで、受ける攻撃ダメージが{Value}%減少 (上限|n:100|%)"
+
+sedarkblood:
+  Name: 闇の血の雫
+  Description: "|各ターンに1回まで|、{PlayerName}のライフが減少したとき、{SelfName}|n:1|失い、手札に|闇の血|を1枚加える。その後、すべての{SelfName}を失い、その数だけ{mana}を得る。"
+  Brief: "|各ターンに1回まで|、{PlayerName}のライフが減少したとき、{SelfName}|n:1|失い、手札に|闇の血|を1枚加える。その後、すべての{SelfName}を失い、その数だけ{mana}を得る。"
+
+sebloodcontract:
+  Name: 血の契約
+  Description: "{PlayerName}のライフが減る度に、|血の剣の破片|{Level}を得る。"
+  Brief: "{PlayerName}のライフが減る度に、|血の剣の破片|を得る。"
+
+seadrenaline:
+  Name: アドレナリン
+  Description: "{PlayerName}ライフが|n:50|%未満の間({lifeneed}): {PlayerName}の体力が減少するたびに、|攻撃増大|{atkincrease}と|血盾|{Level}を得る。"
+  Brief: "{PlayerName}ライフが|n:50|%未満の間({lifeneed}): {PlayerName}の体力が減少するたびに、|攻撃増大||n:5|と|血盾||n:1|を得る。"
+
+sebloodyhell:
+  Name: 血の地獄
+  Description: "赤色のカードをプレイする度に、|攻撃増大|{atkincrease}を得る。"
+  Brief: "赤色のカードをプレイする度に、|攻撃増大||n:10|を得る。"
+
+setorn:
+  Name: 裂けた赤いリボン
+  Description: "{PlayerName}ライフが|n:50|%未満の間({lifeneed}): {PlayerName}が攻撃を|グレイズ|する度に、|攻撃増大|{increase} と|生命増幅|{increase}%得る({increaselife})。"
+  Brief: "{PlayerName}ライフが|n:50|%未満の間: {PlayerName}が攻撃を|グレイズ|する度に、|攻撃増大||n:10|と|生命増幅||n:10|%得る。"
+
+seendurance:
+  Name: 持久力
+  Description: "{PlayerName}ライフが|n:50|%未満の間({lifeneed}): {PlayerName}のライフが減る度に|n:カウント|が|n:1|増える。\n{PlayerName}のターン開始時すべての|n:カウント|を失い、その枚数に等しい|深紅の血|を手札に加える。"
+  Brief: "{PlayerName}ライフが|n:50|%未満の間: {PlayerName}のライフが減る度に|n:カウント|が|n:1|増える。\n{PlayerName}のターン開始時すべての|n:カウント|を失い、その枚数に等しい|深紅の血|を手札に加える。"
+
+setearmedo:
+  Name: 引き裂いてよ
+  Description: "{PlayerName}のライフが減る度に、|血の嵐の破片|{Level}と|攻撃増大|{atkincrease}を得る。"
+  Brief: "{PlayerName}のライフが減る度に、|血の嵐の破片||n:1|と|攻撃増大||n:10|を得る。"
+
+semagia:
+  Name: 闇魔法形態
+  Description: "ラウンド終了まで、{PlayerName}が攻撃される度に|血の剣の破片|{Level}を得る。"
+  Brief: "ラウンド終了まで、{PlayerName}が攻撃される度に|血の剣の破片|を得る。"
+
+segojo:
+  Name: 無量空処
+  Description: "ラウンド終了まで、{OwnerName}はライフを失わない。"
+  Brief: "ラウンド終了まで、{OwnerName}はライフを失わない。"
+
+seworldburn:
+  Name: 燃え上がる世界
+  Description: "{PlayerName}が敵に|血の印|を与える度に、|出血|{Level}を与える。\n{PlayerName}が敵に|出血|を与える度に、|血の印|{Level}を与える。"
+  Brief: "{PlayerName}が敵に|血の印|を与える度に、|出血|を与える。\n{PlayerName}が敵に|出血|を与える度に、|血の印|を与える。"
+
+secorruptedblood:
+  Name: 穢れた血
+  Description: "{PlayerName}がライフを減らす時、|闇の血の雫|{Level}を得る。"
+  Brief: "{PlayerName}がライフを減らす時、|闇の血の雫|を得る。"
+
+sebloodofmysword:
+  Name: 血染めの剣
+  Description: "|血の剣|ではないアタックカードをプレイする度に、|血の剣の破片|{Level}を得る。"
+  Brief: "|血の剣|ではないアタックカードをプレイする度に、|血の剣の破片|を得る。"
+
+seimmerse:
+  Name: 紅に染まる
+  Description: "ターン終了までアタックカードをプレイする度に、|血の嵐の破片|{Level}を得る。"
+  Brief: "ターン終了までアタックカードをプレイする度に、|血の嵐の破片|を得る。"
+
+semissribbon:
+  Name: リボン嬢
+  Description: "{PlayerName}が敵に|血の印|を与える度に、|血の剣の破片|{Level}を得る。"
+  Brief: "{PlayerName}が敵に|血の印|を与える度に、|血の剣の破片|を得る。"
+
+sebleedslash:
+  Name: 斬って血を啜れ
+  Description: "黒色のカードをプレイした時、|血の剣の破片|{Level}を得る。"
+  Brief: "黒色のカードをプレイした時、|血の剣の破片|を得る。"
+
+semarkblood:
+  Name: 我が血を刻め
+  Description: "|血の印|がない敵が攻撃される度に、|血の印|{Level}を与える。"
+  Brief: "|血の印|がない敵が攻撃される度に、|血の印|を与える。"
+
+sebloodcircle:
+  Name: 血液循環
+  Description: "{PlayerName}のターン開始時、|廃棄された血|のカードを好きな枚数だけ手札に戻す。"
+  Brief: "{PlayerName}のターン開始時、|廃棄された血|のカードを好きな枚数だけ手札に戻す。"
+
+sedearsword:
+  Name: 我が愛剣
+  Description: "{PlayerName}のターン開始時、手札に|血の嵐|を{Level}枚加える。"
+  Brief: "{PlayerName}のターン開始時、手札に|血の嵐|を加える。"
+
+seinfuseddarkness:
+  Name: 闇の浸透
+  Description: "ターン終了時まで|闇の血|をプレイする度に、{Mana}を得る。"
+  Brief: "ターン終了時まで|闇の血|をプレイする度に、{Mana}を得る。"
+
+senightfalls:
+  Name: 夜の訪れ
+  Description: "ターン終了まで黒色のカードをプレイする度に、|血の剣の破片|{Level}を得る。"
+  Brief: "ターン終了まで黒色のカードをプレイする度に、|血の剣の破片|を得る。"
+
+semixedblood:
+  Name: 究極の混血
+  Description: "ターン終了まで|闇の血|をプレイする度に、|深紅の血|を{Level}回プレイする。\nターン終了まで|深紅の血|がプレイされる度に、|闇の血の雫|{Level}を得る。"
+  Brief: "ターン終了まで|闇の血|をプレイする度に、|深紅の血|をプレイする。\nターン終了まで|深紅の血|がプレイされる度に、|闇の血の雫|を得る。"
+
+seetude:
+  Name: 私の練習曲
+  Description: "{PlayerName}の次のターン開始時、現在のライフから|生命減衰||n:5|% ({heal})、ランダムな敵に{Damage}ダメージを|n:3|回与える。"
+  Brief: "{PlayerName}の次のターン開始時、現在のライフから|生命減衰||n:5|% 、ランダムな敵に{Damage}ダメージを|n:3|回与える。"
+
+seshadowcut:
+  Name: 影斬り
+  Description: "{PlayerName}のターン開始時、ランダムな敵に{Damage}ダメージを{Level}回与える。"
+  ExtraDescription: "{PlayerName}のターン開始時、ランダムな敵に{Damage}ダメージを{Level}回与える。\n{SelfName}は非アクティブ状態となり、効果を発動したターンの終了後にのみ取り除かれる。"
+  Brief: "{PlayerName}のターン開始時、|n:5|ダメージをランダムな敵に|n:5|回与える。"
+
+sebewater:
+  Name: 水の如し
+  Description: "|血|のカードをプレイする度に、捨て札から最大{Level}枚のカードを選び、そのカードを山札にシャッフルし、{Level}枚のカードを引く。"
+  Brief: "|血|のカードをプレイする度に、捨て札から最大|n:1|枚のカードを選び、そのカードを山札にシャッフルし、1枚のカードを引く。"
+
+sequickrestore:
+  Name: 即時回復
+  Description: "このラウンド終了時に、ライフを{truecounter}回復する。"
+  Brief: "このラウンド終了時に、ライフを回復する。"
+
+sepastpresent:
+  Name: 時をなぞる刃
+  Description: "次のターン開始時、{SelfName}が加えられた後にプレイした後にプレイしたカードをプレイする。それから{SelfName}を取り除く。"
+  Brief: "次のターン開始時、{SelfName}が加えられた後にプレイした後にプレイしたカードをプレイする。それから{SelfName}を取り除く。"
+
+semutualdepletion:
+  Name: 相互消耗
+  Description: "{PlayerName}の体力が|n:1|%以上減少したとき、全ての敵も同じ割合(小数点以下切り捨て)のライフを失う。"
+  Brief: "{PlayerName}の体力が|n:1|%以上減少したとき、全ての敵も同じ割合(小数点以下切り捨て)のライフを失う。"
+
+seidlive:
+  Name: 死への存在
+  Description: "このラウンドの終了まで、{PlayerName}はゲームに敗北しません。"
+  Brief: "このラウンドの終了まで、{PlayerName}はゲームに敗北しません。"
+
+sefuckyou:
+  Name: 終焉への秒読み
+  Description: "累計で|n:200|%の体力が減少すると、戦闘に勝利します。\n残り{Count}%"
+  Brief: "累計で|n:200|%の体力が減少すると、戦闘に勝利します。"
+
+sebossheal:
+  Name: 激昂
+  Description: "{OwnerName}のライフが|n:50|%未満のとき、行動が強化される。\n{PlayerName}が攻撃されるたびに、{OwnerName}のライフが|n:1|%|回復|する。"
+  Brief: "{OwnerName}のライフが|n:50|%未満のとき、行動が強化される。\n{PlayerName}が攻撃されるたびに、{OwnerName}のライフが|n:1|%|回復|する。"
