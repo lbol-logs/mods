@@ -1,4 +1,1257 @@
 {
+  "cardadrenaline": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1R",
+      "Value1": 5,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": "R",
+      "Keywords": "Initial,Replenish"
+    }
+  },
+  "cardallure": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "H:HBR",
+      "Value1": 5,
+      "Value2": 1,
+      "Scry": 3,
+      "Keywords": "Scry"
+    },
+    "1": {
+      "Cost": 1,
+      "Keywords": "Retain,Scry"
+    }
+  },
+  "cardbefallen": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "B",
+      "Value1": 5,
+      "Value2": 3
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "cardbewater": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "2U",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "U"
+    }
+  },
+  "cardbite": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1B",
+      "Damage": 13,
+      "Value1": 1
+    },
+    "1": {
+      "Damage": 16,
+      "Value1": 2
+    }
+  },
+  "cardbleedslash": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "BB",
+      "Value1": 1,
+      "Value2": 2
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "cardbloodburn": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "B",
+      "Value1": 10,
+      "Mana": "BBRR",
+      "Keywords": "Ethereal"
+    },
+    "1": {
+      "Mana": "RRPP",
+      "Keywords": "Ethereal"
+    }
+  },
+  "cardbloodburst": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1R",
+      "Damage": 5,
+      "Value1": 5,
+      "Value2": 2,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Value2": 3,
+      "Keywords": "Accuracy"
+    }
+  },
+  "cardbloodcircle": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "2BRH:HBR",
+      "Value1": 5,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": "1BR"
+    }
+  },
+  "cardbloodcontract": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1B",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "cardblooddisciple": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1R",
+      "Value1": 5,
+      "Value2": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile,Echo"
+    }
+  },
+  "cardbloodlaser": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1B",
+      "Damage": 7,
+      "Value1": 5,
+      "Value2": 1,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 10,
+      "Keywords": "Accuracy,Replenish"
+    }
+  },
+  "cardbloodmanip": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1R",
+      "Block": 0,
+      "Value1": 8,
+      "Value2": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 10,
+      "Value2": 2,
+      "Keywords": "Exile"
+    }
+  },
+  "cardbloodofmysword": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1BB",
+      "Value1": 1,
+      "Value2": 2,
+      "Keywords": "Retain"
+    },
+    "1": {
+      "Keywords": "Retain"
+    }
+  },
+  "cardbloodpulse": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "RRR",
+      "Damage": 5,
+      "Value1": 5,
+      "Value2": 2,
+      "Keywords": "Ethereal,Debut"
+    },
+    "1": {
+      "Value2": 3,
+      "Keywords": "Debut"
+    }
+  },
+  "cardbloodspeed": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "B",
+      "Value1": 5,
+      "Value2": 2
+    },
+    "1": {
+      "Value2": 4
+    }
+  },
+  "cardbloodstorm": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": 0,
+      "Damage": 10,
+      "Value1": 1,
+      "Keywords": "Exile,Retain,AutoExile"
+    },
+    "1": {
+      "Keywords": "Exile,Retain,AutoExile"
+    }
+  },
+  "cardbloodsucker": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1R",
+      "Damage": 10,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "cardbloodsword": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": 0,
+      "Damage": 10,
+      "Value1": 5,
+      "Value2": 1,
+      "Keywords": "Accuracy,Exile,Retain,AutoExile"
+    },
+    "1": {
+      "Keywords": "Accuracy,Exile,Retain,AutoExile"
+    }
+  },
+  "cardblooduse": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1R",
+      "Damage": 10,
+      "Value1": 1
+    },
+    "1": {
+      "Damage": 14,
+      "Keywords": "Accuracy"
+    }
+  },
+  "cardbloodwork": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1B",
+      "Block": 10,
+      "Value1": 3
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 13,
+      "Value1": 5
+    }
+  },
+  "cardbloodyhell": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1R",
+      "Value1": 5
+    },
+    "1": {
+      "Keywords": "Retain,Replenish"
+    }
+  },
+  "cardbloodyinyang": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "BRHH:HBR",
+      "Value1": 2,
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Keywords": "Exile,Echo,Retain"
+    }
+  },
+  "cardboilingblood": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "R",
+      "Damage": 5,
+      "Value1": 5,
+      "Value2": 30
+    },
+    "1": {
+      "Value2": 40
+    }
+  },
+  "cardchew": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1R",
+      "Damage": 5,
+      "Value1": 5,
+      "Value2": 1,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Value2": 2,
+      "Keywords": "Accuracy"
+    }
+  },
+  "cardcorruptedblood": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "2BB",
+      "Value1": 1,
+      "Value2": 2,
+      "Keywords": "Replenish"
+    },
+    "1": {
+      "Keywords": "Replenish"
+    }
+  },
+  "cardcrimsondomain": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1R",
+      "Value1": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile,Echo"
+    }
+  },
+  "cardcrimsonray": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1R",
+      "Damage": 20,
+      "Value1": 5,
+      "Value2": 2,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 30,
+      "Keywords": "Accuracy"
+    }
+  },
+  "cardcrimsontheater": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1RR",
+      "Value1": 2,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": "1R"
+    }
+  },
+  "cardcrossout": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": true,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "B",
+      "Block": 5,
+      "Value1": 1,
+      "Mana": 1
+    },
+    "1": {
+      "Value1": 2
+    }
+  },
+  "carddarkblood": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": 0,
+      "Value1": 5,
+      "Value2": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile"
+    }
+  },
+  "carddarkexpulsion": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1B",
+      "Value1": 1,
+      "Value2": 4,
+      "Keywords": "Retain,Replenish"
+    },
+    "1": {
+      "Value2": 5,
+      "Keywords": "Retain,Replenish"
+    }
+  },
+  "carddearsword": {
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1R",
+      "Value1": 1,
+      "Value2": 2,
+      "Loyalty": 3,
+      "PassiveCost": 1,
+      "ActiveCost": -4,
+      "UltimateCost": -6
+    },
+    "1": {
+      "ActiveCost": -3,
+      "UltimateCost": -5
+    }
+  },
+  "carddevour": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "HH:HBR",
+      "Damage": 13,
+      "Value1": 10,
+      "Keywords": "Accuracy,Expel"
+    },
+    "1": {
+      "Damage": 17,
+      "Keywords": "Accuracy,Expel"
+    }
+  },
+  "cardemergency": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "B",
+      "Block": 10,
+      "Value1": 5,
+      "Value2": 2
+    },
+    "1": {
+      "Cost": 1
+    }
+  },
+  "cardendurance": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "BBRR",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "BR"
+    }
+  },
+  "cardetude": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "BR",
+      "Damage": 4,
+      "Value1": 5,
+      "Value2": 30,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Cost": "H:HBR",
+      "Keywords": "Accuracy"
+    }
+  },
+  "cardexaa": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1B",
+      "Damage": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 14,
+      "Keywords": "Basic"
+    }
+  },
+  "cardexab": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1R",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 13,
+      "Keywords": "Basic"
+    }
+  },
+  "cardexba": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1R",
+      "Damage": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 14,
+      "Keywords": "Basic"
+    }
+  },
+  "cardexbb": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1B",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 13,
+      "Keywords": "Basic"
+    }
+  },
+  "cardfurnace": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "RR",
+      "Value1": 5,
+      "Value2": 1
+    },
+    "1": {
+      "Value2": 2
+    }
+  },
+  "cardgojo": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "BBRRH:HBR",
+      "Block": 0,
+      "Value1": 5,
+      "Value2": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "BHH:HBR",
+      "Keywords": "Exile"
+    }
+  },
+  "cardhakureimiko": {
+    "Rarity": "Rare",
+    "Type": "Friend",
+    "Colors": "WBR",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1WBRH:HBR",
+      "Value1": 10,
+      "Loyalty": 7,
+      "PassiveCost": 1,
+      "ActiveCost": -2,
+      "UltimateCost": -9
+    },
+    "1": {
+      "Loyalty": 9
+    }
+  },
+  "cardheartache": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1R",
+      "Block": 22,
+      "Value1": 5
+    },
+    "1": {
+      "Block": 28,
+      "Keywords": "Replenish"
+    }
+  },
+  "cardidlive": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "C",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "2C",
+      "Value1": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "cardimmerse": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "2R",
+      "Value1": 5,
+      "Value2": 2
+    },
+    "1": {
+      "Cost": "1R"
+    }
+  },
+  "cardinfuseddarkness": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1B",
+      "Value1": 1,
+      "Value2": 1,
+      "Mana": "P"
+    },
+    "1": {
+      "Cost": "B"
+    }
+  },
+  "cardintodarkness": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "B",
+      "Damage": 5,
+      "Value1": 1,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Value1": 2,
+      "Keywords": "Accuracy"
+    }
+  },
+  "cardkaleido": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "UB",
+    "IsXCost": true,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "UB",
+      "Value1": 5,
+      "Value2": 5,
+      "Keywords": "Synergy,Expel"
+    },
+    "1": {
+      "Keywords": "Retain,Replenish,Synergy,Expel"
+    }
+  },
+  "cardletsdance": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "2B",
+      "Damage": 7,
+      "Value1": 1,
+      "Value2": 2,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 10,
+      "Value1": 2,
+      "Keywords": "Accuracy"
+    }
+  },
+  "cardlowtide": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "BU",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "2UB",
+      "Value1": 5,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": "1HH:HUB"
+    }
+  },
+  "cardmagia": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "BB",
+      "Block": 10,
+      "Value1": 1,
+      "Value2": 2,
+      "Keywords": "Retain"
+    },
+    "1": {
+      "Value2": 3,
+      "Keywords": "Retain"
+    }
+  },
+  "cardmarkblood": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "B",
+      "Value1": 5,
+      "Value2": 1
+    },
+    "1": {}
+  },
+  "cardmissribbon": {
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1BB",
+      "Value1": 5,
+      "Value2": 1,
+      "Mana": "B",
+      "Loyalty": 3,
+      "PassiveCost": 1,
+      "ActiveCost": -3,
+      "UltimateCost": -5
+    },
+    "1": {
+      "Value2": 2,
+      "Mana": "P",
+      "Loyalty": 5
+    }
+  },
+  "cardmixedblood": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1BR",
+      "Value1": 1
+    },
+    "1": {}
+  },
+  "cardmutualdepletion": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "C",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "4C",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "3C"
+    }
+  },
+  "cardnether": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "R",
+      "Shield": 20,
+      "Value1": 5,
+      "Value2": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 6,
+      "Value2": 1,
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "cardnightfalls": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "2B",
+      "Value1": 1,
+      "Value2": 2,
+      "Mana": "P",
+      "Keywords": "Retain"
+    },
+    "1": {
+      "Value2": 3,
+      "Keywords": "Retain"
+    }
+  },
+  "cardnoradrenaline": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1HH:HBR",
+      "Damage": 5,
+      "Value1": 5,
+      "Value2": 2
+    },
+    "1": {
+      "Cost": "1H:HBR",
+      "Keywords": "Accuracy"
+    }
+  },
+  "cardpastpresent": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "BRG",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "BRG",
+      "Damage": 2,
+      "Value1": 1,
+      "Keywords": "Accuracy,Retain"
+    },
+    "1": {
+      "Keywords": "Accuracy,Echo,Retain"
+    }
+  },
+  "cardquickrestore": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "RG",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "RG",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "H:HRG"
+    }
+  },
+  "cardredblood": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": 0,
+      "Damage": 4,
+      "Value1": 5,
+      "Mana": "R",
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Damage": 8,
+      "Mana": "P",
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "cardshadowcut": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "3BR",
+      "Damage": 5,
+      "Value1": 5,
+      "Value2": 5,
+      "Keywords": "Accuracy,Exile,Ethereal"
+    },
+    "1": {
+      "Keywords": "Accuracy,Exile,Retain"
+    }
+  },
+  "cardshady": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "H:HBR",
+      "Value1": 1,
+      "Value2": 2
+    },
+    "1": {
+      "Cost": 1,
+      "Keywords": "Replenish"
+    }
+  },
+  "cardslicepast": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "W",
+      "Value1": 5
+    },
+    "1": {
+      "Keywords": "Retain"
+    }
+  },
+  "cardsonanoka": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "B",
+      "Block": 5,
+      "Value1": 5,
+      "Value2": 1,
+      "Keywords": "Replenish"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Replenish"
+    }
+  },
+  "cardsunnydry": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "RR",
+      "Value1": 5,
+      "Value2": 4,
+      "Mana": "RRRP"
+    },
+    "1": {
+      "Cost": "1R",
+      "Value2": 6,
+      "Mana": "RRPP",
+      "Keywords": "Replenish"
+    }
+  },
+  "cardtakeover": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1B",
+      "Damage": 5,
+      "Value1": 5,
+      "Value2": 2
+    },
+    "1": {}
+  },
+  "cardtearmedo": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1R",
+      "Value1": 1,
+      "Value2": 5
+    },
+    "1": {
+      "Keywords": "Initial,Replenish"
+    }
+  },
+  "cardtearssubside": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1R",
+      "Value1": 3,
+      "Value2": 3
+    },
+    "1": {
+      "Cost": 2,
+      "Value2": 5
+    }
+  },
+  "cardtenshaded": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "3BB",
+      "Damage": 1,
+      "Value1": 5,
+      "Value2": 10
+    },
+    "1": {
+      "Cost": "2BB"
+    }
+  },
+  "cardtorn": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "1BBRR",
+      "Value1": 10,
+      "Value2": 2,
+      "Keywords": "Retain"
+    },
+    "1": {
+      "Value2": 4,
+      "Keywords": "Initial,Retain"
+    }
+  },
+  "cardtwilight": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "C",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "3RC",
+      "Value1": 1,
+      "Keywords": "Initial,Retain"
+    },
+    "1": {
+      "Cost": "1RC",
+      "Keywords": "Initial,Retain"
+    }
+  },
+  "cardunstableblood": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "2R",
+      "Damage": 14,
+      "Value1": 5,
+      "Value2": 2,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 18,
+      "Value2": 3,
+      "Keywords": "Accuracy"
+    }
+  },
+  "cardworldburn": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "lvalonexrumia",
+    "0": {
+      "Cost": "BBRR",
+      "Value1": 1,
+      "Keywords": "Retain"
+    },
+    "1": {
+      "Keywords": "Retain"
+    }
+  },
+
   "AdvantageousPosition": {
     "Rarity": "Common",
     "Type": "Defense",
