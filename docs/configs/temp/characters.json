@@ -1,0 +1,68 @@
+{
+  "lvalonexrumia": {
+    "BaseMana": "BBRR",
+    "A": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "cardexaa", "cardexaa", "cardexab", "cardexab", "cardbite", "cardbloodwork"],
+      "Exhibit": "exexa"
+    },
+    "B": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "cardexba", "cardexba", "cardexbb", "cardexbb", "cardexbb", "cardblooduse"],
+      "Exhibit": "exexb"
+    }
+  },
+  "Momiji": {
+    "BaseMana": "WWRR",
+    "A": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "MomijiAttackR", "MomijiAttackR", "MomijiBlockW", "MomijiBlockW", "MomijiBlockW", "GuardBreak"],
+      "Exhibit": "HeavyBlade"
+    },
+    "B": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "MomijiAttackW", "MomijiAttackW", "MomijiBlockR", "MomijiBlockR", "EyeforanEye", "FarSight"],
+      "Exhibit": "BatteredShield"
+    }
+  },
+  "PatchouliMod": {
+    "BaseMana": "UUBB",
+    "A": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "PatchouliAttackU", "PatchouliAttackU", "PatchouliBlockB", "PatchouliBlockB", "PatchouliBlockB", "PatchouliArcaneWard", "PatchouliCondensedBubble"],
+      "Exhibit": "PatchouliExhibitU"
+    },
+    "B": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "PatchouliAttackB", "PatchouliAttackB", "PatchouliBlockU", "PatchouliBlockU", "PatchouliBlockU", "PatchouliElementalManipulation"],
+      "Exhibit": "PatchouliExhibitB"
+    }
+  },
+  "Sanae_Kochiya": {
+    "BaseMana": "WUGG",
+    "A": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "SanaeAttackW", "SanaeAttackU", "SanaeBlockG", "SanaeBlockG", "SanaeBlockG", "SanaeStarterW"],
+      "Exhibit": "SanaeExhibitW"
+    },
+    "B": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "SanaeAttackW", "SanaeAttackU", "SanaeBlockG", "SanaeBlockG", "SanaeBlockG", "SanaeStarterU"],
+      "Exhibit": "SanaeExhibitU"
+    }
+  },
+  "Utsuho": {
+    "BaseMana": "RRBB",
+    "A": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "FireBurst", "FireBurst", "Gridlock", "Gridlock", "Gridlock", "HellGeyser"],
+      "Exhibit": "ControlRod"
+    },
+    "B": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "InverseBeam", "InverseBeam", "BlowAway", "BlowAway", "BlowAway", "ShootingStar"],
+      "Exhibit": "BlackSun"
+    }
+  },
+  "YoumuMod": {
+    "BaseMana": "WWGG",
+    "A": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "YoumuAttackW", "YoumuAttackW", "YoumuBlockG", "YoumuBlockG", "YoumuBlockG", "YoumuInsightfulSword"],
+      "Exhibit": "YoumuExhibitW"
+    },
+    "B": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "YoumuAttackG", "YoumuAttackG", "YoumuBlockW", "YoumuBlockW", "YoumuBlockW", "YoumuAsuraSword"],
+      "Exhibit": "YoumuExhibitG"
+    }
+  }
+}
