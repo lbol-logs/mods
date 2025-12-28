@@ -1065,7 +1065,7 @@
   },
   "ReimuUnifierAunnShrineGuardianFriend": {
     "Name": "Aunn, Shrine Guardian",
-    "PassiveDescription": "|l:Koma-Inu's Protection|: <h>Exile</h> a random <h>Misfortune</h> from the hand, draw or discard pile.",
+    "PassiveDescription": "<hl>:Koma-Inu's Protection</hl>: <h>Exile</h> a random <h>Misfortune</h> from the hand, draw or discard pile.",
     "ActiveDescription": "<hg>Koma-Inu Spin</hg>: Gain <Block /> <h>Block</h>, <Shield /> <h>Barrier</h>, <Value1 /> <h>Amulet</h>, <Value1 /> <h>Ward</h>, <Value1 /> <h>Graze</h> and <Value1 /> <h>Temporary Spirit</h>.",
     "UltimateDescription": "<hd>Guardian Sign \"Form of Stone\"</hd>:  Gain <he>2</he> <h>Sealed</h>. Prevent the next <Value2 /> times <PlayerName /> would lose life."
   },
@@ -1246,15 +1246,15 @@
   },
   "ReimuUnifierMarisaIncidentSolverFriend": {
     "Name": "Marisa, Incident Solver",
-    "PassiveDescription": "|l:Red Star Explosion:| Deal <Damage /> attack damage to each enemy.",
-    "ActiveDescription": "|i:Final Spark:| Deal <Value1 /> <h>Accurate</h> attack damage to each enemy.",
+    "PassiveDescription": "<hl>:Red Star Explosion:</hl> Deal <Damage /> attack damage to each enemy.",
+    "ActiveDescription": "<hi>:Final Spark:</hi> Deal <Value1 /> <h>Accurate</h> attack damage to each enemy.",
     "UltimateDescription": "<hu>Magicannon -Final Master Spark-:</hu> Enter <h>Burst</h>. Deal <Value2 /> <h>Accurate</h> damage to each enemy."
   },
   "ReimuUnifierMarisaKirisameFriend": {
     "Name": "Marisa Kirisame",
     "PassiveDescription": "<hd>Hakkero Shot: </hd> Deal <Damage /> attack damage to the enemy with the least life. Gain <he>1</he> <h>Charge</h> at the start of <PlayerName />'s next turn.",
-    "ActiveDescription": "|i:Flaming Laser:| Deal <Value1 /> attack damage and apply <he>1</he> <h>Vulnerable</h> to the enemy with the least life. Gain <he>2</he> <h>Charge</h>.",
-    "UpgradedActiveDescription": "|i:Flaming Laser:| Deal <Value1 /> attack damage <he>2</he> times and apply <he>1</he> <h>Vulnerable</h> to the enemy with the least life. Gain <he>2</he> <h>Charge</h>.",
+    "ActiveDescription": "<hi>:Flaming Laser:</hi> Deal <Value1 /> attack damage and apply <he>1</he> <h>Vulnerable</h> to the enemy with the least life. Gain <he>2</he> <h>Charge</h>.",
+    "UpgradedActiveDescription": "<hi>:Flaming Laser:</hi> Deal <Value1 /> attack damage <he>2</he> times and apply <he>1</he> <h>Vulnerable</h> to the enemy with the least life. Gain <he>2</he> <h>Charge</h>.",
     "UltimateDescription": "<hu>Love Sign \"Master Spark\":</hu> Deal <Value2 /> <h>Accurate</h> attack damage to each enemy."
   },
   "ReimuUnifierMercilessRodFriendToken": {
@@ -1272,7 +1272,7 @@
     "Description": "Gain <he>10</he><Money />.",
     "ActiveDescription": "<hb>Kappa Drone Technology</hb>: Remove <h>Weak</h> and <h>Vulnerable</h> from <PlayerName />.",
     "UpgradedActiveDescription": "<hb>Kappa Drone Technology</hb>: Remove <h>Weak</h>, <h>Vulnerable</h>, <h>Lock On</h> and <h>Frail</h> from <PlayerName />.",
-    "UltimateDescription": "|s:Loch Ness is Here Right Now!|: At the end of the turn, deal <Value2 /> damage for each turn <PlayerName /> has taken this combat."
+    "UltimateDescription": "<hs>:Loch Ness is Here Right Now!</hs>: At the end of the turn, deal <Value2 /> damage for each turn <PlayerName /> has taken this combat."
   },
   "ReimuUnifierOmnidirectionalBarrage": {
     "Name": "Omnidirectional Barrage",
@@ -1353,14 +1353,14 @@
     "ActiveDescription": "<hd>Mallet \"Grow Bigger!\" </hd>: Gain <Value1 /> <h>Firepower</h>.",
     "UpgradedActiveDescription": "<hd>Mallet \"Grow Even Bigger!\" </hd>: Gain <Value1 /> <h>Firepower</h>.",
     "Active2Description": "<hd>Shining Needle Sword</hd>: Put random Common cards from the draw pile into the hand until it is full. Gain <Mana />.",
-    "UltimateDescription": "|k:Shining Treasure -Miracle Mallet-|: Add a summoned <h>Merciless Purification Rod</h> to the hand.",
-    "UpgradedUltimateDescription": "|k:Shining Treasure -Miracle Mallet-|: Add a summoned <h>Merciless Purification Rod+</h> to the hand."
+    "UltimateDescription": "<hk>:Shining Treasure -Miracle Mallet-</hk>: Add a summoned <h>Merciless Purification Rod</h> to the hand.",
+    "UpgradedUltimateDescription": "<hk>:Shining Treasure -Miracle Mallet-</hk>: Add a summoned <h>Merciless Purification Rod+</h> to the hand."
   },
   "ReimuUnifierShionImpoverishedDeityFriend": {
     "Name": "Shion, Impoverished Deity",
     "Description": "Gain <he>15</he><Money />.",
     "PassiveDescription": "<hd>Fall into Poverty</hd>: Deal <Damage /> <h>Accurate</h> damage to the enemy with the least life twice. Lose <he>5</he><Money />.",
-    "ActiveDescription": "|s:Pluck Pigeon|: Deal <he>15</he> damage to each enemy. Gain <he>1</he> <h>Graze</h> and lose <he>5</he><Money /> for each enemy hit.",
+    "ActiveDescription": "<hs>:Pluck Pigeon</hs>: Deal <he>15</he> damage to each enemy. Gain <he>1</he> <h>Graze</h> and lose <he>5</he><Money /> for each enemy hit.",
     "UltimateDescription": "<hp>Exchange -Absolute Loser-</hp>: Instantly defeat each unnamed enemy. Add a <h>Buy Safety</h> to the library."
   },
   "ReimuUnifierShrineDefense": {
@@ -1388,8 +1388,8 @@
     "PassiveDescription": "<hd>Psychokinesis App</hd>: Gain <he>1</he> <h>Occult Ball</h>.",
     "ActiveDescription": "<he>3D Printed Gun</he>: For each <h>Occult Ball</h> <PlayerName /> has, deal <Damage /> damage to the enemy with the least life.",
     "Active2Description": "<hp>Zener Cards Shuriken</hp>: For each <h>Occult Ball</h> <PlayerName /> has, lose <he>1</he> life, draw <he>1</he> card and gain <Mana />.",
-    "UltimateDescription": "|s:Summon Doppelganger|: If <PlayerName /> has at least 7 <h>Occult Balls</h>, lose all <h>Occult Balls</h>. Then, in this turn, <h>Copy</h> every card played.",
-    "UpgradedUltimateDescription": "|s:Double ESPer of the Century|: If <PlayerName /> has at least 7 <h>Occult Balls</h>, lose all <h>Occult Balls</h> and draw until the hand is full. Then, in this turn, <h>Copy</h> every card played."
+    "UltimateDescription": "<hs>:Summon Doppelganger</hs>: If <PlayerName /> has at least 7 <h>Occult Balls</h>, lose all <h>Occult Balls</h>. Then, in this turn, <h>Copy</h> every card played.",
+    "UpgradedUltimateDescription": "<hs>:Double ESPer of the Century</hs>: If <PlayerName /> has at least 7 <h>Occult Balls</h>, lose all <h>Occult Balls</h> and draw until the hand is full. Then, in this turn, <h>Copy</h> every card played."
   },
   "ReimuUnifierSummoningRitual": {
     "Name": "Summoning Ritual",
@@ -1445,7 +1445,7 @@
     "Name": "Yukari, Sage of Gensokyo",
     "PassiveDescription": "<hd>Quadruple Barrier:</hd> Deal <Damage /> attack damage to each enemy. Gain <Value2 /> <h>Block</h>.",
     "ActiveDescription": "<hp>Hakurei Duplex Barrier:</hp> Convert <PlayerName />'s <h>Block</h> into <h>Barrier</h>, then double <PlayerName />'s <h>Barrier</h>.",
-    "UltimateDescription": "|l:Arcanum -Danmaku Barrier-:| At the end of this and the next <he>4</he> <PlayerName />'s turns, gain <Value1 /> <h>Barrier</h>, then deal damage equal to <PlayerName />'s <h>Barrier</h> to a random enemy."
+    "UltimateDescription": "<hl>:Arcanum -Danmaku Barrier-:</hl> At the end of this and the next <he>4</he> <PlayerName />'s turns, gain <Value1 /> <h>Barrier</h>, then deal damage equal to <PlayerName />'s <h>Barrier</h> to a random enemy."
   },
   "ReimuUnifierYukariYakumoFriend": {
     "Name": "Yukari Yakumo",
