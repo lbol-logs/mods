@@ -1,0 +1,7 @@
+﻿ReimuUnifierMercilessRodFriendToken:
+  Name: Gohei Purificador Despiadado
+  Description: '{Indent} |d:Poder de los Débiles|: Siempre que se juega una carta Común, gana {Value1} de |Poder|.'
+  UpgradedDescription: '{Indent} |d:Poder de los Débiles|: Siempre que se juega una carta Común, gana {Value1} de |Poder| y {Value1} de |Poder Temporal|.'
+  ExtraDescription1: '{FriendP} |d:Gohei Giratorio|: Inflige {Damage} de daño de ataque al enemigo con más vida |e:3| veces.'
+  ExtraDescription3: '{FriendU} |d:Arma Embrujada -Gohei Purificador Despiadado-|: Inflige {Damage} de daño de ataque a cada enemigo |e:8| veces.'
+  FlavorText: ¡Ahora, mi querido mazo! ¡Concede el poder de los sueños a todas las herramientas que no pueden hablar!

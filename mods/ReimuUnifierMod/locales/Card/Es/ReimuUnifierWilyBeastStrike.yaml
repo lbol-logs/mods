@@ -1,0 +1,5 @@
+﻿ReimuUnifierWilyBeastStrike:
+  Name: Golpe de la Bestia Astuta
+  Description: La |a:Habilidad Activa| o |u:Habilidad Definitiva| de la próxima |Compañera| se jugará dos veces.
+  UpgradedDescription: La |a:Habilidad Activa| o |u:Habilidad Definitiva| de las próximas {Value1} |Compañeras| se jugará dos veces.
+  FlavorText: No había suficiente presupuesto para la criatura más débil.

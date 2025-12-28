@@ -1,0 +1,8 @@
+﻿ReimuUnifierYukariYakumoFriend:
+  Name: 八云紫
+  Description: >-
+    {Indent} 将一张|通讯宝珠|加入手中。
+     {FriendP}|e:声静之界：| 将一张|通讯宝珠|加入手中。
+  ExtraDescription1: '{FriendA} |p:四重结界：| 放逐一张手牌。获得相当于该牌费用 |e:6| 倍的|护盾|。'
+  ExtraDescription3: '{FriendU} |d:非常识之背面：| 获得 |e:1| |天衣无缝|。{PlayerName}的下个回合开始时，所有敌人失去 {Value2} 点生命值。'
+  FlavorText: “无论如何，我现在在这里而且醒着。这足以证明我有工作的意愿。” “愿意工作和完成工作完全是两回事！” “比起很少在神社的巫女，我觉得我完成了不少工作。”

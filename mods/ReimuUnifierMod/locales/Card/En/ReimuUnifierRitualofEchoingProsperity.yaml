@@ -1,0 +1,4 @@
+﻿ReimuUnifierRitualofEchoingProsperity:
+  Name: Ritual of Echoing Prosperity
+  Description: At the start of {PlayerName}'s turn, gain {Value1} |Temporary Spirit| and {Value1} |Temporary Firepower| for each summoned |Teammate| in hand.
+  FlavorText: The rich get richer!

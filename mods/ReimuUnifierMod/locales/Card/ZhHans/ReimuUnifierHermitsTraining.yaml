@@ -1,0 +1,7 @@
+﻿ReimuUnifierHermitsTraining:
+  Name: 仙人之训
+  Description: >-
+    |组队 [茨木华扇]|：获得 {Value1} 点|暂得火力|。
+
+    获得 {Block} 点|格挡|。如果{PlayerName}有|暂得火力|，则改为获得 {Shield} 点|格挡|和 {Shield} 点|护盾|。
+  FlavorText: 训练以见识生活所提供之物

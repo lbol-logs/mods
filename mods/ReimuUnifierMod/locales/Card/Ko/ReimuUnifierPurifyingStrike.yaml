@@ -1,0 +1,7 @@
+﻿ReimuUnifierPurifyingStrike:
+  Name: 정화의 일격
+  Description: >-
+    피해를 {Damage} 줍니다. 
+
+    {SelfName}이 막히지 않은 피해를 |e:10| 줄 때마다, {PlayerName}의 디버프 하나를 제거합니다.
+  FlavorText: 레이무는 아직도 왜 남이 맞는데 자기가 정화되는 건지 모르겠다.

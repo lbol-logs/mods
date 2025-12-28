@@ -1,0 +1,7 @@
+﻿ReimuUnifierSynchronizedRitualArray:
+  Name: 同步仪式阵列
+  Description: >-
+    |回合结束时|：对随机敌人造成 {Value1} 点伤害 {Value2} 次。
+
+    |手牌中|：每当{PlayerName}通过打出牌召唤|同伴|时，增加 造成伤害的次数 |e:1|。
+  FlavorText: 当你没有足够力量维持永久结界时，众筹一个！

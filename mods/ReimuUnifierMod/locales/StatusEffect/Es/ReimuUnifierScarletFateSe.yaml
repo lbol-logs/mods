@@ -1,0 +1,3 @@
+﻿ReimuUnifierScarletFateSe:
+  Name: Artimaña de la Diabla Escarlata
+  Description: Remilia finalizará el turno de {PlayerName} después de que se juegue {Count} carta{Count:plural one='' other='s'}.

@@ -1,0 +1,7 @@
+﻿ReimuUnifierSummoningRitual:
+  Name: Ritual de Invocación
+  Description: >-
+    Roba {Value1} cartas.
+
+    Gana {Mana} por cada |Compañera| robada de esta manera.
+  FlavorText: '"No, Reimu, llamarnos para que vayamos de visita no cuenta como un "Ritual de Invocación""'

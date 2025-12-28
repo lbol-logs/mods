@@ -1,0 +1,9 @@
+﻿ReimuUnifierKogasaYoukaiBlacksmithFriend:
+  Name: Kogasa, Herrera Youkai
+  Description: '{FriendP} |b:Pericia de la Herrera:| |Mejora| |e:1| carta aleatoria en la mano.'
+  UpgradedDescription: '{FriendP} |b:Pericia de la Herrera:| |Mejora| |e:2| cartas aleatorias en la mano.'
+  ExtraDescription1: '{FriendA} |u:Destello Sorpresa de la Karakasa:| Inflige {Damage} de daño de ataque a un enemigo aleatorio por cada carta |Mejorada| en la mano.'
+  UpgradedExtraDescription1: '{FriendA} |u:Destello Sorpresa de la Karakasa:| Inflige {Damage} de daño de ataque a un enemigo aleatorio. Repite este efecto por cada carta |Mejorada| en la mano.'
+  ExtraDescription3: '{FriendU} |p:Grandes Gotas de lluvia Cayendo Suavemente:| Agrega |Agujas forjadas por Youkais| a la mano hasta que esté llena.'
+  UpgradedExtraDescription3: '{FriendU} |p:Sorpresa de Clima Tormentoso:| Agrega |Agujas forjadas por Youkais+| a la mano hasta que esté llena.'
+  FlavorText: ¿Por qué a Kogasa le gusta la herrería? ¡Porque asusta de lo bien que lo hace!

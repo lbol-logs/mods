@@ -1,0 +1,7 @@
+﻿ReimuUnifierReinforcedBoundary:
+  Name: 보강된 결계
+  Description: >-
+    방어를 {Block} 얻습니다. 
+
+    손에서 소환된 |동료|를 최대 |e:1|명 선택해 |f:패시브 능력|을 발동시킵니다.
+  FlavorText: '"집에 머물면서 베개 요새를 짓자!" "베개 요새 말이야?" "아니! 요새를 원해, 전투를 원해, 경비병을 원해, 투석기를 원해!"'

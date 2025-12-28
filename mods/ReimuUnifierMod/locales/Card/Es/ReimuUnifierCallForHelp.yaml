@@ -1,0 +1,5 @@
+﻿ReimuUnifierCallForHelp:
+  Name: Llamada de Auxilio
+  Description: Elige hasta {Value1} |Compañera| de la pila de robo y colócala en la mano.
+  UpgradedDescription: Elige hasta {Value1} |Compañeras| de la pila de robo y colócalas en la mano.
+  FlavorText: Pero nadie vino...

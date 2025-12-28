@@ -1,0 +1,7 @@
+﻿ReimuUnifierKasenWildhornFriend:
+  Name: Kasen, Salvaje y Cornuda
+  Description: '{FriendP} |d:Señal del Halcón|: Inflige {Damage} de daño de ataque al enemigo con menos vida {Value1} veces.'
+  ExtraDescription1: '{FriendA} |p:Disciplina de la Ermitaña|: Gana {Value2} de |Espíritu| y {Value2} de |Poder|.'
+  UpgradedExtraDescription1: '{FriendA} |p:Entrenamiento de la Ermitaña|: Gana {Value2} de |Espíritu|, {Value2} de |Poder| y {Value2} de |Evasión|.'
+  ExtraDescription3: '{FriendU} |u:¡Pata de Mono! ¡Aplasta a mis Enemigos!|: Agrega cartas de ataque de la pila de robo y de descarte a la mano hasta llenarla. Cuestan temporalmente {Mana}.'
+  FlavorText: '"Reimu necesita a alguien que la mantenga bajo control, ¿quién sabe qué más hará?"'

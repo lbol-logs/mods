@@ -1,0 +1,14 @@
+﻿ReimuUnifierSumirekoDreamVisitorFriend:
+  Name: 꿈 세계의 포크 로어, 우사미 스미레코
+  Description: '{FriendP} |d:사이코키네시스 앱|: |e:1| |오컬트 볼|을 얻습니다.'
+  ExtraDescription1: '{FriendA} |e:3D 프린트 건|: {PlayerName}가 가진 |오컬트 볼|마다 체력이 가장 적은 적에게 피해를 {Damage} 줍니다.'
+  ExtraDescription2: '{FriendA2} |p:제너 카드 수리검|: {PlayerName}가 가진 |오컬트 볼|마다 체력을 |e:1| 잃고, 카드를 |e:1|장 뽑고 {Mana}를 얻습니다.'
+  ExtraDescription3: '{FriendU} |s:도플갱어 소환|: {PlayerName}가 |오컬트 볼|을 7개 이상 가지고 있다면, 전부 잃습니다. 이번 턴 동안, 플레이하는 카드마다 |복사본|을 얻습니다.'
+  UpgradedExtraDescription3: '{FriendU} |s:세기의 더블 에스퍼|: {PlayerName}가 |오컬트 볼|을 7개 이상 가지고 있다면, 전부 잃고 손이 꽉 찰 때 까지 카드를 뽑습니다. 이번 턴 동안, 플레이하는 카드마다 |복사본|을 얻습니다.'
+  DetailText: 오컬트 볼은 {SelfName}의 효과로만 사용되지만, 다른 모든 복사본들과 공유됩니다.
+  FlavorText: >-
+    나는 낙원의 무녀. 하쿠레이 레이무다!
+
+    무슨 일이 있어도 결계를 지켜내겠어!
+
+    그리고 인간을 쉽사리 죽게 놔둘 것 같냐!

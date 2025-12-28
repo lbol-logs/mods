@@ -1,0 +1,834 @@
+﻿#FOR TRANSLATORS: Flavor texts and some names will have comments to make references easier to find/translate, but feel free to adapt or ignore
+#them and localize them differently if keeping the references isn't viable.
+#Additional Warning: I will be adding "ReimuUnifier" as a prefix for all card names in a future patch. -24/09/2025
+
+ReimuUnifierAttackR:
+    Name: Combined Assault
+    Description: Deal {Damage} damage.
+    FlavorText: The oldest negotiation tactic in the books.
+
+ReimuUnifierBlockW:
+    Name: Empowered Boundary
+    Description: Gain {Block} |Block|.
+    FlavorText: You're not dealing with the average boundary any more...
+
+ReimuUnifierAttackW:
+    Name: Purifying Rod Strike
+    Description: Deal {Damage} damage.
+    FlavorText: In a few years, this will be Reimu's strongest, most far-reaching attack.
+
+ReimuUnifierBlockR:
+    Name: Covering Fire
+    Description: Gain {Block} |Block|.
+    FlavorText: I guess the best defense really is a good offense.
+
+
+ReimuUnifierMarisaKirisameFriend:
+    Name: Marisa Kirisame
+    Description: |-
+     {FriendP}|d:Hakkero Shot: | Deal {Damage} attack damage to the enemy with the least life. Gain |e:1| |Charge| at the start of {PlayerName}'s next turn.
+    ExtraDescription1: |-
+     {FriendA} |i:Flaming Laser:| Deal {ActiveDamagePreview} attack damage and apply |e:1| |Vulnerable| to the enemy with the least life. Gain |e:2| |Charge|.
+    UpgradedExtraDescription1: |-
+     {FriendA} |i:Flaming Laser:| Deal {ActiveDamagePreview} attack damage |e:2| times and apply |e:1| |Vulnerable| to the enemy with the least life. Gain |e:2| |Charge|.
+    ExtraDescription3: |-
+     {FriendU} |u:Love Sign "Master Spark":| Deal {UltimateDamagePreview} |Accurate| attack damage to each enemy.
+    DetailText: |-
+      {SelfName} deals damage at the start of the turn.
+    FlavorText: |-
+     "Ordinary people would go insane in less than five seconds. Are you okay, Marisa?" "Yeah, I'm insane to begin with."
+#Imperishable Night, Marisa+Alice story.
+
+ReimuUnifierYukariYakumoFriend:
+    Name: Yukari Yakumo
+    Description: |-
+     {Indent} Add a |Communicator Orb| to the hand.
+      {FriendP}|e:Boundary of Sound and Silence:| Add a |Communicator Orb| to the hand.
+    ExtraDescription1: |-
+     {FriendA} |p:Quadruple Barrier:| |Exile| a card from the hand. Gain |Barrier| equal to |e:6| times that card's cost.
+    ExtraDescription3: |-
+     {FriendU} |d:Underside of Uncommon Sense:| Gain |e:1| |Flawless|. At the start of {PlayerName}'s next turn, each enemy loses {Value2} life.
+    FlavorText: |-
+     "Either way, I'm here now and I'm awake. That is proof enough that I have the will to work." "Willing to work and getting work done are entirely different!" "Compared to a shrine maiden who's rarely in her shrine, I think I'm getting plenty of work done."
+#Perfect Cherry Blossom, Phantasm Stage boss dialogue.
+
+ReimuUnifierCommunicatorOrbToken:
+    Name: Communicator Orb
+    Description: |-
+      Deal {Damage} damage.
+      Gain {Shield} |Barrier|. 
+      Deal {Value1} additional damage and gain {Value1} additional |Barrier| for each summoned |Teammate| in the hand.
+    FlavorText: (... I made it so we can talk through your yin-yang orbs.) (So I can make sure you don't slack off.)
+
+ReimuUnifierReinforcedBoundary:
+    Name: Reinforced Boundary
+    Description: |-
+      Gain {Block} |Block|. 
+      Choose up to |e:1| summoned |Teammate| in hand and activate its |f:Passive Skill|.
+    FlavorText: |-
+     "Let's stay in and build a pillow fortress!" "You mean a pillow fort?" "No! I want a fortress, I want battlements, I want guards and I want a catapult!"
+#Bofuri
+
+ReimuUnifierCoordinatedStrike:
+    Name: Coordinated Strike
+    Description: |-
+     Deal {Damage} damage.
+     |Team Up [Red Teammate]:| Deal damage an additional time.
+    UpgradedDescription: |-
+     Deal {Damage} damage.
+     |Team Up [Red Teammate]:| Deal damage an additional time. Gain {Mana}.
+    FlavorText: Everything's more fun with friends. Even violence!
+
+
+ReimuUnifierPurpleReproach:
+    Name: Purple Needles of Reproach #Yukari!Reimu weapon in Touhou Subterranean Animism
+    Description: Add |e:2| |Youkai-Forged Needles| to the hand.
+    UpgradedDescription: Add |e:2| |Youkai-Forged Needles+| to the hand.
+    FlavorText: I am Hakurei Shrine Maiden, and this is my weapon. It costs as much as the shrine gets in donations in a year to fire these needles for 12 seconds.
+#Meet the Heavy
+
+ReimuUnifierYoukaiForgedNeedle:
+    Name: Youkai-Forged Needle
+    Description: |-
+      Deal {Damage} damage. 
+      If a |Teammate|'s |a:Active Skill| or |u:Ultimate Skill| was activated this turn, {SelfName} costs {Mana} to play. 
+    UpgradedDescription: |-
+      Deal {Damage} damage.
+      Apply {Value1} |Lock On|. 
+      If a |Teammate|'s |a:Active Skill| or |u:Ultimate Skill| was activated this turn, {SelfName} costs {Mana} to play. 
+    FlavorText: You set them up, I stab them down!
+#Popular idiom: Set them up, knock them down.
+
+ReimuUnifierFierceGodWillOWisp:
+    Name: Fierce God's Will O Wisp #Suika!Reimu weapon in Touhou Subterranean Animism
+    Description: |-
+     Deal {Damage} damage to a random enemy {Value1} times.
+     |Team Up [White Teammate]:| Deal damage an additional time.
+     |Team Up [Red Teammate]:| Gain |Accurate|.
+    FlavorText: Hey, hey, those were my moves before! It'd be nice if you'd remember them. - Suika
+#Stage 4 boss dialogue with Suika!Reimu in Subterranean Animism
+
+ReimuUnifierCautionaryBorder:
+    Name: Cautionary Border
+    Description: |-
+      Gain {Block} |Block|. 
+      Apply |e:1| |Weak| to each enemy.
+    FlavorText: Predictable
+
+ReimuUnifierDeepRain:
+    Name: Rain Deep in the Mountains
+    Description: |-
+      Gain {Value1} |Graze|. 
+      The next {Value2} non-accurate attack played is |Accurate|.
+    UpgradedDescription: |-
+      Gain {Value1} |Graze|. 
+      The next {Value2} non-accurate attacks played are |Accurate|.
+    FlavorText: So, Miss Aya, what are you gonna teach me today? DODGE!
+#Name is from Aya!Reimu weapon in Touhou Subterranean Animism
+#Flavor text reference is Dragon Ball Z Abridged, Piccolo training Gohan.
+
+ReimuUnifierBattleForgedBonds:
+    Name: Battle-forged Bonds
+    Description: Choose a card in the hand, draw pile or discard pile and |Upgrade| it. If it's a |Teammate| card, draw a card.
+    FlavorText: Up until now, have you not faced the same enemies as I? That means you are my friend! So hold your chest high, and consider yourself my equal.
+#Fate Zero, Iskandar to Waver
+
+ReimuUnifierRetributiveBoundary:
+    Name: Retributive Boundary
+    Description: |-
+      Gain {Block} |Block|. 
+      Until {PlayerName}'s next turn, whenever {PlayerName} takes attack damage from an enemy's whole attack, add a |Youkai-Forged Needle| to the hand.
+    UpgradedDescription: |-
+      Gain {Shield} |Barrier|.
+      Until {PlayerName}'s next turn, whenever {PlayerName} takes attack damage from an enemy's whole attack, add a |Youkai-Forged Needle+| to the hand.
+    FlavorText: If you strike me, you shall become less powerful than you can possibly imagine.
+#Ben Kenobi "If you strike me down" quote
+
+ReimuUnifierSupplyRun:
+    Name: Supply Run
+    Description: Put a random |Teammate| from the draw pile or discard pile into the hand. Draw |e:2| cards.
+    FlavorText: Reimu, I got the goods, you brought the mana?
+#"I got the goods, you got the money?"
+
+ReimuUnifierRainDance:
+    Name: Rain Dance
+    Description: Deal {Damage} damage to each enemy.
+    FlavorText: Measure twice, cut as many times as you need.
+
+ReimuUnifierKogasaYoukaiBlacksmithFriend:
+    Name: Kogasa, Youkai Blacksmith
+    Description: |-
+     {FriendP} |b:Blacksmith's Expertise:| |Upgrade| |e:1| random card in the hand.
+    UpgradedDescription: |-
+     {FriendP} |b:Blacksmith's Expertise:| |Upgrade| |e:2| random cards in the hand.
+    ExtraDescription1: |-
+     {FriendA} |u:Karakasa Surprising Flash:| Deal {Damage} attack damage to a random enemy for each |Upgraded| card in your hand.
+    UpgradedExtraDescription1: |-
+     {FriendA} |u:Karakasa Surprising Flash:| Deal {Damage} attack damage to a random enemy. Repeat this effect for each |Upgraded| card in the hand.
+    ExtraDescription3: |-
+     {FriendU} |p:Lightly Falling Large Raindrops:| Add |Youkai-Forged Needles| to the hand until it's full.
+    UpgradedExtraDescription3: |-
+     {FriendU} |p:Stormy Weather Surprise:| Add |Youkai-Forged Needles+| to the hand until it's full.
+    FlavorText: |-
+     Why does Kogasa like blacksmithing? Because she's scarily good at it!
+
+ReimuUnifierEmpoweringRitual:
+    Name: Empowering Ritual
+    Description: |-
+     Gain {Value1} |Temporary Firepower|.
+     Gain |e:1| |Sealed|.
+    FlavorText: Take my energy (つ O.O)つ
+
+ReimuUnifierSuikaGourdOniFriend:
+    Name: Suika, Oni of the Gourd
+    Description: |-
+     {FriendP} |u:Missing Power|: Add a |Tipsy| with |Ethereal| to the hand.
+    ExtraDescription1: |-
+     {FriendA} |p:Missing Purple Power|: Return all |Tipsies| from the |Exile| pile to the hand.
+    ExtraDescription3: |-
+     {FriendU} |d:Counter-Tsuina Black Hole|: Gain {Value1} Flawless. Until {PlayerName}'s next turn, gain {Value2} |Temporary Firepower| whenever {PlayerName} takes attack damage.
+    FlavorText: |-
+     "This is bad. I'm sobering up."
+
+ReimuUnifierKasenWildhornFriend:
+    Name: Kasen, Wild and Horned
+    Description: |-
+     {FriendP} |d:Hawk Beacon|: Deal {Damage} attack damage to the enemy with the least life {Value1} times.
+    ExtraDescription1: |-
+     {FriendA} |p:Hermit's Discipline|: Gain {Value2} |Spirit| and {Value2} |Firepower|.
+    UpgradedExtraDescription1: |-
+     {FriendA} |p:Hermit's Training|: Gain {Value2} |Spirit|, {Value2} |Firepower| and {Value2} |Graze|.
+    ExtraDescription3: |-
+     {FriendU} |u:Monkey's Paw! Crush my enemy!|: Add attack cards from the draw and discard pile to the hand until it is full. They |temporarily cost| {Mana}.
+    FlavorText: |-
+     "Reimu needs someone to watch over her, otherwise, who knows what else she'll get up to?"
+
+ReimuUnifierFourFairiesFriend:
+    Name: The Freeloading Fairies
+    Description: |-
+     {FriendP} |e:Fairy Danmaku Barrage:| Deal {Damage} attack damage to a random enemy {Value1} times.
+    ExtraDescription1: |-
+     {FriendA} |g:Fairy Reinforcements:| Choose a |e:Fairy of Light| to add to the hand. It enters the hand summoned.
+    ExtraDescription3: |-
+     {FriendU} |d:Hidden Star Season:| Add the |e:Three Fairies of Light| to the hand. They enter summoned with |e:9| |Unity|.
+    UpgradedExtraDescription3: |-
+     {FriendU} |p:Purified Lunatic Torch:| Add the |e:Four Mischievous Fairies| to the hand. They enter summoned with |e:9| |Unity|.
+    DetailText: |-
+     {SelfName}|e:+| adds |Clownpiece, Lunatic Fairy| to the possible |g:Fairy Reinforcements|
+    FlavorText: |-
+     They're not just Pieces of Clowns, they're the entire circus.
+
+ReimuUnifierSanaeHumanGodFriend:
+    Name: Sanae, Human God
+    Description: |-
+     {Indent} Gain {Value1} |Amulet|.
+      {FriendP} |e:Esoterica -Gray Thaumaturgy-|: Gain |e:2| |Block| for each of {PlayerName}'s buffs. ({AdditionalBlock})
+    UpgradedDescription: |-
+     {Indent} Gain {Value1} |Amulet|.
+      {FriendP} |e:Esoterica -Gray Thaumaturgy-|: Gain |e:2| |Barrier| for each of {PlayerName}'s buffs. ({AdditionalShield})
+    ExtraDescription1: |-
+     {FriendA} |p:Forgotten Ritual|: |Exile| up to |e:2| cards from the hand. Gain that much |Ward|.
+    UpgradedExtraDescription1: |-
+     {FriendA} |p:Forgotten Ritual|: |Exile| up to |e:2| cards from the hand, draw or discard pile. Gain that much |Ward|.
+    ExtraDescription2: |-
+     {FriendA} |g:Snake Sign -Snake Binding-|:  Gain {Value2} |Spirit|. Apply {Value2} |Spirit Down| and |e:1| |Weak| to each enemy.
+    ExtraDescription3: |-
+     {FriendA} |f:Outsider's Fascination|: Gain |e:1| |Curiosity|.
+    FlavorText: |-
+     You can't let yourself be trapped by common sense in Gensokyo, right?
+
+ReimuUnifierAunnShrineGuardianFriend:
+    Name: Aunn, Shrine Guardian
+    Description: |-
+     {FriendP} |l:Koma-Inu's Protection|: |Exile| a random |Misfortune| from the hand, draw or discard pile.
+    ExtraDescription1: |-
+     {FriendA} |g:Koma-Inu Spin|: Gain {Block} |Block|, {Shield} |Barrier|, {Value1} |Amulet|, {Value1} |Ward|, {Value1} |Graze| and {Value1} |Temporary Spirit|.
+    ExtraDescription3: |-
+     {FriendU} |d:Guardian Sign "Form of Stone"|:  Gain |e:2| |Sealed|. Prevent the next {Value2} times {PlayerName} would lose life.
+    FlavorText: |-
+     Reimu Needs Help!? Aunn-chan to The Rescue!
+#References game with that title
+
+ReimuUnifierPowerOfTheImmaterial:
+    Name: Power Of The Immaterial
+    Description: |-
+     |Team Up [Suika]:| Gain {Value1} |Temporary Firepower|.
+     Deal {Damage} damage {Value2} times. If {PlayerName} has |Temporary Firepower|, deal that much damage |e:1| additional time.
+    FlavorText: For many, more beloved than Common Flowers, Urban Legends or Hopeless Masquerades.
+#References the 3 flying fighting game spin-offs.
+
+ReimuUnifierScarletNeedleRain:
+    Name: Scarlet Needle Rain
+    Description: |-
+      For each enemy, deal {Damage} damage to each enemy.
+      For each enemy, apply |e:1| |Vulnerable| to each enemy. 
+    FlavorText: Somehow, bothers Remilia and Flandre less than actual rain.
+
+ReimuUnifierStrikeOfHisoutensoku:
+    Name: Strike of Hisoutensoku
+    Description: |-
+     Deal {Damage} damage. {SelfName} deals {Value1} additional damage for each debuff on the target.
+     |Team Up [Sanae]|: Apply |e:1| |Temporary Firepower Down| for each debuff on the target.
+    UpgradedDescription: |-
+     |Team Up [Sanae]|: Apply |e:1| |Temporary Firepower Down| for each debuff on the target.
+     Deal {Damage} damage. {SelfName} deals {Value1} additional damage for each debuff on the target.
+    FlavorText: I could just swoop in and fight with miracles, but that would violate my sense of aesthetics. Only mechs can fight mechs.
+#Quote from "Knights and Magic", replacing magic with miracles as a Sanae reference.
+
+ReimuUnifierPurifyingStrike:
+    Name: Purifying Strike
+    Description: |-
+     Deal {Damage} damage. 
+     Remove a random debuff from {PlayerName} for every |e:10| unblocked damage dealt by {SelfName}.
+    FlavorText: Reimu's still not sure why she's the one getting purified when someone else gets hit.
+
+ReimuUnifierHermitsTraining:
+    Name: Hermit's Training
+    Description: |-
+     |Team Up [Kasen]|: Gain {Value1} |Temporary Firepower|.
+     Gain {Block} |Block|. If {PlayerName} has |Temporary Firepower|, gain {Shield} |Block| and {Shield} |Barrier| instead.
+    FlavorText: Training to see what life has to offer
+#Reference to Binding of Isaac, Hermit card quote: "See what life has to offer"
+
+ReimuUnifierCooperativeBarrier:
+    Name: Cooperative Barrier
+    Description: |-
+     Gain {Value1} |Temporary Spirit| for each summoned |Teammate| in the hand. 
+     Gain {Block} |Block|.
+    UpgradedDescription: |-
+     Gain {Value2} |Temporary Spirit|.
+     Gain {Value1} additional |Temporary Spirit| for each summoned |Teammate| in the hand.
+     Gain {Block} |Block|.
+    FlavorText: |-
+     "The toughness of friendship" doesn't really have the same impact as "The power of friendship"
+
+ReimuUnifierYinYangCommunicationRitual:
+    Name: Yin-Yang Communication Ritual
+    Description: |-
+     Gain {Block} |Block|. 
+     Add a |Communicator Orb| to the hand.
+    FlavorText: An indestructible communication device? Isn't this just a Yin-Yang Nokia?
+
+ReimuUnifierSummoningRitual:
+    Name: Summoning Ritual
+    Description: |-
+     Draw {Value1} cards. 
+     Gain {Mana} for each |Teammate| drawn this way.
+    FlavorText: |-
+     "No Reimu, calling us over to visit doesn't count as a "Summoning Ritual""
+
+ReimuUnifierCallToArms:
+    Name: Call To Arms
+    Description: |-
+     Randomly add a |Youkai-Forged Needle| or a |Communicator Orb| to the hand for each summoned |Teammate| in hand.
+     |Team Up [Red Teammate]|: The added cards cost {Mana} less.
+    UpgradedDescription: |-
+     Randomly add a |Youkai-Forged Needle| or a |Communicator Orb| to the hand. Repeat for each summoned |Teammate| in hand.
+     |Team Up [Red Teammate]|: The added cards cost {Mana} less.
+    FlavorText: |-
+     More personal than a text to arms.
+#Hearthstone Call to arms flavor text
+
+ReimuUnifierDoubleDealing:
+    Name: Double Dealing
+    Description: |-
+     Gain |e:1| |Vulnerable| and |e:1| |Weak|. Summon a |Teammate| in the hand.
+     |Team Up [Shinmyoumaru]|: Each |Teammate| in the hand gains |e:1| |Unity|.
+    UpgradedDescription: |-
+     Randomly gain |e:1| |Vulnerable| or |e:1| |Weak|. Summon a |Teammate| in the hand.
+     |Team Up [Shinmyoumaru]|: Each |Teammate| in the hand gains |e:1| |Unity|.
+    FlavorText: |-
+     If the weak become the strong, are they not simply the tyrants they rebelled against?
+
+ReimuUnifierTagIn:
+    Name: Tag In
+    Description: |-
+     |Exile| up to |e:1| card from the hand. If it's a |Teammate|, gain {Value1} |Barrier| for each |Unity| it has.
+    UpgradedDescription: |-
+     |Exile| up to |e:1| card from the hand, draw or discard pile. If it's a |Teammate|, gain {Value1} |Barrier| for each |Unity| it has.
+    FlavorText: |-
+     "Take the beating for me for a while, would you?"
+
+ReimuUnifierTagOut:
+    Name: Tag Out
+    Description: |-
+     |Exile| up to |e:1| card from the hand. If it's a |Teammate|, put a random unsummoned |Teammate| from the draw pile into the hand and summon it.
+    UpgradedDescription: |-
+     |Exile| up to |e:1| card from the hand, draw or discard pile. If it's a |Teammate|,  put a random unsummoned |Teammate| from the draw pile into the hand and summon it.
+    FlavorText: |-
+     "Take the beating? I'll give THEM a beating!"
+
+ReimuUnifierCallForHelp:
+    Name: Call For Help
+    Description: |-
+     Choose up to {Value1} |Teammate| from the draw pile and put them into the hand.
+    UpgradedDescription: |-
+     Choose up to {Value1} |Teammates| from the draw pile and put them into the hand.
+    FlavorText: |-
+     But nobody came...
+#Undertale, Genocide route.
+
+ReimuUnifierSynchronizedRitualArray:
+    Name: Synchronized Ritual Array
+    Description: |-
+     |At the end of the turn|: Deal {Value1} damage to a random enemy {Value2} time.
+     |While in hand|: Whenever {PlayerName} summons a |Teammate| by playing it, increase the amount of times {SelfName} deals damage by |e:1|.
+    FlavorText: |-
+     When you don't have enough power for a Permanent Border, crowdfund one!
+
+ReimuUnifierBattleFever:
+    Name: Battle Fever
+    Description: |-
+     Whenever {PlayerName} activates a |Team Up|, gain {Mana}.
+    DetailText: Cards that can Team Up multiple times will gain mana for each activated Team Up
+    FlavorText: |-
+     Who would've thought finding an explanation for the fever would create mana from thin air?
+#References the black card "Unexplained Fever"
+
+ReimuUnifierDimensionalRiftBoundary:
+    Name: Dimensional Rift -Boundary-
+    Description: |-
+     Whenever a |Teammate| enters the hand, deal {Value1} damage to a random enemy.
+     Whenever a summoned |Teammate| leaves the hand, gain {Mana}.
+    FlavorText: |-
+     Drinking game: Take a shot every time you see Ritual, Boundary or Dimension in a Reimu card name.
+
+ReimuUnifierDivineForge:
+    Name: Divine Forge
+    Description: |-
+     At the start of {PlayerName}'s turn, add a |Youkai-Forged Needle| to the hand.
+    FlavorText: |-
+     So you're telling me a god forged this needle?
+#Reference to the joke question "So you're telling me a shrimp fried this rice?" about the food "Shrimp-fried rice"
+
+ReimuUnifierRitualofEchoingProsperity:
+    Name: Ritual of Echoing Prosperity
+    Description: |-
+     At the start of {PlayerName}'s turn, gain {Value1} |Temporary Spirit| and {Value1} |Temporary Firepower| for each summoned |Teammate| in hand.
+    FlavorText: |-
+     The rich get richer!
+
+ReimuUnifierDanmakuCollision:
+    Name: Danmaku Collision
+    Description: |-
+     At the end of {PlayerName}'s turn, gain {Value1} |Block| for each summoned |Teammate| in hand.
+    FlavorText: |-
+     Look at what they need to mimic a fraction of my power. -Cirno, while freezing a full screen of bullets.
+#References Cirno's ability in Great Fairy Wars, and the quote from "Invincible".
+
+ReimuUnifierEmotionalBoundarySynchronization:
+    Name: |-
+     Emotional Boundary: Synchronization
+    Description: |-
+     Whenever a |Teammate|'s |a:Active| or |u:Ultimate Skill| is activated, each |Teammate| in hand gains |e:1| |Unity|.
+    FlavorText: |-
+     One for all, and all for one!
+     #Three musketeers
+
+ReimuUnifierRabbleRousing:
+    Name: Rabble Rousing
+    Description: |-
+     At the start of {PlayerName}'s next |e:3| turns, add a random Common |Teammate| to the hand.
+    FlavorText: |-
+     Don't let Marisa, Yukari and Kogasa find out about this card's name. They won't apreciate being called rabble.
+
+ReimuUnifierKosuzuDecipheringBibliophileFriend:
+    Name: Kosuzu, Deciphering Bibliophile
+    Description: |-
+      {FriendP} Apply {Value1} |Lock On| to each enemy.
+    ExtraDescription1: |-
+      {FriendA} Apply |e:1| |Vulnerable| and {Value2} |Lock On| to each enemy.
+    ExtraDescription3: |-
+      {FriendU} Remove |Graze|, |Optical Camouflage| and |Flawless| from each enemy, then apply |e:1| |Vulnerable| to each enemy.
+    FlavorText: |-
+     "According to this tome, their weakness is..."
+
+ReimuUnifierRitualOfTheSeasons:
+    Name: Ritual of the Seasons
+    Description: |-
+     Put a random |Teammate| of each color from the draw pile into the hand.
+     |Team Up[Aunn]|: For each |Teammate| selected, gain 1 mana of its color.
+    DetailText:  |-
+     Will prioritize drawing the most possible cards, and adds mana based on the color the teammate was assigned to, even if the hand is full.
+    FlavorText: |-
+     A ritual of seasons is far more complex than it might originally seem. To make sure that every possible season is included, the caster uses a recursive Spell Declaration, and even that might go wrong when yet another Youkai steals spring...
+
+#This card intentionally uses the numbers rather than {Damage/Block} because it's unaffected by spirit or firepower
+ReimuUnifierCombatRoleAssignment:
+    Name: Combat Role Assignment
+    Description: |-
+     Deal |e:6| damage to a random enemy.
+     Gain |e:6| |Block|.
+     |Team Up [Red Teammate]:| Deal damage |e:1| more time.
+     |Team Up [White Teammate]:| Gain |Block| |e:1| more time.
+     Can |Team Up| with any amount of |Teammates|.
+    DetailText:  |-
+     {SelfName}'s damage is considered non-attack damage.
+    FlavorText: |-
+     "I'll sacrifice my Kedama and Fairy Maid to summon Dark Magician Marisa in Attacker Role!"
+#YuGiOh reference
+
+
+ReimuUnifierMaidensDivineChanneling:
+    Name: Maiden's Divine Channeling
+    Description: |-
+     |Team Up [Sanae]:| Gain |e:1| |Amulet|.
+     Gain {Block} |Block|. Gain |e:2| |Barrier| for each of {PlayerName}'s buffs.
+    FlavorText: |-
+     If Sanae's a human god who can channel the gods, can she channel herself?
+
+
+ReimuUnifierOmnidirectionalBarrage:
+    Name: Omnidirectional Barrage
+    Description: |-
+     Whenever {PlayerName} activates a |Team Up|, activate the chosen |Teammate|'s first |Passive Skill|.
+    DetailText: If several teammates can fulfill the Team Up conditions, the leftmost is chosen. For cards that can Team Up multiple times, this will activate all valid Passive Skills
+    FlavorText: |-
+     "They're everywhere!" "Then shoot everywhere!"
+#Starcraft 2, Swarmling evolution mission
+
+ReimuUnifierMarisaIncidentSolverFriend:
+    Name: Marisa, Incident Solver
+    Description: |-
+     {FriendP} |l:Red Star Explosion:| Deal {Damage} attack damage to each enemy.
+    ExtraDescription1: |-
+     {FriendA} |i:Final Spark:| Deal {ActiveDamagePreview} |Accurate| attack damage to each enemy.
+    ExtraDescription3: |-
+     {FriendU} |u:Magicannon -Final Master Spark-:| Enter |Burst|. Deal {UltimateDamagePreview} |Accurate| damage to each enemy.
+    FlavorText: |-
+     "It ain't magic if it ain't flashy. Danmaku's all about firepower."
+
+
+ReimuUnifierNeedleSparkSeal:
+    Name: Needle Spark to Seal the Lunar Nobles
+    Description: |-
+     |Youkai-Forged Needles| deal damage and apply |e:2| |Lock On| to each enemy instead of damaging one target. This effect does not stack.
+     Add a |Youkai-Forged Needle| to the hand.
+     |Team Up [Marisa]:| Add one more.
+    DetailText: |-
+     |Youkai-Forged Needles+| still apply their own Lock On to the target separately.
+    FlavorText: |-
+     See? I'm getting used to this. The seat of the strongest perfect possessor will be mine!
+#Marisa quote from Antinomy of Common Flowers, the game where the card name comes from, Mamizou Story mode.
+
+ReimuUnifierFantasySealDreamfinite:
+    Name: Fantasy Seal -Dreamfinite-
+    Description: |-
+     For each {Mana}: At the start of {PlayerName}'s turn, deal {Value1} damage to the enemy with the most life.
+    FlavorText: |-
+     The dream selves tend to have no inhibitions, but their aggresive behavior usually leaves them vulnerable.
+
+ReimuUnifierTrueTrichromaticLotusButterfly:
+    Name: True Trichromatic Lotus Butterfly
+    Description: |-
+     |Team Up [Marisa]:| Deal {Damage} damage |e:10| times. Lose 2 |Firepower|.
+     |Overflow|: Gain {Mana}.
+    UpgradedDescription: |-
+     |Team Up [Marisa]:| Deal {Damage} damage |e:10| times. Deal {SecondaryDamagePreview} damage. Lose |e:2| |Firepower|.
+     |Overflow|: Gain {Mana}.
+    DetailText: This card has no effect without a |Team Up|.
+    FlavorText: |-
+     "I'll let you do as you please, Marisa." "That's my line, Reimu!"
+#Fantasy Maiden Wars quote when using this spellcard.
+
+ReimuUnifierWilyBeastStrike:
+    Name: Wily Beast's Strike
+    Description: |-
+     The next |Teammate|'s |a:Active| or |u:Ultimate Skill| will be played twice.
+    UpgradedDescription: |-
+     The next {Value1} |Teammates|' |a:Active| or |u:Ultimate Skill| will be played twice.
+    FlavorText: |-
+     There wasn't enough of a budget for the Weakest Creature.
+#References Touhou 17 Title: Wily Beast and Weakest Creature
+
+ReimuUnifierSubterraneanAdventure:
+    Name: Subterranean Adventure
+    Description: |-
+     The maximum hand size increases to {MaxHand}.
+     Add a |Communicator Orb| to the hand.
+     |Team Up [Yukari]:| Add a |Purple Needles of Reproach| with Ethereal to the hand. It temporarily costs {Mana}.
+     |Team Up [Suika]:| Add a |Fierce God's Will O Wisp| with Ethereal to the hand. It temporarily costs {Mana}.
+     |Team Up [Aya]:| Add a |Rain Deep in the Mountains| with Ethereal to the hand. It temporarily costs {Mana}.
+    FlavorText: |-
+     Aah! The cat turned into a cat!
+#Reimu quote from Subterranean Animism
+
+ReimuUnifierYukariSageOfGensokyoFriend:
+    Name: Yukari, Sage of Gensokyo
+    Description: |-
+     {FriendP} |d:Quadruple Barrier:| Deal {Damage} attack damage to each enemy. Gain {Value2} |Block|.
+    ExtraDescription1: |-
+     {FriendA} |p:Hakurei Duplex Barrier:| Convert {PlayerName}'s |Block| into |Barrier|, then double {PlayerName}'s |Barrier|.
+    ExtraDescription3: |-
+     {FriendU} |l:Arcanum -Danmaku Barrier-:| At the end of this and the next |e:4| {PlayerName}'s turns, gain {Value1} |Barrier|, then deal damage equal to {PlayerName}'s |Barrier| to a random enemy.
+    FlavorText: |-
+     Would you like to have a near-death experience? By crossing the boundary between life and death.
+#AoCF Yukari Win Quote vs Mokou
+
+ReimuUnifierPerfectCherryBorder:
+    Name: Perfect Cherry Border
+    #Reference to Touhou 7: Perfect Cherry Border, and the Cherry Border mechanic preventing hits.
+    Description: |-
+     Prevent the next time {PlayerName} would lose life.
+     |Team Up [Yukari]:| When this effect activates, each enemy loses life equal to the prevented life loss.
+    UpgradedDescription: |-
+     Prevent the next {Value1} times {PlayerName} would lose life.
+     |Team Up [Yukari]:| When this effect activates, each enemy loses life equal to the prevented life loss.
+    FlavorText: |-
+     To make a Perfect Cherry Border, you must use your Imperfect Cherry Border and absorb Android Youmu and Android Youki.
+#Reference to Imperfect Cell absorbing androids 17 and 18 to become Perfect Cell, DBZ.
+
+ReimuUnifierRitualPowerConduit:
+    Name: Ritual -Power Conduit-
+    Description: |-
+     Choose a summoned |Teammate| in the hand. Activate its |Passive Skill| once for each summoned |Teammate| in the hand.
+    UpgradedDescription: |-
+     Choose a summoned |Teammate| in the hand. Activate its |Passive Skill| once, then once more for each summoned |Teammate| in the hand.
+    DetailText: Includes the targeted Teammate.
+    FlavorText: |-
+     You don't need to believe in yourself. Believe in all of us, who believe in you!
+#Tengen Toppa Gurren Lagann. Kamina speech.
+
+ReimuUnifierRisingSynergy:
+    Name: Rising Synergy
+    Description: |-
+     Whenever your |Teammates| deal attack damage to an enemy, gain |e:1| |Temporary Firepower|.
+    FlavorText: |-
+     Sometimes synergy is more than just a buzzword.
+
+ReimuUnifierFriendOfAFriend:
+    Name: Friend of a Friend
+    Description: |-
+     Choose up to {Value1} of {Value2} |p:completely random| |Teammates| to add to the hand. They temporarily cost {Mana} and have |Ethereal|.
+    FlavorText: |-
+     My friends' friends are my friends!
+
+ReimuUnifierInnateDream:
+    Name: Innate Dream
+    Description: |-
+     Gain |e:1| |Hakurei Ritual Orb|. If {PlayerName} already has |e:7| |Hakurei Ritual Orbs|, lose all |Hakurei Ritual Orbs|, gain |e:99| |Flawless| and |Exile| {SelfName} instead.
+    FlavorText: |-
+     "This wasn't even a Spell Card, but I gave it a proper Spell Card name and some limitations, otherwise there'd be no way to win." -Marisa, about Reimu floating out of reality.
+
+ReimuUnifierEmbodimentOfTheScarletDevil:
+    Name: Embodiment of the Scarlet Devil
+    Description: |-
+     Add |e:1| |Unstable Potion| to hand. Gain |e:5| life. Gain |e:1| |Firepower|.
+     End {PlayerName}'s turn. Then, take an extra turn. Until {PlayerName}'s next Natural Turn, {PlayerName}'s turns end after playing |e:5| cards.
+     Only the first {SelfName} will take effect each combat.
+    ExtraDescription1: |-
+     |d: Add 1 Unstable Potion to hand. Gain 5 life. Gain 1 Firepower.|
+     |d: End {PlayerName}'s turn. Then, take an extra turn. Until {PlayerName}'s next Natural Turn, {PlayerName}'s turns end after playing 5 cards.|
+     Only the first {SelfName} will take effect each combat.
+    FlavorText: |-
+     Meiling! Patchouli! Sakuya! Flandre! Remilia! Together we are... The Scarlet Special Corps!
+#DBZ, Ginyu Force introduction
+
+ReimuUnifierDuplexBarrierDanmakuMirror:
+    Name: Duplex Barrier -Danmaku Mirror-
+    Description: |-
+     At the start of {PlayerName}'s turn, each summoned |Teammate| in the hand gains |e:1| |Unity|.
+     Whenever a |Teammate| is summoned by playing it, add a |Copy| of it to the hand. It costs {Mana} and has |Ethereal|.
+    DetailText: |-
+     |Copied| |Teammates| don' trigger this effect. 
+    FlavorText: |-
+     ˙spɹɐɔ ǝʇᴉɹnoʌɐɟ s,ɐɾᴉǝS ɟo ǝuO
+#"One of Seija's favourite cards" written upside down.
+
+ReimuUnifierCombinationStrikeCoordinatedPursuit:
+    Name: Combination Strike -Coordinated Pursuit-
+    Description: |-
+     Whenever a |Teammate|'s |a:Active Skill| or |u:Ultimate Skill| is activated, the next attack played costs {Mana} to play.
+    FlavorText: |-
+     "Let's gang up on them" just didn't sound quite as nice of a name.
+
+ReimuUnifierBanishingRitualDrainingStrike:
+    Name: Banishing Ritual -Draining Strike-
+    Description: |-
+     Deal {Damage} damage.
+     |Expel|: Gain {Value1} life.
+    FlavorText: |-
+     Reimu learnt this one from a plumber in green clothes that bought one of Doremy's Dream Catchers.
+
+ReimuUnifierFlowerViewingParty:
+    Name: Flower-Viewing Party
+    Description: |-
+     Whenever a |Teammate| is summoned by being played, add |e:1| |Midsummer Flowers| to the hand.
+     If it's the first time this turn, also gain {Mana}.
+    FlavorText: |-
+     In the end, the Saigyou Ayakashi blossomed, but not fully. The seal on it didn't break, so as always, everyone was greeted by the arrival of spring.
+#Ending of Touhou 7: Perfect Cherry Blossom.
+
+ReimuUnifierShrineDefense:
+    Name: Defend the Hakurei Shrine!
+    Description: |-
+     Add random |Teammate| cards to the hand until it's full. 
+     |Team Up [Hakurei's Guests]|: Gain {Mana} for each valid |Team Up|.
+    UpgradedDescription: |-
+     Add random |Teammate| cards to the hand until it's full. They temporarily cost |e:1| random mana less.
+     |Team Up [Hakurei's Guests]|: Gain {Mana} for each valid |Team Up|.
+    DetailText: Hakurei's Guests include Marisa, Suika, Kasen, the Four Fairies, Aunn, Nitori, Sumireko and Shinmyomaru.
+    FlavorText: |-
+     For a place supposedly important to the Hakurei Barrier, the Hakurei Shrine's certainly seen its fair share of destruction.
+
+ReimuUnifierDarknessOfTheCrow:
+    Name: Darkness of the Crow
+    Description: |-
+     Whenever {PlayerName} |Grazes| an attack, and at the end of {PlayerName}'s turn, deal {Value1} damage to each enemy.
+     |Team Up [Aya]|: Gain {Value2} |Graze|.
+    FlavorText: |-
+     "Darkness" of "The Crow"? I guess even Youkai can be fans of 90s movie music.
+#References a song titled Darkness that is part of the OST of "The Crow"
+
+ReimuUnifierAyaReporterOfFantasyFriend:
+    Name: Aya, Reporter of Fantasy
+    Description: |-
+      {Indent} Whenever {PlayerName} plays a |Status| card, gain |e:1| |Graze|.
+       {FriendP} |f:Bunbunmaru Delivery|: Add |e:2| |Bunbunmaru Newspapers| to the draw pile. They have |Replenish| and |Auto-Exile| and cost {Mana} less.
+    ExtraDescription1: |-
+      {FriendA} |g:Tengu Limited Special|: |Exile| each |Status| card in the hand. Gain |e:1| |Graze| for each card exiled this way.
+    ExtraDescription3: |-
+      {FriendU} |u:Illusionary Dominance|: Gain "Whenever {PlayerName} plays a card, deal {Value2} damage to a random enemy".
+    UpgradedExtraDescription3: |-
+      {FriendU} |u:Peerless Wind God|: Whenever {PlayerName} plays a card, deal {Value2} damage to a random enemy.
+    FlavorText: |-
+     The name's Aya, Gensokyo's greatest reporter and fastest flier around!
+
+ReimuUnifierWisdomOfHumanity:
+    Name: Wisdom of Humanity
+    Description: |-
+     |Team Up [Human]|: Draw a card for each valid |Team Up|.
+     Gain |e:3| |Block| for each card in the hand.
+    UpgradedDescription: |-
+     |Team Up [Human]|: Draw a card for each valid |Team Up|.
+     Gain |e:3| |Barrier| for each card in the hand.
+    FlavorText: |-
+     Youkais' worst nightmare: Humanity's ability to explain the mysteries of the world.
+
+ReimuUnifierNitoriBusinessPartnerFriend:
+    Name: Nitori, Partner in Business
+    Description: |-
+      {Indent} Gain |e:10|<sprite="Point" name="Gold">.
+    ExtraDescription1: |-
+      {FriendA} |b:Kappa Drone Technology|: Remove |Weak| and |Vulnerable| from {PlayerName}.
+    UpgradedExtraDescription1: |-
+      {FriendA} |b:Kappa Drone Technology|: Remove |Weak|, |Vulnerable|, |Lock On| and |Frail| from {PlayerName}.
+    ExtraDescription2: |-
+      {FriendA} |d:Cucumber Missile Barrage|: Deal {Damage} attack damage to a random enemy {Value1} times. Draw a card.
+    ExtraDescription3: |-
+      {FriendU} |s:Loch Ness is Here Right Now!|: At the end of the turn, deal {Value2} damage for each turn {PlayerName} has taken this combat.
+    FlavorText: |-
+     "Hey human. Kappa and humans have been sworn friends since ancient times, so let me tell you something."
+     "Sworn friends? Are you sure you haven't mistaken an old enemy for a friend?"
+#Mountain of Faith Nitori dialogue.
+
+ReimuUnifierSumirekoDreamVisitorFriend:
+    Name: Sumireko, Occult Dream Visitor
+    Description: |-
+      {FriendP} |d:Psychokinesis App|: Gain |e:1| |Occult Ball|.
+    ExtraDescription1: |-
+      {FriendA} |e:3D Printed Gun|: For each |Occult Ball| {PlayerName} has, deal {Damage} damage to the enemy with the least life.
+    ExtraDescription2: |-
+      {FriendA2} |p:Zener Cards Shuriken|: For each |Occult Ball| {PlayerName} has, lose |e:1| life, draw |e:1| card and gain {Mana}.
+    ExtraDescription3: |-
+      {FriendU} |s:Summon Doppelganger|: If {PlayerName} has at least 7 |Occult Balls|, lose all |Occult Balls|. Then, in this turn, |Copy| every card played.
+    UpgradedExtraDescription3: |-
+      {FriendU} |s:Double ESPer of the Century|: If {PlayerName} has at least 7 |Occult Balls|, lose all |Occult Balls| and draw until the hand is full. Then, in this turn, |Copy| every card played.
+    DetailText: |-
+     Occult Orbs are only used by {SelfName}, but are shared by all copies of the card.
+    FlavorText: |-
+     I am the shrine maiden of paradise, Reimu Hakurei!
+     I'll protect the Barrier, no matter what!
+     And I'm not gonna let some human die stupidly right in front of me!
+#Reimu dialogue in the final fight of Urban Legend in Limbo against Sumireko.
+
+ReimuUnifierPerfectPosession:
+    Name: Perfect Possession
+    Description: |-
+     Choose up to |e:1| card. |Exile| the hand except the chosen card. For each |Exiled| card, gain |e:3| |Barrier|. For each |Exiled| |Teammate|, also gain {Mana}.
+    FlavorText: |-
+     Marisa: Everyone else is using perfect possession, but you're the only one by yourself, huh?
+     Yukari: Can you guess why that is?
+     Koishi: Ooh, I know! It's 'cause you have no friends, right? So sad...
+#Antinomy of Common Flowers dialogue.
+
+ReimuUnifierFaithlessMountainAssault:
+    Name: Faithless Mountain Assault
+    Description: |-
+     Deal {Damage} damage to each enemy.
+     |Expel|: Add a |Consumed by Vengeance| to the library.
+    FlavorText: |-
+     In her anger, Reimu would strike down even the gods to get back at those who threatened her.
+#God of War reference.
+
+ReimuUnifierConsumedByVengeanceMisfortuneToken:
+    Name: Consumed by Vengeance
+    Description: |-
+     When shuffling, {SelfName} is placed at the bottom of the draw pile.
+    FlavorText: |-
+     KANAKO! THE HAKUREI MAIDEN HAS RETURNED. I BRING WITH ME THE DESTRUCTION OF YOUKAI MOUNTAIN.
+#God of War reference + Touhou Mountain of Faith reference.
+
+ReimuUnifierYoukaiShrineMaiden:
+    Name: Youkai Shrine Maiden
+    Description: |-
+     Gain {Mana}. Draw {Value1} cards. Add |e:3| random |Misfortunes| to the discard pile.
+     |Team Up [Youkai]|: Add |e:1| less |Misfortune| for each valid |Team Up|. Excess |Team Ups| add |e:1| |Ward| each.
+    FlavorText: |-
+     Unfortunately for you, I don't mind needless killing. I'm not a Youkai Shrine Maiden either. I'm a human shrine maiden, and it's my job to exterminate youkai!
+#Dialogue from Touhou: Forbidden Scrollery
+
+ReimuUnifierCursedBoundary:
+    Name: Cursed Boundary -Shared Pain-
+    Description: |-
+     For each {Mana}: Lose |e:1| life and deal {Damage} damage.
+     |Team Up [Shion]|: For each {Mana}: Gain {Value1}<sprite="Point" name="Gold">.
+    FlavorText: |-
+     Now! Let's savour the utmost of suffering together!
+#Hidan dialogue, Naruto Shippuuden.
+
+ReimuUnifierShionImpoverishedDeityFriend:
+    Name: Shion, Impoverished Deity
+    Description: |-
+      {Indent} Gain |e:15|<sprite="Point" name="Gold">.
+       {FriendP} |d:Fall into Poverty|: Deal {Damage} |Accurate| damage to the enemy with the least life twice. Lose |e:5|<sprite="Point" name="Gold">.
+    ExtraDescription1: |-
+      {FriendA} |s:Pluck Pigeon|: Deal |e:{ActiveDamagePreview}| damage to each enemy. Gain |e:1| |Graze| and lose |e:5|<sprite="Point" name="Gold"> for each enemy hit.
+    ExtraDescription3: |-
+      {FriendU} |p:Exchange -Absolute Loser-|: Instantly defeat each unnamed enemy. Add a |Buy Safety| to the library.
+    FlavorText: |-
+     This grilled miso, cheap? You can't be serious. It's the height of extravagance!
+#Shion dialogue from Touhou: Lotus Eaters
+
+ReimuUnifierShinmyoumaruInchlingPrincessFriend:
+    Name: Shinmyoumaru, Inchling Princess
+    Description: |-
+      {Indent} |d:Might of the Meek|: Whenever a Common card is played, {SelfName} gains |e:1| |Unity|.
+    ExtraDescription1: |-
+      {FriendA} |d:Mallet "Grow Bigger!" |: Gain {Value1} |Firepower|.
+    UpgradedExtraDescription1: |-
+      {FriendA} |d:Mallet "Grow Even Bigger!" |: Gain {Value1} |Firepower|.
+    ExtraDescription2: |-
+      {FriendA2} |d:Shining Needle Sword|: Put random Common cards from the draw pile into the hand until it is full. Gain {Mana}.
+    ExtraDescription3: |-
+      {FriendU} |k:Shining Treasure -Miracle Mallet-|: Add a summoned |Merciless Purification Rod| to the hand.
+    UpgradedExtraDescription3: |-
+      {FriendU} |k:Shining Treasure -Miracle Mallet-|: Add a summoned |Merciless Purification Rod+| to the hand.
+    FlavorText: |-
+     I have the power of dreams here in my hand. This is our treasure, the Miracle Mallet!
+#Shinmyomaru dialogue from Touhou: Double Dealing Character
+
+
+ReimuUnifierMercilessRodFriendToken:
+    Name: Merciless Purification Rod
+    Description: |-
+      {Indent} |d:Might of the Meek|: Whenever a Common card is played, gain {Value1} |Firepower|.
+    UpgradedDescription: |-
+      {Indent} |d:Might of the Meek|: Whenever a Common card is played, gain {Value1} |Firepower| and {Value1} |TemporaryFirepower|.
+    ExtraDescription1: |-
+      {FriendP} |d:Spinning Rod|: Deal attack {Damage} damage to the enemy with the most life |e:3| times.
+    ExtraDescription3: |-
+      {FriendU} |d:Bewitched Weapon -Merciless Purification Rod-|: Deal {Damage} attack damage to each enemy |e:8| times.
+    FlavorText: |-
+     Now, my treasured mallet! Impart the power of dreams to all the speechless tools!
+#Shinmyomaru dialogue from Touhou: Double Dealing Character

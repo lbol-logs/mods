@@ -1,0 +1,11 @@
+﻿ReimuUnifierCoordinatedStrike:
+  Name: Golpe Coordinado
+  Description: >-
+    Inflige {Damage} de daño.
+
+    |Equipo [Equipo Rojo]:| Inflige daño una vez adicional.
+  UpgradedDescription: >-
+    Inflige {Damage} de daño.
+
+    |Equipo [Equipo Rojo]:| Inflige daño una vez adicional. Gana {Mana}.
+  FlavorText: Todo es más divertido con amigos. ¡Incluso la violencia!

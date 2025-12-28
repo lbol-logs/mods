@@ -1,0 +1,12 @@
+﻿ReimuUnifierShrineDefense:
+  Name: Defend the Hakurei Shrine!
+  Description: >-
+    Add random |Teammate| cards to the hand until it's full. 
+
+    |Team Up [Hakurei's Guests]|: Gain {Mana} for each valid |Team Up|.
+  UpgradedDescription: >-
+    Add random |Teammate| cards to the hand until it's full. They temporarily cost |e:1| random mana less.
+
+    |Team Up [Hakurei's Guests]|: Gain {Mana} for each valid |Team Up|.
+  DetailText: Hakurei's Guests include Marisa, Suika, Kasen, the Four Fairies, Aunn, Nitori, Sumireko and Shinmyomaru.
+  FlavorText: For a place supposedly important to the Hakurei Barrier, the Hakurei Shrine's certainly seen its fair share of destruction.

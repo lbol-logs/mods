@@ -1,0 +1,7 @@
+﻿ReimuUnifierDarknessOfTheCrow:
+  Name: 乌鸦之暗
+  Description: >-
+    每当{PlayerName}|闪避|一次攻击，以及{PlayerName}的回合结束时，对所有敌人造成 {Value1} 点伤害。
+
+    |组队 [射命丸文]|：获得 {Value2} 层|闪避|。
+  FlavorText: “乌鸦”的“黑暗”？我猜连妖怪也可以是90年代电影音乐的粉丝。

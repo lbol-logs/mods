@@ -1,0 +1,9 @@
+﻿ReimuUnifierShinmyoumaruInchlingPrincessFriend:
+  Name: 少名针妙丸·寸法公主
+  Description: '{Indent} |d:弱小之力|：每当打出普通牌时，获得 |e:1| |支援度|。'
+  ExtraDescription1: '{FriendA} |d:槌「变大！」 |：获得 {Value1} 点|火力|。'
+  UpgradedExtraDescription1: '{FriendA} |d:槌「变得更大！」 |：获得 {Value1} 点|火力|。'
+  ExtraDescription2: '{FriendA2} |d:辉针剑|：从抽牌堆中将随机普通牌加入手中直到手牌满。获得 {Mana}。'
+  ExtraDescription3: '{FriendU} |k:辉光宝藏 -万宝槌-|：将一张召唤|无情净化杖|加入手中。'
+  UpgradedExtraDescription3: '{FriendU} |k:辉光宝藏 -万宝槌-|：将一张召唤|无情净化杖+|加入手中。'
+  FlavorText: 我手中有梦想的力量。这是我们的宝藏，万宝槌！

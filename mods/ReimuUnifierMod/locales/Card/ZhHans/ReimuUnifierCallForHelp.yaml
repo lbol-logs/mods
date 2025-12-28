@@ -1,0 +1,5 @@
+﻿ReimuUnifierCallForHelp:
+  Name: 求助
+  Description: 从抽牌堆中选择最多 {Value1} 张|同伴|加入手中。
+  UpgradedDescription: 从抽牌堆中选择最多 {Value1} 张|同伴|加入手中。
+  FlavorText: 但是没有人来……

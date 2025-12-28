@@ -1,0 +1,7 @@
+﻿ReimuUnifierPurifyingStrike:
+  Name: 净化打击
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    每造成 |e:10| 点未格挡伤害，移除{PlayerName}的一个随机减益。
+  FlavorText: 灵梦仍不确定为什么当别人被击中时，她才是被净化的那个。

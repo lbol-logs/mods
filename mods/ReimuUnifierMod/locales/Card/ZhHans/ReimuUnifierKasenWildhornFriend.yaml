@@ -1,0 +1,7 @@
+﻿ReimuUnifierKasenWildhornFriend:
+  Name: 茨木华扇·野性与角
+  Description: '{FriendP} |d:鹰之信标：| 对生命值最低的敌人造成 {Damage} 点攻击伤害 {Value1} 次。'
+  ExtraDescription1: '{FriendA} |p:仙人之训：| 获得 {Value2} 点|灵力|和 {Value2} 点|火力|。'
+  UpgradedExtraDescription1: '{FriendA} |p:仙人之训：| 获得 {Value2} 点|灵力|、 {Value2} 点|火力|和 {Value2} 层|闪避|。'
+  ExtraDescription3: '{FriendU} |u:猴爪！碾碎我的敌人！：| 从抽牌堆和弃牌堆中将攻击牌加入手中直到手牌满。它们|暂塑|为 {Mana}。'
+  FlavorText: “灵梦需要有人看管，否则，谁知道她还会搞出什么？”

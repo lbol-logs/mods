@@ -1,0 +1,6 @@
+﻿ReimuUnifierYukariSageOfGensokyoFriend:
+  Name: 八云紫·幻想乡的贤者
+  Description: '{FriendP} |d:四重结界：| 对所有敌人造成 {Damage} 点攻击伤害。获得 {Value2} 点|格挡|。'
+  ExtraDescription1: '{FriendA} |p:博丽二重结界：| 将{PlayerName}的|格挡|转化为|护盾|，然后翻倍{PlayerName}的|护盾|。'
+  ExtraDescription3: '{FriendU} |l:秘术 -弹幕结界-：| 在此及下 |e:4| 个{PlayerName}的回合结束时，获得 {Value1} 点|护盾|，然后对随机敌人造成等于{PlayerName}|护盾|的伤害。'
+  FlavorText: 你想体验濒死体验吗？通过跨越生与死的界限。

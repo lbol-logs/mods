@@ -1,0 +1,7 @@
+﻿ReimuUnifierReinforcedBoundary:
+  Name: 加固结界
+  Description: >-
+    获得 {Block} 点|格挡|。
+
+    选择手牌中最多 |e:1| 张召唤|同伴|，激活其 |f:被动技能|。
+  FlavorText: “我们待在家里建个枕头堡垒吧！” “你是说枕头堡？” “不！我想要堡垒，我想要城垛，我想要守卫，我还想要投石机！”

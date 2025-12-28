@@ -1,0 +1,8 @@
+﻿ReimuUnifierRitualOfTheSeasons:
+  Name: Ritual of the Seasons
+  Description: >-
+    Put a random |Teammate| of each color from the draw pile into the hand.
+
+    |Team Up[Aunn]|: For each |Teammate| selected, gain 1 mana of its color.
+  DetailText: Will prioritize drawing the most possible cards, and adds mana based on the color the teammate was assigned to, even if the hand is full.
+  FlavorText: A ritual of seasons is far more complex than it might originally seem. To make sure that every possible season is included, the caster uses a recursive Spell Declaration, and even that might go wrong when yet another Youkai steals spring...

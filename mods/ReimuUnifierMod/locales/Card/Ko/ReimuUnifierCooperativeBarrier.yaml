@@ -1,0 +1,13 @@
+﻿ReimuUnifierCooperativeBarrier:
+  Name: 협력의 결계
+  Description: >-
+    손에 있는 소환된 |동료|마다 |일시 영력|을 {Value1} 얻습니다. 
+
+    방어를 {Block} 얻습니다.
+  UpgradedDescription: >-
+    |일시 영력|을 {Value2} 얻습니다.
+
+    손에 있는 소환된 |동료|마다 |일시 영력|을 {Value1} 추가로 얻습니다.
+
+    방어를 {Block} 얻습니다.
+  FlavorText: '"우정의 단단함"은 "우정의 힘"만큼 임팩트가 없다.'

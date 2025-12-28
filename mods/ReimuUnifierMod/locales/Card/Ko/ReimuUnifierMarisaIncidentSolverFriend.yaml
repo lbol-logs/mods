@@ -1,0 +1,6 @@
+﻿ReimuUnifierMarisaIncidentSolverFriend:
+  Name: 이변 해결사, 키리사메 마리사
+  Description: '{FriendP} |l:적색 왜성 폭발:| 모든 적에게 피해를 {Damage} 줍니다.'
+  ExtraDescription1: '{FriendA} |i:파이널 스파크:| 모든 적에게 피해를 {ActiveDamagePreview} 줍니다. |명중|'
+  ExtraDescription3: '{FriendU} |u:마포 -파이널 마스터 스파크-|: |버스트| 상태가 됩니다. 모든 적에게 피해를 {UltimateDamagePreview} 줍니다. |명중|'
+  FlavorText: '"화려하지 않으면 마법이 아니지. 탄막은 결국 화력이야."'

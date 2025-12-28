@@ -1,0 +1,8 @@
+﻿ReimuUnifierFourFairiesFriend:
+  Name: The Freeloading Fairies
+  Description: '{FriendP} |e:Fairy Danmaku Barrage:| Deal {Damage} attack damage to a random enemy {Value1} times.'
+  ExtraDescription1: '{FriendA} |g:Fairy Reinforcements:| Choose a |e:Fairy of Light| to add to the hand. It enters the hand summoned.'
+  ExtraDescription3: '{FriendU} |d:Hidden Star Season:| Add the |e:Three Fairies of Light| to the hand. They enter summoned with |e:9| |Unity|.'
+  UpgradedExtraDescription3: '{FriendU} |p:Purified Lunatic Torch:| Add the |e:Four Mischievous Fairies| to the hand. They enter summoned with |e:9| |Unity|.'
+  DetailText: '{SelfName}|e:+| adds |Clownpiece, Lunatic Fairy| to the possible |g:Fairy Reinforcements|'
+  FlavorText: They're not just Pieces of Clowns, they're the entire circus.

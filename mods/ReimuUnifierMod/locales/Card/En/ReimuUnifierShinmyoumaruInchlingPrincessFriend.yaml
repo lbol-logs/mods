@@ -1,0 +1,9 @@
+﻿ReimuUnifierShinmyoumaruInchlingPrincessFriend:
+  Name: Shinmyoumaru, Inchling Princess
+  Description: '{Indent} |d:Might of the Meek|: Whenever a Common card is played, {SelfName} gains |e:1| |Unity|.'
+  ExtraDescription1: '{FriendA} |d:Mallet "Grow Bigger!" |: Gain {Value1} |Firepower|.'
+  UpgradedExtraDescription1: '{FriendA} |d:Mallet "Grow Even Bigger!" |: Gain {Value1} |Firepower|.'
+  ExtraDescription2: '{FriendA2} |d:Shining Needle Sword|: Put random Common cards from the draw pile into the hand until it is full. Gain {Mana}.'
+  ExtraDescription3: '{FriendU} |k:Shining Treasure -Miracle Mallet-|: Add a summoned |Merciless Purification Rod| to the hand.'
+  UpgradedExtraDescription3: '{FriendU} |k:Shining Treasure -Miracle Mallet-|: Add a summoned |Merciless Purification Rod+| to the hand.'
+  FlavorText: I have the power of dreams here in my hand. This is our treasure, the Miracle Mallet!

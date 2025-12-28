@@ -1,0 +1,4 @@
+﻿ReimuUnifierInnateDream:
+  Name: Innate Dream
+  Description: Gain |e:1| |Hakurei Ritual Orb|. If {PlayerName} already has |e:7| |Hakurei Ritual Orbs|, lose all |Hakurei Ritual Orbs|, gain |e:99| |Flawless| and |Exile| {SelfName} instead.
+  FlavorText: "\"This wasn't even a Spell Card, but I gave it a proper Spell Card name and some limitations, otherwise there'd be no way to win.\" -Marisa, about Reimu floating out of reality."

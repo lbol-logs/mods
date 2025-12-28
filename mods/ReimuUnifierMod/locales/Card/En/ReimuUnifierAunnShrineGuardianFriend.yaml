@@ -1,0 +1,6 @@
+﻿ReimuUnifierAunnShrineGuardianFriend:
+  Name: Aunn, Shrine Guardian
+  Description: "{FriendP} |l:Koma-Inu's Protection|: |Exile| a random |Misfortune| from the hand, draw or discard pile."
+  ExtraDescription1: '{FriendA} |g:Koma-Inu Spin|: Gain {Block} |Block|, {Shield} |Barrier|, {Value1} |Amulet|, {Value1} |Ward|, {Value1} |Graze| and {Value1} |Temporary Spirit|.'
+  ExtraDescription3: '{FriendU} |d:Guardian Sign "Form of Stone"|:  Gain |e:2| |Sealed|. Prevent the next {Value2} times {PlayerName} would lose life.'
+  FlavorText: Reimu Needs Help!? Aunn-chan to The Rescue!

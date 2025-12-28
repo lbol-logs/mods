@@ -1,0 +1,7 @@
+﻿ReimuUnifierYoukaiShrineMaiden:
+  Name: Sacerdotisa del Santuario Youkai
+  Description: >-
+    Gana {Mana}. Roba {Value1} cartas. Agrega |e:3| |Desgracias| al aleatorias a la pila de descarte.
+
+    |Equipo [Youkai]|: Agrega |e:1| |Desgracia| menos por cada |Equipo| válido. El |Equipo| adicional agrega |e:1| |Resguardo| cada una.
+  FlavorText: Desafortunadamente para ti, no me importa matar sin motivo. No soy una sacerdotisa youkai, ¡Soy una sacerdotisa humana, y mi deber es exterminar a los youkais!

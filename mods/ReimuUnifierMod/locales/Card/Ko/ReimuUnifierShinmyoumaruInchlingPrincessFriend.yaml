@@ -1,0 +1,9 @@
+﻿ReimuUnifierShinmyoumaruInchlingPrincessFriend:
+  Name: 소인의 후예, 스쿠나 신묘마루
+  Description: '{Indent} |d:평범의 힘|: 일반 카드를 사용할 때마다, {SelfName}가 |지원력|을 |e:1| 얻습니다.'
+  ExtraDescription1: '{FriendA} |d:커져라 얍|: |화력|을 {Value1} 얻습니다.'
+  UpgradedExtraDescription1: '{FriendA} |d:좀 더 커져라 얍|: |화력|을 {Value1} 얻습니다.'
+  ExtraDescription2: '{FriendA2} |d:휘침검|: 뽑을 카드 더미에서 무작위 일반 카드를 손이 꽉 찰 때 까지 가져옵니다. {Mana}를 얻습니다.'
+  ExtraDescription3: '{FriendU} |k:빛나는 보물 -요술 망치-|: |무자비한 정화봉|을 소환한 상태로 얻습니다.'
+  UpgradedExtraDescription3: '{FriendU} |k:빛나는 보물 -요술 망치-|: |무자비한 정화봉+|을 소환한 상태로 얻습니다.'
+  FlavorText: 지금 내 손엔 몽환의 힘이 모여 있어. 바로 이 '요술 망치'!

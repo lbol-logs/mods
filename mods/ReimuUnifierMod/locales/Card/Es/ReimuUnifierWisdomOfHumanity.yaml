@@ -1,0 +1,11 @@
+﻿ReimuUnifierWisdomOfHumanity:
+  Name: Sabiduría de la Humanidad
+  Description: >-
+    |Equipo [Humano]|: Roba una carta por cada |Equipo| válido.
+
+    Gana |e:3| de |Bloqueo| por cada carta en la mano.
+  UpgradedDescription: >-
+    |Equipo [Humano]|: Roba una carta por cada |Equipo| válido.
+
+    Gana |e:3| de |Barrera| por cada carta en la mano.
+  FlavorText: 'La peor pesadilla de los youkais: la capacidad de la humanidad para explicar los misterios del mundo.'

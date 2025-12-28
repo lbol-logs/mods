@@ -1,0 +1,4 @@
+﻿TeamUpSe:
+  Name: Equipo [Condición]
+  Description: Es un método provisional para agregar descripciones de palabras clave a las cartas.
+  Brief: Se activa si el jugador tiene una compañera invocada en la mano que cumple la condición. Los compañeras híbridas cumplen cualquiera de las condiciones de su color.

@@ -1,0 +1,13 @@
+﻿ReimuUnifierYoukaiForgedNeedle:
+  Name: 妖怪锻造针
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    如果本回合激活了 |同伴| 的 |a:主动技能| 或 |u:终极技能|，则 的费用为 {Mana}。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害。
+
+    施加 {Value1} 层|锁定|。
+
+    如果本回合激活了 |同伴| 的 |a:主动技能| 或 |u:终极技能|，则 的费用为 {Mana}。
+  FlavorText: 你设局，我终结！

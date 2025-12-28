@@ -1,0 +1,10 @@
+﻿ReimuUnifierNeedleSparkSeal:
+  Name: Needle Spark to Seal the Lunar Nobles
+  Description: >-
+    |Youkai-Forged Needles| deal damage and apply |e:2| |Lock On| to each enemy instead of damaging one target. This effect does not stack.
+
+    Add a |Youkai-Forged Needle| to the hand.
+
+    |Team Up [Marisa]:| Add one more.
+  DetailText: '|Youkai-Forged Needles+| still apply their own Lock On to the target separately.'
+  FlavorText: See? I'm getting used to this. The seat of the strongest perfect possessor will be mine!

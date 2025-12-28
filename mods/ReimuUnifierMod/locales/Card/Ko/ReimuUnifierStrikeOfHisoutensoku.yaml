@@ -1,0 +1,11 @@
+﻿ReimuUnifierStrikeOfHisoutensoku:
+  Name: 비상천칙의 일격
+  Description: >-
+    피해를 {Damage} 줍니다. {SelfName}은 대상의 디버프마다 추가로 피해를 {Value1} 줍니다.
+
+    |팀 업 [사나에]|: 대상의 디버프마다 |일시 화력 저하|를 |e:1| 줍니다.
+  UpgradedDescription: >-
+    |팀 업 [사나에]|: 대상의 디버프마다 |일시 화력 저하|를 |e:1| 줍니다.
+
+    피해를 {Damage} 줍니다. {SelfName}은 대상의 디버프마다 추가로 피해를 {Value1} 줍니다.
+  FlavorText: 그냥 뛰어들어 기적과 싸울 수도 있지만, 그건 내 미학에 어긋나. 오직 기계만이 기계와 싸울 수 있지.

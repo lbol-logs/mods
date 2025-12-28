@@ -1,0 +1,11 @@
+﻿ReimuUnifierRetributiveBoundary:
+  Name: Retributive Boundary
+  Description: >-
+    Gain {Block} |Block|. 
+
+    Until {PlayerName}'s next turn, whenever {PlayerName} takes attack damage from an enemy's whole attack, add a |Youkai-Forged Needle| to the hand.
+  UpgradedDescription: >-
+    Gain {Shield} |Barrier|.
+
+    Until {PlayerName}'s next turn, whenever {PlayerName} takes attack damage from an enemy's whole attack, add a |Youkai-Forged Needle+| to the hand.
+  FlavorText: If you strike me, you shall become less powerful than you can possibly imagine.

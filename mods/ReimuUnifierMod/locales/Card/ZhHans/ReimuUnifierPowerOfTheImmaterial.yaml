@@ -1,0 +1,7 @@
+﻿ReimuUnifierPowerOfTheImmaterial:
+  Name: 无形之力
+  Description: >-
+    |组队 [伊吹萃香]：| 获得 {Value1} 点|暂得火力|。
+
+    造成 {Damage} 点伤害 {Value2} 次。如果{PlayerName}有|暂得火力|，则额外造成等量伤害 |e:1| 次。
+  FlavorText: 对许多人来说，比《Common Flowers》、《Urban Legends》或《Hopeless Masquerades》更受欢迎。

@@ -1,0 +1,12 @@
+﻿ReimuUnifierTrueTrichromaticLotusButterfly:
+  Name: 真三色莲花蝶
+  Description: >-
+    |组队 [魔理沙]：| 造成 {Damage} 点伤害 |e:10| 次。失去2点|火力|。
+
+    |充盈|：获得 {Mana}。
+  UpgradedDescription: >-
+    |组队 [魔理沙]：| 造成 {Damage} 点伤害 |e:10| 次。造成 {SecondaryDamagePreview} 点伤害。失去 |e:2| 点|火力|。
+
+    |充盈|：获得 {Mana}。
+  DetailText: 此牌没有|组队|时无效。
+  FlavorText: “我会让你随心所欲，魔理沙。” “那是我的台词，灵梦！”

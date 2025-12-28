@@ -1,0 +1,11 @@
+﻿ReimuUnifierPerfectCherryBorder:
+  Name: 完美樱花结界
+  Description: >-
+    防止下次{PlayerName}失去生命。
+
+    |组队 [八云紫]：| 当此效果激活时，所有敌人失去等于防止生命损失的生命值。
+  UpgradedDescription: >-
+    防止下 {Value1} 次{PlayerName}失去生命。
+
+    |组队 [八云紫]：| 当此效果激活时，所有敌人失去等于防止生命损失的生命值。
+  FlavorText: 要做出完美樱花结界，你必须使用不完美樱花结界并吸收安卓妖梦和安卓妖忌。

@@ -1,0 +1,7 @@
+﻿ReimuUnifierSynchronizedRitualArray:
+  Name: 동조 의식진
+  Description: >-
+    |턴 종료 시|: 무작위 적에게 피해를 {Value1}씩 {Value2}번 줍니다.
+
+    |손에 있을 때|: {PlayerName}가 |동료| 카드로 동료를 소환할 때마다, {SelfName}이 피해를 |e:1|번 더 줍니다.
+  FlavorText: 퍼머넌트 결계를 칠 힘이 부족하다면, 크라우드 펀딩을 하자!

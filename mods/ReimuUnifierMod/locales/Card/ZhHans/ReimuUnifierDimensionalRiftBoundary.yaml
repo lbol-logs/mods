@@ -1,0 +1,7 @@
+﻿ReimuUnifierDimensionalRiftBoundary:
+  Name: 次元裂隙 -结界-
+  Description: >-
+    每当|同伴|进入手中时，对随机敌人造成 {Value1} 点伤害。
+
+    每当召唤|同伴|离开手牌时，获得 {Mana}。
+  FlavorText: 喝酒游戏：每次在灵梦卡牌名称中看到“仪式”、“结界”或“次元”时喝一杯。

@@ -1,0 +1,8 @@
+﻿ReimuUnifierShionImpoverishedDeityFriend:
+  Name: Shion, Deidad Pobre
+  Description: >-
+    {Indent} Gana |e:15|<sprite="Point" name="Gold">.
+     {FriendP} |d:Caer en la Pobreza|: Inflige {Damage} de daño |Certero| al enemigo con menos vida dos veces. Pierde |e:5|<sprite="Point" name="Gold">.
+  ExtraDescription1: '{FriendA} |s:Dejarte sin Blanca|: Inflige |e:{ActiveDamagePreview}| de daño a cada enemigo. Gana |e:1| de |Evasión| y pierde |e:5|<sprite="Point" name="Gold"> por cada enemigo golpeado.'
+  ExtraDescription3: '{FriendU} |p:Intercambio -Perdedora Absoluta-|: Derrota instantáneamente a cada enemigo sin nombre. Agrega una |Extorsión| a la biblioteca.'
+  FlavorText: ¿Es barato, este miso a la parrilla? No puedes estar hablando en serio. ¡Esto es un lujo total!

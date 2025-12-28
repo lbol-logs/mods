@@ -1,0 +1,7 @@
+﻿ReimuUnifierPurifyingStrike:
+  Name: Golpe Purificador
+  Description: >-
+    Inflige {Damage} de daño.
+
+    Elimina un efecto negativo de {PlayerName} por cada |e:10| de daño que no haya sido bloqueado por el {SelfName}.
+  FlavorText: Reimu todavía no está segura de por qué es ella la que se purifica cuando alguien más recibe un golpe.

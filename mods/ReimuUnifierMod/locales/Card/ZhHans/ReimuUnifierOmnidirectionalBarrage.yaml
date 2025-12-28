@@ -1,0 +1,5 @@
+﻿ReimuUnifierOmnidirectionalBarrage:
+  Name: 全方位齐射
+  Description: 每当{PlayerName}激活|组队|时，激活所选|同伴|的第一个|被动技能|。
+  DetailText: 如果多个同伴满足组队条件，选择最左边的。对于可以多次组队的牌，这将激活所有有效的被动技能
+  FlavorText: “它们到处都是！” “那就到处射击！”

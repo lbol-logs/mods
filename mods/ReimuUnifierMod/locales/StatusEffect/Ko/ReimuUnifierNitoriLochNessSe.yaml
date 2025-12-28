@@ -1,0 +1,3 @@
+﻿ReimuUnifierNitoriLochNessSe:
+  Name: 네스호의 레이저 소나기
+  Description: '{PlayerName}의 턴 종료 시, {SePreviewTurns}의 피해를 주고, {PlayerName}이 지난 턴 수마다 |e:5| 증가합니다.'

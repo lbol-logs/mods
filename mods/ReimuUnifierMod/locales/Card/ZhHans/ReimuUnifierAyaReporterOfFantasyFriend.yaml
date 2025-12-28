@@ -1,0 +1,9 @@
+﻿ReimuUnifierAyaReporterOfFantasyFriend:
+  Name: 射命丸文·幻想记者
+  Description: >-
+    {Indent} 每当{PlayerName}打出|状态|牌时，获得 |e:1| 层|闪避|。
+     {FriendP} |f:文文新闻递送|：将 |e:2| |文文新闻|加入抽牌堆。它们具有|填充|和|自动放逐|，费用减少 {Mana}。
+  ExtraDescription1: '{FriendA} |g:天狗限定特刊|：|放逐|手牌中的每张|状态|牌。每以此方法放逐一张牌，获得 |e:1| 层|闪避|。'
+  ExtraDescription3: '{FriendU} |u:幻影支配|：获得“每当{PlayerName}打出一张牌，对随机敌人造成 {Value2} 点伤害”。'
+  UpgradedExtraDescription3: '{FriendU} |u:无双风神|：每当{PlayerName}打出一张牌，对随机敌人造成 {Value2} 点伤害。'
+  FlavorText: 我是文文，幻想乡最伟大的记者和最快的飞行者！

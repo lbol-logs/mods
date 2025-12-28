@@ -1,0 +1,7 @@
+﻿ReimuUnifierReinforcedBoundary:
+  Name: Reinforced Boundary
+  Description: >-
+    Gain {Block} |Block|. 
+
+    Choose up to |e:1| summoned |Teammate| in hand and activate its |f:Passive Skill|.
+  FlavorText: "\"Let's stay in and build a pillow fortress!\" \"You mean a pillow fort?\" \"No! I want a fortress, I want battlements, I want guards and I want a catapult!\""

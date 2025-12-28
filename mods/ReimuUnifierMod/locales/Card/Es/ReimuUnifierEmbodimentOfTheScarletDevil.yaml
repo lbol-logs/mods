@@ -1,0 +1,15 @@
+﻿ReimuUnifierEmbodimentOfTheScarletDevil:
+  Name: Encarnación de la Diabla Escarlata
+  Description: >-
+    Agrega |e:1| |Poción Inestable| a la mano. Cura |e:5| de vida. Gana |e:1| de |Poder|.
+
+    Finaliza el turno de {PlayerName}. Luego, toma un turno extra. Hasta el próximo Turno Natural de {PlayerName}, los turnos de {PlayerName} terminan después de jugar |e:5| cartas.
+
+    Sólo el primer {SelfName} tendrá efecto en cada combate.
+  ExtraDescription1: >-
+    |d: Agrega 1 Poción Inestable a la mano. Cura 5 de vida. Gana 1 de Poder.|
+
+    |d: Finaliza el turno de {PlayerName}. Luego, toma un turno extra. Hasta el próximo Turno Natural de {PlayerName}, los turnos de {PlayerName} terminan después de jugar 5 cartas.|
+
+    Sólo el primer {SelfName} tendrá efecto en cada combate.
+  FlavorText: ¡Meiling! ¡Pachuli! ¡Sakuya! ¡Flandre! ¡Remilia! ¡Juntas somos... Las Fuerzas Especiales Escarlata!

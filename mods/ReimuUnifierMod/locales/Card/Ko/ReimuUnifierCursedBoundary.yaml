@@ -1,0 +1,7 @@
+﻿ReimuUnifierCursedBoundary:
+  Name: 저주받은 경계 -공유된 고통-
+  Description: >-
+    {Mana}를 지불할 시: 체력을 |e:1| 잃고 피해를 {Damage} 줍니다.
+
+    |팀 업 [시온]|: {Mana}를 지불할 시: <sprite="Point" name="Gold">를 {Value1} 얻습니다.
+  FlavorText: 죽여주게 아플테니 각오해라!!!!

@@ -1,0 +1,12 @@
+﻿ReimuUnifierShrineDefense:
+  Name: ¡Defiende el Santuario Hakurei!
+  Description: >-
+    Agrega cartas |Compañeras| aleatorias a la mano hasta que esté llena.
+
+    |Equipo [Invitada Hakurei]|: Gana {Mana} por cada |Equipo| válido.
+  UpgradedDescription: >-
+    Agrega cartas |Compañeras| aleatorias a la mano hasta que esté llena. Cuestan temporalmente |e:1| maná aleatorio menos.
+
+    |Equipo [Invitada Hakurei]|: Gana {Mana} por cada |Equipo| válido.
+  DetailText: Las invitadas de Hakurei incluyen a Marisa, Suika, Kasen, las cuatro hadas, Aunn, Nitori, Sumireko y Shinmyomaru.
+  FlavorText: Para ser un lugar supuestamente importante para la Barrera Hakurei, el Santuario Hakurei ha pasado por bastante destrucción.

@@ -1,0 +1,6 @@
+﻿ReimuUnifierMarisaIncidentSolverFriend:
+  Name: 魔理沙·事件解决者
+  Description: '{FriendP} |l:红色星爆：| 对所有敌人造成 {Damage} 点攻击伤害。'
+  ExtraDescription1: '{FriendA} |i:最终火花：| 对所有敌人造成 {ActiveDamagePreview} 点|精准|攻击伤害。'
+  ExtraDescription3: '{FriendU} |u:魔炮 -Final Master Spark-：| 进入|爆发|。对所有敌人造成 {UltimateDamagePreview} 点|精准|伤害。'
+  FlavorText: “不华丽就不是魔法。弹幕全是关于火力。”

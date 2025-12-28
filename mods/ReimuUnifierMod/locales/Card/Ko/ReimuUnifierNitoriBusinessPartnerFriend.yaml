@@ -1,0 +1,11 @@
+﻿ReimuUnifierNitoriBusinessPartnerFriend:
+  Name: 비즈니스 파트너, 카와시로 니토리
+  Description: '{Indent} <sprite="Point" name="Gold">를 |e:10| 얻습니다.'
+  ExtraDescription1: '{FriendA} |b:캇파 드론 기술|: {PlayerName}에게서 |허약|과 |취약|을 제거합니다.'
+  UpgradedExtraDescription1: '{FriendA} |b:캇파 드론 기술|: {PlayerName}에게서 |허약|, |취약|, |록온|, |연약|을 제거합니다.'
+  ExtraDescription2: '{FriendA} |d:오이 미사일 난사|: 무작위 적에게 피해를 {Damage}씩 {Value1}번 주고, 카드를 한 장 뽑습니다.'
+  ExtraDescription3: '{FriendU} |s:네스호는 지금 여기에 있다!|: 턴 종료 시, 이번 전투에서 {PlayerName}가 진행한 턴마다 피해를 {Value2} 줍니다.'
+  FlavorText: >-
+    "인간이여. 캇파와 인간은 오래 전부터 맹우였으니 가르쳐 주지."
+
+    "오래 전부터 숙적이었다는 말을 잘못 말한 거겠지?"

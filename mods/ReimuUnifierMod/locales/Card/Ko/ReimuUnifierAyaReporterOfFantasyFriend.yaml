@@ -1,0 +1,9 @@
+﻿ReimuUnifierAyaReporterOfFantasyFriend:
+  Name: 전통의 환상 신문쟁이, 샤메이마루 아야
+  Description: >-
+    {Indent} {PlayerName}가 |상태| 카드를 사용할 때마다 |그레이즈|를 |e:1| 얻습니다.
+     {FriendP} |f:붕붕마루 배달|: 뽑을 카드 더미에 |붕붕마루 신문|을 |e:2|장 추가합니다. 이 카드는 |보충|과 |자동 소멸|을 가지고 비용이 {Mana}만큼 감소합니다.
+  ExtraDescription1: '{FriendA} |g:텐구 한정 특집|: 손의 모든 |상태| 카드를 |소멸|시킵니다. 이렇게 소멸시킨 카드마다 |그레이즈|를 |e:1| 얻습니다.'
+  ExtraDescription3: '{FriendU} |u:환상풍미|: "{PlayerName}가 카드를 사용할 때마다 무작위 적에게 피해를 {Value2} 줍니다."를 얻습니다.'
+  UpgradedExtraDescription3: '{FriendU} |u:무쌍풍신|: {PlayerName}가 카드를 사용할 때마다 무작위 적에게 피해를 {Value2} 줍니다.'
+  FlavorText: 환상향 최고의 기자이자 가장 빠른 비행사, 이름하여 아야!

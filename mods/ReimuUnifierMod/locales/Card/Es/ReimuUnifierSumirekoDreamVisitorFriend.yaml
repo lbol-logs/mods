@@ -1,0 +1,14 @@
+﻿ReimuUnifierSumirekoDreamVisitorFriend:
+  Name: Sumireko, Visitante de los Sueños Ocultos
+  Description: '{FriendP} |d:Aplicación de Psicoquinesis|: Gana |e:1| |Esfera Oculta|.'
+  ExtraDescription1: '{FriendA} |e:Pistola Impresa en 3D|: Por cada |Bola Oculta| que tenga {PlayerName}, inflige {Damage} de daño al enemigo con menos vida.'
+  ExtraDescription2: '{FriendA2} |p:Shuriken de Cartas Zener|: Por cada |Bola Oculta| que tenga {PlayerName}, pierde |e:1| de vida, roba |e:1| carta y gana {Mana}.'
+  ExtraDescription3: '{FriendU} |s:Invocar Doppelganger|: Si {PlayerName} tiene al menos 7 |Bolas Ocultas|, pierde todas las |Bolas Ocultas|. Luego, en ese turno, |Copia| todas las cartas jugadas.'
+  UpgradedExtraDescription3: '{FriendU} |s:Doble ESPer del Siglo|: Si {PlayerName} tiene al menos 7 |Bolas Ocultas|, pierde todas las |Bolas Ocultas| y roba hasta llenar la mano. Luego, en ese turno, |Copia| todas las cartas jugadas.'
+  DetailText: Las bolas ocultas solo las usa {SelfName}, pero son compartidos por todas las copias de la carta.
+  FlavorText: >-
+    ¡Soy la sacerdotisa del paraíso, Reimu Hakurei!
+
+    ¡Protegeré la Barrera, pase lo que pase!
+
+    ¡Y no voy a dejar que una humana muera estúpidamente justo delante de mí!

@@ -1,0 +1,9 @@
+﻿ReimuUnifierAyaReporterOfFantasyFriend:
+  Name: Aya, Reportera de la Fantasía
+  Description: >-
+    {Indent} Siempre que {PlayerName} juegue una carta de |Estado|, gana |e:1| de |Evasión|.
+     {FriendP} |f:Entrega Bunbunmaru|: Agrega |e:2| |Periodicos Bunbunmaru| a la pila de robo. Tienen |Reponer| y |Auto-Exilio| y cuesta {Mana} menos.
+  ExtraDescription1: '{FriendA} |g:Edicíon Limitada del Tengu|: |Exilia| cada cartas |Estados| en la mano. Gana |e:1| de |Evasión| por cada carta exiliada de esta manera.'
+  ExtraDescription3: '{FriendU} |u:Dominancia Ilusoria|: Gana "Siempre que {PlayerName} juegue una carta, inflige {Value2} de daño a un enemigo aleatorio".'
+  UpgradedExtraDescription3: '{FriendU} |u:Diosa del viento Incomparable|: Siempre que {PlayerName} juegue una carta, inflige {Value2} de daño a un enemigo aleatorio.'
+  FlavorText: ¡Soy Aya, la mejor reportera de Gensokyo y la que más rápido vuela por aquí!

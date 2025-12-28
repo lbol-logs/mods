@@ -1,0 +1,7 @@
+﻿ReimuUnifierSummoningRitual:
+  Name: 소환 의식
+  Description: >-
+    카드를 {Value1}장 뽑습니다. 
+
+    이렇게 뽑은 |동료|마다 {Mana}를 얻습니다.
+  FlavorText: '"안 돼 레이무, 우리 불러서 노는 건 소환 의식이 아니야."'

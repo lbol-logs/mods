@@ -1,0 +1,7 @@
+﻿ReimuUnifierMarisaKirisameFriend:
+  Name: Marisa Kirisame
+  Description: '{FriendP}|d:Disparo del Hakkero: | Inflige {Damage} de daño de ataque al enemigo con menos vida. Gana |e:1| |Carga| al comienzo del turno de {PlayerName}.'
+  ExtraDescription1: '{FriendA} |i:Laser Flameante:| Inflige {ActiveDamagePreview} de daño de ataque y aplica |e:1| de |Vulnerable| al enemigo con menos vida. Gana |e:2| |Carga|.'
+  UpgradedExtraDescription1: '{FriendA} |i:Laser Flameante:| Inflige {ActiveDamagePreview} de daño de ataque |e:2| veces y aplica |e:1| de |Vulnerable| al enemigo con menos vida. Gana |e:2| |Charge|.'
+  ExtraDescription3: '{FriendU} |u:Signo de Amor "Master Spark":| Inflige {UltimateDamagePreview} de daño de ataque |Certero| a cada enemigo.'
+  FlavorText: '"La mayoría de la gente se volvería loca en cinco segundos. ¿Estás bien, Marisa?" "Sí, yo ya estoy loca de todos modos."'

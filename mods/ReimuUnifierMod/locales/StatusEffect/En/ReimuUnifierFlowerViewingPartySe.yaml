@@ -1,0 +1,3 @@
+﻿ReimuUnifierFlowerViewingPartySe:
+  Name: Flower Viewing
+  Description: Whenever a |Teammate| is summoned by being played, add |e:1| |Midsummer Flowers| to the hand. If it's the first time this turn, gain {SePreviewMana}.

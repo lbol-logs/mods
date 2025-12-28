@@ -1,0 +1,7 @@
+﻿ReimuUnifierDarknessOfTheCrow:
+  Name: Darkness of The Crow
+  Description: >-
+    Siempre que {PlayerName} |Evada| un ataque, y al final del turno de {PlayerName}, inflige {Value1} de daño a cada enemigo.
+
+    |Equipo [Aya]|: Gana {Value2} de |Evasión|.
+  FlavorText: ¿Es "Darkness" de "The Crow"? Supongo que incluso los youkai pueden ser fans de la música de las películas de los 90.

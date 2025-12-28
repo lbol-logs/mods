@@ -1,0 +1,7 @@
+﻿ReimuUnifierDarknessOfTheCrow:
+  Name: 까마귀의 어둠
+  Description: >-
+    {PlayerName}가 공격을 |그레이즈|할 때마다, 그리고 {PlayerName}의 턴 종료 시마다 모든 적에게 피해 {Value1}를 줍니다.
+
+    |팀 업 [아야]|: |그레이즈|를 {Value2} 얻습니다.
+  FlavorText: '"까마귀"의 어둠? 요괴도 90년대 영화 음악 팬일 수 있지 않을까.'

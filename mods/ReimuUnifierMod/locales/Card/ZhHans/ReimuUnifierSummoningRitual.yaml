@@ -1,0 +1,7 @@
+﻿ReimuUnifierSummoningRitual:
+  Name: 召唤仪式
+  Description: >-
+    抽 {Value1} 张牌。
+
+    每以此方法抽到一张|同伴|，获得 {Mana}。
+  FlavorText: “不，灵梦，叫我们过来拜访不算‘召唤仪式’”

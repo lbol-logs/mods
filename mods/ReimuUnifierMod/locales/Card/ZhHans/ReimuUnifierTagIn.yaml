@@ -1,0 +1,5 @@
+﻿ReimuUnifierTagIn:
+  Name: 换入
+  Description: '|放逐|手牌中最多 |e:1| 张牌。如果是|同伴|，则每有 |支援度|，获得 {Value1} 点|护盾|。'
+  UpgradedDescription: '|放逐|手牌、抽牌堆或弃牌堆中最多 |e:1| 张牌。如果是|同伴|，则每有 |支援度|，获得 {Value1} 点|护盾|。'
+  FlavorText: “替我挨打一会儿，好吗？”

@@ -1,0 +1,13 @@
+﻿ReimuUnifierSanaeHumanGodFriend:
+  Name: 东风谷早苗·现人神
+  Description: >-
+    {Indent} 获得 {Value1} 层|护身符|。
+     {FriendP} |e:秘术 -灰符-|：获得相当于{PlayerName}增益数量 |e:2| 倍的|格挡|。({AdditionalBlock})
+  UpgradedDescription: >-
+    {Indent} 获得 {Value1} 层|护身符|。
+     {FriendP} |e:秘术 -灰符-|：获得相当于{PlayerName}增益数量 |e:2| 倍的|护盾|。({AdditionalShield})
+  ExtraDescription1: '{FriendA} |p:被遗忘的仪式：| |放逐|手牌中最多 |e:2| 张牌。获得等量的|庇护|。'
+  UpgradedExtraDescription1: '{FriendA} |p:被遗忘的仪式：| |放逐|手牌、抽牌堆或弃牌堆中最多 |e:2| 张牌。获得等量的|庇护|。'
+  ExtraDescription2: '{FriendA} |g:蛇符 -蛇缚-|：  获得 {Value2} 点|灵力|。对所有敌人施加 {Value2} 层|灵力下降|和 |e:1| |虚弱|。'
+  ExtraDescription3: '{FriendA} |f:外界者的迷恋：| 获得 |e:1| |好奇|。'
+  FlavorText: 在幻想乡，你不能被常识困住，对吧？

@@ -1,0 +1,6 @@
+﻿ReimuUnifierAunnShrineGuardianFriend:
+  Name: 신사의 수호수, 아운
+  Description: '{FriendP} |l:코마이누의 보호|: 손, 뽑을 카드 더미, 버린 카드 더미에서 무작위 |액운|을 |소멸|시킵니다.'
+  ExtraDescription1: '{FriendA} |g:코마이누 돌리기|: 방어 {Block}, 보호막 {Shield}, |부적| {Value1}, |비호| {Value1}, |그레이즈| {Value1}, |일시 영력| {Value1}을 얻습니다.'
+  ExtraDescription3: '{FriendU} |d:수호의 부적「돌의 형상」|: |봉인|을 |e:2| 얻습니다. {PlayerName}가 체력을 잃는 것을 {Value2}번 방지합니다.'
+  FlavorText: 레이무가 부른다!? 아운쨩이 도와줄게!

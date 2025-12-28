@@ -1,0 +1,13 @@
+﻿ReimuUnifierYoukaiForgedNeedle:
+  Name: Agujas Forjadas por Youkais
+  Description: >-
+    Inflige {Damage} de daño.
+
+    Si la |a:Habilidad Activa| o la |u:Habilidad Definitiva| de una |Compañera| fue activada en este turno, jugar {SelfName} cuesta {Mana}.
+  UpgradedDescription: >-
+    Inflige {Damage} de daño.
+
+    Aplica {Value1} de |Marcado|.
+
+    Si la |a:Habilidad Activa| o la |u:Habilidad Definitiva| de una |Compañera| fue activada en este turno, jugar {SelfName} cuesta {Mana}.
+  FlavorText: ¡Tú lo creas y yo las apuñalo!

@@ -1,0 +1,14 @@
+﻿ReimuUnifierCombatRoleAssignment:
+  Name: Combat Role Assignment
+  Description: >-
+    Deal |e:6| damage to a random enemy.
+
+    Gain |e:6| |Block|.
+
+    |Team Up [Red Teammate]:| Deal damage |e:1| more time.
+
+    |Team Up [White Teammate]:| Gain |Block| |e:1| more time.
+
+    Can |Team Up| with any amount of |Teammates|.
+  DetailText: "{SelfName}'s damage is considered non-attack damage."
+  FlavorText: "\"I'll sacrifice my Kedama and Fairy Maid to summon Dark Magician Marisa in Attacker Role!\""

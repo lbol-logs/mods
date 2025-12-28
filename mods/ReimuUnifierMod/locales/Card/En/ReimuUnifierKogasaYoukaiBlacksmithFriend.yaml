@@ -1,0 +1,9 @@
+﻿ReimuUnifierKogasaYoukaiBlacksmithFriend:
+  Name: Kogasa, Youkai Blacksmith
+  Description: "{FriendP} |b:Blacksmith's Expertise:| |Upgrade| |e:1| random card in the hand."
+  UpgradedDescription: "{FriendP} |b:Blacksmith's Expertise:| |Upgrade| |e:2| random cards in the hand."
+  ExtraDescription1: '{FriendA} |u:Karakasa Surprising Flash:| Deal {Damage} attack damage to a random enemy for each |Upgraded| card in your hand.'
+  UpgradedExtraDescription1: '{FriendA} |u:Karakasa Surprising Flash:| Deal {Damage} attack damage to a random enemy. Repeat this effect for each |Upgraded| card in the hand.'
+  ExtraDescription3: "{FriendU} |p:Lightly Falling Large Raindrops:| Add |Youkai-Forged Needles| to the hand until it's full."
+  UpgradedExtraDescription3: "{FriendU} |p:Stormy Weather Surprise:| Add |Youkai-Forged Needles+| to the hand until it's full."
+  FlavorText: Why does Kogasa like blacksmithing? Because she's scarily good at it!

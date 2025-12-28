@@ -1,0 +1,4 @@
+﻿ReimuUnifierDanmakuCollision:
+  Name: Danmaku Collision
+  Description: At the end of {PlayerName}'s turn, gain {Value1} |Block| for each summoned |Teammate| in hand.
+  FlavorText: Look at what they need to mimic a fraction of my power. -Cirno, while freezing a full screen of bullets.

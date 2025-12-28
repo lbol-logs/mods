@@ -1,0 +1,11 @@
+﻿ReimuUnifierPerfectCherryBorder:
+  Name: 완벽한 벚꽃의 결계
+  Description: >-
+    {PlayerName}가 체력을 잃는 것을 한 번 방지합니다.
+
+    |팀 업 [유카리]:| 이 효과가 발동하면, 모든 적은 방지된 수치만큼 체력을 잃습니다.
+  UpgradedDescription: >-
+    {PlayerName}가 체력을 잃는 것을 {Value1}번 방지합니다.
+
+    |팀 업 [유카리]:| 이 효과가 발동하면, 모든 적은 방지된 수치만큼 체력을 잃습니다.
+  FlavorText: 완벽한 벚꽃의 결계를 만들려면 불완전한 벚꽃의 결계로 인조인간 요우무와 인조인간 요우키를 흡수해야 해.

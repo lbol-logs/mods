@@ -1,0 +1,11 @@
+﻿ReimuUnifierWisdomOfHumanity:
+  Name: 人类智慧
+  Description: >-
+    |组队 [人类]|：每有一个有效|组队|，抽一张牌。
+
+    每有一张手牌，获得 |e:3| 点|格挡|。
+  UpgradedDescription: >-
+    |组队 [人类]|：每有一个有效|组队|，抽一张牌。
+
+    每有一张手牌，获得 |e:3| 点|护盾|。
+  FlavorText: 妖怪们最可怕的噩梦：人类解释世界奥秘的能力。

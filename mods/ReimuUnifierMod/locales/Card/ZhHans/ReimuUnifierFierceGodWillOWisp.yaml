@@ -1,0 +1,9 @@
+﻿ReimuUnifierFierceGodWillOWisp:
+  Name: 鬼神之火
+  Description: >-
+    对随机敌人造成 {Damage} 点伤害 {Value1} 次。
+
+    |组队 [白色同伴]：| 额外造成一次伤害。
+
+    |组队 [红色同伴]：| 获得|精准|。
+  FlavorText: 嘿，嘿，那些是我以前的招式！你能记住就好了。- 萃香

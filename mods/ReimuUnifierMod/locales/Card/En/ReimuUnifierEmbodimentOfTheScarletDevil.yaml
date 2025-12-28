@@ -1,0 +1,15 @@
+﻿ReimuUnifierEmbodimentOfTheScarletDevil:
+  Name: Embodiment of the Scarlet Devil
+  Description: >-
+    Add |e:1| |Unstable Potion| to hand. Gain |e:5| life. Gain |e:1| |Firepower|.
+
+    End {PlayerName}'s turn. Then, take an extra turn. Until {PlayerName}'s next Natural Turn, {PlayerName}'s turns end after playing |e:5| cards.
+
+    Only the first {SelfName} will take effect each combat.
+  ExtraDescription1: >-
+    |d: Add 1 Unstable Potion to hand. Gain 5 life. Gain 1 Firepower.|
+
+    |d: End {PlayerName}'s turn. Then, take an extra turn. Until {PlayerName}'s next Natural Turn, {PlayerName}'s turns end after playing 5 cards.|
+
+    Only the first {SelfName} will take effect each combat.
+  FlavorText: Meiling! Patchouli! Sakuya! Flandre! Remilia! Together we are... The Scarlet Special Corps!

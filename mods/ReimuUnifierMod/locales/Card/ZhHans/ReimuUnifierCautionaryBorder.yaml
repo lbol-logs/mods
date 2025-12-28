@@ -1,0 +1,7 @@
+﻿ReimuUnifierCautionaryBorder:
+  Name: 警戒结界
+  Description: >-
+    获得 {Block} 点|格挡|。
+
+    对所有敌人施加 |e:1| |虚弱|。
+  FlavorText: 可预测

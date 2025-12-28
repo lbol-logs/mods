@@ -1,0 +1,13 @@
+﻿ReimuUnifierSubterraneanAdventure:
+  Name: Subterranean Adventure
+  Description: >-
+    The maximum hand size increases to {MaxHand}.
+
+    Add a |Communicator Orb| to the hand.
+
+    |Team Up [Yukari]:| Add a |Purple Needles of Reproach| with Ethereal to the hand. It temporarily costs {Mana}.
+
+    |Team Up [Suika]:| Add a |Fierce God's Will O Wisp| with Ethereal to the hand. It temporarily costs {Mana}.
+
+    |Team Up [Aya]:| Add a |Rain Deep in the Mountains| with Ethereal to the hand. It temporarily costs {Mana}.
+  FlavorText: Aah! The cat turned into a cat!

@@ -1,0 +1,4 @@
+﻿ReimuUnifierDanmakuCollision:
+  Name: 弹幕碰撞
+  Description: '{PlayerName}的回合结束时，每有一张手牌中的召唤|同伴|，获得 {Value1} 点|格挡|。'
+  FlavorText: 看看他们需要什么来模仿我的一小部分力量。- 琪露诺，在冻结满屏子弹时。

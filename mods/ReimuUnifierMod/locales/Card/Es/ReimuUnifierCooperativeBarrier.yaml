@@ -1,0 +1,13 @@
+﻿ReimuUnifierCooperativeBarrier:
+  Name: Barrera Cooperativa
+  Description: >-
+    Gana {Value1} de |Espíritu Temporal| por cada |Compañera| invocada en la mano.
+
+    Gana {Block} de |Bloqueo|.
+  UpgradedDescription: >-
+    Gana {Value2} de |Espíritu Temporal|.
+
+    Gana {Value1} de |Espíritu Temporal| adicional por cada |Compañera| invocada en la mano.
+
+    Gana {Block} de |Bloqueo|.
+  FlavorText: '"La dureza de la amistad" no suena tan bien como "El poder de la amistad".'

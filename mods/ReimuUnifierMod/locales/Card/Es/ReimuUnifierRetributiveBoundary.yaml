@@ -1,0 +1,11 @@
+﻿ReimuUnifierRetributiveBoundary:
+  Name: Frontera de Retribución
+  Description: >-
+    Gana {Block} de |Bloqueo|.
+
+    Hasta el próximo turno de {PlayerName}, siempre que {PlayerName} reciba daño de ataque por un ataque completo de un enemigo, agrega una |Aguja Forjada por Youkais| a la mano.
+  UpgradedDescription: >-
+    Gana {Shield} de |Barrera|.
+
+    Hasta el próximo turno de {PlayerName}, siempre que {PlayerName} reciba daño de ataque por un ataque completo de un enemigo, agrega una |Aguja Forjada por Youkais| a la mano.
+  FlavorText: Si logras golpearme, te convertirás en algo mucho más débil de lo que puedas imaginar.

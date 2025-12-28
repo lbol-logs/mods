@@ -1,0 +1,7 @@
+﻿ReimuUnifierCursedBoundary:
+  Name: Frontera Maldita -Dolor Compartido-
+  Description: >-
+    Por cada {Mana}: Pierde |e:1| de vida e inflige {Damage} de daño.
+
+    |Equipo [Shion]|: Por cada {Mana}: Gana {Value1}<sprite="Point" name="Gold">.
+  FlavorText: ¡Ahora! ¡Disfrutemos juntos el sufrimiento al máximo!

@@ -1,0 +1,7 @@
+﻿ReimuUnifierKasenWildhornFriend:
+  Name: Kasen, Wild and Horned
+  Description: '{FriendP} |d:Hawk Beacon|: Deal {Damage} attack damage to the enemy with the least life {Value1} times.'
+  ExtraDescription1: "{FriendA} |p:Hermit's Discipline|: Gain {Value2} |Spirit| and {Value2} |Firepower|."
+  UpgradedExtraDescription1: "{FriendA} |p:Hermit's Training|: Gain {Value2} |Spirit|, {Value2} |Firepower| and {Value2} |Graze|."
+  ExtraDescription3: "{FriendU} |u:Monkey's Paw! Crush my enemy!|: Add attack cards from the draw and discard pile to the hand until it is full. They |temporarily cost| {Mana}."
+  FlavorText: "\"Reimu needs someone to watch over her, otherwise, who knows what else she'll get up to?\""

@@ -1,0 +1,11 @@
+﻿ReimuUnifierNitoriBusinessPartnerFriend:
+  Name: Nitori, Partner in Business
+  Description: '{Indent} Gain |e:10|<sprite="Point" name="Gold">.'
+  ExtraDescription1: '{FriendA} |b:Kappa Drone Technology|: Remove |Weak| and |Vulnerable| from {PlayerName}.'
+  UpgradedExtraDescription1: '{FriendA} |b:Kappa Drone Technology|: Remove |Weak|, |Vulnerable|, |Lock On| and |Frail| from {PlayerName}.'
+  ExtraDescription2: '{FriendA} |d:Cucumber Missile Barrage|: Deal {Damage} attack damage to a random enemy {Value1} times. Draw a card.'
+  ExtraDescription3: '{FriendU} |s:Loch Ness is Here Right Now!|: At the end of the turn, deal {Value2} damage for each turn {PlayerName} has taken this combat.'
+  FlavorText: >-
+    "Hey human. Kappa and humans have been sworn friends since ancient times, so let me tell you something."
+
+    "Sworn friends? Are you sure you haven't mistaken an old enemy for a friend?"

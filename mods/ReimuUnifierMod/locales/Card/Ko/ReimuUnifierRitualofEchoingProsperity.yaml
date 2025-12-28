@@ -1,0 +1,4 @@
+﻿ReimuUnifierRitualofEchoingProsperity:
+  Name: 울려 퍼지는 번영의 의식
+  Description: '{PlayerName}의 턴 시작 시, 손에 있는 소환된 |동료|마다 |일시 영력| {Value1}과 |일시 화력| {Value1}을 얻습니다.'
+  FlavorText: 부자는 더 부자가 된다!

@@ -1,0 +1,201 @@
+TeamUpSe:
+  Name: 组队 [条件]
+  Description: |-
+    这是一个为卡牌添加关键字描述的变通方法。    
+  Brief: |-
+    如果玩家手牌中有一个已经召唤的|同伴|满足条件，则激活。混合同伴满足其任意颜色条件。
+    
+FakeSealedSe:
+  Name: 封印
+  Description: |-
+    这是一个为卡牌添加关键字描述的变通方法。    
+  Brief: |-
+    不能打出攻击牌。
+    
+FakeCuriositySe:
+  Name: 我真的很好奇！
+  Description: |-
+    这是一个为卡牌添加关键字描述的变通方法。    
+  Brief: |-
+    每当你打出一张技能牌时，获得1点|火力|。
+    
+ReimuUnifierAunnProtectionSe:
+  Name: 阿吽的守护
+  Description: |-
+    防止下 {Level} 次你失去生命。
+
+ReimuUnifierAyaDominanceSe:
+  Name: 幻影支配
+  Description: |-
+    每当你打出一张牌，对一个随机敌人造成 {Level} 点伤害。  
+    
+ReimuUnifierBattleFeverSe:
+  Name: 战斗狂热
+  Description: |-
+    每当你激活一个|组队|时，获得 {SePreviewMana}。
+        
+ReimuUnifierCoordinatedPursuitSe:
+  Name: 组合打击 -协同追击-
+  Description: |-
+    每当一个|同伴|的 |a:主动技能|、|u:终极技能| 被激活时，下一张打出的攻击牌消耗 {SePreviewMana} 来打出。
+    
+ReimuUnifierDanmakuCollisionSe:
+  Name: 弹幕碰撞
+  Description: |-
+    在回合结束时，根据手牌中每个召唤|同伴|，获得 {Level} 点|格挡|。
+    
+ReimuUnifierDarknessOfTheCrowSe:
+  Name: 鸦之黑暗
+  Description: |-
+    每当你|闪避|一个攻击时，以及在回合结束时，对所有敌人造成 {Level} 点伤害。 
+    
+ReimuUnifierDimensionalRiftBoundarySe:
+  Name: 次元裂缝 -边界-
+  Description: |-
+    每当一个|同伴|进入手牌时，对一个随机敌人造成 {Level} 点伤害。每当一个召唤|同伴|离开手牌时，获得 {SePreviewMana}。
+    
+ReimuUnifierDivineForgeSe:
+  Name: 神圣锻炉
+  Description: |-
+    在回合开始时，将一张|妖造针|加入手中。   
+
+    
+ReimuUnifierDuplexBarrierDanmakuMirrorSe:
+  Name: 二重结界 -弹幕镜-
+  Description: |-
+    在回合开始时，手牌中所有召唤|同伴|获得 |e:1| |支援度|。 
+    每当一个|同伴|通过打出被召唤时，如果它不是复制品，将其复制品加入手中。它消耗 {SePreviewMana} 并有 |虚无|。 
+
+    
+ReimuUnifierEmotionalBoundarySynchronizationSe:
+  Name: 情感边界 -同步-
+  Description: |-
+    每当一个|同伴|的 |a:主动技能| 或 |u:终极技能| 被激活时，手牌中所有|同伴|获得 |e:1| |支援度|。
+
+    
+ReimuUnifierFantasySealDreamfiniteSe:
+  Name: 梦想封印
+  Description: |-
+    在回合开始时，对一个随机敌人造成 {Level} 点伤害 {Count} 次。   
+
+    
+ReimuUnifierFlowerViewingPartySe:
+  Name: 赏花
+  Description: |-
+     每当一个|同伴|通过打出被召唤时，将 |e:1| |盛夏之花|加入手中。如果这是本回合首次，获得 {SePreviewMana}。
+
+    
+ReimuUnifierInnateDreamCounterSe:
+  Name: 阴阳玉
+  Description: |-
+    你有 {Level} |阴阳玉|。
+
+    
+ReimuUnifierNeedleSparkSealSe:
+  Name: 火花封印针
+  Description: |-
+    |妖造针|对所有敌人造成伤害并施加 |e:2| 额外|锁定|。 
+    
+ReimuUnifierNextAttackAccurateSe:
+  Name: 深山雨
+  Description: |-
+    你的下 {Level} 次攻击是|精准|。  
+
+    
+ReimuUnifierNitoriLochNessSe:
+  Name: 尼斯湖激光齐射
+  Description: |-
+    在{PlayerName}的回合结束时，造成 {SePreviewTurns} 点伤害，根据{PlayerName}已进行的回合数增加 |e:5|。 
+
+ReimuUnifierOccultBallSe:
+  Name: 秘术球
+  Description: |-
+    你已收集 {Count} |秘术球|。
+    
+ReimuUnifierOmnidirectionalBarrageSe:
+  Name: 全方位弹幕
+  Description: |-
+    每当一个|组队|被激活时，激活所选|同伴|的第一个|被动技能|。
+
+    
+ReimuUnifierOnHitTempFPSe:
+  Name: 鬼之上升怒气
+  Description: |-
+    直到{PlayerName}的下个回合，每当你受到攻击伤害时，获得 {Level} 点|暂得火力|。
+    
+ReimuUnifierPCBReflectSe:
+  Name: 樱桃炸弹
+  Description: |-
+    下 {Level} 次|樱花边界|被激活时，每个敌人失去等于防止生命损失的生命值。
+    
+ReimuUnifierPerfectCherryBorderSe:
+  Name: 樱花边界
+  Description: |-
+    防止下 {Level} 次你失去生命。  
+
+    
+ReimuUnifierRabbleRousingSe:
+  Name: 煽动乌合之众
+  Description: |-
+    在{PlayerName}的下 {Duration} 个回合开始时，将一个随机普通|同伴|加入手中。
+
+    
+ReimuUnifierRetributiveBoundarySe:
+  Name: 报复边界
+  Description: |-
+    直到{PlayerName}的下个回合，每当你受到敌人完整攻击的伤害时，将一张|妖造针|加入手中。 
+    
+ReimuUnifierRetributiveBoundaryUpgSe:
+  Name: 报复边界 -强化-
+  Description: |-
+    直到{PlayerName}的下个回合，每当{PlayerName}受到敌人完整攻击的伤害时，将一张|妖造针+|加入手中。 
+
+    
+ReimuUnifierRisingSynergySe:
+  Name: 上升协同
+  Description: |-
+     每当|同伴|对敌人造成攻击伤害时，获得 |e:1| |暂得火力|。
+
+    
+ReimuUnifierRitualofEchoingProsperitySe:
+  Name: 繁荣回响
+  Description: |-
+    在{PlayerName}的回合开始时，根据手牌中每个召唤|同伴|，获得 {Level} 点|暂得灵力|和 {Level} 点|暂得火力|。
+
+ReimuUnifierScarletFateSe:
+  Name: 绯红恶魔的诡计
+  Description: |-
+    蕾米莉亚将在打出 {Count} 张牌后结束{PlayerName}的回合。
+    
+ReimuUnifierSubterraneanAdventureSe:
+  Name: 地下冒险
+  Description: |-
+    手牌上限增加至 {MaxHand}。
+    
+ReimuUnifierSumirekoDoppelgangerSe:
+  Name: 堇子的二重身
+  Description: |-
+    堇子的二重身正在复制你本回合打出的每张牌！
+
+    
+ReimuUnifierWilyBeastStrikeSe:
+  Name: 狡兽打击
+  Description: |-
+    下 {Level} 次一个|同伴|的 |a:主动技能| 或 |u:终极技能| 被激活时，复制它。
+
+    
+ReimuUnifierYukariArcanumSe:
+  Name: 八云紫的奥秘 -弹幕结界-
+  Description: |-
+    在{PlayerName}的回合结束时，获得 {Level} 点|护盾|，然后对随机敌人造成等于你|护盾|的伤害。剩余 {Count} 回合。
+
+    
+ReimuUnifierYukariLifeLossSe:
+  Name: 非常识的背面
+  Description: |-
+    在{PlayerName}的下个回合开始时，每个敌人失去 {Level} 点生命值。
+
+ReimuUnifierDelayedChargingSe:
+   Name: ----
+   Description: |-
+ 

@@ -1,0 +1,7 @@
+﻿ReimuUnifierFlowerViewingParty:
+  Name: Flower-Viewing Party
+  Description: >-
+    Whenever a |Teammate| is summoned by being played, add |e:1| |Midsummer Flowers| to the hand.
+
+    If it's the first time this turn, also gain {Mana}.
+  FlavorText: In the end, the Saigyou Ayakashi blossomed, but not fully. The seal on it didn't break, so as always, everyone was greeted by the arrival of spring.

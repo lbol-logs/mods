@@ -1,0 +1,11 @@
+﻿ReimuUnifierNitoriBusinessPartnerFriend:
+  Name: 河城荷取·商业伙伴
+  Description: '{Indent} 获得 |e:10|<sprite="Point" name="Gold">。'
+  ExtraDescription1: '{FriendA} |b:河童无人机技术|：移除{PlayerName}的|虚弱|和|易伤|。'
+  UpgradedExtraDescription1: '{FriendA} |b:河童无人机技术|：移除{PlayerName}的|虚弱|、|易伤|、|锁定|和|脆弱|。'
+  ExtraDescription2: '{FriendA} |d:黄瓜导弹齐射|：对随机敌人造成 {Damage} 点攻击伤害 {Value1} 次。抽一张牌。'
+  ExtraDescription3: '{FriendU} |s:尼斯湖就在此刻此地！|：在回合结束时，本场战斗中每经过一个回合，造成 {Value2} 点伤害。'
+  FlavorText: >-
+    “嘿，人类。河童和人类自古就是誓友，所以让我告诉你一些事。”
+
+    “誓友？你确定没有把旧敌误认为朋友吗？”

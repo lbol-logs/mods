@@ -1,0 +1,6 @@
+﻿ReimuUnifierRitualPowerConduit:
+  Name: Ritual -Power Conduit-
+  Description: Choose a summoned |Teammate| in the hand. Activate its |Passive Skill| once for each summoned |Teammate| in the hand.
+  UpgradedDescription: Choose a summoned |Teammate| in the hand. Activate its |Passive Skill| once, then once more for each summoned |Teammate| in the hand.
+  DetailText: Includes the targeted Teammate.
+  FlavorText: You don't need to believe in yourself. Believe in all of us, who believe in you!

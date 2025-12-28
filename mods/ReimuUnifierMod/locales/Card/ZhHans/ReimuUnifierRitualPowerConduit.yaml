@@ -1,0 +1,6 @@
+﻿ReimuUnifierRitualPowerConduit:
+  Name: 仪式 -能量导管-
+  Description: 选择手牌中的一张|同伴|召唤。每有一张手牌中的召唤|同伴|，激活其|被动技能|一次。
+  UpgradedDescription: 选择手牌中的一张|同伴|召唤。激活其|被动技能|一次，然后每有一张手牌中的召唤|同伴|，再激活一次。
+  DetailText: 包括目标同伴。
+  FlavorText: 你不需要相信自己。相信我们所有相信你的人！

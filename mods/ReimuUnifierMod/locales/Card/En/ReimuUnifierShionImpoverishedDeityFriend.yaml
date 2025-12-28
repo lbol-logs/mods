@@ -1,0 +1,8 @@
+﻿ReimuUnifierShionImpoverishedDeityFriend:
+  Name: Shion, Impoverished Deity
+  Description: >-
+    {Indent} Gain |e:15|<sprite="Point" name="Gold">.
+     {FriendP} |d:Fall into Poverty|: Deal {Damage} |Accurate| damage to the enemy with the least life twice. Lose |e:5|<sprite="Point" name="Gold">.
+  ExtraDescription1: '{FriendA} |s:Pluck Pigeon|: Deal |e:{ActiveDamagePreview}| damage to each enemy. Gain |e:1| |Graze| and lose |e:5|<sprite="Point" name="Gold"> for each enemy hit.'
+  ExtraDescription3: '{FriendU} |p:Exchange -Absolute Loser-|: Instantly defeat each unnamed enemy. Add a |Buy Safety| to the library.'
+  FlavorText: This grilled miso, cheap? You can't be serious. It's the height of extravagance!

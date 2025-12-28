@@ -1,0 +1,5 @@
+﻿ReimuUnifierTagOut:
+  Name: Tag Out
+  Description: '|Exilia| hasta |e:1| carta en la mano. Si es una |Compañera|, coloca una |Compañera| aleatoria no invocada en la pila de robo hacia la mano e invócalo.'
+  UpgradedDescription: '|Exilia| hasta |e:1| carta en la mano, pila robo o pila de descarte. Si es una |Compañera|, coloca una |Compañera| aleatoria no invocada en la pila de robo hacia la mano e invócalo.'
+  FlavorText: '"¿Quieren una paliza? ¡YO LES DARE UNA PALIZA!"'

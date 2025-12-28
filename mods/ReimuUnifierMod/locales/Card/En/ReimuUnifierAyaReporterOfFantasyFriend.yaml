@@ -1,0 +1,9 @@
+﻿ReimuUnifierAyaReporterOfFantasyFriend:
+  Name: Aya, Reporter of Fantasy
+  Description: >-
+    {Indent} Whenever {PlayerName} plays a |Status| card, gain |e:1| |Graze|.
+     {FriendP} |f:Bunbunmaru Delivery|: Add |e:2| |Bunbunmaru Newspapers| to the draw pile. They have |Replenish| and |Auto-Exile| and cost {Mana} less.
+  ExtraDescription1: '{FriendA} |g:Tengu Limited Special|: |Exile| each |Status| card in the hand. Gain |e:1| |Graze| for each card exiled this way.'
+  ExtraDescription3: '{FriendU} |u:Illusionary Dominance|: Gain "Whenever {PlayerName} plays a card, deal {Value2} damage to a random enemy".'
+  UpgradedExtraDescription3: '{FriendU} |u:Peerless Wind God|: Whenever {PlayerName} plays a card, deal {Value2} damage to a random enemy.'
+  FlavorText: The name's Aya, Gensokyo's greatest reporter and fastest flier around!

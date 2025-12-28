@@ -1,0 +1,4 @@
+﻿ReimuUnifierRitualofEchoingProsperity:
+  Name: 回响繁荣仪式
+  Description: '{PlayerName}的回合开始时，每有一张手牌中的召唤|同伴|，获得 {Value1} 点|暂得灵力|和 {Value1} 点|暂得火力|。'
+  FlavorText: 富者愈富！

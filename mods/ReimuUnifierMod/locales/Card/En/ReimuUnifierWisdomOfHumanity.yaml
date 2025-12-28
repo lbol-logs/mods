@@ -1,0 +1,11 @@
+﻿ReimuUnifierWisdomOfHumanity:
+  Name: Wisdom of Humanity
+  Description: >-
+    |Team Up [Human]|: Draw a card for each valid |Team Up|.
+
+    Gain |e:3| |Block| for each card in the hand.
+  UpgradedDescription: >-
+    |Team Up [Human]|: Draw a card for each valid |Team Up|.
+
+    Gain |e:3| |Barrier| for each card in the hand.
+  FlavorText: "Youkais' worst nightmare: Humanity's ability to explain the mysteries of the world."

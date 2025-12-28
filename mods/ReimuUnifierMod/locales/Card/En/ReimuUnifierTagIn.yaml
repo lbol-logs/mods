@@ -1,0 +1,5 @@
+﻿ReimuUnifierTagIn:
+  Name: Tag In
+  Description: "|Exile| up to |e:1| card from the hand. If it's a |Teammate|, gain {Value1} |Barrier| for each |Unity| it has."
+  UpgradedDescription: "|Exile| up to |e:1| card from the hand, draw or discard pile. If it's a |Teammate|, gain {Value1} |Barrier| for each |Unity| it has."
+  FlavorText: '"Take the beating for me for a while, would you?"'

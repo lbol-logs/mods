@@ -1,0 +1,3 @@
+﻿ReimuUnifierFlowerViewingPartySe:
+  Name: Viendo las Flores
+  Description: Siempre que se invoca una |Compañera| al ser jugada, agrega |e:1| |Flores de Verano| a la mano. Si es la primera vez en este turno, gana {SePreviewMana}.

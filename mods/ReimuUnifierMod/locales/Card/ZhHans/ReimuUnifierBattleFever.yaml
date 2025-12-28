@@ -1,0 +1,5 @@
+﻿ReimuUnifierBattleFever:
+  Name: 战斗狂热
+  Description: 每当{PlayerName}激活|组队|时，获得 {Mana}。
+  DetailText: 可以多次组队的牌将为所有激活的组队获得法力
+  FlavorText: 谁能想到为狂热找解释会凭空产生法力？

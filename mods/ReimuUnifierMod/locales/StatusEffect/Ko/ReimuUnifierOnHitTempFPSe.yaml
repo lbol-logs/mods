@@ -1,0 +1,3 @@
+﻿ReimuUnifierOnHitTempFPSe:
+  Name: 오니의 격앙
+  Description: '{PlayerName}의 다음 턴까지, 공격 피해를 받을 때마다 |일시 화력|을 {Level} 얻습니다.'

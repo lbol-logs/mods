@@ -1,0 +1,7 @@
+﻿ReimuUnifierScarletNeedleRain:
+  Name: Lluvia de Agujas Escarlata
+  Description: >-
+    Por cada enemigo, inflige {Damage} de daño a cada enemigo.
+
+    Por cada enemigo, aplica |e:1| de |Vulnerable| a cada enemigo.
+  FlavorText: Por alguna razón, le resulta menos molesto a Remilia y Flandre que la lluvia de verdad.

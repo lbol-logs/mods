@@ -1,0 +1,4 @@
+﻿ReimuUnifierSupplyRun:
+  Name: 补给行动
+  Description: 从抽牌堆或弃牌堆中将一张随机|同伴|加入手中。抽 |e:2| 张牌。
+  FlavorText: 灵梦，我拿到货了，你带法力了吗？

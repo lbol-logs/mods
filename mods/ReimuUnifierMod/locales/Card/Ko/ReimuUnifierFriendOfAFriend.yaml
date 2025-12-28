@@ -1,0 +1,4 @@
+﻿ReimuUnifierFriendOfAFriend:
+  Name: 친구의 친구
+  Description: "|p:완전 무작위| |동료| {Value2}장 중 최대 {Value1}장을 선택해 얻습니다. 해당 카드는 일시적으로 코스트가 {Mana}가 되고, |휘발성|을 가집니다.'"
+  FlavorText: 내 친구의 친구도 내 친구지!

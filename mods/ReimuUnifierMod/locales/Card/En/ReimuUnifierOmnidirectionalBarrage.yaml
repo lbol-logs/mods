@@ -1,0 +1,5 @@
+﻿ReimuUnifierOmnidirectionalBarrage:
+  Name: Omnidirectional Barrage
+  Description: Whenever {PlayerName} activates a |Team Up|, activate the chosen |Teammate|'s first |Passive Skill|.
+  DetailText: If several teammates can fulfill the Team Up conditions, the leftmost is chosen. For cards that can Team Up multiple times, this will activate all valid Passive Skills
+  FlavorText: "\"They're everywhere!\" \"Then shoot everywhere!\""

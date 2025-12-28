@@ -1,0 +1,5 @@
+﻿ReimuUnifierBattleFever:
+  Name: Battle Fever
+  Description: Whenever {PlayerName} activates a |Team Up|, gain {Mana}.
+  DetailText: Cards that can Team Up multiple times will gain mana for each activated Team Up
+  FlavorText: Who would've thought finding an explanation for the fever would create mana from thin air?

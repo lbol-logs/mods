@@ -1,0 +1,11 @@
+﻿ReimuUnifierCoordinatedStrike:
+  Name: 합동 타격
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |팀 업 [적색 동료]:| 피해를 한 번 더 줍니다.
+  UpgradedDescription: >-
+    피해를 {Damage} 줍니다.
+
+    |팀 업 [적색 동료]:| 피해를 한 번 더 줍니다. {Mana}를 얻습니다.
+  FlavorText: 친구랑 함께라면 뭐든 더 재밌지. 폭력조차도!

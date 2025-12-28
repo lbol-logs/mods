@@ -1,0 +1,8 @@
+﻿ReimuUnifierDuplexBarrierDanmakuMirror:
+  Name: Barrera Duplex -Espejo Danmaku-
+  Description: >-
+    Al comienzo del turno de {PlayerName}, cada |Compañera| invocada en la mano gana |e:1| |Influencia|.
+
+    Cada vez que se invoca un |Compañera| al jugarlo, agrega una |Copia| a la mano. Cuesta {Mana} y tiene |Etéreo|.
+  DetailText: Las |Compañeras| |Copias| no activan este efecto.
+  FlavorText: ˙ɐɾ̣ı̣ǝS ǝp sɐʇı̣ɹoʌɐɟ sɐʇɹɐɔ sɐן ǝp ɐuꓵ

@@ -1,0 +1,3 @@
+﻿ReimuUnifierFlowerViewingPartySe:
+  Name: 꽃놀이
+  Description: '|동료| 카드로 소환할 때마다 손에 |e:1| |한여름의 꽃|을 추가합니다. 이번 턴 첫 번째 소환이라면 {SePreviewMana}를 얻습니다.'

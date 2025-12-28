@@ -1,0 +1,6 @@
+﻿ReimuUnifierKosuzuDecipheringBibliophileFriend:
+  Name: 古明地觉·解读书痴
+  Description: '{FriendP} 对所有敌人施加 {Value1} 层|锁定|。'
+  ExtraDescription1: '{FriendA} 对所有敌人施加 |e:1| |易伤|和 {Value2} 层|锁定|。'
+  ExtraDescription3: '{FriendU} 移除所有敌人的|闪避|、|光学迷彩|和|天衣无缝|，然后对所有敌人施加 |e:1| |易伤|。'
+  FlavorText: “根据这本典籍，它们的弱点是……”

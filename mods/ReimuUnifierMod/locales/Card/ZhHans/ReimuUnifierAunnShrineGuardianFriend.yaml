@@ -1,0 +1,6 @@
+﻿ReimuUnifierAunnShrineGuardianFriend:
+  Name: 高丽野阿吽·神社守护者
+  Description: '{FriendP} |l:狛犬之护：| |放逐|手牌、抽牌堆或弃牌堆中的一张随机|厄运|。'
+  ExtraDescription1: '{FriendA} |g:狛犬旋转：| 获得 {Block} 点|格挡|、 {Shield} 点|护盾|、 {Value1} 层|护身符|、 {Value1} 点|庇护|、 {Value1} 层|闪避|和 {Value1} 点|暂得灵力|。'
+  ExtraDescription3: '{FriendU} |d:守护符「石形」：|  获得 |e:2| |封印|。防止下 {Value2} 次{PlayerName}失去生命。'
+  FlavorText: 灵梦需要帮助！？阿吽酱来救援！

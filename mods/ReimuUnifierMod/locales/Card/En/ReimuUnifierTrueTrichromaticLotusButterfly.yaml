@@ -1,0 +1,12 @@
+﻿ReimuUnifierTrueTrichromaticLotusButterfly:
+  Name: True Trichromatic Lotus Butterfly
+  Description: >-
+    |Team Up [Marisa]:| Deal {Damage} damage |e:10| times. Lose 2 |Firepower|.
+
+    |Overflow|: Gain {Mana}.
+  UpgradedDescription: >-
+    |Team Up [Marisa]:| Deal {Damage} damage |e:10| times. Deal {SecondaryDamagePreview} damage. Lose |e:2| |Firepower|.
+
+    |Overflow|: Gain {Mana}.
+  DetailText: This card has no effect without a |Team Up|.
+  FlavorText: "\"I'll let you do as you please, Marisa.\" \"That's my line, Reimu!\""

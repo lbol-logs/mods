@@ -1,0 +1,7 @@
+﻿ReimuUnifierScarletNeedleRain:
+  Name: 홍색 바늘비
+  Description: >-
+    모든 적에게 적마다 피해를 {Damage} 줍니다.
+
+    모든 적에게 적마다 |취약|을 |e:1| 줍니다.
+  FlavorText: 웬일인지, 레밀리아와 플랑드르는 진짜 비보다 이걸 덜 귀찮아한다.

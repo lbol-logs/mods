@@ -1,0 +1,13 @@
+﻿ReimuUnifierYoukaiForgedNeedle:
+  Name: 요괴제 바늘
+  Description: >-
+    피해를 {Damage} 줍니다. 
+
+    이번 턴에 |동료|의 |액티브 능력|이나 |궁극기|를 사용했다면, {SelfName}의 비용은 {Mana}가 됩니다.
+  UpgradedDescription: >-
+    피해를 {Damage} 줍니다.
+
+    |록온|을 {Value1} 줍니다. 
+
+    이번 턴에 |동료|의 |액티브 능력|이나 |궁극기|를 사용했다면, {SelfName}의 비용은 {Mana}가 됩니다.
+  FlavorText: 일단 찾아가! 그리고! 부숴!

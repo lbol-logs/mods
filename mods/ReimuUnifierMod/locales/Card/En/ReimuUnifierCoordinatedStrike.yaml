@@ -1,0 +1,11 @@
+﻿ReimuUnifierCoordinatedStrike:
+  Name: Coordinated Strike
+  Description: >-
+    Deal {Damage} damage.
+
+    |Team Up [Red Teammate]:| Deal damage an additional time.
+  UpgradedDescription: >-
+    Deal {Damage} damage.
+
+    |Team Up [Red Teammate]:| Deal damage an additional time. Gain {Mana}.
+  FlavorText: Everything's more fun with friends. Even violence!

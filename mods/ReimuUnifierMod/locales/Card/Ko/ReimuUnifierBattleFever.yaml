@@ -1,0 +1,5 @@
+﻿ReimuUnifierBattleFever:
+  Name: 전투의 열병
+  Description: '{PlayerName}가 |팀 업|을 발동할 때마다 {Mana}를 얻습니다.'
+  DetailText: 여러 번 |팀 업|할 수 있는 카드는 발동마다 마나를 얻습니다.
+  FlavorText: 열에 대한 설명을 찾는 게 어떻게 희박한 공기 속에서 마나를 만들어내는 걸까요?

@@ -1,0 +1,7 @@
+﻿ReimuUnifierKasenWildhornFriend:
+  Name: 편완유각의 선인, 카센
+  Description: '{FriendP} |d:매의 봉화|: 체력이 가장 적은 적에게 피해를 {Damage}씩 {Value1}번 줍니다.'
+  ExtraDescription1: '{FriendA} |p:은자의 수련|: |화력| {Value2}와 |영력| {Value2}를 얻습니다.'
+  UpgradedExtraDescription1: '{FriendA} |p:은자의 단련|: |화력| {Value2}, |영력| {Value2}, |그레이즈| {Value2}를 얻습니다.'
+  ExtraDescription3: '{FriendU} |u:원숭이 손이여! 적을 잡아서 뭉개라!|: 뽑을 카드 더미와 버린 카드 더미에서 공격 카드를 손이 꽉 찰 때 까지 추가합니다. 그 카드들의 비용은 {Mana}가 됩니다.'
+  FlavorText: '"레이무를 지켜줄 사람이 필요해, 아니면 무슨 사고를 더 치게 될지 누가 알겠어?"'

@@ -1,0 +1,9 @@
+﻿ReimuUnifierYukariYakumoFriend:
+  Name: 경계의 요괴, 야쿠모 유카리
+  Description: >-
+    {Indent} |통신옥|을 1장 얻습니다.
+
+    {FriendP}|e:음향의 경계:| |통신옥|을 1장 얻습니다.
+  ExtraDescription1: '{FriendA} |p:사중결계:| 손에 있는 가장 높은 비용의 카드를 무작위로 |소멸|시킵니다. 그 카드 비용의 |e:6|배에 해당하는 |보호막|을 얻습니다.'
+  ExtraDescription3: '{FriendU} |d:비상식의 이면:| |천의무봉|을 |e:1| 얻습니다. {PlayerName}의 다음 턴 시작 시, 모든 적은 체력을 {Value2} 잃습니다.'
+  FlavorText: '"그거야 어찌됐든 간에, 내가 여기 있다는 점이 제대로 일을 하려고 한다는 증거잖아." "일을 하려는 거랑, 일을 하고 있는 건 별개잖아!" "맨날 신사를 비우다시피하는 당신보다는 더 열심히 일하고 있다고 생각하는데."'

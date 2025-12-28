@@ -1,0 +1,4 @@
+﻿ReimuUnifierSupplyRun:
+  Name: 보급 실행
+  Description: 뽑을 카드 더미나 버린 카드 더미에서 무작위 |동료|를 손에 넣습니다. 카드를 |e:2|장 뽑습니다.
+  FlavorText: 간다 레이무, 저장된 마나는 충분한가?

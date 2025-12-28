@@ -1,0 +1,4 @@
+﻿ReimuUnifierFriendOfAFriend:
+  Name: 朋友的朋友
+  Description: 从 {Value2} 张|p:完全随机||同伴|中选择最多 {Value1} 张加入手中。它们|暂塑|为 {Mana}，具有|虚无|。
+  FlavorText: 我朋友的朋友就是我的朋友！

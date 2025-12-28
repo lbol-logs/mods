@@ -1,0 +1,9 @@
+﻿ReimuUnifierShionImpoverishedDeityFriend:
+  Name: 빈곤신, 요리가미 시온
+  Description: >-
+    {Indent} <sprite="Point" name="Gold">을 |e:15| 얻습니다.
+
+    {FriendP} |d:어서오세요 극빈의 세계로|: 체력이 가장 적은 적에게 피해를 {Damage}씩 2번 줍니다. <sprite="Point" name="Gold">을 |e:5| 잃습니다. |명중|
+  ExtraDescription1: '{FriendA} |s:플러크 피존|: 모든 적에게 피해를 |e:{ActiveDamagePreview}| 줍니다. 적 한 명당 |그레이즈|를 |e:1| 얻고, <sprite="Point" name="Gold">을 |e:5|잃습니다.'
+  ExtraDescription3: '{FriendU} |p:빙의교환-앱솔루트 루저-|: 이름 없는 적들을 즉시 쓰러뜨립니다. |액땜|을 덱에 추가합니다.'
+  FlavorText: 뭐가 없어 보인다는거야. 엄청난 사치잖아.

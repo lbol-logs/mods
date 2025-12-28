@@ -1,0 +1,7 @@
+﻿ReimuUnifierFaithlessMountainAssault:
+  Name: Asalto a la Montaña Infiel
+  Description: >-
+    Inflige {Damage} de daño a cada enemigo.
+
+    |Exterminar|: Agrega una |Consumida por la Venganza| a la biblioteca.
+  FlavorText: En su ira, Reimu derribaría incluso a los dioses para vengarse de aquellos que la amenazaban.

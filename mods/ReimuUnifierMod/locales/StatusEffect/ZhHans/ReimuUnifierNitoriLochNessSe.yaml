@@ -1,0 +1,3 @@
+﻿ReimuUnifierNitoriLochNessSe:
+  Name: 尼斯湖激光齐射
+  Description: '在{PlayerName}的回合结束时，造成 {SePreviewTurns} 点伤害，根据{PlayerName}已进行的回合数增加 |e:5|。 '

@@ -1,0 +1,8 @@
+﻿ReimuUnifierYukariYakumoFriend:
+  Name: Yukari Yakumo
+  Description: >-
+    {Indent} Agrega un |Orbe Comunicador| a la mano.
+     {FriendP}|e:Frontera entre el Sonido y el Silencio:| Agrega un |Orbe Comunicador| a la mano.
+  ExtraDescription1: '{FriendA} |p:Barrera Cuadruple:| |Exilia| una carta de la mano. Gana |Barrera| equivalente a |e:6| veces el coste de esa carta.'
+  ExtraDescription3: '{FriendU} |d:La otra Cara del Sentido Común:| Gana |e:1| |Perfección|. Al comienzo del próximo turno de {PlayerName}, cada enemigo pierde {Value2} de vida.'
+  FlavorText: '"De todos modos, ya estoy aquí y despierta. Eso demuestra que tengo ganas de trabajar." "¡Tener voluntad de trabajar y realmente hacer el trabajo son cosas completamente distintas!" "Si me comparo con una sacerdotisa que casi nunca está en su santuario, diría que estoy haciendo bastante bien mi trabajo."'
