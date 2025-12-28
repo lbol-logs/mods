@@ -4056,6 +4056,1507 @@
     }
   },
 
+  "ReimuUnifierAttackR": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "1R",
+      "Damage": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 14,
+      "Keywords": "Basic"
+    }
+  },
+  "ReimuUnifierAttackW": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "1W",
+      "Damage": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 14,
+      "Keywords": "Basic"
+    }
+  },
+  "ReimuUnifierAunnShrineGuardianFriend": {
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "WWW",
+      "Block": 8,
+      "Shield": 8,
+      "Value1": 1,
+      "Value2": 2,
+      "Loyalty": 8,
+      "PassiveCost": -1,
+      "ActiveCost": -4,
+      "UltimateCost": -8
+    },
+    "1": {
+      "Block": 10,
+      "Shield": 10,
+      "Value1": 2,
+      "Value2": 3,
+      "Loyalty": 8,
+      "PassiveCost": 0,
+      "ActiveCost": -4,
+      "UltimateCost": -8
+    }
+  },
+  "ReimuUnifierAyaReporterOfFantasyFriend": {
+    "Rarity": "Rare",
+    "Type": "Friend",
+    "Colors": "RG",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "2RG",
+      "Value1": 1,
+      "Value2": 10,
+      "Mana": 1,
+      "Loyalty": 2,
+      "PassiveCost": 1,
+      "ActiveCost": -3,
+      "UltimateCost": -9
+    },
+    "1": {
+      "Value1": 2,
+      "Value2": 15,
+      "Mana": 2,
+      "Loyalty": 3,
+      "PassiveCost": 1,
+      "ActiveCost": -3,
+      "UltimateCost": -9
+    }
+  },
+  "ReimuUnifierBanishingRitualDrainingStrike": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "RW",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "2H:HWR",
+      "Damage": 18,
+      "Value1": 8,
+      "Keywords": "Exile,Expel"
+    },
+    "1": {
+      "Cost": "2H:HWR",
+      "Damage": 24,
+      "Value1": 12,
+      "Keywords": "Accuracy,Exile,Expel"
+    }
+  },
+  "ReimuUnifierBattleFever": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "RR",
+      "Mana": "R"
+    },
+    "1": {
+      "Cost": 0,
+      "Mana": "R"
+    }
+  },
+  "ReimuUnifierBattleForgedBonds": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "W",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "ReimuUnifierBlockR": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "1R",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 13,
+      "Keywords": "Basic"
+    }
+  },
+  "ReimuUnifierBlockW": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "1W",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 13,
+      "Keywords": "Basic"
+    }
+  },
+  "ReimuUnifierCallForHelp": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "W",
+      "Value1": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Value1": 2,
+      "Keywords": "Exile"
+    }
+  },
+  "ReimuUnifierCallToArms": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "R",
+      "Mana": 1
+    },
+    "1": {
+      "Cost": "R",
+      "Mana": 1
+    }
+  },
+  "ReimuUnifierCautionaryBorder": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "1W",
+      "Block": 12,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 16,
+      "Value1": 2
+    }
+  },
+  "ReimuUnifierCombatRoleAssignment": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "WR",
+      "Damage": 6,
+      "Block": 6
+    },
+    "1": {
+      "Cost": "H:HWR",
+      "Damage": 6,
+      "Block": 6
+    }
+  },
+  "ReimuUnifierCombinationStrikeCoordinatedPursuit": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "RW",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "3WR",
+      "Mana": 0
+    },
+    "1": {
+      "Cost": "2WR"
+    }
+  },
+  "ReimuUnifierCommunicatorOrbToken": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": 1,
+      "Damage": 2,
+      "Shield": 2,
+      "Value1": 2,
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "ReimuUnifierConsumedByVengeanceMisfortuneToken": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Misfortune",
+    "Colors": "C",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": 2,
+      "Keywords": "Unremovable,Forbidden"
+    }
+  },
+  "ReimuUnifierCooperativeBarrier": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "WW",
+      "Block": 12,
+      "Value1": 1,
+      "Value2": 0
+    },
+    "1": {
+      "Cost": "WW",
+      "Block": 14,
+      "Value1": 1,
+      "Value2": 2
+    }
+  },
+  "ReimuUnifierCoordinatedStrike": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "R",
+      "Damage": 7,
+      "Value1": 2,
+      "Mana": "R"
+    },
+    "1": {
+      "Damage": 9
+    }
+  },
+  "ReimuUnifierCursedBoundary": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": true,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "B",
+      "Damage": 10,
+      "Value1": 2,
+      "Mana": 1
+    },
+    "1": {
+      "Cost": "B",
+      "Damage": 14,
+      "Value1": 3
+    }
+  },
+  "ReimuUnifierDanmakuCollision": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "1WW",
+      "Value1": 3
+    },
+    "1": {
+      "Cost": "WW",
+      "Value1": 3
+    }
+  },
+  "ReimuUnifierDarknessOfTheCrow": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "RG",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "1RG",
+      "Value1": 10,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": "1RG",
+      "Value1": 14,
+      "Value2": 2
+    }
+  },
+  "ReimuUnifierDeepRain": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "1R",
+      "Value1": 1,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": "1R",
+      "Value1": 2,
+      "Value2": 2
+    }
+  },
+  "ReimuUnifierDimensionalRiftBoundary": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "2RR",
+      "Value1": 6,
+      "Mana": "R"
+    },
+    "1": {
+      "Cost": "1R",
+      "Value1": 6,
+      "Mana": "R"
+    }
+  },
+  "ReimuUnifierDivineForge": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "RR",
+      "Mana": "R"
+    },
+    "1": {
+      "Cost": 0,
+      "Mana": "R"
+    }
+  },
+  "ReimuUnifierDoubleDealing": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "R"
+    },
+    "1": {
+      "Cost": "R"
+    }
+  },
+  "ReimuUnifierDuplexBarrierDanmakuMirror": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "WWRRH:HWR",
+      "Mana": 0,
+      "Keywords": "Ethereal"
+    },
+    "1": {
+      "Cost": "WWRRH:HWR",
+      "Keywords": "Initial,Retain"
+    }
+  },
+  "ReimuUnifierEmbodimentOfTheScarletDevil": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "3WR",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "3H:HWR",
+      "Keywords": "Exile"
+    }
+  },
+  "ReimuUnifierEmotionalBoundarySynchronization": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "WW",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 0,
+      "Value1": 1
+    }
+  },
+  "ReimuUnifierEmpoweringRitual": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "H:HWR",
+      "Value1": 5
+    },
+    "1": {
+      "Cost": 0,
+      "Value1": 6
+    }
+  },
+  "ReimuUnifierFaithlessMountainAssault": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "B",
+      "Damage": 24,
+      "Keywords": "Accuracy,Expel"
+    },
+    "1": {
+      "Cost": "B",
+      "Damage": 32,
+      "Keywords": "Accuracy,Expel"
+    }
+  },
+  "ReimuUnifierFantasySealDreamfinite": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": true,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "RR",
+      "Value1": 5,
+      "Mana": 1
+    },
+    "1": {
+      "Cost": "RR",
+      "Value1": 8
+    }
+  },
+  "ReimuUnifierFierceGodWillOWisp": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "1RR",
+      "Damage": 5,
+      "Value1": 4
+    },
+    "1": {
+      "Cost": "1RR",
+      "Damage": 7
+    }
+  },
+  "ReimuUnifierFlowerViewingParty": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "1G",
+      "Mana": "C"
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "ReimuUnifierFourFairiesFriend": {
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "2W",
+      "Damage": 3,
+      "Value1": 3,
+      "Loyalty": 1,
+      "PassiveCost": 1,
+      "ActiveCost": -3,
+      "UltimateCost": -8
+    },
+    "1": {
+      "Damage": 3,
+      "Value1": 4,
+      "Loyalty": 2,
+      "PassiveCost": 1,
+      "ActiveCost": -3,
+      "UltimateCost": -8,
+      "ImageId": "ReimuUnifierFourFairiesFriendUpgrade"
+    }
+  },
+  "ReimuUnifierFriendOfAFriend": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "1WW",
+      "Value1": 1,
+      "Value2": 3,
+      "Mana": 0,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "1WW",
+      "Value1": 2,
+      "Value2": 5,
+      "Keywords": "Exile"
+    }
+  },
+  "ReimuUnifierHermitsTraining": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "1R",
+      "Block": 14,
+      "Shield": 8,
+      "Value1": 2
+    },
+    "1": {
+      "Cost": "1R",
+      "Block": 18,
+      "Shield": 10,
+      "Value1": 3
+    }
+  },
+  "ReimuUnifierInnateDream": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "1WR"
+    },
+    "1": {
+      "Cost": "WR"
+    }
+  },
+  "ReimuUnifierKasenWildhornFriend": {
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "2RR",
+      "Damage": 7,
+      "Value1": 3,
+      "Value2": 2,
+      "Mana": 0,
+      "Loyalty": 2,
+      "PassiveCost": 1,
+      "ActiveCost": -4,
+      "UltimateCost": -8
+    },
+    "1": {
+      "Cost": "2RR",
+      "Damage": 7,
+      "Value1": 4,
+      "Value2": 2,
+      "Loyalty": 2,
+      "PassiveCost": 1,
+      "ActiveCost": -4,
+      "UltimateCost": -7
+    }
+  },
+  "ReimuUnifierKogasaYoukaiBlacksmithFriend": {
+    "Rarity": "Common",
+    "Type": "Friend",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "WW",
+      "Damage": 4,
+      "Value1": 1,
+      "Loyalty": 2,
+      "PassiveCost": 1,
+      "ActiveCost": -3,
+      "UltimateCost": -7,
+      "Keywords": "Upgrade"
+    },
+    "1": {
+      "Damage": 5,
+      "Value1": 2,
+      "Loyalty": 3,
+      "PassiveCost": 1,
+      "ActiveCost": -3,
+      "UltimateCost": -7,
+      "Keywords": "Upgrade"
+    }
+  },
+  "ReimuUnifierKosuzuDecipheringBibliophileFriend": {
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "RW",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "WR",
+      "Value1": 1,
+      "Value2": 1,
+      "Loyalty": 8,
+      "PassiveCost": 0,
+      "ActiveCost": -3,
+      "UltimateCost": -9
+    },
+    "1": {
+      "Value1": 2,
+      "Value2": 3,
+      "Loyalty": 9,
+      "PassiveCost": 0,
+      "ActiveCost": -3,
+      "UltimateCost": -9
+    }
+  },
+  "ReimuUnifierMaidensDivineChanneling": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "1WR",
+      "Block": 18,
+      "Shield": 0
+    },
+    "1": {
+      "Cost": "1H:HWR",
+      "Block": 18,
+      "Shield": 0
+    }
+  },
+  "ReimuUnifierMarisaIncidentSolverFriend": {
+    "Rarity": "Rare",
+    "Type": "Friend",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "2RRR",
+      "Damage": 18,
+      "Value1": 30,
+      "Value2": 40,
+      "Loyalty": 4,
+      "PassiveCost": 1,
+      "ActiveCost": -5,
+      "UltimateCost": -9
+    },
+    "1": {
+      "Damage": 24,
+      "Value1": 40,
+      "Value2": 50,
+      "Loyalty": 4,
+      "PassiveCost": 1,
+      "ActiveCost": -5,
+      "UltimateCost": -9
+    }
+  },
+  "ReimuUnifierMarisaKirisameFriend": {
+    "Rarity": "Common",
+    "Type": "Friend",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "1R",
+      "Damage": 5,
+      "Value1": 14,
+      "Value2": 25,
+      "Loyalty": 2,
+      "PassiveCost": 1,
+      "ActiveCost": -4,
+      "UltimateCost": -9
+    },
+    "1": {
+      "Damage": 8,
+      "Value1": 12,
+      "Value2": 32,
+      "Loyalty": 3,
+      "PassiveCost": 1,
+      "ActiveCost": -4,
+      "UltimateCost": -9
+    }
+  },
+  "ReimuUnifierMercilessRodFriendToken": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Friend",
+    "Colors": "C",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": 0,
+      "Damage": 5,
+      "Value1": 1,
+      "Loyalty": 1,
+      "PassiveCost": 1,
+      "UltimateCost": -5
+    },
+    "1": {
+      "Damage": 8,
+      "Value1": 1,
+      "Loyalty": 1,
+      "PassiveCost": 1,
+      "UltimateCost": -5
+    }
+  },
+  "ReimuUnifierNeedleSparkSeal": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "1RR"
+    },
+    "1": {
+      "Cost": "1R"
+    }
+  },
+  "ReimuUnifierNitoriBusinessPartnerFriend": {
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "U",
+      "Damage": 5,
+      "Value1": 2,
+      "Value2": 5,
+      "Loyalty": 3,
+      "ActiveCost": -3,
+      "ActiveCost2": -3,
+      "UltimateCost": -9
+    },
+    "1": {
+      "Cost": "U",
+      "Value1": 3,
+      "Value2": 8,
+      "Loyalty": 3,
+      "ActiveCost": -3,
+      "ActiveCost2": -3,
+      "UltimateCost": -9
+    }
+  },
+  "ReimuUnifierOmnidirectionalBarrage": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "WR"
+    },
+    "1": {
+      "Cost": "H:HWR"
+    }
+  },
+  "ReimuUnifierPerfectCherryBorder": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "1WW",
+      "Block": 0,
+      "Shield": 0,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "1WW",
+      "Value1": 2
+    }
+  },
+  "ReimuUnifierPerfectPosession": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "2U",
+      "Value1": 3,
+      "Mana": "U",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "U",
+      "Value1": 3,
+      "Keywords": "Exile"
+    }
+  },
+  "ReimuUnifierPowerOfTheImmaterial": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "3R",
+      "Damage": 8,
+      "Value1": 4,
+      "Value2": 4
+    },
+    "1": {
+      "Cost": "3R",
+      "Damage": 10,
+      "Value1": 5,
+      "Value2": 4
+    }
+  },
+  "ReimuUnifierPurifyingStrike": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "2W",
+      "Damage": 18,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "2W",
+      "Damage": 24,
+      "Keywords": "Exile"
+    }
+  },
+  "ReimuUnifierPurpleReproach": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "W",
+      "Value1": 2
+    },
+    "1": {
+      "Cost": "W"
+    }
+  },
+  "ReimuUnifierRabbleRousing": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "WW",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "W",
+      "Value1": 1
+    }
+  },
+  "ReimuUnifierRainDance": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "R",
+      "Damage": 7,
+      "Keywords": "EternalEcho"
+    },
+    "1": {
+      "Cost": 1,
+      "Damage": 10,
+      "Keywords": "EternalEcho"
+    }
+  },
+  "ReimuUnifierReinforcedBoundary": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "2W",
+      "Block": 18,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "1W",
+      "Block": 18
+    }
+  },
+  "ReimuUnifierRetributiveBoundary": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "1R",
+      "Block": 12,
+      "Shield": 0,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "1R",
+      "Block": 0,
+      "Shield": 12
+    }
+  },
+  "ReimuUnifierRisingSynergy": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "WW"
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "ReimuUnifierRitualofEchoingProsperity": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "WWW",
+      "Value1": 1,
+      "Mana": "R"
+    },
+    "1": {
+      "Cost": "WWW",
+      "Value1": 2,
+      "Mana": "R"
+    }
+  },
+  "ReimuUnifierRitualOfTheSeasons": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "WR"
+    },
+    "1": {
+      "Cost": "H:HWR"
+    }
+  },
+  "ReimuUnifierRitualPowerConduit": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "WW",
+      "Value1": 0
+    },
+    "1": {
+      "Cost": "WW",
+      "Value1": 1
+    }
+  },
+  "ReimuUnifierSanaeHumanGodFriend": {
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "2W",
+      "Block": 0,
+      "Shield": 0,
+      "Value1": 1,
+      "Value2": 2,
+      "Loyalty": 4,
+      "PassiveCost": 1,
+      "ActiveCost": -5,
+      "ActiveCost2": -5,
+      "UltimateCost": -5
+    },
+    "1": {
+      "Value1": 2,
+      "Value2": 2,
+      "Loyalty": 5,
+      "PassiveCost": 1,
+      "ActiveCost": -5,
+      "ActiveCost2": -5,
+      "UltimateCost": -5
+    }
+  },
+  "ReimuUnifierScarletNeedleRain": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "2R",
+      "Damage": 9
+    },
+    "1": {
+      "Cost": "1R",
+      "Damage": 9
+    }
+  },
+  "ReimuUnifierShinmyoumaruInchlingPrincessFriend": {
+    "Rarity": "Rare",
+    "Type": "Friend",
+    "Colors": "C",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "2CC",
+      "Value1": 2,
+      "Mana": "CC",
+      "Loyalty": 1,
+      "ActiveCost": -3,
+      "ActiveCost2": -6,
+      "UltimateCost": -9
+    },
+    "1": {
+      "Value1": 3,
+      "Mana": "CCC",
+      "Loyalty": 1,
+      "ActiveCost": -3,
+      "ActiveCost2": -6,
+      "UltimateCost": -9
+    }
+  },
+  "ReimuUnifierShionImpoverishedDeityFriend": {
+    "Rarity": "Rare",
+    "Type": "Friend",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "2B",
+      "Damage": 10,
+      "Loyalty": 4,
+      "PassiveCost": 1,
+      "ActiveCost": -3,
+      "UltimateCost": -7
+    },
+    "1": {
+      "Cost": "1B",
+      "Damage": 13,
+      "Loyalty": 5,
+      "PassiveCost": 1,
+      "ActiveCost": -3,
+      "UltimateCost": -7
+    }
+  },
+  "ReimuUnifierShrineDefense": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "2G",
+      "Mana": "P",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "2G",
+      "Keywords": "Exile"
+    }
+  },
+  "ReimuUnifierStrikeOfHisoutensoku": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "RR",
+      "Damage": 13,
+      "Value1": 2,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": "RR",
+      "Damage": 17,
+      "Value1": 3,
+      "Value2": 1
+    }
+  },
+  "ReimuUnifierSubterraneanAdventure": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "WW",
+      "Value1": 1,
+      "Mana": 0
+    },
+    "1": {
+      "Cost": 0,
+      "Value1": 1
+    }
+  },
+  "ReimuUnifierSuikaGourdOniFriend": {
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "1RR",
+      "Value1": 1,
+      "Value2": 5,
+      "Loyalty": 4,
+      "PassiveCost": 2,
+      "ActiveCost": -6,
+      "UltimateCost": -8
+    },
+    "1": {
+      "Cost": "1R",
+      "Value1": 1,
+      "Value2": 5,
+      "Loyalty": 4,
+      "PassiveCost": 2,
+      "ActiveCost": -6,
+      "UltimateCost": -8
+    }
+  },
+  "ReimuUnifierSumirekoDreamVisitorFriend": {
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "2U",
+      "Damage": 10,
+      "Value1": 1,
+      "Value2": 5,
+      "Mana": "B",
+      "Loyalty": 9,
+      "PassiveCost": 0,
+      "ActiveCost": -3,
+      "ActiveCost2": -6,
+      "UltimateCost": 0
+    },
+    "1": {
+      "Cost": "2U",
+      "Damage": 14,
+      "Value1": 1,
+      "Value2": 5,
+      "Loyalty": 9,
+      "PassiveCost": 0,
+      "ActiveCost": -3,
+      "ActiveCost2": -6,
+      "UltimateCost": 0
+    }
+  },
+  "ReimuUnifierSummoningRitual": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "RR",
+      "Value1": 3,
+      "Mana": "R"
+    },
+    "1": {
+      "Cost": "RR",
+      "Value1": 4,
+      "Mana": "R"
+    }
+  },
+  "ReimuUnifierSupplyRun": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "1W",
+      "Value1": 2
+    },
+    "1": {
+      "Cost": "W"
+    }
+  },
+  "ReimuUnifierSynchronizedRitualArray": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": 0,
+      "Value1": 5,
+      "Value2": 1,
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Cost": 0,
+      "Value1": 6,
+      "Value2": 1,
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "ReimuUnifierTagIn": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "W",
+      "Value1": 3,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Value1": 3,
+      "Keywords": "Exile"
+    }
+  },
+  "ReimuUnifierTagOut": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "W",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Exile"
+    }
+  },
+  "ReimuUnifierTrueTrichromaticLotusButterfly": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "2RRR",
+      "Damage": 6,
+      "Value1": 10,
+      "Value2": 0,
+      "Mana": "R",
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Cost": "2RRR",
+      "Damage": 6,
+      "Value1": 10,
+      "Value2": 25,
+      "Keywords": "Accuracy"
+    }
+  },
+  "ReimuUnifierWilyBeastStrike": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "R",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 1,
+      "Value1": 2
+    }
+  },
+  "ReimuUnifierWisdomOfHumanity": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "1U",
+      "Block": 3,
+      "Shield": 0,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "1U",
+      "Block": 0,
+      "Shield": 3,
+      "Keywords": "Exile"
+    }
+  },
+  "ReimuUnifierYinYangCommunicationRitual": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "2W",
+      "Block": 18
+    },
+    "1": {
+      "Cost": "2W",
+      "Block": 24
+    }
+  },
+  "ReimuUnifierYoukaiForgedNeedle": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": 1,
+      "Damage": 7,
+      "Value1": 1,
+      "Mana": 0,
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Cost": 1,
+      "Damage": 9,
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "ReimuUnifierYoukaiShrineMaiden": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "B",
+      "Value1": 3,
+      "Mana": "PPP",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Value1": 5,
+      "Keywords": "Exile"
+    }
+  },
+  "ReimuUnifierYukariSageOfGensokyoFriend": {
+    "Rarity": "Rare",
+    "Type": "Friend",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "2WWW",
+      "Damage": 8,
+      "Value1": 15,
+      "Value2": 8,
+      "Loyalty": 5,
+      "PassiveCost": 1,
+      "ActiveCost": -5,
+      "UltimateCost": -9
+    },
+    "1": {
+      "Damage": 10,
+      "Value1": 20,
+      "Value2": 10,
+      "Loyalty": 5,
+      "PassiveCost": 1,
+      "ActiveCost": -4,
+      "UltimateCost": -9
+    }
+  },
+  "ReimuUnifierYukariYakumoFriend": {
+    "Rarity": "Common",
+    "Type": "Friend",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "ReimuUnifierMod",
+    "0": {
+      "Cost": "1W",
+      "Value1": 6,
+      "Value2": 10,
+      "Loyalty": 2,
+      "PassiveCost": 2,
+      "ActiveCost": -5,
+      "UltimateCost": -9
+    },
+    "1": {
+      "Value2": 12,
+      "Loyalty": 2,
+      "PassiveCost": 3,
+      "ActiveCost": -4,
+      "UltimateCost": -9
+    }
+  },
+
   "SanaeAmuletDebuff": {
     "Rarity": "Rare",
     "Type": "Ability",
