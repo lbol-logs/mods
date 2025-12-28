@@ -54,6 +54,25 @@
     "BaseActive": 4
   },
 
+  "ReimuUnifierBattleFeverSe": {
+    "Mana": "R"
+  },
+  "ReimuUnifierCoordinatedPursuitSe": {
+    "Mana": 0
+  },
+  "ReimuUnifierDimensionalRiftBoundarySe": {
+    "Mana": "R"
+  },
+  "ReimuUnifierDuplexBarrierDanmakuMirrorSe": {
+    "Mana": 0
+  },
+  "ReimuUnifierFlowerViewingPartySe": {
+    "Mana": "C"
+  },
+  "ReimuUnifierSubterraneanAdventureSe": {
+    "MaxHand": 12
+  },
+
   "SanaeOrderShuffleSe": {
     "Mana": "P"
   },

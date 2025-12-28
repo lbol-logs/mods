@@ -299,6 +299,151 @@
     "Description": "<h>被动</h>：<h>主动效果</h>造成的伤害提升 <PassiveAmount /> 点。<br /><h>主动</h>：对生命值最高的敌人造成 <ActiveAmount /> 点伤害。获得<ManaG />。"
   },
 
+  "FakeCuriositySe": {
+    "Name": "我真的很好奇！",
+    "Description": "这是一个为卡牌添加关键字描述的变通方法。    "
+  },
+  "FakeSealedSe": {
+    "Name": "封印",
+    "Description": "这是一个为卡牌添加关键字描述的变通方法。    "
+  },
+  "ReimuUnifierAunnProtectionSe": {
+    "Name": "阿吽的守护",
+    "Description": "防止下 <Level /> 次你失去生命。"
+  },
+  "ReimuUnifierAyaDominanceSe": {
+    "Name": "幻影支配",
+    "Description": "每当你打出一张牌，对一个随机敌人造成 <Level /> 点伤害。  "
+  },
+  "ReimuUnifierBattleFeverSe": {
+    "Name": "战斗狂热",
+    "Description": "每当你激活一个<h>组队</h>时，获得 <Mana />。<br />    "
+  },
+  "ReimuUnifierCoordinatedPursuitSe": {
+    "Name": "组合打击 -协同追击-",
+    "Description": "每当一个<h>同伴</h>的 <ha>主动技能</ha>、<hu>终极技能</hu> 被激活时，下一张打出的攻击牌消耗 <Mana /> 来打出。"
+  },
+  "ReimuUnifierDanmakuCollisionSe": {
+    "Name": "弹幕碰撞",
+    "Description": "在回合结束时，根据手牌中每个召唤<h>同伴</h>，获得 <Level /> 点<h>格挡</h>。"
+  },
+  "ReimuUnifierDarknessOfTheCrowSe": {
+    "Name": "鸦之黑暗",
+    "Description": "每当你<h>闪避</h>一个攻击时，以及在回合结束时，对所有敌人造成 <Level /> 点伤害。 "
+  },
+  "ReimuUnifierDelayedChargingSe": {
+    "Name": "----",
+    "Description": ""
+  },
+  "ReimuUnifierDimensionalRiftBoundarySe": {
+    "Name": "次元裂缝 -边界-",
+    "Description": "每当一个<h>同伴</h>进入手牌时，对一个随机敌人造成 <Level /> 点伤害。每当一个召唤<h>同伴</h>离开手牌时，获得 <Mana />。"
+  },
+  "ReimuUnifierDivineForgeSe": {
+    "Name": "神圣锻炉",
+    "Description": "在回合开始时，将一张<h>妖造针</h>加入手中。   "
+  },
+  "ReimuUnifierDuplexBarrierDanmakuMirrorSe": {
+    "Name": "二重结界 -弹幕镜-",
+    "Description": "在回合开始时，手牌中所有召唤<h>同伴</h>获得 <he>1</he> <h>支援度</h>。 <br />每当一个<h>同伴</h>通过打出被召唤时，如果它不是复制品，将其复制品加入手中。它消耗 <Mana /> 并有 <h>虚无</h>。 "
+  },
+  "ReimuUnifierEmotionalBoundarySynchronizationSe": {
+    "Name": "情感边界 -同步-",
+    "Description": "每当一个<h>同伴</h>的 <ha>主动技能</ha> 或 <hu>终极技能</hu> 被激活时，手牌中所有<h>同伴</h>获得 <he>1</he> <h>支援度</h>。"
+  },
+  "ReimuUnifierFantasySealDreamfiniteSe": {
+    "Name": "梦想封印",
+    "Description": "在回合开始时，对一个随机敌人造成 <Level /> 点伤害 <Count /> 次。   "
+  },
+  "ReimuUnifierFlowerViewingPartySe": {
+    "Name": "赏花",
+    "Description": "每当一个<h>同伴</h>通过打出被召唤时，将 <he>1</he> <h>盛夏之花</h>加入手中。如果这是本回合首次，获得 <Mana />。"
+  },
+  "ReimuUnifierInnateDreamCounterSe": {
+    "Name": "阴阳玉",
+    "Description": "你有 <Level /> <h>阴阳玉</h>。"
+  },
+  "ReimuUnifierNeedleSparkSealSe": {
+    "Name": "火花封印针",
+    "Description": "<h>妖造针</h>对所有敌人造成伤害并施加 <he>2</he> 额外<h>锁定</h>。 "
+  },
+  "ReimuUnifierNextAttackAccurateSe": {
+    "Name": "深山雨",
+    "Description": "你的下 <Level /> 次攻击是<h>精准</h>。  "
+  },
+  "ReimuUnifierNitoriLochNessSe": {
+    "Name": "尼斯湖激光齐射",
+    "Description": "在<PlayerName />的回合结束时，造成 0 点伤害，根据<PlayerName />已进行的回合数增加 <he>5</he>。 "
+  },
+  "ReimuUnifierOccultBallSe": {
+    "Name": "秘术球",
+    "Description": "你已收集 <Count /> <h>秘术球</h>。"
+  },
+  "ReimuUnifierOmnidirectionalBarrageSe": {
+    "Name": "全方位弹幕",
+    "Description": "每当一个<h>组队</h>被激活时，激活所选<h>同伴</h>的第一个<h>被动技能</h>。"
+  },
+  "ReimuUnifierOnHitTempFPSe": {
+    "Name": "鬼之上升怒气",
+    "Description": "直到<PlayerName />的下个回合，每当你受到攻击伤害时，获得 <Level /> 点<h>暂得火力</h>。"
+  },
+  "ReimuUnifierPCBReflectSe": {
+    "Name": "樱桃炸弹",
+    "Description": "下 <Level /> 次<h>樱花边界</h>被激活时，每个敌人失去等于防止生命损失的生命值。"
+  },
+  "ReimuUnifierPerfectCherryBorderSe": {
+    "Name": "樱花边界",
+    "Description": "防止下 <Level /> 次你失去生命。  "
+  },
+  "ReimuUnifierRabbleRousingSe": {
+    "Name": "煽动乌合之众",
+    "Description": "在<PlayerName />的下 <Duration /> 个回合开始时，将一个随机普通<h>同伴</h>加入手中。"
+  },
+  "ReimuUnifierRetributiveBoundarySe": {
+    "Name": "报复边界",
+    "Description": "直到<PlayerName />的下个回合，每当你受到敌人完整攻击的伤害时，将一张<h>妖造针</h>加入手中。 "
+  },
+  "ReimuUnifierRetributiveBoundaryUpgSe": {
+    "Name": "报复边界 -强化-",
+    "Description": "直到<PlayerName />的下个回合，每当<PlayerName />受到敌人完整攻击的伤害时，将一张<h>妖造针+</h>加入手中。 "
+  },
+  "ReimuUnifierRisingSynergySe": {
+    "Name": "上升协同",
+    "Description": "每当<h>同伴</h>对敌人造成攻击伤害时，获得 <he>1</he> <h>暂得火力</h>。"
+  },
+  "ReimuUnifierRitualofEchoingProsperitySe": {
+    "Name": "繁荣回响",
+    "Description": "在<PlayerName />的回合开始时，根据手牌中每个召唤<h>同伴</h>，获得 <Level /> 点<h>暂得灵力</h>和 <Level /> 点<h>暂得火力</h>。"
+  },
+  "ReimuUnifierScarletFateSe": {
+    "Name": "绯红恶魔的诡计",
+    "Description": "蕾米莉亚将在打出 <Count /> 张牌后结束<PlayerName />的回合。"
+  },
+  "ReimuUnifierSubterraneanAdventureSe": {
+    "Name": "地下冒险",
+    "Description": "手牌上限增加至 <MaxHand />。"
+  },
+  "ReimuUnifierSumirekoDoppelgangerSe": {
+    "Name": "堇子的二重身",
+    "Description": "堇子的二重身正在复制你本回合打出的每张牌！"
+  },
+  "ReimuUnifierWilyBeastStrikeSe": {
+    "Name": "狡兽打击",
+    "Description": "下 <Level /> 次一个<h>同伴</h>的 <ha>主动技能</ha> 或 <hu>终极技能</hu> 被激活时，复制它。"
+  },
+  "ReimuUnifierYukariArcanumSe": {
+    "Name": "八云紫的奥秘 -弹幕结界-",
+    "Description": "在<PlayerName />的回合结束时，获得 <Level /> 点<h>护盾</h>，然后对随机敌人造成等于你<h>护盾</h>的伤害。剩余 <Count /> 回合。"
+  },
+  "ReimuUnifierYukariLifeLossSe": {
+    "Name": "非常识的背面",
+    "Description": "在<PlayerName />的下个回合开始时，每个敌人失去 <Level /> 点生命值。"
+  },
+  "TeamUpSe": {
+    "Name": "组队 [条件]",
+    "Description": "这是一个为卡牌添加关键字描述的变通方法。    "
+  },
+
   "AmuletForEnemy": {
     "Name": "堡垒",
     "Description": "抵挡下 <Level /> 张加入战斗的非状态牌（将它们<h>放逐</h>）。"

@@ -422,6 +422,151 @@
     "Description": "<h>Passive</h>: Increase this <h>Sign's Active</h> damage by <PassiveAmount />.<br /><h>Active</h>: Deal <ActiveAmount /> to the enemy with the most life. Gain <ManaG />."
   },
 
+  "FakeCuriositySe": {
+    "Name": "I'm Really Curious!",
+    "Description": "This is a workaround to add keywords description to cards.    "
+  },
+  "FakeSealedSe": {
+    "Name": "Sealed",
+    "Description": "This is a workaround to add keywords description to cards.    "
+  },
+  "ReimuUnifierAunnProtectionSe": {
+    "Name": "Aunn's Protection",
+    "Description": "Prevent the next <Level /> times you would lose life."
+  },
+  "ReimuUnifierAyaDominanceSe": {
+    "Name": "Illusionary Dominance",
+    "Description": "Deal <Level /> damage to a random enemy whenever you play a card.  "
+  },
+  "ReimuUnifierBattleFeverSe": {
+    "Name": "Battle Fever",
+    "Description": "Gain <Mana /> whenever you activate a <h>Team Up</h>.<br />    "
+  },
+  "ReimuUnifierCoordinatedPursuitSe": {
+    "Name": "Combination Strike -Coordinated Pursuit-",
+    "Description": "Whenever a <h>Teammate</h>'s <ha>Active Skill</ha> or <hu>Ultimate Skill</hu> are activated, the next attack played costs <Mana /> to play."
+  },
+  "ReimuUnifierDanmakuCollisionSe": {
+    "Name": "Danmaku Collision",
+    "Description": "At the end of the turn, gain <Level /> <h>Block</h> for each summoned <h>Teammate</h> in the hand."
+  },
+  "ReimuUnifierDarknessOfTheCrowSe": {
+    "Name": "Darkness of the Crow",
+    "Description": "Whenever you <h>Graze</h> an attack, and at the end of the turn, deal <Level /> damage to each enemy. "
+  },
+  "ReimuUnifierDelayedChargingSe": {
+    "Name": "Delayed Charge",
+    "Description": ""
+  },
+  "ReimuUnifierDimensionalRiftBoundarySe": {
+    "Name": "Dimensional Rift -Boundary-",
+    "Description": "Whenever a <h>Teammate</h> enters the hand, deal <Level /> damage to a random enemy. Whenever a summoned <h>Teammate</h> leaves the hand, gain <Mana />."
+  },
+  "ReimuUnifierDivineForgeSe": {
+    "Name": "Divine Forge",
+    "Description": "At the start of the turn, add a <h>Youkai-Forged Needle</h> to the hand.   "
+  },
+  "ReimuUnifierDuplexBarrierDanmakuMirrorSe": {
+    "Name": "Duplex Barrier -Danmaku Mirror-",
+    "Description": "At the start of the turn, all summoned <h>Teammates</h> in the hand gain <he>1</he> <h>Unity</h>. <br />Whenever a <h>Teammate</h> is summoned by being played, if it isn't a copy, add a copy of it to the hand. It costs <Mana /> and has <h>Ethereal</h>. "
+  },
+  "ReimuUnifierEmotionalBoundarySynchronizationSe": {
+    "Name": "Emotional Boundary -Synchronization-",
+    "Description": "Whenever a <h>Teammate</h>'s <ha>Active Skill</ha> or <hu>Ultimate Skill</hu> is activated, all <h>Teammates</h> in hand gain <he>1</he> <h>Unity</h>."
+  },
+  "ReimuUnifierFantasySealDreamfiniteSe": {
+    "Name": "Dream Seal",
+    "Description": "At the start of the turn, deal <Level /> damage to a random enemy <Count /> times.   "
+  },
+  "ReimuUnifierFlowerViewingPartySe": {
+    "Name": "Flower Viewing",
+    "Description": "Whenever a <h>Teammate</h> is summoned by being played, add <he>1</he> <h>Midsummer Flowers</h> to the hand. If it's the first time this turn, gain <Mana />."
+  },
+  "ReimuUnifierInnateDreamCounterSe": {
+    "Name": "Ritual Orbs",
+    "Description": "You have <Level /> <h>Hakurei Ritual Orbs</h>."
+  },
+  "ReimuUnifierNeedleSparkSealSe": {
+    "Name": "Sparking Sealing Needles",
+    "Description": "<h>Youkai-Forged Needles</h> deal damage to each enemy and apply <he>2</he> additional Lock-On to each enemy. "
+  },
+  "ReimuUnifierNextAttackAccurateSe": {
+    "Name": "Mountain Rain",
+    "Description": "Your next <Level /> attacks are <h>Accurate</h>.  "
+  },
+  "ReimuUnifierNitoriLochNessSe": {
+    "Name": "Loch Ness Laser Barrage",
+    "Description": "At the end of <PlayerName />'s turn, deal 0 damage, increased by <he>5</he> for each turn <PlayerName /> has taken. "
+  },
+  "ReimuUnifierOccultBallSe": {
+    "Name": "Occult Balls",
+    "Description": "You've gathered <Count /> <h>Occult Balls</h>."
+  },
+  "ReimuUnifierOmnidirectionalBarrageSe": {
+    "Name": "Omnidirectional Barrage",
+    "Description": "Whenever a <h>Team Up</h> is activated, activate the chosen <h>Teammate</h>'s first <h>Passive Skill</h>."
+  },
+  "ReimuUnifierOnHitTempFPSe": {
+    "Name": "Oni's Rising Anger",
+    "Description": "Until <PlayerName />'s next turn, gain <Level /> <h>Temporary Firepower</h> whenever you take attack damage."
+  },
+  "ReimuUnifierPCBReflectSe": {
+    "Name": "Cherry Bomb",
+    "Description": "The next <Level /> times <h>Cherry Border</h> is activated, each enemy loses life equal to the prevented life loss."
+  },
+  "ReimuUnifierPerfectCherryBorderSe": {
+    "Name": "Cherry Border",
+    "Description": "Prevent the next <Level /> times you would lose life.  "
+  },
+  "ReimuUnifierRabbleRousingSe": {
+    "Name": "Rabble Rousing",
+    "Description": "At the start of <PlayerName />'s next <Duration /> turns, add a random Common <h>Teammate</h> to the hand."
+  },
+  "ReimuUnifierRetributiveBoundarySe": {
+    "Name": "Retributive Boundary",
+    "Description": "Until <PlayerName />'s next turn, whenever you take attack damage from an enemy's whole attack, add a <h>Youkai-Forged Needle</h> to the hand. "
+  },
+  "ReimuUnifierRetributiveBoundaryUpgSe": {
+    "Name": "Retributive Boundary -Enhanced-",
+    "Description": "Until <PlayerName />'s next turn, whenever <PlayerName /> takes attack damage from an enemy's whole attack, add a <h>Youkai-Forged Needle+</h> to the hand. "
+  },
+  "ReimuUnifierRisingSynergySe": {
+    "Name": "Rising Synergy",
+    "Description": "Whenever <h>Teammates</h> deal attack damage to an enemy, gain <he>1</he> <h>Temporary Firepower</h>."
+  },
+  "ReimuUnifierRitualofEchoingProsperitySe": {
+    "Name": "Prosperous Echo",
+    "Description": "At the start of <PlayerName />'s turn, gain <Level /> <h>Temporary Spirit</h> and <Level /> <h>Temporary Firepower</h> for each summoned <h>Teammate</h> in the hand."
+  },
+  "ReimuUnifierScarletFateSe": {
+    "Name": "Scarlet Devil's Trickery",
+    "Description": "Remilia will end <PlayerName />'s turn after <Count /> card plays."
+  },
+  "ReimuUnifierSubterraneanAdventureSe": {
+    "Name": "Subterranean Adventure",
+    "Description": "Maximum hand size increased to <MaxHand />."
+  },
+  "ReimuUnifierSumirekoDoppelgangerSe": {
+    "Name": "Sumireko's Doppelganger",
+    "Description": "Sumireko's Doppelganger is copying every card you play this turn!"
+  },
+  "ReimuUnifierWilyBeastStrikeSe": {
+    "Name": "Wily Beast's Strike",
+    "Description": "The next <Level /> times a <h>Teammate</h>'s <ha>Active Skill</ha> or <hu>Ultimate Skill</hu> is activated, copy it."
+  },
+  "ReimuUnifierYukariArcanumSe": {
+    "Name": "Yukari's Arcanum -Danmaku Barrier-",
+    "Description": "At the end of <PlayerName />'s turn, gain <Level /> <h>Barrier</h>, then deal damage equal to your <h>Barrier</h> to a random enemy. <Count /> turns remaining."
+  },
+  "ReimuUnifierYukariLifeLossSe": {
+    "Name": "Underside of Uncommon Sense",
+    "Description": "At the start of <PlayerName />'s next turn, each enemy loses <Level /> life."
+  },
+  "TeamUpSe": {
+    "Name": "Team Up [Condition]",
+    "Description": "This is a workaround to add keywords description to cards.    "
+  },
+
   "AmuletForEnemy": {
     "Name": "Bulwark",
     "Description": "Negate the next <Level /> non-Status cards that would be added (<h>Exile</h> them instead)."
