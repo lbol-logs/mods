@@ -710,6 +710,398 @@
     "Description": "造成 <Damage /> 点伤害。<br /><h>咏唱</h> <Value1 /> 个<h>水符</h>。<br /><h>咏唱</h> <Value1 /> 个<h>木符</h>。<br /><h>每层增幅</h>：<SelfName />的费用减少<Mana />。"
   },
 
+  "ReimuUnifierAttackR": {
+    "Name": "联合突击",
+    "Description": "造成 <Damage /> 点伤害。"
+  },
+  "ReimuUnifierAttackW": {
+    "Name": "净化之杖打击",
+    "Description": "造成 <Damage /> 点伤害。"
+  },
+  "ReimuUnifierAunnShrineGuardianFriend": {
+    "Name": "高丽野阿吽·神社守护者",
+    "PassiveDescription": "<hl>狛犬之护：</hl> <h>放逐</h>手牌、抽牌堆或弃牌堆中的一张随机<h>厄运</h>。",
+    "ActiveDescription": "<hg>狛犬旋转：</hg> 获得 <Block /> 点<h>格挡</h>、 <Shield /> 点<h>护盾</h>、 <Value1 /> 层<h>护身符</h>、 <Value1 /> 点<h>庇护</h>、 <Value1 /> 层<h>闪避</h>和 <Value1 /> 点<h>暂得灵力</h>。",
+    "UltimateDescription": "<hd>守护符「石形」：</hd>  获得 <he>2</he> <h>封印</h>。防止下 <Value2 /> 次<PlayerName />失去生命。"
+  },
+  "ReimuUnifierAyaReporterOfFantasyFriend": {
+    "Name": "射命丸文·幻想记者",
+    "Description": "每当<PlayerName />打出<h>状态</h>牌时，获得 <he>1</he> 层<h>闪避</h>。",
+    "PassiveDescription": "<hf>文文新闻递送</hf>：将 <he>2</he> <h>文文新闻</h>加入抽牌堆。它们具有<h>填充</h>和<h>自动放逐</h>，费用减少 <Mana />。",
+    "ActiveDescription": "<hg>天狗限定特刊</hg>：<h>放逐</h>手牌中的每张<h>状态</h>牌。每以此方法放逐一张牌，获得 <he>1</he> 层<h>闪避</h>。",
+    "UltimateDescription": "<hu>幻影支配</hu>：获得“每当<PlayerName />打出一张牌，对随机敌人造成 <Value2 /> 点伤害”。",
+    "UpgradedUltimateDescription": "<hu>无双风神</hu>：每当<PlayerName />打出一张牌，对随机敌人造成 <Value2 /> 点伤害。"
+  },
+  "ReimuUnifierBanishingRitualDrainingStrike": {
+    "Name": "驱逐仪式 -吸取打击-",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>退治</h>：获得 <Value1 /> 点生命值。"
+  },
+  "ReimuUnifierBattleFever": {
+    "Name": "战斗狂热",
+    "Description": "每当<PlayerName />激活<h>组队</h>时，获得 <Mana />。"
+  },
+  "ReimuUnifierBattleForgedBonds": {
+    "Name": "战火铸就的羁绊",
+    "Description": "选择手牌、抽牌堆或弃牌堆中的一张牌<h>升级</h>它。如果是<h>同伴</h>牌，抽一张牌。"
+  },
+  "ReimuUnifierBlockR": {
+    "Name": "掩护火力",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
+  },
+  "ReimuUnifierBlockW": {
+    "Name": "强化结界",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
+  },
+  "ReimuUnifierCallForHelp": {
+    "Name": "求助",
+    "Description": "从抽牌堆中选择最多 <Value1 /> 张<h>同伴</h>加入手中。",
+    "UpgradedDescription": "从抽牌堆中选择最多 <Value1 /> 张<h>同伴</h>加入手中。"
+  },
+  "ReimuUnifierCallToArms": {
+    "Name": "武装号召",
+    "Description": "每有一张手牌中的召唤<h>同伴</h>，随机将一张<h>妖怪锻造针</h>或<h>通讯宝珠</h>加入手中。<br /><h>组队 [红色同伴]</h>：添加的牌费用减少 <Mana />。",
+    "UpgradedDescription": "随机将一张<h>妖怪锻造针</h>或<h>通讯宝珠</h>加入手中。每有一张手牌中的召唤<h>同伴</h>，重复此效果。<br /><h>组队 [红色同伴]</h>：添加的牌费用减少 <Mana />。"
+  },
+  "ReimuUnifierCautionaryBorder": {
+    "Name": "警戒结界",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />对所有敌人施加 <he>1</he> <h>虚弱</h>。"
+  },
+  "ReimuUnifierCombatRoleAssignment": {
+    "Name": "战斗角色分配",
+    "Description": "对随机敌人造成 <he>6</he> 点伤害。<br />获得 <he>6</he> 点<h>格挡</h>。<br /><h>组队 [红色同伴]：</h> 额外造成伤害 <he>1</he> 次。<br /><h>组队 [白色同伴]：</h> 额外获得<h>格挡</h> <he>1</he> 次。<br />可以与任意数量的<h>同伴</h><h>组队</h>。"
+  },
+  "ReimuUnifierCombinationStrikeCoordinatedPursuit": {
+    "Name": "组合打击 -协同追击-",
+    "Description": "每当<h>同伴</h>的 <ha>主动技能</ha> 或 <hu>终极技能</hu> 被激活时，下张攻击牌费用为 <Mana />。"
+  },
+  "ReimuUnifierCommunicatorOrbToken": {
+    "Name": "通讯宝珠",
+    "Description": "造成 <Damage /> 点伤害。<br />获得 <Shield /> 点<h>护盾</h>。<br />每有一张手牌中的召唤<h>同伴</h>，造成 <Value1 /> 点额外伤害并获得 <Value1 /> 点额外<h>护盾</h>。"
+  },
+  "ReimuUnifierConsumedByVengeanceMisfortuneToken": {
+    "Name": "被复仇吞噬",
+    "Description": "洗牌时，被放置在抽牌堆底部。"
+  },
+  "ReimuUnifierCooperativeBarrier": {
+    "Name": "协作结界",
+    "Description": "每有一张手牌中的召唤<h>同伴</h>，获得 <Value1 /> 点<h>暂得灵力</h>。<br />获得 <Block /> 点<h>格挡</h>。",
+    "UpgradedDescription": "获得 <Value2 /> 点<h>暂得灵力</h>。<br />每有一张手牌中的召唤<h>同伴</h>，获得 <Value1 /> 点额外<h>暂得灵力</h>。<br />获得 <Block /> 点<h>格挡</h>。"
+  },
+  "ReimuUnifierCoordinatedStrike": {
+    "Name": "协同打击",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>组队 [红色同伴]：</h> 额外造成一次伤害。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br /><h>组队 [红色同伴]：</h> 额外造成一次伤害。获得 <Mana />。"
+  },
+  "ReimuUnifierCursedBoundary": {
+    "Name": "诅咒结界 -共享痛苦-",
+    "Description": "每 <Mana />：失去 <he>1</he> 点生命值并造成 <Damage /> 点伤害。<br /><h>组队 [依神女苑]</h>：每 <Mana />：获得 <Value1 /><Money />。"
+  },
+  "ReimuUnifierDanmakuCollision": {
+    "Name": "弹幕碰撞",
+    "Description": "<PlayerName />的回合结束时，每有一张手牌中的召唤<h>同伴</h>，获得 <Value1 /> 点<h>格挡</h>。"
+  },
+  "ReimuUnifierDarknessOfTheCrow": {
+    "Name": "乌鸦之暗",
+    "Description": "每当<PlayerName /><h>闪避</h>一次攻击，以及<PlayerName />的回合结束时，对所有敌人造成 <Value1 /> 点伤害。<br /><h>组队 [射命丸文]</h>：获得 <Value2 /> 层<h>闪避</h>。"
+  },
+  "ReimuUnifierDeepRain": {
+    "Name": "山中深雨",
+    "Description": "获得 <Value1 /> 层<h>闪避</h>。<br />下 <Value2 /> 张非<h>精准</h>攻击牌获得<h>精准</h>。",
+    "UpgradedDescription": "获得 <Value1 /> 层<h>闪避</h>。<br />下 <Value2 /> 张非<h>精准</h>攻击牌获得<h>精准</h>。"
+  },
+  "ReimuUnifierDimensionalRiftBoundary": {
+    "Name": "次元裂隙 -结界-",
+    "Description": "每当<h>同伴</h>进入手中时，对随机敌人造成 <Value1 /> 点伤害。<br />每当召唤<h>同伴</h>离开手牌时，获得 <Mana />。"
+  },
+  "ReimuUnifierDivineForge": {
+    "Name": "神圣锻炉",
+    "Description": "<PlayerName />的回合开始时，将一张<h>妖怪锻造针</h>加入手中。"
+  },
+  "ReimuUnifierDoubleDealing": {
+    "Name": "双重交易",
+    "Description": "获得 <he>1</he> <h>易伤</h>和 <he>1</he> <h>虚弱</h>。召唤手牌中的一张<h>同伴</h>。<br /><h>组队 [少名针妙丸]</h>：手牌中的每张<h>同伴</h>获得 <he>1</he> <h>支援度</h>。",
+    "UpgradedDescription": "随机获得 <he>1</he> <h>易伤</h>或 <he>1</he> <h>虚弱</h>。召唤手牌中的一张<h>同伴</h>。<br /><h>组队 [少名针妙丸]</h>：手牌中的每张<h>同伴</h>获得 <he>1</he> <h>支援度</h>。"
+  },
+  "ReimuUnifierDuplexBarrierDanmakuMirror": {
+    "Name": "二重结界 -弹幕镜-",
+    "Description": "<PlayerName />的回合开始时，手牌中的每张召唤<h>同伴</h>获得 <he>1</he> <h>支援度</h>。<br />每当<h>同伴</h>通过打出被召唤时，将其<h>复制</h>加入手中。它费用为 <Mana />，具有<h>虚无</h>。"
+  },
+  "ReimuUnifierEmbodimentOfTheScarletDevil": {
+    "Name": "绯红恶魔的化身",
+    "Description": "将 <he>1</he> <h>不稳定药水</h>加入手中。获得 <he>5</he> 点生命值。获得 <he>1</he> 点<h>火力</h>。<br />结束<PlayerName />的回合。然后，获得一个额外回合。直到<PlayerName />的下个自然回合，<PlayerName /> 的回合在打出 <he>5</he> 张牌后结束。<br />每场战斗只有第一张 会生效。"
+  },
+  "ReimuUnifierEmotionalBoundarySynchronization": {
+    "Name": "情感结界：同步",
+    "Description": "每当<h>同伴</h>的 <ha>主动</ha> 或 <hu>终极技能</hu> 被激活时，手牌中的每张<h>同伴</h>获得 <he>1</he> <h>支援度</h>。"
+  },
+  "ReimuUnifierEmpoweringRitual": {
+    "Name": "赋能仪式",
+    "Description": "获得 <Value1 /> 点<h>暂得火力</h>。<br />获得 <he>1</he> <h>封印</h>。"
+  },
+  "ReimuUnifierFaithlessMountainAssault": {
+    "Name": "无信仰山袭击",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br /><h>放逐</h>：将一张<h>被复仇吞噬</h>加入牌库。"
+  },
+  "ReimuUnifierFantasySealDreamfinite": {
+    "Name": "梦想封印 -Dreamfinite-",
+    "Description": "每支付<Mana />：<PlayerName />的回合开始时，对生命值最高的敌人造成 <Value1 /> 点伤害。"
+  },
+  "ReimuUnifierFierceGodWillOWisp": {
+    "Name": "鬼神之火",
+    "Description": "对随机敌人造成 <Damage /> 点伤害 <Value1 /> 次。<br /><h>组队 [白色同伴]：</h> 额外造成一次伤害。<br /><h>组队 [红色同伴]：</h> 获得<h>精准</h>。"
+  },
+  "ReimuUnifierFlowerViewingParty": {
+    "Name": "赏花会",
+    "Description": "每当<h>同伴</h>通过打出被召唤时，将 <he>1</he> <h>盛夏之花</h>加入手中。<br />每回合一次，同时获得 <Mana />。"
+  },
+  "ReimuUnifierFourFairiesFriend": {
+    "Name": "白吃白喝的妖精们",
+    "PassiveDescription": "<he>妖精弹幕齐射：</he> 对随机敌人造成 <Damage /> 点攻击伤害 <Value1 /> 次。",
+    "ActiveDescription": "<hg>妖精增援：</hg> 选择一张 <he>光之妖精</he>加入手中。它进入手中时已召唤。",
+    "UltimateDescription": "<hd>隐藏之星季节：</hd> 将三张 <he>光之妖精</he>加入手中。它们进入时已召唤并带有 <he>9</he> <h>支援度</h>。",
+    "UpgradedUltimateDescription": "<hp>净化狂焰火炬：</hp> 将四张 <he>光之妖精</he>加入手中。它们进入时已召唤并带有 <he>9</he> <h>支援度</h>。"
+  },
+  "ReimuUnifierFriendOfAFriend": {
+    "Name": "朋友的朋友",
+    "Description": "从 <Value2 /> 张<hp>完全随机</hp><h>同伴</h>中选择最多 <Value1 /> 张加入手中。它们<h>暂塑</h>为 <Mana />，具有<h>虚无</h>。"
+  },
+  "ReimuUnifierHermitsTraining": {
+    "Name": "仙人之训",
+    "Description": "<h>组队 [茨木华扇]</h>：获得 <Value1 /> 点<h>暂得火力</h>。<br />获得 <Block /> 点<h>格挡</h>。如果<PlayerName />有<h>暂得火力</h>，则改为获得 <Shield /> 点<h>格挡</h>和 <Shield /> 点<h>护盾</h>。"
+  },
+  "ReimuUnifierInnateDream": {
+    "Name": "梦想天生",
+    "Description": "获得 <he>1</he> <h>阴阳玉</h>。如果<PlayerName />已有 <he>7</he> <h>阴阳玉</h>，则失去所有<h>阴阳玉</h>，获得 <he>99</he> <h>天衣无缝</h>并<h>放逐</h><SelfName />。"
+  },
+  "ReimuUnifierKasenWildhornFriend": {
+    "Name": "茨木华扇·野性与角",
+    "PassiveDescription": "<hd>鹰之信标：</hd> 对生命值最低的敌人造成 <Damage /> 点攻击伤害 <Value1 /> 次。",
+    "ActiveDescription": "<hp>仙人之训：</hp> 获得 <Value2 /> 点<h>灵力</h>和 <Value2 /> 点<h>火力</h>。",
+    "UpgradedActiveDescription": "<hp>仙人之训：</hp> 获得 <Value2 /> 点<h>灵力</h>、 <Value2 /> 点<h>火力</h>和 <Value2 /> 层<h>闪避</h>。",
+    "UltimateDescription": "<hu>猴爪！碾碎我的敌人！：</hu> 从抽牌堆和弃牌堆中将攻击牌加入手中直到手牌满。它们<h>暂塑</h>为 <Mana />。"
+  },
+  "ReimuUnifierKogasaYoukaiBlacksmithFriend": {
+    "Name": "多多良小伞·妖怪铁匠",
+    "PassiveDescription": "<hb>铁匠专精：</hb> <h>升级</h>手牌中 <he>1</he> 张随机牌。",
+    "UpgradedPassiveDescription": "<hb>铁匠专精：</hb> <h>升级</h>手牌中 <he>2</he> 张随机牌。",
+    "ActiveDescription": "<hu>唐伞惊闪：</hu> 每有一张手牌中的<h>升级</h>牌，对随机敌人造成 <Damage /> 点攻击伤害。",
+    "UpgradedActiveDescription": "<hu>唐伞惊闪：</hu> 对随机敌人造成 <Damage /> 点攻击伤害。每有一张手牌中的<h>升级</h>牌，重复此效果。",
+    "UltimateDescription": "<hp>轻落大雨滴：</hp> 将<h>妖怪锻造针</h>加入手中直到手牌满。",
+    "UpgradedUltimateDescription": "<hp>暴风雨惊喜：</hp> 将<h>妖怪锻造针+</h>加入手中直到手牌满。"
+  },
+  "ReimuUnifierKosuzuDecipheringBibliophileFriend": {
+    "Name": "古明地觉·解读书痴",
+    "PassiveDescription": "对所有敌人施加 <Value1 /> 层<h>锁定</h>。",
+    "ActiveDescription": "对所有敌人施加 <he>1</he> <h>易伤</h>和 <Value2 /> 层<h>锁定</h>。",
+    "UltimateDescription": "移除所有敌人的<h>闪避</h>、<h>光学迷彩</h>和<h>天衣无缝</h>，然后对所有敌人施加 <he>1</he> <h>易伤</h>。"
+  },
+  "ReimuUnifierMaidensDivineChanneling": {
+    "Name": "巫女的神灵通道",
+    "Description": "<h>组队 [东风谷早苗]：</h> 获得 <he>1</he> 层<h>护身符</h>。<br />获得 <Block /> 点<h>格挡</h>。每有<PlayerName />的一个增益，获得 <he>2</he> 点<h>护盾</h>。"
+  },
+  "ReimuUnifierMarisaIncidentSolverFriend": {
+    "Name": "魔理沙·事件解决者",
+    "PassiveDescription": "<hl>红色星爆：</hl> 对所有敌人造成 <Damage /> 点攻击伤害。",
+    "ActiveDescription": "<hi>最终火花：</hi> 对所有敌人造成 <Value1 /> 点<h>精准</h>攻击伤害。",
+    "UltimateDescription": "<hu>魔炮 -Final Master Spark-：</hu> 进入<h>爆发</h>。对所有敌人造成 <Value2 /> 点<h>精准</h>伤害。"
+  },
+  "ReimuUnifierMarisaKirisameFriend": {
+    "Name": "雾雨魔理沙",
+    "PassiveDescription": "<hd>八卦炉射击：</hd> 对生命值最低的敌人造成 <Damage /> 点攻击伤害。<PlayerName />的下回合开始时获得 <he>1</he> <h>充能</h>",
+    "ActiveDescription": "<hi>火焰激光：</hi> 对生命值最低的敌人造成 <Value1 /> 点攻击伤害并施加 <he>1</he> <h>易伤</h>。获得 <he>2</he> <h>充能</h>。",
+    "UpgradedActiveDescription": "<hi>火焰激光：</hi> 对生命值最低的敌人造成 <Value1 /> 点攻击伤害 <he>2</he> 次并施加 <he>1</he> <h>易伤</h>。获得 <he>2</he> <h>充能</h>。",
+    "UltimateDescription": "<hu>恋符「Master Spark」：</hu> 对所有敌人造成 <Value2 /> 点<h>精准</h>攻击伤害。"
+  },
+  "ReimuUnifierMercilessRodFriendToken": {
+    "Name": "无情净化杖",
+    "Description": "<hd>弱小之力</hd>：每当打出普通牌时，获得 <Value1 /> 点<h>火力</h>。",
+    "UpgradedDescription": "<hd>弱小之力</hd>：每当打出普通牌时，获得 <Value1 /> 点<h>火力</h>和 <Value1 /> 点<h>暂得火力</h>。",
+    "UltimateDescription": "<hd>妖器 -无情净化杖-</hd>：对所有敌人造成 <Damage /> 点攻击伤害 <he>8</he> 次。"
+  },
+  "ReimuUnifierNeedleSparkSeal": {
+    "Name": "针星封印月之贵族",
+    "Description": "<h>妖怪锻造针</h> 对所有敌人造成伤害并施加 <he>2</he> 层<h>锁定</h>，而非伤害单个目标。此效果不叠加。<br />将一张<h>妖怪锻造针</h>加入手中。<br /><h>组队 [魔理沙]：</h> 再添加一张。"
+  },
+  "ReimuUnifierNitoriBusinessPartnerFriend": {
+    "Name": "河城荷取·商业伙伴",
+    "Description": "获得 <he>10</he><Money />。",
+    "ActiveDescription": "<hb>河童无人机技术</hb>：移除<PlayerName />的<h>虚弱</h>和<h>易伤</h>。",
+    "UpgradedActiveDescription": "<hb>河童无人机技术</hb>：移除<PlayerName />的<h>虚弱</h>、<h>易伤</h>、<h>锁定</h>和<h>脆弱</h>。",
+    "UltimateDescription": "<hs>尼斯湖就在此刻此地！</hs>：在回合结束时，本场战斗中每经过一个回合，造成 <Value2 /> 点伤害。"
+  },
+  "ReimuUnifierOmnidirectionalBarrage": {
+    "Name": "全方位齐射",
+    "Description": "每当<PlayerName />激活<h>组队</h>时，激活所选<h>同伴</h>的第一个<h>被动技能</h>。"
+  },
+  "ReimuUnifierPerfectCherryBorder": {
+    "Name": "完美樱花结界",
+    "Description": "防止下次<PlayerName />失去生命。<br /><h>组队 [八云紫]：</h> 当此效果激活时，所有敌人失去等于防止生命损失的生命值。",
+    "UpgradedDescription": "防止下 <Value1 /> 次<PlayerName />失去生命。<br /><h>组队 [八云紫]：</h> 当此效果激活时，所有敌人失去等于防止生命损失的生命值。"
+  },
+  "ReimuUnifierPerfectPosession": {
+    "Name": "完美凭依",
+    "Description": "选择最多 <he>1</he> 张牌。<h>放逐</h>手牌中除所选牌外的所有牌。每<h>放逐</h>一张牌，获得 <he>3</he> 点<h>护盾</h>。每<h>放逐</h>一张<h>同伴</h>，同时获得 <Mana />。"
+  },
+  "ReimuUnifierPowerOfTheImmaterial": {
+    "Name": "无形之力",
+    "Description": "<h>组队 [伊吹萃香]：</h> 获得 <Value1 /> 点<h>暂得火力</h>。<br />造成 <Damage /> 点伤害 <Value2 /> 次。如果<PlayerName />有<h>暂得火力</h>，则额外造成等量伤害 <he>1</he> 次。"
+  },
+  "ReimuUnifierPurifyingStrike": {
+    "Name": "净化打击",
+    "Description": "造成 <Damage /> 点伤害。<br />每造成 <he>10</he> 点未格挡伤害，移除<PlayerName />的一个随机减益。"
+  },
+  "ReimuUnifierPurpleReproach": {
+    "Name": "紫色的谴责之针",
+    "Description": "将 <he>2</he> 张<h>妖怪锻造针</h>加入手中。",
+    "UpgradedDescription": "将 <he>2</he> 张<h>妖怪锻造针+</h>加入手中。"
+  },
+  "ReimuUnifierRabbleRousing": {
+    "Name": "煽动群众",
+    "Description": "<PlayerName />的下 <he>3</he> 个回合开始时，将一张随机普通<h>同伴</h>加入手中。"
+  },
+  "ReimuUnifierRainDance": {
+    "Name": "雨之舞",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。"
+  },
+  "ReimuUnifierReinforcedBoundary": {
+    "Name": "加固结界",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />选择手牌中最多 <he>1</he> 张召唤<h>同伴</h>，激活其 <hf>被动技能</hf>。"
+  },
+  "ReimuUnifierRetributiveBoundary": {
+    "Name": "报复结界",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />直到<PlayerName />的下个回合，每当<PlayerName />受到敌人完整攻击的伤害时，将一张<h>妖怪锻造针</h>加入手中。",
+    "UpgradedDescription": "获得 <Shield /> 点<h>护盾</h>。<br />直到<PlayerName />的下个回合，每当<PlayerName />受到敌人完整攻击的伤害时，将一张<h>妖怪锻造针+</h>加入手中。"
+  },
+  "ReimuUnifierRisingSynergy": {
+    "Name": "上升协同",
+    "Description": "每当你的<h>同伴</h>对敌人造成攻击伤害时，获得 <he>1</he> 点<h>暂得火力</h>。"
+  },
+  "ReimuUnifierRitualofEchoingProsperity": {
+    "Name": "回响繁荣仪式",
+    "Description": "<PlayerName />的回合开始时，每有一张手牌中的召唤<h>同伴</h>，获得 <Value1 /> 点<h>暂得灵力</h>和 <Value1 /> 点<h>暂得火力</h>。"
+  },
+  "ReimuUnifierRitualOfTheSeasons": {
+    "Name": "四季仪式",
+    "Description": "从抽牌堆中将每种颜色的随机<h>同伴</h>加入手中。<br /><h>组队[高丽野阿吽]</h>：每选择一张<h>同伴</h>，获得1点其颜色的法力。"
+  },
+  "ReimuUnifierRitualPowerConduit": {
+    "Name": "仪式 -能量导管-",
+    "Description": "选择手牌中的一张<h>同伴</h>召唤。每有一张手牌中的召唤<h>同伴</h>，激活其<h>被动技能</h>一次。",
+    "UpgradedDescription": "选择手牌中的一张<h>同伴</h>召唤。激活其<h>被动技能</h>一次，然后每有一张手牌中的召唤<h>同伴</h>，再激活一次。"
+  },
+  "ReimuUnifierSanaeHumanGodFriend": {
+    "Name": "东风谷早苗·现人神",
+    "Description": "获得 <Value1 /> 层<h>护身符</h>。",
+    "UpgradedDescription": "获得 <Value1 /> 层<h>护身符</h>。",
+    "PassiveDescription": "<he>秘术 -灰符-</he>：获得相当于<PlayerName />增益数量 <he>2</he> 倍的<h>格挡</h>。",
+    "UpgradedPassiveDescription": "<he>秘术 -灰符-</he>：获得相当于<PlayerName />增益数量 <he>2</he> 倍的<h>护盾</h>。",
+    "ActiveDescription": "<hp>被遗忘的仪式：</hp> <h>放逐</h>手牌中最多 <he>2</he> 张牌。获得等量的<h>庇护</h>。",
+    "UpgradedActiveDescription": "<hp>被遗忘的仪式：</hp> <h>放逐</h>手牌、抽牌堆或弃牌堆中最多 <he>2</he> 张牌。获得等量的<h>庇护</h>。"
+  },
+  "ReimuUnifierScarletNeedleRain": {
+    "Name": "绯红针雨",
+    "Description": "对所有敌人，对所有敌人造成 <Damage /> 点伤害。<br />对所有敌人，对所有敌人施加 <he>1</he> <h>易伤</h>。"
+  },
+  "ReimuUnifierShinmyoumaruInchlingPrincessFriend": {
+    "Name": "少名针妙丸·寸法公主",
+    "Description": "<hd>弱小之力</hd>：每当打出普通牌时，获得 <he>1</he> <h>支援度</h>。",
+    "ActiveDescription": "<hd>槌「变大！」 </hd>：获得 <Value1 /> 点<h>火力</h>。",
+    "UpgradedActiveDescription": "<hd>槌「变得更大！」 </hd>：获得 <Value1 /> 点<h>火力</h>。",
+    "Active2Description": "<hd>辉针剑</hd>：从抽牌堆中将随机普通牌加入手中直到手牌满。获得 <Mana />。",
+    "UltimateDescription": "<hk>辉光宝藏 -万宝槌-</hk>：将一张召唤<h>无情净化杖</h>加入手中。",
+    "UpgradedUltimateDescription": "<hk>辉光宝藏 -万宝槌-</hk>：将一张召唤<h>无情净化杖+</h>加入手中。"
+  },
+  "ReimuUnifierShionImpoverishedDeityFriend": {
+    "Name": "依神女苑·疫病之神",
+    "Description": "获得 <he>15</he><Money />。",
+    "PassiveDescription": "<hd>陷入贫困</hd>：对生命值最低的敌人造成 <Damage /> 点<h>精准</h>伤害两次。失去 <he>5</he><Money />。",
+    "ActiveDescription": "<hs>拔鸽子毛</hs>：对所有敌人造成 <he>15</he> 点伤害。每击中一个敌人，获得 <he>1</he> 层<h>闪避</h>并失去 <he>5</he><Money />。",
+    "UltimateDescription": "<hp>交换 -绝对输家-</hp>：立即击败所有无名敌人。将一张<h>破财消灾</h>加入牌库。"
+  },
+  "ReimuUnifierShrineDefense": {
+    "Name": "保卫博丽神社！",
+    "Description": "将随机<h>同伴</h>牌加入手中直到手牌满。<br /><h>组队 [博丽宾客]</h>：每有一个有效<h>组队</h>，获得 <Mana />。",
+    "UpgradedDescription": "将随机<h>同伴</h>牌加入手中直到手牌满。它们<h>暂塑</h>为 <he>1</he> 点随机法力减少。<br /><h>组队 [博丽宾客]</h>：每有一个有效<h>组队</h>，获得 <Mana />。"
+  },
+  "ReimuUnifierStrikeOfHisoutensoku": {
+    "Name": "非想天则打击",
+    "Description": "造成 <Damage /> 点伤害。对目标每有一个减益，造成 <Value1 /> 点额外伤害。<br /><h>组队 [东风谷早苗]</h>：对目标每有一个减益，施加 <he>1</he> <h>暂失火力</h>。",
+    "UpgradedDescription": "<h>组队 [东风谷早苗]</h>：对目标每有一个减益，施加 <he>1</he> <h>暂失火力</h>。<br />造成 <Damage /> 点伤害。对目标每有一个减益，造成 <Value1 /> 点额外伤害。"
+  },
+  "ReimuUnifierSubterraneanAdventure": {
+    "Name": "地底冒险",
+    "Description": "手牌上限增加至 <MaxHand />。<br />将一张<h>通讯宝珠</h>加入手中。<br /><h>组队 [八云紫]：</h> 将一张带<h>虚无</h>的<h>紫色的谴责之针</h>加入手中。它<h>暂塑</h>为 <Mana />。<br /><h>组队 [伊吹萃香]：</h> 将一张带<h>虚无</h>的<h>鬼神之火</h>加入手中。它<h>暂塑</h>为 <Mana />。<br /><h>组队 [射命丸文]：</h> 将一张带<h>虚无</h>的<h>山中深雨</h>加入手中。它<h>暂塑</h>为 <Mana />。"
+  },
+  "ReimuUnifierSuikaGourdOniFriend": {
+    "Name": "伊吹萃香·鬼之葫芦",
+    "PassiveDescription": "<hu>缺失之力：</hu> 将一张带<h>虚无</h>的<h>小酌怡情</h>加入手中。",
+    "ActiveDescription": "<hp>缺失的紫色力量：</hp> 将<h>放逐</h>堆中的所有<h>小酌怡情</h>返回手中。",
+    "UltimateDescription": "<hd>反袭针黑穴：</hd> 获得 <Value1 /> 点<h>天衣无缝</h>。直到<PlayerName />的下个回合，每当<PlayerName />受到攻击伤害时，获得 <Value2 /> 点<h>暂得火力</h>。"
+  },
+  "ReimuUnifierSumirekoDreamVisitorFriend": {
+    "Name": "宇佐见堇子·秘封访客",
+    "PassiveDescription": "<hd>念力应用</hd>：获得 <he>1</he> <h>灵异珠</h>。",
+    "ActiveDescription": "<he>3D打印枪</he>：每有 <h>灵异珠</h>，对生命值最低的敌人造成 <Damage /> 点伤害。",
+    "Active2Description": "<hp>齐纳卡手里剑</hp>：每有 <h>灵异珠</h>，失去 <he>1</he> 点生命值，抽 <he>1</he> 张牌并获得 <Mana />。",
+    "UltimateDescription": "<hs>召唤二重身</hs>：如果<PlayerName />至少有7个 <h>灵异珠</h>，失去所有 <h>灵异珠</h>。然后，在此回合，<h>复制</h>每张打出的牌。",
+    "UpgradedUltimateDescription": "<hs>世纪双重ESPer</hs>：如果<PlayerName />至少有7个 <h>灵异珠</h>，失去所有 <h>灵异珠</h>并抽牌直到手牌满。然后，在此回合，<h>复制</h>每张打出的牌。"
+  },
+  "ReimuUnifierSummoningRitual": {
+    "Name": "召唤仪式",
+    "Description": "抽 <Value1 /> 张牌。<br />每以此方法抽到一张<h>同伴</h>，获得 <Mana />。"
+  },
+  "ReimuUnifierSupplyRun": {
+    "Name": "补给行动",
+    "Description": "从抽牌堆或弃牌堆中将一张随机<h>同伴</h>加入手中。抽 <he>2</he> 张牌。"
+  },
+  "ReimuUnifierSynchronizedRitualArray": {
+    "Name": "同步仪式阵列",
+    "Description": "<h>回合结束时</h>：对随机敌人造成 <Value1 /> 点伤害 <Value2 /> 次。<br /><h>手牌中</h>：每当<PlayerName />通过打出牌召唤<h>同伴</h>时，增加 造成伤害的次数 <he>1</he>。"
+  },
+  "ReimuUnifierTagIn": {
+    "Name": "换入",
+    "Description": "<h>放逐</h>手牌中最多 <he>1</he> 张牌。如果是<h>同伴</h>，则每有 <h>支援度</h>，获得 <Value1 /> 点<h>护盾</h>。",
+    "UpgradedDescription": "<h>放逐</h>手牌、抽牌堆或弃牌堆中最多 <he>1</he> 张牌。如果是<h>同伴</h>，则每有 <h>支援度</h>，获得 <Value1 /> 点<h>护盾</h>。"
+  },
+  "ReimuUnifierTagOut": {
+    "Name": "换出",
+    "Description": "<h>放逐</h>手牌中最多 <he>1</he> 张牌。如果是<h>同伴</h>，则将抽牌堆中的一张随机未召唤<h>同伴</h>加入手中并召唤它。",
+    "UpgradedDescription": "<h>放逐</h>手牌、抽牌堆或弃牌堆中最多 <he>1</he> 张牌。如果是<h>同伴</h>， 则将抽牌堆中的一张随机未召唤<h>同伴</h>加入手中并召唤它。"
+  },
+  "ReimuUnifierTrueTrichromaticLotusButterfly": {
+    "Name": "真三色莲花蝶",
+    "Description": "<h>组队 [魔理沙]：</h> 造成 <Damage /> 点伤害 <he>10</he> 次。失去2点<h>火力</h>。<br /><h>充盈</h>：获得 <Mana />。",
+    "UpgradedDescription": "<h>组队 [魔理沙]：</h> 造成 <Damage /> 点伤害 <he>10</he> 次。造成 <Value2 /> 点伤害。失去 <he>2</he> 点<h>火力</h>。<br /><h>充盈</h>：获得 <Mana />。"
+  },
+  "ReimuUnifierWilyBeastStrike": {
+    "Name": "狡兽打击",
+    "Description": "下张<h>同伴</h>的 <ha>主动</ha> 或 <hu>终极技能</hu> 将被打出两次。",
+    "UpgradedDescription": "下 <Value1 /> 张<h>同伴</h>的 <ha>主动</ha> 或 <hu>终极技能</hu> 将被打出两次。"
+  },
+  "ReimuUnifierWisdomOfHumanity": {
+    "Name": "人类智慧",
+    "Description": "<h>组队 [人类]</h>：每有一个有效<h>组队</h>，抽一张牌。<br />每有一张手牌，获得 <he>3</he> 点<h>格挡</h>。",
+    "UpgradedDescription": "<h>组队 [人类]</h>：每有一个有效<h>组队</h>，抽一张牌。<br />每有一张手牌，获得 <he>3</he> 点<h>护盾</h>。"
+  },
+  "ReimuUnifierYinYangCommunicationRitual": {
+    "Name": "阴阳通讯器",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />将一张<h>通讯宝珠</h>加入手中。"
+  },
+  "ReimuUnifierYoukaiForgedNeedle": {
+    "Name": "妖怪锻造针",
+    "Description": "造成 <Damage /> 点伤害。<br />如果本回合激活了 <h>同伴</h> 的 <ha>主动技能</ha> 或 <hu>终极技能</hu>，则 的费用为 <Mana />。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />施加 <Value1 /> 层<h>锁定</h>。<br />如果本回合激活了 <h>同伴</h> 的 <ha>主动技能</ha> 或 <hu>终极技能</hu>，则 的费用为 <Mana />。"
+  },
+  "ReimuUnifierYoukaiShrineMaiden": {
+    "Name": "妖怪巫女",
+    "Description": "获得 <Mana />。抽 <Value1 /> 张牌。将 <he>3</he> 张随机<h>厄运</h>加入弃牌堆。<br /><h>组队 [妖怪]</h>：每有一个有效<h>组队</h>，少添加 <he>1</he> 张<h>厄运</h>。超额<h>组队</h>每添加 <he>1</he> 点<h>庇护</h>。"
+  },
+  "ReimuUnifierYukariSageOfGensokyoFriend": {
+    "Name": "八云紫·幻想乡的贤者",
+    "PassiveDescription": "<hd>四重结界：</hd> 对所有敌人造成 <Damage /> 点攻击伤害。获得 <Value2 /> 点<h>格挡</h>。",
+    "ActiveDescription": "<hp>博丽二重结界：</hp> 将<PlayerName />的<h>格挡</h>转化为<h>护盾</h>，然后翻倍<PlayerName />的<h>护盾</h>。",
+    "UltimateDescription": "<hl>秘术 -弹幕结界-：</hl> 在此及下 <he>4</he> 个<PlayerName />的回合结束时，获得 <Value1 /> 点<h>护盾</h>，然后对随机敌人造成等于<PlayerName /><h>护盾</h>的伤害。"
+  },
   "ReimuUnifierYukariYakumoFriend": {
     "Name": "八云紫",
     "Description": "将一张<h>通讯宝珠</h>加入手中。",
