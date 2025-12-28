@@ -710,6 +710,14 @@
     "Description": "造成 <Damage /> 点伤害。<br /><h>咏唱</h> <Value1 /> 个<h>水符</h>。<br /><h>咏唱</h> <Value1 /> 个<h>木符</h>。<br /><h>每层增幅</h>：<SelfName />的费用减少<Mana />。"
   },
 
+  "ReimuUnifierYukariYakumoFriend": {
+    "Name": "八云紫",
+    "Description": "将一张<h>通讯宝珠</h>加入手中。",
+    "PassiveDescription": "<he>声静之界：</he> 将一张<h>通讯宝珠</h>加入手中。",
+    "ActiveDescription": "<hp>四重结界：</hp> 放逐一张手牌。获得相当于该牌费用 <he>6</he> 倍的<h>护盾</h>。",
+    "UltimateDescription": "<hd>非常识之背面：</hd> 获得 <he>1</he> <h>天衣无缝</h>。<PlayerName />的下个回合开始时，所有敌人失去 <Value2 /> 点生命值。"
+  },
+
   "SanaeAmuletDebuff": {
     "Name": "弘安东风谷",
     "Description": "<h>抉择</h>至少一项：<br />- 获得 <Value1 /> 点<h>火力</h>和 <Value1 /> 层<h>虚弱</h>。<br />- 获得 <Value1 /> 点<h>灵力</h>和 <Value1 /> 层<h>脆弱</h>。<br />- 获得 <Value1 /> 点最大生命，<Value1 /> 层<h>易伤</h>和<h>中毒</h>。"
