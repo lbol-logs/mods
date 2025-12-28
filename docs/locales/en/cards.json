@@ -1055,6 +1055,406 @@
     "Description": "Deal <Damage /> damage.<br /><h>Spellcast</h> <Value1 /> <h>Water Sign</h>.<br /><h>Spellcast</h> <Value1 /> <h>Wood Sign</h>.<br /><h>For each Boost</h>: <SelfName /> costs <Mana /> less to play."
   },
 
+  "ReimuUnifierAttackR": {
+    "Name": "Combined Assault",
+    "Description": "Deal <Damage /> damage."
+  },
+  "ReimuUnifierAttackW": {
+    "Name": "Purifying Rod Strike",
+    "Description": "Deal <Damage /> damage."
+  },
+  "ReimuUnifierAunnShrineGuardianFriend": {
+    "Name": "Aunn, Shrine Guardian",
+    "PassiveDescription": "|l:Koma-Inu's Protection|: <h>Exile</h> a random <h>Misfortune</h> from the hand, draw or discard pile.",
+    "ActiveDescription": "<hg>Koma-Inu Spin</hg>: Gain <Block /> <h>Block</h>, <Shield /> <h>Barrier</h>, <Value1 /> <h>Amulet</h>, <Value1 /> <h>Ward</h>, <Value1 /> <h>Graze</h> and <Value1 /> <h>Temporary Spirit</h>.",
+    "UltimateDescription": "<hd>Guardian Sign \"Form of Stone\"</hd>:  Gain <he>2</he> <h>Sealed</h>. Prevent the next <Value2 /> times <PlayerName /> would lose life."
+  },
+  "ReimuUnifierAyaReporterOfFantasyFriend": {
+    "Name": "Aya, Reporter of Fantasy",
+    "Description": "Whenever <PlayerName /> plays a <h>Status</h> card, gain <he>1</he> <h>Graze</h>.",
+    "PassiveDescription": "<hf>Bunbunmaru Delivery</hf>: Add <he>2</he> <h>Bunbunmaru Newspapers</h> to the draw pile. They have <h>Replenish</h> and <h>Auto-Exile</h> and cost <Mana /> less.",
+    "ActiveDescription": "<hg>Tengu Limited Special</hg>: <h>Exile</h> each <h>Status</h> card in the hand. Gain <he>1</he> <h>Graze</h> for each card exiled this way.",
+    "UltimateDescription": "<hu>Illusionary Dominance</hu>: Gain \"Whenever <PlayerName /> plays a card, deal <Value2 /> damage to a random enemy\".",
+    "UpgradedUltimateDescription": "<hu>Peerless Wind God</hu>: Whenever <PlayerName /> plays a card, deal <Value2 /> damage to a random enemy."
+  },
+  "ReimuUnifierBanishingRitualDrainingStrike": {
+    "Name": "Banishing Ritual -Draining Strike-",
+    "Description": "Deal <Damage /> damage.<br /><h>Expel</h>: Gain <Value1 /> life."
+  },
+  "ReimuUnifierBattleFever": {
+    "Name": "Battle Fever",
+    "Description": "Whenever <PlayerName /> activates a <h>Team Up</h>, gain <Mana />."
+  },
+  "ReimuUnifierBattleForgedBonds": {
+    "Name": "Battle-forged Bonds",
+    "Description": "Choose a card in the hand, draw pile or discard pile and <h>Upgrade</h> it. If it's a <h>Teammate</h> card, draw a card."
+  },
+  "ReimuUnifierBlockR": {
+    "Name": "Covering Fire",
+    "Description": "Gain <Block /> <h>Block</h>."
+  },
+  "ReimuUnifierBlockW": {
+    "Name": "Empowered Boundary",
+    "Description": "Gain <Block /> <h>Block</h>."
+  },
+  "ReimuUnifierCallForHelp": {
+    "Name": "Call For Help",
+    "Description": "Choose up to <Value1 /> <h>Teammate</h> from the draw pile and put them into the hand.",
+    "UpgradedDescription": "Choose up to <Value1 /> <h>Teammates</h> from the draw pile and put them into the hand."
+  },
+  "ReimuUnifierCallToArms": {
+    "Name": "Call To Arms",
+    "Description": "Randomly add a <h>Youkai-Forged Needle</h> or a <h>Communicator Orb</h> to the hand for each summoned <h>Teammate</h> in hand.<br /><h>Team Up [Red Teammate]</h>: The added cards cost <Mana /> less.",
+    "UpgradedDescription": "Randomly add a <h>Youkai-Forged Needle</h> or a <h>Communicator Orb</h> to the hand. Repeat for each summoned <h>Teammate</h> in hand.<br /><h>Team Up [Red Teammate]</h>: The added cards cost <Mana /> less."
+  },
+  "ReimuUnifierCautionaryBorder": {
+    "Name": "Cautionary Border",
+    "Description": "Gain <Block /> <h>Block</h>. <br />Apply <he>1</he> <h>Weak</h> to each enemy."
+  },
+  "ReimuUnifierCombatRoleAssignment": {
+    "Name": "Combat Role Assignment",
+    "Description": "Deal <he>6</he> damage to a random enemy.<br />Gain <he>6</he> <h>Block</h>.<br /><h>Team Up [Red Teammate]:</h> Deal damage <he>1</he> more time.<br /><h>Team Up [White Teammate]:</h> Gain <h>Block</h> <he>1</he> more time.<br />Can <h>Team Up</h> with any amount of <h>Teammates</h>."
+  },
+  "ReimuUnifierCombinationStrikeCoordinatedPursuit": {
+    "Name": "Combination Strike -Coordinated Pursuit-",
+    "Description": "Whenever a <h>Teammate</h>'s <ha>Active Skill</ha> or <hu>Ultimate Skill</hu> is activated, the next attack played costs <Mana /> to play."
+  },
+  "ReimuUnifierCommunicatorOrbToken": {
+    "Name": "Communicator Orb",
+    "Description": "Deal <Damage /> damage.<br />Gain <Shield /> <h>Barrier</h>. <br />Deal <Value1 /> additional damage and gain <Value1 /> additional <h>Barrier</h> for each summoned <h>Teammate</h> in the hand."
+  },
+  "ReimuUnifierConsumedByVengeanceMisfortuneToken": {
+    "Name": "Consumed by Vengeance",
+    "Description": "When shuffling, <SelfName /> is placed at the bottom of the draw pile."
+  },
+  "ReimuUnifierCooperativeBarrier": {
+    "Name": "Cooperative Barrier",
+    "Description": "Gain <Value1 /> <h>Temporary Spirit</h> for each summoned <h>Teammate</h> in the hand. <br />Gain <Block /> <h>Block</h>.",
+    "UpgradedDescription": "Gain <Value2 /> <h>Temporary Spirit</h>.<br />Gain <Value1 /> additional <h>Temporary Spirit</h> for each summoned <h>Teammate</h> in the hand.<br />Gain <Block /> <h>Block</h>."
+  },
+  "ReimuUnifierCoordinatedStrike": {
+    "Name": "Coordinated Strike",
+    "Description": "Deal <Damage /> damage.<br /><h>Team Up [Red Teammate]:</h> Deal damage an additional time.",
+    "UpgradedDescription": "Deal <Damage /> damage.<br /><h>Team Up [Red Teammate]:</h> Deal damage an additional time. Gain <Mana />."
+  },
+  "ReimuUnifierCursedBoundary": {
+    "Name": "Cursed Boundary -Shared Pain-",
+    "Description": "For each <Mana />: Lose <he>1</he> life and deal <Damage /> damage.<br /><h>Team Up [Shion]</h>: For each <Mana />: Gain <Value1 /><Money />."
+  },
+  "ReimuUnifierDanmakuCollision": {
+    "Name": "Danmaku Collision",
+    "Description": "At the end of <PlayerName />'s turn, gain <Value1 /> <h>Block</h> for each summoned <h>Teammate</h> in hand."
+  },
+  "ReimuUnifierDarknessOfTheCrow": {
+    "Name": "Darkness of the Crow",
+    "Description": "Whenever <PlayerName /> <h>Grazes</h> an attack, and at the end of <PlayerName />'s turn, deal <Value1 /> damage to each enemy.<br /><h>Team Up [Aya]</h>: Gain <Value2 /> <h>Graze</h>."
+  },
+  "ReimuUnifierDeepRain": {
+    "Name": "Rain Deep in the Mountains",
+    "Description": "Gain <Value1 /> <h>Graze</h>. <br />The next <Value2 /> non-accurate attack played is <h>Accurate</h>.",
+    "UpgradedDescription": "Gain <Value1 /> <h>Graze</h>. <br />The next <Value2 /> non-accurate attacks played are <h>Accurate</h>."
+  },
+  "ReimuUnifierDimensionalRiftBoundary": {
+    "Name": "Dimensional Rift -Boundary-",
+    "Description": "Whenever a <h>Teammate</h> enters the hand, deal <Value1 /> damage to a random enemy.<br />Whenever a summoned <h>Teammate</h> leaves the hand, gain <Mana />."
+  },
+  "ReimuUnifierDivineForge": {
+    "Name": "Divine Forge",
+    "Description": "At the start of <PlayerName />'s turn, add a <h>Youkai-Forged Needle</h> to the hand."
+  },
+  "ReimuUnifierDoubleDealing": {
+    "Name": "Double Dealing",
+    "Description": "Gain <he>1</he> <h>Vulnerable</h> and <he>1</he> <h>Weak</h>. Summon a <h>Teammate</h> in the hand.<br /><h>Team Up [Shinmyoumaru]</h>: Each <h>Teammate</h> in the hand gains <he>1</he> <h>Unity</h>.",
+    "UpgradedDescription": "Randomly gain <he>1</he> <h>Vulnerable</h> or <he>1</he> <h>Weak</h>. Summon a <h>Teammate</h> in the hand.<br /><h>Team Up [Shinmyoumaru]</h>: Each <h>Teammate</h> in the hand gains <he>1</he> <h>Unity</h>."
+  },
+  "ReimuUnifierDuplexBarrierDanmakuMirror": {
+    "Name": "Duplex Barrier -Danmaku Mirror-",
+    "Description": "At the start of <PlayerName />'s turn, each summoned <h>Teammate</h> in the hand gains <he>1</he> <h>Unity</h>.<br />Whenever a <h>Teammate</h> is summoned by playing it, add a <h>Copy</h> of it to the hand. It costs <Mana /> and has <h>Ethereal</h>."
+  },
+  "ReimuUnifierEmbodimentOfTheScarletDevil": {
+    "Name": "Embodiment of the Scarlet Devil",
+    "Description": "Add <he>1</he> <h>Unstable Potion</h> to hand. Gain <he>5</he> life. Gain <he>1</he> <h>Firepower</h>.<br />End <PlayerName />'s turn. Then, take an extra turn. Until <PlayerName />'s next Natural Turn, <PlayerName />'s turns end after playing <he>5</he> cards.<br />Only the first <SelfName /> will take effect each combat."
+  },
+  "ReimuUnifierEmotionalBoundarySynchronization": {
+    "Name": "Emotional Boundary: Synchronization",
+    "Description": "Whenever a <h>Teammate</h>'s <ha>Active</ha> or <hu>Ultimate Skill</hu> is activated, each <h>Teammate</h> in hand gains <he>1</he> <h>Unity</h>."
+  },
+  "ReimuUnifierEmpoweringRitual": {
+    "Name": "Empowering Ritual",
+    "Description": "Gain <Value1 /> <h>Temporary Firepower</h>.<br />Gain <he>1</he> <h>Sealed</h>."
+  },
+  "ReimuUnifierFaithlessMountainAssault": {
+    "Name": "Faithless Mountain Assault",
+    "Description": "Deal <Damage /> damage to each enemy.<br /><h>Expel</h>: Add a <h>Consumed by Vengeance</h> to the library."
+  },
+  "ReimuUnifierFantasySealDreamfinite": {
+    "Name": "Fantasy Seal -Dreamfinite-",
+    "Description": "For each <Mana />: At the start of <PlayerName />'s turn, deal <Value1 /> damage to the enemy with the most life."
+  },
+  "ReimuUnifierFierceGodWillOWisp": {
+    "Name": "Fierce God's Will O Wisp",
+    "Description": "Deal <Damage /> damage to a random enemy <Value1 /> times.<br /><h>Team Up [White Teammate]:</h> Deal damage an additional time.<br /><h>Team Up [Red Teammate]:</h> Gain <h>Accurate</h>."
+  },
+  "ReimuUnifierFlowerViewingParty": {
+    "Name": "Flower-Viewing Party",
+    "Description": "Whenever a <h>Teammate</h> is summoned by being played, add <he>1</he> <h>Midsummer Flowers</h> to the hand.<br />If it's the first time this turn, also gain <Mana />."
+  },
+  "ReimuUnifierFourFairiesFriend": {
+    "Name": "The Freeloading Fairies",
+    "PassiveDescription": "<he>Fairy Danmaku Barrage:</he> Deal <Damage /> attack damage to a random enemy <Value1 /> times.",
+    "ActiveDescription": "<hg>Fairy Reinforcements:</hg> Choose a <he>Fairy of Light</he> to add to the hand. It enters the hand summoned.",
+    "UltimateDescription": "<hd>Hidden Star Season:</hd> Add the <he>Three Fairies of Light</he> to the hand. They enter summoned with <he>9</he> <h>Unity</h>.",
+    "UpgradedUltimateDescription": "<hp>Purified Lunatic Torch:</hp> Add the <he>Four Mischievous Fairies</he> to the hand. They enter summoned with <he>9</he> <h>Unity</h>."
+  },
+  "ReimuUnifierFriendOfAFriend": {
+    "Name": "Friend of a Friend",
+    "Description": "Choose up to <Value1 /> of <Value2 /> <hp>completely random</hp> <h>Teammates</h> to add to the hand. They temporarily cost <Mana /> and have <h>Ethereal</h>."
+  },
+  "ReimuUnifierHermitsTraining": {
+    "Name": "Hermit's Training",
+    "Description": "<h>Team Up [Kasen]</h>: Gain <Value1 /> <h>Temporary Firepower</h>.<br />Gain <Block /> <h>Block</h>. If <PlayerName /> has <h>Temporary Firepower</h>, gain <Shield /> <h>Block</h> and <Shield /> <h>Barrier</h> instead."
+  },
+  "ReimuUnifierInnateDream": {
+    "Name": "Innate Dream",
+    "Description": "Gain <he>1</he> <h>Hakurei Ritual Orb</h>. If <PlayerName /> already has <he>7</he> <h>Hakurei Ritual Orbs</h>, lose all <h>Hakurei Ritual Orbs</h>, gain <he>99</he> <h>Flawless</h> and <h>Exile</h> <SelfName /> instead."
+  },
+  "ReimuUnifierKasenWildhornFriend": {
+    "Name": "Kasen, Wild and Horned",
+    "PassiveDescription": "<hd>Hawk Beacon</hd>: Deal <Damage /> attack damage to the enemy with the least life <Value1 /> times.",
+    "ActiveDescription": "<hp>Hermit's Discipline</hp>: Gain <Value2 /> <h>Spirit</h> and <Value2 /> <h>Firepower</h>.",
+    "UpgradedActiveDescription": "<hp>Hermit's Training</hp>: Gain <Value2 /> <h>Spirit</h>, <Value2 /> <h>Firepower</h> and <Value2 /> <h>Graze</h>.",
+    "UltimateDescription": "<hu>Monkey's Paw! Crush my enemy!</hu>: Add attack cards from the draw and discard pile to the hand until it is full. They <h>temporarily cost</h> <Mana />."
+  },
+  "ReimuUnifierKogasaYoukaiBlacksmithFriend": {
+    "Name": "Kogasa, Youkai Blacksmith",
+    "PassiveDescription": "<hb>Blacksmith's Expertise:</hb> <h>Upgrade</h> <he>1</he> random card in the hand.",
+    "UpgradedPassiveDescription": "<hb>Blacksmith's Expertise:</hb> <h>Upgrade</h> <he>2</he> random cards in the hand.",
+    "ActiveDescription": "<hu>Karakasa Surprising Flash:</hu> Deal <Damage /> attack damage to a random enemy for each <h>Upgraded</h> card in your hand.",
+    "UpgradedActiveDescription": "<hu>Karakasa Surprising Flash:</hu> Deal <Damage /> attack damage to a random enemy. Repeat this effect for each <h>Upgraded</h> card in the hand.",
+    "UltimateDescription": "<hp>Lightly Falling Large Raindrops:</hp> Add <h>Youkai-Forged Needles</h> to the hand until it's full.",
+    "UpgradedUltimateDescription": "<hp>Stormy Weather Surprise:</hp> Add <h>Youkai-Forged Needles+</h> to the hand until it's full."
+  },
+  "ReimuUnifierKosuzuDecipheringBibliophileFriend": {
+    "Name": "Kosuzu, Deciphering Bibliophile",
+    "PassiveDescription": "Apply <Value1 /> <h>Lock On</h> to each enemy.",
+    "ActiveDescription": "Apply <he>1</he> <h>Vulnerable</h> and <Value2 /> <h>Lock On</h> to each enemy.",
+    "UltimateDescription": "Remove <h>Graze</h>, <h>Optical Camouflage</h> and <h>Flawless</h> from each enemy, then apply <he>1</he> <h>Vulnerable</h> to each enemy."
+  },
+  "ReimuUnifierMaidensDivineChanneling": {
+    "Name": "Maiden's Divine Channeling",
+    "Description": "<h>Team Up [Sanae]:</h> Gain <he>1</he> <h>Amulet</h>.<br />Gain <Block /> <h>Block</h>. Gain <he>2</he> <h>Barrier</h> for each of <PlayerName />'s buffs."
+  },
+  "ReimuUnifierMarisaIncidentSolverFriend": {
+    "Name": "Marisa, Incident Solver",
+    "PassiveDescription": "|l:Red Star Explosion:| Deal <Damage /> attack damage to each enemy.",
+    "ActiveDescription": "|i:Final Spark:| Deal <Value1 /> <h>Accurate</h> attack damage to each enemy.",
+    "UltimateDescription": "<hu>Magicannon -Final Master Spark-:</hu> Enter <h>Burst</h>. Deal <Value2 /> <h>Accurate</h> damage to each enemy."
+  },
+  "ReimuUnifierMarisaKirisameFriend": {
+    "Name": "Marisa Kirisame",
+    "PassiveDescription": "<hd>Hakkero Shot: </hd> Deal <Damage /> attack damage to the enemy with the least life. Gain <he>1</he> <h>Charge</h> at the start of <PlayerName />'s next turn.",
+    "ActiveDescription": "|i:Flaming Laser:| Deal <Value1 /> attack damage and apply <he>1</he> <h>Vulnerable</h> to the enemy with the least life. Gain <he>2</he> <h>Charge</h>.",
+    "UpgradedActiveDescription": "|i:Flaming Laser:| Deal <Value1 /> attack damage <he>2</he> times and apply <he>1</he> <h>Vulnerable</h> to the enemy with the least life. Gain <he>2</he> <h>Charge</h>.",
+    "UltimateDescription": "<hu>Love Sign \"Master Spark\":</hu> Deal <Value2 /> <h>Accurate</h> attack damage to each enemy."
+  },
+  "ReimuUnifierMercilessRodFriendToken": {
+    "Name": "Merciless Purification Rod",
+    "Description": "<hd>Might of the Meek</hd>: Whenever a Common card is played, gain <Value1 /> <h>Firepower</h>.",
+    "UpgradedDescription": "<hd>Might of the Meek</hd>: Whenever a Common card is played, gain <Value1 /> <h>Firepower</h> and <Value1 /> <h>TemporaryFirepower</h>.",
+    "UltimateDescription": "<hd>Bewitched Weapon -Merciless Purification Rod-</hd>: Deal <Damage /> attack damage to each enemy <he>8</he> times."
+  },
+  "ReimuUnifierNeedleSparkSeal": {
+    "Name": "Needle Spark to Seal the Lunar Nobles",
+    "Description": "<h>Youkai-Forged Needles</h> deal damage and apply <he>2</he> <h>Lock On</h> to each enemy instead of damaging one target. This effect does not stack.<br />Add a <h>Youkai-Forged Needle</h> to the hand.<br /><h>Team Up [Marisa]:</h> Add one more."
+  },
+  "ReimuUnifierNitoriBusinessPartnerFriend": {
+    "Name": "Nitori, Partner in Business",
+    "Description": "Gain <he>10</he><Money />.",
+    "ActiveDescription": "<hb>Kappa Drone Technology</hb>: Remove <h>Weak</h> and <h>Vulnerable</h> from <PlayerName />.",
+    "UpgradedActiveDescription": "<hb>Kappa Drone Technology</hb>: Remove <h>Weak</h>, <h>Vulnerable</h>, <h>Lock On</h> and <h>Frail</h> from <PlayerName />.",
+    "UltimateDescription": "|s:Loch Ness is Here Right Now!|: At the end of the turn, deal <Value2 /> damage for each turn <PlayerName /> has taken this combat."
+  },
+  "ReimuUnifierOmnidirectionalBarrage": {
+    "Name": "Omnidirectional Barrage",
+    "Description": "Whenever <PlayerName /> activates a <h>Team Up</h>, activate the chosen <h>Teammate</h>'s first <h>Passive Skill</h>."
+  },
+  "ReimuUnifierPerfectCherryBorder": {
+    "Name": "Perfect Cherry Border",
+    "Description": "Prevent the next time <PlayerName /> would lose life.<br /><h>Team Up [Yukari]:</h> When this effect activates, each enemy loses life equal to the prevented life loss.",
+    "UpgradedDescription": "Prevent the next <Value1 /> times <PlayerName /> would lose life.<br /><h>Team Up [Yukari]:</h> When this effect activates, each enemy loses life equal to the prevented life loss."
+  },
+  "ReimuUnifierPerfectPosession": {
+    "Name": "Perfect Possession",
+    "Description": "Choose up to <he>1</he> card. <h>Exile</h> the hand except the chosen card. For each <h>Exiled</h> card, gain <he>3</he> <h>Barrier</h>. For each <h>Exiled</h> <h>Teammate</h>, also gain <Mana />."
+  },
+  "ReimuUnifierPowerOfTheImmaterial": {
+    "Name": "Power Of The Immaterial",
+    "Description": "<h>Team Up [Suika]:</h> Gain <Value1 /> <h>Temporary Firepower</h>.<br />Deal <Damage /> damage <Value2 /> times. If <PlayerName /> has <h>Temporary Firepower</h>, deal that much damage <he>1</he> additional time."
+  },
+  "ReimuUnifierPurifyingStrike": {
+    "Name": "Purifying Strike",
+    "Description": "Deal <Damage /> damage. <br />Remove a random debuff from <PlayerName /> for every <he>10</he> unblocked damage dealt by <SelfName />."
+  },
+  "ReimuUnifierPurpleReproach": {
+    "Name": "Purple Needles of Reproach",
+    "Description": "Add <he>2</he> <h>Youkai-Forged Needles</h> to the hand.",
+    "UpgradedDescription": "Add <he>2</he> <h>Youkai-Forged Needles+</h> to the hand."
+  },
+  "ReimuUnifierRabbleRousing": {
+    "Name": "Rabble Rousing",
+    "Description": "At the start of <PlayerName />'s next <he>3</he> turns, add a random Common <h>Teammate</h> to the hand."
+  },
+  "ReimuUnifierRainDance": {
+    "Name": "Rain Dance",
+    "Description": "Deal <Damage /> damage to each enemy."
+  },
+  "ReimuUnifierReinforcedBoundary": {
+    "Name": "Reinforced Boundary",
+    "Description": "Gain <Block /> <h>Block</h>. <br />Choose up to <he>1</he> summoned <h>Teammate</h> in hand and activate its <hf>Passive Skill</hf>."
+  },
+  "ReimuUnifierRetributiveBoundary": {
+    "Name": "Retributive Boundary",
+    "Description": "Gain <Block /> <h>Block</h>. <br />Until <PlayerName />'s next turn, whenever <PlayerName /> takes attack damage from an enemy's whole attack, add a <h>Youkai-Forged Needle</h> to the hand.",
+    "UpgradedDescription": "Gain <Shield /> <h>Barrier</h>.<br />Until <PlayerName />'s next turn, whenever <PlayerName /> takes attack damage from an enemy's whole attack, add a <h>Youkai-Forged Needle+</h> to the hand."
+  },
+  "ReimuUnifierRisingSynergy": {
+    "Name": "Rising Synergy",
+    "Description": "Whenever your <h>Teammates</h> deal attack damage to an enemy, gain <he>1</he> <h>Temporary Firepower</h>."
+  },
+  "ReimuUnifierRitualofEchoingProsperity": {
+    "Name": "Ritual of Echoing Prosperity",
+    "Description": "At the start of <PlayerName />'s turn, gain <Value1 /> <h>Temporary Spirit</h> and <Value1 /> <h>Temporary Firepower</h> for each summoned <h>Teammate</h> in hand."
+  },
+  "ReimuUnifierRitualOfTheSeasons": {
+    "Name": "Ritual of the Seasons",
+    "Description": "Put a random <h>Teammate</h> of each color from the draw pile into the hand.<br /><h>Team Up[Aunn]</h>: For each <h>Teammate</h> selected, gain 1 mana of its color."
+  },
+  "ReimuUnifierRitualPowerConduit": {
+    "Name": "Ritual -Power Conduit-",
+    "Description": "Choose a summoned <h>Teammate</h> in the hand. Activate its <h>Passive Skill</h> once for each summoned <h>Teammate</h> in the hand.",
+    "UpgradedDescription": "Choose a summoned <h>Teammate</h> in the hand. Activate its <h>Passive Skill</h> once, then once more for each summoned <h>Teammate</h> in the hand."
+  },
+  "ReimuUnifierSanaeHumanGodFriend": {
+    "Name": "Sanae, Human God",
+    "Description": "Gain <Value1 /> <h>Amulet</h>.",
+    "UpgradedDescription": "Gain <Value1 /> <h>Amulet</h>.",
+    "PassiveDescription": "<he>Esoterica -Gray Thaumaturgy-</he>: Gain <he>2</he> <h>Block</h> for each of <PlayerName />'s buffs.",
+    "UpgradedPassiveDescription": "<he>Esoterica -Gray Thaumaturgy-</he>: Gain <he>2</he> <h>Barrier</h> for each of <PlayerName />'s buffs.",
+    "ActiveDescription": "<hp>Forgotten Ritual</hp>: <h>Exile</h> up to <he>2</he> cards from the hand. Gain that much <h>Ward</h>.",
+    "UpgradedActiveDescription": "<hp>Forgotten Ritual</hp>: <h>Exile</h> up to <he>2</he> cards from the hand, draw or discard pile. Gain that much <h>Ward</h>."
+  },
+  "ReimuUnifierScarletNeedleRain": {
+    "Name": "Scarlet Needle Rain",
+    "Description": "For each enemy, deal <Damage /> damage to each enemy.<br />For each enemy, apply <he>1</he> <h>Vulnerable</h> to each enemy. "
+  },
+  "ReimuUnifierShinmyoumaruInchlingPrincessFriend": {
+    "Name": "Shinmyoumaru, Inchling Princess",
+    "Description": "<hd>Might of the Meek</hd>: Whenever a Common card is played, <SelfName /> gains <he>1</he> <h>Unity</h>.",
+    "ActiveDescription": "<hd>Mallet \"Grow Bigger!\" </hd>: Gain <Value1 /> <h>Firepower</h>.",
+    "UpgradedActiveDescription": "<hd>Mallet \"Grow Even Bigger!\" </hd>: Gain <Value1 /> <h>Firepower</h>.",
+    "Active2Description": "<hd>Shining Needle Sword</hd>: Put random Common cards from the draw pile into the hand until it is full. Gain <Mana />.",
+    "UltimateDescription": "|k:Shining Treasure -Miracle Mallet-|: Add a summoned <h>Merciless Purification Rod</h> to the hand.",
+    "UpgradedUltimateDescription": "|k:Shining Treasure -Miracle Mallet-|: Add a summoned <h>Merciless Purification Rod+</h> to the hand."
+  },
+  "ReimuUnifierShionImpoverishedDeityFriend": {
+    "Name": "Shion, Impoverished Deity",
+    "Description": "Gain <he>15</he><Money />.",
+    "PassiveDescription": "<hd>Fall into Poverty</hd>: Deal <Damage /> <h>Accurate</h> damage to the enemy with the least life twice. Lose <he>5</he><Money />.",
+    "ActiveDescription": "|s:Pluck Pigeon|: Deal <he>15</he> damage to each enemy. Gain <he>1</he> <h>Graze</h> and lose <he>5</he><Money /> for each enemy hit.",
+    "UltimateDescription": "<hp>Exchange -Absolute Loser-</hp>: Instantly defeat each unnamed enemy. Add a <h>Buy Safety</h> to the library."
+  },
+  "ReimuUnifierShrineDefense": {
+    "Name": "Defend the Hakurei Shrine!",
+    "Description": "Add random <h>Teammate</h> cards to the hand until it's full. <br /><h>Team Up [Hakurei's Guests]</h>: Gain <Mana /> for each valid <h>Team Up</h>.",
+    "UpgradedDescription": "Add random <h>Teammate</h> cards to the hand until it's full. They temporarily cost <he>1</he> random mana less.<br /><h>Team Up [Hakurei's Guests]</h>: Gain <Mana /> for each valid <h>Team Up</h>."
+  },
+  "ReimuUnifierStrikeOfHisoutensoku": {
+    "Name": "Strike of Hisoutensoku",
+    "Description": "Deal <Damage /> damage. <SelfName /> deals <Value1 /> additional damage for each debuff on the target.<br /><h>Team Up [Sanae]</h>: Apply <he>1</he> <h>Temporary Firepower Down</h> for each debuff on the target.",
+    "UpgradedDescription": "<h>Team Up [Sanae]</h>: Apply <he>1</he> <h>Temporary Firepower Down</h> for each debuff on the target.<br />Deal <Damage /> damage. <SelfName /> deals <Value1 /> additional damage for each debuff on the target."
+  },
+  "ReimuUnifierSubterraneanAdventure": {
+    "Name": "Subterranean Adventure",
+    "Description": "The maximum hand size increases to <MaxHand />.<br />Add a <h>Communicator Orb</h> to the hand.<br /><h>Team Up [Yukari]:</h> Add a <h>Purple Needles of Reproach</h> with Ethereal to the hand. It temporarily costs <Mana />.<br /><h>Team Up [Suika]:</h> Add a <h>Fierce God's Will O Wisp</h> with Ethereal to the hand. It temporarily costs <Mana />.<br /><h>Team Up [Aya]:</h> Add a <h>Rain Deep in the Mountains</h> with Ethereal to the hand. It temporarily costs <Mana />."
+  },
+  "ReimuUnifierSuikaGourdOniFriend": {
+    "Name": "Suika, Oni of the Gourd",
+    "PassiveDescription": "<hu>Missing Power</hu>: Add a <h>Tipsy</h> with <h>Ethereal</h> to the hand.",
+    "ActiveDescription": "<hp>Missing Purple Power</hp>: Return all <h>Tipsies</h> from the <h>Exile</h> pile to the hand.",
+    "UltimateDescription": "<hd>Counter-Tsuina Black Hole</hd>: Gain <Value1 /> Flawless. Until <PlayerName />'s next turn, gain <Value2 /> <h>Temporary Firepower</h> whenever <PlayerName /> takes attack damage."
+  },
+  "ReimuUnifierSumirekoDreamVisitorFriend": {
+    "Name": "Sumireko, Occult Dream Visitor",
+    "PassiveDescription": "<hd>Psychokinesis App</hd>: Gain <he>1</he> <h>Occult Ball</h>.",
+    "ActiveDescription": "<he>3D Printed Gun</he>: For each <h>Occult Ball</h> <PlayerName /> has, deal <Damage /> damage to the enemy with the least life.",
+    "Active2Description": "<hp>Zener Cards Shuriken</hp>: For each <h>Occult Ball</h> <PlayerName /> has, lose <he>1</he> life, draw <he>1</he> card and gain <Mana />.",
+    "UltimateDescription": "|s:Summon Doppelganger|: If <PlayerName /> has at least 7 <h>Occult Balls</h>, lose all <h>Occult Balls</h>. Then, in this turn, <h>Copy</h> every card played.",
+    "UpgradedUltimateDescription": "|s:Double ESPer of the Century|: If <PlayerName /> has at least 7 <h>Occult Balls</h>, lose all <h>Occult Balls</h> and draw until the hand is full. Then, in this turn, <h>Copy</h> every card played."
+  },
+  "ReimuUnifierSummoningRitual": {
+    "Name": "Summoning Ritual",
+    "Description": "Draw <Value1 /> cards. <br />Gain <Mana /> for each <h>Teammate</h> drawn this way."
+  },
+  "ReimuUnifierSupplyRun": {
+    "Name": "Supply Run",
+    "Description": "Put a random <h>Teammate</h> from the draw pile or discard pile into the hand. Draw <he>2</he> cards."
+  },
+  "ReimuUnifierSynchronizedRitualArray": {
+    "Name": "Synchronized Ritual Array",
+    "Description": "<h>At the end of the turn</h>: Deal <Value1 /> damage to a random enemy <Value2 /> time.<br /><h>While in hand</h>: Whenever <PlayerName /> summons a <h>Teammate</h> by playing it, increase the amount of times <SelfName /> deals damage by <he>1</he>."
+  },
+  "ReimuUnifierTagIn": {
+    "Name": "Tag In",
+    "Description": "<h>Exile</h> up to <he>1</he> card from the hand. If it's a <h>Teammate</h>, gain <Value1 /> <h>Barrier</h> for each <h>Unity</h> it has.",
+    "UpgradedDescription": "<h>Exile</h> up to <he>1</he> card from the hand, draw or discard pile. If it's a <h>Teammate</h>, gain <Value1 /> <h>Barrier</h> for each <h>Unity</h> it has."
+  },
+  "ReimuUnifierTagOut": {
+    "Name": "Tag Out",
+    "Description": "<h>Exile</h> up to <he>1</he> card from the hand. If it's a <h>Teammate</h>, put a random unsummoned <h>Teammate</h> from the draw pile into the hand and summon it.",
+    "UpgradedDescription": "<h>Exile</h> up to <he>1</he> card from the hand, draw or discard pile. If it's a <h>Teammate</h>,  put a random unsummoned <h>Teammate</h> from the draw pile into the hand and summon it."
+  },
+  "ReimuUnifierTrueTrichromaticLotusButterfly": {
+    "Name": "True Trichromatic Lotus Butterfly",
+    "Description": "<h>Team Up [Marisa]:</h> Deal <Damage /> damage <he>10</he> times. Lose 2 <h>Firepower</h>.<br /><h>Overflow</h>: Gain <Mana />.",
+    "UpgradedDescription": "<h>Team Up [Marisa]:</h> Deal <Damage /> damage <he>10</he> times. Deal <Value2 /> damage. Lose <he>2</he> <h>Firepower</h>.<br /><h>Overflow</h>: Gain <Mana />."
+  },
+  "ReimuUnifierWilyBeastStrike": {
+    "Name": "Wily Beast's Strike",
+    "Description": "The next <h>Teammate</h>'s <ha>Active</ha> or <hu>Ultimate Skill</hu> will be played twice.",
+    "UpgradedDescription": "The next <Value1 /> <h>Teammates</h>' <ha>Active</ha> or <hu>Ultimate Skill</hu> will be played twice."
+  },
+  "ReimuUnifierWisdomOfHumanity": {
+    "Name": "Wisdom of Humanity",
+    "Description": "<h>Team Up [Human]</h>: Draw a card for each valid <h>Team Up</h>.<br />Gain <he>3</he> <h>Block</h> for each card in the hand.",
+    "UpgradedDescription": "<h>Team Up [Human]</h>: Draw a card for each valid <h>Team Up</h>.<br />Gain <he>3</he> <h>Barrier</h> for each card in the hand."
+  },
+  "ReimuUnifierYinYangCommunicationRitual": {
+    "Name": "Yin-Yang Communication Ritual",
+    "Description": "Gain <Block /> <h>Block</h>. <br />Add a <h>Communicator Orb</h> to the hand."
+  },
+  "ReimuUnifierYoukaiForgedNeedle": {
+    "Name": "Youkai-Forged Needle",
+    "Description": "Deal <Damage /> damage. <br />If a <h>Teammate</h>'s <ha>Active Skill</ha> or <hu>Ultimate Skill</hu> was activated this turn, <SelfName /> costs <Mana /> to play. ",
+    "UpgradedDescription": "Deal <Damage /> damage.<br />Apply <Value1 /> <h>Lock On</h>. <br />If a <h>Teammate</h>'s <ha>Active Skill</ha> or <hu>Ultimate Skill</hu> was activated this turn, <SelfName /> costs <Mana /> to play. "
+  },
+  "ReimuUnifierYoukaiShrineMaiden": {
+    "Name": "Youkai Shrine Maiden",
+    "Description": "Gain <Mana />. Draw <Value1 /> cards. Add <he>3</he> random <h>Misfortunes</h> to the discard pile.<br /><h>Team Up [Youkai]</h>: Add <he>1</he> less <h>Misfortune</h> for each valid <h>Team Up</h>. Excess <h>Team Ups</h> add <he>1</he> <h>Ward</h> each."
+  },
+  "ReimuUnifierYukariSageOfGensokyoFriend": {
+    "Name": "Yukari, Sage of Gensokyo",
+    "PassiveDescription": "<hd>Quadruple Barrier:</hd> Deal <Damage /> attack damage to each enemy. Gain <Value2 /> <h>Block</h>.",
+    "ActiveDescription": "<hp>Hakurei Duplex Barrier:</hp> Convert <PlayerName />'s <h>Block</h> into <h>Barrier</h>, then double <PlayerName />'s <h>Barrier</h>.",
+    "UltimateDescription": "|l:Arcanum -Danmaku Barrier-:| At the end of this and the next <he>4</he> <PlayerName />'s turns, gain <Value1 /> <h>Barrier</h>, then deal damage equal to <PlayerName />'s <h>Barrier</h> to a random enemy."
+  },
+  "ReimuUnifierYukariYakumoFriend": {
+    "Name": "Yukari Yakumo",
+    "Description": "Add a <h>Communicator Orb</h> to the hand.",
+    "PassiveDescription": "<he>Boundary of Sound and Silence:</he> Add a <h>Communicator Orb</h> to the hand.",
+    "ActiveDescription": "<hp>Quadruple Barrier:</hp> <h>Exile</h> a card from the hand. Gain <h>Barrier</h> equal to <he>6</he> times that card's cost.",
+    "UltimateDescription": "<hd>Underside of Uncommon Sense:</hd> Gain <he>1</he> <h>Flawless</h>. At the start of <PlayerName />'s next turn, each enemy loses <Value2 /> life."
+  },
+
   "SanaeAmuletDebuff": {
     "Name": "Kouan Era Kochiya",
     "Description": "<h>Choose</h> one or more:<br />- Gain <Value1 /> <h>Firepower</h> and <h>Weak</h>.<br />- Gain <Value1 /> <h>Spirit</h> and <h>Frail</h>.<br />- Gain <Value1 /> maximum life, <h>Vulnerable</h> and <h>Poison</h>."
