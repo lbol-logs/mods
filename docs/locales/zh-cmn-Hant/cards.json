@@ -136,7 +136,9 @@
   "carddearsword": {
     "Name": "親愛的寶劍",
     "Description": "<h>減少</h> <he>5</he>% 生命值。",
-    "PassiveDescription": "將 <Value1 /> 張<h>紅血</h>加入手中。"
+    "PassiveDescription": "將 <Value1 /> 張<h>紅血</h>加入手中。",
+    "ActiveDescription": "對所有敵人施加 <Value1 /> 層<h>血跡</h>和<h>流血</h>。",
+    "UltimateDescription": "<PlayerName />的回合開始時，將 <Value1 /> 張<h>血之風暴</h>加入手中。"
   },
   "carddevour": {
     "Name": "吞噬",
@@ -182,7 +184,9 @@
   "cardhakureimiko": {
     "Name": "那位博麗巫女",
     "Description": "<h>在手中時</h>：所有臨時獲得的卡牌都會<h>升級</h>。",
-    "PassiveDescription": "<h>提升</h> <Value1 />% 生命值。"
+    "PassiveDescription": "<h>提升</h> <Value1 />% 生命值。",
+    "ActiveDescription": "從<h>放逐</h>區選擇一張牌，<h>升級</h>它，將它和<SelfName />置入手中。",
+    "UltimateDescription": "所有卡牌失去<h>放逐</h>和<h>虛無</h>。"
   },
   "cardheartache": {
     "Name": "心痛",
@@ -228,7 +232,9 @@
   "cardmissribbon": {
     "Name": "緞帶小姐",
     "Description": "<h>減少</h>現有生命值的 <Value1 />% ，獲得<Mana />。",
-    "PassiveDescription": "<h>減少</h>現有生命值的 <Value1 />% ，獲得<Mana />。"
+    "PassiveDescription": "<h>減少</h>現有生命值的 <Value1 />% ，獲得<Mana />。",
+    "ActiveDescription": "對所有敵人施加 <Value2 /> 層<h>血跡</h>。",
+    "UltimateDescription": "每當<PlayerName />施加<h>血跡</h>，獲得 <he>1</he> 層<h>血劍衍生物</h>。"
   },
   "cardmixedblood": {
     "Name": "200% 混成血",

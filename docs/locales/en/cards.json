@@ -145,7 +145,9 @@
   "carddearsword": {
     "Name": "My Dear Sword",
     "Description": "<h>Decrease</h> <he>5</he>% life.",
-    "PassiveDescription": "Add <Value1 /> <h>Crimson Blood</h> to the hand."
+    "PassiveDescription": "Add <Value1 /> <h>Crimson Blood</h> to the hand.",
+    "ActiveDescription": "Apply <Value1 /> <h>Blood Mark</h> and <h>Bleed</h> to each enemy.",
+    "UltimateDescription": "At the start of <PlayerName />'s turn, add <Value1 /> <h>Blood Storm</h> to the hand."
   },
   "carddevour": {
     "Name": "Devour",
@@ -191,7 +193,9 @@
   "cardhakureimiko": {
     "Name": "The Hakurei Miko",
     "Description": "<h>While in hand</h>: Whenever <PlayerName /> adds a card, <h>Upgrade</h> it.",
-    "PassiveDescription": "<h>Increase</h> <Value1 />% life."
+    "PassiveDescription": "<h>Increase</h> <Value1 />% life.",
+    "ActiveDescription": "Choose a card from <h>Exile</h>, <h>Upgrade</h> it, return it and <SelfName /> to the hand.",
+    "UltimateDescription": "All cards lose <h>Exile</h> and <h>Ethereal</h>."
   },
   "cardheartache": {
     "Name": "Heartache",
@@ -237,7 +241,9 @@
   "cardmissribbon": {
     "Name": "Miss Ribbon",
     "Description": "<h>Decrease</h> <Value1 />% of current life, Gain <Mana />.",
-    "PassiveDescription": "<h>Decrease</h> <Value1 />% of current life, Gain <Mana />."
+    "PassiveDescription": "<h>Decrease</h> <Value1 />% of current life, Gain <Mana />.",
+    "ActiveDescription": "Apply <Value2 /> <h>Blood Mark</h> to each enemy.",
+    "UltimateDescription": "Whenever <PlayerName /> applies <h>Blood Mark</h> to an enemy, gain <he>1</he> <h>Blood Sword Token</h>."
   },
   "cardmixedblood": {
     "Name": "200% Mixed Blood",

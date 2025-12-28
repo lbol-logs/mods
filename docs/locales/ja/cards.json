@@ -136,7 +136,9 @@
   "carddearsword": {
     "Name": "我が愛剣",
     "Description": "<h>生命減衰</h><he>5</he>% ",
-    "PassiveDescription": "手札に<h>深紅の血</h>を<Value1 />枚加える。"
+    "PassiveDescription": "手札に<h>深紅の血</h>を<Value1 />枚加える。",
+    "ActiveDescription": "敵全体に<h>血の印</h><Value1 />と<h>出血</h><Value1 />を与える。",
+    "UltimateDescription": "<PlayerName />のターン開始時、手札に<h>血の嵐</h>を<Value1 />枚加える。"
   },
   "carddevour": {
     "Name": "貪り食う",
@@ -182,7 +184,9 @@
   "cardhakureimiko": {
     "Name": "博麗巫女",
     "Description": "<h>手札効果</h>: <PlayerName />がカードを追加する度に、それを<h>アップグレード</h>する。",
-    "PassiveDescription": "<h>生命増幅</h><Value1 />% "
+    "PassiveDescription": "<h>生命増幅</h><Value1 />% ",
+    "ActiveDescription": "<h>廃棄場</h>からカードを1枚選び、それを<h>アップグレード</h>して<SelfName />を手札に戻す。",
+    "UltimateDescription": "全てのカードは<h>廃棄</h>と<h>虚無</h>を失う。"
   },
   "cardheartache": {
     "Name": "切ない痛み",
@@ -228,7 +232,9 @@
   "cardmissribbon": {
     "Name": "リボン嬢",
     "Description": "現在のライフから<h>生命減衰</h><Value1 />% 、<Mana />を得る。",
-    "PassiveDescription": "現在のライフから<h>生命減衰</h><Value1 />% ,<Mana />を得る。"
+    "PassiveDescription": "現在のライフから<h>生命減衰</h><Value1 />% ,<Mana />を得る。",
+    "ActiveDescription": "敵全体に<h>血の印</h><Value2 />を与える。",
+    "UltimateDescription": "<PlayerName />が敵に<h>血の印</h>を与える度に、<h>血の剣の破片</h><he>1</he>を得る。"
   },
   "cardmixedblood": {
     "Name": "究極の混血",
