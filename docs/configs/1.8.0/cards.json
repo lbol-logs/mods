@@ -5254,7 +5254,8 @@
     "0": {
       "Cost": "WW",
       "Value1": 1,
-      "Mana": 0
+      "Mana": 0,
+      "MaxHand": 12
     },
     "1": {
       "Cost": 0,
