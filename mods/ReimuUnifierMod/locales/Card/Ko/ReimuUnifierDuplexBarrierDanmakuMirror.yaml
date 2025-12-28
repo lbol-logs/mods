@@ -1,0 +1,8 @@
+﻿ReimuUnifierDuplexBarrierDanmakuMirror:
+  Name: 이중결계 -탄막의 거울-
+  Description: >-
+    {PlayerName}의 턴 시작 시, 손에 있는 소환된 |동료|들은 |지원력|을 |e:1| 얻습니다.
+
+    |동료| 카드로 동료를 소환할 때마다, 그 카드의 |복사본|을 손에 추가합니다. 그 카드는 일시적으로 코스트가 {Mana}가 되고 |휘발성|을 가집니다.
+  DetailText: '|복사본| |동료|는 이 효과를 발동시키지 않습니다.'
+  FlavorText: 드카 는하아좋 장가 가자이세

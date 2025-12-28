@@ -1,0 +1,7 @@
+ReimuUnifierMod:
+  Title: 'Test'
+  Move:
+  - 'Ataque a'
+  - 'Ataque b'
+  - 'Ataque c'
+  - 'Ataque d'

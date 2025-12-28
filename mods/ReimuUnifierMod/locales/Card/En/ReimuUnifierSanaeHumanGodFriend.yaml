@@ -1,0 +1,13 @@
+﻿ReimuUnifierSanaeHumanGodFriend:
+  Name: Sanae, Human God
+  Description: >-
+    {Indent} Gain {Value1} |Amulet|.
+     {FriendP} |e:Esoterica -Gray Thaumaturgy-|: Gain |e:2| |Block| for each of {PlayerName}'s buffs. ({AdditionalBlock})
+  UpgradedDescription: >-
+    {Indent} Gain {Value1} |Amulet|.
+     {FriendP} |e:Esoterica -Gray Thaumaturgy-|: Gain |e:2| |Barrier| for each of {PlayerName}'s buffs. ({AdditionalShield})
+  ExtraDescription1: '{FriendA} |p:Forgotten Ritual|: |Exile| up to |e:2| cards from the hand. Gain that much |Ward|.'
+  UpgradedExtraDescription1: '{FriendA} |p:Forgotten Ritual|: |Exile| up to |e:2| cards from the hand, draw or discard pile. Gain that much |Ward|.'
+  ExtraDescription2: '{FriendA} |g:Snake Sign -Snake Binding-|:  Gain {Value2} |Spirit|. Apply {Value2} |Spirit Down| and |e:1| |Weak| to each enemy.'
+  ExtraDescription3: "{FriendA} |f:Outsider's Fascination|: Gain |e:1| |Curiosity|."
+  FlavorText: You can't let yourself be trapped by common sense in Gensokyo, right?

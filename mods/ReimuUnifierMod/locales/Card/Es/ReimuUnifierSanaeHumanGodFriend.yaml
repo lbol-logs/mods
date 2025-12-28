@@ -1,0 +1,13 @@
+﻿ReimuUnifierSanaeHumanGodFriend:
+  Name: Sanae, Diosa Humana
+  Description: >-
+    {Indent} Gana {Value1} |Amuleto|.
+     {FriendP} |e:Esotérica -Taumaturgia Gris-|: Gana |e:2| de |Bloqueo| por cada uno de los efectos positivos que tiene {PlayerName}. ({AdditionalBlock})
+  UpgradedDescription: >-
+    {Indent} Gana {Value1} |Amuleto|.
+     {FriendP} |e:Esotérica -Taumaturgia Gris-|: Gana |e:2| de |Barrera| por cada uno de los efectos positivos que tiene {PlayerName}. ({AdditionalShield})
+  ExtraDescription1: '{FriendA} |p:Ritual Olvidado|: |Exilia| hasta |e:2| cartas de la mano. Gana esa misma cantidad de |Resguardo|.'
+  UpgradedExtraDescription1: '{FriendA} |p:Ritual Olvidado|: |Exilia| hasta |e:2| cartas de la mano, pila de robo y/o pila de descarte. Gana esa misma cantidad de |Resguardo|.'
+  ExtraDescription2: '{FriendA} |g:Signo de la Serpiente -Snake Binding-|:  Gana {Value2} de |Espíritu|. Aplica {Value2} de |Reducción de Espíritu| y |e:1| de |Débil| a cada enemigo.'
+  ExtraDescription3: '{FriendA} |f:La fascinación de la Forastera|: Gana |e:1| |Curiosidad|.'
+  FlavorText: No puedes dejar que te atrape el sentido común de Gensokyo, ¿verdad?

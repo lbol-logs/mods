@@ -1,0 +1,3 @@
+﻿ReimuUnifierDuplexBarrierDanmakuMirrorSe:
+  Name: 二重结界 -弹幕镜-
+  Description: "在回合开始时，手牌中所有召唤|同伴|获得 |e:1| |支援度|。 \n每当一个|同伴|通过打出被召唤时，如果它不是复制品，将其复制品加入手中。它消耗 {SePreviewMana} 并有 |虚无|。 "

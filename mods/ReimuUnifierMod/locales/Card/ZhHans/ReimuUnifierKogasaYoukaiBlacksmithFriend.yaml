@@ -1,0 +1,9 @@
+﻿ReimuUnifierKogasaYoukaiBlacksmithFriend:
+  Name: 多多良小伞·妖怪铁匠
+  Description: '{FriendP} |b:铁匠专精：| |升级|手牌中 |e:1| 张随机牌。'
+  UpgradedDescription: '{FriendP} |b:铁匠专精：| |升级|手牌中 |e:2| 张随机牌。'
+  ExtraDescription1: '{FriendA} |u:唐伞惊闪：| 每有一张手牌中的|升级|牌，对随机敌人造成 {Damage} 点攻击伤害。'
+  UpgradedExtraDescription1: '{FriendA} |u:唐伞惊闪：| 对随机敌人造成 {Damage} 点攻击伤害。每有一张手牌中的|升级|牌，重复此效果。'
+  ExtraDescription3: '{FriendU} |p:轻落大雨滴：| 将|妖怪锻造针|加入手中直到手牌满。'
+  UpgradedExtraDescription3: '{FriendU} |p:暴风雨惊喜：| 将|妖怪锻造针+|加入手中直到手牌满。'
+  FlavorText: 为什么小伞喜欢打铁？因为她擅长得吓人！

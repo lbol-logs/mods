@@ -1,0 +1,5 @@
+﻿ReimuUnifierYoukaiForgedNeedle:
+  Name: Youkai-Forged Needle
+  Description: "Deal {Damage} damage. \nIf a |Teammate|'s |a:Active Skill| or |u:Ultimate Skill| was activated this turn, {SelfName} costs {Mana} to play. "
+  UpgradedDescription: "Deal {Damage} damage.\nApply {Value1} |Lock On|. \nIf a |Teammate|'s |a:Active Skill| or |u:Ultimate Skill| was activated this turn, {SelfName} costs {Mana} to play. "
+  FlavorText: You set them up, I stab them down!

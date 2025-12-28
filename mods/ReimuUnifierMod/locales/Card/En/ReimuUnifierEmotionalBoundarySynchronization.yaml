@@ -1,0 +1,7 @@
+﻿ReimuUnifierEmotionalBoundarySynchronization:
+  Name: 'Emotional Boundary: Synchronization'
+  Description: Whenever a |Teammate|'s |a:Active| or |u:Ultimate Skill| is activated, each |Teammate| in hand gains |e:1| |Unity|.
+  FlavorText: >-
+    One for all, and all for one!
+
+    #Three musketeers

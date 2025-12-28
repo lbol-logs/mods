@@ -1,0 +1,8 @@
+﻿ReimuUnifierFourFairiesFriend:
+  Name: Las Hadas Gorronas
+  Description: '{FriendP} |e:Tromba de Danmaku de Hadas:| Inflige {Damage} de daño de ataque a un enemigo aleatorio {Value1} veces.'
+  ExtraDescription1: '{FriendA} |g:Refuerzos de Hadas:| Elige una |e:Hada de la Luz| para agregarla a la mano. Esta entra en la mano invocada.'
+  ExtraDescription3: '{FriendU} |d:Hidden Star Season:| Agrega las |e:Tres Hadas de la Luz| a la mano. Entran invocadas con |e:9| de |Influencia|.'
+  UpgradedExtraDescription3: '{FriendU} |p:Antorcha Lunática Purificadora:| Agrega las |e:Cuatro Hadas Traviesas| a la mano. Entran invocadas con |e:9| de |Influencia|.'
+  DetailText: '{SelfName}|e:+| agrega |Clownpiece, Hada Lunatica| al posible |g:Refuerzos de Hadas|'
+  FlavorText: No son solo piezas de Payaso, es el circo entero.

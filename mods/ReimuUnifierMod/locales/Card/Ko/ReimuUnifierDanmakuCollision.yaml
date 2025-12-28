@@ -1,0 +1,4 @@
+﻿ReimuUnifierDanmakuCollision:
+  Name: 탄막 충돌
+  Description: '{PlayerName}의 턴 종료 시, 손에 있는 소환된 |동료|마다 방어를 {Value1} 얻습니다.'
+  FlavorText: 쟤들이 내 힘을 조금 따라하는데 저렇게나 필요하다고? -치르노, 탄막 화면 전체를 얼어붙게 하면서.

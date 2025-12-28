@@ -1,0 +1,7 @@
+﻿ReimuUnifierMaidensDivineChanneling:
+  Name: Canalización Divina de la Sacerdotisa
+  Description: >-
+    |Equipo [Sanae]:| Gana |e:1| |Amuleto|.
+
+    Gana {Block} de |Bloqueo|. Gana |e:2| de |Barrera| por cada beneficio positivo que tiene {PlayerName}.
+  FlavorText: Si Sanae es una diosa humana que puede canalizar a los dioses, ¿puede canalizarse a sí misma?

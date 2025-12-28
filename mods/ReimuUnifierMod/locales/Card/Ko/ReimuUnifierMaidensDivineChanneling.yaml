@@ -1,0 +1,7 @@
+﻿ReimuUnifierMaidensDivineChanneling:
+  Name: 무녀의 신성한 영결
+  Description: >-
+    |팀 업 [사나에]:| |부적|을 |e:1| 얻습니다.
+
+    방어를 {Block} 얻습니다. {PlayerName}의 버프마다 |보호막|을 |e:2| 얻습니다.
+  FlavorText: 사나에가 신을 매개할 수 있는 인간 신이라면, 자기 자신도 매개할 수 있을까?

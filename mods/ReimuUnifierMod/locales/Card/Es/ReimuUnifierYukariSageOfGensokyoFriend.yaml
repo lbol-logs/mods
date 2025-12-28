@@ -1,0 +1,6 @@
+﻿ReimuUnifierYukariSageOfGensokyoFriend:
+  Name: Yukari, Sabia de Gensokyo
+  Description: '{FriendP} |d:Barrera Cuadruple:| Inflige {Damage} de daño de ataque a cada enemigo. Gana {Value2} de |Bloqueo|.'
+  ExtraDescription1: '{FriendA} |p:Barrera Duplex Hakurei:| Convierte el |Bloqueo| de {PlayerName} en |Barrera| y luego duplica la |Barrera| de {PlayerName}.'
+  ExtraDescription3: '{FriendU} |l:Arcanum -Barrera de Danmaku-:| Al final de este y los siguientes |:4| turnos de {PlayerName}, gana {Value1} de |Barrera| y luego inflige daño igual a la |Barrera| de {PlayerName} a un enemigo aleatorio.'
+  FlavorText: ¿Te gustaría tener una experiencia cercana a la muerte? Solo tienes que cruzar la frontera entre la vida y la muerte.

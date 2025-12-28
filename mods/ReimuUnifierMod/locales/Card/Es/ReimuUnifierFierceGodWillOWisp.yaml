@@ -1,0 +1,9 @@
+﻿ReimuUnifierFierceGodWillOWisp:
+  Name: Fuego Fatuo de la Deva Fiera
+  Description: >-
+    Inflige {Damage} de daño a un enemigo aleatorio {Value1} veces.
+
+    |Equipo [Equipo Blanco]:| Inflige daño una vez adicional.
+
+    |Equipo [Equipo Rojo]:| Gana |Certero|.
+  FlavorText: ¡Oye, esos de antes eran mis movimientos! ¡Sería genial que los recordaras! —Suika

@@ -1,0 +1,6 @@
+﻿ReimuUnifierSuikaGourdOniFriend:
+  Name: Suika, Oni de la Calabaza
+  Description: '{FriendP} |u:Missing Power|: Agrega una |Ebria| con |Etéreo| a la mano.'
+  ExtraDescription1: '{FriendA} |p:Missing Purple Power|: Devuelve todas las |Ebrias| de la pila del |Exilio| a la mano.'
+  ExtraDescription3: '{FriendU} |d:Agujero Negro de Contra-Tsuina|: Gana {Value1} de Perfección. Hasta el próximo turno de {PlayerName}, gana {Value2} de |Poder Temporal| siempre que {PlayerName} reciba daño por un ataque.'
+  FlavorText: '"Esto es malo. Me estoy poniendo sobria."'

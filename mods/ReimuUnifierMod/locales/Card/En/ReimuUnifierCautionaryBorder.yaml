@@ -1,0 +1,7 @@
+﻿ReimuUnifierCautionaryBorder:
+  Name: Cautionary Border
+  Description: >-
+    Gain {Block} |Block|. 
+
+    Apply |e:1| |Weak| to each enemy.
+  FlavorText: Predictable

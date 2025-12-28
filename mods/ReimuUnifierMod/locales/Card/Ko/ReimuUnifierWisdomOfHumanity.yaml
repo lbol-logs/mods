@@ -1,0 +1,11 @@
+﻿ReimuUnifierWisdomOfHumanity:
+  Name: 인류의 지혜
+  Description: >-
+    |팀 업 [인간]|: 유효한 |팀 업|마다 카드를 한 장 뽑습니다.
+
+    손에 있는 카드마다 방어를 |e:3| 얻습니다.
+  UpgradedDescription: >-
+    |팀 업 [인간]|: 유효한 |팀 업|마다 카드를 한 장 뽑습니다.
+
+    손에 있는 카드마다 |보호막| |e:3|을 얻습니다.
+  FlavorText: '요괴의 악몽: 세계의 신비를 설명해 버리는 인류의 능력.'

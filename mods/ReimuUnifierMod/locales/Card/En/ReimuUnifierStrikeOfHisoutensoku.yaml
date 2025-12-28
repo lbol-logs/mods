@@ -1,0 +1,11 @@
+﻿ReimuUnifierStrikeOfHisoutensoku:
+  Name: Strike of Hisoutensoku
+  Description: >-
+    Deal {Damage} damage. {SelfName} deals {Value1} additional damage for each debuff on the target.
+
+    |Team Up [Sanae]|: Apply |e:1| |Temporary Firepower Down| for each debuff on the target.
+  UpgradedDescription: >-
+    |Team Up [Sanae]|: Apply |e:1| |Temporary Firepower Down| for each debuff on the target.
+
+    Deal {Damage} damage. {SelfName} deals {Value1} additional damage for each debuff on the target.
+  FlavorText: I could just swoop in and fight with miracles, but that would violate my sense of aesthetics. Only mechs can fight mechs.

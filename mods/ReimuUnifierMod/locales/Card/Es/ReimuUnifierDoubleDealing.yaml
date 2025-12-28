@@ -1,0 +1,11 @@
+﻿ReimuUnifierDoubleDealing:
+  Name: Doble Solucionadora
+  Description: >-
+    Ganas |e:1| de |Vulnerable| y |e:1| de |Débil|. Invoca una |Compañera| en la mano.
+
+    |Team Up [Shinmyoumaru]|: Por cada |Compañera| en la mano ganan |e:1| de |Influencia|.
+  UpgradedDescription: >-
+    Ganas |e:1| de |Vulnerable| o |e:1| de |Débil| aleatoriamente. Invoca una |Compañera| en la mano.
+
+    |Equipo [Shinmyoumaru]|: Por cada |Compañera| en la mano ganan |e:1| de |Influencia|.
+  FlavorText: Si los débiles se convierten en los fuertes, ¿no se convierten simplemente en los tiranos contra los que se rebelaron?

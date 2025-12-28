@@ -1,0 +1,7 @@
+﻿ReimuUnifierCursedBoundary:
+  Name: 诅咒结界 -共享痛苦-
+  Description: >-
+    每 {Mana}：失去 |e:1| 点生命值并造成 {Damage} 点伤害。
+
+    |组队 [依神女苑]|：每 {Mana}：获得 {Value1}<sprite="Point" name="Gold">。
+  FlavorText: 现在！让我们一起品尝极致的痛苦吧！

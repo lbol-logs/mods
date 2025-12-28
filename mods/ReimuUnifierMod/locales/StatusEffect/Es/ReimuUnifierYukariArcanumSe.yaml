@@ -1,0 +1,3 @@
+﻿ReimuUnifierYukariArcanumSe:
+  Name: Arcanum de Yukari -Barrera de Danmaku-
+  Description: Al final del turno de {PlayerName}, gana {Level} de |Barrera| y luego infliges daño igual a tu |Barrera| a un enemigo aleatorio. Queda{Count:plural one=' % turno' other='n % turnos'}.

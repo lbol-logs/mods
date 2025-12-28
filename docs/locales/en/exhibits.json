@@ -45,6 +45,15 @@
     "Description": "Adds <Mana /> to the mana base. Cards unique to <h>Patchouli</h> are added to the card pool.<br />At the start of the first turn each combat, add an <h>Astronomy</h> to the hand.<br />Whenever a card that has been <h>Boosted</h> <BoostThreshold1 /> or more times is played, gain <Value2 /> Block."
   },
 
+  "ReimuUnifierExhibitA": {
+    "Name": "Tactical Efficiency Manual",
+    "Description": "Adds <Mana /> to the mana base. Cards unique to <h>ReimuUnifier</h> are added to the card pool.<br />The first time a <h>Teammate</h> is summoned by playing it each combat, gain <Mana2 />."
+  },
+  "ReimuUnifierExhibitB": {
+    "Name": "Yukari's Communication Orb",
+    "Description": "Adds <Mana /> to the mana base. Cards unique to <h>ReimuUnifier</h> are added to the card pool.<br />Whenever a <h>Teammate</h> is summoned by being played, gain <he>3</he> <h>Barrier</h>."
+  },
+
   "SanaeClayVolcano": {
     "Name": "Clay Volcano",
     "Description": "Whenever the draw pile is shuffled, gain <Value1 /> <h>Temporary Spirit</h>."

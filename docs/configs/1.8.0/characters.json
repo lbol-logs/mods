@@ -32,6 +32,17 @@
       "Exhibit": "PatchouliExhibitB"
     }
   },
+  "ReimuUnifierMod": {
+    "BaseMana": "WWRR",
+    "A": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "ReimuUnifierAttackR", "ReimuUnifierAttackR", "ReimuUnifierBlockW", "ReimuUnifierBlockW", "ReimuUnifierMarisaKirisameFriend", "ReimuUnifierCoordinatedStrike"],
+      "Exhibit": "ReimuUnifierExhibitA"
+    },
+    "B": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "ReimuUnifierAttackW", "ReimuUnifierAttackW", "ReimuUnifierBlockR", "ReimuUnifierBlockR", "ReimuUnifierYukariYakumoFriend", "ReimuUnifierReinforcedBoundary"],
+      "Exhibit": "ReimuUnifierExhibitB"
+    }
+  },
   "Sanae_Kochiya": {
     "BaseMana": "WUGG",
     "A": {

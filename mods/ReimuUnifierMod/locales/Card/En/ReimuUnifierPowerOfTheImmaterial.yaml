@@ -1,0 +1,7 @@
+﻿ReimuUnifierPowerOfTheImmaterial:
+  Name: Power Of The Immaterial
+  Description: >-
+    |Team Up [Suika]:| Gain {Value1} |Temporary Firepower|.
+
+    Deal {Damage} damage {Value2} times. If {PlayerName} has |Temporary Firepower|, deal that much damage |e:1| additional time.
+  FlavorText: For many, more beloved than Common Flowers, Urban Legends or Hopeless Masquerades.

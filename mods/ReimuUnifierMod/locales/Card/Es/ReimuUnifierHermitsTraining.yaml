@@ -1,0 +1,7 @@
+﻿ReimuUnifierHermitsTraining:
+  Name: Entrenamiento de la Ermitaña
+  Description: >-
+    |Equipo [Kasen]|: Gana {Value1} de |Poder Temporal|.
+
+    Gana {Block} de |Bloqueo|. Si {PlayerName} tiene |Poder Temporal|, gana {Shield} de |Bloqueo| y {Shield} de |Barrera| en su lugar.
+  FlavorText: Que entrenes con lo que la vida te está ofreciendo.

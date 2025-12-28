@@ -1,0 +1,11 @@
+﻿ReimuUnifierCallToArms:
+  Name: Call To Arms
+  Description: >-
+    Randomly add a |Youkai-Forged Needle| or a |Communicator Orb| to the hand for each summoned |Teammate| in hand.
+
+    |Team Up [Red Teammate]|: The added cards cost {Mana} less.
+  UpgradedDescription: >-
+    Randomly add a |Youkai-Forged Needle| or a |Communicator Orb| to the hand. Repeat for each summoned |Teammate| in hand.
+
+    |Team Up [Red Teammate]|: The added cards cost {Mana} less.
+  FlavorText: More personal than a text to arms.

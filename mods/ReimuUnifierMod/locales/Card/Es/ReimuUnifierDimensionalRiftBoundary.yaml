@@ -1,0 +1,7 @@
+﻿ReimuUnifierDimensionalRiftBoundary:
+  Name: Grieta Dimensional -Frontera-
+  Description: >-
+    Siempre que una |Compañera| entre en la mano, inflige {Value1} de daño a un enemigo aleatorio.
+
+    Siempre que una |Compañera| invocada abandone la mano, gana {Mana}.
+  FlavorText: 'Juego de bebidas: Bebe cada vez que aparezcan las palabras "Ritual", "Frontera" o "Dimensión" en una carta de Reimu.'

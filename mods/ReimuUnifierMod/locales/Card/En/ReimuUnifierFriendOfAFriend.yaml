@@ -1,0 +1,4 @@
+﻿ReimuUnifierFriendOfAFriend:
+  Name: Friend of a Friend
+  Description: Choose up to {Value1} of {Value2} |p:completely random| |Teammates| to add to the hand. They temporarily cost {Mana} and have |Ethereal|.
+  FlavorText: My friends' friends are my friends!

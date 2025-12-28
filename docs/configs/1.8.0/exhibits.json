@@ -63,6 +63,21 @@
     "BoostThreshold1": 1
   },
 
+  "ReimuUnifierExhibitA": {
+    "Owner": "ReimuUnifierMod",
+    "Rarity": "Shining",
+    "Value1": 2,
+    "Mana": "R",
+    "BaseMana": "R",
+    "Mana2": "RR"
+  },
+  "ReimuUnifierExhibitB": {
+    "Owner": "ReimuUnifierMod",
+    "Rarity": "Shining",
+    "Mana": "W",
+    "BaseMana": "W"
+  },
+
   "SanaeClayVolcano": {
     "Rarity": "Common",
     "Value1": 2,

@@ -1,0 +1,7 @@
+﻿ReimuUnifierYoukaiShrineMaiden:
+  Name: Youkai Shrine Maiden
+  Description: >-
+    Gain {Mana}. Draw {Value1} cards. Add |e:3| random |Misfortunes| to the discard pile.
+
+    |Team Up [Youkai]|: Add |e:1| less |Misfortune| for each valid |Team Up|. Excess |Team Ups| add |e:1| |Ward| each.
+  FlavorText: Unfortunately for you, I don't mind needless killing. I'm not a Youkai Shrine Maiden either. I'm a human shrine maiden, and it's my job to exterminate youkai!

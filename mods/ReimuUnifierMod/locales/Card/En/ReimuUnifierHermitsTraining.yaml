@@ -1,0 +1,7 @@
+﻿ReimuUnifierHermitsTraining:
+  Name: Hermit's Training
+  Description: >-
+    |Team Up [Kasen]|: Gain {Value1} |Temporary Firepower|.
+
+    Gain {Block} |Block|. If {PlayerName} has |Temporary Firepower|, gain {Shield} |Block| and {Shield} |Barrier| instead.
+  FlavorText: Training to see what life has to offer

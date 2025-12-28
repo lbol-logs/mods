@@ -1,0 +1,6 @@
+﻿ReimuUnifierAunnShrineGuardianFriend:
+  Name: Aunn, Guardiana del Santuario
+  Description: '{FriendP} |l:Protección de la Koma-Inu|: |Exilia| una |Desgracia| aleatoria de la mano, pila de robo o pila de descarte.'
+  ExtraDescription1: '{FriendA} |g:Koma-Inu Giratoria|: Gana {Block} de |Bloqueo|, {Shield} de |Barrera|, {Value1} |Amuleto|, {Value1} de |Resguardo|, {Value1} de |Evasión| y {Value1} de |Esprítu Temporal|.'
+  ExtraDescription3: '{FriendU} |d:Signo del Guardián "Forma de Piedra"|:  Gana |e:2| |Sellados|. Evita que {PlayerName} pierda vida las próximas {Value2} veces.'
+  FlavorText: ¿¡Reimu Necesita Ayuda!? ¡Aunn-chan al Rescate!

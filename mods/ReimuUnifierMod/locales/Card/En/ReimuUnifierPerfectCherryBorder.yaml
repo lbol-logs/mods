@@ -1,0 +1,11 @@
+﻿ReimuUnifierPerfectCherryBorder:
+  Name: Perfect Cherry Border
+  Description: >-
+    Prevent the next time {PlayerName} would lose life.
+
+    |Team Up [Yukari]:| When this effect activates, each enemy loses life equal to the prevented life loss.
+  UpgradedDescription: >-
+    Prevent the next {Value1} times {PlayerName} would lose life.
+
+    |Team Up [Yukari]:| When this effect activates, each enemy loses life equal to the prevented life loss.
+  FlavorText: To make a Perfect Cherry Border, you must use your Imperfect Cherry Border and absorb Android Youmu and Android Youki.

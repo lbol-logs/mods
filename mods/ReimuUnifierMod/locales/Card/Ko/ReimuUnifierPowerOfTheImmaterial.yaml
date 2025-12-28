@@ -1,0 +1,7 @@
+﻿ReimuUnifierPowerOfTheImmaterial:
+  Name: 췌몽상
+  Description: >-
+    |팀 업 [스이카]:| |일시 화력|을 {Value1} 얻습니다.
+
+    피해를 {Damage}씩 {Value2}번 줍니다. {PlayerName}에게 |일시 화력|이 있다면, 그 수치만큼 피해를 |e:1|회씩 추가로 줍니다.
+  FlavorText: 많은 사람들에게, 빙의화, 심비록, 심기루보다 더 사랑받는.

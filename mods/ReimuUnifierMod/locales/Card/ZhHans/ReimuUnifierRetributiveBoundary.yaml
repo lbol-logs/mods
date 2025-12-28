@@ -1,0 +1,11 @@
+﻿ReimuUnifierRetributiveBoundary:
+  Name: 报复结界
+  Description: >-
+    获得 {Block} 点|格挡|。
+
+    直到{PlayerName}的下个回合，每当{PlayerName}受到敌人完整攻击的伤害时，将一张|妖怪锻造针|加入手中。
+  UpgradedDescription: >-
+    获得 {Shield} 点|护盾|。
+
+    直到{PlayerName}的下个回合，每当{PlayerName}受到敌人完整攻击的伤害时，将一张|妖怪锻造针+|加入手中。
+  FlavorText: 如果你攻击我，你将变得比想象中更弱。

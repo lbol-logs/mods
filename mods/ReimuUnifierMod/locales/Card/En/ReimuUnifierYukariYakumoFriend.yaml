@@ -1,0 +1,8 @@
+﻿ReimuUnifierYukariYakumoFriend:
+  Name: Yukari Yakumo
+  Description: >-
+    {Indent} Add a |Communicator Orb| to the hand.
+     {FriendP}|e:Boundary of Sound and Silence:| Add a |Communicator Orb| to the hand.
+  ExtraDescription1: "{FriendA} |p:Quadruple Barrier:| |Exile| a card from the hand. Gain |Barrier| equal to |e:6| times that card's cost."
+  ExtraDescription3: "{FriendU} |d:Underside of Uncommon Sense:| Gain |e:1| |Flawless|. At the start of {PlayerName}'s next turn, each enemy loses {Value2} life."
+  FlavorText: "\"Either way, I'm here now and I'm awake. That is proof enough that I have the will to work.\" \"Willing to work and getting work done are entirely different!\" \"Compared to a shrine maiden who's rarely in her shrine, I think I'm getting plenty of work done.\""

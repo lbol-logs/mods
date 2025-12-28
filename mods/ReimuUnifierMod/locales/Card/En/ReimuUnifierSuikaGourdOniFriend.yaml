@@ -1,0 +1,6 @@
+﻿ReimuUnifierSuikaGourdOniFriend:
+  Name: Suika, Oni of the Gourd
+  Description: '{FriendP} |u:Missing Power|: Add a |Tipsy| with |Ethereal| to the hand.'
+  ExtraDescription1: '{FriendA} |p:Missing Purple Power|: Return all |Tipsies| from the |Exile| pile to the hand.'
+  ExtraDescription3: "{FriendU} |d:Counter-Tsuina Black Hole|: Gain {Value1} Flawless. Until {PlayerName}'s next turn, gain {Value2} |Temporary Firepower| whenever {PlayerName} takes attack damage."
+  FlavorText: "\"This is bad. I'm sobering up.\""

@@ -1,0 +1,15 @@
+﻿ReimuUnifierEmbodimentOfTheScarletDevil:
+  Name: 동방홍마향
+  Description: >-
+    |불안정한 물약| |e:1|장을 얻습니다. 체력을 |e:5| 회복합니다. |화력|을 |e:1| 얻습니다. 다음 {PlayerName}의 일반턴에, {PlayerName}가 카드를 |e:5|장 사용하면 턴이 종료됩니다.
+
+    {PlayerName}의 턴을 종료합니다. 그 후, 추가 턴을 얻습니다.
+
+    전투당 첫 {SelfName}만 발동합니다.
+  ExtraDescription1: >-
+    |d: 불안정한 물약 1장을 얻습니다. 체력을 5 회복합니다. 화력을 1 얻습니다. 다음 {PlayerName}의 일반턴에, {PlayerName}가 카드를 5장 사용하면 턴이 종료됩니다.|
+
+    |d: {PlayerName}의 턴을 종료합니다. 그 후, 추가 턴을 얻습니다.|
+
+    전투당 첫 {SelfName}만 발동합니다.
+  FlavorText: 메이링! 파츄리! 사쿠야! 플랑드르! 레밀리아! 모두 합쳐서! 스칼렛 특전대!!!

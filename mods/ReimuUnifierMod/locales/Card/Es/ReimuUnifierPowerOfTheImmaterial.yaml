@@ -1,0 +1,7 @@
+﻿ReimuUnifierPowerOfTheImmaterial:
+  Name: Poder de lo Immaterial
+  Description: >-
+    |Equipo [Suika]:| Gana {Value1} de |Poder Temporal|.
+
+    Inflige {Damage} de daño {Value2} veces. Si {PlayerName} tiene |Poder Temporal|, inflige esa misma cantidad de daño |e:1| vez adicional.
+  FlavorText: Para mucha gente, es más querida que el Common Flowers, Urban Legends o Hopeless Masquerade.

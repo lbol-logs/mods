@@ -1,0 +1,5 @@
+﻿ReimuUnifierWilyBeastStrike:
+  Name: 귀형격
+  Description: 다음 |동료|의 |a:액티브 능력| 또는 |u:궁극기|가 두 번 발동됩니다.
+  UpgradedDescription: 다음 {Value1}번의 |동료|의 |a:액티브 능력| 또는 |u:궁극기|가 두 번 발동됩니다.
+  FlavorText: 최약생물 넣을 예산은 부족했거든.

@@ -1,0 +1,7 @@
+﻿ReimuUnifierBanishingRitualDrainingStrike:
+  Name: 驱逐仪式 -吸取打击-
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    |退治|：获得 {Value1} 点生命值。
+  FlavorText: 灵梦从一个穿绿衣服的管道工那里学到的，他买了哆来咪的一个捕梦网。

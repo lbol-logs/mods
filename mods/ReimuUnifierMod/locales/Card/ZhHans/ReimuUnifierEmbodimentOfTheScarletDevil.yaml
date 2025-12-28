@@ -1,0 +1,15 @@
+﻿ReimuUnifierEmbodimentOfTheScarletDevil:
+  Name: 绯红恶魔的化身
+  Description: >-
+    将 |e:1| |不稳定药水|加入手中。获得 |e:5| 点生命值。获得 |e:1| 点|火力|。
+
+    结束{PlayerName}的回合。然后，获得一个额外回合。直到{PlayerName}的下个自然回合，{PlayerName} 的回合在打出 |e:5| 张牌后结束。
+
+    每场战斗只有第一张 会生效。
+  ExtraDescription1: >-
+    |d: 将1张不稳定药水加入手中。获得5点生命值。获得1点火力。|
+
+    |d: 结束{PlayerName}的回合。然后，获得一个额外回合。直到{PlayerName}的下个自然回合，{PlayerName} 的回合在打出5张牌后结束。|
+
+    每场战斗只有第一张 会生效。
+  FlavorText: 红美铃！帕秋莉！咲夜！芙兰朵露！蕾米莉亚！我们一起是…绯红特别部队！

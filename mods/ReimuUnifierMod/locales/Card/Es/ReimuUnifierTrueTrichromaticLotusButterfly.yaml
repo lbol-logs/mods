@@ -1,0 +1,12 @@
+﻿ReimuUnifierTrueTrichromaticLotusButterfly:
+  Name: Mariposa de Loto Tricromática Verdadera
+  Description: >-
+    |Equipo [Marisa]:| Inflige {Damage} de daño |e:10| veces. Pierde 2 de |Poder|.
+
+    |Desbordamiento|: Gana {Mana}.
+  UpgradedDescription: >-
+    |Equipo [Marisa]:| Inflige {Damage} de daño |e:10| veces. Inflige {SecondaryDamagePreview} de daño. Pierde |e:2| de |Poder|.
+
+    |Desbordamiento|: Gana {Mana}.
+  DetailText: Esta carta no tiene efecto sin una formación de |Equipo|.
+  FlavorText: '"Te dejaré hacer lo que quieras, Marisa." "¡Esa es mi línea, Reimu!"'

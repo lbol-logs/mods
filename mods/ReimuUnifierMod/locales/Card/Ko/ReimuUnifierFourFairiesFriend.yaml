@@ -1,0 +1,8 @@
+﻿ReimuUnifierFourFairiesFriend:
+  Name: 무임승차 요정들
+  Description: '{FriendP} |e:요정 탄막 난사:| 무작위 적에게 피해를 {Damage}씩 {Value1}번 줍니다.'
+  ExtraDescription1: '{FriendA} |g:요정 증원:| |e:삼월정|을 하나 골라 소환한 상태로 얻습니다.'
+  ExtraDescription3: '{FriendU} |d:은별 계절:| |e:삼월정| 모두를 |지원력|을 |e:9| 가지고 소환한 상태로 얻습니다.'
+  UpgradedExtraDescription3: '{FriendU} |p:순화된 광기의 횃불:| |e:네 장난꾸러기 요정|들을 |지원력|을 |e:9| 가지고 소환한 상태로 얻습니다.'
+  DetailText: '{SelfName}|e:+|은 |g:요정 증원|에 |광기의 요정 클라운피스|를 추가합니다.'
+  FlavorText: 단순히 광대 조각들이 아니라, 아예 서커스 전체다.

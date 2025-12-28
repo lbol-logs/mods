@@ -1,0 +1,5 @@
+﻿ReimuUnifierTagOut:
+  Name: Tag Out
+  Description: "|Exile| up to |e:1| card from the hand. If it's a |Teammate|, put a random unsummoned |Teammate| from the draw pile into the hand and summon it."
+  UpgradedDescription: "|Exile| up to |e:1| card from the hand, draw or discard pile. If it's a |Teammate|,  put a random unsummoned |Teammate| from the draw pile into the hand and summon it."
+  FlavorText: "\"Take the beating? I'll give THEM a beating!\""

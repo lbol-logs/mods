@@ -1,0 +1,11 @@
+﻿ReimuUnifierPerfectCherryBorder:
+  Name: Frontera Perfecta de Cerezos
+  Description: >-
+    Evita la próxima vez que {PlayerName} no pierda vida.
+
+    |Equipo [Yukari]:| Cuando este efecto se activa, cada enemigo pierde vida igual a la pérdida de vida evitada.
+  UpgradedDescription: >-
+    Evita que las próximas {Value1} veces {PlayerName} no pierda vida.
+
+    |Equipo [Yukari]:| Cuando este efecto se activa, cada enemigo pierde vida igual a la pérdida de vida evitada.
+  FlavorText: Para hacer un Frontera de Cereza Perfecta, debes usar tu Frontera de Cereza Imperfecta y absorber al Androide Youmu y al Androide Youki.

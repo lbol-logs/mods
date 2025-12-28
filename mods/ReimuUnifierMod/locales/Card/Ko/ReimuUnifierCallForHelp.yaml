@@ -1,0 +1,5 @@
+﻿ReimuUnifierCallForHelp:
+  Name: 도움 요청
+  Description: 뽑을 카드 더미에서 |동료|를 최대 {Value1}장 선택해 손에 넣습니다.
+  UpgradedDescription: 뽑을 카드 더미에서 |동료|를 최대 {Value1}장 선택해 손에 넣습니다.
+  FlavorText: 하지만 아무도 오지 않았다...

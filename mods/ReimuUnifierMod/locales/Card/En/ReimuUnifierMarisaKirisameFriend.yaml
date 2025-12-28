@@ -1,0 +1,8 @@
+﻿ReimuUnifierMarisaKirisameFriend:
+  Name: Marisa Kirisame
+  Description: "{FriendP}|d:Hakkero Shot: | Deal {Damage} attack damage to the enemy with the least life. Gain |e:1| |Charge| at the start of {PlayerName}'s next turn."
+  ExtraDescription1: '{FriendA} |i:Flaming Laser:| Deal {ActiveDamagePreview} attack damage and apply |e:1| |Vulnerable| to the enemy with the least life. Gain |e:2| |Charge|.'
+  UpgradedExtraDescription1: '{FriendA} |i:Flaming Laser:| Deal {ActiveDamagePreview} attack damage |e:2| times and apply |e:1| |Vulnerable| to the enemy with the least life. Gain |e:2| |Charge|.'
+  ExtraDescription3: '{FriendU} |u:Love Sign "Master Spark":| Deal {UltimateDamagePreview} |Accurate| attack damage to each enemy.'
+  DetailText: '{SelfName} deals damage at the start of the turn.'
+  FlavorText: "\"Ordinary people would go insane in less than five seconds. Are you okay, Marisa?\" \"Yeah, I'm insane to begin with.\""

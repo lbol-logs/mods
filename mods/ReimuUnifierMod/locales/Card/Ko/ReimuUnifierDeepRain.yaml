@@ -1,0 +1,11 @@
+﻿ReimuUnifierDeepRain:
+  Name: 신산암
+  Description: >-
+    |그레이즈|를 {Value1} 얻습니다. 
+
+    다음 {Value2}번의 비-명중 공격은 |명중|을 얻습니다.
+  UpgradedDescription: >-
+    |그레이즈|를 {Value1} 얻습니다. 
+
+    다음 {Value2}번의 비-명중 공격은 |명중|을 얻습니다.
+  FlavorText: 자, 아야, 오늘 나한테 뭐 가르쳐 줄 거야? 회피!

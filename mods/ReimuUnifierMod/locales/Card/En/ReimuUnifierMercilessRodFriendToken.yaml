@@ -1,0 +1,7 @@
+﻿ReimuUnifierMercilessRodFriendToken:
+  Name: Merciless Purification Rod
+  Description: '{Indent} |d:Might of the Meek|: Whenever a Common card is played, gain {Value1} |Firepower|.'
+  UpgradedDescription: '{Indent} |d:Might of the Meek|: Whenever a Common card is played, gain {Value1} |Firepower| and {Value1} |TemporaryFirepower|.'
+  ExtraDescription1: '{FriendP} |d:Spinning Rod|: Deal attack {Damage} damage to the enemy with the most life |e:3| times.'
+  ExtraDescription3: '{FriendU} |d:Bewitched Weapon -Merciless Purification Rod-|: Deal {Damage} attack damage to each enemy |e:8| times.'
+  FlavorText: Now, my treasured mallet! Impart the power of dreams to all the speechless tools!

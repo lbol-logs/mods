@@ -1,0 +1,827 @@
+﻿#FOR TRANSLATORS: 背景文本和一些名称会有注释以便于查找/翻译引用，但如果保留引用不可行，可自由调整或忽略它们。
+#额外警告：我将在未来补丁中为所有卡牌名称添加 "ReimuUnifier" 前缀。-24/09/2025
+
+ReimuUnifierAttackR:
+    Name: 联合突击
+    Description: 造成 {Damage} 点伤害。
+    FlavorText: 书籍中最古老的谈判策略。
+
+ReimuUnifierBlockW:
+    Name: 强化结界
+    Description: 获得 {Block} 点|格挡|。
+    FlavorText: 你面对的已不是普通的结界了……
+
+ReimuUnifierAttackW:
+    Name: 净化之杖打击
+    Description: 造成 {Damage} 点伤害。
+    FlavorText: 几年后，这将成为灵梦最强大、射程最远的攻击。
+
+ReimuUnifierBlockR:
+    Name: 掩护火力
+    Description: 获得 {Block} 点|格挡|。
+    FlavorText: 我猜最好的防御真的是好的进攻。
+
+ReimuUnifierMarisaKirisameFriend:
+    Name: 雾雨魔理沙
+    Description: |-
+     {FriendP}|d:八卦炉射击：| 对生命值最低的敌人造成 {Damage} 点攻击伤害。{PlayerName}的下回合开始时获得 |e:1| |充能|
+    ExtraDescription1: |-
+     {FriendA} |i:火焰激光：| 对生命值最低的敌人造成 {ActiveDamagePreview} 点攻击伤害并施加 |e:1| |易伤|。获得 |e:2| |充能|。
+    UpgradedExtraDescription1: |-
+     {FriendA} |i:火焰激光：| 对生命值最低的敌人造成 {ActiveDamagePreview} 点攻击伤害 |e:2| 次并施加 |e:1| |易伤|。获得 |e:2| |充能|。
+    ExtraDescription3: |-
+     {FriendU} |u:恋符「Master Spark」：| 对所有敌人造成 {UltimateDamagePreview} 点|精准|攻击伤害。
+    DetailText: |-
+      在回合开始时造成伤害。
+    FlavorText: |-
+     “普通人在五秒内就会发疯。你没事吧，魔理沙？” “嗯，我一开始就疯了。”
+#永夜抄，魔理沙+爱丽丝故事。
+
+ReimuUnifierYukariYakumoFriend:
+    Name: 八云紫
+    Description: |-
+     {Indent} 将一张|通讯宝珠|加入手中。
+      {FriendP}|e:声静之界：| 将一张|通讯宝珠|加入手中。
+    ExtraDescription1: |-
+     {FriendA} |p:四重结界：| 放逐一张手牌。获得相当于该牌费用 |e:6| 倍的|护盾|。
+    ExtraDescription3: |-
+     {FriendU} |d:非常识之背面：| 获得 |e:1| |天衣无缝|。{PlayerName}的下个回合开始时，所有敌人失去 {Value2} 点生命值。
+    FlavorText: |-
+     “无论如何，我现在在这里而且醒着。这足以证明我有工作的意愿。” “愿意工作和完成工作完全是两回事！” “比起很少在神社的巫女，我觉得我完成了不少工作。”
+#妖妖梦，Phantasm Stage boss对话。
+
+ReimuUnifierCommunicatorOrbToken:
+    Name: 通讯宝珠
+    Description: |-
+      造成 {Damage} 点伤害。
+      获得 {Shield} 点|护盾|。
+      每有一张手牌中的召唤|同伴|，造成 {Value1} 点额外伤害并获得 {Value1} 点额外|护盾|。
+    FlavorText: （……我让它能通过你的阴阳玉通话。）（这样我能确保你不偷懒。）
+
+ReimuUnifierReinforcedBoundary:
+    Name: 加固结界
+    Description: |-
+      获得 {Block} 点|格挡|。
+      选择手牌中最多 |e:1| 张召唤|同伴|，激活其 |f:被动技能|。
+    FlavorText: |-
+     “我们待在家里建个枕头堡垒吧！” “你是说枕头堡？” “不！我想要堡垒，我想要城垛，我想要守卫，我还想要投石机！”
+#Bofuri
+
+ReimuUnifierCoordinatedStrike:
+    Name: 协同打击
+    Description: |-
+     造成 {Damage} 点伤害。
+     |组队 [红色同伴]：| 额外造成一次伤害。
+    UpgradedDescription: |-
+     造成 {Damage} 点伤害。
+     |组队 [红色同伴]：| 额外造成一次伤害。获得 {Mana}。
+    FlavorText: 有朋友在，什么都更有趣。就连暴力也是！
+
+ReimuUnifierPurpleReproach:
+    Name: 紫色的谴责之针 #地灵殿中八云紫！灵梦的武器
+    Description: 将 |e:2| 张|妖怪锻造针|加入手中。
+    UpgradedDescription: 将 |e:2| 张|妖怪锻造针+|加入手中。
+    FlavorText: 我是博丽巫女，这是我的武器。发射这些针12秒的费用相当于神社一年的捐赠。
+#Meet the Heavy
+
+ReimuUnifierYoukaiForgedNeedle:
+    Name: 妖怪锻造针
+    Description: |-
+      造成 {Damage} 点伤害。
+      如果本回合激活了 |同伴| 的 |a:主动技能| 或 |u:终极技能|，则 的费用为 {Mana}。
+    UpgradedDescription: |-
+      造成 {Damage} 点伤害。
+      施加 {Value1} 层|锁定|。
+      如果本回合激活了 |同伴| 的 |a:主动技能| 或 |u:终极技能|，则 的费用为 {Mana}。
+    FlavorText: 你设局，我终结！
+#流行语：设局，击倒。
+
+ReimuUnifierFierceGodWillOWisp:
+    Name: 鬼神之火 #地灵殿中萃香！灵梦的武器
+    Description: |-
+     对随机敌人造成 {Damage} 点伤害 {Value1} 次。
+     |组队 [白色同伴]：| 额外造成一次伤害。
+     |组队 [红色同伴]：| 获得|精准|。
+    FlavorText: 嘿，嘿，那些是我以前的招式！你能记住就好了。- 萃香
+#地灵殿第4关boss与萃香！灵梦的对话
+
+ReimuUnifierCautionaryBorder:
+    Name: 警戒结界
+    Description: |-
+      获得 {Block} 点|格挡|。
+      对所有敌人施加 |e:1| |虚弱|。
+    FlavorText: 可预测
+
+ReimuUnifierDeepRain:
+    Name: 山中深雨
+    Description: |-
+      获得 {Value1} 层|闪避|。
+      下 {Value2} 张非|精准|攻击牌获得|精准|。
+    UpgradedDescription: |-
+      获得 {Value1} 层|闪避|。
+      下 {Value2} 张非|精准|攻击牌获得|精准|。
+    FlavorText: 那么，射命丸文小姐，今天你要教我什么？闪避！
+#名称来自地灵殿中文！灵梦的武器
+#背景文本引用自《龙珠Z Abridged》，短笛训练悟饭。
+
+ReimuUnifierBattleForgedBonds:
+    Name: 战火铸就的羁绊
+    Description: 选择手牌、抽牌堆或弃牌堆中的一张牌|升级|它。如果是|同伴|牌，抽一张牌。
+    FlavorText: 至今为止，你不是和我面对同样的敌人吗？这意味着你是我的朋友！所以挺起胸膛，视自己为我的平等者。
+#Fate Zero，伊斯坎达尔对韦伯
+
+ReimuUnifierRetributiveBoundary:
+    Name: 报复结界
+    Description: |-
+      获得 {Block} 点|格挡|。
+      直到{PlayerName}的下个回合，每当{PlayerName}受到敌人完整攻击的伤害时，将一张|妖怪锻造针|加入手中。
+    UpgradedDescription: |-
+      获得 {Shield} 点|护盾|。
+      直到{PlayerName}的下个回合，每当{PlayerName}受到敌人完整攻击的伤害时，将一张|妖怪锻造针+|加入手中。
+    FlavorText: 如果你攻击我，你将变得比想象中更弱。
+#本·克诺比“如果你击倒我”引用
+
+ReimuUnifierSupplyRun:
+    Name: 补给行动
+    Description: 从抽牌堆或弃牌堆中将一张随机|同伴|加入手中。抽 |e:2| 张牌。
+    FlavorText: 灵梦，我拿到货了，你带法力了吗？
+#“我拿到货了，你带钱了吗？”
+
+ReimuUnifierRainDance:
+    Name: 雨之舞
+    Description: 对所有敌人造成 {Damage} 点伤害。
+    FlavorText: 测量两次，需要切多少次就切多少次。
+
+ReimuUnifierKogasaYoukaiBlacksmithFriend:
+    Name: 多多良小伞·妖怪铁匠
+    Description: |-
+     {FriendP} |b:铁匠专精：| |升级|手牌中 |e:1| 张随机牌。
+    UpgradedDescription: |-
+     {FriendP} |b:铁匠专精：| |升级|手牌中 |e:2| 张随机牌。
+    ExtraDescription1: |-
+     {FriendA} |u:唐伞惊闪：| 每有一张手牌中的|升级|牌，对随机敌人造成 {Damage} 点攻击伤害。
+    UpgradedExtraDescription1: |-
+     {FriendA} |u:唐伞惊闪：| 对随机敌人造成 {Damage} 点攻击伤害。每有一张手牌中的|升级|牌，重复此效果。
+    ExtraDescription3: |-
+     {FriendU} |p:轻落大雨滴：| 将|妖怪锻造针|加入手中直到手牌满。
+    UpgradedExtraDescription3: |-
+     {FriendU} |p:暴风雨惊喜：| 将|妖怪锻造针+|加入手中直到手牌满。
+    FlavorText: |-
+     为什么小伞喜欢打铁？因为她擅长得吓人！
+
+ReimuUnifierEmpoweringRitual:
+    Name: 赋能仪式
+    Description: |-
+     获得 {Value1} 点|暂得火力|。
+     获得 |e:1| |封印|。
+    FlavorText: 拿走我的能量 (つ O.O)つ
+
+ReimuUnifierSuikaGourdOniFriend:
+    Name: 伊吹萃香·鬼之葫芦
+    Description: |-
+     {FriendP} |u:缺失之力：| 将一张带|虚无|的|小酌怡情|加入手中。
+    ExtraDescription1: |-
+     {FriendA} |p:缺失的紫色力量：| 将|放逐|堆中的所有|小酌怡情|返回手中。
+    ExtraDescription3: |-
+     {FriendU} |d:反袭针黑穴：| 获得 {Value1} 点|天衣无缝|。直到{PlayerName}的下个回合，每当{PlayerName}受到攻击伤害时，获得 {Value2} 点|暂得火力|。
+    FlavorText: |-
+     “这不好。我正在清醒过来。”
+
+ReimuUnifierKasenWildhornFriend:
+    Name: 茨木华扇·野性与角
+    Description: |-
+     {FriendP} |d:鹰之信标：| 对生命值最低的敌人造成 {Damage} 点攻击伤害 {Value1} 次。
+    ExtraDescription1: |-
+     {FriendA} |p:仙人之训：| 获得 {Value2} 点|灵力|和 {Value2} 点|火力|。
+    UpgradedExtraDescription1: |-
+     {FriendA} |p:仙人之训：| 获得 {Value2} 点|灵力|、 {Value2} 点|火力|和 {Value2} 层|闪避|。
+    ExtraDescription3: |-
+     {FriendU} |u:猴爪！碾碎我的敌人！：| 从抽牌堆和弃牌堆中将攻击牌加入手中直到手牌满。它们|暂塑|为 {Mana}。
+    FlavorText: |-
+     “灵梦需要有人看管，否则，谁知道她还会搞出什么？”
+
+ReimuUnifierFourFairiesFriend:
+    Name: 白吃白喝的妖精们
+    Description: |-
+     {FriendP} |e:妖精弹幕齐射：| 对随机敌人造成 {Damage} 点攻击伤害 {Value1} 次。
+    ExtraDescription1: |-
+     {FriendA} |g:妖精增援：| 选择一张 |e:光之妖精|加入手中。它进入手中时已召唤。
+    ExtraDescription3: |-
+     {FriendU} |d:隐藏之星季节：| 将三张 |e:光之妖精|加入手中。它们进入时已召唤并带有 |e:9| |支援度|。
+    UpgradedExtraDescription3: |-
+     {FriendU} |p:净化狂焰火炬：| 将四张 |e:光之妖精|加入手中。它们进入时已召唤并带有 |e:9| |支援度|。
+    DetailText: |-
+     {SelfName}|e:+| 升级后|疯狂的克劳恩皮丝|将加入|g:妖精增援|的可选项中。
+    FlavorText: |-
+     她们不只是小丑的碎片，她们是整个马戏团。
+
+ReimuUnifierSanaeHumanGodFriend:
+    Name: 东风谷早苗·现人神
+    Description: |-
+     {Indent} 获得 {Value1} 层|护身符|。
+      {FriendP} |e:秘术 -灰符-|：获得相当于{PlayerName}增益数量 |e:2| 倍的|格挡|。({AdditionalBlock})
+    UpgradedDescription: |-
+     {Indent} 获得 {Value1} 层|护身符|。
+      {FriendP} |e:秘术 -灰符-|：获得相当于{PlayerName}增益数量 |e:2| 倍的|护盾|。({AdditionalShield})
+    ExtraDescription1: |-
+     {FriendA} |p:被遗忘的仪式：| |放逐|手牌中最多 |e:2| 张牌。获得等量的|庇护|。
+    UpgradedExtraDescription1: |-
+     {FriendA} |p:被遗忘的仪式：| |放逐|手牌、抽牌堆或弃牌堆中最多 |e:2| 张牌。获得等量的|庇护|。
+    ExtraDescription2: |-
+     {FriendA} |g:蛇符 -蛇缚-|：  获得 {Value2} 点|灵力|。对所有敌人施加 {Value2} 层|灵力下降|和 |e:1| |虚弱|。
+    ExtraDescription3: |-
+     {FriendA} |f:外界者的迷恋：| 获得 |e:1| |好奇|。
+    FlavorText: |-
+     在幻想乡，你不能被常识困住，对吧？
+
+ReimuUnifierAunnShrineGuardianFriend:
+    Name: 高丽野阿吽·神社守护者
+    Description: |-
+     {FriendP} |l:狛犬之护：| |放逐|手牌、抽牌堆或弃牌堆中的一张随机|厄运|。
+    ExtraDescription1: |-
+     {FriendA} |g:狛犬旋转：| 获得 {Block} 点|格挡|、 {Shield} 点|护盾|、 {Value1} 层|护身符|、 {Value1} 点|庇护|、 {Value1} 层|闪避|和 {Value1} 点|暂得灵力|。
+    ExtraDescription3: |-
+     {FriendU} |d:守护符「石形」：|  获得 |e:2| |封印|。防止下 {Value2} 次{PlayerName}失去生命。
+    FlavorText: |-
+     灵梦需要帮助！？阿吽酱来救援！
+#引用自同名游戏
+
+ReimuUnifierPowerOfTheImmaterial:
+    Name: 无形之力
+    Description: |-
+     |组队 [伊吹萃香]：| 获得 {Value1} 点|暂得火力|。
+     造成 {Damage} 点伤害 {Value2} 次。如果{PlayerName}有|暂得火力|，则额外造成等量伤害 |e:1| 次。
+    FlavorText: 对许多人来说，比《Common Flowers》、《Urban Legends》或《Hopeless Masquerades》更受欢迎。
+#引用3个飞行格斗衍生游戏。
+
+ReimuUnifierScarletNeedleRain:
+    Name: 绯红针雨
+    Description: |-
+      对所有敌人，对所有敌人造成 {Damage} 点伤害。
+      对所有敌人，对所有敌人施加 |e:1| |易伤|。
+    FlavorText: 不知何故，比实际雨更让蕾米莉亚和芙兰朵露烦恼。
+
+ReimuUnifierStrikeOfHisoutensoku:
+    Name: 非想天则打击
+    Description: |-
+     造成 {Damage} 点伤害。对目标每有一个减益，造成 {Value1} 点额外伤害。
+     |组队 [东风谷早苗]|：对目标每有一个减益，施加 |e:1| |暂失火力|。
+    UpgradedDescription: |-
+     |组队 [东风谷早苗]|：对目标每有一个减益，施加 |e:1| |暂失火力|。
+     造成 {Damage} 点伤害。对目标每有一个减益，造成 {Value1} 点额外伤害。
+    FlavorText: 我本可以用奇迹俯冲战斗，但那会违背我的美学。只有机甲能对抗机甲。
+#引用自《Knights and Magic》，将魔法替换为奇迹以呼应早苗。
+
+ReimuUnifierPurifyingStrike:
+    Name: 净化打击
+    Description: |-
+     造成 {Damage} 点伤害。
+     每造成 |e:10| 点未格挡伤害，移除{PlayerName}的一个随机减益。
+    FlavorText: 灵梦仍不确定为什么当别人被击中时，她才是被净化的那个。
+
+ReimuUnifierHermitsTraining:
+    Name: 仙人之训
+    Description: |-
+     |组队 [茨木华扇]|：获得 {Value1} 点|暂得火力|。
+     获得 {Block} 点|格挡|。如果{PlayerName}有|暂得火力|，则改为获得 {Shield} 点|格挡|和 {Shield} 点|护盾|。
+    FlavorText: 训练以见识生活所提供之物
+#引用自《Binding of Isaac》，隐士卡牌语录：“见识生活所提供之物”
+
+ReimuUnifierCooperativeBarrier:
+    Name: 协作结界
+    Description: |-
+     每有一张手牌中的召唤|同伴|，获得 {Value1} 点|暂得灵力|。
+     获得 {Block} 点|格挡|。
+    UpgradedDescription: |-
+     获得 {Value2} 点|暂得灵力|。
+     每有一张手牌中的召唤|同伴|，获得 {Value1} 点额外|暂得灵力|。
+     获得 {Block} 点|格挡|。
+    FlavorText: |-
+     “友谊的韧性”真的没有“友谊的力量”那么有冲击力
+
+ReimuUnifierYinYangCommunicationRitual:
+    Name: 阴阳通讯器
+    Description: |-
+     获得 {Block} 点|格挡|。
+     将一张|通讯宝珠|加入手中。
+    FlavorText: 一个不可摧毁的通讯设备？这不就是个阴阳诺基亚吗？
+
+ReimuUnifierSummoningRitual:
+    Name: 召唤仪式
+    Description: |-
+     抽 {Value1} 张牌。
+     每以此方法抽到一张|同伴|，获得 {Mana}。
+    FlavorText: |-
+     “不，灵梦，叫我们过来拜访不算‘召唤仪式’”
+
+ReimuUnifierCallToArms:
+    Name: 武装号召
+    Description: |-
+     每有一张手牌中的召唤|同伴|，随机将一张|妖怪锻造针|或|通讯宝珠|加入手中。
+     |组队 [红色同伴]|：添加的牌费用减少 {Mana}。
+    UpgradedDescription: |-
+     随机将一张|妖怪锻造针|或|通讯宝珠|加入手中。每有一张手牌中的召唤|同伴|，重复此效果。
+     |组队 [红色同伴]|：添加的牌费用减少 {Mana}。
+    FlavorText: |-
+     比短信号召更个人化。
+#炉石传说“武装号召”背景文本
+
+ReimuUnifierDoubleDealing:
+    Name: 双重交易
+    Description: |-
+     获得 |e:1| |易伤|和 |e:1| |虚弱|。召唤手牌中的一张|同伴|。
+     |组队 [少名针妙丸]|：手牌中的每张|同伴|获得 |e:1| |支援度|。
+    UpgradedDescription: |-
+     随机获得 |e:1| |易伤|或 |e:1| |虚弱|。召唤手牌中的一张|同伴|。
+     |组队 [少名针妙丸]|：手牌中的每张|同伴|获得 |e:1| |支援度|。
+    FlavorText: |-
+     如果弱者变成强者，他们不正是他们反抗的暴君吗？
+
+ReimuUnifierTagIn:
+    Name: 换入
+    Description: |-
+     |放逐|手牌中最多 |e:1| 张牌。如果是|同伴|，则每有 |支援度|，获得 {Value1} 点|护盾|。
+    UpgradedDescription: |-
+     |放逐|手牌、抽牌堆或弃牌堆中最多 |e:1| 张牌。如果是|同伴|，则每有 |支援度|，获得 {Value1} 点|护盾|。
+    FlavorText: |-
+     “替我挨打一会儿，好吗？”
+
+ReimuUnifierTagOut:
+    Name: 换出
+    Description: |-
+     |放逐|手牌中最多 |e:1| 张牌。如果是|同伴|，则将抽牌堆中的一张随机未召唤|同伴|加入手中并召唤它。
+    UpgradedDescription: |-
+     |放逐|手牌、抽牌堆或弃牌堆中最多 |e:1| 张牌。如果是|同伴|， 则将抽牌堆中的一张随机未召唤|同伴|加入手中并召唤它。
+    FlavorText: |-
+     “挨打？我会给他们一顿打！”
+
+ReimuUnifierCallForHelp:
+    Name: 求助
+    Description: |-
+     从抽牌堆中选择最多 {Value1} 张|同伴|加入手中。
+    UpgradedDescription: |-
+     从抽牌堆中选择最多 {Value1} 张|同伴|加入手中。
+    FlavorText: |-
+     但是没有人来……
+#Undertale，种族灭绝路线。
+
+ReimuUnifierSynchronizedRitualArray:
+    Name: 同步仪式阵列
+    Description: |-
+     |回合结束时|：对随机敌人造成 {Value1} 点伤害 {Value2} 次。
+     |手牌中|：每当{PlayerName}通过打出牌召唤|同伴|时，增加 造成伤害的次数 |e:1|。
+    FlavorText: |-
+     当你没有足够力量维持永久结界时，众筹一个！
+
+ReimuUnifierBattleFever:
+    Name: 战斗狂热
+    Description: |-
+     每当{PlayerName}激活|组队|时，获得 {Mana}。
+    DetailText: 可以多次组队的牌将为所有激活的组队获得法力
+    FlavorText: |-
+     谁能想到为狂热找解释会凭空产生法力？
+#引用黑色卡牌“无法解释的狂热”
+
+ReimuUnifierDimensionalRiftBoundary:
+    Name: 次元裂隙 -结界-
+    Description: |-
+     每当|同伴|进入手中时，对随机敌人造成 {Value1} 点伤害。
+     每当召唤|同伴|离开手牌时，获得 {Mana}。
+    FlavorText: |-
+     喝酒游戏：每次在灵梦卡牌名称中看到“仪式”、“结界”或“次元”时喝一杯。
+
+ReimuUnifierDivineForge:
+    Name: 神圣锻炉
+    Description: |-
+     {PlayerName}的回合开始时，将一张|妖怪锻造针|加入手中。
+    FlavorText: |-
+     所以你告诉我是一个神锻造了这根针？
+#引用笑话问题“所以你告诉我是一只虾炒了这饭？”关于食物“虾炒饭”
+
+ReimuUnifierRitualofEchoingProsperity:
+    Name: 回响繁荣仪式
+    Description: |-
+     {PlayerName}的回合开始时，每有一张手牌中的召唤|同伴|，获得 {Value1} 点|暂得灵力|和 {Value1} 点|暂得火力|。
+    FlavorText: |-
+     富者愈富！
+
+ReimuUnifierDanmakuCollision:
+    Name: 弹幕碰撞
+    Description: |-
+     {PlayerName}的回合结束时，每有一张手牌中的召唤|同伴|，获得 {Value1} 点|格挡|。
+    FlavorText: |-
+     看看他们需要什么来模仿我的一小部分力量。- 琪露诺，在冻结满屏子弹时。
+#引用琪露诺在《Great Fairy Wars》中的能力，以及《Invincible》中的语录。
+
+ReimuUnifierEmotionalBoundarySynchronization:
+    Name: |-
+     情感结界：同步
+    Description: |-
+     每当|同伴|的 |a:主动| 或 |u:终极技能| 被激活时，手牌中的每张|同伴|获得 |e:1| |支援度|。
+    FlavorText: |-
+     人人为我，我为人人！
+     #三个火枪手
+
+ReimuUnifierRabbleRousing:
+    Name: 煽动群众
+    Description: |-
+     {PlayerName}的下 |e:3| 个回合开始时，将一张随机普通|同伴|加入手中。
+    FlavorText: |-
+     别让魔理沙、八云紫和小伞发现这张牌的名字。她们不会喜欢被称为群众。
+
+ReimuUnifierKosuzuDecipheringBibliophileFriend:
+    Name: 古明地觉·解读书痴
+    Description: |-
+      {FriendP} 对所有敌人施加 {Value1} 层|锁定|。
+    ExtraDescription1: |-
+      {FriendA} 对所有敌人施加 |e:1| |易伤|和 {Value2} 层|锁定|。
+    ExtraDescription3: |-
+      {FriendU} 移除所有敌人的|闪避|、|光学迷彩|和|天衣无缝|，然后对所有敌人施加 |e:1| |易伤|。
+    FlavorText: |-
+     “根据这本典籍，它们的弱点是……”
+
+ReimuUnifierRitualOfTheSeasons:
+    Name: 四季仪式
+    Description: |-
+     从抽牌堆中将每种颜色的随机|同伴|加入手中。
+     |组队[高丽野阿吽]|：每选择一张|同伴|，获得1点其颜色的法力。
+    DetailText:  |-
+     将优先抽取尽可能多的牌，并根据同伴分配的颜色添加法力，即使手牌已满。
+    FlavorText: |-
+     四季仪式远比最初看起来复杂。为确保包含所有可能的季节，施法者使用递归符卡宣言，甚至当又一个妖怪偷走春天时可能出错……
+
+#此牌故意使用数字而非{Damage/Block}，因为它不受灵力或火力影响
+ReimuUnifierCombatRoleAssignment:
+    Name: 战斗角色分配
+    Description: |-
+     对随机敌人造成 |e:6| 点伤害。
+     获得 |e:6| 点|格挡|。
+     |组队 [红色同伴]：| 额外造成伤害 |e:1| 次。
+     |组队 [白色同伴]：| 额外获得|格挡| |e:1| 次。
+     可以与任意数量的|同伴||组队|。
+    DetailText:  |-
+     的伤害视为非攻击伤害。
+    FlavorText: |-
+     “我牺牲我的毛玉和妖精女仆，以攻击者角色召唤黑魔导少女魔理沙！”
+#游戏王引用
+
+ReimuUnifierMaidensDivineChanneling:
+    Name: 巫女的神灵通道
+    Description: |-
+     |组队 [东风谷早苗]：| 获得 |e:1| 层|护身符|。
+     获得 {Block} 点|格挡|。每有{PlayerName}的一个增益，获得 |e:2| 点|护盾|。
+    FlavorText: |-
+     如果早苗是能通神的人类神，她能通自己吗？
+
+ReimuUnifierOmnidirectionalBarrage:
+    Name: 全方位齐射
+    Description: |-
+     每当{PlayerName}激活|组队|时，激活所选|同伴|的第一个|被动技能|。
+    DetailText: 如果多个同伴满足组队条件，选择最左边的。对于可以多次组队的牌，这将激活所有有效的被动技能
+    FlavorText: |-
+     “它们到处都是！” “那就到处射击！”
+#星际争霸2，虫群演化任务
+
+ReimuUnifierMarisaIncidentSolverFriend:
+    Name: 魔理沙·事件解决者
+    Description: |-
+     {FriendP} |l:红色星爆：| 对所有敌人造成 {Damage} 点攻击伤害。
+    ExtraDescription1: |-
+     {FriendA} |i:最终火花：| 对所有敌人造成 {ActiveDamagePreview} 点|精准|攻击伤害。
+    ExtraDescription3: |-
+     {FriendU} |u:魔炮 -Final Master Spark-：| 进入|爆发|。对所有敌人造成 {UltimateDamagePreview} 点|精准|伤害。
+    FlavorText: |-
+     “不华丽就不是魔法。弹幕全是关于火力。”
+
+ReimuUnifierNeedleSparkSeal:
+    Name: 针星封印月之贵族
+    Description: |-
+     |妖怪锻造针| 对所有敌人造成伤害并施加 |e:2| 层|锁定|，而非伤害单个目标。此效果不叠加。
+     将一张|妖怪锻造针|加入手中。
+     |组队 [魔理沙]：| 再添加一张。
+    DetailText: |-
+     |妖怪锻造针+| 仍会单独对目标施加其自身的锁定。
+    FlavorText: |-
+     看？我正习惯这个。最强完美凭依者的宝座将是我的！
+#魔理沙在《Antinomy of Common Flowers》中的语录，游戏来源，猯藏故事模式。
+
+ReimuUnifierFantasySealDreamfinite:
+    Name: 梦想封印 -Dreamfinite-
+    Description: |-
+     每支付{Mana}：{PlayerName}的回合开始时，对生命值最高的敌人造成 {Value1} 点伤害。
+    FlavorText: |-
+     梦自我往往没有抑制，但它们的攻击性行为通常让它们易受攻击。
+
+ReimuUnifierTrueTrichromaticLotusButterfly:
+    Name: 真三色莲花蝶
+    Description: |-
+     |组队 [魔理沙]：| 造成 {Damage} 点伤害 |e:10| 次。失去2点|火力|。
+     |充盈|：获得 {Mana}。
+    UpgradedDescription: |-
+     |组队 [魔理沙]：| 造成 {Damage} 点伤害 |e:10| 次。造成 {SecondaryDamagePreview} 点伤害。失去 |e:2| 点|火力|。
+     |充盈|：获得 {Mana}。
+    DetailText: 此牌没有|组队|时无效。
+    FlavorText: |-
+     “我会让你随心所欲，魔理沙。” “那是我的台词，灵梦！”
+#幻想女武神战争中使用此符卡时的语录。
+
+ReimuUnifierWilyBeastStrike:
+    Name: 狡兽打击
+    Description: |-
+     下张|同伴|的 |a:主动| 或 |u:终极技能| 将被打出两次。
+    UpgradedDescription: |-
+     下 {Value1} 张|同伴|的 |a:主动| 或 |u:终极技能| 将被打出两次。
+    FlavorText: |-
+     预算不够做《最弱生物》了。
+#引用东方第17作标题：《狡兽与最弱生物》
+
+ReimuUnifierSubterraneanAdventure:
+    Name: 地底冒险
+    Description: |-
+     手牌上限增加至 {MaxHand}。
+     将一张|通讯宝珠|加入手中。
+     |组队 [八云紫]：| 将一张带|虚无|的|紫色的谴责之针|加入手中。它|暂塑|为 {Mana}。
+     |组队 [伊吹萃香]：| 将一张带|虚无|的|鬼神之火|加入手中。它|暂塑|为 {Mana}。
+     |组队 [射命丸文]：| 将一张带|虚无|的|山中深雨|加入手中。它|暂塑|为 {Mana}。
+    FlavorText: |-
+     啊！猫变成猫了！
+#灵梦在地灵殿中的语录
+
+ReimuUnifierYukariSageOfGensokyoFriend:
+    Name: 八云紫·幻想乡的贤者
+    Description: |-
+     {FriendP} |d:四重结界：| 对所有敌人造成 {Damage} 点攻击伤害。获得 {Value2} 点|格挡|。
+    ExtraDescription1: |-
+     {FriendA} |p:博丽二重结界：| 将{PlayerName}的|格挡|转化为|护盾|，然后翻倍{PlayerName}的|护盾|。
+    ExtraDescription3: |-
+     {FriendU} |l:秘术 -弹幕结界-：| 在此及下 |e:4| 个{PlayerName}的回合结束时，获得 {Value1} 点|护盾|，然后对随机敌人造成等于{PlayerName}|护盾|的伤害。
+    FlavorText: |-
+     你想体验濒死体验吗？通过跨越生与死的界限。
+#AoCF 八云紫对妹红胜利语录
+
+ReimuUnifierPerfectCherryBorder:
+    Name: 完美樱花结界
+    #引用东方第7作：完美樱花结界，及樱花结界机制防止被击。
+    Description: |-
+     防止下次{PlayerName}失去生命。
+     |组队 [八云紫]：| 当此效果激活时，所有敌人失去等于防止生命损失的生命值。
+    UpgradedDescription: |-
+     防止下 {Value1} 次{PlayerName}失去生命。
+     |组队 [八云紫]：| 当此效果激活时，所有敌人失去等于防止生命损失的生命值。
+    FlavorText: |-
+     要做出完美樱花结界，你必须使用不完美樱花结界并吸收安卓妖梦和安卓妖忌。
+#引用不完美细胞吸收17号和18号变成完美细胞，DBZ。
+
+ReimuUnifierRitualPowerConduit:
+    Name: 仪式 -能量导管-
+    Description: |-
+     选择手牌中的一张|同伴|召唤。每有一张手牌中的召唤|同伴|，激活其|被动技能|一次。
+    UpgradedDescription: |-
+     选择手牌中的一张|同伴|召唤。激活其|被动技能|一次，然后每有一张手牌中的召唤|同伴|，再激活一次。
+    DetailText: 包括目标同伴。
+    FlavorText: |-
+     你不需要相信自己。相信我们所有相信你的人！
+#天元突破 红莲螺岩。卡米那演讲。
+
+ReimuUnifierRisingSynergy:
+    Name: 上升协同
+    Description: |-
+     每当你的|同伴|对敌人造成攻击伤害时，获得 |e:1| 点|暂得火力|。
+    FlavorText: |-
+     有时协同不仅仅是流行词。
+
+ReimuUnifierFriendOfAFriend:
+    Name: 朋友的朋友
+    Description: |-
+     从 {Value2} 张|p:完全随机||同伴|中选择最多 {Value1} 张加入手中。它们|暂塑|为 {Mana}，具有|虚无|。
+    FlavorText: |-
+     我朋友的朋友就是我的朋友！
+
+ReimuUnifierInnateDream:
+    Name: 梦想天生
+    Description: |-
+     获得 |e:1| |阴阳玉|。如果{PlayerName}已有 |e:7| |阴阳玉|，则失去所有|阴阳玉|，获得 |e:99| |天衣无缝|并|放逐|{SelfName}。
+    FlavorText: |-
+     “这甚至不是符卡，但我给了它适当的符卡名称和一些限制，否则根本无法赢。” -魔理沙，关于灵梦浮出现实。
+
+ReimuUnifierEmbodimentOfTheScarletDevil:
+    Name: 绯红恶魔的化身
+    Description: |-
+     将 |e:1| |不稳定药水|加入手中。获得 |e:5| 点生命值。获得 |e:1| 点|火力|。
+     结束{PlayerName}的回合。然后，获得一个额外回合。直到{PlayerName}的下个自然回合，{PlayerName} 的回合在打出 |e:5| 张牌后结束。
+     每场战斗只有第一张 会生效。
+    ExtraDescription1: |-
+     |d: 将1张不稳定药水加入手中。获得5点生命值。获得1点火力。|
+     |d: 结束{PlayerName}的回合。然后，获得一个额外回合。直到{PlayerName}的下个自然回合，{PlayerName} 的回合在打出5张牌后结束。|
+     每场战斗只有第一张 会生效。
+    FlavorText: |-
+     红美铃！帕秋莉！咲夜！芙兰朵露！蕾米莉亚！我们一起是…绯红特别部队！
+#DBZ，基纽特种部队介绍
+
+ReimuUnifierDuplexBarrierDanmakuMirror:
+    Name: 二重结界 -弹幕镜-
+    Description: |-
+     {PlayerName}的回合开始时，手牌中的每张召唤|同伴|获得 |e:1| |支援度|。
+     每当|同伴|通过打出被召唤时，将其|复制|加入手中。它费用为 {Mana}，具有|虚无|。
+    DetailText: |-
+     |复制|的|同伴|不会触发此效果。
+    FlavorText: |-
+     ˙spɹɐɔ ǝʇᴉɹnoʌɐɟ s,ɐɾᴉǝS ɟo ǝuO
+#“正邪最喜欢的卡片之一”倒着写。
+
+ReimuUnifierCombinationStrikeCoordinatedPursuit:
+    Name: 组合打击 -协同追击-
+    Description: |-
+     每当|同伴|的 |a:主动技能| 或 |u:终极技能| 被激活时，下张攻击牌费用为 {Mana}。
+    FlavorText: |-
+     “我们围攻他们”听起来不像个好名字。
+
+ReimuUnifierBanishingRitualDrainingStrike:
+    Name: 驱逐仪式 -吸取打击-
+    Description: |-
+     造成 {Damage} 点伤害。
+     |退治|：获得 {Value1} 点生命值。
+    FlavorText: |-
+     灵梦从一个穿绿衣服的管道工那里学到的，他买了哆来咪的一个捕梦网。
+
+ReimuUnifierFlowerViewingParty:
+    Name: 赏花会
+    Description: |-
+     每当|同伴|通过打出被召唤时，将 |e:1| |盛夏之花|加入手中。
+     每回合一次，同时获得 {Mana}。
+    FlavorText: |-
+     最终，西行妖开花了，但未完全。其封印未破，因此如常，所有人都迎来了春天的到来。
+#东方第7作《妖妖梦》结局。
+
+ReimuUnifierShrineDefense:
+    Name: 保卫博丽神社！
+    Description: |-
+     将随机|同伴|牌加入手中直到手牌满。
+     |组队 [博丽宾客]|：每有一个有效|组队|，获得 {Mana}。
+    UpgradedDescription: |-
+     将随机|同伴|牌加入手中直到手牌满。它们|暂塑|为 |e:1| 点随机法力减少。
+     |组队 [博丽宾客]|：每有一个有效|组队|，获得 {Mana}。
+    DetailText: 博丽宾客包括雾雨魔理沙、伊吹萃香、茨木华扇、四妖精、高丽野阿吽、河城荷取、宇佐见堇子和少名针妙丸。
+    FlavorText: |-
+     对于一个据说对博丽结界重要的地方，博丽神社确实经历了相当多的破坏。
+
+ReimuUnifierDarknessOfTheCrow:
+    Name: 乌鸦之暗
+    Description: |-
+     每当{PlayerName}|闪避|一次攻击，以及{PlayerName}的回合结束时，对所有敌人造成 {Value1} 点伤害。
+     |组队 [射命丸文]|：获得 {Value2} 层|闪避|。
+    FlavorText: |-
+     “乌鸦”的“黑暗”？我猜连妖怪也可以是90年代电影音乐的粉丝。
+#引用歌曲《Darkness》，是《The Crow》OST的一部分。
+
+ReimuUnifierAyaReporterOfFantasyFriend:
+    Name: 射命丸文·幻想记者
+    Description: |-
+      {Indent} 每当{PlayerName}打出|状态|牌时，获得 |e:1| 层|闪避|。
+       {FriendP} |f:文文新闻递送|：将 |e:2| |文文新闻|加入抽牌堆。它们具有|填充|和|自动放逐|，费用减少 {Mana}。
+    ExtraDescription1: |-
+      {FriendA} |g:天狗限定特刊|：|放逐|手牌中的每张|状态|牌。每以此方法放逐一张牌，获得 |e:1| 层|闪避|。
+    ExtraDescription3: |-
+      {FriendU} |u:幻影支配|：获得“每当{PlayerName}打出一张牌，对随机敌人造成 {Value2} 点伤害”。
+    UpgradedExtraDescription3: |-
+      {FriendU} |u:无双风神|：每当{PlayerName}打出一张牌，对随机敌人造成 {Value2} 点伤害。
+    FlavorText: |-
+     我是文文，幻想乡最伟大的记者和最快的飞行者！
+
+ReimuUnifierWisdomOfHumanity:
+    Name: 人类智慧
+    Description: |-
+     |组队 [人类]|：每有一个有效|组队|，抽一张牌。
+     每有一张手牌，获得 |e:3| 点|格挡|。
+    UpgradedDescription: |-
+     |组队 [人类]|：每有一个有效|组队|，抽一张牌。
+     每有一张手牌，获得 |e:3| 点|护盾|。
+    FlavorText: |-
+     妖怪们最可怕的噩梦：人类解释世界奥秘的能力。
+
+ReimuUnifierNitoriBusinessPartnerFriend:
+    Name: 河城荷取·商业伙伴
+    Description: |-
+      {Indent} 获得 |e:10|<sprite="Point" name="Gold">。
+    ExtraDescription1: |-
+      {FriendA} |b:河童无人机技术|：移除{PlayerName}的|虚弱|和|易伤|。
+    UpgradedExtraDescription1: |-
+      {FriendA} |b:河童无人机技术|：移除{PlayerName}的|虚弱|、|易伤|、|锁定|和|脆弱|。
+    ExtraDescription2: |-
+      {FriendA} |d:黄瓜导弹齐射|：对随机敌人造成 {Damage} 点攻击伤害 {Value1} 次。抽一张牌。
+    ExtraDescription3: |-
+      {FriendU} |s:尼斯湖就在此刻此地！|：在回合结束时，本场战斗中每经过一个回合，造成 {Value2} 点伤害。
+    FlavorText: |-
+     “嘿，人类。河童和人类自古就是誓友，所以让我告诉你一些事。”
+     “誓友？你确定没有把旧敌误认为朋友吗？”
+#风神录河城荷取对话。
+
+ReimuUnifierSumirekoDreamVisitorFriend:
+    Name: 宇佐见堇子·秘封访客
+    Description: |-
+      {FriendP} |d:念力应用|：获得 |e:1| |灵异珠|。
+    ExtraDescription1: |-
+      {FriendA} |e:3D打印枪|：每有 |灵异珠|，对生命值最低的敌人造成 {Damage} 点伤害。
+    ExtraDescription2: |-
+      {FriendA2} |p:齐纳卡手里剑|：每有 |灵异珠|，失去 |e:1| 点生命值，抽 |e:1| 张牌并获得 {Mana}。
+    ExtraDescription3: |-
+      {FriendU} |s:召唤二重身|：如果{PlayerName}至少有7个 |灵异珠|，失去所有 |灵异珠|。然后，在此回合，|复制|每张打出的牌。
+    UpgradedExtraDescription3: |-
+      {FriendU} |s:世纪双重ESPer|：如果{PlayerName}至少有7个 |灵异珠|，失去所有 |灵异珠|并抽牌直到手牌满。然后，在此回合，|复制|每张打出的牌。
+    DetailText: |-
+     灵异珠仅由{SelfName}使用，但所有复制共享。
+    FlavorText: |-
+     我是天堂的巫女，博丽灵梦！
+     我会保护结界，无论什么！
+     我不会让一些人类愚蠢地死在我面前！
+#灵梦在《Urban Legend in Limbo》最终战对堇子的对话。
+
+ReimuUnifierPerfectPosession:
+    Name: 完美凭依
+    Description: |-
+     选择最多 |e:1| 张牌。|放逐|手牌中除所选牌外的所有牌。每|放逐|一张牌，获得 |e:3| 点|护盾|。每|放逐|一张|同伴|，同时获得 {Mana}。
+    FlavorText: |-
+     魔理沙：其他人都在用完美凭依，但只有你一个人，嗯？
+     八云紫：你能猜到为什么吗？
+     古明地恋：哦，我知道！是因为你没朋友，对吧？真悲伤……
+#《Antinomy of Common Flowers》对话。
+
+ReimuUnifierFaithlessMountainAssault:
+    Name: 无信仰山袭击
+    Description: |-
+     对所有敌人造成 {Damage} 点伤害。
+     |放逐|：将一张|被复仇吞噬|加入牌库。
+    FlavorText: |-
+     在愤怒中，灵梦甚至会击倒神灵来报复那些威胁她的人。
+#战神引用。
+
+ReimuUnifierConsumedByVengeanceMisfortuneToken:
+    Name: 被复仇吞噬
+    Description: |-
+     洗牌时，被放置在抽牌堆底部。
+    FlavorText: |-
+     神奈子！博丽巫女已回归。我带来妖怪山之毁灭。
+#战神引用 + 东方风神录引用。
+
+ReimuUnifierYoukaiShrineMaiden:
+    Name: 妖怪巫女
+    Description: |-
+     获得 {Mana}。抽 {Value1} 张牌。将 |e:3| 张随机|厄运|加入弃牌堆。
+     |组队 [妖怪]|：每有一个有效|组队|，少添加 |e:1| 张|厄运|。超额|组队|每添加 |e:1| 点|庇护|。
+    FlavorText: |-
+     不幸的是，我不介意无谓的杀戮。我也不是妖怪巫女。我是人类巫女，我的工作是退治妖怪！
+#东方《求闻史纪》对话。
+
+ReimuUnifierCursedBoundary:
+    Name: 诅咒结界 -共享痛苦-
+    Description: |-
+     每 {Mana}：失去 |e:1| 点生命值并造成 {Damage} 点伤害。
+     |组队 [依神女苑]|：每 {Mana}：获得 {Value1}<sprite="Point" name="Gold">。
+    FlavorText: |-
+     现在！让我们一起品尝极致的痛苦吧！
+#飞段对话，火影忍者疾风传。
+
+ReimuUnifierShionImpoverishedDeityFriend:
+    Name: 依神女苑·疫病之神
+    Description: |-
+      {Indent} 获得 |e:15|<sprite="Point" name="Gold">。
+       {FriendP} |d:陷入贫困|：对生命值最低的敌人造成 {Damage} 点|精准|伤害两次。失去 |e:5|<sprite="Point" name="Gold">。
+    ExtraDescription1: |-
+      {FriendA} |s:拔鸽子毛|：对所有敌人造成 |e:{ActiveDamagePreview}| 点伤害。每击中一个敌人，获得 |e:1| 层|闪避|并失去 |e:5|<sprite="Point" name="Gold">。
+    ExtraDescription3: |-
+      {FriendU} |p:交换 -绝对输家-|：立即击败所有无名敌人。将一张|破财消灾|加入牌库。
+    FlavorText: |-
+     这烤味噌，便宜？你开玩笑吧。这是奢侈的极致！
+#依神女在《Lotus Eaters》中的对话。
+
+ReimuUnifierShinmyoumaruInchlingPrincessFriend:
+    Name: 少名针妙丸·寸法公主
+    Description: |-
+      {Indent} |d:弱小之力|：每当打出普通牌时，获得 |e:1| |支援度|。
+    ExtraDescription1: |-
+      {FriendA} |d:槌「变大！」 |：获得 {Value1} 点|火力|。
+    UpgradedExtraDescription1: |-
+      {FriendA} |d:槌「变得更大！」 |：获得 {Value1} 点|火力|。
+    ExtraDescription2: |-
+      {FriendA2} |d:辉针剑|：从抽牌堆中将随机普通牌加入手中直到手牌满。获得 {Mana}。
+    ExtraDescription3: |-
+      {FriendU} |k:辉光宝藏 -万宝槌-|：将一张召唤|无情净化杖|加入手中。
+    UpgradedExtraDescription3: |-
+      {FriendU} |k:辉光宝藏 -万宝槌-|：将一张召唤|无情净化杖+|加入手中。
+    FlavorText: |-
+     我手中有梦想的力量。这是我们的宝藏，万宝槌！
+#针妙丸在《Double Dealing Character》中的对话。
+
+ReimuUnifierMercilessRodFriendToken:
+    Name: 无情净化杖
+    Description: |-
+      {Indent} |d:弱小之力|：每当打出普通牌时，获得 {Value1} 点|火力|。
+    UpgradedDescription: |-
+      {Indent} |d:弱小之力|：每当打出普通牌时，获得 {Value1} 点|火力|和 {Value1} 点|暂得火力|。
+    ExtraDescription1: |-
+      {FriendP} |d:旋转杖|：对生命值最高的敌人造成 {Damage} 点攻击伤害 |e:3| 次。
+    ExtraDescription3: |-
+      {FriendU} |d:妖器 -无情净化杖-|：对所有敌人造成 {Damage} 点攻击伤害 |e:8| 次。
+    FlavorText: |-
+     现在，我珍贵的槌子！将梦想的力量赋予所有无言的工具！
+#针妙丸在《Double Dealing Character》中的对话。

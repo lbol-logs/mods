@@ -1,0 +1,9 @@
+﻿ReimuUnifierFierceGodWillOWisp:
+  Name: 귀신인화술
+  Description: >-
+    무작위 적에게 피해를 {Damage}씩 {Value1}번 줍니다.
+
+    |팀 업 [백색 동료]:| 피해를 한 번 더 줍니다.
+
+    |팀 업 [적색 동료]:| |명중|을 얻습니다.
+  FlavorText: 어이, 내 거잖아. 까먹지 말아달라구. - 스이카

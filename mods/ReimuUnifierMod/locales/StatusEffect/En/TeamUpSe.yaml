@@ -1,0 +1,4 @@
+﻿TeamUpSe:
+  Name: Team Up [Condition]
+  Description: 'This is a workaround to add keywords description to cards.    '
+  Brief: Activated if the Player has a summoned |Teammate| in hand that fulfills the condition. Hybrid teammates fulfill any of their color conditions.

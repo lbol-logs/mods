@@ -1,0 +1,6 @@
+﻿ReimuUnifierSuikaGourdOniFriend:
+  Name: 술호리병의 오니, 스이카
+  Description: '{FriendP} |u:미싱 파워|: |가벼운 한잔|을 1장 얻습니다. 해당 카드는 |휘발성|을 가집니다.'
+  ExtraDescription1: '{FriendA} |p:미싱 퍼플 파워|: |소멸| 더미에서 모든 |가벼운 한잔|을 손으로 되돌립니다.'
+  ExtraDescription3: '{FriendU} |d:추나 되돌리기 블랙홀|: |천의무봉|을 {Value1} 얻습니다. {PlayerName}의 다음 턴까지, {PlayerName}가 공격 피해를 받을 때마다 |일시 화력|을 {Value2} 얻습니다.'
+  FlavorText: '"큰일 났다. 술이 깨고 있어."'

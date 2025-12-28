@@ -1,0 +1,6 @@
+﻿ReimuUnifierKosuzuDecipheringBibliophileFriend:
+  Name: 고서를 해독하는 서책광, 모토오리 코스즈
+  Description: '{FriendP} 모든 적에게 |록온|을 {Value1} 줍니다.'
+  ExtraDescription1: '{FriendA} 모든 적에게 |취약| |e:1|과 |록온| {Value2}를 줍니다'
+  ExtraDescription3: '{FriendU} 모든 적에게서 |그레이즈|, |광학 미채|, |천의무봉|을 제거한 후, |취약|을 |e:1| 줍니다.'
+  FlavorText: '"이 책에 따르면, 놈들의 약점은…"'

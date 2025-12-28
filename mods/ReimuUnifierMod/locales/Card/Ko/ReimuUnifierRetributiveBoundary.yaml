@@ -1,0 +1,11 @@
+﻿ReimuUnifierRetributiveBoundary:
+  Name: 보복의 결계
+  Description: >-
+    방어를 {Block} 얻습니다. 
+
+    {PlayerName}의 다음 턴까지, 적의 공격으로 {PlayerName}가 피해를 받을 때마다 손에 |요괴제 바늘|을 추가합니다.
+  UpgradedDescription: >-
+    |보호막| {Shield}을 얻습니다.
+
+    {PlayerName}의 다음 턴까지, 적의 공격으로 {PlayerName}가 피해를 받을 때마다 손에 |요괴제 바늘+|을 추가합니다.
+  FlavorText: 네가 쓰러지면, 넌 네가 상상하던 만큼 강력해질 것이야..

@@ -1,0 +1,13 @@
+﻿ReimuUnifierSubterraneanAdventure:
+  Name: Aventura Subterránea
+  Description: >-
+    El tamaño máximo de la mano aumenta en {MaxHand}.
+
+    Agrega un |Orbe Comunicador| a la mano.
+
+    |Equipo [Yukari]:| Agrega un |Agujas Púrpuras de Reprimenda| con etéreo a la mano. Cuesta temporalmente {Mana}.
+
+    |Equipo [Suika]:| Agrega un |Fuego Fatuo de la Deva Fiera| con etéreo a la mano. Cuesta temporalmente {Mana}.
+
+    |Equipo [Aya]:| Agrega un |Viento en lo Profundo de las Montañas| con etéreo a la mano. Cuesta temporalmente {Mana}.
+  FlavorText: ¡Aah! ¡La gata se convierto en una gata!

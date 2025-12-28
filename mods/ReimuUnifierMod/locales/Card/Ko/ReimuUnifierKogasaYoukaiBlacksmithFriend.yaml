@@ -1,0 +1,9 @@
+﻿ReimuUnifierKogasaYoukaiBlacksmithFriend:
+  Name: 요괴 대장장이, 코가사
+  Description: '{FriendP} |b:대장장이의 장인정신:| 손에 있는 무작위 카드 |e:1|장을 |강화|합니다.'
+  UpgradedDescription: '{FriendP} |b:대장장이의 장인정신:| 손에 있는 무작위 카드 |e:2|장을 |강화|합니다.'
+  ExtraDescription1: '{FriendA} |u:카라카사 후광:| 손에 있는 |강화된| 카드마다 무작위 적에게 공격 피해를 {Damage} 줍니다.'
+  UpgradedExtraDescription1: '{FriendA} |u:카라카사 후광:| 무작위 적에게 공격 피해를 {Damage} 주고, 손에 있는 |강화된| 카드마다 이 효과를 반복합니다.'
+  ExtraDescription3: '{FriendU} |p:굵은 눈물비:| 손이 꽉 찰 때 까지 |요괴제 바늘|을 추가합니다.'
+  UpgradedExtraDescription3: '{FriendU} |p:거친바다 서프라이즈:| 손이 꽉 찰 때 까지 |요괴제 바늘+|을 추가합니다.'
+  FlavorText: 코가사가 대장장이 일을 좋아하는 이유? 놀라울 정도로 잘하니까!

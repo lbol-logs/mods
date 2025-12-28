@@ -1,0 +1,9 @@
+﻿ReimuUnifierFierceGodWillOWisp:
+  Name: Fierce God's Will O Wisp
+  Description: >-
+    Deal {Damage} damage to a random enemy {Value1} times.
+
+    |Team Up [White Teammate]:| Deal damage an additional time.
+
+    |Team Up [Red Teammate]:| Gain |Accurate|.
+  FlavorText: Hey, hey, those were my moves before! It'd be nice if you'd remember them. - Suika

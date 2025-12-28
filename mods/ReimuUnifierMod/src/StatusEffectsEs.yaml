@@ -1,0 +1,201 @@
+TeamUpSe:
+  Name: Equipo [Condición]
+  Description: |-
+    Es un método provisional para agregar descripciones de palabras clave a las cartas.
+  Brief: |-
+    Se activa si el jugador tiene una compañera invocada en la mano que cumple la condición. Los compañeras híbridas cumplen cualquiera de las condiciones de su color.
+
+FakeSealedSe:
+  Name: Sellada
+  Description: |-
+    Es un método provisional para agregar descripciones de palabras clave a las cartas.
+  Brief: |-
+    No se puede atacar
+
+FakeCuriositySe:
+  Name: ¡Soy Muy Curiosa!
+  Description: |-
+    Es un método provisional para agregar descripciones de palabras clave a las cartas.
+  Brief: |-
+    Gana 1 de |Poder| siempre que juegues una habilidad.
+
+ReimuUnifierAunnProtectionSe:
+  Name: Protección de Aunn
+  Description: |-
+    Evita las próximas {Level} ve{Level:plural one='z' other='ces'} que vayas a perder vida.
+
+ReimuUnifierAyaDominanceSe:
+  Name: Dominancia Ilusoria
+  Description: |-
+    Inflige {Level} de daño a un enemigo aleatorio siempre que juegues una carta.
+
+ReimuUnifierBattleFeverSe:
+  Name: Fiebre de Batalla
+  Description: |-
+    Gana {SePreviewMana} siempre que actives un |Equipo|.
+
+ReimuUnifierCoordinatedPursuitSe:
+  Name: Golpe Combinado -Persecución Coordinada-
+  Description: |-
+    Siempre que se active la |a:Habilidad Activa| o la |u:Habilidad Definitiva| de una |Compañera|, el siguiente ataque jugado cuesta {SePreviewMana} para jugarse.
+
+ReimuUnifierDanmakuCollisionSe:
+  Name: Colisión de Danmaku
+  Description: |-
+    Al final del turno, gana {Level} de |Bloqueo| por cada |Compañera| invocada en la mano.
+
+ReimuUnifierDarknessOfTheCrowSe:
+  Name: Darkness of the Crow
+  Description: |-
+    Siempre que |Evadas| un ataque, y al final del turno, infliges {Level} de daño a cada enemigo.
+
+ReimuUnifierDimensionalRiftBoundarySe:
+  Name: Grieta Dimensional -Frontera-
+  Description: |-
+    Cada vez que una |Compañera| entra en la mano, inflige {Level} de daño a un enemigo aleatorio. Cada vez que una |Compañera| invocada abandona la mano, gana {SePreviewMana}.
+
+ReimuUnifierDivineForgeSe:
+  Name: Forja Divina
+  Description: |-
+    Al comienzo del turno, añade una |Agujas Forjadas por Youkais| a la mano.
+
+
+ReimuUnifierDuplexBarrierDanmakuMirrorSe:
+  Name: Barrera Duplex -Espejo Danmaku-
+  Description: |-
+    Al comienzo del turno, todas las |Compañeras| invocados en la mano ganan |e:1| |Influencia|.
+    Siempre que se invoque una |Compañera| al ser jugada, si no es una copia, agrega una copia a la mano. Cuesta {SePreviewMana} y es |Etéreo|.
+
+
+ReimuUnifierEmotionalBoundarySynchronizationSe:
+  Name: Frontera Emocional -Sincronización-
+  Description: |-
+    Siempre que se activa la |a:Habilidad Activa| o la |u:Habilidad Definitiva| de una |Compañera|, todas las |Compañeras| en la mano ganan |e:1| |Influencia|.
+
+
+ReimuUnifierFantasySealDreamfiniteSe:
+  Name: Sello de Ensueño
+  Description: |-
+    Al comienzo del turno, inflige {Level} de daño a un enemigo aleatorio {Count} veces.
+
+
+ReimuUnifierFlowerViewingPartySe:
+  Name: Viendo las Flores
+  Description: |-
+     Siempre que se invoca una |Compañera| al ser jugada, agrega |e:1| |Flores de Verano| a la mano. Si es la primera vez en este turno, gana {SePreviewMana}.
+
+
+ReimuUnifierInnateDreamCounterSe:
+  Name: Orbes de Ritual
+  Description: |-
+    Tienes {Level} |Orbes de Ritual Hakurei|.
+
+
+ReimuUnifierNeedleSparkSealSe:
+  Name: Sparking Sealing Needles
+  Description: |-
+    Las |Agujas Forjadas por Youkais| infligen daño a cada enemigo y aplican |e:2| Marcados adicional a cada enemigo.
+
+ReimuUnifierNextAttackAccurateSe:
+  Name: Viento de Montaña
+  Description: |-
+    {Level:plural one='El proximo ataque es' other='Los siguientes % ataques son'} |Certeros|.
+
+
+ReimuUnifierNitoriLochNessSe:
+  Name: Tromba de Laser de Nessie
+  Description: |-
+    Al final del turno de {PlayerName}, inflige {SePreviewTurns} de daño, aumentado en |e:5| por cada turno que {PlayerName} haya tenido.
+
+ReimuUnifierOccultBallSe:
+  Name: Bolas Ocultas
+  Description: |-
+    Has reunido {Count} |Bolas Ocultas|.
+
+ReimuUnifierOmnidirectionalBarrageSe:
+  Name: Tromba Omnidireccional
+  Description: |-
+    Cada vez que se activa un |Equipo|, se activa la primera |Habilidad Pasiva| de la |Compañera| elegida.
+
+
+ReimuUnifierOnHitTempFPSe:
+  Name: Furia Creciente del Oni
+  Description: |-
+    Hasta el próximo turno de {PlayerName}, gana {Level} de |Poder temporal| siempre que recibas daño por un ataque.
+
+ReimuUnifierPCBReflectSe:
+  Name: Bomba Cereza
+  Description: |-
+    La{Level:plural one=' siguiente vez' other='s siguientes % veces'} que se activa la |Frontera de Cereza|, cada enemigo pierde vida igual a la pérdida de vida evitada.
+
+ReimuUnifierPerfectCherryBorderSe:
+  Name: Frontera de Cereza
+  Description: |-
+    Evita la{Level:plural one=' siguiente vez' other='s siguientes % veces'} veces que vayas a perder vida.
+
+
+ReimuUnifierRabbleRousingSe:
+  Name: Agitación Popular
+  Description: |-
+    Al comienzo de los próximos {Duration} turnos de {PlayerName}, agrega una |Compañera| aleatoria común a la mano.
+
+
+ReimuUnifierRetributiveBoundarySe:
+  Name: Frontera de Retribución
+  Description: |-
+    Hasta el próximo turno de {PlayerName}, siempre que recibas daño de ataque por un ataque completo de un enemigo, agrega una |Agujas Forjadas por Youkais| a la mano.
+
+ReimuUnifierRetributiveBoundaryUpgSe:
+  Name: Frontera de Retribución -Mejorada-
+  Description: |-
+    Hasta el próximo turno de {PlayerName}, siempre que {PlayerName} reciba daño de ataque por un ataque enemigo, agrega una |Agujas Forjadas por Youkais+| a la mano.
+
+
+ReimuUnifierRisingSynergySe:
+  Name: Sinergia Creciente
+  Description: |-
+     Siempre que las |Compañeras| infligen daño por un ataque a un enemigo, gana |e:1| de |Poder Temporal|.
+
+
+ReimuUnifierRitualofEchoingProsperitySe:
+  Name: Eco Próspero
+  Description: |-
+    Al comienzo del turno de {PlayerName}, gana {Level} de |Espíritu temporal| y {Level} |Poder Temporal| por cada |Compañera| invocada en la mano.
+
+ReimuUnifierScarletFateSe:
+  Name: Artimaña de la Diabla Escarlata
+  Description: |-
+    Remilia finalizará el turno de {PlayerName} después de que se juegue {Count} carta{Count:plural one='' other='s'}.
+
+ReimuUnifierSubterraneanAdventureSe:
+  Name: Aventura Subterránea
+  Description: |-
+    El tamaño máximo de tu mano aumentó a {MaxHand}.
+
+ReimuUnifierSumirekoDoppelgangerSe:
+  Name: Doppelganger de Sumireko
+  Description: |-
+    ¡El Doppelganger de Sumireko está copiando cada carta que juegues en este turno!
+
+
+ReimuUnifierWilyBeastStrikeSe:
+  Name: Golpe de la Bestia Astuta
+  Description: |-
+    La{Level:plural one=' siguiente vez' other='s siguientes % veces'} que se active la |a:Habilidad Activa| o la |u:Habilidad Definitiva| de una |Compañera|, se copia.
+
+
+ReimuUnifierYukariArcanumSe:
+  Name: Arcanum de Yukari -Barrera de Danmaku-
+  Description: |-
+    Al final del turno de {PlayerName}, gana {Level} de |Barrera| y luego infliges daño igual a tu |Barrera| a un enemigo aleatorio. Queda{Count:plural one=' % turno' other='n % turnos'}.
+
+
+ReimuUnifierYukariLifeLossSe:
+  Name: La otra Cara del Sentido Común
+  Description: |-
+    Al comienzo del siguiente turno de {PlayerName}, cada enemigo pierde {Level} de vida.
+
+ReimuUnifierDelayedChargingSe:
+   Name: Carga con retraso
+   Description: |-
+ 

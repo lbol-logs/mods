@@ -1,0 +1,7 @@
+﻿ReimuUnifierDimensionalRiftBoundary:
+  Name: Dimensional Rift -Boundary-
+  Description: >-
+    Whenever a |Teammate| enters the hand, deal {Value1} damage to a random enemy.
+
+    Whenever a summoned |Teammate| leaves the hand, gain {Mana}.
+  FlavorText: 'Drinking game: Take a shot every time you see Ritual, Boundary or Dimension in a Reimu card name.'

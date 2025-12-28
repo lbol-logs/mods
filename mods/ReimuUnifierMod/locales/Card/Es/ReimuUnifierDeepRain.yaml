@@ -1,0 +1,11 @@
+﻿ReimuUnifierDeepRain:
+  Name: Viento en lo Profundo de las Montañas
+  Description: >-
+    Gana {Value1} de |Evasión|.
+
+    El siguiente {Value2} ataque no certero jugado es |Certero|.
+  UpgradedDescription: >-
+    Gana {Value1} de |Evasión|.
+
+    Los siguientes {Value2} ataques no certeros jugados son |Certeros|.
+  FlavorText: Bueno, señorita Aya, ¿qué me vas a enseñar hoy? ¡ESQUIVAR!

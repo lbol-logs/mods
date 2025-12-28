@@ -1,0 +1,7 @@
+{
+  "name": "ReimuUnifierMod",
+  "version_number": "1.1.3",
+  "website_url": "https://gitlab.com/AbrahamUSC/lbolreimuunifiermod#",
+  "description": "Adds Reimu Alter, Unifier of Gensokyo, as a playable character.",
+  "dependencies": [ "BepInEx-BepInExPack-5.4.2100", "TeamNeo-Sideloader-0.9.7601"]
+}

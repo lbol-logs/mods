@@ -1,0 +1,5 @@
+﻿ReimuUnifierTagIn:
+  Name: Tag In
+  Description: '|Exilia| hasta |e:1| carta en la mano. Si es una |Compañera|, gana {Value1} de |Barrera| por cada |Influencia| que tengan.'
+  UpgradedDescription: '|Exilia| hasta |e:1| carta en la mano, pila robo o pila de descarte. Si es una |Compañera|, gana {Value1} de |Barrera| por cada |Influencia| que tengan.'
+  FlavorText: '"¿Me aguantas los golpes por un rato, por fa?"'

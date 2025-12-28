@@ -1,0 +1,6 @@
+﻿ReimuUnifierMarisaIncidentSolverFriend:
+  Name: Marisa, Solucionadora de Incidentes
+  Description: '{FriendP} |l:Explosión de Estrella Roja:| Inflige {Damage} de daño de ataque a cada enemigo.'
+  ExtraDescription1: '{FriendA} |i:Final Spark:| Inflige {ActiveDamagePreview} de daño de ataque |Certero| a cada enemigo.'
+  ExtraDescription3: '{FriendU} |u:Magicannon -Final Master Spark-:| Entra en modo |Burst|. Inflige {UltimateDamagePreview} de daño |Certero| a cada enemigo.'
+  FlavorText: '"Si no es llamativo, no es magia. El Danmaku se trata de poder."'

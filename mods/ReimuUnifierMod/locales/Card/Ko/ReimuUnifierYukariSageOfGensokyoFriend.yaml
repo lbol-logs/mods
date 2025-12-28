@@ -1,0 +1,6 @@
+﻿ReimuUnifierYukariSageOfGensokyoFriend:
+  Name: 환상향의 현자, 야쿠모 유카리
+  Description: '{FriendP} |d:사중결계:| 모든 적에게 피해를 {Damage} 주고, 방어를 {Value2} 얻습니다.'
+  ExtraDescription1: '{FriendA} |p:하쿠레이 이중결계:| {PlayerName}의 방어를 |보호막|으로 전환하고, {PlayerName}의 |보호막|을 두 배로 만듭니다.'
+  ExtraDescription3: '{FriendU} |l:유카리 오의 -탄막 결계-|: 이번 턴과 이후 |e:4|턴 종료 시, |보호막|을 {Value1} 얻고, {PlayerName}의 |보호막|만큼 무작위 적에게 피해를 줍니다.'
+  FlavorText: 임사체험 해볼래? 삶과 죽음의 경계를 넘어서.

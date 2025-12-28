@@ -1,0 +1,7 @@
+﻿ReimuUnifierPurifyingStrike:
+  Name: Purifying Strike
+  Description: >-
+    Deal {Damage} damage. 
+
+    Remove a random debuff from {PlayerName} for every |e:10| unblocked damage dealt by {SelfName}.
+  FlavorText: Reimu's still not sure why she's the one getting purified when someone else gets hit.

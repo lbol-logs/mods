@@ -1,0 +1,4 @@
+﻿ReimuUnifierEmotionalBoundarySynchronization:
+  Name: 'Frontera Emocional: Sincronización'
+  Description: Siempre que se activa la |a:Habilidad Activa| o |u:Habilidad Definitiva| de una |Compañera|, cada |Compañera| en la mano gana |e:1| de |Influencia|.
+  FlavorText: ¡Uno para todos y todos para uno!

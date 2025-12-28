@@ -1,0 +1,7 @@
+﻿ReimuUnifierSummoningRitual:
+  Name: Summoning Ritual
+  Description: >-
+    Draw {Value1} cards. 
+
+    Gain {Mana} for each |Teammate| drawn this way.
+  FlavorText: "\"No Reimu, calling us over to visit doesn't count as a \"Summoning Ritual\"\""

@@ -1,0 +1,8 @@
+﻿ReimuUnifierDuplexBarrierDanmakuMirror:
+  Name: Duplex Barrier -Danmaku Mirror-
+  Description: >-
+    At the start of {PlayerName}'s turn, each summoned |Teammate| in the hand gains |e:1| |Unity|.
+
+    Whenever a |Teammate| is summoned by playing it, add a |Copy| of it to the hand. It costs {Mana} and has |Ethereal|.
+  DetailText: "|Copied| |Teammates| don' trigger this effect. "
+  FlavorText: ˙spɹɐɔ ǝʇᴉɹnoʌɐɟ s,ɐɾᴉǝS ɟo ǝuO

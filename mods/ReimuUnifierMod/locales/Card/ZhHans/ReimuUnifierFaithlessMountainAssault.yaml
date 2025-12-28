@@ -1,0 +1,7 @@
+﻿ReimuUnifierFaithlessMountainAssault:
+  Name: 无信仰山袭击
+  Description: >-
+    对所有敌人造成 {Damage} 点伤害。
+
+    |放逐|：将一张|被复仇吞噬|加入牌库。
+  FlavorText: 在愤怒中，灵梦甚至会击倒神灵来报复那些威胁她的人。

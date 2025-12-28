@@ -1,0 +1,5 @@
+﻿ReimuUnifierBattleFever:
+  Name: Fiebre de Batalla
+  Description: Siempre que {PlayerName} activa un |Equipo|, gana {Mana}.
+  DetailText: Las cartas que pueden formar Equipo varias veces ganarás maná por cada equipo activado.
+  FlavorText: ¿Quién hubiera pensado que encontrar una explicación para la fiebre crearía maná de la nada?

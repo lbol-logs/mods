@@ -1,0 +1,12 @@
+﻿ReimuUnifierTrueTrichromaticLotusButterfly:
+  Name: 진 삼색 연화접
+  Description: >-
+    |팀 업 [마리사]:| 피해 {Damage}씩 |e:10|번 줍니다. |화력|을 2 잃습니다.
+
+    |충원|: {Mana}를 얻습니다.
+  UpgradedDescription: >-
+    |팀 업 [마리사]:| 피해 {Damage}씩 |e:10|번 주고, 피해를 {SecondaryDamagePreview} 줍니다. |화력|을 |e:2| 잃습니다.
+
+    |충원|: {Mana}를 얻습니다.
+  DetailText: 이 카드는 |팀 업|이 없으면 효과가 없습니다.
+  FlavorText: '"네 마음대로 하게 해줄게, 마리사." "그건 내 대사야, 레이무!"'

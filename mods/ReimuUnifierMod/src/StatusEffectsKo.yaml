@@ -1,0 +1,186 @@
+TeamUpSe:
+  Name: 팀 업 [조건]
+  Description: |-
+    카드에 키워드 설명을 추가하기 위한 임시 처리입니다.
+  Brief: |-
+    플레이어가 조건을 충족하는 소환된 |동료| 카드를 손에 가지고 있을 경우 발동됩니다. 하이브리드 동료는 자신이 가진 모든 색 조건을 충족합니다.
+
+FakeSealedSe:
+  Name: 봉인
+  Description: |-
+    카드에 키워드 설명을 추가하기 위한 임시 처리입니다.
+  Brief: |-
+    공격 카드를 낼 수 없습니다.
+
+FakeCuriositySe:
+  Name: 저, 신경쓰여요!
+  Description: |-
+    카드에 키워드 설명을 추가하기 위한 임시 처리입니다.
+  Brief: |-
+    능력을 사용할 때마다 |화력|을 1 얻습니다.
+
+ReimuUnifierAunnProtectionSe:
+  Name: 아운의 보호
+  Description: |-
+    다음 {Level}번 체력을 잃는 것을 방지합니다.
+
+ReimuUnifierAyaDominanceSe:
+  Name: 환상풍미
+  Description: |-
+    카드를 낼 때마다 무작위 적에게 피해를 {Level} 줍니다.
+
+ReimuUnifierBattleFeverSe:
+  Name: 전투의 열병
+  Description: |-
+    |팀 업|을 발동할 때마다 {SePreviewMana}를 얻습니다.
+
+ReimuUnifierCoordinatedPursuitSe:
+  Name: 합동 타격 -공동 추격-
+  Description: |-
+    |동료|의 |a:액티브 능력|이나 |u:궁극기|가 발동될 때마다, 다음에 사용하는 공격 카드의 코스트가 {SePreviewMana}가 됩니다.
+
+ReimuUnifierDanmakuCollisionSe:
+  Name: 탄막 충돌
+  Description: |-
+    턴 종료 시, 손에 있는 소환된 |동료|마다 |방어|를 {Level} 얻습니다.
+
+ReimuUnifierDarknessOfTheCrowSe:
+  Name: 까마귀의 어둠
+  Description: |-
+    |그레이즈| 성공 시, 그리고 턴 종료 시, 모든 적에게 피해를 {Level} 줍니다.
+
+ReimuUnifierDimensionalRiftBoundarySe:
+  Name: 차원의 균열 -경계-
+  Description: |-
+    |동료|가 손에 들어올 때마다 무작위 적에게 피해를 {Level} 줍니다. 소환된 |동료|가 손에서 나갈 때마다 {SePreviewMana}를 얻습니다.
+
+ReimuUnifierDivineForgeSe:
+  Name: 신성한 대장간
+  Description: |-
+    턴 시작 시, 손에 |요괴제 바늘|을 한 장 추가합니다.
+
+ReimuUnifierDuplexBarrierDanmakuMirrorSe:
+  Name: 이중 결계 -탄막 거울-
+  Description: |-
+    턴 시작 시, 손에 있는 모든 소환된 |동료|는 |e:1| |지원력|을 얻습니다.  
+    |동료| 카드를 사용해 소환할 때, 복사본이 아닐 경우 그 복사본을 손에 추가합니다. 그 카드는 비용이 {SePreviewMana}이고 |휘발성|을 가집니다.
+
+ReimuUnifierEmotionalBoundarySynchronizationSe:
+  Name: 감정의 경계 -동기화-
+  Description: |-
+    |동료|의 |a:액티브 능력|이나 |u:궁극기|가 발동될 때마다, 손에 있는 모든 |동료|는 |e:1| |지원력|을 얻습니다.
+
+ReimuUnifierFantasySealDreamfiniteSe:
+  Name: 환상봉인 -Dreamfinite-
+  Description: |-
+    턴 시작 시, 무작위 적에게 피해를 {Level}씩 {Count}번 줍니다.
+
+ReimuUnifierFlowerViewingPartySe:
+  Name: 꽃놀이
+  Description: |-
+    |동료| 카드로 소환할 때마다 손에 |e:1| |한여름의 꽃|을 추가합니다. 이번 턴 첫 번째 소환이라면 {SePreviewMana}를 얻습니다.
+
+ReimuUnifierInnateDreamCounterSe:
+  Name: 하쿠레이 음양옥
+  Description: |-
+    {Level}개의 |하쿠레이 음양옥|을 가집니다.
+
+ReimuUnifierNeedleSparkSealSe:
+  Name: 작렬하는 요괴제 바늘
+  Description: |-
+    |요괴제 바늘|이 모든 적에게 피해를 주고, 각 적에게 추가로 |e:2| |록온|을 줍니다.
+
+ReimuUnifierNextAttackAccurateSe:
+  Name: 산의 비
+  Description: |-
+    다음 {Level}번의 공격은 |명중|을 얻습니다.
+
+ReimuUnifierNitoriLochNessSe:
+  Name: 네스호의 레이저 소나기
+  Description: |-
+    {PlayerName}의 턴 종료 시, {SePreviewTurns}의 피해를 주고, {PlayerName}이 지난 턴 수마다 |e:5| 증가합니다.
+
+ReimuUnifierOccultBallSe:
+  Name: 오컬트 볼
+  Description: |-
+    {Count}개의 |오컬트 볼|을 모았습니다.
+
+ReimuUnifierOmnidirectionalBarrageSe:
+  Name: 전방위 사격
+  Description: |-
+    |팀 업|이 발동될 때마다, 선택된 |동료|의 첫 번째 |패시브 스킬|을 발동합니다.
+
+ReimuUnifierOnHitTempFPSe:
+  Name: 오니의 격앙
+  Description: |-
+    {PlayerName}의 다음 턴까지, 공격 피해를 받을 때마다 |일시 화력|을 {Level} 얻습니다.
+
+ReimuUnifierPCBReflectSe:
+  Name: 벚꽃 폭탄
+  Description: |-
+    다음 {Level}번 |벚꽃 결계|가 발동될 때, 방지된 체력 손실만큼 적 전체의 체력을 잃게 합니다.
+
+ReimuUnifierPerfectCherryBorderSe:
+  Name: 벚꽃 결계
+  Description: |-
+    다음 {Level}번 체력을 잃는 것을 방지합니다.
+
+ReimuUnifierRabbleRousingSe:
+  Name: 선동
+  Description: |-
+    {PlayerName}의 다음 {Duration}턴 시작 시, 무작위 일반 등급 |동료|를 손에 추가합니다.
+
+ReimuUnifierRetributiveBoundarySe:
+  Name: 보복의 결계
+  Description: |-
+    {PlayerName}의 다음 턴까지, 적의 공격으로 피해를 받을 때마다 손에 |요괴제 바늘|을 추가합니다.
+
+ReimuUnifierRetributiveBoundaryUpgSe:
+  Name: 보복의 결계 -강화-
+  Description: |-
+    {PlayerName}의 다음 턴까지, 적의 공격으로 피해를 받을 때마다 손에 |요괴제 바늘+|을 추가합니다.
+
+ReimuUnifierRisingSynergySe:
+  Name: 상승하는 시너지
+  Description: |-
+    |동료|가 적에게 공격 피해를 줄 때마다 |일시 화력|을 |e:1| 얻습니다.
+
+ReimuUnifierRitualofEchoingProsperitySe:
+  Name: 번영의 메아리
+  Description: |-
+    {PlayerName}의 턴 시작 시, 손에 있는 소환된 |동료|마다 |일시 화력|과 |일시 영력|을 {Level} 얻습니다.
+
+ReimuUnifierScarletFateSe:
+  Name: 비색의 운명
+  Description: |-
+    카드를 {Count}장 사용하면 레밀리아가 {PlayerName}의 턴을 종료시킵니다.
+
+ReimuUnifierSubterraneanAdventureSe:
+  Name: 지하 모험
+  Description: |-
+    최대 손패 크기가 {MaxHand}로 증가합니다.
+
+ReimuUnifierSumirekoDoppelgangerSe:
+  Name: 스미레코의 도플갱어
+  Description: |-
+    스미레코의 도플갱어가 이번 턴 동안 당신이 내는 모든 카드를 복사합니다!
+
+ReimuUnifierWilyBeastStrikeSe:
+  Name: 귀형격
+  Description: |-
+    다음 {Level}번 |동료|의 |a:액티브 능력|이나 |u:궁극기|가 발동될 때마다 그 효과를 복사합니다.
+
+ReimuUnifierYukariArcanumSe:
+  Name: 유카리 오의 -탄막 결계-
+  Description: |-
+    {PlayerName}의 턴 종료 시, |보호막|을 {Level} 얻고, 이후 보유한 |보호막| 수치만큼 무작위 적에게 피해를 줍니다. {Count}턴 남음.
+
+ReimuUnifierYukariLifeLossSe:
+  Name: 비상식의 뒷면
+  Description: |-
+    {PlayerName}의 다음 턴 시작 시, 모든 적이 체력을 {Level} 잃습니다.
+
+ReimuUnifierDelayedChargingSe:
+   Name: ----
+   Description: |-
+ 

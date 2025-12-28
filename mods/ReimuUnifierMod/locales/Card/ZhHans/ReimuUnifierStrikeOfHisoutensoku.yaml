@@ -1,0 +1,11 @@
+﻿ReimuUnifierStrikeOfHisoutensoku:
+  Name: 非想天则打击
+  Description: >-
+    造成 {Damage} 点伤害。对目标每有一个减益，造成 {Value1} 点额外伤害。
+
+    |组队 [东风谷早苗]|：对目标每有一个减益，施加 |e:1| |暂失火力|。
+  UpgradedDescription: >-
+    |组队 [东风谷早苗]|：对目标每有一个减益，施加 |e:1| |暂失火力|。
+
+    造成 {Damage} 点伤害。对目标每有一个减益，造成 {Value1} 点额外伤害。
+  FlavorText: 我本可以用奇迹俯冲战斗，但那会违背我的美学。只有机甲能对抗机甲。

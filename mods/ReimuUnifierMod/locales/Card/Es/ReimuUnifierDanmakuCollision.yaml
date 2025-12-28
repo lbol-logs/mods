@@ -1,0 +1,4 @@
+﻿ReimuUnifierDanmakuCollision:
+  Name: Colisión de Danmaku
+  Description: Al final del turno de {PlayerName}, gana {Value1} de |Bloqueo| por cada |Compañera| invocada en la mano.
+  FlavorText: Mira lo que necesitan para imitar una fracción de mi poder. -Cirno, mientras congela una pantalla completa de balas.

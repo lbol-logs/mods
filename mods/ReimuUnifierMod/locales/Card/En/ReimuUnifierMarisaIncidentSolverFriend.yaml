@@ -1,0 +1,6 @@
+﻿ReimuUnifierMarisaIncidentSolverFriend:
+  Name: Marisa, Incident Solver
+  Description: '{FriendP} |l:Red Star Explosion:| Deal {Damage} attack damage to each enemy.'
+  ExtraDescription1: '{FriendA} |i:Final Spark:| Deal {ActiveDamagePreview} |Accurate| attack damage to each enemy.'
+  ExtraDescription3: '{FriendU} |u:Magicannon -Final Master Spark-:| Enter |Burst|. Deal {UltimateDamagePreview} |Accurate| damage to each enemy.'
+  FlavorText: "\"It ain't magic if it ain't flashy. Danmaku's all about firepower.\""

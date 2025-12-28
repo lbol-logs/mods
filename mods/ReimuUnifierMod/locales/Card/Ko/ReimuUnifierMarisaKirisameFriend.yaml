@@ -1,0 +1,11 @@
+﻿ReimuUnifierMarisaKirisameFriend:
+  Name: 편리한 그녀석, 키리사메 마리사
+  Description: >-
+    {Indent} 체력이 가장 적은 적에게 피해를 {Damage} 줍니다.
+
+    {FriendP}|d:팔괘로 샷: | 체력이 가장 적은 적에게 피해를 {Damage} 주고, |충전|을 |e:1| 얻습니다.
+  ExtraDescription1: '{FriendA} |i:플레임 레이저:| 체력이 가장 적은 적에게 피해를 {ActiveDamagePreview} 주고 |취약|을 |e:1| 줍니다. |충전|을 |e:2| 얻습니다.'
+  UpgradedExtraDescription1: '{FriendA} |i:플레임 레이저:| 체력이 가장 적은 적에게 피해를 {ActiveDamagePreview}씩 |e:2|번 주고 |취약|을 |e:1| 줍니다. |충전|을 |e:2| 얻습니다.'
+  ExtraDescription3: '{FriendU} |u:연부「마스터 스파크」:| 모든 적에게 피해를 {UltimateDamagePreview} 줍니다. |명중|'
+  DetailText: '{SelfName}는 턴 시작 시 피해를 줍니다.'
+  FlavorText: '"이래서야 보통 사람들은 5분도 안 지나서 미쳐버리겠는걸. 마리사는 괜찮아?" "그래, 미쳐보는 거엔 익숙하걸랑."'

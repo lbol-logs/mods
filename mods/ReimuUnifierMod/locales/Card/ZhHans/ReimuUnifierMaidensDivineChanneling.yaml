@@ -1,0 +1,7 @@
+﻿ReimuUnifierMaidensDivineChanneling:
+  Name: 巫女的神灵通道
+  Description: >-
+    |组队 [东风谷早苗]：| 获得 |e:1| 层|护身符|。
+
+    获得 {Block} 点|格挡|。每有{PlayerName}的一个增益，获得 |e:2| 点|护盾|。
+  FlavorText: 如果早苗是能通神的人类神，她能通自己吗？

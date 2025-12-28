@@ -1,0 +1,9 @@
+﻿ReimuUnifierCommunicatorOrbToken:
+  Name: 통신옥
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |보호막|을 {Shield} 얻습니다. 
+
+    손에 있는 소환된 |동료|마다 추가로 피해를 {Value1} 주고, 추가로 |보호막|을 {Value1} 얻습니다.
+  FlavorText: (... 네 음양옥을 통해 대화할 수 있게 해놨어.) (게으름 피우지 않게 감시하려고.)

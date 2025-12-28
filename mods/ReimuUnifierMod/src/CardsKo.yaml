@@ -1,0 +1,799 @@
+﻿#FOR TRANSLATORS: Flavor texts and some names will have comments to make references easier to find/translate, but feel free to adapt or ignore
+#them and localize them differently if keeping the references isn't viable.
+
+ReimuUnifierAttackR:
+  Name: 합동 돌격
+  Description: 피해를 {Damage} 줍니다.
+  FlavorText: 가장 오래된 협상 전술.
+
+ReimuUnifierBlockW:
+  Name: 강화 결계
+  Description: 방어를 {Block} 얻습니다.
+  FlavorText: 이제 보통 결계로는 상대가 되지 않는다…
+
+ReimuUnifierAttackW:
+  Name: 정화봉 일격
+  Description: 피해를 {Damage} 줍니다.
+  FlavorText: 몇 년 뒤, 이 기술은 레이무의 가장 강력하고 가장 멀리 닿는 공격이 될 것이다.
+
+ReimuUnifierBlockR:
+  Name: 엄호 사격
+  Description: 방어를 {Block} 얻습니다.
+  FlavorText: 역시 최고의 방어는 훌륭한 공격이다.
+
+ReimuUnifierMarisaKirisameFriend:
+  Name: 편리한 그녀석, 키리사메 마리사
+  Description: |-
+    {Indent} 체력이 가장 적은 적에게 피해를 {Damage} 줍니다.
+    {FriendP}|d:팔괘로 샷: | 체력이 가장 적은 적에게 피해를 {Damage} 주고, |충전|을 |e:1| 얻습니다.
+  ExtraDescription1: |-
+    {FriendA} |i:플레임 레이저:| 체력이 가장 적은 적에게 피해를 {ActiveDamagePreview} 주고 |취약|을 |e:1| 줍니다. |충전|을 |e:2| 얻습니다.
+  UpgradedExtraDescription1: |-
+    {FriendA} |i:플레임 레이저:| 체력이 가장 적은 적에게 피해를 {ActiveDamagePreview}씩 |e:2|번 주고 |취약|을 |e:1| 줍니다. |충전|을 |e:2| 얻습니다.
+  ExtraDescription3: |-
+    {FriendU} |u:연부「마스터 스파크」:| 모든 적에게 피해를 {UltimateDamagePreview} 줍니다. |명중|
+  DetailText: |-
+    {SelfName}는 턴 시작 시 피해를 줍니다.
+  FlavorText: |-
+    "이래서야 보통 사람들은 5분도 안 지나서 미쳐버리겠는걸. 마리사는 괜찮아?" "그래, 미쳐보는 거엔 익숙하걸랑."
+#Imperishable Night, Marisa+Alice story.
+ReimuUnifierYukariYakumoFriend:
+  Name: 경계의 요괴, 야쿠모 유카리
+  Description: |-
+    {Indent} |통신옥|을 1장 얻습니다.
+    {FriendP}|e:음향의 경계:| |통신옥|을 1장 얻습니다.
+  ExtraDescription1: |-
+    {FriendA} |p:사중결계:| 손에 있는 가장 높은 비용의 카드를 무작위로 |소멸|시킵니다. 그 카드 비용의 |e:6|배에 해당하는 |보호막|을 얻습니다.
+  ExtraDescription3: |-
+    {FriendU} |d:비상식의 이면:| |천의무봉|을 |e:1| 얻습니다. {PlayerName}의 다음 턴 시작 시, 모든 적은 체력을 {Value2} 잃습니다.
+  FlavorText: |-
+    "그거야 어찌됐든 간에, 내가 여기 있다는 점이 제대로 일을 하려고 한다는 증거잖아." "일을 하려는 거랑, 일을 하고 있는 건 별개잖아!" "맨날 신사를 비우다시피하는 당신보다는 더 열심히 일하고 있다고 생각하는데."
+#Perfect Cherry Blossom, Phantasm Stage boss dialogue.
+ReimuUnifierCommunicatorOrbToken:
+  Name: 통신옥
+  Description: |-
+    피해를 {Damage} 줍니다.
+    |보호막|을 {Shield} 얻습니다. 
+    손에 있는 소환된 |동료|마다 추가로 피해를 {Value1} 주고, 추가로 |보호막|을 {Value1} 얻습니다.
+  FlavorText: (... 네 음양옥을 통해 대화할 수 있게 해놨어.) (게으름 피우지 않게 감시하려고.)
+
+ReimuUnifierReinforcedBoundary:
+  Name: 보강된 결계
+  Description: |-
+    방어를 {Block} 얻습니다. 
+    손에서 소환된 |동료|를 최대 |e:1|명 선택해 |f:패시브 능력|을 발동시킵니다.
+  FlavorText: |-
+    "집에 머물면서 베개 요새를 짓자!" "베개 요새 말이야?" "아니! 요새를 원해, 전투를 원해, 경비병을 원해, 투석기를 원해!"
+#Bofuri
+ReimuUnifierCoordinatedStrike:
+  Name: 합동 타격
+  Description: |-
+    피해를 {Damage} 줍니다.
+    |팀 업 [적색 동료]:| 피해를 한 번 더 줍니다.
+  UpgradedDescription: |-
+    피해를 {Damage} 줍니다.
+    |팀 업 [적색 동료]:| 피해를 한 번 더 줍니다. {Mana}를 얻습니다.
+  FlavorText: 친구랑 함께라면 뭐든 더 재밌지. 폭력조차도!
+
+ReimuUnifierPurpleReproach:
+  Name: 정문자침 #Yukari!Reimu weapon in Touhou Subterranean Animism
+  Description: |-
+    |요괴제 바늘|을 |e:2|장 얻습니다.
+  UpgradedDescription: |-
+    |요괴제 바늘+|을 |e:2|장 얻습니다.
+  FlavorText: 난 하쿠레이의 무녀다. 그리고 이건... 내 무기지. 이 바늘을 12초 동안 발사하면 1년치 새전이 사라져.
+#Meet the Heavy
+
+ReimuUnifierYoukaiForgedNeedle:
+  Name: 요괴제 바늘
+  Description: |-
+    피해를 {Damage} 줍니다. 
+    이번 턴에 |동료|의 |액티브 능력|이나 |궁극기|를 사용했다면, {SelfName}의 비용은 {Mana}가 됩니다.
+  UpgradedDescription: |-
+    피해를 {Damage} 줍니다.
+    |록온|을 {Value1} 줍니다. 
+    이번 턴에 |동료|의 |액티브 능력|이나 |궁극기|를 사용했다면, {SelfName}의 비용은 {Mana}가 됩니다.
+  FlavorText: 일단 찾아가! 그리고! 부숴!
+#Popular idiom: Set them up, knock them down.
+
+ReimuUnifierFierceGodWillOWisp:
+  Name: 귀신인화술 #Suika!Reimu weapon in Touhou Subterranean Animism
+  Description: |-
+    무작위 적에게 피해를 {Damage}씩 {Value1}번 줍니다.
+    |팀 업 [백색 동료]:| 피해를 한 번 더 줍니다.
+    |팀 업 [적색 동료]:| |명중|을 얻습니다.
+  FlavorText: 어이, 내 거잖아. 까먹지 말아달라구. - 스이카
+#Stage 4 boss dialogue with Suika!Reimu in Subterranean Animism
+
+ReimuUnifierCautionaryBorder:
+  Name: 경계 결계
+  Description: |-
+    방어를 {Block} 얻습니다. 
+    모든 적에게 |허약|을 |e:1| 줍니다.
+  FlavorText: 뻔하지
+
+ReimuUnifierDeepRain:
+  Name: 신산암
+  Description: |-
+    |그레이즈|를 {Value1} 얻습니다. 
+    다음 {Value2}번의 비-명중 공격은 |명중|을 얻습니다.
+  UpgradedDescription: |-
+    |그레이즈|를 {Value1} 얻습니다. 
+    다음 {Value2}번의 비-명중 공격은 |명중|을 얻습니다.
+  FlavorText: 자, 아야, 오늘 나한테 뭐 가르쳐 줄 거야? 회피!
+#Name is from Aya!Reimu weapon in Touhou Subterranean Animism
+#Flavor text reference is Dragon Ball Z Abridged, Piccolo training Gohan.
+
+ReimuUnifierBattleForgedBonds:
+  Name: 전장에서 단련된 인연
+  Description: 손, 뽑을 카드 더미, 혹은 버린 카드 더미에 있는 카드 한 장을 선택해 |강화|합니다. |동료| 카드라면 카드를 한 장 뽑습니다.
+  FlavorText: "네놈은 지금까지 짐과 같은 적과 맞서 싸워왔다! 그렇다면 벗이다! 가슴을 펴고서 당당하게 짐과 견주도록 하여라!"
+#Fate Zero, Iskandar to Waver
+
+ReimuUnifierRetributiveBoundary:
+  Name: 보복의 결계
+  Description: |-
+    방어를 {Block} 얻습니다. 
+    {PlayerName}의 다음 턴까지, 적의 공격으로 {PlayerName}가 피해를 받을 때마다 손에 |요괴제 바늘|을 추가합니다.
+  UpgradedDescription: |-
+    |보호막| {Shield}을 얻습니다.
+    {PlayerName}의 다음 턴까지, 적의 공격으로 {PlayerName}가 피해를 받을 때마다 손에 |요괴제 바늘+|을 추가합니다.
+  FlavorText: 네가 쓰러지면, 넌 네가 상상하던 만큼 강력해질 것이야..
+#Ben Kenobi "If you strike me down" quote
+
+ReimuUnifierSupplyRun:
+  Name: 보급 실행
+  Description: 뽑을 카드 더미나 버린 카드 더미에서 무작위 |동료|를 손에 넣습니다. 카드를 |e:2|장 뽑습니다.
+  FlavorText: 간다 레이무, 저장된 마나는 충분한가?
+#"I got the goods, you got the money?"
+
+ReimuUnifierRainDance:
+  Name: 비의 춤
+  Description: 모든 적에게 피해를 {Damage} 줍니다.
+  FlavorText: 두 번 재고, 필요한 만큼 잘라라.
+
+ReimuUnifierKogasaYoukaiBlacksmithFriend:
+  Name: 요괴 대장장이, 코가사
+  Description: |-
+    {FriendP} |b:대장장이의 장인정신:| 손에 있는 무작위 카드 |e:1|장을 |강화|합니다.
+  UpgradedDescription: |-
+    {FriendP} |b:대장장이의 장인정신:| 손에 있는 무작위 카드 |e:2|장을 |강화|합니다.
+  ExtraDescription1: |-
+    {FriendA} |u:카라카사 후광:| 손에 있는 |강화된| 카드마다 무작위 적에게 공격 피해를 {Damage} 줍니다.
+  UpgradedExtraDescription1: |-
+    {FriendA} |u:카라카사 후광:| 무작위 적에게 공격 피해를 {Damage} 주고, 손에 있는 |강화된| 카드마다 이 효과를 반복합니다.
+  ExtraDescription3: |-
+    {FriendU} |p:굵은 눈물비:| 손이 꽉 찰 때 까지 |요괴제 바늘|을 추가합니다.
+  UpgradedExtraDescription3: |-
+    {FriendU} |p:거친바다 서프라이즈:| 손이 꽉 찰 때 까지 |요괴제 바늘+|을 추가합니다.
+  FlavorText: |-
+    코가사가 대장장이 일을 좋아하는 이유? 놀라울 정도로 잘하니까!
+
+ReimuUnifierEmpoweringRitual:
+  Name: 강화 의식
+  Description: |-
+    |일시 화력|을 {Value1} 얻습니다.
+    |봉인|을 |e:1| 얻습니다.
+  FlavorText: 내 에너지를 받아라 (つ O.O)つ
+
+ReimuUnifierSuikaGourdOniFriend:
+  Name: 술호리병의 오니, 스이카
+  Description: |-
+    {FriendP} |u:미싱 파워|: |가벼운 한잔|을 1장 얻습니다. 해당 카드는 |휘발성|을 가집니다.
+  ExtraDescription1: |-
+    {FriendA} |p:미싱 퍼플 파워|: |소멸| 더미에서 모든 |가벼운 한잔|을 손으로 되돌립니다.
+  ExtraDescription3: |-
+    {FriendU} |d:추나 되돌리기 블랙홀|: |천의무봉|을 {Value1} 얻습니다. {PlayerName}의 다음 턴까지, {PlayerName}가 공격 피해를 받을 때마다 |일시 화력|을 {Value2} 얻습니다.
+  FlavorText: |-
+    "큰일 났다. 술이 깨고 있어."
+
+ReimuUnifierKasenWildhornFriend:
+  Name: 편완유각의 선인, 카센
+  Description: |-
+    {FriendP} |d:매의 봉화|: 체력이 가장 적은 적에게 피해를 {Damage}씩 {Value1}번 줍니다.
+  ExtraDescription1: |-
+    {FriendA} |p:은자의 수련|: |화력| {Value2}와 |영력| {Value2}를 얻습니다.
+  UpgradedExtraDescription1: |-
+    {FriendA} |p:은자의 단련|: |화력| {Value2}, |영력| {Value2}, |그레이즈| {Value2}를 얻습니다.
+  ExtraDescription3: |-
+    {FriendU} |u:원숭이 손이여! 적을 잡아서 뭉개라!|: 뽑을 카드 더미와 버린 카드 더미에서 공격 카드를 손이 꽉 찰 때 까지 추가합니다. 그 카드들의 비용은 {Mana}가 됩니다.
+  FlavorText: |-
+    "레이무를 지켜줄 사람이 필요해, 아니면 무슨 사고를 더 치게 될지 누가 알겠어?"
+
+ReimuUnifierFourFairiesFriend:
+  Name: 무임승차 요정들
+  Description: |-
+    {FriendP} |e:요정 탄막 난사:| 무작위 적에게 피해를 {Damage}씩 {Value1}번 줍니다.
+  ExtraDescription1: |-
+    {FriendA} |g:요정 증원:| |e:삼월정|을 하나 골라 소환한 상태로 얻습니다.
+  ExtraDescription3: |-
+    {FriendU} |d:은별 계절:| |e:삼월정| 모두를 |지원력|을 |e:9| 가지고 소환한 상태로 얻습니다.
+  UpgradedExtraDescription3: |-
+    {FriendU} |p:순화된 광기의 횃불:| |e:네 장난꾸러기 요정|들을 |지원력|을 |e:9| 가지고 소환한 상태로 얻습니다.
+  DetailText: |-
+    {SelfName}|e:+|은 |g:요정 증원|에 |광기의 요정 클라운피스|를 추가합니다.
+  FlavorText: |-
+    단순히 광대 조각들이 아니라, 아예 서커스 전체다.
+
+ReimuUnifierSanaeHumanGodFriend:
+  Name: 현인신, 코치야 사나에
+  Description: |-
+    {Indent} |부적|을 {Value1} 얻습니다.
+     {FriendP} |e:비술 -그레이 서머터지-|: {PlayerName}의 버프마다 |방어|를 |e:2| 얻습니다. ({AdditionalBlock})
+  UpgradedDescription: |-
+    {Indent} |부적| {Value1}을 얻습니다.
+     {FriendP} |e:비전 -그레이 서머터지-|: {PlayerName}의 버프마다 |보호막|을 |e:2| 얻습니다. ({AdditionalShield})
+  ExtraDescription1: |-
+    {FriendA} |p:잊혀진 제사의식|: 손의 카드를 최대 |e:2|장 |소멸|시킵니다. 그 수만큼 |비호|를 얻습니다.
+  UpgradedExtraDescription1: |-
+    {FriendA} |p:잊혀진 제사의식|: 손, 뽑을 카드 더미, 버린 카드 더미에서 최대 |e:2|장 카드를 |소멸|시킵니다. 그 수만큼 |비호|를 얻습니다.
+  ExtraDescription2: |-
+    {FriendA} |g:바인드 스네이크 컴온|:  |영력| {Value2}을 얻습니다. 모든 적에게 |영력 소실| {Value2}와 |e:1| |허약|을 줍니다.
+  ExtraDescription3: |-
+    {FriendA} |f:외래인의 열정|: |호기심|을 |e:1| 얻습니다.
+  FlavorText: |-
+    환상향에선 상식에 얽매여서는 안 되는거네요?
+
+ReimuUnifierAunnShrineGuardianFriend:
+  Name: 신사의 수호수, 아운
+  Description: |-
+    {FriendP} |l:코마이누의 보호|: 손, 뽑을 카드 더미, 버린 카드 더미에서 무작위 |액운|을 |소멸|시킵니다.
+  ExtraDescription1: |-
+    {FriendA} |g:코마이누 돌리기|: 방어 {Block}, 보호막 {Shield}, |부적| {Value1}, |비호| {Value1}, |그레이즈| {Value1}, |일시 영력| {Value1}을 얻습니다.
+  ExtraDescription3: |-
+    {FriendU} |d:수호의 부적「돌의 형상」|: |봉인|을 |e:2| 얻습니다. {PlayerName}가 체력을 잃는 것을 {Value2}번 방지합니다.
+  FlavorText: |-
+    레이무가 부른다!? 아운쨩이 도와줄게!
+#References game with that title
+ReimuUnifierPowerOfTheImmaterial:
+  Name: 췌몽상
+  Description: |-
+    |팀 업 [스이카]:| |일시 화력|을 {Value1} 얻습니다.
+    피해를 {Damage}씩 {Value2}번 줍니다. {PlayerName}에게 |일시 화력|이 있다면, 그 수치만큼 피해를 |e:1|회씩 추가로 줍니다.
+  FlavorText: 많은 사람들에게, 빙의화, 심비록, 심기루보다 더 사랑받는.
+#References the 3 flying fighting game spin-offs.
+
+ReimuUnifierScarletNeedleRain:
+  Name: 홍색 바늘비
+  Description: |-
+    모든 적에게 적마다 피해를 {Damage} 줍니다.
+    모든 적에게 적마다 |취약|을 |e:1| 줍니다.
+  FlavorText: 웬일인지, 레밀리아와 플랑드르는 진짜 비보다 이걸 덜 귀찮아한다.
+
+ReimuUnifierStrikeOfHisoutensoku:
+  Name: 비상천칙의 일격
+  Description: |-
+    피해를 {Damage} 줍니다. {SelfName}은 대상의 디버프마다 추가로 피해를 {Value1} 줍니다.
+    |팀 업 [사나에]|: 대상의 디버프마다 |일시 화력 저하|를 |e:1| 줍니다.
+  UpgradedDescription: |-
+    |팀 업 [사나에]|: 대상의 디버프마다 |일시 화력 저하|를 |e:1| 줍니다.
+    피해를 {Damage} 줍니다. {SelfName}은 대상의 디버프마다 추가로 피해를 {Value1} 줍니다.
+  FlavorText: 그냥 뛰어들어 기적과 싸울 수도 있지만, 그건 내 미학에 어긋나. 오직 기계만이 기계와 싸울 수 있지.
+#Quote from "Knights and Magic", replacing magic with miracles as a Sanae reference.
+
+ReimuUnifierPurifyingStrike:
+  Name: 정화의 일격
+  Description: |-
+    피해를 {Damage} 줍니다. 
+    {SelfName}이 막히지 않은 피해를 |e:10| 줄 때마다, {PlayerName}의 디버프 하나를 제거합니다.
+  FlavorText: 레이무는 아직도 왜 남이 맞는데 자기가 정화되는 건지 모르겠다.
+
+ReimuUnifierHermitsTraining:
+  Name: 은자의 단련
+  Description: |-
+    |팀 업 [카센]|: |일시 화력|을 {Value1} 얻습니다.
+    방어를 {Block} 얻습니다. {PlayerName}에게 |일시 화력|이 있다면, 대신 방어 {Shield}와 보호막 {Shield}를 얻습니다.
+  FlavorText: 삶이 제공하는 것을 훈련하게 되리라
+#Reference to Binding of Isaac, Hermit card quote: "See what life has to offer"
+
+ReimuUnifierCooperativeBarrier:
+  Name: 협력의 결계
+  Description: |-
+    손에 있는 소환된 |동료|마다 |일시 영력|을 {Value1} 얻습니다. 
+    방어를 {Block} 얻습니다.
+  UpgradedDescription: |-
+    |일시 영력|을 {Value2} 얻습니다.
+    손에 있는 소환된 |동료|마다 |일시 영력|을 {Value1} 추가로 얻습니다.
+    방어를 {Block} 얻습니다.
+  FlavorText: |-
+    "우정의 단단함"은 "우정의 힘"만큼 임팩트가 없다.
+
+ReimuUnifierYinYangCommunicationRitual:
+  Name: 음양의 통신 의식
+  Description: |-
+    방어를 {Block} 얻습니다. 
+    |통신옥|을 1장 얻습니다.
+  FlavorText: 파괴 불능의 통신 장치라니? 그냥 음양옥 노키아 아냐?
+
+ReimuUnifierSummoningRitual:
+  Name: 소환 의식
+  Description: |-
+    카드를 {Value1}장 뽑습니다. 
+    이렇게 뽑은 |동료|마다 {Mana}를 얻습니다.
+  FlavorText: |-
+    "안 돼 레이무, 우리 불러서 노는 건 소환 의식이 아니야."
+
+ReimuUnifierCallToArms:
+  Name: 긴급 소집
+  Description: |-
+    손에 있는 소환된 |동료|마다 무작위로 |요괴제 바늘|이나 |통신옥|을 손에 추가합니다.
+    |팀 업[적색 동료]|: 추가된 카드의 비용이 {Mana} 감소합니다.
+  UpgradedDescription: |-
+    무작위로 |요괴제 바늘|이나 |통신옥|을 손에 추가합니다. 손에 있는 소환된 |동료|마다 반복합니다.
+    |팀 업[적색 동료]|: 추가된 카드의 비용이 {Mana} 감소합니다.
+  FlavorText: |-
+    급하다는 말에 하수인이 셋이나 달려왔습니다.
+#Hearthstone Call to arms flavor text
+ReimuUnifierDoubleDealing:
+  Name: 이중책모
+  Description: |-
+    |취약| |e:1|과 |허약| |e:1|을 얻습니다. 손의 |동료|를 소환합니다.
+    |팀 업[신묘마루]|: 손의 모든 |동료|가 |지원력|을 |e:1| 얻습니다.
+  UpgradedDescription: |-
+    무작위로 |취약| |e:1| 또는 |허약| |e:1|을 얻습니다. 손의 |동료|를 소환합니다.
+    |팀 업[신묘마루]|: 손의 모든 |동료|가 |지원력|을 |e:1| 얻습니다.
+  FlavorText: |-
+    약자가 강자가 되면, 결국 자신들이 반란했던 폭군과 다를 바 없는 것 아닐까?
+
+ReimuUnifierTagIn:
+  Name: 태그 인
+  Description: |-
+    손의 카드를 최대 |e:1|장 |소멸|시킵니다. 그 카드가 |동료|라면, 가진 |지원력|마다 |보호막|을 {Value1} 얻습니다.
+  UpgradedDescription: |-
+    손, 뽑을 카드 더미, 버린 카드 더미에서 카드를 최대 |e:1|장 |소멸|시킵니다. 그 카드가 |동료|라면, 가진 |지원력|마다 |보호막|을 {Value1} 얻습니다.
+  FlavorText: |-
+    "잠시만 대신 얻어맞아 줄래?"
+
+ReimuUnifierTagOut:
+  Name: 태그 아웃
+  Description: |-
+    손의 카드를 최대 |e:1|장 |소멸|시킵니다. 그 카드가 |동료|라면, 뽑을 카드 더미에서 무작위로 아직 소환되지 않은 |동료|를 손에 넣고 소환합니다.
+  UpgradedDescription: |-
+    손, 뽑을 카드 더미, 버린 카드 더미에서 카드를 최대 |e:1|장 |소멸|시킵니다. 그 카드가 |동료|라면, 뽑을 카드 더미에서 무작위로 아직 소환되지 않은 |동료|를 손에 넣고 소환합니다.
+  FlavorText: |-
+    "대신 맞아달라고? 내가 직접 패버리면 되잖아!"
+
+ReimuUnifierCallForHelp:
+  Name: 도움 요청
+  Description: |-
+    뽑을 카드 더미에서 |동료|를 최대 {Value1}장 선택해 손에 넣습니다.
+  UpgradedDescription: |-
+    뽑을 카드 더미에서 |동료|를 최대 {Value1}장 선택해 손에 넣습니다.
+  FlavorText: |-
+    하지만 아무도 오지 않았다...
+#Undertale, Genocide route.
+ReimuUnifierSynchronizedRitualArray:
+  Name: 동조 의식진
+  Description: |-
+    |턴 종료 시|: 무작위 적에게 피해를 {Value1}씩 {Value2}번 줍니다.
+    |손에 있을 때|: {PlayerName}가 |동료| 카드로 동료를 소환할 때마다, {SelfName}이 피해를 |e:1|번 더 줍니다.
+  FlavorText: |-
+    퍼머넌트 결계를 칠 힘이 부족하다면, 크라우드 펀딩을 하자!
+
+ReimuUnifierBattleFever:
+  Name: 전투의 열병
+  Description: |-
+    {PlayerName}가 |팀 업|을 발동할 때마다 {Mana}를 얻습니다.
+  DetailText: 여러 번 |팀 업|할 수 있는 카드는 발동마다 마나를 얻습니다.
+  FlavorText: |-
+    열에 대한 설명을 찾는 게 어떻게 희박한 공기 속에서 마나를 만들어내는 걸까요?
+#References the black card "Unexplained Fever"
+ReimuUnifierDimensionalRiftBoundary:
+  Name: 차원의 균열 -경계-
+  Description: |-
+    |동료|가 손에 들어올 때마다 무작위 적에게 피해를 {Value1} 줍니다.
+    소환된 |동료|가 손에서 나갈 때마다 {Mana}를 얻습니다.
+  FlavorText: |-
+    술 게임: 레이무 카드 이름에서 의식, 결계, 경계 단어가 나올 때마다 원샷.
+
+ReimuUnifierDivineForge:
+  Name: 신성한 대장간
+  Description: |-
+    {PlayerName}의 턴 시작 시 손에 |요괴제 바늘|을 추가합니다.
+  FlavorText: |-
+    그러니까 신이 이 바늘을 만들었다고?
+
+#Reference to the joke question "So you're telling me a shrimp fried this rice?" about the food "Shrimp-fried rice"
+ReimuUnifierRitualofEchoingProsperity:
+  Name: 울려 퍼지는 번영의 의식
+  Description: |-
+    {PlayerName}의 턴 시작 시, 손에 있는 소환된 |동료|마다 |일시 영력| {Value1}과 |일시 화력| {Value1}을 얻습니다.
+  FlavorText: |-
+    부자는 더 부자가 된다!
+
+ReimuUnifierDanmakuCollision:
+  Name: 탄막 충돌
+  Description: |-
+    {PlayerName}의 턴 종료 시, 손에 있는 소환된 |동료|마다 방어를 {Value1} 얻습니다.
+  FlavorText: |-
+    쟤들이 내 힘을 조금 따라하는데 저렇게나 필요하다고? -치르노, 탄막 화면 전체를 얼어붙게 하면서.
+#References Cirno's ability in Great Fairy Wars, and the quote from "Invincible".
+ReimuUnifierEmotionalBoundarySynchronization:
+  Name: 감정의 경계 -동기화-
+  Description: |-
+    |동료|의 |a:액티브 능력|이나 |u:궁극기|가 발동할 때마다, 손에 있는 모든 |동료|가 |지원력|을 |e:1| 얻습니다.
+  FlavorText: |-
+    하나는 모두를 위해, 모두는 하나를 위해!
+    #삼총사
+
+ReimuUnifierRabbleRousing:
+  Name: 민중 선동
+  Description: |-
+    {PlayerName}의 다음 |e:3|턴 시작 시, 무작위 일반 |동료|를 손에 추가합니다.
+  FlavorText: |-
+    마리사, 유카리, 코가사에게 이 카드 이름은 들키지 마. 자기들을 '자코'라고 부르는 건 싫어할걸.
+
+ReimuUnifierKosuzuDecipheringBibliophileFriend:
+  Name: 고서를 해독하는 서책광, 모토오리 코스즈
+  Description: |-
+    {FriendP} 모든 적에게 |록온|을 {Value1} 줍니다.
+  ExtraDescription1: |-
+    {FriendA} 모든 적에게 |취약| |e:1|과 |록온| {Value2}를 줍니다
+  ExtraDescription3: |-
+    {FriendU} 모든 적에게서 |그레이즈|, |광학 미채|, |천의무봉|을 제거한 후, |취약|을 |e:1| 줍니다.
+  FlavorText: |-
+    "이 책에 따르면, 놈들의 약점은…"
+
+ReimuUnifierRitualOfTheSeasons:
+  Name: 사계의 의식
+  Description: |-
+    뽑을 카드 더미에서 각 색깔의 무작위 |동료|를 손에 넣습니다.
+    |팀 업[아운]|: 선택된 |동료|마다 해당 색의 마나를 1 얻습니다.
+  DetailText: |-
+    가능한 한 많은 카드를 뽑는 것을 우선하며, 손이 가득 차 있어도 색깔에 따라 마나를 추가합니다.
+  FlavorText: |-
+    사계의 의식은 생각보다 훨씬 복잡하다. 모든 계절을 포함하려다 보니 재귀적인 주문 선언을 쓰게 되고, 그마저도 또 다른 요괴가 봄을 훔쳐 가면 틀어질 수 있다...
+
+ReimuUnifierCombatRoleAssignment:
+  Name: 전투 임무 배정
+  Description: |-
+    무작위 적에게 피해를 |e:6| 줍니다.
+    방어를 |e:6| 얻습니다.
+    |팀 업 [적색 동료]:| 피해를 |e:1|번 더 줍니다.
+    |팀 업 [백색 동료]:| 방어를 |e:1|번 더 얻습니다.
+    |동료|는 원하는 만큼 |팀 업|할 수 있습니다.
+  DetailText: |-
+    {SelfName}의 피해는 공격 피해로 취급되지 않습니다.
+  FlavorText: |-
+    "나는 케다마와 요정 메이드를 제물로 [블랙매지션 마리사]를 공격표시로 소환!"
+#YuGiOh reference
+ReimuUnifierMaidensDivineChanneling:
+  Name: 무녀의 신성한 영결
+  Description: |-
+    |팀 업 [사나에]:| |부적|을 |e:1| 얻습니다.
+    방어를 {Block} 얻습니다. {PlayerName}의 버프마다 |보호막|을 |e:2| 얻습니다.
+  FlavorText: |-
+    사나에가 신을 매개할 수 있는 인간 신이라면, 자기 자신도 매개할 수 있을까?
+
+ReimuUnifierOmnidirectionalBarrage:
+  Name: 전방위 사격
+  Description: |-
+    {PlayerName}가 |팀 업|을 발동할 때마다, 선택된 |동료|의 첫 번째 |패시브 능력|을 발동합니다.
+  DetailText: 여러 명의 동료가 조건을 만족한다면 가장 왼쪽이 선택됩니다. 여러 번 |팀 업| 가능한 카드는 유효한 패시브 능력을 모두 발동합니다.
+  FlavorText: |-
+    "그들은 어디에나 있어!" "그럼 어디든 쏴!"
+#Starcraft 2, Swarmling evolution mission
+ReimuUnifierMarisaIncidentSolverFriend:
+  Name: 이변 해결사, 키리사메 마리사
+  Description: |-
+    {FriendP} |l:적색 왜성 폭발:| 모든 적에게 피해를 {Damage} 줍니다.
+  ExtraDescription1: |-
+    {FriendA} |i:파이널 스파크:| 모든 적에게 피해를 {ActiveDamagePreview} 줍니다. |명중|
+  ExtraDescription3: |-
+    {FriendU} |u:마포 -파이널 마스터 스파크-|: |버스트| 상태가 됩니다. 모든 적에게 피해를 {UltimateDamagePreview} 줍니다. |명중|
+  FlavorText: |-
+    "화려하지 않으면 마법이 아니지. 탄막은 결국 화력이야."
+
+ReimuUnifierNeedleSparkSeal:
+  Name: 월경을 봉인하는 바늘 스파크
+  Description: |-
+    |요괴제 바늘|은 이제 단일 대상 대신 모든 적에게 피해를 주고, |록온|을 |e:2| 줍니다. 이 효과는 중복되지 않습니다.
+    손에 |요괴제 바늘|을 추가합니다.
+    |팀 업[마리사]:| 하나를 더 추가합니다.
+  DetailText: |-
+    |요괴제 바늘+|은 여전히 개별적으로 록온을 줍니다
+  FlavorText: |-
+    봤지? 이기는 건 익숙하거든. 완전빙의의 최강자는 내가 될 거야!
+#Marisa quote from Antinomy of Common Flowers, the game where the card name comes from, Mamizou Story mode.
+ReimuUnifierFantasySealDreamfinite:
+  Name: 환상봉인 -Dreamfinite-
+  Description: |-
+    {Mana}를 지불할 시: {PlayerName}의 턴 시작 시, 체력이 가장 많은 적에게 피해를 {Value1} 줍니다.
+  FlavorText: |-
+    꿈 속의 자아는 억제가 없는 편이지만, 그만큼 무모한 행동은 대개 자신을 취약하게 만든다.
+
+ReimuUnifierTrueTrichromaticLotusButterfly:
+  Name: 진 삼색 연화접
+  Description: |-
+    |팀 업 [마리사]:| 피해 {Damage}씩 |e:10|번 줍니다. |화력|을 2 잃습니다.
+    |충원|: {Mana}를 얻습니다.
+  UpgradedDescription: |-
+    |팀 업 [마리사]:| 피해 {Damage}씩 |e:10|번 주고, 피해를 {SecondaryDamagePreview} 줍니다. |화력|을 |e:2| 잃습니다.
+    |충원|: {Mana}를 얻습니다.
+  DetailText: 이 카드는 |팀 업|이 없으면 효과가 없습니다.
+  FlavorText: |-
+    "네 마음대로 하게 해줄게, 마리사." "그건 내 대사야, 레이무!"
+#Fantasy Maiden Wars quote when using this spellcard.
+ReimuUnifierWilyBeastStrike:
+  Name: 귀형격
+  Description: |-
+    다음 |동료|의 |a:액티브 능력| 또는 |u:궁극기|가 두 번 발동됩니다.
+  UpgradedDescription: |-
+    다음 {Value1}번의 |동료|의 |a:액티브 능력| 또는 |u:궁극기|가 두 번 발동됩니다.
+  FlavorText: |-
+    최약생물 넣을 예산은 부족했거든.
+#References Touhou 17 Title: Wily Beast and Weakest Creature
+ReimuUnifierSubterraneanAdventure:
+  Name: 지저 모험
+  Description: |-
+    최대 손패 한도가 {MaxHand}로 증가합니다.
+    |통신옥|을 1장 얻습니다.
+    |팀 업 [유카리]:| |정문자침|을 1장 얻습니다. 해당 카드는 일시적으로 {Mana}의 코스트를 갖고, |휘발성|을 가집니다.
+    |팀 업 [스이카]:| |귀신인화술|을 1장 얻습니다. 해당 카드는 일시적으로 {Mana}의 코스트를 갖고, |휘발성|을 가집니다.
+    |팀 업 [아야]:| |신산암|을 1장 얻습니다. 해당 카드는 일시적으로 {Mana}의 코스트를 갖고, |휘발성|을 가집니다.
+  FlavorText: |-
+    우왓! 고양이가 고양이가 됐어!
+#Reimu quote from Subterranean Animism
+ReimuUnifierYukariSageOfGensokyoFriend:
+  Name: 환상향의 현자, 야쿠모 유카리
+  Description: |-
+    {FriendP} |d:사중결계:| 모든 적에게 피해를 {Damage} 주고, 방어를 {Value2} 얻습니다.
+  ExtraDescription1: |-
+    {FriendA} |p:하쿠레이 이중결계:| {PlayerName}의 방어를 |보호막|으로 전환하고, {PlayerName}의 |보호막|을 두 배로 만듭니다.
+  ExtraDescription3: |-
+    {FriendU} |l:유카리 오의 -탄막 결계-|: 이번 턴과 이후 |e:4|턴 종료 시, |보호막|을 {Value1} 얻고, {PlayerName}의 |보호막|만큼 무작위 적에게 피해를 줍니다.
+  FlavorText: |-
+    임사체험 해볼래? 삶과 죽음의 경계를 넘어서.
+#AoCF Yukari Win Quote vs Mokou
+ReimuUnifierPerfectCherryBorder:
+  Name: 완벽한 벚꽃의 결계
+  #Reference to Touhou 7: Perfect Cherry Border, and the Cherry Border mechanic preventing hits.
+  Description: |-
+    {PlayerName}가 체력을 잃는 것을 한 번 방지합니다.
+    |팀 업 [유카리]:| 이 효과가 발동하면, 모든 적은 방지된 수치만큼 체력을 잃습니다.
+  UpgradedDescription: |-
+    {PlayerName}가 체력을 잃는 것을 {Value1}번 방지합니다.
+    |팀 업 [유카리]:| 이 효과가 발동하면, 모든 적은 방지된 수치만큼 체력을 잃습니다.
+  FlavorText: |-
+    완벽한 벚꽃의 결계를 만들려면 불완전한 벚꽃의 결계로 인조인간 요우무와 인조인간 요우키를 흡수해야 해.
+#Reference to Imperfect Cell absorbing androids 17 and 18 to become Perfect Cell, DBZ.
+ReimuUnifierRitualPowerConduit:
+  Name: 의식 -힘의 매개-
+  Description: |-
+    손에 있는 소환된 |동료|를 하나 선택합니다. 손에 있는 소환된 |동료|마다 그 |패시브 능력|을 한 번 발동합니다.
+  UpgradedDescription: |-
+    손에 있는 소환된 |동료|를 하나 선택합니다. 먼저 그 |패시브 능력|을 한 번 발동하고, 이어서 손에 있는 소환된 |동료|마다 한 번씩 추가 발동합니다.
+  DetailText: 선택된 동료도 포함됩니다.
+  FlavorText: |-
+    너를 믿지 마. 날 믿어. 너를 믿는 날 믿어!
+#Tengen Toppa Gurren Lagann. Kamina speech.
+ReimuUnifierRisingSynergy:
+  Name: 상승하는 시너지
+  Description: |-
+    |동료|가 적에게 공격 피해를 줄 때마다 |일시 화력|을 |e:1| 얻습니다.
+  FlavorText: |-
+    때로는 시너지가 단순한 유행어 그 이상일 때도 있다.
+
+ReimuUnifierFriendOfAFriend:
+  Name: 친구의 친구
+  Description: |-
+    |p:완전 무작위| |동료| {Value2}장 중 최대 {Value1}장을 선택해 얻습니다. 해당 카드는 일시적으로 코스트가 {Mana}가 되고, |휘발성|을 가집니다.'
+  FlavorText: |-
+    내 친구의 친구도 내 친구지!
+
+ReimuUnifierInnateDream:
+  Name: 몽상천생
+  Description: |-
+    |하쿠레이 음양옥|을 |e:1| 얻습니다. {PlayerName}가 이미 |하쿠레이 음양옥| |e:7|개를 가지고 있다면, 전부 잃고 |천의무봉|을 |e:99| 얻으며 {SelfName}은 |소멸|합니다.
+  FlavorText: |-
+    "이건 원래 스펠카드조차 아니었지만, 그냥 이름이랑 제한을 붙이지 않으면 이길 방법이 없었어." - 레이무가 현실에서 벗어나던 장면을 마리사가 설명하며.
+
+ReimuUnifierEmbodimentOfTheScarletDevil:
+  Name: 동방홍마향
+  Description: |-
+    |불안정한 물약| |e:1|장을 얻습니다. 체력을 |e:5| 회복합니다. |화력|을 |e:1| 얻습니다. 다음 {PlayerName}의 일반턴에, {PlayerName}가 카드를 |e:5|장 사용하면 턴이 종료됩니다.
+    {PlayerName}의 턴을 종료합니다. 그 후, 추가 턴을 얻습니다.
+    전투당 첫 {SelfName}만 발동합니다.
+  ExtraDescription1: |-
+    |d: 불안정한 물약 1장을 얻습니다. 체력을 5 회복합니다. 화력을 1 얻습니다. 다음 {PlayerName}의 일반턴에, {PlayerName}가 카드를 5장 사용하면 턴이 종료됩니다.|
+    |d: {PlayerName}의 턴을 종료합니다. 그 후, 추가 턴을 얻습니다.|
+    전투당 첫 {SelfName}만 발동합니다.
+  FlavorText: |-
+    메이링! 파츄리! 사쿠야! 플랑드르! 레밀리아! 모두 합쳐서! 스칼렛 특전대!!!
+#DBZ, Ginyu Force introduction
+ReimuUnifierDuplexBarrierDanmakuMirror:
+  Name: 이중결계 -탄막의 거울-
+  Description: |-
+    {PlayerName}의 턴 시작 시, 손에 있는 소환된 |동료|들은 |지원력|을 |e:1| 얻습니다.
+    |동료| 카드로 동료를 소환할 때마다, 그 카드의 |복사본|을 손에 추가합니다. 그 카드는 일시적으로 코스트가 {Mana}가 되고 |휘발성|을 가집니다.
+  DetailText: |-
+    |복사본| |동료|는 이 효과를 발동시키지 않습니다.
+  FlavorText: |-
+    드카 는하아좋 장가 가자이세
+#"One of Seija's favourite cards" written upside down.
+ReimuUnifierCombinationStrikeCoordinatedPursuit:
+  Name: 합동 타격 -공동 추격-
+  Description: |-
+    |동료|의 |a:액티브 능력|이나 |u:궁극기|가 발동할 때마다, 다음에 사용하는 공격 카드의 코스트가 {Mana}가 됩니다.
+  FlavorText: |-
+    "달려들어"라고 하면 영 멋이 안 나잖아.
+
+ReimuUnifierBanishingRitualDrainingStrike:
+  Name: 축출의 의식 -흡수의 일격-
+  Description: |-
+    피해를 {Damage} 줍니다.
+    |퇴치|: 체력을 {Value1} 회복합니다.
+  FlavorText: |-
+    레이무는 이 기술을 초록 옷 입은 배관공한테 배웠는데, 그가 도레미의 드림캐처를 사 간 뒤였다나.
+
+ReimuUnifierFlowerViewingParty:
+  Name: 꽃놀이 연회
+  Description: |-
+    |동료| 카드로 |동료|를 소환할 때 마다 손에 |한여름의 꽃|을 |e:1|장 추가합니다.
+    턴당 1회, {Mana}도 얻습니다.
+  FlavorText: |-
+    결국 사이교우 아야카시는 피어났지만 완전히는 아니었다. 봉인이 풀리지 않았으니, 언제나처럼 모두는 봄의 도래를 맞이했다.
+#Ending of Touhou 7: Perfect Cherry Blossom.
+ReimuUnifierShrineDefense:
+  Name: 하쿠레이 신사 수호!
+  Description: |-
+    손이 꽉 찰 때 까지 무작위 |동료| 카드를 손에 추가합니다. 
+    |팀 업 [하쿠레이의 손님들]|: 유효한 |팀 업|마다 {Mana}를 얻습니다.
+  UpgradedDescription: |-
+    손이 꽉 찰 때 까지 무작위 |동료| 카드를 손에 추가합니다. 그 카드들의 비용은 일시적으로 무작위 마나 |e:1|개 감소합니다.
+    |팀 업 [하쿠레이의 손님들]|: 유효한 |팀 업|마다 {Mana}를 얻습니다.
+  DetailText: 하쿠레이의 손님에는 마리사, 스이카, 카센, 요정 네 명, 아운, 니토리, 스미레코, 신묘마루가 포함됩니다.
+  FlavorText: |-
+    하쿠레이 결계에 중요하다던 그 장소 치곤, 신사가 부서진 일은 셀 수가 없을 정도네.
+
+ReimuUnifierDarknessOfTheCrow:
+  Name: 까마귀의 어둠
+  Description: |-
+    {PlayerName}가 공격을 |그레이즈|할 때마다, 그리고 {PlayerName}의 턴 종료 시마다 모든 적에게 피해 {Value1}를 줍니다.
+    |팀 업 [아야]|: |그레이즈|를 {Value2} 얻습니다.
+  FlavorText: |-
+    "까마귀"의 어둠? 요괴도 90년대 영화 음악 팬일 수 있지 않을까.
+
+ReimuUnifierAyaReporterOfFantasyFriend:
+  Name: 전통의 환상 신문쟁이, 샤메이마루 아야
+  Description: |-
+    {Indent} {PlayerName}가 |상태| 카드를 사용할 때마다 |그레이즈|를 |e:1| 얻습니다.
+     {FriendP} |f:붕붕마루 배달|: 뽑을 카드 더미에 |붕붕마루 신문|을 |e:2|장 추가합니다. 이 카드는 |보충|과 |자동 소멸|을 가지고 비용이 {Mana}만큼 감소합니다.
+  ExtraDescription1: |-
+    {FriendA} |g:텐구 한정 특집|: 손의 모든 |상태| 카드를 |소멸|시킵니다. 이렇게 소멸시킨 카드마다 |그레이즈|를 |e:1| 얻습니다.
+  ExtraDescription3: |-
+    {FriendU} |u:환상풍미|: "{PlayerName}가 카드를 사용할 때마다 무작위 적에게 피해를 {Value2} 줍니다."를 얻습니다.
+  UpgradedExtraDescription3: |-
+    {FriendU} |u:무쌍풍신|: {PlayerName}가 카드를 사용할 때마다 무작위 적에게 피해를 {Value2} 줍니다.
+  FlavorText: |-
+    환상향 최고의 기자이자 가장 빠른 비행사, 이름하여 아야!
+
+ReimuUnifierWisdomOfHumanity:
+  Name: 인류의 지혜
+  Description: |-
+    |팀 업 [인간]|: 유효한 |팀 업|마다 카드를 한 장 뽑습니다.
+    손에 있는 카드마다 방어를 |e:3| 얻습니다.
+  UpgradedDescription: |-
+    |팀 업 [인간]|: 유효한 |팀 업|마다 카드를 한 장 뽑습니다.
+    손에 있는 카드마다 |보호막| |e:3|을 얻습니다.
+  FlavorText: |-
+    요괴의 악몽: 세계의 신비를 설명해 버리는 인류의 능력.
+
+ReimuUnifierNitoriBusinessPartnerFriend:
+  Name: 비즈니스 파트너, 카와시로 니토리
+  Description: |-
+    {Indent} <sprite="Point" name="Gold">를 |e:10| 얻습니다.
+  ExtraDescription1: |-
+    {FriendA} |b:캇파 드론 기술|: {PlayerName}에게서 |허약|과 |취약|을 제거합니다.
+  UpgradedExtraDescription1: |-
+    {FriendA} |b:캇파 드론 기술|: {PlayerName}에게서 |허약|, |취약|, |록온|, |연약|을 제거합니다.
+  ExtraDescription2: |-
+    {FriendA} |d:오이 미사일 난사|: 무작위 적에게 피해를 {Damage}씩 {Value1}번 주고, 카드를 한 장 뽑습니다.
+  ExtraDescription3: |-
+    {FriendU} |s:네스호는 지금 여기에 있다!|: 턴 종료 시, 이번 전투에서 {PlayerName}가 진행한 턴마다 피해를 {Value2} 줍니다.
+  FlavorText: |-
+    "인간이여. 캇파와 인간은 오래 전부터 맹우였으니 가르쳐 주지."
+    "오래 전부터 숙적이었다는 말을 잘못 말한 거겠지?"
+#Mountain of Faith Nitori dialogue.
+ReimuUnifierSumirekoDreamVisitorFriend:
+  Name: 꿈 세계의 포크 로어, 우사미 스미레코
+  Description: |-
+    {FriendP} |d:사이코키네시스 앱|: |e:1| |오컬트 볼|을 얻습니다.
+  ExtraDescription1: |-
+    {FriendA} |e:3D 프린트 건|: {PlayerName}가 가진 |오컬트 볼|마다 체력이 가장 적은 적에게 피해를 {Damage} 줍니다.
+  ExtraDescription2: |-
+    {FriendA2} |p:제너 카드 수리검|: {PlayerName}가 가진 |오컬트 볼|마다 체력을 |e:1| 잃고, 카드를 |e:1|장 뽑고 {Mana}를 얻습니다.
+  ExtraDescription3: |-
+    {FriendU} |s:도플갱어 소환|: {PlayerName}가 |오컬트 볼|을 7개 이상 가지고 있다면, 전부 잃습니다. 이번 턴 동안, 플레이하는 카드마다 |복사본|을 얻습니다.
+  UpgradedExtraDescription3: |-
+    {FriendU} |s:세기의 더블 에스퍼|: {PlayerName}가 |오컬트 볼|을 7개 이상 가지고 있다면, 전부 잃고 손이 꽉 찰 때 까지 카드를 뽑습니다. 이번 턴 동안, 플레이하는 카드마다 |복사본|을 얻습니다.
+  DetailText: |-
+    오컬트 볼은 {SelfName}의 효과로만 사용되지만, 다른 모든 복사본들과 공유됩니다.
+  FlavorText: |-
+    나는 낙원의 무녀. 하쿠레이 레이무다!
+    무슨 일이 있어도 결계를 지켜내겠어!
+    그리고 인간을 쉽사리 죽게 놔둘 것 같냐!
+#Reimu dialogue in the final fight of Urban Legend in Limbo against Sumireko.
+ReimuUnifierPerfectPosession:
+  Name: 완전빙의
+  Description: |-
+    최대 |e:1|장의 카드를 선택합니다. 선택된 카드를 제외한 손의 카드를 |소멸|시킵니다. |소멸|된 카드마다 |보호막|을 |e:3| 얻습니다. |소멸|된 |동료|마다 {Mana}를 추가로 얻습니다.
+  FlavorText: |-
+    마리사: 모두들 완전빙의를 사용하고있는데 너만 혼자인데.
+    유카리: 어째서인지 알겠어?
+    코이시: 알아, 알아-. 친구가 없는거지? 불쌍해-
+#Antinomy of Common Flowers dialogue.
+ReimuUnifierFaithlessMountainAssault:
+  Name: 신 없는 산의 습격
+  Description: |-
+    모든 적에게 피해를 {Damage} 줍니다.
+    |퇴치|: |걷잡을 수 없는 분노|를 덱에 추가합니다.
+  FlavorText: |-
+    그녀의 분노에, 레이무는 자신을 위협하는 자들에게 복수하기 위해 신들까지 공격하곤 했다.
+#God of War reference.
+ReimuUnifierConsumedByVengeanceMisfortuneToken:
+  Name: 걷잡을 수 없는 분노
+  Description: |-
+    카드 더미를 섞을 때, {SelfName}는 뽑을 카드 더미 맨 아래에 배치됩니다.
+  FlavorText: |-
+    카나코! 하쿠레이의 무녀가 돌아왔소. 요괴의 산을 파멸시키고야 말 것이오!
+#God of War reference + Touhou Mountain of Faith reference.
+ReimuUnifierYoukaiShrineMaiden:
+  Name: 요괴 무녀
+  Description: |-
+    {Mana}를 얻습니다. 카드를 {Value1}장 뽑습니다. 버린 카드 더미에 무작위 |액운| |e:3|장을 추가합니다.
+    |팀 업 [요괴]|: 유효한 |팀 업|마다 추가되는 |액운|이 |e:1| 적어집니다. 초과한 |팀 업|마다 |비호|를 |e:1| 얻습니다.
+  FlavorText: |-
+    유감이네, 난 쓸데없는 살생도 해. 물론 요괴무녀도 아니야. 요괴라면 문답무용으로 퇴치하는 인간무녀지.
+#Dialogue from Touhou: Forbidden Scrollery
+ReimuUnifierCursedBoundary:
+  Name: 저주받은 경계 -공유된 고통-
+  Description: |-
+    {Mana}를 지불할 시: 체력을 |e:1| 잃고 피해를 {Damage} 줍니다.
+    |팀 업 [시온]|: {Mana}를 지불할 시: <sprite="Point" name="Gold">를 {Value1} 얻습니다.
+  FlavorText: |-
+    죽여주게 아플테니 각오해라!!!!
+#Hidan dialogue, Naruto Shippuuden.
+ReimuUnifierShionImpoverishedDeityFriend:
+  Name: 빈곤신, 요리가미 시온
+  Description: |-
+    {Indent} <sprite="Point" name="Gold">을 |e:15| 얻습니다.
+    {FriendP} |d:어서오세요 극빈의 세계로|: 체력이 가장 적은 적에게 피해를 {Damage}씩 2번 줍니다. <sprite="Point" name="Gold">을 |e:5| 잃습니다. |명중|
+  ExtraDescription1: |-
+    {FriendA} |s:플러크 피존|: 모든 적에게 피해를 |e:{ActiveDamagePreview}| 줍니다. 적 한 명당 |그레이즈|를 |e:1| 얻고, <sprite="Point" name="Gold">을 |e:5|잃습니다.
+  ExtraDescription3: |-
+    {FriendU} |p:빙의교환-앱솔루트 루저-|: 이름 없는 적들을 즉시 쓰러뜨립니다. |액땜|을 덱에 추가합니다.
+  FlavorText: |-
+    뭐가 없어 보인다는거야. 엄청난 사치잖아.
+#Shion dialogue from Touhou: Lotus Eaters
+ReimuUnifierShinmyoumaruInchlingPrincessFriend:
+  Name: 소인의 후예, 스쿠나 신묘마루
+  Description: |-
+    {Indent} |d:평범의 힘|: 일반 카드를 사용할 때마다, {SelfName}가 |지원력|을 |e:1| 얻습니다.
+  ExtraDescription1: |-
+    {FriendA} |d:커져라 얍|: |화력|을 {Value1} 얻습니다.
+  UpgradedExtraDescription1: |-
+    {FriendA} |d:좀 더 커져라 얍|: |화력|을 {Value1} 얻습니다.
+  ExtraDescription2: |-
+    {FriendA2} |d:휘침검|: 뽑을 카드 더미에서 무작위 일반 카드를 손이 꽉 찰 때 까지 가져옵니다. {Mana}를 얻습니다.
+  ExtraDescription3: |-
+    {FriendU} |k:빛나는 보물 -요술 망치-|: |무자비한 정화봉|을 소환한 상태로 얻습니다.
+  UpgradedExtraDescription3: |-
+    {FriendU} |k:빛나는 보물 -요술 망치-|: |무자비한 정화봉+|을 소환한 상태로 얻습니다.
+  FlavorText: |-
+    지금 내 손엔 몽환의 힘이 모여 있어. 바로 이 '요술 망치'!
+#Shinmyomaru dialogue from Touhou: Double Dealing Character
+ReimuUnifierMercilessRodFriendToken:
+  Name: 무자비한 정화봉
+  Description: |-
+    {Indent} |d:평범의 힘|: 일반 카드를 사용할 때마다 |화력|을 {Value1} 얻습니다.
+  UpgradedDescription: |-
+    {Indent} |d:평범의 힘|: 반 카드를 사용할 때마다 |화력| {Value1}과 |영력| {Value1}을 얻습니다.
+  ExtraDescription1: |-
+    {FriendP} |d:회전하는 봉|: 체력이 가장 많은 적에게 피해를 {Damage}씩 |e:3|번 줍니다.
+  ExtraDescription3: |-
+    {FriendU} |d:마도병장 -무자비한 정화봉-|: 모든 적에게 피해를 {Damage}씩 |e:8|번 줍니다.
+  FlavorText: |-
+    자 보물아, 말하지 못하는 도구들의 꿈을 모아다오!!
+
+#Shinmyomaru dialogue from Touhou: Double Dealing Character

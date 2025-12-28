@@ -1,0 +1,7 @@
+﻿ReimuUnifierSynchronizedRitualArray:
+  Name: Matriz de Ritual Sincronizado
+  Description: >-
+    |Al final del turno|: Inflige {Value1} de daño a un enemigo aleatorio {Value2} ve{Value2:plural one='z' other='ces'}.
+
+    |Mientras esté en la mano|: Siempre que {PlayerName} invoque a una |Compañera| al jugarla, aumenta en |e:1| la cantidad de veces que {SelfName} inflige daño.
+  FlavorText: Cuando no tienes suficiente energía para una Frontera Permanente, ¡haz un crowfunding!

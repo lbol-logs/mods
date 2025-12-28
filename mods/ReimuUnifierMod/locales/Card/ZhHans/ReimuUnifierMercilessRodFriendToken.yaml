@@ -1,0 +1,7 @@
+﻿ReimuUnifierMercilessRodFriendToken:
+  Name: 无情净化杖
+  Description: '{Indent} |d:弱小之力|：每当打出普通牌时，获得 {Value1} 点|火力|。'
+  UpgradedDescription: '{Indent} |d:弱小之力|：每当打出普通牌时，获得 {Value1} 点|火力|和 {Value1} 点|暂得火力|。'
+  ExtraDescription1: '{FriendP} |d:旋转杖|：对生命值最高的敌人造成 {Damage} 点攻击伤害 |e:3| 次。'
+  ExtraDescription3: '{FriendU} |d:妖器 -无情净化杖-|：对所有敌人造成 {Damage} 点攻击伤害 |e:8| 次。'
+  FlavorText: 现在，我珍贵的槌子！将梦想的力量赋予所有无言的工具！

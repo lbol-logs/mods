@@ -1,0 +1,11 @@
+﻿ReimuUnifierDeepRain:
+  Name: Rain Deep in the Mountains
+  Description: >-
+    Gain {Value1} |Graze|. 
+
+    The next {Value2} non-accurate attack played is |Accurate|.
+  UpgradedDescription: >-
+    Gain {Value1} |Graze|. 
+
+    The next {Value2} non-accurate attacks played are |Accurate|.
+  FlavorText: So, Miss Aya, what are you gonna teach me today? DODGE!

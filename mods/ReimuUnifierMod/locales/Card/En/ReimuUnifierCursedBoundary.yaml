@@ -1,0 +1,7 @@
+﻿ReimuUnifierCursedBoundary:
+  Name: Cursed Boundary -Shared Pain-
+  Description: >-
+    For each {Mana}: Lose |e:1| life and deal {Damage} damage.
+
+    |Team Up [Shion]|: For each {Mana}: Gain {Value1}<sprite="Point" name="Gold">.
+  FlavorText: Now! Let's savour the utmost of suffering together!

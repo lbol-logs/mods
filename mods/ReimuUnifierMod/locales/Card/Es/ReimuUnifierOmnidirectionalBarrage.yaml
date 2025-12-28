@@ -1,0 +1,5 @@
+﻿ReimuUnifierOmnidirectionalBarrage:
+  Name: Tromba Omnidireccional
+  Description: Siempre que {PlayerName} active un |Equipo|, activa la primera |Habilidad Pasiva| de la |Compañera| elegida.
+  DetailText: Si varias compañeras pueden cumplir las condiciones de hacer Equipo, se elige el de más a la izquierda. Para las cartas que pueden formar Equipo varias veces, esto activará todas las Habilidades Pasivas válidas.
+  FlavorText: '"Están por todas partes ¡Pues disparad a todas partes!"'

@@ -1,0 +1,11 @@
+﻿ReimuUnifierCallToArms:
+  Name: Llamado a las Armas
+  Description: >-
+    Agrega aleatoriamente una |Aguja Forjada por Youkais| o un |Orbe Comunicador| a la mano por cada |Compañera| invocada en la mano.
+
+    |Equipo [Equipo Rojo]|: Las cartas agregadas cuestan {Mana} menos.
+  UpgradedDescription: >-
+    Agrega aleatoriamente una |Aguja Forjada por Youkais| o un |Orbe Comunicador| a la mano. Se repite para cada |Compañera| invocada en la mano.
+
+    |Equipo [Equipo Rojo]|: Las cartas agregadas cuestan {Mana} menos.
+  FlavorText: Es más personal que una convocatoria a las armas.

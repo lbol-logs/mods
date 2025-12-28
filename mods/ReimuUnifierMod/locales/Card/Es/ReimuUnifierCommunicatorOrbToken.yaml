@@ -1,0 +1,9 @@
+﻿ReimuUnifierCommunicatorOrbToken:
+  Name: Orbe Comunicador
+  Description: >-
+    Inflige {Damage} de daño.
+
+    Gana {Shield} de |Barrera|.
+
+    Inflige {Value1} de daño adicional y gana {Value1} de |Barrera| adicional por cada |Compañera| invocada en la mano.
+  FlavorText: (... Lo hice para que podamos comunicarnos mediante tus orbes yin-yang.) (Así puedo asegurarme de que no te relajes.)

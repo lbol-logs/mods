@@ -1,0 +1,11 @@
+﻿ReimuUnifierStrikeOfHisoutensoku:
+  Name: Golpe del Hisoutensoku
+  Description: >-
+    Inflige {Damage} de daño. {SelfName} inflige {Value1} de daño adicional por cada efecto negativo del objetivo.
+
+    |Equipo [Sanae]|: Aplica |e:1| de |Reducción de Poder Temporal| por cada efecto negativo del objetivo.
+  UpgradedDescription: >-
+    |Equipo [Sanae]|: Aplica |e:1| de |Reducción de Poder Temporal| por cada efecto negativo del objetivo.
+
+    Inflige {Damage} de daño. {SelfName} inflige {Value1} de daño adicional por cada efecto negativo del objetivo.
+  FlavorText: Podría entrar en escena y resolverlo todo con milagros, pero eso arruinaría mi sentido estético. Solo un mecha puede enfrentarse a otro mecha.

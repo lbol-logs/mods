@@ -1,0 +1,8 @@
+﻿ReimuUnifierFourFairiesFriend:
+  Name: 白吃白喝的妖精们
+  Description: '{FriendP} |e:妖精弹幕齐射：| 对随机敌人造成 {Damage} 点攻击伤害 {Value1} 次。'
+  ExtraDescription1: '{FriendA} |g:妖精增援：| 选择一张 |e:光之妖精|加入手中。它进入手中时已召唤。'
+  ExtraDescription3: '{FriendU} |d:隐藏之星季节：| 将三张 |e:光之妖精|加入手中。它们进入时已召唤并带有 |e:9| |支援度|。'
+  UpgradedExtraDescription3: '{FriendU} |p:净化狂焰火炬：| 将四张 |e:光之妖精|加入手中。它们进入时已召唤并带有 |e:9| |支援度|。'
+  DetailText: '{SelfName}|e:+| 升级后|疯狂的克劳恩皮丝|将加入|g:妖精增援|的可选项中。'
+  FlavorText: 她们不只是小丑的碎片，她们是整个马戏团。

@@ -1,0 +1,11 @@
+﻿ReimuUnifierDoubleDealing:
+  Name: Double Dealing
+  Description: >-
+    Gain |e:1| |Vulnerable| and |e:1| |Weak|. Summon a |Teammate| in the hand.
+
+    |Team Up [Shinmyoumaru]|: Each |Teammate| in the hand gains |e:1| |Unity|.
+  UpgradedDescription: >-
+    Randomly gain |e:1| |Vulnerable| or |e:1| |Weak|. Summon a |Teammate| in the hand.
+
+    |Team Up [Shinmyoumaru]|: Each |Teammate| in the hand gains |e:1| |Unity|.
+  FlavorText: If the weak become the strong, are they not simply the tyrants they rebelled against?

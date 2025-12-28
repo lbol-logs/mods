@@ -1,0 +1,13 @@
+﻿ReimuUnifierCooperativeBarrier:
+  Name: Cooperative Barrier
+  Description: >-
+    Gain {Value1} |Temporary Spirit| for each summoned |Teammate| in the hand. 
+
+    Gain {Block} |Block|.
+  UpgradedDescription: >-
+    Gain {Value2} |Temporary Spirit|.
+
+    Gain {Value1} additional |Temporary Spirit| for each summoned |Teammate| in the hand.
+
+    Gain {Block} |Block|.
+  FlavorText: "\"The toughness of friendship\" doesn't really have the same impact as \"The power of friendship\""

@@ -1,0 +1,8 @@
+﻿ReimuUnifierRitualOfTheSeasons:
+  Name: Ritual de las Estaciones
+  Description: >-
+    Coloca aleatoriamente una |Compañera| de cada color en la pila de robo hacia la mano.
+
+    |Equipo [Aunn]|: Por cada |Compañera| seleccionada, gana 1 maná de su color.
+  DetailText: Dará prioridad al robar tantas cartas como sea posible y generará maná del color asignado a su Compañera, incluso con la mano llena.
+  FlavorText: El ritual de las estaciones es más complicado de lo que parece. Para incluir todas las estaciones posibles, el conjurador emplea una Declaración de magia recursiva... aunque eso tampoco garantiza nada, especialmente cuando otro youkai decide robarse la primavera otra vez.

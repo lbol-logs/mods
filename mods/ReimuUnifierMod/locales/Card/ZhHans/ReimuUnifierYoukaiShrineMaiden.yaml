@@ -1,0 +1,7 @@
+﻿ReimuUnifierYoukaiShrineMaiden:
+  Name: 妖怪巫女
+  Description: >-
+    获得 {Mana}。抽 {Value1} 张牌。将 |e:3| 张随机|厄运|加入弃牌堆。
+
+    |组队 [妖怪]|：每有一个有效|组队|，少添加 |e:1| 张|厄运|。超额|组队|每添加 |e:1| 点|庇护|。
+  FlavorText: 不幸的是，我不介意无谓的杀戮。我也不是妖怪巫女。我是人类巫女，我的工作是退治妖怪！

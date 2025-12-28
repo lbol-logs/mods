@@ -1,0 +1,9 @@
+﻿ReimuUnifierShinmyoumaruInchlingPrincessFriend:
+  Name: Shinmyoumaru, Princesa Kobito
+  Description: '{Indent} |d:Poder de los Débiles|: Siempre que se juega una carta Común, {SelfName} gana |e:1| |Influencia|.'
+  ExtraDescription1: '{FriendA} |d:Mazo "¡Hazte Grande!" |: Gana {Value1} de |Poder|.'
+  UpgradedExtraDescription1: '{FriendA} |d:Mazo "¡Hazte aún más Grande!" |: Gana {Value1} de |Poder|.'
+  ExtraDescription2: '{FriendA2} |d:Espada Aguja Brillante|: Coloca cartas comunes al azar de la pila de robo hacia la mano hasta llenarla. Gana {Mana}.'
+  ExtraDescription3: '{FriendU} |k:Tesoro Brillante -Mazo Milagroso-|: Agrega un |Gohei Purificador Despiadado| invocada a la mano.'
+  UpgradedExtraDescription3: '{FriendU} |k:Tesoro Brillante -Mazo Milagroso-|: Agrega un |Gohei Purificador Despiadado+| invocada a la mano.'
+  FlavorText: Tengo el poder de los sueños en mi mano. ¡Este es nuestro tesoro, el Mazo Milagroso!

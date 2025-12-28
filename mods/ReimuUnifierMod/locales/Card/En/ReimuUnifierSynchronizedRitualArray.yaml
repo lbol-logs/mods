@@ -1,0 +1,7 @@
+﻿ReimuUnifierSynchronizedRitualArray:
+  Name: Synchronized Ritual Array
+  Description: >-
+    |At the end of the turn|: Deal {Value1} damage to a random enemy {Value2} time.
+
+    |While in hand|: Whenever {PlayerName} summons a |Teammate| by playing it, increase the amount of times {SelfName} deals damage by |e:1|.
+  FlavorText: When you don't have enough power for a Permanent Border, crowdfund one!

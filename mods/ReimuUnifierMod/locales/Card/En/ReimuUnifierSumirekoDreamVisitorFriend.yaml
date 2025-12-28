@@ -1,0 +1,14 @@
+﻿ReimuUnifierSumirekoDreamVisitorFriend:
+  Name: Sumireko, Occult Dream Visitor
+  Description: '{FriendP} |d:Psychokinesis App|: Gain |e:1| |Occult Ball|.'
+  ExtraDescription1: '{FriendA} |e:3D Printed Gun|: For each |Occult Ball| {PlayerName} has, deal {Damage} damage to the enemy with the least life.'
+  ExtraDescription2: '{FriendA2} |p:Zener Cards Shuriken|: For each |Occult Ball| {PlayerName} has, lose |e:1| life, draw |e:1| card and gain {Mana}.'
+  ExtraDescription3: '{FriendU} |s:Summon Doppelganger|: If {PlayerName} has at least 7 |Occult Balls|, lose all |Occult Balls|. Then, in this turn, |Copy| every card played.'
+  UpgradedExtraDescription3: '{FriendU} |s:Double ESPer of the Century|: If {PlayerName} has at least 7 |Occult Balls|, lose all |Occult Balls| and draw until the hand is full. Then, in this turn, |Copy| every card played.'
+  DetailText: Occult Orbs are only used by {SelfName}, but are shared by all copies of the card.
+  FlavorText: >-
+    I am the shrine maiden of paradise, Reimu Hakurei!
+
+    I'll protect the Barrier, no matter what!
+
+    And I'm not gonna let some human die stupidly right in front of me!

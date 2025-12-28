@@ -1,0 +1,5 @@
+﻿ReimuUnifierTagIn:
+  Name: 태그 인
+  Description: 손의 카드를 최대 |e:1|장 |소멸|시킵니다. 그 카드가 |동료|라면, 가진 |지원력|마다 |보호막|을 {Value1} 얻습니다.
+  UpgradedDescription: 손, 뽑을 카드 더미, 버린 카드 더미에서 카드를 최대 |e:1|장 |소멸|시킵니다. 그 카드가 |동료|라면, 가진 |지원력|마다 |보호막|을 {Value1} 얻습니다.
+  FlavorText: '"잠시만 대신 얻어맞아 줄래?"'

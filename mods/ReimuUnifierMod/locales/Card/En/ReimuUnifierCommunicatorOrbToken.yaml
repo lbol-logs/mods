@@ -1,0 +1,9 @@
+﻿ReimuUnifierCommunicatorOrbToken:
+  Name: Communicator Orb
+  Description: >-
+    Deal {Damage} damage.
+
+    Gain {Shield} |Barrier|. 
+
+    Deal {Value1} additional damage and gain {Value1} additional |Barrier| for each summoned |Teammate| in the hand.
+  FlavorText: (... I made it so we can talk through your yin-yang orbs.) (So I can make sure you don't slack off.)

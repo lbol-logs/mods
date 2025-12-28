@@ -1,0 +1,6 @@
+﻿ReimuUnifierKosuzuDecipheringBibliophileFriend:
+  Name: Kosuzu, Bibliófila Descifradora
+  Description: '{FriendP} Aplica {Value1} de |Marcado| a cada enemigo.'
+  ExtraDescription1: '{FriendA} Aplica |e:1| de |Vulnerable| y {Value2} de |Marcado| a cada enemigo.'
+  ExtraDescription3: '{FriendU} Elimina la |Evasión|, |Camuflaje Óptico| y |Perfección| de cada enemigo, luego aplica |e:1| de |Vulnerable| a cada enemigo.'
+  FlavorText: '"Según este tomo, su debilidad es..."'

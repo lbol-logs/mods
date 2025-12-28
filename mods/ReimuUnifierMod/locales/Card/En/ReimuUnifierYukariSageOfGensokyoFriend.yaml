@@ -1,0 +1,6 @@
+﻿ReimuUnifierYukariSageOfGensokyoFriend:
+  Name: Yukari, Sage of Gensokyo
+  Description: '{FriendP} |d:Quadruple Barrier:| Deal {Damage} attack damage to each enemy. Gain {Value2} |Block|.'
+  ExtraDescription1: "{FriendA} |p:Hakurei Duplex Barrier:| Convert {PlayerName}'s |Block| into |Barrier|, then double {PlayerName}'s |Barrier|."
+  ExtraDescription3: "{FriendU} |l:Arcanum -Danmaku Barrier-:| At the end of this and the next |e:4| {PlayerName}'s turns, gain {Value1} |Barrier|, then deal damage equal to {PlayerName}'s |Barrier| to a random enemy."
+  FlavorText: Would you like to have a near-death experience? By crossing the boundary between life and death.

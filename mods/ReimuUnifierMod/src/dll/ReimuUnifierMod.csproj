@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3D604077-200F-4D7A-A07C-FE63BEC49776}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ReimuUnifierMod</RootNamespace>
+    <AssemblyName>ReimuUnifierMod</AssemblyName>
+    <TargetFrameworkVersion>v2.1</TargetFrameworkVersion>
+    <TargetFrameworkIdentifier>.NETStandard</TargetFrameworkIdentifier>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony" />
+    <Reference Include="BepInEx" />
+    <Reference Include="LBoL-AddWatermark" />
+    <Reference Include="LBoL-Entity-Sideloader" />
+    <Reference Include="LBoL.Base">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.ConfigData">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.ConfigData.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.Core">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.EntityLib">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.EntityLib.dll</HintPath>
+    </Reference>
+    <Reference Include="LBoL.Presentation">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\LBoL.Presentation.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="spine-unity" />
+    <Reference Include="UniTask" />
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\LBoL\LBoL_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BattleActions\TeamUpAction.cs" />
+    <Compile Include="BattleActions\TeamUpEventArgs.cs" />
+    <Compile Include="BepinexPlugin.cs" />
+    <Compile Include="Cards\ReimuUnifierAttackR.cs" />
+    <Compile Include="Cards\ReimuUnifierAttackRDef.cs" />
+    <Compile Include="Cards\ReimuUnifierAttackW.cs" />
+    <Compile Include="Cards\ReimuUnifierAttackWDef.cs" />
+    <Compile Include="Cards\ReimuUnifierAunnShrineGuardianFriend.cs" />
+    <Compile Include="Cards\ReimuUnifierAunnShrineGuardianFriendDef.cs" />
+    <Compile Include="Cards\ReimuUnifierAyaReporterOfFantasyFriend.cs" />
+    <Compile Include="Cards\ReimuUnifierAyaReporterOfFantasyFriendDef.cs" />
+    <Compile Include="Cards\ReimuUnifierBanishingRitualDrainingStrike.cs" />
+    <Compile Include="Cards\ReimuUnifierBanishingRitualDrainingStrikeDef.cs" />
+    <Compile Include="Cards\ReimuUnifierBattleFever.cs" />
+    <Compile Include="Cards\ReimuUnifierBattleFeverDef.cs" />
+    <Compile Include="Cards\ReimuUnifierBattleForgedBonds.cs" />
+    <Compile Include="Cards\ReimuUnifierBattleForgedBondsDef.cs" />
+    <Compile Include="Cards\ReimuUnifierBlockR.cs" />
+    <Compile Include="Cards\ReimuUnifierBlockRDef.cs" />
+    <Compile Include="Cards\ReimuUnifierBlockW.cs" />
+    <Compile Include="Cards\ReimuUnifierBlockWDef.cs" />
+    <Compile Include="Cards\ReimuUnifierCallForHelp.cs" />
+    <Compile Include="Cards\ReimuUnifierCallForHelpDef.cs" />
+    <Compile Include="Cards\ReimuUnifierCallToArms.cs" />
+    <Compile Include="Cards\ReimuUnifierCallToArmsDef.cs" />
+    <Compile Include="Cards\ReimuUnifierCautionaryBorder.cs" />
+    <Compile Include="Cards\ReimuUnifierCautionaryBorderDef.cs" />
+    <Compile Include="Cards\ReimuUnifierCombatRoleAssignment.cs" />
+    <Compile Include="Cards\ReimuUnifierCombatRoleAssignmentDef.cs" />
+    <Compile Include="Cards\ReimuUnifierCombinationStrikeCoordinatedPursuit.cs" />
+    <Compile Include="Cards\ReimuUnifierCombinationStrikeCoordinatedPursuitDef.cs" />
+    <Compile Include="Cards\ReimuUnifierCommunicatorOrbToken.cs" />
+    <Compile Include="Cards\ReimuUnifierCommunicatorOrbTokenDef.cs" />
+    <Compile Include="Cards\ReimuUnifierConsumedByVengeanceMisfortuneToken.cs" />
+    <Compile Include="Cards\ReimuUnifierConsumedByVengeanceMisfortuneTokenDef.cs" />
+    <Compile Include="Cards\ReimuUnifierCooperativeBarrier.cs" />
+    <Compile Include="Cards\ReimuUnifierCooperativeBarrierDef.cs" />
+    <Compile Include="Cards\ReimuUnifierCoordinatedStrike.cs" />
+    <Compile Include="Cards\ReimuUnifierCoordinatedStrikeDef.cs" />
+    <Compile Include="Cards\ReimuUnifierCursedBoundary.cs" />
+    <Compile Include="Cards\ReimuUnifierCursedBoundaryDef.cs" />
+    <Compile Include="Cards\ReimuUnifierDanmakuCollision.cs" />
+    <Compile Include="Cards\ReimuUnifierDanmakuCollisionDef.cs" />
+    <Compile Include="Cards\ReimuUnifierDarknessOfTheCrow.cs" />
+    <Compile Include="Cards\ReimuUnifierDarknessOfTheCrowDef.cs" />
+    <Compile Include="Cards\ReimuUnifierDeepRain.cs" />
+    <Compile Include="Cards\ReimuUnifierDeepRainDef.cs" />
+    <Compile Include="Cards\ReimuUnifierDimensionalRiftBoundary.cs" />
+    <Compile Include="Cards\ReimuUnifierDimensionalRiftBoundaryDef.cs" />
+    <Compile Include="Cards\ReimuUnifierDivineForge.cs" />
+    <Compile Include="Cards\ReimuUnifierDivineForgeDef.cs" />
+    <Compile Include="Cards\ReimuUnifierDoubleDealing.cs" />
+    <Compile Include="Cards\ReimuUnifierDoubleDealingDef.cs" />
+    <Compile Include="Cards\ReimuUnifierDuplexBarrierDanmakuMirror.cs" />
+    <Compile Include="Cards\ReimuUnifierDuplexBarrierDanmakuMirrorDef.cs" />
+    <Compile Include="Cards\ReimuUnifierEmbodimentOfTheScarletDevil.cs" />
+    <Compile Include="Cards\ReimuUnifierEmbodimentOfTheScarletDevilDef.cs" />
+    <Compile Include="Cards\ReimuUnifierEmotionalBoundarySynchronization.cs" />
+    <Compile Include="Cards\ReimuUnifierEmotionalBoundarySynchronizationDef.cs" />
+    <Compile Include="Cards\ReimuUnifierEmpoweringRitual.cs" />
+    <Compile Include="Cards\ReimuUnifierEmpoweringRitualDef.cs" />
+    <Compile Include="Cards\ReimuUnifierFaithlessMountainAssault.cs" />
+    <Compile Include="Cards\ReimuUnifierFaithlessMountainAssaultDef.cs" />
+    <Compile Include="Cards\ReimuUnifierFantasySealDreamfinite.cs" />
+    <Compile Include="Cards\ReimuUnifierFantasySealDreamfiniteDef.cs" />
+    <Compile Include="Cards\ReimuUnifierFierceGodWillOWisp.cs" />
+    <Compile Include="Cards\ReimuUnifierFierceGodWillOWispDef.cs" />
+    <Compile Include="Cards\ReimuUnifierFlowerViewingParty.cs" />
+    <Compile Include="Cards\ReimuUnifierFlowerViewingPartyDef.cs" />
+    <Compile Include="Cards\ReimuUnifierFourFairiesFriend.cs" />
+    <Compile Include="Cards\ReimuUnifierFourFairiesFriendDef.cs" />
+    <Compile Include="Cards\ReimuUnifierFriendOfAFriend.cs" />
+    <Compile Include="Cards\ReimuUnifierFriendOfAFriendDef.cs" />
+    <Compile Include="Cards\ReimuUnifierHermitsTraining.cs" />
+    <Compile Include="Cards\ReimuUnifierHermitsTrainingDef.cs" />
+    <Compile Include="Cards\ReimuUnifierInnateDream.cs" />
+    <Compile Include="Cards\ReimuUnifierInnateDreamDef.cs" />
+    <Compile Include="Cards\ReimuUnifierKasenWildhornFriend.cs" />
+    <Compile Include="Cards\ReimuUnifierKasenWildhornFriendDef.cs" />
+    <Compile Include="Cards\ReimuUnifierKogasaYoukaiBlacksmithFriend.cs" />
+    <Compile Include="Cards\ReimuUnifierKogasaYoukaiBlacksmithFriendDef.cs" />
+    <Compile Include="Cards\ReimuUnifierKosuzuDecipheringBibliophileFriend.cs" />
+    <Compile Include="Cards\ReimuUnifierKosuzuDecipheringBibliophileFriendDef.cs" />
+    <Compile Include="Cards\ReimuUnifierMaidensDivineChanneling.cs" />
+    <Compile Include="Cards\ReimuUnifierMaidensDivineChannelingDef.cs" />
+    <Compile Include="Cards\ReimuUnifierMarisaIncidentSolverFriend.cs" />
+    <Compile Include="Cards\ReimuUnifierMarisaIncidentSolverFriendDef.cs" />
+    <Compile Include="Cards\ReimuUnifierMarisaKirisameFriend.cs" />
+    <Compile Include="Cards\ReimuUnifierMarisaKirisameFriendDef.cs" />
+    <Compile Include="Cards\ReimuUnifierMercilessRodFriendToken.cs" />
+    <Compile Include="Cards\ReimuUnifierMercilessRodFriendTokenDef.cs" />
+    <Compile Include="Cards\ReimuUnifierNeedleSparkSeal.cs" />
+    <Compile Include="Cards\ReimuUnifierNeedleSparkSealDef.cs" />
+    <Compile Include="Cards\ReimuUnifierNitoriBusinessPartnerFriend.cs" />
+    <Compile Include="Cards\ReimuUnifierNitoriBusinessPartnerFriendDef.cs" />
+    <Compile Include="Cards\ReimuUnifierOmnidirectionalBarrage.cs" />
+    <Compile Include="Cards\ReimuUnifierOmnidirectionalBarrageDef.cs" />
+    <Compile Include="Cards\ReimuUnifierPerfectCherryBorder.cs" />
+    <Compile Include="Cards\ReimuUnifierPerfectCherryBorderDef.cs" />
+    <Compile Include="Cards\ReimuUnifierPerfectPosession.cs" />
+    <Compile Include="Cards\ReimuUnifierPerfectPosessionDef.cs" />
+    <Compile Include="Cards\ReimuUnifierPowerOfTheImmaterial.cs" />
+    <Compile Include="Cards\ReimuUnifierPowerOfTheImmaterialDef.cs" />
+    <Compile Include="Cards\ReimuUnifierPurifyingStrike.cs" />
+    <Compile Include="Cards\ReimuUnifierPurifyingStrikeDef.cs" />
+    <Compile Include="Cards\ReimuUnifierPurpleReproach.cs" />
+    <Compile Include="Cards\ReimuUnifierPurpleReproachDef.cs" />
+    <Compile Include="Cards\ReimuUnifierRabbleRousing.cs" />
+    <Compile Include="Cards\ReimuUnifierRabbleRousingDef.cs" />
+    <Compile Include="Cards\ReimuUnifierRainDance.cs" />
+    <Compile Include="Cards\ReimuUnifierRainDanceDef.cs" />
+    <Compile Include="Cards\ReimuUnifierReinforcedBoundary.cs" />
+    <Compile Include="Cards\ReimuUnifierReinforcedBoundaryDef.cs" />
+    <Compile Include="Cards\ReimuUnifierRetributiveBoundary.cs" />
+    <Compile Include="Cards\ReimuUnifierRetributiveBoundaryDef.cs" />
+    <Compile Include="Cards\ReimuUnifierRisingSynergy.cs" />
+    <Compile Include="Cards\ReimuUnifierRisingSynergyDef.cs" />
+    <Compile Include="Cards\ReimuUnifierRitualofEchoingProsperity.cs" />
+    <Compile Include="Cards\ReimuUnifierRitualofEchoingProsperityDef.cs" />
+    <Compile Include="Cards\ReimuUnifierRitualOfTheSeasons.cs" />
+    <Compile Include="Cards\ReimuUnifierRitualOfTheSeasonsDef.cs" />
+    <Compile Include="Cards\ReimuUnifierRitualPowerConduit.cs" />
+    <Compile Include="Cards\ReimuUnifierRitualPowerConduitDef.cs" />
+    <Compile Include="Cards\ReimuUnifierSanaeHumanGodFriend.cs" />
+    <Compile Include="Cards\ReimuUnifierSanaeHumanGodFriendDef.cs" />
+    <Compile Include="Cards\ReimuUnifierScarletNeedleRain.cs" />
+    <Compile Include="Cards\ReimuUnifierScarletNeedleRainDef.cs" />
+    <Compile Include="Cards\ReimuUnifierShinmyoumaruInchlingPrincessFriend.cs" />
+    <Compile Include="Cards\ReimuUnifierShinmyoumaruInchlingPrincessFriendDef.cs" />
+    <Compile Include="Cards\ReimuUnifierShionImpoverishedDeityFriend.cs" />
+    <Compile Include="Cards\ReimuUnifierShionImpoverishedDeityFriendDef.cs" />
+    <Compile Include="Cards\ReimuUnifierShrineDefense.cs" />
+    <Compile Include="Cards\ReimuUnifierShrineDefenseDef.cs" />
+    <Compile Include="Cards\ReimuUnifierStrikeOfHisoutensoku.cs" />
+    <Compile Include="Cards\ReimuUnifierStrikeOfHisoutensokuDef.cs" />
+    <Compile Include="Cards\ReimuUnifierSubterraneanAdventure.cs" />
+    <Compile Include="Cards\ReimuUnifierSubterraneanAdventureDef.cs" />
+    <Compile Include="Cards\ReimuUnifierSuikaGourdOniFriend.cs" />
+    <Compile Include="Cards\ReimuUnifierSuikaGourdOniFriendDef.cs" />
+    <Compile Include="Cards\ReimuUnifierSumirekoDreamVisitorFriend.cs" />
+    <Compile Include="Cards\ReimuUnifierSumirekoDreamVisitorFriendDef.cs" />
+    <Compile Include="Cards\ReimuUnifierSummoningRitual.cs" />
+    <Compile Include="Cards\ReimuUnifierSummoningRitualDef.cs" />
+    <Compile Include="Cards\ReimuUnifierSupplyRun.cs" />
+    <Compile Include="Cards\ReimuUnifierSupplyRunDef.cs" />
+    <Compile Include="Cards\ReimuUnifierSynchronizedRitualArray.cs" />
+    <Compile Include="Cards\ReimuUnifierSynchronizedRitualArrayDef.cs" />
+    <Compile Include="Cards\ReimuUnifierTagIn.cs" />
+    <Compile Include="Cards\ReimuUnifierTagInDef.cs" />
+    <Compile Include="Cards\ReimuUnifierTagOut.cs" />
+    <Compile Include="Cards\ReimuUnifierTagOutDef.cs" />
+    <Compile Include="Cards\ReimuUnifierTrueTrichromaticLotusButterfly.cs" />
+    <Compile Include="Cards\ReimuUnifierTrueTrichromaticLotusButterflyDef.cs" />
+    <Compile Include="Cards\ReimuUnifierWilyBeastStrike.cs" />
+    <Compile Include="Cards\ReimuUnifierWilyBeastStrikeDef.cs" />
+    <Compile Include="Cards\ReimuUnifierWisdomOfHumanity.cs" />
+    <Compile Include="Cards\ReimuUnifierWisdomOfHumanityDef.cs" />
+    <Compile Include="Cards\ReimuUnifierYinYangCommunicationRitual.cs" />
+    <Compile Include="Cards\ReimuUnifierYinYangCommunicationRitualDef.cs" />
+    <Compile Include="Cards\ReimuUnifierYoukaiForgedNeedle.cs" />
+    <Compile Include="Cards\ReimuUnifierYoukaiForgedNeedleDef.cs" />
+    <Compile Include="Cards\ReimuUnifierYoukaiShrineMaiden.cs" />
+    <Compile Include="Cards\ReimuUnifierYoukaiShrineMaidenDef.cs" />
+    <Compile Include="Cards\ReimuUnifierYukariSageOfGensokyoFriend.cs" />
+    <Compile Include="Cards\ReimuUnifierYukariSageOfGensokyoFriendDef.cs" />
+    <Compile Include="Cards\ReimuUnifierYukariYakumoFriend.cs" />
+    <Compile Include="Cards\ReimuUnifierYukariYakumoFriendDef.cs" />
+    <Compile Include="Cards\Template\CardIndexGenerator.cs" />
+    <Compile Include="Cards\Template\ReimuUnifierCard.cs" />
+    <Compile Include="Cards\Template\ReimuUnifierCardTemplate.cs" />
+    <Compile Include="Config\CustomConfigEntry.cs" />
+    <Compile Include="Config\ReimuUnifierDefaultConfig.cs" />
+    <Compile Include="Enemies\Template\ReimuUnifierEnemyGroupTemplate.cs" />
+    <Compile Include="Enemies\Template\ReimuUnifierEnemyUnitTemplate.cs" />
+    <Compile Include="Exhibits\ReimuUnifierExhibitA.cs" />
+    <Compile Include="Exhibits\ReimuUnifierExhibitADef.cs" />
+    <Compile Include="Exhibits\ReimuUnifierExhibitB.cs" />
+    <Compile Include="Exhibits\ReimuUnifierExhibitBDef.cs" />
+    <Compile Include="Exhibits\ReimuUnifierExhibitTemplate.cs" />
+    <Compile Include="GunName\GunNameID.cs" />
+    <Compile Include="ImageLoader\ReimuUnifierImageLoader.cs" />
+    <Compile Include="Localization\ReimuUnifierLocalization.cs" />
+    <Compile Include="model\ReimuUnifierModel.cs" />
+    <Compile Include="Patches\CustomGameEventManager.cs" />
+    <Compile Include="PInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReimuUnifierLoadouts.cs" />
+    <Compile Include="ReimuUnifierModDef.cs" />
+    <Compile Include="ReimuUnifierUlt\ReimuUnifierUltA.cs" />
+    <Compile Include="ReimuUnifierUlt\ReimuUnifierUltADef.cs" />
+    <Compile Include="ReimuUnifierUlt\ReimuUnifierUltB.cs" />
+    <Compile Include="ReimuUnifierUlt\ReimuUnifierUltBDef.cs" />
+    <Compile Include="ReimuUnifierUlt\ReimuUnifierUltTemplate.cs" />
+    <Compile Include="StatusEffects\FakeCuriositySe.cs" />
+    <Compile Include="StatusEffects\FakeCuriositySeDef.cs" />
+    <Compile Include="StatusEffects\FakeSealedSe.cs" />
+    <Compile Include="StatusEffects\FakeSealedSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierAunnProtectionSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierAunnProtectionSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierAyaDominanceSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierAyaDominanceSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierBattleFeverSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierBattleFeverSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierCoordinatedPursuitSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierCoordinatedPursuitSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierDanmakuCollisionSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierDanmakuCollisionSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierDarknessOfTheCrowSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierDarknessOfTheCrowSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierDelayedChargingSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierDelayedChargingSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierDimensionalRiftBoundarySe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierDimensionalRiftBoundarySeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierDivineForgeSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierDivineForgeSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierDuplexBarrierDanmakuMirrorSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierDuplexBarrierDanmakuMirrorSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierEmotionalBoundarySynchronizationSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierEmotionalBoundarySynchronizationSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierFantasySealDreamfiniteSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierFantasySealDreamfiniteSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierFlowerViewingPartySe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierFlowerViewingPartySeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierInnateDreamCounterSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierInnateDreamCounterSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierNeedleSparkSealSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierNeedleSparkSealSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierNextAttackAccurateSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierNextAttackAccurateSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierNitoriLochNessSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierNitoriLochNessSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierOccultBallSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierOccultBallSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierOmnidirectionalBarrageSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierOmnidirectionalBarrageSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierOnHitTempFPSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierOnHitTempFPSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierPCBReflectSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierPCBReflectSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierPerfectCherryBorderSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierPerfectCherryBorderSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierRabbleRousingSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierRabbleRousingSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierRetributiveBoundarySe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierRetributiveBoundarySeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierRetributiveBoundaryUpgSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierRetributiveBoundaryUpgSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierRisingSynergySe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierRisingSynergySeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierRitualofEchoingProsperitySe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierRitualofEchoingProsperitySeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierScarletFateSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierScarletFateSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierStatusEffectTemplate.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierSubterraneanAdventureSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierSubterraneanAdventureSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierSumirekoDoppelgangerSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierSumirekoDoppelgangerSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierWilyBeastStrikeSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierWilyBeastStrikeSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierYukariArcanumSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierYukariArcanumSeDef.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierYukariLifeLossSe.cs" />
+    <Compile Include="StatusEffects\ReimuUnifierYukariLifeLossSeDef.cs" />
+    <Compile Include="StatusEffects\TeamUpSe.cs" />
+    <Compile Include="StatusEffects\TeamUpSeDef.cs" />
+    <Compile Include="System\Runtime\CompilerServices\IgnoresAccessChecksToAttribute.cs" />
+    <Compile Include="WatermarkWrapper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Cards\RaymooHackery.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierAttackR.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierAttackW.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierAunnShrineGuardianFriend.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierAyaReporterOfFantasyFriend.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierBanishingRitualDrainingStrike.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierBattleFever.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierBattleForgedBonds.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierBlockR.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierBlockW.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierCallForHelp.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierCallToArms.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierCautionaryBorder.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierCombatRoleAssignment.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierCombinationStrikeCoordinatedPursuit.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierCommunicatorOrbToken.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierConsumedByVengeanceMisfortuneToken.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierCooperativeBarrier.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierCoordinatedStrike.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierCursedBoundary.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierDanmakuCollision.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierDarknessOfTheCrow.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierDeepRain.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierDimensionalRiftBoundary.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierDivineForge.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierDoubleDealing.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierDuplexBarrierDanmakuMirror.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierEmbodimentOfTheScarletDevil.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierEmotionalBoundarySynchronization.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierEmpoweringRitual.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierFaithlessMountainAssault.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierFantasySealDreamfinite.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierFierceGodWillOWisp.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierFlowerViewingParty.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierFourFairiesFriend+.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierFourFairiesFriend.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierFourFairiesFriendUpgrade.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierFriendOfAFriend.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierHermitsTraining.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierInnateDream.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierKasenWildhornFriend.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierKogasaYoukaiBlacksmithFriend.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierKosuzuDecipheringBibliophileFriend.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierMaidensDivineChanneling.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierMarisaIncidentSolverFriend.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierMarisaKirisameFriend.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierMercilessRodFriendToken.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierNeedleSparkSeal.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierNitoriBusinessPartnerFriend.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierOmnidirectionalBarrage.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierPerfectCherryBorder.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierPerfectPosession.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierPowerOfTheImmaterial.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierPurifyingStrike.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierPurpleReproach.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierRabbleRousing.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierRainDance.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierReinforcedBoundary.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierRetributiveBoundary.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierRisingSynergy.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierRitualofEchoingProsperity.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierRitualOfTheSeasons.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierRitualPowerConduit.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierSanaeHumanGodFriend.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierScarletNeedleRain.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierShinmyoumaruInchlingPrincessFriend.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierShionImpoverishedDeityFriend.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierShrineDefense.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierStrikeOfHisoutensoku.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierSubterraneanAdventure.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierSuikaGourdOniFriend.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierSumirekoDreamVisitorFriend.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierSummoningRitual.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierSupplyRun.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierSynchronizedRitualArray.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierTagIn.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierTagOut.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierTrueTrichromaticLotusButterfly.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierWilyBeastStrike.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierWisdomOfHumanity.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierYinYangCommunicationRitual.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierYoukaiForgedNeedle.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierYoukaiShrineMaiden.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierYukariSageOfGensokyoFriend.png" />
+    <EmbeddedResource Include="Resources\Cards\ReimuUnifierYukariYakumoFriend.png" />
+    <EmbeddedResource Include="Resources\Exhibits\SampleCharacterExhibitA.png" />
+    <EmbeddedResource Include="Resources\Exhibits\SampleCharacterExhibitB.png" />
+    <EmbeddedResource Include="Resources\StatusEffects\ReimuUnifierScarletFateSe.png" />
+    <EmbeddedResource Include="Resources\Ult\SampleCharacterUltA.png" />
+    <EmbeddedResource Include="Resources\Ult\SampleCharacterUltB.png" />
+    <EmbeddedResource Include="Source\Cards\W\ReimuUnifierYukariYakumoFriend.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

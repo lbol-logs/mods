@@ -1,0 +1,6 @@
+﻿ReimuUnifierKosuzuDecipheringBibliophileFriend:
+  Name: Kosuzu, Deciphering Bibliophile
+  Description: '{FriendP} Apply {Value1} |Lock On| to each enemy.'
+  ExtraDescription1: '{FriendA} Apply |e:1| |Vulnerable| and {Value2} |Lock On| to each enemy.'
+  ExtraDescription3: '{FriendU} Remove |Graze|, |Optical Camouflage| and |Flawless| from each enemy, then apply |e:1| |Vulnerable| to each enemy.'
+  FlavorText: '"According to this tome, their weakness is..."'

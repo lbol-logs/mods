@@ -1,0 +1,3 @@
+﻿ReimuUnifierFlowerViewingPartySe:
+  Name: 赏花
+  Description: 每当一个|同伴|通过打出被召唤时，将 |e:1| |盛夏之花|加入手中。如果这是本回合首次，获得 {SePreviewMana}。

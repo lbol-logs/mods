@@ -1,0 +1,6 @@
+﻿ReimuUnifierSuikaGourdOniFriend:
+  Name: 伊吹萃香·鬼之葫芦
+  Description: '{FriendP} |u:缺失之力：| 将一张带|虚无|的|小酌怡情|加入手中。'
+  ExtraDescription1: '{FriendA} |p:缺失的紫色力量：| 将|放逐|堆中的所有|小酌怡情|返回手中。'
+  ExtraDescription3: '{FriendU} |d:反袭针黑穴：| 获得 {Value1} 点|天衣无缝|。直到{PlayerName}的下个回合，每当{PlayerName}受到攻击伤害时，获得 {Value2} 点|暂得火力|。'
+  FlavorText: “这不好。我正在清醒过来。”

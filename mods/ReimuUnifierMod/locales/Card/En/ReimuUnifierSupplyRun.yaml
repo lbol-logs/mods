@@ -1,0 +1,4 @@
+﻿ReimuUnifierSupplyRun:
+  Name: Supply Run
+  Description: Put a random |Teammate| from the draw pile or discard pile into the hand. Draw |e:2| cards.
+  FlavorText: Reimu, I got the goods, you brought the mana?

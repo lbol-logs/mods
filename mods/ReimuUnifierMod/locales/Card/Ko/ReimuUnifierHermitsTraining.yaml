@@ -1,0 +1,7 @@
+﻿ReimuUnifierHermitsTraining:
+  Name: 은자의 단련
+  Description: >-
+    |팀 업 [카센]|: |일시 화력|을 {Value1} 얻습니다.
+
+    방어를 {Block} 얻습니다. {PlayerName}에게 |일시 화력|이 있다면, 대신 방어 {Shield}와 보호막 {Shield}를 얻습니다.
+  FlavorText: 삶이 제공하는 것을 훈련하게 되리라

@@ -1,0 +1,14 @@
+﻿ReimuUnifierCombatRoleAssignment:
+  Name: Asignar Posición de Combate
+  Description: >-
+    Inflige |e:6| de daño a un enemigo aleatorio.
+
+    Gana |e:6| de |Bloqueo|.
+
+    |Equipo [Equipo Rojo]:| Inflige daño |e:1| vez adicional.
+
+    |Equipo [Equipo Blanco]:| Gana |Bloqueo| |e:1| vez adicional.
+
+    Puede formar |Equipo| con cualquier cantidad de |Compañeras|.
+  DetailText: El daño de {SelfName} no se considera daño de ataque.
+  FlavorText: '"¡Sacrificaré a mi Kedama y a mi Hada Sirvienta para invocar a la Maga Oscura Marisa en posición de Ataque!"'

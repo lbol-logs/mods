@@ -1,0 +1,8 @@
+﻿ReimuUnifierShionImpoverishedDeityFriend:
+  Name: 依神女苑·疫病之神
+  Description: >-
+    {Indent} 获得 |e:15|<sprite="Point" name="Gold">。
+     {FriendP} |d:陷入贫困|：对生命值最低的敌人造成 {Damage} 点|精准|伤害两次。失去 |e:5|<sprite="Point" name="Gold">。
+  ExtraDescription1: '{FriendA} |s:拔鸽子毛|：对所有敌人造成 |e:{ActiveDamagePreview}| 点伤害。每击中一个敌人，获得 |e:1| 层|闪避|并失去 |e:5|<sprite="Point" name="Gold">。'
+  ExtraDescription3: '{FriendU} |p:交换 -绝对输家-|：立即击败所有无名敌人。将一张|破财消灾|加入牌库。'
+  FlavorText: 这烤味噌，便宜？你开玩笑吧。这是奢侈的极致！

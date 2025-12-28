@@ -1,0 +1,7 @@
+﻿ReimuUnifierBanishingRitualDrainingStrike:
+  Name: 축출의 의식 -흡수의 일격-
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |퇴치|: 체력을 {Value1} 회복합니다.
+  FlavorText: 레이무는 이 기술을 초록 옷 입은 배관공한테 배웠는데, 그가 도레미의 드림캐처를 사 간 뒤였다나.

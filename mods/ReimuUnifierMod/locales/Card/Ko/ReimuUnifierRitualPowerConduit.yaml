@@ -1,0 +1,6 @@
+﻿ReimuUnifierRitualPowerConduit:
+  Name: 의식 -힘의 매개-
+  Description: 손에 있는 소환된 |동료|를 하나 선택합니다. 손에 있는 소환된 |동료|마다 그 |패시브 능력|을 한 번 발동합니다.
+  UpgradedDescription: 손에 있는 소환된 |동료|를 하나 선택합니다. 먼저 그 |패시브 능력|을 한 번 발동하고, 이어서 손에 있는 소환된 |동료|마다 한 번씩 추가 발동합니다.
+  DetailText: 선택된 동료도 포함됩니다.
+  FlavorText: 너를 믿지 마. 날 믿어. 너를 믿는 날 믿어!

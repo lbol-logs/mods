@@ -1,0 +1,7 @@
+﻿ReimuUnifierMercilessRodFriendToken:
+  Name: 무자비한 정화봉
+  Description: '{Indent} |d:평범의 힘|: 일반 카드를 사용할 때마다 |화력|을 {Value1} 얻습니다.'
+  UpgradedDescription: '{Indent} |d:평범의 힘|: 반 카드를 사용할 때마다 |화력| {Value1}과 |영력| {Value1}을 얻습니다.'
+  ExtraDescription1: '{FriendP} |d:회전하는 봉|: 체력이 가장 많은 적에게 피해를 {Damage}씩 |e:3|번 줍니다.'
+  ExtraDescription3: '{FriendU} |d:마도병장 -무자비한 정화봉-|: 모든 적에게 피해를 {Damage}씩 |e:8|번 줍니다.'
+  FlavorText: 자 보물아, 말하지 못하는 도구들의 꿈을 모아다오!!

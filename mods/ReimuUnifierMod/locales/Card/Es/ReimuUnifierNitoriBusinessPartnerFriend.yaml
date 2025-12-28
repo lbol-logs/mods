@@ -1,0 +1,11 @@
+﻿ReimuUnifierNitoriBusinessPartnerFriend:
+  Name: Nitori, Socia de Negocios
+  Description: '{Indent} Gana |e:10|<sprite="Point" name="Gold">.'
+  ExtraDescription1: '{FriendA} |b:Tecnología de Drones Kappa|: Elimina el |Débil| y |Vulnerable| del {PlayerName}.'
+  UpgradedExtraDescription1: '{FriendA} |b:Tecnología de Drones Kappa|: Elimina el |Débil|, |Vulnerable|, |Marcado| y |Fragil| del {PlayerName}.'
+  ExtraDescription2: '{FriendA} |d:Tromba de Misiles Pepinos|: Inflige {Damage} de daño de ataque a un enemigo aleatorio {Value1} veces. Roba una carta.'
+  ExtraDescription3: '{FriendU} |s:¡Nessie ha aparecido!|: Al final del turno, inflige {Value2} de daño por cada turno que {PlayerName} haya realizado en este combate.'
+  FlavorText: >-
+    "Oye, humana. Los kappa y los humanos han sido amigos jurados desde tiempos antiguos, así que escucha esto."
+
+    "¿Amigo jurado? ¿No será que confundiste a un enemigo de toda la vida con un amigo?"

@@ -1,0 +1,8 @@
+﻿ReimuUnifierMarisaKirisameFriend:
+  Name: 雾雨魔理沙
+  Description: '{FriendP}|d:八卦炉射击：| 对生命值最低的敌人造成 {Damage} 点攻击伤害。{PlayerName}的下回合开始时获得 |e:1| |充能|'
+  ExtraDescription1: '{FriendA} |i:火焰激光：| 对生命值最低的敌人造成 {ActiveDamagePreview} 点攻击伤害并施加 |e:1| |易伤|。获得 |e:2| |充能|。'
+  UpgradedExtraDescription1: '{FriendA} |i:火焰激光：| 对生命值最低的敌人造成 {ActiveDamagePreview} 点攻击伤害 |e:2| 次并施加 |e:1| |易伤|。获得 |e:2| |充能|。'
+  ExtraDescription3: '{FriendU} |u:恋符「Master Spark」：| 对所有敌人造成 {UltimateDamagePreview} 点|精准|攻击伤害。'
+  DetailText: 在回合开始时造成伤害。
+  FlavorText: “普通人在五秒内就会发疯。你没事吧，魔理沙？” “嗯，我一开始就疯了。”

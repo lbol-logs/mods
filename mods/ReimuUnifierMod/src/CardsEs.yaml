@@ -1,0 +1,834 @@
+﻿#FOR TRANSLATORS: Flavor texts and some names will have comments to make references easier to find/translate, but feel free to adapt or ignore
+#them and localize them differently if keeping the references isn't viable.
+#Additional Warning: I will be adding "ReimuUnifier" as a prefix for all card names in a future patch. -24/09/2025
+
+ReimuUnifierAttackR:
+    Name: Asalto Combinado
+    Description: Inflige {Damage} de daño.
+    FlavorText: La táctica de negociación más antigua que existe.
+
+ReimuUnifierBlockW:
+    Name: Frontera Potenciada
+    Description: Gana {Block} de |Bloqueo|.
+    FlavorText: Ya no estás lidiando con la frontera promedia...
+
+ReimuUnifierAttackW:
+    Name: Golpe de Gohei Purificador
+    Description: Inflige {Damage} de daño.
+    FlavorText: En unos años, este será el ataque más fuerte y el de mayor alcance de Reimu.
+
+ReimuUnifierBlockR:
+    Name: Fuego de Cobertura
+    Description: Gana {Block} de |Bloqueo|.
+    FlavorText: Supongo que la mejor defensa realmente es un buen ataque.
+
+
+ReimuUnifierMarisaKirisameFriend:
+    Name: Marisa Kirisame
+    Description: |-
+     {FriendP}|d:Disparo del Hakkero: | Inflige {Damage} de daño de ataque al enemigo con menos vida. Gana |e:1| |Carga| al comienzo del turno de {PlayerName}.
+    ExtraDescription1: |-
+     {FriendA} |i:Laser Flameante:| Inflige {ActiveDamagePreview} de daño de ataque y aplica |e:1| de |Vulnerable| al enemigo con menos vida. Gana |e:2| |Carga|.
+    UpgradedExtraDescription1: |-
+     {FriendA} |i:Laser Flameante:| Inflige {ActiveDamagePreview} de daño de ataque |e:2| veces y aplica |e:1| de |Vulnerable| al enemigo con menos vida. Gana |e:2| |Charge|.
+    ExtraDescription3: |-
+     {FriendU} |u:Signo de Amor "Master Spark":| Inflige {UltimateDamagePreview} de daño de ataque |Certero| a cada enemigo.
+    FlavorText: |-
+     "La mayoría de la gente se volvería loca en cinco segundos. ¿Estás bien, Marisa?" "Sí, yo ya estoy loca de todos modos."
+#Imperishable Night, Marisa+Alice story.
+
+ReimuUnifierYukariYakumoFriend:
+    Name: Yukari Yakumo
+    Description: |-
+     {Indent} Agrega un |Orbe Comunicador| a la mano.
+      {FriendP}|e:Frontera entre el Sonido y el Silencio:| Agrega un |Orbe Comunicador| a la mano.
+    ExtraDescription1: |-
+     {FriendA} |p:Barrera Cuadruple:| |Exilia| una carta de la mano. Gana |Barrera| equivalente a |e:6| veces el coste de esa carta.
+    ExtraDescription3: |-
+     {FriendU} |d:La otra Cara del Sentido Común:| Gana |e:1| |Perfección|. Al comienzo del próximo turno de {PlayerName}, cada enemigo pierde {Value2} de vida.
+    FlavorText: |-
+     "De todos modos, ya estoy aquí y despierta. Eso demuestra que tengo ganas de trabajar." "¡Tener voluntad de trabajar y realmente hacer el trabajo son cosas completamente distintas!" "Si me comparo con una sacerdotisa que casi nunca está en su santuario, diría que estoy haciendo bastante bien mi trabajo."
+#Perfect Cherry Blossom, Phantasm Stage boss dialogue.
+
+ReimuUnifierCommunicatorOrbToken:
+    Name: Orbe Comunicador
+    Description: |-
+      Inflige {Damage} de daño.
+      Gana {Shield} de |Barrera|.
+      Inflige {Value1} de daño adicional y gana {Value1} de |Barrera| adicional por cada |Compañera| invocada en la mano.
+    FlavorText: (... Lo hice para que podamos comunicarnos mediante tus orbes yin-yang.) (Así puedo asegurarme de que no te relajes.)
+
+ReimuUnifierReinforcedBoundary:
+    Name: Frontera Reforzada
+    Description: |-
+      Gana {Block} de |Bloqueo|.
+      Elige hasta |e:1| |Compañera| invocada en la mano y activa su |f:Habilidad pasiva|.
+    FlavorText: |-
+     "¡Quedémonos en casa y armemos una fortaleza de almohadas!" "¿No querras decir un fuerte de almohadas?" "¡No! ¡Quiero una fortaleza de verdad, con almenas, guardias y hasta una catapulta!"
+#Bofuri
+
+ReimuUnifierCoordinatedStrike:
+    Name: Golpe Coordinado
+    Description: |-
+     Inflige {Damage} de daño.
+     |Equipo [Equipo Rojo]:| Inflige daño una vez adicional.
+    UpgradedDescription: |-
+     Inflige {Damage} de daño.
+     |Equipo [Equipo Rojo]:| Inflige daño una vez adicional. Gana {Mana}.
+    FlavorText: Todo es más divertido con amigos. ¡Incluso la violencia!
+
+
+ReimuUnifierPurpleReproach:
+    Name: Agujas Púrpuras de Reprimenda #Yukari!Reimu weapon in Touhou Subterranean Animism
+    Description: Agrega |e:2| |Agujas Forjadas por Youkais| a la mano.
+    UpgradedDescription: Agrega |e:2| |Agujas Forjadas por Youkais+| a la mano.
+    FlavorText: Soy la Sacerdotisa del Santuario Hakurei, y esta es mi arma. Disparar estas agujas durante 12 segundos cuesta tanto como todas las donaciones del santuario en un año.
+#Meet the Heavy
+
+ReimuUnifierYoukaiForgedNeedle:
+    Name: Agujas Forjadas por Youkais
+    Description: |-
+      Inflige {Damage} de daño.
+      Si la |a:Habilidad Activa| o la |u:Habilidad Definitiva| de una |Compañera| fue activada en este turno, jugar {SelfName} cuesta {Mana}.
+    UpgradedDescription: |-
+      Inflige {Damage} de daño.
+      Aplica {Value1} de |Marcado|.
+      Si la |a:Habilidad Activa| o la |u:Habilidad Definitiva| de una |Compañera| fue activada en este turno, jugar {SelfName} cuesta {Mana}.
+    FlavorText: ¡Tú lo creas y yo las apuñalo!
+#Popular idiom: Set them up, knock them down.
+
+ReimuUnifierFierceGodWillOWisp:
+    Name: Fuego Fatuo de la Deva Fiera #Suika!Reimu weapon in Touhou Subterranean Animism
+    Description: |-
+     Inflige {Damage} de daño a un enemigo aleatorio {Value1} veces.
+     |Equipo [Equipo Blanco]:| Inflige daño una vez adicional.
+     |Equipo [Equipo Rojo]:| Gana |Certero|.
+    FlavorText: ¡Oye, esos de antes eran mis movimientos! ¡Sería genial que los recordaras! —Suika
+#Stage 4 boss dialogue with Suika!Reimu in Subterranean Animism
+
+ReimuUnifierCautionaryBorder:
+    Name: Frontera de Precaución
+    Description: |-
+      Gana {Block} de |Bloqueo|.
+      Aplica |e:1| de |Débil| a cada enemigo.
+    FlavorText: Predecible
+
+ReimuUnifierDeepRain:
+    Name: Viento en lo Profundo de las Montañas
+    Description: |-
+      Gana {Value1} de |Evasión|.
+      El siguiente {Value2} ataque no certero jugado es |Certero|.
+    UpgradedDescription: |-
+      Gana {Value1} de |Evasión|.
+      Los siguientes {Value2} ataques no certeros jugados son |Certeros|.
+    FlavorText: Bueno, señorita Aya, ¿qué me vas a enseñar hoy? ¡ESQUIVAR!
+#Name is from Aya!Reimu weapon in Touhou Subterranean Animism
+#Flavor text reference is Dragon Ball Z Abridged, Piccolo training Gohan.
+
+ReimuUnifierBattleForgedBonds:
+    Name: Lazos Forjados en Batalla
+    Description: Elige una carta de la mano, de la pila de robo o de la pila de descarte y se |Mejora|. Si es una carta |Compañera|, roba una carta.
+    FlavorText: Hasta este momento, ¿no has luchado contra los mismos enemigos que yo? Entonces eso te convierte en mi amigo. Mantén la cabeza en alto y considérate mi igual.
+#Fate Zero, Iskandar to Waver
+
+ReimuUnifierRetributiveBoundary:
+    Name: Frontera de Retribución
+    Description: |-
+      Gana {Block} de |Bloqueo|.
+      Hasta el próximo turno de {PlayerName}, siempre que {PlayerName} reciba daño de ataque por un ataque completo de un enemigo, agrega una |Aguja Forjada por Youkais| a la mano.
+    UpgradedDescription: |-
+      Gana {Shield} de |Barrera|.
+      Hasta el próximo turno de {PlayerName}, siempre que {PlayerName} reciba daño de ataque por un ataque completo de un enemigo, agrega una |Aguja Forjada por Youkais| a la mano.
+    FlavorText: Si logras golpearme, te convertirás en algo mucho más débil de lo que puedas imaginar.
+#Ben Kenobi "If you strike me down" quote
+#quoute from the spanish Castilian version
+
+ReimuUnifierSupplyRun:
+    Name: Carrera de Suministro
+    Description: Coloca una |Compañera| aleatoriamente, ya sea de la pila de robo o de descarte, en la mano. Roba |e:2| cartas.
+    FlavorText: Reimu, ya tengo las cosas, ¿trajiste el mana?
+#"I got the goods, you got the money?"
+
+ReimuUnifierRainDance:
+    Name: Danza Lluvia
+    Description: Inflige {Damage} de daño a cada enemigo.
+    FlavorText: Mide dos veces y corta tantas veces como necesites.
+
+ReimuUnifierKogasaYoukaiBlacksmithFriend:
+    Name: Kogasa, Herrera Youkai
+    Description: |-
+     {FriendP} |b:Pericia de la Herrera:| |Mejora| |e:1| carta aleatoria en la mano.
+    UpgradedDescription: |-
+     {FriendP} |b:Pericia de la Herrera:| |Mejora| |e:2| cartas aleatorias en la mano.
+    ExtraDescription1: |-
+     {FriendA} |u:Destello Sorpresa de la Karakasa:| Inflige {Damage} de daño de ataque a un enemigo aleatorio por cada carta |Mejorada| en la mano.
+    UpgradedExtraDescription1: |-
+     {FriendA} |u:Destello Sorpresa de la Karakasa:| Inflige {Damage} de daño de ataque a un enemigo aleatorio. Repite este efecto por cada carta |Mejorada| en la mano.
+    ExtraDescription3: |-
+     {FriendU} |p:Grandes Gotas de lluvia Cayendo Suavemente:| Agrega |Agujas forjadas por Youkais| a la mano hasta que esté llena.
+    UpgradedExtraDescription3: |-
+     {FriendU} |p:Sorpresa de Clima Tormentoso:| Agrega |Agujas forjadas por Youkais+| a la mano hasta que esté llena.
+    FlavorText: |-
+     ¿Por qué a Kogasa le gusta la herrería? ¡Porque asusta de lo bien que lo hace!
+
+ReimuUnifierEmpoweringRitual:
+    Name: Ritual de Potenciación
+    Description: |-
+     Gana {Value1} de |Poder Temporal|.
+     Gana |e:1| |Sellado|.
+    FlavorText: Toma mi energía (つ O.O)つ
+
+ReimuUnifierSuikaGourdOniFriend:
+    Name: Suika, Oni de la Calabaza
+    Description: |-
+     {FriendP} |u:Missing Power|: Agrega una |Ebria| con |Etéreo| a la mano.
+    ExtraDescription1: |-
+     {FriendA} |p:Missing Purple Power|: Devuelve todas las |Ebrias| de la pila del |Exilio| a la mano.
+    ExtraDescription3: |-
+     {FriendU} |d:Agujero Negro de Contra-Tsuina|: Gana {Value1} de Perfección. Hasta el próximo turno de {PlayerName}, gana {Value2} de |Poder Temporal| siempre que {PlayerName} reciba daño por un ataque.
+    FlavorText: |-
+     "Esto es malo. Me estoy poniendo sobria."
+
+ReimuUnifierKasenWildhornFriend:
+    Name: Kasen, Salvaje y Cornuda
+    Description: |-
+     {FriendP} |d:Señal del Halcón|: Inflige {Damage} de daño de ataque al enemigo con menos vida {Value1} veces.
+    ExtraDescription1: |-
+     {FriendA} |p:Disciplina de la Ermitaña|: Gana {Value2} de |Espíritu| y {Value2} de |Poder|.
+    UpgradedExtraDescription1: |-
+     {FriendA} |p:Entrenamiento de la Ermitaña|: Gana {Value2} de |Espíritu|, {Value2} de |Poder| y {Value2} de |Evasión|.
+    ExtraDescription3: |-
+     {FriendU} |u:¡Pata de Mono! ¡Aplasta a mis Enemigos!|: Agrega cartas de ataque de la pila de robo y de descarte a la mano hasta llenarla. Cuestan temporalmente {Mana}.
+    FlavorText: |-
+     "Reimu necesita a alguien que la mantenga bajo control, ¿quién sabe qué más hará?"
+
+ReimuUnifierFourFairiesFriend:
+    Name: Las Hadas Gorronas
+    Description: |-
+     {FriendP} |e:Tromba de Danmaku de Hadas:| Inflige {Damage} de daño de ataque a un enemigo aleatorio {Value1} veces.
+    ExtraDescription1: |-
+     {FriendA} |g:Refuerzos de Hadas:| Elige una |e:Hada de la Luz| para agregarla a la mano. Esta entra en la mano invocada.
+    ExtraDescription3: |-
+     {FriendU} |d:Hidden Star Season:| Agrega las |e:Tres Hadas de la Luz| a la mano. Entran invocadas con |e:9| de |Influencia|.
+    UpgradedExtraDescription3: |-
+     {FriendU} |p:Antorcha Lunática Purificadora:| Agrega las |e:Cuatro Hadas Traviesas| a la mano. Entran invocadas con |e:9| de |Influencia|.
+    DetailText: |-
+     {SelfName}|e:+| agrega |Clownpiece, Hada Lunatica| al posible |g:Refuerzos de Hadas|
+    FlavorText: |-
+     No son solo piezas de Payaso, es el circo entero.
+
+ReimuUnifierSanaeHumanGodFriend:
+    Name: Sanae, Diosa Humana
+    Description: |-
+     {Indent} Gana {Value1} |Amuleto|.
+      {FriendP} |e:Esotérica -Taumaturgia Gris-|: Gana |e:2| de |Bloqueo| por cada uno de los efectos positivos que tiene {PlayerName}. ({AdditionalBlock})
+    UpgradedDescription: |-
+     {Indent} Gana {Value1} |Amuleto|.
+      {FriendP} |e:Esotérica -Taumaturgia Gris-|: Gana |e:2| de |Barrera| por cada uno de los efectos positivos que tiene {PlayerName}. ({AdditionalShield})
+    ExtraDescription1: |-
+     {FriendA} |p:Ritual Olvidado|: |Exilia| hasta |e:2| cartas de la mano. Gana esa misma cantidad de |Resguardo|.
+    UpgradedExtraDescription1: |-
+     {FriendA} |p:Ritual Olvidado|: |Exilia| hasta |e:2| cartas de la mano, pila de robo y/o pila de descarte. Gana esa misma cantidad de |Resguardo|.
+    ExtraDescription2: |-
+     {FriendA} |g:Signo de la Serpiente -Snake Binding-|:  Gana {Value2} de |Espíritu|. Aplica {Value2} de |Reducción de Espíritu| y |e:1| de |Débil| a cada enemigo.
+    ExtraDescription3: |-
+     {FriendA} |f:La fascinación de la Forastera|: Gana |e:1| |Curiosidad|.
+    FlavorText: |-
+     No puedes dejar que te atrape el sentido común de Gensokyo, ¿verdad?
+
+ReimuUnifierAunnShrineGuardianFriend:
+    Name: Aunn, Guardiana del Santuario
+    Description: |-
+     {FriendP} |l:Protección de la Koma-Inu|: |Exilia| una |Desgracia| aleatoria de la mano, pila de robo o pila de descarte.
+    ExtraDescription1: |-
+     {FriendA} |g:Koma-Inu Giratoria|: Gana {Block} de |Bloqueo|, {Shield} de |Barrera|, {Value1} |Amuleto|, {Value1} de |Resguardo|, {Value1} de |Evasión| y {Value1} de |Esprítu Temporal|.
+    ExtraDescription3: |-
+     {FriendU} |d:Signo del Guardián "Forma de Piedra"|:  Gana |e:2| |Sellados|. Evita que {PlayerName} pierda vida las próximas {Value2} veces.
+    FlavorText: |-
+     ¿¡Reimu Necesita Ayuda!? ¡Aunn-chan al Rescate!
+#References game with that title
+
+ReimuUnifierPowerOfTheImmaterial:
+    Name: Poder de lo Immaterial
+    Description: |-
+     |Equipo [Suika]:| Gana {Value1} de |Poder Temporal|.
+     Inflige {Damage} de daño {Value2} veces. Si {PlayerName} tiene |Poder Temporal|, inflige esa misma cantidad de daño |e:1| vez adicional.
+    FlavorText: Para mucha gente, es más querida que el Common Flowers, Urban Legends o Hopeless Masquerade.
+#References the 3 flying fighting game spin-offs.
+
+ReimuUnifierScarletNeedleRain:
+    Name: Lluvia de Agujas Escarlata
+    Description: |-
+      Por cada enemigo, inflige {Damage} de daño a cada enemigo.
+      Por cada enemigo, aplica |e:1| de |Vulnerable| a cada enemigo.
+    FlavorText: Por alguna razón, le resulta menos molesto a Remilia y Flandre que la lluvia de verdad.
+
+ReimuUnifierStrikeOfHisoutensoku:
+    Name: Golpe del Hisoutensoku
+    Description: |-
+     Inflige {Damage} de daño. {SelfName} inflige {Value1} de daño adicional por cada efecto negativo del objetivo.
+     |Equipo [Sanae]|: Aplica |e:1| de |Reducción de Poder Temporal| por cada efecto negativo del objetivo.
+    UpgradedDescription: |-
+     |Equipo [Sanae]|: Aplica |e:1| de |Reducción de Poder Temporal| por cada efecto negativo del objetivo.
+     Inflige {Damage} de daño. {SelfName} inflige {Value1} de daño adicional por cada efecto negativo del objetivo.
+    FlavorText: Podría entrar en escena y resolverlo todo con milagros, pero eso arruinaría mi sentido estético. Solo un mecha puede enfrentarse a otro mecha.
+#Quote from "Knights and Magic", replacing magic with miracles as a Sanae reference.
+
+ReimuUnifierPurifyingStrike:
+    Name: Golpe Purificador
+    Description: |-
+     Inflige {Damage} de daño.
+     Elimina un efecto negativo de {PlayerName} por cada |e:10| de daño que no haya sido bloqueado por el {SelfName}.
+    FlavorText: Reimu todavía no está segura de por qué es ella la que se purifica cuando alguien más recibe un golpe.
+
+ReimuUnifierHermitsTraining:
+    Name: Entrenamiento de la Ermitaña
+    Description: |-
+     |Equipo [Kasen]|: Gana {Value1} de |Poder Temporal|.
+     Gana {Block} de |Bloqueo|. Si {PlayerName} tiene |Poder Temporal|, gana {Shield} de |Bloqueo| y {Shield} de |Barrera| en su lugar.
+    FlavorText: Que entrenes con lo que la vida te está ofreciendo.
+#Reference to Binding of Isaac, Hermit card quote: "See what life has to offer"
+
+ReimuUnifierCooperativeBarrier:
+    Name: Barrera Cooperativa
+    Description: |-
+     Gana {Value1} de |Espíritu Temporal| por cada |Compañera| invocada en la mano.
+     Gana {Block} de |Bloqueo|.
+    UpgradedDescription: |-
+     Gana {Value2} de |Espíritu Temporal|.
+     Gana {Value1} de |Espíritu Temporal| adicional por cada |Compañera| invocada en la mano.
+     Gana {Block} de |Bloqueo|.
+    FlavorText: |-
+     "La dureza de la amistad" no suena tan bien como "El poder de la amistad".
+
+ReimuUnifierYinYangCommunicationRitual:
+    Name: Ritual de Comunicación Yin-Yang
+    Description: |-
+     Gana {Block} de |Bloqueo|.
+     Agrega un |Orbe Comunicador| a la mano.
+    FlavorText: ¿Un dispositivo de comunicación indestructible? ¿No es esto simplemente un Nokia Yin-Yang?
+
+ReimuUnifierSummoningRitual:
+    Name: Ritual de Invocación
+    Description: |-
+     Roba {Value1} cartas.
+     Gana {Mana} por cada |Compañera| robada de esta manera.
+    FlavorText: |-
+     "No, Reimu, llamarnos para que vayamos de visita no cuenta como un "Ritual de Invocación""
+
+ReimuUnifierCallToArms:
+    Name: Llamado a las Armas
+    Description: |-
+     Agrega aleatoriamente una |Aguja Forjada por Youkais| o un |Orbe Comunicador| a la mano por cada |Compañera| invocada en la mano.
+     |Equipo [Equipo Rojo]|: Las cartas agregadas cuestan {Mana} menos.
+    UpgradedDescription: |-
+     Agrega aleatoriamente una |Aguja Forjada por Youkais| o un |Orbe Comunicador| a la mano. Se repite para cada |Compañera| invocada en la mano.
+     |Equipo [Equipo Rojo]|: Las cartas agregadas cuestan {Mana} menos.
+    FlavorText: |-
+     Es más personal que una convocatoria a las armas.
+#Hearthstone Call to arms flavor text
+
+ReimuUnifierDoubleDealing:
+    Name: Doble Solucionadora
+    Description: |-
+     Ganas |e:1| de |Vulnerable| y |e:1| de |Débil|. Invoca una |Compañera| en la mano.
+     |Team Up [Shinmyoumaru]|: Por cada |Compañera| en la mano ganan |e:1| de |Influencia|.
+    UpgradedDescription: |-
+     Ganas |e:1| de |Vulnerable| o |e:1| de |Débil| aleatoriamente. Invoca una |Compañera| en la mano.
+     |Equipo [Shinmyoumaru]|: Por cada |Compañera| en la mano ganan |e:1| de |Influencia|.
+    FlavorText: |-
+     Si los débiles se convierten en los fuertes, ¿no se convierten simplemente en los tiranos contra los que se rebelaron?
+
+ReimuUnifierTagIn:
+    Name: Tag In
+    Description: |-
+     |Exilia| hasta |e:1| carta en la mano. Si es una |Compañera|, gana {Value1} de |Barrera| por cada |Influencia| que tengan.
+    UpgradedDescription: |-
+     |Exilia| hasta |e:1| carta en la mano, pila robo o pila de descarte. Si es una |Compañera|, gana {Value1} de |Barrera| por cada |Influencia| que tengan.
+    FlavorText: |-
+     "¿Me aguantas los golpes por un rato, por fa?"
+
+ReimuUnifierTagOut:
+    Name: Tag Out
+    Description: |-
+     |Exilia| hasta |e:1| carta en la mano. Si es una |Compañera|, coloca una |Compañera| aleatoria no invocada en la pila de robo hacia la mano e invócalo.
+    UpgradedDescription: |-
+     |Exilia| hasta |e:1| carta en la mano, pila robo o pila de descarte. Si es una |Compañera|, coloca una |Compañera| aleatoria no invocada en la pila de robo hacia la mano e invócalo.
+    FlavorText: |-
+     "¿Quieren una paliza? ¡YO LES DARE UNA PALIZA!"
+
+ReimuUnifierCallForHelp:
+    Name: Llamada de Auxilio
+    Description: |-
+     Elige hasta {Value1} |Compañera| de la pila de robo y colócala en la mano.
+    UpgradedDescription: |-
+     Elige hasta {Value1} |Compañeras| de la pila de robo y colócalas en la mano.
+    FlavorText: |-
+     Pero nadie vino...
+#Undertale, Genocide route.
+
+ReimuUnifierSynchronizedRitualArray:
+    Name: Matriz de Ritual Sincronizado
+    Description: |-
+     |Al final del turno|: Inflige {Value1} de daño a un enemigo aleatorio {Value2} ve{Value2:plural one='z' other='ces'}.
+     |Mientras esté en la mano|: Siempre que {PlayerName} invoque a una |Compañera| al jugarla, aumenta en |e:1| la cantidad de veces que {SelfName} inflige daño.
+    FlavorText: |-
+     Cuando no tienes suficiente energía para una Frontera Permanente, ¡haz un crowfunding!
+
+ReimuUnifierBattleFever:
+    Name: Fiebre de Batalla
+    Description: |-
+     Siempre que {PlayerName} activa un |Equipo|, gana {Mana}.
+    DetailText: Las cartas que pueden formar Equipo varias veces ganarás maná por cada equipo activado.
+    FlavorText: |-
+     ¿Quién hubiera pensado que encontrar una explicación para la fiebre crearía maná de la nada?
+#References the black card "Unexplained Fever"
+
+ReimuUnifierDimensionalRiftBoundary:
+    Name: Grieta Dimensional -Frontera-
+    Description: |-
+     Siempre que una |Compañera| entre en la mano, inflige {Value1} de daño a un enemigo aleatorio.
+     Siempre que una |Compañera| invocada abandone la mano, gana {Mana}.
+    FlavorText: |-
+     Juego de bebidas: Bebe cada vez que aparezcan las palabras "Ritual", "Frontera" o "Dimensión" en una carta de Reimu.
+
+ReimuUnifierDivineForge:
+    Name: Forja Divina
+    Description: |-
+     Al comienzo del turno de {PlayerName} agrega una |Agujas Forjada por Youkais| a la mano.
+    FlavorText: |-
+     Kogasa piensa rápido, forja unas Agujas caseras con un trozo de cuerda, una ardilla y unas agujas.
+#Reference to the joke question "So you're telling me a shrimp fried this rice?" about the food "Shrimp-fried rice"
+#Change the joke to Dave the Barbarian "Homemade Megaphone"
+
+ReimuUnifierRitualofEchoingProsperity:
+    Name: Ritual de la Prosperidad Resonante
+    Description: |-
+     Al comienzo del turno de {PlayerName}, gana {Value1} de |Espíritu Temporal| y {Value1} de |Poder Temporal| por cada |Compañera| invocada en la mano.
+    FlavorText: |-
+     ¡Los ricos se hacen más ricos!
+
+ReimuUnifierDanmakuCollision:
+    Name: Colisión de Danmaku
+    Description: |-
+     Al final del turno de {PlayerName}, gana {Value1} de |Bloqueo| por cada |Compañera| invocada en la mano.
+    FlavorText: |-
+     Mira lo que necesitan para imitar una fracción de mi poder. -Cirno, mientras congela una pantalla completa de balas.
+#References Cirno's ability in Great Fairy Wars, and the quote from "Invincible".
+
+ReimuUnifierEmotionalBoundarySynchronization:
+    Name: |-
+     Frontera Emocional: Sincronización
+    Description: |-
+     Siempre que se activa la |a:Habilidad Activa| o |u:Habilidad Definitiva| de una |Compañera|, cada |Compañera| en la mano gana |e:1| de |Influencia|.
+    FlavorText: |-
+     ¡Uno para todos y todos para uno!
+#Three musketeers
+
+ReimuUnifierRabbleRousing:
+    Name: Agitación Popular
+    Description: |-
+     Al comienzo de los próximos |e:3| turnos de {PlayerName}, agrega aleatoriamente una |Compañera| común a la mano.
+    FlavorText: |-
+     No dejes que Marisa, Yukari y Kogasa se enteren del nombre de esta carta. No les va a gustar que las llamen chusma.
+
+ReimuUnifierKosuzuDecipheringBibliophileFriend:
+    Name: Kosuzu, Bibliófila Descifradora
+    Description: |-
+      {FriendP} Aplica {Value1} de |Marcado| a cada enemigo.
+    ExtraDescription1: |-
+      {FriendA} Aplica |e:1| de |Vulnerable| y {Value2} de |Marcado| a cada enemigo.
+    ExtraDescription3: |-
+      {FriendU} Elimina la |Evasión|, |Camuflaje Óptico| y |Perfección| de cada enemigo, luego aplica |e:1| de |Vulnerable| a cada enemigo.
+    FlavorText: |-
+     "Según este tomo, su debilidad es..."
+
+ReimuUnifierRitualOfTheSeasons:
+    Name: Ritual de las Estaciones
+    Description: |-
+     Coloca aleatoriamente una |Compañera| de cada color en la pila de robo hacia la mano.
+     |Equipo [Aunn]|: Por cada |Compañera| seleccionada, gana 1 maná de su color.
+    DetailText:  |-
+     Dará prioridad al robar tantas cartas como sea posible y generará maná del color asignado a su Compañera, incluso con la mano llena.
+    FlavorText: |-
+     El ritual de las estaciones es más complicado de lo que parece. Para incluir todas las estaciones posibles, el conjurador emplea una Declaración de magia recursiva... aunque eso tampoco garantiza nada, especialmente cuando otro youkai decide robarse la primavera otra vez.
+
+#This card intentionally uses the numbers rather than {Damage/Block} because it's unaffected by spirit or firepower
+ReimuUnifierCombatRoleAssignment:
+    Name: Asignar Posición de Combate
+    Description: |-
+     Inflige |e:6| de daño a un enemigo aleatorio.
+     Gana |e:6| de |Bloqueo|.
+     |Equipo [Equipo Rojo]:| Inflige daño |e:1| vez adicional.
+     |Equipo [Equipo Blanco]:| Gana |Bloqueo| |e:1| vez adicional.
+     Puede formar |Equipo| con cualquier cantidad de |Compañeras|.
+    DetailText: |-
+     El daño de {SelfName} no se considera daño de ataque.
+    FlavorText: |-
+     "¡Sacrificaré a mi Kedama y a mi Hada Sirvienta para invocar a la Maga Oscura Marisa en posición de Ataque!"
+
+ReimuUnifierMaidensDivineChanneling:
+    Name: Canalización Divina de la Sacerdotisa
+    Description: |-
+     |Equipo [Sanae]:| Gana |e:1| |Amuleto|.
+     Gana {Block} de |Bloqueo|. Gana |e:2| de |Barrera| por cada beneficio positivo que tiene {PlayerName}.
+    FlavorText: |-
+     Si Sanae es una diosa humana que puede canalizar a los dioses, ¿puede canalizarse a sí misma?
+
+
+ReimuUnifierOmnidirectionalBarrage:
+    Name: Tromba Omnidireccional
+    Description: |-
+     Siempre que {PlayerName} active un |Equipo|, activa la primera |Habilidad Pasiva| de la |Compañera| elegida.
+    DetailText: Si varias compañeras pueden cumplir las condiciones de hacer Equipo, se elige el de más a la izquierda. Para las cartas que pueden formar Equipo varias veces, esto activará todas las Habilidades Pasivas válidas.
+    FlavorText: |-
+     "Están por todas partes ¡Pues disparad a todas partes!"
+#Starcraft 2, Swarmling evolution mission
+#Using the spanish castilian version since the latin version changed the meaning of the sentence a lot.
+
+ReimuUnifierMarisaIncidentSolverFriend:
+    Name: Marisa, Solucionadora de Incidentes
+    Description: |-
+     {FriendP} |l:Explosión de Estrella Roja:| Inflige {Damage} de daño de ataque a cada enemigo.
+    ExtraDescription1: |-
+     {FriendA} |i:Final Spark:| Inflige {ActiveDamagePreview} de daño de ataque |Certero| a cada enemigo.
+    ExtraDescription3: |-
+     {FriendU} |u:Magicannon -Final Master Spark-:| Entra en modo |Burst|. Inflige {UltimateDamagePreview} de daño |Certero| a cada enemigo.
+    FlavorText: |-
+     "Si no es llamativo, no es magia. El Danmaku se trata de poder."
+
+
+ReimuUnifierNeedleSparkSeal:
+    Name: Needle Spark para Sellar los Nobles Lunares
+    Description: |-
+     Las |Agujas Forjadas por Youkais| infligen daño y aplica |e:2| de |Marcado| a cada enemigo en lugar de dañar a un solo objetivo. Este efecto no se acumula.
+     Agrega un |Agujas Forjadas por Youkais| a la mano.
+     |Equipo [Marisa]:| Agrega una más.
+    DetailText: |-
+     Las |Agujas Forjadas Youkai+| aún aplican su propio Marcado al objetivo por separado.
+    FlavorText: |-
+     ¿Ves? Ya lo estoy dominando. ¡El trono a la posesión perfecta más poderosa será mío!
+#Marisa quote from Antinomy of Common Flowers, the game where the card name comes from, Mamizou Story mode.
+
+ReimuUnifierFantasySealDreamfinite:
+    Name: Sello de Fantasía -Dreamfinite-
+    Description: |-
+     Por cada {Mana}: Al comienzo del turno de {PlayerName}, inflige {Value1} de daño al enemigo con más vida.
+    FlavorText: |-
+     Los seres oníricos tienden a no tener inhibiciones, pero su comportamiento agresivo generalmente los deja vulnerables.
+
+ReimuUnifierTrueTrichromaticLotusButterfly:
+    Name: Mariposa de Loto Tricromática Verdadera
+    Description: |-
+     |Equipo [Marisa]:| Inflige {Damage} de daño |e:10| veces. Pierde 2 de |Poder|.
+     |Desbordamiento|: Gana {Mana}.
+    UpgradedDescription: |-
+     |Equipo [Marisa]:| Inflige {Damage} de daño |e:10| veces. Inflige {SecondaryDamagePreview} de daño. Pierde |e:2| de |Poder|.
+     |Desbordamiento|: Gana {Mana}.
+    DetailText: Esta carta no tiene efecto sin una formación de |Equipo|.
+    FlavorText: |-
+     "Te dejaré hacer lo que quieras, Marisa." "¡Esa es mi línea, Reimu!"
+#Fantasy Maiden Wars quote when using this spellcard.
+
+ReimuUnifierWilyBeastStrike:
+    Name: Golpe de la Bestia Astuta
+    Description: |-
+     La |a:Habilidad Activa| o |u:Habilidad Definitiva| de la próxima |Compañera| se jugará dos veces.
+    UpgradedDescription: |-
+     La |a:Habilidad Activa| o |u:Habilidad Definitiva| de las próximas {Value1} |Compañeras| se jugará dos veces.
+    FlavorText: |-
+     No había suficiente presupuesto para la criatura más débil.
+#References Touhou 17 Title: Wily Beast and Weakest Creature
+
+ReimuUnifierSubterraneanAdventure:
+    Name: Aventura Subterránea
+    Description: |-
+     El tamaño máximo de la mano aumenta en {MaxHand}.
+     Agrega un |Orbe Comunicador| a la mano.
+     |Equipo [Yukari]:| Agrega un |Agujas Púrpuras de Reprimenda| con etéreo a la mano. Cuesta temporalmente {Mana}.
+     |Equipo [Suika]:| Agrega un |Fuego Fatuo de la Deva Fiera| con etéreo a la mano. Cuesta temporalmente {Mana}.
+     |Equipo [Aya]:| Agrega un |Viento en lo Profundo de las Montañas| con etéreo a la mano. Cuesta temporalmente {Mana}.
+    FlavorText: |-
+     ¡Aah! ¡La gata se convierto en una gata!
+#Reimu quote from Subterranean Animism
+
+ReimuUnifierYukariSageOfGensokyoFriend:
+    Name: Yukari, Sabia de Gensokyo
+    Description: |-
+     {FriendP} |d:Barrera Cuadruple:| Inflige {Damage} de daño de ataque a cada enemigo. Gana {Value2} de |Bloqueo|.
+    ExtraDescription1: |-
+     {FriendA} |p:Barrera Duplex Hakurei:| Convierte el |Bloqueo| de {PlayerName} en |Barrera| y luego duplica la |Barrera| de {PlayerName}.
+    ExtraDescription3: |-
+     {FriendU} |l:Arcanum -Barrera de Danmaku-:| Al final de este y los siguientes |:4| turnos de {PlayerName}, gana {Value1} de |Barrera| y luego inflige daño igual a la |Barrera| de {PlayerName} a un enemigo aleatorio.
+    FlavorText: |-
+     ¿Te gustaría tener una experiencia cercana a la muerte? Solo tienes que cruzar la frontera entre la vida y la muerte.
+#AoCF Yukari Win Quote vs Mokou
+
+ReimuUnifierPerfectCherryBorder:
+    Name: Frontera Perfecta de Cerezos
+    #Reference to Touhou 7: Perfect Cherry Border, and the Cherry Border mechanic preventing hits.
+    Description: |-
+     Evita la próxima vez que {PlayerName} no pierda vida.
+     |Equipo [Yukari]:| Cuando este efecto se activa, cada enemigo pierde vida igual a la pérdida de vida evitada.
+    UpgradedDescription: |-
+     Evita que las próximas {Value1} veces {PlayerName} no pierda vida.
+     |Equipo [Yukari]:| Cuando este efecto se activa, cada enemigo pierde vida igual a la pérdida de vida evitada.
+    FlavorText: |-
+     Para hacer un Frontera de Cereza Perfecta, debes usar tu Frontera de Cereza Imperfecta y absorber al Androide Youmu y al Androide Youki.
+#Reference to Imperfect Cell absorbing androids 17 and 18 to become Perfect Cell, DBZ.
+
+ReimuUnifierRitualPowerConduit:
+    Name: Ritual -Conducto de Energía-
+    Description: |-
+     Elige una |Compañera| invocada en la mano. Activa su |Habilidad Pasiva| una vez por cada |Compañera| invocada en la mano.
+    UpgradedDescription: |-
+     Elige una |Compañera| invocada en la mano. Activa su |Habilidad Pasiva| una vez y otra vez por cada |Compañera| invocada en la mano.
+    DetailText: Incluye a la compañera seleccionada.
+    FlavorText: |-
+     No necesitas creer en ti mismo. ¡Cree en todos nosotros, que creemos en ti!
+#Tengen Toppa Gurren Lagann. Kamina speech.
+
+ReimuUnifierRisingSynergy:
+    Name: Sinergia Creciente
+    Description: |-
+     Siempre que tus |Compañeras| infligen daño de ataque a un enemigo, gana |e:1| de |Poder Temporal|.
+    FlavorText: |-
+     A veces la sinergia es más que una simple palabra de moda.
+
+ReimuUnifierFriendOfAFriend:
+    Name: Amiga de una Amiga
+    Description: |-
+     Elige hasta {Value1} de {Value2} |Compañeras| |p:completamente aleatorias| para agregarla a la mano. Cuestan temporalmente {Mana} y son |Etéreos|.
+    FlavorText: |-
+     ¡Las amigas de mis amigas son mis amigas!
+
+ReimuUnifierInnateDream:
+    Name: Sueño Innato
+    Description: |-
+     Gana |e:1| |Orbe Ritual Hakurei|. Si {PlayerName} ya tiene |e:7| |Orbes Rituales Hakurei|, pierde todos los |Orbes Rituales Hakurei|, gana |e:99| |Perfección| y se |Exilia| a {SelfName} en su lugar.
+    FlavorText: |-
+     "Esto ni siquiera era una Carta Mágica, pero le di un nombre de Carta Mágica apropiado y algunas limitaciones, de lo contrario no habría forma de ganar." -Marisa, acerca de que Reimu está flotando fuera de la realidad.
+
+ReimuUnifierEmbodimentOfTheScarletDevil:
+    Name: Encarnación de la Diabla Escarlata
+    Description: |-
+     Agrega |e:1| |Poción Inestable| a la mano. Cura |e:5| de vida. Gana |e:1| de |Poder|.
+     Finaliza el turno de {PlayerName}. Luego, toma un turno extra. Hasta el próximo Turno Natural de {PlayerName}, los turnos de {PlayerName} terminan después de jugar |e:5| cartas.
+     Sólo el primer {SelfName} tendrá efecto en cada combate.
+    ExtraDescription1: |-
+     |d: Agrega 1 Poción Inestable a la mano. Cura 5 de vida. Gana 1 de Poder.|
+     |d: Finaliza el turno de {PlayerName}. Luego, toma un turno extra. Hasta el próximo Turno Natural de {PlayerName}, los turnos de {PlayerName} terminan después de jugar 5 cartas.|
+     Sólo el primer {SelfName} tendrá efecto en cada combate.
+    FlavorText: |-
+     ¡Meiling! ¡Pachuli! ¡Sakuya! ¡Flandre! ¡Remilia! ¡Juntas somos... Las Fuerzas Especiales Escarlata!
+#DBZ, Ginyu Force introduction
+
+ReimuUnifierDuplexBarrierDanmakuMirror:
+    Name: Barrera Duplex -Espejo Danmaku-
+    Description: |-
+     Al comienzo del turno de {PlayerName}, cada |Compañera| invocada en la mano gana |e:1| |Influencia|.
+     Cada vez que se invoca un |Compañera| al jugarlo, agrega una |Copia| a la mano. Cuesta {Mana} y tiene |Etéreo|.
+    DetailText: |-
+     Las |Compañeras| |Copias| no activan este efecto.
+    FlavorText: |-
+     ˙ɐɾ̣ı̣ǝS ǝp sɐʇı̣ɹoʌɐɟ sɐʇɹɐɔ sɐן ǝp ɐuꓵ
+#"One of Seija's favourite cards" written upside down.
+
+ReimuUnifierCombinationStrikeCoordinatedPursuit:
+    Name: Golpe Combinado -Persecución Coordinada-
+    Description: |-
+     Siempre que se activa la |a:Habilidad Activa| o la |u:Habilidad Definitiva| de una |Compañera|, el siguiente ataque jugado cuesta {Mana} para usar.
+    FlavorText: |-
+     "Juntémonos y partámosle la cara" simplemente eso no sonaba tan bien como nombre.
+
+ReimuUnifierBanishingRitualDrainingStrike:
+    Name: Ritual de Destierro -Golpe Drenador-
+    Description: |-
+     Inflige {Damage} de daño.
+     |Exterminar|: Gana {Value1} de vida.
+    FlavorText: |-
+     Reimu aprendió esto de un fontanero con ropa verde que compró uno de los Atrapasueños de Doremy.
+
+ReimuUnifierFlowerViewingParty:
+    Name: Fiesta para Ver las Flores
+    Description: |-
+     Siempre que se invoque una |Compañera| al ser jugado, agrega |e:1| |Flor de Verano| a la mano.
+     Gana {Mana}, una vez por turno.
+    FlavorText: |-
+     Al final, el Saigyou Ayakashi floreció, pero no del todo. El sello no se rompió, así que, como siempre, todos fueron recibidos con la llegada de la primavera.
+#Ending of Touhou 7: Perfect Cherry Blossom.
+
+ReimuUnifierShrineDefense:
+    Name: ¡Defiende el Santuario Hakurei!
+    Description: |-
+     Agrega cartas |Compañeras| aleatorias a la mano hasta que esté llena.
+     |Equipo [Invitada Hakurei]|: Gana {Mana} por cada |Equipo| válido.
+    UpgradedDescription: |-
+     Agrega cartas |Compañeras| aleatorias a la mano hasta que esté llena. Cuestan temporalmente |e:1| maná aleatorio menos.
+     |Equipo [Invitada Hakurei]|: Gana {Mana} por cada |Equipo| válido.
+    DetailText: Las invitadas de Hakurei incluyen a Marisa, Suika, Kasen, las cuatro hadas, Aunn, Nitori, Sumireko y Shinmyomaru.
+    FlavorText: |-
+     Para ser un lugar supuestamente importante para la Barrera Hakurei, el Santuario Hakurei ha pasado por bastante destrucción.
+
+ReimuUnifierDarknessOfTheCrow:
+    Name: Darkness of The Crow
+    Description: |-
+     Siempre que {PlayerName} |Evada| un ataque, y al final del turno de {PlayerName}, inflige {Value1} de daño a cada enemigo.
+     |Equipo [Aya]|: Gana {Value2} de |Evasión|.
+    FlavorText: |-
+     ¿Es "Darkness" de "The Crow"? Supongo que incluso los youkai pueden ser fans de la música de las películas de los 90.
+#References a song titled Darkness that is part of the OST of "The Crow"
+
+ReimuUnifierAyaReporterOfFantasyFriend:
+    Name: Aya, Reportera de la Fantasía
+    Description: |-
+      {Indent} Siempre que {PlayerName} juegue una carta de |Estado|, gana |e:1| de |Evasión|.
+       {FriendP} |f:Entrega Bunbunmaru|: Agrega |e:2| |Periodicos Bunbunmaru| a la pila de robo. Tienen |Reponer| y |Auto-Exilio| y cuesta {Mana} menos.
+    ExtraDescription1: |-
+      {FriendA} |g:Edicíon Limitada del Tengu|: |Exilia| cada cartas |Estados| en la mano. Gana |e:1| de |Evasión| por cada carta exiliada de esta manera.
+    ExtraDescription3: |-
+      {FriendU} |u:Dominancia Ilusoria|: Gana "Siempre que {PlayerName} juegue una carta, inflige {Value2} de daño a un enemigo aleatorio".
+    UpgradedExtraDescription3: |-
+      {FriendU} |u:Diosa del viento Incomparable|: Siempre que {PlayerName} juegue una carta, inflige {Value2} de daño a un enemigo aleatorio.
+    FlavorText: |-
+     ¡Soy Aya, la mejor reportera de Gensokyo y la que más rápido vuela por aquí!
+
+ReimuUnifierWisdomOfHumanity:
+    Name: Sabiduría de la Humanidad
+    Description: |-
+     |Equipo [Humano]|: Roba una carta por cada |Equipo| válido.
+     Gana |e:3| de |Bloqueo| por cada carta en la mano.
+    UpgradedDescription: |-
+     |Equipo [Humano]|: Roba una carta por cada |Equipo| válido.
+     Gana |e:3| de |Barrera| por cada carta en la mano.
+    FlavorText: |-
+     La peor pesadilla de los youkais: la capacidad de la humanidad para explicar los misterios del mundo.
+
+ReimuUnifierNitoriBusinessPartnerFriend:
+    Name: Nitori, Socia de Negocios
+    Description: |-
+      {Indent} Gana |e:10|<sprite="Point" name="Gold">.
+    ExtraDescription1: |-
+      {FriendA} |b:Tecnología de Drones Kappa|: Elimina el |Débil| y |Vulnerable| del {PlayerName}.
+    UpgradedExtraDescription1: |-
+      {FriendA} |b:Tecnología de Drones Kappa|: Elimina el |Débil|, |Vulnerable|, |Marcado| y |Fragil| del {PlayerName}.
+    ExtraDescription2: |-
+      {FriendA} |d:Tromba de Misiles Pepinos|: Inflige {Damage} de daño de ataque a un enemigo aleatorio {Value1} veces. Roba una carta.
+    ExtraDescription3: |-
+      {FriendU} |s:¡Nessie ha aparecido!|: Al final del turno, inflige {Value2} de daño por cada turno que {PlayerName} haya realizado en este combate.
+    FlavorText: |-
+     "Oye, humana. Los kappa y los humanos han sido amigos jurados desde tiempos antiguos, así que escucha esto."
+     "¿Amigo jurado? ¿No será que confundiste a un enemigo de toda la vida con un amigo?"
+#Mountain of Faith Nitori dialogue.
+#Japanese version is called Nesuko a variation of the pronunciation "Nessie" and "Ko" a word that is used to embellish names, especially female names.
+
+ReimuUnifierSumirekoDreamVisitorFriend:
+    Name: Sumireko, Visitante de los Sueños Ocultos
+    Description: |-
+      {FriendP} |d:Aplicación de Psicoquinesis|: Gana |e:1| |Esfera Oculta|.
+    ExtraDescription1: |-
+      {FriendA} |e:Pistola Impresa en 3D|: Por cada |Bola Oculta| que tenga {PlayerName}, inflige {Damage} de daño al enemigo con menos vida.
+    ExtraDescription2: |-
+      {FriendA2} |p:Shuriken de Cartas Zener|: Por cada |Bola Oculta| que tenga {PlayerName}, pierde |e:1| de vida, roba |e:1| carta y gana {Mana}.
+    ExtraDescription3: |-
+      {FriendU} |s:Invocar Doppelganger|: Si {PlayerName} tiene al menos 7 |Bolas Ocultas|, pierde todas las |Bolas Ocultas|. Luego, en ese turno, |Copia| todas las cartas jugadas.
+    UpgradedExtraDescription3: |-
+      {FriendU} |s:Doble ESPer del Siglo|: Si {PlayerName} tiene al menos 7 |Bolas Ocultas|, pierde todas las |Bolas Ocultas| y roba hasta llenar la mano. Luego, en ese turno, |Copia| todas las cartas jugadas.
+    DetailText: |-
+     Las bolas ocultas solo las usa {SelfName}, pero son compartidos por todas las copias de la carta.
+    FlavorText: |-
+     ¡Soy la sacerdotisa del paraíso, Reimu Hakurei!
+     ¡Protegeré la Barrera, pase lo que pase!
+     ¡Y no voy a dejar que una humana muera estúpidamente justo delante de mí!
+#Reimu dialogue in the final fight of Urban Legend in Limbo against Sumireko.
+
+ReimuUnifierPerfectPosession:
+    Name: Posesión Perfecta
+    Description: |-
+     Elige hasta |e:1| carta. |Exilia| la mano excepto la carta elegida. Por cada carta |Exiliada|, gana |e:3| de |Barrera|. Por cada |Compañera| |Exiliada|, también gana {Mana}.
+    FlavorText: |-
+     Marisa: Todas los demás usan la posesión perfecta, pero tú eres la única que está sola, ¿eh?
+     Yukari: ¿Sabes por qué?
+     Koishi: ¡Oooh, ya lo sé! Es porque no tienes amigos, ¿verdad? Qué pena...
+#Antinomy of Common Flowers dialogue.
+
+ReimuUnifierFaithlessMountainAssault:
+    Name: Asalto a la Montaña Infiel
+    Description: |-
+     Inflige {Damage} de daño a cada enemigo.
+     |Exterminar|: Agrega una |Consumida por la Venganza| a la biblioteca.
+    FlavorText: |-
+     En su ira, Reimu derribaría incluso a los dioses para vengarse de aquellos que la amenazaban.
+#God of War reference.
+
+ReimuUnifierConsumedByVengeanceMisfortuneToken:
+    Name: Consumida por la Venganza
+    Description: |-
+     Al barajar, {SelfName} se coloca en la parte inferior de la pila de robo.
+    FlavorText: |-
+     ¡KANAKO! LA SACERDOTISA HAKUREI HA REGRESADO. Y TRAE CONSIGO LA DESTRUCCIÓN DE LA MONTAÑA YOUKAI.
+#God of War reference + Touhou Mountain of Faith reference.
+
+ReimuUnifierYoukaiShrineMaiden:
+    Name: Sacerdotisa del Santuario Youkai
+    Description: |-
+     Gana {Mana}. Roba {Value1} cartas. Agrega |e:3| |Desgracias| al aleatorias a la pila de descarte.
+     |Equipo [Youkai]|: Agrega |e:1| |Desgracia| menos por cada |Equipo| válido. El |Equipo| adicional agrega |e:1| |Resguardo| cada una.
+    FlavorText: |-
+     Desafortunadamente para ti, no me importa matar sin motivo. No soy una sacerdotisa youkai, ¡Soy una sacerdotisa humana, y mi deber es exterminar a los youkais!
+#Dialogue from Touhou: Forbidden Scrollery
+
+ReimuUnifierCursedBoundary:
+    Name: Frontera Maldita -Dolor Compartido-
+    Description: |-
+     Por cada {Mana}: Pierde |e:1| de vida e inflige {Damage} de daño.
+     |Equipo [Shion]|: Por cada {Mana}: Gana {Value1}<sprite="Point" name="Gold">.
+    FlavorText: |-
+     ¡Ahora! ¡Disfrutemos juntos el sufrimiento al máximo!
+#Hidan dialogue, Naruto Shippuuden.
+
+ReimuUnifierShionImpoverishedDeityFriend:
+    Name: Shion, Deidad Pobre
+    Description: |-
+      {Indent} Gana |e:15|<sprite="Point" name="Gold">.
+       {FriendP} |d:Caer en la Pobreza|: Inflige {Damage} de daño |Certero| al enemigo con menos vida dos veces. Pierde |e:5|<sprite="Point" name="Gold">.
+    ExtraDescription1: |-
+      {FriendA} |s:Dejarte sin Blanca|: Inflige |e:{ActiveDamagePreview}| de daño a cada enemigo. Gana |e:1| de |Evasión| y pierde |e:5|<sprite="Point" name="Gold"> por cada enemigo golpeado.
+    ExtraDescription3: |-
+      {FriendU} |p:Intercambio -Perdedora Absoluta-|: Derrota instantáneamente a cada enemigo sin nombre. Agrega una |Extorsión| a la biblioteca.
+    FlavorText: |-
+     ¿Es barato, este miso a la parrilla? No puedes estar hablando en serio. ¡Esto es un lujo total!
+#Shion dialogue from Touhou: Lotus Eaters
+
+ReimuUnifierShinmyoumaruInchlingPrincessFriend:
+    Name: Shinmyoumaru, Princesa Kobito
+    Description: |-
+      {Indent} |d:Poder de los Débiles|: Siempre que se juega una carta Común, {SelfName} gana |e:1| |Influencia|.
+    ExtraDescription1: |-
+      {FriendA} |d:Mazo "¡Hazte Grande!" |: Gana {Value1} de |Poder|.
+    UpgradedExtraDescription1: |-
+      {FriendA} |d:Mazo "¡Hazte aún más Grande!" |: Gana {Value1} de |Poder|.
+    ExtraDescription2: |-
+      {FriendA2} |d:Espada Aguja Brillante|: Coloca cartas comunes al azar de la pila de robo hacia la mano hasta llenarla. Gana {Mana}.
+    ExtraDescription3: |-
+      {FriendU} |k:Tesoro Brillante -Mazo Milagroso-|: Agrega un |Gohei Purificador Despiadado| invocada a la mano.
+    UpgradedExtraDescription3: |-
+      {FriendU} |k:Tesoro Brillante -Mazo Milagroso-|: Agrega un |Gohei Purificador Despiadado+| invocada a la mano.
+    FlavorText: |-
+     Tengo el poder de los sueños en mi mano. ¡Este es nuestro tesoro, el Mazo Milagroso!
+#Shinmyoumaru dialogue from Touhou: Double Dealing Character
+
+
+ReimuUnifierMercilessRodFriendToken:
+    Name: Gohei Purificador Despiadado
+    Description: |-
+      {Indent} |d:Poder de los Débiles|: Siempre que se juega una carta Común, gana {Value1} de |Poder|.
+    UpgradedDescription: |-
+      {Indent} |d:Poder de los Débiles|: Siempre que se juega una carta Común, gana {Value1} de |Poder| y {Value1} de |Poder Temporal|.
+    ExtraDescription1: |-
+      {FriendP} |d:Gohei Giratorio|: Inflige {Damage} de daño de ataque al enemigo con más vida |e:3| veces.
+    ExtraDescription3: |-
+      {FriendU} |d:Arma Embrujada -Gohei Purificador Despiadado-|: Inflige {Damage} de daño de ataque a cada enemigo |e:8| veces.
+    FlavorText: |-
+     ¡Ahora, mi querido mazo! ¡Concede el poder de los sueños a todas las herramientas que no pueden hablar!
+#Shinmyomaru dialogue from Touhou: Double Dealing Character

@@ -1,0 +1,7 @@
+﻿ReimuUnifierDarknessOfTheCrow:
+  Name: Darkness of the Crow
+  Description: >-
+    Whenever {PlayerName} |Grazes| an attack, and at the end of {PlayerName}'s turn, deal {Value1} damage to each enemy.
+
+    |Team Up [Aya]|: Gain {Value2} |Graze|.
+  FlavorText: '"Darkness" of "The Crow"? I guess even Youkai can be fans of 90s movie music.'
