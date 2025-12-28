@@ -68,7 +68,8 @@
     "Rarity": "Shining",
     "Value1": 2,
     "Mana": "R",
-    "BaseMana": "R"
+    "BaseMana": "R",
+    "Mana2": "RR"
   },
   "ReimuUnifierExhibitB": {
     "Owner": "ReimuUnifierMod",
