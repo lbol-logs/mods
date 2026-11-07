@@ -4,8 +4,7 @@
     "Name": "EX Rumia",
     "Version": "1.0.4",
     "Character": "lvalonexrumia",
-    "SteamWorkshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=3579813841",
-    "Thunderstore": "https://thunderstore.io/c/touhou-lost-branch-of-legend/p/Lvalon/EX_Rumia/"
+    "SteamWorkshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=3579813841"
   },
   {
     "GUID": "worldsoul.test.momiji.mod",
@@ -20,16 +19,14 @@
     "Name": "Patchouli Character Mod",
     "Version": "0.1.11",
     "Character": "PatchouliMod",
-    "SteamWorkshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=3580364860",
-    "Thunderstore": "https://thunderstore.io/c/touhou-lost-branch-of-legend/p/rmrfmaxx/Patchouli_Knowledge/"
+    "SteamWorkshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=3580364860"
   },
   {
     "GUID": "Saevin.ReimuUnifierMod",
     "Name": "ReimuUnifierMod",
     "Version": "1.1.3",
     "Character": "ReimuUnifierMod",
-    "SteamWorkshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=3585860490",
-    "Thunderstore": "https://thunderstore.io/c/touhou-lost-branch-of-legend/p/SaevinLBoL/ReimuUnifierMod/"
+    "SteamWorkshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=3585860490"
   },
   {
     "GUID": "xeno.lbol.character.Sanae_Kochiya",
@@ -51,7 +48,6 @@
     "Name": "Youmu Character Mod",
     "Version": "0.4.14",
     "Character": "YoumuMod",
-    "SteamWorkshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=3580269913",
-    "Thunderstore": "https://thunderstore.io/c/touhou-lost-branch-of-legend/p/rmrfmaxx/Youmu_Konpaku/"
+    "SteamWorkshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=3580269913"
   }
 ]
