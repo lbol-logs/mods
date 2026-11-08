@@ -26,10 +26,10 @@
 | 1 | local | dnSpy | mods/{id}/src/dll | unpack dll with `ProjectGuid` |
 | 2 | local | Mod files | mods/{id}/src/ | raw files except `.dll` |
 | 3 | mods | ExportModImgs | mods/{id}/configs<br />mods/{id}/images<br />mods/{id}/locales | ExportModImgs/Exporters/Exporter.cs<br />specify `id` and `GUID` |
-| 4 | mods | configs/PlayerUnit | mods | docs/configs/{ver}/mods.json | |
+| 4 | mods | configs/PlayerUnit | mods | `docs/configs/{ver}/mods.json` |
 | 5 | mods | README | mods/README.md | upsert last updated |
 ||||||
-| 6 | avif | avif | mods/{id}/images | |
-| 7 | parser | configs parser | docs/configs | check `.cs` for `FriendCostInfo` |
+| 6 | avif | avif | mods/{id}/images | units: `LoadModelOptions`<br />boss: `AddBossNodeIcon` |
+| 7 | parser | configs parser | docs/configs | also check and `.cs` for `FriendCostInfo` |
 | 8 | parser | locales parser | docs/locales | check hardcoded placeholder and add to configs<br />fix plurals, etc. |
-| 9 |||||
+| 9 | lbol-logs-dev | css | index.css | `.c-character-short-name--{id}` |
