@@ -1,5 +1,19 @@
 [
   {
+    "GUID": "intoxicatedkid.ayashameimaru",
+    "Name": "Aya Shameimaru and Flandre Scarlet",
+    "Version": "0.4.135",
+    "Character": "AyaPlayerUnit",
+    "SteamWorkshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=3580042897"
+  },
+  {
+    "GUID": "intoxicatedkid.ayashameimaru",
+    "Name": "Aya Shameimaru and Flandre Scarlet",
+    "Version": "0.4.135",
+    "Character": "FlandrePlayerUnit",
+    "SteamWorkshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=3580042897"
+  },
+  {
     "GUID": "llbol.char.exrumia",
     "Name": "EX Rumia",
     "Version": "1.0.4",
