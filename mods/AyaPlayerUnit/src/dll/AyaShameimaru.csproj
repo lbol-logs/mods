@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{54F069B8-29A3-4850-8B43-C3D788FE9FDF}</ProjectGuid>
+    <ProjectGuid>{3D604077-200F-4D7A-A07C-FE63BEC49776}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AyaShameimaru</RootNamespace>
