@@ -1,0 +1,22 @@
+{
+  "Title": "Aya Shameimaru and Flandre Scarlet",
+  "Description": "Add playable Aya Shameimaru and Flandre Scarlet. Beta version.",
+  "Brief": "Add playable Aya Shameimaru and Flandre Scarlet. Beta version.",
+  "Changelog": [
+    "0.4.135:\nFixed Calamity not affecting non-direct damage."
+  ],
+  "Version": "0.4.135",
+  "Author": "Intoxicated Kid",
+  "Tags": [
+    "Character",
+    "Content"
+  ],
+  "PublishedFileId": 3580042897,
+  "AuthorId": 76561198063161282,
+  "GUID": "intoxicatedkid.ayashameimaru",
+  "Dependencies": [
+    "BepInEx-BepInExPack-5.4.2100",
+    "neo.lbol.frameworks.entitySideloader"
+  ],
+  "LastUpdateTime": 1792303352
+}

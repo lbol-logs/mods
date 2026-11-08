@@ -1,0 +1,110 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using LBoL.Base;
+using LBoL.Base.Extensions;
+using LBoL.ConfigData;
+using LBoL.Core;
+using LBoL.Core.Battle;
+using LBoL.Core.Cards;
+using LBoLEntitySideloader;
+using LBoLEntitySideloader.Attributes;
+using LBoLEntitySideloader.Entities;
+using LBoLEntitySideloader.Resource;
+
+namespace AyaShameimaru.Cards
+{
+	public sealed class FlandreTrueDevilsShotDef : CardTemplate
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override IdContainer GetId()
+		{
+			return <Module>.\u200C\u200F\u206A\u200D\u202B\u200C\u206F\u206A\u200C\u206D\u206C\u206E\u200C\u202B\u200C\u200C\u202A\u206D\u202E\u200F\u202D\u206C\u206C\u202B\u206A\u202C\u202D\u206C\u202C\u200D\u200F\u200F\u202C\u202C\u202B\u200D\u200E\u206D\u206D\u202E\u202E<string>(1524180046);
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override CardImages LoadCardImages()
+		{
+			CardImages cardImages = FlandreTrueDevilsShotDef.\u200D\u202C\u202A\u200E\u206C\u206E\u206A\u200D\u202B\u202C\u206D\u206A\u206A\u206F\u206A\u200B\u200B\u202B\u200C\u202C\u206E\u206B\u200C\u202B\u202C\u202A\u202A\u202E\u206B\u200B\u206C\u200B\u200F\u202D\u200D\u200E\u202E\u202E\u206C\u202B\u202E(BepinexPlugin.embeddedSource);
+			FlandreTrueDevilsShotDef.\u202D\u200E\u206C\u206B\u206D\u200E\u200E\u200D\u202A\u206A\u200F\u206C\u206B\u206B\u206B\u202A\u200E\u202D\u200B\u200C\u206E\u202B\u202D\u200C\u202B\u202D\u200D\u200D\u202B\u202E\u202B\u202D\u200C\u202E\u206D\u202D\u206B\u202C\u200F\u200C\u202E(cardImages, this, <Module>.\u202D\u200F\u202D\u200B\u206C\u200B\u202B\u206C\u206E\u206E\u200C\u206B\u200D\u206B\u202B\u202A\u206F\u200C\u202E\u200D\u200B\u200B\u206F\u206B\u202C\u206F\u202E\u200B\u200B\u202C\u200C\u200E\u202C\u202C\u202C\u202B\u206D\u200D\u200E\u202A\u202E<string>(-402992198), <Module>.\u200F\u206C\u206A\u202D\u200D\u202B\u202B\u206B\u206A\u202C\u206C\u206B\u200B\u200D\u202E\u206F\u206C\u206E\u202E\u200D\u200F\u206D\u202A\u200B\u206D\u200B\u206F\u200D\u206B\u202E\u200F\u206D\u200B\u200F\u206D\u200D\u202C\u206C\u206C\u202E<string>(1353555862), false);
+			return cardImages;
+		}
+
+		public override LocalizationOption LoadLocalization()
+		{
+			return FlandreTrueDevilsShotDef.\u200E\u200B\u200D\u202B\u202A\u202E\u200B\u202E\u206A\u206C\u206A\u200F\u202C\u200B\u200F\u206B\u206A\u202A\u202A\u206D\u202C\u200E\u206F\u206E\u202E\u202E\u202C\u206C\u200F\u202D\u206E\u200E\u202C\u200C\u206B\u206D\u202B\u200F\u202E\u200D\u202E(BepinexPlugin.cardLoc, this);
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override CardConfig MakeConfig()
+		{
+			return new CardConfig(FlandreTrueDevilsShotDef.\u206F\u202C\u202A\u200B\u206A\u206D\u206D\u200E\u202E\u200F\u202A\u200F\u206D\u200B\u206D\u200E\u202C\u206B\u202B\u202B\u202B\u200B\u202D\u200F\u202B\u202E\u206D\u202E\u202B\u202B\u202B\u206A\u206A\u206E\u200C\u206E\u202D\u206D\u200F\u202E(BepinexPlugin.sequenceTable, FlandreTrueDevilsShotDef.\u200C\u202C\u206E\u202B\u206A\u206A\u206D\u206F\u206A\u200E\u200E\u202C\u202D\u206F\u200B\u206C\u202B\u200F\u206E\u206C\u206D\u206B\u206A\u202C\u200D\u200B\u200F\u202E\u200E\u206F\u206D\u206A\u206E\u200F\u206F\u202A\u202D\u200C\u200C\u202C\u202E(typeof(CardConfig).TypeHandle)), "", 10, true, new string[0][], <Module>.\u206A\u202A\u202B\u206E\u202B\u206A\u202E\u206A\u202A\u200D\u202B\u206E\u200B\u202A\u206D\u206E\u200C\u206B\u200D\u206B\u200F\u202A\u206D\u206E\u206E\u200B\u200C\u206D\u206D\u200D\u200E\u202A\u206C\u206A\u202D\u206C\u202B\u200E\u206A\u200F\u202E<string>(-945714374), <Module>.\u200F\u206C\u206A\u202D\u200D\u202B\u202B\u206B\u206A\u202C\u206C\u206B\u200B\u200D\u202E\u206F\u206C\u206E\u202E\u200D\u200F\u206D\u202A\u200B\u206D\u200B\u206F\u200D\u206B\u202E\u200F\u206D\u200B\u200F\u206D\u200D\u202C\u206C\u206C\u202E<string>(345372147), 0, true, false, false, true, true, Rarity.Common, CardType.Attack, new TargetType?(TargetType.SingleEnemy), new List<ManaColor>(), false, new ManaGroup
+			{
+				Any = 1
+			}, null, null, null, null, new int?(8), null, null, null, null, null, new int?(1), null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, Keyword.Basic | Keyword.Replenish, Keyword.Basic | Keyword.Replenish, false, Keyword.None, Keyword.None, new List<string>(), new List<string>(), new List<string>(), new List<string>(), <Module>.\u206A\u202A\u202B\u206E\u202B\u206A\u202E\u206A\u202A\u200D\u202B\u206E\u200B\u202A\u206D\u206E\u200C\u206B\u200D\u206B\u200F\u202A\u206D\u206E\u206E\u200B\u200C\u206D\u206D\u200D\u200E\u202A\u206C\u206A\u202D\u206C\u202B\u200E\u206A\u200F\u202E<string>(-1368341733), null, "", "", false, <Module>.\u200C\u200F\u206A\u200D\u202B\u200C\u206F\u206A\u200C\u206D\u206C\u206E\u200C\u202B\u200C\u200C\u202A\u206D\u202E\u200F\u202D\u206C\u206C\u202B\u206A\u202C\u202D\u206C\u202C\u200D\u200F\u200F\u202C\u202C\u202B\u200D\u200E\u206D\u206D\u202E\u202E<string>(1343807386), new List<string>());
+		}
+
+		static CardImages \u200D\u202C\u202A\u200E\u206C\u206E\u206A\u200D\u202B\u202C\u206D\u206A\u206A\u206F\u206A\u200B\u200B\u202B\u200C\u202C\u206E\u206B\u200C\u202B\u202C\u202A\u202A\u202E\u206B\u200B\u206C\u200B\u200F\u202D\u200D\u200E\u202E\u202E\u206C\u202B\u202E(IResourceSource A_0)
+		{
+			return new CardImages(A_0);
+		}
+
+		static void \u202D\u200E\u206C\u206B\u206D\u200E\u200E\u200D\u202A\u206A\u200F\u206C\u206B\u206B\u206B\u202A\u200E\u202D\u200B\u200C\u206E\u202B\u202D\u200C\u202B\u202D\u200D\u200D\u202B\u202E\u202B\u202D\u200C\u202E\u206D\u202D\u206B\u202C\u200F\u200C\u202E(CardImages A_0, CardTemplate A_1, string A_2, string A_3, bool A_4)
+		{
+			A_0.AutoLoad(A_1, A_2, A_3, A_4);
+		}
+
+		static BatchLocalization \u200E\u200B\u200D\u202B\u202A\u202E\u200B\u202E\u206A\u206C\u206A\u200F\u202C\u200B\u200F\u206B\u206A\u202A\u202A\u206D\u202C\u200E\u206F\u206E\u202E\u202E\u202C\u206C\u200F\u202D\u206E\u200E\u202C\u200C\u206B\u206D\u202B\u200F\u202E\u200D\u202E(BatchLocalization A_0, EntityDefinition A_1)
+		{
+			return A_0.AddEntity(A_1);
+		}
+
+		static Type \u200C\u202C\u206E\u202B\u206A\u206A\u206D\u206F\u206A\u200E\u200E\u202C\u202D\u206F\u200B\u206C\u202B\u200F\u206E\u206C\u206D\u206B\u206A\u202C\u200D\u200B\u200F\u202E\u200E\u206F\u206D\u206A\u206E\u200F\u206F\u202A\u202D\u200C\u200C\u202C\u202E(RuntimeTypeHandle A_0)
+		{
+			return Type.GetTypeFromHandle(A_0);
+		}
+
+		static int \u206F\u202C\u202A\u200B\u206A\u206D\u206D\u200E\u202E\u200F\u202A\u200F\u206D\u200B\u206D\u200E\u202C\u206B\u202B\u202B\u202B\u200B\u202D\u200F\u202B\u202E\u206D\u202E\u202B\u202B\u202B\u206A\u206A\u206E\u200C\u206E\u202D\u206D\u200F\u202E(TemplateSequenceTable A_0, Type A_1)
+		{
+			return A_0.Next(A_1);
+		}
+
+		[EntityLogic(typeof(FlandreTrueDevilsShotDef))]
+		public sealed class FlandreTrueDevilsShot : FlandreCard
+		{
+			public override int AdditionalDamage
+			{
+				get
+				{
+					return FlandreTrueDevilsShotDef.FlandreTrueDevilsShot.\u200C\u202A\u202A\u200E\u206F\u200B\u202A\u200C\u206F\u206D\u200E\u202D\u206C\u206B\u206F\u202C\u202D\u206E\u206F\u206B\u200D\u206C\u202B\u202A\u200E\u200E\u206F\u206C\u206F\u206E\u202C\u200E\u200D\u202D\u202A\u200E\u206D\u206F\u206C\u200D\u202E(this).GetValueOrDefault() * 4;
+				}
+			}
+
+			public override int AdditionalValue1
+			{
+				get
+				{
+					return FlandreTrueDevilsShotDef.FlandreTrueDevilsShot.\u206C\u206D\u206B\u202E\u200D\u202E\u206D\u200E\u200E\u206F\u200D\u206B\u206A\u200F\u206B\u202A\u202A\u202B\u202D\u206D\u202D\u206A\u206E\u202E\u202D\u202B\u202E\u206B\u206D\u202D\u200F\u206A\u202B\u202E\u206D\u206D\u200E\u202D\u202D\u202B\u202E((float)FlandreTrueDevilsShotDef.FlandreTrueDevilsShot.\u200C\u202A\u202A\u200E\u206F\u200B\u202A\u200C\u206F\u206D\u200E\u202D\u206C\u206B\u206F\u202C\u202D\u206E\u206F\u206B\u200D\u206C\u202B\u202A\u200E\u200E\u206F\u206C\u206F\u206E\u202C\u200E\u200D\u202D\u202A\u200E\u206D\u206F\u206C\u200D\u202E(this).GetValueOrDefault() / 2f);
+				}
+			}
+
+			protected override IEnumerable<BattleAction> Actions(UnitSelector selector, ManaGroup consumingMana, Interaction precondition)
+			{
+				FlandreTrueDevilsShotDef.FlandreTrueDevilsShot.<Actions>d__4 <Actions>d__ = new FlandreTrueDevilsShotDef.FlandreTrueDevilsShot.<Actions>d__4(-2);
+				<Actions>d__.<>4__this = this;
+				<Actions>d__.<>3__selector = selector;
+				return <Actions>d__;
+			}
+
+			static int? \u200C\u202A\u202A\u200E\u206F\u200B\u202A\u200C\u206F\u206D\u200E\u202D\u206C\u206B\u206F\u202C\u202D\u206E\u206F\u206B\u200D\u206C\u202B\u202A\u200E\u200E\u206F\u206C\u206F\u206E\u202C\u200E\u200D\u202D\u202A\u200E\u206D\u206F\u206C\u200D\u202E(Card A_0)
+			{
+				return A_0.UpgradeCounter;
+			}
+
+			static int \u206C\u206D\u206B\u202E\u200D\u202E\u206D\u200E\u200E\u206F\u200D\u206B\u206A\u200F\u206B\u202A\u202A\u202B\u202D\u206D\u202D\u206A\u206E\u202E\u202D\u202B\u202E\u206B\u206D\u202D\u200F\u206A\u202B\u202E\u206D\u206D\u200E\u202D\u202D\u202B\u202E(float A_0)
+			{
+				return A_0.CeilingToInt();
+			}
+		}
+	}
+}

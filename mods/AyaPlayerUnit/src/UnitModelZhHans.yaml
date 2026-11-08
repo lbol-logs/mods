@@ -1,0 +1,93 @@
+AyaBossAya:
+  Default: 时之女神
+  Short: 时之女神
+AyaBossFlandre:
+  Default: 芙兰朵露
+  Short: 芙兰
+AyaBossKoishi:
+  Default: 古明地恋
+  Short: 恋
+AyaBossLong:
+  Default: 饭纲丸龙
+  Short: 龙
+AyaBossZUN:
+  Default: 太田顺也
+  Short: ZUN
+AyaKoakuma:
+  Default: 小恶魔
+  Short: 小恶魔
+AyaKotohime:
+  Default: 驹草山如
+  Short: 山如
+AyaLong:
+  Default: 饭纲丸龙
+  Short: 龙
+AyaMai:
+  Default: 丁礼田舞
+  Short: 舞
+AyaBossOkina:
+  Default: 摩多罗隐岐奈
+  Short: 隐岐奈
+AyaOrbBlack:
+  Default: 黑色阴阳玉
+  Short: 黑色阴阳玉
+AyaOrbBlue:
+  Default: 蓝色阴阳玉
+  Short: 蓝色阴阳玉
+AyaOrbColorless:
+  Default: 无色阴阳玉
+  Short: 无色阴阳玉
+AyaOrbGreen:
+  Default: 绿色阴阳玉 
+  Short: 绿色阴阳玉 
+AyaOrbPhilosophy:
+  Default: 贤者之玉
+  Short: 贤者之玉
+AyaOrbRed:
+  Default: 红色阴阳玉 
+  Short: 红色阴阳玉 
+AyaOrbWhite:
+  Default: 白色阴阳玉
+  Short: 白色阴阳玉
+AyaPatchouli:
+  Default: 帕秋莉·诺蕾姬
+  Short: 帕秋莉
+AyaPlayerUnit:
+  Default: 射命丸文
+  Short: 文
+AyaSatono:
+  Default: 尔子田里乃
+  Short: 里乃
+AyaSukusukuAya:
+  Default: Suku文
+  Short: Suku文
+AyaSukusukuFlandre:
+  Default: Suku芙兰朵露
+  Short: Suku芙兰
+AyaTakane:
+  Default: 山城高岭
+  Short: 高岭
+AyaTanuki:
+  Default: 小狸猫
+  Short: 小狸猫
+FlandrePlayerUnit:
+  Default: 芙兰朵露
+  Short: 芙兰
+LongBossAya:
+  Default: 射命丸文
+  Short: 文
+LongPlayerUnit:
+  Default: 饭纲丸龙
+  Short: 龙
+LongTsukasaPlayerUnit:
+  Default: 饭纲丸龙/菅牧典
+  Short: 龙/典
+OkinaPlayerUnit:
+  Default: 摩多罗隐岐奈
+  Short: 隐岐奈
+ShinkiPlayerUnit:
+  Default: 神绮 
+  Short: 神绮 
+TsukasaPlayerUnit:
+  Default: 菅牧典
+  Short: 典

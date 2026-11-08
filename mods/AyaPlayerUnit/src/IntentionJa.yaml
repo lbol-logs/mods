@@ -1,0 +1,6 @@
+AyaBossFlandreSpellCardsIntention:
+  Name: スペルカード
+  Description: "{OwnerName}は|スペルカード|{Counter}を持つ。"
+AyaBossKoishiUnconsciousActionIntention:
+  Name: 無意識の行動
+  Description: "{Limit}枚のカードをプレイした後、{PlayerName}のターン終了なしに直ちに行動を終了する。\n|d:(残り{Counter}枚)|"

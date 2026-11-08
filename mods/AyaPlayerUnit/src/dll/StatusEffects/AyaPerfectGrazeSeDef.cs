@@ -1,0 +1,330 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Reflection;
+using System.Reflection.Emit;
+using System.Runtime.CompilerServices;
+using HarmonyLib;
+using LBoL.Base;
+using LBoL.Base.Extensions;
+using LBoL.ConfigData;
+using LBoL.Core;
+using LBoL.Core.Battle;
+using LBoL.Core.Battle.BattleActions;
+using LBoL.Core.StatusEffects;
+using LBoL.Core.Units;
+using LBoLEntitySideloader;
+using LBoLEntitySideloader.Attributes;
+using LBoLEntitySideloader.Entities;
+using LBoLEntitySideloader.Resource;
+using UnityEngine;
+
+namespace AyaShameimaru.StatusEffects
+{
+	public sealed class AyaPerfectGrazeSeDef : StatusEffectTemplate
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override IdContainer GetId()
+		{
+			return <Module>.\u206A\u202A\u202B\u206E\u202B\u206A\u202E\u206A\u202A\u200D\u202B\u206E\u200B\u202A\u206D\u206E\u200C\u206B\u200D\u206B\u200F\u202A\u206D\u206E\u206E\u200B\u200C\u206D\u206D\u200D\u200E\u202A\u206C\u206A\u202D\u206C\u202B\u200E\u206A\u200F\u202E<string>(-663175274);
+		}
+
+		public override LocalizationOption LoadLocalization()
+		{
+			return AyaPerfectGrazeSeDef.\u200B\u206A\u200B\u200D\u206C\u202A\u202A\u206B\u200B\u202E\u206D\u206A\u206B\u206D\u206F\u200E\u200B\u206C\u202B\u206D\u200E\u202D\u206E\u202D\u206B\u206E\u206C\u200C\u206E\u202B\u200B\u200E\u206C\u202E\u200E\u206A\u200B\u206B\u202C\u202D\u202E(BepinexPlugin.statusEffectLoc, this);
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override Sprite LoadSprite()
+		{
+			return AyaPerfectGrazeSeDef.\u200F\u206A\u200C\u200D\u206E\u206C\u206C\u200F\u206B\u202E\u200C\u206B\u200E\u200B\u206D\u200F\u202A\u200D\u202E\u206F\u206E\u206A\u206B\u206B\u200D\u206F\u202A\u206B\u200C\u200E\u206F\u206B\u200D\u206D\u202E\u202A\u206B\u202A\u206E\u202B\u202E(<Module>.\u200C\u200F\u206A\u200D\u202B\u200C\u206F\u206A\u200C\u206D\u206C\u206E\u200C\u202B\u200C\u200C\u202A\u206D\u202E\u200F\u202D\u206C\u206C\u202B\u206A\u202C\u202D\u206C\u202C\u200D\u200F\u200F\u202C\u202C\u202B\u200D\u200E\u206D\u206D\u202E\u202E<string>(-1869104577), BepinexPlugin.embeddedSource, null, 1, null);
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override StatusEffectConfig MakeConfig()
+		{
+			return new StatusEffectConfig(AyaPerfectGrazeSeDef.\u200E\u202A\u200B\u202B\u200F\u206C\u200F\u206F\u200F\u202D\u202D\u206E\u202E\u202B\u206C\u202A\u200F\u202A\u202A\u206A\u200D\u202C\u200F\u206E\u200D\u200B\u206F\u206D\u202C\u206E\u206F\u206F\u206D\u200E\u206C\u202E\u206D\u202A\u200E\u200E\u202E(BepinexPlugin.sequenceTable, AyaPerfectGrazeSeDef.\u206C\u206D\u206D\u206C\u202B\u200D\u202D\u202C\u206A\u202E\u200C\u200B\u206B\u200E\u200C\u202A\u206A\u200E\u202A\u206F\u202E\u200F\u200F\u200B\u202D\u206A\u202C\u206E\u206F\u200F\u206F\u200F\u200F\u202E\u206A\u202D\u202B\u200F\u200C\u202D\u202E(typeof(StatusEffectConfig).TypeHandle)), "", 0, StatusEffectType.Positive, false, true, null, true, new StackType?(StackType.Add), false, new StackType?(StackType.Add), DurationDecreaseTiming.Custom, false, new StackType?(StackType.Keep), new StackType?(StackType.Keep), false, Keyword.Accuracy, new List<string>(), null, <Module>.\u200F\u206C\u206A\u202D\u200D\u202B\u202B\u206B\u206A\u202C\u206C\u206B\u200B\u200D\u202E\u206F\u206C\u206E\u202E\u200D\u200F\u206D\u202A\u200B\u206D\u200B\u206F\u200D\u206B\u202E\u200F\u206D\u200B\u200F\u206D\u200D\u202C\u206C\u206C\u202E<string>(-1759106977), <Module>.\u206A\u202A\u202B\u206E\u202B\u206A\u202E\u206A\u202A\u200D\u202B\u206E\u200B\u202A\u206D\u206E\u200C\u206B\u200D\u206B\u200F\u202A\u206D\u206E\u206E\u200B\u200C\u206D\u206D\u200D\u200E\u202A\u206C\u206A\u202D\u206C\u202B\u200E\u206A\u200F\u202E<string>(-161473794), <Module>.\u200C\u200F\u206A\u200D\u202B\u200C\u206F\u206A\u200C\u206D\u206C\u206E\u200C\u202B\u200C\u200C\u202A\u206D\u202E\u200F\u202D\u206C\u206C\u202B\u206A\u202C\u202D\u206C\u202C\u200D\u200F\u200F\u202C\u202C\u202B\u200D\u200E\u206D\u206D\u202E\u202E<string>(1289344510));
+		}
+
+		static BatchLocalization \u200B\u206A\u200B\u200D\u206C\u202A\u202A\u206B\u200B\u202E\u206D\u206A\u206B\u206D\u206F\u200E\u200B\u206C\u202B\u206D\u200E\u202D\u206E\u202D\u206B\u206E\u206C\u200C\u206E\u202B\u200B\u200E\u206C\u202E\u200E\u206A\u200B\u206B\u202C\u202D\u202E(BatchLocalization A_0, EntityDefinition A_1)
+		{
+			return A_0.AddEntity(A_1);
+		}
+
+		static Sprite \u200F\u206A\u200C\u200D\u206E\u206C\u206C\u200F\u206B\u202E\u200C\u206B\u200E\u200B\u206D\u200F\u202A\u200D\u202E\u206F\u206E\u206A\u206B\u206B\u200D\u206F\u202A\u206B\u200C\u200E\u206F\u206B\u200D\u206D\u202E\u202A\u206B\u202A\u206E\u202B\u202E(string A_0, IResourceSource A_1, Rect? A_2, int A_3, Vector2? A_4)
+		{
+			return ResourceLoader.LoadSprite(A_0, A_1, A_2, A_3, A_4);
+		}
+
+		static Type \u206C\u206D\u206D\u206C\u202B\u200D\u202D\u202C\u206A\u202E\u200C\u200B\u206B\u200E\u200C\u202A\u206A\u200E\u202A\u206F\u202E\u200F\u200F\u200B\u202D\u206A\u202C\u206E\u206F\u200F\u206F\u200F\u200F\u202E\u206A\u202D\u202B\u200F\u200C\u202D\u202E(RuntimeTypeHandle A_0)
+		{
+			return Type.GetTypeFromHandle(A_0);
+		}
+
+		static int \u200E\u202A\u200B\u202B\u200F\u206C\u200F\u206F\u200F\u202D\u202D\u206E\u202E\u202B\u206C\u202A\u200F\u202A\u202A\u206A\u200D\u202C\u200F\u206E\u200D\u200B\u206F\u206D\u202C\u206E\u206F\u206F\u206D\u200E\u206C\u202E\u206D\u202A\u200E\u200E\u202E(TemplateSequenceTable A_0, Type A_1)
+		{
+			return A_0.Next(A_1);
+		}
+
+		[EntityLogic(typeof(AyaPerfectGrazeSeDef))]
+		public sealed class AyaPerfectGrazeSe : StatusEffect
+		{
+			public void Activate()
+			{
+				int num = AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.\u202A\u206B\u202B\u206E\u200C\u200F\u206B\u206A\u202D\u200D\u202E\u202D\u200F\u206E\u206C\u206C\u202D\u202E\u200B\u202C\u206B\u206F\u202A\u200B\u206C\u202A\u202D\u202B\u206E\u200F\u206E\u200C\u200F\u206A\u200F\u202E\u206A\u206E\u202B\u202D\u202E(this);
+				for (;;)
+				{
+					IL_0007:
+					int num2 = -914872964;
+					for (;;)
+					{
+						int num3 = num2;
+						uint num4;
+						switch ((num4 = (uint)(-(uint)(--2051225307 - (~num3 ^ -733505157)))) % 5U)
+						{
+						case 0U:
+							return;
+						case 1U:
+							AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.\u206B\u206E\u200C\u206F\u200F\u200F\u202C\u202D\u202A\u206F\u200F\u200E\u202D\u202E\u200C\u202A\u202A\u200C\u200C\u202E\u200B\u202E\u202E\u200D\u206E\u202C\u200C\u200F\u202D\u200E\u202A\u200C\u200B\u206E\u202E\u200E\u206A\u200F\u202A\u206A\u202E(this, num - 1);
+							num2 = (int)(((AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.\u202A\u206B\u202B\u206E\u200C\u200F\u206B\u206A\u202D\u200D\u202E\u202D\u200F\u206E\u206C\u206C\u202D\u202E\u200B\u202C\u206B\u206F\u202A\u200B\u206C\u202A\u202D\u202B\u206E\u200F\u206E\u200C\u200F\u206A\u200F\u202E\u206A\u206E\u202B\u202D\u202E(this) <= 0) ? 1403873011U : 1531068107U) ^ (num4 * 3136846597U));
+							continue;
+						case 2U:
+							this.\u206E\u202C\u202B\u206A\u206B\u200F\u202B\u206A\u202D\u206A\u202D\u206E\u200C\u202A\u200F\u202D\u202E\u200D\u200D\u206F\u206F\u200E\u200B\u200C\u206B\u206D\u206B\u206D\u202C\u202B\u202B\u206A\u202E\u206B\u206B\u200D\u206A\u200C\u200E\u200E\u202E();
+							num2 = (int)((num4 * 3051263698U) ^ 4106218470U);
+							continue;
+						case 4U:
+							goto IL_0007;
+						}
+						goto Block_1;
+					}
+				}
+				Block_1:
+				this.React(AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.\u202A\u206A\u206E\u206D\u202D\u200D\u202D\u200D\u206C\u206E\u202A\u202E\u206B\u200C\u206B\u200E\u206C\u206E\u206C\u206E\u206A\u200B\u200E\u206B\u202A\u202E\u206E\u206A\u200C\u200F\u200D\u206B\u202B\u200B\u202D\u206A\u202E\u206B\u200F\u200E\u202E(AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.\u202B\u206A\u206F\u206C\u200C\u200C\u206B\u206E\u206B\u202D\u200C\u200E\u200D\u200B\u202B\u200C\u202E\u206F\u206B\u206E\u206B\u202C\u200D\u202C\u206B\u200E\u200E\u202E\u202B\u206C\u206B\u200B\u200B\u206F\u206F\u206B\u202B\u202C\u200E\u202A\u202E(this, true, 0.1f)));
+			}
+
+			static int \u202A\u206B\u202B\u206E\u200C\u200F\u206B\u206A\u202D\u200D\u202E\u202D\u200F\u206E\u206C\u206C\u202D\u202E\u200B\u202C\u206B\u206F\u202A\u200B\u206C\u202A\u202D\u202B\u206E\u200F\u206E\u200C\u200F\u206A\u200F\u202E\u206A\u206E\u202B\u202D\u202E(StatusEffect A_0)
+			{
+				return A_0.Level;
+			}
+
+			static void \u206B\u206E\u200C\u206F\u200F\u200F\u202C\u202D\u202A\u206F\u200F\u200E\u202D\u202E\u200C\u202A\u202A\u200C\u200C\u202E\u200B\u202E\u202E\u200D\u206E\u202C\u200C\u200F\u202D\u200E\u202A\u200C\u200B\u206E\u202E\u200E\u206A\u200F\u202A\u206A\u202E(StatusEffect A_0, int A_1)
+			{
+				A_0.Level = A_1;
+			}
+
+			void \u206E\u202C\u202B\u206A\u206B\u200F\u202B\u206A\u202D\u206A\u202D\u206E\u200C\u202A\u200F\u202D\u202E\u200D\u200D\u206F\u206F\u200E\u200B\u200C\u206B\u206D\u206B\u206D\u202C\u202B\u202B\u206A\u202E\u206B\u206B\u200D\u206A\u200C\u200E\u200E\u202E()
+			{
+				base.NotifyActivating();
+			}
+
+			static RemoveStatusEffectAction \u202B\u206A\u206F\u206C\u200C\u200C\u206B\u206E\u206B\u202D\u200C\u200E\u200D\u200B\u202B\u200C\u202E\u206F\u206B\u206E\u206B\u202C\u200D\u202C\u206B\u200E\u200E\u202E\u202B\u206C\u206B\u200B\u200B\u206F\u206F\u206B\u202B\u202C\u200E\u202A\u202E(StatusEffect A_0, bool A_1, float A_2)
+			{
+				return new RemoveStatusEffectAction(A_0, A_1, A_2);
+			}
+
+			static Reactor \u202A\u206A\u206E\u206D\u202D\u200D\u202D\u200D\u206C\u206E\u202A\u202E\u206B\u200C\u206B\u200E\u206C\u206E\u206C\u206E\u206A\u200B\u200E\u206B\u202A\u202E\u206E\u206A\u200C\u200F\u200D\u206B\u202B\u200B\u202D\u206A\u202E\u206B\u200F\u200E\u202E(BattleAction A_0)
+			{
+				return A_0;
+			}
+
+			[HarmonyPatch(typeof(Unit), "MeasureDamage")]
+			private class Unit_MeasureDamage_Patch
+			{
+				private static bool Prefix(Unit __instance, ref DamageInfo info, ref DamageInfo __result)
+				{
+					if (__instance.HasStatusEffect<AyaPerfectGrazeSeDef.AyaPerfectGrazeSe>())
+					{
+						for (;;)
+						{
+							IL_000B:
+							int num = -1081006260;
+							for (;;)
+							{
+								int num2 = num;
+								uint num3;
+								switch ((num3 = (uint)((((num2 ^ (~(-344255270 * 607075081) + (1046852919 ^ ~154191299))) * -1052885031) ^ --426805336) * 615140105)) % 7U)
+								{
+								case 0U:
+									return false;
+								case 1U:
+									num = (int)(((AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_MeasureDamage_Patch.\u200F\u206D\u202B\u200F\u200F\u206F\u202D\u206F\u202E\u200D\u202B\u206C\u206F\u206F\u202D\u206B\u200F\u200C\u202A\u202D\u202C\u200D\u200C\u200D\u200E\u200E\u206D\u206E\u200C\u206E\u202B\u200B\u202B\u200F\u202E\u202A\u206B\u206C\u200E\u200F\u202E(info.Damage, MidpointRounding.AwayFromZero) <= 0f) ? 3111888573U : 3159879986U) ^ (num3 * 2285714472U));
+									continue;
+								case 2U:
+									__result = new DamageInfo(0f, info.DamageType, true, info.IsAccuracy, false).BlockBy(AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_MeasureDamage_Patch.\u200E\u206F\u200B\u200D\u206F\u206F\u206D\u206E\u200D\u200F\u200D\u206F\u206D\u202C\u206A\u202C\u202E\u206E\u206F\u200F\u200F\u200F\u200F\u200B\u202B\u202C\u206C\u200E\u200D\u202A\u206E\u202B\u200B\u202A\u200F\u202E\u202A\u206F\u202C\u202C\u202E(__instance)).ShieldBy(AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_MeasureDamage_Patch.\u200E\u202A\u206A\u200B\u202B\u206F\u202C\u206B\u206F\u200D\u200F\u206A\u200B\u202E\u202A\u202C\u202D\u202D\u206E\u200C\u206A\u202B\u200E\u200E\u206E\u202C\u200E\u206C\u202E\u206E\u202D\u206A\u206F\u206C\u200E\u200E\u200B\u202A\u206F\u202E\u202E(__instance));
+									num = (int)((num3 * 1020956061U) ^ 2556101702U);
+									continue;
+								case 4U:
+									num = (int)(((info.DamageType != DamageType.Attack) ? 1221960241U : 2070952720U) ^ (num3 * 2022867799U));
+									continue;
+								case 5U:
+									num = (int)((info.IsAccuracy ? 297866307U : 1989994301U) ^ (num3 * 3531934800U));
+									continue;
+								case 6U:
+									goto IL_000B;
+								}
+								goto Block_1;
+							}
+						}
+						Block_1:
+						return true;
+					}
+					return true;
+				}
+
+				static float \u200F\u206D\u202B\u200F\u200F\u206F\u202D\u206F\u202E\u200D\u202B\u206C\u206F\u206F\u202D\u206B\u200F\u200C\u202A\u202D\u202C\u200D\u200C\u200D\u200E\u200E\u206D\u206E\u200C\u206E\u202B\u200B\u202B\u200F\u202E\u202A\u206B\u206C\u200E\u200F\u202E(float A_0, MidpointRounding A_1)
+				{
+					return A_0.Round(A_1);
+				}
+
+				static int \u200E\u206F\u200B\u200D\u206F\u206F\u206D\u206E\u200D\u200F\u200D\u206F\u206D\u202C\u206A\u202C\u202E\u206E\u206F\u200F\u200F\u200F\u200F\u200B\u202B\u202C\u206C\u200E\u200D\u202A\u206E\u202B\u200B\u202A\u200F\u202E\u202A\u206F\u202C\u202C\u202E(Unit A_0)
+				{
+					return A_0.Block;
+				}
+
+				static int \u200E\u202A\u206A\u200B\u202B\u206F\u202C\u206B\u206F\u200D\u200F\u206A\u200B\u202E\u202A\u202C\u202D\u202D\u206E\u200C\u206A\u202B\u200E\u200E\u206E\u202C\u200E\u206C\u202E\u206E\u202D\u206A\u206F\u206C\u200E\u200E\u200B\u202A\u206F\u202E\u202E(Unit A_0)
+				{
+					return A_0.Shield;
+				}
+			}
+
+			[HarmonyPatch(typeof(Unit), "TakeDamage")]
+			private class Unit_TakeDamage_Patch
+			{
+				private static int CheckGraze(Unit unit)
+				{
+					if (!unit.HasStatusEffect<Graze>())
+					{
+						for (;;)
+						{
+							int num = -135069778;
+							switch ((~(num ^ -(-902745035 + -1243595651 - ~669731493)) ^ (-929072609 - -1693998139)) * 626600669 % 3)
+							{
+							case 0:
+								continue;
+							case 1:
+								return -1;
+							}
+							break;
+						}
+						return 2;
+					}
+					return 2;
+				}
+
+				[MethodImpl(MethodImplOptions.NoInlining)]
+				private static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator generator)
+				{
+					return AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_TakeDamage_Patch.\u202B\u206D\u206A\u200C\u200D\u200C\u206B\u202B\u200C\u200B\u200F\u200B\u200D\u202D\u200D\u200F\u200B\u200F\u202A\u202B\u200C\u200F\u200F\u200F\u206F\u200F\u206A\u202B\u200F\u206C\u202B\u200E\u202A\u206D\u202A\u202E\u206D\u202C\u202D\u200E\u202E(AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_TakeDamage_Patch.\u200C\u202D\u200D\u206C\u206E\u206E\u206E\u206D\u200C\u206D\u206F\u202A\u206B\u206A\u200F\u206B\u206A\u202C\u202A\u200E\u200C\u206F\u206E\u200F\u206F\u206A\u206E\u206C\u200B\u200E\u206B\u202B\u200E\u202C\u206E\u200B\u206C\u206D\u200B\u206C\u202E(AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_TakeDamage_Patch.\u206D\u200C\u206C\u206D\u200F\u206B\u200C\u206F\u200F\u200E\u206E\u202B\u200F\u202D\u206C\u202A\u206C\u206C\u202E\u206E\u206F\u202C\u206E\u206C\u200E\u200D\u206F\u200E\u200F\u202C\u202A\u202C\u202A\u202B\u202A\u206E\u206E\u200F\u202E\u200C\u202E(AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_TakeDamage_Patch.\u202A\u206D\u200F\u200F\u202B\u206D\u202B\u206C\u202B\u206F\u202A\u202E\u202E\u200C\u206D\u206C\u206C\u206B\u202A\u206F\u200E\u206E\u206E\u206C\u200C\u200B\u206C\u202A\u202E\u200E\u206E\u206E\u202B\u202B\u200D\u202C\u202E\u206A\u206E\u206A\u202E(AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_TakeDamage_Patch.\u206D\u200C\u206C\u206D\u200F\u206B\u200C\u206F\u200F\u200E\u206E\u202B\u200F\u202D\u206C\u202A\u206C\u206C\u202E\u206E\u206F\u202C\u206E\u206C\u200E\u200D\u206F\u200E\u200F\u202C\u202A\u202C\u202A\u202B\u202A\u206E\u206E\u200F\u202E\u200C\u202E(AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_TakeDamage_Patch.\u200E\u206A\u202C\u200B\u206B\u200F\u206F\u202E\u206A\u200F\u206B\u202E\u200D\u206E\u206A\u200B\u200F\u206E\u200E\u200E\u202B\u206F\u206B\u202D\u202C\u206F\u200E\u200E\u202B\u206E\u206A\u200B\u206C\u206F\u206C\u200C\u202D\u206C\u200C\u200F\u202E(AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_TakeDamage_Patch.\u202A\u206A\u200E\u200E\u202B\u206B\u206D\u200C\u202B\u206C\u202B\u202A\u206A\u202C\u206F\u200B\u206C\u202C\u206A\u206E\u202D\u206B\u202A\u200B\u200B\u200E\u206D\u206B\u206B\u206C\u206B\u200D\u200B\u202E\u200F\u202A\u202D\u206A\u206B\u202D\u202E(instructions, generator), true, new CodeMatch[]
+					{
+						AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_TakeDamage_Patch.\u202B\u206C\u206E\u206B\u206D\u200F\u206E\u206F\u206E\u200D\u202B\u206E\u202C\u202C\u202E\u202B\u206E\u206C\u200F\u202A\u200F\u200C\u206B\u202D\u206C\u206E\u202E\u200B\u200D\u200B\u206D\u206F\u200B\u206F\u200E\u206C\u202E\u200B\u200F\u200C\u202E(new OpCode?(OpCodes.Ldstr), <Module>.\u200F\u206C\u206A\u202D\u200D\u202B\u202B\u206B\u206A\u202C\u206C\u206B\u200B\u200D\u202E\u206F\u206C\u206E\u202E\u200D\u200F\u206D\u202A\u200B\u206D\u200B\u206F\u200D\u206B\u202E\u200F\u206D\u200B\u200F\u206D\u200D\u202C\u206C\u206C\u202E<string>(-1798732343), null),
+						AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_TakeDamage_Patch.\u200B\u202B\u202A\u200F\u202C\u206E\u206B\u206D\u206C\u200C\u200F\u202B\u200B\u206A\u202B\u200C\u200D\u206B\u200D\u200F\u200C\u202C\u202D\u202C\u200D\u202D\u206C\u206D\u206F\u202C\u202C\u202D\u200B\u202B\u200C\u200D\u200C\u206E\u202A\u206B\u202E(OpCodes.Ldarg_1),
+						AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_TakeDamage_Patch.\u200B\u202B\u202A\u200F\u202C\u206E\u206B\u206D\u206C\u200C\u200F\u202B\u200B\u206A\u202B\u200C\u200D\u206B\u200D\u200F\u200C\u202C\u202D\u202C\u200D\u202D\u206C\u206D\u206F\u202C\u202C\u202D\u200B\u202B\u200C\u200D\u200C\u206E\u202A\u206B\u202E(OpCodes.Box),
+						AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_TakeDamage_Patch.\u200B\u202B\u202A\u200F\u202C\u206E\u206B\u206D\u206C\u200C\u200F\u202B\u200B\u206A\u202B\u200C\u200D\u206B\u200D\u200F\u200C\u202C\u202D\u202C\u200D\u202D\u206C\u206D\u206F\u202C\u202C\u202D\u200B\u202B\u200C\u200D\u200C\u206E\u202A\u206B\u202E(OpCodes.Call),
+						AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_TakeDamage_Patch.\u200B\u202B\u202A\u200F\u202C\u206E\u206B\u206D\u206C\u200C\u200F\u202B\u200B\u206A\u202B\u200C\u200D\u206B\u200D\u200F\u200C\u202C\u202D\u202C\u200D\u202D\u206C\u206D\u206F\u202C\u202C\u202D\u200B\u202B\u200C\u200D\u200C\u206E\u202A\u206B\u202E(OpCodes.Call)
+					}), OpCodes.Pop, null), true, new CodeMatch[]
+					{
+						AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_TakeDamage_Patch.\u200B\u202B\u202A\u200F\u202C\u206E\u206B\u206D\u206C\u200C\u200F\u202B\u200B\u206A\u202B\u200C\u200D\u206B\u200D\u200F\u200C\u202C\u202D\u202C\u200D\u202D\u206C\u206D\u206F\u202C\u202C\u202D\u200B\u202B\u200C\u200D\u200C\u206E\u202A\u206B\u202E(OpCodes.Ldarga_S),
+						AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_TakeDamage_Patch.\u202B\u206C\u206E\u206B\u206D\u200F\u206E\u206F\u206E\u200D\u202B\u206E\u202C\u202C\u202E\u202B\u206E\u206C\u200F\u202A\u200F\u200C\u206B\u202D\u206C\u206E\u202E\u200B\u200D\u200B\u206D\u206F\u200B\u206F\u200E\u206C\u202E\u200B\u200F\u200C\u202E(new OpCode?(OpCodes.Call), AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_TakeDamage_Patch.\u206B\u206F\u200D\u202B\u206F\u200C\u206E\u202C\u200E\u202B\u200D\u206E\u200F\u202C\u206F\u206E\u202A\u200E\u200C\u206F\u206D\u202D\u202C\u200B\u202D\u206E\u202A\u200F\u206E\u200B\u200D\u202B\u200C\u206E\u206B\u202A\u202E\u206E\u206A\u202C\u202E(AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_TakeDamage_Patch.\u206F\u206E\u206F\u200C\u200D\u200C\u206B\u202C\u200E\u200C\u206A\u206C\u202A\u202D\u206A\u206C\u202A\u206D\u202A\u206C\u206B\u206F\u206E\u206D\u206A\u202A\u206E\u202C\u200B\u206D\u202A\u200E\u202C\u200E\u200B\u202A\u200D\u206A\u200F\u200D\u202E(typeof(DamageInfo).TypeHandle), <Module>.\u206A\u202A\u202B\u206E\u202B\u206A\u202E\u206A\u202A\u200D\u202B\u206E\u200B\u202A\u206D\u206E\u200C\u206B\u200D\u206B\u200F\u202A\u206D\u206E\u206E\u200B\u200C\u206D\u206D\u200D\u200E\u202A\u206C\u206A\u202D\u206C\u202B\u200E\u206A\u200F\u202E<string>(-1969849928)), null),
+						AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_TakeDamage_Patch.\u200B\u202B\u202A\u200F\u202C\u206E\u206B\u206D\u206C\u200C\u200F\u202B\u200B\u206A\u202B\u200C\u200D\u206B\u200D\u200F\u200C\u202C\u202D\u202C\u200D\u202D\u206C\u206D\u206F\u202C\u202C\u202D\u200B\u202B\u200C\u200D\u200C\u206E\u202A\u206B\u202E(OpCodes.Ldc_I4_2)
+					}), OpCodes.Call, AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_TakeDamage_Patch.\u202B\u202A\u202C\u200B\u206C\u200E\u206E\u206D\u206F\u202C\u206F\u202E\u206E\u202A\u206F\u206E\u200C\u206B\u206D\u200B\u206B\u206E\u202C\u202A\u206B\u202C\u206C\u202D\u200C\u200D\u200F\u200D\u202B\u202B\u206A\u200F\u200D\u200F\u202E\u202C\u202E(AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_TakeDamage_Patch.\u206F\u206E\u206F\u200C\u200D\u200C\u206B\u202C\u200E\u200C\u206A\u206C\u202A\u202D\u206A\u206C\u202A\u206D\u202A\u206C\u206B\u206F\u206E\u206D\u206A\u202A\u206E\u202C\u200B\u206D\u202A\u200E\u202C\u200E\u200B\u202A\u200D\u206A\u200F\u200D\u202E(typeof(AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_TakeDamage_Patch).TypeHandle), <Module>.\u202D\u200F\u202D\u200B\u206C\u200B\u202B\u206C\u206E\u206E\u200C\u206B\u200D\u206B\u202B\u202A\u206F\u200C\u202E\u200D\u200B\u200B\u206F\u206B\u202C\u206F\u202E\u200B\u200B\u202C\u200C\u200E\u202C\u202C\u202C\u202B\u206D\u200D\u200E\u202A\u202E<string>(275924720), null, null)), new CodeInstruction[] { AyaPerfectGrazeSeDef.AyaPerfectGrazeSe.Unit_TakeDamage_Patch.\u202C\u206F\u200D\u206E\u206A\u200C\u200D\u202D\u200C\u202A\u206F\u206F\u202B\u202E\u202A\u202B\u202E\u200F\u200E\u200F\u200E\u206E\u200E\u200F\u200C\u200D\u202D\u202D\u200D\u200F\u206D\u202A\u202B\u202D\u202A\u206E\u200C\u206A\u200C\u202C\u202E(OpCodes.Ldarg_0, null) }));
+				}
+
+				private static void Postfix(Unit __instance, ref DamageInfo info)
+				{
+					if (info.DamageType == DamageType.Attack)
+					{
+						for (;;)
+						{
+							IL_000C:
+							int num = 1699441385;
+							for (;;)
+							{
+								int num2 = num;
+								uint num3;
+								switch ((num3 = (uint)(2012250644 * 1147142999 - ~num2 * -1123461849 + -1252646033)) % 6U)
+								{
+								case 0U:
+									num = (int)(((!info.IsAccuracy) ? 135160692U : 2238786380U) ^ (num3 * 1179185544U));
+									continue;
+								case 1U:
+									num = (int)((__instance.HasStatusEffect<AyaPerfectGrazeSeDef.AyaPerfectGrazeSe>() ? 3568143509U : 2746792014U) ^ (num3 * 3774496410U));
+									continue;
+								case 3U:
+									goto IL_000C;
+								case 4U:
+									__instance.GetStatusEffect<AyaPerfectGrazeSeDef.AyaPerfectGrazeSe>().Activate();
+									num = (int)((num3 * 3377515745U) ^ 2577987394U);
+									continue;
+								case 5U:
+									num = (int)(((!info.IsGrazed) ? 3726537804U : 1072343006U) ^ (num3 * 2193973256U));
+									continue;
+								}
+								goto Block_1;
+							}
+						}
+						Block_1:;
+					}
+				}
+
+				static CodeMatcher \u202A\u206A\u200E\u200E\u202B\u206B\u206D\u200C\u202B\u206C\u202B\u202A\u206A\u202C\u206F\u200B\u206C\u202C\u206A\u206E\u202D\u206B\u202A\u200B\u200B\u200E\u206D\u206B\u206B\u206C\u206B\u200D\u200B\u202E\u200F\u202A\u202D\u206A\u206B\u202D\u202E(IEnumerable<CodeInstruction> A_0, ILGenerator A_1)
+				{
+					return new CodeMatcher(A_0, A_1);
+				}
+
+				static CodeMatch \u202B\u206C\u206E\u206B\u206D\u200F\u206E\u206F\u206E\u200D\u202B\u206E\u202C\u202C\u202E\u202B\u206E\u206C\u200F\u202A\u200F\u200C\u206B\u202D\u206C\u206E\u202E\u200B\u200D\u200B\u206D\u206F\u200B\u206F\u200E\u206C\u202E\u200B\u200F\u200C\u202E(OpCode? A_0, object A_1, string A_2)
+				{
+					return new CodeMatch(A_0, A_1, A_2);
+				}
+
+				static CodeMatch \u200B\u202B\u202A\u200F\u202C\u206E\u206B\u206D\u206C\u200C\u200F\u202B\u200B\u206A\u202B\u200C\u200D\u206B\u200D\u200F\u200C\u202C\u202D\u202C\u200D\u202D\u206C\u206D\u206F\u202C\u202C\u202D\u200B\u202B\u200C\u200D\u200C\u206E\u202A\u206B\u202E(OpCode A_0)
+				{
+					return A_0;
+				}
+
+				static CodeMatcher \u200E\u206A\u202C\u200B\u206B\u200F\u206F\u202E\u206A\u200F\u206B\u202E\u200D\u206E\u206A\u200B\u200F\u206E\u200E\u200E\u202B\u206F\u206B\u202D\u202C\u206F\u200E\u200E\u202B\u206E\u206A\u200B\u206C\u206F\u206C\u200C\u202D\u206C\u200C\u200F\u202E(CodeMatcher A_0, bool A_1, CodeMatch[] A_2)
+				{
+					return A_0.MatchForward(A_1, A_2);
+				}
+
+				static CodeMatcher \u206D\u200C\u206C\u206D\u200F\u206B\u200C\u206F\u200F\u200E\u206E\u202B\u200F\u202D\u206C\u202A\u206C\u206C\u202E\u206E\u206F\u202C\u206E\u206C\u200E\u200D\u206F\u200E\u200F\u202C\u202A\u202C\u202A\u202B\u202A\u206E\u206E\u200F\u202E\u200C\u202E(CodeMatcher A_0, OpCode A_1, object A_2)
+				{
+					return A_0.Set(A_1, A_2);
+				}
+
+				static Type \u206F\u206E\u206F\u200C\u200D\u200C\u206B\u202C\u200E\u200C\u206A\u206C\u202A\u202D\u206A\u206C\u202A\u206D\u202A\u206C\u206B\u206F\u206E\u206D\u206A\u202A\u206E\u202C\u200B\u206D\u202A\u200E\u202C\u200E\u200B\u202A\u200D\u206A\u200F\u200D\u202E(RuntimeTypeHandle A_0)
+				{
+					return global::System.Type.GetTypeFromHandle(A_0);
+				}
+
+				static MethodInfo \u206B\u206F\u200D\u202B\u206F\u200C\u206E\u202C\u200E\u202B\u200D\u206E\u200F\u202C\u206F\u206E\u202A\u200E\u200C\u206F\u206D\u202D\u202C\u200B\u202D\u206E\u202A\u200F\u206E\u200B\u200D\u202B\u200C\u206E\u206B\u202A\u202E\u206E\u206A\u202C\u202E(Type A_0, string A_1)
+				{
+					return AccessTools.PropertyGetter(A_0, A_1);
+				}
+
+				static CodeMatcher \u202A\u206D\u200F\u200F\u202B\u206D\u202B\u206C\u202B\u206F\u202A\u202E\u202E\u200C\u206D\u206C\u206C\u206B\u202A\u206F\u200E\u206E\u206E\u206C\u200C\u200B\u206C\u202A\u202E\u200E\u206E\u206E\u202B\u202B\u200D\u202C\u202E\u206A\u206E\u206A\u202E(CodeMatcher A_0, bool A_1, CodeMatch[] A_2)
+				{
+					return A_0.MatchForward(A_1, A_2);
+				}
+
+				static MethodInfo \u202B\u202A\u202C\u200B\u206C\u200E\u206E\u206D\u206F\u202C\u206F\u202E\u206E\u202A\u206F\u206E\u200C\u206B\u206D\u200B\u206B\u206E\u202C\u202A\u206B\u202C\u206C\u202D\u200C\u200D\u200F\u200D\u202B\u202B\u206A\u200F\u200D\u200F\u202E\u202C\u202E(Type A_0, string A_1, Type[] A_2, Type[] A_3)
+				{
+					return AccessTools.Method(A_0, A_1, A_2, A_3);
+				}
+
+				static CodeInstruction \u202C\u206F\u200D\u206E\u206A\u200C\u200D\u202D\u200C\u202A\u206F\u206F\u202B\u202E\u202A\u202B\u202E\u200F\u200E\u200F\u200E\u206E\u200E\u200F\u200C\u200D\u202D\u202D\u200D\u200F\u206D\u202A\u202B\u202D\u202A\u206E\u200C\u206A\u200C\u202C\u202E(OpCode A_0, object A_1)
+				{
+					return new CodeInstruction(A_0, A_1);
+				}
+
+				static CodeMatcher \u200C\u202D\u200D\u206C\u206E\u206E\u206E\u206D\u200C\u206D\u206F\u202A\u206B\u206A\u200F\u206B\u206A\u202C\u202A\u200E\u200C\u206F\u206E\u200F\u206F\u206A\u206E\u206C\u200B\u200E\u206B\u202B\u200E\u202C\u206E\u200B\u206C\u206D\u200B\u206C\u202E(CodeMatcher A_0, CodeInstruction[] A_1)
+				{
+					return A_0.Insert(A_1);
+				}
+
+				static IEnumerable<CodeInstruction> \u202B\u206D\u206A\u200C\u200D\u200C\u206B\u202B\u200C\u200B\u200F\u200B\u200D\u202D\u200D\u200F\u200B\u200F\u202A\u202B\u200C\u200F\u200F\u200F\u206F\u200F\u206A\u202B\u200F\u206C\u202B\u200E\u202A\u206D\u202A\u202E\u206D\u202C\u202D\u200E\u202E(CodeMatcher A_0)
+				{
+					return A_0.InstructionEnumeration();
+				}
+			}
+		}
+	}
+}

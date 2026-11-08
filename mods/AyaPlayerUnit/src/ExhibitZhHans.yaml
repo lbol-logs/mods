@@ -1,0 +1,69 @@
+Aya1up:
+  Description: "下一次 {PlayerName} 即将被击败时，恢复至最大生命值并移除所有减益。此效果仅生效一次。"
+  Name: "1up"
+  FlavorText: "Suku!"
+
+AyaG:
+  Description: "提供基础法力{BaseMana}。|文| 的专属卡牌将被添加到卡池中。\n每回合首次 |放逐| |厄运| 或状态卡牌时，获得 {Mana}。\n|文文新闻| 造成 {Value1} 点伤害，施加 {Value2} |锁定| 并具有 |填充|。\n|文文新闻| 具有 |填充|。"
+  Name: "文的相机"
+  FlavorText: "尽管外观与曾经使用的外界相机相似，但这款相机是由河童制造的，使用胶片捕捉似真非真的内容。"
+
+AyaKhakkhara:
+  Description: "战斗开始时，获得 {Value1} 回合 |完美闪避|。"
+  Name: "锡杖"
+  FlavorText: "很不寻常，文会手持锡杖。这把锡杖更像是天狗权威的象征，而非武器。"
+
+AyaNewsboyCap:
+  Description: "每回合首次 |放逐| |厄运| 或状态卡牌时，获得 {Value1} |护盾|。"
+  Name: "文的报童帽"
+  FlavorText: "通常在工作时佩戴的硬帽。"
+
+AyaNewspaperBag:
+  Description: "战斗开始时，将 {Value1:plural one='% |文文新闻|' other='% |文文新闻|'} 添加到抽牌堆。{Value1:plural one='它 |消耗|' other='它们 |消耗|'} {Mana}。"
+  Name: "报纸袋"
+  FlavorText: "一个用报纸制成的报纸袋，里面装着报纸，很环保！"
+
+AyaR:
+  Description: "提供基础法力{BaseMana}。|文| 的专属卡牌将被添加到卡池中。\n战斗开始时，获得 {Value1} |加速|。\n|文文新闻| 造成 {Value2} 点伤害，施加 {Value3} |锁定| 并具有 |填充|。\n|文文新闻| 具有 |填充|。"
+  Name: "天狗团扇"
+  FlavorText: "一扇可以吹倒房屋，二扇可以吹倒大树，三扇可以吹走旅行者的斗篷。"
+
+AyaTanukisLeaf:
+  Description: "增加找到稀有卡牌的几率。"
+  Name: "小狸猫的叶子"
+  FlavorText: "狸猫的标志性叶子，这次不是为了变形和恶作剧，而是亲密的象征。"
+
+FlandreB:
+  Description: "提供基础法力{BaseMana}。|芙兰| 的专属卡牌将被添加到卡池中。\n每场战斗的 {PlayerName} 的第一个回合开始时，将 {Value1} 张|幻虹|加入手牌。"
+  Name: "方片A"
+  FlavorText: "芙兰朵露常玩的一副纸牌，通常和她的分身一块玩。"
+
+FlandreDevilPlushie:
+  Description: "在 {PlayerName} 的回合开始时, 获得 {Mana}.。"
+  Name: "恶魔玩偶"
+  FlavorText: "咕噜灵波。"
+
+FlandreFlan:
+  Description: "战斗开始时，获得 {Value1} 点 |火力| 和 {Value2} 点生命值。"
+  Name: "布丁"
+  FlavorText: "芙兰朵露最喜欢的甜点之一。"
+
+FlandreOneLittleSoldier:
+  Description: "在战斗中，攻击卡牌消耗减少 {Mana}。"
+  Name: "小兵芙兰"
+  FlavorText: "射杀一个剩一个。"
+
+FlandreR:
+  Description: "提供基础法力{BaseMana}。|芙兰| 的专属卡牌将被添加到卡池中。\n每当一个带有 |地狱火| 的敌人被击败时，将一半的 |地狱火| 施加给一个随机敌人。"
+  Name: "烧焦的相片"
+  FlavorText: "只有芙兰朵露知道那张相片里是什么。"
+
+LongU:
+  Description: "增加 {BaseMana} 基础法力。|龙| 的专属卡牌将被添加到卡池中。"
+  Name: "龙的三脚架"
+  FlavorText: "龙用作钝器的三脚架。"
+
+LongW:
+  Description: "增加 {BaseMana} 基础法力。|龙| 的专属卡牌将被添加到卡池中。"
+  Name: "Tsukasa的试管"
+  FlavorText: "通常，管狐被保存在竹管中。但龙并不介意一些现代化的住所。"

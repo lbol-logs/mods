@@ -1,0 +1,1542 @@
+﻿AyaAdventoftheDivineGrandson:
+  Description: "{Mana}を得る。\n手札上限に達するまでカードを引く。\n{PlayerName}は全てのデバフを受けない。\n|パートナー|と|道具|以外の全てのカードが使用された時、それは2回使用される。この効果は重複しない。\n|消耗品\u3010{ToolPlayableTimes}\u3011|"
+  UpgradedDescription:  "{Mana}を得る。\n手札上限に達するまでカードを引く。\n{PlayerName}は全てのデバフを受けない。\n|パートナー|と|道具|以外の全てのカードが使用された時、それは2回使用される。この効果は重複しない。\n|消耗品\u3010{ToolPlayableTimes}\u3011|"
+  PhantasmModeDescription: "このカードはファンタズムモードでは使用できない。"
+  PhantasmModeUpgradedDescription: "このカードはファンタズムモードでは使用できない。"
+  Name: 天孫降臨
+  DetailText: "{SelfName}は戦闘中のランダム生成に抽選されず、複製されない。"
+  AdventoftheDivineGrandson1Aya: ""
+  AdventoftheDivineGrandson2Aya: ""
+AyaAnythingisNewsworthy:
+  Description: "名前に「新聞」も「報」も含まれていない|厄災|または状態異常カードがデッキに加えられるたび、代わりに|文々。新聞|を加える。"
+  UpgradedDescription: "名前に「新聞」も「報」も含まれていない|厄災|または状態異常カードがデッキに加えられるたび、代わりに|文々。新聞|を加える。"
+  Name: なんだってニュースになる
+AyaApexPredator:
+  Description: "{PlayerName}が攻撃ダメージを受ける時、{PlayerName}の|加速|の分だけそれを軽減し、|加速|{Value3}を失う。\n|加速|{Value1}を得る。"
+  UpgradedDescription: "{PlayerName}が攻撃ダメージを受ける時、{PlayerName}の|加速|の分だけそれを軽減し、|加速|{Value3}を失う。\n|加速|{Value1}を得る。"
+  Name: 頂点捕食者
+AyaArmoredRaven:
+  Description: "{PlayerName}のターン中、最初に使用した攻撃カードは2回発動する。\n{PlayerName}のターン中、最初に使用した状態カードは2回発動する。"
+  UpgradedDescription: "{PlayerName}のターン中、最初に使用した攻撃カードは2回発動する。\n{PlayerName}のターン中、最初に使用した状態カードは2回発動する。"
+  Name: アーマードレイヴン
+AyaArsenalBird:
+  Description: "|ディフェンスマトリックス|{Value1}を得る。\n{PlayerName}のターン開始時、|無人航空鴉|を召喚済みの状態で手札に加える。\nこの効果は重複しない。"
+  UpgradedDescription: "|ディフェンスマトリックス|{Value1}を得る。\n{PlayerName}のターン開始時、|無人航空鴉|を召喚済みの状態で手札に加える。\nこの効果は重複しない。\n{SelfName}の効果を1回発動する。"
+  PhantasmModeDescription: "{PlayerName}のターン開始時、|無人航空鴉|を召喚済みの状態で手札に加える。\nこの効果は重複しない。"
+  PhantasmModeUpgradedDescription: "{PlayerName}のターン開始時、|無人航空鴉|を召喚済みの状態で手札に加える。\nこの効果は重複しない。\n{SelfName}の効果を1回発動する。"
+  Name: アーセナルバード
+AyaArsenalBirdDrone:
+  Description: "{FriendP}|f:巡回モード|：{Mana}を得て、カードを1枚引く。"
+  ExtraDescription1: "{FriendP}|f:戦闘モード|：{PassiveBlock}|ブロック|を得て、ランダムな敵に{Damage}ダメージを与える。"
+  ExtraDescription2: "{FriendA}|a:巡回モード|：{SelfName}を|廃棄|する。{PlayerName}のターン開始時、{Mana}を得て、カードを1枚引く。"
+  ExtraDescription3: "{FriendA}|a:戦闘モード|：{SelfName}を|廃棄|する。{PlayerName}のターン終了時、{PassiveBlock}|ブロック|を得て、ランダムな敵に{Damage}ダメージを与える。"
+  ExtraDescription4: "{FriendU}|u:自己破壊|：敵全体に{Damage2}ダメージを与える。この効果はこのカードが消滅した時も発動する。|精密|"
+  Name: 無人航空鴉
+  DetailText: "{SelfName}の効果は手札になくても発動する。"
+  FlavorText: "最新のテクノロジーを駆使した機械カラスを紹介しよう！"
+AyaAttackR:
+  Description: "{Damage}ダメージを与える。"
+  UpgradedDescription: "{Damage}ダメージを与える。"
+  Name: 疾風扇
+AyaAttackG:
+  Description: "{Damage}ダメージを与える。"
+  UpgradedDescription: "{Damage}ダメージを与える。"
+  Name: 烈風扇
+AyaAyaShameimarusCoerciveReporting:
+  Description: "|文々。新聞・号外|を1枚手札に加える。\n対象の行動予定によって追加の効果を得る。"
+  UpgradedDescription: "|文々。新聞・号外|を1枚手札に加える。\n対象の行動予定によって追加の効果を得る。"
+  Name: 射命丸文の圧迫取材
+  DetailText: "|攻撃|：|脱力|{Value2}を与える。\n|強化|：|火力|{Value2}を得る。\n|デバフ|：|加護|{Value2}を得る。\n|状態異常|：|活力|を1枚手札に加える。\n|防御|：|弱体|を与える。\n|グレイズ|：|加速|{Value4}を得る。\n|召喚|：|スクスク文|を召喚する。\n|熟睡中|：対象を起こす。\n|気絶、何もしない|：|追加ターン|{Value1}を得る。\n|逃走、起爆|：対象を即死させる。\n|充填中|：|バースト|状態に入る。\n|治療、修理|：ライフを{Value4}回復する。\n|スペルカード|：<sprite=\"Point\" name=\"Gold\">{Value5}と<sprite=\"Point\" name=\"Power\">{Value5}を得る。\n|洗浄|：{PlayerName}のデバフをすべて取り除き、|加護|{Value2}を得る。\n|暗黒能楽|：{PlayerName}のデバフをすべて取り除き、|加護|{Value5}を得る。この戦闘中、|暗黒能楽|を無効化する。\n|祟り|：カードが|祟られる|たび、敵全体に{Value6}ダメージを与える。"
+  AyaShameimarusCoerciveReportingSleep1Aya: "起きなさいねぼすけ！"
+  AyaShameimarusCoerciveReportingEscape1Aya: "幻想郷最速から逃げようたってそうはいきませんよ！"
+  AyaShameimarusCoerciveReportingEscape2Aya: "本気で私から逃げられると思います？"
+  AyaShameimarusCoerciveReportingEscape31Aya: "こんにちは！"
+  AyaShameimarusCoerciveReportingEscape32Aya: "私は今、"
+  AyaShameimarusCoerciveReportingEscape33Aya: "あなたの後ろにいます！"
+  AyaShameimarusCoerciveReportingDetonate1Aya: "危険物取扱者資格はお持ちで？"
+  AyaShameimarusCoerciveReportingDetonate2Rin: "危険物取扱者資格って？"
+  AyaShameimarusCoerciveReportingDetonate3Aya: "おまわりさん、こいつです！"
+  AyaShameimarusCoerciveReportingDetonate4Rin: "待って！話を聞いて！"
+  AyaShameimarusCoerciveReportingDetonate5Rin: "助けてください！さとり様ぁぁぁ！"
+  AyaShameimarusCoerciveReportingNohofDarkness1Aya: "ここはちょっと暗い過ぎますね。電気をつけましょう。"
+  AyaShameimarusCoerciveReportingNohofDarkness2Kokoro: "目が！目がぁぁ！"
+AyaBirdStrike:
+  Description: "{Damage}ダメージを与える。\n{PlayerName}が持っている|加速|1につき、{SelfName}が与えるダメージは{Value1}増える。"
+  UpgradedDescription: "{Damage}ダメージを与える。\n{PlayerName}が持っている|加速|1につき、{SelfName}が与えるダメージは{Value1}増える。"
+  PhantasmModeDescription: "{Damage}ダメージを与える。\n{PlayerName}が持っている|加速|1につき、{SelfName}が与えるダメージは{Value1}増える。\n{PlayerName}が持っている|加速|の値に等しいダメージを受ける。"
+  PhantasmModeUpgradedDescription: "{Damage}ダメージを与える。\n{PlayerName}が持っている|加速|1につき、{SelfName}が与えるダメージは{Value1}増える。\n{PlayerName}が持っている|加速|の値に等しいダメージを受ける。"
+  Name: バードストライク
+AyaBlackmail:
+  Description: "|文々。新聞|は|臨時火力ダウン|{Value1}を与え、<sprite=\"Point\" name=\"Gold\">{Value2}を得る効果を持つ。\n|文々。新聞|を{Value3}枚山札に加える。"
+  UpgradedDescription: "|文々。新聞|は|臨時火力ダウン|{Value1}を与え、<sprite=\"Point\" name=\"Gold\">{Value2}を得る効果を持つ。\n|文々。新聞|を{Value3}枚山札に加える。"
+  Name: ブラックメール
+  DetailText: "間違って目上の人を脅してしまったら…"
+AyaBlockG:
+  Description: "{Block}|ブロック|を得る。"
+  UpgradedDescription: "{Block}|ブロック|を得る。"
+  Name: 天狗のダウンバースト
+AyaBlockR:
+  Description: "{Block}|ブロック|を得る。"
+  UpgradedDescription: "{Block}|ブロック|を得る。"
+  Name: 天狗の立風露
+AyaBossYukariBlackDeathButterfly:
+  Description: "|{SelfName}を引いた時|:|毒|{Value1}を得る。\n|廃棄された時|: {SelfName}を|廃棄場|から捨て札に戻す。"
+  UpgradedDescription: "|{SelfName}を引いた時|:|毒|{Value1}を得る。\n|廃棄された時|: {SelfName}を|廃棄場|から捨て札に戻す。"
+  Name: 黒死蝶
+AyaBunbunmaruPrinter:
+  Description: "{PlayerName}のターン開始時、|文々。新聞|を{Value1}枚手札に加える。それらは|臨時コスト|{Mana}。"
+  UpgradedDescription: "{PlayerName}のターン開始時、|文々。新聞|を{Value1}枚手札に加える。それらは|臨時コスト|{Mana}。\n{SelfName}の効果を1回発動する。"
+  PhantasmModeDescription: "{PlayerName}のターン開始時、|文々。新聞|を{Value1}枚手札に加える。"
+  PhantasmModeUpgradedDescription: "{PlayerName}のターン開始時、|文々。新聞|を{Value1}枚手札に加える。\n{SelfName}の効果を1回発動する。"
+  Name: 文々。新聞プリンター
+AyaCandidShot:
+  Description: "{Damage}ダメージを{Times}回与える。\n|ロックオン|{Value1}を与える。\n|手札効果|：|厄災|または状態異常カードが|廃棄|されるたび、{SelfName}の|臨時コスト|を{Mana}減らす。"
+  UpgradedDescription: "{Damage}ダメージを{Times}回与える。\n|ロックオン|{Value1}を与える。\n|手札効果|：|厄災|または状態異常カードが|廃棄|されるたび、{SelfName}の|臨時コスト|を{Mana}減らす。"
+  Name: キャンディッドショット
+AyaChapter0:
+  Description: "固定されたエンカウントのない標準的なゲームプレイ。"
+  Name: フリーモード
+AyaChapter1:
+  Description: "観客が宝探しに出かけた後、文は事件を調査することにした。"
+  Name: 番外編！失われた月の秘宝の真実
+AyaChapter2:
+  LockedDescription: "第2章はまだ完成していません。今後のアップデートにご期待ください。"
+  Description: "子狸はどこにも見当たらず、文は彼女を見つけることを期待して妖怪の山に戻る。\n彼女の行動がとある結果をもたらした。"
+  Name: バタフライエフェクト
+AyaCloseup:
+  Description: "{Block}|ブロック|を得る。\n{SelfName}に隣接する|厄災|または状態異常カード1枚につき、{Mana}を得てカードを1枚引く。"
+  UpgradedDescription: "{Block}|ブロック|を得る。\n{SelfName}に隣接する|厄災|または状態異常カード1枚につき、{Mana}を得てカードを1枚引く。"
+  Name: クローズアップ
+AyaComicallyLargeHat:
+  Description: "{Block}|ブロック|を得る。\n|減速{Value1}|：敵全体に|脱力|{Value2}を与える。"
+  UpgradedDescription: "{Block}|ブロック|を得る。\n敵全体に|脱力|{Value2}を与える。"
+  Name: あまりにもデカい帽子
+AyaCompletedInterview:
+  Description: "|初見|：|文々。新聞|を{Value1}枚、|文々。新聞　『射命丸文』特集|を{Value2}枚捨て札に加える。\nカードを{Value3}枚引く。"
+  UpgradedDescription: "|初見|：|文々。新聞|を{Value1}枚、|文々。新聞　『射命丸文』特集|を{Value2}枚捨て札に加える。\nカードを{Value3}枚引く。"
+  ExtraDescription1: "|d:初見:文々。新聞を{Value1}枚、文々。新聞　『射命丸文』特集を{Value2}枚捨て札に加える。|\nカードを{Value3}枚引く。"
+  UpgradedExtraDescription1: "|d:初見:文々。新聞を{Value1}枚、文々。新聞　『射命丸文』特集を{Value2}枚捨て札に加える。|\nカードを{Value3}枚引く。"
+  Name: 取材完了
+AyaCrazyFallWind:
+  Description: "カードを|廃棄|するたび、|加速|{Value1}を得る。"
+  UpgradedDescription: "カードを|廃棄|するたび、|加速|{Value1}を得る。"
+  Name: クレイジーフォールウィンド
+AyaCrossroadsofHeaven:
+  Description: "|加速|{Value1}を得る。\n{PlayerName}が|加速|を得るたび、追加で|加速|{Value2}を得る。"
+  UpgradedDescription: "|加速|{Value1}を得る。\n{PlayerName}が|加速|を得るたび、追加で|加速|{Value2}を得る。"
+  PhantasmModeDescription: "{PlayerName}が|加速|を得るたび、追加で|加速|{Value2}を得る。"
+  PhantasmModeUpgradedDescription: "{PlayerName}が|加速|を得るたび、追加で|加速|{Value2}を得る。"
+  Name: 天の八衢
+AyaDanceofBlackQuill:
+  Description: "敵全体に{Damage}ダメージを与える。\n|ロックオン|{Value1}を与える。\n|加速|{Value1}を得る。\n{SelfName}で敵を倒すたび、このカードの効果を繰り返す。"
+  UpgradedDescription: "敵全体に{Damage}ダメージを与える。\n|ロックオン|{Value1}を与える。\n|加速|{Value1}を得る。\n{SelfName}で敵を倒すたび、このカードの効果を繰り返す。"
+  PhantasmModeDescription: "敵全体に{Damage}ダメージを与える。\n|ロックオン|{Value1}を与える。\n|加速|{Value1}を得る。"
+  PhantasmModeUpgradedDescription: "敵全体に{Damage}ダメージを与える。\n|ロックオン|{Value1}を与える。\n|加速|{Value1}を得る。"
+  Name: 黒羽の舞
+AyaDashingDomination:
+  Description: "|加速|{Value1}を得る。\nカードを{Value2}枚引く。"
+  UpgradedDescription: "|加速|{Value1}を得る。\nカードを{Value2}枚引く。"
+  Name: 疾走風靡
+AyaDashingGrace:
+  Description: "{PlayerName}が持っている|加速|1点につき、敵全体に{Value2}ダメージを与える。({AccelerationDamage})"
+  UpgradedDescription: "{PlayerName}が持っている|加速|1点につき、敵全体に{Value2}ダメージを与える。({AccelerationDamage})"
+  NonbattleDescription: "{PlayerName}が持っている|加速|1点につき、敵全体に{Value2}ダメージを与える。"
+  UpgradedNonbattleDescription: "{PlayerName}が持っている|加速|1点につき、敵全体に{Value2}ダメージを与える。"
+  Name: 疾走優美
+AyaDaymareintheDarkNight:
+  Description: "{Damage}ダメージを与える。\n次の{PlayerName}のターンまで、{PlayerName}が|加速|を得るたび、ライフが最も少ない敵に{Damage}ダメージを与える。それは|精密|を持つ。\n|加速|{Value1}を得る。"
+  UpgradedDescription: "{Damage}ダメージを与える。\n次の{PlayerName}のターンまで、{PlayerName}が|加速|を得るたび、ライフが最も少ない敵に{Damage}ダメージを与える。それは|精密|を持つ。\n|加速|{Value1}を得る。"
+  Name: 暗夜のデイメア
+AyaDeaExMachina:
+  Description: ""
+  UpgradedDescription: ""
+  Name: Dea Ex Machina
+AyaEffortlessFlight:
+  Description: "|加速|{Value1}を得る。\n{PlayerName}のターン開始時、|加速|{Value1}を得る。"
+  UpgradedDescription: "|加速|{Value1}を得る。\n{PlayerName}のターン開始時、|加速|{Value1}を得る。"
+  PhantasmModeDescription: "{PlayerName}のターン開始時、|加速|{Value1}を得る。"
+  PhantasmModeUpgradedDescription: "{PlayerName}のターン開始時、|加速|{Value1}を得る。"
+  Name: 省力飛行
+AyaExtraBossSelectFlandre:
+  Description: "このボスはまだ未実装です。アップデートをお楽しみに。"
+  Name: Flandre (Aya Only)
+AyaExtraBossSelectKoishi:
+  Description: ""
+  Name: こいし
+AyaExtraBossSelectRandom:
+  Description: ""
+  Name: ランダム
+AyaExtraBossSelectYuuma:
+  Description: "このボスはまだ未実装です。アップデートをお楽しみに。"
+  Name: Yuuma (フランドールのみ)
+AyaExtraBossSelectZUN:
+  Description: ""
+  Name: ZUN
+AyaExtraFans:
+  Description: "{Damage}ダメージを与える。\n|加速|{Value1}を得る。\n|文々。新聞|を1枚手札に加える。"
+  UpgradedDescription: "{Damage}ダメージを与える。\n|加速|{Value1}を得る。\n|文々。新聞|を1枚手札に加える。"
+  Name: 補扇
+AyaEyeoftheStorm:
+  Description: "{Block}|ブロック|を得る。\n|反射|{Value1}を得る。\n{SelfName}の効果量は|加速|の数値だけ増加する。"
+  UpgradedDescription: "{Block}|ブロック|を得る。\n|反射|{Value1}を得る。\n{SelfName}の効果量は|加速|の数値だけ増加する。"
+  Name: 嵐の目
+AyaFastShot:
+  Description: "{Damage}ダメージを与える。\n手札にあるランダムな|文々。新聞|を使用する。\n|文々。新聞|を1枚手札に加える。"
+  UpgradedDescription: "{Damage}ダメージを与える。\n手札にあるランダムな|文々。新聞|を使用する。\n|文々。新聞|を1枚手札に加える。"
+  Name: ファストショット
+AyaBossFlandreForbiddenFruit:
+  Description: "ライフ{Value1}を得る。\n{FlandreName}の|スカーレットニヒリティ|は手札、山札、捨て札にある{SelfName}の枚数に応じて追加で{Value2}ダメージを与える。"
+  Name: 禁断の果実
+AyaFma:
+  Description: "|加速|{Value1}を得る。\n|火力|{Value2}を得る。\n{PlayerName}が持っている|加速|4点につき、{SelfName}で得られる|火力|か{Value3}増える。"
+  UpgradedDescription: "|加速|{Value1}を得る。\n|火力|{Value2}を得る。\n{PlayerName}が持っている|加速|4点につき、{SelfName}で得られる|火力|か{Value3}増える。"
+  Name: F = ma
+AyaFriendAya:
+  Description: "{FriendP}|f:岐符\u300Cサルタクロス\u300D|: |加速|{Value1}を得る。"
+  ExtraDescription1: "{FriendA}|a:風神\u300CStorm Day\u300D|: この効果はターンに1回のみ使用できる。|手札|の各カードを|廃棄|する。その後、手札が満たされるまでランダムな|アップグレード済み|カードを手札に加える。"
+  ExtraDescription2: "{FriendA}|d:風神\u300CStorm Day\u300D: この効果はターンに1回のみ使用できる。手札の各カードを追放する。その後、手札が満たされるまでランダムな強化済みカードを手札に加える。|"
+  ExtraDescription3: "{FriendU}|u:風神\u300CPeerless Wind God\u300D|: この効果は戦闘中に1回のみ使用できる。全ての敵に{Value2}回、{Damage}の攻撃ダメージを与える。敵はこのターン行動できない。これらの効果は{PlayerName}の次のターンの開始時にも繰り返される。 |精密|"
+  ExtraDescription4: "{FriendU}|d:\u300C無双風神\u300D: この効果は戦闘中に1回のみ使用できる。全ての敵に{Value2}回、{Damage}の攻撃ダメージを与える。敵はこのターン行動できない。これらの効果は{PlayerName}の次のターンの開始時にも繰り返される。精密|"
+  Name: 風神少女、文
+  DetailText: "|召喚された時|：|天上天下の照國|を得る。\n|p:このカードは手札から離れない。|\n{PlayerName}のターン終了時、このカードの|支援度|が0ならば、|r:{PlayerName}は敗北する。|"
+AyaFriendCirno:
+  Description: "{FriendP}|f:満開の夏|: |フィールド|に存在する全ての|パートナー|は|支援度|{Value1}を得る。"
+  ExtraDescription1: "{FriendA}|a:不屈の秋|: ターンごとに1回しか発動できない。ランダムな{Value2}枚の|アップグレード済み|の|パートナー|を召喚する。それらの|支援度|は{Value1}。"
+  ExtraDescription2: "{FriendA}|d:不屈の秋: ターンごとに1回しか発動できない。ランダムな{Value2}枚のアップグレード済みのパートナーを召喚する。 それらの支援度は{Value1}。|"
+  ExtraDescription3: "{FriendU}|u:\u300C四季のフィナーレ\u300D|: 戦闘ごとに1回しか発動できない。敵全体に{Damage}ダメージを与え、|ファイナルフリーズ|{Value1}を与える。|精密|"
+  ExtraDescription4: "{FriendU}|d:\u300C四季のフィナーレ\u300D: 戦闘ごとに1回しか発動できない。敵全体に{Damage}ダメージを与え、ファイナルフリーズ{Value1}与える。精密|"
+  Name: 四季の小さなお友達、チルノ
+  DetailText: "|p:このカードは手札から離れない。|"
+AyaFriendHatate:
+  Description: "{FriendP}|f:念写|:|霊力|{Value1}を得る。|花果子念報|を{Value2}枚山札に加える。"
+  ExtraDescription1: "{FriendP2}|商売敵|:|花果子念報|がデッキに加えられる時、代わりに|花果子念報・号外|を1枚加える。"
+  ExtraDescription3: "{FriendU3}|u:遠眼\u300C天狗サイコグラフィ\u300D|: 一番ライフが少ない敵に{Damage}ダメージを与える。|退治|: ターゲットがネームドの場合、永続効果を得る。|精密|"
+  Name: 今どきの念写記者、はたて
+  DetailText: "|念写 - Empty|: 効果なし。"
+  DetailTextKanako: "|念写 - 神奈子|: 戦闘開始時,最大ライフ{Value4}を得る。"
+  DetailTextSuwako: "|念写 - 諏訪子|: 戦闘開始時,{Value7} <sprite=\"Point\" name=\"Power\">{Value7}を得る。"
+  DetailTextSunny: "|念写 - サニー|: 戦闘開始時, |火力|{Value4}を得る。"
+  DetailTextLuna: "|念写 - ルナ|: 戦闘開始時, |霊力|{Value4}を得る。"
+  DetailTextStar: "|念写 - スター|: 戦闘開始時,敵全体に|ロックオン|{Value5}を与える。"
+  DetailTextAya: "|念写 - 文|: 効果なし。"
+  DetailTextRin: "|念写 - 燐|: 敵が|召還|される度に、|火力|{Value4}を得る。"
+  DetailTextNitori: "<sprite=\"Ultimate\" name=\"0\">|u:念写 - にとり|: |ライブラリ|にランダムな|道具|を加える。"
+  DetailTextYoumu: "<sprite=\"Active\" name=\"-3\">|a:念写 - 妖夢|: ライフが一番少ない敵に{Damage2Value}ダメージを{Value6}回与える。|精密|"
+  DetailTextKokoro: "<sprite=\"Passive\" name=\"0\">|f:念写 - こころ|: 敵がデバフを得るたびに、|臨時火力|{Value4}を得る。"
+  DetailTextClownpiece: "<sprite=\"Active\" name=\"0\">|a:念写 - クラウンピース|: {Mana}を得る。敵全体に|火力| {Value3}を与える。"
+  DetailTextSiji: "<sprite=\"Active\" name=\"-3\">|a:念写 - 映姫|: 敵全体に{Damage3Value}ダメージを与える。 |精密|"
+  DetailTextDoremy: "<sprite=\"Active\" name=\"-3\">|a:念写 - ドレミー|: 手札のカードを1枚選ぶ。その|コピー|を手札に１枚加える。"
+  DetailTextReimu: "<sprite=\"Active\" name=\"0\">|a:念写 - 霊夢|: 戦闘終了まですべてのカードを|アップグレード|する。"
+  DetailTextMarisa: "<sprite=\"Passive\" name=\"0\">|f:念写 - 魔理沙|: プレイヤーが攻撃カードか状態異常をプレイする度に、|チャージ|{Value3} を得る。"
+  DetailTextSakuya: "<sprite=\"Ultimate\" name=\"-3\">|u:念写 - 咲夜|: |追加ターン|{Value3}を得る。"
+  DetailTextCirno: "<sprite=\"Passive\" name=\"0\">|f:念写 - チルノ|: 手札の|パートナー|１枚ごとに |支援度|{Value4}を得る。"
+  DetailTextKoishi: "<sprite=\"Passive\" name=\"0\">|f:念写 - こいし|: 山札の一番上のカードをプレイする。"
+  DetailTextLong: "<sprite=\"Passive\" name=\"0\">|f:念写 - 龍|: |文々。新聞|のダメージを２倍にする。この効果は重複しない。"
+  DetailTextTianzi: "<sprite=\"Ultimate\" name=\"-3\">|u:念写 - 天子|: |天衣無縫|{Value3}を得る。"
+  DetailTextYuyuko: "<sprite=\"Active\" name=\"-3\">|a:念写 - 幽々子|: 一番ライフの少ない敵に{Damage3Value}ダメージを与える。もし敵がネームドでなければ、それを撃破する。|精密|"
+  DetailTextSanae: "<sprite=\"Active\" name=\"-3\">|a:念写 - 早苗|: {PlayerName}からすべての|デバフ|を取り除き、 |加護|{Value4}を得る。"
+  DetailTextRemilia: "<sprite=\"Ultimate\" name=\"-6\">|u:念写 - レミリア|: ライフが一番少ない敵に{Damage3Value}ダメージを与える。敵がブロックできなかったダメージに等しいライフを得る。|精密|"
+  DetailTextJunko: "<sprite=\"Ultimate\" name=\"-3\">|u:念写 - 純狐|: 戦闘終了まですべてのカードは|純化|を得る。"
+  DetailTextSeija: "|念写 - 正邪|: {PlayerName}は各ターン最大体力の{Value8}%以上のライフを失わない。"
+  DetailTextYiji: "|念写 - 依姫|: 効果なし。"
+  DetailTextUnknown: "|念写 - Unknown|: 戦闘開始時、|火力|{Value3}と|霊力|{Value3}を得る。"
+AyaFriendHatateNewsSpecial:
+  Description: "ランダムなマナを{Value1}つ得る。この戦闘中に|廃棄|した{SelfName}の枚数だけ得られるマナの数を1増やす。\n|{SelfName}が手札に加わった時|：{Shield}|バリア|を得る。"
+  Name: 花果子念報・号外
+AyaFriendMegumu:
+  Description: "{FriendP}|f:Supervision|: |厄災|または状態異常カードが|廃棄|されるたび、{Mana}を得る。"
+  ExtraDescription1: "{FriendA}|a:Exploitation|: ライフを{Value1}失う、{Mana2}を得てカードを{Value2}枚引く。この効果は前のターンに|厄災|や状態異常カードを|廃棄|してなかった時も発動する。"
+  ExtraDescription3: "{FriendU}|u:虹光\u300C光風霽月\u300D|: 敵全体に{Damage2}ダメージを与える。|厄災|または状態異常カードが廃棄されるたび、{Mana3}を得てカードを{Value3}枚引く。|精密|"
+  Name: 鴉天狗の大将、龍
+AyaFriendMomiji:
+  Description: "{FriendP}|f:千里眼|: |占術|{Scry}。"
+  ExtraDescription1: "{FriendP2}|f:挑発|: {PlayerName}が攻撃するとき、ターゲットに{Damage}ダメージを与える。"
+  ExtraDescription2: "{FriendP2}|f:パリィ|: {PlayerName}が攻撃ダメージを受けライフを失う時、{PassiveBarrier}|バリア|を得る。"
+  ExtraDescription3: "{FriendU}|u:牙符\u300C咀嚼玩味\u300D|: ライフが一番少ない敵に{Damage2}ダメージを与える。\n|退治|: ライフ{Value1}を得る。\n|精密|"
+  Name: 下っ端哨戒天狗、椛
+AyaHeadShot:
+  Description: "{Damage}ダメージを与える。\n{SelfName}は|ロックオン|の影響が{Value1}倍になる。\n{SelfName}で敵を倒した場合、{Mana}を得る。"
+  UpgradedDescription: "{Damage}ダメージを与える。\n{SelfName}は|ロックオン|の影響が{Value1}倍になる。\n{SelfName}で敵を倒した場合、{Mana}を得る。"
+  Name: ヘッドショット
+AyaHeavenlyPartner:
+  Description: "{Block}|ブロック|を得る。\n敵全体に|脱力|{Value1}と|弱体|{Value1}を与える。\n手札に召喚済みの|下っ端哨戒天狗、椛|が存在する場合、|臨時火力|{Value2}を得る。"
+  UpgradedDescription: "{Block}|ブロック|を得る。\n敵全体に|脱力|{Value1}と|弱体|{Value1}を与える。\n手札に召喚済みの|下っ端哨戒天狗、椛|が存在する場合、|臨時火力|{Value2}を得る。"
+  Name: 天生の一対
+AyaHraesvelgrofTerminus:
+  Description: "次の{PlayerName}のターンまで、全ての敵の|ブロック|、|バリア|、全てのバフは無効化される。"
+  UpgradedDescription: "次の{PlayerName}のターンまで、全ての敵の|ブロック|、|バリア|、全てのバフは無効化される。"
+  Name: 終末のフレースヴェルグ
+  DetailText: "{SelfName}は戦闘中に作成されることはなく、コピーすることもできない。"
+AyaIllusionaryDominance:
+  Description: "{Damage}ダメージを{Times}回与える。\n{PlayerName}の|加速|の数値だけダメージが増加する。\n{PlayerName}の|加速|{Value3}点につき追加で1回ダメージを与える。最大{Value2}回まで。"
+  UpgradedDescription: "{Damage}ダメージを{Times}回与える。\n{PlayerName}の|加速|の数値だけダメージが増加する。\n{PlayerName}の|加速|{Value3}点につき追加で1回ダメージを与える。最大{Value2}回まで。"
+  Name: 風靡する幻想
+AyaInstantShotJournalist:
+  Description: "{Block}|ブロック|を得る。\n|加速|{Value1}を得る。\n{Value2}ターンの間、{PlayerName}は|加速|を失わない。"
+  UpgradedDescription: "{Block}|ブロック|を得る。\n|加速|{Value1}を得る。\n{Value2}ターンの間、{PlayerName}は|加速|を失わない。"
+  Name: 瞬撮ジャーナリスト
+AyaLittleSalvation:
+  Description: "{Block}|ブロック|を得る。\n|加速|{Value1}と|臨時火力|{Value1}を得る。"
+  UpgradedDescription: "{Block}|ブロック|を得る。\n|加速|{Value1}と|臨時火力|{Value1}を得る。"
+  Name: 小さな救い
+AyaMapleFansWind:
+  Description: "|加速|{Value1}を得る。"
+  UpgradedDescription: "|加速|{Value1}を得る。"
+  Name: 楓扇風
+AyaMemoryinPicture:
+  Description: "{Shield}|バリア|を得る。\n|フィールド|に存在する|厄災|または状態異常カード1枚につき{Value1}|バリア|を得る。"
+  UpgradedDescription: "{Shield}|バリア|を得る。\n|フィールド|に存在する|厄災|または状態異常カード1枚につき{Value1}|バリア|を得る。"
+  Name: 思い出の写真
+AyaMomentofRelaxation:
+  Description: "|減速{Value1}|：{Mana}を得て、カードを{Value2}枚引く。"
+  UpgradedDescription: "|減速{Value1}|：{Mana}を得て、カードを{Value2}枚引く。"
+  Name: 安らぐひと時
+AyaMountainGodsProcession:
+  Description: "{PlayerName}が|加速|を得るたび、{Mana}を得る。\n|加速|{Value1}を得る。"
+  UpgradedDescription: "{PlayerName}が|加速|を得るたび、{Mana}を得る。\n|加速|{Value1}を得る。"
+  PhantasmModeDescription: "{PlayerName}が|加速|を得るたび、{Mana}を得る。"
+  PhantasmModeUpgradedDescription: "{PlayerName}が|加速|を得るたび、{Mana}を得る。"
+  Name: 山神渡御
+AyaNewsAyaPlayerUnitSp:
+  Description: "|ターン終了時|：|火力|{Value1}と|霊力|{Value1}を得る。"
+  Name: 文々。新聞　『射命丸文』特集
+  FlavorText: "まさか私が私自身のマイナス記事を書くとでも？"
+AyaNewsDissemination:
+  Description: "カードを{Value1}枚捨てる。\n捨てた枚数と同じ数の|文々。新聞|を手札に加える。\n{Mana}を得る。"
+  UpgradedDescription: "{Value1}から{Value2}枚のカードを捨てる。\n捨てた枚数と同じ数の|文々。新聞|を手札に加える。\n{Mana}を得る。"
+  Name: ニュースの流布
+AyaNewsOverwhelming:
+  Description: "|複製|でない|厄災|または状態異常カードを|廃棄|するたび、|文々。新聞|の|複製|を1枚手札に加える。それは|臨時コスト|{Mana}。"
+  UpgradedDescription: "|複製|でない|厄災|または状態異常カードを|廃棄|するたび、|文々。新聞|の|複製|を1枚手札に加える。それは|臨時コスト|{Mana}。"
+  Name: 空前の大ニュース
+AyaNewsSpecial:
+  Description: "{Block}|ブロック|を得る。\n敵全体に{Damage}ダメージを与え、|ロックオン|{Value1}を与える。\n|ロックオン|を持つ敵にはダメージを2回与える。"
+  Name: 文々。新聞・号外
+  AyaNewsDescription: "{Damage}ダメージを与える。\n|ロックオン|{Value1}を与える。"
+AyaOpeningWindoftheTenguRealm:
+  Description: "|戦闘開始時|：{SelfName}を|廃棄|する、|追加ターン|{Value1}を得る。"
+  UpgradedDescription: "|戦闘開始時|：{SelfName}を|廃棄|する、|追加ターン|{Value1}と|加速|{Value2}を得る。"
+  Name: 天狗道の開風
+AyaOrbGreenMorphBird:
+  Description: "敵全体に|グレイズ|{Value1}を与える。"
+  UpgradedDescription: "敵全体に|グレイズ|{Value1}を与える。"
+  Name: 鳥類の姿
+AyaOrbGreenMorphDog:
+  Description: "敵全体に|火力|{Value1}を与える。"
+  UpgradedDescription: "敵全体に|火力|{Value1}を与える。"
+  Name: 食肉目の姿
+AyaOrbGreenMorphFrog:
+  Description: "すべての敵は最大ライフ{Value1}を得る。"
+  UpgradedDescription: "すべての敵は最大ライフ{Value1}を得る。"
+  Name: 両生類の姿
+AyaOrbGreenMorphMan:
+  Description: "<sprite=\"Point\" name=\"Power\">{Value1}を失う。"
+  UpgradedDescription: "<sprite=\"Point\" name=\"Power\">{Value1}を失う。"
+  Name: 人間の姿
+AyaPanorama:
+  Description: "{Block}|ブロック|を得る。\n|文々。新聞・号外|の数値を{Value1}増やす。\n|廃棄された時|：|文々。新聞・号外|を1枚手札に加える。"
+  UpgradedDescription: "{Block}|ブロック|を得る。\n|文々。新聞・号外|の数値を{Value1}増やす。\n|廃棄された時|：|文々。新聞・号外|を1枚手札に加える。"
+  Name: パノラマ
+AyaPaperRecycling:
+  Description: "手札にある|厄災|または状態異常カードを1枚|廃棄|する。|廃棄|したカードのコストに等しいマナを得る。\nカードを1枚引く。\n{Mana}を得る。"
+  UpgradedDescription: "手札にある|厄災|または状態異常カードを1枚|廃棄|する。|廃棄|したカードのコストに等しいマナを得る。\nカードを1枚引く。\n{Mana}を得る。"
+  Name: 紙リサイクル
+AyaPeltingintheDarkNight:
+  Description: "|手札に加わった時|：ライフが最も少ない敵に{Damage}ダメージを与えて、カードを1枚引き{SelfName}を捨てる。\nこの効果は1ターンにつき{Value1}回しか発動しない。"
+  UpgradedDescription: "|手札に加わった時|：ライフが最も少ない敵に{Damage}ダメージを与えて、カードを1枚引き{SelfName}を捨てる。\nこの効果は1ターンにつき{Value1}回しか発動しない。"
+  ExtraDescription1: "|d:手札に加わった時:ライフが最も少ない敵に{Damage}ダメージを与えて、カードを1枚引き{SelfName}を捨てる。\nこの効果は1ターンにつき{Value1}回しか発動しない。|"
+  UpgradedExtraDescription1: "|d:手札に加わった時:ライフが最も少ない敵に{Damage}ダメージを与えて、カードを1枚引き{SelfName}を捨てる。\nこの効果は1ターンにつき{Value1}回しか発動しない。|"
+  Name: 暗夜の礫
+AyaPhantasmModeTooltip:
+  Description: "有効化すると射命丸文modのキャラクターが弱体化します。\n<color=#dd7473>変更するにはゲームを終了する必要がある。</color>"
+  Name: ファンタズムモード
+AyaPinnacleofEvasion:
+  Description: "|減速{Value1}|：|完全グレイズ|{Value2}を得る。"
+  UpgradedDescription: "|減速{Value1}|：|完全グレイズ|{Value2}を得る。"
+  Name: 究極の回避
+AyaProtectionPaper:
+  Description: "|厄災|または状態異常カードが|廃棄|されるたび、{Value1}|ブロック|を得る。"
+  UpgradedDescription: "|厄災|または状態異常カードが|廃棄|されるたび、{Value1}|ブロック|を得る。"
+  Name: プロテクションペーパー
+AyaQuickDraw:
+  Description: "|加速|{Value1}を得る。\nその後、山札の一番上のカードをプレイする。"
+  UpgradedDescription: "|加速|{Value1}を得る。\nその後、山札の一番上のカードをプレイする。"
+  Name: クイックドロー
+AyaQuickShootingTenguScoop:
+  Description: "{Block}|ブロック|を得る。\nこのターン中、状態異常カードのコストは{Mana}減る。\n|文々。新聞|を{Value1}枚手札に加える。"
+  UpgradedDescription: "{Block}|ブロック|を得る。\nこのターン中、状態異常カードのコストは{Mana}減る。\n|文々。新聞|を{Value1}枚手札に加える。"
+  Name: 激撮テングスクープ
+AyaRequestingAirSupport:
+  Description: "|無人航空鴉|を{Value1}枚召喚済みの状態で手札に加える。"
+  UpgradedDescription: "|無人航空鴉|を{Value1}枚召喚済みの状態で手札に加える。"
+  Name: 空援要請
+AyaRouteForbiddentoMan:
+  Description: "{PlayerName}のターン終了時、そのターン中に|廃棄|したカードの枚数だけランダムな敵に{Damage}ダメージと|ロックオン|{Value1}を与える。それは|精密|を持つ。最大{Value2}回まで。"
+  UpgradedDescription: "{PlayerName}のターン終了時、そのターン中に|廃棄|したカードの枚数だけランダムな敵に{Damage}ダメージと|ロックオン|{Value1}を与える。それは|精密|を持つ。最大{Value2}回まで。\n|充填|：{Mana}を得る。"
+  UpgradedExtraDescription1: "{PlayerName}のターン終了時、そのターン中に|廃棄|したカードの枚数だけランダムな敵に{Damage}ダメージと|ロックオン|{Value1}を与える。それは|精密|を持つ。最大{Value2}回まで。\n|d:充填:{Mana}を得る。|"
+  PhantasmModeDescription: "{PlayerName}のターン終了時、そのターン中に|廃棄|したカードの枚数だけランダムな敵に{Damage}ダメージを与える。それは|精密|を持つ。最大{Value2}回まで。"
+  PhantasmModeUpgradedDescription: "{PlayerName}のターン終了時、そのターン中に|廃棄|したカードの枚数だけランダムな敵に{Damage}ダメージを与える。それは|精密|を持つ。最大{Value2}回まで。\n|充填|：{Mana}を得る。"
+  PhantasmModeUpgradedExtraDescription1: "{PlayerName}のターン終了時、そのターン中に|廃棄|したカードの枚数だけランダムな敵に{Damage}ダメージを与える。それは|精密|を持つ。最大{Value2}回まで。\n|d:充填:{Mana}を得る。|"
+  Name: 人間禁制の道
+AyaSarutahikosGuidance:
+  Description: "手札を全て捨てて、捨てた枚数と同じ数だけカードを引く。\n捨てたカード1枚につき|加速|{Value1}を得る。\n|充填|：{Mana}を得る。"
+  UpgradedDescription: "手札を全て捨てて、捨てた枚数と同じ数だけカードを引く。\n捨てたカード1枚につき|加速|{Value1}を得る。\n|充填|：{Mana}を得る。"
+  ExtraDescription1: "手札を全て捨てて、捨てた枚数と同じ数だけカードを引く。\n捨てたカード1枚につき|加速|{Value1}を得る。\n|d:充填:{Mana}を得る。|"
+  UpgradedExtraDescription1: "手札を全て捨てて、捨てた枚数と同じ数だけカードを引く。\n捨てたカード1枚につき|加速|{Value1}を得る。\n|d:充填:{Mana}を得る。|"
+  Name: 猿田彦の先導
+AyaSelectNo:
+  Description: ""
+  Name: いいえ
+AyaSelectYes:
+  Description: ""
+  Name: はい
+AyaSettlementDate:
+  Description: "|火力|{Value1}を得る。\n<sprite=\"Point\" name=\"Gold\">{Value2}を得る。\n|厄災|または状態異常カードを|廃棄|するたび、{SelfName}で得られる<sprite=\"Point\" name=\"Gold\">の値を|永久|に{Value1}増加させる。\n|消耗品\u3010{ToolPlayableTimes}\u3011|"
+  UpgradedDescription: "|火力|{Value1}を得る。\n<sprite=\"Point\" name=\"Gold\">{Value2}を得る。\n|厄災|または状態異常カードを|廃棄|するたび、{SelfName}で得られる<sprite=\"Point\" name=\"Gold\">の値を|永久|に{Value1}増加させる。\n|消耗品\u3010{ToolPlayableTimes}\u3011|"
+  Name: 給料日
+  DetailText: "{SelfName}は戦闘中に作成されることはなく、コピーすることもできない。"
+  FlavorText: "給料日じゃ！"
+AyaSickleWeaselVeiling:
+  Description: "{PlayerName}が攻撃を0ダメージで受けた時、攻撃してきた相手に{Value1}ダメージを与える。"
+  UpgradedDescription: "{PlayerName}が攻撃を0ダメージで受けた時、攻撃してきた相手に{Value1}ダメージを与える。"
+  Name: 鎌鼬ベーリング
+AyaTakePicture:
+  Description: "|ロックオン|{Value1}を与える。\n|文々。新聞|を{Value2}枚手札に加える。\nそれらの|臨時コスト|を{Mana}減らす。"
+  UpgradedDescription: "|ロックオン|{Value1}を与える。\n|文々。新聞|を{Value2}枚手札に加える。\nそれらの|臨時コスト|を{Mana}減らす。"
+  PhantasmModeDescription: "|文々。新聞|を{Value2}枚手札に加える。\nそれらの|臨時コスト|を{Mana}減らす。"
+  PhantasmModeUpgradedDescription: "|文々。新聞|を{Value2}枚手札に加える。\nそれらの|臨時コスト|を{Mana}減らす。"
+  Name: 写真撮影
+AyaTenguGaleBullet:
+  Description: "{Damage}ダメージを{Times}回与える。\n|加速|{Value1}を得る。"
+  UpgradedDescription: "{Damage}ダメージを{Times}回与える。\n|加速|{Value1}を得る。"
+  Name: 天狗烈風弾
+AyaTenguGirlsBanquet:
+  Description: "{Shield}|バリア|を得る。\n手札のカード全てをこの戦闘中|アップグレード|し、それらの|ブロック|、|バリア|、ダメージを値を{Value1}増やす。"
+  UpgradedDescription: "{Shield}|バリア|を得る。\n手札のカード全てをこの戦闘中|アップグレード|し、それらの|ブロック|、|バリア|、ダメージを値を{Value1}増やす。"
+  Name: 天狗少女の宴
+AyaTenguNewspaperDeadlineDay:
+  Description: "手札の上限が{MaxHand}枚になる。\n全ての|厄災|と状態異常カードは|補充|を持つ。\n|所持時|：|永き夜|を無効化する。"
+  UpgradedDescription: "手札の上限が{MaxHand}枚になる。\n全ての|厄災|と状態異常カードは|補充|を持つ。\n|所持時|：|永き夜|を無効化する。"
+  Name: 天狗報即日限
+AyaTenguTreeFelling:
+  Description: "{Block}|ブロック|を得る。\n{Shield}|バリア|を得る。\n{PlayerName}のターン終了時、{SelfName}で得られる|ブロック|と|バリア|の数値は{Value1}減る。"
+  UpgradedDescription: "{Block}|ブロック|を得る。\n{Shield}|バリア|を得る。\n{PlayerName}のターン終了時、{SelfName}で得られる|ブロック|と|バリア|の数値は{Value1}減る。"
+  Name: 天狗ナメシ
+AyaTengusDrumbeats:
+  Description: "敵全体に{Damage}ダメージを与える。\n|臨時火力|{Value1}を得る。\n|減速{Value1}|：次の{PlayerName}のターン開始時にこの効果を再び発動する。"
+  UpgradedDescription: "敵全体に{Damage}ダメージを与える。\n|臨時火力|{Value1}を得る。\n|減速{Value1}|：次の{PlayerName}のターン開始時にこの効果を再び発動する。"
+  PhantasmModeDescription: "敵全体に{Damage}ダメージを与える。\n|減速{Value1}|：次の{PlayerName}のターン開始時にこの効果を再び発動する。"
+  PhantasmModeUpgradedDescription: "敵全体に{Damage}ダメージを与える。\n|減速{Value1}|：次の{PlayerName}のターン開始時にこの効果を再び発動する。"
+  Name: 天狗の太鼓
+  FlavorText: "あやや・ざ・ろっく！"
+AyaTengusEdiblePompoms:
+  Description: "{Block}|ブロック|を得る。\nライフを{Value1}回復する。\n<sprite=\"Point\" name=\"Power\">{Value1}を得る。\n|戦闘開始時|：{PlayerName}の{Value2}ターン目の終了時、{SelfName}を|廃棄|する。"
+  UpgradedDescription: "{Block}|ブロック|を得る。\nライフを{Value1}回復する。\n<sprite=\"Point\" name=\"Power\">{Value1}を得る。\n|戦闘開始時|：{PlayerName}の{Value2}ターン目の終了時、{SelfName}を|廃棄|する。"
+  Name: 天狗の結袈裟(食用)
+  FlavorText: "「椛のは味噌味だわ」\n- 射命丸文"
+AyaTengusFallWind:
+  Description: "次に使用する{Value1}枚のカードは2回使用される。"
+  UpgradedDescription: "次に使用する{Value1}枚のカードは2回使用される。"
+  Name: 天狗颪
+AyaThinOut:
+  Description: "{Block}|ブロック|を得る。\n山札の上から{Value1}枚の|厄災|または状態異常カードを手札に移動させる。"
+  UpgradedDescription: "{Block}|ブロック|を得る。\n山札の上から{Value1}枚の|厄災|または状態異常カードを手札に移動させる。"
+  Name: 間引き
+AyaToolBunbunNewspaperStore:
+  LockedDescription: "射命丸文を使用してハード以上の難易度で異変を解決すると解放される。"
+  Description: "{Value1}枚の|文|のカードの中から1枚選んで手札に加える。それは|コスト|{Mana}。\n|消耗品\u3010{DeckCounter}\u3011|"
+  Name: 文々。新聞特売ストア
+AyaToolCrowsEgg:
+  LockedDescription: "射命丸文を使用してノーマル以上の難易度で異変を解決すると解放される。"
+  Description: "ライフを{Value1}回復する。\n|臨時火力|{Value1}を得る。\n{PlayerName}のターン開始時、このカードの効果の値を1減らして発動する。\n|消耗品\u3010{DeckCounter}\u3011|"
+  Name: カラスの卵
+AyaToolForcedBreakthrough:
+  LockedDescription: "射命丸文を使用してルナティック以上の難易度で異変を解決すると解放される。"
+  Description: "戦闘を終わらせる。\n|ボス戦の開始時|：{SelfName}を戦闘から消滅させる。\n|消耗品\u3010{DeckCounter}\u3011|"
+  Name: 強行突破
+  ForcedBreakthrough1: "失礼！"
+  ForcedBreakthrough2: "スクープを見逃すわけにはいきません！"
+  ForcedBreakthrough3: "今は付き合うヒマがない！"
+AyaToriiWhorlWind:
+  Description: "手札から最大{Value1}枚のカードを|廃棄|する。|廃棄|した枚数と等しい数の|文々。新聞|を手札に加える。\n|加速|{Value2}を得る。"
+  UpgradedDescription: "手札、山札、捨て札から最大{Value1}枚のカードを|廃棄|する。\n|廃棄|した枚数と等しい数の|文々。新聞|を手札に加える。\n|加速|{Value2}を得る。"
+  Name: 鳥居つむじ風
+AyaVitalityonVacation:
+  Description: ""
+  UpgradedDescription: ""
+  PhantasmModeDescription: ""
+  PhantasmModeUpgradedDescription: ""
+  Name: 
+AyaWindGodsLeafVeiling:
+  Description: "{Damage}ダメージを与える。\n対象への攻撃は全て|精密|を得る。\n|文々。新聞|を1枚手札に加える。"
+  UpgradedDescription: "{Damage}ダメージを与える。\n対象への攻撃は全て|精密|を得る。\n|文々。新聞|を1枚手札に加える。"
+  Name: 風神木の葉隠れ
+  
+
+FlandreAndThenWillThereBeNone:
+  Description: "|供物|{Value1}。\n{PlayerName}は次の{FlandreValue2}ターンの間、あらゆるダメージとデバフを無効化する。\n|災禍|{Value3}を得る。敵全体に{FlandreDamage}ダメージを{Value4}回与える。\n各戦闘で最初の{SelfName}のみ効果を発揮する。"
+  UpgradedDescription: "|供物|{Value1}。\n{PlayerName}は次の{FlandreValue2}ターンの間、あらゆるダメージとデバフを無効化する。\n|災禍|{Value3}を得る。敵全体に{FlandreDamage}ダメージを{Value4}回与える。\n各戦闘で最初の{SelfName}のみ効果を発揮する。"
+  ExtraDescription1: "|d:供物 {Value1}。\n{PlayerName}は次の{FlandreValue2}ターンの間、あらゆるダメージとデバフを無効化する。\n|災禍|{Value3}を得る。敵全体に{FlandreDamage}ダメージを{Value4}回与える。\n各戦闘で最初の{SelfName}のみ効果を発揮する。"
+  PhantasmModeDescription: "|供物|{Value1}。\n{PlayerName}は次の{FlandreValue2}ターンの間、あらゆるダメージとデバフを無効化する。\n|災禍|{Value3}を得る。敵全体に{FlandreDamage}ダメージを{Value4}回与える。|狂気|{Value5}を得る。\n各戦闘で最初の{SelfName}のみ効果を発揮する。"
+  PhantasmModeUpgradedDescription: "|供物|{Value1}。\n{PlayerName}は次の{FlandreValue2}ターンの間、あらゆるダメージとデバフを無効化する。\n|災禍|{Value3}を得る。敵全体に{FlandreDamage}ダメージを{Value4}回与える。|狂気|{Value5}を得る。\n各戦闘で最初の{SelfName}のみ効果を発揮する。"
+  PhantasmModeExtraDescription1: "|d:供物{Value1}。\n{PlayerName}は次の{FlandreValue2}ターンの間、あらゆるダメージとデバフを無効化する。\n|災禍|{Value3}を得る。敵全体に{FlandreDamage}ダメージを{Value4}回与える。\n{Value5} 狂気を得る。\n各戦闘で最初の{SelfName}のみ効果を発揮する。"
+  Name: そして誰もいなくなるか？
+
+ 
+  
+  
+FlandreArmageddon:
+  Description: "敵全体に{FlandreDamage}ダメージを{FlandreValue1:plural one='%回' other='%回'}与える。\n|フィールド|にある攻撃カード1枚につき、{SelfName}のダメージが{FlandreValue2}増加する。\nこの戦闘中、最初に発動した{SelfName}のみ効果を発揮する。"
+  UpgradedDescription: "敵全体に{FlandreDamage}ダメージを{FlandreValue1:plural one='%回' other='%回'}与える。\n|フィールド|にある攻撃カード1枚につき、{SelfName}のダメージが{FlandreValue2}増加する。\nこの戦闘中、最初に発動した{SelfName}のみ効果を発揮する。"
+  ExtraDescription1: "|d:敵全体に{FlandreDamage}ダメージを{FlandreValue1:plural one='%回' other='%回'}与える。\n|フィールド|にある攻撃カード1枚につき、{SelfName}のダメージが{FlandreValue2}増加する。|\nこの戦闘中、最初に発動した{SelfName}のみ効果を発揮する。"
+  PhantasmModeDescription: "敵全体に{FlandreDamage}ダメージを{FlandreValue1:plural one='%回' other='%回'}与える。\n|フィールド|にある攻撃カード1枚につき、{SelfName}のダメージが{FlandreValue2}増加する。\n|狂気|{Value3} を得る。\nこの戦闘中、最初に発動した{SelfName}のみ効果を発揮する。"
+  PhantasmModeUpgradedDescription: "敵全体に{FlandreDamage}ダメージを{FlandreValue1:plural one='%回' other='%回'}与える。\n|フィールド|にある攻撃カード1枚につき、{SelfName}のダメージが{FlandreValue2}増加する。\n|狂気|{Value3} を得る。\nこの戦闘中、最初に発動した{SelfName}のみ効果を発揮する。"
+  PhantasmModeExtraDescription1: "|d:敵全体に{FlandreDamage}ダメージを{FlandreValue1:plural one='%回' other='%回'}与える。\n|フィールド|にある攻撃カード1枚につき、{SelfName}のダメージが{FlandreValue2}増加する。\n|狂気|{Value3} を得る。|\nこの戦闘中、最初に発動した{SelfName}のみ効果を発揮する。"
+  Name: アルマゲドン
+  DetailText: "{SelfName}は戦闘中にランダム生成されず、コピーすることもできない。"
+  FlavorText: "\"地球を宇宙の塵にするつもり！？やめて！\"\n- 摩多羅隠岐奈\n\"大丈夫、力の扱いにはかなり慣れてるから。\"\n- フランドール・スカーレット"
+  
+
+
+FlandreAttackB:
+  Description: "{FlandreDamage} ダメージを与える。"
+  UpgradedDescription: "{FlandreDamage} ダメージを与える。"
+  Name: 華やかな弾幕
+FlandreAttackR:
+  Description: "{FlandreDamage} ダメージを与える。"
+  UpgradedDescription: "{FlandreDamage} ダメージを与える。"
+  Name: ホットショット
+  
+FlandreBitestheDust:
+  Description: "{FlandreShield}|バリア|を得る。\n|帯電|{FlandreValue1}を得る。\n |狂気|{Value2}を得る。\nボス以外の戦闘中に{PlayerName}のライフが{Value3}%以下の場合、現在のレベルをやり直す。({Amount})\nその後、{PlayerName}の最初のターン開始時、敵全体を|破壊|し、|狂気|{Value4}を得て、{SelfName}を戦闘およびライブラリから除外する。"
+  UpgradedDescription: "{FlandreShield}|バリア|を得る。\n|帯電|{FlandreValue1}を得る。\n |狂気|{Value2}を得る。\nボス以外の戦闘中に{PlayerName}のライフが{Value3}%以下の場合、現在のレベルをやり直す。({Amount})\nその後、{PlayerName}の最初のターン開始時、敵全体を|破壊|し、|狂気|{Value4}を得て、{SelfName}を戦闘およびライブラリから除外する。"
+  NonbattleDescription: "{FlandreShield}|バリア|を得る。\n|帯電|{FlandreValue1}を得る。\n|狂気|{Value2} を得る。\nボス以外の戦闘中に{PlayerName}のライフが{Value3}%以下の場合、現在のレベルをやり直す。\nその後、{PlayerName}の最初のターン開始時、敵全体を|破壊|し、|狂気|{Value4}を得て、{SelfName}を戦闘およびライブラリから除外する。"
+  UpgradedNonbattleDescription: "{FlandreShield}|バリア|を得る。\n|帯電|{FlandreValue1}を得る。\n|狂気|{Value2} を得る。\nボス以外の戦闘中に{PlayerName}のライフが{Value3}%以下の場合、現在のレベルをやり直す。\nその後、{PlayerName}の最初のターン開始時、敵全体を|破壊|し、|狂気|{Value4}を得て、{SelfName}を戦闘およびライブラリから除外する。"
+  Name: 負けて死ね
+  DetailText: "{SelfName}は戦闘中にランダムに生成されず、複製もできない。"
+
+FlandreBlockUB:
+  Description: "{FlandreBlock}|ブロック|を得る。"
+  UpgradedDescription: "{FlandreBlock}|ブロック|を得る。"
+  Name: 弾幕粉砕
+FlandreBlockUR:
+  Description: "{FlandreBlock}|ブロック|を得る。"
+  UpgradedDescription: "{FlandreBlock}|ブロック|を得る。"
+  Name: グリッター
+FlandreBloodisFuel:
+  Description: "ライフを{Value1}失う。\n{FlandreMana}を得る。\n次の{FlandreValue2:plural one='%ターン' other='%ターン'}の間、未使用のマナは失われない。"
+  UpgradedDescription: "ライフを{Value1}失う。\n{FlandreMana}を得る。\n次の{FlandreValue2:plural one='%ターン' other='%ターン'}の間、未使用のマナは失われない。"
+  Name: 血は燃料
+FlandreBloodyCatastrophe:
+  Description: "敵全体に{FlandreDamage}ダメージを{FlandreValue1}回与える。\nライフを{FlandreValue2}回復する。\nこの戦闘中、{PlayerName}の攻撃は|精密|を持つ。"
+  UpgradedDescription: "敵全体に{FlandreDamage}ダメージを{FlandreValue1}回与える。\nライフを{FlandreValue2}回復する。\nこの戦闘中、{PlayerName}の攻撃は|精密|を持つ。"
+  Name: ブラッディカタストロフ
+  
+FlandreBloodyRequiem:
+  Description: "次の{FlandreValue1:plural one='%ターン' other='%ターン'}の間、すべての|フランドール|カードは|血の渇望|を得る。また、|血の渇望|は常に最大値で適用される。"
+  UpgradedDescription: "次の{FlandreValue1:plural one='%ターン' other='%ターン'}の間、すべての|フランドール|カードは|血の渇望|を得る。また、|血の渇望|は常に最大値で適用される。"
+  PhantasmModeDescription: "次の{FlandreValue1:plural one='%ターン' other='%ターン'}の間、すべての|フランドール|カードは|血の渇望|を得る。また、|血の渇望|は常に最大値で適用される。\n|狂気|{Value2}を得る。"
+  PhantasmModeUpgradedDescription: "次の{FlandreValue1:plural one='%ターン' other='%ターン'}の間、すべての|フランドール|カードは|血の渇望|を得る。また、|血の渇望|は常に最大値で適用される。\n|狂気|{Value2}を得る。"
+  Name: ブラッディレクイエム
+
+
+FlandreBrokenGlass:
+  Description: "|供物|{Value1}。\n{FlandreDamage}ダメージを{FlandreValue2}回与える。"
+  UpgradedDescription: "|供物|{Value1}。\n{FlandreDamage}ダメージを{FlandreValue2}回与える。"
+  Name: 割れたガラス
+
+FlandreBurningPassion:
+  Description: "カードを{FlandreValue1}枚引く。\n|業火|{FlandreValue2}を与える。"
+  UpgradedDescription: "カードを{FlandreValue1}枚引く。\n|業火|{FlandreValue2}を与える。"
+  Name: 燃え上がる情熱
+
+FlandreCageofVampire:
+  Description: "{FlandreDamage}ダメージを与え、|弱体|{FlandreValue1}を与える。\n|廃棄された時|：敵全体に{FlandreDamage}ダメージを与え、|弱体|{FlandreValue1}を与える。"
+  UpgradedDescription: "{FlandreDamage}ダメージを与え、|弱体|{FlandreValue1}を与える。\n|廃棄された時|：敵全体に{FlandreDamage}ダメージを与え、|弱体|{FlandreValue1}を与える。"
+  Name: 吸血鬼の檻
+ 
+
+FlandreCasuallyApproachChild:
+  Description: "{FlandreShield}|バリア|を得る。\n|災禍|{FlandreValue1}を得る。"
+  UpgradedDescription: "{FlandreShield}|バリア|を得る。\n|災禍|{FlandreValue1}を得る。"
+  Name: 無邪気な接近
+FlandreCatadioptric:
+  Description: "|手札効果|: {PlayerName}が攻撃する度に、対象に{FlandreDamage}ダメージを与える。"
+  UpgradedDescription: "|手札効果|: {PlayerName}が攻撃する度に、対象に{FlandreDamage}ダメージを与える。"
+  Name: 屈折反射
+  
+FlandreCatastropheofSeventeenArticles:
+  Description: "{FlandreShield}|バリア|を得る。\n戦闘終了まで、すべてのカードの|アップグレード|{FlandreValue1}回行う。"
+  UpgradedDescription: "{FlandreShield}|バリア|を得る。\n戦闘終了まで、すべてのカードの|アップグレード|{FlandreValue1}回行う。"
+  Name: 十七条の破滅
+  
+FlandreCerberusClipper:
+  Description: "{FlandreDamage}ダメージを{FlandreValue1}回与える。\n|弱体|{FlandreValue2}と|脱力|{FlandreValue2}を与える。\nライフ{Value3}を得る。"
+  UpgradedDescription: "{FlandreDamage}ダメージを{FlandreValue1}回与える。\n|弱体|{FlandreValue2}と|脱力|{FlandreValue2}を与える。\nライフ{Value3}を得る。"
+  Name: ケルベロスクリッパー
+
+FlandreChaosIncarnation:
+  Description: "{FlandreBlock}|ブロック|を得る。\n|ランダム|に手札がいっぱいになるまで|クリスタル|を手札に加える。\n手札の|クリスタル|をすべて使用する。"
+  UpgradedDescription: "{FlandreBlock}|ブロック|を得る。\n|ランダム|に手札がいっぱいになるまで|クリスタル|を手札に加える。\n手札の|クリスタル|をすべて使用する。"
+  ExtraDescription1: "{FlandreBlock}|ブロック|を得る。\n|ランダム|に手札がいっぱいになるまで|クリスタル|+{Value3}を手札に加える。\n手札の|クリスタル|をすべて使用する。"
+  Name: 混沌の化身
+
+FlandreChaosManaStorm:
+  Description: "敵全体に{FlandreDamage}ダメージを与え、|ランダム|なマナ{FlandreValue1}を得る。\n|消費した{Mana}|1つにつき、この効果を繰り返す。"
+  UpgradedDescription: "敵全体に{FlandreDamage}ダメージを与え、|ランダム|なマナ{FlandreValue1}を得る。\n|消費した{Mana}|1つにつき、この効果を繰り返す。"
+  Name: 混沌のマナ嵐
+
+FlandreChromaticWings:
+  Description: "|供物|{Value1}。\n{PlayerName}のターン開始時、{FlandreMana}を得る。"
+  UpgradedDescription: "|供物|{Value1}。\n{PlayerName}のターン開始時、{FlandreMana}を得る。"
+  Name: 虹色の翼
+
+FlandreClockthatTicksAwaythePast:
+  Description: "|供物|{Value1}。\n敵全体に{FlandreValue2}ダメージを与える。\n手札を山札に戻す。\n{PlayerName}のターンを終了する。その後、追加ターンを得る。\nその追加ターン中、ドローの代わりに捨て札の一番上の{Value3}枚のカードを手札に戻す。"
+  UpgradedDescription: "|供物|{Value1}。\n敵全体に{FlandreValue2}ダメージを与える。\n手札を山札に戻す。\n{PlayerName}のターンを終了する。その後、追加ターンを得る。\nその追加ターン中、ドローの代わりに捨て札の一番上の{Value3}枚のカードを手札に戻す。"
+  Name: 過去を刻む時計
+
+FlandreColorofMadness:
+  Description: "|供物|{Value1}。\n攻撃カードを使用するたび、ランダムな|クリスタル|{FlandreValue2}枚を使用する。"
+  UpgradedDescription: "|供物|{Value1}。\n攻撃カードを使用するたび、ランダムな|クリスタル|{FlandreValue2}枚を使用する。"
+  PhantasmModeDescription: "|供物|{Value1}。\n攻撃カードを使用するたび、ランダムな|クリスタル|{FlandreValue2}枚を使用する。\n|狂気|{Value3}を得る。"
+  PhantasmModeUpgradedDescription: "|供物|{Value1}。\n攻撃カードを使用するたび、ランダムな|クリスタル|{FlandreValue2}枚を使用する。\n|狂気|{Value3}を得る。"
+  Name: 狂気の色彩
+
+FlandreCombatHigh:
+  Description: "|火力|{FlandreValue1}と|霊力|{FlandreValue1}を得る。"
+  UpgradedDescription: "|火力|{FlandreValue1}と|霊力|{FlandreValue1}を得る。"
+  Name: 戦闘高揚
+
+FlandreCranberryTrap:
+  Description: "{PlayerName}のターン終了時、敵全体に{FlandreValue1}ダメージを与える。|精密|\n敵からダメージを受けた時、{Amount}|バリア|を得て、すべての|クランベリートラップ|を失う。"
+  UpgradedDescription: "{PlayerName}のターン終了時、敵全体に{FlandreValue1}ダメージを与える。|精密|\n敵からダメージを受けた時、{Amount}|バリア|を得て、すべての|クランベリートラップ|を失う。"
+  Name: クランベリートラップ
+
+FlandreCreepingBloodstain:
+  Description: ""
+  UpgradedDescription: ""
+  Name: 這い寄る血痕
+
+
+FlandreCrystalBullet:
+  Description: "{FlandreDamage}ダメージを与える。\nランダムな|クリスタル|{FlandreValue1}枚を手札に加える。"
+  UpgradedDescription: "{FlandreDamage}ダメージを与える。\nランダムな|クリスタル|{FlandreValue1}枚を手札に加える。"
+  ExtraDescription1: "{FlandreDamage}ダメージを与える。\nランダムな|クリスタル|+{Value3}を{FlandreValue1}枚手札に加える。"
+  Name: クリスタルバレット
+
+FlandreCrystallineOutburst:
+  Description: "|供物|{Value1}。\n|混沌のクリスタル|、|悪魔のクリスタル|、|狂気のクリスタル|、|孤独のクリスタル|がすべて発動した時、|破滅のクリスタル|{FlandreValue2}枚を手札に加える。"
+  UpgradedDescription: "|供物|{Value1}。\n|混沌のクリスタル|、|悪魔のクリスタル|、|狂気のクリスタル|、|孤独のクリスタル|がすべて発動した時、|破滅のクリスタル|{FlandreValue2}枚を手札に加える。\n|クリスタル|{Value3}枚を山札に加える。"
+  Name: 結晶の爆発
+
+FlandreCrystallization:
+  Description: "|供物|{Value1}。\nランダムな|クリスタル|{FlandreValue2}枚を手札に加える。"
+  UpgradedDescription: "|供物|{Value1}。\nランダムな|クリスタル|+{Value3}を{FlandreValue2}枚手札に加える。"
+  Name: 結晶化
+  
+FlandreCrystallizedCatastrophe:
+  Description: "敵全体に{FlandreDamage}ダメージを与える。\n敵全体に|業火|{FlandreValue1}と|破滅|{FlandreValue2}を与える。\nライフ{Value3}と<sprite=\"Point\" name=\"Gold\">{FlandreValue1}を得る。\n|p:ランダム|なマナ{Value3}を得る。\n{FlandreShield}|バリア|と|グレイズ|{Value4}を得る。"
+  UpgradedDescription: "敵全体に{FlandreDamage}ダメージを与える。\n敵全体に|業火|{FlandreValue1}と|破滅|{FlandreValue2}を与える。\nライフ{Value3}と<sprite=\"Point\" name=\"Gold\">{FlandreValue1}を得る。\n|p:ランダム|なマナ{Value3}を得る。\n{FlandreShield}|バリア|と|グレイズ|{Value4}を得る。"
+  Name: 破滅のクリスタル
+  
+FlandreCrystallizedChaos:
+  Description: "{FlandreDamage}ダメージを与える。\n|p:ランダム|で|業火|{FlandreValue1}または|破滅|{FlandreValue2}を与える。"
+  UpgradedDescription: "{FlandreDamage}ダメージを与える。\n|p:ランダム|で|業火|{FlandreValue1}または|破滅|{FlandreValue2}を与える。"
+  Name: 混沌のクリスタル
+
+FlandreCrystallizedDevilry:
+  Description: "{FlandreDamage}ダメージを与える。\n|p:ランダム|でライフ{FlandreValue1}または<sprite=\"Point\" name=\"Gold\">{FlandreValue2}を得る。"
+  UpgradedDescription: "{FlandreDamage}ダメージを与える。\n|p:ランダム|でライフ{FlandreValue1}または<sprite=\"Point\" name=\"Gold\">{FlandreValue2}を得る。"
+  Name: 悪魔のクリスタル
+  FlavorText: "\"知らない悪魔より、知ってる悪魔のほうがマシってね！\"\n- フランドール・スカーレット"
+
+FlandreCrystallizedLunacy:
+  Description: "{FlandreDamage}ダメージを与える。\n|p:ランダム|なマナ{FlandreValue1}を得る。"
+  UpgradedDescription: "{FlandreDamage}ダメージを与える。\n|p:ランダム|なマナ{FlandreValue1}を得る。"
+  Name: 狂気のクリスタル
+
+FlandreCrystallizedSolitude:
+  Description: "{FlandreDamage}ダメージを与える。\n|p:ランダム|で{FlandreShield}|バリア|または|グレイズ|{FlandreValue1}を得る。"
+  UpgradedDescription: "{FlandreDamage}ダメージを与える。\n|p:ランダム|で{FlandreShield}|バリア|または|グレイズ|{FlandreValue1}を得る。"
+  Name: 孤独のクリスタル
+  
+FlandreDanmakuHeart:
+  Description: ""
+  UpgradedDescription: ""
+  Name: 弾幕ハート
+  
+FlandreDanmakuofDenial:
+  Description: "|供物|{Value1}。\n攻撃カードを発動するたび、{FlandreValue2}|ブロック|を得る。"
+  UpgradedDescription: "|供物|{Value1}。\n攻撃カードを発動するたび、{FlandreValue2}|ブロック|を得る。"
+  Name: 拒絶の弾幕
+
+FlandreDeathorTreat:
+  Description: "|供物|{Value1}。\n手札に|悪魔のクリスタル|を{FlandreValue2}枚を加える。\n|初見|：|災禍|{Value3}を得る。"
+  UpgradedDescription: "|供物|{Value1}。\n手札に|悪魔のクリスタル+{Value4}|を{FlandreValue2}枚を加える。\n|初見|：|災禍|{Value3}を得る。"
+  ExtraDescription1: "|供物| {Value1}.\n手札に|悪魔のクリスタル|を{FlandreValue2}枚に加える。\n|d:初見：|災禍|{Value3}を得る。|"
+  ExtraDescription2: "|供物| {Value1}.\n手札に|悪魔のクリスタル+{Value4}|を{FlandreValue2}枚加える。\n|d:初見：|災禍|{Value3}を得る。|"
+  Name: お菓子くれなきゃ殺しちゃうぞ
+
+FlandreDeliciousHeart:
+  Description: "ライフ{FlandreValue1}を得る。\n|永久|に{SelfName}によるライフ回復量を{FlandreValue2}増加させる。"
+  UpgradedDescription: "ライフ{FlandreValue1}を得る。\n|永久|に{SelfName}によるライフ回復量を{FlandreValue2}増加させる。"
+  Name: 美味しい心臓
+
+FlandreDesolatePlace:
+  Description: "{FlandreBlock}|ブロック|を得る。\n|グレイズ|{FlandreValue1}を得る。"
+  UpgradedDescription: "{FlandreBlock}|ブロック|を得る。\n|グレイズ|{FlandreValue1}を得る。"
+  Name: 人里離れた場所
+  
+FlandreDestroyerinthePalmofOnesHand:
+  Description: "{FlandreDamage}ダメージを与える。\n{PlayerName}が持つ|災禍|1つにつき、{SelfName}のダメージが{FlandreValue1}増加する。\n対象がネームドではない場合、|破壊|する。"
+  UpgradedDescription: "{FlandreDamage}ダメージを与える。\n{PlayerName}が持つ|災禍|1つにつき、{SelfName}のダメージが{FlandreValue1}増加する。\n対象がネームドではない場合、|破壊|する。"
+  Name: 手のひらの破壊者
+  DestroyerinthePalmofOnesHand1Flandre: "ぎゅっとして……"
+  DestroyerinthePalmofOnesHand2Flandre: "どかーん。"
+
+FlandreDestructiveImpulse:
+  Description: "|ターン終了時|：|狂気|{Value1}を得る。\n|廃棄された時|：|廃棄場|から{SelfName}を捨て札に戻す。"
+  UpgradedDescription: "|ターン終了時|：|狂気|{Value1}を得る。\n|廃棄された時|：|廃棄場|から{SelfName}を捨て札に戻す。"
+  Name: 破壊衝動
+
+
+  
+
+FlandreDeviloftheMirror:
+  Description: "{FlandreShield}|バリア|を得る。\n|反射|{FlandreValue1}を得る。\n捨て札の一番上のカードをプレイする。"
+  UpgradedDescription: "{FlandreShield}|バリア|を得る。\n|反射|{FlandreValue1}を得る。\n捨て札の一番上のカードをプレイする。"
+  Name: 鏡の悪魔
+
+FlandreDevilsFlesh:
+  Description: "{FlandreBlock}|ブロック|を得る。\nライフ{FlandreValue1}を得る。"
+  UpgradedDescription: "{FlandreBlock}|ブロック|を得る。\nライフ{FlandreValue1}を得る。"
+  Name: 悪魔の情欲
+
+FlandreDevilsMockery:
+  Description: "|災禍|{FlandreValue1}を得る。\n|グレイズ|{FlandreValue2}を得る。"
+  UpgradedDescription: "|災禍|{FlandreValue1}を得る。\n|グレイズ|{FlandreValue2}を得る。"
+  Name: 悪魔の嘲笑
+  FlavorText: "\"弱虫♥\"\n- フランドール・スカーレット"
+
+FlandreDontFearTheReaper:
+  Description: "|火力|{FlandreValue1}を得る。\n手札、山札、捨て札のすべての攻撃カードを発動する。\nこの方法で発動した攻撃カード1枚につき、|狂気|{Value2}を得る。"
+  UpgradedDescription: "|火力|{FlandreValue1}を得る。\n手札、山札、捨て札のすべての攻撃カードを発動する。\nこの方法で発動した攻撃カード1枚につき、|狂気|{Value2}を得る。"
+  Name: 死神を恐れるな
+
+FlandreDoombringer:
+  Description: "{PlayerName}のターン開始時、|災禍|{FlandreValue1}を得る。"
+  UpgradedDescription: "{PlayerName}のターン開始時、|災禍|{FlandreValue1}を得る。\n{SelfName}を1回発動する。"
+  Name: 終焉をもたらす者
+
+FlandreDoomsdayClock:
+  Description: "{PlayerName}は|災禍|を{FlandreValue1}回多く得る。"
+  UpgradedDescription: "{PlayerName}は|災禍|を{FlandreValue1}回多く得る。\n|災禍|{Value3}を得る。"
+  Name: 終末時計
+
+FlandreDreadofTransylvania:
+  Description: "{FlandreBlock}|ブロック|を得る。\n敵全体に|脱力|{FlandreValue1}と|破滅|{FlandreValue2}を与える。"
+  UpgradedDescription: "{FlandreBlock}|ブロック|を得る。\n敵全体に|脱力|{FlandreValue1}と|破滅|{FlandreValue2}を与える。"
+  Name: トランシルヴァニアの恐怖
+
+FlandreEmbraceofGehenna:
+  Description: "{FlandreShield}|バリア|を得る。\n{PlayerName}の|災禍|1につき、さらに|バリア|{FlandreValue1}を得る。\n{PlayerName}の|災禍|の{FlandreValue2}倍以下のライフを持つ敵を|破壊|する。({Amount})"
+  UpgradedDescription: "{FlandreShield}|バリア|を得る。\n{PlayerName}の|災禍|1につき、さらに|バリア|{FlandreValue1}を得る。\n{PlayerName}の|災禍|の{FlandreValue2}倍以下のライフを持つ敵を|破壊|する。({Amount})"
+  NonbattleDescription: "{FlandreShield}|バリア|を得る。\n{PlayerName}の|災禍|1につき、追加で|バリア|{FlandreValue1}を得る。\n{PlayerName}の|災禍|の{FlandreValue2}倍以下のライフを持つ敵を|破壊|する。"
+  UpgradedNonbattleDescription: "{FlandreShield}|バリア|を得る。\n{PlayerName}の|災禍|1につき、追加で|バリア|{FlandreValue1}を得る。\n{PlayerName}の|災禍|の{FlandreValue2}倍以下のライフを持つ敵を|破壊|する。"
+  Name: 地獄の抱擁
+
+
+FlandreEndwithaBang:
+  Description: "{FlandreBlock}|ブロック|を得る。\n|火力|{FlandreValue1}を得る。\n敵全体の|災火の導火線|を{FlandreValue2}回発動する。\n|戦闘終了時|：{SelfName}が最後に発動したカードの場合、|p:ランダム|なカード報酬を得る。"
+  UpgradedDescription: "{FlandreBlock}|ブロック|を得る。\n|火力|{FlandreValue1}を得る。\n敵全体の|災火の導火線|を{FlandreValue2}回発動する。\n|戦闘終了時|：{SelfName}が最後に発動したカードの場合、|p:ランダム|なカード報酬を得る。"
+  Name: 爆発で終わらせる
+  FlavorText: "\"芸術は爆発よ。\"\n- フランドール・スカーレット"
+
+FlandreFaustianBargain:
+  Description: "|供物|{Value1}。\n|廃棄場|から最大{FlandreValue2}枚のカードを選び、手札に戻す。\n|廃棄された時|：|廃棄場|から最大{Value3}枚のカードを選び、手札に戻す。"
+  UpgradedDescription: "|供物|{Value1}。\n|廃棄場|から最大{FlandreValue2}枚のカードを選び、手札に戻す。\n|廃棄された時|：|廃棄場|から最大{Value3}枚のカードを選び、手札に戻す。"
+  Name: 悪魔との取引
+  DetailText: "{SelfName}は戦闘中にランダム生成されず、複製されない。"
+
+FlandreFieryLaser:
+  Description: "{FlandreDamage}ダメージを与える。\n|業火|{FlandreValue1}を与える。"
+  UpgradedDescription: "{FlandreDamage}ダメージを与える。\n|業火|{FlandreValue1}を与える。"
+  Name: 灼熱のレーザー
+
+
+
+FlandreFlancanCook:
+  Description: "|{Mana}を消費するたび|：{SelfName}を|アップグレード|する。\n{FlandreValue2}枚の|p:ランダム|な|フランドール|カードの中から、最大{FlandreValue1}枚を手札に加える。低レアリティのカードを優先する。{FlandreValue1}枚のカードは一時的にコストが{Mana2}になり、|廃棄|と|幽体|を持つ。\n{SelfName}は|魔法少女|でなくても最大{Value3}回まで|アップグレード|できる。"
+  UpgradedDescription: "|{Mana}を消費するたび|：{SelfName}を|アップグレード|する。\n{FlandreValue2}枚の|p:ランダム|な|フランドール|カードの中から、最大{FlandreValue1}枚を手札に加える。低レアリティのカードを優先する。{FlandreValue1}枚のカードは一時的にコストが{Mana2}になり、|廃棄|と|幽体|を持つ。\n{SelfName}は|魔法少女|でなくても最大{Value3}回まで|アップグレード|できる。"
+  Name: フランは料理できるもん！
+  FlavorText: "\"待って……彼女に任せてみよう。\"\n- 摩多羅隠岐奈"
+
+FlandreForbiddenFruit:
+  Description: "|供物|{Value1}。\n{FlandreShield}|バリア|を得る。\n|ライフ|{FlandreValue2}を得る。\n<sprite=\"Point\" name=\"Gold\">{Value3}を得る。\n<sprite=\"Point\" name=\"Power\">{Value4}を得る。\n|p:ランダム|な|クリスタル|{Value5}枚を手札に加える。"
+  UpgradedDescription: "|供物|{Value1}。\n{FlandreShield}|バリア|を得る。\n|ライフ|{FlandreValue2}を得る。\n<sprite=\"Point\" name=\"Gold\">{Value3}を得る。\n<sprite=\"Point\" name=\"Power\">{Value4}を得る。\n|p:ランダム|な|クリスタル|{Value5}枚+{Value6}を手札に加える。"
+  Name: 禁断の果実
+
+FlandreForbiddenGames:
+  Description: "|供物|{Value1}。\n敵全体に{FlandreValue2}ダメージを与える。\n敵は{Value3}ラウンドの間、行動できない。\n各戦闘で最初に発動した{SelfName}のみ効果を発揮する。"
+  UpgradedDescription: "|供物|{Value1}。\n敵全体に{FlandreValue2}ダメージを与える。\n敵は{Value3}ラウンドの間、行動できない。\n各戦闘で最初に発動した{SelfName}のみ効果を発揮する。"
+  ExtraDescription1: "|d:供物{Value1}。\n敵全体に{FlandreValue2}ダメージを与える。\n敵は{Value3}ラウンドの間、行動できない。|\n各戦闘で最初に発動した{SelfName}のみ効果を発揮する。"
+  PhantasmModeDescription: "|供物|{Value1}。\n敵全体に{FlandreValue2}ダメージを与える。\n敵は{Value3}ラウンドの間、行動できない。\n|狂気|{Value4}を得る。\n各戦闘で最初に発動した{SelfName}のみ効果を発揮する。"
+  PhantasmModeUpgradedDescription: "|供物|{Value1}。\n敵全体に{FlandreValue2}ダメージを与える。\n敵は{Value3}ラウンドの間、行動できない。\n|狂気|{Value4}を得る。\n各戦闘で最初に発動した{SelfName}のみ効果を発揮する。"
+  PhantasmModeExtraDescription1: "|d:供物{Value1}。\n敵全体に{FlandreValue2}ダメージを与える。\n敵は{Value3}ラウンドの間、行動できない。\n|狂気|{Value4}を得る。|\n各戦闘で最初に発動した{SelfName}のみ効果を発揮する。"
+  Name: 禁断の遊び
+  DetailText: "{SelfName}は戦闘中にランダム生成されず、コピーもできない。"
+
+FlandreForbiddenScarletCuriosity:
+  Description: "{PlayerName}はすべてのデバフを無効化する。\nすべての攻撃は{FlandreValue1}倍のダメージを与える。\n敵がライフを失うたび、{PlayerName}は失った量と同じライフを得る。\nこれらの効果は重複しない。\n|一時最大ライフ|{FlandreValue2}%を得る。({Amount})\n|狂気|{Value3}を得る。"
+  UpgradedDescription: "{PlayerName}はすべてのデバフを無効化する。\nすべての攻撃は{FlandreValue1}倍のダメージを与える。\n敵がライフを失うたび、{PlayerName}は失った量と同じライフを得る。\nこれらの効果は重複しない。\n|一時最大ライフ|{FlandreValue2}%を得る。({Amount})\n|狂気|{Value3}を得る。"
+  NonbattleDescription: "{PlayerName}はすべてのデバフを無効化する。\nすべての攻撃は{FlandreValue1}倍のダメージを与える。\n敵がライフを失うたび、{PlayerName}は失った量と同じライフを得る。\nこれらの効果は重複しない。\n|一時最大ライフ|{FlandreValue2}%を得る。\n|狂気|{Value3}を得る。"
+  UpgradedNonbattleDescription: "{PlayerName}はすべてのデバフを無効化する。\nすべての攻撃は{FlandreValue1}倍のダメージを与える。\n敵がライフを失うたび、{PlayerName}は失った量と同じライフを得る。\nこれらの効果は重複しない。\n|一時最大ライフ|{FlandreValue2}%を得る。\n|狂気|{Value3}を得る。"
+  Name: 禁断の紅い好奇心
+  ForbiddenScarletCuriosity1Flandre: "ねえねえ。聞きたいことがあるの。"
+  ForbiddenScarletCuriosity2Flandre: "恐怖って……どんな味がするの？"
+
+FlandreFourHorsemenoftheApocalypse:
+  Description: "|災禍|{FlandreValue1}を得る。\n手札から好きな枚数のカードを捨てる。\n山札から攻撃、防御、スキル、|能力|カードをそれぞれ1枚ずつ、山札の上から手札に加える。\n|充填|：{FlandreMana}を得る。"
+  UpgradedDescription: "|災禍|{FlandreValue1}を得る。\n手札から好きな枚数のカードを捨てる。\n山札から攻撃、防御、スキル、|能力|カードをそれぞれ1枚ずつ、山札の上から手札に加える。\n|充填|：{FlandreMana}を得る。"
+  ExtraDescription1: "|災禍|{FlandreValue1}を得る。\n手札から好きな枚数のカードを捨てる。\n山札から攻撃、防御、スキル、|能力|カードをそれぞれ1枚ずつ、山札の上から手札に加える。\n|d:充填：{FlandreMana}を得る。|"
+  Name: 黙示録の四騎士
+
+FlandreFourofaKind:
+  Description: "手札のカードを1枚選ぶ。そのカードは|一時的に|コストが{Mana}になる。\nそのカードの|コピー|{FlandreValue1}枚を山札に加える。それらは|一時的に|コストが{Mana}になり、|廃棄|と|補充|を持つ。"
+  UpgradedDescription: "手札のカードを1枚選ぶ。そのカードは|一時的に|コストが{Mana}になる。\nそのカードの|コピー|{FlandreValue1}枚を山札に加える。それらは|一時的に|コストが{Mana}になり、|廃棄|と|補充|を持つ。"
+  Name: フォー・オブ・ア・カインド
+
+FlandreFragileWing:
+  Description: ""
+  UpgradedDescription: ""
+  Name: 脆い翼
+
+FlandreFragmentsofLight:
+  Description: "{PlayerName}のターン開始時、|ランダム|な|光の欠片|{FlandreValue1}枚を手札に加える。"
+  UpgradedDescription: "{PlayerName}のターン開始時、|ランダム|な|光の欠片|{FlandreValue1}枚を手札に加える。\n{SelfName}を1回発動する。"
+  Name: 光の欠片
+
+FlandreFranticDestroyer:
+  Description: "|供物|{Value1}。\n攻撃カードを発動するたび、{FlandreMana}を得て、カードを{FlandreValue2}枚引く。"
+  UpgradedDescription: "|供物|{Value1}。\n攻撃カードを発動するたび、{FlandreMana}を得て、カードを{FlandreValue2}枚引く。"
+  PhantasmModeDescription: "|供物|{Value1}。\n攻撃カードを発動するたび、{FlandreMana}を得て、カードを{FlandreValue2}枚引く。\n|狂気|{Value3}を得る。"
+  PhantasmModeUpgradedDescription: "|供物|{Value1}。\n攻撃カードを発動するたび、{FlandreMana}を得て、カードを{FlandreValue2}枚引く。\n|狂気|{Value3}を得る。"
+  Name: 狂乱の破壊者
+
+
+
+
+FlandreFriendOkina:
+  Description: "{FriendP}|f:秘密の力|：多色カードを{Value1}枚発動するたび、{FlandreMana}を得て、{FlandrePassiveBarrier}|バリア|を得る。（残り{Amount}枚）"
+  NonbattleDescription: "{FriendP}|f:秘密の力|：多色カードが{Value1}枚使用されるたび、{FlandreMana}を得て、{FlandrePassiveBarrier}|バリア|を得る。"
+  ExtraDescription1: "{FriendA}|a:季節解放|：{Value2}種類の|季節|から1つ選ぶ。{SelfName}はその効果を得る。"
+  ExtraDescription3: "{FriendU}|u:\u300C秘匿された時空幻想ツアー\u300D|：{PlayerName}のターン開始時、{Value3}枚の|p:完全ランダム|なレアカードから{Value2}枚を選び手札に加える。そのカードは一時的にコストが{Mana}になり、|廃棄|と|幽体|を持つ。"
+  Name: 究極の絶対秘神、隠岐奈
+  DetailText: "{SelfName}は戦闘中にランダム生成されず、コピーもできない。"
+
+FlandreFriendOkinaFall:
+  Description: "{FriendP}|f:秋の力|：赤色カードを{Value1}枚発動するたび、{FlandreMana}を得て、敵全体に|業火|{FlandreValue2}を与える。（残り{Amount}枚）"
+  NonbattleDescription: "{FriendP}|f:秋の力|：赤色カードを{Value1}枚発動するたび、{FlandreMana}を得て、敵全体に|業火|{FlandreValue2}を与える。"
+  ExtraDescription1: "{FriendA}|a:季節解放|：{Value3}種類の|季節|から1つ選ぶ。{SelfName}はその効果を得る。"
+  ExtraDescription3: "{FriendU}|u:\u300C裏・クレイジーフォールウィンド\u300D|：カードが|廃棄|されるたび、|かすり|{Value4}を得る。"
+  Name: 究極の絶対秘神、隠岐奈(秋)
+  DetailText: "{SelfName}は戦闘中にランダム生成されず、コピーもできない。"
+
+FlandreFriendOkinaSpring:
+  Description: "{FriendP}|f:春の力|：黒色カードを{Value1}枚発動するたび、{FlandreMana}を得て、|クリスタル|{Value2}枚を手札に加える。（残り{Amount}枚）"
+  UpgradedDescription: "{FriendP}|f:春の力|：黒色カードを{Value1}枚発動するたび、{FlandreMana}を得て、|クリスタル|{Value2}枚+{Value3}を手札に加える。（残り{Amount}枚）"
+  NonbattleDescription: "{FriendP}|f:春の力|：黒色カードを{Value1}枚発動するたび、{FlandreMana}を得て、|クリスタル|{Value2}枚を手札に加える。"
+  UpgradedNonbattleDescription: "{FriendP}|f:春の力|：黒色カードを{Value1}枚発動するたび、{FlandreMana}を得て、|クリスタル|{Value2}枚+{Value3}を手札に加える。"
+  ExtraDescription1: "{FriendA}|a:季節解放|：{Value4}種類の|季節|から1つ選ぶ。{SelfName}はその効果を得る。"
+  ExtraDescription3: "{FriendU}|u:\u300C裏・ブリージーチェリーブロッサム\u300D|：{PlayerName}のターン開始時、ライフ{Value5}、|加護|{Value5}、|庇護|を得る。"
+  Name: 究極の絶対秘神、隠岐奈(春)
+  DetailText: "{SelfName}は戦闘中にランダム生成されず、コピーもできない。"
+
+FlandreFriendOkinaSummer:
+  Description: "{FriendP}|f:夏の力|：緑色カードを{Value1}枚発動するたび、{FlandreMana}を得て、敵全体に|破滅|{FlandreValue2}を与える。（残り{Amount}枚）"
+  NonbattleDescription: "{FriendP}|f:夏の力|：緑色カードを{Value1}枚発動するたび、{FlandreMana}を得て、敵全体に|破滅|{FlandreValue2}を与える。"
+  ExtraDescription1: "{FriendA}|a:季節解放|：{Value3}種類の|季節|から1つ選ぶ。{SelfName}はその効果を得る。"
+  ExtraDescription3: "{FriendU}|u:\u300C裏・パーフェクトサマーアイス\u300D|：{PlayerName}が{Value4}枚のカードを発動するたび、敵全体に{Value5}|精密|攻撃ダメージを与え、|冷気|を与える。"
+  Name: 究極の絶対秘神、隠岐奈(夏)
+  DetailText: "{SelfName}は戦闘中にランダム生成されず、コピーもできない。"
+  FlavorText: "\"えっ、私に水着姿を期待したんですか？\"\n- 摩多羅 隠岐奈"
+
+FlandreFriendOkinaWinter:
+  Description: "{FriendP}|f:冬の力|：青色カードを{Value1}枚発動するたび、{FlandreMana}を得て、|災禍|{FlandreValue2}を得る。（残り{Amount}枚）"
+  NonbattleDescription: "{FriendP}|f:冬の力|：青色カードを{Value1}枚発動するたび、{FlandreMana}を得て、|災禍|{FlandreValue2}を得る。"
+  ExtraDescription1: "{FriendA}|a:季節解放|：{Value3}種類の|季節|から1つ選ぶ。{SelfName}はその効果を得る。"
+  ExtraDescription3: "{FriendU}|u:\u300C裏・エクストリームウィンター\u300D|：カードを発動するたび、|チャージ|{Value4}を得る。"
+  Name: 究極の絶対秘神、隠岐奈(冬)
+  DetailText: "{SelfName}は戦闘中にランダム生成されず、コピーもできない。"
+
+FlandreGrowingGemstones:
+  Description: "{FlandreBlock}|ブロック|を得る。\n|p:ランダム|な|クリスタル|{FlandreValue1}枚を手札に加える。"
+  UpgradedDescription: "{FlandreBlock}|ブロック|を得る。\n|p:ランダム|な|クリスタル|{FlandreValue1}枚を手札に加える。"
+  ExtraDescription1: "{FlandreBlock}|ブロック|を得る。\n|p:ランダム|な|クリスタル|{FlandreValue1}枚+{Value3}を手札に加える。"
+  Name: 輝石の成長
+
+FlandreHellisFull:
+  Description: "{FlandreDamage}ダメージを{FlandreValue1}回与える。\nこのランで倒した敵1体につき、{SelfName}のダメージが{FlandreValue2}増加する。\n|狂気|{Value3}を得る。"
+  UpgradedDescription: "{FlandreDamage}ダメージを{FlandreValue1}回与える。\nこのランで倒した敵1体につき、{SelfName}のダメージが{FlandreValue2}増加する。\n|狂気|{Value3}を得る。"
+  Name: 満ちる地獄
+
+
+FlandreHellonEarth:
+  Description: "|業火|と|災火の導火線|が発動する時、追加で{FlandreValue1}回発動する。"
+  UpgradedDescription: "|業火|と|災火の導火線|が発動する時、追加で{FlandreValue1}回発動する。\n敵全体に|業火|{FlandreValue2}を与える。"
+  Name: 生き地獄
+
+FlandreHighCard:
+  Description: "|臨時火力|{FlandreValue1}と|臨時霊力|{FlandreValue1}を得る。\n山札から最もコストが高いカードを手札に加える。そのカードは|臨時コスト|{Mana}になる。"
+  UpgradedDescription: "|臨時火力|{FlandreValue1}と|臨時霊力|{FlandreValue1}を得る。\n山札から最もコストが高いカードを手札に加える。そのカードは|臨時コスト|{Mana}になる。"
+  Name: ハイカード
+
+FlandreHotSurface:
+  Description: "{FlandreBlock}|ブロック|を得る。\n{PlayerName}の次のターンまで、{PlayerName}が攻撃ダメージを受けるたび、攻撃者に|業火|{FlandreValue1}を与える。"
+  UpgradedDescription: "{FlandreBlock}|ブロック|を得る。\n{PlayerName}の次のターンまで、{PlayerName}が攻撃ダメージを受けるたび、攻撃者に|業火|{FlandreValue1}を与える。"
+  Name: 高温注意
+
+FlandreHymnoftheTorturedSouls:
+  Description: "{FlandreBlock}|ブロック|を得る。\n|業火|を持つ敵1体につき、{FlandreMana}を得て、カードを{FlandreValue1}枚引く。（{Amount}）"
+  UpgradedDescription: "{FlandreBlock}|ブロック|を得る。\n|業火|を持つ敵1体につき、{FlandreMana}を得て、カードを{FlandreValue1}枚引く。（{Amount}）"
+  NonbattleDescription: "{FlandreBlock}|ブロック|を得る。\n|業火|を持つ敵1体につき、{FlandreMana}を得て、カードを{FlandreValue1}枚引く。"
+  UpgradedNonbattleDescription: "{FlandreBlock}|ブロック|を得る。\n|業火|を持つ敵1体につき、{FlandreMana}を得て、カードを{FlandreValue1}枚引く。"
+  Name: 魂の苦悶歌
+
+FlandreIgnitingSnap:
+  Description: "|業火|{FlandreValue1}を与える。\n対象の|業火|を{FlandreValue2}回発動する。"
+  UpgradedDescription: "|業火|{FlandreValue1}を与える。\n対象の|業火|を{FlandreValue2}回発動する。"
+  Name: 着火の一撃
+
+FlandreInfernalRampage:
+  Description: "|p:ランダム|な敵1体に{FlandreDamage}ダメージを与え、|業火|{FlandreValue1}を与えることを{FlandreValue2}回行う。\n|火力|{Value3}を得る。"
+  UpgradedDescription: "|p:ランダム|な敵1体に{FlandreDamage}ダメージを与え、|業火|{FlandreValue1}を与えることを{FlandreValue2}回行う。\n|火力|{Value3}を得る。"
+  Name: 灼熱の暴走
+
+
+FlandreInstability:
+  Description: "{SelfName}の効果は各ラウンド開始時に|p:ランダム|で決定される。\n|平均効果量|：|e:{AmountF}|。"
+  InstabilityBlock: "{BlockValue}|ブロック|を得る。"
+  InstabilityBarrier: "{ShieldValue}|バリア|。"
+  InstabilityMana: "{ManaValue}を得る。"
+  InstabilityScry: "|占術|{ScryValue}。"
+  InstabilityDream: "|夢見|{DreamValue}."
+  InstabilityCleanse: "{PlayerName}からすべてのデバフを取り除く。"
+  InstabilityHeal: "ライフを{HealValue}得る。"
+  InstabilityGold: "{GoldValue} <sprite=\"Point\" name=\"Gold\">を得る。"
+  InstabilityPower: "Gain {PowerValue} <sprite=\"Point\" name=\"Power\">を得る。"
+  InstabilityUpgrade: "戦闘終了まですべてのカードを|アップグレード|する。"
+  InstabilityDamage1: "{DamageValue}ダメージを与える。"
+  InstabilityDamage2: "敵全体に{DamageValue}ダメージを与える。"
+  InstabilityDamage3: "ランダムな敵に{DamageValue}ダメージを与える"
+  InstabilityAdd1: "手札に|{Add}|を{AddValue1}枚加える。その|臨時コスト|は{AddManaValue}で、|廃棄|と|虚無|を持つ。"
+  InstabilityAdd2: "手札にランダムなカードを{AddValue1}枚加える。 その|臨時コスト|は{AddManaValue}で、|廃棄|と|虚無|を持つ。"
+  InstabilityAdd3: "ランダムなカード{AddValue2}枚から{AddValue1}枚を選び手札に加える。その|臨時コスト|は{AddManaValue}で、|廃棄|と|虚無|を持つ。"
+  InstabilityDraw1: "カードを{DrawValue}枚引く。"
+  InstabilityDraw2: "手札がいっぱいになるまでカードを引く。"
+  InstabilityDiscard1: "最大{DiscardValue}枚までのカードを捨てる。"
+  InstabilityDiscard2: "手札のカードを全部捨てる。"
+  InstabilityExile1: "手札、山札、捨て札から最大{ExileValue}枚までのカードを|廃棄|する。"
+  InstabilityExile2: "手札のカードをすべて|廃棄|する。"
+  InstabilityMove1: "山札から最大{MoveValue}枚のカードを選び、手札に加える。"
+  InstabilityMove2: "捨て札から最大{MoveValue}枚のカードを選び、手札に加える。"
+  InstabilityRetain1: "手札から最大{RetainValue}枚のカードを選ぶ。このターンそれらを|保留|する。"
+  InstabilityRetain2: "このターン手札を|保留|する"
+  InstabilityBuff1: "|{Buff1}|{BuffValue1}を得る。"
+  InstabilityBuff2: "|{Buff1}|{BuffValue1}と|{Buff2}|{BuffValue2}を得る。"
+  InstabilityDebuff1: "|{Debuff}|{DebuffValue}を与える。"
+  InstabilityDebuff2: "敵全体に|{Debuff}|{DebuffValue}を与える。"
+  Name: 感情の起伏
+  DetailText: "{SelfName}は戦闘中にランダムに生成されない。コピーもできない。"
+
+
+
+FlandreInternetSurvivor:
+  Description: "{PlayerName}からすべての|デバフ|を解除する。\nライフを{FlandreValue1}%回復する。({Amount})"
+  UpgradedDescription: "{PlayerName}からすべての|デバフ|を解除する。\nライフを{FlandreValue1}%回復する。({Amount})"
+  NonbattleDescription: "{PlayerName}からすべての|デバフ|を解除する。\nライフを{FlandreValue1}%回復する。"
+  UpgradedNonbattleDescription: "{PlayerName}からすべての|デバフ|を解除する。\nライフを{FlandreValue1}%回復する。"
+  Name: インターネットサバイバー
+
+FlandreKagomeKagome:
+  Description: "{FlandreShield}|バリア|を得る。\n敵全体に|破滅|{FlandreValue1}を与える。\n敵全体に対象の|破滅|の{FlandreValue2:plural one='%倍' other='%倍'}のダメージを与える。"
+  UpgradedDescription: "{FlandreShield}|バリア|を得る。\n敵全体に|破滅|{FlandreValue1}を与える。\n敵全体に対象の|破滅|の{FlandreValue2:plural one='%倍' other='%倍'}のダメージを与える。"
+  Name: カゴメ、カゴメ
+
+FlandreKindLiesandGoodbyes:
+  Description: "{FlandreShield}|バリア|を得る。\n|火力|{FlandreValue1}と|霊力|{FlandreValue1}を得る。\n{PlayerName}が倒される時、すべての|デバフ|を解除し、ライフを最大まで回復し、{FlandreValue2:plural one='%ターン' other='%ターン'}の間ライフを失わない。\nその後、敵全体に{Value3}ダメージを与え、ライフが{Value3}以下の敵を|破壊|し、{SelfName}を戦闘およびライブラリから除外する。"
+  UpgradedDescription: "{FlandreShield}|バリア|を得る。\n|火力|{FlandreValue1}と|霊力|{FlandreValue1}を得る。\n{PlayerName}が倒される時、すべての|デバフ|を解除し、ライフを最大まで回復し、{FlandreValue2:plural one='%ターン' other='%ターン'}の間ライフを失わない。\nその後、敵全体に{Value3}ダメージを与え、ライフが{Value3}以下の敵を|破壊|し、{SelfName}を戦闘およびライブラリから除外する。"
+  Name: 優しい嘘と最後の別れ
+  DetailText: "{SelfName}は戦闘中にランダムに生成されず、複製もできない。"
+
+FlandreLaevateinn:
+  Description: "敵全体に{FlandreDamage}ダメージを与え、|業火|{FlandreValue1}を与える。\nこの効果は|火力|{FlandreValue2:plural one='%回' other='%回'}の影響を受ける。\n敵全体の|業火|を{Value3:plural one='%回' other='%回'}発動する。"
+  UpgradedDescription: "敵全体に{FlandreDamage}ダメージを与え、|業火|{FlandreValue1}を与える。\nこの効果は|火力|{FlandreValue2:plural one='%回' other='%回'}の影響を受ける。\n敵全体の|業火|を{Value3:plural one='%回' other='%回'}発動する。"
+  Name: レーヴァテイン
+
+FlandreLittleJeweler:
+  Description: "|p:ランダム|な{FlandreValue1}枚の|クリスタル|を手札に加える。\n|p:ランダム|なマナ{FlandreValue2}を得る。"
+  UpgradedDescription: "|p:ランダム|な{FlandreValue1}枚の|クリスタル|を手札に加える。\n|p:ランダム|なマナ{FlandreValue2}を得る。"
+  ExtraDescription1: "|p:ランダム|な{FlandreValue1}枚の|クリスタ|+{Value3}|を手札に加える。\n|p:ランダム|なマナ{FlandreValue2}を得る。"
+  Name: 小さな宝石商
+
+
+
+FlandreLooseCannon:
+  Description: "敵全体に{FlandreDamage}ダメージを与える。\n敵全体に|業火|{FlandreValue1}を与える。\n|手札にある間|：{PlayerName}が攻撃ダメージを与えるか受けるたび、{SelfName}の|臨時コスト|が{Mana}減少する。{SelfName}のコストが{Mana2}になった時、{SelfName}をプレイする。"
+  UpgradedDescription: "敵全体に{FlandreDamage}ダメージを与える。\n敵全体に|業火|{FlandreValue1}を与える。\n|手札にある間|：{PlayerName}が攻撃ダメージを与えるか受けるたび、{SelfName}の|臨時コスト|が{Mana}減少する。{SelfName}のコストが{Mana2}になった時、{SelfName}をプレイする。"
+  Name: 暴走砲
+
+FlandreMagicalGirlFlandreEngage:
+  Description: "すべての|魔法少女|カードは|アップグレード|を{Value1:plural one='%回追加' other='%回追加'}で行える。\n手札の最大枚数が{Value2}になる。\n|マジカルスラッシュ|、|マジカルガード|、|マジカルテクニック|、|マジカルポテンシャル|を手札に一枚ずつ加える。\nこれらの効果は重複しない。\n|加護|{Value3}と|庇護|{Value3}を得る。"
+  UpgradedDescription: "すべての|魔法少女|カードは|アップグレード|を{Value1:plural one='%回追加' other='%回追加'}で行える。\n手札の最大枚数が{Value2}になる。\n|マジカルスラッシュ+{Value4}|、|マジカルガード+{Value4}|、|マジカルテクニック+{Value4}|、|マジカルポテンシャル+{Value4}|を手札に一枚ずつ加える。\nこれらの効果は重複しない。\n|加護|{Value3}と|庇護|{Value3}を得る。"
+  Name: 魔法少女フランドール、いっきまーすっ☆
+  DetailText: "これらの|e:別形態カード|は、手札上限を無視する。"
+  MagicalGirlFlandreEngage1Flandre: "魔法少女{0}、出撃よ！"
+  MagicalGirlFlandreEngage2Flandre: "愛と正義の力で、あなたを倒すわ！"
+  MagicalGirlFlandreEngage3Flandre: "あなたの野望はここまでよ！ 魔法少女{0}、参上！"
+  MagicalGirlFlandreEngage4Flandre: "...本当にこれ言わなきゃダメ？"
+  MagicalGirlFlandreEngage5Flandre: "...説明して。じゃないと背骨折るよ。"
+  MagicalGirlFlandreEngage6Flandre: "...これ、事件解決に関係あるの？"
+  MagicalGirlFlandreEngage7Okina: "魔法少女にとって、立ち振る舞いは重要ですよ？"
+  MagicalGirlFlandreEngage8Okina: "魔法少女としての自覚を持つことが大切なの。"
+  MagicalGirlFlandreEngage9Okina: "魔法少女として事件を解決すれば、もっと信仰が集まるわ。"
+  MagicalGirlFlandreEngage10Flandre: "あっち行って。"
+  MagicalGirlFlandreEngage11Flandre: "あんた、ふざけてる。"
+  MagicalGirlFlandreEngage12Flandre: "…楽しんでるでしょ、これ？"
+
+FlandreMagicalGuard:
+  Description: "{FlandreBlock}|ブロック|を得る。\n{SelfName}を手札に戻す。\nこのターン、{SelfName}のコストが{Mana}増加する。"
+  UpgradedDescription: "{FlandreBlock}|ブロック|を得る。\n{SelfName}を手札に戻す。\nこのターン、{SelfName}のコストが{Mana}増加する。"
+  Name: マジカルガード
+  DetailText: "|p:{SelfName}はいかなる場合でも手札から離れない。|\n{SelfName}は常に手札の{Order:ordinal one='%番目' two='%番目' few='%番目' other='%番目'}のカードになる。"
+
+FlandreMagicalPotential:
+  Description: "このカードは封印されている。"
+  UpgradedDescription: "このカードは封印されている。"
+  Name: マジカルポテンシャル
+  DetailText: "|p:{SelfName}はいかなる場合でも手札から離れない。|\n{SelfName}は常に手札の{Order:ordinal one='%番目' two='%番目' few='%番目' other='%番目'}のカードになる。"
+
+FlandreMagicalSlash:
+  Description: "{FlandreDamage}ダメージを与える。\n{SelfName}を手札に戻す。\nこのターン、{SelfName}のコストが{Mana}増加する。"
+  UpgradedDescription: "{FlandreDamage}ダメージを与える。\n{SelfName}を手札に戻す。\nこのターン、{SelfName}のコストが{Mana}増加する。"
+  Name: マジカルスラッシュ
+  DetailText: "|p:{SelfName}はいかなる場合でも手札から離れない。|\n{SelfName}は常に手札の{Order:ordinal one='%番目' two='%番目' few='%番目' other='%番目'}のカードになる。"
+
+
+
+
+
+
+FlandreMagicalTechnique:
+  Description: "{FlandreValue2}枚の|p:ランダム|なコモンカードから最大{FlandreValue1}枚を選び、プレイする。\n{SelfName}を手札に戻す。\nこのターン、{SelfName}のコストが{Mana}増加する。"
+  UpgradedDescription: "{FlandreValue2}枚の|p:ランダム|なコモンカードから最大{FlandreValue1}枚を選び、プレイする。\n{SelfName}を手札に戻す。\nこのターン、{SelfName}のコストが{Mana}増加する。"
+  Name: マジカルテクニック
+  DetailText: "|p:{SelfName}はいかなる場合でも手札から離れない。|\n{SelfName}は常に手札の{Order:ordinal one='%番目' two='%番目' few='%番目' other='%番目'}のカードになる。"
+
+FlandreMazeofLove:
+  Description: "{FlandreShield}|バリア|を得る。\n敵全体に{FlandreDamage}ダメージを与え、|弱体|{FlandreValue1}を与える。\n敵全体に|p:ランダム|な|クリスタル|を{FlandreValue2}枚プレイする。"
+  UpgradedDescription: "{FlandreShield}|バリア|を得る。\n敵全体に{FlandreDamage}ダメージを与え、|弱体|{FlandreValue1}を与える。\n敵全体に|p:ランダム|な|クリスタル|を{FlandreValue2}枚プレイする。"
+  Name: 恋の迷路
+
+FlandreMindsEye:
+  Description: "{FlandreShield}|バリア|を得る。\n次に{PlayerName}が攻撃ダメージを与える、または受ける{FlandreValue1:plural one='%回' other='%回'}、与えるダメージを2倍にするか、受けるダメージを半分にする。"
+  UpgradedDescription: "{FlandreShield}|バリア|を得る。\n次に{PlayerName}が攻撃ダメージを与える、または受ける{FlandreValue1:plural one='%回' other='%回'}、与えるダメージを2倍にするか、受けるダメージを半分にする。"
+  Name: 心の目
+
+FlandreMPBullofPhalaris:
+  Description: "いずれかのプレイヤーが状態異常によるダメージを受けるたび、そのプレイヤーは敵全体に{FlandreValue1}ダメージを与える。\n全プレイヤーに|業火|{Value2}与える。\n|代償|{Mana}。"
+  UpgradedDescription: "いずれかのプレイヤーが状態異常によるダメージを受けるたび、そのプレイヤーは敵全体に{FlandreValue1}ダメージを与える。\n全プレイヤーに|業火|{Value2}与える。\n|代償|{Mana}。"
+  Name: ファラリスの雄牛
+
+FlandreMPBloodsucker:
+  Description: "|仲間|を1人選ぶ。\nその|仲間|は体力を{Value1}失う。\n体力を{FlandreValue2}得る。"
+  UpgradedDescription: "|仲間|を1人選ぶ。\nその|仲間|は体力を{Value1}失う。\n体力を{FlandreValue2}得る。"
+  Name: "吸血"
+
+FlandreMPButchersCircus:
+  Description: "敵が倒されるたび、全プレイヤーは|火力|{FlandreValue2}得て、ライフを{Value3}回復する。\n|代償|{Mana}。"
+  UpgradedDescription: "敵が倒されるたび、全プレイヤーは|火力|{FlandreValue2}得て、ライフを{Value3}回復する。\n{SelfName}を1回発動する。\n|代償|{Mana}。"
+  Name: "屠殺人のサーカス"
+
+FlandreMPEnfantTerrible:
+  Description: "敵全体に{FlandreDamage}ダメージを{FlandreValue1}回 与える。\n敵が与える攻撃ダメージを{Value2}%減少させる。この効果は{Value3}ターンの間持続する。\nすべての|仲間|が与える攻撃ダメージを{Value4}%減少させる。この効果は{Value5}ターン持続する。\n|狂気|{Value6}得る。"
+  UpgradedDescription: "敵全体に{FlandreDamage}ダメージを{FlandreValue1}回 与える。\n敵が与える攻撃ダメージを{Value2}%減少させる。この効果は{Value3}ターンの間持続する。\nすべての|仲間|が与える攻撃ダメージを{Value4}%減少させる。この効果は{Value5}ターン持続する。\n|狂気|{Value6}得る。"
+  Name: "アンファン・テリブル"
+
+FlandreMPFirestorm:
+  Description: "敵全体に{FlandreDamage}ダメージを与え、|業火|{FlandreValue1} を与える。\n{SelfName}は全プレイヤーの|火力|の影響を受ける。({Amount})"
+  UpgradedDescription: "敵全体に{FlandreDamage}ダメージを与え、|業火|{FlandreValue1} を与える。\n{SelfName}は全プレイヤーの|火力|の影響を受ける。({Amount})"
+  NonbattleDescription: "敵全体に{FlandreDamage}ダメージを与え、 |業火|{FlandreValue1}を与える。\n{SelfName}は全プレイヤーの|火力|の影響を受ける。"
+  UpgradedNonbattleDescription: "敵全体に{FlandreDamage}ダメージを与え、|業火|{FlandreValue1} を与える。\n{SelfName}は全プレイヤーの|火力|の影響を受ける。"
+  Name: "ファイアストーム"
+
+FlandreMPKrystallos:
+  Description: "{FlandreBlock}|ブロック|を得る。\nすべてのプレイヤーは{FlandreValue1}枚の|p:ランダムな| |クリスタル|をプレイする。\n|代償|{Mana}。"
+  UpgradedDescription: "{FlandreBlock} |ブロック|を得る。\nすべてのプレイヤーは{FlandreValue1}枚の|p:ランダムな||クリスタル|をプレイする。\n|代償|{Mana}。"
+  Name: "クリスタロス"
+
+FlandreMPLostandForgotten:
+  Description: "全プレイヤーは{FlandreBlock}|ブロック|、{FlandreShield}|バリア|を得る。\n|廃棄された時|：|火力|{FlandreValue1}得て、敵全体に|破滅|{FlandreValue2}を与える。\n|代償|{Mana}。"
+  UpgradedDescription: "全プレイヤーは{FlandreBlock}|ブロック|、{FlandreShield}|バリア|を得る。\n|廃棄された時|：|火力|{FlandreValue1}得て、敵全体に|破滅|{FlandreValue2}を与える。\n|代償|{Mana}。"
+  Name: "失われしもの、忘れられしもの"
+
+FlandreMPMagicalCheering:
+  Description: "全プレイヤーは{FlandreMana}を得る。\n全プレイヤーは戦闘終了まで、手札のすべてのカードを{FlandreValue1:plural one='%回' other='%回'}|アップグレード|する。\n|代償|{Mana2}。"
+  UpgradedDescription: "全プレイヤーは{FlandreMana}を得る。\n全プレイヤーは戦闘終了まで、手札のすべてのカードを{FlandreValue1:plural one='%回' other='%回'}|アップグレード|する。\n|代償|{Mana2}。"
+  Name: "マジカルチアリング"
+
+
+
+FlandreMPPhantomPain:
+  Description: "{FlandreDamage}ダメージを与える。\n{PlayerName}の次のターンまで、いずれかのプレイヤーが攻撃カードを使用するたび、対象に{FlandreValue1}ダメージを与える。\n|災禍|{FlandreValue2}を得る。"
+  UpgradedDescription: "{FlandreDamage}ダメージを与える。\n{PlayerName}の次のターンまで、いずれかのプレイヤーが攻撃カードを使用するたび、対象に{FlandreValue1}ダメージを与える。\n|災禍|{FlandreValue2}を得る。"
+  Name: "ファントムペイン"
+
+FlandreMPProblemChild:
+  Description: "|供物| {Value1}。\nすべての|フランドール|の|マルチプレイヤー|カードは、戦闘終了まで|プレイ不可|を得る。\nすべての攻撃カードのコストを、戦闘終了まで{FlandreMana}減少させる。"
+  UpgradedDescription: "|供物| {Value1}。\nすべての|フランドール|の|マルチプレイヤー|カードは、戦闘終了まで|プレイ不可|を得る。\nすべての攻撃カードのコストを、戦闘終了まで{FlandreMana}減少させる。"
+  Name: 問題児
+
+FlandreMPRiggedGame:
+  Description: "すべてのプレイヤーは|臨時火力|と|臨時霊力|{FlandreValue1}得る。\nすべてのプレイヤーは、次に捨て札に送られるレアカード{FlandreValue2}枚を、山札の一番上に置く。\n|代償|{Mana}。"
+  UpgradedDescription: "すべてのプレイヤーは|臨時火力|と|臨時霊力|{FlandreValue1}得る。\nすべてのプレイヤーは、次に捨て札に送られるレアカード{FlandreValue2}枚を、山札の一番上に置く。\n|代償|{Mana}。"
+  Name: "仕組まれたゲーム"
+
+
+FlandreMurderMystery:
+  Description: "|災禍|{FlandreValue1}を得る。\nカードを{FlandreValue2}枚引く。"
+  UpgradedDescription: "|災禍|{FlandreValue1}を得る。\nカードを{FlandreValue2}枚引く。"
+  Name: 殺人ミステリー
+
+FlandreNoMercy:
+  Description: "{FlandreBlock}|ブロック|を得る。\n山札から上から{FlandreValue1}枚の攻撃カードを手札に加える。\n次にプレイする{FlandreValue2}枚の攻撃カードは、プレイ時のコストが{Mana}になる。\n|狂気|{Value3}を得る。"
+  UpgradedDescription: "{FlandreBlock}|ブロック|を得る。\n山札から上から{FlandreValue1}枚の攻撃カードを手札に加える。\n次にプレイする{FlandreValue2}枚の攻撃カードは、プレイ時のコストが{Mana}になる。\n|狂気|{Value3}を得る。"
+  Name: 無慈悲
+
+FlandreOnePair:
+  Description: "手札の|厄災|でも|状態異常|でもないカードを1枚選ぶ。\n同じ種類の|p:ランダム|なカードを{FlandreValue2}枚から最大{FlandreValue1}枚選び、手札に加える。それらは|臨時コスト|{Mana}になり、|廃棄|と|エーテル|を持つ。"
+  UpgradedDescription: "手札の|厄災|でも|状態異常|でもないカードを1枚選ぶ。\n同じ種類の|p:ランダム|なカードを{FlandreValue2}枚から最大{FlandreValue1}枚選び、手札に加える。それらは|臨時コスト|{Mana}になり、|廃棄|と|エーテル|を持つ。"
+  Name: ワンペア
+
+FlandreOrthrusBrigantine:
+  Description: "{FlandreDamage}ダメージを与える。\n|破滅|{FlandreValue1}を与える。\nライフを{FlandreValue2}回復する。\n別の|p:ランダム|な敵にこれらの効果を繰り返す。"
+  UpgradedDescription: "{FlandreDamage}ダメージを与える。\n|破滅|{FlandreValue1}を与える。\nライフを{FlandreValue2}回復する。\n別の|p:ランダム|な敵にこれらの効果を繰り返す。"
+  Name: 双頭の襲撃艦
+
+FlandrePartnersinCrime:
+  Description: "{FlandreShield}|バリア|を得る。\n{FlandreDamage}ダメージを与える。\n手札から最大{FlandreValue1}枚をプレイする。この方法でプレイした攻撃カード1枚につき|火力|{FlandreValue2}を得る。防御カード1枚につき|霊力|{FlandreValue2}を得る。"
+  UpgradedDescription: "{FlandreShield}|バリア|を得る。\n{FlandreDamage}ダメージを与える。\n手札から最大{FlandreValue1}枚をプレイする。この方法でプレイした攻撃カード1枚につき|火力|{FlandreValue2}を得る。防御カード1枚につき|霊力|{FlandreValue2}を得る。"
+  Name: 共犯者
+
+FlandrePathofDestruction:
+  Description: "|供物|{Value1}。\n{FlandreBlock}|ブロック|を得る。\nカードを{FlandreValue2}枚引く。"
+  UpgradedDescription: "|供物|{Value1}。\n{FlandreBlock}|ブロック|を得る。\nカードを{FlandreValue2}枚引く。"
+  Name: 破壊の道
+
+FlandrePlanetKiller:
+  Description: "敵全体に{Value1}ダメージを与える。\n|追加の{Mana}を消費するごとに|：代わりにその{Value2:plural one='%倍' other='%倍'}のダメージを与える。\n|狂気|{Value3}を得る。"
+  UpgradedDescription: "敵全体に{Value1}ダメージを与える。\n|追加の{Mana}を消費するごとに|：代わりにその{Value2:plural one='%倍' other='%倍'}のダメージを与える。\n|狂気|{Value3}を得る。"
+  Name: 惑星殺し
+
+FlandrePlayTogether:
+  Description: "|初見|：|火力|{FlandreValue1}を得る。\n捨て札から最大{FlandreValue2}枚のカードを選び、手札に戻す。"
+  UpgradedDescription: "|初見|：|火力|{FlandreValue1}を得る。\n捨て札から最大{FlandreValue2}枚のカードを選び、手札に戻す。"
+  ExtraDescription1: "|d:初見：|火力|{FlandreValue1}を得る。|\n捨て札から最大{FlandreValue2}枚のカードを選び、手札に戻す。"
+  Name: 一緒にあそぼう
+  DetailText: "{SelfName}はこの効果の対象にならない。"
+
+FlandrePrayerofRuin:
+  Description: "|破滅|{FlandreValue1}を与える。\n対象の失ったライフと同じ量の追加の|破滅|を与える。({Amount})\n|退治|：<sprite=\"Point\" name=\"Gold\">{FlandreValue2}を得る。"
+  UpgradedDescription: "|破滅|{FlandreValue1}を与える。\n対象の失ったライフと同じ量の追加の|破滅|を与える。({Amount})\n|退治|：<sprite=\"Point\" name=\"Gold\">{FlandreValue2}を得る。"
+  NonbattleDescription: "|破滅|{FlandreValue1}を与える。\n対象の失ったライフと同じ量の追加の|破滅|を与える。\n|退治|：<sprite=\"Point\" name=\"Gold\">{FlandreValue2}を得る。"
+  UpgradedNonbattleDescription: "|破滅|{FlandreValue1}を与える。\n対象の失ったライフと同じ量の追加の|破滅|を与える。\n|退治|：<sprite=\"Point\" name=\"Gold\">{FlandreValue2}を得る。"
+  Name: 破滅の祈り
+  FlavorText: "\"誰に祈っているの？　もちろん私よね？」\"\n- 摩多羅隠岐奈\n\"いや、ZUNだよ。\"\n- フランドール・スカーレット\n\"...誰?\"\n- 摩多羅隠岐奈"
+
+FlandreRecklessBullet:
+  Description: "{FlandreDamage}ダメージを{FlandreValue1:plural one='%回' other='%回'}与える。\n|p:ランダム|な|クリスタル|{FlandreValue2}枚を手札に加える。"
+  UpgradedDescription: "{FlandreDamage}ダメージを{FlandreValue1:plural one='%回' other='%回'}与える。\n|p:ランダム|な|クリスタル|+{Value3}を{FlandreValue2}枚手札に加える。"
+  Name: レックレスバレット
+
+
+
+FlandreReliableLittleSister:
+  Description: "{FlandreBlock}|ブロック|を得る。\n{PlayerName}の最大ライフに等しい追加の|ブロック|を得る。\n({Amount})"
+  UpgradedDescription: "{FlandreBlock}|ブロック|を得る。\n{PlayerName}の最大ライフに等しい追加の|ブロック|を得る。\n({Amount})"
+  NonbattleDescription: "{FlandreBlock}|ブロック|を得る。\n{PlayerName}の最大ライフに等しい追加の|ブロック|を得る。"
+  UpgradedNonbattleDescription: "{FlandreBlock}|ブロック|を得る。\n{PlayerName}の最大ライフに等しい追加の|ブロック|を得る。"
+  Name: 頼れる妹
+
+FlandreRipandTear:
+  Description: "{FlandreDamage}ダメージを{FlandreValue1}回与える。\n対象のライフが{FlandreValue2}以下なら、|破壊|する。"
+  UpgradedDescription: "{FlandreDamage}ダメージを{FlandreValue1}回与える。\n対象のライフが{FlandreValue2}以下なら、|破壊|する。"
+  Name: 引き裂き、切り裂け！
+
+FlandreRipplesof495Years:
+  Description: "{PlayerName}はすべてのデバフを受けない。\nこの戦闘中に得るすべてのマナは<sprite=\"ManaSprite\" name=\"P\">になる。\nターン終了時、未使用のマナは失われない。\nすべてのカードは追加で{FlandreValue1}回発動する。\nこの効果は重複しない。"
+  UpgradedDescription: "{PlayerName}はすべてのデバフを受けない。\nこの戦闘中に得るすべてのマナは<sprite=\"ManaSprite\" name=\"P\">になる。\nターン終了時、未使用のマナは失われない。\nすべてのカードは追加で{FlandreValue1}回発動する。\nこの効果は重複しない。"
+  Name: 495年の波紋
+  Ripplesof495Years1Flandre: "ただ……壊したいだけなの。"
+  Ripplesof495Years2Flandre: "とくに、あなたをね！"
+
+FlandreRoseCross:
+  Description: "{FlandreShield}|バリア|を得る。\nすべての敵に|業火|{FlandreValue1}を与える。"
+  UpgradedDescription: "{FlandreShield}|バリア|を得る。\nすべての敵に|業火|{FlandreValue1}を与える。"
+  Name: ローズクロス
+
+FlandreRuinedFortress:
+  Description: "|破滅|状態の敵が与える攻撃ダメージは{Value1}%減少する。\nこの効果は重複しない。\n敵全体に|破滅|{FlandreValue2}を与える。"
+  UpgradedDescription: "|破滅|状態の敵が与える攻撃ダメージは{Value1}%減少する。\nこの効果は重複しない。\n敵全体に|破滅|{FlandreValue2}を与える。"
+  Name: 廃墟の要塞
+
+FlandreScarletCasino:
+  Description: "|p:ランダム効果|を持つ|フランドール|カードを{Value1}枚使用するたび、以下の{Value1}種類の効果からランダムに{Value2}種類を得る：\nこのターン、すべてのカードのコストが{Amount1}減少する。\n次に使用する{Amount2}枚のカードは追加で{Value2}回発動する。\n次に{PlayerName}がライフを失う{Amount3}回を無効化する。\n|戦場|のランダムなカード{Amount4}枚を{Value4}回|アップグレード|する。\n{Amount5}を得る。\n<sprite=\"Point\" name=\"Gold\">{Amount6}を得る。"
+  UpgradedDescription: "|p:ランダム効果|を持つ|フランドール|カードを{Value1}枚使用するたび、以下の{Value1}種類の効果からランダムに{Value2}種類を得る：\nこのターン、すべてのカードのコストが{Amount1}減少する。\n次に使用する{Amount2}枚のカードは追加で{Value2}回発動する。\n次に{PlayerName}がライフを失う{Amount3}回を無効化する。\n|戦場|のランダムなカード{Amount4}枚を{Value4}回|アップグレード|する。\n{Amount5}を得る。\n<sprite=\"Point\" name=\"Gold\">{Amount6}を得る。\n{SelfName}を1回誘発する。"
+  Name: スカーレットカジノ
+  DetailText: "{SelfName}は戦闘中にランダム生成されず、複製もできない。"
+  ScarletCasino1Flandre: "スカーレットカジノへようこそ！"
+  ScarletCasino2Flandre: "賭けるのは、あなたの魂よ！"
+
+FlandreScarletNihility:
+  Description: "{FlandreDamage}ダメージを与える。\n未使用のマナ1点につき、{SelfName}のダメージが{FlandreValue1}増加する。({Amount})\n対象のライフが{Value2}%以下なら、|破壊|する。({Amount2})"
+  UpgradedDescription: "{FlandreDamage}ダメージを与える。\n未使用のマナ1点につき、{SelfName}のダメージが{FlandreValue1}増加する。({Amount})\n対象のライフが{Value2}%以下なら、|破壊|する。({Amount2})"
+  NonbattleDescription: "{FlandreDamage}ダメージを与える。\n未使用のマナ1点につき、{SelfName}のダメージが{FlandreValue1}増加する。\n対象のライフが{Value2}%以下なら、|破壊|する。"
+  UpgradedNonbattleDescription: "{FlandreDamage}ダメージを与える。\n未使用のマナ1点につき、{SelfName}のダメージが{FlandreValue1}増加する。\n対象のライフが{Value2}%以下なら、|破壊|する。"
+  Name: スカーレットニヒリティ
+  DetailText: "{SelfName}は戦闘中ランダムに生成されない。コピーもできない。"
+
+FlandreScaryLittleSister:
+  Description: "{FlandreBlock}|ブロック|を得る。\nすべての敵に|脱力|{FlandreValue1}を与える。\n|廃棄された時|：{FlandreMana}を得て、カードを{FlandreValue2}枚引く。"
+  UpgradedDescription: "{FlandreBlock}|ブロック|を得る。\nすべての敵に|脱力|{FlandreValue1}を与える。\n|廃棄された時|：{FlandreMana}を得て、カードを{FlandreValue2}枚引く。"
+  Name: おそろしい妹さま
+
+FlandreSisteroftheDevil:
+  Description: "|戦闘開始時|：{SelfName}を|廃棄|し、|悪魔の妹|と{FlandreMana}を得る。"
+  UpgradedDescription: "|戦闘開始時|：{SelfName}を|廃棄|し、|悪魔の妹|と{FlandreMana}を得る。"
+  Name: 悪魔の妹
+  DetailText: "{SelfName}は戦闘中にランダム生成されず、複製もできない。"
+
+
+FlandreSoulMelter:
+  Description: "{FlandreDamage}ダメージを{FlandreValue1}回与える。\n|業火|{FlandreValue2}と|破滅|{Value3}を与える。\n|退治|：最大ライフ{Value4}を得る。"
+  UpgradedDescription: "{FlandreDamage}ダメージを{FlandreValue1}回与える。\n|業火|{FlandreValue2}と|破滅|{Value3}を与える。\n|退治|：最大ライフ{Value4}を得る。"
+  Name: 魂を溶かす者
+
+FlandreSpectrometer:
+  Description: "{FlandreBlock}|ブロック|を得る。\n山札と捨て札に、それぞれ|p:ランダム|な|クリスタル|を{FlandreValue1}枚加える。"
+  UpgradedDescription: "{FlandreBlock}|ブロック|を得る。\n山札と捨て札に、それぞれ|p:ランダム|な|クリスタル|を{FlandreValue1}枚加える。"
+  ExtraDescription1: "{FlandreBlock}|ブロック|を得る。\n山札と捨て札に、それぞれ|p:ランダム|な|クリスタル+{Value3}|を{FlandreValue1}枚加える。"
+  Name: スペクトロメーター
+
+FlandreSpellBreak:
+  Description: "{FlandreValue1}ダメージを与える。\n対象は{Value2}ターン行動できない。\n対象は{Value3}ターンの間、|スペルブレイク|の効果を受けない。"
+  UpgradedDescription: "{FlandreValue1}ダメージを与える。\n対象は{Value2}ターン行動できない。\n対象は{Value3}ターンの間、|スペルブレイク|の効果を受けない。"
+  Name: スペルブレイク
+
+FlandreStarbowBreak:
+  Description: "|異なる色のマナを1点消費するたび|：すべての敵に{FlandreDamage}ダメージを与える。\n手札の攻撃カード1枚につき、{SelfName}のダメージが{FlandreValue1}増加する。\n|バリア|または|ブロック|を持つ敵には、その{FlandreValue2}倍のダメージを与える。"
+  UpgradedDescription: "|異なる色のマナを1点消費するたび|：すべての敵に{FlandreDamage}ダメージを与える。\n手札の攻撃カード1枚につき、{SelfName}のダメージが{FlandreValue1}増加する。\n|バリア|または|ブロック|を持つ敵には、その{FlandreValue2}倍のダメージを与える。"
+  Name: スターボウブレイク
+
+FlandreStraightFlush:
+  Description: "{FlandreShield}|バリア|を得る。\n|火力|、|霊力|、|加護|、|庇護|をそれぞれ{FlandreValue1}得る。\n手札に同じ種類のカードが{Value2}枚以上ある場合、{SelfName}のコストは{Mana}になる。\n({AmountS})"
+  UpgradedDescription: "{FlandreShield}|バリア|を得る。\n|火力|、|霊力|、|加護|、|庇護|をそれぞれ{FlandreValue1}得る。\n手札に同じ種類のカードが{Value2}枚以上ある場合、{SelfName}のコストは{Mana}になる。\n({AmountS})"
+  NonbattleDescription: "{FlandreShield}|バリア|を得る。\n|火力|、|霊力|、|加護|、|庇護|をそれぞれ{FlandreValue1}得る。\n手札に同じ種類のカードが{Value2}枚以上ある場合、{SelfName}のコストは{Mana}になる。"
+  UpgradedNonbattleDescription: "{FlandreShield}|バリア|を得る。\n|火力|、|霊力|、|加護|、|庇護|をそれぞれ{FlandreValue1}得る。\n手札に同じ種類のカードが{Value2}枚以上ある場合、{SelfName}のコストは{Mana}になる。"
+  Name: ストレートフラッシュ
+
+FlandreSuperhumanCatastrophePilgrimage:
+  Description: "|供物|{Value1}。\n|p:ランダム|な攻撃、防御、スキル、|能力|カードをそれぞれ{FlandreValue2}枚手札に加える。それらは|臨時コスト|{Mana}となり、|廃棄|と|虚無|を持つ。"
+  UpgradedDescription: "|供物|{Value1}。\n|p:ランダム|な攻撃、防御、スキル、|能力|カードをそれぞれ{FlandreValue2}枚手札に加える。それらは|臨時コスト|{Mana}となり、|廃棄|と|虚無|を持つ。"
+  Name: 超人災厄巡礼
+  DetailText: "{SelfName}はこの効果では生成されない。"
+
+FlandreTheCentennialFestivalforMagicalGirls:
+  Description: "すべての|魔法少女|カードは追加で{Value1}回|アップグレード|できる。\n戦闘終了まで、すべての|フランドール|カードは|魔法少女|を得る。\nこの戦闘中に{PlayerName}がカードを加えるたび、それを|アップグレード|する。\nこの効果は重複しない。"
+  UpgradedDescription: "すべての|魔法少女|カードは追加で{Value1}回|アップグレード|できる。\n戦闘終了まで、すべての|フランドール|カードは|魔法少女|を得る。\nこの戦闘中に{PlayerName}がカードを加えるたび、それを|アップグレード|する。\nこの効果は重複しない。\n戦闘終了まで、すべてのカードを{FlandreValue2}回|アップグレード|する。"
+  Name: 魔法少女百年祭
+
+FlandreTheMousetrap:
+  Description: "{FlandreShield}|バリア|を得る。\n|災禍|{FlandreValue1}を得る。\n{PlayerName}の次のターン開始時、前のターンに受けたダメージに等しいダメージをすべての敵に与える。"
+  UpgradedDescription: "{FlandreShield}|バリア|を得る。\n|災禍|{FlandreValue1}を得る。\n{PlayerName}の次のターン開始時、前のターンに受けたダメージに等しいダメージをすべての敵に与える。"
+  Name: ネズミ捕り
+
+
+FlandreThePsychoticandCuteGuest:
+  Description: "攻撃カードを使用するたび、|災禍|{FlandreValue1}と|火力|{FlandreValue1}を得る。"
+  UpgradedDescription: "攻撃カードを使用するたび、|災禍|{FlandreValue1}と|火力|{FlandreValue1}を得る。"
+  PhantasmModeDescription: "攻撃カードを使用するたび、|災禍|{FlandreValue1}と|火力|{FlandreValue1}を得る。\n|狂気|{Value2}を得る。"
+  PhantasmModeUpgradedDescription: "攻撃カードを使用するたび、|災禍|{FlandreValue1}と|火力|{FlandreValue1}を得る。\n|狂気|{Value2}を得る。"
+  Name: 狂カワな来訪者
+
+FlandreTirelessVampire:
+  Description: "{FlandreBlock}|ブロック|を得る。\n|p:ランダム|なマナを{FlandreValue1}得る。"
+  UpgradedDescription: "{FlandreBlock}|ブロック|を得る。\n|p:ランダム|なマナを{FlandreValue1}得る。"
+  Name: 疲れ知らずの吸血鬼
+  FlavorText: "\"さあ、美鈴！夜はまだ始まったばかりだよ！\"\n- フランドール・スカーレット"
+
+FlandreToolDestroyingObstacles:
+  LockedDescription: "フランドール・スカーレットでNormal以上の難易度で異変を解決するとアンロック。"
+  Description: "ライブラリからカードを1枚除外する。\n|消耗品\u3010{DeckCounter}\u3011|"
+  Name: 障害排除
+  DetailText: "{SelfName}は戦闘中にランダム生成されず、複製もできない。\n選択したカードはライブラリから除外されても、この戦闘中は除外されない。"
+
+FlandreToolPlanetKiller:
+  LockedDescription: "フランドール・スカーレットでLunatic以上の難易度で異変を解決するとアンロック。"
+  Description: "ライフが{Amount}以下の敵を|破壊|する。\n|{Mana}ごとに|：効果が2倍になる。\n|消耗品\u3010{DeckCounter}\u3011|"
+  Name: プラネットキラー
+  DetailText: "{SelfName}は戦闘中にランダム生成されず、複製もできない。"
+
+FlandreToolTheCureforMadness:
+  LockedDescription: "フランドール・スカーレットでHard以上の難易度で異変を解決するとアンロック。"
+  Description: "{PlayerName}のデバフをすべて解除する。\n|狂気|を{Value1}失う。\n|消耗品\u3010{DeckCounter}\u3011|"
+  Name: 狂気の治療薬
+  DetailText: "{SelfName}は戦闘中にランダム生成されず、複製もできない。"
+
+FlandreTrueDevilsCurtain:
+  Description: "{FlandreBlock}|ブロック|を得る。\nライフを{FlandreValue1}回復する。"
+  UpgradedDescription: "{FlandreBlock}|ブロック|を得る。\nライフを{FlandreValue1}回復する。"
+  Name: 真・悪魔のカーテン
+
+FlandreTrueDevilsMantle:
+  Description: "{FlandreBlock}|ブロック|を得る。\nライフを{FlandreValue1}回復する。"
+  UpgradedDescription: "{FlandreBlock}|ブロック|を得る。\nライフを{FlandreValue1}回復する。"
+  Name: 真・悪魔のマント
+
+FlandreTrueDevilsRain:
+  Description: "{FlandreDamage}ダメージを与える。\nライフを{FlandreValue1}回復する。"
+  UpgradedDescription: "{FlandreDamage}ダメージを与える。\nライフを{FlandreValue1}回復する。"
+  Name: 真・悪魔の雨
+
+FlandreTrueDevilsShot:
+  Description: "{FlandreDamage}ダメージを与える。\nライフを{FlandreValue1}回復する。"
+  UpgradedDescription: "{FlandreDamage}ダメージを与える。\nライフを{FlandreValue1}回復する。"
+  Name: 真・悪魔の弾丸
+
+FlandreUltraViolence:
+  Description: "敵全体に{FlandreDamage}ダメージを与え、|弱体|{FlandreValue1}を与える。\n手札が上限になるまで|p:ランダム|な攻撃カードを手札に加える。それらは|臨時コスト|{Mana}となり、|廃棄|と|虚無|を持つ。\n|狂気|{Value2}を得る。"
+  UpgradedDescription: "敵全体に{FlandreDamage}ダメージを与え、|弱体|{FlandreValue1}を与える。\n手札が上限になるまで|p:ランダム|な攻撃カードを手札に加える。それらは|臨時コスト|{Mana}となり、|廃棄|と|虚無|を持つ。\n|狂気|{Value2}を得る。"
+  Name: ウルトラバイオレンス
+  DetailText: "{SelfName}はこの効果では生成されない。"
+  UltraViolence: "検閲済み"
+
+FlandreUncontrollableBomb:
+  Description: "|p:ランダム|で以下のいずれかを行う：{PlayerName}に{Value1}ダメージを与え、|火力|{FlandreValue2}を得る、敵全体に{FlandreDamage}ダメージを与える、または{PlayerName}に{Value1}ダメージを与え、敵全体に{FlandreDamage}ダメージを与える。"
+  UpgradedDescription: "|p:ランダム|で以下のいずれかを行う：{PlayerName}に{Value1}ダメージを与え、|火力|{FlandreValue2}を得る、敵全体に{FlandreDamage}ダメージを与える、または{PlayerName}に{Value1}ダメージを与え、敵全体に{FlandreDamage}ダメージを与える。"
+  Name: 制御不能爆弾
+
+FlandreUnholySanctuary:
+  Description: "{FlandreShield}|バリア|を得る。\n次の自分のターン開始まで、{PlayerName}が受けるダメージは半分になる。\n次の{PlayerName}のターン開始時、前のターンに失ったライフに等しいライフを回復する。"
+  UpgradedDescription: "{FlandreShield}|バリア|を得る。\n次の自分のターン開始まで、{PlayerName}が受けるダメージは半分になる。\n次の{PlayerName}のターン開始時、前のターンに失ったライフに等しいライフを回復する。"
+  Name: 穢れた聖域
+
+FlandreUnstablePower:
+  Description: "{PlayerName}の攻撃ダメージは{Value1}%～{FlandreValue2}%間で変動する。\nこの効果は重複しない。\n|狂気|{Value3}を得る。"
+  UpgradedDescription: "{PlayerName}の攻撃ダメージは{Value1}%～{FlandreValue2}%間で変動する。\nこの効果は重複しない。\n|狂気|{Value3}を得る。"
+  Name: 不安定な力
+
+FlandreViolentSpread:
+  Description: "|p:ランダム|な敵1体に{FlandreDamage}ダメージを{FlandreValue1}回与える。\n|災禍|{FlandreValue2}を得る。"
+  UpgradedDescription: "|p:ランダム|な敵1体に{FlandreDamage}ダメージを{FlandreValue1}回与える。\n|災禍|{FlandreValue2}を得る。"
+  Name: 暴力の拡散
+
+
+
+FlandreWalpurgisNight:
+  Description: "|破滅|の最大スタック数が{Value1}になる。\n{PlayerName}が攻撃ダメージを与えるたび、その半分に等しい|破滅|も与える。\nこの効果は重複しない。"
+  UpgradedDescription: "|破滅|の最大スタック数が{Value1}になる。\n{PlayerName}が攻撃ダメージを与えるたび、その半分に等しい|破滅|も与える。\nこの効果は重複しない。\n敵全体に|破滅|{FlandreValue2}を与える。"
+  Name: ワルプルギスの夜
+
+FlandreWarmonger:
+  Description: "|手札に加わったとき|：敵1体につき|臨時火力|{FlandreValue1}と|臨時霊力|{FlandreValue1}を得る。({Amount})"
+  UpgradedDescription: "|手札に加わったとき|：敵1体につき|臨時火力|{FlandreValue1}と|臨時霊力|{FlandreValue1}を得る。({Amount})"
+  NonbattleDescription: "|手札に加わったとき|：敵1体につき|臨時火力|{FlandreValue1}と|臨時霊力|{FlandreValue1}を得る。"
+  UpgradedNonbattleDescription: "|手札に加わったとき|：敵1体につき|臨時火力|{FlandreValue1}と|臨時霊力|{FlandreValue1}を得る。"
+  Name: 戦争屋
+
+FlandreWatchtheWorldBurn:
+  Description: "{PlayerName}のターン終了時、敵全体に|業火|{FlandreValue1}を与える。"
+  UpgradedDescription: "{PlayerName}のターン終了時、敵全体に|業火|{FlandreValue1}を与える。"
+  Name: 見よ、燃える世界を
+
+FlandreWhitefire:
+  Description: "{FlandreDamage}ダメージを{FlandreValue1}回与える。\n戦闘終了まで、手札のカードをすべて{FlandreValue2}回|アップグレード|する。"
+  UpgradedDescription: "{FlandreDamage}ダメージを{FlandreValue1}回与える。\n戦闘終了まで、手札のカードをすべて{FlandreValue2}回|アップグレード|する。"
+  Name: 白炎
+
+OkinaAFarawayFantasyLand:
+  Description: "{Block}|ブロック|を得る。\n|秋エネルギー|{Value1}を得る。\n前のターンに使用した防御カードが{Value2}枚以下の場合、{SelfName}のコストは{Mana}になる。"
+  UpgradedDescription: "{Block}|ブロック|を得る。\n|秋エネルギー|{Value1}を得る。\n前のターンに使用した防御カードが{Value2}枚以下の場合、{SelfName}のコストは{Mana}になる。"
+  Name: 遥かなる幻想郷
+
+OkinaAnywhereDoor:
+  Description: "|選択|：|戦場|のカード1枚を手札に加える、または|戦場|のカード1枚を|放逐|する。\n|冬エネルギー|{Value1}を得る。"
+  UpgradedDescription: "|選択|：|戦場|のカード1枚を手札に加える、または|戦場|のカード1枚を|放逐|する。\n|冬エネルギー|{Value1}を得る。"
+  Name: どこでもドア
+
+
+
+
+
+
+OkinaAprilWizard:
+  Description: "{Value1}枚カードを引く。\n|神恩|{Value2}を得る。\n|春の力|{Value1}を得る。"
+  UpgradedDescription: "{Value1}枚カードを引く。\n|神恩|{Value2}を得る。\n|春の力|{Value1}を得る。"
+  Name: 四月の魔法使い
+
+OkinaBackDoorofFastTravel:
+  Description: "{Block}|ブロック|を得る。\n山札から最大{Value1}枚のカードを選び、手札に加える。"
+  UpgradedDescription: "{Block}|ブロック|を得る。\n山札から最大{Value1}枚のカードを選び、手札に加える。"
+  Name: 高速移動の裏口
+
+OkinaBeginningofaNewArea:
+  Description: "山札がシャッフルされるたび、|p:完全ランダム|な{Value1}枚のカードから2枚まで選び、手札に加える。それらは|臨時コスト|{Mana}となり、|廃棄|と|虚無|を得る。\n|春の力|{Value2}を得る。"
+  UpgradedDescription: "山札がシャッフルされるたび、|p:完全ランダム|な{Value1}枚のカードから2枚まで選び、手札に加える。それらは|臨時コスト|{Mana}となり、|廃棄|と|虚無|を得る。\n|春の力|{Value2}を得る。"
+  Name: 新たなエリアの始まり
+
+OkinaBlackSnowman:
+  Description: "{Block}|ブロック|を得る。\n{PlayerName}の|ブロック|をすべて|バリア|に変換する。\n|冬の力|{Value1}を得る。"
+  UpgradedDescription: "{Block}|ブロック|を得る。\n{PlayerName}の|ブロック|をすべて|バリア|に変換する。\n|冬の力|{Value1}を得る。"
+  Name: 黒い雪だるま
+
+OkinaCowardsMasterSpark:
+  Description: "敵全体に{Damage}ダメージを{Value1}回与える。\n|冬の力|{Value1}を得る。\n|ターン終了時|：このターンに使用した攻撃カードが{Value2}枚以下なら、{SelfName}を使用する。"
+  UpgradedDescription: "敵全体に{Damage}ダメージを{Value1}回与える。\n|冬の力|{Value1}を得る。\n|ターン終了時|：このターンに使用した攻撃カードが{Value2}枚以下なら、{SelfName}を使用する。"
+  Name: 臆病者のマスタースパーク
+
+OkinaCycleofLife:
+  Description: "一番左のカードを捨てる。\n捨て札の一番下のカードを山札の一番上に戻す。\n山札の一番下のカードを手札に加える。"
+  UpgradedDescription: "一番左のカードを捨てる。\n捨て札の一番下のカードを山札の一番上に戻す。\n山札の一番下のカードを手札に加える。\nそれらは|臨時コスト|{Mana}少なくなる。"
+  Name: 命の循環
+
+OkinaDieofFamine:
+  Description: "{Damage}ダメージを与える。\n|毒|{Value1}を与える。\nさらに{PlayerName}の|火力|に等しい|毒|を与える。\n|秋の力|{Value1}を得る。"
+  UpgradedDescription: "{Damage}ダメージを与える。\n|毒|{Value1}を与える。\nさらに{PlayerName}の|火力|に等しい|毒|を与える。\n|秋の力|{Value1}を得る。"
+  Name: 飢饉の賽
+
+OkinaDoorSurfing:
+  Description: "{Block}|ブロック|を得る。\n{Damage}ダメージを与える。\n{SelfName}は|神恩|の効果を{Value1}回追加で受ける。"
+  UpgradedDescription: "{Block}|ブロック|を得る。\n{Damage}ダメージを与える。\n{SelfName}は|神恩|の効果を{Value1}回追加で受ける。"
+  Name: ドアサーフィン
+
+OkinaEverlastingSummer:
+  Description: "敵全体に{Damage}ダメージを与える。\n隠岐奈のターン開始時、敵全体に{Damage}の|精密|攻撃ダメージを与える。\n|成長|：戦闘終了までコストが{Mana}増える。"
+  UpgradedDescription: "敵全体に{Damage}ダメージを与える。\n隠岐奈のターン開始時、敵全体に{Damage}の|精密|攻撃ダメージを与える。\n|成長|：戦闘終了までコストが{Mana}増える。"
+  Name: 終わらない夏
+
+OkinaFireofEna:
+  Description: "{PlayerName}の次のターンまで、{Mana}を消費するたび敵全体に{Value1}の|精密|攻撃ダメージを与え、|秋の力|{Value2}を得る。\n{Mana2}を得る。"
+  UpgradedDescription: "{PlayerName}の次のターンまで、{Mana}を消費するたび敵全体に{Value1}の|精密|攻撃ダメージを与え、|秋の力|{Value2}を得る。\n{Mana2}を得る。"
+  Name: 後戸の炎
+
+OkinaHalooftheSecretGod:
+  Description: "{Mana}を消費するたび、{Value1}|バリア|を得る。"
+  UpgradedDescription: "{Mana}を消費するたび、{Value1}|バリア|を得る。"
+  Name: 秘神の後光
+
+OkinaHiddenBreezyCherryBlossom:
+  Description: "{Mana}を得る。\n{PlayerName}の次のターンまで、スキルカードを使用するたび|神恩|{Value1}を得る。\n{PlayerName}の|春の力|が12以上なら、|春の解放|に入る。"
+  UpgradedDescription: "{Mana}を得る。\n{PlayerName}の次のターンまで、スキルカードを使用するたび|神恩|{Value1}を得る。\n{PlayerName}の|春の力|が12以上なら、|春の解放|に入る。"
+  Name: 裏・ブリージーチェリーブロッサム
+
+OkinaHiddenCrazyFallWind:
+  Description: "敵全体に{Damage}ダメージを{Value1}回与える。\n|火力|{Value2}を得る。\n{PlayerName}の|秋の力|が12以上なら、|秋の解放|に入る。"
+  UpgradedDescription: "敵全体に{Damage}ダメージを{Value1}回与える。\n|火力|{Value2}を得る。\n{PlayerName}の|秋の力|が12以上なら、|秋の解放|に入る。"
+  Name: 裏・クレイジーフォールウィンド
+
+OkinaHiddenExtremeWinter:
+  Description: "{Shield}|バリア|を得る。\n|霊力|{Value1}を得る。\n{SelfName}の|冬の力|が12以上なら、|冬の解放|に入る。"
+  UpgradedDescription: "{Shield}|バリア|を得る。\n|霊力|{Value1}を得る。\n{SelfName}の|冬の力|が12以上なら、|冬の解放|に入る。"
+  Name: 裏・エクストリームウィンター
+
+OkinaHiddenPerfectSummerIce:
+  Description: "{PlayerName}の|夏の力|が12以上になったとき、|夏の解放|に入る。この効果は1ターンに1回しか発動しない。\n|フロストアーマー|{Value1}を得る。"
+  UpgradedDescription: "{PlayerName}の|夏の力|が12以上になったとき、|夏の解放|に入る。この効果は1ターンに1回しか発動しない。\n|フロストアーマー|{Value1}を得る。"
+  Name: 裏・パーフェクトサマーアイス
+
+OkinaKochSnowflake:
+  Description: "敵全体に{Damage}ダメージを与える。\n|冬力|{Value1}を得る。\n{Value2}枚カードを引く。"
+  UpgradedDescription: "敵全体に{Damage}ダメージを与え、|冷気|を与える。\n|冬力|{Value1}を得る。\n{Value2}枚カードを引く。"
+  Name: コッホ雪片
+
+
+OkinaKyogenoftheBackDoor:
+  Description: "{SelfName}が手札に加わったとき、{Shield}|バリア|を得る。\n|夏の力|{Value1}を得る。"
+  UpgradedDescription: "{SelfName}が手札に加わったとき、{Shield}|バリア|を得る。\n|夏の力|{Value1}を得る。"
+  Name: 裏戸の狂言
+
+OkinaManipulationofLifeEnergy:
+  Description: "|チョイス|：ライフを{Value1}回復する、または対象のライフを{Value2}失わせる。\n|夏の力|{Value3}を得る。\n{SelfName}を手札に戻す。\n{Value4}回使用した後、{SelfName}を戦闘から除外する。"
+  UpgradedDescription: "|チョイス|：ライフを{Value1}回復する、または対象のライフを{Value2}失わせる。\n|夏の力|{Value3}を得る。\n{SelfName}を手札に戻す。\n{Value4}回使用した後、{SelfName}を戦闘から除外する。"
+  ExtraDescription1: "ライフを{Value1}回復する。"
+  ExtraDescription2: "対象のライフを{Value2}失わせる。"
+  Name: 生命力の操作
+
+OkinaManipulationofMentalEnergy:
+  Description: "|火力低下|と|霊力低下|をそれぞれ{Value1}与える。\n|夏の力|{Value2}を得る。"
+  UpgradedDescription: "|火力低下|と|霊力低下|をそれぞれ{Value1}与える。\n|夏の力|{Value2}を得る。"
+  Name: 精神力の操作
+
+OkinaMastermindBehindtheScenes:
+  Description: "敵がデバフを得るたび、{Value1}|バリア|を得る。\n|春の力|{Value2}を得る。"
+  UpgradedDescription: "敵がデバフを得るたび、{Value1}|バリア|を得る。\n|春の力|{Value2}を得る。"
+  Name: 黒幕
+
+OkinaRearShotsofBetrayal:
+  Description: "各ターン最初に{PlayerName}が攻撃ダメージを受けるとき、そのダメージをランダムな敵1体へ移し替える。\n|秋の力|{Value1}を得る。"
+  UpgradedDescription: "各ターン最初に{PlayerName}が攻撃ダメージを受けるとき、そのダメージをランダムな敵1体へ移し替える。\n|秋の力|{Value1}を得る。"
+  Name: 裏切りの背面撃ち
+
+OkinaSacrificetotheGod:
+  Description: "手札からカード1枚を|廃棄|する。\nこの方法でカードを|廃棄|した場合、|火力|{Value1}を得て、{Value2}枚カードを引く。"
+  UpgradedDescription: "手札からカード1枚を|廃棄|する。\nこの方法でカードを|廃棄|した場合、|火力|{Value1}を得て、{Value2}枚カードを引く。"
+  Name: 神への供物
+
+OkinaSageMeeting:
+  Description: "{Block}|ブロック|を得る。\n|神恩|{Value1}を得る。"
+  UpgradedDescription: "{Block}|ブロック|を得る。\n|神恩|{Value1}を得る。\n|初見|：|v:完全ランダム|な{Value2}枚のカードから1枚選び、手札に加える。"
+  ExtraDescription1: "{Block}|ブロック|を得る。\n|神恩|{Value1}を得る。\n|d:初見：|v:完全ランダム|な{Value2}枚のカードから1枚選び、手札に加える。|"
+  Name: 賢者の会合
+
+OkinaSarugakuofFireandIce:
+  Description: "{Block}|ブロック|を得る。\n|秋の力|{Value1}を得る。\n次に使用する赤または青のカード{Value2}枚のコストは{Mana}になる。"
+  UpgradedDescription: "{Block}|ブロック|を得る。\n|秋の力|{Value1}を得る。\n次に使用する赤または青のカード{Value2}枚のコストは{Mana}になる。"
+  Name: 火と氷の猿楽
+
+OkinaScorchByHotSummer:
+  Description: "{PlayerName}のターン開始時、|夏の力|{Value1}を得る。"
+  UpgradedDescription: "{PlayerName}のターン開始時、|夏の力|{Value1}を得る。"
+  Name: 灼熱の夏
+
+OkinaSecretGodBarrier:
+  Description: "{Block}|ブロック|を得る。\n{Shield}|バリア|を得る。\n|春の力|{Value1}を得る。"
+  UpgradedDescription: "{Block}|ブロック|を得る。\n{Shield}|バリア|を得る。\n|春の力|{Value1}を得る。"
+  Name: 秘神の結界
+
+OkinaSecretGodsBehindtheScenesDanmaku:
+  Description: "{PlayerName}が|ブロック|または|バリア|を得るたび、その値に等しいダメージを敵全体に与える。\n|冬力|{Value1}を得る。"
+  UpgradedDescription: "{PlayerName}が|ブロック|または|バリア|を得るたび、その値に等しいダメージを敵全体に与える。\n|冬力|{Value1}を得る。"
+  Name: 秘神の裏舞台弾幕
+
+OkinaSneakPhotographersExorcismfromtheBack:
+  Description: "{Damage}ダメージを{Value1}回与える。\n|加護|と|庇護|をそれぞれ{Value2}得る。\n|春の力|{Value1}を得る。\n対象がデバフや状態カードを与える行動を取ろうとしている場合、この効果を繰り返す。"
+  UpgradedDescription: "{Damage}ダメージを{Value1}回与える。\n|加護|と|庇護|をそれぞれ{Value2}得る。\n|春の力|{Value1}を得る。\n対象がデバフや状態カードを与える行動を取ろうとしている場合、この効果を繰り返す。"
+  Name: 裏からの隠し撮り退魔
+
+OkinaSummerWars:
+  Description: "{Block}|ブロック|を得る。\n敵全体に{Damage}ダメージを与える。\n|夏の力|{Value1}を得る。\nこの効果を敵1体につき1回繰り返す。"
+  UpgradedDescription: "{Block}|ブロック|を得る。\n敵全体に{Damage}ダメージを与える。\n|夏の力|{Value1}を得る。\nこの効果を敵1体につき1回繰り返す。"
+  Name: サマーウォーズ
+
+OkinaThinkingwithPortals:
+  Description: "{PlayerName}のターン終了時、このターンに移動したカード1枚につき{Value1}|バリア|を得る。"
+  UpgradedDescription: "{PlayerName}のターン終了時、このターンに移動したカード1枚につき{Value1}|バリア|を得る。"
+  Name: ポータル思考
+  DetailText: "カードを引く、捨てる、|廃棄|することは移動として数えない。"
+
+TestCard2:
+  Description: "ライフを{Value1}回復する。\nさらに{PlayerName}のSteamフレンド数に等しいライフを回復する。"
+  UpgradedDescription: "ライフを{Value1}回復する。\nさらに{PlayerName}のSteamフレンド数に等しいライフを回復する。"
+  Name: 友情の力

@@ -1,0 +1,135 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using LBoL.Base;
+using LBoL.ConfigData;
+using LBoL.Core;
+using LBoL.Core.Battle;
+using LBoL.Core.Cards;
+using LBoLEntitySideloader;
+using LBoLEntitySideloader.Attributes;
+using LBoLEntitySideloader.Entities;
+using LBoLEntitySideloader.Resource;
+
+namespace AyaShameimaru.Cards
+{
+	public sealed class AyaSarutahikosGuidanceDef : CardTemplate
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override IdContainer GetId()
+		{
+			return <Module>.\u200F\u206C\u206A\u202D\u200D\u202B\u202B\u206B\u206A\u202C\u206C\u206B\u200B\u200D\u202E\u206F\u206C\u206E\u202E\u200D\u200F\u206D\u202A\u200B\u206D\u200B\u206F\u200D\u206B\u202E\u200F\u206D\u200B\u200F\u206D\u200D\u202C\u206C\u206C\u202E<string>(950127187);
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override CardImages LoadCardImages()
+		{
+			CardImages cardImages = AyaSarutahikosGuidanceDef.\u200B\u200E\u200E\u202D\u206C\u206F\u202D\u200E\u202C\u202E\u202C\u202A\u206A\u206D\u202D\u206B\u202C\u206B\u206B\u202E\u206D\u206C\u200F\u202C\u202E\u200B\u206D\u200C\u202E\u202A\u206D\u206F\u206C\u206F\u202E\u200E\u200D\u200F\u206A\u202A\u202E(BepinexPlugin.embeddedSource);
+			AyaSarutahikosGuidanceDef.\u200E\u202C\u202B\u202B\u206C\u206C\u200D\u200E\u206C\u206C\u206B\u200F\u200D\u202A\u206F\u206D\u206A\u202D\u200E\u206F\u200C\u206A\u200D\u206F\u200D\u202B\u200E\u206D\u202C\u206F\u202D\u200F\u200C\u200C\u206C\u200D\u202A\u200D\u206D\u206C\u202E(cardImages, this, <Module>.\u202D\u200F\u202D\u200B\u206C\u200B\u202B\u206C\u206E\u206E\u200C\u206B\u200D\u206B\u202B\u202A\u206F\u200C\u202E\u200D\u200B\u200B\u206F\u206B\u202C\u206F\u202E\u200B\u200B\u202C\u200C\u200E\u202C\u202C\u202C\u202B\u206D\u200D\u200E\u202A\u202E<string>(-402992198), <Module>.\u206A\u202A\u202B\u206E\u202B\u206A\u202E\u206A\u202A\u200D\u202B\u206E\u200B\u202A\u206D\u206E\u200C\u206B\u200D\u206B\u200F\u202A\u206D\u206E\u206E\u200B\u200C\u206D\u206D\u200D\u200E\u202A\u206C\u206A\u202D\u206C\u202B\u200E\u206A\u200F\u202E<string>(2088778032), false);
+			return cardImages;
+		}
+
+		public override LocalizationOption LoadLocalization()
+		{
+			return AyaSarutahikosGuidanceDef.\u206C\u202E\u200E\u206E\u200F\u206E\u200C\u206B\u200E\u202C\u202A\u200D\u206B\u202D\u202C\u200D\u206B\u206C\u202C\u202C\u202A\u206B\u202D\u206F\u206F\u206A\u206C\u202D\u206D\u206B\u200C\u200E\u202B\u206E\u202D\u200D\u200F\u206A\u206A\u200C\u202E(BepinexPlugin.cardLoc, this);
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override CardConfig MakeConfig()
+		{
+			return new CardConfig(AyaSarutahikosGuidanceDef.\u206B\u202D\u202C\u202D\u200E\u202C\u206E\u200F\u206F\u202E\u206B\u206D\u200B\u200C\u202E\u206C\u206D\u206E\u200D\u200C\u206B\u206D\u200C\u202E\u202B\u206A\u200C\u206F\u202B\u200E\u206B\u206B\u202A\u206A\u200B\u206D\u200F\u200D\u206D\u202E(BepinexPlugin.sequenceTable, AyaSarutahikosGuidanceDef.\u206C\u200F\u202B\u200D\u200F\u202B\u202D\u200E\u200D\u200C\u202E\u202A\u202A\u206C\u202A\u206B\u206B\u200E\u202D\u202C\u200F\u200D\u202A\u206C\u206C\u206D\u200E\u200F\u200C\u200E\u200B\u202D\u206A\u202C\u200C\u206B\u206A\u200E\u206E\u202B\u202E(typeof(CardConfig).TypeHandle)), "", 10, true, new string[0][], <Module>.\u202D\u200F\u202D\u200B\u206C\u200B\u202B\u206C\u206E\u206E\u200C\u206B\u200D\u206B\u202B\u202A\u206F\u200C\u202E\u200D\u200B\u200B\u206F\u206B\u202C\u206F\u202E\u200B\u200B\u202C\u200C\u200E\u202C\u202C\u202C\u202B\u206D\u200D\u200E\u202A\u202E<string>(-840054262), <Module>.\u202D\u206A\u202E\u202B\u206C\u200E\u206B\u206E\u200F\u206E\u200C\u202E\u206F\u200C\u206D\u200B\u206E\u200F\u200D\u202A\u206F\u202E\u200E\u206D\u206D\u206F\u202D\u200C\u206F\u202A\u200B\u202E\u206C\u206A\u206B\u202A\u206C\u202E\u200D\u202B\u202E<string>(1341462283), 0, false, true, false, true, true, Rarity.Rare, CardType.Skill, new TargetType?(TargetType.Self), new List<ManaColor> { ManaColor.Red }, false, new ManaGroup
+			{
+				Any = 0
+			}, null, null, null, null, null, null, null, null, null, null, new int?(1), null, null, null, new ManaGroup?(new ManaGroup
+			{
+				Red = 1
+			}), null, null, null, null, null, null, null, null, null, null, null, null, null, null, Keyword.Exile | Keyword.Replenish | Keyword.Plentiful, Keyword.Replenish | Keyword.Plentiful, false, Keyword.None, Keyword.None, new List<string> { <Module>.\u200C\u200F\u206A\u200D\u202B\u200C\u206F\u206A\u200C\u206D\u206C\u206E\u200C\u202B\u200C\u200C\u202A\u206D\u202E\u200F\u202D\u206C\u206C\u202B\u206A\u202C\u202D\u206C\u202C\u200D\u200F\u200F\u202C\u202C\u202B\u200D\u200E\u206D\u206D\u202E\u202E<string>(-955221521) }, new List<string> { <Module>.\u202D\u200F\u202D\u200B\u206C\u200B\u202B\u206C\u206E\u206E\u200C\u206B\u200D\u206B\u202B\u202A\u206F\u200C\u202E\u200D\u200B\u200B\u206F\u206B\u202C\u206F\u202E\u200B\u200B\u202C\u200C\u200E\u202C\u202C\u202C\u202B\u206D\u200D\u200E\u202A\u202E<string>(960223416) }, new List<string>(), new List<string>(), <Module>.\u206A\u202A\u202B\u206E\u202B\u206A\u202E\u206A\u202A\u200D\u202B\u206E\u200B\u202A\u206D\u206E\u200C\u206B\u200D\u206B\u200F\u202A\u206D\u206E\u206E\u200B\u200C\u206D\u206D\u200D\u200E\u202A\u206C\u206A\u202D\u206C\u202B\u200E\u206A\u200F\u202E<string>(1432479242), null, "", "", false, <Module>.\u206A\u202A\u202B\u206E\u202B\u206A\u202E\u206A\u202A\u200D\u202B\u206E\u200B\u202A\u206D\u206E\u200C\u206B\u200D\u206B\u200F\u202A\u206D\u206E\u206E\u200B\u200C\u206D\u206D\u200D\u200E\u202A\u206C\u206A\u202D\u206C\u202B\u200E\u206A\u200F\u202E<string>(-1169024214), new List<string>());
+		}
+
+		static CardImages \u200B\u200E\u200E\u202D\u206C\u206F\u202D\u200E\u202C\u202E\u202C\u202A\u206A\u206D\u202D\u206B\u202C\u206B\u206B\u202E\u206D\u206C\u200F\u202C\u202E\u200B\u206D\u200C\u202E\u202A\u206D\u206F\u206C\u206F\u202E\u200E\u200D\u200F\u206A\u202A\u202E(IResourceSource A_0)
+		{
+			return new CardImages(A_0);
+		}
+
+		static void \u200E\u202C\u202B\u202B\u206C\u206C\u200D\u200E\u206C\u206C\u206B\u200F\u200D\u202A\u206F\u206D\u206A\u202D\u200E\u206F\u200C\u206A\u200D\u206F\u200D\u202B\u200E\u206D\u202C\u206F\u202D\u200F\u200C\u200C\u206C\u200D\u202A\u200D\u206D\u206C\u202E(CardImages A_0, CardTemplate A_1, string A_2, string A_3, bool A_4)
+		{
+			A_0.AutoLoad(A_1, A_2, A_3, A_4);
+		}
+
+		static BatchLocalization \u206C\u202E\u200E\u206E\u200F\u206E\u200C\u206B\u200E\u202C\u202A\u200D\u206B\u202D\u202C\u200D\u206B\u206C\u202C\u202C\u202A\u206B\u202D\u206F\u206F\u206A\u206C\u202D\u206D\u206B\u200C\u200E\u202B\u206E\u202D\u200D\u200F\u206A\u206A\u200C\u202E(BatchLocalization A_0, EntityDefinition A_1)
+		{
+			return A_0.AddEntity(A_1);
+		}
+
+		static Type \u206C\u200F\u202B\u200D\u200F\u202B\u202D\u200E\u200D\u200C\u202E\u202A\u202A\u206C\u202A\u206B\u206B\u200E\u202D\u202C\u200F\u200D\u202A\u206C\u206C\u206D\u200E\u200F\u200C\u200E\u200B\u202D\u206A\u202C\u200C\u206B\u206A\u200E\u206E\u202B\u202E(RuntimeTypeHandle A_0)
+		{
+			return Type.GetTypeFromHandle(A_0);
+		}
+
+		static int \u206B\u202D\u202C\u202D\u200E\u202C\u206E\u200F\u206F\u202E\u206B\u206D\u200B\u200C\u202E\u206C\u206D\u206E\u200D\u200C\u206B\u206D\u200C\u202E\u202B\u206A\u200C\u206F\u202B\u200E\u206B\u206B\u202A\u206A\u200B\u206D\u200F\u200D\u206D\u202E(TemplateSequenceTable A_0, Type A_1)
+		{
+			return A_0.Next(A_1);
+		}
+
+		[EntityLogic(typeof(AyaSarutahikosGuidanceDef))]
+		public sealed class AyaSarutahikosGuidance : Card
+		{
+			public override ManaGroup? PlentifulMana
+			{
+				get
+				{
+					return new ManaGroup?(AyaSarutahikosGuidanceDef.AyaSarutahikosGuidance.\u200F\u202A\u200B\u202A\u200E\u202D\u206B\u202C\u200F\u202C\u200D\u206D\u200C\u202A\u200B\u202C\u200D\u202E\u206B\u200B\u200B\u202C\u202C\u200B\u206E\u200F\u200D\u200E\u202A\u206E\u202E\u200B\u202E\u200C\u200B\u200D\u206B\u200B\u206B\u202A\u202E(this));
+				}
+			}
+
+			protected override string GetBaseDescription()
+			{
+				if (AyaSarutahikosGuidanceDef.AyaSarutahikosGuidance.\u202C\u202E\u202C\u200D\u206A\u202D\u206A\u206E\u206F\u206F\u202D\u202B\u200B\u202E\u202C\u202A\u202B\u200D\u200C\u202E\u200C\u200D\u200C\u200F\u206D\u200C\u202D\u206B\u202A\u202E\u202B\u200E\u200B\u200C\u206E\u206C\u202B\u200B\u206D\u206F\u202E(this))
+				{
+					for (;;)
+					{
+						int num = -664693097;
+						switch ((~(-((-125333072 ^ 1892124031 ^ (74509956 + 1273749314)) - (-41731654 + -136721816 - ~-356296049) - num)) + 969149894) % 3)
+						{
+						case 0:
+							continue;
+						case 2:
+							goto IL_0059;
+						}
+						break;
+					}
+					goto IL_006F;
+					IL_0059:
+					return base.ExtraDescription1;
+				}
+				IL_006F:
+				return base.GetBaseDescription();
+			}
+
+			public override bool DiscardCard
+			{
+				get
+				{
+					return true;
+				}
+			}
+
+			protected override IEnumerable<BattleAction> Actions(UnitSelector selector, ManaGroup consumingMana, Interaction precondition)
+			{
+				AyaSarutahikosGuidanceDef.AyaSarutahikosGuidance.<Actions>d__5 <Actions>d__ = new AyaSarutahikosGuidanceDef.AyaSarutahikosGuidance.<Actions>d__5(-2);
+				<Actions>d__.<>4__this = this;
+				return <Actions>d__;
+			}
+
+			static ManaGroup \u200F\u202A\u200B\u202A\u200E\u202D\u206B\u202C\u200F\u202C\u200D\u206D\u200C\u202A\u200B\u202C\u200D\u202E\u206B\u200B\u200B\u202C\u202C\u200B\u206E\u200F\u200D\u200E\u202A\u206E\u202E\u200B\u202E\u200C\u200B\u200D\u206B\u200B\u206B\u202A\u202E(Card A_0)
+			{
+				return A_0.Mana;
+			}
+
+			static bool \u202C\u202E\u202C\u200D\u206A\u202D\u206A\u206E\u206F\u206F\u202D\u202B\u200B\u202E\u202C\u202A\u202B\u200D\u200C\u202E\u200C\u200D\u200C\u200F\u206D\u200C\u202D\u206B\u202A\u202E\u202B\u200E\u200B\u200C\u206E\u206C\u202B\u200B\u206D\u206F\u202E(Card A_0)
+			{
+				return A_0.PlentifulHappenThisTurn;
+			}
+		}
+	}
+}

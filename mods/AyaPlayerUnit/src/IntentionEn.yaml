@@ -1,0 +1,6 @@
+AyaBossFlandreSpellCardsIntention:
+  Name: Spell Cards
+  Description: "{OwnerName} has {Counter:plural one='% |Spell Card|' other='% |Spell Cards|'}."
+AyaBossKoishiUnconsciousActionIntention:
+  Name: Unconscious Action
+  Description: "After {Limit} cards are played, immediately acts once, without ending {PlayerName}'s turn.\n|d:({Counter:plural one='% card left' other='% cards left'}.)|"

@@ -1,0 +1,7 @@
+{
+    "name": "Aya_Shameimaru",
+    "version_number": "0.4.135",
+    "website_url": "",
+    "description": "Add playable Aya Shameimaru and Flandre Scarlet. Beta version.",
+    "dependencies": [ "BepInEx-BepInExPack-5.4.2100", "TeamNeo-Sideloader-0.5.0" ]
+}

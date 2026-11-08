@@ -1,0 +1,84 @@
+Aya1up:
+  Description: "The next time {PlayerName} would be defeated, heal to maximum life and remove all debuffs instead. This effect only works once."
+  Name: 1up
+  FlavorText: "Suku!"
+AyaG:
+  Description: "Adds {BaseMana} to the mana base. Cards unique to |Aya| are added to the card pool.\nWhen a |Misfortune| or Status card is |Exiled| for the first time each turn, gain {Mana}.\n|Bunbunmaru Newspaper| deals {Value1} damage, apply {Value2} |Lock On| and has |Replenish|.\n|Kakashi Spirit News| has |Replenish|."
+  Name: Aya's Camera
+  FlavorText: "Despite the similar appearance to the once used Outside World camera, this camera was made by kappas, using film to capture the truth and not-so-truth."
+AyaKhakkhara:
+  Description: "At the start of combat, gain {Value1} |Perfect Graze|."
+  Name: Khakkhara
+  FlavorText: "Very rarely, Aya can be seen holding a Khakkhara. This Khakkhara is more of a symbol of the tengu's authority than a weapon."
+AyaNewsboyCap:
+  Description: "When a |Misfortune| or Status card is |Exiled| for the first time each turn, gain {Value1} |Barrier|."
+  Name: Aya's Newsboy Cap
+  FlavorText: "A sturdy hat usually worn when working as a reporter."
+AyaNewspaperBag:
+  Description: "At the start of combat, add {Value1:plural one='% |Bunbunmaru Newspaper|' other='% |Bunbunmaru Newspapers|'} to the draw pile. {Value1:plural one='It |costs|' other='They |cost|'} {Mana}."
+  Name: Newspaper Bag
+  FlavorText: "This is a newspaper bag made of newspaper that contains newspaper. It's eco-friendly!"
+AyaR:
+  Description: "Adds {BaseMana} to the mana base. Cards unique to |Aya| are added to the card pool.\nAt the start of combat, gain {Value1} |Acceleration|.\n|Bunbunmaru Newspaper| deals {Value2} damage, apply {Value3} |Lock On| and has |Replenish|.\n|Kakashi Spirit News| has |Replenish|."
+  Name: Hauchiwa Fan
+  FlavorText: "One sweep of the fan can knock down a house, two sweeps can fell a large tree, and three sweeps can cause a traveler's cloak to be blown away."
+AyaTanukisLeaf:
+  Description: "Increase the chance to find Rare cards."
+  Name: Young Tanuki's Leaf
+  FlavorText: "A bake-danuki's iconic leaf, this time not for transforming and fooling around, but a sign of intimacy."
+FlandreB:
+  Description: "Adds {BaseMana} to the mana base. Cards unique to |Flandre| are added to the card pool.\nWhen a |Crystal| is activated for the first time each turn, gain {Mana}."
+  Name: Ace of Diamonds
+  FlavorText: "One of playing cards that Flandre uses to play card games, usually with her clones."
+FlandreBranchofCalamity:
+  Description: "{PlayerName}'s attacks deal {Value1}% more damage.\nThis Exhibit cannot be lost."
+  Name: Branch of Calamity
+  FlavorText: "No longer require 170 <sprite=\"Point\" name=\"Power\"> to activate."
+FlandreBrokenHorn:
+  Description: "At the start of combat, Gain {Value1} |Calamity|."
+  Name: Broken Horn
+  FlavorText: "Despite being a Devil, Flandre's appearance does not display any devilry characteristics."
+FlandreDevilPlushie:
+  Description: "At the start of {PlayerName}'s turn, gain {Mana}."
+  Name: Devil Plushie
+  FlavorText: "Gooboo."
+FlandreDevilsGold:
+  Description: "Whenever {PlayerName} applies |Ruin|, apply {Value1} more |Ruin|.\nWhenever an enemy with |Ruin| is defeated, gain {Value2} <sprite=\"Point\" name=\"Gold\">."
+  Name: Devil's Gold
+  FlavorText: "\"If I were to have people wish for money, grant their wishes, and then accept that money as a sacrifice, would that be breaking the rules of Gensokyo?\"\n- Flandre Scarlet\n\"...No.\"\n- Okina Matara\n\"It's time to earn some pocket money!\"\n- Flandre Scarlet\n\"Sometimes it suddenly hits me that you're the Devil, and this is one of those moments.\"\n- Okina Matara"
+FlandreFlan:
+  Description: "At the end of combat, gain {Value1} life."
+  Name: Flan
+  FlavorText: "One of Flandre's favorite desserts."
+FlandreMagicalGirlContract:
+  Description: "Whenever {PlayerName} adds a card during combat, |Upgrade| it.\nThis Exhibit cannot be lost."
+  Name: Magical Girl Contract
+  FlavorText: "\"I want you to form a contract with me and become Magical Girl!\"\n- Okina Matara\n\"You don't look cute enough to be a suspicious mascot.\"\n- Flandre Scarlet"
+FlandreMindStabilizer:
+  Description: "Whenever {PlayerName} advances a level, lose {Value1} |Madness|."
+  Name: Mind Stabilizer
+  FlavorText: "This advanced medical device was jointly developed by Eirin and Patchouli. Prevents Flandre from falling into madness, but ultimately it depends on her will."
+FlandrePortableAltar:
+  Description: "At the start of combat, gain {Value1} |Spirit|.\nWhenever a card is |Exiled| by |Offering|, gain {Value2} |Block|."
+  Name: Portable Altar
+  FlavorText: "A portable altar for quick sacrifice to Flandre. \"The devil must always be ready.\" She says."
+FlandreR:
+  Description: "Adds {BaseMana} to the mana base. Cards unique to |Flandre| are added to the card pool.\nWhen {PlayerName} applies |Hellfire| for the first time each turn, gain {Mana}."
+  Name: Burnt Polaroid
+  FlavorText: "Only Flandre knows what was in that polaroid."
+FlandreSeedofCorruption:
+  Description: "??????????"
+  Name: Seed of Corruption
+  FlavorText: ""
+FlandreTornTeddyBear:
+  Description: "At the start of combat, Gain {Value1} |Firepower|.\nThe effect of |Bloodlust| is further increased by |e:{Value4}|% for every 1% of {PlayerName}'s life lost."
+  Name: Torn Teddy Bear
+  FlavorText: "\"This one is broken already... I wonder how long will you last?\"\n- Flandre Scarlet"
+LongU:
+  Description: "Adds {BaseMana} to the mana base. Cards unique to |Megumu| are added to the card pool."
+  Name: Megumu's Tripod
+  FlavorText: "A tripod that is used as a blunt weapon by Megumu."
+LongW:
+  Description: "Adds {BaseMana} to the mana base. Cards unique to |Megumu| are added to the card pool."
+  Name: Tsukasa's Test Tube
+  FlavorText: "Usually, kuda-gitsune is kept in a bamboo pipe. But Tsukasa doesn't mind some modern house."

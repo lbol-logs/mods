@@ -1,0 +1,111 @@
+AyaBossAya:
+  Default: Aya Shameimaru
+  Short: Aya
+AyaBossAyaGoddessofTime:
+  Default: Aya Shameimaru, Goddess of Time
+  Short: Aya, Goddess of Time
+AyaBossFlandre:
+  Default: Flandre Scarlet
+  Short: Flandre
+AyaBossFlandreEndofFantasy:
+  Default: Flandre Scarlet, End of Fantasy
+  Short: Flandre, End of Fantasy
+AyaBossKoishi:
+  Default: Koishi Komeiji
+  Short: Koishi
+AyaBossLong:
+  Default: Megumu Iizunamaru
+  Short: Megumu
+AyaBossOkina:
+  Default: Okina Matara
+  Short: Okina
+AyaBossYukari:
+  Default: Yukari Yakumo
+  Short: Yukari
+AyaBossZUN:
+  Default: Junya Ota
+  Short: ZUN
+AyaFlandreHallucination1:
+  Default: ??????????
+  Short: ??????????
+AyaFlandreHallucination2:
+  Default: ??????????
+  Short: ??????????
+AyaFlandreHallucination3:
+  Default: ??????????
+  Short: ??????????
+AyaKoakuma:
+  Default: Koakuma
+  Short: Koakuma
+AyaKotohime:
+  Default: Kotohime
+  Short: Kotohime
+AyaLong:
+  Default: Megumu Iizunamaru
+  Short: Megumu
+AyaMai:
+  Default: Mai Teireida
+  Short: Mai
+AyaOrbBlack:
+  Default: Black Orb
+  Short: Black Orb
+AyaOrbBlue:
+  Default: Blue Orb
+  Short: Blue Orb
+AyaOrbColorless:
+  Default: Colorless Orb
+  Short: Colorless Orb
+AyaOrbGreen:
+  Default: Green Orb
+  Short: Green Orb
+AyaOrbPhilosophy:
+  Default: Philosopher's Orb
+  Short: Philosopher's Orb
+AyaOrbRed:
+  Default: Red Orb
+  Short: Red Orb
+AyaOrbWhite:
+  Default: White Orb
+  Short: White Orb
+AyaPatchouli:
+  Default: Patchouli Knowledge
+  Short: Patchouli
+AyaPlayerUnit:
+  Default: Aya Shameimaru
+  Short: Aya
+AyaSatono:
+  Default: Satono Nishida
+  Short: Satono
+AyaSukusukuAya:
+  Default: Sukusuku Aya
+  Short: Sukusuku Aya
+AyaSukusukuMomiji:
+  Default: Sukusuku Momiji
+  Short: Sukusuku Momiji
+AyaSukusukuFlandre:
+  Default: Sukusuku Flandre
+  Short: Sukusuku Flandre
+AyaTakane:
+  Default: Takane Yamashiro
+  Short: Takane
+AyaTanuki:
+  Default: Young Tanuki
+  Short: Young Tanuki
+AyaTargetDummy:
+  Default: Target Dummy
+  Short: Target Dummy
+FlandrePlayerUnit:
+  Default: Flandre Scarlet
+  Short: Flandre
+LongPlayerUnit:
+  Default: Megumu Iizunamaru
+  Short: Megumu
+LongTsukasaPlayerUnit:
+  Default: Megumu/Tsukasa
+  Short: Megumu/Tsukasa
+OkinaPlayerUnit:
+  Default: Okina Matara
+  Short: Okina
+TsukasaPlayerUnit:
+  Default: Tsukasa Kudamaki
+  Short: Tsukasa

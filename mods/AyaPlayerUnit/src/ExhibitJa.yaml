@@ -1,0 +1,92 @@
+Aya1up:
+  Description: "次に{PlayerName}が敗北するとき、代わりに体力を完全回復しデバフをすべて取り除く。一度だけ効果がある。"
+  Name: １アップ
+  FlavorText: "すく!"
+AyaG:
+  Description: "マナ基盤に{BaseMana}を加え、|文|専用のカードが出現するようになる。\n各ターンに初めて|厄災|または状態異常カードを|廃棄|した時、{Mana}を得る。\n|文々。新聞|は{Value1}ダメージを与え、|ロックオン|{Value2}を与えるようになり、|補充|を持つ。\n|花果子念報|は|補充|を持つ。"
+  Name: 文のカメラ
+  FlavorText: "昔使われた外の世界のカメラに似ているが、このカメラは河童製であり、フィルムを使って真実を捉えたりそんなに真実じゃないことを捉えたりする。"
+AyaKhakkhara:
+  Description: "戦闘開始時、|完全グレイズ|{Value1}を得る。"
+  Name: 錫杖
+  FlavorText: "非常に稀に文がこれを持っているところを目撃することがある。武器というよりは天狗の権威の象徴として持っているらしい。"
+AyaNewsboyCap:
+  Description: "各ターンに初めて|厄災|または状態異常カードを|廃棄|した時、{Value1}|バリア|を得る。"
+  Name: 文のキャスケット
+  FlavorText: "記者として働いてる時によく被っている丈夫な帽子。"
+AyaNewspaperBag:
+  Description: "戦闘開始時、|文々。新聞|を{Value1}枚山札に加える。それらは|コスト|{Mana}。"
+  Name: 新聞紙の袋
+  FlavorText: "新聞紙で作った新聞紙を入れるための新聞紙の袋。実にエコだ！"
+AyaR:
+  Description: "マナ基盤に{BaseMana}を加え、|文|専用のカードが出現するようになる。\n戦闘開始時、|加速|{Value1}を得る。\n|文々。新聞|は{Value2}ダメージを与え、|ロックオン|{Value3}を与えるようになり、|補充|を持つ。\n|花果子念報|は|補充|を持つ。"
+  Name: 羽団扇
+  FlavorText: "一度扇げば家が飛び、二度扇げば大樹が倒れ、三度扇げば旅人のコートも吹き飛ばせるだろう。"
+AyaTanukisLeaf:
+  Description: "レアカードの出現率を上げる。"
+  Name: 子タヌキの葉っぱ
+  FlavorText: "子タヌキの物語は今後の更新に期待。"
+FlandreB:
+  Description: "マナ基盤に{BaseMana}を加え、|フランドール|専用のカードが出現するようになる。\n各ターン、最初に|クリスタル|が発動したとき、{Mana}を得る。"
+  Name: ダイヤのエース
+  FlavorText: "フランドールが戯れに使うカード。その遊び相手は──彼女自身。"
+FlandreBranchofCalamity:
+  Description: "{PlayerName}の攻撃が与えるダメージが{Value1}%増加する。\nこの展示品は失われない。"
+  Name: 災厄の枝
+  FlavorText: "発動に170<sprite=\"Point\" name=\"Power\">は不要になった。"
+FlandreBrokenHorn:
+  Description: "戦闘開始時、|災禍|{Value1}得る。"
+  Name: 折れた角
+  FlavorText: "悪魔でありながら、フランドールの外見には悪魔らしい特徴はほとんど見られない。"
+FlandreDevilPlushie:
+  Description: " {PlayerName}のターン開始時、{Mana}を得る。"
+  Name: 悪魔のぬいぐるみ
+  FlavorText: "Gooboo."
+FlandreDevilsGold:
+  Description: "{PlayerName}が|破滅|を付与するたび、さらに{Value1}の|破滅|を付与する。\n|破滅|を持つ敵が倒されるたび、{Value2}<sprite=\"Point\" name=\"Gold\">を得る。"
+  Name: 悪魔の金貨
+  FlavorText: "「もし人々がお金を願い、私はその願いを叶え、そしてそのお金を生け贄として受け取ったら……幻想郷のルールを破ることになるのかしら？」\n―フランドール・スカーレット\n「……いいえ。」\n―摩多羅隠岐奈\n「お小遣い稼ぎの時間ね！」\n―フランドール・スカーレット\n「時々、あなたが本当に悪魔なんだと実感する瞬間があるけれど、今がまさにそれね。」\n―摩多羅隠岐奈"
+
+FlandreFlan:
+  Description: "戦闘終了時、ライフ{Value1}を回復する。"
+  Name: Flan
+  FlavorText: "フランドールの好物のデザートの１つ"
+
+FlandreMagicalGirlContract:
+  Description: "戦闘中に{PlayerName}がカードを獲得するたび、そのカードを|アップグレード|する。\nこの展示品は失われない。"
+  Name: 魔法少女契約
+  FlavorText: "「僕と契約して、魔法少女になってよ！」\n―摩多羅隠岐奈\n「胡散臭いマスコットにしては、かわいさが足りないわね。」\n―フランドール・スカーレット"
+
+FlandreMindStabilizer:
+  Description: "{PlayerName}のレベルが上がるたび、|狂気|{Value1}失う。"
+  Name: 精神安定装置
+  FlavorText: "永琳とパチュリーが共同開発した高度な医療装置。フランドールが狂気に陥るのを防ぐが、最後は本人の意思次第である。"
+
+FlandrePortableAltar:
+  Description: "戦闘開始時、|霊力|{Value1}得る。\nカードが|供物|によって|廃棄|されるたび、|ブロック|{Value2}得る。"
+  Name: 携帯祭壇
+  FlavorText: "フランドールへ素早く生け贄を捧げるための携帯祭壇。\n「悪魔は常に備えていなければならないの。」"
+
+
+FlandreR:
+  Description: "マナ基盤に{BaseMana}を加え、|フランドール|専用のカードが出現するようになる。\n{PlayerName}が各ターン初めて敵に|業火|を付与したとき、{Mana}を得る。"
+  Name: 焼けたポラロイド
+  FlavorText: "そのポラロイドに何が写っていたのかを知るのは、フランドールだけ。"
+  
+FlandreSeedofCorruption:
+  Description: "??????????"
+  Name: 堕落の種
+  FlavorText: ""
+  
+FlandreTornTeddyBear:
+  Description: "戦闘開始時、|火力|を{Value1}得る。\n|狂血|の効果が、{PlayerName}の失ったライフ1%につきさらに|e:{Value4}|%増加する。"
+  Name: 破れたテディベア
+  FlavorText: "「これはもう壊れちゃった……あなたは、どれくらいもつのかしら？」\n―フランドール・スカーレット"
+LongU:
+  Description: "マナ基盤に{BaseMana}を加え、|龍|専用のカードが出現するようになる。"
+  Name: 龍の三脚
+  FlavorText: "龍に鈍器として使われている三脚。"
+LongW:
+  Description: "マナ基盤に{BaseMana}を加え、|龍|専用のカードが出現するようになる。"
+  Name: 典の試験管
+  FlavorText: "通常、管狐は竹の筒に住んでいるものなのだが、典はもっとモダンな家に住んでいる。"

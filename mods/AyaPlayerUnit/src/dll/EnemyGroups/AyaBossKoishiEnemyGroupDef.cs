@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using LBoL.Base;
+using LBoL.ConfigData;
+using LBoLEntitySideloader;
+using LBoLEntitySideloader.Entities;
+using UnityEngine;
+
+namespace AyaShameimaru.EnemyGroups
+{
+	public sealed class AyaBossKoishiEnemyGroupDef : EnemyGroupTemplate
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override IdContainer GetId()
+		{
+			return <Module>.\u200F\u206C\u206A\u202D\u200D\u202B\u202B\u206B\u206A\u202C\u206C\u206B\u200B\u200D\u202E\u206F\u206C\u206E\u202E\u200D\u200F\u206D\u202A\u200B\u206D\u200B\u206F\u200D\u206B\u202E\u200F\u206D\u200B\u200F\u206D\u200D\u202C\u206C\u206C\u202E<string>(-1200773921);
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override EnemyGroupConfig MakeConfig()
+		{
+			return new EnemyGroupConfig("", false, new List<string>(), <Module>.\u202D\u200F\u202D\u200B\u206C\u200B\u202B\u206C\u206E\u206E\u200C\u206B\u200D\u206B\u202B\u202A\u206F\u200C\u202E\u200D\u200B\u200B\u206F\u206B\u202C\u206F\u202E\u200B\u200B\u202C\u200C\u200E\u202C\u202C\u202C\u202B\u206D\u200D\u200E\u202A\u202E<string>(1606930955), <Module>.\u202D\u200F\u202D\u200B\u206C\u200B\u202B\u206C\u206E\u206E\u200C\u206B\u200D\u206B\u202B\u202A\u206F\u200C\u202E\u200D\u200B\u200B\u206F\u206B\u202C\u206F\u202E\u200B\u200B\u202C\u200C\u200E\u202C\u202C\u202C\u202B\u206D\u200D\u200E\u202A\u202E<string>(-53257917), new List<string> { <Module>.\u206A\u202A\u202B\u206E\u202B\u206A\u202E\u206A\u202A\u200D\u202B\u206E\u200B\u202A\u206D\u206E\u200C\u206B\u200D\u206B\u200F\u202A\u206D\u206E\u206E\u200B\u200C\u206D\u206D\u200D\u200E\u202A\u206C\u206A\u202D\u206C\u202B\u200E\u206A\u200F\u202E<string>(108923543) }, EnemyType.Boss, false, 1f, false, new Vector2(-4f, 0.5f), "", "", "");
+		}
+	}
+}

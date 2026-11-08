@@ -1,0 +1,56 @@
+Aya1up:
+  Description: "{PlayerName}가 패배했다면, 체력을 전부 회복하고 부정적인 효과를 제거한다. 이 효과는 한번만 발동한다."
+  Name: 1up
+  FlavorText: "스쿠!"
+AyaG:
+  Description: "마나 풀에 {BaseMana}가 추가됩니다. |아야|의 전용 카드가 카드 풀에 추가됩니다.\n매 턴 |액운|또는 상태 카드가 처음 |소멸|할 때 마다, {Mana}를 얻습니다.\n|붕붕마루 신문|이 피해를 {Value1} 주고, |록 온|을 {Value2} 주고, |보충|을 얻습니다.\n|화과자념보|가 |보충|을 얻습니다."
+  Name: 아야의 카메라
+  FlavorText: "한때 사용되었던 바깥세상의 카메라와 비슷한 외관이지만, 이 카메라는 필름을 사용하여 진실과 환상을 포착하기 위해 갓파들이 만들었습니다."
+AyaKhakkhara:
+  Description: "전투 시작시, |완벽한 그레이즈|를 {Value1} 얻습니다."
+  Name: 칵카라
+  FlavorText: "매우 드물게 아야가 석장을 들고 있는 것을 볼 수 있습니다. 이 칵카라는 무기라기보다는 텐구의 권위의 상징에 가깝습니다."
+AyaNewsboyCap:
+  Description: "매 턴 처음 |액운| 또는 상태 카드가 |소멸|할 때, |보호막|을 {Value1} 얻습니다."
+  Name: 아야의 뉴스보이 캡
+  FlavorText: "기자로 일할 때 주로 쓰는 튼튼한 모자입니다."
+AyaNewspaperBag:
+  Description: "전투 시작시, |붕붕마루 신문|을 뽑을 카드 더미에 {Value1}장 넣습니다. 그 |비용|이 {Value1} {Mana}가 됩니다."
+  Name: 신문 가방
+  FlavorText: "초-친환경적인 신문지를 담은 신문지로 만든 신문 가방!"
+AyaR:
+  Description: "마나 풀에 {BaseMana}가 추가됩니다. |아야|의 전용 카드가 카드 풀에 추가됩니다.\n전투 시작시, |가속|을 {Value1} 얻습니다.\n|붕붕마루 신문|이 피해를 {Value2} 주고, |록 온|을 {Value3} 주고, |보충|을 얻습니다.\n|화과자념보|가 |보충|을 얻습니다."
+  Name: 엽단선
+  FlavorText: "한 번 휘두르면 집을 무너뜨리고, 두 번 휘두르면 거목을 쓰러뜨리며, 세 번 휘두르면 여행자의 망토를 날려 버린다."
+AyaTanukisLeaf:
+  Description: "희귀 카드를 발견할 확률이 증가합니다."
+  Name: 꼬마 너구리의 나뭇잎
+  FlavorText: "이번에는 변신과 장난을 치기 위한 것이 아니라 친밀감의 표시인 둔갑 너구리의 상징적인 잎입니다."
+FlandreB:
+  Description: "마나 풀에 {BaseMana}가 추가됩니다. |플랑드르|의 전용 카드가 카드 풀에 추가됩니다.\n{PlayerName}의 첫 {Value1}턴 시작시, {Mana}를 얻습니다."
+  Name: 다이아몬드 A
+  FlavorText: "플랑드르가 주로 분신과 함께 카드 게임을 할 때 사용하는 카드 중 하나입니다."
+FlandreDevilPlushie:
+  Description: '{PlayerName}의 턴 시작시, {Mana}를 얻습니다.'
+  Name: 악마 인형
+  FlavorText: "Gooboo."
+FlandreFlan:
+  Description: "전투 시작시, |화력|을 {Value1} 얻고 체력을 {Value2} 얻습니다."
+  Name: 플랑
+  FlavorText: "플랑드르의 최애 디저트중 하나입니다."
+FlandreOneLittleSoldier:
+  Description: "전투중, 공격 카드의 비용이 {Mana} 감소합니다."
+  Name: 작은 병사 한 명
+  FlavorText: "한 발 더 쏘고 나서 한 발 더 쏘았습니다."
+FlandreR:
+  Description: "마나 풀에 {BaseMana}가 추가됩니다. |플랑드르|의 전용 카드가 카드 풀에 추가됩니다.\n|지옥불|을 가진 적이 처치되면, 그만큼 무작위 적에게 |지옥불|을 부여합니다."
+  Name: 불타버린 사진
+  FlavorText: "그 사진 안에 무엇이 들어 있었는지는 오직 플랑드르만이 알고 있습니다."
+LongU:
+  Description: "마나 풀에 {BaseMana}가 추가됩니다. |메구무|의 전용 카드가 카드 풀에 추가됩니다."
+  Name: 메구무의 삼각대
+  FlavorText: "메구무가 둔기로 사용하는 삼각대."
+LongW:
+  Description: "마나 풀에 {BaseMana}가 추가됩니다. |메구무|의 전용 카드가 카드 풀에 추가됩니다."
+  Name: 츠카사의 실험관
+  FlavorText: "보통 쿠다기츠네는 대나무 파이프에 보관됩니다. 하지만 츠카사는 현대적인 집도 상관없습니다."

@@ -1,0 +1,1327 @@
+﻿AyaAdventoftheDivineGrandson:
+  Description: "Gain {Mana}.\nDraw cards until the hand is full.\n{PlayerName} is immune to all debuffs.\nAll cards are played twice.\n|Limited\u3010{ToolPlayableTimes}\u3011|"
+  UpgradedDescription: "Gain {Mana}.\nDraw cards until the hand is full.\n{PlayerName} is immune to all debuffs.\nAll cards are played twice.\n|Limited\u3010{ToolPlayableTimes}\u3011|"
+  PhantasmModeDescription: "This card is banned by Phantasm Mode."
+  PhantasmModeUpgradedDescription: "This card is banned by Phantasm Mode."
+  Name: Advent of the Divine Grandson
+  DetailText: "{SelfName} cannot be randomly generated in combat, and cannot be copied."
+  AdventoftheDivineGrandson1Aya: ""
+  AdventoftheDivineGrandson2Aya: ""
+AyaAnythingisNewsworthy:
+  Description: "Whenever a |Misfortune| or Status card would have added, if its name does not contain \"Bunbunmaru\" or \"News\", add a |Bunbunmaru Newspaper| instead."
+  UpgradedDescription: "Whenever a |Misfortune| or Status card would have added, if its name does not contain \"Bunbunmaru\" or \"News\", add a |Bunbunmaru Newspaper| instead."
+  Name: Anything is Newsworthy
+AyaApexPredator:
+  Description: "Whenever {PlayerName} takes attack damage, reduce it by equal to {PlayerName}'s |Acceleration| and lose {Value3} |Acceleration|.\nGain {Value1} |Acceleration|."
+  UpgradedDescription: "Whenever {PlayerName} takes attack damage, reduce it by equal to {PlayerName}'s |Acceleration| and lose {Value3} |Acceleration|.\nGain {Value1} |Acceleration|."
+  Name: Apex Predator
+AyaArmoredRaven:
+  Description: "The first attack card played during {PlayerName}'s turn is played twice.\nThe first Status card played during {PlayerName}'s turn is played twice."
+  UpgradedDescription: "The first attack card played during {PlayerName}'s turn is played twice.\nThe first Status card played during {PlayerName}'s turn is played twice."
+  Name: Armored Raven
+AyaArsenalBird:
+  Description: "Gain {Value1} |Defense Matrix|.\nAt the start of {PlayerName}'s turn, summon |Unmanned Aerial Crow| to the hand.\nThis effect does not stack."
+  UpgradedDescription: "Gain {Value1} |Defense Matrix|.\nAt the start of {PlayerName}'s turn, summon |Unmanned Aerial Crow| to the hand.\nThis effect does not stack.\nTrigger {SelfName} once."
+  PhantasmModeDescription: "At the start of {PlayerName}'s turn, summon |Unmanned Aerial Crow| to the hand.\nThis effect does not stack."
+  PhantasmModeUpgradedDescription: "At the start of {PlayerName}'s turn, summon |Unmanned Aerial Crow| to the hand.\nThis effect does not stack.\nTrigger {SelfName} once."
+  Name: Arsenal Bird
+AyaArsenalBirdDrone:
+  Description: "{FriendP}|f:Patrol Mode|: Gain {Mana} and draw a card."
+  ExtraDescription1: "{FriendP}|f:Combat Mode|: Gain {PassiveBlock} |Block| and deal {Damage} attack damage to a random enemy."
+  ExtraDescription2: "{FriendA}|a:Patrol Mode|: |Exile| {SelfName}. At the start of {PlayerName}'s turn, gain {Mana} and draw a card."
+  ExtraDescription3: "{FriendA}|a:Combat Mode|: |Exile| {SelfName}. At the end of {PlayerName}'s turn, gain {PassiveBlock} |Block| and deal {Damage} attack damage to a random enemy."
+  ExtraDescription4: "{FriendU}|u:Self-destruct|: Deal {Damage2} attack damage to each enemy. This also happens when removed. |Accurate|"
+  Name: Unmanned Aerial Crow
+  DetailText: "{SelfName}'s effect activates even if it's not in the hand."
+  FlavorText: "Introducing the latest technology-intensive robot crow!"
+AyaAttackR:
+  Description: "Deal {Damage} damage."
+  UpgradedDescription: "Deal {Damage} damage."
+  Name: Gust Fan
+AyaAttackG:
+  Description: "Deal {Damage} damage."
+  UpgradedDescription: "Deal {Damage} damage."
+  Name: Gale Fan
+AyaAyaShameimarusCoerciveReporting:
+  Description: "Add a |Bunbunmaru Newspaper Special| to the hand.\nGain additional effects based on target's intention."
+  UpgradedDescription: "Add a |Bunbunmaru Newspaper Special| to the hand.\nGain additional effects based on target's intention."
+  Name: Aya Shameimaru's Coercive Reporting
+  DetailText: "|Attack|: Apply {Value2} |Weak|.\n|Buff|: Gain {Value2} |Firepower|.\n|Debuff|: Gain {Value2} |Amulet|.\n|Status|: Add a |Vitality| to the hand.\n|Defense|: Apply {Value2} |Vulnerable|.\n|Graze|: Gain {Value4} |Acceleration|.\n|Summon|: Summon |Sukusuku Aya|.\n|Sleep|: Wakes up target.\n|Stunned, Do Nothing|: Gain {Value1} |Extra Turn|.\n|Escape, Detonate|: Defeat the target.\n|Charge|: Enter |Burst|.\n|Heal, Repair|: Gain {Value4} life.\n|Spell Card|: Gain {Value5} <sprite=\"Point\" name=\"Gold\"> and <sprite=\"Point\" name=\"Power\">.\n|Cleanse|: Remove all debuffs from {PlayerName} and gain {Value2} |Amulet|.\n|Noh of Darkness|: Remove all debuffs from {PlayerName} and gain {Value5} |Amulet|. Negate |Noh of Darkness| for the rest of combat.\n|Jinx|: Whenever a card is |Jinxed|, deal {Value6} damage to each enemy."
+  AyaShameimarusCoerciveReportingSleep1Aya: "Wake up, sleepyhead!"
+  AyaShameimarusCoerciveReportingEscape1Aya: "Trying to escape from the fastest being in Gensokyo? Foolish."
+  AyaShameimarusCoerciveReportingEscape2Aya: "Did you think you could run away in front of me?"
+  AyaShameimarusCoerciveReportingEscape31Aya: "Hello, hello!"
+  AyaShameimarusCoerciveReportingEscape32Aya: "Now, I'm"
+  AyaShameimarusCoerciveReportingEscape33Aya: "Right behind you!"
+  AyaShameimarusCoerciveReportingDetonate1Aya: "Do you have an explosives license?"
+  AyaShameimarusCoerciveReportingDetonate2Rin: "What is explosives license?"
+  AyaShameimarusCoerciveReportingDetonate3Aya: "This person right here, officer."
+  AyaShameimarusCoerciveReportingDetonate4Rin: "Wait! I can explain!"
+  AyaShameimarusCoerciveReportingDetonate5Rin: "Satori-sama! Help me!"
+  AyaShameimarusCoerciveReportingNohofDarkness1Aya: "It's too dark in here. Let me turn on some lights."
+  AyaShameimarusCoerciveReportingNohofDarkness2Kokoro: "My eyes!"
+AyaBirdStrike:
+  Description: "Deal {Damage} damage.\n{SelfName} deals {Value1} more damage for each |Acceleration| {PlayerName} has."
+  UpgradedDescription: "Deal {Damage} damage.\n{SelfName} deals {Value1} more damage for each |Acceleration| {PlayerName} has."
+  PhantasmModeDescription: "Deal {Damage} damage.\n{SelfName} deals {Value1} more damage for each |Acceleration| {PlayerName} has.\nTake damage equal to {PlayerName}'s |Acceleration|."
+  PhantasmModeUpgradedDescription: "Deal {Damage} damage.\n{SelfName} deals {Value1} more damage for each |Acceleration| {PlayerName} has.\nTake damage equal to {PlayerName}'s |Acceleration|."
+  Name: Bird Strike
+AyaBlackmail:
+  Description: "|Bunbunmaru Newspapers| also apply {Value1} |Temporary Firepower Down| and gain {Value2} <sprite=\"Point\" name=\"Gold\"> when activated.\nAdd |{Value3:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the draw pile."
+  UpgradedDescription: "|Bunbunmaru Newspapers| also apply {Value1} |Temporary Firepower Down| and gain {Value2} <sprite=\"Point\" name=\"Gold\"> when activated.\nAdd |{Value3:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the draw pile."
+  Name: Blackmail
+  DetailText: If you try to |Blackmail| your superior...
+AyaBlockG:
+  Description: "Gain {Block} |Block|."
+  UpgradedDescription: "Gain {Block} |Block|."
+  Name: Tengu's Downburst
+AyaBlockR:
+  Description: "Gain {Block} |Block|."
+  UpgradedDescription: "Gain {Block} |Block|."
+  Name: Tengu's Mist Standing
+AyaBossYukariBlackDeathButterfly:
+  Description: "|When {SelfName} enters the hand|: Gain {Value1} |Poison|.\n|When Exiled|: Return {SelfName} from |Exile| to the discard pile."
+  UpgradedDescription: "|When {SelfName} enters the hand|: Gain {Value1} |Poison|.\n|When Exiled|: Return {SelfName} from |Exile| to the discard pile."
+  Name: Black Death Butterfly
+AyaBunbunmaruPrinter:
+  Description: "At the start of {PlayerName}'s turn, add |{Value1:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand. {Value1:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana}."
+  UpgradedDescription: "At the start of {PlayerName}'s turn, add |{Value1:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand. {Value1:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana}.\nTrigger {SelfName} once."
+  PhantasmModeDescription: "At the start of {PlayerName}'s turn, add |{Value1:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand."
+  PhantasmModeUpgradedDescription: "At the start of {PlayerName}'s turn, add |{Value1:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand.\nTrigger {SelfName} once."
+  Name: Bunbunmaru Printer
+AyaCandidShot:
+  Description: "Deal {Damage} damage {Times} times.\nApply {Value1} |Lock On|.\n|While in hand|: Whenever a |Misfortune| or Status card is |Exiled|, {SelfName} |temporarily costs| {Mana} less to play."
+  UpgradedDescription: "Deal {Damage} damage {Times} times.\nApply {Value1} |Lock On|.\n|While in hand|: Whenever a |Misfortune| or Status card is |Exiled|, {SelfName} |temporarily costs| {Mana} less to play."
+  Name: Candid Shot
+AyaChapter0:
+  Description: "A standard gameplay without any fixed encounter."
+  Name: Free Mode
+AyaChapter1:
+  Description: "After the audience leaves to find the treasure, Aya decides to investigate the case."
+  Name: Extra! Truth of the Lost Treasure
+AyaChapter2:
+  LockedDescription: "Chapter 2 is not ready yet. Please look forward to future updates."
+  Description: "Young Tanuki was nowhere to be seen, Aya returns to the Youkai Mountain hoping to find her.\nHer every action had its consequences."
+  Name: Butterfly Effect
+AyaCloseup:
+  Description: "Gain {Block} |Block|.\nFor each |Misfortune| or Status card adjacent to {SelfName}, gain {Mana} and draw a card."
+  UpgradedDescription: "Gain {Block} |Block|.\nFor each |Misfortune| or Status card adjacent to {SelfName}, gain {Mana} and draw a card."
+  Name: Close-up
+AyaComicallyLargeHat:
+  Description: "Gain {Block} |Block|.\n|Deceleration {Value1}|: Apply {Value2} |Weak| to each enemy."
+  UpgradedDescription: "Gain {Block} |Block|.\nApply {Value2} |Weak| to each enemy."
+  Name: Comically Large Hat
+AyaCompletedInterview:
+  Description: "|Debut|: Add |{Value1:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| and |{Value2:plural one='% Bunbunmaru - Aya Special' other='% Bunbunmaru - Aya Specials'}| to the discard pile.\nDraw {Value3:plural one='% card' other='% cards'}."
+  UpgradedDescription: "|Debut|: Add |{Value1:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| and |{Value2:plural one='% Bunbunmaru - Aya Special' other='% Bunbunmaru - Aya Specials'}| to the discard pile.\nDraw {Value3:plural one='% card' other='% cards'}."
+  ExtraDescription1: "|d:Debut: Add {Value1:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'} and {Value2:plural one='% Bunbunmaru - Aya Special' other='% Bunbunmaru - Aya Specials'} to the discard pile.|\nDraw {Value3:plural one='% card' other='% cards'}."
+  UpgradedExtraDescription1: "|d:Debut: Add {Value1:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'} and {Value2:plural one='% Bunbunmaru - Aya Special' other='% Bunbunmaru - Aya Specials'} to the discard pile.|\nDraw {Value3:plural one='% card' other='% cards'}."
+  Name: Completed Interview
+AyaCrazyFallWind:
+  Description: "Whenever a card is |Exiled|, gain {Value1} |Acceleration|."
+  UpgradedDescription: "Whenever a card is |Exiled|, gain {Value1} |Acceleration|."
+  Name: Crazy Fall Wind
+AyaCrossroadsofHeaven:
+  Description: "Gain {Value1} |Acceleration|.\nWhenever {PlayerName} gains |Acceleration|, gain {Value2} more |Acceleration|."
+  UpgradedDescription: "Gain {Value1} |Acceleration|.\nWhenever {PlayerName} gains |Acceleration|, gain {Value2} more |Acceleration|."
+  PhantasmModeDescription: "Whenever {PlayerName} gains |Acceleration|, gain {Value2} more |Acceleration|."
+  PhantasmModeUpgradedDescription: "Whenever {PlayerName} gains |Acceleration|, gain {Value2} more |Acceleration|."
+  Name: Crossroads of Heaven
+AyaDanceofBlackQuill:
+  Description: "Deal {Damage} damage and apply {Value1} |Lock On| to each enemy.\nGain {Value1} |Acceleration|.\nWhen an enemy is defeated using {SelfName}, repeat these effects."
+  UpgradedDescription: "Deal {Damage} damage and apply {Value1} |Lock On| to each enemy.\nGain {Value1} |Acceleration|.\nWhen an enemy is defeated using {SelfName}, repeat these effects."
+  PhantasmModeDescription: "Deal {Damage} damage and apply {Value1} |Lock On| to each enemy.\nGain {Value1} |Acceleration|."
+  PhantasmModeUpgradedDescription: "Deal {Damage} damage and apply {Value1} |Lock On| to each enemy.\nGain {Value1} |Acceleration|."
+  Name: Dance of Black Quill
+AyaDashingDomination:
+  Description: "Gain {Value1} |Acceleration|.\nDraw {Value2} cards."
+  UpgradedDescription: "Gain {Value1} |Acceleration|.\nDraw {Value2} cards."
+  Name: Dashing Domination
+AyaDashingGrace:
+  Description: "Deal {Value2} damage to each enemy for each |Acceleration| {PlayerName} has. ({AccelerationDamage})"
+  UpgradedDescription: "Deal {Value2} damage to each enemy for each |Acceleration| {PlayerName} has. ({AccelerationDamage})"
+  NonbattleDescription: "Deal {Value2} damage to each enemy for each |Acceleration| {PlayerName} has."
+  UpgradedNonbattleDescription: "Deal {Value2} damage to each enemy for each |Acceleration| {PlayerName} has."
+  Name: Dashing Grace
+AyaDaymareintheDarkNight:
+  Description: "Deal {Damage} damage.\nUntil {PlayerName}'s next turn, whenever {PlayerName} gains |Acceleration|, deal {Damage} damage to the enemy with the least life.\nGain {Value1} |Acceleration|."
+  UpgradedDescription: "Deal {Damage} damage.\nUntil {PlayerName}'s next turn, whenever {PlayerName} gains |Acceleration|, deal {Damage} damage to the enemy with the least life.\nGain {Value1} |Acceleration|."
+  Name: Daymare in the Dark Night
+AyaDeaExMachina:
+  Description: ""
+  UpgradedDescription: ""
+  Name: Dea Ex Machina
+AyaEffortlessFlight:
+  Description: "Gain {Value1} |Acceleration|.\nAt the start of {PlayerName}'s turn, gain {Value1} |Acceleration|."
+  UpgradedDescription: "Gain {Value1} |Acceleration|.\nAt the start of {PlayerName}'s turn, gain {Value1} |Acceleration|."
+  PhantasmModeDescription: "At the start of {PlayerName}'s turn, gain {Value1} |Acceleration|."
+  PhantasmModeUpgradedDescription: "At the start of {PlayerName}'s turn, gain {Value1} |Acceleration|."
+  Name: Effortless Flight
+AyaExtraBossSelectFlandre:
+  Description: "This boss is not ready yet. Please look forward to future updates."
+  Name: Flandre (Aya Only)
+AyaExtraBossSelectKoishi:
+  Description: ""
+  Name: Koishi
+AyaExtraBossSelectRandom:
+  Description: ""
+  Name: Random
+AyaExtraBossSelectYuuma:
+  Description: "This boss is not ready yet. Please look forward to future updates."
+  Name: Yuuma (Flandre Only)
+AyaExtraBossSelectZUN:
+  Description: ""
+  Name: ZUN
+AyaExtraFans:
+  Description: "Deal {Damage} damage.\nGain {Value1} |Acceleration|.\nAdd a |Bunbunmaru Newspaper| to the hand."
+  UpgradedDescription: "Deal {Damage} damage.\nGain {Value1} |Acceleration|.\nAdd a |Bunbunmaru Newspaper| to the hand."
+  Name: Extra Fans
+AyaEyeoftheStorm:
+  Description: "Gain {Block} |Block|.\nGain {Value1} |Reflection|.\n{SelfName} is also affected by |Acceleration|."
+  UpgradedDescription: "Gain {Block} |Block|.\nGain {Value1} |Reflection|.\n{SelfName} is also affected by |Acceleration|."
+  Name: Eye of the Storm
+AyaFastShot:
+  Description: "Deal {Damage} damage.\nPlay a random |Bunbunmaru Newspaper| in the hand.\nAdd a |Bunbunmaru Newspaper| to the hand."
+  UpgradedDescription: "Deal {Damage} damage.\nPlay a random |Bunbunmaru Newspaper| in the hand.\nAdd a |Bunbunmaru Newspaper| to the hand."
+  Name: Fast Shot
+AyaBossFlandreForbiddenFruit:
+  Description: "Gain {Value1} life.\n{FlandreName}'s |Scarlet Nihility| deals {Value2} more damage for each {SelfName} in the hand, draw pile, and discard pile."
+  Name: Forbidden Fruit
+AyaFma:
+  Description: "Gain {Value1} |Acceleration|.\nGain {Value2} |Firepower|.\nFor each 4 |Acceleration| {PlayerName} has, increase {SelfName}'s |Firepower| by {Value3}."
+  UpgradedDescription: "Gain {Value1} |Acceleration|.\nGain {Value2} |Firepower|.\nFor each 4 |Acceleration| {PlayerName} has, increase {SelfName}'s |Firepower| by {Value3}."
+  Name: F = ma
+AyaFriendAya:
+  Description: "{FriendP}|f:Crossroad Sign\u300CSaruta Cross\u300D|: Gain {Value1} |Acceleration|."
+  ExtraDescription1: "{FriendA}|a:Wind God\u300CStorm Day\u300D|: Can only be activated once per turn. |Exile| each card from the hand. Then, add |Upgraded| random cards to the hand until the hand is full."
+  ExtraDescription2: "{FriendA}|d:Wind God\u300CStorm Day\u300D: Can only be activated once per turn. Exile each card from the hand. Then, add Upgraded random cards to the hand until the hand is full.|"
+  ExtraDescription3: "{FriendU}|u:\u300CPeerless Wind God\u300D|: Can only be activated once per combat. Deal {Damage} attack damage to each enemy {Value2} times. Enemies cannot act this turn. Repeat these effects at the start of {PlayerName}'s next turn. |Accurate|"
+  ExtraDescription4: "{FriendU}|d:\u300CPeerless Wind God\u300D: Can only be activated once per combat. Deal {Damage} attack damage to each enemy {Value2} times. Enemies cannot act this turn. Repeat these effects at the start of {PlayerName}'s next turn. Accurate|"
+  Name: Aya, Goddess of Wind
+  DetailText: "|When summoned|: Gain |Terukuni Shining Through Heaven and Earth|.\n|p:This card never leaves the hand under any circumstances.|\nAt the end of {PlayerName}'s turn, if this card's |Unity| is zero, |r:{PlayerName} loses the game.|"
+AyaFriendCirno:
+  Description: "{FriendP}|f:Full Blooming Summer|: Each |Teammate| in the |battlefield| gains {Value1} |Unity|."
+  ExtraDescription1: "{FriendA}|a:Unyielding Autumn|: Can only be activated once per turn. Summon {Value2} |Upgraded| random |Teammate| cards. {Value2:plural one='It has' other='They have'} {Value1} |Unity|."
+  ExtraDescription2: "{FriendA}|d:Unyielding Autumn: Can only be activated once per turn. Summon {Value2} Upgraded random Teammate cards. {Value2:plural one='It has' other='They have'} {Value1} Unity.|"
+  ExtraDescription3: "{FriendU}|u:\u300CFinale of Four Seasons\u300D|: Can only be activated once per combat. Deal {Damage} attack damage and apply {Value1} |Final Freeze| to each enemy. |Accurate|"
+  ExtraDescription4: "{FriendU}|d:\u300CFinale of Four Seasons\u300D: Can only be activated once per combat. Deal {Damage} attack damage and apply {Value1} Final Freeze to each enemy. Accurate|"
+  Name: Cirno, Little Friend of Four Seasons
+  DetailText: "|p:This card never leaves the hand under any circumstances.|"
+AyaFriendHatate:
+  Description: "{FriendP}|f:Spirit Photography|: Gain {Value1} |Spirit|. Add {Value2} |Kakashi Spirit News| to the draw pile."
+  ExtraDescription1: "{FriendP2}|f:Competitor|: Whenever a |Kakashi Spirit News| would have added, add a |Kakashi Spirit News Special| instead."
+  ExtraDescription3: "{FriendU3}|u:Far-sightedness\u300CTengu Psychography\u300D|: Deal {Damage} attack damage to the enemy with the least life. |Expel|: If the target has known name, |Permanently| gain additional skill. |Accurate|"
+  Name: Hatate, Modern Thoughtography Reporter
+  DetailText: "|Spirit Photography - Empty|: No effect."
+  DetailTextKanako: "|Spirit Photography - Kanako|: At the start of combat, gain {Value4} maximum life."
+  DetailTextSuwako: "|Spirit Photography - Suwako|: At the start of combat, gain {Value7} <sprite=\"Point\" name=\"Power\">."
+  DetailTextSunny: "|Spirit Photography - Sunny|: At the start of combat, gain {Value4} |Firepower|."
+  DetailTextLuna: "|Spirit Photography - Luna|: At the start of combat, gain {Value4} |Spirit|."
+  DetailTextStar: "|Spirit Photography - Star|: At the start of combat, apply {Value5} |Lock On| to each enemy."
+  DetailTextAya: "|Spirit Photography - Aya|: No effect."
+  DetailTextRin: "|Spirit Photography - Rin|: Whenever an enemy is |Summoned|, gain {Value4} |Firepower|."
+  DetailTextNitori: "<sprite=\"Ultimate\" name=\"0\">|u:Spirit Photography - Nitori|: Add a random |Tool| card to the library."
+  DetailTextYoumu: "<sprite=\"Active\" name=\"-3\">|a:Spirit Photography - Youmu|: Deal {Damage2Value} attack damage to the enemy with the least life {Value6} times. |Accurate|"
+  DetailTextKokoro: "<sprite=\"Passive\" name=\"0\">|f:Spirit Photography - Kokoro|: Whenever an enemy gains a debuff, gain {Value4} |Temporary Firepower|."
+  DetailTextClownpiece: "<sprite=\"Active\" name=\"0\">|a:Spirit Photography - Clownpiece|: Gain {Mana}. Apply {Value3} |Firepower| to each enemy."
+  DetailTextSiji: "<sprite=\"Active\" name=\"-3\">|a:Spirit Photography - Eiki|: Deal {Damage3Value} attack damage to each enemy. |Accurate|"
+  DetailTextDoremy: "<sprite=\"Active\" name=\"-3\">|a:Spirit Photography - Doremy|: Choose a card in the hand. Add a |Copy| of it to the hand."
+  DetailTextReimu: "<sprite=\"Active\" name=\"0\">|a:Spirit Photography - Reimu|: |Upgrade| all cards until the end of combat."
+  DetailTextMarisa: "<sprite=\"Passive\" name=\"0\">|f:Spirit Photography - Marisa|: Whenever an attack or Status card is played, gain {Value3} |Charge|."
+  DetailTextSakuya: "<sprite=\"Ultimate\" name=\"-3\">|u:Spirit Photography - Sakuya|: Gain {Value3} |Extra Turn|."
+  DetailTextCirno: "<sprite=\"Passive\" name=\"0\">|f:Spirit Photography - Cirno|: Each |Teammate| in the hand gains {Value4} |Unity|."
+  DetailTextKoishi: "<sprite=\"Passive\" name=\"0\">|f:Spirit Photography - Koishi|: Play the top card of the draw pile."
+  DetailTextLong: "<sprite=\"Passive\" name=\"0\">|f:Spirit Photography - Megumu|: |Bunbunmaru Newspapers| deal double damage. This effect does not stack."
+  DetailTextTianzi: "<sprite=\"Ultimate\" name=\"-3\">|u:Spirit Photography - Tenshi|: Gain {Value3} |Flawless|."
+  DetailTextYuyuko: "<sprite=\"Active\" name=\"-3\">|a:Spirit Photography - Yuyuko|: Deal {Damage3Value} attack damage to the enemy with the least life. If the target doesn't have known name, defeat it. |Accurate|"
+  DetailTextSanae: "<sprite=\"Active\" name=\"-3\">|a:Spirit Photography - Sanae|: Remove all debuffs from {PlayerName} and gain {Value4} |Amulet|."
+  DetailTextRemilia: "<sprite=\"Ultimate\" name=\"-6\">|u:Spirit Photography - Remilia|: Deal {Damage3Value} attack damage to the enemy with the least life. Gain life equal to unblocked damage dealt. |Accurate|"
+  DetailTextJunko: "<sprite=\"Ultimate\" name=\"-3\">|u:Spirit Photography - Junko|: All cards gain |Pure| until the end of combat."
+  DetailTextSeija: "|Spirit Photography - Seija|: {PlayerName} can't lose life more than {Value8}% of her maximum life per turn."
+  DetailTextYiji: "|Spirit Photography - Yorihime|: No effect."
+  DetailTextUnknown: "|Spirit Photography - Unknown|: At the start of combat, gain {Value3} |Firepower| and |Spirit|."
+AyaFriendHatateNewsSpecial:
+  Description: "Gain {Value1} random mana. Increased by 1 for each {SelfName} |Exiled| this combat.\n|When {SelfName} enters the hand|: Gain {Shield} |Barrier|."
+  Name: Kakashi Spirit News Special
+AyaFriendMegumu:
+  Description: "{FriendP}|f:Supervision|: Whenever a |Misfortune| or Status card is |Exiled|, gain {Mana}."
+  ExtraDescription1: "{FriendA}|a:Exploitation|: Lose {Value1} life, gain {Mana2} and draw {Value2:plural one='% card' other='% cards'}. This also happens when no |Misfortune| and Status cards were |Exiled| last turn."
+  ExtraDescription3: "{FriendU}|u:Rainbow Illumination\u300CClear and Tranquil Wind and Moon\u300D|: Deal {Damage2} attack damage to each enemy. Whenever a |Misfortune| or Status card is |Exiled|, gain {Mana3} and draw {Value3:plural one='% card' other='% cards'}. |Accurate|"
+  Name: Megumu, Chief of the Crow Tengu
+AyaFriendMomiji:
+  Description: "{FriendP}|f:Telegnosis|: |Scry| {Scry}."
+  ExtraDescription1: "{FriendP2}|f:Chase|: When {PlayerName} attacks, deal {Damage} attack damage to the target(s)."
+  ExtraDescription2: "{FriendP2}|f:Parry|: When {PlayerName} would receive attack damage and lose life from it, gain {PassiveBarrier} |Barrier|."
+  ExtraDescription3: "{FriendU}|u:Fang Sign\u300CChewing Satisfaction\u300D|: Deal {Damage2} attack damage to the enemy with the least life. |Expel|: Gain {Value1} life. |Accurate|"
+  Name: Momiji, Petty Patrol Tengu
+AyaHeadShot:
+  Description: "Deal {Damage} damage.\n|Lock On| increases {SelfName}'s damage {Value1:plural one='% time' other='% times'}.\nWhen an enemy is defeated using {SelfName}, gain {Mana}."
+  UpgradedDescription: "Deal {Damage} damage.\n|Lock On| increases {SelfName}'s damage {Value1:plural one='% time' other='% times'}.\nWhen an enemy is defeated using {SelfName}, gain {Mana}."
+  Name: Head Shot
+AyaHeavenlyPartner:
+  Description: "Gain {Block} |Block|.\nApply {Value1} |Weak| and |Vulnerable| to each enemy.\nIf there's a summoned |Momiji, Petty Patrol Tengu| in the hand, gain {Value2} |Temporary Firepower|."
+  UpgradedDescription: "Gain {Block} |Block|.\nApply {Value1} |Weak| and |Vulnerable| to each enemy.\nIf there's a summoned |Momiji, Petty Patrol Tengu| in the hand, gain {Value2} |Temporary Firepower|."
+  Name: Heavenly Partner
+AyaHraesvelgrofTerminus:
+  Description: "All enemy |Block|, |Barrier|, and buffs are nullified until {PlayerName}'s next turn."
+  UpgradedDescription: "All enemy |Block|, |Barrier|, and buffs are nullified until {PlayerName}'s next turn."
+  Name: Hraesvelgr of Terminus
+  DetailText: "{SelfName} cannot be randomly generated in combat, and cannot be copied."
+AyaIllusionaryDominance:
+  Description: "Deal {Damage} damage {Times} times.\nDeal additional damage equal to {PlayerName}'s |Acceleration|.\nDeal that damage an additional time for each {Value3} |Acceleration|, up to {Value2} times."
+  UpgradedDescription: "Deal {Damage} damage {Times} times.\nDeal additional damage equal to {PlayerName}'s |Acceleration|.\nDeal that damage an additional time for each {Value3} |Acceleration|, up to {Value2} times."
+  Name: Illusionary Dominance
+AyaInstantShotJournalist:
+  Description: "Gain {Block} |Block|.\nGain {Value1} |Acceleration|.\n{PlayerName} can't lose |Acceleration| for {Value2:plural one='% turn' other='% turns'}."
+  UpgradedDescription: "Gain {Block} |Block|.\nGain {Value1} |Acceleration|.\n{PlayerName} can't lose |Acceleration| for {Value2:plural one='% turn' other='% turns'}."
+  Name: Instant Shot Journalist
+AyaLittleSalvation:
+  Description: "Gain {Block} |Block|.\nGain {Value1} |Acceleration| and |Temporary Firepower|."
+  UpgradedDescription: "Gain {Block} |Block|.\nGain {Value1} |Acceleration| and |Temporary Firepower|."
+  Name: Little Salvation
+AyaMapleFansWind:
+  Description: "Gain {Value1} |Acceleration|."
+  UpgradedDescription: "Gain {Value1} |Acceleration|."
+  Name: Maple Fan's Wind
+AyaMemoryinPicture:
+  Description: "Gain {Shield} |Barrier|.\nGain {Value1} |Barrier| for each |Misfortune| or Status card in the |battlefield|."
+  UpgradedDescription: "Gain {Shield} |Barrier|.\nGain {Value1} |Barrier| for each |Misfortune| or Status card in the |battlefield|."
+  Name: Memory in Picture
+AyaMomentofRelaxation:
+  Description: "|Deceleration {Value1}|: Gain {Mana} and draw {Value2:plural one='% card' other='% cards'}."
+  UpgradedDescription: "|Deceleration {Value1}|: Gain {Mana} and draw {Value2:plural one='% card' other='% cards'}."
+  Name: Moment of Relaxation
+AyaMountainGodsProcession:
+  Description: "Whenever {PlayerName} gains |Acceleration|, gain {Mana}.\nGain {Value1} |Acceleration|."
+  UpgradedDescription: "Whenever {PlayerName} gains |Acceleration|, gain {Mana}.\nGain {Value1} |Acceleration|."
+  PhantasmModeDescription: "Whenever {PlayerName} gains |Acceleration|, gain {Mana}."
+  PhantasmModeUpgradedDescription: "Whenever {PlayerName} gains |Acceleration|, gain {Mana}."
+  Name: Mountain God's Procession
+AyaNewsAyaPlayerUnitSp:
+  Description: "|At the end of the turn|: Gain {Value1} |Firepower| and |Spirit|."
+  Name: Bunbunmaru - Aya Special
+  FlavorText: "Did you really think i was going to write a negative article about myself?"
+AyaNewsDissemination:
+  Description: "Discard {Value1} cards.\nAdd that many |Bunbunmaru Newspapers| to the hand.\nGain {Mana}."
+  UpgradedDescription: "Discard between {Value1} to {Value2} cards.\nAdd that many |Bunbunmaru Newspapers| to the hand.\nGain {Mana}."
+  Name: News Dissemination
+AyaNewsOverwhelming:
+  Description: "Whenever a |Misfortune| or Status card that isn't |Copy| is |Exiled|, add a |Copy| of |Bunbunmaru Newspaper| to the hand. It |temporarily costs| {Mana}."
+  UpgradedDescription: "Whenever a |Misfortune| or Status card that isn't |Copy| is |Exiled|, add a |Copy| of |Bunbunmaru Newspaper| to the hand. It |temporarily costs| {Mana}."
+  Name: News Overwhelming
+AyaNewsSpecial:
+  Description: "Gain {Block} |Block|.\nDeal {Damage} damage and apply {Value1} |Lock On| to each enemy.\nEnemies with |Lock On| are dealt that damage twice."
+  Name: Bunbunmaru Newspaper Special
+  AyaNewsDescription: "Deal {Damage} damage.\nApply {Value1} |Lock On|."
+AyaOpeningWindoftheTenguRealm:
+  Description: "|At the start of combat|: |Exile| {SelfName}, gain {Value1} |Extra Turn|."
+  UpgradedDescription: "|At the start of combat|: |Exile| {SelfName}, gain {Value1} |Extra Turn| and {Value2} |Acceleration|."
+  Name: Opening Wind of the Tengu Realm
+AyaOrbGreenMorphBird:
+  Description: "Apply {Value1} |Graze| to each enemy."
+  UpgradedDescription: "Apply {Value1} |Graze| to each enemy."
+  Name: Form of Aves
+AyaOrbGreenMorphDog:
+  Description: "Apply {Value1} |Firepower| to each enemy."
+  UpgradedDescription: "Apply {Value1} |Firepower| to each enemy."
+  Name: Form of Carnivora
+AyaOrbGreenMorphFrog:
+  Description: "All enemies gain {Value1} maximum life."
+  UpgradedDescription: "All enemies gain {Value1} maximum life."
+  Name: Form of Amphibia
+AyaOrbGreenMorphMan:
+  Description: "Lose {Value1} <sprite=\"Point\" name=\"Power\">."
+  UpgradedDescription: "Lose {Value1} <sprite=\"Point\" name=\"Power\">."
+  Name: Form of Homosapien
+AyaPanorama:
+  Description: "Gain {Block} |Block|.\nIncrease |Bunbunmaru Newspaper Special|'s numerical value by {Value1}.\n|When Exiled|: Add a |Bunbunmaru Newspaper Special| to the hand."
+  UpgradedDescription: "Gain {Block} |Block|.\nIncrease |Bunbunmaru Newspaper Special|'s numerical value by {Value1}.\n|When Exiled|: Add a |Bunbunmaru Newspaper Special| to the hand."
+  Name: Panorama
+AyaPaperRecycling:
+  Description: "|Exile| a |Misfortune| or Status card from the hand. Gain mana equal to that card's cost.\nDraw a card.\nGain {Mana}."
+  UpgradedDescription: "|Exile| a |Misfortune| or Status card from the hand. Gain mana equal to that card's cost.\nDraw a card.\nGain {Mana}."
+  Name: Paper Recycling
+AyaPeltingintheDarkNight:
+  Description: "|When {SelfName} enters the hand|: Deal {Damage} damage to the enemy with the least life, draw a card and discard {SelfName}.\nThis effect can only happen {Value1:plural one='% time' other='% times'} per turn."
+  UpgradedDescription: "|When {SelfName} enters the hand|: Deal {Damage} damage to the enemy with the least life, draw a card and discard {SelfName}.\nThis effect can only happen {Value1:plural one='% time' other='% times'} per turn."
+  ExtraDescription1: "|d:When {SelfName} enters the hand: Deal {Damage} damage to the enemy with the least life, draw a card and discard {SelfName}.\nThis effect can only happen {Value1:plural one='% time' other='% times'} per turn.|"
+  UpgradedExtraDescription1: "|d:When {SelfName} enters the hand: Deal {Damage} damage to the enemy with the least life, draw a card and discard {SelfName}.\nThis effect can only happen {Value1:plural one='% time' other='% times'} per turn.|"
+  Name: Pelting in the Dark Night
+AyaPhantasmModeTooltip:
+  Description: "When enabled, weakens characters from 'Aya Shameimaru' mod.\n<color=#dd7473>Changing it requires exiting the game.</color>"
+  Name: Phantasm Mode
+AyaPinnacleofEvasion:
+  Description: "|Deceleration {Value1}|: Gain {Value2} |Perfect Graze|."
+  UpgradedDescription: "|Deceleration {Value1}|: Gain {Value2} |Perfect Graze|."
+  Name: Pinnacle of Evasion
+AyaProtectionPaper:
+  Description: "Whenever a |Misfortune| or Status card is |Exiled|, gain {Value1} |Block|."
+  UpgradedDescription: "Whenever a |Misfortune| or Status card is |Exiled|, gain {Value1} |Block|."
+  Name: Protection Paper
+AyaQuickDraw:
+  Description: "Gain {Value1} |Acceleration|.\nPlay the top card of the draw pile."
+  UpgradedDescription: "Gain {Value1} |Acceleration|.\nPlay the top card of the draw pile."
+  Name: Quick Draw
+AyaQuickShootingTenguScoop:
+  Description: "Gain {Block} |Block|.\nStatus cards cost {Mana} less this turn.\nAdd |{Value1:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand."
+  UpgradedDescription: "Gain {Block} |Block|.\nCards cost {Mana} less this turn.\nAdd |{Value1:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand."
+  Name: Quick-Shooting Tengu Scoop
+AyaRequestingAirSupport:
+  Description: "Summon |{Value1:plural one='% Unmanned Aerial Crow' other='% Unmanned Aerial Crows'}| to the hand."
+  UpgradedDescription: "Summon |{Value1:plural one='% Unmanned Aerial Crow' other='% Unmanned Aerial Crows'}| to the hand."
+  Name: Requesting Air Support
+AyaRouteForbiddentoMan:
+  Description: "At the end of {PlayerName}'s turn, deal {Damage} damage and apply {Value1} |Lock On| to a random enemy for each card |Exiled| that turn, up to {Value2} times."
+  UpgradedDescription: "At the end of {PlayerName}'s turn, deal {Damage} damage and apply {Value1} |Lock On| to a random enemy for each card |Exiled| that turn, up to {Value2} times.\n|Overflow|: Gain {Mana}."
+  UpgradedExtraDescription1: "At the end of {PlayerName}'s turn, deal {Damage} damage and apply {Value1} |Lock On| to a random enemy for each card |Exiled| that turn, up to {Value2} times.\n|d:Overflow: Gain {Mana}.|"
+  PhantasmModeDescription: "At the end of {PlayerName}'s turn, deal {Damage} damage to a random enemy for each card |Exiled| that turn, up to {Value2} times."
+  PhantasmModeUpgradedDescription: "At the end of {PlayerName}'s turn, deal {Damage} damage to a random enemy for each card |Exiled| that turn, up to {Value2} times.\n|Overflow|: Gain {Mana}."
+  PhantasmModeUpgradedExtraDescription1: "At the end of {PlayerName}'s turn, deal {Damage} damage to a random enemy for each card |Exiled| that turn, up to {Value2} times.\n|d:Overflow: Gain {Mana}.|"
+  Name: Route Forbidden to Man
+AyaSarutahikosGuidance:
+  Description: "Discard all cards in the hand and draw that many cards.\nGain {Value1} |Acceleration| for each card discarded this way.\n|Overflow|: Gain {Mana}."
+  UpgradedDescription: "Discard all cards in the hand and draw that many cards.\nGain {Value1} |Acceleration| for each card discarded this way.\n|Overflow|: Gain {Mana}."
+  ExtraDescription1: "Discard all cards in the hand and draw that many cards.\nGain {Value1} |Acceleration| for each card discarded this way.\n|d:Overflow: Gain {Mana}.|"
+  UpgradedExtraDescription1: "Discard all cards in the hand and draw that many cards.\nGain {Value1} |Acceleration| for each card discarded this way.\n|d:Overflow: Gain {Mana}.|"
+  Name: Sarutahiko's Guidance
+AyaSelectNo:
+  Description: ""
+  Name: No
+AyaSelectYes:
+  Description: ""
+  Name: Yes
+AyaSettlementDate:
+  Description: "Gain {Value1} |Firepower|.\nGain {Value2} <sprite=\"Point\" name=\"Gold\">.\nWhenever a |Misfortune| or Status card is |Exiled|, |Permanently| increase {SelfName}'s <sprite=\"Point\" name=\"Gold\"> by {Value1}.\n|Limited\u3010{ToolPlayableTimes}\u3011|"
+  UpgradedDescription: "Gain {Value1} |Firepower|.\nGain {Value2} <sprite=\"Point\" name=\"Gold\">.\nWhenever a |Misfortune| or Status card is |Exiled|, |Permanently| increase {SelfName}'s <sprite=\"Point\" name=\"Gold\"> by {Value1}.\n|Limited\u3010{ToolPlayableTimes}\u3011|"
+  Name: Settlement Date
+  DetailText: "{SelfName} cannot be randomly generated in combat, and cannot be copied."
+  FlavorText: "It's payday fellas!"
+AyaSickleWeaselVeiling:
+  Description: "Whenever {PlayerName} takes 0 damage from attacks, deal {Value1} damage to the attacker."
+  UpgradedDescription: "Whenever {PlayerName} takes 0 damage from attacks, deal {Value1} damage to the attacker."
+  Name: Sickle Weasel Veiling
+AyaTakePicture:
+  Description: "Apply {Value1} |Lock On|.\nAdd |{Value2:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand.\n{Value2:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana} less to play."
+  UpgradedDescription: "Apply {Value1} |Lock On|.\nAdd |{Value2:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand.\n{Value2:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana} less to play."
+  PhantasmModeDescription: "Add |{Value2:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand.\n{Value2:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana} less to play."
+  PhantasmModeUpgradedDescription: "Add |{Value2:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand.\n{Value2:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana} less to play."
+  Name: Take Picture
+AyaTenguGaleBullet:
+  Description: "Deal {Damage} damage {Times} times.\nGain {Value1} |Acceleration|."
+  UpgradedDescription: "Deal {Damage} damage {Times} times.\nGain {Value1} |Acceleration|."
+  Name: Tengu Gale Bullet
+AyaTenguGirlsBanquet:
+  Description: "Gain {Shield} |Barrier|.\n|Upgrade| all cards in the hand, increase their |Block|, |Barrier|, and damage by {Value1}."
+  UpgradedDescription: "Gain {Shield} |Barrier|.\n|Upgrade| all cards in the hand, increase their |Block|, |Barrier|, and damage by {Value1}."
+  Name: Tengu Girl's Banquet
+AyaTenguNewspaperDeadlineDay:
+  Description: "The maximum hand size becomes {MaxHand}.\nAll |Misfortune| and Status cards have |Replenish|.\n|While in library|: Negates |Long Night|."
+  UpgradedDescription: "The maximum hand size becomes {MaxHand}.\nAll |Misfortune| and Status cards have |Replenish|.\n|While in library|: Negates |Long Night|."
+  Name: Tengu Newspaper Deadline Day
+AyaTenguTreeFelling:
+  Description: "Gain {Block} |Block| and {Shield} |Barrier|.\nAt the end of {PlayerName}'s turn, decrease {SelfName}'s |Block| and |Barrier| by {Value1}."
+  UpgradedDescription: "Gain {Block} |Block| and {Shield} |Barrier|.\nAt the end of {PlayerName}'s turn, decrease {SelfName}'s |Block| and |Barrier| by {Value1}."
+  Name: Tengu Tree-Felling
+AyaTengusDrumbeats:
+  Description: "Deal {Damage} damage to each enemy.\nGain {Value1} |Temporary Firepower|.\n|Deceleration {Value1}|: Repeat these effects at the start of {PlayerName}'s next turn."
+  UpgradedDescription: "Deal {Damage} damage to each enemy.\nGain {Value1} |Temporary Firepower|.\n|Deceleration {Value1}|: Repeat these effects at the start of {PlayerName}'s next turn."
+  PhantasmModeDescription: "Deal {Damage} damage to each enemy.\n|Deceleration {Value1}|: Repeat this effect at the start of {PlayerName}'s next turn."
+  PhantasmModeUpgradedDescription: "Deal {Damage} damage to each enemy.\n|Deceleration {Value1}|: Repeat this effect at the start of {PlayerName}'s next turn."
+  Name: Tengu's Drumbeats
+  FlavorText: "Aya the Rock!"
+AyaTengusEdiblePompoms:
+  Description: "Gain {Block} |Block|.\nGain {Value1} life.\nGain {Value1} <sprite=\"Point\" name=\"Power\">.\n|At the start of combat|: At the end of {PlayerName}'s {Value2:ordinal one='%st' two='%nd' few='%rd' other='%th'} turn, |Exile| {SelfName}."
+  UpgradedDescription: "Gain {Block} |Block|.\nGain {Value1} life.\nGain {Value1} <sprite=\"Point\" name=\"Power\">.\n|At the start of combat|: At the end of {PlayerName}'s {Value2:ordinal one='%st' two='%nd' few='%rd' other='%th'} turn, |Exile| {SelfName}."
+  Name: Tengu's Edible Pompoms
+  FlavorText: "\"Momiji's one is miso flavored.\"\n- Aya Shameimaru"
+AyaTengusFallWind:
+  Description: "The next {Value1:plural one='% card is' other='% cards are'} played twice."
+  UpgradedDescription: "The next {Value1:plural one='% card is' other='% cards are'} played twice."
+  Name: Tengu's Fall Wind
+AyaThinOut:
+  Description: "Gain {Block} |Block|.\nPut the {Value1} topmost |Misfortune| or Status card{Value1:plural one='' other='s'} from the draw pile into the hand."
+  UpgradedDescription: "Gain {Block} |Block|.\nPut the {Value1} topmost |Misfortune| or Status card{Value1:plural one='' other='s'} from the draw pile into the hand."
+  Name: Thin Out
+AyaToolBunbunNewspaperStore:
+  LockedDescription: "Unlocked by resolve the incident on Hard Mode or higher with Aya Shameimaru."
+  Description: "Choose 1 of {Value1} |Aya| cards to add to the hand. It |costs| {Mana}.\n|Limited\u3010{DeckCounter}\u3011|"
+  Name: Bunbun Newspaper Store
+AyaToolCrowsEgg:
+  LockedDescription: "Unlocked by resolve the incident on Normal Mode or higher with Aya Shameimaru."
+  Description: "Gain {Value1} life.\nGain {Value1} |Temporary Firepower|.\nAt the start of {PlayerName}'s turn, repeat these effects with 1 less.\n|Limited\u3010{DeckCounter}\u3011|"
+  Name: Crow's Egg
+AyaToolForcedBreakthrough:
+  LockedDescription: "Unlocked by resolve the incident on Lunatic Mode or higher with Aya Shameimaru."
+  Description: "End the combat.\n|At the start of Boss combat|: Remove {SelfName} from combat.\n|Limited\u3010{DeckCounter}\u3011|"
+  Name: Forced Breakthrough
+  ForcedBreakthrough1: "Excuse me!"
+  ForcedBreakthrough2: "You can't miss the scoop!"
+  ForcedBreakthrough3: "I don't have time for this!"
+AyaToriiWhorlWind:
+  Description: "|Exile| up to {Value1:plural one='% card' other='% cards'} in the hand. Add that many |Bunbunmaru Newspapers| to the hand.\nGain {Value2} |Acceleration|."
+  UpgradedDescription: "|Exile| up to {Value1:plural one='% card' other='% cards'} in the hand, draw pile, and discard pile. Add that many |Bunbunmaru Newspapers| to the hand.\nGain {Value2} |Acceleration|."
+  Name: Torii Whorl-Wind
+AyaVitalityonVacation:
+  Description: ""
+  UpgradedDescription: ""
+  PhantasmModeDescription: ""
+  PhantasmModeUpgradedDescription: ""
+  Name: 
+AyaWindGodsLeafVeiling:
+  Description: "Deal {Damage} damage.\nAll attacks against that enemy gain |Accurate|.\nAdd a |Bunbunmaru Newspaper| to the hand."
+  UpgradedDescription: "Deal {Damage} damage.\nAll attacks against that enemy gain |Accurate|.\nAdd a |Bunbunmaru Newspaper| to the hand."
+  Name: Wind God's Leaf-Veiling
+FlandreAndThenWillThereBeNone:
+  Description: "|Offering| {Value1}.\n{PlayerName} is immune to all damage and debuffs for the next {FlandreValue2:plural one='% turn' other='% turns'}.\nGain {Value3} |Calamity|.\nDeal {FlandreDamage} damage to each enemy {Value4:plural one='% time' other='% times'}.\nOnly the first {SelfName} will take effect each combat."
+  UpgradedDescription: "|Offering| {Value1}.\n{PlayerName} is immune to all damage and debuffs for the next {FlandreValue2:plural one='% turn' other='% turns'}.\nGain {Value3} |Calamity|.\nDeal {FlandreDamage} damage to each enemy {Value4:plural one='% time' other='% times'}.\nOnly the first {SelfName} will take effect each combat."
+  ExtraDescription1: "|d:Offering {Value1}.\n{PlayerName} is immune to all damage and debuffs for the next {FlandreValue2:plural one='% turn' other='% turns'}.\nGain {Value3} Calamity.\nDeal {FlandreDamage} damage to each enemy {Value4:plural one='% time' other='% times'}.|\nOnly the first {SelfName} will take effect each combat."
+  PhantasmModeDescription: "|Offering| {Value1}.\n{PlayerName} is immune to all damage and debuffs for the next {FlandreValue2:plural one='% turn' other='% turns'}.\nGain {Value3} |Calamity|.\nDeal {FlandreDamage} damage to each enemy {Value4:plural one='% time' other='% times'}.\nGain {Value5} |Madness|.\nOnly the first {SelfName} will take effect each combat."
+  PhantasmModeUpgradedDescription: "|Offering| {Value1}.\n{PlayerName} is immune to all damage and debuffs for the next {FlandreValue2:plural one='% turn' other='% turns'}.\nGain {Value3} |Calamity|.\nDeal {FlandreDamage} damage to each enemy {Value4:plural one='% time' other='% times'}.\nGain {Value5} |Madness|.\nOnly the first {SelfName} will take effect each combat."
+  PhantasmModeExtraDescription1: "|d:Offering {Value1}.\n{PlayerName} is immune to all damage and debuffs for the next {FlandreValue2:plural one='% turn' other='% turns'}.\nGain {Value3} Calamity.\nDeal {FlandreDamage} damage to each enemy {Value4:plural one='% time' other='% times'}.\nGain {Value5} Madness.|\nOnly the first {SelfName} will take effect each combat."
+  Name: And Then Will There Be None?
+FlandreArmageddon:
+  Description: "Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.\n{SelfName} deals {FlandreValue2} more damage for each attack card in the |battlefield|.\nOnly the first {SelfName} will take effect each combat."
+  UpgradedDescription: "Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.\n{SelfName} deals {FlandreValue2} more damage for each attack card in the |battlefield|.\nOnly the first {SelfName} will take effect each combat."
+  ExtraDescription1: "|d:Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.\n{SelfName} deals {FlandreValue2} more damage for each attack card in the battlefield.|\nOnly the first {SelfName} will take effect each combat."
+  PhantasmModeDescription: "Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.\n{SelfName} deals {FlandreValue2} more damage for each attack card in the |battlefield|.\nGain {Value3} |Madness|.\nOnly the first {SelfName} will take effect each combat."
+  PhantasmModeUpgradedDescription: "Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.\n{SelfName} deals {FlandreValue2} more damage for each attack card in the |battlefield|.\nGain {Value3} |Madness|.\nOnly the first {SelfName} will take effect each combat."
+  PhantasmModeExtraDescription1: "|d:Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.\n{SelfName} deals {FlandreValue2} more damage for each attack card in the battlefield.\nGain {Value3} Madness.|\nOnly the first {SelfName} will take effect each combat."
+  Name: Armageddon
+  DetailText: "{SelfName} cannot be randomly generated in combat, and cannot be copied."
+  FlavorText: "\"Are you trying to turn the Earth into space dust? Stop that!\"\n- Okina Matara\n\"Don't worry, I'm pretty good at handling my power.\"\n- Flandre Scarlet"
+FlandreAttackB:
+  Description: "Deal {FlandreDamage} damage."
+  UpgradedDescription: "Deal {FlandreDamage} damage."
+  Name: Colorful Danmaku
+FlandreAttackR:
+  Description: "Deal {FlandreDamage} damage."
+  UpgradedDescription: "Deal {FlandreDamage} damage."
+  Name: Hotshot
+FlandreBitestheDust:
+  Description: "Gain {FlandreShield} |Barrier|.\nGain {FlandreValue1} |Static Charge|.\nGain {Value2} |Madness|.\nIf {PlayerName}'s life is {Value3}% or less during non-boss combat, restart the current level. ({Amount})\nThen, at the start of {PlayerName}'s first turn, |Destroy| all enemies, gain {Value4} |Madness|, and remove {SelfName} from combat and the library."
+  UpgradedDescription: "Gain {FlandreShield} |Barrier|.\nGain {FlandreValue1} |Static Charge|.\nGain {Value2} |Madness|.\nIf {PlayerName}'s life is {Value3}% or less during non-boss combat, restart the current level. ({Amount})\nThen, at the start of {PlayerName}'s first turn, |Destroy| all enemies, gain {Value4} |Madness|, and remove {SelfName} from combat and the library."
+  NonbattleDescription: "Gain {FlandreShield} |Barrier|.\nGain {FlandreValue1} |Static Charge|.\nGain {Value2} |Madness|.\nIf {PlayerName}'s life is {Value3}% or less during non-boss combat, restart the current level.\nThen, at the start of {PlayerName}'s first turn, |Destroy| all enemies, gain {Value4} |Madness|, and remove {SelfName} from combat and the library."
+  UpgradedNonbattleDescription: "Gain {FlandreShield} |Barrier|.\nGain {FlandreValue1} |Static Charge|.\nGain {Value2} |Madness|.\nIf {PlayerName}'s life is {Value3}% or less during non-boss combat, restart the current level.\nThen, at the start of {PlayerName}'s first turn, |Destroy| all enemies, gain {Value4} |Madness|, and remove {SelfName} from combat and the library."
+  Name: Bites the Dust
+  DetailText: "{SelfName} cannot be randomly generated in combat, and cannot be copied."
+FlandreBlockUB:
+  Description: "Gain {FlandreBlock} |Block|."
+  UpgradedDescription: "Gain {FlandreBlock} |Block|."
+  Name: Bullet Crusher
+FlandreBlockUR:
+  Description: "Gain {FlandreBlock} |Block|."
+  UpgradedDescription: "Gain {FlandreBlock} |Block|."
+  Name: Glitter
+FlandreBloodisFuel:
+  Description: "Lose {Value1} life.\nGain {FlandreMana}.\nUnspent mana isn't lost for the next {FlandreValue2:plural one='% turn' other='% turns'}."
+  UpgradedDescription: "Lose {Value1} life.\nGain {FlandreMana}.\nUnspent mana isn't lost for the next {FlandreValue2:plural one='% turn' other='% turns'}."
+  Name: Blood is Fuel
+FlandreBloodyCatastrophe:
+  Description: "Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.\nGain {FlandreValue2} life.\n{PlayerName}'s attacks become |Accurate| until the end of combat."
+  UpgradedDescription: "Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.\nGain {FlandreValue2} life.\n{PlayerName}'s attacks become |Accurate| until the end of combat."
+  Name: Bloody Catastrophe
+FlandreBloodyRequiem:
+  Description: "For the next {FlandreValue1:plural one='% turn' other='% turns'}, all |Flandre| cards gain |Bloodlust|, and |Bloodlust| is always applied at its maximum value."
+  UpgradedDescription: "For the next {FlandreValue1:plural one='% turn' other='% turns'}, all |Flandre| cards gain |Bloodlust|, and |Bloodlust| is always applied at its maximum value."
+  PhantasmModeDescription: "For the next {FlandreValue1:plural one='% turn' other='% turns'}, all |Flandre| cards gain |Bloodlust|, and |Bloodlust| is always applied at its maximum value.\nGain {Value2} |Madness|."
+  PhantasmModeUpgradedDescription: "For the next {FlandreValue1:plural one='% turn' other='% turns'}, all |Flandre| cards gain |Bloodlust|, and |Bloodlust| is always applied at its maximum value.\nGain {Value2} |Madness|."
+  Name: Bloody Requiem
+FlandreBrokenGlass:
+  Description: "|Offering| {Value1}.\nDeal {FlandreDamage} damage {FlandreValue2:plural one='% time' other='% times'}."
+  UpgradedDescription: "|Offering| {Value1}.\nDeal {FlandreDamage} damage {FlandreValue2:plural one='% time' other='% times'}."
+  Name: Broken Glass
+FlandreBurningPassion:
+  Description: "Apply {FlandreValue1} |Hellfire|.\nDraw {FlandreValue2:plural one='% card' other='% cards'}."
+  UpgradedDescription: "Apply {FlandreValue1} |Hellfire|.\nDraw {FlandreValue2:plural one='% card' other='% cards'}."
+  Name: Burning Passion
+FlandreCageofVampire:
+  Description: "Deal {FlandreDamage} damage and apply {FlandreValue1} |Vulnerable|.\n|When Exiled|: Deal {FlandreDamage} damage and apply {FlandreValue1} |Vulnerable| to each enemy."
+  UpgradedDescription: "Deal {FlandreDamage} damage and apply {FlandreValue1} |Vulnerable|.\n|When Exiled|: Deal {FlandreDamage} damage and apply {FlandreValue1} |Vulnerable| to each enemy."
+  Name: Cage of Vampire
+FlandreCasuallyApproachChild:
+  Description: "Gain {FlandreShield} |Barrier|.\nGain {FlandreValue1} |Calamity|."
+  UpgradedDescription: "Gain {FlandreShield} |Barrier|.\nGain {FlandreValue1} |Calamity|."
+  Name: Casually Approach Child
+FlandreCatadioptric:
+  Description: "|While in hand|: Whenever {PlayerName} deals attack damage, deal {FlandreDamage} damage to the target."
+  UpgradedDescription: "|While in hand|: Whenever {PlayerName} deals attack damage, deal {FlandreDamage} damage to the target."
+  Name: Catadioptric
+FlandreCatastropheofSeventeenArticles:
+  Description: "Gain {FlandreShield} |Barrier|.\n|Upgrade| all cards {FlandreValue1:plural one='% time' other='% times'} until the end of combat."
+  UpgradedDescription: "Gain {FlandreShield} |Barrier|.\n|Upgrade| all cards {FlandreValue1:plural one='% time' other='% times'} until the end of combat."
+  Name: Catastrophe of Seventeen Articles
+FlandreCerberusClipper:
+  Description: "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.\nApply {FlandreValue2} |Weak| and |Vulnerable|.\nGain {Value3} life."
+  UpgradedDescription: "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.\nApply {FlandreValue2} |Weak| and |Vulnerable|.\nGain {Value3} life."
+  Name: Cerberus Clipper
+FlandreChaosIncarnation:
+  Description: "Gain {FlandreBlock} |Block|.\n|p:Randomly| add |Crystals| to the hand until it's full.\nPlay all |Crystals| in the hand."
+  UpgradedDescription: "Gain {FlandreBlock} |Block|.\n|p:Randomly| add |Crystals| to the hand until it's full.\nPlay all |Crystals| in the hand."
+  ExtraDescription1: "Gain {FlandreBlock} |Block|.\n|p:Randomly| add |Crystals+{Value3}| to the hand until it's full.\nPlay all |Crystals| in the hand."
+  Name: Chaos Incarnation
+FlandreChaosManaStorm:
+  Description: "Deal {FlandreDamage} damage to each enemy and gain {FlandreValue1} |p:random| mana.\n|For each {Mana} spent|: Repeat this effect."
+  UpgradedDescription: "Deal {FlandreDamage} damage to each enemy and gain {FlandreValue1} |p:random| mana.\n|For each {Mana} spent|: Repeat this effect."
+  Name: Chaos Mana Storm
+FlandreChromaticWings:
+  Description: "|Offering| {Value1}.\nAt the start of {PlayerName}'s turn, gain {FlandreMana}."
+  UpgradedDescription: "|Offering| {Value1}.\nAt the start of {PlayerName}'s turn, gain {FlandreMana}."
+  Name: Chromatic Wings
+FlandreClockthatTicksAwaythePast:
+  Description: "|Offering| {Value1}.\nDeal {FlandreValue2} damage to each enemy.\nReturn the hand to the draw pile.\nEnd {PlayerName}'s turn. Then, take an extra turn. During that extra turn, return {Value3} topmost card{Value1:plural one='' other='s'} from the discard pile to the hand instead of drawing cards during the draw step."
+  UpgradedDescription: "|Offering| {Value1}.\nDeal {FlandreValue2} damage to each enemy.\nReturn the hand to the draw pile.\nEnd {PlayerName}'s turn. Then, take an extra turn. During that extra turn, return {Value3} topmost card{Value1:plural one='' other='s'} from the discard pile to the hand instead of drawing cards during the draw step."
+  Name: Clock that Ticks Away the Past
+FlandreColorofMadness:
+  Description: "|Offering| {Value1}.\nWhenever an attack card is activated, play {FlandreValue2} random |Crystal{FlandreValue2:plural one='' other='s'}|."
+  UpgradedDescription: "|Offering| {Value1}.\nWhenever an attack card is activated, play {FlandreValue2} random |Crystal{FlandreValue2:plural one='' other='s'}|."
+  PhantasmModeDescription: "|Offering| {Value1}.\nWhenever an attack card is activated, play {FlandreValue2} random |Crystal{FlandreValue2:plural one='' other='s'}|.\nGain {Value3} |Madness|."
+  PhantasmModeUpgradedDescription: "|Offering| {Value1}.\nWhenever an attack card is activated, play {FlandreValue2} random |Crystal{FlandreValue2:plural one='' other='s'}|.\nGain {Value3} |Madness|."
+  Name: Color of Madness
+FlandreCombatHigh:
+  Description: "Gain {FlandreValue1} |Firepower| and |Spirit|."
+  UpgradedDescription: "Gain {FlandreValue1} |Firepower| and |Spirit|."
+  Name: Combat High
+FlandreCranberryTrap:
+  Description: "At the end of {PlayerName}'s turn, deal {FlandreValue1} damage to each enemy for each status effect applied this turn."
+  UpgradedDescription: "At the end of {PlayerName}'s turn, deal {FlandreValue1} damage to each enemy for each status effect applied this turn."
+  Name: Cranberry Trap
+FlandreCreepingBloodstain:
+  Description: ""
+  UpgradedDescription: ""
+  Name: Creeping Bloodstain
+FlandreCrystalBullet:
+  Description: "Deal {FlandreDamage} damage.\nAdd {FlandreValue1} |p:random| |Crystal{FlandreValue1:plural one='' other='s'}| to the hand."
+  UpgradedDescription: "Deal {FlandreDamage} damage.\nAdd {FlandreValue1} |p:random| |Crystal{FlandreValue1:plural one='' other='s'}| to the hand."
+  ExtraDescription1: "Deal {FlandreDamage} damage.\nAdd {FlandreValue1} |p:random| |Crystal{FlandreValue1:plural one='' other='s'}+{Value3}| to the hand."
+  Name: Crystal Bullet
+FlandreCrystallineOutburst:
+  Description: "|Offering| {Value1}.\nWhenever all of |Crystallized Chaos|, |Crystallized Devilry|, |Crystallized Lunacy|, and |Crystallized Solitude| are activated, add {FlandreValue2} |Crystallized Catastrophe{FlandreValue2:plural one='' other='s'}| to the hand."
+  UpgradedDescription: "|Offering| {Value1}.\nWhenever all of |Crystallized Chaos|, |Crystallized Devilry|, |Crystallized Lunacy|, and |Crystallized Solitude| are activated, add {FlandreValue2} |Crystallized Catastrophe{FlandreValue2:plural one='' other='s'}| to the hand.\nAdd {Value3} |Crystals| to the draw pile."
+  Name: Crystalline Outburst
+FlandreCrystallization:
+  Description: "|Offering| {Value1}.\nAdd {FlandreValue2} |p:random| |Crystal{FlandreValue2:plural one='' other='s'}| to the hand."
+  UpgradedDescription: "|Offering| {Value1}.\nAdd {FlandreValue2} |p:random| |Crystal{FlandreValue2:plural one='' other='s'}+{Value3}| to the hand."
+  Name: Crystallization
+FlandreCrystallizedCatastrophe:
+  Description: "Deal {FlandreDamage} damage to each enemy.\nApply {FlandreValue1} |Hellfire| and {FlandreValue2} |Ruin| to each enemy.\nGain {Value3} life and {FlandreValue1} <sprite=\"Point\" name=\"Gold\">.\nGain {Value3} |p:random| mana.\nGain {FlandreShield} |Barrier| and {Value4} |Graze|."
+  UpgradedDescription: "Deal {FlandreDamage} damage to each enemy.\nApply {FlandreValue1} |Hellfire| and {FlandreValue2} |Ruin| to each enemy.\nGain {Value3} life and {FlandreValue1} <sprite=\"Point\" name=\"Gold\">.\nGain {Value3} |p:random| mana.\nGain {FlandreShield} |Barrier| and {Value4} |Graze|."
+  Name: Crystallized Catastrophe
+FlandreCrystallizedChaos:
+  Description: "Deal {FlandreDamage} damage.\n|p:Randomly| apply {FlandreValue1} |Hellfire| or {FlandreValue2} |Ruin|."
+  UpgradedDescription: "Deal {FlandreDamage} damage.\n|p:Randomly| apply {FlandreValue1} |Hellfire| or {FlandreValue2} |Ruin|."
+  Name: Crystallized Chaos
+FlandreCrystallizedDevilry:
+  Description: "Deal {FlandreDamage} damage.\n|p:Randomly| gain {FlandreValue1} life or {FlandreValue2} <sprite=\"Point\" name=\"Gold\">."
+  UpgradedDescription: "Deal {FlandreDamage} damage.\n|p:Randomly| gain {FlandreValue1} life or {FlandreValue2} <sprite=\"Point\" name=\"Gold\">."
+  Name: Crystallized Devilry
+  FlavorText: "\"Better the devil you know than the devil you don't!\"\n- Flandre Scarlet"
+FlandreCrystallizedLunacy:
+  Description: "Deal {FlandreDamage} damage.\nGain {FlandreValue1} |p:random| mana."
+  UpgradedDescription: "Deal {FlandreDamage} damage.\nGain {FlandreValue1} |p:random| mana."
+  Name: Crystallized Lunacy
+FlandreCrystallizedSolitude:
+  Description: "Deal {FlandreDamage} damage.\n|p:Randomly| gain {FlandreShield} |Barrier| or {FlandreValue1} |Graze|."
+  UpgradedDescription: "Deal {FlandreDamage} damage.\n|p:Randomly| gain {FlandreShield} |Barrier| or {FlandreValue1} |Graze|."
+  Name: Crystallized Solitude
+FlandreDanmakuHeart:
+  Description: ""
+  UpgradedDescription: ""
+  Name: Danmaku Heart
+FlandreDanmakuofDenial:
+  Description: "|Offering| {Value1}.\nWhenever an attack card is activated, gain {FlandreValue2} |Block|."
+  UpgradedDescription: "|Offering| {Value1}.\nWhenever an attack card is activated, gain {FlandreValue2} |Block|."
+  Name: Danmaku of Denial
+FlandreDeathorTreat:
+  Description: "|Offering| {Value1}.\nAdd {FlandreValue2} |Crystallized Devilry{FlandreValue2:plural one='' other='s'}| to the hand.\n|Debut|: Gain {Value3} |Calamity|."
+  UpgradedDescription: "|Offering| {Value1}.\nAdd {FlandreValue2} |Crystallized Devilry{FlandreValue2:plural one='' other='s'}+{Value4}| to the hand.\n|Debut|: Gain {Value3} |Calamity|."
+  ExtraDescription1: "|Offering| {Value1}.\nAdd {FlandreValue2} |Crystallized Devilry{FlandreValue2:plural one='' other='s'}| to the hand.\n|d:Debut: Gain {Value3} Calamity.|"
+  ExtraDescription2: "|Offering| {Value1}.\nAdd {FlandreValue2} |Crystallized Devilry{FlandreValue2:plural one='' other='s'}+{Value4}| to the hand.\n|d:Debut: Gain {Value3} Calamity.|"
+  Name: Death or Treat
+FlandreDeliciousHeart:
+  Description: "Gain {FlandreValue1} life.\n|Permanently| increase {SelfName}'s life gain by {FlandreValue2}."
+  UpgradedDescription: "Gain {FlandreValue1} life.\n|Permanently| increase {SelfName}'s life gain by {FlandreValue2}."
+  Name: Delicious Heart
+FlandreDesolatePlace:
+  Description: "Gain {FlandreBlock} |Block|.\nGain {FlandreValue1} |Graze|."
+  UpgradedDescription: "Gain {FlandreBlock} |Block|.\nGain {FlandreValue1} |Graze|."
+  Name: Desolate Place
+FlandreDestroyerinthePalmofOnesHand:
+  Description: "Deal {FlandreDamage} damage.\n{SelfName} deals {FlandreValue1} more damage for each |Calamity| {PlayerName} has.\nIf the target doesn't have known name, |Destroy| it."
+  UpgradedDescription: "Deal {FlandreDamage} damage.\n{SelfName} deals {FlandreValue1} more damage for each |Calamity| {PlayerName} has.\nIf the target doesn't have known name, |Destroy| it."
+  Name: Destroyer in the Palm of One's Hand
+  DestroyerinthePalmofOnesHand1Flandre: "Squeeze, and..."
+  DestroyerinthePalmofOnesHand2Flandre: "Boom."
+FlandreDestructiveImpulse:
+  Description: "|At the end of the turn|: Gain {Value1} |Madness|.\n|When Exiled|: Return {SelfName} from |Exile| to the discard pile."
+  UpgradedDescription: "|At the end of the turn|: Gain {Value1} |Madness|.\n|When Exiled|: Return {SelfName} from |Exile| to the discard pile."
+  Name: Destructive Impulse
+FlandreDeviloftheMirror:
+  Description: "Gain {FlandreShield} |Barrier|.\nGain {FlandreValue1} |Reflection|.\nPlay the top card of the discard pile."
+  UpgradedDescription: "Gain {FlandreShield} |Barrier|.\nGain {FlandreValue1} |Reflection|.\nPlay the top card of the discard pile."
+  Name: Devil of the Mirror
+FlandreDevilsFlesh:
+  Description: "Gain {FlandreBlock} |Block|.\nGain {FlandreValue1} life."
+  UpgradedDescription: "Gain {FlandreBlock} |Block|.\nGain {FlandreValue1} life."
+  Name: Devil's Flesh
+FlandreDevilsMockery:
+  Description: "Gain {FlandreValue1} |Calamity|.\nGain {FlandreValue2} |Graze|."
+  UpgradedDescription: "Gain {FlandreValue1} |Calamity|.\nGain {FlandreValue2} |Graze|."
+  Name: Devil's Mockery
+  FlavorText: "\"Weakling\u2665\"\n- Flandre Scarlet"
+FlandreDontFearTheReaper:
+  Description: "Gain {FlandreValue1} |Firepower|.\nPlay all attack cards in the hand, draw pile, and discard pile.\nFor each attack card played this way, gain {Value2} |Madness|."
+  UpgradedDescription: "Gain {FlandreValue1} |Firepower|.\nPlay all attack cards in the hand, draw pile, and discard pile.\nFor each attack card played this way, gain {Value2} |Madness|."
+  Name: Don't Fear The Reaper
+FlandreDoombringer:
+  Description: "At the start of {PlayerName}'s turn, gain {FlandreValue1} |Calamity|."
+  UpgradedDescription: "At the start of {PlayerName}'s turn, gain {FlandreValue1} |Calamity|.\nTrigger {SelfName} once."
+  Name: Doombringer
+FlandreDoomsdayClock:
+  Description: "{PlayerName} gains {FlandreValue1:plural one='% time' other='% times'} more |Calamity|."
+  UpgradedDescription: "{PlayerName} gains {FlandreValue1:plural one='% time' other='% times'} more |Calamity|.\nGain {Value3} |Calamity|."
+  Name: Doomsday Clock
+FlandreDreadofTransylvania:
+  Description: "Gain {FlandreBlock} |Block|.\nApply {FlandreValue1} |Weak| and {FlandreValue2} |Ruin| to each enemy."
+  UpgradedDescription: "Gain {FlandreBlock} |Block|.\nApply {FlandreValue1} |Weak| and {FlandreValue2} |Ruin| to each enemy."
+  Name: Dread of Transylvania
+FlandreEmbraceofGehenna:
+  Description: "Gain {FlandreShield} |Barrier|.\nGain {FlandreValue1} more |Barrier| for each |Calamity| {PlayerName} has.\n|Destroy| enemies with life equal to {FlandreValue2:plural one='% time' other='% times'} {PlayerName}'s |Calamity| or less. ({Amount})"
+  UpgradedDescription: "Gain {FlandreShield} |Barrier|.\nGain {FlandreValue1} more |Barrier| for each |Calamity| {PlayerName} has.\n|Destroy| enemies with life equal to {FlandreValue2:plural one='% time' other='% times'} {PlayerName}'s |Calamity| or less. ({Amount})"
+  NonbattleDescription: "Gain {FlandreShield} |Barrier|.\nGain {FlandreValue1} more |Barrier| for each |Calamity| {PlayerName} has.\n|Destroy| enemies with life equal to {FlandreValue2:plural one='% time' other='% times'} {PlayerName}'s |Calamity| or less."
+  UpgradedNonbattleDescription: "Gain {FlandreShield} |Barrier|.\nGain {FlandreValue1} more |Barrier| for each |Calamity| {PlayerName} has.\n|Destroy| enemies with life equal to {FlandreValue2:plural one='% time' other='% times'} {PlayerName}'s |Calamity| or less."
+  Name: Embrace of Gehenna
+FlandreEndwithaBang:
+  Description: "Gain {FlandreBlock} |Block|.\nGain {FlandreValue1} |Firepower|.\nTrigger |Brimstone| of each enemy {FlandreValue2:plural one='% time' other='% times'}.\n|At the end of combat|: If {SelfName} was the last card played, gain a |p:random| card reward."
+  UpgradedDescription: "Gain {FlandreBlock} |Block|.\nGain {FlandreValue1} |Firepower|.\nTrigger |Brimstone| of each enemy {FlandreValue2:plural one='% time' other='% times'}.\n|At the end of combat|: If {SelfName} was the last card played, gain a |p:random| card reward."
+  Name: End with a Bang
+  FlavorText: "\"Art is an explosion.\"\n- Flandre Scarlet"
+FlandreFaustianBargain:
+  Description: "|Offering| {Value1}.\nChoose up to {FlandreValue2:plural one='% card' other='% cards'} from |Exile| and return it to the hand.\n|When Exiled|: Choose up to {Value3:plural one='% card' other='% cards'} from |Exile| and return it to the hand."
+  UpgradedDescription: "|Offering| {Value1}.\nChoose up to {FlandreValue2:plural one='% card' other='% cards'} from |Exile| and return it to the hand.\n|When Exiled|: Choose up to {Value3:plural one='% card' other='% cards'} from |Exile| and return it to the hand."
+  Name: Faustian Bargain
+  DetailText: "{SelfName} cannot be randomly generated in combat, and cannot be copied."
+FlandreFieryLaser:
+  Description: "Deal {FlandreDamage} damage.\nApply {FlandreValue1} |Hellfire|."
+  UpgradedDescription: "Deal {FlandreDamage} damage.\nApply {FlandreValue1} |Hellfire|."
+  Name: Fiery Laser
+FlandreFlancanCook:
+  Description: "|For each {Mana} spent|: |Upgrade| {SelfName}.\nChoose up to {FlandreValue1} of {FlandreValue2} |p:random| |Flandre| card{FlandreValue2:plural one='' other='s'} to add to the hand. Prioritizes lower rarity cards. {FlandreValue1:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana2} and {FlandreValue1:plural one='has' other='have'} |Exile| and |Ethereal|.\n{SelfName} can be |Upgraded| up to {Value3:plural one='% time' other='% times'} regardless of |Magical Girl|."
+  UpgradedDescription: "|For each {Mana} spent|: |Upgrade| {SelfName}.\nChoose up to {FlandreValue1} of {FlandreValue2} |p:random| |Flandre| card{FlandreValue2:plural one='' other='s'} to add to the hand. Prioritizes lower rarity cards. {FlandreValue1:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana2} and {FlandreValue1:plural one='has' other='have'} |Exile| and |Ethereal|.\n{SelfName} can be |Upgraded| up to {Value3:plural one='% time' other='% times'} regardless of |Magical Girl|."
+  Name: Flan can Cook!
+  FlavorText: "\"Hold up... let her cook.\"\n- Okina Matara"
+FlandreForbiddenFruit:
+  Description: "|Offering| {Value1}.\nGain {FlandreShield} |Barrier|.\nGain {FlandreValue2} life.\nGain {Value3} <sprite=\"Point\" name=\"Gold\">.\nGain {Value4} <sprite=\"Point\" name=\"Power\">.\nAdd {Value5} |p:random| |Crystal{Value5:plural one='' other='s'}| to the hand."
+  UpgradedDescription: "|Offering| {Value1}.\nGain {FlandreShield} |Barrier|.\nGain {FlandreValue2} life.\nGain {Value3} <sprite=\"Point\" name=\"Gold\">.\nGain {Value4} <sprite=\"Point\" name=\"Power\">.\nAdd {Value5} |p:random| |Crystal{Value5:plural one='' other='s'}+{Value6}| to the hand."
+  Name: Forbidden Fruit
+FlandreForbiddenGames:
+  Description: "|Offering| {Value1}.\nDeal {FlandreValue2} damage to each enemy.\nEnemies cannot act for {Value3:plural one='% round' other='% rounds'}.\nOnly the first {SelfName} will take effect each combat."
+  UpgradedDescription: "|Offering| {Value1}.\nDeal {FlandreValue2} damage to each enemy.\nEnemies cannot act for {Value3:plural one='% round' other='% rounds'}.\nOnly the first {SelfName} will take effect each combat."
+  ExtraDescription1: "|d:Offering {Value1}.\nDeal {FlandreValue2} damage to each enemy.\nEnemies cannot act for {Value3:plural one='% round' other='% rounds'}.|\nOnly the first {SelfName} will take effect each combat."
+  PhantasmModeDescription: "|Offering| {Value1}.\nDeal {FlandreValue2} damage to each enemy.\nEnemies cannot act for {Value3:plural one='% round' other='% rounds'}.\nGain {Value4} |Madness|.\nOnly the first {SelfName} will take effect each combat."
+  PhantasmModeUpgradedDescription: "|Offering| {Value1}.\nDeal {FlandreValue2} damage to each enemy.\nEnemies cannot act for {Value3:plural one='% round' other='% rounds'}.\nGain {Value4} |Madness|.\nOnly the first {SelfName} will take effect each combat."
+  PhantasmModeExtraDescription1: "|d:Offering {Value1}.\nDeal {FlandreValue2} damage to each enemy.\nEnemies cannot act for {Value3:plural one='% round' other='% rounds'}.\nGain {Value4} Madness.|\nOnly the first {SelfName} will take effect each combat."
+  Name: Forbidden Games
+  DetailText: "{SelfName} cannot be randomly generated in combat, and cannot be copied."
+FlandreForbiddenScarletCuriosity:
+  Description: "{PlayerName} is immune to all debuffs.\n{PlayerName}'s attacks deal {FlandreValue1:plural one='% time' other='% times'} more damage.\nWhenever an enemy loses life, {PlayerName} gains that much life.\nThese effects does not stack.\nGain {FlandreValue2}% |Temporary Maximum Life|. ({Amount})\nGain {Value3} |Madness|."
+  UpgradedDescription: "{PlayerName} is immune to all debuffs.\n{PlayerName}'s attacks deal {FlandreValue1:plural one='% time' other='% times'} more damage.\nWhenever an enemy loses life, {PlayerName} gains that much life.\nThese effects does not stack.\nGain {FlandreValue2}% |Temporary Maximum Life|. ({Amount})\nGain {Value3} |Madness|."
+  NonbattleDescription: "{PlayerName} is immune to all debuffs.\n{PlayerName}'s attacks deal {FlandreValue1:plural one='% time' other='% times'} more damage.\nWhenever an enemy loses life, {PlayerName} gains that much life.\nThese effects does not stack.\nGain {FlandreValue2}% |Temporary Maximum Life|.\nGain {Value3} |Madness|."
+  UpgradedNonbattleDescription: "{PlayerName} is immune to all debuffs.\n{PlayerName}'s attacks deal {FlandreValue1:plural one='% time' other='% times'} more damage.\nWhenever an enemy loses life, {PlayerName} gains that much life.\nThese effects does not stack.\nGain {FlandreValue2}% |Temporary Maximum Life|.\nGain {Value3} |Madness|."
+  Name: Forbidden Scarlet Curiosity
+  ForbiddenScarletCuriosity1Flandre: "Hey hey. There's something I want to ask you."
+  ForbiddenScarletCuriosity2Flandre: "What does fear... taste like?"
+FlandreFourHorsemenoftheApocalypse:
+  Description: "Gain {FlandreValue1} |Calamity|.\nDiscard any number of cards from the hand.\nPut the topmost attack, defense, skill, and |Ability| cards from the draw pile into the hand.\n|Overflow|: Gain {FlandreMana}."
+  UpgradedDescription: "Gain {FlandreValue1} |Calamity|.\nDiscard any number of cards from the hand.\nPut the topmost attack, defense, skill, and |Ability| cards from the draw pile into the hand.\n|Overflow|: Gain {FlandreMana}."
+  ExtraDescription1: "Gain {FlandreValue1} |Calamity|.\nDiscard any number of cards from the hand.\nPut the topmost attack, defense, skill, and |Ability| cards from the draw pile into the hand.\n|d:Overflow: Gain {FlandreMana}.|"
+  Name: Four Horsemen of the Apocalypse
+FlandreFourofaKind:
+  Description: "Choose a card in the hand. It |temporarily costs| {Mana}.\nAdd {FlandreValue1} |Copies| of it to the draw pile that |temporarily cost| {Mana} and have |Exile| and |Replenish|."
+  UpgradedDescription: "Choose a card in the hand. It |temporarily costs| {Mana}.\nAdd {FlandreValue1} |Copies| of it to the draw pile that |temporarily cost| {Mana} and have |Exile| and |Replenish|."
+  Name: Four of a Kind
+FlandreFragileWing:
+  Description: ""
+  UpgradedDescription: ""
+  Name: Fragile Wing
+FlandreFragmentsofLight:
+  Description: "At the start of {PlayerName}'s turn, add {FlandreValue1} random |Crystal{FlandreValue1:plural one='' other='s'}| to the hand."
+  UpgradedDescription: "At the start of {PlayerName}'s turn, add {FlandreValue1} random |Crystal{FlandreValue1:plural one='' other='s'}| to the hand.\nTrigger {SelfName} once."
+  Name: Fragments of Light
+FlandreFranticDestroyer:
+  Description: "|Offering| {Value1}.\nWhenever an attack card is activated, gain {FlandreMana} and draw {FlandreValue2:plural one='% card' other='% cards'}."
+  UpgradedDescription: "|Offering| {Value1}.\nWhenever an attack card is activated, gain {FlandreMana} and draw {FlandreValue2:plural one='% card' other='% cards'}."
+  PhantasmModeDescription: "|Offering| {Value1}.\nWhenever an attack card is activated, gain {FlandreMana} and draw {FlandreValue2:plural one='% card' other='% cards'}.\nGain {Value3} |Madness|."
+  PhantasmModeUpgradedDescription: "|Offering| {Value1}.\nWhenever an attack card is activated, gain {FlandreMana} and draw {FlandreValue2:plural one='% card' other='% cards'}.\nGain {Value3} |Madness|."
+  Name: Frantic Destroyer
+FlandreFriendOkina:
+  Description: "{FriendP}|f:Power of Secret|: Whenever {Value1} multicolored card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and gain {FlandrePassiveBarrier} |Barrier|. ({Amount:plural one='% card' other='% cards'} left.)"
+  NonbattleDescription: "{FriendP}|f:Power of Secret|: Whenever {Value1} multicolored card{FlandreValue2:plural one=' is' other='s are'} activated, gain {FlandreMana} and gain {FlandrePassiveBarrier} |Barrier|."
+  ExtraDescription1: "{FriendA}|a:Season Release|: Choose 1 of {Value2} |Seasons|. {SelfName} gains their effects."
+  ExtraDescription3: "{FriendU}|u:\u300CConcealed Spacetime Fantasy Tour\u300D|: At the start of {PlayerName}'s turn, choose 1 of {Value3} |p:completely random| Rare card{Value2:plural one='' other='s'} to add to the hand. It |temporarily costs| {Mana} and has |Exile| and |Ethereal|."
+  Name: Okina, Absolute Secret God
+  DetailText: "{SelfName} cannot be randomly generated in combat, and cannot be copied."
+FlandreFriendOkinaFall:
+  Description: "{FriendP}|f:Power of Fall|: Whenever {Value1} red card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and apply {FlandreValue2} |Hellfire| to each enemy. ({Amount:plural one='% card' other='% cards'} left.)"
+  NonbattleDescription: "{FriendP}|f:Power of Fall|: Whenever {Value1} red card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and apply {FlandreValue2} |Hellfire| to each enemy."
+  ExtraDescription1: "{FriendA}|a:Season Release|: Choose 1 of {Value3} |Seasons|. {SelfName} gains their effects."
+  ExtraDescription3: "{FriendU}|u:\u300CHidden Crazy Fall Wind\u300D|: Whenever a card is |Exiled|, gain {Value4} |Graze|."
+  Name: Okina, Absolute Secret God - Fall
+  DetailText: "{SelfName} cannot be randomly generated in combat, and cannot be copied."
+FlandreFriendOkinaSpring:
+  Description: "{FriendP}|f:Power of Spring|: Whenever {Value1} black card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and add {Value2} |Crystal{Value2:plural one='' other='s'}| to the hand. ({Amount:plural one='% card' other='% cards'} left.)"
+  UpgradedDescription: "{FriendP}|f:Power of Spring|: Whenever {Value1} black card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and add {Value2} |Crystal{Value2:plural one='' other='s'}+{Value3}| to the hand. ({Amount:plural one='% card' other='% cards'} left.)"
+  NonbattleDescription: "{FriendP}|f:Power of Spring|: Whenever {Value1} black card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and add {Value2} |Crystal{Value2:plural one='' other='s'}| to the hand."
+  UpgradedNonbattleDescription: "{FriendP}|f:Power of Spring|: Whenever {Value1} black card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and add {Value2} |Crystal{Value2:plural one='' other='s'}+{Value3}| to the hand."
+  ExtraDescription1: "{FriendA}|a:Season Release|: Choose 1 of {Value4} |Seasons|. {SelfName} gains their effects."
+  ExtraDescription3: "{FriendU}|u:\u300CHidden Breezy Cherry Blossom\u300D|: At the start of {PlayerName}'s turn, gain {Value5} life, {Value5} |Amulet| and |Ward|."
+  Name: Okina, Absolute Secret God - Spring
+  DetailText: "{SelfName} cannot be randomly generated in combat, and cannot be copied."
+FlandreFriendOkinaSummer:
+  Description: "{FriendP}|f:Power of Summer|: Whenever {Value1} green card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and apply {FlandreValue2} |Ruin| to each enemy. ({Amount:plural one='% card' other='% cards'} left.)"
+  NonbattleDescription: "{FriendP}|f:Power of Summer|: Whenever {Value1} green card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and apply {FlandreValue2} |Ruin| to each enemy."
+  ExtraDescription1: "{FriendA}|a:Season Release|: Choose 1 of {Value3} |Seasons|. {SelfName} gains their effects."
+  ExtraDescription3: "{FriendU}|u:\u300CHidden Perfect Summer Ice\u300D|: Whenever {PlayerName} activates {Value4:plural one='% card' other='% cards'}, deal {Value5} |Accurate| attack damage and apply |Cold| to each enemy."
+  Name: Okina, Absolute Secret God - Summer
+  DetailText: "{SelfName} cannot be randomly generated in combat, and cannot be copied."
+  FlavorText: "\"What? You expected me in a swimsuit?\"\n- Okina Matara"
+FlandreFriendOkinaWinter:
+  Description: "{FriendP}|f:Power of Winter|: Whenever {Value1} blue card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and gain {FlandreValue2} |Calamity|. ({Amount:plural one='% card' other='% cards'} left.)"
+  NonbattleDescription: "{FriendP}|f:Power of Winter|: Whenever {Value1} blue card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and gain {FlandreValue2} |Calamity|."
+  ExtraDescription1: "{FriendA}|a:Season Release|: Choose 1 of {Value3} |Seasons|. {SelfName} gains their effects."
+  ExtraDescription3: "{FriendU}|u:\u300CHidden Extreme Winter\u300D|: Whenever a card is activated, gain {Value4} |Charge|."
+  Name: Okina, Absolute Secret God - Winter
+  DetailText: "{SelfName} cannot be randomly generated in combat, and cannot be copied."
+FlandreGrowingGemstones:
+  Description: "Gain {FlandreBlock} |Block|.\nAdd {FlandreValue1} |p:random| |Crystal{FlandreValue1:plural one='' other='s'}| to the hand."
+  UpgradedDescription: "Gain {FlandreBlock} |Block|.\nAdd {FlandreValue1} |p:random| |Crystal{FlandreValue1:plural one='' other='s'}| to the hand."
+  ExtraDescription1: "Gain {FlandreBlock} |Block|.\nAdd {FlandreValue1} |p:random| |Crystal{FlandreValue1:plural one='' other='s'}+{Value3}| to the hand."
+  Name: Growing Gemstones
+FlandreHellisFull:
+  Description: "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.\n{SelfName} deals {FlandreValue2} more damage for each enemy defeated this run.\nGain {Value3} |Madness|."
+  UpgradedDescription: "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.\n{SelfName} deals {FlandreValue2} more damage for each enemy defeated this run.\nGain {Value3} |Madness|."
+  Name: Hell is Full
+FlandreHellonEarth:
+  Description: "When |Hellfire| and |Brimstone| would trigger, they trigger {FlandreValue1} additional time{FlandreValue1:plural one='' other='s'}."
+  UpgradedDescription: "When |Hellfire| and |Brimstone| would trigger, they trigger {FlandreValue1} additional time{FlandreValue1:plural one='' other='s'}.\nApply {FlandreValue2} |Hellfire| to each enemy."
+  Name: Hell on Earth
+FlandreHighCard:
+  Description: "Gain {FlandreValue1} |Temporary Firepower| and |Temporary Spirit|.\nPut the highest-cost card from the draw pile into the hand. It |temporarily costs| {Mana}."
+  UpgradedDescription: "Gain {FlandreValue1} |Temporary Firepower| and |Temporary Spirit|.\nPut the highest-cost card from the draw pile into the hand. It |temporarily costs| {Mana}."
+  Name: High Card
+FlandreHotSurface:
+  Description: "Gain {FlandreBlock} |Block|.\nUntil {PlayerName}'s next turn, whenever {PlayerName} receives attack damage, apply {FlandreValue1} |Hellfire| to the attacker."
+  UpgradedDescription: "Gain {FlandreBlock} |Block|.\nUntil {PlayerName}'s next turn, whenever {PlayerName} receives attack damage, apply {FlandreValue1} |Hellfire| to the attacker."
+  Name: Hot Surface
+FlandreHymnoftheTorturedSouls:
+  Description: "Gain {FlandreBlock} |Block|.\nGain {FlandreMana} and draw {FlandreValue1:plural one='% card' other='% cards'} for each character with |Hellfire|. ({Amount})"
+  UpgradedDescription: "Gain {FlandreBlock} |Block|.\nGain {FlandreMana} and draw {FlandreValue1:plural one='% card' other='% cards'} for each character with |Hellfire|. ({Amount})"
+  NonbattleDescription: "Gain {FlandreBlock} |Block|.\nGain {FlandreMana} and draw {FlandreValue1:plural one='% card' other='% cards'} for each character with |Hellfire|."
+  UpgradedNonbattleDescription: "Gain {FlandreBlock} |Block|.\nGain {FlandreMana} and draw {FlandreValue1:plural one='% card' other='% cards'} for each character with |Hellfire|."
+  Name: Hymn of the Tortured Souls
+FlandreIgnitingSnap:
+  Description: "Apply {FlandreValue1} |Hellfire|.\nTrigger |Hellfire| of the target {FlandreValue2:plural one='% time' other='% times'}."
+  UpgradedDescription: "Apply {FlandreValue1} |Hellfire|.\nTrigger |Hellfire| of the target {FlandreValue2:plural one='% time' other='% times'}."
+  Name: Igniting Snap
+FlandreInfernalRampage:
+  Description: "Deal {FlandreDamage} damage and apply {FlandreValue1} |Hellfire| to a |p:random| enemy {FlandreValue2:plural one='% time' other='% times'}.\nGain {Value3} |Firepower|."
+  UpgradedDescription: "Deal {FlandreDamage} damage and apply {FlandreValue1} |Hellfire| to a |p:random| enemy {FlandreValue2:plural one='% time' other='% times'}.\nGain {Value3} |Firepower|."
+  Name: Infernal Rampage
+FlandreInstability:
+  Description: "{SelfName}'s effects are |p:randomized| each round.\n|Average amount of effects|: |e:{AmountF}|."
+  InstabilityBlock: "Gain {BlockValue} |Block|."
+  InstabilityBarrier: "Gain {ShieldValue} |Barrier|."
+  InstabilityMana: "Gain {ManaValue}."
+  InstabilityScry: "|Scry| {ScryValue}."
+  InstabilityDream: "|Dream| {DreamValue}."
+  InstabilityCleanse: "Remove all debuffs from {PlayerName}."
+  InstabilityHeal: "Gain {HealValue} life."
+  InstabilityGold: "Gain {GoldValue} <sprite=\"Point\" name=\"Gold\">."
+  InstabilityPower: "Gain {PowerValue} <sprite=\"Point\" name=\"Power\">."
+  InstabilityUpgrade: "|Upgrade| all cards in the hand until the end of combat."
+  InstabilityDamage1: "Deal {DamageValue} damage."
+  InstabilityDamage2: "Deal {DamageValue} damage to each enemy."
+  InstabilityDamage3: "Deal {DamageValue} damage to a random enemy."
+  InstabilityAdd1: "Add {AddValue1} |{Add}| to the hand. {AddValue1:plural one='It |temporarily costs|' other='They |temporarily cost|'} {AddManaValue} and {AddValue1:plural one='has' other='have'} |Exile| and |Ethereal|."
+  InstabilityAdd2: "Add {AddValue1} random card{AddValue1:plural one='' other='s'} to the hand. {AddValue1:plural one='It |temporarily costs|' other='They |temporarily cost|'} {AddManaValue} and {AddValue1:plural one='has' other='have'} |Exile| and |Ethereal|."
+  InstabilityAdd3: "Choose {AddValue1} of {AddValue2} random card{AddValue2:plural one='' other='s'} to add to the hand. {AddValue1:plural one='It |temporarily costs|' other='They |temporarily cost|'} {AddManaValue} and {AddValue1:plural one='has' other='have'} |Exile| and |Ethereal|."
+  InstabilityDraw1: "Draw {DrawValue:plural one='% card' other='% cards'}."
+  InstabilityDraw2: "Draw cards until the hand is full."
+  InstabilityDiscard1: "Discard up to {DiscardValue:plural one='% card' other='% cards'}."
+  InstabilityDiscard2: "Discard all cards in the hand."
+  InstabilityExile1: "|Exile| up to {ExileValue:plural one='% card' other='% cards'} in the hand, draw pile, and discard pile."
+  InstabilityExile2: "|Exile| each card in the hand."
+  InstabilityMove1: "Choose up to {MoveValue:plural one='% card' other='% cards'} from the draw pile and put it into the hand."
+  InstabilityMove2: "Choose up to {MoveValue:plural one='% card' other='% cards'} from the discard pile and put it into the hand."
+  InstabilityRetain1: "Choose up to {RetainValue:plural one='% card' other='% cards'} in the hand. |Retain| {RetainValue:plural one='it' other='them'} this turn."
+  InstabilityRetain2: "|Retain| the hand this turn."
+  InstabilityBuff1: "Gain {BuffValue1} |{Buff1}|."
+  InstabilityBuff2: "Gain {BuffValue1} |{Buff1}| and {BuffValue2} |{Buff2}|."
+  InstabilityDebuff1: "Apply {DebuffValue} |{Debuff}|."
+  InstabilityDebuff2: "Apply {DebuffValue} |{Debuff}| to each enemy."
+  Name: Instability
+  DetailText: "{SelfName} cannot be randomly generated in combat, and cannot be copied."
+FlandreInternetSurvivor:
+  Description: "Remove all debuffs from {PlayerName}.\nGain {FlandreValue1}% life. ({Amount})"
+  UpgradedDescription: "Remove all debuffs from {PlayerName}.\nGain {FlandreValue1}% life. ({Amount})"
+  NonbattleDescription: "Remove all debuffs from {PlayerName}.\nGain {FlandreValue1}% life."
+  UpgradedNonbattleDescription: "Remove all debuffs from {PlayerName}.\nGain {FlandreValue1}% life."
+  Name: Internet Survivor
+FlandreKagomeKagome:
+  Description: "Gain {FlandreShield} |Barrier|.\nApply {FlandreValue1} |Ruin| to each enemy.\nDeal damage to each enemy equal to {FlandreValue2:plural one='% time' other='% times'} the target's Ruin."
+  UpgradedDescription: "Gain {FlandreShield} |Barrier|.\nApply {FlandreValue1} |Ruin| to each enemy.\nDeal damage to each enemy equal to {FlandreValue2:plural one='% time' other='% times'} the target's Ruin."
+  Name: Kagome, Kagome
+FlandreKindLiesandGoodbyes:
+  Description: "Gain {FlandreShield} |Barrier|.\nGain {FlandreValue1} |Firepower| and |Spirit|.\nWhen {PlayerName} would be defeated, remove all debuffs, heal to maximum life, and can't lose life for {FlandreValue2:plural one='% turn' other='% turns'}.\nThen, deal {Value3} damage to each enemy, |Destroy| enemies with {Value3} or less life, and remove {SelfName} from combat and the library."
+  UpgradedDescription: "Gain {FlandreShield} |Barrier|.\nGain {FlandreValue1} |Firepower| and |Spirit|.\nWhen {PlayerName} would be defeated, remove all debuffs, heal to maximum life, and can't lose life for {FlandreValue2:plural one='% turn' other='% turns'}.\nThen, deal {Value3} damage to each enemy, |Destroy| enemies with {Value3} or less life, and remove {SelfName} from combat and the library."
+  Name: Kind Lies and Goodbyes
+  DetailText: "{SelfName} cannot be randomly generated in combat, and cannot be copied."
+FlandreLaevateinn:
+  Description: "Deal {FlandreDamage} damage and apply {FlandreValue1} |Hellfire| to each enemy.\nThis effect is affected by |Firepower| {FlandreValue2:plural one='% time' other='% times'}.\nTrigger |Hellfire| of each enemy {Value3:plural one='% time' other='% times'}."
+  UpgradedDescription: "Deal {FlandreDamage} damage and apply {FlandreValue1} |Hellfire| to each enemy.\nThis effect is affected by |Firepower| {FlandreValue2:plural one='% time' other='% times'}.\nTrigger |Hellfire| of each enemy {Value3:plural one='% time' other='% times'}."
+  Name: Laevateinn
+FlandreLittleJeweler:
+  Description: "Add {FlandreValue1} |p:random| |Crystal{FlandreValue1:plural one='' other='s'}| to the hand.\nGain {FlandreValue2} |p:random| mana."
+  UpgradedDescription: "Add {FlandreValue1} |p:random| |Crystal{FlandreValue1:plural one='' other='s'}| to the hand.\nGain {FlandreValue2} |p:random| mana."
+  ExtraDescription1: "Add {FlandreValue1} |p:random| |Crystal{FlandreValue1:plural one='' other='s'}+{Value3}| to the hand.\nGain {FlandreValue2} |p:random| mana."
+  Name: Little Jeweler
+FlandreLooseCannon:
+  Description: "Deal {FlandreDamage} damage to each enemy.\nApply {FlandreValue1} |Hellfire| to each enemy.\n|While in hand|: Whenever {PlayerName} deals or receives attack damage, {SelfName} |temporarily costs| {Mana} less. When {SelfName}'s cost is {Mana2}, play {SelfName}."
+  UpgradedDescription: "Deal {FlandreDamage} damage to each enemy.\nApply {FlandreValue1} |Hellfire| to each enemy.\n|While in hand|: Whenever {PlayerName} deals or receives attack damage, {SelfName} |temporarily costs| {Mana} less. When {SelfName}'s cost is {Mana2}, play {SelfName}."
+  Name: Loose Cannon
+FlandreMagicalGirlFlandreEngage:
+  Description: "All |Magical Girl| cards can be |Upgraded| {Value1:plural one='% additional time' other='% additional times'}.\nThe maximum hand size becomes {Value2}.\nAdd a |Magical Slash|, |Magical Guard|, |Magical Technique|, and |Magical Potential| to the hand.\nThese effects does not stack.\nGain {Value3} |Amulet| and |Ward|."
+  UpgradedDescription: "All |Magical Girl| cards can be |Upgraded| {Value1:plural one='% additional time' other='% additional times'}.\nThe maximum hand size becomes {Value2}.\nAdd a |Magical Slash+{Value4}|, |Magical Guard+{Value4}|, |Magical Technique+{Value4}|, and |Magical Potential+{Value4}| to the hand.\nThese effects does not stack.\nGain {Value3} |Amulet| and |Ward|."
+  Name: Magical Girl Flandre Engage!
+  DetailText: "These |e:alternate cards| ignore maximum hand size."
+  MagicalGirlFlandreEngage1Flandre: "Magical girl {0}, engage!"
+  MagicalGirlFlandreEngage2Flandre: "With power of love and justice, I will defeat you!"
+  MagicalGirlFlandreEngage3Flandre: "Your ambition ends here! Magical girl {0} has arrived!"
+  MagicalGirlFlandreEngage4Flandre: "...Do I really have to say this?"
+  MagicalGirlFlandreEngage5Flandre: "...Explain. Or I'll break your spine."
+  MagicalGirlFlandreEngage6Flandre: "...What does this have to do with solving the incident?"
+  MagicalGirlFlandreEngage7Okina: "What's a magical girl without proper demeanor?"
+  MagicalGirlFlandreEngage8Okina: "It is important to take your identity as a magical girl seriously."
+  MagicalGirlFlandreEngage9Okina: "I can gather more faith when you resolve the incident as a magical girl."
+  MagicalGirlFlandreEngage10Flandre: "Go away."
+  MagicalGirlFlandreEngage11Flandre: "You're weird."
+  MagicalGirlFlandreEngage12Flandre: "You're enjoying this, aren't you?"
+FlandreMagicalGuard:
+  Description: "Gain {FlandreBlock} |Block|.\nReturn {SelfName} to the hand.\n{SelfName} costs {Mana} more this turn."
+  UpgradedDescription: "Gain {FlandreBlock} |Block|.\nReturn {SelfName} to the hand.\n{SelfName} costs {Mana} more this turn."
+  Name: Magical Guard
+  DetailText: "|p:{SelfName} never leaves the hand under any circumstances.|\n{SelfName} is always the {Order:ordinal one='%st' two='%nd' few='%rd' other='%th'} card in the hand."
+FlandreMagicalPotential:
+  Description: "This card is sealed."
+  UpgradedDescription: "This card is sealed."
+  Name: Magical Potential
+  DetailText: "|p:{SelfName} never leaves the hand under any circumstances.|\n{SelfName} is always the {Order:ordinal one='%st' two='%nd' few='%rd' other='%th'} card in the hand."
+FlandreMagicalSlash:
+  Description: "Deal {FlandreDamage} damage.\nReturn {SelfName} to the hand.\n{SelfName} costs {Mana} more this turn."
+  UpgradedDescription: "Deal {FlandreDamage} damage.\nReturn {SelfName} to the hand.\n{SelfName} costs {Mana} more this turn."
+  Name: Magical Slash
+  DetailText: "|p:{SelfName} never leaves the hand under any circumstances.|\n{SelfName} is always the {Order:ordinal one='%st' two='%nd' few='%rd' other='%th'} card in the hand."
+FlandreMagicalTechnique:
+  Description: "Choose up to {FlandreValue1} of {FlandreValue2} |p:random| Common card{FlandreValue2:plural one='' other='s'} to play it.\nReturn {SelfName} to the hand.\n{SelfName} costs {Mana} more this turn."
+  UpgradedDescription: "Choose up to {FlandreValue1} of {FlandreValue2} |p:random| Common card{FlandreValue2:plural one='' other='s'} to play it.\nReturn {SelfName} to the hand.\n{SelfName} costs {Mana} more this turn."
+  Name: Magical Technique
+  DetailText: "|p:{SelfName} never leaves the hand under any circumstances.|\n{SelfName} is always the {Order:ordinal one='%st' two='%nd' few='%rd' other='%th'} card in the hand."
+FlandreMazeofLove:
+  Description: "Gain {FlandreShield} |Barrier|.\nDeal {FlandreDamage} damage and apply {FlandreValue1} |Weak| to each enemy.\nPlay {FlandreValue2} |p:random| |Crystal{FlandreValue2:plural one='' other='s'}| to each enemy."
+  UpgradedDescription: "Gain {FlandreShield} |Barrier|.\nDeal {FlandreDamage} damage and apply {FlandreValue1} |Weak| to each enemy.\nPlay {FlandreValue2} |p:random| |Crystal{FlandreValue2:plural one='' other='s'}| to each enemy."
+  Name: Maze of Love
+FlandreMindsEye:
+  Description: "Gain {FlandreShield} |Barrier|.\nThe next {FlandreValue1:plural one='% time' other='% times'} {PlayerName} deals or takes attack damage, double the damage dealt or halve the damage taken."
+  UpgradedDescription: "Gain {FlandreShield} |Barrier|.\nThe next {FlandreValue1:plural one='% time' other='% times'} {PlayerName} deals or takes attack damage, double the damage dealt or halve the damage taken."
+  Name: Mind's Eye
+FlandreMPBloodsucker:
+  Description: "Choose a |Partner|.\nThey lose {Value1} life.\nGain {FlandreValue2} life."
+  UpgradedDescription: "Choose a |Partner|.\nThey lose {Value1} life.\nGain {FlandreValue2} life."
+  Name: Bloodsucker
+FlandreMPBullofPhalaris:
+  Description: "Whenever any player receives damage from status effects, they deal {FlandreValue1} damage to each enemy.\nApply {Value2} |Hellfire| to all players.\n|Scaled| {Mana}."
+  UpgradedDescription: "Whenever any player receives damage from status effects, they deal {FlandreValue1} damage to each enemy.\nApply {Value2} |Hellfire| to all players.\n|Scaled| {Mana}."
+  Name: Bull of Phalaris
+FlandreMPButchersCircus:
+  Description: "Whenever an enemy is defeated, all players gain {FlandreValue2} |Firepower| and {Value3} life.\n|Scaled| {Mana}."
+  UpgradedDescription: "Whenever an enemy is defeated, all players gain {FlandreValue2} |Firepower| and {Value3} life.\nTrigger {SelfName} once.\n|Scaled| {Mana}."
+  Name: Butcher's Circus
+FlandreMPEnfantTerrible:
+  Description: "Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.\nEnemies deal {Value2}% less attack damage for the next {Value3:plural one='% turn' other='% turns'}.\nAll |Partners| deal {Value4}% less attack damage for the next {Value5:plural one='% turn' other='% turns'}.\nGain {Value6} |Madness|."
+  UpgradedDescription: "Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.\nEnemies deal {Value2}% less attack damage for the next {Value3:plural one='% turn' other='% turns'}.\nAll |Partners| deal {Value4}% less attack damage for the next {Value5:plural one='% turn' other='% turns'}.\nGain {Value6} |Madness|."
+  Name: Enfant Terrible
+FlandreMPFirestorm:
+  Description: "Deal {FlandreDamage} damage and apply {FlandreValue1} |Hellfire| to each enemy.\n{SelfName} is affected by |Firepower| of all players. ({Amount})"
+  UpgradedDescription: "Deal {FlandreDamage} damage and apply {FlandreValue1} |Hellfire| to each enemy.\n{SelfName} is affected by |Firepower| of all players. ({Amount})"
+  NonbattleDescription: "Deal {FlandreDamage} damage and apply {FlandreValue1} |Hellfire| to each enemy.\n{SelfName} is affected by |Firepower| of all players."
+  UpgradedNonbattleDescription: "Deal {FlandreDamage} damage and apply {FlandreValue1} |Hellfire| to each enemy.\n{SelfName} is affected by |Firepower| of all players."
+  Name: Firestorm
+FlandreMPKrystallos:
+  Description: "Gain {FlandreBlock} |Block|.\nAll players play {FlandreValue1} |p:random| |Crystal{FlandreValue1:plural one='' other='s'}|.\n|Scaled| {Mana}."
+  UpgradedDescription: "Gain {FlandreBlock} |Block|.\nAll players play {FlandreValue1} |p:random| |Crystal{FlandreValue1:plural one='' other='s'}|.\n|Scaled| {Mana}."
+  Name: Krystallos
+FlandreMPLostandForgotten:
+  Description: "All players gain {FlandreBlock} |Block| and {FlandreShield} |Barrier|.\n|When Exiled|: Gain {FlandreValue1} |Firepower| and apply {FlandreValue2} |Ruin| to each enemy.\n|Scaled| {Mana}."
+  UpgradedDescription: "All players gain {FlandreBlock} |Block| and {FlandreShield} |Barrier|.\n|When Exiled|: Gain {FlandreValue1} |Firepower| and apply {FlandreValue2} |Ruin| to each enemy.\n|Scaled| {Mana}."
+  Name: Lost and Forgotten
+FlandreMPMagicalCheering:
+  Description: "All players gain {FlandreMana}.\nAll players |Upgrade| all cards in the hand {FlandreValue1:plural one='% time' other='% times'} until the end of combat.\n|Scaled| {Mana2}."
+  UpgradedDescription: "All players gain {FlandreMana}.\nAll players |Upgrade| all cards in the hand {FlandreValue1:plural one='% time' other='% times'} until the end of combat.\n|Scaled| {Mana2}."
+  Name: Magical Cheering
+FlandreMPPhantomPain:
+  Description: "Deal {FlandreDamage} damage.\nUntil {PlayerName}'s next turn, whenever any player activates attack card, the target takes {FlandreValue1} damage.\nGain {FlandreValue2} |Calamity|."
+  UpgradedDescription: "Deal {FlandreDamage} damage.\nUntil {PlayerName}'s next turn, whenever any player activates attack card, the target takes {FlandreValue1} damage.\nGain {FlandreValue2} |Calamity|."
+  Name: Phantom Pain
+FlandreMPProblemChild:
+  Description: "|Offering| {Value1}.\nAll |Flandre| |Multiplayer| cards gain |Unplayable| until the end of combat.\nAll attack cards cost {FlandreMana} less until the end of combat."
+  UpgradedDescription: "|Offering| {Value1}.\nAll |Flandre| |Multiplayer| cards gain |Unplayable| until the end of combat.\nAll attack cards cost {FlandreMana} less until the end of combat."
+  Name: Problem Child
+FlandreMPRiggedGame:
+  Description: "All players gain {FlandreValue1} |Temporary Firepower| and |Temporary Spirit|.\nAll players put the next {FlandreValue2} rare card{FlandreValue2:plural one='' other='s'} sent to the discard pile on top of the draw pile.\n|Scaled| {Mana}."
+  UpgradedDescription: "All players gain {FlandreValue1} |Temporary Firepower| and |Temporary Spirit|.\nAll players put the next {FlandreValue2} rare card{FlandreValue2:plural one='' other='s'} sent to the discard pile on top of the draw pile.\n|Scaled| {Mana}."
+  Name: Rigged Game
+FlandreMurderMystery:
+  Description: "Gain {FlandreValue1} |Calamity|.\nDraw {FlandreValue2:plural one='% card' other='% cards'}."
+  UpgradedDescription: "Gain {FlandreValue1} |Calamity|.\nDraw {FlandreValue2:plural one='% card' other='% cards'}."
+  Name: Murder Mystery
+FlandreNoMercy:
+  Description: "Gain {FlandreBlock} |Block|.\nPut the {FlandreValue1} topmost attack card{FlandreValue1:plural one='' other='s'} from the draw pile into the hand.\nThe next {FlandreValue2} attack card{FlandreValue2:plural one='' other='s'} played cost{FlandreValue2:plural one='s' other=''} {Mana} to play.\nGain {Value3} |Madness|."
+  UpgradedDescription: "Gain {FlandreBlock} |Block|.\nPut the {FlandreValue1} topmost attack card{FlandreValue1:plural one='' other='s'} from the draw pile into the hand.\nThe next {FlandreValue2} attack card{FlandreValue2:plural one='' other='s'} played cost{FlandreValue2:plural one='s' other=''} {Mana} to play.\nGain {Value3} |Madness|."
+  Name: No Mercy
+FlandreOnePair:
+  Description: "Choose a non-|Misfortune|, non-Status card in the hand.\nChoose up to {FlandreValue1} of {FlandreValue2} |p:random| card{FlandreValue2:plural one='' other='s'} of the same type to add to the hand. {FlandreValue1:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana} and {FlandreValue1:plural one='has' other='have'} |Exile| and |Ethereal|."
+  UpgradedDescription: "Choose a non-|Misfortune|, non-Status card in the hand.\nChoose up to {FlandreValue1} of {FlandreValue2} |p:random| card{FlandreValue2:plural one='' other='s'} of the same type to add to the hand. {FlandreValue1:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana} and {FlandreValue1:plural one='has' other='have'} |Exile| and |Ethereal|."
+  Name: One Pair
+FlandreOrthrusBrigantine:
+  Description: "Deal {FlandreDamage} damage.\nApply {FlandreValue1} |Ruin|.\nGain {FlandreValue2} life.\nRepeat these effects on another |p:random| enemy."
+  UpgradedDescription: "Deal {FlandreDamage} damage.\nApply {FlandreValue1} |Ruin|.\nGain {FlandreValue2} life.\nRepeat these effects on another |p:random| enemy."
+  Name: Orthrus Brigantine
+FlandrePartnersinCrime:
+  Description: "Gain {FlandreShield} |Barrier|.\nDeal {FlandreDamage} damage.\nPlay up to {FlandreValue1:plural one='% card' other='% cards'} in the hand.\nFor each attack card played this way, gain {FlandreValue2} |Firepower|. For each defense card played this way, gain {FlandreValue2} |Spirit|."
+  UpgradedDescription: "Gain {FlandreShield} |Barrier|.\nDeal {FlandreDamage} damage.\nPlay up to {FlandreValue1:plural one='% card' other='% cards'} in the hand.\nFor each attack card played this way, gain {FlandreValue2} |Firepower|. For each defense card played this way, gain {FlandreValue2} |Spirit|."
+  Name: Partners in Crime
+FlandrePathofDestruction:
+  Description: "|Offering| {Value1}.\nGain {FlandreBlock} |Block|.\nDraw {FlandreValue2:plural one='% card' other='% cards'}."
+  UpgradedDescription: "|Offering| {Value1}.\nGain {FlandreBlock} |Block|.\nDraw {FlandreValue2:plural one='% card' other='% cards'}."
+  Name: Path of Destruction
+FlandrePlanetKiller:
+  Description: "Deal {Value1} damage to each enemy.\n|For each additional {Mana} spent|: Deal {Value2:plural one='% time' other='% times'} that much damage instead.\nGain {Value3} |Madness|."
+  UpgradedDescription: "Deal {Value1} damage to each enemy.\n|For each additional {Mana} spent|: Deal {Value2:plural one='% time' other='% times'} that much damage instead.\nGain {Value3} |Madness|."
+  Name: Planet Killer
+FlandrePlayTogether:
+  Description: "|Debut|: Gain {FlandreValue1} |Firepower|.\nChoose up to {FlandreValue2:plural one='% card' other='% cards'} from the discard pile and return {FlandreValue2:plural one='it' other='them'} to the hand."
+  UpgradedDescription: "|Debut|: Gain {FlandreValue1} |Firepower|.\nChoose up to {FlandreValue2:plural one='% card' other='% cards'} from the discard pile and return {FlandreValue2:plural one='it' other='them'} to the hand."
+  ExtraDescription1: "|d:Debut: Gain {FlandreValue1} Firepower.|\nChoose up to {FlandreValue2:plural one='% card' other='% cards'} from the discard pile and return {FlandreValue2:plural one='it' other='them'} to the hand."
+  Name: Play Together
+  DetailText: "{SelfName} cannot be targeted by this effect."
+FlandrePrayerofRuin:
+  Description: "Apply {FlandreValue1} |Ruin|.\nApply additional |Ruin| equal to the target's lost life. ({Amount})\n|Expel|: Gain {FlandreValue2} <sprite=\"Point\" name=\"Gold\">."
+  UpgradedDescription: "Apply {FlandreValue1} |Ruin|.\nApply additional |Ruin| equal to the target's lost life. ({Amount})\n|Expel|: Gain {FlandreValue2} <sprite=\"Point\" name=\"Gold\">."
+  NonbattleDescription: "Apply {FlandreValue1} |Ruin|.\nApply additional |Ruin| equal to the target's lost life.\n|Expel|: Gain {FlandreValue2} <sprite=\"Point\" name=\"Gold\">."
+  UpgradedNonbattleDescription: "Apply {FlandreValue1} |Ruin|.\nApply additional |Ruin| equal to the target's lost life.\n|Expel|: Gain {FlandreValue2} <sprite=\"Point\" name=\"Gold\">."
+  Name: Prayer of Ruin
+  FlavorText: "\"Who are you praying to? Of course it's me, right?\"\n- Okina Matara\n\"No, it's ZUN.\"\n- Flandre Scarlet\n\"...Who?\"\n- Okina Matara"
+FlandreRecklessBullet:
+  Description: "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.\nAdd {FlandreValue2} |p:random| |Crystal{FlandreValue2:plural one='' other='s'}| to the hand."
+  UpgradedDescription: "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.\nAdd {FlandreValue2} |p:random| |Crystal{FlandreValue2:plural one='' other='s'}+{Value3}| to the hand."
+  Name: Reckless Bullet
+FlandreReliableLittleSister:
+  Description: "Gain {FlandreBlock} |Block|.\nGain additional |Block| equal to {PlayerName}'s maximum life. ({Amount})"
+  UpgradedDescription: "Gain {FlandreBlock} |Block|.\nGain additional |Block| equal to {PlayerName}'s maximum life. ({Amount})"
+  NonbattleDescription: "Gain {FlandreBlock} |Block|.\nGain additional |Block| equal to {PlayerName}'s maximum life."
+  UpgradedNonbattleDescription: "Gain {FlandreBlock} |Block|.\nGain additional |Block| equal to {PlayerName}'s maximum life."
+  Name: Reliable Little Sister
+FlandreRipandTear:
+  Description: "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.\nIf the target has {FlandreValue2} or less life, |Destroy| it."
+  UpgradedDescription: "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.\nIf the target has {FlandreValue2} or less life, |Destroy| it."
+  Name: Rip and Tear
+FlandreRipplesof495Years:
+  Description: "{PlayerName} is immune to all debuffs.\nConvert all mana {PlayerName} would gain this combat to <sprite=\"ManaSprite\" name=\"P\">.\nUnspent mana isn't lost at the end of each turn.\nAll cards are played {FlandreValue1:plural one='% additional time' other='% additional times'}.\nThese effects does not stack."
+  UpgradedDescription: "{PlayerName} is immune to all debuffs.\nConvert all mana {PlayerName} would gain this combat to <sprite=\"ManaSprite\" name=\"P\">.\nUnspent mana isn't lost at the end of each turn.\nAll cards are played {FlandreValue1:plural one='% additional time' other='% additional times'}.\nThese effects does not stack."
+  Name: Ripples of 495 Years
+  Ripplesof495Years1Flandre: "I just want to destroy something."
+  Ripplesof495Years2Flandre: "Especially you!"
+FlandreRoseCross:
+  Description: "Gain {FlandreShield} |Barrier|.\nApply {FlandreValue1} |Hellfire| to each enemy."
+  UpgradedDescription: "Gain {FlandreShield} |Barrier|.\nApply {FlandreValue1} |Hellfire| to each enemy."
+  Name: Rose Cross
+FlandreRuinedFortress:
+  Description: "Enemies with |Ruin| deal {Value1}% less attack damage.\nThis effect does not stack."
+  UpgradedDescription: "Enemies with |Ruin| deal {Value1}% less attack damage.\nThis effect does not stack.\nApply {FlandreValue2} |Ruin| to each enemy."
+  Name: Ruined Fortress
+FlandreScarletCasino:
+  Description: "For every {Value1} |p:random| effect |Flandre| cards activated, gain {Value2} of {Value1} random effects:\nAll cards cost {Amount1} less this turn.\nThe next {Amount2:plural one='% card is' other='% cards are'} played {Value2:plural one='% additional time' other='% additional times'}.\nPrevent the next {Amount3:plural one='% time' other='% times'} {PlayerName} would lose life.\n|Upgrade| {Amount4} random card{Amount4:plural one='' other='s'} in the |battlefield| {Value4:plural one='% time' other='% times'}.\nGain {Amount5}.\nGain {Amount6} <sprite=\"Point\" name=\"Gold\">."
+  UpgradedDescription: "For every {Value1} |p:random| effect |Flandre| cards activated, gain {Value2} of {Value1} random effects:\nAll cards cost {Amount1} less this turn.\nThe next {Amount2:plural one='% card is' other='% cards are'} played {Value2:plural one='% additional time' other='% additional times'}.\nPrevent the next {Amount3:plural one='% time' other='% times'} {PlayerName} would lose life.\n|Upgrade| {Amount4} random card{Amount4:plural one='' other='s'} in the |battlefield| {Value4:plural one='% time' other='% times'}.\nGain {Amount5}.\nGain {Amount6} <sprite=\"Point\" name=\"Gold\">.\nTrigger {SelfName} once."
+  Name: Scarlet Casino
+  DetailText: "{SelfName} cannot be randomly generated in combat, and cannot be copied."
+  ScarletCasino1Flandre: "I invite you to Scarlet Casino!"
+  ScarletCasino2Flandre: "The stakes are your soul!"
+FlandreScarletNihility:
+  Description: "Deal {FlandreDamage} damage.\nFor each unspent mana, increase {SelfName}'s damage by {FlandreValue1}. ({Amount})\nIf the target has {Value2}% or less life, |Destroy| it. ({Amount2})"
+  UpgradedDescription: "Deal {FlandreDamage} damage.\nFor each unspent mana, increase {SelfName}'s damage by {FlandreValue1}. ({Amount})\nIf the target has {Value2}% or less life, |Destroy| it. ({Amount2})"
+  NonbattleDescription: "Deal {FlandreDamage} damage.\nFor each unspent mana, increase {SelfName}'s damage by {FlandreValue1}.\nIf the target has {Value2}% or less life, |Destroy| it."
+  UpgradedNonbattleDescription: "Deal {FlandreDamage} damage.\nFor each unspent mana, increase {SelfName}'s damage by {FlandreValue1}.\nIf the target has {Value2}% or less life, |Destroy| it."
+  Name: Scarlet Nihility
+  DetailText: "{SelfName} cannot be randomly generated in combat, and cannot be copied."
+FlandreScaryLittleSister:
+  Description: "Gain {FlandreBlock} |Block|.\nApply {FlandreValue1} |Weak| to each enemy.\n|When Exiled|: Gain {FlandreMana} and draw {FlandreValue2:plural one='% card' other='% cards'}."
+  UpgradedDescription: "Gain {FlandreBlock} |Block|.\nApply {FlandreValue1} |Weak| to each enemy.\n|When Exiled|: Gain {FlandreMana} and draw {FlandreValue2:plural one='% card' other='% cards'}."
+  Name: Scary Little Sister
+FlandreSisteroftheDevil:
+  Description: "|At the start of combat|: |Exile| {SelfName}, gain |Sister of the Devil| and {FlandreMana}."
+  UpgradedDescription: "|At the start of combat|: |Exile| {SelfName}, gain |Sister of the Devil| and {FlandreMana}."
+  Name: Sister of the Devil
+  DetailText: "{SelfName} cannot be randomly generated in combat, and cannot be copied."
+FlandreSoulMelter:
+  Description: "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.\nApply {FlandreValue2} |Hellfire| and {Value3} |Ruin|.\n|Expel|: Gain {Value4} maximum life."
+  UpgradedDescription: "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.\nApply {FlandreValue2} |Hellfire| and {Value3} |Ruin|.\n|Expel|: Gain {Value4} maximum life."
+  Name: Soul Melter
+FlandreSpectrometer:
+  Description: "Gain {FlandreBlock} |Block|.\nAdd {FlandreValue1} |p:random| |Crystal{FlandreValue1:plural one='' other='s'}| to the draw and discard piles."
+  UpgradedDescription: "Gain {FlandreBlock} |Block|.\nAdd {FlandreValue1} |p:random| |Crystal{FlandreValue1:plural one='' other='s'}| to the draw and discard piles."
+  ExtraDescription1: "Gain {FlandreBlock} |Block|.\nAdd {FlandreValue1} |p:random| |Crystal{FlandreValue1:plural one='' other='s'}+{Value3}| to the draw and discard piles."
+  Name: Spectrometer
+FlandreSpellBreak:
+  Description: "Deal {FlandreValue1} damage.\nThe target cannot act for {Value2:plural one='% turn' other='% turns'}.\nThe target is immune to |Spell Break| for {Value3:plural one='% turn' other='% turns'}."
+  UpgradedDescription: "Deal {FlandreValue1} damage.\nThe target cannot act for {Value2:plural one='% turn' other='% turns'}.\nThe target is immune to |Spell Break| for {Value3:plural one='% turn' other='% turns'}."
+  Name: Spell Break
+FlandreStarbowBreak:
+  Description: "|For each mana of a different color spent|: Deal {FlandreDamage} damage to each enemy.\n{SelfName} deals {FlandreValue1} more damage for each attack card in the hand.\nEnemies with |Barrier| or |Block| are dealt {FlandreValue2:plural one='% time' other='% times'} that much damage instead."
+  UpgradedDescription: "|For each mana of a different color spent|: Deal {FlandreDamage} damage to each enemy.\n{SelfName} deals {FlandreValue1} more damage for each attack card in the hand.\nEnemies with |Barrier| or |Block| are dealt {FlandreValue2:plural one='% time' other='% times'} that much damage instead."
+  Name: Starbow Break
+FlandreStraightFlush:
+  Description: "Gain {FlandreShield} |Barrier|.\nGain {FlandreValue1} |Firepower|, |Spirit|, |Amulet|, and |Ward|.\nIf there are {Value2} or more cards of the same type in the hand, {SelfName} costs {Mana} to play.\n({AmountS})"
+  UpgradedDescription: "Gain {FlandreShield} |Barrier|.\nGain {FlandreValue1} |Firepower|, |Spirit|, |Amulet|, and |Ward|.\nIf there are {Value2} or more cards of the same type in the hand, {SelfName} costs {Mana} to play.\n({AmountS})"
+  NonbattleDescription: "Gain {FlandreShield} |Barrier|.\nGain {FlandreValue1} |Firepower|, |Spirit|, |Amulet|, and |Ward|.\nIf there are {Value2} or more cards of the same type in the hand, {SelfName} costs {Mana} to play."
+  UpgradedNonbattleDescription: "Gain {FlandreShield} |Barrier|.\nGain {FlandreValue1} |Firepower|, |Spirit|, |Amulet|, and |Ward|.\nIf there are {Value2} or more cards of the same type in the hand, {SelfName} costs {Mana} to play."
+  Name: Straight Flush
+FlandreSuperhumanCatastrophePilgrimage:
+  Description: "|Offering| {Value1}.\nAdd {FlandreValue2} |p:random| attack, defense, skill, and |Ability| cards to the hand. They |temporarily cost| {Mana} and have |Exile| and |Ethereal|."
+  UpgradedDescription: "|Offering| {Value1}.\nAdd {FlandreValue2} |p:random| attack, defense, skill, and |Ability| cards to the hand. They |temporarily cost| {Mana} and have |Exile| and |Ethereal|."
+  Name: Superhuman Catastrophe Pilgrimage
+  DetailText: "{SelfName} cannot be produced by this effect."
+FlandreTheCentennialFestivalforMagicalGirls:
+  Description: "All |Magical Girl| cards can be |Upgraded| {Value1:plural one='% additional time' other='% additional times'}.\nAll |Flandre| cards gain |Magical Girl| until the end of combat.\nWhenever {PlayerName} adds a card during this combat, |Upgrade| it.\nThese effects does not stack."
+  UpgradedDescription: "All |Magical Girl| cards can be |Upgraded| {Value1:plural one='% additional time' other='% additional times'}.\nAll |Flandre| cards gain |Magical Girl| until the end of combat.\nWhenever {PlayerName} adds a card during this combat, |Upgrade| it.\nThese effects does not stack.\n|Upgrade| all cards {FlandreValue2:plural one='% time' other='% times'} until the end of combat."
+  Name: The Centennial Festival for Magical Girls
+FlandreTheMousetrap:
+  Description: "Gain {FlandreShield} |Barrier|.\nGain {FlandreValue1} |Calamity|.\nAt the start of {PlayerName}'s next turn, deal damage to each enemy equal to the amount of damage taken last turn."
+  UpgradedDescription: "Gain {FlandreShield} |Barrier|.\nGain {FlandreValue1} |Calamity|.\nAt the start of {PlayerName}'s next turn, deal damage to each enemy equal to the amount of damage taken last turn."
+  Name: The Mousetrap
+FlandreThePsychoticandCuteGuest:
+  Description: "Whenever an attack card is activated, gain {FlandreValue1} |Calamity| and |Firepower|."
+  UpgradedDescription: "Whenever an attack card is activated, gain {FlandreValue1} |Calamity| and |Firepower|."
+  PhantasmModeDescription: "Whenever an attack card is activated, gain {FlandreValue1} |Calamity| and |Firepower|.\nGain {Value2} |Madness|."
+  PhantasmModeUpgradedDescription: "Whenever an attack card is activated, gain {FlandreValue1} |Calamity| and |Firepower|.\nGain {Value2} |Madness|."
+  Name: The Psychotic and Cute Guest
+FlandreTirelessVampire:
+  Description: "Gain {FlandreBlock} |Block|.\nGain {FlandreValue1} |p:random| mana."
+  UpgradedDescription: "Gain {FlandreBlock} |Block|.\nGain {FlandreValue1} |p:random| mana."
+  Name: Tireless Vampire
+  FlavorText: "\"Come on, Meiling! The night has just begun!\"\n- Flandre Scarlet"
+FlandreToolDestroyingObstacles:
+  LockedDescription: "Unlocked by resolve the incident on Normal Mode or higher with Flandre Scarlet."
+  Description: "Remove a card from the library.\n|Limited\u3010{DeckCounter}\u3011|"
+  Name: Destroying Obstacles
+  DetailText: "{SelfName} cannot be randomly generated in combat, and cannot be copied.\nWhen the selected card is removed from the library, it will not be removed from this combat."
+FlandreToolPlanetKiller:
+  LockedDescription: "Unlocked by resolve the incident on Lunatic Mode or higher with Flandre Scarlet."
+  Description: "|Destroy| enemies with {Amount} or less life.\n|For each {Mana} spent|: Double the effect.\n|Limited\u3010{DeckCounter}\u3011|"
+  Name: Planet Killer
+  DetailText: "{SelfName} cannot be randomly generated in combat, and cannot be copied."
+FlandreToolTheCureforMadness:
+  LockedDescription: "Unlocked by resolve the incident on Hard Mode or higher with Flandre Scarlet."
+  Description: "Remove all debuffs from {PlayerName}.\nLose {Value1} |Madness|.\n|Limited\u3010{DeckCounter}\u3011|"
+  Name: The Cure for Madness
+  DetailText: "{SelfName} cannot be randomly generated in combat, and cannot be copied."
+FlandreTrueDevilsCurtain:
+  Description: "Gain {FlandreBlock} |Block|.\nGain {FlandreValue1} life."
+  UpgradedDescription: "Gain {FlandreBlock} |Block|.\nGain {FlandreValue1} life."
+  Name: True Devil's Curtain
+FlandreTrueDevilsMantle:
+  Description: "Gain {FlandreBlock} |Block|.\nGain {FlandreValue1} life."
+  UpgradedDescription: "Gain {FlandreBlock} |Block|.\nGain {FlandreValue1} life."
+  Name: True Devil's Mantle
+FlandreTrueDevilsRain:
+  Description: "Deal {FlandreDamage} damage.\nGain {FlandreValue1} life."
+  UpgradedDescription: "Deal {FlandreDamage} damage.\nGain {FlandreValue1} life."
+  Name: True Devil's Rain
+FlandreTrueDevilsShot:
+  Description: "Deal {FlandreDamage} damage.\nGain {FlandreValue1} life."
+  UpgradedDescription: "Deal {FlandreDamage} damage.\nGain {FlandreValue1} life."
+  Name: True Devil's Shot
+FlandreUltraViolence:
+  Description: "Deal {FlandreDamage} damage and apply {FlandreValue1} |Vulnerable| to each enemy.\nAdd |p:random| attack cards to the hand until it's full. They |temporarily cost| {Mana} and have |Exile| and |Ethereal|.\nGain {Value2} |Madness|."
+  UpgradedDescription: "Deal {FlandreDamage} damage and apply {FlandreValue1} |Vulnerable| to each enemy.\nAdd |p:random| attack cards to the hand until it's full. They |temporarily cost| {Mana} and have |Exile| and |Ethereal|.\nGain {Value2} |Madness|."
+  Name: Ultra-Violence
+  DetailText: "{SelfName} cannot be produced by this effect."
+  UltraViolence: "CENSORED"
+FlandreUncontrollableBomb:
+  Description: "|p:Randomly| deal {Value1} damage to {PlayerName} and gain {FlandreValue2} |Firepower|, deal {FlandreDamage} damage to each enemy, or deal {Value1} damage to {PlayerName} and deal {FlandreDamage} damage to each enemy."
+  UpgradedDescription: "|p:Randomly| deal {Value1} damage to {PlayerName} and gain {FlandreValue2} |Firepower|, deal {FlandreDamage} damage to each enemy, or deal {Value1} damage to {PlayerName} and deal {FlandreDamage} damage to each enemy."
+  Name: Uncontrollable Bomb
+FlandreUnholySanctuary:
+  Description: "Gain {FlandreShield} |Barrier|.\n{PlayerName} takes half as much damage until the next turn.\nAt the start of {PlayerName}'s next turn, gain life equal to the amount of life lost last turn."
+  UpgradedDescription: "Gain {FlandreShield} |Barrier|.\n{PlayerName} takes half as much damage until the next turn.\nAt the start of {PlayerName}'s next turn, gain life equal to the amount of life lost last turn."
+  Name: Unholy Sanctuary
+FlandreUnstablePower:
+  Description: "{PlayerName}'s attacks deal between {Value1}% to {FlandreValue2}% damage.\nThis effect does not stack.\nGain {Value3} |Madness|."
+  UpgradedDescription: "{PlayerName}'s attacks deal between {Value1}% to {FlandreValue2}% damage.\nThis effect does not stack.\nGain {Value3} |Madness|."
+  Name: Unstable Power
+FlandreViolentSpread:
+  Description: "Deal {FlandreDamage} damage to a |p:random| enemy {FlandreValue1:plural one='% time' other='% times'}.\nGain {FlandreValue2} |Calamity|."
+  UpgradedDescription: "Deal {FlandreDamage} damage to a |p:random| enemy {FlandreValue1:plural one='% time' other='% times'}.\nGain {FlandreValue2} |Calamity|."
+  Name: Violent Spread
+FlandreWalpurgisNight:
+  Description: "Increase the maximum stack of |Ruin| to {Value1}.\nWhenever {PlayerName} deals attack damage, also apply half that much |Ruin|.\nThese effects does not stack."
+  UpgradedDescription: "Increase the maximum stack of |Ruin| to {Value1}.\nWhenever {PlayerName} deals attack damage, also apply half that much |Ruin|.\nThese effects does not stack.\nApply {FlandreValue2} |Ruin| to each enemy."
+  Name: Walpurgis Night
+FlandreWarmonger:
+  Description: "|When {SelfName} enters the hand|: Gain {FlandreValue1} |Temporary Firepower| and |Temporary Spirit| for each enemy. ({Amount})"
+  UpgradedDescription: "|When {SelfName} enters the hand|: Gain {FlandreValue1} |Temporary Firepower| and |Temporary Spirit| for each enemy. ({Amount})"
+  NonbattleDescription: "|When {SelfName} enters the hand|: Gain {FlandreValue1} |Temporary Firepower| and |Temporary Spirit| for each enemy."
+  UpgradedNonbattleDescription: "|When {SelfName} enters the hand|: Gain {FlandreValue1} |Temporary Firepower| and |Temporary Spirit| for each enemy."
+  Name: Warmonger
+FlandreWatchtheWorldBurn:
+  Description: "At the end of {PlayerName}'s turn, apply {FlandreValue1} |Hellfire| to each enemy."
+  UpgradedDescription: "At the end of {PlayerName}'s turn, apply {FlandreValue1} |Hellfire| to each enemy."
+  Name: Watch the World Burn
+FlandreWhitefire:
+  Description: "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.\n|Upgrade| all cards in the hand {FlandreValue2:plural one='% time' other='% times'} until the end of combat."
+  UpgradedDescription: "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.\n|Upgrade| all cards in the hand {FlandreValue2:plural one='% time' other='% times'} until the end of combat."
+  Name: Whitefire
+OkinaAFarawayFantasyLand:
+  Description: "Gain {Block} |Block|.\nGain {Value1} |Fall Energy|.\nIf {Value2} or less defense card{Value2:plural one=' was' other='s were'} played last turn, {SelfName} costs {Mana} to play."
+  UpgradedDescription: "Gain {Block} |Block|.\nGain {Value1} |Fall Energy|.\nIf {Value2} or less defense card{Value2:plural one=' was' other='s were'} played last turn, {SelfName} costs {Mana} to play."
+  Name: A Faraway Fantasy Land
+OkinaAnywhereDoor:
+  Description: "|Choose|: Put a card from the |battlefield| into the hand, or |Exile| a card from the |battlefield|.\nGain {Value1} |Winter Energy|."
+  UpgradedDescription: "|Choose|: Put a card from the |battlefield| into the hand, or |Exile| a card from the |battlefield|.\nGain {Value1} |Winter Energy|."
+  Name: Anywhere Door
+OkinaAprilWizard:
+  Description: "Draw {Value1:plural one='% card' other='% cards'}.\nGain {Value2} |Divine Favor|.\nGain {Value1} |Spring Energy|."
+  UpgradedDescription: "Draw {Value1:plural one='% card' other='% cards'}.\nGain {Value2} |Divine Favor|.\nGain {Value1} |Spring Energy|."
+  Name: April Wizard
+OkinaBackDoorofFastTravel:
+  Description: "Gain {Block} |Block|.\nChoose up to {Value1:plural one='% card' other='% cards'} from the draw pile and put it into the hand."
+  UpgradedDescription: "Gain {Block} |Block|.\nChoose up to {Value1:plural one='% card' other='% cards'} from the draw pile and put it into the hand."
+  Name: Back Door of Fast Travel
+OkinaBeginningofaNewArea:
+  Description: "Whenever a draw pile is shuffled, choose 2 of {Value1} |p:completely random| cards to add to the hand. {Value1:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana} and has |Exile| and |Ethereal|.\nGain {Value2} |Spring Energy|."
+  UpgradedDescription: "Whenever a draw pile is shuffled, choose 2 of {Value1} |p:completely random| cards to add to the hand. {Value1:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana} and has |Exile| and |Ethereal|.\nGain {Value2} |Spring Energy|."
+  Name: Beginning of a New Area
+OkinaBlackSnowman:
+  Description: "Gain {Block} |Block|.\nConvert {PlayerName}'s |Block| into |Barrier|.\nGain {Value1} |Winter Energy|."
+  UpgradedDescription: "Gain {Block} |Block|.\nConvert {PlayerName}'s |Block| into |Barrier|.\nGain {Value1} |Winter Energy|."
+  Name: Black Snowman
+OkinaCowardsMasterSpark:
+  Description: "Deal {Damage} damage to each enemy {Value1:plural one='% time' other='% times'}.\nGain {Value1} |Winter Energy|.\n|At the end of the turn|: If {Value2} or less attack card{Value2:plural one=' was' other='s were'} played this turn, play {SelfName}."
+  UpgradedDescription: "Deal {Damage} damage to each enemy {Value1:plural one='% time' other='% times'}.\nGain {Value1} |Winter Energy|.\n|At the end of the turn|: If {Value2} or less attack card{Value2:plural one=' was' other='s were'} played this turn, play {SelfName}."
+  Name: Coward's Master Spark
+OkinaCycleofLife:
+  Description: "Discard the leftmost card.\nReturn the bottom card of the discard pile into the top of the draw pile.\nPut the bottom card of the draw pile into the hand."
+  UpgradedDescription: "Discard the leftmost card.\nReturn the bottom card of the discard pile into the top of the draw pile.\nPut the bottom card of the draw pile into the hand.\nThey |temporarily cost| {Mana} less."
+  Name: Cycle of Life
+OkinaDieofFamine:
+  Description: "Deal {Damage} damage.\nApply {Value1} |Poison|.\nApply additional |Poison| equal to {PlayerName}'s |Firepower|.\nGain {Value1} |Fall Energy|."
+  UpgradedDescription: "Deal {Damage} damage.\nApply {Value1} |Poison|.\nApply additional |Poison| equal to {PlayerName}'s |Firepower|.\nGain {Value1} |Fall Energy|."
+  Name: Die of Famine
+OkinaDoorSurfing:
+  Description: "Gain {Block} |Block|.\nDeal {Damage} damage.\n{SelfName} is affected by |Divine Favor| {Value1} times."
+  UpgradedDescription: "Gain {Block} |Block|.\nDeal {Damage} damage.\n{SelfName} is affected by |Divine Favor| {Value1} times."
+  Name: Door Surfing
+OkinaEverlastingSummer:
+  Description: "Deal {Damage} damage to each enemy.\nAt the start of Okina's turn, deal {Damage} |Accurate| attack damage to each enemy.\n|Growth|: Costs {Mana} more until end of combat."
+  UpgradedDescription: "Deal {Damage} damage to each enemy.\nAt the start of Okina's turn, deal {Damage} |Accurate| attack damage to each enemy.\n|Growth|: Costs {Mana} more until end of combat."
+  Name: Everlasting Summer
+OkinaFireofEna:
+  Description: "Until {PlayerName}'s next turn, whenever {Mana} is spent, deal {Value1} |Accurate| attack damage to each enemy and gain {Value2} |Fall Energy|.\nGain {Mana2}."
+  UpgradedDescription: "Until {PlayerName}'s next turn, whenever {Mana} is spent, deal {Value1} |Accurate| attack damage to each enemy and gain {Value2} |Fall Energy|.\nGain {Mana2}."
+  Name: Fire of Ena
+OkinaHalooftheSecretGod:
+  Description: "Whenever {Mana} is spent, gain {Value1} |Barrier|."
+  UpgradedDescription: "Whenever {Mana} is spent, gain {Value1} |Barrier|."
+  Name: Halo of the Secret God
+OkinaHiddenBreezyCherryBlossom:
+  Description: "Gain {Mana}.\nUntil {PlayerName}'s next turn, whenever a skill card is played, gain {Value1} |Divine Favor|.\nIf {PlayerName} has 12 or more |Spring Energy|, enter |Spring Release|."
+  UpgradedDescription: "Gain {Mana}.\nUntil {PlayerName}'s next turn, whenever a skill card is played, gain {Value1} |Divine Favor|.\nIf {PlayerName} has 12 or more |Spring Energy|, enter |Spring Release|."
+  Name: Hidden Breezy Cherry Blossom
+OkinaHiddenCrazyFallWind:
+  Description: "Deal {Damage} damage to each enemy {Value1:plural one='% time' other='% times'}.\nGain {Value2} |Firepower|.\nIf {PlayerName} has 12 or more |Fall Energy|, enter |Fall Release|."
+  UpgradedDescription: "Deal {Damage} damage to each enemy {Value1:plural one='% time' other='% times'}.\nGain {Value2} |Firepower|.\nIf {PlayerName} has 12 or more |Fall Energy|, enter |Fall Release|."
+  Name: Hidden Crazy Fall Wind
+OkinaHiddenExtremeWinter:
+  Description: "Gain {Shield} |Barrier|.\nGain {Value1} |Spirit|.\nIf {SelfName} has 12 or more |Winter Energy|, enter |Winter Release|."
+  UpgradedDescription: "Gain {Shield} |Barrier|.\nGain {Value1} |Spirit|.\nIf {SelfName} has 12 or more |Winter Energy|, enter |Winter Release|."
+  Name: Hidden Extreme Winter
+OkinaHiddenPerfectSummerIce:
+  Description: "When {PlayerName} has 12 or more |Summer Energy|, enter |Summer Release|. This effect can only happen once per turn.\nGain {Value1} |Frost Armor|."
+  UpgradedDescription: "When {PlayerName} has 12 or more |Summer Energy|, enter |Summer Release|. This effect can only happen once per turn.\nGain {Value1} |Frost Armor|."
+  Name: Hidden Perfect Summer Ice
+OkinaKochSnowflake:
+  Description: "Deal {Damage} damage to each enemy.\nGain {Value1} |Winter Energy|.\nDraw {Value2:plural one='% card' other='% cards'}."
+  UpgradedDescription: "Deal {Damage} damage and apply |Cold| to each enemy.\nGain {Value1} |Winter Energy|.\nDraw {Value2:plural one='% card' other='% cards'}."
+  Name: Koch Snowflake
+OkinaKyogenoftheBackDoor:
+  Description: "|When {SelfName} enters the hand|: Gain {Shield} |Barrier| and {Value1} |Summer Energy|."
+  UpgradedDescription: "|When {SelfName} enters the hand|: Gain {Shield} |Barrier| and {Value1} |Summer Energy|."
+  Name: Kyogen of the Back Door
+OkinaManipulationofLifeEnergy:
+  Description: "|Choose|: Gain {Value1} life, or target loses {Value2} life.\nGain {Value3} |Summer Energy|.\nReturn {SelfName} to the hand.\n|After being played for the {Value4:ordinal one='%st' two='%nd' few='%rd' other='%th'} time|: Remove {SelfName} from combat."
+  UpgradedDescription: "|Choose|: Gain {Value1} life, or target loses {Value2} life.\nGain {Value3} |Summer Energy|.\nReturn {SelfName} to the hand.\n|After being played for the {Value4:ordinal one='%st' two='%nd' few='%rd' other='%th'} time|: Remove {SelfName} from combat."
+  ExtraDescription1: "Gain {Value1} life."
+  ExtraDescription2: "Target loses {Value2} life."
+  Name: Manipulation of Life Energy
+OkinaManipulationofMentalEnergy:
+  Description: "Apply {Value1} |Firepower Down| and |Spirit Down|.\nGain {Value2} |Summer Energy|."
+  UpgradedDescription: "Apply {Value1} |Firepower Down| and |Spirit Down|.\nGain {Value2} |Summer Energy|."
+  Name: Manipulation of Mental Energy
+OkinaMastermindBehindtheScenes:
+  Description: "Whenever an enemy gains a debuff, gain {Value1} |Barrier|.\nGain {Value2} |Spring Energy|."
+  UpgradedDescription: "Whenever an enemy gains a debuff, gain {Value1} |Barrier|.\nGain {Value2} |Spring Energy|."
+  Name: Mastermind Behind the Scenes
+OkinaRearShotsofBetrayal:
+  Description: "When {PlayerName} would take attack damage for the first time each turn, redirect that damage to a random enemy.\nGain {Value1} |Fall Energy|."
+  UpgradedDescription: "When {PlayerName} would take attack damage for the first time each turn, redirect that damage to a random enemy.\nGain {Value1} |Fall Energy|."
+  Name: Rear Shots of Betrayal
+OkinaSacrificetotheGod:
+  Description: "|Exile| a card from the hand.\nIf a card was |Exiled| this way, gain {Value1} |Firepower| and draw {Value2:plural one='% card' other='% cards'}."
+  UpgradedDescription: "|Exile| a card from the hand.\nIf a card was |Exiled| this way, gain {Value1} |Firepower| and draw {Value2:plural one='% card' other='% cards'}."
+  Name: Sacrifice to the God
+OkinaSageMeeting:
+  Description: "Gain {Block} |Block|.\nGain {Value1} |Divine Favor|."
+  UpgradedDescription: "Gain {Block} |Block|.\nGain {Value1} |Divine Favor|.\n|Debut|: Choose 1 of {Value2} |v:completely random| cards to add to the hand."
+  ExtraDescription1: "Gain {Block} |Block|.\nGain {Value1} |Divine Favor|.\n|d:Debut: Choose 1 of {Value2} |v:completely random| cards to add to the hand.|"
+  Name: Sage Meeting
+OkinaSarugakuofFireandIce:
+  Description: "Gain {Block} |Block|.\nGain {Value1} |Fall Energy|.\nThe next {Value2} red or blue card{Value1:plural one='' other='s'} played cost{Value1:plural one='s' other=''} {Mana} to play."
+  UpgradedDescription: "Gain {Block} |Block|.\nGain {Value1} |Fall Energy|.\nThe next {Value2} red or blue card{Value1:plural one='' other='s'} played cost{Value1:plural one='s' other=''} {Mana} to play."
+  Name: Sarugaku of Fire and Ice
+OkinaScorchByHotSummer:
+  Description: "At the start of {PlayerName}'s turn, gain {Value1} |Summer Energy|."
+  UpgradedDescription: "At the start of {PlayerName}'s turn, gain {Value1} |Summer Energy|."
+  Name: Scorch By Hot Summer
+OkinaSecretGodBarrier:
+  Description: "Gain {Block} |Block|.\nGain {Shield} |Barrier|.\nGain {Value1} |Spring Energy|."
+  UpgradedDescription: "Gain {Block} |Block|.\nGain {Shield} |Barrier|.\nGain {Value1} |Spring Energy|."
+  Name: Secret God Barrier
+OkinaSecretGodsBehindtheScenesDanmaku:
+  Description: "Whenever {PlayerName} gains |Block| or |Barrier|, also deal that much damage to each enemy.\nGain {Value1} |Winter Energy|."
+  UpgradedDescription: "Whenever {PlayerName} gains |Block| or |Barrier|, also deal that much damage to each enemy.\nGain {Value1} |Winter Energy|."
+  Name: Secret God's Behind-the-Scenes Danmaku
+OkinaSneakPhotographersExorcismfromtheBack:
+  Description: "Deal {Damage} damage {Value1:plural one='% time' other='% times'}.\nGain {Value2} |Amulet| and |Ward|.\nGain {Value1} |Spring Energy|.\nIf the target intends to apply debuffs or add status cards, repeat these effects."
+  UpgradedDescription: "Deal {Damage} damage {Value1:plural one='% time' other='% times'}.\nGain {Value2} |Amulet| and |Ward|.\nGain {Value1} |Spring Energy|.\nIf the target intends to apply debuffs or add status cards, repeat these effects."
+  Name: Sneak-Photographer's Exorcism from the Back
+OkinaSummerWars:
+  Description: "Gain {Block} |Block|.\nDeal {Damage} damage to each enemy.\nGain {Value1} |Summer Energy|.\nRepeat these effects for each enemy."
+  UpgradedDescription: "Gain {Block} |Block|.\nDeal {Damage} damage to each enemy.\nGain {Value1} |Summer Energy|.\nRepeat these effects for each enemy."
+  Name: Summer Wars
+OkinaThinkingwithPortals:
+  Description: "At the end of {PlayerName}'s turn, gain {Value1} |Barrier| for each card moved this turn."
+  UpgradedDescription: "At the end of {PlayerName}'s turn, gain {Value1} |Barrier| for each card moved this turn."
+  Name: Thinking with Portals
+  DetailText: "Drawn, discarded, and |Exiled| cards does not count."
+TestCard2:
+  Description: "Gain {Value1} life.\nGain additional life equal to the number of friends on Steam {PlayerName} has."
+  UpgradedDescription: "Gain {Value1} life.\nGain additional life equal to the number of friends on Steam {PlayerName} has."
+  Name: Power of Friendship
