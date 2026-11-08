@@ -28,9 +28,10 @@ namespace ExportModImgs.Exporters
             //{ "Utsuho", "zosit.lbol.test.utsuho" },
             //{ "YoumuMod", "rmrfmaxx.lbol.YoumuCharacterMod" },
             //{ "lvalonexrumia", "llbol.char.exrumia" },
-            { "ReimuUnifierMod", "Saevin.ReimuUnifierMod" },
+            //{ "ReimuUnifierMod", "Saevin.ReimuUnifierMod" },
+            { "AyaPlayerUnit", "intoxicatedkid.ayashameimaru" },
+            { "FlandrePlayerUnit", "intoxicatedkid.ayashameimaru" },
 
-            //{ "AyaPlayerUnit", "intoxicatedkid.ayashameimaru" },
             //{ "PKaguya", "aqing0601.PKaguya" },
 
             //"rmrfmaxxc.lbol.YuyukoCharacterMod",
