@@ -1,0 +1,4 @@
+﻿FlandreRuinSe:
+  Brief: '{OwnerName}의 체력이 |몰락|보다 적을 시, |파괴|됩니다.'
+  Description: '{OwnerName}의 체력이 {Level}보다 적을 시, |파괴|됩니다.'
+  Name: 몰락

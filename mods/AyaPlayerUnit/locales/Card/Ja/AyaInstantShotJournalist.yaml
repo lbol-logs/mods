@@ -1,0 +1,14 @@
+﻿AyaInstantShotJournalist:
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    |加速|{Value1}を得る。
+
+    {Value2}ターンの間、{PlayerName}は|加速|を失わない。
+  UpgradedDescription: >-
+    {Block}|ブロック|を得る。
+
+    |加速|{Value1}を得る。
+
+    {Value2}ターンの間、{PlayerName}は|加速|を失わない。
+  Name: 瞬撮ジャーナリスト

@@ -1,0 +1,4 @@
+﻿AyaMountainGodsProcessionSe:
+  Brief: 每当 {PlayerName} 获得 |加速| 时，获得 <sprite="ManaSprite" name="P">。
+  Description: 每当 {PlayerName} 获得 |加速| 时，获得 {Level} <sprite="ManaSprite" name="P">。
+  Name: 山神巡游

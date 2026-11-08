@@ -1,0 +1,4 @@
+﻿AyaOrbBlackDreamExpressSe:
+  Brief: 在 {OwnerName} 的回合结束时，|梦境| 一些牌，然后对 {PlayerName} 造成等于 |梦境| 牌总成本两倍的伤害。
+  Description: 在 {OwnerName} 的回合结束时，|梦境| {Level} 张牌，然后对 {PlayerName} 造成等于 {Level:plural one='总成本' other='总成本之和'} 两倍的伤害。
+  Name: 梦境快车

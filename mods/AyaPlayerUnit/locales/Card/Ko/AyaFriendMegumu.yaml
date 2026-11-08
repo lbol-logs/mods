@@ -1,0 +1,5 @@
+﻿AyaFriendMegumu:
+  Description: '{FriendP}|f:감시|: |액운| 또는 상태 카드가 |소멸|하면, {Mana}를 얻습니다.'
+  ExtraDescription1: '{FriendA}|a:착취|: 체력을 {Value1} 잃고, {Mana2}를 얻고 카드를 {Value2}장 뽑습니다. 이는 마지막 턴에 |소멸|한 |액운| 또는 상태 카드가 없을 때도 발동합니다.'
+  ExtraDescription3: '{FriendU}|u:홍광「광풍제월」|: 모든 적에게 피해를 {Damage2} 줍니다. |액운| 또는 상태 카드가 |소멸|할 때마다 {Mana3}를 얻고 카드를 {Value3}장 뽑습니다. |명중|'
+  Name: 메구무, 카라스텐구의 대장

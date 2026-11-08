@@ -1,0 +1,3 @@
+﻿AyaOrbRedIndiscriminateIgnitionSe:
+  Description: '{OwnerName}의 턴 종료 시, {PlayerName}에게 {Level} 피해를 줍니다. 또한, |불운| 또는 상태 카드가 뽑힐 때마다 이 효과가 발동됩니다.'
+  Name: 무차별 발화의 부적

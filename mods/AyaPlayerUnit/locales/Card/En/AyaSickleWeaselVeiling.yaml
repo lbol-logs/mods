@@ -1,0 +1,4 @@
+﻿AyaSickleWeaselVeiling:
+  Description: Whenever {PlayerName} takes 0 damage from attacks, deal {Value1} damage to the attacker.
+  UpgradedDescription: Whenever {PlayerName} takes 0 damage from attacks, deal {Value1} damage to the attacker.
+  Name: Sickle Weasel Veiling

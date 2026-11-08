@@ -1,0 +1,10 @@
+﻿FlandreCrystallizedSolitude:
+  Description: >-
+    {FlandreDamage}ダメージを与える。
+
+    |p:ランダム|で{FlandreShield}|バリア|または|グレイズ|{FlandreValue1}を得る。
+  UpgradedDescription: >-
+    {FlandreDamage}ダメージを与える。
+
+    |p:ランダム|で{FlandreShield}|バリア|または|グレイズ|{FlandreValue1}を得る。
+  Name: 孤独のクリスタル

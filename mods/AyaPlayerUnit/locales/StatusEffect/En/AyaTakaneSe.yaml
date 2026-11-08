@@ -1,0 +1,10 @@
+﻿AyaTakaneSe:
+  Brief: >-
+    {OwnerName} is really angry.
+
+    {OwnerName}'s maximum life is increased, and deals more damage.
+  Description: >-
+    {OwnerName} is really angry.
+
+    {OwnerName}'s maximum life is increased by {Value}%, and deals {Level}% more damage.
+  Name: Angry Shopkeeper

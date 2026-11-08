@@ -1,0 +1,14 @@
+﻿FlandreCrystallizedChaos:
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    随机施加 {Value1} |虚弱|、{Value1}|易伤|或 {Value2}|地狱火|。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害。
+
+    随机施加 {Value1} |虚弱|、{Value1}|易伤|或 {Value2}|地狱火|。
+  ExtraDescription1: >-
+    造成 {Damage} 点伤害。
+
+    施加 {Value1} |虚弱|、{Value1}|易伤|和 {Value2}|地狱火|。
+  Name: 混沌水晶

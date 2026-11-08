@@ -1,0 +1,14 @@
+﻿FlandreBloodisFuel:
+  Description: >-
+    ライフを{Value1}失う。
+
+    {FlandreMana}を得る。
+
+    次の{FlandreValue2:plural one='%ターン' other='%ターン'}の間、未使用のマナは失われない。
+  UpgradedDescription: >-
+    ライフを{Value1}失う。
+
+    {FlandreMana}を得る。
+
+    次の{FlandreValue2:plural one='%ターン' other='%ターン'}の間、未使用のマナは失われない。
+  Name: 血は燃料

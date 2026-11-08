@@ -1,0 +1,7 @@
+﻿AyaArmoredRavenSe:
+  Brief: '{PlayerName}のターン最初にプレイされるアタックカードと状態異常カードは２回プレイされる。'
+  Description: >-
+    {PlayerName}のターン最初にプレイされる{Limit}枚のアタックカードは2回プレイされる。(残り{Level})
+
+    {PlayerName}のターン最初にプレイされる{Limit}枚状態異常カードは2回プレイされる。(残り{Count})
+  Name: アーマードレイヴン

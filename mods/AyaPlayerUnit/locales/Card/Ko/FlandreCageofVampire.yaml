@@ -1,0 +1,10 @@
+﻿FlandreCageofVampire:
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |소멸될 시|: 모든 적에게 피해를 {Damage} 주고, |파멸|을 {Value1} 얻습니다.
+  UpgradedDescription: >-
+    피해를 {Damage} 줍니다.
+
+    |소멸될 시|: 모든 적에게 피해를 {Damage} 주고, |파멸|을 {Value1} 얻습니다
+  Name: 흡혈귀의 우리

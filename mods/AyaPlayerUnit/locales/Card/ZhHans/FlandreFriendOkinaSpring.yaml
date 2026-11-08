@@ -1,0 +1,6 @@
+﻿FlandreFriendOkinaSpring:
+  Description: '{FriendP}|f:萌育权能|: 每当你消耗{法力}时，将{Value1}张随机 |水晶+| 加入手牌。（剩余{Count}次）'
+  NonbattleDescription: '{FriendP}|f:萌育权能|: 每当消耗{Mana}时，将{Value1}张随机 |水晶+| 加入手牌。'
+  ExtraDescription1: '{FriendA}|a:季相解放|: 从{Value2}种 |季节| 中选择1种。 {SelfName} 获得其效果。'
+  ExtraDescription3: '{FriendU}|u:「里·吹拂樱花」|: 在{PlayerName}的回合开始时，恢复{Value3}点 |生命| ，并获得{Value3}点 |护身符| 与{Value3}点 |庇护| 。'
+  Name: 绝对秘神隐岐奈 - 春

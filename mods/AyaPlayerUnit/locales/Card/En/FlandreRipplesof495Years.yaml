@@ -1,0 +1,24 @@
+﻿FlandreRipplesof495Years:
+  Description: >-
+    {PlayerName} is immune to all debuffs.
+
+    Convert all mana {PlayerName} would gain this combat to <sprite="ManaSprite" name="P">.
+
+    Unspent mana isn't lost at the end of each turn.
+
+    All cards are played {FlandreValue1:plural one='% additional time' other='% additional times'}.
+
+    These effects does not stack.
+  UpgradedDescription: >-
+    {PlayerName} is immune to all debuffs.
+
+    Convert all mana {PlayerName} would gain this combat to <sprite="ManaSprite" name="P">.
+
+    Unspent mana isn't lost at the end of each turn.
+
+    All cards are played {FlandreValue1:plural one='% additional time' other='% additional times'}.
+
+    These effects does not stack.
+  Name: Ripples of 495 Years
+  Ripplesof495Years1Flandre: I just want to destroy something.
+  Ripplesof495Years2Flandre: Especially you!

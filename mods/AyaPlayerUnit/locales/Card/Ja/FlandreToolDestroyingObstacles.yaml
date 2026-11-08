@@ -1,0 +1,11 @@
+﻿FlandreToolDestroyingObstacles:
+  LockedDescription: フランドール・スカーレットでNormal以上の難易度で異変を解決するとアンロック。
+  Description: >-
+    ライブラリからカードを1枚除外する。
+
+    |消耗品【{DeckCounter}】|
+  Name: 障害排除
+  DetailText: >-
+    {SelfName}は戦闘中にランダム生成されず、複製もできない。
+
+    選択したカードはライブラリから除外されても、この戦闘中は除外されない。

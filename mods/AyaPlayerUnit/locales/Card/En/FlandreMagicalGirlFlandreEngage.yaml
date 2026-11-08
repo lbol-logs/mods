@@ -1,0 +1,35 @@
+﻿FlandreMagicalGirlFlandreEngage:
+  Description: >-
+    All |Magical Girl| cards can be |Upgraded| {Value1:plural one='% additional time' other='% additional times'}.
+
+    The maximum hand size becomes {Value2}.
+
+    Add a |Magical Slash|, |Magical Guard|, |Magical Technique|, and |Magical Potential| to the hand.
+
+    These effects does not stack.
+
+    Gain {Value3} |Amulet| and |Ward|.
+  UpgradedDescription: >-
+    All |Magical Girl| cards can be |Upgraded| {Value1:plural one='% additional time' other='% additional times'}.
+
+    The maximum hand size becomes {Value2}.
+
+    Add a |Magical Slash+{Value4}|, |Magical Guard+{Value4}|, |Magical Technique+{Value4}|, and |Magical Potential+{Value4}| to the hand.
+
+    These effects does not stack.
+
+    Gain {Value3} |Amulet| and |Ward|.
+  Name: Magical Girl Flandre Engage!
+  DetailText: These |e:alternate cards| ignore maximum hand size.
+  MagicalGirlFlandreEngage1Flandre: Magical girl {0}, engage!
+  MagicalGirlFlandreEngage2Flandre: With power of love and justice, I will defeat you!
+  MagicalGirlFlandreEngage3Flandre: Your ambition ends here! Magical girl {0} has arrived!
+  MagicalGirlFlandreEngage4Flandre: '...Do I really have to say this?'
+  MagicalGirlFlandreEngage5Flandre: "...Explain. Or I'll break your spine."
+  MagicalGirlFlandreEngage6Flandre: '...What does this have to do with solving the incident?'
+  MagicalGirlFlandreEngage7Okina: What's a magical girl without proper demeanor?
+  MagicalGirlFlandreEngage8Okina: It is important to take your identity as a magical girl seriously.
+  MagicalGirlFlandreEngage9Okina: I can gather more faith when you resolve the incident as a magical girl.
+  MagicalGirlFlandreEngage10Flandre: Go away.
+  MagicalGirlFlandreEngage11Flandre: You're weird.
+  MagicalGirlFlandreEngage12Flandre: You're enjoying this, aren't you?

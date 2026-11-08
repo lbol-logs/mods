@@ -1,0 +1,4 @@
+﻿FlandreSpellBreakCooldownSe:
+  Brief: '{OwnerName} is immune to |Spell Break| for a certain number of turns.'
+  Description: "{OwnerName} is immune to |Spell Break| {Duration:plural one='until end of turn' other='for the next % turns'}."
+  Name: Spell Break Cooldown

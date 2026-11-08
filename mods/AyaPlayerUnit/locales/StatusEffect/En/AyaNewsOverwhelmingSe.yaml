@@ -1,0 +1,4 @@
+﻿AyaNewsOverwhelmingSe:
+  Brief: Whenever a |Misfortune| or Status card that isn't |Copy| is |Exiled|, add a |Copy| of |Bunbunmaru Newspaper| to the hand. It |temporarily costs| {Mana}.
+  Description: Whenever a |Misfortune| or Status card that isn't |Copy| is |Exiled|, add {Level:plural one='% |Copy|' other='% |Copies|'} of |Bunbunmaru Newspaper{Level:plural one='' other='s'}| to the hand. {Level:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana}.
+  Name: News Overwhelming

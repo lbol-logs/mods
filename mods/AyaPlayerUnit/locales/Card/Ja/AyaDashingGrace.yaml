@@ -1,0 +1,6 @@
+﻿AyaDashingGrace:
+  Description: '{PlayerName}が持っている|加速|1点につき、敵全体に{Value2}ダメージを与える。({AccelerationDamage})'
+  UpgradedDescription: '{PlayerName}が持っている|加速|1点につき、敵全体に{Value2}ダメージを与える。({AccelerationDamage})'
+  NonbattleDescription: '{PlayerName}が持っている|加速|1点につき、敵全体に{Value2}ダメージを与える。'
+  UpgradedNonbattleDescription: '{PlayerName}が持っている|加速|1点につき、敵全体に{Value2}ダメージを与える。'
+  Name: 疾走優美

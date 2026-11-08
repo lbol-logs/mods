@@ -1,0 +1,4 @@
+﻿AyaToolCrowsEggSe:
+  Brief: '{PlayerName}のターン開始時ライフを回復して|臨時火力|を得る。|カラスの卵|を1減らす。'
+  Description: '{PlayerName}のターン開始時ライフを{Duration}回復して|臨時火力|{Duration}を得る。|カラスの卵|を1減らす。'
+  Name: カラスの卵

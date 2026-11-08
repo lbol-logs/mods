@@ -1,0 +1,14 @@
+﻿FlandreScaryLittleSister:
+  Description: >-
+    Gain {FlandreBlock} |Block|.
+
+    Apply {FlandreValue1} |Weak| to each enemy.
+
+    |When Exiled|: Gain {FlandreMana} and draw {FlandreValue2:plural one='% card' other='% cards'}.
+  UpgradedDescription: >-
+    Gain {FlandreBlock} |Block|.
+
+    Apply {FlandreValue1} |Weak| to each enemy.
+
+    |When Exiled|: Gain {FlandreMana} and draw {FlandreValue2:plural one='% card' other='% cards'}.
+  Name: Scary Little Sister

@@ -1,0 +1,10 @@
+﻿FlandreRecklessBullet:
+  Description: >-
+    造成 |{Damage}| 点 |伤害| |{Value1}| 次。
+
+    将 |{Value2}| 张随机 |水晶| 加入手牌。
+  UpgradedDescription: >-
+    造成 |{Damage}| 点 |伤害| |{Value1}| 次。
+
+    将 |{Value2}| 张随机 |水晶+| 加入手牌。
+  Name: 狂飙弹幕

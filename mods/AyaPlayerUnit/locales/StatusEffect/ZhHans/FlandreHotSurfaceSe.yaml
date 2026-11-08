@@ -1,0 +1,4 @@
+﻿FlandreHotSurfaceSe:
+  Brief: 直到 {PlayerName} 的下一个回合，每当 {PlayerName} 受到攻击伤害时，对攻击者施加 |地狱火|。
+  Description: 直到 {PlayerName} 的下一个回合，每当 {PlayerName} 受到攻击伤害时，对攻击者施加 {Value} |地狱火|。
+  Name: 炽热表面

@@ -1,0 +1,4 @@
+﻿AyaOrbGreenMorphMan:
+  Description: '{Value1} <sprite="Point" name="Power">를 잃습니다.'
+  UpgradedDescription: '{Value1} <sprite="Point" name="Power">를 잃습니다.'
+  Name: 인간의 형상

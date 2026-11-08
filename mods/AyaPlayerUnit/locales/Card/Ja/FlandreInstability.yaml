@@ -1,0 +1,37 @@
+﻿FlandreInstability:
+  Description: >-
+    {SelfName}の効果は各ラウンド開始時に|p:ランダム|で決定される。
+
+    |平均効果量|：|e:{AmountF}|。
+  InstabilityBlock: '{BlockValue}|ブロック|を得る。'
+  InstabilityBarrier: '{ShieldValue}|バリア|。'
+  InstabilityMana: '{ManaValue}を得る。'
+  InstabilityScry: '|占術|{ScryValue}。'
+  InstabilityDream: '|夢見|{DreamValue}.'
+  InstabilityCleanse: '{PlayerName}からすべてのデバフを取り除く。'
+  InstabilityHeal: ライフを{HealValue}得る。
+  InstabilityGold: '{GoldValue} <sprite="Point" name="Gold">を得る。'
+  InstabilityPower: Gain {PowerValue} <sprite="Point" name="Power">を得る。
+  InstabilityUpgrade: 戦闘終了まですべてのカードを|アップグレード|する。
+  InstabilityDamage1: '{DamageValue}ダメージを与える。'
+  InstabilityDamage2: 敵全体に{DamageValue}ダメージを与える。
+  InstabilityDamage3: ランダムな敵に{DamageValue}ダメージを与える
+  InstabilityAdd1: 手札に|{Add}|を{AddValue1}枚加える。その|臨時コスト|は{AddManaValue}で、|廃棄|と|虚無|を持つ。
+  InstabilityAdd2: 手札にランダムなカードを{AddValue1}枚加える。 その|臨時コスト|は{AddManaValue}で、|廃棄|と|虚無|を持つ。
+  InstabilityAdd3: ランダムなカード{AddValue2}枚から{AddValue1}枚を選び手札に加える。その|臨時コスト|は{AddManaValue}で、|廃棄|と|虚無|を持つ。
+  InstabilityDraw1: カードを{DrawValue}枚引く。
+  InstabilityDraw2: 手札がいっぱいになるまでカードを引く。
+  InstabilityDiscard1: 最大{DiscardValue}枚までのカードを捨てる。
+  InstabilityDiscard2: 手札のカードを全部捨てる。
+  InstabilityExile1: 手札、山札、捨て札から最大{ExileValue}枚までのカードを|廃棄|する。
+  InstabilityExile2: 手札のカードをすべて|廃棄|する。
+  InstabilityMove1: 山札から最大{MoveValue}枚のカードを選び、手札に加える。
+  InstabilityMove2: 捨て札から最大{MoveValue}枚のカードを選び、手札に加える。
+  InstabilityRetain1: 手札から最大{RetainValue}枚のカードを選ぶ。このターンそれらを|保留|する。
+  InstabilityRetain2: このターン手札を|保留|する
+  InstabilityBuff1: '|{Buff1}|{BuffValue1}を得る。'
+  InstabilityBuff2: '|{Buff1}|{BuffValue1}と|{Buff2}|{BuffValue2}を得る。'
+  InstabilityDebuff1: '|{Debuff}|{DebuffValue}を与える。'
+  InstabilityDebuff2: 敵全体に|{Debuff}|{DebuffValue}を与える。
+  Name: 感情の起伏
+  DetailText: '{SelfName}は戦闘中にランダムに生成されない。コピーもできない。'

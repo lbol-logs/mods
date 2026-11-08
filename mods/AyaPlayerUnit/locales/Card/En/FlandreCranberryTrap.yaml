@@ -1,0 +1,4 @@
+﻿FlandreCranberryTrap:
+  Description: At the end of {PlayerName}'s turn, deal {FlandreValue1} damage to each enemy for each status effect applied this turn.
+  UpgradedDescription: At the end of {PlayerName}'s turn, deal {FlandreValue1} damage to each enemy for each status effect applied this turn.
+  Name: Cranberry Trap

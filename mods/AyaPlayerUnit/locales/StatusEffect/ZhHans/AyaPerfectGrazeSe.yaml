@@ -1,0 +1,10 @@
+﻿AyaPerfectGrazeSe:
+  Brief: >-
+    {OwnerName} 从 |精准| 攻击中受到 0 点伤害。
+
+    当受到 |精准| 攻击时，失去 1 点 |完美闪避|。
+  Description: >-
+    {OwnerName} 从接下来的 {Level:plural one='% 次 |精准| 攻击' other='% 次 |精准| 攻击'} 中受到 0 点伤害。
+
+    当受到 |精准| 攻击时，失去 1 点 |完美闪避|。
+  Name: 完美闪避

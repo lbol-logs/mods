@@ -1,0 +1,23 @@
+﻿AyaTengusDrumbeats:
+  Description: >-
+    모든 적에게 피해를 {Damage} 줍니다.
+
+    |일시 화력|을 {Value1} 얻습니다.
+
+    |감속 {Value1}|:{PlayerName}의 다음 턴 시작시, 모든 적에게 피해를 {Damage} 주고 |일시 화력|을 {Value1} 얻습니다.
+  UpgradedDescription: >-
+    모든 적에게 피해를 {Damage} 줍니다.
+
+    |일시 화력|을 {Value1} 얻습니다.
+
+    |감속 {Value1}|:{PlayerName}의 다음 턴 시작시, 모든 적에게 피해를 {Damage} 주고 |일시 화력|을 {Value1} 얻습니다.
+  PhantasmModeDescription: >-
+    모든 적에게 피해를 {Damage} 줍니다.
+
+    |감속 {Value1}|: {PlayerName}의 다음 턴 시작시, 모든 적에게 피해를 {Damage} 주고 |일시 화력|을 {Value1} 얻습니다.
+  PhantasmModeUpgradedDescription: >-
+    모든 적에게 피해를 {Damage} 줍니다.
+
+    |감속 {Value1}|: {PlayerName}의 다음 턴 시작시, 모든 적에게 피해를 {Damage} 주고 |일시 화력|을 {Value1} 얻습니다.
+  Name: 텐구의 북소리
+  FlavorText: 아야 더 락!

@@ -1,0 +1,10 @@
+﻿FlandreCrystallization:
+  Description: >-
+    |放逐|一张手牌。
+
+    将一张随机的 |水晶| 加入手牌。
+  UpgradedDescription: >-
+    |放逐|最多 {Value1:plural one='% 张牌' other='% 张牌'}。
+
+    将一张随机的 |水晶+| 加入手牌。
+  Name: 结晶化

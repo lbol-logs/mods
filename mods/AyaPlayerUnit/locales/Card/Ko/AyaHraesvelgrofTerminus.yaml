@@ -1,0 +1,5 @@
+﻿AyaHraesvelgrofTerminus:
+  Description: 모든 적의 |방어|, |보호막|, 버프는 {PlayerName}의 다음 턴까지 무효됩니다.
+  UpgradedDescription: 모든 적의 |방어|, |보호막|, 버프는 {PlayerName}의 다음 턴까지 무효됩니다.
+  Name: 경계의 흐레스벨그
+  DetailText: '{SelfName}은 전투중 생성되지 않고, 복사되지 않습니다.'

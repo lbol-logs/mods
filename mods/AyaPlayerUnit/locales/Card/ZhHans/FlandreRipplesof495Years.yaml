@@ -1,0 +1,27 @@
+﻿FlandreRipplesof495Years:
+  Description: >-
+    {PlayerName}免疫所有负面状态。
+
+    将本场战斗中获得的所有法力值转换为 <sprite="ManaSprite" name="P">。
+
+    每当打出卡牌时，获得等于该卡消耗的法力值。
+
+    所有卡牌均被打出两次。
+
+    |消耗品【{ToolPlayableTimes}】|
+  UpgradedDescription: >-
+    {PlayerName}免疫所有负面状态。
+
+    将本场战斗中获得的所有法力值转换为 <sprite="ManaSprite" name="P">。
+
+    每当打出卡牌时，获得等于该卡消耗的法力值。
+
+    所有卡牌均被打出两次。
+
+    |消耗品【{ToolPlayableTimes}】|
+  PhantasmModeDescription: 本卡被幻境模式禁用。
+  PhantasmModeUpgradedDescription: 本卡被幻境模式禁用。
+  Name: 495年的涟漪
+  DetailText: 本卡不会在战斗中随机生成，也无法被复制。
+  Ripplesof495Years1Flandre: 我好想拆点什么。
+  Ripplesof495Years2Flandre: 特别是你！

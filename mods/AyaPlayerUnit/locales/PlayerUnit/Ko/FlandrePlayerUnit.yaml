@@ -1,0 +1,26 @@
+﻿FlandrePlayerUnit:
+  Title: 붉은 혈액의 악마
+  HomeName: 홍마관
+  FlandreSelect: 선택
+  FlandreMadnessDescription: >-
+    {0}는 |광기| 1당 피해를 {1}% 더 줍니다. ({2}%)
+
+    카드를 사용할 때마다, {3} |광기|당 {1}% 확률로 손에 있는 무작위 공격 카드를 사용하고 무작위 마나를 잃습니다. ({4}%)
+
+    {0}가 |광기| {5} 이상일 경우, 전투 시작 시 손에 |파괴 충동|을 1장 추가합니다.
+
+    {0}가 |광기| {6} 이상일 경우, 이벤트, 상점, 균열을 이용할 수 없습니다.
+
+    {0}가 레벨업할 때마다 |광기| {3}을 잃습니다.
+  FlandreMadnessName: 광기
+  FlandreExtraBoss1SukusukuAya: >-
+    스쿠?
+
+    (파괴할 무언가를 찾고 있는 거야?)
+  FlandreTakane1Takane: 윽, 또 너야!?
+  FlandreTakane2Takane: 가게 문 닫았어! 저리 가!
+  FlandreTakane3Takane: 팔 것도 없어!
+  FlandreTakane4Flandre: …
+  FlandreTakane5Takane: '*콜록*'
+  FlandreTakane6Takane: 아니, 어서 오세요!
+  FlandreTakane7Takane: 당연히 농담이었지! 하하하!

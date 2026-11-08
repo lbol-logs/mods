@@ -1,0 +1,4 @@
+﻿FlandreHellonEarthSe:
+  Brief: 当 |地狱火| 触发时，它会额外触发多次。
+  Description: 当 |地狱火| 触发时，它会额外触发 {Level} 次{Level:plural one='' other=''}。
+  Name: 人间地狱

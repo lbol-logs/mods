@@ -1,0 +1,10 @@
+﻿FlandreViolentSpread:
+  Description: >-
+    Deal {FlandreDamage} damage to a |p:random| enemy {FlandreValue1:plural one='% time' other='% times'}.
+
+    Gain {FlandreValue2} |Calamity|.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage to a |p:random| enemy {FlandreValue1:plural one='% time' other='% times'}.
+
+    Gain {FlandreValue2} |Calamity|.
+  Name: Violent Spread

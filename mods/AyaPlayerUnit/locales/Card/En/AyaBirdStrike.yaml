@@ -1,0 +1,22 @@
+﻿AyaBirdStrike:
+  Description: >-
+    Deal {Damage} damage.
+
+    {SelfName} deals {Value1} more damage for each |Acceleration| {PlayerName} has.
+  UpgradedDescription: >-
+    Deal {Damage} damage.
+
+    {SelfName} deals {Value1} more damage for each |Acceleration| {PlayerName} has.
+  PhantasmModeDescription: >-
+    Deal {Damage} damage.
+
+    {SelfName} deals {Value1} more damage for each |Acceleration| {PlayerName} has.
+
+    Take damage equal to {PlayerName}'s |Acceleration|.
+  PhantasmModeUpgradedDescription: >-
+    Deal {Damage} damage.
+
+    {SelfName} deals {Value1} more damage for each |Acceleration| {PlayerName} has.
+
+    Take damage equal to {PlayerName}'s |Acceleration|.
+  Name: Bird Strike

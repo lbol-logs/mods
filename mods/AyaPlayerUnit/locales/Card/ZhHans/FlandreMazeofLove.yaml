@@ -1,0 +1,14 @@
+﻿FlandreMazeofLove:
+  Description: >-
+    获得 {Shield} 点|护盾|。
+
+    造成 {Damage} 点伤害并对所有敌人施加 {Value1} 点|暂失火力|。
+
+    于{PlayerName}下一回合开始时，对所有敌人施加 {Value1} 点|暂失火力|。
+  UpgradedDescription: >-
+    获得 {Shield} 点|护盾|。
+
+    造成 {Damage} 点伤害并对所有敌人施加 {Value1} 点|暂失火力|。
+
+    于{PlayerName}下一回合开始时，对所有敌人施加 {Value1} 点|暂失火力|。
+  Name: 恋之迷宫

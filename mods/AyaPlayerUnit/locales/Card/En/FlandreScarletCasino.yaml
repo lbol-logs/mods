@@ -1,0 +1,35 @@
+﻿FlandreScarletCasino:
+  Description: >-
+    For every {Value1} |p:random| effect |Flandre| cards activated, gain {Value2} of {Value1} random effects:
+
+    All cards cost {Amount1} less this turn.
+
+    The next {Amount2:plural one='% card is' other='% cards are'} played {Value2:plural one='% additional time' other='% additional times'}.
+
+    Prevent the next {Amount3:plural one='% time' other='% times'} {PlayerName} would lose life.
+
+    |Upgrade| {Amount4} random card{Amount4:plural one='' other='s'} in the |battlefield| {Value4:plural one='% time' other='% times'}.
+
+    Gain {Amount5}.
+
+    Gain {Amount6} <sprite="Point" name="Gold">.
+  UpgradedDescription: >-
+    For every {Value1} |p:random| effect |Flandre| cards activated, gain {Value2} of {Value1} random effects:
+
+    All cards cost {Amount1} less this turn.
+
+    The next {Amount2:plural one='% card is' other='% cards are'} played {Value2:plural one='% additional time' other='% additional times'}.
+
+    Prevent the next {Amount3:plural one='% time' other='% times'} {PlayerName} would lose life.
+
+    |Upgrade| {Amount4} random card{Amount4:plural one='' other='s'} in the |battlefield| {Value4:plural one='% time' other='% times'}.
+
+    Gain {Amount5}.
+
+    Gain {Amount6} <sprite="Point" name="Gold">.
+
+    Trigger {SelfName} once.
+  Name: Scarlet Casino
+  DetailText: '{SelfName} cannot be randomly generated in combat, and cannot be copied.'
+  ScarletCasino1Flandre: I invite you to Scarlet Casino!
+  ScarletCasino2Flandre: The stakes are your soul!

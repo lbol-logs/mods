@@ -1,0 +1,14 @@
+﻿FlandreCrystallineOutburst:
+  Description: >-
+    |파편|이 발동할 때, 그 효과를 모두 발동합니다.
+
+    |파편화된 광기|는 무작위 마나 대신 <sprite="ManaSprite" name="P">를 제공합니다.
+
+    |파편화된 광기|를 {Value1}장 손에 추가합니다.
+  UpgradedDescription: >-
+    |파편|이 발동할 때, 그 효과를 모두 발동합니다.
+
+    |파편화된 광기|는 무작위 마나 대신 <sprite="ManaSprite" name="P">를 제공합니다.
+
+    |파편화된 광기|를 {Value1}장 손에 추가합니다.
+  Name: 파편 폭발

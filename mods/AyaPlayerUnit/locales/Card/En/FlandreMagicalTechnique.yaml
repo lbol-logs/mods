@@ -1,0 +1,18 @@
+﻿FlandreMagicalTechnique:
+  Description: >-
+    Choose up to {FlandreValue1} of {FlandreValue2} |p:random| Common card{FlandreValue2:plural one='' other='s'} to play it.
+
+    Return {SelfName} to the hand.
+
+    {SelfName} costs {Mana} more this turn.
+  UpgradedDescription: >-
+    Choose up to {FlandreValue1} of {FlandreValue2} |p:random| Common card{FlandreValue2:plural one='' other='s'} to play it.
+
+    Return {SelfName} to the hand.
+
+    {SelfName} costs {Mana} more this turn.
+  Name: Magical Technique
+  DetailText: >-
+    |p:{SelfName} never leaves the hand under any circumstances.|
+
+    {SelfName} is always the {Order:ordinal one='%st' two='%nd' few='%rd' other='%th'} card in the hand.

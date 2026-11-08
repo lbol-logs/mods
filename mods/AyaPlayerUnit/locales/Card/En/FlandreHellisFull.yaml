@@ -1,0 +1,14 @@
+﻿FlandreHellisFull:
+  Description: >-
+    Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.
+
+    {SelfName} deals {FlandreValue2} more damage for each enemy defeated this run.
+
+    Gain {Value3} |Madness|.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.
+
+    {SelfName} deals {FlandreValue2} more damage for each enemy defeated this run.
+
+    Gain {Value3} |Madness|.
+  Name: Hell is Full

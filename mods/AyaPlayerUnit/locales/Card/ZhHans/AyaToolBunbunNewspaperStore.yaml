@@ -1,0 +1,7 @@
+﻿AyaToolBunbunNewspaperStore:
+  LockedDescription: 通过使用射命丸文在困难模式或更高难度下解决事件解锁。
+  Description: >-
+    选择 1 张 {Value1} |文| 卡牌加入手牌。它 |消耗| {Mana}。
+
+    |限制【{DeckCounter}】|
+  Name: 文文新闻店

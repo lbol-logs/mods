@@ -1,0 +1,10 @@
+﻿FlandreCrystallizedLunacy:
+  Description: >-
+    Deal {FlandreDamage} damage.
+
+    Gain {FlandreValue1} |p:random| mana.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage.
+
+    Gain {FlandreValue1} |p:random| mana.
+  Name: Crystallized Lunacy

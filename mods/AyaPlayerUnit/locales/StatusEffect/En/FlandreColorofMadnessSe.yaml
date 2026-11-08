@@ -1,0 +1,4 @@
+﻿FlandreColorofMadnessSe:
+  Brief: Whenever an attack card is activated, play random |Crystals|.
+  Description: Whenever an attack card is activated, play {Level} random {Level:plural one='|Crystal|' other='|Crystals|'}.
+  Name: Color of Madness

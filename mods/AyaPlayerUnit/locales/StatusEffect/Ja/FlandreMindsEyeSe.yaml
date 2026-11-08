@@ -1,0 +1,4 @@
+﻿FlandreMindsEyeSe:
+  Brief: '{PlayerName}が次に攻撃ダメージを与える、または受ける時、与えるダメージを2倍にするか、受けるダメージを半分にする。'
+  Description: '{PlayerName}が次に{Level}回、攻撃ダメージを与える、または受ける時、与えるダメージを2倍にするか、受けるダメージを半分にする。'
+  Name: 心眼

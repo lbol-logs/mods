@@ -1,0 +1,10 @@
+﻿FlandreCrystalBullet:
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    将 {Value1} 个随机的 {Value1:plural one='|水晶|' other='|水晶|'} 加入手牌。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害。
+
+    将 {Value1} 个随机的 {Value1:plural one='|水晶|' other='|水晶|'} 加入手牌。
+  Name: 水晶弹幕

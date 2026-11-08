@@ -1,0 +1,4 @@
+﻿AyaInstantShotJournalistSe:
+  Brief: '{PlayerName}가 몇턴동안 |가속|을 잃지 않습니다.'
+  Description: '{PlayerName}가 {Duration}턴동안 |가속|을 잃지 않습니다.'
+  Name: 인스턴트 샷 저널리스트

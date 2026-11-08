@@ -1,0 +1,14 @@
+﻿FlandreMazeofLove:
+  Description: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    모든 적에게 피해를 {Damage} 주고 |일시 화력 저하|를 {Value1} 줍니다.
+
+    {PlayerName}의 다음 턴 시작시, 모든 적에게 |일시 화력 저하|를 {Value1} 줍니다.
+  UpgradedDescription: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    모든 적에게 피해를 {Damage} 주고 |일시 화력 저하|를 {Value1} 줍니다.
+
+    {PlayerName}의 다음 턴 시작시, 모든 적에게 |일시 화력 저하|를 {Value1} 줍니다.
+  Name: 사랑의 미로

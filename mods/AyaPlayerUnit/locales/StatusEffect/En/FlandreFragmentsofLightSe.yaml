@@ -1,0 +1,4 @@
+﻿FlandreFragmentsofLightSe:
+  Brief: At the start of {PlayerName}'s turn, add random |Crystals| to the hand.
+  Description: At the start of {PlayerName}'s turn, add {Level} random |Crystal{Level:plural one='' other='s'}| to the hand.
+  Name: Fragments of Light

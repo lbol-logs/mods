@@ -1,0 +1,4 @@
+﻿FlandreMPPhantomPainSe:
+  Brief: '{PlayerName}の次のターンまで、いずれかのプレイヤーが攻撃カードを使用するたび、{OwnerName}はダメージを受ける。'
+  Description: '{PlayerName}の次のターンまで、いずれかのプレイヤーが攻撃カードを使用するたび、{OwnerName}は{Level}ダメージを受ける。'
+  Name: ファントムペイン

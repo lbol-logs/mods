@@ -1,0 +1,8 @@
+﻿FlandreClockthatTicksAwaythePastSe:
+  Brief: Skip the card drawing phase of turn starting, return topmost cards from the discard pile to the hand instead.
+  Description: Skip the card drawing phase of turn starting, return {Limit} topmost cards from the discard pile to the hand instead.
+  ExtraDescription: >-
+    Skip the card drawing phase of turn starting, return {Limit} topmost cards from the discard pile to the hand instead.
+
+    {SelfName} is inactive and will only be removed after it resolves.
+  Name: Clock that Ticks Away the Past

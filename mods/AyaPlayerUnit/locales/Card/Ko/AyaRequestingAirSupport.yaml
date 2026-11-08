@@ -1,0 +1,4 @@
+﻿AyaRequestingAirSupport:
+  Description: '|무인 항공 까마귀|를 손에 {Value1}장 소환합니다.'
+  UpgradedDescription: '|무인 항공 까마귀|를 손에 {Value1}장 소환합니다.'
+  Name: 항공 지원 요청

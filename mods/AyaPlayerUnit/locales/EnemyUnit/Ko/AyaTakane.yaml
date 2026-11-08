@@ -1,0 +1,17 @@
+﻿AyaTakane:
+  Title: 산 속의 비즈니스 요괴
+  Move:
+  - Y60 기관총
+  - Y202 플래시
+  - 야마와로 폭격기
+  - Y95 약탈
+  - 구급상자
+  - 탄화
+  - 능력 카드 대방출
+  AyaTakaneAttack: 정말로 {0}를 공격하시겠습니까?
+  AyaTakaneIntro1Takane: 멈춰, 도둑!
+  AyaTakaneIntro2Takane: 그렇게는 안 돼!
+  AyaTakaneIntro3Takane: 혼쭐을 내줘야겠군!
+  AyaTakaneSteal1: 전리품
+  AyaTakaneSteal2: 강화할 카드를 선택하세요.
+  AyaTakaneSteal3: 제거할 카드를 선택하세요.

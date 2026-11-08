@@ -1,0 +1,18 @@
+﻿FlandreNoMercy:
+  Description: >-
+    Gain {FlandreBlock} |Block|.
+
+    Put the {FlandreValue1} topmost attack card{FlandreValue1:plural one='' other='s'} from the draw pile into the hand.
+
+    The next {FlandreValue2} attack card{FlandreValue2:plural one='' other='s'} played cost{FlandreValue2:plural one='s' other=''} {Mana} to play.
+
+    Gain {Value3} |Madness|.
+  UpgradedDescription: >-
+    Gain {FlandreBlock} |Block|.
+
+    Put the {FlandreValue1} topmost attack card{FlandreValue1:plural one='' other='s'} from the draw pile into the hand.
+
+    The next {FlandreValue2} attack card{FlandreValue2:plural one='' other='s'} played cost{FlandreValue2:plural one='s' other=''} {Mana} to play.
+
+    Gain {Value3} |Madness|.
+  Name: No Mercy

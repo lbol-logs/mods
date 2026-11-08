@@ -1,0 +1,11 @@
+﻿FlandreIgnitingSnap:
+  Description: 대상의 |지옥불|을 발동시킵니다.
+  UpgradedDescription: >-
+    |선보임|: |유황불|을 {Value1} 줍니다.
+
+    대상의 |지옥불|을 발동시킵니다.
+  ExtraDescription1: >-
+    |d:선보임: 유황불 {Value1} 줍니다.|
+
+    대상의 |지옥불|을 발동시킵니다.
+  Name: 점화의 손길

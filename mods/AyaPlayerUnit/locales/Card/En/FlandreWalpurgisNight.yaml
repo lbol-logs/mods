@@ -1,0 +1,16 @@
+﻿FlandreWalpurgisNight:
+  Description: >-
+    Increase the maximum stack of |Ruin| to {Value1}.
+
+    Whenever {PlayerName} deals attack damage, also apply half that much |Ruin|.
+
+    These effects does not stack.
+  UpgradedDescription: >-
+    Increase the maximum stack of |Ruin| to {Value1}.
+
+    Whenever {PlayerName} deals attack damage, also apply half that much |Ruin|.
+
+    These effects does not stack.
+
+    Apply {FlandreValue2} |Ruin| to each enemy.
+  Name: Walpurgis Night

@@ -1,0 +1,4 @@
+﻿AyaHraesvelgrofTerminusSe:
+  Brief: 모든 적의 |방어|, |보호막|, 버프는 몇턴동안 무효됩니다.
+  Description: 모든 적의 |방어|, |보호막|, 버프는 {Duration} 턴동안 무효됩니다.
+  Name: 경계의 흐레스벨그

@@ -1,0 +1,26 @@
+﻿FlandreForbiddenFruit:
+  Description: >-
+    |供物|{Value1}。
+
+    {FlandreShield}|バリア|を得る。
+
+    |ライフ|{FlandreValue2}を得る。
+
+    <sprite="Point" name="Gold">{Value3}を得る。
+
+    <sprite="Point" name="Power">{Value4}を得る。
+
+    |p:ランダム|な|クリスタル|{Value5}枚を手札に加える。
+  UpgradedDescription: >-
+    |供物|{Value1}。
+
+    {FlandreShield}|バリア|を得る。
+
+    |ライフ|{FlandreValue2}を得る。
+
+    <sprite="Point" name="Gold">{Value3}を得る。
+
+    <sprite="Point" name="Power">{Value4}を得る。
+
+    |p:ランダム|な|クリスタル|{Value5}枚+{Value6}を手札に加える。
+  Name: 禁断の果実

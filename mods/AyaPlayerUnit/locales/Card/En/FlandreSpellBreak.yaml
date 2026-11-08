@@ -1,0 +1,14 @@
+﻿FlandreSpellBreak:
+  Description: >-
+    Deal {FlandreValue1} damage.
+
+    The target cannot act for {Value2:plural one='% turn' other='% turns'}.
+
+    The target is immune to |Spell Break| for {Value3:plural one='% turn' other='% turns'}.
+  UpgradedDescription: >-
+    Deal {FlandreValue1} damage.
+
+    The target cannot act for {Value2:plural one='% turn' other='% turns'}.
+
+    The target is immune to |Spell Break| for {Value3:plural one='% turn' other='% turns'}.
+  Name: Spell Break

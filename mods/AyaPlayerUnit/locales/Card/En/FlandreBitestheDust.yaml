@@ -1,0 +1,43 @@
+﻿FlandreBitestheDust:
+  Description: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Gain {FlandreValue1} |Static Charge|.
+
+    Gain {Value2} |Madness|.
+
+    If {PlayerName}'s life is {Value3}% or less during non-boss combat, restart the current level. ({Amount})
+
+    Then, at the start of {PlayerName}'s first turn, |Destroy| all enemies, gain {Value4} |Madness|, and remove {SelfName} from combat and the library.
+  UpgradedDescription: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Gain {FlandreValue1} |Static Charge|.
+
+    Gain {Value2} |Madness|.
+
+    If {PlayerName}'s life is {Value3}% or less during non-boss combat, restart the current level. ({Amount})
+
+    Then, at the start of {PlayerName}'s first turn, |Destroy| all enemies, gain {Value4} |Madness|, and remove {SelfName} from combat and the library.
+  NonbattleDescription: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Gain {FlandreValue1} |Static Charge|.
+
+    Gain {Value2} |Madness|.
+
+    If {PlayerName}'s life is {Value3}% or less during non-boss combat, restart the current level.
+
+    Then, at the start of {PlayerName}'s first turn, |Destroy| all enemies, gain {Value4} |Madness|, and remove {SelfName} from combat and the library.
+  UpgradedNonbattleDescription: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Gain {FlandreValue1} |Static Charge|.
+
+    Gain {Value2} |Madness|.
+
+    If {PlayerName}'s life is {Value3}% or less during non-boss combat, restart the current level.
+
+    Then, at the start of {PlayerName}'s first turn, |Destroy| all enemies, gain {Value4} |Madness|, and remove {SelfName} from combat and the library.
+  Name: Bites the Dust
+  DetailText: '{SelfName} cannot be randomly generated in combat, and cannot be copied.'

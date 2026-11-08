@@ -1,0 +1,14 @@
+﻿FlandreClockthatTicksAwaythePast:
+  Description: >-
+    将所有手牌放回抽牌堆。
+
+    结束|{PlayerName}|的回合，然后进行一个额外回合。该额外回合的抽牌阶段，改为抽取弃牌堆顶部的 |{Value1}| 张牌。
+
+    在|{PlayerName}|的回合开始时，|{SelfName}| 在本场战斗中的费用减少 |{Mana}|。
+  UpgradedDescription: >-
+    将所有手牌放回抽牌堆。
+
+    结束|{PlayerName}|的回合，然后进行一个额外回合。该额外回合的抽牌阶段，改为抽取弃牌堆顶部的 |{Value1}| 张牌
+
+    在|{PlayerName}|的回合开始时，|{SelfName}| 在本场战斗中的费用减少|{Mana}|。
+  Name: 刻着过去的钟表

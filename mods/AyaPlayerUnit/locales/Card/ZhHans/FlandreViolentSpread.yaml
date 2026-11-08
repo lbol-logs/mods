@@ -1,0 +1,10 @@
+﻿FlandreViolentSpread:
+  Description: >-
+    对随机敌人造成 {Damage} 点伤害 {Value1} 次。
+
+    获得 {Value1} 点|崩坏|。
+  UpgradedDescription: >-
+    对随机敌人造成 {Damage} 点伤害  {Value1} 次。
+
+    获得 {Value1} 点|崩坏|。
+  Name: 暴力扩散

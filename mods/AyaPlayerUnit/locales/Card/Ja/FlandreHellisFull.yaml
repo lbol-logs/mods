@@ -1,0 +1,14 @@
+﻿FlandreHellisFull:
+  Description: >-
+    {FlandreDamage}ダメージを{FlandreValue1}回与える。
+
+    このランで倒した敵1体につき、{SelfName}のダメージが{FlandreValue2}増加する。
+
+    |狂気|{Value3}を得る。
+  UpgradedDescription: >-
+    {FlandreDamage}ダメージを{FlandreValue1}回与える。
+
+    このランで倒した敵1体につき、{SelfName}のダメージが{FlandreValue2}増加する。
+
+    |狂気|{Value3}を得る。
+  Name: 満ちる地獄

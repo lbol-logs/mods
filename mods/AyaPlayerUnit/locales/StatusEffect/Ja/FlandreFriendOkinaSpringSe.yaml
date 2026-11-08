@@ -1,0 +1,4 @@
+﻿FlandreFriendOkinaSpringSe:
+  Brief: '{PlayerName}のターン開始時、ライフと|加護|と|庇護|を得る。'
+  Description: '{PlayerName}のターン開始時、ライフを{Level}、|加護|{Level}、|庇護|{Level}を得る。'
+  Name: 裏・ブリージーチェリーブロッサム

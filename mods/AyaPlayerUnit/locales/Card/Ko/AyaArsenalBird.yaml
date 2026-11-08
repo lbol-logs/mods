@@ -1,0 +1,26 @@
+﻿AyaArsenalBird:
+  Description: >-
+    |방어 매트릭스|를 {Value1} 얻습니다.
+
+    {PlayerName}의 턴 시작시, 손에 |무인 항공 까마귀|를 소환합니다.
+
+    이 효과는 중첩되지 않습니다.
+  UpgradedDescription: >-
+    |방어 매트릭스|를 {Value1} 얻습니다.
+
+    {PlayerName}의 턴 시작시, 손에 |무인 항공 까마귀|를 소환합니다.
+
+    이 효과는 중첩되지 않습니다.
+
+    {SelfName}를 한 번 발동합니다.
+  PhantasmModeDescription: >-
+    {PlayerName}의 턴 시작시, 손에 |무인 항공 까마귀|를 소환합니다.
+
+    이 효과는 중첩되지 않습니다.
+  PhantasmModeUpgradedDescription: >-
+    {PlayerName}의 턴 시작시, 손에 |무인 항공 까마귀|를 소환합니다.
+
+    이 효과는 중첩되지 않습니다.
+
+    {SelfName}를 한 번 발동합니다.
+  Name: 아스널 버드

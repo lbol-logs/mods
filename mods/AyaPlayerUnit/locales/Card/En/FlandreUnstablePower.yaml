@@ -1,0 +1,14 @@
+﻿FlandreUnstablePower:
+  Description: >-
+    {PlayerName}'s attacks deal between {Value1}% to {FlandreValue2}% damage.
+
+    This effect does not stack.
+
+    Gain {Value3} |Madness|.
+  UpgradedDescription: >-
+    {PlayerName}'s attacks deal between {Value1}% to {FlandreValue2}% damage.
+
+    This effect does not stack.
+
+    Gain {Value3} |Madness|.
+  Name: Unstable Power

@@ -1,0 +1,24 @@
+﻿FlandreRipplesof495Years:
+  Description: >-
+    {PlayerName}はすべてのデバフを受けない。
+
+    この戦闘中に得るすべてのマナは<sprite="ManaSprite" name="P">になる。
+
+    ターン終了時、未使用のマナは失われない。
+
+    すべてのカードは追加で{FlandreValue1}回発動する。
+
+    この効果は重複しない。
+  UpgradedDescription: >-
+    {PlayerName}はすべてのデバフを受けない。
+
+    この戦闘中に得るすべてのマナは<sprite="ManaSprite" name="P">になる。
+
+    ターン終了時、未使用のマナは失われない。
+
+    すべてのカードは追加で{FlandreValue1}回発動する。
+
+    この効果は重複しない。
+  Name: 495年の波紋
+  Ripplesof495Years1Flandre: ただ……壊したいだけなの。
+  Ripplesof495Years2Flandre: とくに、あなたをね！

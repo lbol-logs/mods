@@ -1,0 +1,4 @@
+﻿FlandreForbiddenGamesSe:
+  Brief: 敌人无法行动，持续一定回合。
+  Description: 敌人 {Duration:plural one='直到回合结束' other='在接下来的 % 回合内'} 无法行动。
+  Name: 禁忌游戏

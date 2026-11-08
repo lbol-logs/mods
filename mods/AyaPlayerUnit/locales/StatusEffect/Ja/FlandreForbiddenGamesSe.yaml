@@ -1,0 +1,4 @@
+﻿FlandreForbiddenGamesSe:
+  Brief: 敵は一定ターンの間、行動できない。
+  Description: 敵は{Duration:plural one='このラウンド終了まで' other='次の%ターンの間'}行動できない。
+  Name: 禁じられた遊び

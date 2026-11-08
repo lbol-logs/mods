@@ -1,0 +1,10 @@
+﻿FlandreDestructiveImpulse:
+  Description: >-
+    |At the end of the turn|: Gain {Value1} |Madness|.
+
+    |When Exiled|: Return {SelfName} from |Exile| to the discard pile.
+  UpgradedDescription: >-
+    |At the end of the turn|: Gain {Value1} |Madness|.
+
+    |When Exiled|: Return {SelfName} from |Exile| to the discard pile.
+  Name: Destructive Impulse

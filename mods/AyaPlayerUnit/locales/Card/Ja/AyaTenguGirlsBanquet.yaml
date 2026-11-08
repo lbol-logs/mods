@@ -1,0 +1,10 @@
+﻿AyaTenguGirlsBanquet:
+  Description: >-
+    {Shield}|バリア|を得る。
+
+    手札のカード全てをこの戦闘中|アップグレード|し、それらの|ブロック|、|バリア|、ダメージを値を{Value1}増やす。
+  UpgradedDescription: >-
+    {Shield}|バリア|を得る。
+
+    手札のカード全てをこの戦闘中|アップグレード|し、それらの|ブロック|、|バリア|、ダメージを値を{Value1}増やす。
+  Name: 天狗少女の宴

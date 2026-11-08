@@ -1,0 +1,14 @@
+﻿AyaHeavenlyPartner:
+  Description: >-
+    获得 {Block}|格挡|。
+
+    对所有敌人施加 {Value1}|虚弱|和|易伤|。
+
+    如果手牌中有召唤的 |犬走椛，巡逻天狗|，则获得 {Value2} |临时火力|。
+  UpgradedDescription: >-
+    获得 {Block}|格挡|。
+
+    对所有敌人施加 {Value1}|虚弱|和|易伤|。
+
+    如果手牌中有召唤的 |犬走椛，巡逻天狗|，则获得 {Value2} |临时火力|。
+  Name: 天界伙伴

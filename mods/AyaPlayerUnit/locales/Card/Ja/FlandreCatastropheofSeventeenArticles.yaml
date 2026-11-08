@@ -1,0 +1,10 @@
+﻿FlandreCatastropheofSeventeenArticles:
+  Description: >-
+    {FlandreShield}|バリア|を得る。
+
+    戦闘終了まで、すべてのカードの|アップグレード|{FlandreValue1}回行う。
+  UpgradedDescription: >-
+    {FlandreShield}|バリア|を得る。
+
+    戦闘終了まで、すべてのカードの|アップグレード|{FlandreValue1}回行う。
+  Name: 十七条の破滅

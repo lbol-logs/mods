@@ -1,0 +1,10 @@
+﻿AyaTanukiAMOLEDSe:
+  Brief: >-
+    Negates incoming darkness.
+
+    |d:(This effect does nothing.)|
+  Description: >-
+    Negates the next {Level:plural one='darkness' other='% darkness'}.
+
+    |d:(This effect does nothing.)|
+  Name: AMOLED

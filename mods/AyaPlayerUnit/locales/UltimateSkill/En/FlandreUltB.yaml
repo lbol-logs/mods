@@ -1,0 +1,9 @@
+﻿FlandreUltB:
+  Title: Taboo
+  Content: Maze of Hate
+  Description: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Deal {FlandreDamage} damage and apply {FlandreValue1} |Vulnerable| to each enemy. |Accurate|
+
+    Play {FlandreValue2} random |Crystal{Value2:plural one='' other='s'}| to each enemy.

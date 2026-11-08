@@ -1,0 +1,10 @@
+﻿AyaCloseup:
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    {SelfName}に隣接する|厄災|または状態異常カード1枚につき、{Mana}を得てカードを1枚引く。
+  UpgradedDescription: >-
+    {Block}|ブロック|を得る。
+
+    {SelfName}に隣接する|厄災|または状態異常カード1枚につき、{Mana}を得てカードを1枚引く。
+  Name: クローズアップ

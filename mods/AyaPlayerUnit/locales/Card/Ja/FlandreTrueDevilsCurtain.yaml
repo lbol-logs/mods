@@ -1,0 +1,10 @@
+﻿FlandreTrueDevilsCurtain:
+  Description: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    ライフを{FlandreValue1}回復する。
+  UpgradedDescription: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    ライフを{FlandreValue1}回復する。
+  Name: 真・悪魔のカーテン

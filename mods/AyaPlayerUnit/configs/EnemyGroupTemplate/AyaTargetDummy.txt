@@ -1,0 +1,1 @@
+﻿{EnemyGroupConfig Id=, IsSub=False, Subs=[], Name=AyaTargetDummy, FormationName=Triangle, Enemies=[AyaTargetDummy, AyaTargetDummy, AyaTargetDummy], EnemyType=Elite, Hidden=False, DebutTime=1, RollBossExhibit=False, PlayerRoot=(-4.00, 0.50), PreBattleDialogName=, PostBattleDialogName=, Environment=}

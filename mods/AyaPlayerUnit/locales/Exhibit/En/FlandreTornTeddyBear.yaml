@@ -1,0 +1,10 @@
+﻿FlandreTornTeddyBear:
+  Description: >-
+    At the start of combat, Gain {Value1} |Firepower|.
+
+    The effect of |Bloodlust| is further increased by |e:{Value4}|% for every 1% of {PlayerName}'s life lost.
+  Name: Torn Teddy Bear
+  FlavorText: >-
+    "This one is broken already... I wonder how long will you last?"
+
+    - Flandre Scarlet

@@ -1,0 +1,7 @@
+﻿FlandreFriendOkina:
+  Description: '{FriendP}|f:秘密の力|：多色カードを{Value1}枚発動するたび、{FlandreMana}を得て、{FlandrePassiveBarrier}|バリア|を得る。（残り{Amount}枚）'
+  NonbattleDescription: '{FriendP}|f:秘密の力|：多色カードが{Value1}枚使用されるたび、{FlandreMana}を得て、{FlandrePassiveBarrier}|バリア|を得る。'
+  ExtraDescription1: '{FriendA}|a:季節解放|：{Value2}種類の|季節|から1つ選ぶ。{SelfName}はその効果を得る。'
+  ExtraDescription3: '{FriendU}|u:「秘匿された時空幻想ツアー」|：{PlayerName}のターン開始時、{Value3}枚の|p:完全ランダム|なレアカードから{Value2}枚を選び手札に加える。そのカードは一時的にコストが{Mana}になり、|廃棄|と|幽体|を持つ。'
+  Name: 究極の絶対秘神、隠岐奈
+  DetailText: '{SelfName}は戦闘中にランダム生成されず、コピーもできない。'

@@ -1,0 +1,8 @@
+﻿FlandreMagicalPotential:
+  Description: このカードは封印されている。
+  UpgradedDescription: このカードは封印されている。
+  Name: マジカルポテンシャル
+  DetailText: >-
+    |p:{SelfName}はいかなる場合でも手札から離れない。|
+
+    {SelfName}は常に手札の{Order:ordinal one='%番目' two='%番目' few='%番目' other='%番目'}のカードになる。

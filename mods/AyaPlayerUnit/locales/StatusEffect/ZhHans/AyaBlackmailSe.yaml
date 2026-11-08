@@ -1,0 +1,10 @@
+﻿AyaBlackmailSe:
+  Brief: '|文文新闻| 还会施加 |暂失火力| 并在激活时获得 <sprite="Point" name="Gold">。'
+  Description: '|文文新闻| 还会施加 {Level} |暂失火力| 并在激活时获得 {Count} <sprite="Point" name="Gold">。'
+  Name: 敲诈
+  Blackmail1Aya: 试图揭露真相的记者正在遭受攻击！
+  Blackmail2Aya: 看看他们在做什么！这就是他们罪行的证据！
+  Blackmail3Aya: 当地居民对记者施暴！这是试图推翻幻想乡吗？
+  BlackmailMegumu1Megumu: 哦，你是想敲诈我吗？
+  BlackmailMegumu2Megumu: 准备好今天宴会上裸舞吧，无论如何。
+  BlackmailEiki1Eiki: 诈骗和敲诈。刑期延长一年。

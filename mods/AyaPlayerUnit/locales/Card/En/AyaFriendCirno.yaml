@@ -1,0 +1,8 @@
+﻿AyaFriendCirno:
+  Description: '{FriendP}|f:Full Blooming Summer|: Each |Teammate| in the |battlefield| gains {Value1} |Unity|.'
+  ExtraDescription1: "{FriendA}|a:Unyielding Autumn|: Can only be activated once per turn. Summon {Value2} |Upgraded| random |Teammate| cards. {Value2:plural one='It has' other='They have'} {Value1} |Unity|."
+  ExtraDescription2: "{FriendA}|d:Unyielding Autumn: Can only be activated once per turn. Summon {Value2} Upgraded random Teammate cards. {Value2:plural one='It has' other='They have'} {Value1} Unity.|"
+  ExtraDescription3: '{FriendU}|u:「Finale of Four Seasons」|: Can only be activated once per combat. Deal {Damage} attack damage and apply {Value1} |Final Freeze| to each enemy. |Accurate|'
+  ExtraDescription4: '{FriendU}|d:「Finale of Four Seasons」: Can only be activated once per combat. Deal {Damage} attack damage and apply {Value1} Final Freeze to each enemy. Accurate|'
+  Name: Cirno, Little Friend of Four Seasons
+  DetailText: '|p:This card never leaves the hand under any circumstances.|'

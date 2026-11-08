@@ -1,0 +1,10 @@
+﻿FlandreMurderMystery:
+  Description: >-
+    |災禍|{FlandreValue1}を得る。
+
+    カードを{FlandreValue2}枚引く。
+  UpgradedDescription: >-
+    |災禍|{FlandreValue1}を得る。
+
+    カードを{FlandreValue2}枚引く。
+  Name: 殺人ミステリー

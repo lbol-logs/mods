@@ -1,0 +1,4 @@
+﻿FlandreMPButchersCircusSe:
+  Brief: 敵が倒されるたび、すべてのプレイヤーは|火力|とライフを得る。
+  Description: 敵が倒されるたび、すべてのプレイヤーは|火力|{Level}とライフ{Count}を得る。
+  Name: 屠殺人のサーカス

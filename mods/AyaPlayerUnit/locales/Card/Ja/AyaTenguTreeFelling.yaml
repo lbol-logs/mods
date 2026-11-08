@@ -1,0 +1,14 @@
+﻿AyaTenguTreeFelling:
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    {Shield}|バリア|を得る。
+
+    {PlayerName}のターン終了時、{SelfName}で得られる|ブロック|と|バリア|の数値は{Value1}減る。
+  UpgradedDescription: >-
+    {Block}|ブロック|を得る。
+
+    {Shield}|バリア|を得る。
+
+    {PlayerName}のターン終了時、{SelfName}で得られる|ブロック|と|バリア|の数値は{Value1}減る。
+  Name: 天狗ナメシ

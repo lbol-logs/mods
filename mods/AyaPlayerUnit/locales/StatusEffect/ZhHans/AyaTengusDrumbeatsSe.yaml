@@ -1,0 +1,5 @@
+﻿AyaTengusDrumbeatsSe:
+  Brief: 在 {PlayerName} 的下一个回合开始时，对每个敌人造成 |精准| 攻击伤害并获得 |临时火力|。
+  Description: 在 {PlayerName} 的下一个回合开始时，对每个敌人造成 {Damage} |精准| 攻击伤害并获得 {Count} |临时火力|。
+  PhantasmModeDescription: 在 {PlayerName} 的下一个回合开始时，对每个敌人造成 {Damage} |精准| 攻击伤害。
+  Name: 天狗鼓声

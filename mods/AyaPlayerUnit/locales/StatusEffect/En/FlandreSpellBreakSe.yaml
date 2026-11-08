@@ -1,0 +1,4 @@
+﻿FlandreSpellBreakSe:
+  Brief: "{OwnerName} can't act for a certain number of turns."
+  Description: "{OwnerName} can't act {Duration:plural one='until end of turn' other='for the next % turns'}."
+  Name: Spell Break

@@ -1,0 +1,10 @@
+﻿FlandreHotSurface:
+  Description: >-
+    Gain {FlandreBlock} |Block|.
+
+    Until {PlayerName}'s next turn, whenever {PlayerName} receives attack damage, apply {FlandreValue1} |Hellfire| to the attacker.
+  UpgradedDescription: >-
+    Gain {FlandreBlock} |Block|.
+
+    Until {PlayerName}'s next turn, whenever {PlayerName} receives attack damage, apply {FlandreValue1} |Hellfire| to the attacker.
+  Name: Hot Surface

@@ -1,0 +1,4 @@
+﻿FlandreWatchtheWorldBurnSe:
+  Brief: 在 {PlayerName} 的回合结束时，对每个敌人施加 |地狱火|。
+  Description: 在 {PlayerName} 的回合结束时，对每个敌人施加 {Value} |地狱火|。
+  Name: 彼岸观火

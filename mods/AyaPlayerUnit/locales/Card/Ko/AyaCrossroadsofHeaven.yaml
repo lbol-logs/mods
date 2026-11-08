@@ -1,0 +1,12 @@
+﻿AyaCrossroadsofHeaven:
+  Description: >-
+    |가속|을 {Value1} 얻습니다.
+
+    {PlayerName}가 |가속|을 얻을 때 마다, |가속|을 추가로 {Value2} 얻습니다.
+  UpgradedDescription: >-
+    |가속|을 {Value1} 얻습니다.
+
+    {PlayerName}가 |가속|을 얻을 때 마다, |가속|을 추가로 {Value2} 얻습니다.
+  PhantasmModeDescription: '{PlayerName}가 |가속|을 얻을 때 마다, |가속|을 추가로 {Value2} 얻습니다.'
+  PhantasmModeUpgradedDescription: '{PlayerName}가 |가속|을 얻을 때 마다, |가속|을 추가로 {Value2} 얻습니다.'
+  Name: 천국의 갈림길

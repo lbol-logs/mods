@@ -1,0 +1,14 @@
+﻿AyaInstantShotJournalist:
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    |가속|을 {Value1} 얻습니다.
+
+    {PlayerName}가 {Value2}턴동안 |가속|을 잃지 않습니다.
+  UpgradedDescription: >-
+    |방어|를 {Block} 얻습니다.
+
+    |가속|을 {Value1} 얻습니다.
+
+    {PlayerName}가 {Value2}턴동안 |가속|을 잃지 않습니다.
+  Name: 인스턴트 샷 저널리스트

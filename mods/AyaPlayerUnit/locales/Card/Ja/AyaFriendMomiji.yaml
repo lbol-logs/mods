@@ -1,0 +1,11 @@
+﻿AyaFriendMomiji:
+  Description: '{FriendP}|f:千里眼|: |占術|{Scry}。'
+  ExtraDescription1: '{FriendP2}|f:挑発|: {PlayerName}が攻撃するとき、ターゲットに{Damage}ダメージを与える。'
+  ExtraDescription2: '{FriendP2}|f:パリィ|: {PlayerName}が攻撃ダメージを受けライフを失う時、{PassiveBarrier}|バリア|を得る。'
+  ExtraDescription3: >-
+    {FriendU}|u:牙符「咀嚼玩味」|: ライフが一番少ない敵に{Damage2}ダメージを与える。
+
+    |退治|: ライフ{Value1}を得る。
+
+    |精密|
+  Name: 下っ端哨戒天狗、椛

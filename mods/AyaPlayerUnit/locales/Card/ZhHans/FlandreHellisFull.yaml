@@ -1,0 +1,10 @@
+﻿FlandreHellisFull:
+  Description: >-
+    造成 {Damage} 点伤害 {Value1} 次。
+
+    {SelfName} 在本次调查中每击败一名敌人，此技能便额外造成 {Value2} 点伤害。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害 {Value1} 次。
+
+    {SelfName} 在本次调查中每击败一名敌人，此技能便额外造成 {Value2} 点伤害。
+  Name: 地狱客满

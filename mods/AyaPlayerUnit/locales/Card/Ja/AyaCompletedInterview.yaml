@@ -1,0 +1,18 @@
+﻿AyaCompletedInterview:
+  Description: >-
+    |初見|：|文々。新聞|を{Value1}枚、|文々。新聞　『射命丸文』特集|を{Value2}枚捨て札に加える。
+
+    カードを{Value3}枚引く。
+  UpgradedDescription: >-
+    |初見|：|文々。新聞|を{Value1}枚、|文々。新聞　『射命丸文』特集|を{Value2}枚捨て札に加える。
+
+    カードを{Value3}枚引く。
+  ExtraDescription1: >-
+    |d:初見:文々。新聞を{Value1}枚、文々。新聞　『射命丸文』特集を{Value2}枚捨て札に加える。|
+
+    カードを{Value3}枚引く。
+  UpgradedExtraDescription1: >-
+    |d:初見:文々。新聞を{Value1}枚、文々。新聞　『射命丸文』特集を{Value2}枚捨て札に加える。|
+
+    カードを{Value3}枚引く。
+  Name: 取材完了

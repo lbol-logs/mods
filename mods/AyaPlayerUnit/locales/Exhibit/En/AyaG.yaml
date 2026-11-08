@@ -1,0 +1,11 @@
+﻿AyaG:
+  Description: >-
+    Adds {BaseMana} to the mana base. Cards unique to |Aya| are added to the card pool.
+
+    When a |Misfortune| or Status card is |Exiled| for the first time each turn, gain {Mana}.
+
+    |Bunbunmaru Newspaper| deals {Value1} damage, apply {Value2} |Lock On| and has |Replenish|.
+
+    |Kakashi Spirit News| has |Replenish|.
+  Name: Aya's Camera
+  FlavorText: Despite the similar appearance to the once used Outside World camera, this camera was made by kappas, using film to capture the truth and not-so-truth.

@@ -1,0 +1,57 @@
+﻿FlandreForbiddenGames:
+  Description: >-
+    |供物|{Value1}。
+
+    敵全体に{FlandreValue2}ダメージを与える。
+
+    敵は{Value3}ラウンドの間、行動できない。
+
+    各戦闘で最初に発動した{SelfName}のみ効果を発揮する。
+  UpgradedDescription: >-
+    |供物|{Value1}。
+
+    敵全体に{FlandreValue2}ダメージを与える。
+
+    敵は{Value3}ラウンドの間、行動できない。
+
+    各戦闘で最初に発動した{SelfName}のみ効果を発揮する。
+  ExtraDescription1: >-
+    |d:供物{Value1}。
+
+    敵全体に{FlandreValue2}ダメージを与える。
+
+    敵は{Value3}ラウンドの間、行動できない。|
+
+    各戦闘で最初に発動した{SelfName}のみ効果を発揮する。
+  PhantasmModeDescription: >-
+    |供物|{Value1}。
+
+    敵全体に{FlandreValue2}ダメージを与える。
+
+    敵は{Value3}ラウンドの間、行動できない。
+
+    |狂気|{Value4}を得る。
+
+    各戦闘で最初に発動した{SelfName}のみ効果を発揮する。
+  PhantasmModeUpgradedDescription: >-
+    |供物|{Value1}。
+
+    敵全体に{FlandreValue2}ダメージを与える。
+
+    敵は{Value3}ラウンドの間、行動できない。
+
+    |狂気|{Value4}を得る。
+
+    各戦闘で最初に発動した{SelfName}のみ効果を発揮する。
+  PhantasmModeExtraDescription1: >-
+    |d:供物{Value1}。
+
+    敵全体に{FlandreValue2}ダメージを与える。
+
+    敵は{Value3}ラウンドの間、行動できない。
+
+    |狂気|{Value4}を得る。|
+
+    各戦闘で最初に発動した{SelfName}のみ効果を発揮する。
+  Name: 禁断の遊び
+  DetailText: '{SelfName}は戦闘中にランダム生成されず、コピーもできない。'

@@ -1,0 +1,18 @@
+﻿FlandreCrystallizedDevilry:
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    체력 {Value1}/<sprite="Point" name="Gold"> {Value2}/<sprite="Point" name="Power"> {Value2}중 무작위로 얻습니다.
+  UpgradedDescription: >-
+    피해를 {Damage} 줍니다.
+
+    체력 {Value1}/<sprite="Point" name="Gold"> {Value2}/<sprite="Point" name="Power"> {Value2}중 무작위로 얻습니다.
+  ExtraDescription1: >-
+    피해를 {Damage} 줍니다.
+
+    체력 {Value1}/<sprite="Point" name="Gold"> {Value2}/<sprite="Point" name="Power"> {Value2}를 얻습니다.
+  Name: 파편화된 악의
+  FlavorText: >-
+    "모르는 악마보다 아는 악마가 더 낫지!"
+
+    - 플랑드르 스칼렛

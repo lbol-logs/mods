@@ -1,0 +1,14 @@
+﻿AyaIllusionaryDominance:
+  Description: >-
+    피해를 {Damage}씩 {Times}번 줍니다.
+
+    {PlayerName}의 |가속|만큼 피해가 증가합니다.
+
+    {PlayerName}의 |가속| {Value3} 마다 한번씩 {Value2}번까지 추가로 더 공격합니다.
+  UpgradedDescription: >-
+    피해를 {Damage}씩 {Times}번 줍니다.
+
+    {PlayerName}의 |가속|만큼 피해가 증가합니다.
+
+    {PlayerName}의 |가속| {Value3} 마다 한번씩 {Value2}번까지 추가로 더 공격합니다.
+  Name: 환상풍미

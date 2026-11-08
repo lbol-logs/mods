@@ -1,0 +1,4 @@
+﻿AyaHraesvelgrofTerminusSe:
+  Brief: 所有敌人的 |护盾|、|护盾| 和增益在一定回合内无效。
+  Description: 所有敌人的 |护盾|、|护盾| 和增益 {Duration:plural one='% 回合' other='% 回合'} 无效。
+  Name: 终末之鹰

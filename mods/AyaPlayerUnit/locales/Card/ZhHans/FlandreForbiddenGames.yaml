@@ -1,0 +1,14 @@
+﻿FlandreForbiddenGames:
+  Description: >-
+    使敌人 {Value1} 回合无法行动。
+
+    每场战斗只有第一张 {SelfName} 会生效。
+  UpgradedDescription: >-
+    使敌人 {Value1} 回合无法行动。
+
+    每场战斗只有第一张 {SelfName} 会生效。
+  ExtraDescription1: >-
+    |d:使敌人 {Value1} 回合无法行动。
+
+    每场战斗只有第一张 {SelfName} 会生效。
+  Name: 禁忌游戏

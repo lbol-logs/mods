@@ -1,0 +1,14 @@
+﻿AyaExtraFans:
+  Description: >-
+    {Damage}ダメージを与える。
+
+    |加速|{Value1}を得る。
+
+    |文々。新聞|を1枚手札に加える。
+  UpgradedDescription: >-
+    {Damage}ダメージを与える。
+
+    |加速|{Value1}を得る。
+
+    |文々。新聞|を1枚手札に加える。
+  Name: 補扇

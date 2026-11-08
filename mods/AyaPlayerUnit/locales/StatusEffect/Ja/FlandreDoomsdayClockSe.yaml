@@ -1,0 +1,4 @@
+﻿FlandreDoomsdayClockSe:
+  Brief: '{PlayerName}はより多くの|災禍|を得る。'
+  Description: '{PlayerName}は|災禍|を{Level}回多く得る。'
+  Name: 終末時計

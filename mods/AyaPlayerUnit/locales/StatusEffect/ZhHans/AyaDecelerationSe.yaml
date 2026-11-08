@@ -1,0 +1,4 @@
+﻿AyaDecelerationSe:
+  Brief: 如果玩家拥有至少 X 点 |加速|，则激活，消耗该 |加速|。
+  Description: 如果玩家拥有至少 X 点 |加速|，则激活，消耗该 |加速|。
+  Name: 减速 X

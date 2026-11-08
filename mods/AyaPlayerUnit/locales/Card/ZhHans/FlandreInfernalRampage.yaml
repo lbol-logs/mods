@@ -1,0 +1,10 @@
+﻿FlandreInfernalRampage:
+  Description: >-
+    对随机敌人造成 {Damage} 点伤害 {Value1} 次。
+
+    命中时施加 {Value2} 点|地狱火|。
+  UpgradedDescription: >-
+    对随机敌人造成 {Damage} 点伤害 {Value1} 次。
+
+    命中时施加 {Value2} 点|地狱火|。
+  Name: 地狱狂奔

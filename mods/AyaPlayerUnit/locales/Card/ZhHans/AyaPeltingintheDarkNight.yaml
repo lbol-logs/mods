@@ -1,0 +1,18 @@
+﻿AyaPeltingintheDarkNight:
+  Description: >-
+    |当 {SelfName} 进入手牌时|: 对生命最低的敌人造成 {Damage} 点伤害，抽一张牌并弃掉 {SelfName}。
+
+    此效果每回合只能触发 {Value1:plural one='% 次' other='% 次'}。
+  UpgradedDescription: >-
+    |当 {SelfName} 进入手牌时|: 对生命最低的敌人造成 {Damage} 点伤害，抽一张牌并弃掉 {SelfName}。
+
+    此效果每回合只能触发 {Value1:plural one='% 次' other='% 次'}。
+  ExtraDescription1: >-
+    |d:当 {SelfName} 进入手牌时: 对生命最低的敌人造成 {Damage} 点伤害，抽一张牌并弃掉 {SelfName}。
+
+    此效果每回合只能触发 {Value1:plural one='% 次' other='% 次'}。|
+  UpgradedExtraDescription1: >-
+    |d:当 {SelfName} 进入手牌时: 对生命最低的敌人造成 {Damage} 点伤害，抽一张牌并弃掉 {SelfName}。
+
+    此效果每回合只能触发 {Value1:plural one='% 次' other='% 次'}。|
+  Name: 黑夜中的投掷

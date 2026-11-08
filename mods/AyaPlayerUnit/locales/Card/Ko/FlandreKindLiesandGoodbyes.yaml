@@ -1,0 +1,19 @@
+﻿FlandreKindLiesandGoodbyes:
+  Description: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    |화력|과 |영력|을 {Value1} 얻습니다.
+
+    {PlayerName}가 쓰러질 경우, 체력을 최대치까지 회복하고 모든 디버프를 제거하며 |천의무봉|을 {Value2} 얻습니다.
+
+    그 후 모든 적에게 {Value3}의 피해를 주고, 체력이 {Value3} 이하인 적을 |처치|하며, {SelfName}은 전투와 덱에서 제거됩니다.
+  UpgradedDescription: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    |화력|과 |영력|을 {Value1} 얻습니다.
+
+    {PlayerName}가 쓰러질 경우, 체력을 최대치까지 회복하고 모든 디버프를 제거하며 |천의무봉|을 {Value2} 얻습니다.
+
+    그 후 모든 적에게 {Value3}의 피해를 주고, 체력이 {Value3} 이하인 적을 |처치|하며, {SelfName}은 전투와 덱에서 제거됩니다.
+  Name: 착한 거짓말과 작별
+  DetailText: '{SelfName}은 전투 중 무작위로 생성되지 않으며 복제할 수 없습니다.'

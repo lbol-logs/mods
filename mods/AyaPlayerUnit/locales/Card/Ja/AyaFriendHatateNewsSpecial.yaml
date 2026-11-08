@@ -1,0 +1,6 @@
+﻿AyaFriendHatateNewsSpecial:
+  Description: >-
+    ランダムなマナを{Value1}つ得る。この戦闘中に|廃棄|した{SelfName}の枚数だけ得られるマナの数を1増やす。
+
+    |{SelfName}が手札に加わった時|：{Shield}|バリア|を得る。
+  Name: 花果子念報・号外

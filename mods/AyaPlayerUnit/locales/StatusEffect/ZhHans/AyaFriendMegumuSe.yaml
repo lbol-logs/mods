@@ -1,0 +1,4 @@
+﻿AyaFriendMegumuSe:
+  Brief: 每当一张 |不幸| 或状态牌被|放逐|时，获得 <sprite="ManaSprite" name="P"> 并抽一张牌。
+  Description: 每当一张 |不幸| 或状态牌被|放逐|时，获得 {Level} <sprite="ManaSprite" name="P"> 并抽 {Level:plural one='% 张牌' other='% 张牌'}。
+  Name: 彩虹照明「清风明月」

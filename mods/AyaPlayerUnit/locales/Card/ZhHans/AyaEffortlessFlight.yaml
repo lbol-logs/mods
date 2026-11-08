@@ -1,0 +1,12 @@
+﻿AyaEffortlessFlight:
+  Description: >-
+    获得 {Value1}|加速|。
+
+    在{PlayerName}回合开始时，获得 {Value1}|加速|。
+  UpgradedDescription: >-
+    获得 {Value1}|加速|。
+
+    在{PlayerName}回合开始时，获得 {Value1}|加速|。
+  PhantasmModeDescription: 在{PlayerName}回合开始时，获得 {Value1}|加速|。
+  PhantasmModeUpgradedDescription: 在{PlayerName}回合开始时，获得 {Value1}|加速|。
+  Name: 轻松飞行

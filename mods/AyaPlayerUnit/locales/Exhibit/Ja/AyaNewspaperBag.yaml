@@ -1,0 +1,4 @@
+﻿AyaNewspaperBag:
+  Description: 戦闘開始時、|文々。新聞|を{Value1}枚山札に加える。それらは|コスト|{Mana}。
+  Name: 新聞紙の袋
+  FlavorText: 新聞紙で作った新聞紙を入れるための新聞紙の袋。実にエコだ！

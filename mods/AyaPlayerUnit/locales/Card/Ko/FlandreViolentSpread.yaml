@@ -1,0 +1,10 @@
+﻿FlandreViolentSpread:
+  Description: >-
+    무작위 적에게 피해를 {Damage}씩 {Value1}번 줍니다.
+
+    |파멸|을 {Value2} 얻습니다.
+  UpgradedDescription: >-
+    무작위 적에게 피해를 {Damage}씩 {Value1}번 줍니다.
+
+    |파멸|을 {Value2} 얻습니다.
+  Name: 폭력적 확산

@@ -1,0 +1,14 @@
+﻿FlandreLittleJeweler:
+  Description: >-
+    Add {FlandreValue1} |p:random| |Crystal{FlandreValue1:plural one='' other='s'}| to the hand.
+
+    Gain {FlandreValue2} |p:random| mana.
+  UpgradedDescription: >-
+    Add {FlandreValue1} |p:random| |Crystal{FlandreValue1:plural one='' other='s'}| to the hand.
+
+    Gain {FlandreValue2} |p:random| mana.
+  ExtraDescription1: >-
+    Add {FlandreValue1} |p:random| |Crystal{FlandreValue1:plural one='' other='s'}+{Value3}| to the hand.
+
+    Gain {FlandreValue2} |p:random| mana.
+  Name: Little Jeweler

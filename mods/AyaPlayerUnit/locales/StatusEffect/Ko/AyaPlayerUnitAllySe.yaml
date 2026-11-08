@@ -1,0 +1,4 @@
+﻿AyaPlayerUnitAllySe:
+  Brief: '{OwnerName}가 {PlayerName}와 함께 싸웁니다! {OwnerName}는 모든 상태이상에 면역이고 공격받지 않습니다.'
+  Description: '{OwnerName}가 {PlayerName}와 함께 싸웁니다! {OwnerName}는 모든 상태이상에 면역이고 공격받지 않습니다.'
+  Name: 진정한 동료

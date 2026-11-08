@@ -1,0 +1,10 @@
+﻿AyaArmoredRavenSe:
+  Brief: >-
+    {PlayerName} 回合中使用的第一张攻击牌被使用两次。
+
+    {PlayerName} 回合中使用的第一张状态牌被使用两次。
+  Description: >-
+    {PlayerName} 回合中使用的前 {Limit} 张攻击牌{Limit:plural one='' other=''} 被使用两次。（剩余 {Level} 次）
+
+    {PlayerName} 回合中使用的前 {Limit} 张状态牌{Limit:plural one='' other=''} 被使用两次。（剩余 {Count} 次）
+  Name: 装甲乌鸦

@@ -1,0 +1,10 @@
+﻿AyaBossFlandreSe:
+  Brief: >-
+    {OwnerName}は|破壊|を無効化する。
+
+    {OwnerName}が受けるダメージが減少する。
+  Description: >-
+    {OwnerName}は|破壊|を無効化する。
+
+    {OwnerName}が受けるダメージが{Level}%減少する。
+  Name: 紅き血の悪魔

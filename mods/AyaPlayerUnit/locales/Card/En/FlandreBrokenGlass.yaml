@@ -1,0 +1,10 @@
+﻿FlandreBrokenGlass:
+  Description: >-
+    |Offering| {Value1}.
+
+    Deal {FlandreDamage} damage {FlandreValue2:plural one='% time' other='% times'}.
+  UpgradedDescription: >-
+    |Offering| {Value1}.
+
+    Deal {FlandreDamage} damage {FlandreValue2:plural one='% time' other='% times'}.
+  Name: Broken Glass

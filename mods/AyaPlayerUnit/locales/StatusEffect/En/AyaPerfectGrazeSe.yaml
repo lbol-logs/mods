@@ -1,0 +1,10 @@
+﻿AyaPerfectGrazeSe:
+  Brief: >-
+    {OwnerName} takes 0 damage from |Accurate| attacks.
+
+    Lose 1 |Perfect Graze| when |Accurate| attacked.
+  Description: >-
+    {OwnerName} takes 0 damage from the next {Level:plural one='|Accurate| attack' other='% |Accurate| attacks'}.
+
+    Lose 1 |Perfect Graze| when |Accurate| attacked.
+  Name: Perfect Graze

@@ -1,0 +1,14 @@
+﻿AyaQuickShootingTenguScoop:
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    このターン中、状態異常カードのコストは{Mana}減る。
+
+    |文々。新聞|を{Value1}枚手札に加える。
+  UpgradedDescription: >-
+    {Block}|ブロック|を得る。
+
+    このターン中、状態異常カードのコストは{Mana}減る。
+
+    |文々。新聞|を{Value1}枚手札に加える。
+  Name: 激撮テングスクープ

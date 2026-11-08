@@ -1,0 +1,10 @@
+﻿AyaThinOut:
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    뽑을 카드 더미에서 가장 위에 있는 |액운| 또는 상태 카드 {Value1}장을 손으로 가져옵니다.
+  UpgradedDescription: >-
+    |방어|를 {Block} 얻습니다.
+
+    뽑을 카드 더미에서 가장 위에 있는 |액운| 또는 상태 카드 {Value1}장을 손으로 가져옵니다.
+  Name: 솎아내기

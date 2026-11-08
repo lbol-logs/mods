@@ -1,0 +1,14 @@
+﻿AyaNewsDissemination:
+  Description: >-
+    弃掉 {Value1} 张牌。
+
+    将等量的 |文文新闻| 加入手牌。
+
+    获得 {Mana}。
+  UpgradedDescription: >-
+    弃掉 {Value1} 到 {Value2} 张牌。
+
+    将等量的 |文文新闻| 加入手牌。
+
+    获得 {Mana}。
+  Name: 新闻传播

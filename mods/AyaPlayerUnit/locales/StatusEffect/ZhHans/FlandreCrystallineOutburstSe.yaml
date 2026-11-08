@@ -1,0 +1,10 @@
+﻿FlandreCrystallineOutburstSe:
+  Brief: >-
+    当 |水晶| 激活时，触发其所有效果。
+
+    |疯狂水晶| 会给予 <sprite="ManaSprite" name="P"> 而不是随机法力。
+  Description: >-
+    当 |水晶| 激活时，触发其所有效果。
+
+    |疯狂水晶| 会给予 <sprite="ManaSprite" name="P"> 而不是随机法力。
+  Name: 水晶爆发

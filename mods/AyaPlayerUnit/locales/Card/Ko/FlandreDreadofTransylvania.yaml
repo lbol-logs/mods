@@ -1,0 +1,10 @@
+﻿FlandreDreadofTransylvania:
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    모든 적에게 |허약| {Value1} 및 |몰락| {Value2}를 줍니다.
+  UpgradedDescription: >-
+    |방어|를 {Block} 얻습니다.
+
+    모든 적에게 |허약| {Value1} 및 |몰락| {Value2}를 줍니다.
+  Name: 트란실바니아의 공포

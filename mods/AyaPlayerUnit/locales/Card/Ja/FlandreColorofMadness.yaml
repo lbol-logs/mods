@@ -1,0 +1,22 @@
+﻿FlandreColorofMadness:
+  Description: >-
+    |供物|{Value1}。
+
+    攻撃カードを使用するたび、ランダムな|クリスタル|{FlandreValue2}枚を使用する。
+  UpgradedDescription: >-
+    |供物|{Value1}。
+
+    攻撃カードを使用するたび、ランダムな|クリスタル|{FlandreValue2}枚を使用する。
+  PhantasmModeDescription: >-
+    |供物|{Value1}。
+
+    攻撃カードを使用するたび、ランダムな|クリスタル|{FlandreValue2}枚を使用する。
+
+    |狂気|{Value3}を得る。
+  PhantasmModeUpgradedDescription: >-
+    |供物|{Value1}。
+
+    攻撃カードを使用するたび、ランダムな|クリスタル|{FlandreValue2}枚を使用する。
+
+    |狂気|{Value3}を得る。
+  Name: 狂気の色彩

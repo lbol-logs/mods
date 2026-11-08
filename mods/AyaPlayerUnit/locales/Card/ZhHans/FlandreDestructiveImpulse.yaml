@@ -1,0 +1,10 @@
+﻿FlandreDestructiveImpulse:
+  Description: >-
+    回合结束时：失去 {Value1} 点生命，并获得 {Value2} 点火力。
+
+    当被|放逐|时：将 {SelfName} 从放逐区移回弃牌堆。
+  UpgradedDescription: >-
+    回合结束时：失去 {Value1} 点生命，并获得 {Value2} 点火力。
+
+    当被|放逐|时：将 {SelfName} 从放逐区移回弃牌堆。
+  Name: 破灭冲动

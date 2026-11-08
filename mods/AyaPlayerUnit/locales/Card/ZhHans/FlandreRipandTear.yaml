@@ -1,0 +1,10 @@
+﻿FlandreRipandTear:
+  Description: >-
+    对所有敌人造成 {Value1} 次 {Damage} 点伤害。
+
+    此牌不受|火力|影响。
+  UpgradedDescription: >-
+    对所有敌人造成 {Value1} 次 {Damage} 点伤害。
+
+    此牌不受|火力|影响。
+  Name: 癫狂屠戮

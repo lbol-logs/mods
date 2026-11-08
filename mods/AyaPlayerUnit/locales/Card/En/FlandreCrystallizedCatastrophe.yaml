@@ -1,0 +1,22 @@
+﻿FlandreCrystallizedCatastrophe:
+  Description: >-
+    Deal {FlandreDamage} damage to each enemy.
+
+    Apply {FlandreValue1} |Hellfire| and {FlandreValue2} |Ruin| to each enemy.
+
+    Gain {Value3} life and {FlandreValue1} <sprite="Point" name="Gold">.
+
+    Gain {Value3} |p:random| mana.
+
+    Gain {FlandreShield} |Barrier| and {Value4} |Graze|.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage to each enemy.
+
+    Apply {FlandreValue1} |Hellfire| and {FlandreValue2} |Ruin| to each enemy.
+
+    Gain {Value3} life and {FlandreValue1} <sprite="Point" name="Gold">.
+
+    Gain {Value3} |p:random| mana.
+
+    Gain {FlandreShield} |Barrier| and {Value4} |Graze|.
+  Name: Crystallized Catastrophe

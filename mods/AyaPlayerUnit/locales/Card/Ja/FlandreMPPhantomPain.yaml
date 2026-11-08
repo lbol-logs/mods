@@ -1,0 +1,14 @@
+﻿FlandreMPPhantomPain:
+  Description: >-
+    {FlandreDamage}ダメージを与える。
+
+    {PlayerName}の次のターンまで、いずれかのプレイヤーが攻撃カードを使用するたび、対象に{FlandreValue1}ダメージを与える。
+
+    |災禍|{FlandreValue2}を得る。
+  UpgradedDescription: >-
+    {FlandreDamage}ダメージを与える。
+
+    {PlayerName}の次のターンまで、いずれかのプレイヤーが攻撃カードを使用するたび、対象に{FlandreValue1}ダメージを与える。
+
+    |災禍|{FlandreValue2}を得る。
+  Name: ファントムペイン

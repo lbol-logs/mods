@@ -1,0 +1,10 @@
+﻿FlandreUnholySanctuarySe:
+  Brief: >-
+    {PlayerName} takes half as much damage for a certain number of turns.
+
+    At the start of {PlayerName}'s next turn, gain life equal to the amount of life lost last turn.
+  Description: >-
+    {PlayerName} takes half as much damage for {Duration:plural one='% turn' other='% turns'}.
+
+    At the start of {PlayerName}'s next {Duration:plural one='% turn' other='% turns'}, gain life equal to the amount of life lost last turn. ({Count})
+  Name: Unholy Sanctuary

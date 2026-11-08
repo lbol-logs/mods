@@ -1,0 +1,18 @@
+﻿FlandreRipplesof495YearsSe:
+  Brief: >-
+    {PlayerName}はすべてのデバフを無効化する。
+
+    この戦闘中に{PlayerName}が得るすべてのマナを<sprite="ManaSprite" name="P">に変換する。
+
+    未使用のマナはターン終了時に失われない。
+
+    すべてのカードを追加で発動する。
+  Description: >-
+    {PlayerName}はすべてのデバフを無効化する。
+
+    この戦闘中に{PlayerName}が得るすべてのマナを<sprite="ManaSprite" name="P">に変換する。
+
+    未使用のマナはターン終了時に失われない。
+
+    すべてのカードを{Level}回追加で発動する。
+  Name: 495年の波紋

@@ -1,0 +1,10 @@
+﻿FlandrePassiveSe:
+  Brief: >-
+    牌奖励的选择数量增加 {Value1}。
+
+    |脆弱| 对 {PlayerName} 的效果减少 {Value2}%。
+  Description: >-
+    牌奖励的选择数量增加 {Value1}。
+
+    |脆弱| 对 {PlayerName} 的效果减少 {Value2}%。
+  Name: 绯红之血的恶魔

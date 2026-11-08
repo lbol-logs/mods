@@ -1,0 +1,14 @@
+﻿AyaInstantShotJournalist:
+  Description: >-
+    获得 {Block}|格挡|。
+
+    获得 {Value1}|加速|。
+
+    {PlayerName} 在 {Value2:plural one='% 回合' other='% 回合'} 内无法失去|加速|。
+  UpgradedDescription: >-
+    获得 {Block}|格挡|。
+
+    获得 {Value1}|加速|。
+
+    {PlayerName} 在 {Value2:plural one='% 回合' other='% 回合'} 内无法失去|加速|。
+  Name: 瞬间射击记者

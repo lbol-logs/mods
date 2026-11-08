@@ -1,0 +1,14 @@
+﻿FlandreCrystallizedChaos:
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |허약| {Value1}/|취약| {Value1}/|지옥불| {Value2}중 무작위로 부여합니다.
+  UpgradedDescription: >-
+    피해를 {Damage} 줍니다.
+
+    |허약| {Value1}/|취약| {Value1}/|지옥불| {Value2}중 무작위로 부여합니다.
+  ExtraDescription1: >-
+    피해를 {Damage} 줍니다.
+
+    |허약| {Value1}/|취약| {Value1}/|지옥불| {Value2}를 부여합니다.
+  Name: 파편화된 혼돈

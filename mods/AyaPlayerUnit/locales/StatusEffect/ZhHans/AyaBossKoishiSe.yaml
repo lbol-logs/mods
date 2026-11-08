@@ -1,0 +1,16 @@
+﻿AyaBossKoishiSe:
+  Brief: >-
+    {OwnerName} 的生命值未知。
+
+    在 {OwnerName} 的回合开始时，她只失去一半的 |护盾| 而不是全部。
+
+    每当某些牌被使用时，{OwnerName} 立即行动一次，不会结束 {PlayerName} 的回合。
+  Description: >-
+    {OwnerName} 的生命值未知。
+
+    在 {OwnerName} 的回合开始时，她只失去一半的 |护盾| 而不是全部。
+
+    每当 {Limit} 张牌被使用时，{OwnerName} 立即行动一次，不会结束 {PlayerName} 的回合。
+
+    |d:（剩余 {Count:plural one='% 张牌' other='% 张牌'}。）|
+  Name: 闭锁的恋之瞳

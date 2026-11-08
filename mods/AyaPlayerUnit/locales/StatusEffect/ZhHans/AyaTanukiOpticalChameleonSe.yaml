@@ -1,0 +1,10 @@
+﻿AyaTanukiOpticalChameleonSe:
+  Brief: >-
+    变色龙在一定回合内受到的攻击伤害减半。
+
+    |d:（此效果无效。）|
+  Description: >-
+    变色龙 {Duration:plural one='直到回合结束' other='在接下来的 % 回合内'} 受到的攻击伤害减半。
+
+    |d:（此效果无效。）|
+  Name: 光学变色龙

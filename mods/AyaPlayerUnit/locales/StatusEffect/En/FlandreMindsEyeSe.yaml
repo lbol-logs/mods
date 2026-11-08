@@ -1,0 +1,4 @@
+﻿FlandreMindsEyeSe:
+  Brief: The next time {PlayerName} deals or takes attack damage, double the damage dealt or halve the damage taken.
+  Description: The next {Level:plural one='% time' other='% times'} {PlayerName} deals or takes attack damage, double the damage dealt or halve the damage taken.
+  Name: Mind's Eye

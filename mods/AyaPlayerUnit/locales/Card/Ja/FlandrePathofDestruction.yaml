@@ -1,0 +1,14 @@
+﻿FlandrePathofDestruction:
+  Description: >-
+    |供物|{Value1}。
+
+    {FlandreBlock}|ブロック|を得る。
+
+    カードを{FlandreValue2}枚引く。
+  UpgradedDescription: >-
+    |供物|{Value1}。
+
+    {FlandreBlock}|ブロック|を得る。
+
+    カードを{FlandreValue2}枚引く。
+  Name: 破壊の道

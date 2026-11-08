@@ -1,0 +1,14 @@
+﻿AyaCandidShot:
+  Description: >-
+    Deal {Damage} damage {Times} times.
+
+    Apply {Value1} |Lock On|.
+
+    |While in hand|: Whenever a |Misfortune| or Status card is |Exiled|, {SelfName} |temporarily costs| {Mana} less to play.
+  UpgradedDescription: >-
+    Deal {Damage} damage {Times} times.
+
+    Apply {Value1} |Lock On|.
+
+    |While in hand|: Whenever a |Misfortune| or Status card is |Exiled|, {SelfName} |temporarily costs| {Mana} less to play.
+  Name: Candid Shot

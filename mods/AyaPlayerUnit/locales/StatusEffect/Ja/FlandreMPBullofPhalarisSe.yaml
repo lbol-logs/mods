@@ -1,0 +1,4 @@
+﻿FlandreMPBullofPhalarisSe:
+  Brief: '{PlayerName}が状態異常によるダメージを受けるたび、敵全体にダメージを与える。'
+  Description: '{PlayerName}が状態異常によるダメージを受けるたび、敵全体に{Level}ダメージを与える。'
+  Name: ファラリスの雄牛

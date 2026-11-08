@@ -1,0 +1,16 @@
+﻿AyaBossKoishiSe:
+  Brief: >-
+    {OwnerName}'s life is unknown.
+
+    At the start of {OwnerName}'s turn, she lose only half of her |Block| instead of all of it.
+
+    Whenever enough cards have been played, {OwnerName} immediately acts once, without ending {PlayerName}'s turn.
+  Description: >-
+    {OwnerName}'s life is unknown.
+
+    At the start of {OwnerName}'s turn, she lose only half of her |Block| instead of all of it.
+
+    Whenever {Limit} cards have been played, {OwnerName} immediately acts once, without ending {PlayerName}'s turn.
+
+    |d:({Count:plural one='% card' other='% cards'} left.)|
+  Name: The Closed Eyes of Love

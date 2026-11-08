@@ -1,0 +1,5 @@
+﻿FlandreSisteroftheDevil:
+  Description: '|At the start of combat|: |Exile| {SelfName}, gain |Sister of the Devil| and {FlandreMana}.'
+  UpgradedDescription: '|At the start of combat|: |Exile| {SelfName}, gain |Sister of the Devil| and {FlandreMana}.'
+  Name: Sister of the Devil
+  DetailText: '{SelfName} cannot be randomly generated in combat, and cannot be copied.'

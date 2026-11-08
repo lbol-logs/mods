@@ -1,0 +1,12 @@
+﻿FlandreThePsychoticandCuteGuest:
+  Description: 攻撃カードを使用するたび、|災禍|{FlandreValue1}と|火力|{FlandreValue1}を得る。
+  UpgradedDescription: 攻撃カードを使用するたび、|災禍|{FlandreValue1}と|火力|{FlandreValue1}を得る。
+  PhantasmModeDescription: >-
+    攻撃カードを使用するたび、|災禍|{FlandreValue1}と|火力|{FlandreValue1}を得る。
+
+    |狂気|{Value2}を得る。
+  PhantasmModeUpgradedDescription: >-
+    攻撃カードを使用するたび、|災禍|{FlandreValue1}と|火力|{FlandreValue1}を得る。
+
+    |狂気|{Value2}を得る。
+  Name: 狂カワな来訪者

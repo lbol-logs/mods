@@ -1,0 +1,22 @@
+﻿AyaBirdStrike:
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    {SelfName} 每有{PlayerName}的|加速|，便额外造成 {Value1} 点伤害。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害。
+
+    {SelfName} 每有{PlayerName}的|加速|，便额外造成 {Value1} 点伤害。
+  PhantasmModeDescription: >-
+    造成 {Damage} 点伤害。
+
+    {SelfName} 每有{PlayerName}的|加速|，便额外造成 {Value1} 点伤害。
+
+    受到等同于{PlayerName}的|加速|的伤害。
+  PhantasmModeUpgradedDescription: >-
+    造成 {Damage} 点伤害。
+
+    {SelfName} 每有{PlayerName}的|加速|，便额外造成 {Value1} 点伤害。
+
+    受到等同于{PlayerName}的|加速|的伤害。
+  Name: 鸟击

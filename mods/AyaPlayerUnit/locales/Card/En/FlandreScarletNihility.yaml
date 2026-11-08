@@ -1,0 +1,27 @@
+﻿FlandreScarletNihility:
+  Description: >-
+    Deal {FlandreDamage} damage.
+
+    For each unspent mana, increase {SelfName}'s damage by {FlandreValue1}. ({Amount})
+
+    If the target has {Value2}% or less life, |Destroy| it. ({Amount2})
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage.
+
+    For each unspent mana, increase {SelfName}'s damage by {FlandreValue1}. ({Amount})
+
+    If the target has {Value2}% or less life, |Destroy| it. ({Amount2})
+  NonbattleDescription: >-
+    Deal {FlandreDamage} damage.
+
+    For each unspent mana, increase {SelfName}'s damage by {FlandreValue1}.
+
+    If the target has {Value2}% or less life, |Destroy| it.
+  UpgradedNonbattleDescription: >-
+    Deal {FlandreDamage} damage.
+
+    For each unspent mana, increase {SelfName}'s damage by {FlandreValue1}.
+
+    If the target has {Value2}% or less life, |Destroy| it.
+  Name: Scarlet Nihility
+  DetailText: '{SelfName} cannot be randomly generated in combat, and cannot be copied.'

@@ -1,0 +1,10 @@
+﻿AyaQuickDraw:
+  Description: >-
+    |加速|{Value1}を得る。
+
+    その後、山札の一番上のカードをプレイする。
+  UpgradedDescription: >-
+    |加速|{Value1}を得る。
+
+    その後、山札の一番上のカードをプレイする。
+  Name: クイックドロー

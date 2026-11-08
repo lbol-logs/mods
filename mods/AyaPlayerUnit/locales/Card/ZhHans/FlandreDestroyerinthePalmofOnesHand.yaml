@@ -1,0 +1,16 @@
+﻿FlandreDestroyerinthePalmofOnesHand:
+  Description: >-
+    造成 |{Damage}| 点 |伤害|。
+
+    |{PlayerName}|的每层|终末|，都会额外提升|{SelfName}| |{Value1}| 点伤害。
+
+    若目标未知姓名，则将其|消灭|。
+  UpgradedDescription: >-
+    造成 |{Damage}| 点 |伤害|。
+
+    |{PlayerName}|的每层|终末|，都会额外提升|{SelfName}| |{Value1}| 点伤害。
+
+    若目标未知姓名，则将其|消灭|。
+  Name: 顷刻炼化
+  DestroyerinthePalmofOnesHand1Flandre: 捏碎，然后...
+  DestroyerinthePalmofOnesHand2Flandre: 嘭。

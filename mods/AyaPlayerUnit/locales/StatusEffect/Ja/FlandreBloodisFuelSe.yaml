@@ -1,0 +1,4 @@
+﻿FlandreBloodisFuelSe:
+  Brief: 未使用のマナは一定ターンの間失われない。
+  Description: 未使用のマナは次の{Duration:plural one='%ターン' other='%ターン'}の間失われない。
+  Name: 血は燃料

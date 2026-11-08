@@ -1,0 +1,4 @@
+﻿AyaOrbBlueTheReclusiveSageSe:
+  Brief: 在 {OwnerName} 的回合结束时，将 |虚假之月| 加入抽牌堆。
+  Description: 在 {OwnerName} 的回合结束时，将 {Level} |虚假之月{Level:plural one='' other=''}| 加入抽牌堆。
+  Name: 隐居的贤者

@@ -1,0 +1,14 @@
+﻿FlandreUnstablePower:
+  Description: >-
+    {PlayerName}の攻撃ダメージは{Value1}%～{FlandreValue2}%間で変動する。
+
+    この効果は重複しない。
+
+    |狂気|{Value3}を得る。
+  UpgradedDescription: >-
+    {PlayerName}の攻撃ダメージは{Value1}%～{FlandreValue2}%間で変動する。
+
+    この効果は重複しない。
+
+    |狂気|{Value3}を得る。
+  Name: 不安定な力

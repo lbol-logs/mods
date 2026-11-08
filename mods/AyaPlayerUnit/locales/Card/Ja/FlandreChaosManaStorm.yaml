@@ -1,0 +1,10 @@
+﻿FlandreChaosManaStorm:
+  Description: >-
+    敵全体に{FlandreDamage}ダメージを与え、|ランダム|なマナ{FlandreValue1}を得る。
+
+    |消費した{Mana}|1つにつき、この効果を繰り返す。
+  UpgradedDescription: >-
+    敵全体に{FlandreDamage}ダメージを与え、|ランダム|なマナ{FlandreValue1}を得る。
+
+    |消費した{Mana}|1つにつき、この効果を繰り返す。
+  Name: 混沌のマナ嵐

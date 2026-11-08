@@ -1,0 +1,10 @@
+﻿AyaComicallyLargeHat:
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    |감속 {Value1}|: 모든 적에게 |허약|을 {Value2} 줍니다.
+  UpgradedDescription: >-
+    |방어|를 {Block} 얻습니다.
+
+    모든 적에게 |허약|을 {Value2} 줍니다.
+  Name: 만화처럼 큰 모자

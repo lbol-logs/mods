@@ -1,0 +1,10 @@
+﻿FlandreFriendOkinaSummer:
+  Description: '{FriendP}|f:여름의 힘|: {Mana}를 사용할 때마다 모든 적에게 |몰락|을 {Value1} 줍니다. ({Count} 남음)'
+  NonbattleDescription: '{FriendP}|f:여름의 힘|: {Mana}를 사용할 때마다 모든 적에게 |몰락|을 {Value1} 줍니다.'
+  ExtraDescription1: '{FriendA}|a:계절 해방|: {Value2}개의 |계절| 중 1개를 선택합니다. {SelfName}이 해당 효과를 얻습니다.'
+  ExtraDescription3: '{FriendU}|u:「뒷・퍼펙트 서머 아이스」|: {PlayerName}가 카드를 {Value3}장 사용할 때마다 모든 적에게 |명중| 피해를 {Value4} 주고 |빙결|을 줍니다.'
+  Name: 오키나, 궁극의 절대비신 - 여름
+  FlavorText: >-
+    "수영복 입고 나올 줄 알았어?"
+
+    - 오키나 마타라

@@ -1,0 +1,10 @@
+﻿AyaTanukiExtremeTurnSe:
+  Brief: >-
+    在 {OwnerName} 的回合结束后，进行极限回合。
+
+    |d:（此效果无效。）|
+  Description: >-
+    {OwnerName} 将进行 {Level:plural one='% 次极限回合' other='% 次极限回合'}。
+
+    |d:（此效果无效。）|
+  Name: 极限回合

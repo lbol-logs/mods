@@ -1,0 +1,4 @@
+﻿FlandreMindStabilizer:
+  Description: '{PlayerName}のレベルが上がるたび、|狂気|{Value1}失う。'
+  Name: 精神安定装置
+  FlavorText: 永琳とパチュリーが共同開発した高度な医療装置。フランドールが狂気に陥るのを防ぐが、最後は本人の意思次第である。

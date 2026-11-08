@@ -1,0 +1,16 @@
+﻿FlandreDestroyerinthePalmofOnesHand:
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |파멸|이 있다면 {SelfName}의 피해는 |파멸|의 {Value1}배만큼 증가합니다.
+
+    대상이 유명한 존재가 아니라면, |파괴|합니다.
+  UpgradedDescription: >-
+    피해를 {Damage} 줍니다.
+
+    |파멸|이 있다면 {SelfName}의 피해는 |파멸|의 {Value1}배만큼 증가합니다.
+
+    대상이 유명한 존재가 아니라면, |파괴|합니다.
+  Name: 손바닥 안의 파괴자
+  DestroyerinthePalmofOnesHand1Flandre: 꽉 쥐어서...
+  DestroyerinthePalmofOnesHand2Flandre: 쾅.

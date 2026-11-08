@@ -1,0 +1,22 @@
+﻿AyaDanceofBlackQuill:
+  Description: >-
+    모든 적에게 피해를 {Damage} 주고 |록 온|을 {Value1} 줍니다.
+
+    |가속|을 {Value1} 얻습니다.
+
+    {SelfName}을 사용해 적을 처치할 시, 이 효과를 반복합니다.
+  UpgradedDescription: >-
+    모든 적에게 피해를 {Damage} 주고 |록 온|을 {Value1} 줍니다.
+
+    |가속|을 {Value1} 얻습니다.
+
+    {SelfName}을 사용해 적을 처치할 시, 이 효과를 반복합니다.
+  PhantasmModeDescription: >-
+    모든 적에게 피해를 {Damage} 주고 |록 온|을 {Value1} 줍니다.
+
+    |가속|을 {Value1} 얻습니다.
+  PhantasmModeUpgradedDescription: >-
+    모든 적에게 피해를 {Damage} 주고 |록 온|을 {Value1} 줍니다.
+
+    |가속|을 {Value1} 얻습니다.
+  Name: 검은 깃털의 춤

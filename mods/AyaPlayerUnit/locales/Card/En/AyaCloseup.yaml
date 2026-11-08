@@ -1,0 +1,10 @@
+﻿AyaCloseup:
+  Description: >-
+    Gain {Block} |Block|.
+
+    For each |Misfortune| or Status card adjacent to {SelfName}, gain {Mana} and draw a card.
+  UpgradedDescription: >-
+    Gain {Block} |Block|.
+
+    For each |Misfortune| or Status card adjacent to {SelfName}, gain {Mana} and draw a card.
+  Name: Close-up

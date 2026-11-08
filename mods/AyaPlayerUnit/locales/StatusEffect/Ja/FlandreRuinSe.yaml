@@ -1,0 +1,16 @@
+﻿FlandreRuinSe:
+  Brief: >-
+    {OwnerName}が受けるダメージが増加する。
+
+    {OwnerName}の生命が|破滅|以下の場合、|破壊|する。
+  Description: >-
+    {OwnerName}が受けるダメージが{Amount}%増加する。
+
+    {OwnerName}の生命が{Level}以下の場合、|破壊|する。
+  ExtraDescription: >-
+    {OwnerName}の攻撃ダメージが{Value}%減少する。
+
+    {OwnerName}が受けるダメージが{Amount}%増加する。
+
+    {OwnerName}の生命が{Level}以下の場合、|破壊|する。
+  Name: 破滅

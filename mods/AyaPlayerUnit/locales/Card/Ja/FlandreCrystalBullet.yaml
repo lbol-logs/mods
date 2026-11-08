@@ -1,0 +1,14 @@
+﻿FlandreCrystalBullet:
+  Description: >-
+    {FlandreDamage}ダメージを与える。
+
+    ランダムな|クリスタル|{FlandreValue1}枚を手札に加える。
+  UpgradedDescription: >-
+    {FlandreDamage}ダメージを与える。
+
+    ランダムな|クリスタル|{FlandreValue1}枚を手札に加える。
+  ExtraDescription1: >-
+    {FlandreDamage}ダメージを与える。
+
+    ランダムな|クリスタル|+{Value3}を{FlandreValue1}枚手札に加える。
+  Name: クリスタルバレット

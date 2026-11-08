@@ -1,0 +1,4 @@
+﻿FlandreFragmentsofLightSe:
+  Brief: 在 {PlayerName} 的回合开始时，将随机 |水晶| 加入手牌。
+  Description: 在 {PlayerName} 的回合开始时，将 {Level} 个随机的 {Level:plural one='|水晶|' other='|水晶|'} 加入手牌。
+  Name: 光之碎片

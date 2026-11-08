@@ -1,0 +1,7 @@
+﻿FlandreR:
+  Description: >-
+    Adds {BaseMana} to the mana base. Cards unique to |Flandre| are added to the card pool.
+
+    When {PlayerName} applies |Hellfire| for the first time each turn, gain {Mana}.
+  Name: Burnt Polaroid
+  FlavorText: Only Flandre knows what was in that polaroid.

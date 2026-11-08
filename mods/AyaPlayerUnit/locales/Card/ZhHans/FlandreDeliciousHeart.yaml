@@ -1,0 +1,10 @@
+﻿FlandreDeliciousHeart:
+  Description: >-
+    恢复 {Value1} 点生命。
+
+    永久提升本卡的生命获取量 {Value2} 点。
+  UpgradedDescription: >-
+    恢复 {Value1} 点生命。
+
+    永久提升本卡的生命获取量 {Value2} 点。
+  Name: 甜心

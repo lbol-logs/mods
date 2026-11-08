@@ -1,0 +1,14 @@
+﻿AyaTenguNewspaperDeadlineDay:
+  Description: >-
+    手牌上限变为 {MaxHand}。
+
+    所有|崩坏|和状态牌具有 |填充|。
+
+    |在牌库中时|: 无效化 |漫漫长夜|。
+  UpgradedDescription: >-
+    手牌上限变为 {MaxHand}。
+
+    所有|崩坏|和状态牌具有 |填充|。
+
+    |在牌库中时|: 无效化 |漫漫长夜|。
+  Name: 天狗新闻截稿日

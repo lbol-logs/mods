@@ -1,0 +1,10 @@
+﻿AyaTenguGirlsBanquet:
+  Description: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    손의 모든 카드를 |강화|하고, 그 카드들의 |방어|, |보호막|, 피해량이 {Value1} 증가합니다.
+  UpgradedDescription: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    손의 모든 카드를 |강화|하고, 그 카드들의 |방어|, |보호막|, 피해량이 {Value1} 증가합니다.
+  Name: 텐구 소녀의 연회

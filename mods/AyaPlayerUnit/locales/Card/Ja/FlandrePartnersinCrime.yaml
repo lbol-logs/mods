@@ -1,0 +1,14 @@
+﻿FlandrePartnersinCrime:
+  Description: >-
+    {FlandreShield}|バリア|を得る。
+
+    {FlandreDamage}ダメージを与える。
+
+    手札から最大{FlandreValue1}枚をプレイする。この方法でプレイした攻撃カード1枚につき|火力|{FlandreValue2}を得る。防御カード1枚につき|霊力|{FlandreValue2}を得る。
+  UpgradedDescription: >-
+    {FlandreShield}|バリア|を得る。
+
+    {FlandreDamage}ダメージを与える。
+
+    手札から最大{FlandreValue1}枚をプレイする。この方法でプレイした攻撃カード1枚につき|火力|{FlandreValue2}を得る。防御カード1枚につき|霊力|{FlandreValue2}を得る。
+  Name: 共犯者

@@ -1,0 +1,4 @@
+﻿AyaToolCrowsEggSe:
+  Brief: 在 {PlayerName} 的回合开始时，获得生命值和 |临时火力|，然后失去 1 点 |乌鸦蛋|。
+  Description: 在 {PlayerName} 的回合开始时，获得 {Duration} 点生命值和 {Duration} |临时火力|，然后失去 1 点 |乌鸦蛋|。
+  Name: 乌鸦蛋

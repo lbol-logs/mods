@@ -1,0 +1,4 @@
+﻿FlandreFranticDestroyerSe:
+  Brief: 攻撃カードをプレイする度に、<sprite="ManaSprite" name="P">を得てカードを1枚引く。
+  Description: 攻撃カードをプレイする度に、<sprite="ManaSprite" name="P">{Level}を得てカードを{Level}枚引く。
+  Name: 狂乱の破壊者

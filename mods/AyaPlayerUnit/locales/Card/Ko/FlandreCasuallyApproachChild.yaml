@@ -1,0 +1,10 @@
+﻿FlandreCasuallyApproachChild:
+  Description: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    |파멸|을 {Value1} 얻습니다.
+  UpgradedDescription: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    |파멸|을 {Value1} 얻습니다.
+  Name: 자연스러운 접근

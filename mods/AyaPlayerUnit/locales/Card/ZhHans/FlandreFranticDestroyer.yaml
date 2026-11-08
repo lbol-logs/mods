@@ -1,0 +1,12 @@
+﻿FlandreFranticDestroyer:
+  Description: 每当攻击牌生效时，获得 {Mana}并摸 {Value1} 张牌。
+  UpgradedDescription: 每当攻击牌生效时，获得 {Mana}并摸 {Value1} 张牌。
+  PhantasmModeDescription: >-
+    每当攻击牌生效时，获得 {Mana}并摸 {Value1} 张牌。
+
+    该效果不叠加。
+  PhantasmModeUpgradedDescription: >-
+    每当攻击牌生效时，获得 {Mana}并摸 {Value1} 张牌。
+
+    该效果不叠加。
+  Name: 狂暴破坏者

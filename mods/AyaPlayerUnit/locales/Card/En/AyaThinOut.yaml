@@ -1,0 +1,10 @@
+﻿AyaThinOut:
+  Description: >-
+    Gain {Block} |Block|.
+
+    Put the {Value1} topmost |Misfortune| or Status card{Value1:plural one='' other='s'} from the draw pile into the hand.
+  UpgradedDescription: >-
+    Gain {Block} |Block|.
+
+    Put the {Value1} topmost |Misfortune| or Status card{Value1:plural one='' other='s'} from the draw pile into the hand.
+  Name: Thin Out

@@ -1,0 +1,10 @@
+﻿FlandreFieryLaser:
+  Description: >-
+    Deal {FlandreDamage} damage.
+
+    Apply {FlandreValue1} |Hellfire|.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage.
+
+    Apply {FlandreValue1} |Hellfire|.
+  Name: Fiery Laser

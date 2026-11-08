@@ -1,0 +1,10 @@
+﻿AyaThinOut:
+  Description: >-
+    获得 {Block}|格挡|。
+
+    将抽牌堆顶的 {Value1} 张|崩坏|或状态牌加入手牌。
+  UpgradedDescription: >-
+    获得 {Block}|格挡|。
+
+    将抽牌堆顶的 {Value1} 张|崩坏|或状态牌加入手牌。
+  Name: 稀疏

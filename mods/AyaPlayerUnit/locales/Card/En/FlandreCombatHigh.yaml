@@ -1,0 +1,4 @@
+﻿FlandreCombatHigh:
+  Description: Gain {FlandreValue1} |Firepower| and |Spirit|.
+  UpgradedDescription: Gain {FlandreValue1} |Firepower| and |Spirit|.
+  Name: Combat High

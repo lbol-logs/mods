@@ -1,0 +1,4 @@
+﻿FlandreMPBullofPhalarisSe:
+  Brief: Whenever {PlayerName} receives damage from status effects, deal damage to each enemy.
+  Description: Whenever {PlayerName} receives damage from status effects, deal {Level} damage to each enemy.
+  Name: Bull of Phalaris

@@ -1,0 +1,7 @@
+﻿FlandreB:
+  Description: >-
+    마나 풀에 {BaseMana}가 추가됩니다. |플랑드르|의 전용 카드가 카드 풀에 추가됩니다.
+
+    {PlayerName}의 첫 {Value1}턴 시작시, {Mana}를 얻습니다.
+  Name: 다이아몬드 A
+  FlavorText: 플랑드르가 주로 분신과 함께 카드 게임을 할 때 사용하는 카드 중 하나입니다.

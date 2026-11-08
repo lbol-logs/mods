@@ -1,0 +1,10 @@
+﻿FlandreHellonEarth:
+  Description: >-
+    |지옥불|이 발동할 때, 한 번 더 발동합니다.
+
+    모든 적에게 |지옥불|을 {Value1} 줍니다.
+  UpgradedDescription: >-
+    |지옥불|이 발동할 때, 한 번 더 발동합니다.
+
+    모든 적에게 |지옥불|을 {Value1} 줍니다.
+  Name: 지상의 지옥

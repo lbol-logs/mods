@@ -1,0 +1,4 @@
+﻿AyaInstantShotJournalistSe:
+  Brief: '{PlayerName}は次の数ターンの間、|加速|を失わない。'
+  Description: '{PlayerName}は次の{Duration}ターンの間、|加速|を失わない。'
+  Name: 瞬撮ジャーナリスト

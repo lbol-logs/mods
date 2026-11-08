@@ -1,0 +1,4 @@
+﻿AyaOrbBlueTheReclusiveSageSe:
+  Brief: '{OwnerName}のターン終了時、|偽りの月|を山札に加える。'
+  Description: '{OwnerName}のターン終了時、{Level}枚の|偽りの月|を山札に加える。'
+  Name: 賢者の帰依

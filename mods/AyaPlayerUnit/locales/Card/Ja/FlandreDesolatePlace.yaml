@@ -1,0 +1,10 @@
+﻿FlandreDesolatePlace:
+  Description: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    |グレイズ|{FlandreValue1}を得る。
+  UpgradedDescription: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    |グレイズ|{FlandreValue1}を得る。
+  Name: 人里離れた場所

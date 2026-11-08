@@ -1,0 +1,4 @@
+﻿FlandreFranticDestroyer:
+  Description: 공격 카드가 발동될 때마다 {Mana}를 얻고 카드를 {Value1}장 뽑습니다.
+  UpgradedDescription: 공격 카드가 발동될 때마다 {Mana}를 얻고 카드를 {Value1}장 뽑습니다.
+  Name: 광기의 파괴자

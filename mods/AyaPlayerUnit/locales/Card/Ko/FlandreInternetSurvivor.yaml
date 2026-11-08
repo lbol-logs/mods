@@ -1,0 +1,18 @@
+﻿FlandreInternetSurvivor:
+  Description: >-
+    {PlayerName}의 해로운 효과를 모두 제거합니다.
+
+    {PlayerName} 최대 체력의 {Value1}%에 해당하는 체력을 회복합니다. ({Amount})
+  UpgradedDescription: >-
+    {PlayerName}의 해로운 효과를 모두 제거합니다.
+
+    {PlayerName} 최대 체력의 {Value1}%에 해당하는 체력을 회복합니다. ({Amount})
+  NonbattleDescription: >-
+    {PlayerName}의 해로운 효과를 모두 제거합니다.
+
+    {PlayerName} 최대 체력의 {Value1}%에 해당하는 체력을 회복합니다.
+  UpgradedNonbattleDescription: >-
+    {PlayerName}의 해로운 효과를 모두 제거합니다.
+
+    {PlayerName} 최대 체력의 {Value1}%에 해당하는 체력을 회복합니다.
+  Name: 인터넷 서바이버

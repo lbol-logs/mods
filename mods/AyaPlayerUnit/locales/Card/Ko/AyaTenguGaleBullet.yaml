@@ -1,0 +1,10 @@
+﻿AyaTenguGaleBullet:
+  Description: >-
+    피해를 {Damage}씩 {Times}번 줍니다.
+
+    |가속|을 {Value1} 얻습니다.
+  UpgradedDescription: >-
+    피해를 {Damage}씩 {Times}번 줍니다.
+
+    |가속|을 {Value1} 얻습니다.
+  Name: 텐구 열풍탄

@@ -1,0 +1,4 @@
+﻿AyaProtectionPaper:
+  Description: Whenever a |Misfortune| or Status card is |Exiled|, gain {Value1} |Block|.
+  UpgradedDescription: Whenever a |Misfortune| or Status card is |Exiled|, gain {Value1} |Block|.
+  Name: Protection Paper

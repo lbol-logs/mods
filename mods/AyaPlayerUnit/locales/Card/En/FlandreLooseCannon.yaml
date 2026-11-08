@@ -1,0 +1,14 @@
+﻿FlandreLooseCannon:
+  Description: >-
+    Deal {FlandreDamage} damage to each enemy.
+
+    Apply {FlandreValue1} |Hellfire| to each enemy.
+
+    |While in hand|: Whenever {PlayerName} deals or receives attack damage, {SelfName} |temporarily costs| {Mana} less. When {SelfName}'s cost is {Mana2}, play {SelfName}.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage to each enemy.
+
+    Apply {FlandreValue1} |Hellfire| to each enemy.
+
+    |While in hand|: Whenever {PlayerName} deals or receives attack damage, {SelfName} |temporarily costs| {Mana} less. When {SelfName}'s cost is {Mana2}, play {SelfName}.
+  Name: Loose Cannon

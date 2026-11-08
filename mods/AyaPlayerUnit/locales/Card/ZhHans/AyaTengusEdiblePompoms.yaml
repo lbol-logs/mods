@@ -1,0 +1,22 @@
+﻿AyaTengusEdiblePompoms:
+  Description: >-
+    获得 {Block}|格挡|。
+
+    恢复 {Value1} 点生命。
+
+    获得 {Value1} <sprite="Point" name="Power">。
+
+    |在战斗开始时|: 在{PlayerName}的第 {Value2:ordinal one='%st' two='%nd' few='%rd' other='%th'} 回合结束时，|放逐|{SelfName}。
+  UpgradedDescription: >-
+    获得 {Block}|格挡|。
+
+    恢复 {Value1} 点生命。
+
+    获得 {Value1} <sprite="Point" name="Power">。
+
+    |在战斗开始时|: 在{PlayerName}的第 {Value2:ordinal one='%st' two='%nd' few='%rd' other='%th'} 回合结束时，|放逐|{SelfName}。
+  Name: 天狗的可食用绒球
+  FlavorText: >-
+    "椛的是味噌味的。"
+
+    - 射命丸文

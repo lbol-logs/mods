@@ -1,0 +1,53 @@
+﻿FlandreArmageddon:
+  Description: >-
+    Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.
+
+    {SelfName} deals {FlandreValue2} more damage for each attack card in the |battlefield|.
+
+    Only the first {SelfName} will take effect each combat.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.
+
+    {SelfName} deals {FlandreValue2} more damage for each attack card in the |battlefield|.
+
+    Only the first {SelfName} will take effect each combat.
+  ExtraDescription1: >-
+    |d:Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.
+
+    {SelfName} deals {FlandreValue2} more damage for each attack card in the battlefield.|
+
+    Only the first {SelfName} will take effect each combat.
+  PhantasmModeDescription: >-
+    Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.
+
+    {SelfName} deals {FlandreValue2} more damage for each attack card in the |battlefield|.
+
+    Gain {Value3} |Madness|.
+
+    Only the first {SelfName} will take effect each combat.
+  PhantasmModeUpgradedDescription: >-
+    Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.
+
+    {SelfName} deals {FlandreValue2} more damage for each attack card in the |battlefield|.
+
+    Gain {Value3} |Madness|.
+
+    Only the first {SelfName} will take effect each combat.
+  PhantasmModeExtraDescription1: >-
+    |d:Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.
+
+    {SelfName} deals {FlandreValue2} more damage for each attack card in the battlefield.
+
+    Gain {Value3} Madness.|
+
+    Only the first {SelfName} will take effect each combat.
+  Name: Armageddon
+  DetailText: '{SelfName} cannot be randomly generated in combat, and cannot be copied.'
+  FlavorText: >-
+    "Are you trying to turn the Earth into space dust? Stop that!"
+
+    - Okina Matara
+
+    "Don't worry, I'm pretty good at handling my power."
+
+    - Flandre Scarlet

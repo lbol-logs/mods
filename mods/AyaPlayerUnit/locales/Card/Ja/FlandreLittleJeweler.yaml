@@ -1,0 +1,14 @@
+﻿FlandreLittleJeweler:
+  Description: >-
+    |p:ランダム|な{FlandreValue1}枚の|クリスタル|を手札に加える。
+
+    |p:ランダム|なマナ{FlandreValue2}を得る。
+  UpgradedDescription: >-
+    |p:ランダム|な{FlandreValue1}枚の|クリスタル|を手札に加える。
+
+    |p:ランダム|なマナ{FlandreValue2}を得る。
+  ExtraDescription1: >-
+    |p:ランダム|な{FlandreValue1}枚の|クリスタ|+{Value3}|を手札に加える。
+
+    |p:ランダム|なマナ{FlandreValue2}を得る。
+  Name: 小さな宝石商

@@ -1,0 +1,4 @@
+﻿AyaNewsOverwhelmingSe:
+  Brief: 每当一张 |不幸| 或状态牌（非 |复制|）被|放逐|时，将 |文文新闻| 的 |复制| 加入手牌。它 |临时消耗| {Mana}。
+  Description: 每当一张 |不幸| 或状态牌（非 |复制|）被|放逐|时，将 {Level:plural one='% |复制|' other='% |复制|'} 的 |文文新闻{Level:plural one='' other=''}| 加入手牌。{Level:plural one='它 |临时消耗|' other='它们 |临时消耗|'} {Mana}。
+  Name: 新闻压倒性

@@ -1,0 +1,14 @@
+﻿FlandreMPMagicalCheering:
+  Description: >-
+    全プレイヤーは{FlandreMana}を得る。
+
+    全プレイヤーは戦闘終了まで、手札のすべてのカードを{FlandreValue1:plural one='%回' other='%回'}|アップグレード|する。
+
+    |代償|{Mana2}。
+  UpgradedDescription: >-
+    全プレイヤーは{FlandreMana}を得る。
+
+    全プレイヤーは戦闘終了まで、手札のすべてのカードを{FlandreValue1:plural one='%回' other='%回'}|アップグレード|する。
+
+    |代償|{Mana2}。
+  Name: マジカルチアリング

@@ -1,0 +1,10 @@
+﻿AyaComicallyLargeHat:
+  Description: >-
+    Gain {Block} |Block|.
+
+    |Deceleration {Value1}|: Apply {Value2} |Weak| to each enemy.
+  UpgradedDescription: >-
+    Gain {Block} |Block|.
+
+    Apply {Value2} |Weak| to each enemy.
+  Name: Comically Large Hat

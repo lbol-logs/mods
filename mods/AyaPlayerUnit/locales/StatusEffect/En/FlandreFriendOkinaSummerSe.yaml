@@ -1,0 +1,7 @@
+﻿FlandreFriendOkinaSummerSe:
+  Brief: Whenever {PlayerName} activates some cards, deal |Accurate| attack damage and apply |Cold| to each enemy.
+  Description: >-
+    Whenever {PlayerName} activates {Limit:plural one='% card' other='% cards'}, deal {Level} |Accurate| attack damage and apply |Cold| to each enemy.
+
+    ({Count:plural one='% card' other='% cards'} left.)
+  Name: Hidden Perfect Summer Ice

@@ -1,0 +1,4 @@
+﻿FlandreWatchtheWorldBurn:
+  Description: 于{PlayerName}回合结束时，对所有敌人施加 {Value1} 点|地狱火|。
+  UpgradedDescription: 于{PlayerName}回合结束时，对所有敌人施加 {Value1} 点|地狱火|。
+  Name: 彼岸观火

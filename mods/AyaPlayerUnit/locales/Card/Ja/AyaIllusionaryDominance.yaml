@@ -1,0 +1,14 @@
+﻿AyaIllusionaryDominance:
+  Description: >-
+    {Damage}ダメージを{Times}回与える。
+
+    {PlayerName}の|加速|の数値だけダメージが増加する。
+
+    {PlayerName}の|加速|{Value3}点につき追加で1回ダメージを与える。最大{Value2}回まで。
+  UpgradedDescription: >-
+    {Damage}ダメージを{Times}回与える。
+
+    {PlayerName}の|加速|の数値だけダメージが増加する。
+
+    {PlayerName}の|加速|{Value3}点につき追加で1回ダメージを与える。最大{Value2}回まで。
+  Name: 風靡する幻想

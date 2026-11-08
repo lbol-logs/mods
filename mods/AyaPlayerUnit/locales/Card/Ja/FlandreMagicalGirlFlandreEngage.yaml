@@ -1,0 +1,35 @@
+﻿FlandreMagicalGirlFlandreEngage:
+  Description: >-
+    すべての|魔法少女|カードは|アップグレード|を{Value1:plural one='%回追加' other='%回追加'}で行える。
+
+    手札の最大枚数が{Value2}になる。
+
+    |マジカルスラッシュ|、|マジカルガード|、|マジカルテクニック|、|マジカルポテンシャル|を手札に一枚ずつ加える。
+
+    これらの効果は重複しない。
+
+    |加護|{Value3}と|庇護|{Value3}を得る。
+  UpgradedDescription: >-
+    すべての|魔法少女|カードは|アップグレード|を{Value1:plural one='%回追加' other='%回追加'}で行える。
+
+    手札の最大枚数が{Value2}になる。
+
+    |マジカルスラッシュ+{Value4}|、|マジカルガード+{Value4}|、|マジカルテクニック+{Value4}|、|マジカルポテンシャル+{Value4}|を手札に一枚ずつ加える。
+
+    これらの効果は重複しない。
+
+    |加護|{Value3}と|庇護|{Value3}を得る。
+  Name: 魔法少女フランドール、いっきまーすっ☆
+  DetailText: これらの|e:別形態カード|は、手札上限を無視する。
+  MagicalGirlFlandreEngage1Flandre: 魔法少女{0}、出撃よ！
+  MagicalGirlFlandreEngage2Flandre: 愛と正義の力で、あなたを倒すわ！
+  MagicalGirlFlandreEngage3Flandre: あなたの野望はここまでよ！ 魔法少女{0}、参上！
+  MagicalGirlFlandreEngage4Flandre: '...本当にこれ言わなきゃダメ？'
+  MagicalGirlFlandreEngage5Flandre: '...説明して。じゃないと背骨折るよ。'
+  MagicalGirlFlandreEngage6Flandre: '...これ、事件解決に関係あるの？'
+  MagicalGirlFlandreEngage7Okina: 魔法少女にとって、立ち振る舞いは重要ですよ？
+  MagicalGirlFlandreEngage8Okina: 魔法少女としての自覚を持つことが大切なの。
+  MagicalGirlFlandreEngage9Okina: 魔法少女として事件を解決すれば、もっと信仰が集まるわ。
+  MagicalGirlFlandreEngage10Flandre: あっち行って。
+  MagicalGirlFlandreEngage11Flandre: あんた、ふざけてる。
+  MagicalGirlFlandreEngage12Flandre: …楽しんでるでしょ、これ？

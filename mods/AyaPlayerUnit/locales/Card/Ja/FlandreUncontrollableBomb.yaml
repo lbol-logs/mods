@@ -1,0 +1,4 @@
+﻿FlandreUncontrollableBomb:
+  Description: '|p:ランダム|で以下のいずれかを行う：{PlayerName}に{Value1}ダメージを与え、|火力|{FlandreValue2}を得る、敵全体に{FlandreDamage}ダメージを与える、または{PlayerName}に{Value1}ダメージを与え、敵全体に{FlandreDamage}ダメージを与える。'
+  UpgradedDescription: '|p:ランダム|で以下のいずれかを行う：{PlayerName}に{Value1}ダメージを与え、|火力|{FlandreValue2}を得る、敵全体に{FlandreDamage}ダメージを与える、または{PlayerName}に{Value1}ダメージを与え、敵全体に{FlandreDamage}ダメージを与える。'
+  Name: 制御不能爆弾

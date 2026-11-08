@@ -1,0 +1,14 @@
+﻿AyaHeavenlyPartner:
+  Description: >-
+    Gain {Block} |Block|.
+
+    Apply {Value1} |Weak| and |Vulnerable| to each enemy.
+
+    If there's a summoned |Momiji, Petty Patrol Tengu| in the hand, gain {Value2} |Temporary Firepower|.
+  UpgradedDescription: >-
+    Gain {Block} |Block|.
+
+    Apply {Value1} |Weak| and |Vulnerable| to each enemy.
+
+    If there's a summoned |Momiji, Petty Patrol Tengu| in the hand, gain {Value2} |Temporary Firepower|.
+  Name: Heavenly Partner

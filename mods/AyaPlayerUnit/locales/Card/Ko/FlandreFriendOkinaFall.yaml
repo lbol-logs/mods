@@ -1,0 +1,6 @@
+﻿FlandreFriendOkinaFall:
+  Description: '{FriendP}|f:가을의 힘|: {Mana}를 사용할 때마다 모든 적에게 |지옥불|을 {Value1} 적용합니다. ({Count} 남음)'
+  NonbattleDescription: '{FriendP}|f:가을의 힘|: {Mana}를 사용할 때마다 모든 적에게 |지옥불|을 {Value1} 적용합니다.'
+  ExtraDescription1: '{FriendA}|a:계절 해방|: {Value2}개의 |계절| 중 1개를 선택합니다. {SelfName}이 해당 효과를 얻습니다.'
+  ExtraDescription3: '{FriendU}|u:「뒷・크레이지 폴 윈드」|: 카드가 |소멸|될 때마다 |그레이즈|를 {Value3} 얻습니다.'
+  Name: 오키나, 궁극의 절대비신 - 가을

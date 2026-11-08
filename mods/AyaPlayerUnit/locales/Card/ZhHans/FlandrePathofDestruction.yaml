@@ -1,0 +1,14 @@
+﻿FlandrePathofDestruction:
+  Description: >-
+    获得 {Block} 点|格挡|。
+
+    抽 {Value1:plural one='% 张牌' other='% 张牌'}。
+
+    对于放逐区中的每张攻击牌，本卡消耗减少{Mana}。
+  UpgradedDescription: >-
+    获得 {Block} 点|格挡|。
+
+    抽 {Value1:plural one='% 张牌' other='% 张牌'}。
+
+    对于放逐区中的每张攻击牌，本卡消耗减少{Mana}。
+  Name: 毁灭征途

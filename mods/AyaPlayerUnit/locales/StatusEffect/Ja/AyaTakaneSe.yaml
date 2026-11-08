@@ -1,0 +1,10 @@
+﻿AyaTakaneSe:
+  Brief: >-
+    {OwnerName}は本当に怒っている。
+
+    {OwnerName}の最大ライフを増やし、ダメージを多く与えるようになる。
+  Description: >-
+    {OwnerName}は本当に怒っている。
+
+    {OwnerName}の最大ライフを{Value}%増やし、ダメージを{Level}%多く与えるようになる。
+  Name: 激怒の店主

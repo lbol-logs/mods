@@ -1,0 +1,14 @@
+﻿AyaFma:
+  Description: >-
+    |加速|{Value1}を得る。
+
+    |火力|{Value2}を得る。
+
+    {PlayerName}が持っている|加速|4点につき、{SelfName}で得られる|火力|か{Value3}増える。
+  UpgradedDescription: >-
+    |加速|{Value1}を得る。
+
+    |火力|{Value2}を得る。
+
+    {PlayerName}が持っている|加速|4点につき、{SelfName}で得られる|火力|か{Value3}増える。
+  Name: F = ma

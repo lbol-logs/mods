@@ -1,0 +1,30 @@
+﻿AyaDanceofBlackQuill:
+  Description: >-
+    敵全体に{Damage}ダメージを与える。
+
+    |ロックオン|{Value1}を与える。
+
+    |加速|{Value1}を得る。
+
+    {SelfName}で敵を倒すたび、このカードの効果を繰り返す。
+  UpgradedDescription: >-
+    敵全体に{Damage}ダメージを与える。
+
+    |ロックオン|{Value1}を与える。
+
+    |加速|{Value1}を得る。
+
+    {SelfName}で敵を倒すたび、このカードの効果を繰り返す。
+  PhantasmModeDescription: >-
+    敵全体に{Damage}ダメージを与える。
+
+    |ロックオン|{Value1}を与える。
+
+    |加速|{Value1}を得る。
+  PhantasmModeUpgradedDescription: >-
+    敵全体に{Damage}ダメージを与える。
+
+    |ロックオン|{Value1}を与える。
+
+    |加速|{Value1}を得る。
+  Name: 黒羽の舞

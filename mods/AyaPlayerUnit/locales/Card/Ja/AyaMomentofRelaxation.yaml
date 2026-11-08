@@ -1,0 +1,4 @@
+﻿AyaMomentofRelaxation:
+  Description: '|減速{Value1}|：{Mana}を得て、カードを{Value2}枚引く。'
+  UpgradedDescription: '|減速{Value1}|：{Mana}を得て、カードを{Value2}枚引く。'
+  Name: 安らぐひと時

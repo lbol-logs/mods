@@ -1,0 +1,7 @@
+﻿AyaUltG:
+  Title: Thrust Sign
+  Content: Tengu's Macroburst
+  Description: >-
+    Deal {Damage} damage. |Accurate|
+
+    Draw {Value1:plural one='% card' other='% cards'}. Then, play each |Misfortune| and Status card in the hand.

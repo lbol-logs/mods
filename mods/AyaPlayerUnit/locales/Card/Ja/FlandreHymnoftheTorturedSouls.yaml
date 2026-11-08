@@ -1,0 +1,18 @@
+﻿FlandreHymnoftheTorturedSouls:
+  Description: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    |業火|を持つ敵1体につき、{FlandreMana}を得て、カードを{FlandreValue1}枚引く。（{Amount}）
+  UpgradedDescription: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    |業火|を持つ敵1体につき、{FlandreMana}を得て、カードを{FlandreValue1}枚引く。（{Amount}）
+  NonbattleDescription: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    |業火|を持つ敵1体につき、{FlandreMana}を得て、カードを{FlandreValue1}枚引く。
+  UpgradedNonbattleDescription: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    |業火|を持つ敵1体につき、{FlandreMana}を得て、カードを{FlandreValue1}枚引く。
+  Name: 魂の苦悶歌

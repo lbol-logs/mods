@@ -1,0 +1,19 @@
+﻿FlandreKindLiesandGoodbyes:
+  Description: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Gain {FlandreValue1} |Firepower| and |Spirit|.
+
+    When {PlayerName} would be defeated, remove all debuffs, heal to maximum life, and can't lose life for {FlandreValue2:plural one='% turn' other='% turns'}.
+
+    Then, deal {Value3} damage to each enemy, |Destroy| enemies with {Value3} or less life, and remove {SelfName} from combat and the library.
+  UpgradedDescription: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Gain {FlandreValue1} |Firepower| and |Spirit|.
+
+    When {PlayerName} would be defeated, remove all debuffs, heal to maximum life, and can't lose life for {FlandreValue2:plural one='% turn' other='% turns'}.
+
+    Then, deal {Value3} damage to each enemy, |Destroy| enemies with {Value3} or less life, and remove {SelfName} from combat and the library.
+  Name: Kind Lies and Goodbyes
+  DetailText: '{SelfName} cannot be randomly generated in combat, and cannot be copied.'

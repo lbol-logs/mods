@@ -1,0 +1,10 @@
+﻿AyaTanukiOpticalChameleonSe:
+  Brief: >-
+    카멜레온이 받는 피해가 반감됩니다. 몇 턴 간 지속됩니다.
+
+    |d:(이 효과는 아무것도 하지 않습니다.)|
+  Description: >-
+    카멜레온이 받는 피해가 반감됩니다. {Duration}턴 지속됩니다.
+
+    |d:(이 효과는 아무것도 하지 않습니다.)|
+  Name: 광학 카멜레온

@@ -1,0 +1,55 @@
+﻿AyaAyaShameimarusCoerciveReporting:
+  Description: >-
+    将一张 |文文新闻特刊| 加入手牌。
+
+    根据目标的意图获得额外效果。
+  UpgradedDescription: >-
+    将一张 |文文新闻特刊| 加入手牌。
+
+    根据目标的意图获得额外效果。
+  Name: 射命丸文的强制报道
+  DetailText: >-
+    |攻击|: 施加 {Value2} |虚弱|。
+
+    |增益|: 获得 {Value2}|火力|。
+
+    |减益|: 获得 {Value2} |护身符|。
+
+    |状态|: 将一张 |活力| 加入手牌。
+
+    |防御|: 施加 {Value2}|易伤|。
+
+    |闪避|: 获得 {Value4}|加速|。
+
+    |召唤|: 召唤 |速速文|。
+
+    |睡眠|: 唤醒目标。
+
+    |眩晕，无动作|: 获得 {Value1} |额外回合|。
+
+    |逃跑，引爆|: 击败目标。
+
+    |充能|: 进入 |爆发|。
+
+    |治疗，修复|: 获得 {Value4} 点生命。
+
+    |符卡|: 获得 {Value5} <sprite="Point" name="Gold"> 和 <sprite="Point" name="Power">。
+
+    |净化|: 移除{PlayerName}的所有减益并获得 {Value2} |护身符|。
+
+    |黑暗之能|: 移除{PlayerName}的所有减益并获得 {Value5} |护身符|。在剩余战斗中无效化 |黑暗之能|。
+
+    |诅咒|: 每当一张牌被 |诅咒| 时，对所有敌人造成 {Value6} 点伤害。
+  AyaShameimarusCoerciveReportingSleep1Aya: 醒醒，瞌睡虫！
+  AyaShameimarusCoerciveReportingEscape1Aya: 想从幻想乡最快的存在面前逃跑？愚蠢。
+  AyaShameimarusCoerciveReportingEscape2Aya: 你以为能在我面前逃跑吗？
+  AyaShameimarusCoerciveReportingEscape31Aya: 你好，你好！
+  AyaShameimarusCoerciveReportingEscape32Aya: 现在，我
+  AyaShameimarusCoerciveReportingEscape33Aya: 就在你身后！
+  AyaShameimarusCoerciveReportingDetonate1Aya: 你有爆炸物许可证吗？
+  AyaShameimarusCoerciveReportingDetonate2Rin: 什么是爆炸物许可证？
+  AyaShameimarusCoerciveReportingDetonate3Aya: 警官，就是这个人。
+  AyaShameimarusCoerciveReportingDetonate4Rin: 等等！我可以解释！
+  AyaShameimarusCoerciveReportingDetonate5Rin: 觉大人！救救我！
+  AyaShameimarusCoerciveReportingNohofDarkness1Aya: 这里太暗了，让我开点灯。
+  AyaShameimarusCoerciveReportingNohofDarkness2Kokoro: 我的眼睛！

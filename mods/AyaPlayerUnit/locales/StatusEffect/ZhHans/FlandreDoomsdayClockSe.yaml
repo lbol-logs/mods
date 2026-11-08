@@ -1,0 +1,14 @@
+﻿FlandreDoomsdayClockSe:
+  Brief: >-
+    {PlayerName} 获得双倍 |崩坏|。
+
+    经过一定回合后，将 |灭世兵器| 加入手牌。
+  Description: >-
+    {PlayerName} 获得双倍 |崩坏|。
+
+    在 {PlayerName} 的 {Countdown:ordinal one='下一个' two='%nd' few='%rd' other='%th'} 回合 {Countdown:plural one='' other='开始'} 时，将 |大规模杀伤性武器| 加入手牌。
+  ExtraDescription: >-
+    {PlayerName} 获得双倍 |崩坏|。
+
+    |d:在 {PlayerName} 的 {Countdown:ordinal one='下一个' two='%nd' few='%rd' other='%th'} 回合 {Countdown:plural one='' other='开始'} 时，将大规模杀伤性武器加入手牌。|
+  Name: 末日时钟

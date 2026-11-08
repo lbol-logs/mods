@@ -1,0 +1,12 @@
+﻿AyaBunbunmaruPrinter:
+  Description: At the start of {PlayerName}'s turn, add |{Value1:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand. {Value1:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana}.
+  UpgradedDescription: >-
+    At the start of {PlayerName}'s turn, add |{Value1:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand. {Value1:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana}.
+
+    Trigger {SelfName} once.
+  PhantasmModeDescription: At the start of {PlayerName}'s turn, add |{Value1:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand.
+  PhantasmModeUpgradedDescription: >-
+    At the start of {PlayerName}'s turn, add |{Value1:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand.
+
+    Trigger {SelfName} once.
+  Name: Bunbunmaru Printer

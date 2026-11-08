@@ -1,0 +1,4 @@
+﻿FlandreScarletCasinoD2Se:
+  Brief: The next few cards are played additional times.
+  Description: The next {Level:plural one='% card is' other='% cards are'} played {Value:plural one='% additional time' other='% additional times'}.
+  Name: Scarlet Casino - D2

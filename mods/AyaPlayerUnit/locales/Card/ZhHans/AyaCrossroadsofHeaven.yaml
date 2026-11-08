@@ -1,0 +1,12 @@
+﻿AyaCrossroadsofHeaven:
+  Description: >-
+    获得 {Value1}|加速|。
+
+    每当{PlayerName}获得|加速|时，额外获得 {Value2}|加速|。
+  UpgradedDescription: >-
+    获得 {Value1}|加速|。
+
+    每当{PlayerName}获得|加速|时，额外获得 {Value2}|加速|。
+  PhantasmModeDescription: 每当{PlayerName}获得|加速|时，额外获得 {Value2}|加速|。
+  PhantasmModeUpgradedDescription: 每当{PlayerName}获得|加速|时，额外获得 {Value2}|加速|。
+  Name: 天界的十字路口

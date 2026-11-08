@@ -1,0 +1,12 @@
+﻿AyaBunbunmaruPrinter:
+  Description: '{PlayerName}의 턴 시작시 |일시적으로| 비용이 {Mana}인 |붕붕마루 신문|을 {Value1}장 손에 가져옵니다.'
+  UpgradedDescription: >-
+    {PlayerName}의 턴 시작시 |일시적으로| 비용이 {Mana}인 |붕붕마루 신문|을 {Value1}장 손에 가져옵니다.
+
+    {SelfName}을 한 번 발동합니다.
+  PhantasmModeDescription: '{PlayerName}의 턴 시작시, |붕붕마루 신문|을 {Value1}장 손에 가져옵니다.'
+  PhantasmModeUpgradedDescription: >-
+    {PlayerName}의 턴 시작시, |붕붕마루 신문|을 {Value1}장 손에 가져옵니다.
+
+    {SelfName}을 한 번 발동합니다.
+  Name: 붕붕마루 프린터

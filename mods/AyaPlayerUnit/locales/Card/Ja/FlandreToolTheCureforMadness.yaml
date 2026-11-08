@@ -1,0 +1,10 @@
+﻿FlandreToolTheCureforMadness:
+  LockedDescription: フランドール・スカーレットでHard以上の難易度で異変を解決するとアンロック。
+  Description: >-
+    {PlayerName}のデバフをすべて解除する。
+
+    |狂気|を{Value1}失う。
+
+    |消耗品【{DeckCounter}】|
+  Name: 狂気の治療薬
+  DetailText: '{SelfName}は戦闘中にランダム生成されず、複製もできない。'

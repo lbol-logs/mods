@@ -1,0 +1,10 @@
+﻿AyaTanukiAMOLEDSe:
+  Brief: >-
+    ダークネスを無効化する。
+
+    |d:(このステータスに効果はない)|
+  Description: >-
+    次の{Level}回のダークネスを無効化する。
+
+    |d:(このステータスに効果はない)|
+  Name: AMOLED

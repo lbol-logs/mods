@@ -1,0 +1,4 @@
+﻿AyaOpeningWindoftheTenguRealm:
+  Description: '|戦闘開始時|：{SelfName}を|廃棄|する、|追加ターン|{Value1}を得る。'
+  UpgradedDescription: '|戦闘開始時|：{SelfName}を|廃棄|する、|追加ターン|{Value1}と|加速|{Value2}を得る。'
+  Name: 天狗道の開風

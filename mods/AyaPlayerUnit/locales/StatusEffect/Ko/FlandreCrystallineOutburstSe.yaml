@@ -1,0 +1,10 @@
+﻿FlandreCrystallineOutburstSe:
+  Brief: >-
+    |파편|이 발동할 때, 그 효과를 모두 발동시킵니다.
+
+    |파편화된 광기|는 무작위 마나 대신 <sprite="ManaSprite" name="P">를 제공합니다.
+  Description: >-
+    |파편|이 발동할 때, 그 효과를 모두 발동시킵니다.
+
+    |파편화된 광기|는 무작위 마나 대신 <sprite="ManaSprite" name="P">를 제공합니다.
+  Name: 결정 폭발

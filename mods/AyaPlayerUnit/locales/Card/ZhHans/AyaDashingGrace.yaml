@@ -1,0 +1,6 @@
+﻿AyaDashingGrace:
+  Description: 对所有敌人造成 {Value2} 点伤害，每有{PlayerName}的|加速|便额外造成一次伤害。({AccelerationDamage})
+  UpgradedDescription: 对所有敌人造成 {Value2} 点伤害，每有{PlayerName}的|加速|便额外造成一次伤害。({AccelerationDamage})
+  NonbattleDescription: 对所有敌人造成 {Value2} 点伤害，每有{PlayerName}的|加速|便额外造成一次伤害。
+  UpgradedNonbattleDescription: 对所有敌人造成 {Value2} 点伤害，每有{PlayerName}的|加速|便额外造成一次伤害。
+  Name: 疾驰的优雅

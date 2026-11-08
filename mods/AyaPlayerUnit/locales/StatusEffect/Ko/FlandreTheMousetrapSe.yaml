@@ -1,0 +1,7 @@
+﻿FlandreTheMousetrapSe:
+  Brief: '{PlayerName}의 다음 턴 시작 시, 지난 턴에 받은 피해량만큼 모든 적에게 피해를 줍니다.'
+  Description: >-
+    {PlayerName}의 다음 {Level}턴 시작 시, 지난 턴에 받은 피해량만큼 모든 적에게 피해를 줍니다.
+
+    (누적 피해량: {Count})
+  Name: 쥐덫

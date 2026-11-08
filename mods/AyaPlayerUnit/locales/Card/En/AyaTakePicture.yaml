@@ -1,0 +1,22 @@
+﻿AyaTakePicture:
+  Description: >-
+    Apply {Value1} |Lock On|.
+
+    Add |{Value2:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand.
+
+    {Value2:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana} less to play.
+  UpgradedDescription: >-
+    Apply {Value1} |Lock On|.
+
+    Add |{Value2:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand.
+
+    {Value2:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana} less to play.
+  PhantasmModeDescription: >-
+    Add |{Value2:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand.
+
+    {Value2:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana} less to play.
+  PhantasmModeUpgradedDescription: >-
+    Add |{Value2:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand.
+
+    {Value2:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana} less to play.
+  Name: Take Picture

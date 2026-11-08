@@ -1,0 +1,6 @@
+﻿FlandreFriendOkinaSpring:
+  Description: '{FriendP}|f:봄의 힘|: {Mana}를 사용할 때마다 무작위 |강화된 파편|을 {Value1}장 손에 추가합니다. (남은 횟수: {Count})'
+  NonbattleDescription: '{FriendP}|f:봄의 힘|: {Mana}를 사용할 때마다 무작위 |강화된 파편|을 {Value1}장 손에 추가합니다.'
+  ExtraDescription1: '{FriendA}|a:계절 해방|: {Value2}개의 |계절| 중 1개를 선택합니다. {SelfName}이 해당 효과를 얻습니다.'
+  ExtraDescription3: '{FriendU}|u:「뒷・브리지 체리 블러섬」|: {PlayerName}의 턴 시작 시 체력, |부적|, |비호|를 각각 {Value3} 얻습니다.'
+  Name: 오키나, 궁극의 절대비신 - 봄

@@ -1,0 +1,7 @@
+﻿FlandreBranchofCalamity:
+  Description: >-
+    {PlayerName}'s attacks deal {Value1}% more damage.
+
+    This Exhibit cannot be lost.
+  Name: Branch of Calamity
+  FlavorText: No longer require 170 <sprite="Point" name="Power"> to activate.

@@ -1,0 +1,12 @@
+﻿FlandreMPButchersCircus:
+  Description: >-
+    敵が倒されるたび、全プレイヤーは|火力|{FlandreValue2}得て、ライフを{Value3}回復する。
+
+    |代償|{Mana}。
+  UpgradedDescription: >-
+    敵が倒されるたび、全プレイヤーは|火力|{FlandreValue2}得て、ライフを{Value3}回復する。
+
+    {SelfName}を1回発動する。
+
+    |代償|{Mana}。
+  Name: 屠殺人のサーカス

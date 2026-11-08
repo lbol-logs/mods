@@ -1,0 +1,11 @@
+﻿FlandreSisteroftheDevilSe:
+  Brief: >-
+    {PlayerName}는 |허약|, |연약|, |취약|에 면역입니다.
+
+    {PlayerName}의 공격은 피해가 {Value1}% 증가하고, 카드로부터 얻는 |방어| 및 |보호막|이 {Value1}% 증가하며, 받는 공격 피해는 {Value2}% 감소합니다.
+  Description: >-
+    {PlayerName}는 |허약|, |연약|, |취약|에 면역입니다.
+
+    {PlayerName}의 공격은 피해가 {Value1}% 증가하고, 카드로부터 얻는 |방어| 및 |보호막|이 {Value1}% 증가하며, 받는 공격 피해는 {Value2}% 감소합니다.
+  PhantasmModeDescription: '{PlayerName}는 |허약|, |연약|, |취약|에 면역입니다.'
+  Name: 악마의 여동생

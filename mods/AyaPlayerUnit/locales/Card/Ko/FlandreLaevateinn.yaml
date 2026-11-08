@@ -1,0 +1,12 @@
+﻿FlandreLaevateinn:
+  Description: >-
+    모든 적에게 피해를 {Damage} 주고 |지옥불|을 {Value1} 줍니다.
+
+    {SelfName}은 |화력|의 영향을 {Value2}번 받습니다.
+  UpgradedDescription: >-
+    모든 적에게 피해를 {Damage} 주고 |지옥불|을 {Value1} 줍니다.
+
+    {SelfName}은 |화력|의 영향을 {Value2}번 받습니다.
+
+    모든 적의 |지옥불|을 발동시킵니다.
+  Name: 레바테인

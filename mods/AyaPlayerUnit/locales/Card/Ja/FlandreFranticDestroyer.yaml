@@ -1,0 +1,22 @@
+﻿FlandreFranticDestroyer:
+  Description: >-
+    |供物|{Value1}。
+
+    攻撃カードを発動するたび、{FlandreMana}を得て、カードを{FlandreValue2}枚引く。
+  UpgradedDescription: >-
+    |供物|{Value1}。
+
+    攻撃カードを発動するたび、{FlandreMana}を得て、カードを{FlandreValue2}枚引く。
+  PhantasmModeDescription: >-
+    |供物|{Value1}。
+
+    攻撃カードを発動するたび、{FlandreMana}を得て、カードを{FlandreValue2}枚引く。
+
+    |狂気|{Value3}を得る。
+  PhantasmModeUpgradedDescription: >-
+    |供物|{Value1}。
+
+    攻撃カードを発動するたび、{FlandreMana}を得て、カードを{FlandreValue2}枚引く。
+
+    |狂気|{Value3}を得る。
+  Name: 狂乱の破壊者

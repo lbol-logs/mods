@@ -1,0 +1,18 @@
+﻿FlandreMPEnfantTerrible:
+  Description: >-
+    敵全体に{FlandreDamage}ダメージを{FlandreValue1}回 与える。
+
+    敵が与える攻撃ダメージを{Value2}%減少させる。この効果は{Value3}ターンの間持続する。
+
+    すべての|仲間|が与える攻撃ダメージを{Value4}%減少させる。この効果は{Value5}ターン持続する。
+
+    |狂気|{Value6}得る。
+  UpgradedDescription: >-
+    敵全体に{FlandreDamage}ダメージを{FlandreValue1}回 与える。
+
+    敵が与える攻撃ダメージを{Value2}%減少させる。この効果は{Value3}ターンの間持続する。
+
+    すべての|仲間|が与える攻撃ダメージを{Value4}%減少させる。この効果は{Value5}ターン持続する。
+
+    |狂気|{Value6}得る。
+  Name: アンファン・テリブル

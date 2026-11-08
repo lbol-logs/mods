@@ -1,0 +1,10 @@
+﻿FlandreDanmakuofDenial:
+  Description: >-
+    |供物|{Value1}。
+
+    攻撃カードを発動するたび、{FlandreValue2}|ブロック|を得る。
+  UpgradedDescription: >-
+    |供物|{Value1}。
+
+    攻撃カードを発動するたび、{FlandreValue2}|ブロック|を得る。
+  Name: 拒絶の弾幕

@@ -1,0 +1,10 @@
+﻿AyaMemoryinPicture:
+  Description: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    |전장|의 |액운| 또는 상태 카드마다 |보호막|을 {Value1} 얻습니다.
+  UpgradedDescription: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    |전장|의 |액운| 또는 상태 카드마다 |보호막|을 {Value1} 얻습니다.
+  Name: 사진속 기억

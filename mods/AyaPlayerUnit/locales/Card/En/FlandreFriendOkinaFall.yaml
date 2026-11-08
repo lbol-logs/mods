@@ -1,0 +1,7 @@
+﻿FlandreFriendOkinaFall:
+  Description: "{FriendP}|f:Power of Fall|: Whenever {Value1} red card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and apply {FlandreValue2} |Hellfire| to each enemy. ({Amount:plural one='% card' other='% cards'} left.)"
+  NonbattleDescription: "{FriendP}|f:Power of Fall|: Whenever {Value1} red card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and apply {FlandreValue2} |Hellfire| to each enemy."
+  ExtraDescription1: '{FriendA}|a:Season Release|: Choose 1 of {Value3} |Seasons|. {SelfName} gains their effects.'
+  ExtraDescription3: '{FriendU}|u:「Hidden Crazy Fall Wind」|: Whenever a card is |Exiled|, gain {Value4} |Graze|.'
+  Name: Okina, Absolute Secret God - Fall
+  DetailText: '{SelfName} cannot be randomly generated in combat, and cannot be copied.'

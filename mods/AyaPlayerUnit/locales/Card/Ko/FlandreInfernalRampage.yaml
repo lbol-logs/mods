@@ -1,0 +1,4 @@
+﻿FlandreInfernalRampage:
+  Description: 무작위 적에게 피해를 {Damage} 주고, |지옥불| {Value1}을 {Value2}번 줍니다.
+  UpgradedDescription: 무작위 적에게 피해를 {Damage} 주고, |지옥불| {Value1}을 {Value2}번 줍니다.
+  Name: 지옥의 광란

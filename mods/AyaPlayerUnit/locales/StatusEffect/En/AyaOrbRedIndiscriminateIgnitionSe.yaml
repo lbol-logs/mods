@@ -1,0 +1,10 @@
+﻿AyaOrbRedIndiscriminateIgnitionSe:
+  Brief: >-
+    At the end of {OwnerName}'s turn, deal damage to {PlayerName}.
+
+    This also happens when a |Misfortune| or Status card is drawn.
+  Description: >-
+    At the end of {OwnerName}'s turn, deal {Level} damage to {PlayerName}.
+
+    This also happens when a |Misfortune| or Status card is drawn.
+  Name: Indiscriminate Ignition

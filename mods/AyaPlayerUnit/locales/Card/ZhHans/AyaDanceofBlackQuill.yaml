@@ -1,0 +1,22 @@
+﻿AyaDanceofBlackQuill:
+  Description: >-
+    对所有敌人造成 {Damage} 点伤害并施加 {Value1}|锁定|。
+
+    获得 {Value1}|加速|。
+
+    当使用 {SelfName} 击败敌人时，重复这些效果。
+  UpgradedDescription: >-
+    对所有敌人造成 {Damage} 点伤害并施加 {Value1}|锁定|。
+
+    获得 {Value1}|加速|。
+
+    当使用 {SelfName} 击败敌人时，重复这些效果。
+  PhantasmModeDescription: >-
+    对所有敌人造成 {Damage} 点伤害并施加 {Value1}|锁定|。
+
+    获得 {Value1}|加速|。
+  PhantasmModeUpgradedDescription: >-
+    对所有敌人造成 {Damage} 点伤害并施加 {Value1}|锁定|。
+
+    获得 {Value1}|加速|。
+  Name: 黑羽之舞

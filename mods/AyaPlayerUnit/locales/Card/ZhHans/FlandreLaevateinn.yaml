@@ -1,0 +1,10 @@
+﻿FlandreLaevateinn:
+  Description: >-
+    对所有敌人造成 {Damage} 点伤害并施加 {Value1} |地狱火|。
+
+    {SelfName} 受 {Value2} 倍|火力|影响。
+  UpgradedDescription: >-
+    对所有敌人造成 {Damage} 点伤害并施加 {Value1} |地狱火|。
+
+    {SelfName} 受 {Value2} 倍|火力|影响。
+  Name: 莱瓦汀

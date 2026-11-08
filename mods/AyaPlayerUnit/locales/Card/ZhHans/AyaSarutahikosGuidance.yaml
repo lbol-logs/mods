@@ -1,0 +1,26 @@
+﻿AyaSarutahikosGuidance:
+  Description: >-
+    弃掉手牌中的所有卡牌并抽取等量的卡牌。
+
+    每弃掉一张牌，便获得 {Value1}|加速|。
+
+    |充盈|: 获得 {Mana}。
+  UpgradedDescription: >-
+    弃掉手牌中的所有卡牌并抽取等量的卡牌。
+
+    每弃掉一张牌，便获得 {Value1}|加速|。
+
+    |充盈|: 获得 {Mana}。
+  ExtraDescription1: >-
+    弃掉手牌中的所有卡牌并抽取等量的卡牌。
+
+    每弃掉一张牌，便获得 {Value1}|加速|。
+
+    |d:充盈: 获得 {Mana}。|
+  UpgradedExtraDescription1: >-
+    弃掉手牌中的所有卡牌并抽取等量的卡牌。
+
+    每弃掉一张牌，便获得 {Value1}|加速|。
+
+    |d:充盈: 获得 {Mana}。|
+  Name: 猿田彦的指引

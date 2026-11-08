@@ -1,0 +1,10 @@
+﻿FlandreHellfireSe:
+  Brief: >-
+    {OwnerName}はターン開始時にライフを失う。
+
+    |災火の導火線|：{OwnerName}が倒された時、すべての敵はライフを失う。
+  Description: >-
+    {OwnerName}はターン開始時に{Amount}ライフを失う。
+
+    |災火の導火線|：{OwnerName}が倒された時、すべての敵はライフ{Amount}を失う。
+  Name: 業火

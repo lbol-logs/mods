@@ -1,0 +1,11 @@
+﻿AyaBlackmail:
+  Description: >-
+    |文々。新聞|は|臨時火力ダウン|{Value1}を与え、<sprite="Point" name="Gold">{Value2}を得る効果を持つ。
+
+    |文々。新聞|を{Value3}枚山札に加える。
+  UpgradedDescription: >-
+    |文々。新聞|は|臨時火力ダウン|{Value1}を与え、<sprite="Point" name="Gold">{Value2}を得る効果を持つ。
+
+    |文々。新聞|を{Value3}枚山札に加える。
+  Name: ブラックメール
+  DetailText: 間違って目上の人を脅してしまったら…

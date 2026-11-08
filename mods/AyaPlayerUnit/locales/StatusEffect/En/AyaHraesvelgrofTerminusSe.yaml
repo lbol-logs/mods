@@ -1,0 +1,4 @@
+﻿AyaHraesvelgrofTerminusSe:
+  Brief: All enemy |Block|, |Barrier|, and buffs are nullified for a certain number of turns.
+  Description: All enemy |Block|, |Barrier|, and buffs are nullified for {Duration:plural one='% turn' other='% turns'}.
+  Name: Hraesvelgr of Terminus

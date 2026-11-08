@@ -1,0 +1,10 @@
+﻿AyaToriiWhorlWind:
+  Description: >-
+    |放逐|手牌中的最多 {Value1:plural one='% 张牌' other='% 张牌'}。将等量的 |文文新闻| 加入手牌。
+
+    获得 {Value2}|加速|。
+  UpgradedDescription: >-
+    |放逐|手牌、抽牌堆和弃牌堆中的最多 {Value1:plural one='% 张牌' other='% 张牌'}。将等量的 |文文新闻| 加入手牌。
+
+    获得 {Value2}|加速|。
+  Name: 鸟居旋风

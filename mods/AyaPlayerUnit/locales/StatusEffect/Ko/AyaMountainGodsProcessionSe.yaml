@@ -1,0 +1,4 @@
+﻿AyaMountainGodsProcessionSe:
+  Brief: '{PlayerName}가 |가속|을 얻을때, <sprite="ManaSprite" name="P">를 얻습니다.'
+  Description: '{PlayerName}가 |가속|을 얻을때, <sprite="ManaSprite" name="P">를 {Level} 얻습니다.'
+  Name: 산신행차

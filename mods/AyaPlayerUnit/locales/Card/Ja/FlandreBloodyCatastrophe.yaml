@@ -1,0 +1,14 @@
+﻿FlandreBloodyCatastrophe:
+  Description: >-
+    敵全体に{FlandreDamage}ダメージを{FlandreValue1}回与える。
+
+    ライフを{FlandreValue2}回復する。
+
+    この戦闘中、{PlayerName}の攻撃は|精密|を持つ。
+  UpgradedDescription: >-
+    敵全体に{FlandreDamage}ダメージを{FlandreValue1}回与える。
+
+    ライフを{FlandreValue2}回復する。
+
+    この戦闘中、{PlayerName}の攻撃は|精密|を持つ。
+  Name: ブラッディカタストロフ

@@ -1,0 +1,32 @@
+﻿FlandreScarletCasinoSe:
+  Brief: >-
+    For every few |p:random| effect |Flandre| cards activated, gain {Value1} of {Value2} random effects:
+
+    All cards cost less this turn.
+
+    The next few cards are played {Value3:plural one='% more time' other='% more times'}.
+
+    Prevent the next few times {PlayerName} would lose life.
+
+    |Upgrade| random cards in the |battlefield| few times.
+
+    Gain <sprite="ManaSprite" name="P">.
+
+    Gain <sprite="Point" name="Gold">.
+  Description: >-
+    For every {Limit} |p:random| effect |Flandre| cards activated, gain {Value1} of {Value2} random effects:
+
+    All cards cost {Amount1} less this turn.
+
+    The next {Amount2:plural one='% card is' other='% cards are'} played {Value3:plural one='% more time' other='% more times'}.
+
+    Prevent the next {Amount3:plural one='% time' other='% times'} {PlayerName} would lose life.
+
+    |Upgrade| {Amount4} random card{Amount4:plural one='' other='s'} in the |battlefield| {Value4:plural one='% time' other='% times'}.
+
+    Gain {Amount5}.
+
+    Gain {Amount6} <sprite="Point" name="Gold">.
+
+    ({Count:plural one='% card' other='% cards'} left.)
+  Name: Scarlet Casino

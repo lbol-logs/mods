@@ -1,0 +1,10 @@
+﻿FlandreCranberryTrap:
+  Description: >-
+    {PlayerName}のターン終了時、敵全体に{FlandreValue1}ダメージを与える。|精密|
+
+    敵からダメージを受けた時、{Amount}|バリア|を得て、すべての|クランベリートラップ|を失う。
+  UpgradedDescription: >-
+    {PlayerName}のターン終了時、敵全体に{FlandreValue1}ダメージを与える。|精密|
+
+    敵からダメージを受けた時、{Amount}|バリア|を得て、すべての|クランベリートラップ|を失う。
+  Name: クランベリートラップ

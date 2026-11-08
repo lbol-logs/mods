@@ -1,0 +1,16 @@
+﻿FlandreDestroyerinthePalmofOnesHand:
+  Description: >-
+    Deal {FlandreDamage} damage.
+
+    {SelfName} deals {FlandreValue1} more damage for each |Calamity| {PlayerName} has.
+
+    If the target doesn't have known name, |Destroy| it.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage.
+
+    {SelfName} deals {FlandreValue1} more damage for each |Calamity| {PlayerName} has.
+
+    If the target doesn't have known name, |Destroy| it.
+  Name: Destroyer in the Palm of One's Hand
+  DestroyerinthePalmofOnesHand1Flandre: Squeeze, and...
+  DestroyerinthePalmofOnesHand2Flandre: Boom.

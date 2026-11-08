@@ -1,0 +1,5 @@
+﻿AyaFriendMegumu:
+  Description: '{FriendP}|f:监督|: 每当一张|崩坏|或状态牌被|放逐|时，获得 {Mana}。'
+  ExtraDescription1: "{FriendA}|a:剥削|: 失去 {Value1} 点生命，获得{Mana2}并抽 {Value2:plural one='% 张牌' other='% 张牌'}。如果上回合没有|崩坏|和状态牌被 |放逐|，此效果也会触发。"
+  ExtraDescription3: "{FriendU}|u:虹光「光风霁月」|: 对所有敌人造成 {Damage2} 点攻击伤害。每当一张|崩坏|或状态牌被|放逐|时，获得 {Mana3} 并抽 {Value3:plural one='% 张牌' other='% 张牌'}。|精准|"
+  Name: 鸦天狗首领饭纲丸龙

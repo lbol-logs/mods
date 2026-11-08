@@ -1,0 +1,14 @@
+﻿AyaFastShot:
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    使用手牌中的一张随机 |文文新闻|。
+
+    将一张 |文文新闻| 加入手牌。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害。
+
+    使用手牌中的一张随机 |文文新闻|。
+
+    将一张 |文文新闻| 加入手牌。
+  Name: 快速射击

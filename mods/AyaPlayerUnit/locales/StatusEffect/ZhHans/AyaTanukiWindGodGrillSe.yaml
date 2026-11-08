@@ -1,0 +1,7 @@
+﻿AyaTanukiWindGodGrillSe:
+  Brief: >-
+    每当 {OwnerName} 获得 |风神烤架| 时，她获得等量的 |肉汁|。
+
+    {OwnerName} 的 |肉汁| 在回合结束时恢复到固定值。
+  Description: '{OwnerName} 的 |肉汁| 在回合结束时恢复到 {Level}。'
+  Name: 风神烤架

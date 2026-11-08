@@ -1,0 +1,14 @@
+﻿FlandreCrystallizedSolitude:
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |방어| {Block}/|보호막| {Shield}/|그레이즈| {Value1}중 무작위로 얻습니다.
+  UpgradedDescription: >-
+    피해를 {Damage} 줍니다.
+
+    |방어| {Block}/|보호막| {Shield}/|그레이즈| {Value1}중 무작위로 얻습니다.
+  ExtraDescription1: >-
+    피해를 {Damage} 줍니다.
+
+    |방어| {Block}/|보호막| {Shield}/|그레이즈| {Value1}를 얻습니다.
+  Name: 파편화된 고독

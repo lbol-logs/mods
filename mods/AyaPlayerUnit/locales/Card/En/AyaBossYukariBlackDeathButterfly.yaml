@@ -1,0 +1,10 @@
+﻿AyaBossYukariBlackDeathButterfly:
+  Description: >-
+    |When {SelfName} enters the hand|: Gain {Value1} |Poison|.
+
+    |When Exiled|: Return {SelfName} from |Exile| to the discard pile.
+  UpgradedDescription: >-
+    |When {SelfName} enters the hand|: Gain {Value1} |Poison|.
+
+    |When Exiled|: Return {SelfName} from |Exile| to the discard pile.
+  Name: Black Death Butterfly

@@ -1,0 +1,14 @@
+﻿AyaFma:
+  Description: >-
+    |가속|을 {Value1} 얻습니다.
+
+    |화력|을 {Value2} 얻습니다.
+
+    {PlayerName}의 |가속| 4마다, {SelfName}의 |화력|이 {Value3} 증가합니다.
+  UpgradedDescription: >-
+    |가속|을 {Value1} 얻습니다.
+
+    |화력|을 {Value2} 얻습니다.
+
+    {PlayerName}의 |가속| 4마다, {SelfName}의 |화력|이 {Value3} 증가합니다.
+  Name: F = ma

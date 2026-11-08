@@ -1,0 +1,6 @@
+﻿AyaFriendMomiji:
+  Description: '{FriendP}|f:Telegnosis|: |Scry| {Scry}.'
+  ExtraDescription1: '{FriendP2}|f:Chase|: When {PlayerName} attacks, deal {Damage} attack damage to the target(s).'
+  ExtraDescription2: '{FriendP2}|f:Parry|: When {PlayerName} would receive attack damage and lose life from it, gain {PassiveBarrier} |Barrier|.'
+  ExtraDescription3: '{FriendU}|u:Fang Sign「Chewing Satisfaction」|: Deal {Damage2} attack damage to the enemy with the least life. |Expel|: Gain {Value1} life. |Accurate|'
+  Name: Momiji, Petty Patrol Tengu

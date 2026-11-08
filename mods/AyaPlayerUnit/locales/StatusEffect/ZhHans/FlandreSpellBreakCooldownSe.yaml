@@ -1,0 +1,4 @@
+﻿FlandreSpellBreakCooldownSe:
+  Brief: '{OwnerName} 在一定回合内免疫 |咒言破碎|。'
+  Description: "{OwnerName} {Duration:plural one='直到回合结束' other='在接下来的 % 回合内'} 免疫 |咒言破碎|。"
+  Name: 咒言破碎冷却

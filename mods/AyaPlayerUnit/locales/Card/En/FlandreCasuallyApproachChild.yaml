@@ -1,0 +1,10 @@
+﻿FlandreCasuallyApproachChild:
+  Description: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Gain {FlandreValue1} |Calamity|.
+  UpgradedDescription: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Gain {FlandreValue1} |Calamity|.
+  Name: Casually Approach Child

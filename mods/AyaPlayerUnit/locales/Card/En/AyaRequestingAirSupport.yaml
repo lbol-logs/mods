@@ -1,0 +1,4 @@
+﻿AyaRequestingAirSupport:
+  Description: Summon |{Value1:plural one='% Unmanned Aerial Crow' other='% Unmanned Aerial Crows'}| to the hand.
+  UpgradedDescription: Summon |{Value1:plural one='% Unmanned Aerial Crow' other='% Unmanned Aerial Crows'}| to the hand.
+  Name: Requesting Air Support

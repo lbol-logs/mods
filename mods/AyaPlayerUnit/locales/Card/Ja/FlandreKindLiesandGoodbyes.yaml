@@ -1,0 +1,19 @@
+﻿FlandreKindLiesandGoodbyes:
+  Description: >-
+    {FlandreShield}|バリア|を得る。
+
+    |火力|{FlandreValue1}と|霊力|{FlandreValue1}を得る。
+
+    {PlayerName}が倒される時、すべての|デバフ|を解除し、ライフを最大まで回復し、{FlandreValue2:plural one='%ターン' other='%ターン'}の間ライフを失わない。
+
+    その後、敵全体に{Value3}ダメージを与え、ライフが{Value3}以下の敵を|破壊|し、{SelfName}を戦闘およびライブラリから除外する。
+  UpgradedDescription: >-
+    {FlandreShield}|バリア|を得る。
+
+    |火力|{FlandreValue1}と|霊力|{FlandreValue1}を得る。
+
+    {PlayerName}が倒される時、すべての|デバフ|を解除し、ライフを最大まで回復し、{FlandreValue2:plural one='%ターン' other='%ターン'}の間ライフを失わない。
+
+    その後、敵全体に{Value3}ダメージを与え、ライフが{Value3}以下の敵を|破壊|し、{SelfName}を戦闘およびライブラリから除外する。
+  Name: 優しい嘘と最後の別れ
+  DetailText: '{SelfName}は戦闘中にランダムに生成されず、複製もできない。'

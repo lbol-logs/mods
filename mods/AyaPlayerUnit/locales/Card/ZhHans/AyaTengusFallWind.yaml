@@ -1,0 +1,4 @@
+﻿AyaTengusFallWind:
+  Description: 接下来的 {Value1:plural one='% 张牌' other='% 张牌'} 会被使用两次。
+  UpgradedDescription: 接下来的 {Value1:plural one='% 张牌' other='% 张牌'} 会被使用两次。
+  Name: 天狗的秋风

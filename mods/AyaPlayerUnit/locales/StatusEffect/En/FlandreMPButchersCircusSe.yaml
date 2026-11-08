@@ -1,0 +1,4 @@
+﻿FlandreMPButchersCircusSe:
+  Brief: Whenever an enemy is defeated, all players gain |Firepower| and life.
+  Description: Whenever an enemy is defeated, all players gain {Level} |Firepower| and {Count} life.
+  Name: Butcher's Circus

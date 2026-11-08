@@ -1,0 +1,4 @@
+﻿FlandreBloodisFuelSe:
+  Brief: Unspent mana isn't lost for a certain number of turns.
+  Description: Unspent mana isn't lost for the next {Duration:plural one='% turn' other='% turns'}.
+  Name: Blood is Fuel

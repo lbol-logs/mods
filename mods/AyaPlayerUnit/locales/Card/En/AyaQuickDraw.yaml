@@ -1,0 +1,10 @@
+﻿AyaQuickDraw:
+  Description: >-
+    Gain {Value1} |Acceleration|.
+
+    Play the top card of the draw pile.
+  UpgradedDescription: >-
+    Gain {Value1} |Acceleration|.
+
+    Play the top card of the draw pile.
+  Name: Quick Draw

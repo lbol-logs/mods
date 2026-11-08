@@ -1,0 +1,22 @@
+﻿FlandreColorofMadness:
+  Description: >-
+    |Offering| {Value1}.
+
+    Whenever an attack card is activated, play {FlandreValue2} random |Crystal{FlandreValue2:plural one='' other='s'}|.
+  UpgradedDescription: >-
+    |Offering| {Value1}.
+
+    Whenever an attack card is activated, play {FlandreValue2} random |Crystal{FlandreValue2:plural one='' other='s'}|.
+  PhantasmModeDescription: >-
+    |Offering| {Value1}.
+
+    Whenever an attack card is activated, play {FlandreValue2} random |Crystal{FlandreValue2:plural one='' other='s'}|.
+
+    Gain {Value3} |Madness|.
+  PhantasmModeUpgradedDescription: >-
+    |Offering| {Value1}.
+
+    Whenever an attack card is activated, play {FlandreValue2} random |Crystal{FlandreValue2:plural one='' other='s'}|.
+
+    Gain {Value3} |Madness|.
+  Name: Color of Madness

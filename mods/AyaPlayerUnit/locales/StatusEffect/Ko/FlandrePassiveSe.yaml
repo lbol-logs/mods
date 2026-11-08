@@ -1,0 +1,10 @@
+﻿FlandrePassiveSe:
+  Brief: >-
+    카드 보상 선택 횟수가 {Value1} 증가했습니다.
+
+    {PlayerName}에게 걸린 |취약|의 효과가 {Value2}% 감소합니다.
+  Description: >-
+    카드 보상 선택 횟수가 {Value1} 증가했습니다.
+
+    {PlayerName}에게 걸린 |취약|의 효과가 {Value2}% 감소합니다.
+  Name: 붉은 혈액의 악마

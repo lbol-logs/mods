@@ -1,0 +1,4 @@
+﻿AyaSickleWeaselVeilingSe:
+  Brief: '{PlayerName}が攻撃を0ダメージで受けた時、攻撃してきた相手にダメージを与える。'
+  Description: '{PlayerName}が攻撃を0ダメージで受けた時、攻撃してきた相手に{Level}ダメージを与える。'
+  Name: 鎌鼬ベーリング

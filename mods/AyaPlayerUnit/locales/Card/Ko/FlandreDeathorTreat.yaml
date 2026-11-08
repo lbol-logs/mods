@@ -1,0 +1,6 @@
+﻿FlandreDeathorTreat:
+  Description: '|선택|: |파멸|을 {Value1} 얻거나, |파편화된 악의+|를 {Value2}장 손에 추가합니다.'
+  UpgradedDescription: '|선택|: |파멸|을 {Value1} 얻거나, |파편화된 악의+|를 {Value2}장 손에 추가합니다.'
+  ExtraDescription1: '|파멸|을 {Value1} 얻습니다.'
+  ExtraDescription2: '|파편화된 악의+|를 {Value2}장 손에 추가합니다.'
+  Name: Death or Treat

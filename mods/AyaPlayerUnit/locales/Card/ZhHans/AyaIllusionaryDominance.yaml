@@ -1,0 +1,14 @@
+﻿AyaIllusionaryDominance:
+  Description: >-
+    造成 {Damage} 点伤害，重复 {Times} 次。
+
+    额外造成等同于{PlayerName}的|加速|的伤害。
+
+    每有 {Value3}|加速|，便额外造成一次伤害，最多 {Value2} 次。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害，重复 {Times} 次。
+
+    额外造成等同于{PlayerName}的|加速|的伤害。
+
+    每有 {Value3}|加速|，便额外造成一次伤害，最多 {Value2} 次。
+  Name: 幻影支配

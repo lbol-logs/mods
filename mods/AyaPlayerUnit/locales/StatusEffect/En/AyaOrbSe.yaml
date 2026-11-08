@@ -1,0 +1,18 @@
+﻿AyaOrbSe:
+  Brief: >-
+    At the start of {OwnerName}'s turn, they lose only half of their |Block| instead of all of it.
+
+    {OwnerName} receives less damage.
+
+    Whenever the draw pile is shuffled, gain {Value1} |Creator's Legacy|.
+
+    At the end of {OwnerName}'s turn, lose {Value2} |Creator's Legacy|.
+  Description: >-
+    At the start of {OwnerName}'s turn, they lose only half of their |Block| instead of all of it.
+
+    {OwnerName} receives {Level}% less damage.
+
+    Whenever the draw pile is shuffled, gain {Value1} |Creator's Legacy|.
+
+    At the end of {OwnerName}'s turn, lose {Value2} |Creator's Legacy|.
+  Name: Creator's Legacy

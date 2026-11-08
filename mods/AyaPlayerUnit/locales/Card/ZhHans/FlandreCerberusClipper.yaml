@@ -1,0 +1,14 @@
+﻿FlandreCerberusClipper:
+  Description: >-
+    对敌人造成 {Damage} 点伤害 {Value1:plural one='% 次' other='% 次'}。
+
+    施加 {Value1} 回合|虚弱|和|易伤|。
+
+    恢复 {Value1} 点生命。
+  UpgradedDescription: >-
+    对敌人造成 {Damage} 点伤害 {Value1:plural one='% 次' other='% 次'}。
+
+    施加 {Value1} 回合|虚弱|和|易伤|。
+
+    恢复 {Value1} 点生命。
+  Name: 三首战车

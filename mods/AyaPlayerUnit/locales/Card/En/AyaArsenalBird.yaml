@@ -1,0 +1,26 @@
+﻿AyaArsenalBird:
+  Description: >-
+    Gain {Value1} |Defense Matrix|.
+
+    At the start of {PlayerName}'s turn, summon |Unmanned Aerial Crow| to the hand.
+
+    This effect does not stack.
+  UpgradedDescription: >-
+    Gain {Value1} |Defense Matrix|.
+
+    At the start of {PlayerName}'s turn, summon |Unmanned Aerial Crow| to the hand.
+
+    This effect does not stack.
+
+    Trigger {SelfName} once.
+  PhantasmModeDescription: >-
+    At the start of {PlayerName}'s turn, summon |Unmanned Aerial Crow| to the hand.
+
+    This effect does not stack.
+  PhantasmModeUpgradedDescription: >-
+    At the start of {PlayerName}'s turn, summon |Unmanned Aerial Crow| to the hand.
+
+    This effect does not stack.
+
+    Trigger {SelfName} once.
+  Name: Arsenal Bird

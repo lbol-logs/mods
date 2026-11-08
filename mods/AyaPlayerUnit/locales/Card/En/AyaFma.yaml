@@ -1,0 +1,14 @@
+﻿AyaFma:
+  Description: >-
+    Gain {Value1} |Acceleration|.
+
+    Gain {Value2} |Firepower|.
+
+    For each 4 |Acceleration| {PlayerName} has, increase {SelfName}'s |Firepower| by {Value3}.
+  UpgradedDescription: >-
+    Gain {Value1} |Acceleration|.
+
+    Gain {Value2} |Firepower|.
+
+    For each 4 |Acceleration| {PlayerName} has, increase {SelfName}'s |Firepower| by {Value3}.
+  Name: F = ma

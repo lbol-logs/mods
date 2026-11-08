@@ -1,0 +1,27 @@
+﻿AyaAdventoftheDivineGrandson:
+  Description: >-
+    获得 {Mana}。
+
+    抽牌直到手牌满。
+
+    {PlayerName} 免疫所有负面状态。
+
+    所有卡牌被使用两次。
+
+    |消耗品【{ToolPlayableTimes}】|
+  UpgradedDescription: >-
+    获得 {Mana}。
+
+    抽牌直到手牌满。
+
+    {PlayerName} 免疫所有负面状态。
+
+    所有卡牌被使用两次。
+
+    |消耗品【{ToolPlayableTimes}】|
+  PhantasmModeDescription: 此卡在幻影模式中被禁用。
+  PhantasmModeUpgradedDescription: 此卡在幻影模式中被禁用。
+  Name: 神孙降临
+  DetailText: '{SelfName} 无法在战斗中随机生成，也无法被复制。'
+  AdventoftheDivineGrandson1Aya: ''
+  AdventoftheDivineGrandson2Aya: ''

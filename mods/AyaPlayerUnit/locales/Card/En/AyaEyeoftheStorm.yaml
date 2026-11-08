@@ -1,0 +1,14 @@
+﻿AyaEyeoftheStorm:
+  Description: >-
+    Gain {Block} |Block|.
+
+    Gain {Value1} |Reflection|.
+
+    {SelfName} is also affected by |Acceleration|.
+  UpgradedDescription: >-
+    Gain {Block} |Block|.
+
+    Gain {Value1} |Reflection|.
+
+    {SelfName} is also affected by |Acceleration|.
+  Name: Eye of the Storm

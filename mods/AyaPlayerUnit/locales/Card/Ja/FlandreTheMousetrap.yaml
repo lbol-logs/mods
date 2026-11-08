@@ -1,0 +1,14 @@
+﻿FlandreTheMousetrap:
+  Description: >-
+    {FlandreShield}|バリア|を得る。
+
+    |災禍|{FlandreValue1}を得る。
+
+    {PlayerName}の次のターン開始時、前のターンに受けたダメージに等しいダメージをすべての敵に与える。
+  UpgradedDescription: >-
+    {FlandreShield}|バリア|を得る。
+
+    |災禍|{FlandreValue1}を得る。
+
+    {PlayerName}の次のターン開始時、前のターンに受けたダメージに等しいダメージをすべての敵に与える。
+  Name: ネズミ捕り

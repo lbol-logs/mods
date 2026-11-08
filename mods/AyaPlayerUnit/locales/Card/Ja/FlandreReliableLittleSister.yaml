@@ -1,0 +1,22 @@
+﻿FlandreReliableLittleSister:
+  Description: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    {PlayerName}の最大ライフに等しい追加の|ブロック|を得る。
+
+    ({Amount})
+  UpgradedDescription: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    {PlayerName}の最大ライフに等しい追加の|ブロック|を得る。
+
+    ({Amount})
+  NonbattleDescription: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    {PlayerName}の最大ライフに等しい追加の|ブロック|を得る。
+  UpgradedNonbattleDescription: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    {PlayerName}の最大ライフに等しい追加の|ブロック|を得る。
+  Name: 頼れる妹

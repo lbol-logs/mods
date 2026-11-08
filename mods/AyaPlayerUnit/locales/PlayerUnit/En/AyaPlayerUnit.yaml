@@ -1,0 +1,151 @@
+﻿AyaPlayerUnit:
+  Title: Traditional Reporter of Fantasy
+  AyaSelect: Select
+  AyaChallengeYukariName: Challenge
+  AyaChallengeYukariDescription: Do you really want to challenge {0}?
+  AyaBribery1Megumu: You're quite strange today, Aya. attacking me and paying me at the same time.
+  AyaBribery2Aya: Wait. You're not blocking my way?
+  AyaBribery3Megumu: Why would I sabotage my own business?
+  AyaBribery4Megumu: However you started attacking me without saying anything, and I don't reject challengers.
+  AyaBribery5Aya: Uh... I don't mean to challenge you. Please have mercy.
+  AyaBribery6Megumu: I'll decide your punishment later. For now, I should reward you for all that money...
+  AyaBribery7Megumu: Right. I heard you're collecting those cards? I'll give you my card.
+  AyaBribery8Aya: Of course! I am truly honored to receive your gift!
+  AyaBribery9Aya: >-
+    Whaaaaaaat? What a Pain! Do I really have to carry her card?
+
+    Shit Shit Shit Shit
+  AyaBribery10Megumu: Your dialogue is mixed up~
+  AyaFastAttack1Aya: Nope.
+  AyaFastAttack2Aya: Ayaya.
+  AyaFastAttack3Aya: Try harder.
+  AyaExtraBoss1SukusukuAya: >-
+    Suku?
+
+    (Are you looking for a challenge?)
+  AyaExtraBossFlandre1SukusukuAya: >-
+    Suku...
+
+    (Let's rewind the time a bit...)
+  AyaExtraBossFlandre2Aya: Huh?
+  AyaExtraBossFlandre3Flandre: Eh.
+  AyaExtraBossFlandre4Flandre: That's it?
+  AyaExtraBossFlandre5Aya: My, I never expected to see Scarlet Devil Mansion's younger sister around here.
+  AyaExtraBossFlandre6Flandre: Hmm? You're... {0}, right?
+  AyaExtraBossFlandre7Aya: That's right! As a righteous and honest reporter, I was about to interview the culprit of this incident.
+  AyaExtraBossFlandre8Aya: Until you defeated her in a second.
+  AyaExtraBossFlandre9Flandre: Aren't culprits of incidents usually strong?
+  AyaExtraBossFlandre10Aya: Not always. Besides, there are few people who can withstand your power.
+  AyaExtraBossFlandre11Flandre: I was expecting a sturdy toy...
+  AyaExtraBossFlandre12Flandre: '...How strong are you?'
+  AyaExtraBossFlandre13Aya: Well, at least stronger than that amanojaku with her magic items.
+  AyaExtraBossFlandre14Flandre: I'm bored. Fight me.
+  AyaExtraBossFlandre15Aya: Ayaya. Actually that was a joke and I'm the weakest crow tengu...
+  AyaExtraBossFlandre16Flandre: Don't lie. Do you think I forgot back when you interviewed me?
+  AyaExtraBossFlandre17Flandre: Dodging all my attacks, while taking a photo, and not even fighting back.
+  AyaExtraBossFlandre18Flandre: So stop whining and come along!
+  AyaExtraBossFlandre19Aya: Wha-
+  AyaExtraBossFlandre20Aya: Help! I'm being kidnapped!
+  AyaExtraBossFlandre21Flandre: Hey, stop resisting. Or I'll destroy the sun so we can fight here.
+  AyaExtraBossFlandre22Aya: Ayayayayayayayaya!!!
+  AyaSkipDialogue: Do you want to skip dialogue?
+  AyaChapterSelect: Chapter Select
+  AyaChapter1Act1AyaTanukiIntro1AyaTanuki: Agh! What are you doing!
+  AyaChapter1Act1AyaTanukiIntro2Aya: You can't even avoid that, but you disguised as me?
+  AyaChapter1Act1AyaTanukiIntro3Aya: Now it's time to pay for your sins.
+  AyaChapter1Act1AyaTanukiIntro4AyaTanuki: Uh oh...
+  AyaChapter1Act21AyaTanuki: So, what happened?
+  AyaChapter1Act22Aya: Kaguya was holding yet another exhibition. This time, guest could take one exhibit of their choice.
+  AyaChapter1Act23Aya: Obviously her treasures are not included, but apparently someone decide to ignore that rule.
+  AyaChapter1Act24Aya: She said anyone bringing back the lost treasure can take one of her treasures. And now everyone is treasure hunting.
+  AyaChapter1Act25AyaTanuki: I saw a lot of people rushing out from Eientei, but didn't know there was an exhibition.
+  AyaChapter1Act26AyaTanuki: Are you looking for a treasure too?
+  AyaChapter1Act27Aya: No, I'm looking for a scoop!
+  AyaChapter1Act28Aya: Who is this mysterious person that dares to steal princess Kaguya's treasure?
+  AyaChapter1Act29Aya: We've already seen many exhibits on our way here. What impact will this have on Gensokyo?
+  AyaChapter1Act210Aya: If this is part of a larger conspiracy, who is behind it?
+  AyaChapter1Act211Aya: Ayayaya! Isn't this interesting!?
+  AyaChapter1Act212AyaTanuki: Maybe?
+  AyaChapter1Act213Aya: What about you? Are you interested in treasure?
+  AyaChapter1Act214AyaTanuki: What am I gonna do with shiny object? I'll pass.
+  AyaChapter1Act215Aya: '...'
+  AyaChapter1Act216AyaTanuki: Why?
+  AyaChapter1Act217Aya: Just how pure and innocent are you...
+  AyaChapter1Act218Aya: Even fairies are trying to acquire the treasure...
+  AyaChapter1Act219AyaTanuki: Ahem, I'll take that as a compliment.
+  AyaChapter1Act220Aya: Let's keep moving.
+  AyaChapter1Act221Aya: From my information, The culprit fled to Youkai Mountain.
+  AyaChapter1Act31Aya: I think you shouldn't follow me from this point.
+  AyaChapter1Act32AyaTanuki: But...
+  AyaChapter1Act33Aya: It's too dangerous, especially since we don't know what the culprit is capable of.
+  AyaChapter1Act34Aya: This place is relatively safe so just wait here. I promise I'll return with good news.
+  AyaChapter1Act35AyaTanuki: If you say so...
+  AyaChapter1Act36AyaTanuki: Should be fine if I follow quietly.
+  AyaChapter1Act4SeijaPhase11Seija: Not bad for a third-rate newspaper reporter.
+  AyaChapter1Act4SeijaPhase12Aya: Oh, my skills as a reporter are well known.
+  AyaChapter1Act4SeijaPhase13Aya: So is that all you got? Then...
+  AyaChapter1Act4SeijaPhase14Seija: Not at all, crow! You haven't seen anything yet!
+  AyaChapter1Act4SeijaPhase15Seija: Let me show you what it means to make the impossible possible!
+  AyaChapter1Act4SeijaPhase16Aya: Now this is quite an interesting interviewee...
+  AyaChapter1Act4SeijaPhase2Hidden1Aya: You see, if I could make the impossible possible, I wouldn't have called it impossible from the beginning.
+  AyaChapter1Act4SeijaPhase2Hidden2Koishi: '...?'
+  AyaChapter1Act4SeijaPhase21Seija: Stupid reporter taken care of... huh?
+  AyaChapter1Act4SeijaPhase22Seija: Are you still holding on? Pretty impressive.
+  AyaChapter1Act4SeijaPhase23Aya: Journalists have a duty to spread the truth...
+  AyaChapter1Act4SeijaPhase24Seija: Truth? Well, I do have truth.
+  AyaChapter1Act4SeijaPhase25Seija: Come out, everyone.
+  AyaChapter1Act4SeijaPhase26Reimu: Thanks to your damn newspaper, I became Hakurei's gangster.
+  AyaChapter1Act4SeijaPhase27Marisa: I have never stolen anything. Stop taking pictures every time I borrow something daze.
+  AyaChapter1Act4SeijaPhase28Sakuya: My lady has ordered me to deal with fake reporter who are creating scandals that don't exist.
+  AyaChapter1Act4SeijaPhase29Cirno: I'm not sure... but wouldn't it be better to stop lying?
+  AyaChapter1Act4SeijaPhase210Seija: The truth is, you are no better than me.
+  AyaChapter1Act4SeijaPhase211Aya: Ayaya...
+  AyaChapter1Act4SeijaPhase212Seija: Any last words before 'we' knock you out?
+  AyaChapter1Act4SeijaPhase213Aya: Ayayayayayaya!
+  AyaChapter1Act4SeijaPhase214Seija: What the...
+  AyaChapter1Act4SeijaPhase215Aya: Look at this! This is the scene where the culprit of the incident and the solvers colluded!
+  AyaChapter1Act4SeijaPhase216Aya: Is this really true? Is there really no such thing as justice in Gensokyo?
+  AyaChapter1Act4SeijaPhase217Aya: You can't miss such precious scene! The title is...
+  AyaChapter1Act4SeijaPhase3Normal1Cirno: I'm sorry, Aya...
+  AyaChapter1Act4SeijaPhase3True1Cirno: Aya, I...
+  AyaChapter1Act4SeijaPhase3True2Aya: There's no need to apologize. I am not a very honest reporter.
+  AyaChapter1Act4SeijaPhase3True3Aya: But this time, I promise to write an article I can proudly show you.
+  AyaChapter1Act4SeijaPhase3True4Cirno: '...'
+  AyaChapter1Act4SeijaPhase3True5Cirno: Can you promise me one more thing?
+  AyaChapter1Act4SeijaPhase3True6Aya: Aya?
+  AyaChapter1Act4SeijaPhase3True7Cirno: Don't lose.
+  AyaChapter1Act4SeijaPhase3True8Aya: Of course!
+  AyaChapter1Act4SeijaPhase31Seija: There are still a lot of people who hate you!
+  AyaChapter1Act4SeijaPhase32Megumu: I'm not.
+  AyaChapter1Act4SeijaPhase33Seija: What?
+  AyaChapter1Act4SeijaPhase34Seija: Are you betraying me?
+  AyaChapter1Act4SeijaPhase35Megumu: Since when was I your ally?
+  AyaChapter1Act4SeijaPhase36Megumu: Breaking into the mountain, making a mess, and asking for help?
+  AyaChapter1Act4SeijaPhase37Megumu: It's time to kick out unwanted guests.
+  AyaChapter1Act4SeijaPhase38Seija: I'm not done yet! I still have strong allies!
+  AyaChapter1Act4SeijaPhase39Seija: Are you...
+  AyaChapter1Act4SeijaPhase310Seija: Are you a monster?
+  AyaChapter1Act4SeijaPhase311Seija: Wait, wait!
+  AyaChapter1Act4SeijaPhase312Seija: I'm so sorry! I'll return the branch!
+  AyaChapter1Act4SeijaPhase3Normal2Megumu: I guess it's over.
+  AyaChapter1Act4SeijaPhase3Normal3Megumu: Let's go, Aya.
+  AyaChapter1Act4SeijaPhase3Normal4Megumu: Aya is really scary when she gets angry~
+  AyaChapter1Act4SeijaPhase3True9Megumu: I guess it's over.
+  AyaChapter1Act4SeijaPhase3True10Megumu: Let's go, Aya.
+  AyaChapter1Act4SeijaPhase3True11Aya: There is someone waiting for me.
+  AyaChapter1Act4SeijaPhase3True12Megumu: Oh?
+  AyaChapter1Act4SeijaPhase3True13Aya: She is waiting for the good news I promised.
+  AyaChapter1Act4SeijaPhase3True14Megumu: How can I stop you? Do your thing.
+  AyaChapter1Act4SeijaPhase3True15Aya: Thank you, Iizunamaru-sama.
+  AyaChapter1Act4SeijaPhase3True16Megumu: '...'
+  AyaChapter1Act4SeijaPhase3True17Megumu: Why don't you come out? Did you think I wouldn't notice you watching?
+  AyaChapter1Act4SeijaPhase3True18Megumu: Is the answer silence... Let me give you an advice.
+  AyaChapter1Act4SeijaPhase3True19Megumu: Don't touch my Aya.
+  AyaChapter1Act4SeijaPhase3True20Okina: '...'
+  AyaChapter1Act4SeijaPhase3True21AyaTanuki: '*huff* *huff*'
+  AyaChapter1Act4SeijaPhase3True22AyaTanuki: Miss Aya... too fast...
+  AyaChapter1Act4SeijaPhase3True23AyaTanuki: She must've already defeated the culprit.
+  AyaChapter1Act4SeijaPhase3True24AyaTanuki: What's that?
+  AyaChapter1Act4SeijaPhase3True25AyaTanuki: A branch with jewels... isn't this the lost treasure?
+  AyaChapter1Act4SeijaPhase3True26AyaTanuki: So...
+  AyaChapter1Act4SeijaPhase3True27AyaTanuki: Where is Miss Aya?

@@ -1,0 +1,6 @@
+﻿FlandreFriendOkina:
+  Description: '{FriendP}|f:秘术之力|:每当消耗{Mana}时，获得 {PassiveBarrier} 点|护盾|。(剩余 {Count} 次'
+  NonbattleDescription: '{FriendP}|f:秘术之力|:每当消耗{Mana}时，获得 {PassiveBarrier} 点|护盾|。'
+  ExtraDescription1: '{FriendA}|a:季相解放|:从{Value2}种 |季节| 中选择1种。 {SelfName} 获得其效果。'
+  ExtraDescription3: '{FriendU}|u:「隐秘的时空幻游」|:于{PlayerName}回合开始时，选择 {Value3} 张完全随机的稀有卡牌加入手牌。它们临时消耗{Mana2}并具有|放逐|和|虚无|效果。'
+  Name: 绝对秘神隐岐奈

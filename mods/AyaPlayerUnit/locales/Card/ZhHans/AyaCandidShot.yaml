@@ -1,0 +1,14 @@
+﻿AyaCandidShot:
+  Description: >-
+    造成 {Damage} 点伤害，重复 {Times} 次。
+
+    施加 {Value1}|锁定|。
+
+    |手牌中|: 每当一张|崩坏|或状态牌被|放逐|时，{SelfName} |临时消耗| 减少 {Mana}。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害，重复 {Times} 次。
+
+    施加 {Value1}|锁定|。
+
+    |手牌中|: 每当一张|崩坏|或状态牌被|放逐|时，{SelfName} |临时消耗| 减少 {Mana}。
+  Name: 直击

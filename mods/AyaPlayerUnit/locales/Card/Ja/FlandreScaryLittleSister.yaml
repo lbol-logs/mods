@@ -1,0 +1,14 @@
+﻿FlandreScaryLittleSister:
+  Description: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    すべての敵に|脱力|{FlandreValue1}を与える。
+
+    |廃棄された時|：{FlandreMana}を得て、カードを{FlandreValue2}枚引く。
+  UpgradedDescription: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    すべての敵に|脱力|{FlandreValue1}を与える。
+
+    |廃棄された時|：{FlandreMana}を得て、カードを{FlandreValue2}枚引く。
+  Name: おそろしい妹さま

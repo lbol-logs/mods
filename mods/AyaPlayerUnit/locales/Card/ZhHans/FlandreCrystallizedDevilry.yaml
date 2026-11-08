@@ -1,0 +1,18 @@
+﻿FlandreCrystallizedDevilry:
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    随机恢复 {Value1} 点生命、{Value2} <sprite="Point" name="Gold"> 或 {Value2} <sprite="Point" name="Power">。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害。
+
+    随机恢复 {Value1} 点生命、{Value2} <sprite="Point" name="Gold"> 或 {Value2} <sprite="Point" name="Power">。
+  ExtraDescription1: >-
+    造成 {Damage} 点伤害。
+
+    恢复 {Value1} 点生命、{Value2} <sprite="Point" name="Gold"> 和 {Value2} <sprite="Point" name="Power">。
+  Name: 残暴水晶
+  FlavorText: >-
+    "已知的恶魔总比未知的恶魔好！"
+
+    - 芙兰朵露·斯卡雷特

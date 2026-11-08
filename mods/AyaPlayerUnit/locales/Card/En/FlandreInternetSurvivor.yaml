@@ -1,0 +1,18 @@
+﻿FlandreInternetSurvivor:
+  Description: >-
+    Remove all debuffs from {PlayerName}.
+
+    Gain {FlandreValue1}% life. ({Amount})
+  UpgradedDescription: >-
+    Remove all debuffs from {PlayerName}.
+
+    Gain {FlandreValue1}% life. ({Amount})
+  NonbattleDescription: >-
+    Remove all debuffs from {PlayerName}.
+
+    Gain {FlandreValue1}% life.
+  UpgradedNonbattleDescription: >-
+    Remove all debuffs from {PlayerName}.
+
+    Gain {FlandreValue1}% life.
+  Name: Internet Survivor

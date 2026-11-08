@@ -1,0 +1,14 @@
+﻿FlandreMPBullofPhalaris:
+  Description: >-
+    いずれかのプレイヤーが状態異常によるダメージを受けるたび、そのプレイヤーは敵全体に{FlandreValue1}ダメージを与える。
+
+    全プレイヤーに|業火|{Value2}与える。
+
+    |代償|{Mana}。
+  UpgradedDescription: >-
+    いずれかのプレイヤーが状態異常によるダメージを受けるたび、そのプレイヤーは敵全体に{FlandreValue1}ダメージを与える。
+
+    全プレイヤーに|業火|{Value2}与える。
+
+    |代償|{Mana}。
+  Name: ファラリスの雄牛

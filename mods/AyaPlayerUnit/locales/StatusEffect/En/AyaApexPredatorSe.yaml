@@ -1,0 +1,4 @@
+﻿AyaApexPredatorSe:
+  Brief: Whenever {PlayerName} takes attack damage, reduce it by equal to {PlayerName}'s |Acceleration| and lose {Value} |Acceleration|.
+  Description: Whenever {PlayerName} takes attack damage, reduce it by equal to {PlayerName}'s |Acceleration| and lose {Value} |Acceleration|.
+  Name: Apex Predator

@@ -1,0 +1,14 @@
+﻿FlandreCerberusClipper:
+  Description: >-
+    Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.
+
+    Apply {FlandreValue2} |Weak| and |Vulnerable|.
+
+    Gain {Value3} life.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.
+
+    Apply {FlandreValue2} |Weak| and |Vulnerable|.
+
+    Gain {Value3} life.
+  Name: Cerberus Clipper

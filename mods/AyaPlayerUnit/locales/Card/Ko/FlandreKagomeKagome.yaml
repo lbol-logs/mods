@@ -1,0 +1,10 @@
+﻿FlandreKagomeKagome:
+  Description: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    다음 {Value1}개의 공격 카드가 {PlayerName}의 |보호막| 수치만큼 추가 피해를 줍니다.
+  UpgradedDescription: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    다음 {Value1}개의 공격 카드가 {PlayerName}의 |보호막| 수치만큼 추가 피해를 줍니다.
+  Name: 카고메카고메

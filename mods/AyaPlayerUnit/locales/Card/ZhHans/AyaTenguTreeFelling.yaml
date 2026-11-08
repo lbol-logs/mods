@@ -1,0 +1,10 @@
+﻿AyaTenguTreeFelling:
+  Description: >-
+    获得 {Block}|格挡|和 {Shield}|护盾|。
+
+    在{PlayerName}回合结束时，减少 {SelfName} 的|护盾|和|护盾|{Value1}。
+  UpgradedDescription: >-
+    获得 {Block}|格挡|和 {Shield}|护盾|。
+
+    在{PlayerName}回合结束时，减少 {SelfName} 的|护盾|和|护盾|{Value1}。
+  Name: 天狗伐木

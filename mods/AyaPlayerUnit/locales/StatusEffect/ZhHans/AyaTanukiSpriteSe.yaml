@@ -1,0 +1,12 @@
+﻿AyaTanukiSpriteSe:
+  Brief: >-
+    |精灵| 增加。|精灵| 为 {OwnerName} 补充水分。
+
+    |d:（此效果无效。）|
+  Description: >-
+    获得 {Level} |精灵|。
+
+    |精灵| 为 {OwnerName} 补充水分。
+
+    |d:（此效果无效。）|
+  Name: 精灵

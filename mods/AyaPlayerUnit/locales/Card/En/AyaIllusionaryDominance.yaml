@@ -1,0 +1,14 @@
+﻿AyaIllusionaryDominance:
+  Description: >-
+    Deal {Damage} damage {Times} times.
+
+    Deal additional damage equal to {PlayerName}'s |Acceleration|.
+
+    Deal that damage an additional time for each {Value3} |Acceleration|, up to {Value2} times.
+  UpgradedDescription: >-
+    Deal {Damage} damage {Times} times.
+
+    Deal additional damage equal to {PlayerName}'s |Acceleration|.
+
+    Deal that damage an additional time for each {Value3} |Acceleration|, up to {Value2} times.
+  Name: Illusionary Dominance

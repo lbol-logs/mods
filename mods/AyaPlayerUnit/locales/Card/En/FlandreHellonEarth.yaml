@@ -1,0 +1,7 @@
+﻿FlandreHellonEarth:
+  Description: When |Hellfire| and |Brimstone| would trigger, they trigger {FlandreValue1} additional time{FlandreValue1:plural one='' other='s'}.
+  UpgradedDescription: >-
+    When |Hellfire| and |Brimstone| would trigger, they trigger {FlandreValue1} additional time{FlandreValue1:plural one='' other='s'}.
+
+    Apply {FlandreValue2} |Hellfire| to each enemy.
+  Name: Hell on Earth

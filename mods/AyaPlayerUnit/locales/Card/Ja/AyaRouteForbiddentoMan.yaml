@@ -1,0 +1,20 @@
+﻿AyaRouteForbiddentoMan:
+  Description: '{PlayerName}のターン終了時、そのターン中に|廃棄|したカードの枚数だけランダムな敵に{Damage}ダメージと|ロックオン|{Value1}を与える。それは|精密|を持つ。最大{Value2}回まで。'
+  UpgradedDescription: >-
+    {PlayerName}のターン終了時、そのターン中に|廃棄|したカードの枚数だけランダムな敵に{Damage}ダメージと|ロックオン|{Value1}を与える。それは|精密|を持つ。最大{Value2}回まで。
+
+    |充填|：{Mana}を得る。
+  UpgradedExtraDescription1: >-
+    {PlayerName}のターン終了時、そのターン中に|廃棄|したカードの枚数だけランダムな敵に{Damage}ダメージと|ロックオン|{Value1}を与える。それは|精密|を持つ。最大{Value2}回まで。
+
+    |d:充填:{Mana}を得る。|
+  PhantasmModeDescription: '{PlayerName}のターン終了時、そのターン中に|廃棄|したカードの枚数だけランダムな敵に{Damage}ダメージを与える。それは|精密|を持つ。最大{Value2}回まで。'
+  PhantasmModeUpgradedDescription: >-
+    {PlayerName}のターン終了時、そのターン中に|廃棄|したカードの枚数だけランダムな敵に{Damage}ダメージを与える。それは|精密|を持つ。最大{Value2}回まで。
+
+    |充填|：{Mana}を得る。
+  PhantasmModeUpgradedExtraDescription1: >-
+    {PlayerName}のターン終了時、そのターン中に|廃棄|したカードの枚数だけランダムな敵に{Damage}ダメージを与える。それは|精密|を持つ。最大{Value2}回まで。
+
+    |d:充填:{Mana}を得る。|
+  Name: 人間禁制の道

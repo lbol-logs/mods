@@ -1,0 +1,4 @@
+﻿AyaOrbWhiteSuperspeedFlierSe:
+  Brief: At the start of {OwnerName}'s next turn, deal damage to {PlayerName}.
+  Description: At the start of {OwnerName}'s next turn, deal {Level} damage to {PlayerName}.
+  Name: Superspeed Flier

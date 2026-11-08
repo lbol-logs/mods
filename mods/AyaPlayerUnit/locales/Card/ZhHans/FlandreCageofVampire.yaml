@@ -1,0 +1,10 @@
+﻿FlandreCageofVampire:
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    当被|放逐|时:对所有敌人造成 {Damage} 点伤害并获得 {Value1} 点|崩坏|。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害。
+
+    当被|放逐|时:对所有敌人造成 {Damage} 点伤害并获得 {Value1} 点|崩坏|。
+  Name: 吸血鬼之笼

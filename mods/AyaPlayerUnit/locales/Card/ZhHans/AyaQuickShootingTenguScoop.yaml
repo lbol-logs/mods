@@ -1,0 +1,14 @@
+﻿AyaQuickShootingTenguScoop:
+  Description: >-
+    获得 {Block}|格挡|。
+
+    本回合状态牌消耗减少 {Mana}。
+
+    将 |{Value1:plural one='% 文文新闻' other='% 文文新闻'}| 加入手牌。
+  UpgradedDescription: >-
+    获得 {Block}|格挡|。
+
+    本回合卡牌消耗减少 {Mana}。
+
+    将 |{Value1:plural one='% 文文新闻' other='% 文文新闻'}| 加入手牌。
+  Name: 快速射击天狗特辑

@@ -1,0 +1,4 @@
+﻿AyaInstantShotJournalistSe:
+  Brief: "{PlayerName} can't lose |Acceleration| for a certain number of turns."
+  Description: "{PlayerName} can't lose |Acceleration| for {Duration:plural one='% turn' other='% turns'}."
+  Name: Instant Shot Journalist

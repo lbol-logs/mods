@@ -1,0 +1,5 @@
+﻿AyaTengusDrumbeatsSe:
+  Brief: '{PlayerName}의 다음 턴 시작시, 모든 적에게 |명중| 피해를 주고 |일시 화력|을 얻습니다.'
+  Description: '{PlayerName}의 다음 턴 시작시, 모든 적에게 |명중| 피해를 {Damage} 주고 |일시 화력|을 {Count} 얻습니다.'
+  PhantasmModeDescription: '{PlayerName}의 다음 턴 시작시, 모든 적에게 |명중| 피해를 {Damage} 줍니다.'
+  Name: 텐구의 북소리

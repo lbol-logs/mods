@@ -1,0 +1,10 @@
+﻿FlandreDreadofTransylvania:
+  Description: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    敵全体に|脱力|{FlandreValue1}と|破滅|{FlandreValue2}を与える。
+  UpgradedDescription: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    敵全体に|脱力|{FlandreValue1}と|破滅|{FlandreValue2}を与える。
+  Name: トランシルヴァニアの恐怖

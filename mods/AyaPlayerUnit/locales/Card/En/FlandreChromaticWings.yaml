@@ -1,0 +1,10 @@
+﻿FlandreChromaticWings:
+  Description: >-
+    |Offering| {Value1}.
+
+    At the start of {PlayerName}'s turn, gain {FlandreMana}.
+  UpgradedDescription: >-
+    |Offering| {Value1}.
+
+    At the start of {PlayerName}'s turn, gain {FlandreMana}.
+  Name: Chromatic Wings

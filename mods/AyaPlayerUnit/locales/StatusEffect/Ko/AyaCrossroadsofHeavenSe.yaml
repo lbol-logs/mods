@@ -1,0 +1,4 @@
+﻿AyaCrossroadsofHeavenSe:
+  Brief: '{PlayerName}가 |가속|을 얻을 때, 추가로 |가속|을 얻습니다.'
+  Description: '{PlayerName}가 |가속|을 얻을 때, 추가로 |가속|을 {Level} 얻습니다.'
+  Name: 천국의 갈림길

@@ -1,0 +1,11 @@
+﻿AyaBlackmail:
+  Description: >-
+    |文文新闻| 还会施加 {Value1}|暂失火力|并在生效时获得 {Value2} <sprite="Point" name="Gold">。
+
+    将 |{Value3:plural one='% 文文新闻' other='% 文文新闻'}| 加入抽牌堆。
+  UpgradedDescription: >-
+    |文文新闻| 还会施加 {Value1}|暂失火力|并在生效时获得 {Value2} <sprite="Point" name="Gold">。
+
+    将 |{Value3:plural one='% 文文新闻' other='% 文文新闻'}| 加入抽牌堆。
+  Name: 敲诈
+  DetailText: 如果你试图 |敲诈| 你的上级...

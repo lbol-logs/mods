@@ -1,0 +1,14 @@
+﻿FlandreKagomeKagome:
+  Description: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Apply {FlandreValue1} |Ruin| to each enemy.
+
+    Deal damage to each enemy equal to {FlandreValue2:plural one='% time' other='% times'} the target's Ruin.
+  UpgradedDescription: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Apply {FlandreValue1} |Ruin| to each enemy.
+
+    Deal damage to each enemy equal to {FlandreValue2:plural one='% time' other='% times'} the target's Ruin.
+  Name: Kagome, Kagome

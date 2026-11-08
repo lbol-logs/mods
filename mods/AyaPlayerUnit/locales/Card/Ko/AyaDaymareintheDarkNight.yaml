@@ -1,0 +1,14 @@
+﻿AyaDaymareintheDarkNight:
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    {PlayerName}의 다음 턴까지, |가속|을 얻을 때마다 체력이 가장 적은 적에게 피해를 {Damage} 줍니다.
+
+    |가속|을 {Value1} 얻습니다.
+  UpgradedDescription: >-
+    피해를 {Damage} 줍니다.
+
+    {PlayerName}의 다음 턴까지, |가속|을 얻을 때마다 체력이 가장 적은 적에게 피해를 {Damage} 줍니다.
+
+    |가속|을 {Value1} 얻습니다.
+  Name: 한밤중의 악몽

@@ -1,0 +1,9 @@
+﻿AyaArsenalBirdSe:
+  Brief: '{PlayerName}의 턴 시작시, 소환된 |무인 항공 까마귀|를 손에 소환합니다.'
+  Description: >-
+    {PlayerName}의 턴 시작시, 소환된 |무인 항공 까마귀|를 손에 소환합니다.
+
+    |정찰 모드의 무인 항공 까마귀|: {Count}
+
+    |전투 모드의 무인 항공 까마귀|: {Level}
+  Name: 아스널 버드

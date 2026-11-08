@@ -1,0 +1,14 @@
+﻿AyaFma:
+  Description: >-
+    获得 {Value1}|加速|。
+
+    获得 {Value2}|火力|。
+
+    每有 4 点|加速|，{SelfName} 的|火力|增加 {Value3}。
+  UpgradedDescription: >-
+    获得 {Value1}|加速|。
+
+    获得 {Value2}|火力|。
+
+    每有 4 点|加速|，{SelfName} 的|火力|增加 {Value3}。
+  Name: F = ma

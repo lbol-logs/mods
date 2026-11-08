@@ -1,0 +1,18 @@
+﻿FlandreRipplesof495YearsSe:
+  Brief: >-
+    {PlayerName}가 모든 부정적 효과에 면역이 됩니다.
+
+    이 전투 동안 {PlayerName}가 얻는 모든 마나가 <sprite="ManaSprite" name="P">가 됩니다.
+
+    카드를 사용할 시, 그 카드의 비용만큼 마나를 얻습니다.
+
+    모든 카드가 두번 사용됩니다.
+  Description: >-
+    {PlayerName}가 모든 부정적 효과에 면역이 됩니다.
+
+    이 전투 동안 {PlayerName}가 얻는 모든 마나가 <sprite="ManaSprite" name="P">가 됩니다.
+
+    카드를 사용할 시, 그 카드의 비용만큼 마나를 얻습니다.
+
+    모든 카드가 두번 사용됩니다.
+  Name: 495년의 파문

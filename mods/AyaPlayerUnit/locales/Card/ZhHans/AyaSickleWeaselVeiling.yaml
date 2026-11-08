@@ -1,0 +1,4 @@
+﻿AyaSickleWeaselVeiling:
+  Description: 每当{PlayerName}受到攻击伤害为 0 时，对攻击者造成 {Value1} 点伤害。
+  UpgradedDescription: 每当{PlayerName}受到攻击伤害为 0 时，对攻击者造成 {Value1} 点伤害。
+  Name: 镰鼬之幕

@@ -1,0 +1,12 @@
+﻿FlandreBloodyRequiem:
+  Description: For the next {FlandreValue1:plural one='% turn' other='% turns'}, all |Flandre| cards gain |Bloodlust|, and |Bloodlust| is always applied at its maximum value.
+  UpgradedDescription: For the next {FlandreValue1:plural one='% turn' other='% turns'}, all |Flandre| cards gain |Bloodlust|, and |Bloodlust| is always applied at its maximum value.
+  PhantasmModeDescription: >-
+    For the next {FlandreValue1:plural one='% turn' other='% turns'}, all |Flandre| cards gain |Bloodlust|, and |Bloodlust| is always applied at its maximum value.
+
+    Gain {Value2} |Madness|.
+  PhantasmModeUpgradedDescription: >-
+    For the next {FlandreValue1:plural one='% turn' other='% turns'}, all |Flandre| cards gain |Bloodlust|, and |Bloodlust| is always applied at its maximum value.
+
+    Gain {Value2} |Madness|.
+  Name: Bloody Requiem

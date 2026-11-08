@@ -1,0 +1,27 @@
+﻿FlandreFaustianBargain:
+  Description: >-
+    从手牌、抽牌堆和弃牌堆中各|放逐| |{Value1}| 张牌。
+
+    若以此法|放逐|了牌，则从放逐区中选择并获得 |{Value1}| 张牌。
+
+    被放逐时：从放逐区中选择并获得 |{Value1}| 张牌。
+  UpgradedDescription: >-
+    从手牌、抽牌堆和弃牌堆中|放逐| |{Value1}| 张牌。
+
+    若以此法|放逐|了牌，则从放逐区中选择并获得 |{Value1}| 张牌。
+
+    被放逐时：从放逐区中选择并获得 |{Value1}| 张牌。
+  PhantasmModeDescription: >-
+    从手牌、抽牌堆和弃牌堆中各|放逐| |{Value1}| 张牌。
+
+    若以此法|放逐|了牌，则失去 |{Value2}| 点生命，然后从放逐区中选择并获得 |{Value1}| 张牌。
+
+    被放逐时：从放逐区中选择并获得 |{Value1}| 张牌。
+  PhantasmModeUpgradedDescription: >-
+    从手牌、抽牌堆和弃牌堆中|放逐| |{Value1}| 张牌。
+
+    若以此法|放逐|了牌，则失去 |{Value2}| 点生命，然后从放逐区中选择并获得 |{Value1}| 张牌。
+
+    被放逐时：从放逐区中选择并获得 |{Value1}| 张牌。
+  Name: 浮士德契约
+  DetailText: '{SelfName} 无法在战斗中被随机生成，且无法被复制。'

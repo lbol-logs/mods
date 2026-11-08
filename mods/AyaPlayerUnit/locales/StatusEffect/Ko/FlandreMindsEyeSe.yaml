@@ -1,0 +1,7 @@
+﻿FlandreMindsEyeSe:
+  Brief: >-
+    다음에 {PlayerName}가 공격 피해를 주거나 받을 때,
+
+    피해를 두 배로 주거나 피해를 무효화합니다.
+  Description: '{PlayerName}가 공격 피해를 주거나 받을 때, 다음 {Level}번 동안 피해를 두 배로 주거나 피해를 무효화합니다.'
+  Name: 마음의 눈

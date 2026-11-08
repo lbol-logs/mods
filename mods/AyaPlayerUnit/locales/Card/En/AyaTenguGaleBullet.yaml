@@ -1,0 +1,10 @@
+﻿AyaTenguGaleBullet:
+  Description: >-
+    Deal {Damage} damage {Times} times.
+
+    Gain {Value1} |Acceleration|.
+  UpgradedDescription: >-
+    Deal {Damage} damage {Times} times.
+
+    Gain {Value1} |Acceleration|.
+  Name: Tengu Gale Bullet

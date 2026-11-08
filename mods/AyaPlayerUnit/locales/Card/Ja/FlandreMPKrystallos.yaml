@@ -1,0 +1,14 @@
+﻿FlandreMPKrystallos:
+  Description: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    すべてのプレイヤーは{FlandreValue1}枚の|p:ランダムな| |クリスタル|をプレイする。
+
+    |代償|{Mana}。
+  UpgradedDescription: >-
+    {FlandreBlock} |ブロック|を得る。
+
+    すべてのプレイヤーは{FlandreValue1}枚の|p:ランダムな||クリスタル|をプレイする。
+
+    |代償|{Mana}。
+  Name: クリスタロス

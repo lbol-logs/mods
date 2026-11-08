@@ -1,0 +1,14 @@
+﻿FlandreSpellBreak:
+  Description: >-
+    피해를 {Value1} 줍니다.
+
+    대상은 {Value2}턴 동안 행동할 수 없습니다.
+
+    대상은 {Value3}턴 동안 |스펠 브레이크|에 면역입니다.
+  UpgradedDescription: >-
+    피해를 {Value1} 줍니다.
+
+    대상은 {Value2}턴 동안 행동할 수 없습니다.
+
+    대상은 {Value3}턴 동안 |스펠 브레이크|에 면역입니다.
+  Name: 스펠 브레이크

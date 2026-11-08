@@ -1,0 +1,16 @@
+﻿FlandreUltraViolence:
+  Description: >-
+    Deal {FlandreDamage} damage and apply {FlandreValue1} |Vulnerable| to each enemy.
+
+    Add |p:random| attack cards to the hand until it's full. They |temporarily cost| {Mana} and have |Exile| and |Ethereal|.
+
+    Gain {Value2} |Madness|.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage and apply {FlandreValue1} |Vulnerable| to each enemy.
+
+    Add |p:random| attack cards to the hand until it's full. They |temporarily cost| {Mana} and have |Exile| and |Ethereal|.
+
+    Gain {Value2} |Madness|.
+  Name: Ultra-Violence
+  DetailText: '{SelfName} cannot be produced by this effect.'
+  UltraViolence: CENSORED

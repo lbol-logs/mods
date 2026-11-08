@@ -1,0 +1,7 @@
+﻿FlandreB:
+  Description: >-
+    Adds {BaseMana} to the mana base. Cards unique to |Flandre| are added to the card pool.
+
+    When a |Crystal| is activated for the first time each turn, gain {Mana}.
+  Name: Ace of Diamonds
+  FlavorText: One of playing cards that Flandre uses to play card games, usually with her clones.

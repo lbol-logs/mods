@@ -1,0 +1,9 @@
+﻿FlandreUltR:
+  Title: 禁忌
+  Content: レーヴァテイン -業火-
+  Description: >-
+    敵全体に|業火|{FlandreValue1}を与える。この効果は|火力|の影響を{FlandreValue2:plural one='%回' other='%回'}受ける。
+
+    敵全体の|業火|を
+
+    敵全体の|業火|を{Value3}回発動。

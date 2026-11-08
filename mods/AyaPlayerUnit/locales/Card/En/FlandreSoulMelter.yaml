@@ -1,0 +1,14 @@
+﻿FlandreSoulMelter:
+  Description: >-
+    Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.
+
+    Apply {FlandreValue2} |Hellfire| and {Value3} |Ruin|.
+
+    |Expel|: Gain {Value4} maximum life.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.
+
+    Apply {FlandreValue2} |Hellfire| and {Value3} |Ruin|.
+
+    |Expel|: Gain {Value4} maximum life.
+  Name: Soul Melter

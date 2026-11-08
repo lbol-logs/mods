@@ -1,0 +1,12 @@
+﻿AyaMountainGodsProcession:
+  Description: >-
+    {PlayerName}가 |가속|을 얻을때, {Mana}를 얻습니다.
+
+    |가속|을 {Value1} 얻습니다.
+  UpgradedDescription: >-
+    {PlayerName}가 |가속|을 얻을때, {Mana}를 얻습니다.
+
+    |가속|을 {Value1} 얻습니다.
+  PhantasmModeDescription: '{PlayerName}가 |가속|을 얻을때, {Mana}를 얻습니다.'
+  PhantasmModeUpgradedDescription: '{PlayerName}가 |가속|을 얻을때, {Mana}를 얻습니다.'
+  Name: 산신행차

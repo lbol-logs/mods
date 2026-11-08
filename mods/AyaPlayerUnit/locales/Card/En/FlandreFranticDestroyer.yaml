@@ -1,0 +1,22 @@
+﻿FlandreFranticDestroyer:
+  Description: >-
+    |Offering| {Value1}.
+
+    Whenever an attack card is activated, gain {FlandreMana} and draw {FlandreValue2:plural one='% card' other='% cards'}.
+  UpgradedDescription: >-
+    |Offering| {Value1}.
+
+    Whenever an attack card is activated, gain {FlandreMana} and draw {FlandreValue2:plural one='% card' other='% cards'}.
+  PhantasmModeDescription: >-
+    |Offering| {Value1}.
+
+    Whenever an attack card is activated, gain {FlandreMana} and draw {FlandreValue2:plural one='% card' other='% cards'}.
+
+    Gain {Value3} |Madness|.
+  PhantasmModeUpgradedDescription: >-
+    |Offering| {Value1}.
+
+    Whenever an attack card is activated, gain {FlandreMana} and draw {FlandreValue2:plural one='% card' other='% cards'}.
+
+    Gain {Value3} |Madness|.
+  Name: Frantic Destroyer

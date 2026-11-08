@@ -1,0 +1,11 @@
+﻿AyaRouteForbiddentoManSe:
+  Brief: 在 {PlayerName} 的回合结束时，对随机敌人造成 |精准| 攻击伤害并施加 |锁定|，每张本回合被|放逐|的牌触发一次，最多触发一定次数。
+  Description: >-
+    在 {PlayerName} 的回合结束时，对随机敌人造成 {Damage} |精准| 攻击伤害并施加 {Limit} |锁定|，每张本回合被|放逐|的牌触发一次，最多触发 {Value} 次。
+
+    （累计次数：{Count}）
+  PhantasmModeDescription: >-
+    在 {PlayerName} 的回合结束时，对随机敌人造成 {Damage} |精准| 攻击伤害，每张本回合被|放逐|的牌触发一次，最多触发 {Value} 次。
+
+    （累计次数：{Count}）
+  Name: 禁止人类之路

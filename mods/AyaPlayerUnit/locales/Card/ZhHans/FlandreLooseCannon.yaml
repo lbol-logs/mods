@@ -1,0 +1,10 @@
+﻿FlandreLooseCannon:
+  Description: >-
+    对所有敌人造成 {Damage} 点伤害。
+
+    |手牌中|:每当{PlayerName}造成或承受攻击伤害时，本卡临时消耗减少{Mana2}。降至{Mana}后自动打出。
+  UpgradedDescription: >-
+    对所有敌人造成 {Damage} 点伤害并施加 {Value1} 点|地狱火|。
+
+    |手牌中|:每当{PlayerName}造成或承受攻击伤害时，本卡临时消耗减少{Mana2}。降至{Mana}后自动打出。
+  Name: 脱缰野炮

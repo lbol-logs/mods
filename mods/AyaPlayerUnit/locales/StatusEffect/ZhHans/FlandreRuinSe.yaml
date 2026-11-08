@@ -1,0 +1,4 @@
+﻿FlandreRuinSe:
+  Brief: 如果 {OwnerName} 的生命值低于 |终末|，则 |消灭| 它。
+  Description: 如果 {OwnerName} 的生命值低于 {Level}，则 |消灭| 它。
+  Name: 终末

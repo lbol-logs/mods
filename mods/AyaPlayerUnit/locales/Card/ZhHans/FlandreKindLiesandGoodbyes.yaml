@@ -1,0 +1,19 @@
+﻿FlandreKindLiesandGoodbyes:
+  Description: >-
+    获得 {Shield}|护盾|。
+
+    获得 {Value1}| 火力|和|灵力|。
+
+    当{PlayerName}即将被击败时，恢复至最大生命，移除所有负面效果，并获得 {Value2} 回合 |天衣无缝|。
+
+    然后对所有敌人造成 {Value3} 点伤害，|消灭| 生命 {Value3} 或更低的敌人，并将 {SelfName} 从战斗和牌库中移除。
+  UpgradedDescription: >-
+    获得 {Shield}|护盾|。
+
+    获得 {Value1} |火力|和|灵力|。
+
+    当{PlayerName}即将被击败时，恢复至最大生命，移除所有负面效果，并获得 {Value2} 回合 |天衣无缝|。
+
+    然后对所有敌人造成 {Value3} 点伤害，|消灭| 生命 {Value3} 或更低的敌人，并将 {SelfName} 从战斗和牌库中移除。
+  Name: 温柔谎言终须别
+  DetailText: '{SelfName} 无法在战斗中随机生成，也无法被复制。'

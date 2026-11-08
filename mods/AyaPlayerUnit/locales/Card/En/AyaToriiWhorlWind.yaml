@@ -1,0 +1,10 @@
+﻿AyaToriiWhorlWind:
+  Description: >-
+    |Exile| up to {Value1:plural one='% card' other='% cards'} in the hand. Add that many |Bunbunmaru Newspapers| to the hand.
+
+    Gain {Value2} |Acceleration|.
+  UpgradedDescription: >-
+    |Exile| up to {Value1:plural one='% card' other='% cards'} in the hand, draw pile, and discard pile. Add that many |Bunbunmaru Newspapers| to the hand.
+
+    Gain {Value2} |Acceleration|.
+  Name: Torii Whorl-Wind

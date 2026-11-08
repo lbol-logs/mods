@@ -1,0 +1,26 @@
+﻿FlandreEmbraceofGehenna:
+  Description: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    {PlayerName}가 가진 |파멸| 1개당 |보호막|을 {Value1} 추가로 얻습니다.
+
+    {PlayerName}가 가진 |파멸| 1개당 모든 적에게 {Value2}의 피해를 줍니다. ({CalamityDamage})
+  UpgradedDescription: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    {PlayerName}가 가진 |파멸| 1개당 |보호막|을 {Value1} 추가로 얻습니다.
+
+    {PlayerName}가 가진 |파멸| 1개당 모든 적에게 {Value2}의 피해를 줍니다. ({CalamityDamage})
+  NonbattleDescription: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    {PlayerName}가 가진 |파멸| 1개당 |보호막|을 {Value1} 추가로 얻습니다.
+
+    {PlayerName}가 가진 |파멸| 1개당 모든 적에게 {Value2}의 피해를 줍니다.
+  UpgradedNonbattleDescription: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    {PlayerName}가 가진 |파멸| 1개당 |보호막|을 {Value1} 추가로 얻습니다.
+
+    {PlayerName}가 가진 |파멸| 1개당 모든 적에게 {Value2}의 피해를 줍니다.
+  Name: 게헨나의 포옹

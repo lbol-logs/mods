@@ -1,0 +1,14 @@
+﻿AyaTanukiGravySe:
+  Brief: >-
+    {OwnerName} takes 0 damage from burnt meat.
+
+    Lose 1 |Gravy| when attacked or at the start of each turn.
+
+    |d:(This effect does nothing.)|
+  Description: >-
+    {OwnerName} takes 0 damage from the next {Level:plural one='burnt meat' other='% burnt meats'}.
+
+    Lose 1 |Gravy| when attacked or when turn starts.
+
+    |d:(This effect does nothing.)|
+  Name: Gravy

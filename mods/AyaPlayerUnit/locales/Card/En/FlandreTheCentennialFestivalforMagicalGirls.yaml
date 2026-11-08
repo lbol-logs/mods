@@ -1,0 +1,20 @@
+﻿FlandreTheCentennialFestivalforMagicalGirls:
+  Description: >-
+    All |Magical Girl| cards can be |Upgraded| {Value1:plural one='% additional time' other='% additional times'}.
+
+    All |Flandre| cards gain |Magical Girl| until the end of combat.
+
+    Whenever {PlayerName} adds a card during this combat, |Upgrade| it.
+
+    These effects does not stack.
+  UpgradedDescription: >-
+    All |Magical Girl| cards can be |Upgraded| {Value1:plural one='% additional time' other='% additional times'}.
+
+    All |Flandre| cards gain |Magical Girl| until the end of combat.
+
+    Whenever {PlayerName} adds a card during this combat, |Upgrade| it.
+
+    These effects does not stack.
+
+    |Upgrade| all cards {FlandreValue2:plural one='% time' other='% times'} until the end of combat.
+  Name: The Centennial Festival for Magical Girls

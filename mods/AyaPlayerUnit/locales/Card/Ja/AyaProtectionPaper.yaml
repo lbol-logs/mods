@@ -1,0 +1,4 @@
+﻿AyaProtectionPaper:
+  Description: '|厄災|または状態異常カードが|廃棄|されるたび、{Value1}|ブロック|を得る。'
+  UpgradedDescription: '|厄災|または状態異常カードが|廃棄|されるたび、{Value1}|ブロック|を得る。'
+  Name: プロテクションペーパー

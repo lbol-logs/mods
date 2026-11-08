@@ -1,0 +1,4 @@
+﻿FlandreRuinedFortress:
+  Description: 每当{PlayerName}对一名敌人施加|终末|时，每拥有1层 |灵力| ，便多施加{Value1}层|终末|。获得{Value2}层 |灵力|。
+  UpgradedDescription: 每当{PlayerName}对一名敌人施加|终末|时，每拥有1层 |灵力| ，便多施加{Value1}层|终末|。获得{Value2}层 |灵力| 。
+  Name: 废墟城堡

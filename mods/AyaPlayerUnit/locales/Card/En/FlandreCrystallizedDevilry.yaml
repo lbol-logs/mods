@@ -1,0 +1,14 @@
+﻿FlandreCrystallizedDevilry:
+  Description: >-
+    Deal {FlandreDamage} damage.
+
+    |p:Randomly| gain {FlandreValue1} life or {FlandreValue2} <sprite="Point" name="Gold">.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage.
+
+    |p:Randomly| gain {FlandreValue1} life or {FlandreValue2} <sprite="Point" name="Gold">.
+  Name: Crystallized Devilry
+  FlavorText: >-
+    "Better the devil you know than the devil you don't!"
+
+    - Flandre Scarlet

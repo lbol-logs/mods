@@ -1,0 +1,27 @@
+﻿AyaAdventoftheDivineGrandson:
+  Description: >-
+    {Mana}を得る。
+
+    手札上限に達するまでカードを引く。
+
+    {PlayerName}は全てのデバフを受けない。
+
+    |パートナー|と|道具|以外の全てのカードが使用された時、それは2回使用される。この効果は重複しない。
+
+    |消耗品【{ToolPlayableTimes}】|
+  UpgradedDescription: >-
+    {Mana}を得る。
+
+    手札上限に達するまでカードを引く。
+
+    {PlayerName}は全てのデバフを受けない。
+
+    |パートナー|と|道具|以外の全てのカードが使用された時、それは2回使用される。この効果は重複しない。
+
+    |消耗品【{ToolPlayableTimes}】|
+  PhantasmModeDescription: このカードはファンタズムモードでは使用できない。
+  PhantasmModeUpgradedDescription: このカードはファンタズムモードでは使用できない。
+  Name: 天孫降臨
+  DetailText: '{SelfName}は戦闘中のランダム生成に抽選されず、複製されない。'
+  AdventoftheDivineGrandson1Aya: ''
+  AdventoftheDivineGrandson2Aya: ''

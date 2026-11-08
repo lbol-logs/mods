@@ -1,0 +1,10 @@
+﻿FlandreCrystallizedChaos:
+  Description: >-
+    Deal {FlandreDamage} damage.
+
+    |p:Randomly| apply {FlandreValue1} |Hellfire| or {FlandreValue2} |Ruin|.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage.
+
+    |p:Randomly| apply {FlandreValue1} |Hellfire| or {FlandreValue2} |Ruin|.
+  Name: Crystallized Chaos

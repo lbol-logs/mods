@@ -1,0 +1,14 @@
+﻿FlandreGrowingGemstones:
+  Description: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    |p:ランダム|な|クリスタル|{FlandreValue1}枚を手札に加える。
+  UpgradedDescription: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    |p:ランダム|な|クリスタル|{FlandreValue1}枚を手札に加える。
+  ExtraDescription1: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    |p:ランダム|な|クリスタル|{FlandreValue1}枚+{Value3}を手札に加える。
+  Name: 輝石の成長

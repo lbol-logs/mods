@@ -1,0 +1,10 @@
+﻿AyaTenguGaleBullet:
+  Description: >-
+    造成 {Damage} 点伤害，重复 {Times} 次。
+
+    获得 {Value1}|加速|。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害，重复 {Times} 次。
+
+    获得 {Value1}|加速|。
+  Name: 天狗疾风弹

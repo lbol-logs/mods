@@ -1,0 +1,14 @@
+﻿FlandreLooseCannon:
+  Description: >-
+    敵全体に{FlandreDamage}ダメージを与える。
+
+    敵全体に|業火|{FlandreValue1}を与える。
+
+    |手札にある間|：{PlayerName}が攻撃ダメージを与えるか受けるたび、{SelfName}の|臨時コスト|が{Mana}減少する。{SelfName}のコストが{Mana2}になった時、{SelfName}をプレイする。
+  UpgradedDescription: >-
+    敵全体に{FlandreDamage}ダメージを与える。
+
+    敵全体に|業火|{FlandreValue1}を与える。
+
+    |手札にある間|：{PlayerName}が攻撃ダメージを与えるか受けるたび、{SelfName}の|臨時コスト|が{Mana}減少する。{SelfName}のコストが{Mana2}になった時、{SelfName}をプレイする。
+  Name: 暴走砲

@@ -1,0 +1,4 @@
+﻿FlandreCatadioptric:
+  Description: '|手牌中|:每当{PlayerName}造成攻击伤害时，对目标追加 {Damage} 点伤害。'
+  UpgradedDescription: '|手牌中|:每当{PlayerName}造成攻击伤害时，对目标追加 {Damage} 点伤害。'
+  Name: 折反射

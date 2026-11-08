@@ -1,0 +1,10 @@
+﻿FlandreInfernalRampage:
+  Description: >-
+    Deal {FlandreDamage} damage and apply {FlandreValue1} |Hellfire| to a |p:random| enemy {FlandreValue2:plural one='% time' other='% times'}.
+
+    Gain {Value3} |Firepower|.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage and apply {FlandreValue1} |Hellfire| to a |p:random| enemy {FlandreValue2:plural one='% time' other='% times'}.
+
+    Gain {Value3} |Firepower|.
+  Name: Infernal Rampage

@@ -1,0 +1,14 @@
+﻿FlandreSpellBreak:
+  Description: >-
+    {FlandreValue1}ダメージを与える。
+
+    対象は{Value2}ターン行動できない。
+
+    対象は{Value3}ターンの間、|スペルブレイク|の効果を受けない。
+  UpgradedDescription: >-
+    {FlandreValue1}ダメージを与える。
+
+    対象は{Value2}ターン行動できない。
+
+    対象は{Value3}ターンの間、|スペルブレイク|の効果を受けない。
+  Name: スペルブレイク

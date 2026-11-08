@@ -1,0 +1,4 @@
+﻿AyaRequestingAirSupport:
+  Description: 将 |{Value1:plural one='% 无人空中乌鸦' other='% 无人空中乌鸦'}| 召唤到手牌中。
+  UpgradedDescription: 将 |{Value1:plural one='% 无人空中乌鸦' other='% 无人空中乌鸦'}| 召唤到手牌中。
+  Name: 请求空中支援

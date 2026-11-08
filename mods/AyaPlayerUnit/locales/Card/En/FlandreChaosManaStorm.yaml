@@ -1,0 +1,10 @@
+﻿FlandreChaosManaStorm:
+  Description: >-
+    Deal {FlandreDamage} damage to each enemy and gain {FlandreValue1} |p:random| mana.
+
+    |For each {Mana} spent|: Repeat this effect.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage to each enemy and gain {FlandreValue1} |p:random| mana.
+
+    |For each {Mana} spent|: Repeat this effect.
+  Name: Chaos Mana Storm

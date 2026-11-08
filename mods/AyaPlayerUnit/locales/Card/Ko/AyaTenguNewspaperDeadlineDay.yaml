@@ -1,0 +1,14 @@
+﻿AyaTenguNewspaperDeadlineDay:
+  Description: >-
+    손패 매수 제한이 {MaxHand}가 됩니다.
+
+    모든 |액운| 또는 상태 카드가 |보충|을 얻습니다.
+
+    |덱에 존재할 시|: |기나긴 밤|을 무효합니다.
+  UpgradedDescription: >-
+    손패 매수 제한이 {MaxHand}가 됩니다.
+
+    모든 |액운| 또는 상태 카드가 |보충|을 얻습니다.
+
+    |덱에 존재할 시|: |기나긴 밤|을 무효합니다.
+  Name: 텐구 신문 마감일

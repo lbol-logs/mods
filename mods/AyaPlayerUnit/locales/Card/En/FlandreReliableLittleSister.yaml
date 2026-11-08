@@ -1,0 +1,18 @@
+﻿FlandreReliableLittleSister:
+  Description: >-
+    Gain {FlandreBlock} |Block|.
+
+    Gain additional |Block| equal to {PlayerName}'s maximum life. ({Amount})
+  UpgradedDescription: >-
+    Gain {FlandreBlock} |Block|.
+
+    Gain additional |Block| equal to {PlayerName}'s maximum life. ({Amount})
+  NonbattleDescription: >-
+    Gain {FlandreBlock} |Block|.
+
+    Gain additional |Block| equal to {PlayerName}'s maximum life.
+  UpgradedNonbattleDescription: >-
+    Gain {FlandreBlock} |Block|.
+
+    Gain additional |Block| equal to {PlayerName}'s maximum life.
+  Name: Reliable Little Sister

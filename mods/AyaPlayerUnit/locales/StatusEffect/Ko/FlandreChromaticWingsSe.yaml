@@ -1,0 +1,4 @@
+﻿FlandreChromaticWingsSe:
+  Brief: '{PlayerName}의 턴 시작 시, <sprite="ManaSprite" name="P">를 추가합니다.'
+  Description: '{PlayerName}의 턴 시작 시, {Level} <sprite="ManaSprite" name="P">를 추가합니다.'
+  Name: 다채로운 날개

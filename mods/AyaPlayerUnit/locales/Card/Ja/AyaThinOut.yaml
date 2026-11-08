@@ -1,0 +1,10 @@
+﻿AyaThinOut:
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    山札の上から{Value1}枚の|厄災|または状態異常カードを手札に移動させる。
+  UpgradedDescription: >-
+    {Block}|ブロック|を得る。
+
+    山札の上から{Value1}枚の|厄災|または状態異常カードを手札に移動させる。
+  Name: 間引き

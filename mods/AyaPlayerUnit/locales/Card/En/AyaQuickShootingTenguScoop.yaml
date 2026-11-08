@@ -1,0 +1,14 @@
+﻿AyaQuickShootingTenguScoop:
+  Description: >-
+    Gain {Block} |Block|.
+
+    Status cards cost {Mana} less this turn.
+
+    Add |{Value1:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand.
+  UpgradedDescription: >-
+    Gain {Block} |Block|.
+
+    Cards cost {Mana} less this turn.
+
+    Add |{Value1:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand.
+  Name: Quick-Shooting Tengu Scoop

@@ -1,0 +1,4 @@
+﻿AyaApexPredatorSe:
+  Brief: '{PlayerName}が攻撃ダメージを受ける時、{PlayerName}の|加速|の分だけそれを軽減し、|加速|{Value}を失う。'
+  Description: '{PlayerName}が攻撃ダメージを受ける時、{PlayerName}の|加速|の分だけそれを軽減し、|加速|{Value}を失う。'
+  Name: 頂点捕食者

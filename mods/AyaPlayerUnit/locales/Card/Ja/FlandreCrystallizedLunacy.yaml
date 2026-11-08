@@ -1,0 +1,10 @@
+﻿FlandreCrystallizedLunacy:
+  Description: >-
+    {FlandreDamage}ダメージを与える。
+
+    |p:ランダム|なマナ{FlandreValue1}を得る。
+  UpgradedDescription: >-
+    {FlandreDamage}ダメージを与える。
+
+    |p:ランダム|なマナ{FlandreValue1}を得る。
+  Name: 狂気のクリスタル

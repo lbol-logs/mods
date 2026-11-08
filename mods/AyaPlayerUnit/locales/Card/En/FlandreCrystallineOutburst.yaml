@@ -1,0 +1,12 @@
+﻿FlandreCrystallineOutburst:
+  Description: >-
+    |Offering| {Value1}.
+
+    Whenever all of |Crystallized Chaos|, |Crystallized Devilry|, |Crystallized Lunacy|, and |Crystallized Solitude| are activated, add {FlandreValue2} |Crystallized Catastrophe{FlandreValue2:plural one='' other='s'}| to the hand.
+  UpgradedDescription: >-
+    |Offering| {Value1}.
+
+    Whenever all of |Crystallized Chaos|, |Crystallized Devilry|, |Crystallized Lunacy|, and |Crystallized Solitude| are activated, add {FlandreValue2} |Crystallized Catastrophe{FlandreValue2:plural one='' other='s'}| to the hand.
+
+    Add {Value3} |Crystals| to the draw pile.
+  Name: Crystalline Outburst

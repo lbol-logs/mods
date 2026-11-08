@@ -1,0 +1,20 @@
+﻿FlandreChaosIncarnation:
+  Description: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    |ランダム|に手札がいっぱいになるまで|クリスタル|を手札に加える。
+
+    手札の|クリスタル|をすべて使用する。
+  UpgradedDescription: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    |ランダム|に手札がいっぱいになるまで|クリスタル|を手札に加える。
+
+    手札の|クリスタル|をすべて使用する。
+  ExtraDescription1: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    |ランダム|に手札がいっぱいになるまで|クリスタル|+{Value3}を手札に加える。
+
+    手札の|クリスタル|をすべて使用する。
+  Name: 混沌の化身

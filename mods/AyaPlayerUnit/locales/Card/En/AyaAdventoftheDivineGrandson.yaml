@@ -1,0 +1,27 @@
+﻿AyaAdventoftheDivineGrandson:
+  Description: >-
+    Gain {Mana}.
+
+    Draw cards until the hand is full.
+
+    {PlayerName} is immune to all debuffs.
+
+    All cards are played twice.
+
+    |Limited【{ToolPlayableTimes}】|
+  UpgradedDescription: >-
+    Gain {Mana}.
+
+    Draw cards until the hand is full.
+
+    {PlayerName} is immune to all debuffs.
+
+    All cards are played twice.
+
+    |Limited【{ToolPlayableTimes}】|
+  PhantasmModeDescription: This card is banned by Phantasm Mode.
+  PhantasmModeUpgradedDescription: This card is banned by Phantasm Mode.
+  Name: Advent of the Divine Grandson
+  DetailText: '{SelfName} cannot be randomly generated in combat, and cannot be copied.'
+  AdventoftheDivineGrandson1Aya: ''
+  AdventoftheDivineGrandson2Aya: ''

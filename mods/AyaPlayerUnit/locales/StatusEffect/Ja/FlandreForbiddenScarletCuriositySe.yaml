@@ -1,0 +1,14 @@
+﻿FlandreForbiddenScarletCuriositySe:
+  Brief: >-
+    {PlayerName}はすべてのデバフを無効化する。
+
+    すべての攻撃のダメージが数倍になる。
+
+    敵がライフを失うたび、{PlayerName}はその量だけライフを得る。
+  Description: >-
+    {PlayerName}はすべてのデバフを無効化する。
+
+    すべての攻撃のダメージが{Level}倍になる。
+
+    敵がライフを失うたび、{PlayerName}はその量だけライフを得る。
+  Name: 禁じられた紅輝心

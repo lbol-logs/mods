@@ -1,0 +1,18 @@
+﻿AyaOrbSe:
+  Brief: >-
+    在 {OwnerName} 的回合开始时，他们只失去一半的 |护盾| 而不是全部。
+
+    {OwnerName} 受到的伤害减少。
+
+    每当抽牌堆被洗牌时，获得 {Value1} |创造者遗产|。
+
+    在 {OwnerName} 的回合结束时，失去 {Value2} |创造者遗产|。
+  Description: >-
+    在 {OwnerName} 的回合开始时，他们只失去一半的 |护盾| 而不是全部。
+
+    {OwnerName} 受到的伤害减少 {Level}%。
+
+    每当抽牌堆被洗牌时，获得 {Value1} |创造者遗产|。
+
+    在 {OwnerName} 的回合结束时，失去 {Value2} |创造者遗产|。
+  Name: 创造者遗产

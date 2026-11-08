@@ -1,0 +1,9 @@
+﻿AyaArsenalBirdDrone:
+  Description: '{FriendP}|f:Patrol Mode|: Gain {Mana} and draw a card.'
+  ExtraDescription1: '{FriendP}|f:Combat Mode|: Gain {PassiveBlock} |Block| and deal {Damage} attack damage to a random enemy.'
+  ExtraDescription2: "{FriendA}|a:Patrol Mode|: |Exile| {SelfName}. At the start of {PlayerName}'s turn, gain {Mana} and draw a card."
+  ExtraDescription3: "{FriendA}|a:Combat Mode|: |Exile| {SelfName}. At the end of {PlayerName}'s turn, gain {PassiveBlock} |Block| and deal {Damage} attack damage to a random enemy."
+  ExtraDescription4: '{FriendU}|u:Self-destruct|: Deal {Damage2} attack damage to each enemy. This also happens when removed. |Accurate|'
+  Name: Unmanned Aerial Crow
+  DetailText: "{SelfName}'s effect activates even if it's not in the hand."
+  FlavorText: Introducing the latest technology-intensive robot crow!

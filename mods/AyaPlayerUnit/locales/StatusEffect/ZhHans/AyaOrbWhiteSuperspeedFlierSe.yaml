@@ -1,0 +1,4 @@
+﻿AyaOrbWhiteSuperspeedFlierSe:
+  Brief: 在 {OwnerName} 的下一个回合开始时，对 {PlayerName} 造成伤害。
+  Description: 在 {OwnerName} 的下一个回合开始时，对 {PlayerName} 造成 {Level} 点伤害。
+  Name: 超速飞行者

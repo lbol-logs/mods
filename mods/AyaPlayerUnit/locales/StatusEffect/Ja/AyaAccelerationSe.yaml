@@ -1,0 +1,10 @@
+﻿AyaAccelerationSe:
+  Brief: >-
+    {OwnerName}のターン終了時、|グレイズ|が|加速|の1/4まで補充される。(切り捨て)
+
+    {OwnerName}が攻撃を|グレイズ|するたび、|加速|2を失う。
+  Description: >-
+    {OwnerName}のターン終了時、|グレイズ|が{Count}まで補充される。
+
+    {OwnerName}が攻撃を|グレイズ|するたび、|加速|2を失う。
+  Name: 加速

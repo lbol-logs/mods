@@ -1,0 +1,7 @@
+﻿AyaUltR:
+  Title: Whirl Sign
+  Content: Autumn Leaf Fan's Wind
+  Description: >-
+    Gain {Value1} |Acceleration|.
+
+    Deal {Damage} damage and apply |Temporary Firepower Down| equal to {PlayerName}'s |Acceleration| to each enemy. |Accurate|

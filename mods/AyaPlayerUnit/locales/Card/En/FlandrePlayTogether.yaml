@@ -1,0 +1,15 @@
+﻿FlandrePlayTogether:
+  Description: >-
+    |Debut|: Gain {FlandreValue1} |Firepower|.
+
+    Choose up to {FlandreValue2:plural one='% card' other='% cards'} from the discard pile and return {FlandreValue2:plural one='it' other='them'} to the hand.
+  UpgradedDescription: >-
+    |Debut|: Gain {FlandreValue1} |Firepower|.
+
+    Choose up to {FlandreValue2:plural one='% card' other='% cards'} from the discard pile and return {FlandreValue2:plural one='it' other='them'} to the hand.
+  ExtraDescription1: >-
+    |d:Debut: Gain {FlandreValue1} Firepower.|
+
+    Choose up to {FlandreValue2:plural one='% card' other='% cards'} from the discard pile and return {FlandreValue2:plural one='it' other='them'} to the hand.
+  Name: Play Together
+  DetailText: '{SelfName} cannot be targeted by this effect.'

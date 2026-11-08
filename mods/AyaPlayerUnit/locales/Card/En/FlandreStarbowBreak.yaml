@@ -1,0 +1,14 @@
+﻿FlandreStarbowBreak:
+  Description: >-
+    |For each mana of a different color spent|: Deal {FlandreDamage} damage to each enemy.
+
+    {SelfName} deals {FlandreValue1} more damage for each attack card in the hand.
+
+    Enemies with |Barrier| or |Block| are dealt {FlandreValue2:plural one='% time' other='% times'} that much damage instead.
+  UpgradedDescription: >-
+    |For each mana of a different color spent|: Deal {FlandreDamage} damage to each enemy.
+
+    {SelfName} deals {FlandreValue1} more damage for each attack card in the hand.
+
+    Enemies with |Barrier| or |Block| are dealt {FlandreValue2:plural one='% time' other='% times'} that much damage instead.
+  Name: Starbow Break

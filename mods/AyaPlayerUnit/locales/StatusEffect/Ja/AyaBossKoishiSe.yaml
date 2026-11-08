@@ -1,0 +1,16 @@
+﻿AyaBossKoishiSe:
+  Brief: >-
+    {OwnerName}のライフは不明。
+
+    {OwnerName}のターン開始時、|ブロック|をすべて失う代わりに半分だけ失う。
+
+    一定枚数のカードがプレイされると、{PlayerName}のターンを終了せずに{OwnerName}が即座に一度行動する。
+  Description: >-
+    {OwnerName}のライフは不明。
+
+    {OwnerName}のターン開始時、|ブロック|をすべて失う代わりに半分だけ失う。
+
+    {Limit}枚のカードがプレイされるたび、{PlayerName}のターンを終了せずに{OwnerName}が即座に一度行動する。
+
+    |d:({Count:plural one='%枚残り' other='%枚残り'})|
+  Name: 閉じた恋の瞳

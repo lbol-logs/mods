@@ -1,0 +1,4 @@
+﻿FlandreFriendOkinaSpringSe:
+  Brief: '{PlayerName}의 턴 시작 시, 체력과 |부적|, |비호|를 얻습니다.'
+  Description: '{PlayerName}의 턴 시작 시, 체력 {Level}, |부적|과 |비호|를 {Level} 얻습니다.'
+  Name: 뒷・브리지 체리 블러섬

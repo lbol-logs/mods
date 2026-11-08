@@ -1,0 +1,10 @@
+﻿FlandreDeliciousHeart:
+  Description: >-
+    Gain {FlandreValue1} life.
+
+    |Permanently| increase {SelfName}'s life gain by {FlandreValue2}.
+  UpgradedDescription: >-
+    Gain {FlandreValue1} life.
+
+    |Permanently| increase {SelfName}'s life gain by {FlandreValue2}.
+  Name: Delicious Heart

@@ -1,0 +1,22 @@
+﻿AyaTengusEdiblePompoms:
+  Description: >-
+    Gain {Block} |Block|.
+
+    Gain {Value1} life.
+
+    Gain {Value1} <sprite="Point" name="Power">.
+
+    |At the start of combat|: At the end of {PlayerName}'s {Value2:ordinal one='%st' two='%nd' few='%rd' other='%th'} turn, |Exile| {SelfName}.
+  UpgradedDescription: >-
+    Gain {Block} |Block|.
+
+    Gain {Value1} life.
+
+    Gain {Value1} <sprite="Point" name="Power">.
+
+    |At the start of combat|: At the end of {PlayerName}'s {Value2:ordinal one='%st' two='%nd' few='%rd' other='%th'} turn, |Exile| {SelfName}.
+  Name: Tengu's Edible Pompoms
+  FlavorText: >-
+    "Momiji's one is miso flavored."
+
+    - Aya Shameimaru

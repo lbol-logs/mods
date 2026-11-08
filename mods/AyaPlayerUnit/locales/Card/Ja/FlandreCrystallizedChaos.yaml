@@ -1,0 +1,10 @@
+﻿FlandreCrystallizedChaos:
+  Description: >-
+    {FlandreDamage}ダメージを与える。
+
+    |p:ランダム|で|業火|{FlandreValue1}または|破滅|{FlandreValue2}を与える。
+  UpgradedDescription: >-
+    {FlandreDamage}ダメージを与える。
+
+    |p:ランダム|で|業火|{FlandreValue1}または|破滅|{FlandreValue2}を与える。
+  Name: 混沌のクリスタル

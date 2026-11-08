@@ -1,0 +1,10 @@
+﻿AyaArmoredRaven:
+  Description: >-
+    {PlayerName} 回合中使用的第一张攻击牌会被使用两次。
+
+    {PlayerName} 回合中使用的第一张状态牌会被使用两次。
+  UpgradedDescription: >-
+    {PlayerName} 回合中使用的第一张攻击牌会被使用两次。
+
+    {PlayerName} 回合中使用的第一张状态牌会被使用两次。
+  Name: 装甲乌鸦

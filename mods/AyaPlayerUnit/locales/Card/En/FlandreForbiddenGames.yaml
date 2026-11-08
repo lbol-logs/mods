@@ -1,0 +1,57 @@
+﻿FlandreForbiddenGames:
+  Description: >-
+    |Offering| {Value1}.
+
+    Deal {FlandreValue2} damage to each enemy.
+
+    Enemies cannot act for {Value3:plural one='% round' other='% rounds'}.
+
+    Only the first {SelfName} will take effect each combat.
+  UpgradedDescription: >-
+    |Offering| {Value1}.
+
+    Deal {FlandreValue2} damage to each enemy.
+
+    Enemies cannot act for {Value3:plural one='% round' other='% rounds'}.
+
+    Only the first {SelfName} will take effect each combat.
+  ExtraDescription1: >-
+    |d:Offering {Value1}.
+
+    Deal {FlandreValue2} damage to each enemy.
+
+    Enemies cannot act for {Value3:plural one='% round' other='% rounds'}.|
+
+    Only the first {SelfName} will take effect each combat.
+  PhantasmModeDescription: >-
+    |Offering| {Value1}.
+
+    Deal {FlandreValue2} damage to each enemy.
+
+    Enemies cannot act for {Value3:plural one='% round' other='% rounds'}.
+
+    Gain {Value4} |Madness|.
+
+    Only the first {SelfName} will take effect each combat.
+  PhantasmModeUpgradedDescription: >-
+    |Offering| {Value1}.
+
+    Deal {FlandreValue2} damage to each enemy.
+
+    Enemies cannot act for {Value3:plural one='% round' other='% rounds'}.
+
+    Gain {Value4} |Madness|.
+
+    Only the first {SelfName} will take effect each combat.
+  PhantasmModeExtraDescription1: >-
+    |d:Offering {Value1}.
+
+    Deal {FlandreValue2} damage to each enemy.
+
+    Enemies cannot act for {Value3:plural one='% round' other='% rounds'}.
+
+    Gain {Value4} Madness.|
+
+    Only the first {SelfName} will take effect each combat.
+  Name: Forbidden Games
+  DetailText: '{SelfName} cannot be randomly generated in combat, and cannot be copied.'

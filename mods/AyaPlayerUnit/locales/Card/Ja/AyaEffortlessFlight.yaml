@@ -1,0 +1,12 @@
+﻿AyaEffortlessFlight:
+  Description: >-
+    |加速|{Value1}を得る。
+
+    {PlayerName}のターン開始時、|加速|{Value1}を得る。
+  UpgradedDescription: >-
+    |加速|{Value1}を得る。
+
+    {PlayerName}のターン開始時、|加速|{Value1}を得る。
+  PhantasmModeDescription: '{PlayerName}のターン開始時、|加速|{Value1}を得る。'
+  PhantasmModeUpgradedDescription: '{PlayerName}のターン開始時、|加速|{Value1}を得る。'
+  Name: 省力飛行

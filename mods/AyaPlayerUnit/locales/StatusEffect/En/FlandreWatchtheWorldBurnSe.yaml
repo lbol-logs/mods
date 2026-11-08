@@ -1,0 +1,4 @@
+﻿FlandreWatchtheWorldBurnSe:
+  Brief: At the end of {PlayerName}'s turn, apply |Hellfire| to each enemy.
+  Description: At the end of {PlayerName}'s turn, apply {Level} |Hellfire| to each enemy.
+  Name: Watch the World Burn

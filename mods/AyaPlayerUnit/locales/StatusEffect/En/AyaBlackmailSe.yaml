@@ -1,0 +1,10 @@
+﻿AyaBlackmailSe:
+  Brief: '|Bunbunmaru Newspapers| also apply |Temporary Firepower Down| and gain <sprite="Point" name="Gold"> when activated.'
+  Description: '|Bunbunmaru Newspapers| also apply {Level} |Temporary Firepower Down| and gain {Count} <sprite="Point" name="Gold"> when activated.'
+  Name: Blackmail
+  Blackmail1Aya: A reporter trying to tell the truth is under attack!
+  Blackmail2Aya: Look at what they are doing! That's proof they are the culprit!
+  Blackmail3Aya: Local residents commit violence against journalist! Is this an attempt to overthrow Gensokyo?
+  BlackmailMegumu1Megumu: Oh my, are you trying to blackmail me?
+  BlackmailMegumu2Megumu: Be prepared to dance naked at today's banquet, no matter what.
+  BlackmailEiki1Eiki: Scamming and blackmailing. Sentence extended by one year.

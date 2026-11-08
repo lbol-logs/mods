@@ -1,0 +1,14 @@
+﻿AyaPaperRecycling:
+  Description: >-
+    |放逐|手牌中的一张|崩坏|或状态牌。获得等同于该卡消耗的法力。
+
+    抽一张牌。
+
+    获得 {Mana}。
+  UpgradedDescription: >-
+    |放逐|手牌中的一张|崩坏|或状态牌。获得等同于该卡消耗的法力。
+
+    抽一张牌。
+
+    获得 {Mana}。
+  Name: 纸张回收

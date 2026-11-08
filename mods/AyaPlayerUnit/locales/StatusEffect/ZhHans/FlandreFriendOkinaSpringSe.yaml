@@ -1,0 +1,4 @@
+﻿FlandreFriendOkinaSpringSe:
+  Brief: 在 {PlayerName} 的回合开始时，获得生命值、|护符| 和 |守护|。
+  Description: 在 {PlayerName} 的回合开始时，获得 {Level} 点生命值、{Level} |护符| 和 |守护|。
+  Name: 里·吹拂樱花

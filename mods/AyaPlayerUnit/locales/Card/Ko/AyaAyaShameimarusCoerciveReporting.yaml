@@ -1,0 +1,57 @@
+﻿AyaAyaShameimarusCoerciveReporting:
+  Description: >-
+    |특별 붕붕마루 신문|을 손에 추가합니다.
+
+    대상이 하려는 행동에 따라 추가효과를 얻습니다.
+  UpgradedDescription: >-
+    |특별 붕붕마루 신문|을 손에 추가합니다.
+
+    대상이 하려는 행동에 따라 추가효과를 얻습니다.
+  Name: 샤메이마루 아야의 압박취재
+  DetailText: >-
+    |공격|: |허약|을 {Value2} 줍니다.
+
+    |강화|: |화력|을 {Value2} 얻습니다.
+
+    |약화|: |부적|을 {Value2} 얻습니다.
+
+    |상태이상|: |활력|을 손에 추가합니다.
+
+    |방어|: |취약|을 {Value2} 줍니다.
+
+    |그레이즈|: |가속|을 {Value4} 얻습니다.
+
+    |소환|: 대신 |스쿠스쿠 아야|를 소환합니다.
+
+    |수면|: 대상을 깨웁니다.
+
+    |기절하거나 아무것도 안함|: |추가 턴|을 {Value1} 얻습니다.
+
+    |도망|: 대상을 처치합니다.
+
+    |기폭|: 대상이 엘리트나 보스라면, 처치합니다. 아니라면, 처치하고 모든 적에게 두배의 피해를 줍니다.
+
+    |준비|: |버스트|상태가 됩니다.
+
+    |회복 또는 수리|: 체력을 {Value4} 얻습니다.
+
+    |스펠카드|: <sprite="Point" name="Gold">와 <sprite="Point" name="Power">를 {Value5} 얻습니다..
+
+    |청소|: {PlayerName}의 모든 디버프를 제거하고 |부적|을 2 얻습니다.
+
+    |암흑노가쿠|: {PlayerName}의 모든 디버프를 제거하고 |부적|을 {Value5} 얻습니다. 남은 전투동안 |암흑노가쿠|를 무효합니다.
+
+    |방해|: 카드가 |방해|당할 때 마다, 모든 적에게 피해를 {Value6} 줍니다.
+  AyaShameimarusCoerciveReportingSleep1Aya: 일어나, 잠꾸러기!
+  AyaShameimarusCoerciveReportingEscape1Aya: 환상향 최속에게서 도망치려고? 바보아냐?
+  AyaShameimarusCoerciveReportingEscape2Aya: 내 앞에서 도망칠 수 있을 거라고 생각했어?
+  AyaShameimarusCoerciveReportingEscape31Aya: 안녕 안녕!
+  AyaShameimarusCoerciveReportingEscape32Aya: 이제, 난
+  AyaShameimarusCoerciveReportingEscape33Aya: 바로 네 뒤에 있어!
+  AyaShameimarusCoerciveReportingDetonate1Aya: 폭발물 면허증은 있어?
+  AyaShameimarusCoerciveReportingDetonate2Rin: 폭발물 면허증이 뭐야?
+  AyaShameimarusCoerciveReportingDetonate3Aya: 이분이에요, 경관님.
+  AyaShameimarusCoerciveReportingDetonate4Rin: 잠깐만! 내가 설명할게!
+  AyaShameimarusCoerciveReportingDetonate5Rin: 도와주세요! 사토리님!
+  AyaShameimarusCoerciveReportingNohofDarkness1Aya: 여기 너무 어두워. 불 좀 켤게.
+  AyaShameimarusCoerciveReportingNohofDarkness2Kokoro: 내 눈!

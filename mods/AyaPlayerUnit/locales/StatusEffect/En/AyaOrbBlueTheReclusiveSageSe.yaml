@@ -1,0 +1,4 @@
+﻿AyaOrbBlueTheReclusiveSageSe:
+  Brief: At the end of {OwnerName}'s turn, add |False Moons| to the draw pile.
+  Description: At the end of {OwnerName}'s turn, add {Level} |False Moon{Level:plural one='' other='s'}| to the draw pile.
+  Name: The Reclusive Sage

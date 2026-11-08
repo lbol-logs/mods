@@ -1,0 +1,10 @@
+﻿FlandreFourofaKind:
+  Description: >-
+    选择一张手牌。其|暂塑|为 {Mana}。
+
+    向抽牌堆添加3张复制，这些牌|暂塑|为{Mana}并具有|放逐|和|填充|效果。
+  UpgradedDescription: >-
+    选择一张手牌。其|暂塑|为 {Mana}。
+
+    向抽牌堆添加3张复制，这些牌|暂塑|为{Mana}并具有|放逐|和|填充|效果。
+  Name: 四重存在

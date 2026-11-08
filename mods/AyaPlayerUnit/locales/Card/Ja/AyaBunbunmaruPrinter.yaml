@@ -1,0 +1,12 @@
+﻿AyaBunbunmaruPrinter:
+  Description: '{PlayerName}のターン開始時、|文々。新聞|を{Value1}枚手札に加える。それらは|臨時コスト|{Mana}。'
+  UpgradedDescription: >-
+    {PlayerName}のターン開始時、|文々。新聞|を{Value1}枚手札に加える。それらは|臨時コスト|{Mana}。
+
+    {SelfName}の効果を1回発動する。
+  PhantasmModeDescription: '{PlayerName}のターン開始時、|文々。新聞|を{Value1}枚手札に加える。'
+  PhantasmModeUpgradedDescription: >-
+    {PlayerName}のターン開始時、|文々。新聞|を{Value1}枚手札に加える。
+
+    {SelfName}の効果を1回発動する。
+  Name: 文々。新聞プリンター

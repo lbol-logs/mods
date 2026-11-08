@@ -1,0 +1,6 @@
+﻿FlandreWarmonger:
+  Description: '|手札に加わったとき|：敵1体につき|臨時火力|{FlandreValue1}と|臨時霊力|{FlandreValue1}を得る。({Amount})'
+  UpgradedDescription: '|手札に加わったとき|：敵1体につき|臨時火力|{FlandreValue1}と|臨時霊力|{FlandreValue1}を得る。({Amount})'
+  NonbattleDescription: '|手札に加わったとき|：敵1体につき|臨時火力|{FlandreValue1}と|臨時霊力|{FlandreValue1}を得る。'
+  UpgradedNonbattleDescription: '|手札に加わったとき|：敵1体につき|臨時火力|{FlandreValue1}と|臨時霊力|{FlandreValue1}を得る。'
+  Name: 戦争屋

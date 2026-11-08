@@ -1,0 +1,14 @@
+﻿AyaTenguNewspaperDeadlineDay:
+  Description: >-
+    The maximum hand size becomes {MaxHand}.
+
+    All |Misfortune| and Status cards have |Replenish|.
+
+    |While in library|: Negates |Long Night|.
+  UpgradedDescription: >-
+    The maximum hand size becomes {MaxHand}.
+
+    All |Misfortune| and Status cards have |Replenish|.
+
+    |While in library|: Negates |Long Night|.
+  Name: Tengu Newspaper Deadline Day

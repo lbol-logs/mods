@@ -1,0 +1,14 @@
+﻿FlandreMazeofLove:
+  Description: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Deal {FlandreDamage} damage and apply {FlandreValue1} |Weak| to each enemy.
+
+    Play {FlandreValue2} |p:random| |Crystal{FlandreValue2:plural one='' other='s'}| to each enemy.
+  UpgradedDescription: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Deal {FlandreDamage} damage and apply {FlandreValue1} |Weak| to each enemy.
+
+    Play {FlandreValue2} |p:random| |Crystal{FlandreValue2:plural one='' other='s'}| to each enemy.
+  Name: Maze of Love

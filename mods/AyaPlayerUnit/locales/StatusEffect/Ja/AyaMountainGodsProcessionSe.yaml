@@ -1,0 +1,4 @@
+﻿AyaMountainGodsProcessionSe:
+  Brief: '{PlayerName}が|加速|を得るたび、<sprite="ManaSprite" name="P">を得る。'
+  Description: '{PlayerName}が|加速|を得るたび、<sprite="ManaSprite" name="P">を{Level}つ得る。'
+  Name: 山神渡御

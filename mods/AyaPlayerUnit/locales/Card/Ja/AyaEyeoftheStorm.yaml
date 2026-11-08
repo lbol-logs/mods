@@ -1,0 +1,14 @@
+﻿AyaEyeoftheStorm:
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    |反射|{Value1}を得る。
+
+    {SelfName}の効果量は|加速|の数値だけ増加する。
+  UpgradedDescription: >-
+    {Block}|ブロック|を得る。
+
+    |反射|{Value1}を得る。
+
+    {SelfName}の効果量は|加速|の数値だけ増加する。
+  Name: 嵐の目

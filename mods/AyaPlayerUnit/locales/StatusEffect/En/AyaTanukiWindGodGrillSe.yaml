@@ -1,0 +1,7 @@
+﻿AyaTanukiWindGodGrillSe:
+  Brief: >-
+    Whenever {OwnerName} gains |Wind God Grill|, she gains that much |Gravy|.
+
+    {OwnerName}'s |Gravy| is replenished to a fixed level at the end of her turn.
+  Description: "{OwnerName}'s |Gravy| is replenished to {Level} at the end of her turn."
+  Name: Wind God Grill

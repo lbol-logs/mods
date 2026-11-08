@@ -1,0 +1,14 @@
+﻿FlandreForbiddenScarletCuriositySe:
+  Brief: >-
+    {PlayerName} is immune to all debuffs.
+
+    {PlayerName}'s attacks deal several times more damage.
+
+    Whenever an enemy loses life, {PlayerName} gains that much life.
+  Description: >-
+    {PlayerName} is immune to all debuffs.
+
+    {PlayerName}'s attacks deal {Level:plural one='% time' other='% times'} more damage.
+
+    Whenever an enemy loses life, {PlayerName} gains that much life.
+  Name: Forbidden Scarlet Curiosity

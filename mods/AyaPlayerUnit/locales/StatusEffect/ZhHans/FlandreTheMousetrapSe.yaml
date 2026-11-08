@@ -1,0 +1,7 @@
+﻿FlandreTheMousetrapSe:
+  Brief: 在 {PlayerName} 的下一个回合开始时，对每个敌人造成等于上回合所受伤害的伤害。
+  Description: >-
+    在 {PlayerName} 的下一个 {Level:plural one='% 回合' other='% 回合'} 开始时，对每个敌人造成等于上回合所受伤害的伤害。
+
+    （累计伤害：{Count}）
+  Name: 捕鼠夹

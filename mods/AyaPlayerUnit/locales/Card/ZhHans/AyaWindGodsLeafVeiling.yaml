@@ -1,0 +1,14 @@
+﻿AyaWindGodsLeafVeiling:
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    所有针对该敌人的攻击获得 |精准|。
+
+    将一张 |文文新闻| 加入手牌。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害。
+
+    所有针对该敌人的攻击获得 |精准|。
+
+    将一张 |文文新闻| 加入手牌。
+  Name: 风神叶幕

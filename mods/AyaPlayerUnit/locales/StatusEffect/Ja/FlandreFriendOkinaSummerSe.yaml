@@ -1,0 +1,7 @@
+﻿FlandreFriendOkinaSummerSe:
+  Brief: '{PlayerName}がカードを一定枚数発動するたび、各敵に|精密|な攻撃ダメージを与え、|凍結|を与える。'
+  Description: >-
+    {PlayerName}が{Limit:plural one='%枚' other='%枚'}のカードを発動するたび、各敵に{Level}の|精密|な攻撃ダメージを与え、|凍結|を与える。
+
+    （残り{Count:plural one='%枚' other='%枚'}）
+  Name: 裏・パーフェクトサマーアイス

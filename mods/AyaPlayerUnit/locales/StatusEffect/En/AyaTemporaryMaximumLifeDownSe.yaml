@@ -1,0 +1,4 @@
+﻿AyaTemporaryMaximumLifeDownSe:
+  Brief: Maximum life decreased until end of combat.
+  Description: Until end of combat, lose {Amount} maximum life.
+  Name: Temporary Maximum Life Down

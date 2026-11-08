@@ -1,0 +1,10 @@
+﻿FlandreDestructiveImpulse:
+  Description: >-
+    |ターン終了時|：|狂気|{Value1}を得る。
+
+    |廃棄された時|：|廃棄場|から{SelfName}を捨て札に戻す。
+  UpgradedDescription: >-
+    |ターン終了時|：|狂気|{Value1}を得る。
+
+    |廃棄された時|：|廃棄場|から{SelfName}を捨て札に戻す。
+  Name: 破壊衝動

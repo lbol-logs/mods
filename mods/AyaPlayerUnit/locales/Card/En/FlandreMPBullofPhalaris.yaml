@@ -1,0 +1,14 @@
+﻿FlandreMPBullofPhalaris:
+  Description: >-
+    Whenever any player receives damage from status effects, they deal {FlandreValue1} damage to each enemy.
+
+    Apply {Value2} |Hellfire| to all players.
+
+    |Scaled| {Mana}.
+  UpgradedDescription: >-
+    Whenever any player receives damage from status effects, they deal {FlandreValue1} damage to each enemy.
+
+    Apply {Value2} |Hellfire| to all players.
+
+    |Scaled| {Mana}.
+  Name: Bull of Phalaris

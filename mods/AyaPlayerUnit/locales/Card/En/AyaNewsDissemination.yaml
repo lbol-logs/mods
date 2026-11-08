@@ -1,0 +1,14 @@
+﻿AyaNewsDissemination:
+  Description: >-
+    Discard {Value1} cards.
+
+    Add that many |Bunbunmaru Newspapers| to the hand.
+
+    Gain {Mana}.
+  UpgradedDescription: >-
+    Discard between {Value1} to {Value2} cards.
+
+    Add that many |Bunbunmaru Newspapers| to the hand.
+
+    Gain {Mana}.
+  Name: News Dissemination

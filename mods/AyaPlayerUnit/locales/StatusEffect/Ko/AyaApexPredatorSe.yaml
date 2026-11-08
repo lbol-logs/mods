@@ -1,0 +1,4 @@
+﻿AyaApexPredatorSe:
+  Brief: '{PlayerName}가 공격 피해를 받을 때마다 그 피해를 {PlayerName}의 |가속|만큼 줄이고 |가속|을 {Value} 잃습니다.'
+  Description: '{PlayerName}가 공격 피해를 받을 때마다 그 피해를 {PlayerName}의 |가속|만큼 줄이고 |가속|을 {Value} 잃습니다.'
+  Name: 최상위 포식자

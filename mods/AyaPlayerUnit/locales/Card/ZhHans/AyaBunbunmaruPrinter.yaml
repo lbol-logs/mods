@@ -1,0 +1,12 @@
+﻿AyaBunbunmaruPrinter:
+  Description: 在{PlayerName}回合开始时，将 |{Value1:plural one='% 文文新闻' other='% 文文新闻'}| 加入手牌。{Value1:plural one='它 |临时消耗|' other='它们 |临时消耗|'} {Mana}。
+  UpgradedDescription: >-
+    在{PlayerName}回合开始时，将 |{Value1:plural one='% 文文新闻' other='% 文文新闻'}| 加入手牌。{Value1:plural one='它 |临时消耗|' other='它们 |临时消耗|'} {Mana}。
+
+    触发 {SelfName} 一次。
+  PhantasmModeDescription: 在{PlayerName}回合开始时，将 |{Value1:plural one='% 文文新闻' other='% 文文新闻'}| 加入手牌。
+  PhantasmModeUpgradedDescription: >-
+    在{PlayerName}回合开始时，将 |{Value1:plural one='% 文文新闻' other='% 文文新闻'}| 加入手牌。
+
+    触发 {SelfName} 一次。
+  Name: 文文印刷机

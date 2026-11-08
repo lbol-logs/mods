@@ -1,0 +1,18 @@
+﻿AyaCompletedInterview:
+  Description: >-
+    |初见|: 将 |{Value1:plural one='% 文文新闻' other='% 文文新闻'}| 和 |{Value2:plural one='% 文文新闻 - 文特刊' other='% 文文新闻 - 文特刊'}| 加入弃牌堆。
+
+    抽 {Value3:plural one='% 张牌' other='% 张牌'}。
+  UpgradedDescription: >-
+    |初见|: 将 |{Value1:plural one='% 文文新闻' other='% 文文新闻'}| 和 |{Value2:plural one='% 文文新闻 - 文特刊' other='% 文文新闻 - 文特刊'}| 加入弃牌堆。
+
+    抽 {Value3:plural one='% 张牌' other='% 张牌'}。
+  ExtraDescription1: >-
+    |d:|初见|: 将 {Value1:plural one='% 文文新闻' other='% 文文新闻'} 和 {Value2:plural one='% 文文新闻 - 文特刊' other='% 文文新闻 - 文特刊'} 加入弃牌堆。|
+
+    抽 {Value3:plural one='% 张牌' other='% 张牌'}。
+  UpgradedExtraDescription1: >-
+    |d:|初见|: 将 {Value1:plural one='% 文文新闻' other='% 文文新闻'} 和 {Value2:plural one='% 文文新闻 - 文特刊' other='% 文文新闻 - 文特刊'} 加入弃牌堆。|
+
+    抽 {Value3:plural one='% 张牌' other='% 张牌'}。
+  Name: 完成的采访

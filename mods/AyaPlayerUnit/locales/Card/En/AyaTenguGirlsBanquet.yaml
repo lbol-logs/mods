@@ -1,0 +1,10 @@
+﻿AyaTenguGirlsBanquet:
+  Description: >-
+    Gain {Shield} |Barrier|.
+
+    |Upgrade| all cards in the hand, increase their |Block|, |Barrier|, and damage by {Value1}.
+  UpgradedDescription: >-
+    Gain {Shield} |Barrier|.
+
+    |Upgrade| all cards in the hand, increase their |Block|, |Barrier|, and damage by {Value1}.
+  Name: Tengu Girl's Banquet

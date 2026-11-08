@@ -1,0 +1,14 @@
+﻿AyaTanukiGravySe:
+  Brief: >-
+    {OwnerName} 从烧焦的肉中受到 0 点伤害。
+
+    当受到攻击或每回合开始时，失去 1 点 |肉汁|。
+
+    |d:（此效果无效。）|
+  Description: >-
+    {OwnerName} 从接下来的 {Level:plural one='% 次烧焦的肉' other='% 次烧焦的肉'} 中受到 0 点伤害。
+
+    当受到攻击或回合开始时，失去 1 点 |肉汁|。
+
+    |d:（此效果无效。）|
+  Name: 肉汁

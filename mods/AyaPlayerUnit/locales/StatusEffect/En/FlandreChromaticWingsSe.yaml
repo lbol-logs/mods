@@ -1,0 +1,4 @@
+﻿FlandreChromaticWingsSe:
+  Brief: At the start of {PlayerName}'s turn, add <sprite="ManaSprite" name="P">.
+  Description: At the start of {PlayerName}'s turn, add {Level} <sprite="ManaSprite" name="P">.
+  Name: Chromatic Wings

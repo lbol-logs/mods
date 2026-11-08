@@ -1,0 +1,10 @@
+﻿FlandreBloodisFuel:
+  Description: >-
+    失去 {Value1} 点生命。
+
+    将一张 |幻虹| 加入手中。
+  UpgradedDescription: >-
+    失去 {Value1} 点生命。
+
+    将一张 |幻虹+| 加入手中。
+  Name: 沸血为薪

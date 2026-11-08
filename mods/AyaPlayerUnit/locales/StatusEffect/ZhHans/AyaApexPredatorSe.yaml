@@ -1,0 +1,4 @@
+﻿AyaApexPredatorSe:
+  Brief: 每当 {PlayerName} 受到攻击伤害时，减少等同于 {PlayerName} 的 |加速| 的伤害，并失去 {Value} 点 |加速|。
+  Description: 每当 {PlayerName} 受到攻击伤害时，减少等同于 {PlayerName} 的 |加速| 的伤害，并失去 {Value} 点 |加速|。
+  Name: 顶级掠食者

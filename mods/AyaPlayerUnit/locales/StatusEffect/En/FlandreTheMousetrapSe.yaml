@@ -1,0 +1,4 @@
+﻿FlandreTheMousetrapSe:
+  Brief: At the start of {PlayerName}'s next turn, deal damage to each enemy equal to the amount of damage taken last turn.
+  Description: At the start of {PlayerName}'s next {Duration:plural one='% turn' other='% turns'}, deal damage to each enemy equal to the amount of damage taken last turn. ({Count})
+  Name: The Mousetrap

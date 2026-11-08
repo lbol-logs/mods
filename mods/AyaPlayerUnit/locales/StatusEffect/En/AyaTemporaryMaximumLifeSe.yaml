@@ -1,0 +1,4 @@
+﻿AyaTemporaryMaximumLifeSe:
+  Brief: Maximum life increased until end of combat.
+  Description: Until end of combat, gain {Amount} maximum life.
+  Name: Temporary Maximum Life

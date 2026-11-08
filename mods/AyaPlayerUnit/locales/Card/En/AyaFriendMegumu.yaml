@@ -1,0 +1,5 @@
+﻿AyaFriendMegumu:
+  Description: '{FriendP}|f:Supervision|: Whenever a |Misfortune| or Status card is |Exiled|, gain {Mana}.'
+  ExtraDescription1: "{FriendA}|a:Exploitation|: Lose {Value1} life, gain {Mana2} and draw {Value2:plural one='% card' other='% cards'}. This also happens when no |Misfortune| and Status cards were |Exiled| last turn."
+  ExtraDescription3: "{FriendU}|u:Rainbow Illumination「Clear and Tranquil Wind and Moon」|: Deal {Damage2} attack damage to each enemy. Whenever a |Misfortune| or Status card is |Exiled|, gain {Mana3} and draw {Value3:plural one='% card' other='% cards'}. |Accurate|"
+  Name: Megumu, Chief of the Crow Tengu

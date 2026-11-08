@@ -1,0 +1,10 @@
+﻿AyaBossFlandreSe:
+  Brief: >-
+    {OwnerName} is immune to |Destroy|.
+
+    {OwnerName} receives less damage.
+  Description: >-
+    {OwnerName} is immune to |Destroy|.
+
+    {OwnerName} receives {Level}% less damage.
+  Name: Devil of Scarlet Blood

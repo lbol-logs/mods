@@ -1,0 +1,14 @@
+﻿FlandreCerberusClipper:
+  Description: >-
+    피해를 {Damage}씩 {Value1}번 줍니다.
+
+    |허약|과 |취약|을 {Value1} 줍니다.
+
+    체력을 {Value1} 얻습니다.
+  UpgradedDescription: >-
+    피해를 {Damage}씩 {Value1}번 줍니다.
+
+    |허약|과 |취약|을 {Value1} 줍니다.
+
+    체력을 {Value1} 얻습니다.
+  Name: 케르베로스 클리퍼

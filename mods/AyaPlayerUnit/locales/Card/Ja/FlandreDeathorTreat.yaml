@@ -1,0 +1,26 @@
+﻿FlandreDeathorTreat:
+  Description: >-
+    |供物|{Value1}。
+
+    手札に|悪魔のクリスタル|を{FlandreValue2}枚を加える。
+
+    |初見|：|災禍|{Value3}を得る。
+  UpgradedDescription: >-
+    |供物|{Value1}。
+
+    手札に|悪魔のクリスタル+{Value4}|を{FlandreValue2}枚を加える。
+
+    |初見|：|災禍|{Value3}を得る。
+  ExtraDescription1: >-
+    |供物| {Value1}.
+
+    手札に|悪魔のクリスタル|を{FlandreValue2}枚に加える。
+
+    |d:初見：|災禍|{Value3}を得る。|
+  ExtraDescription2: >-
+    |供物| {Value1}.
+
+    手札に|悪魔のクリスタル+{Value4}|を{FlandreValue2}枚加える。
+
+    |d:初見：|災禍|{Value3}を得る。|
+  Name: お菓子くれなきゃ殺しちゃうぞ

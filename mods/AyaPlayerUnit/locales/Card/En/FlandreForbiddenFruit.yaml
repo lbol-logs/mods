@@ -1,0 +1,26 @@
+﻿FlandreForbiddenFruit:
+  Description: >-
+    |Offering| {Value1}.
+
+    Gain {FlandreShield} |Barrier|.
+
+    Gain {FlandreValue2} life.
+
+    Gain {Value3} <sprite="Point" name="Gold">.
+
+    Gain {Value4} <sprite="Point" name="Power">.
+
+    Add {Value5} |p:random| |Crystal{Value5:plural one='' other='s'}| to the hand.
+  UpgradedDescription: >-
+    |Offering| {Value1}.
+
+    Gain {FlandreShield} |Barrier|.
+
+    Gain {FlandreValue2} life.
+
+    Gain {Value3} <sprite="Point" name="Gold">.
+
+    Gain {Value4} <sprite="Point" name="Power">.
+
+    Add {Value5} |p:random| |Crystal{Value5:plural one='' other='s'}+{Value6}| to the hand.
+  Name: Forbidden Fruit

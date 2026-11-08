@@ -1,0 +1,10 @@
+﻿FlandreStarbowBreak:
+  Description: >-
+    |색이 다른 마나를 소모할 때 마다|: 모든 적에게 피해를 {Damage} 줍니다.
+
+    {SelfName}가 패의 공격 카드 마다 추가로 피해를 {Value1} 줍니다.
+  UpgradedDescription: >-
+    |색이 다른 마나를 소모할 때 마다|: 모든 적에게 피해를 {Damage} 줍니다.
+
+    {SelfName}가 패의 공격 카드 마다 추가로 피해를 {Value1} 줍니다.
+  Name: 스타 보우 브레이크

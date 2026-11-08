@@ -1,0 +1,4 @@
+﻿AyaTengusFallWindSe:
+  Brief: The next cards are played twice.
+  Description: The next {Level:plural one='% card' other='% cards'} are played twice.
+  Name: Tengu's Fall Wind

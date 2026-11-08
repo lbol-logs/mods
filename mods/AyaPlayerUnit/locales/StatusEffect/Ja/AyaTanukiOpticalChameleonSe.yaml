@@ -1,0 +1,10 @@
+﻿AyaTanukiOpticalChameleonSe:
+  Brief: >-
+    カメレオンが受ける攻撃ダメージが半減する。
+
+    |d:(このステータスに効果はない)|
+  Description: >-
+    カメレオンが受ける攻撃ダメージが半減する。残り{Duration}ターン持続。
+
+    |d:(このステータスに効果はない)|
+  Name: カメレオン迷彩

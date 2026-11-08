@@ -1,0 +1,10 @@
+﻿FlandreDesolatePlace:
+  Description: >-
+    Gain {FlandreBlock} |Block|.
+
+    Gain {FlandreValue1} |Graze|.
+  UpgradedDescription: >-
+    Gain {FlandreBlock} |Block|.
+
+    Gain {FlandreValue1} |Graze|.
+  Name: Desolate Place

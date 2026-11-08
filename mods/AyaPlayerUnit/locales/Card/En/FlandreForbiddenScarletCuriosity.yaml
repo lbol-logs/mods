@@ -1,0 +1,52 @@
+﻿FlandreForbiddenScarletCuriosity:
+  Description: >-
+    {PlayerName} is immune to all debuffs.
+
+    {PlayerName}'s attacks deal {FlandreValue1:plural one='% time' other='% times'} more damage.
+
+    Whenever an enemy loses life, {PlayerName} gains that much life.
+
+    These effects does not stack.
+
+    Gain {FlandreValue2}% |Temporary Maximum Life|. ({Amount})
+
+    Gain {Value3} |Madness|.
+  UpgradedDescription: >-
+    {PlayerName} is immune to all debuffs.
+
+    {PlayerName}'s attacks deal {FlandreValue1:plural one='% time' other='% times'} more damage.
+
+    Whenever an enemy loses life, {PlayerName} gains that much life.
+
+    These effects does not stack.
+
+    Gain {FlandreValue2}% |Temporary Maximum Life|. ({Amount})
+
+    Gain {Value3} |Madness|.
+  NonbattleDescription: >-
+    {PlayerName} is immune to all debuffs.
+
+    {PlayerName}'s attacks deal {FlandreValue1:plural one='% time' other='% times'} more damage.
+
+    Whenever an enemy loses life, {PlayerName} gains that much life.
+
+    These effects does not stack.
+
+    Gain {FlandreValue2}% |Temporary Maximum Life|.
+
+    Gain {Value3} |Madness|.
+  UpgradedNonbattleDescription: >-
+    {PlayerName} is immune to all debuffs.
+
+    {PlayerName}'s attacks deal {FlandreValue1:plural one='% time' other='% times'} more damage.
+
+    Whenever an enemy loses life, {PlayerName} gains that much life.
+
+    These effects does not stack.
+
+    Gain {FlandreValue2}% |Temporary Maximum Life|.
+
+    Gain {Value3} |Madness|.
+  Name: Forbidden Scarlet Curiosity
+  ForbiddenScarletCuriosity1Flandre: Hey hey. There's something I want to ask you.
+  ForbiddenScarletCuriosity2Flandre: What does fear... taste like?

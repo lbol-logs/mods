@@ -1,0 +1,10 @@
+﻿FlandreRipandTear:
+  Description: >-
+    {FlandreDamage}ダメージを{FlandreValue1}回与える。
+
+    対象のライフが{FlandreValue2}以下なら、|破壊|する。
+  UpgradedDescription: >-
+    {FlandreDamage}ダメージを{FlandreValue1}回与える。
+
+    対象のライフが{FlandreValue2}以下なら、|破壊|する。
+  Name: 引き裂き、切り裂け！

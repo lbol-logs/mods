@@ -1,0 +1,10 @@
+﻿FlandreHotSurface:
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    {PlayerName}의 다음 턴까지, {PlayerName}가 공격 피해를 받을 때마다 공격자에게 |지옥불|을 {Value1} 줍니다.
+  UpgradedDescription: >-
+    |방어|를 {Block} 얻습니다.
+
+    {PlayerName}의 다음 턴까지, {PlayerName}가 공격 피해를 받을 때마다 공격자에게 |지옥불|을 {Value1} 줍니다.
+  Name: 뜨거운 표면

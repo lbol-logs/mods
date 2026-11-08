@@ -1,0 +1,5 @@
+﻿AyaQuickShootingTenguScoopSe:
+  Brief: 이번 턴 동안 상태 카드의 비용이 {Mana}만큼 감소합니다.
+  Description: 이번 턴 동안 상태 카드의 비용이 {Mana}만큼 감소합니다.
+  ExtraDescription: 이번 턴 동안 카드의 비용이 {Mana}만큼 감소합니다.
+  Name: 격촬 텐구 스쿠프

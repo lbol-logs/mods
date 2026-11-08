@@ -1,0 +1,14 @@
+﻿AyaHeavenlyPartner:
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    모든 적에게 |허약|과 |취약|을 {Value1} 줍니다.
+
+    소환된 |모미지, 귀여운 백랑 텐구|가 손에 있다면, |일시 화력|을 {Value2} 얻습니다.
+  UpgradedDescription: >-
+    |방어|를 {Block} 얻습니다.
+
+    모든 적에게 |허약|과 |취약|을 {Value1} 줍니다.
+
+    소환된 |모미지, 귀여운 백랑 텐구|가 손에 있다면, |일시 화력|을 {Value2} 얻습니다.
+  Name: 천상의 동료

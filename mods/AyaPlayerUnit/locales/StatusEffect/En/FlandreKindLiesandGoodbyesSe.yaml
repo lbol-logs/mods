@@ -1,0 +1,4 @@
+﻿FlandreKindLiesandGoodbyesSe:
+  Brief: "{PlayerName} can't lose life for a certain number of turns."
+  Description: "{PlayerName} can't lose life for {Duration:plural one='% turn' other='% turns'}."
+  Name: Kind Lies and Goodbyes

@@ -1,0 +1,16 @@
+﻿FlandreRuinSe:
+  Brief: >-
+    {OwnerName} takes more damage.
+
+    If {OwnerName}'s life is equal to |Ruin| or less, |Destroy| it.
+  Description: >-
+    {OwnerName} takes {Amount}% more damage.
+
+    If {OwnerName} has {Level} or less life, |Destroy| it.
+  ExtraDescription: >-
+    {OwnerName}'s attacks deal {Value}% less damage.
+
+    {OwnerName} takes {Amount}% more damage.
+
+    If {OwnerName} has {Level} or less life, |Destroy| it.
+  Name: Ruin

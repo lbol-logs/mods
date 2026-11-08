@@ -1,0 +1,4 @@
+﻿FlandreTheMousetrapSe:
+  Brief: 次の{PlayerName}のターン開始時、前のターンに受けたダメージと同じ量のダメージをすべての敵に与える。
+  Description: "{PlayerName}の次の{Duration:plural one='% ターン' other='% ターン'}開始時、前のターンに受けたダメージと同じ量のダメージをすべての敵に与える。（{Count}）"
+  Name: ネズミ捕り

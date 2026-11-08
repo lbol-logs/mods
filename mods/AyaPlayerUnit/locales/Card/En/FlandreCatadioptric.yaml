@@ -1,0 +1,4 @@
+﻿FlandreCatadioptric:
+  Description: '|While in hand|: Whenever {PlayerName} deals attack damage, deal {FlandreDamage} damage to the target.'
+  UpgradedDescription: '|While in hand|: Whenever {PlayerName} deals attack damage, deal {FlandreDamage} damage to the target.'
+  Name: Catadioptric

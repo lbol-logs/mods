@@ -1,0 +1,4 @@
+﻿FlandreScarletCasinoD3Se:
+  Brief: Prevent the next few times {PlayerName} would lose life.
+  Description: Prevent the next {Level:plural one='% time' other='% times'} {PlayerName} would lose life.
+  Name: Scarlet Casino - D3

@@ -1,0 +1,4 @@
+﻿FlandreAndThenWillThereBeNoneSe:
+  Brief: '{PlayerName} is immune to all damage and debuffs for a certain number of turns.'
+  Description: "{PlayerName} is immune to all damage and debuffs for the next {Duration:plural one='% turn' other='% turns'}."
+  Name: And Then Will There Be None?

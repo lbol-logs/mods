@@ -1,0 +1,4 @@
+﻿FlandreHotSurfaceSe:
+  Brief: Until {PlayerName}'s next turn, whenever {PlayerName} receives attack damage, apply |Hellfire| to the attacker.
+  Description: Until {PlayerName}'s next turn, whenever {PlayerName} receives attack damage, apply {Level} |Hellfire| to the attacker.
+  Name: Hot Surface

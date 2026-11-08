@@ -1,0 +1,22 @@
+﻿FlandreMadnessSe:
+  Brief: >-
+    {PlayerName}は最大{MadnessValue4}の|狂気|を持つことができる。
+
+    {PlayerName}の攻撃は|狂気|1つにつき|e:{MadnessValue1}|%ダメージが増加する。
+
+    {PlayerName}がカードから得る|ブロック|と|バリア|は、|狂気|1つにつき|e:{MadnessValue2}|%減少する。
+
+    {PlayerName}がレベルアップするたび、|狂気|を{MadnessDecay}失う。
+
+    |r:{PlayerName}の|狂気|が{MadnessValue4}に達すると、敗北する。|
+  Description: >-
+    {PlayerName}は最大{MadnessValue4}の|狂気|を持つことができる。
+
+    {PlayerName}の攻撃は|狂気|1つにつき|e:{MadnessValue1}|%ダメージが増加する。（|e:{MadnessAmount1}|%）
+
+    {PlayerName}がカードから得る|ブロック|と|バリア|は、|狂気|1つにつき|e:{MadnessValue2}|%減少する。（|e:{MadnessAmount2}|%）
+
+    {PlayerName}がレベルアップするたび、|狂気|を{MadnessDecay}失う。
+
+    |r:{PlayerName}の|狂気|が{MadnessValue4}に達すると、敗北する。|
+  Name: 狂気

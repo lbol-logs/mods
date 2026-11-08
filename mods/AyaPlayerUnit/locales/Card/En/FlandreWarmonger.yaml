@@ -1,0 +1,6 @@
+﻿FlandreWarmonger:
+  Description: '|When {SelfName} enters the hand|: Gain {FlandreValue1} |Temporary Firepower| and |Temporary Spirit| for each enemy. ({Amount})'
+  UpgradedDescription: '|When {SelfName} enters the hand|: Gain {FlandreValue1} |Temporary Firepower| and |Temporary Spirit| for each enemy. ({Amount})'
+  NonbattleDescription: '|When {SelfName} enters the hand|: Gain {FlandreValue1} |Temporary Firepower| and |Temporary Spirit| for each enemy.'
+  UpgradedNonbattleDescription: '|When {SelfName} enters the hand|: Gain {FlandreValue1} |Temporary Firepower| and |Temporary Spirit| for each enemy.'
+  Name: Warmonger

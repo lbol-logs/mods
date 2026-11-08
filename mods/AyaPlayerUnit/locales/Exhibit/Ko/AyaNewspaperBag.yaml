@@ -1,0 +1,4 @@
+﻿AyaNewspaperBag:
+  Description: 전투 시작시, |붕붕마루 신문|을 뽑을 카드 더미에 {Value1}장 넣습니다. 그 |비용|이 {Value1} {Mana}가 됩니다.
+  Name: 신문 가방
+  FlavorText: 초-친환경적인 신문지를 담은 신문지로 만든 신문 가방!

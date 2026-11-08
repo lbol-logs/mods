@@ -1,0 +1,11 @@
+﻿AyaRouteForbiddentoManSe:
+  Brief: At the end of {PlayerName}'s turn, deal |Accurate| attack damage and apply |Lock On| to a random enemy for each card |Exiled| this turn, up to a certain number of times.
+  Description: >-
+    At the end of {PlayerName}'s turn, deal {Damage} |Accurate| attack damage and apply {Limit} |Lock On| to a random enemy for each card |Exiled| this turn, up to {Value} times.
+
+    (Accumulated times: {Count})
+  PhantasmModeDescription: >-
+    At the end of {PlayerName}'s turn, deal {Damage} |Accurate| attack damage to a random enemy for each card |Exiled| this turn, up to {Value} times.
+
+    (Accumulated times: {Count})
+  Name: Route Forbidden to Man

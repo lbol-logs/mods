@@ -1,0 +1,8 @@
+﻿AyaFriendCirno:
+  Description: '{FriendP}|f:盛夏绽放|: 每个|战场|中的 |队友| 获得 {Value1} |团结|。'
+  ExtraDescription1: "{FriendA}|a:不屈的秋天|: 每回合只能生效一次。召唤 {Value2} 张随机 |升级| |队友| 卡牌。{Value2:plural one='它有' other='它们有'} {Value1} |团结|。"
+  ExtraDescription2: "{FriendA}|d:不屈的秋天: 每回合只能生效一次。召唤 {Value2} 张随机升级队友卡牌。{Value2:plural one='它有' other='它们有'} {Value1} 团结。|"
+  ExtraDescription3: '{FriendU}|u:「四季终曲」|: 每场战斗只能生效一次。对所有敌人造成 {Damage} 点攻击伤害并施加 {Value1} |最终冻结|。|精准|'
+  ExtraDescription4: '{FriendU}|d:「四季终曲」: 每场战斗只能生效一次。对所有敌人造成 {Damage} 点攻击伤害并施加 {Value1} 最终冻结。精准|'
+  Name: 琪露诺，四季的小友
+  DetailText: '|p:此卡在任何情况下都不会离开手牌。|'

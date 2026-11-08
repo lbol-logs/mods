@@ -1,0 +1,4 @@
+﻿AyaPlayerUnitAllySe:
+  Brief: '{OwnerName} will fight alongside {PlayerName}! {OwnerName} is immune to all debuffs and cannot be attacked.'
+  Description: '{OwnerName} will fight alongside {PlayerName}! {OwnerName} is immune to all debuffs and cannot be attacked.'
+  Name: Real Teammate

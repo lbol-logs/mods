@@ -1,0 +1,4 @@
+﻿FlandreWatchtheWorldBurn:
+  Description: '{PlayerName}のターン終了時、敵全体に|業火|{FlandreValue1}を与える。'
+  UpgradedDescription: '{PlayerName}のターン終了時、敵全体に|業火|{FlandreValue1}を与える。'
+  Name: 見よ、燃える世界を

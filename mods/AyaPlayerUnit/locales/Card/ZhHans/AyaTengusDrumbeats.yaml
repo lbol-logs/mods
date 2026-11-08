@@ -1,0 +1,23 @@
+﻿AyaTengusDrumbeats:
+  Description: >-
+    对所有敌人造成 {Damage} 点伤害。
+
+    获得 {Value1} |临时火力|。
+
+    |减速 {Value1}|: 在{PlayerName}的下个回合开始时重复这些效果。
+  UpgradedDescription: >-
+    对所有敌人造成 {Damage} 点伤害。
+
+    获得 {Value1} |临时火力|。
+
+    |减速 {Value1}|: 在{PlayerName}的下个回合开始时重复这些效果。
+  PhantasmModeDescription: >-
+    对所有敌人造成 {Damage} 点伤害。
+
+    |减速 {Value1}|: 在{PlayerName}的下个回合开始时重复此效果。
+  PhantasmModeUpgradedDescription: >-
+    对所有敌人造成 {Damage} 点伤害。
+
+    |减速 {Value1}|: 在{PlayerName}的下个回合开始时重复此效果。
+  Name: 天狗的鼓点
+  FlavorText: 摇滚的文！

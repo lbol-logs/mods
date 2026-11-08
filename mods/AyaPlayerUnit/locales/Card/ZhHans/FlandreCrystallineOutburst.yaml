@@ -1,0 +1,14 @@
+﻿FlandreCrystallineOutburst:
+  Description: >-
+    当 |水晶| 生效时，触发其所有效果。
+
+    |疯狂水晶| 会给予 <sprite="ManaSprite" name="P"> 而不是随机法力。
+
+    将 {Value1:plural one='% |疯狂水晶|' other='% |疯狂水晶|'} 加入手牌。
+  UpgradedDescription: >-
+    当 |水晶| 生效时，触发其所有效果。
+
+    |疯狂水晶| 会给予 <sprite="ManaSprite" name="P"> 而不是随机法力。
+
+    将 {Value1:plural one='% |疯狂水晶|' other='% |疯狂水晶|'} 加入手牌。
+  Name: 水晶爆发

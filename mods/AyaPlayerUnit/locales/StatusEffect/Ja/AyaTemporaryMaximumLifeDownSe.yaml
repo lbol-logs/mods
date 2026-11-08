@@ -1,0 +1,4 @@
+﻿AyaTemporaryMaximumLifeDownSe:
+  Brief: 戦闘終了まで最大ライフが減少する。
+  Description: 戦闘終了まで最大ライフを{Amount}失う。
+  Name: 一時的な最大ライフ減少

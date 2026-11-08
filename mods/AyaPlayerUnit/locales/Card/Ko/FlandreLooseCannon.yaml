@@ -1,0 +1,10 @@
+﻿FlandreLooseCannon:
+  Description: >-
+    모든 적에게 피해를 {Damage} 주고 |지옥불|을 {Value1} 줍니다.
+
+    |손에 있을 때|: {PlayerName}가 공격 피해를 주거나 받을 때마다 {SelfName}의 비용이 |일시적으로| {Mana2} 감소합니다. {Mana}가 되면 자동으로 사용됩니다.
+  UpgradedDescription: >-
+    모든 적에게 피해를 {Damage} 주고 |지옥불|을 {Value1} 줍니다.
+
+    |손에 있을 때|: {PlayerName}가 공격 피해를 주거나 받을 때마다 {SelfName}의 비용이 |일시적으로| {Mana2} 감소합니다. {Mana}가 되면 자동으로 사용됩니다.
+  Name: 폭주 대포

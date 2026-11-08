@@ -1,0 +1,7 @@
+﻿FlandrePortableAltar:
+  Description: >-
+    At the start of combat, gain {Value1} |Spirit|.
+
+    Whenever a card is |Exiled| by |Offering|, gain {Value2} |Block|.
+  Name: Portable Altar
+  FlavorText: A portable altar for quick sacrifice to Flandre. "The devil must always be ready." She says.

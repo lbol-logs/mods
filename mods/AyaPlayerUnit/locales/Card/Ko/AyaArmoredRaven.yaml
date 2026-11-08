@@ -1,0 +1,10 @@
+﻿AyaArmoredRaven:
+  Description: >-
+    {PlayerName}의 턴에 처음 사용하는 공격 카드가 두번 사용됩니다.
+
+    {PlayerName}의 턴에 처음 사용하는 상태 카드가 두번 사용됩니다.
+  UpgradedDescription: >-
+    {PlayerName}의 턴에 처음 사용하는 공격 카드가 두번 사용됩니다.
+
+    {PlayerName}의 턴에 처음 사용하는 상태 카드가 두번 사용됩니다.
+  Name: 중장갑 까마귀

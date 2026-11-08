@@ -1,0 +1,19 @@
+﻿FlandreScarletNihility:
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    若目标生命低于 {Value1}%，则将其|消灭|。 ({Threshold})
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害。
+
+    若目标生命低于 {Value1}%，则将其|消灭|。 ({Threshold})
+  NonbattleDescription: >-
+    造成 {Damage} 点伤害。
+
+    若目标生命低于 {Value1}%，则将其|消灭|。
+  UpgradedNonbattleDescription: >-
+    造成 {Damage} 点伤害。
+
+    若目标生命低于 {Value1}%，则将其|消灭|。
+  Name: 绯色虚无
+  DetailText: 本卡不会在战斗中随机生成，也无法被复制。

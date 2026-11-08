@@ -1,0 +1,5 @@
+﻿AyaBunbunmaruPrinterSe:
+  Brief: At the start of {PlayerName}'s turn, add |Bunbunmaru Newspapers| to the hand. They |temporarily cost| {Mana}.
+  Description: At the start of {PlayerName}'s turn, add |{Level:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand. {Level:plural one='It |temporarily costs|' other='They |temporarily cost|} {Mana}.
+  PhantasmModeDescription: At the start of {PlayerName}'s turn, add |{Level:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand.
+  Name: Bunbunmaru Printer

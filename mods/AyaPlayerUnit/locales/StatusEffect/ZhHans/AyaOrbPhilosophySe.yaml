@@ -1,0 +1,4 @@
+﻿AyaOrbPhilosophySe:
+  Brief: 每当一张多色牌即将被使用时，如果其目标是 {OwnerName}，则改为将其送入弃牌堆。
+  Description: 每当一张多色牌即将被使用时，如果其目标是 {OwnerName}，则改为将其送入弃牌堆。
+  Name: 哲学家精华

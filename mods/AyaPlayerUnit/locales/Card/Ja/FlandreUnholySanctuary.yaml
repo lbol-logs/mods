@@ -1,0 +1,14 @@
+﻿FlandreUnholySanctuary:
+  Description: >-
+    {FlandreShield}|バリア|を得る。
+
+    次の自分のターン開始まで、{PlayerName}が受けるダメージは半分になる。
+
+    次の{PlayerName}のターン開始時、前のターンに失ったライフに等しいライフを回復する。
+  UpgradedDescription: >-
+    {FlandreShield}|バリア|を得る。
+
+    次の自分のターン開始まで、{PlayerName}が受けるダメージは半分になる。
+
+    次の{PlayerName}のターン開始時、前のターンに失ったライフに等しいライフを回復する。
+  Name: 穢れた聖域

@@ -1,0 +1,9 @@
+﻿AyaArsenalBirdSe:
+  Brief: At the start of {PlayerName}'s turn, summon |Unmanned Aerial Crow| to the hand.
+  Description: >-
+    At the start of {PlayerName}'s turn, summon |Unmanned Aerial Crow| to the hand.
+
+    |Unmanned Aerial Crows in Patrol Mode|: {Count}
+
+    |Unmanned Aerial Crows in Combat Mode|: {Level}
+  Name: Arsenal Bird

@@ -1,0 +1,39 @@
+﻿FlandreInstability:
+  Description: '|{SelfName}| 的效果每回合随机变化。'
+  PhantasmModeDescription: >-
+    |{SelfName}| 的效果每回合随机变化。
+
+    每个效果有 |{HiddenChance}|% 的概率被隐藏。
+  InstabilityHidden: 未知效果。
+  InstabilityBlock: 获得 |{BlockValue}| 点|格挡|。
+  InstabilityBarrier: 获得 |{ShieldValue}| 点|护盾|。
+  InstabilityMana: 获得 |{ManaValue}| 点 |法力|。
+  InstabilityScry: '|占卜| |{ScryValue}| 张牌。'
+  InstabilityDream: '|入梦| |{DreamValue}|。'
+  InstabilityCleanse: 移除|{PlayerName}|身上的所有 |负面状态|。
+  InstabilityHeal: 恢复 |{HealValue}| 点 |生命|。
+  InstabilityGold: 获得 |{GoldValue}| |金币|。
+  InstabilityPower: 获得 |{PowerValue}| 点|火力|。
+  InstabilityUpgrade: 在本场战斗结束前，|升级|手牌 中的所有卡牌。
+  InstabilityDamage1: 造成 |{DamageValue}| 点伤害。
+  InstabilityDamage2: 对所有敌人造成 |{DamageValue}| 点伤害。
+  InstabilityDamage3: 对随机敌人造成 |{DamageValue}| 点伤害。
+  InstabilityAdd1: 将 |{AddValue1}| 张 |{Add}| 加入手牌。其 |暂塑| 为 |{AddManaValue}| 点，且具有|放逐|和 |虚无|。
+  InstabilityAdd2: 将 |{AddValue1}| 张随机卡牌加入手牌。其 |暂塑| 为 |{AddManaValue}| 点，且具有|放逐|和 |虚无|。
+  InstabilityAdd3: 从 |{AddValue2}| 张随机卡牌中选择 |{AddValue1}| 张加入手牌。其 |暂塑| 为 |{AddManaValue}| 点，且具有|放逐|和 |虚无|。
+  InstabilityDraw1: 抽取 |{DrawValue}| 张牌。
+  InstabilityDraw2: 将手牌补至手牌上限。
+  InstabilityDiscard1: 弃掉最多 |{DiscardValue}| 张牌。
+  InstabilityDiscard2: 弃掉手牌 中的所有牌。
+  InstabilityExile1: '|放逐|手牌、抽牌堆和弃牌堆中最多共 |{ExileValue}| 张牌。'
+  InstabilityExile2: '|放逐|手牌 中的所有牌。'
+  InstabilityMove1: 从抽牌堆中选择最多 |{MoveValue}| 张牌置入手牌。
+  InstabilityMove2: 从弃牌堆中选择最多 |{MoveValue}| 张牌置入手牌。
+  InstabilityRetain1: 选择手牌 中最多 |{RetainValue}| 张牌，本回合 |保留| 它们。
+  InstabilityRetain2: 本回合 |保留| 手牌。
+  InstabilityBuff1: 获得 |{BuffValue1}| 点 |{Buff1}|。
+  InstabilityBuff2: 获得 |{BuffValue1}| 点 |{Buff1}| 和 |{BuffValue2}| 点 |{Buff2}|。
+  InstabilityDebuff1: 施加 |{DebuffValue}| 层 |{Debuff}|。
+  InstabilityDebuff2: 对所有敌人施加 |{DebuffValue}| 层 |{Debuff}|。
+  Name: 喜怒无常
+  DetailText: '|{SelfName}| 无法在战斗中被随机生成，且无法被复制。'

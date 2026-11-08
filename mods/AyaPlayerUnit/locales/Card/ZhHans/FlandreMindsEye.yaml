@@ -1,0 +1,10 @@
+﻿FlandreMindsEye:
+  Description: >-
+    获得 |{Shield}| 点|护盾|。
+
+    在接下来的 |{Value1}| 次中，当|{PlayerName}|造成攻击伤害时，伤害翻倍；当|{PlayerName}|受到攻击伤害时，防止该伤害。
+  UpgradedDescription: >-
+    获得 |{Shield}| 点|护盾|。
+
+    在接下来的 |{Value1}| 次中，当|{PlayerName}|造成攻击伤害时，伤害翻倍；当|{PlayerName}|受到攻击伤害时，防止该伤害。
+  Name: 心眼

@@ -1,0 +1,15 @@
+﻿FlandrePlayTogether:
+  Description: >-
+    |初見|：|火力|{FlandreValue1}を得る。
+
+    捨て札から最大{FlandreValue2}枚のカードを選び、手札に戻す。
+  UpgradedDescription: >-
+    |初見|：|火力|{FlandreValue1}を得る。
+
+    捨て札から最大{FlandreValue2}枚のカードを選び、手札に戻す。
+  ExtraDescription1: >-
+    |d:初見：|火力|{FlandreValue1}を得る。|
+
+    捨て札から最大{FlandreValue2}枚のカードを選び、手札に戻す。
+  Name: 一緒にあそぼう
+  DetailText: '{SelfName}はこの効果の対象にならない。'

@@ -1,0 +1,4 @@
+﻿FlandreNoMercySe:
+  Brief: The next few attack cards played cost {Mana} to play.
+  Description: The next {Level} attack card{Level:plural one='' other='s'} played cost{Level:plural one='s' other=''} {Mana} to play.
+  Name: No Mercy

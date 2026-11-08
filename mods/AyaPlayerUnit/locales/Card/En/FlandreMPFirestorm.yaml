@@ -1,0 +1,18 @@
+﻿FlandreMPFirestorm:
+  Description: >-
+    Deal {FlandreDamage} damage and apply {FlandreValue1} |Hellfire| to each enemy.
+
+    {SelfName} is affected by |Firepower| of all players. ({Amount})
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage and apply {FlandreValue1} |Hellfire| to each enemy.
+
+    {SelfName} is affected by |Firepower| of all players. ({Amount})
+  NonbattleDescription: >-
+    Deal {FlandreDamage} damage and apply {FlandreValue1} |Hellfire| to each enemy.
+
+    {SelfName} is affected by |Firepower| of all players.
+  UpgradedNonbattleDescription: >-
+    Deal {FlandreDamage} damage and apply {FlandreValue1} |Hellfire| to each enemy.
+
+    {SelfName} is affected by |Firepower| of all players.
+  Name: Firestorm

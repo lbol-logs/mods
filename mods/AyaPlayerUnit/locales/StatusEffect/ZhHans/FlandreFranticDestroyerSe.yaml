@@ -1,0 +1,4 @@
+﻿FlandreFranticDestroyerSe:
+  Brief: 每当一张攻击牌被激活时，获得 <sprite="ManaSprite" name="P"> 并抽一张牌。
+  Description: 每当一张攻击牌被激活时，获得 {Level} <sprite="ManaSprite" name="P"> 并抽 {Level:plural one='% 张牌' other='% 张牌'}。
+  Name: 疯狂毁灭者

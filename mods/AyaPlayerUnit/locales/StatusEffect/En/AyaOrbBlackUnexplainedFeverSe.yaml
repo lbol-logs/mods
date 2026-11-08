@@ -1,0 +1,4 @@
+﻿AyaOrbBlackUnexplainedFeverSe:
+  Brief: At the end of {OwnerName}'s turn, apply |Poison| to {PlayerName}.
+  Description: At the end of {OwnerName}'s turn, apply {Level} |Poison| to {PlayerName}.
+  Name: Unexplained Fever

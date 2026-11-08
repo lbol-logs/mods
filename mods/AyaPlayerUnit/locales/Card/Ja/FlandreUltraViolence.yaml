@@ -1,0 +1,16 @@
+﻿FlandreUltraViolence:
+  Description: >-
+    敵全体に{FlandreDamage}ダメージを与え、|弱体|{FlandreValue1}を与える。
+
+    手札が上限になるまで|p:ランダム|な攻撃カードを手札に加える。それらは|臨時コスト|{Mana}となり、|廃棄|と|虚無|を持つ。
+
+    |狂気|{Value2}を得る。
+  UpgradedDescription: >-
+    敵全体に{FlandreDamage}ダメージを与え、|弱体|{FlandreValue1}を与える。
+
+    手札が上限になるまで|p:ランダム|な攻撃カードを手札に加える。それらは|臨時コスト|{Mana}となり、|廃棄|と|虚無|を持つ。
+
+    |狂気|{Value2}を得る。
+  Name: ウルトラバイオレンス
+  DetailText: '{SelfName}はこの効果では生成されない。'
+  UltraViolence: 検閲済み

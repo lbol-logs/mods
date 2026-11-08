@@ -1,0 +1,14 @@
+﻿AyaHeadShot:
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    |锁定| 增加 {SelfName} 的伤害 {Value1:plural one='% 次' other='% 次'}。
+
+    当使用 {SelfName} 击败敌人时，获得 {Mana}。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害。
+
+    |锁定| 增加 {SelfName} 的伤害 {Value1:plural one='% 次' other='% 次'}。
+
+    当使用 {SelfName} 击败敌人时，获得 {Mana}。
+  Name: 爆头

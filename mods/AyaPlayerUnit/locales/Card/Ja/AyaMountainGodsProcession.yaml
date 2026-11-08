@@ -1,0 +1,12 @@
+﻿AyaMountainGodsProcession:
+  Description: >-
+    {PlayerName}が|加速|を得るたび、{Mana}を得る。
+
+    |加速|{Value1}を得る。
+  UpgradedDescription: >-
+    {PlayerName}が|加速|を得るたび、{Mana}を得る。
+
+    |加速|{Value1}を得る。
+  PhantasmModeDescription: '{PlayerName}が|加速|を得るたび、{Mana}を得る。'
+  PhantasmModeUpgradedDescription: '{PlayerName}が|加速|を得るたび、{Mana}を得る。'
+  Name: 山神渡御

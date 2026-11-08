@@ -1,0 +1,10 @@
+﻿FlandreBurningPassion:
+  Description: >-
+    カードを{FlandreValue1}枚引く。
+
+    |業火|{FlandreValue2}を与える。
+  UpgradedDescription: >-
+    カードを{FlandreValue1}枚引く。
+
+    |業火|{FlandreValue2}を与える。
+  Name: 燃え上がる情熱

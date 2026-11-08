@@ -1,0 +1,4 @@
+﻿FlandreDoomsdayClockSe:
+  Brief: '{PlayerName} gains more |Calamity|.'
+  Description: "{PlayerName} gains {Level:plural one='% time' other='% times'} more |Calamity|."
+  Name: Doomsday Clock

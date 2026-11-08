@@ -1,0 +1,39 @@
+﻿FlandreBitestheDust:
+  Description: >-
+    {FlandreShield}|バリア|を得る。
+
+    |帯電|{FlandreValue1}を得る。
+     |狂気|{Value2}を得る。
+    ボス以外の戦闘中に{PlayerName}のライフが{Value3}%以下の場合、現在のレベルをやり直す。({Amount})
+
+    その後、{PlayerName}の最初のターン開始時、敵全体を|破壊|し、|狂気|{Value4}を得て、{SelfName}を戦闘およびライブラリから除外する。
+  UpgradedDescription: >-
+    {FlandreShield}|バリア|を得る。
+
+    |帯電|{FlandreValue1}を得る。
+     |狂気|{Value2}を得る。
+    ボス以外の戦闘中に{PlayerName}のライフが{Value3}%以下の場合、現在のレベルをやり直す。({Amount})
+
+    その後、{PlayerName}の最初のターン開始時、敵全体を|破壊|し、|狂気|{Value4}を得て、{SelfName}を戦闘およびライブラリから除外する。
+  NonbattleDescription: >-
+    {FlandreShield}|バリア|を得る。
+
+    |帯電|{FlandreValue1}を得る。
+
+    |狂気|{Value2} を得る。
+
+    ボス以外の戦闘中に{PlayerName}のライフが{Value3}%以下の場合、現在のレベルをやり直す。
+
+    その後、{PlayerName}の最初のターン開始時、敵全体を|破壊|し、|狂気|{Value4}を得て、{SelfName}を戦闘およびライブラリから除外する。
+  UpgradedNonbattleDescription: >-
+    {FlandreShield}|バリア|を得る。
+
+    |帯電|{FlandreValue1}を得る。
+
+    |狂気|{Value2} を得る。
+
+    ボス以外の戦闘中に{PlayerName}のライフが{Value3}%以下の場合、現在のレベルをやり直す。
+
+    その後、{PlayerName}の最初のターン開始時、敵全体を|破壊|し、|狂気|{Value4}を得て、{SelfName}を戦闘およびライブラリから除外する。
+  Name: 負けて死ね
+  DetailText: '{SelfName}は戦闘中にランダムに生成されず、複製もできない。'

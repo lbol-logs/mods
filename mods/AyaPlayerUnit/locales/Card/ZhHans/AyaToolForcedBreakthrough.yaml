@@ -1,0 +1,12 @@
+﻿AyaToolForcedBreakthrough:
+  LockedDescription: 通过使用射命丸文在疯狂模式或更高难度下解决事件解锁。
+  Description: >-
+    结束战斗。
+
+    |在Boss战斗开始时|: 将 {SelfName} 从战斗中移除。
+
+    |限制【{DeckCounter}】|
+  Name: 强制突破
+  ForcedBreakthrough1: 借过！
+  ForcedBreakthrough2: 你不能错过这个新闻！
+  ForcedBreakthrough3: 我没时间处理这个！
