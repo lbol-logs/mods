@@ -55,7 +55,16 @@ namespace ExportModImgs.Exporters
                 {
                     if (item.Texture2D == null)
                         continue;
-                    var texBytes = ImageConversion.EncodeToPNG(item.Texture2D);
+                    Texture2D targetTex = item.Texture2D;
+                    if (!targetTex.isReadable)
+                    {
+                        targetTex = DuplicateTexture(targetTex);
+                    }
+                    var texBytes = ImageConversion.EncodeToPNG(targetTex);
+                    if (targetTex != item.Texture2D)
+                    {
+                        UnityEngine.Object.Destroy(targetTex);
+                    }
                     if (texBytes != null && texBytes.Length > 0)
                     {
                         string name;
@@ -79,6 +88,29 @@ namespace ExportModImgs.Exporters
 
                 }
             }
+        }
+        private static Texture2D DuplicateTexture(Texture2D source)
+        {
+            RenderTexture renderTex = RenderTexture.GetTemporary(
+                source.width,
+                source.height,
+                0,
+                RenderTextureFormat.Default,
+                RenderTextureReadWrite.Linear
+            );
+
+            Graphics.Blit(source, renderTex);
+            RenderTexture previous = RenderTexture.active;
+            RenderTexture.active = renderTex;
+
+            Texture2D readableText = new Texture2D(source.width, source.height, TextureFormat.RGBA32, false);
+            readableText.ReadPixels(new Rect(0, 0, renderTex.width, renderTex.height), 0, 0);
+            readableText.Apply();
+
+            RenderTexture.active = previous;
+            RenderTexture.ReleaseTemporary(renderTex);
+
+            return readableText;
         }
 
         static void TypeWarning(EntityDefinition ed, string correctType) => Log.LogWarning($"{ed.GetType()} is not {correctType}");
