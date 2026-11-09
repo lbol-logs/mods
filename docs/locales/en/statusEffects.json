@@ -16,6 +16,499 @@
   "ordinal_3": "<Count />rd",
   "ordinal": "<Count />th",
 
+  "AyaAccelerationSe": {
+    "Name": "Acceleration",
+    "Description": "<OwnerName />'s <h>Graze</h> is replenished to <Count /> at the end of her turn.<br />Whenever <OwnerName /> <h>Grazes</h> an attack, they lose 2 <h>Acceleration</h>."
+  },
+  "AyaAdventoftheDivineGrandsonSe": {
+    "Name": "Advent of the Divine Grandson",
+    "Description": "<PlayerName /> is immune to all debuffs.<br />All cards are played twice."
+  },
+  "AyaAnythingisNewsworthySe": {
+    "Name": "Anything is Newsworthy",
+    "Description": "Whenever a <h>Misfortune</h> or Status card would have added, if its name does not contain \"Bunbunmaru\" or \"News\", add a <h>Bunbunmaru Newspaper</h> instead."
+  },
+  "AyaApexPredatorSe": {
+    "Name": "Apex Predator",
+    "Description": "Whenever <PlayerName /> takes attack damage, reduce it by equal to <PlayerName />'s <h>Acceleration</h> and lose {Value} <h>Acceleration</h>."
+  },
+  "AyaArmoredRavenSe": {
+    "Name": "Armored Raven",
+    "Description": "The first <Limit /> attack card{Limit:plural one='' other='s'} played during <PlayerName />'s turn {Limit:plural one='is' other='are'} played twice. (<Level /> left)<br />The first <Limit /> Status card{Limit:plural one='' other='s'} played during <PlayerName />'s turn {Limit:plural one='is' other='are'} played twice. (<Count /> left)"
+  },
+  "AyaArsenalBirdSe": {
+    "Name": "Arsenal Bird",
+    "Description": "At the start of <PlayerName />'s turn, summon <h>Unmanned Aerial Crow</h> to the hand.<br /><h>Unmanned Aerial Crows in Patrol Mode</h>: <Count /><br /><h>Unmanned Aerial Crows in Combat Mode</h>: <Level />"
+  },
+  "AyaBlackmailSe": {
+    "Name": "Blackmail",
+    "Description": "<h>Bunbunmaru Newspapers</h> also apply <Level /> <h>Temporary Firepower Down</h> and gain <Count /> <Money /> when activated."
+  },
+  "AyaBossFlandreSe": {
+    "Name": "Devil of Scarlet Blood",
+    "Description": "<OwnerName /> is immune to <h>Destroy</h>.<br /><OwnerName /> receives <Level />% less damage."
+  },
+  "AyaBossKoishiSe": {
+    "Name": "The Closed Eyes of Love",
+    "Description": "<OwnerName />'s life is unknown.<br />At the start of <OwnerName />'s turn, she lose only half of her <h>Block</h> instead of all of it.<br />Whenever <Limit /> cards have been played, <OwnerName /> immediately acts once, without ending <PlayerName />'s turn.<br /><hd>(<Count />card$t(plurals.-s, { 'count': {{Count}} }) left.)</hd>"
+  },
+  "AyaBossZUNSe": {
+    "Name": "Hakurei Kannushi",
+    "Description": "Negate all cards, damage, and status effects targeting <OwnerName />.<br />After all other enemies are defeated, <OwnerName /> leaves the combat."
+  },
+  "AyaBunbunmaruPrinterSe": {
+    "Name": "Bunbunmaru Printer",
+    "Description": "At the start of <PlayerName />'s turn, add <h><Level />Bunbunmaru Newspaper$t(plurals.-s, { 'count': {{Level}} })</h> to the hand. {Level:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>} {Mana}."
+  },
+  "AyaCrazyFallWindSe": {
+    "Name": "Crazy Fall Wind",
+    "Description": "Whenever a card is <h>Exiled</h>, gain <Level /> <h>Acceleration</h>."
+  },
+  "AyaCrossroadsofHeavenSe": {
+    "Name": "Crossroads of Heaven",
+    "Description": "Whenever <PlayerName /> gains <h>Acceleration</h>, gain <Level /> more <h>Acceleration</h>."
+  },
+  "AyaDaymareintheDarkNightSe": {
+    "Name": "Daymare in the Dark Night",
+    "Description": "Until <PlayerName />'s next turn, whenever <PlayerName /> gains <h>Acceleration</h>, deal {Damage} <h>Accurate</h> attack damage to the enemy with the least life."
+  },
+  "AyaDecelerationSe": {
+    "Name": "Deceleration X",
+    "Description": "Activated if the Player has at least X <h>Acceleration</h>, consuming that <h>Acceleration</h>."
+  },
+  "AyaEffortlessFlightSe": {
+    "Name": "Effortless Flight",
+    "Description": "At the start of <PlayerName />'s turn, gain <Level /> <h>Acceleration</h>."
+  },
+  "AyaFriendAyaSe": {
+    "Name": "Terukuni Shining Through Heaven and Earth",
+    "Description": "<PlayerName /> can't gain <h>Block</h> or <h>Barrier</h>.<br /><PlayerName /> is immune to all damage and debuffs.<br />Unspent mana isn't lost at the end of each turn.<br />The maximum hand size becomes {MaxHand}.<br />Whenever <PlayerName /> plays a card, Place a card on top of the draw pile into the hand, gain {Mana} and {Value} <h>Acceleration</h>.<br /><h>Acceleration</h> increases damage dealt with attacks."
+  },
+  "AyaFriendCirnoSe": {
+    "Name": "Final Freeze",
+    "Description": "Whenever <OwnerName /> takes attack damage, they lose <Level /> life and increase {SelfName} by same amount.<br />At the end of <OwnerName />'s turn, they lose <h>Final Freeze</h>."
+  },
+  "AyaFriendMegumuSe": {
+    "Name": "Rainbow Illumination「Clear and Tranquil Wind and Moon」",
+    "Description": "Whenever a <h>Misfortune</h> or Status card is <h>Exiled</h>, gain <Level /> <ManaP /> and draw <Level />card$t(plurals.-s, { 'count': {{Level}} })."
+  },
+  "AyaHraesvelgrofTerminusSe": {
+    "Name": "Hraesvelgr of Terminus",
+    "Description": "All enemy <h>Block</h>, <h>Barrier</h>, and buffs are nullified for <Duration />turn$t(plurals.-s, { 'count': {{Duration}} })."
+  },
+  "AyaInstantShotJournalistSe": {
+    "Name": "Instant Shot Journalist",
+    "Description": "<PlayerName /> can't lose <h>Acceleration</h> for <Duration />turn$t(plurals.-s, { 'count': {{Duration}} })."
+  },
+  "AyaMountainGodsProcessionSe": {
+    "Name": "Mountain God's Procession",
+    "Description": "Whenever <PlayerName /> gains <h>Acceleration</h>, gain <Level /> <ManaP />."
+  },
+  "AyaMultiplayerSe": {
+    "Name": "Multiplayer",
+    "Description": "This card is available if LBOL MP mod is enabled."
+  },
+  "AyaNewsOverwhelmingSe": {
+    "Name": "News Overwhelming",
+    "Description": "Whenever a <h>Misfortune</h> or Status card that isn't <h>Copy</h> is <h>Exiled</h>, add {Level:plural one='% <h>Copy</h>' other='% <h>Copies</h>'} of <h>Bunbunmaru Newspaper{Level:plural one='' other='s'}</h> to the hand. {Level:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} {Mana}."
+  },
+  "AyaOrbBlackDreamExpressSe": {
+    "Name": "Dream Express",
+    "Description": "At the end of <OwnerName />'s turn, <h>Dream</h> <Level />, then deal damage to <PlayerName /> equal twice the {Level:plural one='total cost' other='sum of the total costs'} of the <h>Dreamed</h> card{Level:plural one='' other='s'}."
+  },
+  "AyaOrbBlackSe": {
+    "Name": "Essence of Black",
+    "Description": "Whenever a black card would be played, if it targets <OwnerName />, sent to the discard pile instead."
+  },
+  "AyaOrbBlackUnexplainedFeverSe": {
+    "Name": "Unexplained Fever",
+    "Description": "At the end of <OwnerName />'s turn, apply <Level /> <h>Poison</h> to <PlayerName />."
+  },
+  "AyaOrbBlueSe": {
+    "Name": "Essence of Blue",
+    "Description": "Whenever a blue card would be played, if it targets <OwnerName />, sent to the discard pile instead."
+  },
+  "AyaOrbBlueTheReclusiveSageSe": {
+    "Name": "The Reclusive Sage",
+    "Description": "At the end of <OwnerName />'s turn, add <Level /> <h>False Moon{Level:plural one='' other='s'}</h> to the draw pile."
+  },
+  "AyaOrbColorlessPoweroftheOrdinarySe": {
+    "Name": "Power of the Ordinary",
+    "Description": "After a Common card is played, <OwnerName /> gains <Level /> <h>Temporary Firepower</h>."
+  },
+  "AyaOrbColorlessSe": {
+    "Name": "Essence of Colorless",
+    "Description": "Whenever a colorless card would be played, if it targets <OwnerName />, sent to the discard pile instead."
+  },
+  "AyaOrbGreenSe": {
+    "Name": "Essence of Green",
+    "Description": "Whenever a green card would be played, if it targets <OwnerName />, sent to the discard pile instead."
+  },
+  "AyaOrbPhilosophySe": {
+    "Name": "Essence of Philosopher",
+    "Description": "Whenever a multicolored card would be played, if it targets <OwnerName />, sent to the discard pile instead."
+  },
+  "AyaOrbRedIndiscriminateIgnitionSe": {
+    "Name": "Indiscriminate Ignition",
+    "Description": "At the end of <OwnerName />'s turn, deal <Level /> damage to <PlayerName />.<br />This also happens when a <h>Misfortune</h> or Status card is drawn."
+  },
+  "AyaOrbRedSe": {
+    "Name": "Essence of Red",
+    "Description": "Whenever a red card would be played, if it targets <OwnerName />, sent to the discard pile instead."
+  },
+  "AyaOrbSe": {
+    "Name": "Creator's Legacy",
+    "Description": "At the start of <OwnerName />'s turn, they lose only half of their <h>Block</h> instead of all of it.<br /><OwnerName /> receives <Level />% less damage.<br />Whenever the draw pile is shuffled, gain {Value1} <h>Creator's Legacy</h>.<br />At the end of <OwnerName />'s turn, lose {Value2} <h>Creator's Legacy</h>."
+  },
+  "AyaOrbWhiteSe": {
+    "Name": "Essence of White",
+    "Description": "Whenever a white card would be played, if it targets <OwnerName />, sent to the discard pile instead."
+  },
+  "AyaOrbWhiteSuperspeedFlierSe": {
+    "Name": "Superspeed Flier",
+    "Description": "At the start of <OwnerName />'s next turn, deal <Level /> damage to <PlayerName />."
+  },
+  "AyaPanoramaSe": {
+    "Name": "Panorama",
+    "Description": "<h>Bunbunmaru Newspaper Special</h>'s numerical value increased by <Level />."
+  },
+  "AyaPassiveSe": {
+    "Name": "Traditional Reporter of Fantasy",
+    "Description": "<h>Bunbunmaru Newspaper</h> deals {Value1} damage, apply {Value2} <h>Lock On</h> and has <h>Replenish</h>.<br /><h>Kakashi Spirit News</h> has <h>Replenish</h>.<br /><h>Misfortune</h> and Status cards lose <h>Unplayable</h> and gain <h>Exile</h>.<br />They gain a mana cost based on their rarity."
+  },
+  "AyaPerfectGrazeSe": {
+    "Name": "Perfect Graze",
+    "Description": "<OwnerName /> takes 0 damage from the next {Level:plural one='<h>Accurate</h> attack' other='% <h>Accurate</h> attacks'}.<br />Lose 1 <h>Perfect Graze</h> when <h>Accurate</h> attacked."
+  },
+  "AyaPlayerUnitAllySe": {
+    "Name": "Real Teammate",
+    "Description": "<OwnerName /> will fight alongside <PlayerName />! <OwnerName /> is immune to all debuffs and cannot be attacked."
+  },
+  "AyaPlayerUnitBuddySe": {
+    "Name": "Shaking Heart",
+    "Description": "<OwnerName /> doesn't want to fight."
+  },
+  "AyaProtectionPaperSe": {
+    "Name": "Protection Paper",
+    "Description": "Whenever a <h>Misfortune</h> or Status card is <h>Exiled</h>, gain <Level /> <h>Block</h>."
+  },
+  "AyaQuickShootingTenguScoopSe": {
+    "Name": "Quick-Shooting Tengu Scoop",
+    "Description": "Status cards cost {Mana} less to play this turn."
+  },
+  "AyaRouteForbiddentoManSe": {
+    "Name": "Route Forbidden to Man",
+    "Description": "At the end of <PlayerName />'s turn, deal {Damage} <h>Accurate</h> attack damage and apply <Limit /> <h>Lock On</h> to a random enemy for each card <h>Exiled</h> this turn, up to {Value} times.<br />(Accumulated times: <Count />)"
+  },
+  "AyaSickleWeaselVeilingSe": {
+    "Name": "Sickle Weasel Veiling",
+    "Description": "Whenever <PlayerName /> takes 0 damage from attacks, deal <Level /> damage to the attacker."
+  },
+  "AyaTakaneCenturysDoppelgangersSe": {
+    "Name": "Century's Doppelgangers",
+    "Description": "<OwnerName /> attacks twice as many times."
+  },
+  "AyaTakaneEndofImperishableNightSe": {
+    "Name": "\"End of Imperishable Night\"",
+    "Description": "At the end of <OwnerName />'s <h>Natural Turn</h>, take an extra turn."
+  },
+  "AyaTakaneSe": {
+    "Name": "Angry Shopkeeper",
+    "Description": "<OwnerName /> is really angry.<br /><OwnerName />'s maximum life is increased by {Value}%, and deals <Level />% more damage."
+  },
+  "AyaTanukiAMOLEDSe": {
+    "Name": "AMOLED",
+    "Description": "Negates the next {Level:plural one='darkness' other='% darkness'}.<br /><hd>(This effect does nothing.)</hd>"
+  },
+  "AyaTanukiExtremeTurnSe": {
+    "Name": "Extreme Turn",
+    "Description": "<OwnerName /> will perform <Level />extreme turn$t(plurals.-s, { 'count': {{Level}} }).<br /><hd>(This effect does nothing.)</hd>"
+  },
+  "AyaTanukiGravySe": {
+    "Name": "Gravy",
+    "Description": "<OwnerName /> takes 0 damage from the next {Level:plural one='burnt meat' other='% burnt meats'}.<br />Lose 1 <h>Gravy</h> when attacked or when turn starts.<br /><hd>(This effect does nothing.)</hd>"
+  },
+  "AyaTanukiOpticalChameleonSe": {
+    "Name": "Optical Chameleon",
+    "Description": "Chameleon takes half as much damage from attacks {Duration:plural one='until end of turn' other='for the next % turns'}.<br /><hd>(This effect does nothing.)</hd>"
+  },
+  "AyaTanukiSpriteSe": {
+    "Name": "Sprite",
+    "Description": "Gain <Level /> <h>Sprite</h>.<br /><h>Sprite</h> hydrates <OwnerName />.<br /><hd>(This effect does nothing.)</hd>"
+  },
+  "AyaTanukiWaterpowerSe": {
+    "Name": "Waterpower",
+    "Description": "Gain <Level /> <h>Waterpower</h>.<br /><h>Waterpower</h> increases wetness with attacks.<br /><hd>(This effect does nothing.)</hd>"
+  },
+  "AyaTanukiWindGodGrillSe": {
+    "Name": "Wind God Grill",
+    "Description": "<OwnerName />'s <h>Gravy</h> is replenished to <Level /> at the end of her turn."
+  },
+  "AyaTemporaryMaximumLifeDownSe": {
+    "Name": "Temporary Maximum Life Down",
+    "Description": "Until end of combat, lose {Amount} maximum life."
+  },
+  "AyaTemporaryMaximumLifeSe": {
+    "Name": "Temporary Maximum Life",
+    "Description": "Until end of combat, gain {Amount} maximum life."
+  },
+  "AyaTenguNewspaperDeadlineDaySe": {
+    "Name": "Tengu Newspaper Deadline Day",
+    "Description": "All <h>Misfortune</h> and Status cards have <h>Replenish</h>."
+  },
+  "AyaTengusDrumbeatsSe": {
+    "Name": "Tengu's Drumbeats",
+    "Description": "At the start of <PlayerName />'s next turn, deal {Damage} <h>Accurate</h> attack damage to each enemy and gain <Count /> <h>Temporary Firepower</h>."
+  },
+  "AyaTengusFallWindSe": {
+    "Name": "Tengu's Fall Wind",
+    "Description": "The next <Level />card$t(plurals.-s, { 'count': {{Level}} }) are played twice."
+  },
+  "AyaToolCrowsEggSe": {
+    "Name": "Crow's Egg",
+    "Description": "At the start of <PlayerName />'s turn, gain <Duration /> life and <Duration /> <h>Temporary Firepower</h>, then lose 1 <h>Crow's Egg</h>."
+  },
+  "AyaWindGodsLeafVeilingSe": {
+    "Name": "Wind God's Leaf-Veiling",
+    "Description": "All attacks against <OwnerName /> gain <h>Accurate</h>."
+  },
+  "FlandreAndThenWillThereBeNoneSe": {
+    "Name": "And Then Will There Be None?",
+    "Description": "<PlayerName /> is immune to all damage and debuffs for the next <Duration />turn$t(plurals.-s, { 'count': {{Duration}} })."
+  },
+  "FlandreAnnoyingSunlightSe": {
+    "Name": "Annoying Sunlight",
+    "Description": "<PlayerName /> can't gain life."
+  },
+  "FlandreBloodisFuelSe": {
+    "Name": "Blood is Fuel",
+    "Description": "Unspent mana isn't lost for the next <Duration />turn$t(plurals.-s, { 'count': {{Duration}} })."
+  },
+  "FlandreBloodlustSe": {
+    "Name": "Bloodlust",
+    "Description": "This card's effect increases by <he>{Value1}</he>% for every 1% of <PlayerName />'s life lost, up to {Value2}%. (<he>{Amount}</he>%)"
+  },
+  "FlandreBloodyCatastropheSe": {
+    "Name": "Bloody Catastrophe",
+    "Description": "<PlayerName />'s attacks become <h>Accurate</h> until the end of combat."
+  },
+  "FlandreBloodyRequiemSe": {
+    "Name": "Bloody Requiem",
+    "Description": "For the next <Duration />turn$t(plurals.-s, { 'count': {{Duration}} }), All <h>Flandre</h> cards gain <h>Bloodlust</h>, and <h>Bloodlust</h> is always applied at its maximum value."
+  },
+  "FlandreCalamitySe": {
+    "Name": "Calamity",
+    "Description": "Whenever enemies take damage, take {Amount} more damage."
+  },
+  "FlandreChromaticWingsSe": {
+    "Name": "Chromatic Wings",
+    "Description": "At the start of <PlayerName />'s turn, add <Level /> <ManaP />."
+  },
+  "FlandreClockthatTicksAwaythePastSe": {
+    "Name": "Clock that Ticks Away the Past",
+    "Description": "Skip the card drawing phase of turn starting, return <Limit /> topmost cards from the discard pile to the hand instead."
+  },
+  "FlandreColorofMadnessSe": {
+    "Name": "Color of Madness",
+    "Description": "Whenever an attack card is activated, play <Level /> random {Level:plural one='<h>Crystal</h>' other='<h>Crystals</h>'}."
+  },
+  "FlandreCranberryTrapSe": {
+    "Name": "Cranberry Trap",
+    "Description": "At the end of <PlayerName />'s turn, deal <Level /> damage to each enemy for each status effect applied this turn. (<Count />)"
+  },
+  "FlandreCrystallineOutburstSe": {
+    "Name": "Crystalline Outburst",
+    "Description": "Whenever all of <h>Crystallized Chaos</h>, <h>Crystallized Devilry</h>, <h>Crystallized Lunacy</h>, and <h>Crystallized Solitude</h> are activated, add <Level /> <h>Crystallized Catastrophe{Level:plural one='' other='s'}</h> to the hand.<br />(<Count />card$t(plurals.-s, { 'count': {{Count}} }) left: {Amount})"
+  },
+  "FlandreDanmakuofDenialSe": {
+    "Name": "Danmaku of Denial",
+    "Description": "Whenever an attack card is activated, gain <Level /> <h>Block</h>."
+  },
+  "FlandreDestroySe": {
+    "Name": "Destroy",
+    "Description": "Defeat the target."
+  },
+  "FlandreDoombringerSe": {
+    "Name": "Doombringer",
+    "Description": "At the start of <PlayerName />'s turn, gain <Level /> <h>Calamity</h>."
+  },
+  "FlandreDoomsdayClockSe": {
+    "Name": "Doomsday Clock",
+    "Description": "<PlayerName /> gains <Level />time$t(plurals.-s, { 'count': {{Level}} }) more <h>Calamity</h>."
+  },
+  "FlandreForbiddenGamesSe": {
+    "Name": "Forbidden Games",
+    "Description": "Enemies cannot act {Duration:plural one='until end of round' other='for the next % rounds'}."
+  },
+  "FlandreForbiddenScarletCuriositySe": {
+    "Name": "Forbidden Scarlet Curiosity",
+    "Description": "<PlayerName /> is immune to all debuffs.<br /><PlayerName />'s attacks deal <Level />time$t(plurals.-s, { 'count': {{Level}} }) more damage.<br />Whenever an enemy loses life, <PlayerName /> gains that much life."
+  },
+  "FlandreFragmentsofLightSe": {
+    "Name": "Fragments of Light",
+    "Description": "At the start of <PlayerName />'s turn, add <Level /> random <h>Crystal{Level:plural one='' other='s'}</h> to the hand."
+  },
+  "FlandreFranticDestroyerSe": {
+    "Name": "Frantic Destroyer",
+    "Description": "Whenever an attack card is activated, gain <Level /> <ManaP /> and draw <Level />card$t(plurals.-s, { 'count': {{Level}} })."
+  },
+  "FlandreFriendOkinaFallSe": {
+    "Name": "Hidden Crazy Fall Wind",
+    "Description": "Whenever a card is <h>Exiled</h>, gain <Level /> <h>Graze</h>."
+  },
+  "FlandreFriendOkinaSe": {
+    "Name": "Concealed Spacetime Fantasy Tour",
+    "Description": "At the start of <PlayerName />'s turn, choose 1 of <Level /> <hp>completely random</hp> Rare {Level:plural one='card' other='cards'} to add to the hand. It temporarily costs {Mana} and has <h>Exile</h> and <h>Ethereal</h>."
+  },
+  "FlandreFriendOkinaSpringSe": {
+    "Name": "Hidden Breezy Cherry Blossom",
+    "Description": "At the start of <PlayerName />'s turn, gain <Level /> life, <Level /> <h>Amulet</h> and <h>Ward</h>."
+  },
+  "FlandreFriendOkinaSummerSe": {
+    "Name": "Hidden Perfect Summer Ice",
+    "Description": "Whenever <PlayerName /> activates <Limit />card$t(plurals.-s, { 'count': {{Limit}} }), deal <Level /> <h>Accurate</h> attack damage and apply <h>Cold</h> to each enemy.<br />(<Count />card$t(plurals.-s, { 'count': {{Count}} }) left.)"
+  },
+  "FlandreFriendOkinaWinterSe": {
+    "Name": "Hidden Extreme Winter",
+    "Description": "Whenever a card is activated, gain <Level /> <h>Charge</h>."
+  },
+  "FlandreHellfireSe": {
+    "Name": "Hellfire",
+    "Description": "<OwnerName /> loses {Amount} life at the start of their turn.<br /><h>Brimstone</h>: When <OwnerName /> is defeated, all enemies lose {Amount} life."
+  },
+  "FlandreHellonEarthSe": {
+    "Name": "Hell on Earth",
+    "Description": "When <h>Hellfire</h> and <h>Brimstone</h> would trigger, they trigger <Level /> additional time{Level:plural one='' other='s'}."
+  },
+  "FlandreHotSurfaceSe": {
+    "Name": "Hot Surface",
+    "Description": "Until <PlayerName />'s next turn, whenever <PlayerName /> receives attack damage, apply <Level /> <h>Hellfire</h> to the attacker."
+  },
+  "FlandreKindLiesandGoodbyesSe": {
+    "Name": "Kind Lies and Goodbyes",
+    "Description": "<PlayerName /> can't lose life for <Duration />turn$t(plurals.-s, { 'count': {{Duration}} })."
+  },
+  "FlandreMadnessSe": {
+    "Name": "Madness",
+    "Description": "<PlayerName /> can have up to {MadnessValue4} <h>Madness</h>.<br /><PlayerName />'s attacks deal <he>{MadnessValue1}</he>% more damage for each <h>Madness</h>. (<he>{MadnessAmount1}</he>%)<br /><PlayerName /> gains <he>{MadnessValue2}</he>% less <h>Block</h> and <h>Barrier</h> from cards for each <h>Madness</h>. (<he>{MadnessAmount2}</he>%)<br />Whenever <PlayerName /> advances a level, lose {MadnessDecay} <h>Madness</h>.<br /><hr>When <PlayerName /> has {MadnessValue4} Madness, <PlayerName /> loses the game.</hr>"
+  },
+  "FlandreMagicalGirlFlandreEngageSe": {
+    "Name": "Magical Girl Flandre Engage!",
+    "Description": "All <h>Magical Girl</h> cards can be <h>Upgraded</h> {Value:plural one='% additional time' other='% additional times'}."
+  },
+  "FlandreMagicalGirlSe": {
+    "Name": "Magical Girl",
+    "Description": "This card can be <h>Upgraded</h> up to {Value1:plural one='% time' other='% times'}.<br />At the start of combat, gain {Value2} <h>Barrier</h> for each <h>Upgrade</h> on any <h>Magical Girl</h> card in the library. ({Amount})"
+  },
+  "FlandreMindsEyeSe": {
+    "Name": "Mind's Eye",
+    "Description": "The next <Level />time$t(plurals.-s, { 'count': {{Level}} }) <PlayerName /> deals or takes attack damage, double the damage dealt or halve the damage taken."
+  },
+  "FlandreMPBullofPhalarisSe": {
+    "Name": "Bull of Phalaris",
+    "Description": "Whenever <PlayerName /> receives damage from status effects, deal <Level /> damage to each enemy."
+  },
+  "FlandreMPButchersCircusSe": {
+    "Name": "Butcher's Circus",
+    "Description": "Whenever an enemy is defeated, all players gain <Level /> <h>Firepower</h> and <Count /> life."
+  },
+  "FlandreMPEnfantTerribleSe": {
+    "Name": "Enfant Terrible",
+    "Description": "<OwnerName />'s attacks deal <Limit />% less damage {Duration:plural one='until end of turn' other='for the next % turns'}."
+  },
+  "FlandreMPPhantomPainSe": {
+    "Name": "Phantom Pain",
+    "Description": "Until <PlayerName />'s next turn, whenever any player activates attack card, <OwnerName /> takes <Level /> damage."
+  },
+  "FlandreMPProblemChildSe": {
+    "Name": "Problem Child",
+    "Description": "All <h>Flandre</h> <h>Multiplayer</h> cards gain <h>Unplayable</h> until the end of combat.<br />All attack cards cost {Mana} less until the end of combat."
+  },
+  "FlandreMPRiggedGameSe": {
+    "Name": "Rigged Game",
+    "Description": "Put the next <Level /> rare card{Level:plural one='' other='s'} sent to the discard pile on top of the draw pile."
+  },
+  "FlandreNoMercySe": {
+    "Name": "No Mercy",
+    "Description": "The next <Level /> attack card{Level:plural one='' other='s'} played cost{Level:plural one='s' other=''} {Mana} to play."
+  },
+  "FlandreOfferingSe": {
+    "Name": "Offering X",
+    "Description": "<h>Exile</h> up to X cards from the hand, draw pile, and discard pile. Lose {Value} life for each card not <h>Exiled</h> this way.<br /><h>Offering</h> can be skipped and always lose life instead."
+  },
+  "FlandrePassiveSe": {
+    "Name": "Devil of Scarlet Blood",
+    "Description": "The number of choices for card rewards is increased by {Value}."
+  },
+  "FlandreRipplesof495YearsSe": {
+    "Name": "Ripples of 495 Years",
+    "Description": "<PlayerName /> is immune to all debuffs.<br />Convert all mana <PlayerName /> would gain this combat to <ManaP />.<br />Unspent mana isn't lost at the end of each turn.<br />All cards are played <Level />additional time$t(plurals.-s, { 'count': {{Level}} })."
+  },
+  "FlandreRuinedFortressSe": {
+    "Name": "Ruined Fortress",
+    "Description": "Enemies with Ruin deal <Level />% less attack damage."
+  },
+  "FlandreRuinSe": {
+    "Name": "Ruin",
+    "Description": "<OwnerName /> takes {Amount}% more damage.<br />If <OwnerName /> has <Level /> or less life, <h>Destroy</h> it."
+  },
+  "FlandreScarletCasinoD1Se": {
+    "Name": "Scarlet Casino - D1",
+    "Description": "All cards cost {Mana} less this turn."
+  },
+  "FlandreScarletCasinoD2Se": {
+    "Name": "Scarlet Casino - D2",
+    "Description": "The next {Level:plural one='% card is' other='% cards are'} played {Value:plural one='% additional time' other='% additional times'}."
+  },
+  "FlandreScarletCasinoD3Se": {
+    "Name": "Scarlet Casino - D3",
+    "Description": "Prevent the next <Level />time$t(plurals.-s, { 'count': {{Level}} }) <PlayerName /> would lose life."
+  },
+  "FlandreScarletCasinoSe": {
+    "Name": "Scarlet Casino",
+    "Description": "For every <Limit /> <hp>random</hp> effect <h>Flandre</h> cards activated, gain {Value1} of {Value2} random effects:<br />All cards cost {Amount1} less this turn.<br />The next {Amount2:plural one='% card is' other='% cards are'} played {Value3:plural one='% more time' other='% more times'}.<br />Prevent the next {Amount3:plural one='% time' other='% times'} <PlayerName /> would lose life.<br /><h>Upgrade</h> {Amount4} random card{Amount4:plural one='' other='s'} in the <h>battlefield</h> {Value4:plural one='% time' other='% times'}.<br />Gain {Amount5}.<br />Gain {Amount6} <Money />.<br />(<Count />card$t(plurals.-s, { 'count': {{Count}} }) left.)"
+  },
+  "FlandreSisteroftheDevilSe": {
+    "Name": "Sister of the Devil",
+    "Description": "<PlayerName />'s attacks deal {Value1}% more damage, gains {Value1}% more <h>Block</h> and <h>Barrier</h> from cards, and takes {Value2}% less damage from attacks."
+  },
+  "FlandreSpellBreakCooldownSe": {
+    "Name": "Spell Break Cooldown",
+    "Description": "<OwnerName /> is immune to <h>Spell Break</h> {Duration:plural one='until end of turn' other='for the next % turns'}."
+  },
+  "FlandreSpellBreakSe": {
+    "Name": "Spell Break",
+    "Description": "<OwnerName /> can't act {Duration:plural one='until end of turn' other='for the next % turns'}."
+  },
+  "FlandreTheCentennialFestivalforMagicalGirlsSe": {
+    "Name": "The Centennial Festival for Magical Girls",
+    "Description": "All <h>Magical Girl</h> cards can be <h>Upgraded</h> {Value:plural one='% additional time' other='% additional times'}.<br />All <h>Flandre</h> cards gain <h>Magical Girl</h> until the end of combat.<br />Whenever <PlayerName /> adds a card during this combat, <h>Upgrade</h> it."
+  },
+  "FlandreTheMousetrapSe": {
+    "Name": "The Mousetrap",
+    "Description": "At the start of <PlayerName />'s next <Duration />turn$t(plurals.-s, { 'count': {{Duration}} }), deal damage to each enemy equal to the amount of damage taken last turn. (<Count />)"
+  },
+  "FlandreThePsychoticandCuteGuestSe": {
+    "Name": "The Psychotic and Cute Guest",
+    "Description": "Whenever an attack card is activated, gain <Level /> <h>Calamity</h> and <h>Firepower</h>."
+  },
+  "FlandreUnholySanctuarySe": {
+    "Name": "Unholy Sanctuary",
+    "Description": "<PlayerName /> takes half as much damage for <Duration />turn$t(plurals.-s, { 'count': {{Duration}} }).<br />At the start of <PlayerName />'s next <Duration />turn$t(plurals.-s, { 'count': {{Duration}} }), gain life equal to the amount of life lost last turn. (<Count />)"
+  },
+  "FlandreUnstablePowerSe": {
+    "Name": "Unstable Power",
+    "Description": "All attacks deal between {Value}% to <Level />% damage."
+  },
+  "FlandreWalpurgisNightSe": {
+    "Name": "Walpurgis Night",
+    "Description": "Increase the maximum stack of <h>Ruin</h> to {Value}.<br />Whenever <PlayerName /> deals attack damage, also apply half that much <h>Ruin</h>."
+  },
+  "FlandreWatchtheWorldBurnSe": {
+    "Name": "Watch the World Burn",
+    "Description": "At the end of <PlayerName />'s turn, apply <Level /> <h>Hellfire</h> to each enemy."
+  },
+
   "seaccel": {
     "Name": "Accelerate",
     "Description": "At the start of <OwnerName />'s next turn, gain <Level /> <h>Graze</h>."
