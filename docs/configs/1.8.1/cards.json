@@ -1,4 +1,3446 @@
 {
+  "AyaAdventoftheDivineGrandson": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "RG",
+    "IsXCost": false,
+    "ToolPlayableTimes": 1,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "RRRGGG",
+      "Mana": "{9P}",
+      "Keywords": "Ethereal,Initial,Replenish"
+    }
+  },
+  "AyaAnythingisNewsworthy": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "1B"
+    },
+    "1": {
+      "Keywords": "Initial"
+    }
+  },
+  "AyaApexPredator": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "2RRR",
+      "Value1": 5,
+      "Keywords": "Ethereal"
+    },
+    "1": {}
+  },
+  "AyaArmoredRaven": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "RG",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "1RRGG",
+      "Keywords": "Ethereal"
+    },
+    "1": {}
+  },
+  "AyaArsenalBird": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "URG",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "2URG",
+      "Value1": 10
+    },
+    "1": {}
+  },
+  "AyaArsenalBirdDrone": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "C",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Damage": 8,
+      "Block": 8,
+      "Mana": "P",
+      "Loyalty": 6,
+      "PassiveCost": -1,
+      "ActiveCost": 0,
+      "UltimateCost": 0
+    }
+  },
+  "AyaAttackG": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "1G",
+      "Damage": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 14,
+      "Keywords": "Basic"
+    }
+  },
+  "AyaAttackR": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "1R",
+      "Damage": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 14,
+      "Keywords": "Basic"
+    }
+  },
+  "AyaAyaShameimarusCoerciveReporting": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "1GG",
+      "Value1": 1,
+      "Value2": 2
+    },
+    "1": {
+      "Cost": "1G"
+    }
+  },
+  "AyaBirdStrike": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "RR",
+      "Damage": 9,
+      "Value1": 3,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 12,
+      "Value1": 4,
+      "Keywords": "Accuracy"
+    }
+  },
+  "AyaBlackmail": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "1GG",
+      "Value1": 2,
+      "Value2": 6
+    },
+    "1": {
+      "Value1": 3,
+      "Value2": 9
+    }
+  },
+  "AyaBlockG": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "1G",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 13,
+      "Keywords": "Basic"
+    }
+  },
+  "AyaBlockR": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "1R",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 13,
+      "Keywords": "Basic"
+    }
+  },
+  "AyaBossYukariBlackDeathButterfly": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 3,
+      "Value1": 0,
+      "Keywords": "Forbidden"
+    }
+  },
+  "AyaBunbunmaruPrinter": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "GG",
+      "Value1": 1,
+      "Mana": 1
+    },
+    "1": {
+      "Cost": "G"
+    }
+  },
+  "AyaCandidShot": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "6G",
+      "Damage": 16,
+      "Value1": 4,
+      "Mana": 1,
+      "Keywords": "Accuracy,Retain"
+    },
+    "1": {
+      "Damage": 20,
+      "Value1": 5,
+      "Keywords": "Accuracy,Retain"
+    }
+  },
+  "AyaCloseup": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "GG",
+      "Block": 15,
+      "Mana": "PP"
+    },
+    "1": {
+      "Block": 20
+    }
+  },
+  "AyaComicallyLargeHat": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "RR",
+      "Block": 15,
+      "Value1": 2,
+      "Value2": 2
+    },
+    "1": {
+      "Cost": "RR"
+    }
+  },
+  "AyaCompletedInterview": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "1G",
+      "Value1": 2,
+      "Value2": 1,
+      "Keywords": "Debut"
+    },
+    "1": {
+      "Cost": 2,
+      "Keywords": "Debut"
+    }
+  },
+  "AyaCrazyFallWind": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "RG",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "1RG",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 1
+    }
+  },
+  "AyaCrossroadsofHeaven": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "3W",
+      "Value1": 4,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": "1W"
+    }
+  },
+  "AyaDanceofBlackQuill": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "RG",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "2HH:HRG",
+      "Damage": 18,
+      "Value1": 3,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 24,
+      "Value1": 4,
+      "Keywords": "Accuracy"
+    }
+  },
+  "AyaDashingDomination": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "1R",
+      "Value1": 2,
+      "Value2": 2
+    },
+    "1": {
+      "Cost": 1
+    }
+  },
+  "AyaDashingGrace": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "R",
+      "Value2": 1
+    },
+    "1": {
+      "Value2": 2
+    }
+  },
+  "AyaDaymareintheDarkNight": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "RR",
+      "Damage": 9,
+      "Value1": 3,
+      "Keywords": "Accuracy,Replenish"
+    },
+    "1": {
+      "Damage": 12,
+      "Value1": 4,
+      "Keywords": "Accuracy,Replenish"
+    }
+  },
+  "AyaEffortlessFlight": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "1R",
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "AyaExtraFans": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "RG",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "RG",
+      "Damage": 12,
+      "Value1": 2,
+      "Keywords": "Echo"
+    },
+    "1": {
+      "Cost": "H:HRG",
+      "Keywords": "Echo"
+    }
+  },
+  "AyaEyeoftheStorm": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "2R",
+      "Block": 10,
+      "Value1": 10
+    },
+    "1": {
+      "Cost": "1R"
+    }
+  },
+  "AyaFastShot": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "GG",
+      "Damage": 12,
+      "Mana": 0
+    },
+    "1": {
+      "Cost": "G"
+    }
+  },
+  "AyaFma": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "1RR",
+      "Value1": 2,
+      "Value2": 2
+    },
+    "1": {
+      "Value1": 3,
+      "Value2": 3
+    }
+  },
+  "AyaFriendAya": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Friend",
+    "Colors": "WUBRGCP",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "WUBRGCP",
+      "Damage": 50,
+      "Value1": 40,
+      "Value2": 10,
+      "Loyalty": 0,
+      "PassiveCost": -1,
+      "ActiveCost": 0,
+      "UltimateCost": 0
+    }
+  },
+  "AyaFriendCirno": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Friend",
+    "Colors": "URG",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "URGG",
+      "Damage": 99,
+      "Value1": 9,
+      "Value2": 2,
+      "Loyalty": 0,
+      "PassiveCost": 9,
+      "ActiveCost": 0,
+      "UltimateCost": 0
+    }
+  },
+  "AyaFriendHatate": {
+    "Rarity": "Rare",
+    "Type": "Friend",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "3B",
+      "Damage": 24,
+      "Value1": 2,
+      "Value2": 1,
+      "Mana": "{5P}",
+      "Loyalty": 1,
+      "PassiveCost": 0,
+      "ActiveCost": 0,
+      "ActiveCost2": -3,
+      "UltimateCost": 0
+    },
+    "1": {
+      "Cost": "3B",
+      "Value1": 3,
+      "Value2": 2
+    }
+  },
+  "AyaFriendHatateNewsSpecial": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Status",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": 1,
+      "Shield": 1,
+      "Value1": 1,
+      "Keywords": "Exile,Replenish"
+    }
+  },
+  "AyaFriendMegumu": {
+    "Rarity": "Rare",
+    "Type": "Friend",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "3U",
+      "Damage": 32,
+      "Value1": 2,
+      "Value2": 1,
+      "Mana": "C",
+      "Loyalty": 1,
+      "PassiveCost": 1,
+      "ActiveCost": 2,
+      "UltimateCost": -9
+    },
+    "1": {
+      "Cost": "3U",
+      "Value2": 2,
+      "ActiveCost": 4
+    }
+  },
+  "AyaFriendMomiji": {
+    "Rarity": "Rare",
+    "Type": "Friend",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "3R",
+      "Damage": 10,
+      "Shield": 10,
+      "Value1": 10,
+      "Scry": 10,
+      "Loyalty": 1,
+      "PassiveCost": 6,
+      "UltimateCost": -4
+    },
+    "1": {
+      "Cost": "3R",
+      "Loyalty": 7
+    }
+  },
+  "AyaHeadShot": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "3G",
+      "Damage": 40,
+      "Value1": 6,
+      "Mana": "{4G}",
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Value1": 8,
+      "Mana": "GGPP",
+      "Keywords": "Accuracy"
+    }
+  },
+  "AyaHeavenlyPartner": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "2R",
+      "Block": 20,
+      "Value1": 1,
+      "Value2": 6
+    },
+    "1": {
+      "Value2": 8,
+      "Keywords": "Retain"
+    }
+  },
+  "AyaHraesvelgrofTerminus": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "B"
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "AyaIllusionaryDominance": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "3R",
+      "Damage": 8,
+      "Value1": 1,
+      "Value2": 10,
+      "Keywords": "Accuracy,Exile,Retain"
+    },
+    "1": {
+      "Value1": 2,
+      "Keywords": "Accuracy,Exile,Retain"
+    }
+  },
+  "AyaInstantShotJournalist": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "RR",
+      "Block": 12,
+      "Value1": 4,
+      "Value2": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "RR",
+      "Value2": 3,
+      "Keywords": "Exile"
+    }
+  },
+  "AyaLittleSalvation": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "1R",
+      "Block": 13,
+      "Value1": 3
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 18,
+      "Value1": 4
+    }
+  },
+  "AyaMapleFansWind": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "2R",
+      "Value1": 8
+    },
+    "1": {
+      "Keywords": "Retain"
+    }
+  },
+  "AyaMemoryinPicture": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "1G",
+      "Shield": 12,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 2,
+      "Shield": 16
+    }
+  },
+  "AyaMomentofRelaxation": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "R",
+      "Value1": 2,
+      "Value2": 2,
+      "Mana": "PP",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 1,
+      "Value2": 3,
+      "Mana": "PPP",
+      "Keywords": "Exile"
+    }
+  },
+  "AyaMountainGodsProcession": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "1RR",
+      "Value1": 3,
+      "Mana": "P"
+    },
+    "1": {
+      "Cost": "R"
+    }
+  },
+  "AyaNewsAyaPlayerUnitSp": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Status",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": 5,
+      "Value1": 2,
+      "Keywords": "Exile,Ethereal,Replenish"
+    }
+  },
+  "AyaNewsDissemination": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "G",
+      "Value1": 3,
+      "Value2": 3,
+      "Mana": "{4G}"
+    },
+    "1": {
+      "Cost": 1,
+      "Value1": 2,
+      "Mana": "GGPP"
+    }
+  },
+  "AyaNewsOverwhelming": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "2GGG",
+      "Mana": 0,
+      "Keywords": "Ethereal"
+    },
+    "1": {}
+  },
+  "AyaNewsSpecial": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Status",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": 2,
+      "Damage": 14,
+      "Block": 14,
+      "Value1": 2,
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "AyaOpeningWindoftheTenguRealm": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Value1": 1,
+      "Value2": 0,
+      "Keywords": "Forbidden"
+    },
+    "1": {
+      "Value2": 4,
+      "Keywords": "Forbidden"
+    }
+  },
+  "AyaOrbGreenMorphBird": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "IsXCost": false,
+    "ToolPlayableTimes": 0,
+    "0": {
+      "Cost": 0,
+      "Value1": 4
+    }
+  },
+  "AyaOrbGreenMorphDog": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "IsXCost": false,
+    "ToolPlayableTimes": 0,
+    "0": {
+      "Cost": 0,
+      "Value1": 3
+    }
+  },
+  "AyaOrbGreenMorphFrog": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "IsXCost": false,
+    "ToolPlayableTimes": 0,
+    "0": {
+      "Cost": 0,
+      "Value1": 0
+    }
+  },
+  "AyaOrbGreenMorphMan": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "IsXCost": false,
+    "ToolPlayableTimes": 0,
+    "0": {
+      "Cost": 0,
+      "Value1": 25
+    }
+  },
+  "AyaPanorama": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Block": 6,
+      "Value1": 1,
+      "Keywords": "Ethereal"
+    },
+    "1": {
+      "Block": 9,
+      "Keywords": "Ethereal"
+    }
+  },
+  "AyaPaperRecycling": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "G",
+      "Mana": "G"
+    },
+    "1": {
+      "Cost": 1,
+      "Keywords": "Replenish"
+    }
+  },
+  "AyaPeltingintheDarkNight": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "RG",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Damage": 6,
+      "Value1": 3,
+      "Keywords": "Accuracy,Forbidden"
+    },
+    "1": {
+      "Damage": 9,
+      "Keywords": "Accuracy,Forbidden"
+    }
+  },
+  "AyaPinnacleofEvasion": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "RRR",
+      "Value1": 4,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": "R"
+    }
+  },
+  "AyaProtectionPaper": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "1G",
+      "Value1": 4
+    },
+    "1": {
+      "Value1": 6
+    }
+  },
+  "AyaQuickDraw": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "RG",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "RG",
+      "Value1": 2
+    },
+    "1": {
+      "Cost": "H:HRG"
+    }
+  },
+  "AyaQuickShootingTenguScoop": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "GG",
+      "Block": 14,
+      "Value1": 1,
+      "Mana": 1
+    },
+    "1": {
+      "Block": 16
+    }
+  },
+  "AyaRequestingAirSupport": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "2U",
+      "Value1": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 1,
+      "Keywords": "Exile"
+    }
+  },
+  "AyaRouteForbiddentoMan": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "G",
+      "Damage": 12,
+      "Value1": 1,
+      "Value2": 10,
+      "Mana": "G",
+      "Keywords": "Accuracy,Exile,Replenish"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Accuracy,Exile,Replenish,Plentiful"
+    }
+  },
+  "AyaSarutahikosGuidance": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Value1": 1,
+      "Mana": "R",
+      "Keywords": "Exile,Replenish,Plentiful"
+    },
+    "1": {
+      "Keywords": "Replenish,Plentiful"
+    }
+  },
+  "AyaSettlementDate": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "ToolPlayableTimes": 1,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Value1": 3,
+      "Value2": 30,
+      "Keywords": "Ethereal,Initial,Replenish"
+    },
+    "1": {
+      "Value1": 4,
+      "Value2": 40,
+      "Keywords": "Ethereal,Initial,Replenish"
+    }
+  },
+  "AyaSickleWeaselVeiling": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "RR",
+      "Value1": 9
+    },
+    "1": {
+      "Cost": "RR",
+      "Value1": 12
+    }
+  },
+  "AyaTakePicture": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "G",
+      "Value1": 2,
+      "Value2": 1,
+      "Mana": 1
+    },
+    "1": {
+      "Cost": 1,
+      "Value2": 2
+    }
+  },
+  "AyaTenguGaleBullet": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "RR",
+      "Damage": 8,
+      "Value1": 2,
+      "Value2": 1
+    },
+    "1": {
+      "Value1": 4
+    }
+  },
+  "AyaTenguGirlsBanquet": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "RG",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "1H:HRG",
+      "Shield": 5,
+      "Value1": 5,
+      "Keywords": "Exile,Replenish"
+    },
+    "1": {
+      "Cost": 1,
+      "Keywords": "Exile,Replenish"
+    }
+  },
+  "AyaTenguNewspaperDeadlineDay": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "1G"
+    },
+    "1": {
+      "Keywords": "Initial"
+    }
+  },
+  "AyaTengusDrumbeats": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "1R",
+      "Damage": 13,
+      "Value1": 2,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 17,
+      "Keywords": "Accuracy"
+    }
+  },
+  "AyaTengusEdiblePompoms": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "RG",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Block": 15,
+      "Value1": 5,
+      "Value2": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value2": 4,
+      "Keywords": "Exile"
+    }
+  },
+  "AyaTengusFallWind": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "RG",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "H:HRG",
+      "Value1": 1
+    },
+    "1": {
+      "Value1": 2
+    }
+  },
+  "AyaTenguTreeFelling": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "RG",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "1HH:HRG",
+      "Block": 15,
+      "Shield": 15,
+      "Value1": 3
+    },
+    "1": {
+      "Cost": "1H:HRG"
+    }
+  },
+  "AyaThinOut": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "G",
+      "Block": 8,
+      "Value1": 3
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "AyaToolBunbunNewspaperStore": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 2,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Value1": 10,
+      "Mana": 0
+    }
+  },
+  "AyaToolCrowsEgg": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 2,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Value1": 5
+    }
+  },
+  "AyaToolForcedBreakthrough": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 1,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": 0
+    }
+  },
+  "AyaToriiWhorlWind": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "RG",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "HH:HRG",
+      "Value1": 2,
+      "Value2": 4
+    },
+    "1": {}
+  },
+  "AyaWindGodsLeafVeiling": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "AyaPlayerUnit",
+    "0": {
+      "Cost": "1G",
+      "Damage": 15,
+      "Keywords": "Accuracy,Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Accuracy,Exile"
+    }
+  },
+  "FlandreAndThenWillThereBeNone": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2HH:HUB",
+      "Damage": 30,
+      "Value1": 2,
+      "Value2": 1,
+      "Keywords": "Accuracy,Exile"
+    },
+    "1": {
+      "Keywords": "Accuracy,Exile"
+    }
+  },
+  "FlandreArmageddon": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "WB",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "4H:HWB",
+      "Damage": 60,
+      "Value1": 6,
+      "Value2": 6,
+      "Keywords": "Accuracy,Exile"
+    },
+    "1": {
+      "Keywords": "Accuracy,Exile"
+    }
+  },
+  "FlandreAttackB": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1B",
+      "Damage": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Keywords": "Basic"
+    }
+  },
+  "FlandreAttackR": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1R",
+      "Damage": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Keywords": "Basic"
+    }
+  },
+  "FlandreBitestheDust": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "C",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1C",
+      "Shield": 45,
+      "Value1": 15,
+      "Value2": 8
+    },
+    "1": {}
+  },
+  "FlandreBlockUB": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1H:HUB",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Keywords": "Basic"
+    }
+  },
+  "FlandreBlockUR": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "UR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1H:HUR",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Keywords": "Basic"
+    }
+  },
+  "FlandreBloodisFuel": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Value1": 4,
+      "Value2": 1,
+      "Mana": "PP"
+    },
+    "1": {}
+  },
+  "FlandreBloodyCatastrophe": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2H:HBR",
+      "Damage": 10,
+      "Value1": 3,
+      "Value2": 10,
+      "Keywords": "Accuracy,Exile"
+    },
+    "1": {
+      "Keywords": "Accuracy,Exile"
+    }
+  },
+  "FlandreBloodyRequiem": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Value1": 1,
+      "Value2": 8,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile"
+    }
+  },
+  "FlandreBrokenGlass": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "H:HBR",
+      "Damage": 8,
+      "Value1": 1,
+      "Value2": 2
+    },
+    "1": {}
+  },
+  "FlandreBurningPassion": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "R",
+      "Value1": 4,
+      "Value2": 2
+    },
+    "1": {
+      "Cost": 1
+    }
+  },
+  "FlandreCageofVampire": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 3,
+      "Damage": 27,
+      "Value1": 2,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Cost": 3,
+      "Keywords": "Accuracy"
+    }
+  },
+  "FlandreCasuallyApproachChild": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "UR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1H:HUR",
+      "Shield": 11,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 2
+    }
+  },
+  "FlandreCatadioptric": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "UR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Damage": 6,
+      "Keywords": "Forbidden"
+    },
+    "1": {
+      "Keywords": "Forbidden"
+    }
+  },
+  "FlandreCatastropheofSeventeenArticles": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1B",
+      "Shield": 12,
+      "Value1": 1
+    },
+    "1": {}
+  },
+  "FlandreCerberusClipper": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2H:HBR",
+      "Damage": 8,
+      "Value1": 3,
+      "Value2": 2,
+      "Keywords": "Accuracy,Exile"
+    },
+    "1": {
+      "Keywords": "Accuracy,Exile"
+    }
+  },
+  "FlandreChaosIncarnation": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "3H:HBR",
+      "Block": 24
+    },
+    "1": {
+      "ImageId": "FlandreChaosIncarnationUpgrade"
+    }
+  },
+  "FlandreChaosManaStorm": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "IsXCost": true,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Damage": 6,
+      "Value1": 1,
+      "Mana": 1,
+      "Keywords": "Gadgets,Accuracy"
+    },
+    "1": {
+      "Keywords": "Gadgets,Accuracy"
+    }
+  },
+  "FlandreChromaticWings": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1HH:HBR",
+      "Value1": 2,
+      "Mana": "PP"
+    },
+    "1": {
+      "Cost": "H:HBR"
+    }
+  },
+  "FlandreClockthatTicksAwaythePast": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "3HH:HUB",
+      "Value1": 1,
+      "Value2": 40,
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Cost": "2HH:HUB",
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "FlandreColorofMadness": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1UUBB",
+      "Value1": 3,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": "UUBB"
+    }
+  },
+  "FlandreCombatHigh": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Value1": 2,
+      "Keywords": "Gadgets"
+    },
+    "1": {
+      "Keywords": "Gadgets"
+    }
+  },
+  "FlandreCranberryTrap": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "UR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1UR",
+      "Value1": 4
+    },
+    "1": {}
+  },
+  "FlandreCreepingBloodstain": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "WUBRGCP",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 5,
+      "Value1": 0,
+      "Mana": 0
+    },
+    "1": {}
+  },
+  "FlandreCrystalBullet": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "BB",
+      "Damage": 12,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "1B"
+    }
+  },
+  "FlandreCrystallineOutburst": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2BBB",
+      "Value1": 3,
+      "Value2": 1
+    },
+    "1": {}
+  },
+  "FlandreCrystallization": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 1,
+      "Value1": 1,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "FlandreCrystallizedCatastrophe": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "WUBRGC",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Damage": 40,
+      "Shield": 16,
+      "Value1": 8,
+      "Value2": 16,
+      "Keywords": "Accuracy,Exile,Replenish"
+    },
+    "1": {
+      "Keywords": "Accuracy,Exile,Replenish"
+    }
+  },
+  "FlandreCrystallizedChaos": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Damage": 10,
+      "Value1": 4,
+      "Value2": 8,
+      "Keywords": "Accuracy,Exile,Replenish"
+    },
+    "1": {
+      "Keywords": "Accuracy,Exile,Replenish"
+    }
+  },
+  "FlandreCrystallizedDevilry": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Damage": 10,
+      "Value1": 2,
+      "Value2": 4,
+      "Keywords": "Accuracy,Exile,Replenish"
+    },
+    "1": {
+      "Keywords": "Accuracy,Exile,Replenish"
+    }
+  },
+  "FlandreCrystallizedLunacy": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Damage": 10,
+      "Value1": 2,
+      "Keywords": "Accuracy,Exile,Replenish"
+    },
+    "1": {
+      "Keywords": "Accuracy,Exile,Replenish"
+    }
+  },
+  "FlandreCrystallizedSolitude": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Damage": 10,
+      "Shield": 8,
+      "Value1": 1,
+      "Keywords": "Accuracy,Exile,Replenish"
+    },
+    "1": {
+      "Keywords": "Accuracy,Exile,Replenish"
+    }
+  },
+  "FlandreDanmakuHeart": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "WUBRGCP",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "WUBRGCP",
+      "Value1": 0,
+      "Mana": 0
+    },
+    "1": {}
+  },
+  "FlandreDanmakuofDenial": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1H:HUB",
+      "Value1": 2,
+      "Value2": 4
+    },
+    "1": {}
+  },
+  "FlandreDeathorTreat": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1H:HUB",
+      "Value1": 1,
+      "Value2": 2,
+      "Keywords": "Debut"
+    },
+    "1": {
+      "Keywords": "Debut"
+    }
+  },
+  "FlandreDeliciousHeart": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Value1": 4,
+      "Value2": 1,
+      "Keywords": "Gadgets,Exile"
+    },
+    "1": {
+      "Keywords": "Gadgets,Exile"
+    }
+  },
+  "FlandreDesolatePlace": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1U",
+      "Block": 12,
+      "Value1": 1
+    },
+    "1": {}
+  },
+  "FlandreDestroyerinthePalmofOnesHand": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "3U",
+      "Damage": 60,
+      "Value1": 6,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Keywords": "Accuracy"
+    }
+  },
+  "FlandreDestructiveImpulse": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Misfortune",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 3,
+      "Value1": 4,
+      "Keywords": "Unremovable,Forbidden,Retain"
+    }
+  },
+  "FlandreDeviloftheMirror": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1H:HUB",
+      "Shield": 10,
+      "Value1": 10
+    },
+    "1": {
+      "Cost": 1
+    }
+  },
+  "FlandreDevilsFlesh": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1H:HBR",
+      "Block": 13,
+      "Value1": 3
+    },
+    "1": {
+      "Cost": 2
+    }
+  },
+  "FlandreDevilsMockery": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2U",
+      "Value1": 3,
+      "Value2": 3,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile"
+    }
+  },
+  "FlandreDontFearTheReaper": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "C",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "4C",
+      "Value1": 4,
+      "Value2": 2
+    },
+    "1": {
+      "Cost": "3C"
+    }
+  },
+  "FlandreDoombringer": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2U",
+      "Value1": 2
+    },
+    "1": {}
+  },
+  "FlandreDoomsdayClock": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2UUU",
+      "Value1": 1
+    },
+    "1": {}
+  },
+  "FlandreDreadofTransylvania": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1G",
+      "Block": 15,
+      "Value1": 1,
+      "Value2": 15
+    },
+    "1": {}
+  },
+  "FlandreEmbraceofGehenna": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2U",
+      "Shield": 18,
+      "Value1": 2,
+      "Value2": 6
+    },
+    "1": {}
+  },
+  "FlandreEndwithaBang": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2R",
+      "Block": 21,
+      "Value1": 2,
+      "Value2": 1
+    },
+    "1": {}
+  },
+  "FlandreFaustianBargain": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 1,
+      "Value1": 2,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "FlandreFieryLaser": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "RR",
+      "Damage": 16,
+      "Value1": 8
+    },
+    "1": {
+      "Cost": "1R"
+    }
+  },
+  "FlandreFlancanCook": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "IsXCost": true,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Value1": 1,
+      "Value2": 2,
+      "Mana": 1,
+      "Keywords": "Gadgets"
+    },
+    "1": {
+      "Keywords": "Gadgets"
+    }
+  },
+  "FlandreForbiddenFruit": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Shield": 4,
+      "Value1": 1,
+      "Value2": 4,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile"
+    }
+  },
+  "FlandreForbiddenGames": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1H:HBR",
+      "Value1": 2,
+      "Value2": 80,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile"
+    }
+  },
+  "FlandreForbiddenScarletCuriosity": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "C",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "5C",
+      "Value1": 4,
+      "Value2": 400,
+      "Keywords": "Ethereal,Initial,Replenish,Disposable"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Ethereal,Initial,Replenish,Disposable"
+    }
+  },
+  "FlandreFourHorsemenoftheApocalypse": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "U",
+      "Value1": 3,
+      "Mana": "P",
+      "Keywords": "Plentiful"
+    },
+    "1": {
+      "Keywords": "Plentiful"
+    }
+  },
+  "FlandreFourofaKind": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "UR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 4,
+      "Value1": 3,
+      "Mana": 1,
+      "Keywords": "Exile,Replenish"
+    },
+    "1": {
+      "Mana": 0,
+      "Keywords": "Exile,Replenish"
+    }
+  },
+  "FlandreFragileWing": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "WUBRGCP",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Value1": 0,
+      "Mana": 0
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "FlandreFragmentsofLight": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "BB",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "B"
+    }
+  },
+  "FlandreFranticDestroyer": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1BBRR",
+      "Value1": 3,
+      "Value2": 1,
+      "Mana": "P"
+    },
+    "1": {
+      "Cost": "BBRR"
+    }
+  },
+  "FlandreFriendOkina": {
+    "Rarity": "Rare",
+    "Type": "Friend",
+    "Colors": "UBRG",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "UBRG",
+      "Shield": 18,
+      "Value1": 4,
+      "Value2": 4,
+      "Mana": 0,
+      "Loyalty": 1,
+      "PassiveCost": 2,
+      "ActiveCost": -1,
+      "UltimateCost": -6,
+      "Keywords": "Replenish"
+    },
+    "1": {
+      "Keywords": "Replenish"
+    }
+  },
+  "FlandreFriendOkinaFall": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Friend",
+    "Colors": "UBRG",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "UBRG",
+      "Value1": 4,
+      "Value2": 12,
+      "Loyalty": 1,
+      "PassiveCost": 2,
+      "ActiveCost": -1,
+      "UltimateCost": -6,
+      "Keywords": "Replenish"
+    },
+    "1": {
+      "Keywords": "Replenish"
+    }
+  },
+  "FlandreFriendOkinaSpring": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Friend",
+    "Colors": "UBRG",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "UBRG",
+      "Value1": 4,
+      "Value2": 4,
+      "Loyalty": 1,
+      "PassiveCost": 2,
+      "ActiveCost": -1,
+      "UltimateCost": -6,
+      "Keywords": "Replenish"
+    },
+    "1": {
+      "Keywords": "Replenish"
+    }
+  },
+  "FlandreFriendOkinaSummer": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Friend",
+    "Colors": "UBRG",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "UBRG",
+      "Value1": 4,
+      "Value2": 30,
+      "Loyalty": 1,
+      "PassiveCost": 2,
+      "ActiveCost": -1,
+      "UltimateCost": -6,
+      "Keywords": "Replenish"
+    },
+    "1": {
+      "Keywords": "Replenish"
+    }
+  },
+  "FlandreFriendOkinaWinter": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Friend",
+    "Colors": "UBRG",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "UBRG",
+      "Value1": 4,
+      "Value2": 3,
+      "Loyalty": 1,
+      "PassiveCost": 2,
+      "ActiveCost": -1,
+      "UltimateCost": -6,
+      "Keywords": "Replenish"
+    },
+    "1": {
+      "Keywords": "Replenish"
+    }
+  },
+  "FlandreGrowingGemstones": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1B",
+      "Block": 12,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 2
+    }
+  },
+  "FlandreHellisFull": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "C",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2C",
+      "Damage": 12,
+      "Value1": 2,
+      "Value2": 2,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Keywords": "Accuracy"
+    }
+  },
+  "FlandreHellonEarth": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2RRR",
+      "Value1": 1,
+      "Value2": 0
+    },
+    "1": {}
+  },
+  "FlandreHighCard": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "UR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2H:HUR",
+      "Value1": 4,
+      "Mana": 0
+    },
+    "1": {
+      "Cost": 2
+    }
+  },
+  "FlandreHotSurface": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2R",
+      "Block": 18,
+      "Value1": 3
+    },
+    "1": {}
+  },
+  "FlandreHymnoftheTorturedSouls": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "RR",
+      "Block": 15,
+      "Value1": 1,
+      "Mana": "P"
+    },
+    "1": {}
+  },
+  "FlandreIgnitingSnap": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "R",
+      "Value1": 4,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": 1
+    }
+  },
+  "FlandreInfernalRampage": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2R",
+      "Damage": 8,
+      "Value1": 4,
+      "Value2": 3
+    },
+    "1": {}
+  },
+  "FlandreInstability": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "C",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 2,
+      "Value1": 0,
+      "Value2": 0
+    },
+    "1": {}
+  },
+  "FlandreInternetSurvivor": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1W",
+      "Value1": 10,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile"
+    }
+  },
+  "FlandreKagomeKagome": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2G",
+      "Shield": 21,
+      "Value1": 30,
+      "Value2": 2
+    },
+    "1": {}
+  },
+  "FlandreKindLiesandGoodbyes": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "UBR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "UBR",
+      "Shield": 40,
+      "Value1": 4,
+      "Value2": 1,
+      "Keywords": "Replenish"
+    },
+    "1": {
+      "Keywords": "Replenish"
+    }
+  },
+  "FlandreLaevateinn": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2RR",
+      "Damage": 15,
+      "Value1": 15,
+      "Value2": 3,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Keywords": "Accuracy"
+    }
+  },
+  "FlandreLittleJeweler": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "BB",
+      "Value1": 3,
+      "Value2": 1
+    },
+    "1": {}
+  },
+  "FlandreLooseCannon": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "UR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 9,
+      "Damage": 27,
+      "Value1": 9,
+      "Mana": 1,
+      "Keywords": "Accuracy,Retain"
+    },
+    "1": {
+      "Keywords": "Accuracy,Retain"
+    }
+  },
+  "FlandreMagicalGirlFlandreEngage": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2W",
+      "Value1": 1,
+      "Value2": 12,
+      "Keywords": "Initial"
+    },
+    "1": {
+      "Keywords": "Initial"
+    }
+  },
+  "FlandreMagicalGuard": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Block": 10,
+      "Mana": 1,
+      "Keywords": "Retain"
+    },
+    "1": {
+      "Keywords": "Retain"
+    }
+  },
+  "FlandreMagicalPotential": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Mana": 1,
+      "Keywords": "Forbidden,Retain"
+    },
+    "1": {
+      "Keywords": "Forbidden,Retain"
+    }
+  },
+  "FlandreMagicalSlash": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Damage": 10,
+      "Mana": 1,
+      "Keywords": "Accuracy,Retain"
+    },
+    "1": {
+      "Keywords": "Accuracy,Retain"
+    }
+  },
+  "FlandreMagicalTechnique": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Value1": 1,
+      "Value2": 4,
+      "Mana": 1,
+      "Keywords": "Retain"
+    },
+    "1": {
+      "Keywords": "Retain"
+    }
+  },
+  "FlandreMazeofLove": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2UB",
+      "Damage": 14,
+      "Shield": 14,
+      "Value1": 1,
+      "Value2": 1,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Keywords": "Accuracy"
+    }
+  },
+  "FlandreMindsEye": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2W",
+      "Shield": 18,
+      "Value1": 1
+    },
+    "1": {}
+  },
+  "FlandreMPBullofPhalaris": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "RRR",
+      "Value1": 24,
+      "Value2": 1,
+      "Mana": 1
+    },
+    "1": {}
+  },
+  "FlandreMPButchersCircus": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "HH:HBR",
+      "Value1": 2,
+      "Value2": 1,
+      "Mana": 1
+    },
+    "1": {}
+  },
+  "FlandreMPEnfantTerrible": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "C",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2C",
+      "Damage": 12,
+      "Value1": 2,
+      "Value2": 40,
+      "Keywords": "Accuracy,Exile"
+    },
+    "1": {
+      "Keywords": "Accuracy,Exile"
+    }
+  },
+  "FlandreMPFirestorm": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1RR",
+      "Damage": 10,
+      "Value1": 10,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Keywords": "Accuracy"
+    }
+  },
+  "FlandreMPKrystallos": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "BB",
+      "Block": 15,
+      "Value1": 1,
+      "Mana": 1
+    },
+    "1": {}
+  },
+  "FlandreMPLostandForgotten": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "G",
+      "Block": 6,
+      "Shield": 6,
+      "Value1": 1,
+      "Value2": 15,
+      "Mana": 1,
+      "Keywords": "Ethereal"
+    },
+    "1": {
+      "Keywords": "Ethereal"
+    }
+  },
+  "FlandreMPMagicalCheering": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1W",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "W"
+    }
+  },
+  "FlandreMPPhantomPain": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1UU",
+      "Damage": 9,
+      "Value1": 9,
+      "Value2": 2,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Keywords": "Accuracy"
+    }
+  },
+  "FlandreMPProblemChild": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1HH:HUB",
+      "Value1": 2,
+      "Mana": 1
+    },
+    "1": {
+      "Keywords": "Initial"
+    }
+  },
+  "FlandreMPRiggedGame": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "UR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "H:HUR",
+      "Value1": 2,
+      "Value2": 1,
+      "Mana": 1
+    },
+    "1": {}
+  },
+  "FlandreMurderMystery": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1U",
+      "Value1": 1,
+      "Value2": 3
+    },
+    "1": {
+      "Cost": 2
+    }
+  },
+  "FlandreNoMercy": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "C",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2C",
+      "Block": 21,
+      "Value1": 1,
+      "Value2": 1,
+      "Mana": 0
+    },
+    "1": {}
+  },
+  "FlandreOnePair": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1G",
+      "Value1": 1,
+      "Value2": 4,
+      "Mana": 0
+    },
+    "1": {}
+  },
+  "FlandreOrthrusBrigantine": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1G",
+      "Damage": 15,
+      "Value1": 15,
+      "Value2": 3
+    },
+    "1": {}
+  },
+  "FlandrePartnersinCrime": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "UR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2H:HUR",
+      "Damage": 16,
+      "Shield": 16,
+      "Value1": 1,
+      "Value2": 2,
+      "Keywords": "Accuracy,Retain,Replenish"
+    },
+    "1": {
+      "Keywords": "Accuracy,Retain,Replenish"
+    }
+  },
+  "FlandrePathofDestruction": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1H:HBR",
+      "Block": 16,
+      "Value1": 1,
+      "Value2": 2
+    },
+    "1": {}
+  },
+  "FlandrePlayTogether": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "H:HBR",
+      "Value1": 1,
+      "Value2": 1,
+      "Keywords": "Debut"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Debut"
+    }
+  },
+  "FlandrePrayerofRuin": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2G",
+      "Value1": 60,
+      "Value2": 30
+    },
+    "1": {}
+  },
+  "FlandreRecklessBullet": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2B",
+      "Damage": 8,
+      "Value1": 2,
+      "Value2": 2,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Keywords": "Accuracy"
+    }
+  },
+  "FlandreReliableLittleSister": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Block": 15,
+      "Keywords": "Gadgets,Exile,Retain"
+    },
+    "1": {
+      "Keywords": "Gadgets,Exile,Retain"
+    }
+  },
+  "FlandreRipandTear": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2U",
+      "Damage": 6,
+      "Value1": 5,
+      "Value2": 30,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Keywords": "Accuracy"
+    }
+  },
+  "FlandreRipplesof495Years": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "UBR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "UUBBRR",
+      "Value1": 1,
+      "Keywords": "Ethereal,Initial,Replenish,Disposable"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Ethereal,Initial,Replenish,Disposable"
+    }
+  },
+  "FlandreRoseCross": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "UR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1H:HUR",
+      "Shield": 14,
+      "Value1": 7
+    },
+    "1": {}
+  },
+  "FlandreRuinedFortress": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2G",
+      "Value1": 20,
+      "Value2": 0
+    },
+    "1": {}
+  },
+  "FlandreScarletCasino": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Value1": 6,
+      "Value2": 1,
+      "Keywords": "Gadgets"
+    },
+    "1": {
+      "Keywords": "Gadgets"
+    }
+  },
+  "FlandreScarletNihility": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "UBR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2UBR",
+      "Damage": 100,
+      "Value1": 20,
+      "Value2": 33,
+      "Keywords": "Accuracy,Replenish"
+    },
+    "1": {
+      "Keywords": "Accuracy,Replenish"
+    }
+  },
+  "FlandreScaryLittleSister": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 3,
+      "Block": 27,
+      "Value1": 2,
+      "Value2": 2,
+      "Mana": "PP"
+    },
+    "1": {}
+  },
+  "FlandreSisteroftheDevil": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "UBR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Mana": "PP",
+      "Keywords": "Forbidden,Ethereal,Replenish"
+    },
+    "1": {
+      "Keywords": "Forbidden,Ethereal,Replenish"
+    }
+  },
+  "FlandreSoulMelter": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "RG",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2H:HRG",
+      "Damage": 12,
+      "Value1": 3,
+      "Value2": 15,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Keywords": "Accuracy"
+    }
+  },
+  "FlandreSpectrometer": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2H:HUB",
+      "Block": 18,
+      "Value1": 1
+    },
+    "1": {}
+  },
+  "FlandreSpellBreak": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1W",
+      "Value1": 24,
+      "Value2": 1,
+      "Keywords": "Replenish"
+    },
+    "1": {
+      "Keywords": "Replenish"
+    }
+  },
+  "FlandreStarbowBreak": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": true,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "B",
+      "Damage": 9,
+      "Value1": 3,
+      "Value2": 2,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Keywords": "Accuracy"
+    }
+  },
+  "FlandreStraightFlush": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "UR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 5,
+      "Shield": 24,
+      "Value1": 2,
+      "Value2": 5,
+      "Mana": 0,
+      "Keywords": "Retain"
+    },
+    "1": {
+      "Keywords": "Retain"
+    }
+  },
+  "FlandreSuperhumanCatastrophePilgrimage": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1BB",
+      "Value1": 2,
+      "Value2": 1,
+      "Mana": 0,
+      "Keywords": "Exile"
+    },
+    "1": {}
+  },
+  "FlandreTheCentennialFestivalforMagicalGirls": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "4W",
+      "Value1": 1,
+      "Value2": 0
+    },
+    "1": {}
+  },
+  "FlandreTheMousetrap": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2U",
+      "Shield": 18,
+      "Value1": 2
+    },
+    "1": {}
+  },
+  "FlandreThePsychoticandCuteGuest": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "UR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1UURR",
+      "Value1": 1,
+      "Value2": 12
+    },
+    "1": {
+      "Cost": "UURR"
+    }
+  },
+  "FlandreTirelessVampire": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Block": 10,
+      "Value1": 1,
+      "Keywords": "Gadgets"
+    },
+    "1": {
+      "Keywords": "Gadgets"
+    }
+  },
+  "FlandreToolDestroyingObstacles": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 1,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0
+    }
+  },
+  "FlandreToolTheCureforMadness": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 1,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Value1": 120
+    }
+  },
+  "FlandreTrueDevilsCurtain": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 2,
+      "Block": 12,
+      "Value1": 2,
+      "Keywords": "Basic,Replenish"
+    },
+    "1": {
+      "Keywords": "Basic,Replenish"
+    }
+  },
+  "FlandreTrueDevilsMantle": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 1,
+      "Block": 8,
+      "Value1": 1,
+      "Keywords": "Basic,Replenish"
+    },
+    "1": {
+      "Keywords": "Basic,Replenish"
+    }
+  },
+  "FlandreTrueDevilsRain": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 2,
+      "Damage": 12,
+      "Value1": 2,
+      "Keywords": "Basic,Replenish"
+    },
+    "1": {
+      "Keywords": "Basic,Replenish"
+    }
+  },
+  "FlandreTrueDevilsShot": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 1,
+      "Damage": 8,
+      "Value1": 1,
+      "Keywords": "Basic,Replenish"
+    },
+    "1": {
+      "Keywords": "Basic,Replenish"
+    }
+  },
+  "FlandreUltraViolence": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "C",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "3C",
+      "Damage": 60,
+      "Value1": 1,
+      "Value2": 8,
+      "Mana": 0,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Keywords": "Accuracy"
+    }
+  },
+  "FlandreUncontrollableBomb": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Damage": 50,
+      "Value1": 10,
+      "Value2": 2,
+      "Keywords": "Gadgets,Accuracy"
+    },
+    "1": {
+      "Keywords": "Gadgets,Accuracy"
+    }
+  },
+  "FlandreUnholySanctuary": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2W",
+      "Shield": 20
+    },
+    "1": {}
+  },
+  "FlandreUnstablePower": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "C",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "2C",
+      "Value1": 100,
+      "Value2": 50
+    },
+    "1": {}
+  },
+  "FlandreViolentSpread": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "UU",
+      "Damage": 8,
+      "Value1": 2,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": "1U"
+    }
+  },
+  "FlandreWalpurgisNight": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "4G",
+      "Value1": 999999999,
+      "Value2": 0
+    },
+    "1": {}
+  },
+  "FlandreWarmonger": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "UR",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": 0,
+      "Value1": 1,
+      "Keywords": "Forbidden,Replenish"
+    },
+    "1": {
+      "Keywords": "Forbidden,Replenish"
+    }
+  },
+  "FlandreWatchtheWorldBurn": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1R",
+      "Value1": 4
+    },
+    "1": {}
+  },
+  "FlandreWhitefire": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "FlandrePlayerUnit",
+    "0": {
+      "Cost": "1W",
+      "Damage": 12,
+      "Value1": 2,
+      "Value2": 1,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Keywords": "Accuracy"
+    }
+  },
+
   "cardadrenaline": {
     "Rarity": "Uncommon",
     "Type": "Ability",
