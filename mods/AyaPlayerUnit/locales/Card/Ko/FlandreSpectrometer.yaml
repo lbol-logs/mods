@@ -1,0 +1,10 @@
+﻿FlandreSpectrometer:
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    무작위 |파편| {Value1}장을 뽑을 카드 더미와 버린 카드 더미에 추가합니다.
+  UpgradedDescription: >-
+    |방어|를 {Block} 얻습니다.
+
+    무작위 |파편| {Value1}장을 뽑을 카드 더미와 버린 카드 더미에 추가합니다.
+  Name: 분광계

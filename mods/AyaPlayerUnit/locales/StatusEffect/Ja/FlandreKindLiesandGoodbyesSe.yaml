@@ -1,0 +1,4 @@
+﻿FlandreKindLiesandGoodbyesSe:
+  Brief: '{PlayerName}は一定ターンの間、ライフを失わない。'
+  Description: '{PlayerName}は{Duration}ターンの間、ライフを失わない。'
+  Name: 優しい嘘と別れ

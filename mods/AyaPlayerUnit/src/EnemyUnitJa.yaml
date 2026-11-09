@@ -1,0 +1,559 @@
+AyaBossAya:
+  Title: '時間の女神'
+  Move:
+  - 時喰らい
+  - 破滅の輝き
+  - 委縮する空間
+  - 砕けた希望
+  - 次元接続
+  - 終着点
+  - 幻影の支配
+  - 機械仕掛けの神
+
+
+AyaBossChimata:
+  Title: '無主物の神'
+  Move:
+  - 
+
+AyaBossFlandre:
+  Title: '紅い血液の悪魔'
+  Move:
+  - '禁忌'
+  - ブルーベリートラップ
+  - ミストルティン
+  - スリーオブアカインド
+  - 通りゃんせ、通りゃんせ
+  - 愛の迷宮
+  - '禁忌'
+  - クランベリートラップ
+  - レーヴァテイン
+  - フォーオブアカインド
+  - カゴメ、カゴメ
+  - 恋の迷路
+  - '禁弾'
+  - スターボウブレイク
+  - 屈折反射
+  - 過去を刻む時計
+  - '秘弾'
+  - そして誰もいなくなるか？
+  - 'Q.E.D.'
+  - 495年の波紋
+  - 禁断の果実
+  - 禁じられた遊び
+  - レックレスバレット
+  - ケルベロスクリッパー
+  - 掌中の破壊者
+  - スカーレットニヒリティ
+
+  AyaBossFlandreDemoMove11FlandrePleasure: "禁忌「ブルーベリートラップ」！"
+  AyaBossFlandreDemoMove12Flandre: "ブルーベリー？ なんで？"
+  AyaBossFlandreDemoMove13FlandrePleasure: "弾幕に理由なんて必要ないよ。大事なのは、なぜやらないのかってこと！"
+  AyaBossFlandreDemoMove14FlandrePleasure: "クランベリートラップがあるなら、どこかにブルーベリートラップもあるはず！"
+  AyaBossFlandreDemoMove15Flandre: "そもそもクランベリートラップなんて存在しないけど。"
+  AyaBossFlandreDemoMove16FlandrePleasure: "えっ？ クランベリーで罠を作ろうって考えた人はいないの？"
+  AyaBossFlandreDemoMove17Flandre: "あったとしても、罠に仕掛けられる餌の一つでしかないよ。"
+  AyaBossFlandreDemoMove18FlandrePleasure: "それじゃ面白くないよ。クランベリーが派手に爆発する罠がいい！"
+  AyaBossFlandreDemoMove19Flandre: "クレイジーデイブにでも聞いて。"
+
+  AyaBossFlandreDemoMove21FlandrePleasure: "ねえ、これ見て！"
+  AyaBossFlandreDemoMove22Flandre: "それはレーヴァテインじゃない！いつの間に覚えたの？"
+  AyaBossFlandreDemoMove23FlandrePleasure: "あなたが寝ている間に、出てきて新しい魔法を練習したんだよ。"
+  AyaBossFlandreDemoMove24Flandre: "え？ 許可なしで出ていいなんて言ってないけど。"
+  AyaBossFlandreDemoMove25FlandrePleasure: "もう、ちゃんと分身を活用しないと。"
+  AyaBossFlandreDemoMove26FlandrePleasure: "必要な時だけ分身を使ってるけど、私たちにはもっと色々できるんだよ。"
+  AyaBossFlandreDemoMove27Flandre: "あなたたちが私以上に騒ぎを起こしてなかったら、とっくにそうしてたよ。"
+  AyaBossFlandreDemoMove28FlandrePleasure: "……それを言われると何も言えない！"
+
+  AyaBossFlandreDemoMove31FlandrePleasure: "みんな出てきて！"
+  AyaBossFlandreDemoMove32Flandre: "ちょっと！分身を呼び出せるのは私だけなのに！"
+  AyaBossFlandreDemoMove33FlandreAnger: "寝てたんだけど！ったく！"
+  AyaBossFlandreDemoMove34FlandrePleasure: "あ、ごめん！"
+  AyaBossFlandreDemoMove35FlandreSorrow: "本を読んでいたんだけど……でも、手伝いが必要なら。"
+  AyaBossFlandreDemoMove36Flandre: "私の心の世界に本があった記憶なんてないんだけど？"
+  AyaBossFlandreDemoMove37FlandreSorrow: "現実世界の本を覚えて、心の世界に再現したの。"
+  AyaBossFlandreDemoMove38Flandre: "それは普通にすごいね。"
+  AyaBossFlandreDemoMove39FlandrePleasure: "よーし、みんな！やろう！"
+  AyaBossFlandreDemoMove310FlandreSorrow: "仕方ないね。"
+  AyaBossFlandreDemoMove311FlandreAnger: "痛い目を見るよ、オリジナル！"
+  AyaBossFlandreDemoMove312Flandre: "待って――"
+  AyaBossFlandreDemoMove313Flandre: "……私、あなたたちに何か悪いことした？"
+  AyaBossFlandreDemoMove314FlandrePleasure: "ううん！"
+  AyaBossFlandreDemoMove315FlandreSorrow: "えっと……たぶん違うと思う。"
+  AyaBossFlandreDemoMove316FlandreAnger: "いや、少なくとも今はね。"
+
+  AyaBossFlandreDemoMove41Flandre: "入ってよし、通ってよし。"
+  AyaBossFlandreDemoMove42FlandrePleasure: "これは誰の細い道？"
+  AyaBossFlandreDemoMove43Flandre: "これは天神様の細道だよ。"
+  AyaBossFlandreDemoMove44FlandrePleasure: "どうか通らせてください。"
+
+  AyaBossFlandreDemoMove4Normal5Flandre: "……"
+  AyaBossFlandreDemoMove4Hidden6Flandre: "正当な理由なき者は通すわけにはいかない。"
+  AyaBossFlandreDemoMove4Hidden7FlandrePleasure: "この子の七歳の誕生日を祝うため、"
+  AyaBossFlandreDemoMove4Hidden8FlandrePleasure: "ここに御札を奉納しに来ました。"
+  AyaBossFlandreDemoMove4HiddenFailure9Flandre: "……"
+  AyaBossFlandreDemoMove4HiddenSuccess10Flandre: "入るのは簡単だけど、戻るのは怖いね。"
+  AyaBossFlandreDemoMove4HiddenSuccess11Flandre: "怖いけど……"
+  AyaBossFlandreDemoMove4HiddenSuccess12Flandre: "入ってよし、通ってよし。"
+
+  AyaBossFlandreDemoMove51FlandrePleasure: "愛の迷路？もっと大きく考えようよ。"
+  AyaBossFlandreDemoMove52FlandrePleasure: "愛の迷宮っていうのはどう？"
+  AyaBossFlandreDemoMove53Flandre: "迷宮で愛を見つけられるとは思えないけど。"
+  AyaBossFlandreDemoMove54FlandrePleasure: "迷路で愛を見つけられるみたいに言うね。"
+  AyaBossFlandreDemoMove55Flandre: "それを言われると反論できない。"
+
+  AyaBossFlandreDemoLastWord1FlandrePleasure: "ねえ、ちょっとやりすぎじゃない？"
+  AyaBossFlandreDemoLose1FlandrePleasure: "私の勝ち！"
+  AyaBossFlandreDemoLose2Flandre: "バカ、負けたんだよ！"
+  AyaBossFlandreDemoLose3FlandrePleasure: "あ、そうか。あなたが負けたら私も負けなんだ。"
+  AyaBossFlandreDemoWin1FlandrePleasure: "降参するよ！"
+  AyaBossFlandreJoyName: フランドール(喜)
+  AyaBossFlandreAngerName: フランドール(怒)
+  AyaBossFlandreSorrowName: フランドール(哀)
+  AyaBossFlandrePleasureName: フランドール(楽)
+
+  
+AyaBossKoishi:
+  Title: '好奇心旺盛な妖怪'
+  Move:
+  - '無意識の行動'
+  - '白い直感'
+  - '青い直感'
+
+  - 黒い直感
+  - 赤い直感
+  - 緑の直感
+  - ショット
+  - 二重らせん
+  - 結界
+  - 愛符
+  - ハート・コンチェルト
+  AyaBossKoishiSpell21Koishi: "こんにちは、こんにちは！"
+  AyaBossKoishiSpell22Koishi: "今、私は"
+  AyaBossKoishiSpell23Koishi: "あなたのすぐ後ろにいるよ！"
+  AyaBossKoishiSpell24Koishi: "あなたのすぐ前にいるよ！"
+
+AyaBossLong:
+  Title: '大天狗'
+  Move:
+  - '彩星陣'
+  - '虹星降臨'
+  - '虹光'
+  - 光風霽月
+  
+AyaBossLongSeija:
+  Title: '道具の救世主'
+  Move:
+  - 'ムルティプルシューティング'
+  - 'アキュレイトアタック'
+  - 'リバースオフェンス'
+  
+AyaBossYukari:
+  Title: '幻想結界'
+  Move:
+  - '結界'
+  - 夢と現の呪
+  - 動と静の均衡
+  - 光と闇の網目
+  - '悪霊'
+  - 直と曲の夢郷
+  - 八雲紫の神隠し
+  - 禅寺に棲む妖しき蝶
+  - '邪霊'
+  - 二重黒死蝶
+  - '式神'
+  - 八雲藍
+  - 人間と妖怪の境界
+  - 生と死の境界
+  - '紫奥義'
+  - 弾幕結界
+  - 深奥なる弾幕結界 ―夢幻・泡影・幻影―
+  AyaBossYukariIntro1Yukari: "よろしいわ。私がお相手しましょう。"
+  AyaBossYukariIntro2Yukari: "私は本当に弱いから、ウルトラマリンオーブエリクサーの力は一時的に封じておいたわ。"
+  AyaBossYukariIntro3Yukari: "どうかお手柔らかにね～"
+  AyaBossYukariIntro31Aya: "紫さんだから手加減するべきか、それとも本当に危険な相手だから全力で行くべきか……"
+  AyaBossYukariIntro32Flandre: "この戦いではレベルリスタートもメインメニューも使えないの？面倒くさいなぁ。"
+  AyaBossYukariNightmare11Yukari: "私の膝の上で、ゆっくり眠りなさい。"
+  AyaBossYukariNightmare121Aya: "あやや……私があなたと同じくらい長生きなのを忘れましたか……"
+  AyaBossYukariNightmare122Flandre: "え？誰が妖怪ババアの膝で寝たいと思うの……"
+  AyaBossYukariNightmare21Yukari: "夢の中では、争いではなく安らぎがありますように。"
+  AyaBossYukariNightmare221Aya: "でも平和じゃ記事にならないんですよ……！"
+  AyaBossYukariNightmare222Flandre: "いや、それが一番の悪夢なんだけど……！"
+  AyaBossYukariRanYakumo1Yukari: "藍、手を貸してくれる？"
+  AyaBossYukariRanYakumo2Ran: "もちろんです、紫様。何をお望みですか？"
+  AyaBossYukariRanYakumo3Yukari: "もう、からかっているの？私が{0}と弾幕ごっこをしているのが見えない？"
+  AyaBossYukariRanYakumo4Yukari: "我らの異変解決者が、二人を同時に相手できるか見てみましょう。"
+  AyaBossYukariRanYakumo5Ran: "仰せのままに。"
+  AyaBossYukariRanYakumo6Ran: "さあ、{0}。あなたの力を見せてもらいましょう！"
+  AyaBossYukariRanYakumo71Aya: "藍さん、探していました！お忙しいので取材する機会がなかなかなくて！"
+  AyaBossYukariRanYakumo72Flandre: "きつねうどんを食べてみたかったんだよね。だから今、試してみる！"
+  AyaBossYukariRanYakumo81Ran: "……なぜ驚かないのかしら。"
+  AyaBossYukariRanYakumo82Ran: "きつねうどんは狐で作られているわけではありません……"
+  AyaBossYukariBoundaryofHumans1Everyone: "！"
+  AyaBossYukariBoundaryofHumans21Aya: "あややや！？ここはどこ！？"
+  AyaBossYukariBoundaryofHumans22Flandre: "景色が急に変わった！"
+  AyaBossYukariBoundaryofHumans3Yukari: "ふむ、転移……？ いいえ、この世界の現実を掴めないわ。"
+  AyaBossYukariBoundaryofHumans41Aya: "ここは……外の世界？最後に見たのはずいぶん昔ですね。"
+  AyaBossYukariBoundaryofHumans421Flandre: "外の世界？私は隠岐奈と一緒に何度か行ったことがあるよ。"
+  AyaBossYukariBoundaryofHumans422SukusukuAya: "すくっ！\n（詳しく知りたい人は、フランドールのストーリーモードをお楽しみに！）"
+  AyaBossYukariBoundaryofHumans5Yukari: "見えているものは確かに外の世界。でも、実際にそこにいるわけではないわ。"
+  AyaBossYukariBoundaryofHumans61Aya: "それに紫さん、姿も変わっていますよね。何があったんですか？"
+  AyaBossYukariBoundaryofHumans62Flandre: "それに服も変えたの？"
+  AyaBossYukariBoundaryofHumans7Yukari: "私の姿……なるほど。これは誰かの記憶ね。"
+  AyaBossYukariBoundaryofHumans81Aya: "記憶？それじゃあ今の紫さんの姿は、その記憶の持ち主の姿ということですか？"
+  AyaBossYukariBoundaryofHumans82Flandre: "どうして人間の脳を覗き込んでいるのかは分からないけど。"
+  AyaBossYukariBoundaryofHumans9Yukari: "この記憶が必ずしもその人間のものだとは断言できないわ。今の私に似た人間が、その記憶の中に登場しているだけかもしれない。"
+  AyaBossYukariBoundaryofHumans101Aya: "誰か別の人……それでも、突然こんなことが起きた理由はあるはずです。"
+  AyaBossYukariBoundaryofHumans102Flandre: "どちらにしても、どうしてこんなものが見えているのか分かる？"
+  AyaBossYukariBoundaryofHumans11Yukari: "藍、解析を。"
+  AyaBossYukariBoundaryofHumans12Ran: "この記憶は、紫様が外の世界を訪れた際に、隙間を通って入り込んだものと思われます。"
+  AyaBossYukariBoundaryofHumans13Ran: "もしこの記憶が紫様の力に反応したのであれば、記憶の持ち主も似たような力を持っている可能性があります。"
+  AyaBossYukariBoundaryofHumans14Yukari: "興味深いわ。その人間とは、いつか会ってみたいものね。"
+  AyaBossYukariBoundaryofHumans15Yukari: "でも今は、目の前の戦いに集中しましょう。"
+  AyaBossYukariBoundaryofHumans161Aya: "（あの人間、紫さんによく似ている……ただの偶然なのか、それとも……？）"
+  AyaBossYukariBoundaryofHumans162Flandre: "（紫がメリーのことを何も知らないのか、それとも知らないふりをしているのか……）"
+  AyaBossYukariMagicalGirlFlandreEngage1Okina: "ねえ紫。私のフランドールについて、どう思う？"
+  AyaBossYukariMagicalGirlFlandreEngage2Yukari: "本当に素晴らしく成長したわね。あなたの計画が順調に進んでいるのが分かるわ。"
+  AyaBossYukariMagicalGirlFlandreEngage3Okina: "当然よ！油の異変の頃から、フランドールには可能性があると分かっていたもの。"
+  AyaBossYukariMagicalGirlFlandreEngage4Okina: "フランドール。紫と戦うことは、これまで出会ったどんな敵ともまったく違う経験になるでしょう。"
+  AyaBossYukariMagicalGirlFlandreEngage5Okina: "勝っても負けても、全力を尽くしなさい！"
+  AyaBossYukariLastWord1Yukari: "あらまあ、ずいぶん本気になったようね。"
+  AyaBossYukariLastWord2Yukari: "それなら私も、全力を出さないといけないかしら～"
+  AyaBossYukariLose1Yukari: "私の結界を0回しか破れなかったのね。まだまだ修行が必要ね。"
+  AyaBossYukariLose2Yukari: "私の結界を1回破ったのね。異変解決者としては予想通り、といったところかしら。"
+  AyaBossYukariLose3Yukari: "私の結界を2回破ったのね。見事だったわ。でも、あなたならもっとできるはずよ。"
+  AyaBossYukariLose4Yukari: "私の結界を3回破ったのね。次は私を倒せるかもしれないわ。"
+  AyaBossYukariLose5Yukari: "あなたを家に帰すこともできるし、この冒険を続けることもできるわ。"
+
+AyaBossZUN:
+  Title: '博麗の神主'
+  Move:
+  - Intoxicated
+  - 東方靈異伝
+  - 東方封魔録
+  - 東方夢時空
+  - 東方幻想郷
+  - 東方怪綺談
+  - 東方紅魔郷
+  - 東方妖々夢
+  - 東方永夜抄
+  - 東方花映塚
+  - 東方風神録
+  - 東方地霊殿
+  - 東方星蓮船
+  - 東方神霊廟
+  - 東方輝針城
+  - 東方紺珠伝
+  - 東方天空璋
+  - 東方鬼形獣
+  - 東方虹龍洞
+  - 東方獣王園
+  - '酔符'
+  - あなたの「人生無料体験版」は終了しました
+  AyaOrbSeWarning: "|r:警告|：このカードは{0}によって無効化されました。"
+
+AyaChameleon:
+  Title: 'Chameleon'
+  Move:
+  - 
+  
+AyaDummy:
+  Title:
+  Move:
+  - 
+  
+AyaFlandreHallucination1:
+  Title: ''
+  Move:
+  - 
+  - 
+  - 
+
+AyaFlandreHallucination2:
+  Title: ''
+  Move:
+  - 
+  - 
+  - 
+  
+AyaFlandreHallucination3:
+  Title: ''
+  Move:
+  - 
+  - 
+  - 
+  
+AyaKoakuma:
+  Title: '埃っぽい図書館で働く魔物'
+  Move:
+  -  
+  
+AyaKotohime:
+  Title: '弾幕に美を夢みる姫'
+  Move:
+  - 
+
+AyaLong:
+  Title: '大天狗'
+  Move:
+  - '彩星陣'
+  - '虹星降臨'
+  - '虹光'
+  - 光風霽月
+
+AyaMai:
+  Title: '尽き果てるまで踊り続ける童子'
+  Move:
+  - 
+
+AyaBossOkina:
+  Title: '究極の絶対秘神'
+  Move:
+  - 
+
+AyaOrbBlack:
+  Title: '黒のオーブ'
+  Move:
+  - 遮光
+  - 无寿の夢
+  - フィルドミアズマ
+  - 咲いた心
+  - 夜雀の歌
+  - 原因不明の熱病
+  - 悪魔の典籍
+  - ルナサ・ソロライブ
+  - ブラックペガサスの罪
+  - ミスフォーチュンズホイール
+  - 運命操作
+  - ドリームエクスプレス
+  - 真実の満月
+  - 休憩
+  
+AyaOrbBlue:
+  Title: '青のオーブ'
+  Move:
+  - 激流
+  - 水遊び
+  - 杞人地を憂う
+  - 兎は舞い降りた
+  - ウォーターカーペット
+  - タオ胎動
+  - 神代の記憶
+  - 真円造形術
+  - 方形造形術
+  - 線形造形術
+  - 賢者の帰依
+  - 休憩
+  
+AyaOrbColorless:
+  Title: '無色のオーブ'
+  Move:
+  - ちょい飲み
+  - ショット
+  - 結界
+  - きゅうりミサイル
+  - クリーンエネルギー
+  - 静かの海（裏）
+  - 弱者の力
+  - 分解の風
+  - 震え凍える悪夢
+  - 休憩
+  
+AyaOrbGreen:
+  Title: '緑のオーブ'
+  Move:
+  - 真夏の花
+  - 春色の閃光
+  - 即席菩薩
+  - 蝶の羽風
+  - 弾幕の玉繭
+  - 幻想郷の開花
+  - 最奥の森域
+  - 狸の化け学校
+  - 蓬莱の樹海
+  - 休憩
+  
+AyaOrbPhilosophy:
+  Title: '虹色のオーブ'
+  Move:
+  - ストーンベイビー
+  - 脱魂の儀
+  - 天仙鳴動
+  - 反撃の弾幕
+  - フォーオブアカインド
+  - スコアデザイアイーター
+  - クローズアイショット
+  - フルパノラマショット
+  - 諏訪清水
+  - 逆鱗の荒波
+  - 丑の刻参り
+  - 狂いの落葉
+  - ポイズンレイズ
+  - 休憩
+  
+AyaOrbRed:
+  Title: '赤のオーブ'
+  Move:
+  - 満月の咆哮
+  - 焦燥
+  - 鳳翼天翔
+  - 重低音バスドラム
+  - 作戦姿勢
+  - 肉体強化
+  - 元鬼玉
+  - 無差別発火の符
+  - 紅内勁
+  - リリカ・ソロライブ
+  - 鬼気怒濤
+  - 蝙蝠変化
+  - 不死の炎
+  - 休憩
+  
+AyaOrbWhite:
+  Title: '白のオーブ'
+  Move:
+  - 心抄斬
+  - 超高速飛行体
+  - 金剛身
+  - 浄化活動
+  - 静穏
+  - 信仰収集
+  - メルラン・ソロライブ
+  - 飛光虫ネスト
+  - 兎は地に落ちた
+  - 休憩
+
+AyaPatchouli:
+  Title: '動かない大図書館'
+  Move:
+  - '火符'
+  - アグニシャイン
+  - '水符'
+  - プリンセスウンディネ
+  - '木符'
+  - シルフィホルン
+  - '土符'
+  - レイジィトリリトン
+  - '金符'
+  - メタルファティーグ
+  - '月符'
+  - サイレントセレナ
+  - '日符'
+  - ロイヤルフレア
+  - '火水木金土符'
+  - 賢者の石
+  AyaPatchouliIntro1Patchouli: "...それで、{0}と手合わせしたいって言うの？"
+  AyaPatchouliIntro2Flandre: "うん、ダメなの？"
+  AyaPatchouliIntro3Patchouli: "ダメに決まってるでしょ。絶対許さないわ。"
+  AyaPatchouliIntro4Flandre: "なんで？"
+  AyaPatchouliIntro5Patchouli: "ここは私の図書館なのよ！"
+  AyaPatchouliIntro6Flandre: "ねえ、パチェ。外は日が当たるし、ロビーはもう使われてるし、地下室じゃ狭すぎて戦えないよ。"
+  AyaPatchouliIntro7Flandre: "お願い～？"
+  AyaPatchouliIntro8Patchouli: "そんなかわいそうな顔をしても、答えはノーよ！"
+  AyaPatchouliIntro9Flandre: "まあ、いいけど。"
+  AyaPatchouliIntro10Flandre: "ねぇ、{0}、{1}、説得しなきゃダメみたいだね。"
+  AyaPatchouliIntro11Aya: "なんだか、来たことを後悔し始めたわ・・・"
+  AyaPatchouliOutro1Patchouli: "むきゅう..."
+  AyaPatchouliOutro2Flandre: "気が変わった？"
+  AyaPatchouliOutro3Patchouli: "...もう、好きにしなさい！"
+  AyaPatchouliOutro4Patchouli: "{0}!"
+  AyaPatchouliOutro5Patchouli: "結界の準備、手伝ってちょうだい！"
+  AyaPatchouliOutro6Koakuma: "了解ですっ！"
+  AyaPatchouliOutro7Aya: "あやや..."
+
+AyaSatono:
+  Title: '精神力を引き出す踊り続ける童子'
+  Move:
+  - 
+  
+AyaSukusukuAya:
+  Title: 'スクスクハクタク'
+  Move:
+  - すく？
+  - すく！
+  HakureiShrine: "博麗神社"
+  PalaceoftheEarthSpirits: "地霊殿"
+  ScarletDevilMansion: "紅魔館"
+  AyaSukusukuAyaExtraBossPrepare1AyaSukusukuAya: "すくっ！\n（ようこそ、{0}へ！）"
+  AyaSukusukuAyaExtraBossPrepare2AyaSukusukuAya: "すくっ。\n（最大ライフが低すぎるね。治してあげる。）"
+  AyaSukusukuAyaExtraBossPrepare3AyaSukusukuAya: "すくっ。\n（はい、お金をどうぞ。）"
+  AyaSukusukuAyaExtraBossPrepare4AyaSukusukuAya: "すくっ。\n（正邪に展示品を盗まれたの？とり返してあげるよ。）"
+  AyaSukusukuAyaExtraBossPrepare5AyaSukusukuAya: "すくっ。\n（これを持っていって。長期戦に役立つよ。）"
+  AyaSukusukuAyaExtraBossPrepare6AyaSukusukuAya: "すくっ！\n（がんばってね！）"
+
+AyaSukusukuFlandre:
+  Title: 'スクスクハクタク'
+  Move:
+  - 
+
+AyaTakane:
+  Title: '山奥のビジネス妖怪'
+  Move:
+  - Y60マシンガン
+  - Y202フラッシュ
+  - 山童爆弾
+  - 盗賊Y82
+  - ファーストエイドキット
+  - '弾幕マネー'
+  - 能力カード大盤振る舞い
+  AyaTakaneAttack: 本当に{0}を攻撃したいですか？
+  AyaTakaneIntro1Takane: "止まれ！盗賊！！！!"
+  AyaTakaneIntro2Takane: "そうはさせないよっ！"
+  AyaTakaneIntro3Takane: "お仕置きの時間だよっ！"
+  AyaTakaneSteal1: 拾う
+  AyaTakaneSteal2: カードを1枚アップグレードする。
+  AyaTakaneSteal3: カードを1枚削除する。
+
+
+
+AyaTanuki:
+  Title: '修行中のたぬき'
+  Move:
+  - 集中攻撃
+  - 二連攻撃
+  - Extra?
+  - しゃがむ
+  - 火力を得る
+  - 霊力を得る
+  - 加護を得る
+  - 追加ターンを得る
+  - 光学迷彩を得る
+  - '絶符'
+  - スーパー・ハイパー・アルファ・オメガ・絶滅・壊滅・究極攻撃
+  AyaTanukiDying1AyaTanuki: "文さんは強い…でも！"
+  AyaTanukiDying2AyaTanuki: "究極の動きを見せるまでは、絶対に倒れないんだから！"
+  AyaTanukiWaterpower1AyaTanuki: "これで私の攻撃はもっと強くなるよ！怖がってね！"
+  AyaTanukiWaterpower2AyaTanuki: "…やっぱり怖がらなくてもいいかも。"
+  AyaTanukiSprite1AyaTanuki: "精霊って防御力が上がるって聞いたよ！"
+  AyaTanukiSprite2AyaTanuki: "まあ、少なくとも気分はスッキリするね。"
+  AyaTanukiAMOLED1AyaTanuki: "これで状態異常にかからなくなるんだから！"
+  AyaTanukiAMOLED2AyaTanuki: "でも、私ほんとにこういうの苦手…"
+  AyaTanukiExtremeTurn1AyaTanuki: "文さんのターンはもう来ないよ！エクストラターン発動！"
+  AyaTanukiExtremeTurn2AyaTanuki: "えっ、なんで目の前に壁が——"
+  AyaTanukiExtremeTurn3AyaTanuki: "み゛ええええええええ!!!"
+  AyaTanukiExtremeTurn4AyaTanuki: "今のことは…なかったことにして…"
+  AyaTanukiOpticalChameleon1AyaTanuki: "文さんには私の防御戦略は突破できないよ！"
+  AyaTanukiOpticalChameleon2AyaTanuki: "あれ、どこ行くの？待って、戻ってきて〜！"
+  AyaTanukiOpticalChameleon3AyaTanuki: "…え？"
+  AyaTanukiOpticalChameleon4AyaTanuki: "いてててててててて！"
+  AyaTanukiUltimate1AyaTanuki: "いくよっ！これが私の究極スペルカード！"
+  AyaTanukiUltimate2AyaTanuki: "全てが終わる一撃！"
+  AyaTanukiUltimate3AyaTanuki: "やああああああああああっ！！"
+  AyaTanukiOutro1AyaTanuki: "ちょっ、それ回避しちゃダメなやつだよ！"
+  AyaTanukiOutro2AyaTanuki: "文さん、ちゃんと真剣にやってよ！もっと本気出して！"
+  AyaTanukiOutro3Aya: "ごめんごめん。だって、あなたの動きが可愛くて。"
+  AyaTanukiOutro4AyaTanuki: "か、可愛い…？"
+  AyaTanukiOutro5Aya: "そもそも、どうしてこんなところに？貴女、マミゾウさんの部下じゃなかったっけ？"
+  AyaTanukiOutro6AyaTanuki: "まだ修行中だから、命令受けたことないんだ。"
+  AyaTanukiOutro7AyaTanuki: "変化の練習を竹林でしてたら、文さんの弾幕が飛んでいくのを見つけて…"
+  AyaTanukiOutro8Aya: "怪しいけど、マミゾウさんが事件に新人タヌキを派遣するとは思えないしね…"
+  AyaTanukiOutro9AyaTanuki: "ちょっと文さんを驚かせたかっただけなのに、口を開いた瞬間に攻撃されたの…"
+  AyaTanukiOutro10Aya: "えっ、ああ、それは…ごめんね。"
+  AyaTanukiOutro11AyaTanuki: "謝るなら、私を連れて行って！"
+  AyaTanukiOutro12Aya: "えっ？なんで私が…"
+  AyaTanukiOutro13Aya: "わかったわかった、でも遅れないでよね。"
+  AyaTanukiOutro14AyaTanuki: "やった〜！文さんから学ぶことがいっぱいあるんだから！"
+
+AyaTargetDummy:
+  Title: 'Target Dummy'
+  Move:

@@ -1,0 +1,11 @@
+﻿FlandreToolDestroyingObstacles:
+  LockedDescription: 플랑드르 스칼렛으로 하드 이상 난이도에서 이변을 해결하면 잠금 해제됩니다.
+  Description: >-
+    덱에서 카드를 제거합니다.
+
+    |사용 제한【{DeckCounter}】|
+  Name: 장애물 파괴
+  DetailText: >-
+    {SelfName}은 전투 중 무작위로 생성되지 않으며, 복사할 수 없습니다.
+
+    선택한 카드는 덱에서 제거되지만, 이번 전투에서는 제거되지 않습니다.

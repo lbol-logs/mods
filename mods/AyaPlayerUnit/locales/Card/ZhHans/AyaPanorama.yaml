@@ -1,0 +1,14 @@
+﻿AyaPanorama:
+  Description: >-
+    获得 {Block}|格挡|。
+
+    增加 |文文新闻特刊| 的数值 {Value1}。
+
+    |当被放逐时|: 将一张 |文文新闻特刊| 加入手牌。
+  UpgradedDescription: >-
+    获得 {Block}|格挡|。
+
+    增加 |文文新闻特刊| 的数值 {Value1}。
+
+    |当被放逐时|: 将一张 |文文新闻特刊| 加入手牌。
+  Name: 全景

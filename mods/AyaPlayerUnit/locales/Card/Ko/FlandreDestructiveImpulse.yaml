@@ -1,0 +1,10 @@
+﻿FlandreDestructiveImpulse:
+  Description: >-
+    |턴 종료 시|: 체력을 {Value1} 잃고 |화력|을 {Value2} 얻습니다.
+
+    |소멸|될 시: {SelfName}을 |소멸|에서 버린 카드 더미로 되돌립니다.
+  UpgradedDescription: >-
+    |턴 종료 시|: 체력을 {Value1} 잃고 |화력|을 {Value2} 얻습니다.
+
+    |소멸|될 시: {SelfName}을 |소멸|에서 버린 카드 더미로 되돌립니다.
+  Name: 파괴 충동

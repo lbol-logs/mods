@@ -1,0 +1,18 @@
+﻿FlandreMagicalGuard:
+  Description: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    {SelfName}を手札に戻す。
+
+    このターン、{SelfName}のコストが{Mana}増加する。
+  UpgradedDescription: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    {SelfName}を手札に戻す。
+
+    このターン、{SelfName}のコストが{Mana}増加する。
+  Name: マジカルガード
+  DetailText: >-
+    |p:{SelfName}はいかなる場合でも手札から離れない。|
+
+    {SelfName}は常に手札の{Order:ordinal one='%番目' two='%番目' few='%番目' other='%番目'}のカードになる。

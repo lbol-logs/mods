@@ -1,0 +1,6 @@
+﻿FlandreFriendOkinaSummer:
+  Description: '{FriendP}|f:夏之力|:每当消耗{Mana}时，对所有敌人施加 {Value1} 点|终末|。(剩余 {Count} 次'
+  NonbattleDescription: '{FriendP}|f:烈阳权能|:每当消耗{Mana}时，对所有敌人施加 {Value1} 点|终末|。'
+  ExtraDescription1: '{FriendA}|a:季相解放|:从{Value2}种 |季节| 中选择1种。 {SelfName} 获得其效果。'
+  ExtraDescription3: '{FriendU}|u:「里·完美夏冰」|:每当{PlayerName}打出 {Value3} 张牌时，对所有敌人造成 {Value4} 点 |精准| 伤害并施加 |寒冷|。'
+  Name: 绝对秘神隐岐奈 - 夏

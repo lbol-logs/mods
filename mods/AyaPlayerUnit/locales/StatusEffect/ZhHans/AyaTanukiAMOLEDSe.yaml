@@ -1,0 +1,10 @@
+﻿AyaTanukiAMOLEDSe:
+  Brief: >-
+    抵消即将到来的黑暗。
+
+    |d:（此效果无效。）|
+  Description: >-
+    抵消接下来的 {Level:plural one='% 次黑暗' other='% 次黑暗'}。
+
+    |d:（此效果无效。）|
+  Name: AMOLED

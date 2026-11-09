@@ -1,0 +1,10 @@
+﻿AyaComicallyLargeHat:
+  Description: >-
+    获得 {Block}|格挡|。
+
+    |减速 {Value1}|: 对所有敌人施加 {Value2} |虚弱|。
+  UpgradedDescription: >-
+    获得 {Block}|格挡|。
+
+    对所有敌人施加 {Value2} |虚弱|。
+  Name: 滑稽的大帽子

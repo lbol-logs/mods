@@ -1,0 +1,5 @@
+﻿FlandreSisteroftheDevil:
+  Description: '|战斗开始时|:|放逐|{SelfName}，获得|恶魔之妹|。'
+  UpgradedDescription: '|战斗开始时|:|放逐|{SelfName}，获得|恶魔之妹|和 {Mana}。'
+  Name: 恶魔之妹
+  DetailText: '{SelfName} 无法在战斗中随机生成，也无法被复制。'

@@ -1,0 +1,373 @@
+AyaBossAya:
+  Title: '幻想乡的传统记者'
+  Move: 
+
+AyaBossAyaGoddess:
+  Title: '时间女神'
+  Move: 
+
+AyaBossChimata:
+  Title: '无主之神'
+  Move: 
+
+AyaBossFlandre:
+  Title: '猩红之血的恶魔'
+  Move:
+    - '禁忌'
+    - '蔓越莓陷阱'
+    - '莱瓦汀'
+    - '四重奏'
+    - '笼中鸟'
+    - '爱的迷宫'
+    - '禁忌弹幕'
+    - '星弓破碎'
+    - '反射镜'
+    - '流逝过去的时钟'
+    - '秘密弹幕'
+    - '之后就一个人都没有了吗？'
+    - 'Q.E.D.'
+    - '495年的涟漪'
+    - '禁果'
+    - '禁忌游戏'
+    - '鲁莽子弹'
+    - '刻耳柏洛斯剪'
+    - '掌中的毁灭者'
+    - '猩红虚无'
+    - '猩红之盾'
+    - '恶魔之力'
+    - '瞄准眼睛'
+    - '召唤弹幕'
+    - '符卡破坏'
+  AyaBossFlandreMove31Flandre: ""
+  AyaBossFlandreMove32Flandre: ""
+
+AyaBossKoishi:
+  Title: '好奇的闭眼'
+  Move:
+    - '无意识行动'
+    - '白色灵感'
+    - '蓝色灵感'
+    - '黑色灵感'
+    - '红色灵感'
+    - '绿色灵感'
+    - '射击'
+    - '双重弹幕'
+    - '防御'
+    - '爱之符'
+    - '心之协奏曲'
+    - '我现在要打电话给你，快接电话！'
+  AyaBossKoishiSpell21Koishi: "喂，喂！"
+  AyaBossKoishiSpell22Koishi: "现在，我"
+  AyaBossKoishiSpell23Koishi: "就在你身后！"
+  AyaBossKoishiSpell24Koishi: "就在你面前！"
+
+AyaBossLong:
+  Title: '大天狗'
+  Move:
+    - '多彩星阵'
+    - '彩虹星落'
+    - '彩虹照明'
+    - '清风明月'
+
+AyaBossLongSeija:
+  Title: '万器之救世主'
+  Move:
+    - '多重弹幕'
+    - '敏锐射击'
+    - '逆袭'
+
+AyaBossZUN:
+  Title: '博丽神主'
+  Move:
+    - '醉酒'
+    - '高度响应祈祷'
+    - '东方幻想乡'
+    - '梦时空'
+    - '莲台野夜行'
+    - '神秘魔法'
+    - '红魔乡'
+    - '妖妖梦'
+    - '永夜抄'
+    - '花映冢'
+    - '风神录'
+    - '地灵殿'
+    - '星莲船'
+    - '神灵庙'
+    - '辉针城'
+    - '绀珠传'
+    - '天空璋'
+    - '鬼形兽'
+    - '虹龙洞'
+    - '未完成的梦'
+    - '醉酒符'
+    - '你的人生免费试用已到期'
+
+AyaChameleon:
+  Title: '变色龙'
+  Move: 
+
+AyaDummy:
+  Title: ''
+  Move: 
+
+AyaKoakuma:
+  Title: '在尘封图书馆工作的恶魔'
+  Move: 
+
+AyaKotohime:
+  Title: '梦想在弹幕中美丽的公主'
+  Move: 
+
+AyaLong:
+  Title: '大天狗'
+  Move:
+    - '多彩星阵'
+    - '彩虹星落'
+    - '彩虹照明'
+    - '清风明月'
+
+AyaMai:
+  Title: '带来生命的伴舞'
+  Move: 
+
+AyaBossOkina:
+  Title: '终极绝对秘密神'
+  Move: 
+
+AyaOrbBlack:
+  Title: '黑色宝珠'
+  Move:
+    - '阴影'
+    - '永恒的梦'
+    - '渗出的瘴气'
+    - '心之花'
+    - '夜雀之歌'
+    - '不明发热'
+    - '恶魔法典'
+    - '小提琴独奏'
+    - '黑马之罪'
+    - '不幸之轮'
+    - '命运操纵'
+    - '梦境快车'
+    - '真满月'
+    - '休息'
+
+AyaOrbBlue:
+  Title: '蓝色宝珠'
+  Move:
+    - '激流'
+    - '玩水'
+    - '忧郁喷发'
+    - '兔子着陆'
+    - '水毯'
+    - '道胎动'
+    - '神代记忆'
+    - '雕塑 - 圆'
+    - '雕塑 - 方'
+    - '雕塑 - 弧'
+    - '隐士'
+    - '休息'
+
+AyaOrbColorless:
+  Title: '无色宝珠'
+  Move:
+    - '微醺'
+    - '射击'
+    - '边界'
+    - '黄瓜导弹'
+    - '清洁能源'
+    - '宁静之海'
+    - '平凡之力'
+    - '崩解之风'
+    - '颤抖的噩梦'
+    - '休息'
+
+AyaOrbGreen:
+  Title: '绿色宝珠'
+  Move:
+    - '盛夏之花'
+    - '春之闪光'
+    - '瞬间菩提'
+    - '蝴蝶振翅'
+    - '彩虹弹幕'
+    - '幻想乡盛开'
+    - '森林深处'
+    - '变形学院'
+    - '蓬莱的树海'
+    - '休息'
+
+AyaOrbPhilosophy:
+  Title: '哲学家宝珠'
+  Move:
+    - '石之婴'
+    - '驱魔仪式'
+    - '天仙的轰鸣'
+    - '反击弹幕'
+    - '四重奏'
+    - '吞噬欲望'
+    - '闭眼射击'
+    - '全景射击'
+    - '诹访清水'
+    - '逆鳞之波'
+    - '怨恨回归'
+    - '狂乱落叶'
+    - '毒焰'
+    - '休息'
+
+AyaOrbRed:
+  Title: '红色宝珠'
+  Move:
+    - '满月嚎叫'
+    - '急躁'
+    - '凤凰之翼升起'
+    - '太鼓低音'
+    - '战斗姿态'
+    - '强化身体'
+    - '鬼灵炸弹'
+    - '无差别点火'
+    - '猩红能量释放'
+    - '键盘独奏'
+    - '可怕的怒涛'
+    - '蝙蝠化身'
+    - '不灭之焰'
+    - '休息'
+
+AyaOrbWhite:
+  Title: '白色宝珠'
+  Move:
+    - '心之摘录斩'
+    - '超Suku飞行者'
+    - '固守身体'
+    - '净化土地'
+    - '宁静'
+    - '聚集信仰'
+    - '小号独奏'
+    - '夜光巢'
+    - '坠落的月兔'
+    - '休息'
+
+AyaPatchouli:
+  Title: '不动的大图书馆'
+  Move:
+    - '火符'
+    - '阿格尼闪耀'
+    - '水符'
+    - '水精公主'
+    - '木符'
+    - '风精之角'
+    - '土符'
+    - '懒惰三石'
+    - '金符'
+    - '金属疲劳'
+    - '月符'
+    - '寂静月神'
+    - '日符'
+    - '皇家烈焰'
+    - '火水木金土符'
+    - '贤者之石'
+  AyaPatchouliIntro1Patchouli: "...所以你想和{0}切磋？"
+  AyaPatchouliIntro2Flandre: "是啊，有什么问题吗？"
+  AyaPatchouliIntro3Patchouli: "一切。我不会允许你这么做。"
+  AyaPatchouliIntro4Flandre: "为什么？"
+  AyaPatchouliIntro5Patchouli: "因为这是我的图书馆！"
+  AyaPatchouliIntro6Flandre: "拜托，帕秋莉。地下室太小了，没法打。"
+  AyaPatchouliIntro7Flandre: "求你了~？"
+  AyaPatchouliIntro8Patchouli: "就算你装可怜，我的答案也是不行！"
+  AyaPatchouliIntro9Flandre: "好吧，算了。"
+  AyaPatchouliIntro10Flandre: "看来我们需要说服{0}，{1}。"
+  AyaPatchouliIntro11Aya: "我开始后悔来这里了。"
+  AyaPatchouliOutro1Patchouli: "姆Q..."
+  AyaPatchouliOutro2Flandre: "改变主意了？"
+  AyaPatchouliOutro3Patchouli: "...好吧！随你便吧。"
+  AyaPatchouliOutro4Patchouli: "{0}！"
+  AyaPatchouliOutro5Patchouli: "帮我准备区域屏障。"
+  AyaPatchouliOutro6Koakuma: "收到！"
+  AyaPatchouliOutro7Aya: "哎呀呀..."
+
+AyaSatono:
+  Title: '带来精神力量的伴舞'
+  Move: 
+
+AyaSukusukuAya:
+  Title: 'SukuSuku白泽'
+  Move:
+    - 'Suku？'
+    - 'Suku！'
+  HakureiShrine: "博丽神社"
+  PalaceoftheEarthSpirits: "地灵殿"
+  ScarletDevilMansion: "红魔馆"
+  AyaSukusukuAyaExtraBossPrepare1AyaSukusukuAya: "Suku！\n(欢迎来到{0}！)"
+  AyaSukusukuAyaExtraBossPrepare2AyaSukusukuAya: "Suku。\n(你的最大生命值太低了，让我们来修复它。)"
+  AyaSukusukuAyaExtraBossPrepare3AyaSukusukuAya: "Suku。\n(来，拿点钱。)"
+  AyaSukusukuAyaExtraBossPrepare4AyaSukusukuAya: "Suku。\n(正邪偷了你的展品？我会还给你。)"
+  AyaSukusukuAyaExtraBossPrepare5AyaSukusukuAya: "Suku。\n(拿着这个。它会在长期战斗中派上用场。)"
+  AyaSukusukuAyaExtraBossPrepare6AyaSukusukuAya: "Suku！\n(祝你好运！)"
+
+AyaSukusukuFlandre:
+  Title: 'SukuSuku白泽'
+  Move: 
+
+AyaTakane:
+  Title: '山间隐居的商业妖怪'
+  Move:
+    - 'Y60机枪'
+    - 'Y202闪光'
+    - '山童轰炸机'
+    - '强盗Y82'
+    - '急救包'
+    - '子弹钱'
+    - '能力卡大放送'
+  AyaTakaneIntro1Takane: "站住，小偷！"
+  AyaTakaneIntro2Takane: "哦，不，你别想！"
+  AyaTakaneIntro3Takane: "是时候给你上一课了！"
+  AyaTakaneSteal1: '掠夺'
+  AyaTakaneSteal2: '选择一张卡牌升级。'
+  AyaTakaneSteal3: '选择一张卡牌移除。'
+
+AyaTanuki:
+  Title: '还在学习的狸猫'
+  Move:
+    - '专注射击'
+    - '双重射击'
+    - '额外？'
+    - '蹲下'
+    - '获得火力'
+    - '获得精神'
+    - '获得护符'
+    - '获得额外回合'
+    - '获得光学迷彩'
+    - '绝对符'
+    - '超级超极阿尔法欧米茄毁灭性终极打击'
+  AyaTanukiDying1AyaTanuki: "文文很强...但是！"
+  AyaTanukiDying2AyaTanuki: "在我展示终极招式之前，我绝不会倒下！"
+  AyaTanukiWaterpower1AyaTanuki: "我的攻击会变得更强！害怕吧！"
+  AyaTanukiWaterpower2AyaTanuki: "或者别害怕。"
+  AyaTanukiSprite1AyaTanuki: "我听说精神能提高我的防御能力！"
+  AyaTanukiSprite2AyaTanuki: "至少它很清爽。"
+  AyaTanukiAMOLED1AyaTanuki: "我要变得免疫debuff了！"
+  AyaTanukiAMOLED2AyaTanuki: "我太菜了。"
+  AyaTanukiExtremeTurn1AyaTanuki: "文文的回合永远不会到来！我发动额外回合！"
+  AyaTanukiExtremeTurn2AyaTanuki: "呃，为什么前面有堵墙"
+  AyaTanukiExtremeTurn3AyaTanuki: "喵啊啊啊啊啊！！！"
+  AyaTanukiExtremeTurn4AyaTanuki: "请假装什么都没发生。"
+  AyaTanukiOpticalChameleon1AyaTanuki: "文文永远无法突破我的防御策略。"
+  AyaTanukiOpticalChameleon2AyaTanuki: "等等，你去哪儿？回来！"
+  AyaTanukiOpticalChameleon3AyaTanuki: "...咦？"
+  AyaTanukiOpticalChameleon4AyaTanuki: "痛痛痛痛痛痛痛。"
+  AyaTanukiUltimate1AyaTanuki: "来了！我的终极符卡！"
+  AyaTanukiUltimate2AyaTanuki: "这是终结一切的攻击！"
+  AyaTanukiUltimate3AyaTanuki: "呀啊啊啊啊啊！！！"
+  AyaTanukiOutro1AyaTanuki: "嘿！你不该躲开那个的！"
+  AyaTanukiOutro2AyaTanuki: "文文没认真对待。认真点！"
+  AyaTanukiOutro3Aya: "哦，抱歉。我只是觉得你做的很可爱。"
+  AyaTanukiOutro4AyaTanuki: "可...可爱？"
+  AyaTanukiOutro5Aya: "你为什么会在这里？你不是魔理沙小姐的部下吗？"
+  AyaTanukiOutro6AyaTanuki: "我还有很多要学，所以从未接受过她的命令。"
+  AyaTanukiOutro7AyaTanuki: "在竹林里练习伪装技巧时，我看到文文的弹幕飞走了。"
+  AyaTanukiOutro8Aya: "她看起来很可疑，但魔理沙小姐不可能派一个新手狸猫来处理事件。"
+  AyaTanukiOutro9AyaTanuki: "我只是想给文文一个惊喜，但一开口就被你攻击了。"
+  AyaTanukiOutro10Aya: "哦，呃，再次抱歉。"
+  AyaTanukiOutro11AyaTanuki: "如果你想道歉，就让我跟着你吧。"
+  AyaTanukiOutro12Aya: "什么？我为什么要..."
+  AyaTanukiOutro13Aya: "好吧，好吧。别掉队了。"
+  AyaTanukiOutro14AyaTanuki: "耶~！从文文身上能学到很多！"

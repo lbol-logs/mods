@@ -1,0 +1,22 @@
+﻿AyaTakePicture:
+  Description: >-
+    施加 {Value1}|锁定|。
+
+    将 |{Value2:plural one='% 文文新闻' other='% 文文新闻'}| 加入手牌。
+
+    {Value2:plural one='它 |临时消耗|' other='它们 |临时消耗|'} 减少 {Mana}。
+  UpgradedDescription: >-
+    施加 {Value1}|锁定|。
+
+    将 |{Value2:plural one='% 文文新闻' other='% 文文新闻'}| 加入手牌。
+
+    {Value2:plural one='它 |临时消耗|' other='它们 |临时消耗|'} 减少 {Mana}。
+  PhantasmModeDescription: >-
+    将 |{Value2:plural one='% 文文新闻' other='% 文文新闻'}| 加入手牌。
+
+    {Value2:plural one='它 |临时消耗|' other='它们 |临时消耗|'} 减少 {Mana}。
+  PhantasmModeUpgradedDescription: >-
+    将 |{Value2:plural one='% 文文新闻' other='% 文文新闻'}| 加入手牌。
+
+    {Value2:plural one='它 |临时消耗|' other='它们 |临时消耗|'} 减少 {Mana}。
+  Name: 拍照

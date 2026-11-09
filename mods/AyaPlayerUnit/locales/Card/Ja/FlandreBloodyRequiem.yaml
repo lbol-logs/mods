@@ -1,0 +1,12 @@
+﻿FlandreBloodyRequiem:
+  Description: 次の{FlandreValue1:plural one='%ターン' other='%ターン'}の間、すべての|フランドール|カードは|血の渇望|を得る。また、|血の渇望|は常に最大値で適用される。
+  UpgradedDescription: 次の{FlandreValue1:plural one='%ターン' other='%ターン'}の間、すべての|フランドール|カードは|血の渇望|を得る。また、|血の渇望|は常に最大値で適用される。
+  PhantasmModeDescription: >-
+    次の{FlandreValue1:plural one='%ターン' other='%ターン'}の間、すべての|フランドール|カードは|血の渇望|を得る。また、|血の渇望|は常に最大値で適用される。
+
+    |狂気|{Value2}を得る。
+  PhantasmModeUpgradedDescription: >-
+    次の{FlandreValue1:plural one='%ターン' other='%ターン'}の間、すべての|フランドール|カードは|血の渇望|を得る。また、|血の渇望|は常に最大値で適用される。
+
+    |狂気|{Value2}を得る。
+  Name: ブラッディレクイエム

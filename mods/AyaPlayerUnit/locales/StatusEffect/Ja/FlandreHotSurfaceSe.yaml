@@ -1,0 +1,4 @@
+﻿FlandreHotSurfaceSe:
+  Brief: '{PlayerName}の次のターンまで、{PlayerName}が攻撃を受ける度に、その攻撃者に|業火|を与える。'
+  Description: '{PlayerName}の次のターンまで、{PlayerName}が攻撃を受ける度に、その攻撃者に|業火|{Value}を与える。'
+  Name: 高温注意

@@ -1,0 +1,14 @@
+﻿FlandreCrystallizedLunacy:
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    무작위 마나를 {Value1} 얻습니다.
+  UpgradedDescription: >-
+    피해를 {Damage} 줍니다.
+
+    무작위 마나를 {Value1} 얻습니다.
+  ExtraDescription1: >-
+    피해를 {Damage} 줍니다.
+
+    {Mana}를 얻습니다.
+  Name: 파편화된 광기

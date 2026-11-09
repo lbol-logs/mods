@@ -1,0 +1,12 @@
+﻿AyaToolForcedBreakthrough:
+  Description: >-
+    전투를 종료합니다.
+
+    |보스 전투 시작시|: 이 전투에서 {SelfName}을 제거합니다.
+
+    |사용 제한【{DeckCounter}】|
+  Name: 강제 돌파
+  ForcedBreakthrough1: 실례합니다!
+  ForcedBreakthrough2: 특종을 놓치지 마세요!
+  ForcedBreakthrough3: 이럴 시간 없어요!
+  LockedDescription: 샤메이마루 아야로 루나틱 이상 난이도에서 이변을 해결하면 잠금 해제됩니다.

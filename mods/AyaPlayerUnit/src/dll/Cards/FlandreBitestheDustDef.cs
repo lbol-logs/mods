@@ -1,0 +1,251 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using HarmonyLib;
+using LBoL.Base;
+using LBoL.Base.Extensions;
+using LBoL.ConfigData;
+using LBoL.Core;
+using LBoL.Core.Battle;
+using LBoL.Core.Cards;
+using LBoL.Core.Units;
+using LBoL.Presentation;
+using LBoLEntitySideloader;
+using LBoLEntitySideloader.Attributes;
+using LBoLEntitySideloader.Entities;
+using LBoLEntitySideloader.Resource;
+
+namespace AyaShameimaru.Cards
+{
+	public sealed class FlandreBitestheDustDef : CardTemplate
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override IdContainer GetId()
+		{
+			return <Module>.\u200C\u200F\u206A\u200D\u202B\u200C\u206F\u206A\u200C\u206D\u206C\u206E\u200C\u202B\u200C\u200C\u202A\u206D\u202E\u200F\u202D\u206C\u206C\u202B\u206A\u202C\u202D\u206C\u202C\u200D\u200F\u200F\u202C\u202C\u202B\u200D\u200E\u206D\u206D\u202E\u202E<string>(-1136480356);
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override CardImages LoadCardImages()
+		{
+			CardImages cardImages = FlandreBitestheDustDef.\u206F\u206E\u206E\u200D\u206A\u200E\u202D\u202C\u206D\u206B\u206E\u202E\u206B\u202C\u206B\u206C\u200F\u200E\u206F\u206F\u202D\u202B\u202A\u206B\u202E\u200E\u202C\u200F\u200C\u200C\u206A\u202E\u202B\u202B\u202B\u200C\u206E\u200F\u206A\u206A\u202E(BepinexPlugin.embeddedSource);
+			FlandreBitestheDustDef.\u206D\u202E\u206D\u202B\u200F\u200C\u206B\u202C\u206B\u200D\u200F\u206C\u206E\u200F\u200F\u202C\u202B\u202A\u206C\u200E\u206B\u200D\u202D\u206A\u202A\u206C\u202C\u200F\u202A\u202A\u200B\u206A\u200B\u200B\u202E\u202C\u200F\u206E\u206C\u202A\u202E(cardImages, this, <Module>.\u200C\u200F\u206A\u200D\u202B\u200C\u206F\u206A\u200C\u206D\u206C\u206E\u200C\u202B\u200C\u200C\u202A\u206D\u202E\u200F\u202D\u206C\u206C\u202B\u206A\u202C\u202D\u206C\u202C\u200D\u200F\u200F\u202C\u202C\u202B\u200D\u200E\u206D\u206D\u202E\u202E<string>(-1852481799), <Module>.\u202D\u200F\u202D\u200B\u206C\u200B\u202B\u206C\u206E\u206E\u200C\u206B\u200D\u206B\u202B\u202A\u206F\u200C\u202E\u200D\u200B\u200B\u206F\u206B\u202C\u206F\u202E\u200B\u200B\u202C\u200C\u200E\u202C\u202C\u202C\u202B\u206D\u200D\u200E\u202A\u202E<string>(-904473020), false);
+			return cardImages;
+		}
+
+		public override LocalizationOption LoadLocalization()
+		{
+			return FlandreBitestheDustDef.\u202C\u202A\u206F\u200B\u202C\u202A\u206B\u202D\u202C\u206A\u206B\u200C\u206F\u200C\u202B\u202B\u206C\u202D\u206B\u206F\u200C\u200B\u200F\u200E\u200D\u200F\u202E\u202A\u206C\u202B\u202A\u206F\u202B\u206A\u200D\u206F\u202E\u200F\u202E\u202C\u202E(BepinexPlugin.cardLoc, this);
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override CardConfig MakeConfig()
+		{
+			return new CardConfig(FlandreBitestheDustDef.\u202C\u206F\u202A\u206D\u206B\u202C\u200F\u200C\u206D\u206E\u200E\u202D\u202A\u202D\u200B\u206A\u206F\u206B\u206A\u202E\u200C\u200B\u202D\u200B\u206D\u202C\u206F\u206A\u206C\u202E\u202E\u200D\u200C\u202D\u206D\u202B\u206B\u202A\u202E\u206E\u202E(BepinexPlugin.sequenceTable, FlandreBitestheDustDef.\u206D\u200F\u202E\u206F\u206A\u206D\u206D\u200F\u206D\u200D\u202C\u202A\u200F\u202D\u206F\u206C\u206F\u200E\u200E\u200D\u206B\u206D\u206A\u202A\u202E\u206E\u206E\u202A\u200B\u202E\u200D\u200C\u202B\u206A\u202A\u200F\u200B\u206E\u206A\u206A\u202E(typeof(CardConfig).TypeHandle)), "", 10, true, new string[0][], <Module>.\u200C\u200F\u206A\u200D\u202B\u200C\u206F\u206A\u200C\u206D\u206C\u206E\u200C\u202B\u200C\u200C\u202A\u206D\u202E\u200F\u202D\u206C\u206C\u202B\u206A\u202C\u202D\u206C\u202C\u200D\u200F\u200F\u202C\u202C\u202B\u200D\u200E\u206D\u206D\u202E\u202E<string>(-497217431), <Module>.\u202D\u206A\u202E\u202B\u206C\u200E\u206B\u206E\u200F\u206E\u200C\u202E\u206F\u200C\u206D\u200B\u206E\u200F\u200D\u202A\u206F\u202E\u200E\u206D\u206D\u206F\u202D\u200C\u206F\u202A\u200B\u202E\u206C\u206A\u206B\u202A\u206C\u202E\u200D\u202B\u202E<string>(1341462283), 0, true, true, false, false, true, Rarity.Rare, CardType.Defense, new TargetType?(TargetType.Self), new List<ManaColor> { ManaColor.Colorless }, false, new ManaGroup
+			{
+				Any = 1,
+				Colorless = 1
+			}, null, null, null, null, null, null, null, null, new int?(45), null, new int?(15), null, new int?(8), null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, Keyword.None, Keyword.None, false, Keyword.Shield, Keyword.Shield, new List<string>
+			{
+				<Module>.\u200F\u206C\u206A\u202D\u200D\u202B\u202B\u206B\u206A\u202C\u206C\u206B\u200B\u200D\u202E\u206F\u206C\u206E\u202E\u200D\u200F\u206D\u202A\u200B\u206D\u200B\u206F\u200D\u206B\u202E\u200F\u206D\u200B\u200F\u206D\u200D\u202C\u206C\u206C\u202E<string>(745203739),
+				<Module>.\u202D\u206A\u202E\u202B\u206C\u200E\u206B\u206E\u200F\u206E\u200C\u202E\u206F\u200C\u206D\u200B\u206E\u200F\u200D\u202A\u206F\u202E\u200E\u206D\u206D\u206F\u202D\u200C\u206F\u202A\u200B\u202E\u206C\u206A\u206B\u202A\u206C\u202E\u200D\u202B\u202E<string>(473367871),
+				<Module>.\u200F\u206C\u206A\u202D\u200D\u202B\u202B\u206B\u206A\u202C\u206C\u206B\u200B\u200D\u202E\u206F\u206C\u206E\u202E\u200D\u200F\u206D\u202A\u200B\u206D\u200B\u206F\u200D\u206B\u202E\u200F\u206D\u200B\u200F\u206D\u200D\u202C\u206C\u206C\u202E<string>(855654725)
+			}, new List<string>
+			{
+				<Module>.\u202D\u206A\u202E\u202B\u206C\u200E\u206B\u206E\u200F\u206E\u200C\u202E\u206F\u200C\u206D\u200B\u206E\u200F\u200D\u202A\u206F\u202E\u200E\u206D\u206D\u206F\u202D\u200C\u206F\u202A\u200B\u202E\u206C\u206A\u206B\u202A\u206C\u202E\u200D\u202B\u202E<string>(1532956524),
+				<Module>.\u202D\u200F\u202D\u200B\u206C\u200B\u202B\u206C\u206E\u206E\u200C\u206B\u200D\u206B\u202B\u202A\u206F\u200C\u202E\u200D\u200B\u200B\u206F\u206B\u202C\u206F\u202E\u200B\u200B\u202C\u200C\u200E\u202C\u202C\u202C\u202B\u206D\u200D\u200E\u202A\u202E<string>(-203703834),
+				<Module>.\u202D\u200F\u202D\u200B\u206C\u200B\u202B\u206C\u206E\u206E\u200C\u206B\u200D\u206B\u202B\u202A\u206F\u200C\u202E\u200D\u200B\u200B\u206F\u206B\u202C\u206F\u202E\u200B\u200B\u202C\u200C\u200E\u202C\u202C\u202C\u202B\u206D\u200D\u200E\u202A\u202E<string>(836361233)
+			}, new List<string>(), new List<string>(), <Module>.\u202D\u206A\u202E\u202B\u206C\u200E\u206B\u206E\u200F\u206E\u200C\u202E\u206F\u200C\u206D\u200B\u206E\u200F\u200D\u202A\u206F\u202E\u200E\u206D\u206D\u206F\u202D\u200C\u206F\u202A\u200B\u202E\u206C\u206A\u206B\u202A\u206C\u202E\u200D\u202B\u202E<string>(375531588), null, "", "", false, <Module>.\u202D\u200F\u202D\u200B\u206C\u200B\u202B\u206C\u206E\u206E\u200C\u206B\u200D\u206B\u202B\u202A\u206F\u200C\u202E\u200D\u200B\u200B\u206F\u206B\u202C\u206F\u202E\u200B\u200B\u202C\u200C\u200E\u202C\u202C\u202C\u202B\u206D\u200D\u200E\u202A\u202E<string>(1115725955), new List<string>());
+		}
+
+		static CardImages \u206F\u206E\u206E\u200D\u206A\u200E\u202D\u202C\u206D\u206B\u206E\u202E\u206B\u202C\u206B\u206C\u200F\u200E\u206F\u206F\u202D\u202B\u202A\u206B\u202E\u200E\u202C\u200F\u200C\u200C\u206A\u202E\u202B\u202B\u202B\u200C\u206E\u200F\u206A\u206A\u202E(IResourceSource A_0)
+		{
+			return new CardImages(A_0);
+		}
+
+		static void \u206D\u202E\u206D\u202B\u200F\u200C\u206B\u202C\u206B\u200D\u200F\u206C\u206E\u200F\u200F\u202C\u202B\u202A\u206C\u200E\u206B\u200D\u202D\u206A\u202A\u206C\u202C\u200F\u202A\u202A\u200B\u206A\u200B\u200B\u202E\u202C\u200F\u206E\u206C\u202A\u202E(CardImages A_0, CardTemplate A_1, string A_2, string A_3, bool A_4)
+		{
+			A_0.AutoLoad(A_1, A_2, A_3, A_4);
+		}
+
+		static BatchLocalization \u202C\u202A\u206F\u200B\u202C\u202A\u206B\u202D\u202C\u206A\u206B\u200C\u206F\u200C\u202B\u202B\u206C\u202D\u206B\u206F\u200C\u200B\u200F\u200E\u200D\u200F\u202E\u202A\u206C\u202B\u202A\u206F\u202B\u206A\u200D\u206F\u202E\u200F\u202E\u202C\u202E(BatchLocalization A_0, EntityDefinition A_1)
+		{
+			return A_0.AddEntity(A_1);
+		}
+
+		static Type \u206D\u200F\u202E\u206F\u206A\u206D\u206D\u200F\u206D\u200D\u202C\u202A\u200F\u202D\u206F\u206C\u206F\u200E\u200E\u200D\u206B\u206D\u206A\u202A\u202E\u206E\u206E\u202A\u200B\u202E\u200D\u200C\u202B\u206A\u202A\u200F\u200B\u206E\u206A\u206A\u202E(RuntimeTypeHandle A_0)
+		{
+			return Type.GetTypeFromHandle(A_0);
+		}
+
+		static int \u202C\u206F\u202A\u206D\u206B\u202C\u200F\u200C\u206D\u206E\u200E\u202D\u202A\u202D\u200B\u206A\u206F\u206B\u206A\u202E\u200C\u200B\u202D\u200B\u206D\u202C\u206F\u206A\u206C\u202E\u202E\u200D\u200C\u202D\u206D\u202B\u206B\u202A\u202E\u206E\u202E(TemplateSequenceTable A_0, Type A_1)
+		{
+			return A_0.Next(A_1);
+		}
+
+		[EntityLogic(typeof(FlandreBitestheDustDef))]
+		public sealed class FlandreBitestheDust : FlandreCard
+		{
+			public override bool Triggered
+			{
+				get
+				{
+					BattleController battleController = FlandreBitestheDustDef.FlandreBitestheDust.\u200D\u206F\u200E\u200E\u206F\u206D\u206C\u206A\u202B\u206F\u206B\u206A\u206B\u206B\u206E\u202A\u202B\u202C\u202E\u206B\u200F\u206B\u206B\u206B\u206E\u206B\u202E\u200E\u202C\u200F\u206E\u206C\u206D\u200C\u202A\u202A\u200F\u200C\u202D\u206C\u202E(this);
+					int? num = ((battleController != null) ? new int?(FlandreBitestheDustDef.FlandreBitestheDust.\u202C\u202E\u200B\u206C\u202A\u202E\u206F\u200F\u206A\u206D\u202A\u202C\u206A\u206B\u202B\u202E\u202C\u202A\u200E\u202E\u202D\u206B\u206B\u200B\u200E\u202A\u206C\u200F\u206C\u200E\u200D\u200D\u202C\u200D\u206D\u200F\u206C\u206B\u202B\u200E\u202E(FlandreBitestheDustDef.FlandreBitestheDust.\u202B\u200C\u206B\u206A\u206F\u202A\u200C\u202D\u206A\u200B\u202B\u202B\u202E\u206D\u202A\u200D\u202C\u206B\u206A\u206D\u206C\u202D\u202E\u206F\u206B\u202E\u206D\u206C\u200C\u202C\u206A\u202B\u206A\u206B\u206A\u206C\u200E\u206D\u202C\u206D\u202E(battleController))) : null);
+					int amount = this.Amount;
+					return (num.GetValueOrDefault() <= amount) & (num != null);
+				}
+			}
+
+			public override int AdditionalShield
+			{
+				get
+				{
+					return FlandreBitestheDustDef.FlandreBitestheDust.\u200C\u200D\u202D\u206C\u200B\u206B\u202D\u202A\u206B\u206D\u200C\u202A\u206A\u200D\u200E\u200C\u200E\u202A\u202E\u200B\u200B\u206F\u202C\u206B\u206A\u202E\u202D\u206C\u202B\u206D\u206C\u202C\u200C\u206A\u206F\u202B\u206C\u202A\u206E\u206D\u202E(this).GetValueOrDefault() * 15;
+				}
+			}
+
+			public override int AdditionalValue1
+			{
+				get
+				{
+					return FlandreBitestheDustDef.FlandreBitestheDust.\u200C\u200D\u202D\u206C\u200B\u206B\u202D\u202A\u206B\u206D\u200C\u202A\u206A\u200D\u200E\u200C\u200E\u202A\u202E\u200B\u200B\u206F\u202C\u206B\u206A\u202E\u202D\u206C\u202B\u206D\u206C\u202C\u200C\u206A\u206F\u202B\u206C\u202A\u206E\u206D\u202E(this).GetValueOrDefault() * 5;
+				}
+			}
+
+			public int Value3
+			{
+				get
+				{
+					return 33;
+				}
+			}
+
+			public int Value4
+			{
+				get
+				{
+					return 80;
+				}
+			}
+
+			public override int Amount
+			{
+				get
+				{
+					BattleController battleController = FlandreBitestheDustDef.FlandreBitestheDust.\u200D\u206F\u200E\u200E\u206F\u206D\u206C\u206A\u202B\u206F\u206B\u206A\u206B\u206B\u206E\u202A\u202B\u202C\u202E\u206B\u200F\u206B\u206B\u206B\u206E\u206B\u202E\u200E\u202C\u200F\u206E\u206C\u206D\u200C\u202A\u202A\u200F\u200C\u202D\u206C\u202E(this);
+					int? num = ((battleController != null) ? new int?(FlandreBitestheDustDef.FlandreBitestheDust.\u206C\u206B\u206E\u206D\u202A\u200E\u206B\u206E\u202A\u206B\u202B\u200B\u206E\u206B\u202B\u202D\u202A\u206B\u202D\u202B\u202C\u206B\u206A\u206E\u200D\u206E\u202C\u206B\u200B\u202B\u206B\u200C\u200E\u200F\u200D\u202D\u206A\u202C\u202A\u206D\u202E(FlandreBitestheDustDef.FlandreBitestheDust.\u202B\u200C\u206B\u206A\u206F\u202A\u200C\u202D\u206A\u200B\u202B\u202B\u202E\u206D\u202A\u200D\u202C\u206B\u206A\u206D\u206C\u202D\u202E\u206F\u206B\u202E\u206D\u206C\u200C\u202C\u206A\u202B\u206A\u206B\u206A\u206C\u200E\u206D\u202C\u206D\u202E(battleController))) : null);
+					if (num == null)
+					{
+						goto IL_002E;
+					}
+					float? num2 = new float?((float)num.GetValueOrDefault() * 0.33f);
+					goto IL_009F;
+					int num4;
+					float? num6;
+					for (;;)
+					{
+						IL_0033:
+						int num3 = num4;
+						uint num5;
+						switch ((num5 = (uint)((num3 + -(-1920028867 - ~-1809061269) + -1048335133) * 1974183913 + -1419966728)) % 4U)
+						{
+						case 0U:
+							goto IL_002E;
+						case 2U:
+							goto IL_0089;
+						case 3U:
+							num6 = null;
+							num4 = (int)((num5 * 685420771U) ^ 1284492593U);
+							continue;
+						}
+						break;
+					}
+					goto IL_00A7;
+					IL_0089:
+					num2 = num6;
+					goto IL_009F;
+					IL_00A7:
+					return FlandreBitestheDustDef.FlandreBitestheDust.\u200F\u202E\u202E\u202E\u206F\u200E\u206D\u202B\u206E\u200E\u206C\u206E\u202B\u206E\u206F\u202C\u200F\u200C\u202A\u200B\u206F\u202C\u200C\u200B\u206F\u200B\u202A\u206B\u200D\u206F\u206C\u206C\u202D\u206B\u202D\u200C\u202E\u206E\u200E\u202B\u202E(num6.GetValueOrDefault(), MidpointRounding.AwayFromZero);
+					IL_002E:
+					num4 = 694278785;
+					goto IL_0033;
+					IL_009F:
+					num6 = num2;
+					num4 = -1503524801;
+					goto IL_0033;
+				}
+			}
+
+			protected override void OnEnterBattle(BattleController battle)
+			{
+				base.ReactBattleEvent<UnitEventArgs>(FlandreBitestheDustDef.FlandreBitestheDust.\u200C\u202D\u202E\u200F\u206B\u200E\u200D\u206A\u206A\u200B\u200D\u202E\u202A\u206D\u202E\u200B\u206C\u202D\u202A\u200B\u200F\u202A\u200C\u206D\u200B\u202C\u202D\u202E\u206D\u202C\u202E\u200E\u206D\u206B\u202C\u200D\u202B\u202B\u200D\u202A\u202E(FlandreBitestheDustDef.FlandreBitestheDust.\u202C\u202D\u206A\u202C\u200E\u202A\u202E\u200E\u202E\u206A\u200E\u206C\u200E\u200B\u202B\u202D\u202C\u206B\u206A\u206D\u200F\u202E\u200B\u200D\u206A\u206B\u206B\u206E\u200B\u200F\u202A\u206D\u200E\u202E\u206D\u202C\u206A\u202D\u206E\u206A\u202E(FlandreBitestheDustDef.FlandreBitestheDust.\u200D\u206F\u200E\u200E\u206F\u206D\u206C\u206A\u202B\u206F\u206B\u206A\u206B\u206B\u206E\u202A\u202B\u202C\u202E\u206B\u200F\u206B\u206B\u206B\u206E\u206B\u202E\u200E\u202C\u200F\u206E\u206C\u206D\u200C\u202A\u202A\u200F\u200C\u202D\u206C\u202E(this))), new EventSequencedReactor<UnitEventArgs>(this.OnPlayerTurnStarted));
+			}
+
+			private IEnumerable<BattleAction> OnPlayerTurnStarted(UnitEventArgs args)
+			{
+				FlandreBitestheDustDef.FlandreBitestheDust.<OnPlayerTurnStarted>d__15 <OnPlayerTurnStarted>d__ = new FlandreBitestheDustDef.FlandreBitestheDust.<OnPlayerTurnStarted>d__15(-2);
+				<OnPlayerTurnStarted>d__.<>4__this = this;
+				return <OnPlayerTurnStarted>d__;
+			}
+
+			protected override IEnumerable<BattleAction> Actions(UnitSelector selector, ManaGroup consumingMana, Interaction precondition)
+			{
+				FlandreBitestheDustDef.FlandreBitestheDust.<Actions>d__16 <Actions>d__ = new FlandreBitestheDustDef.FlandreBitestheDust.<Actions>d__16(-2);
+				<Actions>d__.<>4__this = this;
+				return <Actions>d__;
+			}
+
+			static BattleController \u200D\u206F\u200E\u200E\u206F\u206D\u206C\u206A\u202B\u206F\u206B\u206A\u206B\u206B\u206E\u202A\u202B\u202C\u202E\u206B\u200F\u206B\u206B\u206B\u206E\u206B\u202E\u200E\u202C\u200F\u206E\u206C\u206D\u200C\u202A\u202A\u200F\u200C\u202D\u206C\u202E(Card A_0)
+			{
+				return A_0.Battle;
+			}
+
+			static PlayerUnit \u202B\u200C\u206B\u206A\u206F\u202A\u200C\u202D\u206A\u200B\u202B\u202B\u202E\u206D\u202A\u200D\u202C\u206B\u206A\u206D\u206C\u202D\u202E\u206F\u206B\u202E\u206D\u206C\u200C\u202C\u206A\u202B\u206A\u206B\u206A\u206C\u200E\u206D\u202C\u206D\u202E(BattleController A_0)
+			{
+				return A_0.Player;
+			}
+
+			static int \u202C\u202E\u200B\u206C\u202A\u202E\u206F\u200F\u206A\u206D\u202A\u202C\u206A\u206B\u202B\u202E\u202C\u202A\u200E\u202E\u202D\u206B\u206B\u200B\u200E\u202A\u206C\u200F\u206C\u200E\u200D\u200D\u202C\u200D\u206D\u200F\u206C\u206B\u202B\u200E\u202E(Unit A_0)
+			{
+				return A_0.Hp;
+			}
+
+			static int? \u200C\u200D\u202D\u206C\u200B\u206B\u202D\u202A\u206B\u206D\u200C\u202A\u206A\u200D\u200E\u200C\u200E\u202A\u202E\u200B\u200B\u206F\u202C\u206B\u206A\u202E\u202D\u206C\u202B\u206D\u206C\u202C\u200C\u206A\u206F\u202B\u206C\u202A\u206E\u206D\u202E(Card A_0)
+			{
+				return A_0.UpgradeCounter;
+			}
+
+			static int \u206C\u206B\u206E\u206D\u202A\u200E\u206B\u206E\u202A\u206B\u202B\u200B\u206E\u206B\u202B\u202D\u202A\u206B\u202D\u202B\u202C\u206B\u206A\u206E\u200D\u206E\u202C\u206B\u200B\u202B\u206B\u200C\u200E\u200F\u200D\u202D\u206A\u202C\u202A\u206D\u202E(Unit A_0)
+			{
+				return A_0.MaxHp;
+			}
+
+			static int \u200F\u202E\u202E\u202E\u206F\u200E\u206D\u202B\u206E\u200E\u206C\u206E\u202B\u206E\u206F\u202C\u200F\u200C\u202A\u200B\u206F\u202C\u200C\u200B\u206F\u200B\u202A\u206B\u200D\u206F\u206C\u206C\u202D\u206B\u202D\u200C\u202E\u206E\u200E\u202B\u202E(float A_0, MidpointRounding A_1)
+			{
+				return A_0.RoundToInt(A_1);
+			}
+
+			static PlayerUnit \u202C\u202D\u206A\u202C\u200E\u202A\u202E\u200E\u202E\u206A\u200E\u206C\u200E\u200B\u202B\u202D\u202C\u206B\u206A\u206D\u200F\u202E\u200B\u200D\u206A\u206B\u206B\u206E\u200B\u200F\u202A\u206D\u200E\u202E\u206D\u202C\u206A\u202D\u206E\u206A\u202E(BattleController A_0)
+			{
+				return A_0.Player;
+			}
+
+			static GameEvent<UnitEventArgs> \u200C\u202D\u202E\u200F\u206B\u200E\u200D\u206A\u206A\u200B\u200D\u202E\u202A\u206D\u202E\u200B\u206C\u202D\u202A\u200B\u200F\u202A\u200C\u206D\u200B\u202C\u202D\u202E\u206D\u202C\u202E\u200E\u206D\u206B\u202C\u200D\u202B\u202B\u200D\u202A\u202E(Unit A_0)
+			{
+				return A_0.TurnStarted;
+			}
+
+			private static bool IsBitestheDust;
+
+			[HarmonyPatch(typeof(GameMaster), "LeaveGameRun")]
+			private class GameMaster_LeaveGameRun_Patch
+			{
+				private static void Postfix(GameMaster __instance)
+				{
+					FlandreBitestheDustDef.FlandreBitestheDust.IsBitestheDust = false;
+				}
+			}
+		}
+	}
+}

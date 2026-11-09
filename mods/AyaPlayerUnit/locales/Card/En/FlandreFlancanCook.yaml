@@ -1,0 +1,18 @@
+﻿FlandreFlancanCook:
+  Description: >-
+    |For each {Mana} spent|: |Upgrade| {SelfName}.
+
+    Choose up to {FlandreValue1} of {FlandreValue2} |p:random| |Flandre| card{FlandreValue2:plural one='' other='s'} to add to the hand. Prioritizes lower rarity cards. {FlandreValue1:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana2} and {FlandreValue1:plural one='has' other='have'} |Exile| and |Ethereal|.
+
+    {SelfName} can be |Upgraded| up to {Value3:plural one='% time' other='% times'} regardless of |Magical Girl|.
+  UpgradedDescription: >-
+    |For each {Mana} spent|: |Upgrade| {SelfName}.
+
+    Choose up to {FlandreValue1} of {FlandreValue2} |p:random| |Flandre| card{FlandreValue2:plural one='' other='s'} to add to the hand. Prioritizes lower rarity cards. {FlandreValue1:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana2} and {FlandreValue1:plural one='has' other='have'} |Exile| and |Ethereal|.
+
+    {SelfName} can be |Upgraded| up to {Value3:plural one='% time' other='% times'} regardless of |Magical Girl|.
+  Name: Flan can Cook!
+  FlavorText: >-
+    "Hold up... let her cook."
+
+    - Okina Matara

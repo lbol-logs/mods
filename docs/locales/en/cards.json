@@ -8,6 +8,1137 @@
     "it_other": "them"
   },
 
+  "AyaAdventoftheDivineGrandson": {
+    "Name": "Advent of the Divine Grandson",
+    "Description": "Gain <Mana />.<br />Draw cards until the hand is full.<br /><PlayerName /> is immune to all debuffs.<br />All cards are played twice.<br /><h>Limited【{ToolPlayableTimes}】</h>",
+    "UpgradedDescription": "Gain <Mana />.<br />Draw cards until the hand is full.<br /><PlayerName /> is immune to all debuffs.<br />All cards are played twice.<br /><h>Limited【{ToolPlayableTimes}】</h>"
+  },
+  "AyaAnythingisNewsworthy": {
+    "Name": "Anything is Newsworthy",
+    "Description": "Whenever a <h>Misfortune</h> or Status card would have added, if its name does not contain \"Bunbunmaru\" or \"News\", add a <h>Bunbunmaru Newspaper</h> instead.",
+    "UpgradedDescription": "Whenever a <h>Misfortune</h> or Status card would have added, if its name does not contain \"Bunbunmaru\" or \"News\", add a <h>Bunbunmaru Newspaper</h> instead."
+  },
+  "AyaApexPredator": {
+    "Name": "Apex Predator",
+    "Description": "Whenever <PlayerName /> takes attack damage, reduce it by equal to <PlayerName />'s <h>Acceleration</h> and lose {Value3} <h>Acceleration</h>.<br />Gain <Value1 /> <h>Acceleration</h>.",
+    "UpgradedDescription": "Whenever <PlayerName /> takes attack damage, reduce it by equal to <PlayerName />'s <h>Acceleration</h> and lose {Value3} <h>Acceleration</h>.<br />Gain <Value1 /> <h>Acceleration</h>."
+  },
+  "AyaArmoredRaven": {
+    "Name": "Armored Raven",
+    "Description": "The first attack card played during <PlayerName />'s turn is played twice.<br />The first Status card played during <PlayerName />'s turn is played twice.",
+    "UpgradedDescription": "The first attack card played during <PlayerName />'s turn is played twice.<br />The first Status card played during <PlayerName />'s turn is played twice."
+  },
+  "AyaArsenalBird": {
+    "Name": "Arsenal Bird",
+    "Description": "Gain <Value1 /> <h>Defense Matrix</h>.<br />At the start of <PlayerName />'s turn, summon <h>Unmanned Aerial Crow</h> to the hand.<br />This effect does not stack.",
+    "UpgradedDescription": "Gain <Value1 /> <h>Defense Matrix</h>.<br />At the start of <PlayerName />'s turn, summon <h>Unmanned Aerial Crow</h> to the hand.<br />This effect does not stack.<br />Trigger {SelfName} once."
+  },
+  "AyaArsenalBirdDrone": {
+    "Name": "Unmanned Aerial Crow",
+    "PassiveDescription": "<hf>Patrol Mode</hf>: Gain <Mana /> and draw a card."
+  },
+  "AyaAttackG": {
+    "Name": "Gale Fan",
+    "Description": "Deal <Damage /> damage.",
+    "UpgradedDescription": "Deal <Damage /> damage."
+  },
+  "AyaAttackR": {
+    "Name": "Gust Fan",
+    "Description": "Deal <Damage /> damage.",
+    "UpgradedDescription": "Deal <Damage /> damage."
+  },
+  "AyaAyaShameimarusCoerciveReporting": {
+    "Name": "Aya Shameimaru's Coercive Reporting",
+    "Description": "Add a <h>Bunbunmaru Newspaper Special</h> to the hand.<br />Gain additional effects based on target's intention.",
+    "UpgradedDescription": "Add a <h>Bunbunmaru Newspaper Special</h> to the hand.<br />Gain additional effects based on target's intention."
+  },
+  "AyaBirdStrike": {
+    "Name": "Bird Strike",
+    "Description": "Deal <Damage /> damage.<br />{SelfName} deals <Value1 /> more damage for each <h>Acceleration</h> <PlayerName /> has.",
+    "UpgradedDescription": "Deal <Damage /> damage.<br />{SelfName} deals <Value1 /> more damage for each <h>Acceleration</h> <PlayerName /> has."
+  },
+  "AyaBlackmail": {
+    "Name": "Blackmail",
+    "Description": "<h>Bunbunmaru Newspapers</h> also apply <Value1 /> <h>Temporary Firepower Down</h> and gain <Value2 /> <Money /> when activated.<br />Add <h>{Value3:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}</h> to the draw pile.",
+    "UpgradedDescription": "<h>Bunbunmaru Newspapers</h> also apply <Value1 /> <h>Temporary Firepower Down</h> and gain <Value2 /> <Money /> when activated.<br />Add <h>{Value3:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}</h> to the draw pile."
+  },
+  "AyaBlockG": {
+    "Name": "Tengu's Downburst",
+    "Description": "Gain <Block /> <h>Block</h>.",
+    "UpgradedDescription": "Gain <Block /> <h>Block</h>."
+  },
+  "AyaBlockR": {
+    "Name": "Tengu's Mist Standing",
+    "Description": "Gain <Block /> <h>Block</h>.",
+    "UpgradedDescription": "Gain <Block /> <h>Block</h>."
+  },
+  "AyaBossYukariBlackDeathButterfly": {
+    "Name": "Black Death Butterfly",
+    "Description": "<h>When {SelfName} enters the hand</h>: Gain <Value1 /> <h>Poison</h>.<br /><h>When Exiled</h>: Return {SelfName} from <h>Exile</h> to the discard pile.",
+    "UpgradedDescription": "<h>When {SelfName} enters the hand</h>: Gain <Value1 /> <h>Poison</h>.<br /><h>When Exiled</h>: Return {SelfName} from <h>Exile</h> to the discard pile."
+  },
+  "AyaBunbunmaruPrinter": {
+    "Name": "Bunbunmaru Printer",
+    "Description": "At the start of <PlayerName />'s turn, add <h><Value1 />Bunbunmaru Newspaper$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand. {Value1:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} <Mana />.",
+    "UpgradedDescription": "At the start of <PlayerName />'s turn, add <h><Value1 />Bunbunmaru Newspaper$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand. {Value1:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} <Mana />.<br />Trigger {SelfName} once."
+  },
+  "AyaCandidShot": {
+    "Name": "Candid Shot",
+    "Description": "Deal <Damage /> damage {Times} times.<br />Apply <Value1 /> <h>Lock On</h>.<br /><h>While in hand</h>: Whenever a <h>Misfortune</h> or Status card is <h>Exiled</h>, {SelfName} <h>temporarily costs</h> <Mana /> less to play.",
+    "UpgradedDescription": "Deal <Damage /> damage {Times} times.<br />Apply <Value1 /> <h>Lock On</h>.<br /><h>While in hand</h>: Whenever a <h>Misfortune</h> or Status card is <h>Exiled</h>, {SelfName} <h>temporarily costs</h> <Mana /> less to play."
+  },
+  "AyaChapter0": {
+    "Name": "Free Mode",
+    "Description": "A standard gameplay without any fixed encounter."
+  },
+  "AyaChapter1": {
+    "Name": "Extra! Truth of the Lost Treasure",
+    "Description": "After the audience leaves to find the treasure, Aya decides to investigate the case."
+  },
+  "AyaChapter2": {
+    "Name": "Butterfly Effect",
+    "Description": "Young Tanuki was nowhere to be seen, Aya returns to the Youkai Mountain hoping to find her.<br />Her every action had its consequences."
+  },
+  "AyaCloseup": {
+    "Name": "Close-up",
+    "Description": "Gain <Block /> <h>Block</h>.<br />For each <h>Misfortune</h> or Status card adjacent to {SelfName}, gain <Mana /> and draw a card.",
+    "UpgradedDescription": "Gain <Block /> <h>Block</h>.<br />For each <h>Misfortune</h> or Status card adjacent to {SelfName}, gain <Mana /> and draw a card."
+  },
+  "AyaComicallyLargeHat": {
+    "Name": "Comically Large Hat",
+    "Description": "Gain <Block /> <h>Block</h>.<br /><h>Deceleration <Value1 /></h>: Apply <Value2 /> <h>Weak</h> to each enemy.",
+    "UpgradedDescription": "Gain <Block /> <h>Block</h>.<br />Apply <Value2 /> <h>Weak</h> to each enemy."
+  },
+  "AyaCompletedInterview": {
+    "Name": "Completed Interview",
+    "Description": "<h>Debut</h>: Add <h><Value1 />Bunbunmaru Newspaper$t(plurals.-s, { 'count': {{Value1}} })</h> and <h><Value2 />Bunbunmaru - Aya Special$t(plurals.-s, { 'count': {{Value2}} })</h> to the discard pile.<br />Draw {Value3:plural one='% card' other='% cards'}.",
+    "UpgradedDescription": "<h>Debut</h>: Add <h><Value1 />Bunbunmaru Newspaper$t(plurals.-s, { 'count': {{Value1}} })</h> and <h><Value2 />Bunbunmaru - Aya Special$t(plurals.-s, { 'count': {{Value2}} })</h> to the discard pile.<br />Draw {Value3:plural one='% card' other='% cards'}."
+  },
+  "AyaCrazyFallWind": {
+    "Name": "Crazy Fall Wind",
+    "Description": "Whenever a card is <h>Exiled</h>, gain <Value1 /> <h>Acceleration</h>.",
+    "UpgradedDescription": "Whenever a card is <h>Exiled</h>, gain <Value1 /> <h>Acceleration</h>."
+  },
+  "AyaCrossroadsofHeaven": {
+    "Name": "Crossroads of Heaven",
+    "Description": "Gain <Value1 /> <h>Acceleration</h>.<br />Whenever <PlayerName /> gains <h>Acceleration</h>, gain <Value2 /> more <h>Acceleration</h>.",
+    "UpgradedDescription": "Gain <Value1 /> <h>Acceleration</h>.<br />Whenever <PlayerName /> gains <h>Acceleration</h>, gain <Value2 /> more <h>Acceleration</h>."
+  },
+  "AyaDanceofBlackQuill": {
+    "Name": "Dance of Black Quill",
+    "Description": "Deal <Damage /> damage and apply <Value1 /> <h>Lock On</h> to each enemy.<br />Gain <Value1 /> <h>Acceleration</h>.<br />When an enemy is defeated using {SelfName}, repeat these effects.",
+    "UpgradedDescription": "Deal <Damage /> damage and apply <Value1 /> <h>Lock On</h> to each enemy.<br />Gain <Value1 /> <h>Acceleration</h>.<br />When an enemy is defeated using {SelfName}, repeat these effects."
+  },
+  "AyaDashingDomination": {
+    "Name": "Dashing Domination",
+    "Description": "Gain <Value1 /> <h>Acceleration</h>.<br />Draw <Value2 /> cards.",
+    "UpgradedDescription": "Gain <Value1 /> <h>Acceleration</h>.<br />Draw <Value2 /> cards."
+  },
+  "AyaDashingGrace": {
+    "Name": "Dashing Grace",
+    "Description": "Deal <Value2 /> damage to each enemy for each <h>Acceleration</h> <PlayerName /> has.",
+    "UpgradedDescription": "Deal <Value2 /> damage to each enemy for each <h>Acceleration</h> <PlayerName /> has."
+  },
+  "AyaDaymareintheDarkNight": {
+    "Name": "Daymare in the Dark Night",
+    "Description": "Deal <Damage /> damage.<br />Until <PlayerName />'s next turn, whenever <PlayerName /> gains <h>Acceleration</h>, deal <Damage /> damage to the enemy with the least life.<br />Gain <Value1 /> <h>Acceleration</h>.",
+    "UpgradedDescription": "Deal <Damage /> damage.<br />Until <PlayerName />'s next turn, whenever <PlayerName /> gains <h>Acceleration</h>, deal <Damage /> damage to the enemy with the least life.<br />Gain <Value1 /> <h>Acceleration</h>."
+  },
+  "AyaEffortlessFlight": {
+    "Name": "Effortless Flight",
+    "Description": "Gain <Value1 /> <h>Acceleration</h>.<br />At the start of <PlayerName />'s turn, gain <Value1 /> <h>Acceleration</h>.",
+    "UpgradedDescription": "Gain <Value1 /> <h>Acceleration</h>.<br />At the start of <PlayerName />'s turn, gain <Value1 /> <h>Acceleration</h>."
+  },
+  "AyaExtraBossSelectFlandre": {
+    "Name": "Flandre (Aya Only)",
+    "Description": "This boss is not ready yet. Please look forward to future updates."
+  },
+  "AyaExtraBossSelectKoishi": {
+    "Name": "Koishi",
+    "Description": ""
+  },
+  "AyaExtraBossSelectRandom": {
+    "Name": "Random",
+    "Description": ""
+  },
+  "AyaExtraBossSelectYuuma": {
+    "Name": "Yuuma (Flandre Only)",
+    "Description": "This boss is not ready yet. Please look forward to future updates."
+  },
+  "AyaExtraBossSelectZUN": {
+    "Name": "ZUN",
+    "Description": ""
+  },
+  "AyaExtraFans": {
+    "Name": "Extra Fans",
+    "Description": "Deal <Damage /> damage.<br />Gain <Value1 /> <h>Acceleration</h>.<br />Add a <h>Bunbunmaru Newspaper</h> to the hand.",
+    "UpgradedDescription": "Deal <Damage /> damage.<br />Gain <Value1 /> <h>Acceleration</h>.<br />Add a <h>Bunbunmaru Newspaper</h> to the hand."
+  },
+  "AyaEyeoftheStorm": {
+    "Name": "Eye of the Storm",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Gain <Value1 /> <h>Reflection</h>.<br />{SelfName} is also affected by <h>Acceleration</h>.",
+    "UpgradedDescription": "Gain <Block /> <h>Block</h>.<br />Gain <Value1 /> <h>Reflection</h>.<br />{SelfName} is also affected by <h>Acceleration</h>."
+  },
+  "AyaFastShot": {
+    "Name": "Fast Shot",
+    "Description": "Deal <Damage /> damage.<br />Play a random <h>Bunbunmaru Newspaper</h> in the hand.<br />Add a <h>Bunbunmaru Newspaper</h> to the hand.",
+    "UpgradedDescription": "Deal <Damage /> damage.<br />Play a random <h>Bunbunmaru Newspaper</h> in the hand.<br />Add a <h>Bunbunmaru Newspaper</h> to the hand."
+  },
+  "AyaFma": {
+    "Name": "F = ma",
+    "Description": "Gain <Value1 /> <h>Acceleration</h>.<br />Gain <Value2 /> <h>Firepower</h>.<br />For each 4 <h>Acceleration</h> <PlayerName /> has, increase {SelfName}'s <h>Firepower</h> by {Value3}.",
+    "UpgradedDescription": "Gain <Value1 /> <h>Acceleration</h>.<br />Gain <Value2 /> <h>Firepower</h>.<br />For each 4 <h>Acceleration</h> <PlayerName /> has, increase {SelfName}'s <h>Firepower</h> by {Value3}."
+  },
+  "AyaFriendAya": {
+    "Name": "Aya, Goddess of Wind",
+    "PassiveDescription": "<hf>Crossroad Sign「Saruta Cross」</hf>: Gain <Value1 /> <h>Acceleration</h>."
+  },
+  "AyaFriendCirno": {
+    "Name": "Cirno, Little Friend of Four Seasons",
+    "PassiveDescription": "<hf>Full Blooming Summer</hf>: Each <h>Teammate</h> in the <h>battlefield</h> gains <Value1 /> <h>Unity</h>."
+  },
+  "AyaFriendHatate": {
+    "Name": "Hatate, Modern Thoughtography Reporter",
+    "PassiveDescription": "<hf>Spirit Photography</hf>: Gain <Value1 /> <h>Spirit</h>. Add <Value2 /> <h>Kakashi Spirit News</h> to the draw pile."
+  },
+  "AyaFriendHatateNewsSpecial": {
+    "Name": "Kakashi Spirit News Special",
+    "Description": "Gain <Value1 /> random mana. Increased by 1 for each {SelfName} <h>Exiled</h> this combat.<br /><h>When {SelfName} enters the hand</h>: Gain <Shield /> <h>Barrier</h>."
+  },
+  "AyaFriendMegumu": {
+    "Name": "Megumu, Chief of the Crow Tengu",
+    "PassiveDescription": "<hf>Supervision</hf>: Whenever a <h>Misfortune</h> or Status card is <h>Exiled</h>, gain <Mana />."
+  },
+  "AyaFriendMomiji": {
+    "Name": "Momiji, Petty Patrol Tengu",
+    "PassiveDescription": "<hf>Telegnosis</hf>: <h>Scry</h> <Scry />."
+  },
+  "AyaHeadShot": {
+    "Name": "Head Shot",
+    "Description": "Deal <Damage /> damage.<br /><h>Lock On</h> increases {SelfName}'s damage <Value1 />time$t(plurals.-s, { 'count': {{Value1}} }).<br />When an enemy is defeated using {SelfName}, gain <Mana />.",
+    "UpgradedDescription": "Deal <Damage /> damage.<br /><h>Lock On</h> increases {SelfName}'s damage <Value1 />time$t(plurals.-s, { 'count': {{Value1}} }).<br />When an enemy is defeated using {SelfName}, gain <Mana />."
+  },
+  "AyaHeavenlyPartner": {
+    "Name": "Heavenly Partner",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Apply <Value1 /> <h>Weak</h> and <h>Vulnerable</h> to each enemy.<br />If there's a summoned <h>Momiji, Petty Patrol Tengu</h> in the hand, gain <Value2 /> <h>Temporary Firepower</h>.",
+    "UpgradedDescription": "Gain <Block /> <h>Block</h>.<br />Apply <Value1 /> <h>Weak</h> and <h>Vulnerable</h> to each enemy.<br />If there's a summoned <h>Momiji, Petty Patrol Tengu</h> in the hand, gain <Value2 /> <h>Temporary Firepower</h>."
+  },
+  "AyaHraesvelgrofTerminus": {
+    "Name": "Hraesvelgr of Terminus",
+    "Description": "All enemy <h>Block</h>, <h>Barrier</h>, and buffs are nullified until <PlayerName />'s next turn.",
+    "UpgradedDescription": "All enemy <h>Block</h>, <h>Barrier</h>, and buffs are nullified until <PlayerName />'s next turn."
+  },
+  "AyaIllusionaryDominance": {
+    "Name": "Illusionary Dominance",
+    "Description": "Deal <Damage /> damage {Times} times.<br />Deal additional damage equal to <PlayerName />'s <h>Acceleration</h>.<br />Deal that damage an additional time for each {Value3} <h>Acceleration</h>, up to <Value2 /> times.",
+    "UpgradedDescription": "Deal <Damage /> damage {Times} times.<br />Deal additional damage equal to <PlayerName />'s <h>Acceleration</h>.<br />Deal that damage an additional time for each {Value3} <h>Acceleration</h>, up to <Value2 /> times."
+  },
+  "AyaInstantShotJournalist": {
+    "Name": "Instant Shot Journalist",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Gain <Value1 /> <h>Acceleration</h>.<br /><PlayerName /> can't lose <h>Acceleration</h> for <Value2 />turn$t(plurals.-s, { 'count': {{Value2}} }).",
+    "UpgradedDescription": "Gain <Block /> <h>Block</h>.<br />Gain <Value1 /> <h>Acceleration</h>.<br /><PlayerName /> can't lose <h>Acceleration</h> for <Value2 />turn$t(plurals.-s, { 'count': {{Value2}} })."
+  },
+  "AyaLittleSalvation": {
+    "Name": "Little Salvation",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Gain <Value1 /> <h>Acceleration</h> and <h>Temporary Firepower</h>.",
+    "UpgradedDescription": "Gain <Block /> <h>Block</h>.<br />Gain <Value1 /> <h>Acceleration</h> and <h>Temporary Firepower</h>."
+  },
+  "AyaMapleFansWind": {
+    "Name": "Maple Fan's Wind",
+    "Description": "Gain <Value1 /> <h>Acceleration</h>.",
+    "UpgradedDescription": "Gain <Value1 /> <h>Acceleration</h>."
+  },
+  "AyaMemoryinPicture": {
+    "Name": "Memory in Picture",
+    "Description": "Gain <Shield /> <h>Barrier</h>.<br />Gain <Value1 /> <h>Barrier</h> for each <h>Misfortune</h> or Status card in the <h>battlefield</h>.",
+    "UpgradedDescription": "Gain <Shield /> <h>Barrier</h>.<br />Gain <Value1 /> <h>Barrier</h> for each <h>Misfortune</h> or Status card in the <h>battlefield</h>."
+  },
+  "AyaMomentofRelaxation": {
+    "Name": "Moment of Relaxation",
+    "Description": "<h>Deceleration <Value1 /></h>: Gain <Mana /> and draw <Value2 />card$t(plurals.-s, { 'count': {{Value2}} }).",
+    "UpgradedDescription": "<h>Deceleration <Value1 /></h>: Gain <Mana /> and draw <Value2 />card$t(plurals.-s, { 'count': {{Value2}} })."
+  },
+  "AyaMountainGodsProcession": {
+    "Name": "Mountain God's Procession",
+    "Description": "Whenever <PlayerName /> gains <h>Acceleration</h>, gain <Mana />.<br />Gain <Value1 /> <h>Acceleration</h>.",
+    "UpgradedDescription": "Whenever <PlayerName /> gains <h>Acceleration</h>, gain <Mana />.<br />Gain <Value1 /> <h>Acceleration</h>."
+  },
+  "AyaNewsAyaPlayerUnitSp": {
+    "Name": "Bunbunmaru - Aya Special",
+    "Description": "<h>At the end of the turn</h>: Gain <Value1 /> <h>Firepower</h> and <h>Spirit</h>."
+  },
+  "AyaNewsDissemination": {
+    "Name": "News Dissemination",
+    "Description": "Discard <Value1 /> cards.<br />Add that many <h>Bunbunmaru Newspapers</h> to the hand.<br />Gain <Mana />.",
+    "UpgradedDescription": "Discard between <Value1 /> to <Value2 /> cards.<br />Add that many <h>Bunbunmaru Newspapers</h> to the hand.<br />Gain <Mana />."
+  },
+  "AyaNewsOverwhelming": {
+    "Name": "News Overwhelming",
+    "Description": "Whenever a <h>Misfortune</h> or Status card that isn't <h>Copy</h> is <h>Exiled</h>, add a <h>Copy</h> of <h>Bunbunmaru Newspaper</h> to the hand. It <h>temporarily costs</h> <Mana />.",
+    "UpgradedDescription": "Whenever a <h>Misfortune</h> or Status card that isn't <h>Copy</h> is <h>Exiled</h>, add a <h>Copy</h> of <h>Bunbunmaru Newspaper</h> to the hand. It <h>temporarily costs</h> <Mana />."
+  },
+  "AyaNewsSpecial": {
+    "Name": "Bunbunmaru Newspaper Special",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Deal <Damage /> damage and apply <Value1 /> <h>Lock On</h> to each enemy.<br />Enemies with <h>Lock On</h> are dealt that damage twice."
+  },
+  "AyaOpeningWindoftheTenguRealm": {
+    "Name": "Opening Wind of the Tengu Realm",
+    "Description": "<h>At the start of combat</h>: <h>Exile</h> {SelfName}, gain <Value1 /> <h>Extra Turn</h>.",
+    "UpgradedDescription": "<h>At the start of combat</h>: <h>Exile</h> {SelfName}, gain <Value1 /> <h>Extra Turn</h> and <Value2 /> <h>Acceleration</h>."
+  },
+  "AyaOrbGreenMorphBird": {
+    "Name": "Form of Aves",
+    "Description": "Apply <Value1 /> <h>Graze</h> to each enemy.",
+    "UpgradedDescription": "Apply <Value1 /> <h>Graze</h> to each enemy."
+  },
+  "AyaOrbGreenMorphDog": {
+    "Name": "Form of Carnivora",
+    "Description": "Apply <Value1 /> <h>Firepower</h> to each enemy.",
+    "UpgradedDescription": "Apply <Value1 /> <h>Firepower</h> to each enemy."
+  },
+  "AyaOrbGreenMorphFrog": {
+    "Name": "Form of Amphibia",
+    "Description": "All enemies gain <Value1 /> maximum life.",
+    "UpgradedDescription": "All enemies gain <Value1 /> maximum life."
+  },
+  "AyaOrbGreenMorphMan": {
+    "Name": "Form of Homosapien",
+    "Description": "Lose <Value1 /> <Power />.",
+    "UpgradedDescription": "Lose <Value1 /> <Power />."
+  },
+  "AyaPanorama": {
+    "Name": "Panorama",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Increase <h>Bunbunmaru Newspaper Special</h>'s numerical value by <Value1 />.<br /><h>When Exiled</h>: Add a <h>Bunbunmaru Newspaper Special</h> to the hand.",
+    "UpgradedDescription": "Gain <Block /> <h>Block</h>.<br />Increase <h>Bunbunmaru Newspaper Special</h>'s numerical value by <Value1 />.<br /><h>When Exiled</h>: Add a <h>Bunbunmaru Newspaper Special</h> to the hand."
+  },
+  "AyaPaperRecycling": {
+    "Name": "Paper Recycling",
+    "Description": "<h>Exile</h> a <h>Misfortune</h> or Status card from the hand. Gain mana equal to that card's cost.<br />Draw a card.<br />Gain <Mana />.",
+    "UpgradedDescription": "<h>Exile</h> a <h>Misfortune</h> or Status card from the hand. Gain mana equal to that card's cost.<br />Draw a card.<br />Gain <Mana />."
+  },
+  "AyaPeltingintheDarkNight": {
+    "Name": "Pelting in the Dark Night",
+    "Description": "<h>When {SelfName} enters the hand</h>: Deal <Damage /> damage to the enemy with the least life, draw a card and discard {SelfName}.<br />This effect can only happen <Value1 />time$t(plurals.-s, { 'count': {{Value1}} }) per turn.",
+    "UpgradedDescription": "<h>When {SelfName} enters the hand</h>: Deal <Damage /> damage to the enemy with the least life, draw a card and discard {SelfName}.<br />This effect can only happen <Value1 />time$t(plurals.-s, { 'count': {{Value1}} }) per turn."
+  },
+  "AyaPhantasmModeTooltip": {
+    "Name": "Phantasm Mode",
+    "Description": "When enabled, weakens characters from 'Aya Shameimaru' mod.<br /><color=#dd7473>Changing it requires exiting the game.</color>"
+  },
+  "AyaPinnacleofEvasion": {
+    "Name": "Pinnacle of Evasion",
+    "Description": "<h>Deceleration <Value1 /></h>: Gain <Value2 /> <h>Perfect Graze</h>.",
+    "UpgradedDescription": "<h>Deceleration <Value1 /></h>: Gain <Value2 /> <h>Perfect Graze</h>."
+  },
+  "AyaProtectionPaper": {
+    "Name": "Protection Paper",
+    "Description": "Whenever a <h>Misfortune</h> or Status card is <h>Exiled</h>, gain <Value1 /> <h>Block</h>.",
+    "UpgradedDescription": "Whenever a <h>Misfortune</h> or Status card is <h>Exiled</h>, gain <Value1 /> <h>Block</h>."
+  },
+  "AyaQuickDraw": {
+    "Name": "Quick Draw",
+    "Description": "Gain <Value1 /> <h>Acceleration</h>.<br />Play the top card of the draw pile.",
+    "UpgradedDescription": "Gain <Value1 /> <h>Acceleration</h>.<br />Play the top card of the draw pile."
+  },
+  "AyaQuickShootingTenguScoop": {
+    "Name": "Quick-Shooting Tengu Scoop",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Status cards cost <Mana /> less this turn.<br />Add <h><Value1 />Bunbunmaru Newspaper$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand.",
+    "UpgradedDescription": "Gain <Block /> <h>Block</h>.<br />Cards cost <Mana /> less this turn.<br />Add <h><Value1 />Bunbunmaru Newspaper$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand."
+  },
+  "AyaRequestingAirSupport": {
+    "Name": "Requesting Air Support",
+    "Description": "Summon <h><Value1 />Unmanned Aerial Crow$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand.",
+    "UpgradedDescription": "Summon <h><Value1 />Unmanned Aerial Crow$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand."
+  },
+  "AyaRouteForbiddentoMan": {
+    "Name": "Route Forbidden to Man",
+    "Description": "At the end of <PlayerName />'s turn, deal <Damage /> damage and apply <Value1 /> <h>Lock On</h> to a random enemy for each card <h>Exiled</h> that turn, up to <Value2 /> times.",
+    "UpgradedDescription": "At the end of <PlayerName />'s turn, deal <Damage /> damage and apply <Value1 /> <h>Lock On</h> to a random enemy for each card <h>Exiled</h> that turn, up to <Value2 /> times.<br /><h>Overflow</h>: Gain <Mana />."
+  },
+  "AyaSarutahikosGuidance": {
+    "Name": "Sarutahiko's Guidance",
+    "Description": "Discard all cards in the hand and draw that many cards.<br />Gain <Value1 /> <h>Acceleration</h> for each card discarded this way.<br /><h>Overflow</h>: Gain <Mana />.",
+    "UpgradedDescription": "Discard all cards in the hand and draw that many cards.<br />Gain <Value1 /> <h>Acceleration</h> for each card discarded this way.<br /><h>Overflow</h>: Gain <Mana />."
+  },
+  "AyaSelectNo": {
+    "Name": false,
+    "Description": ""
+  },
+  "AyaSelectYes": {
+    "Name": true,
+    "Description": ""
+  },
+  "AyaSettlementDate": {
+    "Name": "Settlement Date",
+    "Description": "Gain <Value1 /> <h>Firepower</h>.<br />Gain <Value2 /> <Money />.<br />Whenever a <h>Misfortune</h> or Status card is <h>Exiled</h>, <h>Permanently</h> increase {SelfName}'s <Money /> by <Value1 />.<br /><h>Limited【{ToolPlayableTimes}】</h>",
+    "UpgradedDescription": "Gain <Value1 /> <h>Firepower</h>.<br />Gain <Value2 /> <Money />.<br />Whenever a <h>Misfortune</h> or Status card is <h>Exiled</h>, <h>Permanently</h> increase {SelfName}'s <Money /> by <Value1 />.<br /><h>Limited【{ToolPlayableTimes}】</h>"
+  },
+  "AyaSickleWeaselVeiling": {
+    "Name": "Sickle Weasel Veiling",
+    "Description": "Whenever <PlayerName /> takes 0 damage from attacks, deal <Value1 /> damage to the attacker.",
+    "UpgradedDescription": "Whenever <PlayerName /> takes 0 damage from attacks, deal <Value1 /> damage to the attacker."
+  },
+  "AyaTakePicture": {
+    "Name": "Take Picture",
+    "Description": "Apply <Value1 /> <h>Lock On</h>.<br />Add <h><Value2 />Bunbunmaru Newspaper$t(plurals.-s, { 'count': {{Value2}} })</h> to the hand.<br />{Value2:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} <Mana /> less to play.",
+    "UpgradedDescription": "Apply <Value1 /> <h>Lock On</h>.<br />Add <h><Value2 />Bunbunmaru Newspaper$t(plurals.-s, { 'count': {{Value2}} })</h> to the hand.<br />{Value2:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} <Mana /> less to play."
+  },
+  "AyaTenguGaleBullet": {
+    "Name": "Tengu Gale Bullet",
+    "Description": "Deal <Damage /> damage {Times} times.<br />Gain <Value1 /> <h>Acceleration</h>.",
+    "UpgradedDescription": "Deal <Damage /> damage {Times} times.<br />Gain <Value1 /> <h>Acceleration</h>."
+  },
+  "AyaTenguGirlsBanquet": {
+    "Name": "Tengu Girl's Banquet",
+    "Description": "Gain <Shield /> <h>Barrier</h>.<br /><h>Upgrade</h> all cards in the hand, increase their <h>Block</h>, <h>Barrier</h>, and damage by <Value1 />.",
+    "UpgradedDescription": "Gain <Shield /> <h>Barrier</h>.<br /><h>Upgrade</h> all cards in the hand, increase their <h>Block</h>, <h>Barrier</h>, and damage by <Value1 />."
+  },
+  "AyaTenguNewspaperDeadlineDay": {
+    "Name": "Tengu Newspaper Deadline Day",
+    "Description": "The maximum hand size becomes {MaxHand}.<br />All <h>Misfortune</h> and Status cards have <h>Replenish</h>.<br /><h>While in library</h>: Negates <h>Long Night</h>.",
+    "UpgradedDescription": "The maximum hand size becomes {MaxHand}.<br />All <h>Misfortune</h> and Status cards have <h>Replenish</h>.<br /><h>While in library</h>: Negates <h>Long Night</h>."
+  },
+  "AyaTengusDrumbeats": {
+    "Name": "Tengu's Drumbeats",
+    "Description": "Deal <Damage /> damage to each enemy.<br />Gain <Value1 /> <h>Temporary Firepower</h>.<br /><h>Deceleration <Value1 /></h>: Repeat these effects at the start of <PlayerName />'s next turn.",
+    "UpgradedDescription": "Deal <Damage /> damage to each enemy.<br />Gain <Value1 /> <h>Temporary Firepower</h>.<br /><h>Deceleration <Value1 /></h>: Repeat these effects at the start of <PlayerName />'s next turn."
+  },
+  "AyaTengusEdiblePompoms": {
+    "Name": "Tengu's Edible Pompoms",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Gain <Value1 /> life.<br />Gain <Value1 /> <Power />.<br /><h>At the start of combat</h>: At the end of <PlayerName />'s {Value2:ordinal one='%st' two='%nd' few='%rd' other='%th'} turn, <h>Exile</h> {SelfName}.",
+    "UpgradedDescription": "Gain <Block /> <h>Block</h>.<br />Gain <Value1 /> life.<br />Gain <Value1 /> <Power />.<br /><h>At the start of combat</h>: At the end of <PlayerName />'s {Value2:ordinal one='%st' two='%nd' few='%rd' other='%th'} turn, <h>Exile</h> {SelfName}."
+  },
+  "AyaTengusFallWind": {
+    "Name": "Tengu's Fall Wind",
+    "Description": "The next {Value1:plural one='% card is' other='% cards are'} played twice.",
+    "UpgradedDescription": "The next {Value1:plural one='% card is' other='% cards are'} played twice."
+  },
+  "AyaTenguTreeFelling": {
+    "Name": "Tengu Tree-Felling",
+    "Description": "Gain <Block /> <h>Block</h> and <Shield /> <h>Barrier</h>.<br />At the end of <PlayerName />'s turn, decrease {SelfName}'s <h>Block</h> and <h>Barrier</h> by <Value1 />.",
+    "UpgradedDescription": "Gain <Block /> <h>Block</h> and <Shield /> <h>Barrier</h>.<br />At the end of <PlayerName />'s turn, decrease {SelfName}'s <h>Block</h> and <h>Barrier</h> by <Value1 />."
+  },
+  "AyaThinOut": {
+    "Name": "Thin Out",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Put the <Value1 /> topmost <h>Misfortune</h> or Status card{Value1:plural one='' other='s'} from the draw pile into the hand.",
+    "UpgradedDescription": "Gain <Block /> <h>Block</h>.<br />Put the <Value1 /> topmost <h>Misfortune</h> or Status card{Value1:plural one='' other='s'} from the draw pile into the hand."
+  },
+  "AyaToolBunbunNewspaperStore": {
+    "Name": "Bunbun Newspaper Store",
+    "Description": "Choose 1 of <Value1 /> <h>Aya</h> cards to add to the hand. It <h>costs</h> <Mana />.<br /><h>Limited【{DeckCounter}】</h>"
+  },
+  "AyaToolCrowsEgg": {
+    "Name": "Crow's Egg",
+    "Description": "Gain <Value1 /> life.<br />Gain <Value1 /> <h>Temporary Firepower</h>.<br />At the start of <PlayerName />'s turn, repeat these effects with 1 less.<br /><h>Limited【{DeckCounter}】</h>"
+  },
+  "AyaToolForcedBreakthrough": {
+    "Name": "Forced Breakthrough",
+    "Description": "End the combat.<br /><h>At the start of Boss combat</h>: Remove {SelfName} from combat.<br /><h>Limited【{DeckCounter}】</h>"
+  },
+  "AyaToriiWhorlWind": {
+    "Name": "Torii Whorl-Wind",
+    "Description": "<h>Exile</h> up to <Value1 />card$t(plurals.-s, { 'count': {{Value1}} }) in the hand. Add that many <h>Bunbunmaru Newspapers</h> to the hand.<br />Gain <Value2 /> <h>Acceleration</h>.",
+    "UpgradedDescription": "<h>Exile</h> up to <Value1 />card$t(plurals.-s, { 'count': {{Value1}} }) in the hand, draw pile, and discard pile. Add that many <h>Bunbunmaru Newspapers</h> to the hand.<br />Gain <Value2 /> <h>Acceleration</h>."
+  },
+  "AyaWindGodsLeafVeiling": {
+    "Name": "Wind God's Leaf-Veiling",
+    "Description": "Deal <Damage /> damage.<br />All attacks against that enemy gain <h>Accurate</h>.<br />Add a <h>Bunbunmaru Newspaper</h> to the hand.",
+    "UpgradedDescription": "Deal <Damage /> damage.<br />All attacks against that enemy gain <h>Accurate</h>.<br />Add a <h>Bunbunmaru Newspaper</h> to the hand."
+  },
+  "FlandreAndThenWillThereBeNone": {
+    "Name": "And Then Will There Be None?",
+    "Description": "<h>Offering</h> <Value1 />.<br /><PlayerName /> is immune to all damage and debuffs for the next {FlandreValue2:plural one='% turn' other='% turns'}.<br />Gain {Value3} <h>Calamity</h>.<br />Deal {FlandreDamage} damage to each enemy {Value4:plural one='% time' other='% times'}.<br />Only the first {SelfName} will take effect each combat.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br /><PlayerName /> is immune to all damage and debuffs for the next {FlandreValue2:plural one='% turn' other='% turns'}.<br />Gain {Value3} <h>Calamity</h>.<br />Deal {FlandreDamage} damage to each enemy {Value4:plural one='% time' other='% times'}.<br />Only the first {SelfName} will take effect each combat."
+  },
+  "FlandreArmageddon": {
+    "Name": "Armageddon",
+    "Description": "Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.<br />{SelfName} deals {FlandreValue2} more damage for each attack card in the <h>battlefield</h>.<br />Only the first {SelfName} will take effect each combat.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.<br />{SelfName} deals {FlandreValue2} more damage for each attack card in the <h>battlefield</h>.<br />Only the first {SelfName} will take effect each combat."
+  },
+  "FlandreAttackB": {
+    "Name": "Colorful Danmaku",
+    "Description": "Deal {FlandreDamage} damage.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage."
+  },
+  "FlandreAttackR": {
+    "Name": "Hotshot",
+    "Description": "Deal {FlandreDamage} damage.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage."
+  },
+  "FlandreBitestheDust": {
+    "Name": "Bites the Dust",
+    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue1} <h>Static Charge</h>.<br />Gain <Value2 /> <h>Madness</h>.<br />If <PlayerName />'s life is {Value3}% or less during non-boss combat, restart the current level.<br />Then, at the start of <PlayerName />'s first turn, <h>Destroy</h> all enemies, gain {Value4} <h>Madness</h>, and remove {SelfName} from combat and the library.",
+    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue1} <h>Static Charge</h>.<br />Gain <Value2 /> <h>Madness</h>.<br />If <PlayerName />'s life is {Value3}% or less during non-boss combat, restart the current level.<br />Then, at the start of <PlayerName />'s first turn, <h>Destroy</h> all enemies, gain {Value4} <h>Madness</h>, and remove {SelfName} from combat and the library."
+  },
+  "FlandreBlockUB": {
+    "Name": "Bullet Crusher",
+    "Description": "Gain {FlandreBlock} <h>Block</h>.",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>."
+  },
+  "FlandreBlockUR": {
+    "Name": "Glitter",
+    "Description": "Gain {FlandreBlock} <h>Block</h>.",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>."
+  },
+  "FlandreBloodisFuel": {
+    "Name": "Blood is Fuel",
+    "Description": "Lose <Value1 /> life.<br />Gain {FlandreMana}.<br />Unspent mana isn't lost for the next {FlandreValue2:plural one='% turn' other='% turns'}.",
+    "UpgradedDescription": "Lose <Value1 /> life.<br />Gain {FlandreMana}.<br />Unspent mana isn't lost for the next {FlandreValue2:plural one='% turn' other='% turns'}."
+  },
+  "FlandreBloodyCatastrophe": {
+    "Name": "Bloody Catastrophe",
+    "Description": "Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.<br />Gain {FlandreValue2} life.<br /><PlayerName />'s attacks become <h>Accurate</h> until the end of combat.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.<br />Gain {FlandreValue2} life.<br /><PlayerName />'s attacks become <h>Accurate</h> until the end of combat."
+  },
+  "FlandreBloodyRequiem": {
+    "Name": "Bloody Requiem",
+    "Description": "For the next {FlandreValue1:plural one='% turn' other='% turns'}, all <h>Flandre</h> cards gain <h>Bloodlust</h>, and <h>Bloodlust</h> is always applied at its maximum value.",
+    "UpgradedDescription": "For the next {FlandreValue1:plural one='% turn' other='% turns'}, all <h>Flandre</h> cards gain <h>Bloodlust</h>, and <h>Bloodlust</h> is always applied at its maximum value."
+  },
+  "FlandreBrokenGlass": {
+    "Name": "Broken Glass",
+    "Description": "<h>Offering</h> <Value1 />.<br />Deal {FlandreDamage} damage {FlandreValue2:plural one='% time' other='% times'}.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Deal {FlandreDamage} damage {FlandreValue2:plural one='% time' other='% times'}."
+  },
+  "FlandreBurningPassion": {
+    "Name": "Burning Passion",
+    "Description": "Apply {FlandreValue1} <h>Hellfire</h>.<br />Draw {FlandreValue2:plural one='% card' other='% cards'}.",
+    "UpgradedDescription": "Apply {FlandreValue1} <h>Hellfire</h>.<br />Draw {FlandreValue2:plural one='% card' other='% cards'}."
+  },
+  "FlandreCageofVampire": {
+    "Name": "Cage of Vampire",
+    "Description": "Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Vulnerable</h>.<br /><h>When Exiled</h>: Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Vulnerable</h> to each enemy.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Vulnerable</h>.<br /><h>When Exiled</h>: Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Vulnerable</h> to each enemy."
+  },
+  "FlandreCasuallyApproachChild": {
+    "Name": "Casually Approach Child",
+    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue1} <h>Calamity</h>.",
+    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue1} <h>Calamity</h>."
+  },
+  "FlandreCatadioptric": {
+    "Name": "Catadioptric",
+    "Description": "<h>While in hand</h>: Whenever <PlayerName /> deals attack damage, deal {FlandreDamage} damage to the target.",
+    "UpgradedDescription": "<h>While in hand</h>: Whenever <PlayerName /> deals attack damage, deal {FlandreDamage} damage to the target."
+  },
+  "FlandreCatastropheofSeventeenArticles": {
+    "Name": "Catastrophe of Seventeen Articles",
+    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br /><h>Upgrade</h> all cards {FlandreValue1:plural one='% time' other='% times'} until the end of combat.",
+    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br /><h>Upgrade</h> all cards {FlandreValue1:plural one='% time' other='% times'} until the end of combat."
+  },
+  "FlandreCerberusClipper": {
+    "Name": "Cerberus Clipper",
+    "Description": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br />Apply {FlandreValue2} <h>Weak</h> and <h>Vulnerable</h>.<br />Gain {Value3} life.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br />Apply {FlandreValue2} <h>Weak</h> and <h>Vulnerable</h>.<br />Gain {Value3} life."
+  },
+  "FlandreChaosIncarnation": {
+    "Name": "Chaos Incarnation",
+    "Description": "Gain {FlandreBlock} <h>Block</h>.<br /><hp>Randomly</hp> add <h>Crystals</h> to the hand until it's full.<br />Play all <h>Crystals</h> in the hand.",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br /><hp>Randomly</hp> add <h>Crystals</h> to the hand until it's full.<br />Play all <h>Crystals</h> in the hand."
+  },
+  "FlandreChaosManaStorm": {
+    "Name": "Chaos Mana Storm",
+    "Description": "Deal {FlandreDamage} damage to each enemy and gain {FlandreValue1} <hp>random</hp> mana.<br /><h>For each <Mana /> spent</h>: Repeat this effect.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage to each enemy and gain {FlandreValue1} <hp>random</hp> mana.<br /><h>For each <Mana /> spent</h>: Repeat this effect."
+  },
+  "FlandreChromaticWings": {
+    "Name": "Chromatic Wings",
+    "Description": "<h>Offering</h> <Value1 />.<br />At the start of <PlayerName />'s turn, gain {FlandreMana}.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />At the start of <PlayerName />'s turn, gain {FlandreMana}."
+  },
+  "FlandreClockthatTicksAwaythePast": {
+    "Name": "Clock that Ticks Away the Past",
+    "Description": "<h>Offering</h> <Value1 />.<br />Deal {FlandreValue2} damage to each enemy.<br />Return the hand to the draw pile.<br />End <PlayerName />'s turn. Then, take an extra turn. During that extra turn, return {Value3} topmost card{Value1:plural one='' other='s'} from the discard pile to the hand instead of drawing cards during the draw step.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Deal {FlandreValue2} damage to each enemy.<br />Return the hand to the draw pile.<br />End <PlayerName />'s turn. Then, take an extra turn. During that extra turn, return {Value3} topmost card{Value1:plural one='' other='s'} from the discard pile to the hand instead of drawing cards during the draw step."
+  },
+  "FlandreColorofMadness": {
+    "Name": "Color of Madness",
+    "Description": "<h>Offering</h> <Value1 />.<br />Whenever an attack card is activated, play {FlandreValue2} random <h>Crystal{FlandreValue2:plural one='' other='s'}</h>.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Whenever an attack card is activated, play {FlandreValue2} random <h>Crystal{FlandreValue2:plural one='' other='s'}</h>."
+  },
+  "FlandreCombatHigh": {
+    "Name": "Combat High",
+    "Description": "Gain {FlandreValue1} <h>Firepower</h> and <h>Spirit</h>.",
+    "UpgradedDescription": "Gain {FlandreValue1} <h>Firepower</h> and <h>Spirit</h>."
+  },
+  "FlandreCranberryTrap": {
+    "Name": "Cranberry Trap",
+    "Description": "At the end of <PlayerName />'s turn, deal {FlandreValue1} damage to each enemy for each status effect applied this turn.",
+    "UpgradedDescription": "At the end of <PlayerName />'s turn, deal {FlandreValue1} damage to each enemy for each status effect applied this turn."
+  },
+  "FlandreCreepingBloodstain": {
+    "Name": "Creeping Bloodstain",
+    "Description": "",
+    "UpgradedDescription": ""
+  },
+  "FlandreCrystalBullet": {
+    "Name": "Crystal Bullet",
+    "Description": "Deal {FlandreDamage} damage.<br />Add {FlandreValue1} <hp>random</hp> <h>Crystal{FlandreValue1:plural one='' other='s'}</h> to the hand.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage.<br />Add {FlandreValue1} <hp>random</hp> <h>Crystal{FlandreValue1:plural one='' other='s'}</h> to the hand."
+  },
+  "FlandreCrystallineOutburst": {
+    "Name": "Crystalline Outburst",
+    "Description": "<h>Offering</h> <Value1 />.<br />Whenever all of <h>Crystallized Chaos</h>, <h>Crystallized Devilry</h>, <h>Crystallized Lunacy</h>, and <h>Crystallized Solitude</h> are activated, add {FlandreValue2} <h>Crystallized Catastrophe{FlandreValue2:plural one='' other='s'}</h> to the hand.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Whenever all of <h>Crystallized Chaos</h>, <h>Crystallized Devilry</h>, <h>Crystallized Lunacy</h>, and <h>Crystallized Solitude</h> are activated, add {FlandreValue2} <h>Crystallized Catastrophe{FlandreValue2:plural one='' other='s'}</h> to the hand.<br />Add {Value3} <h>Crystals</h> to the draw pile."
+  },
+  "FlandreCrystallization": {
+    "Name": "Crystallization",
+    "Description": "<h>Offering</h> <Value1 />.<br />Add {FlandreValue2} <hp>random</hp> <h>Crystal{FlandreValue2:plural one='' other='s'}</h> to the hand.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Add {FlandreValue2} <hp>random</hp> <h>Crystal{FlandreValue2:plural one='' other='s'}+{Value3}</h> to the hand."
+  },
+  "FlandreCrystallizedCatastrophe": {
+    "Name": "Crystallized Catastrophe",
+    "Description": "Deal {FlandreDamage} damage to each enemy.<br />Apply {FlandreValue1} <h>Hellfire</h> and {FlandreValue2} <h>Ruin</h> to each enemy.<br />Gain {Value3} life and {FlandreValue1} <Money />.<br />Gain {Value3} <hp>random</hp> mana.<br />Gain {FlandreShield} <h>Barrier</h> and {Value4} <h>Graze</h>.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage to each enemy.<br />Apply {FlandreValue1} <h>Hellfire</h> and {FlandreValue2} <h>Ruin</h> to each enemy.<br />Gain {Value3} life and {FlandreValue1} <Money />.<br />Gain {Value3} <hp>random</hp> mana.<br />Gain {FlandreShield} <h>Barrier</h> and {Value4} <h>Graze</h>."
+  },
+  "FlandreCrystallizedChaos": {
+    "Name": "Crystallized Chaos",
+    "Description": "Deal {FlandreDamage} damage.<br /><hp>Randomly</hp> apply {FlandreValue1} <h>Hellfire</h> or {FlandreValue2} <h>Ruin</h>.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage.<br /><hp>Randomly</hp> apply {FlandreValue1} <h>Hellfire</h> or {FlandreValue2} <h>Ruin</h>."
+  },
+  "FlandreCrystallizedDevilry": {
+    "Name": "Crystallized Devilry",
+    "Description": "Deal {FlandreDamage} damage.<br /><hp>Randomly</hp> gain {FlandreValue1} life or {FlandreValue2} <Money />.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage.<br /><hp>Randomly</hp> gain {FlandreValue1} life or {FlandreValue2} <Money />."
+  },
+  "FlandreCrystallizedLunacy": {
+    "Name": "Crystallized Lunacy",
+    "Description": "Deal {FlandreDamage} damage.<br />Gain {FlandreValue1} <hp>random</hp> mana.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage.<br />Gain {FlandreValue1} <hp>random</hp> mana."
+  },
+  "FlandreCrystallizedSolitude": {
+    "Name": "Crystallized Solitude",
+    "Description": "Deal {FlandreDamage} damage.<br /><hp>Randomly</hp> gain {FlandreShield} <h>Barrier</h> or {FlandreValue1} <h>Graze</h>.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage.<br /><hp>Randomly</hp> gain {FlandreShield} <h>Barrier</h> or {FlandreValue1} <h>Graze</h>."
+  },
+  "FlandreDanmakuHeart": {
+    "Name": "Danmaku Heart",
+    "Description": "",
+    "UpgradedDescription": ""
+  },
+  "FlandreDanmakuofDenial": {
+    "Name": "Danmaku of Denial",
+    "Description": "<h>Offering</h> <Value1 />.<br />Whenever an attack card is activated, gain {FlandreValue2} <h>Block</h>.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Whenever an attack card is activated, gain {FlandreValue2} <h>Block</h>."
+  },
+  "FlandreDeathorTreat": {
+    "Name": "Death or Treat",
+    "Description": "<h>Offering</h> <Value1 />.<br />Add {FlandreValue2} <h>Crystallized Devilry{FlandreValue2:plural one='' other='s'}</h> to the hand.<br /><h>Debut</h>: Gain {Value3} <h>Calamity</h>.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Add {FlandreValue2} <h>Crystallized Devilry{FlandreValue2:plural one='' other='s'}+{Value4}</h> to the hand.<br /><h>Debut</h>: Gain {Value3} <h>Calamity</h>."
+  },
+  "FlandreDeliciousHeart": {
+    "Name": "Delicious Heart",
+    "Description": "Gain {FlandreValue1} life.<br /><h>Permanently</h> increase {SelfName}'s life gain by {FlandreValue2}.",
+    "UpgradedDescription": "Gain {FlandreValue1} life.<br /><h>Permanently</h> increase {SelfName}'s life gain by {FlandreValue2}."
+  },
+  "FlandreDesolatePlace": {
+    "Name": "Desolate Place",
+    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Gain {FlandreValue1} <h>Graze</h>.",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Gain {FlandreValue1} <h>Graze</h>."
+  },
+  "FlandreDestroyerinthePalmofOnesHand": {
+    "Name": "Destroyer in the Palm of One's Hand",
+    "Description": "Deal {FlandreDamage} damage.<br />{SelfName} deals {FlandreValue1} more damage for each <h>Calamity</h> <PlayerName /> has.<br />If the target doesn't have known name, <h>Destroy</h> it.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage.<br />{SelfName} deals {FlandreValue1} more damage for each <h>Calamity</h> <PlayerName /> has.<br />If the target doesn't have known name, <h>Destroy</h> it."
+  },
+  "FlandreDestructiveImpulse": {
+    "Name": "Destructive Impulse",
+    "Description": "<h>At the end of the turn</h>: Gain <Value1 /> <h>Madness</h>.<br /><h>When Exiled</h>: Return {SelfName} from <h>Exile</h> to the discard pile.",
+    "UpgradedDescription": "<h>At the end of the turn</h>: Gain <Value1 /> <h>Madness</h>.<br /><h>When Exiled</h>: Return {SelfName} from <h>Exile</h> to the discard pile."
+  },
+  "FlandreDeviloftheMirror": {
+    "Name": "Devil of the Mirror",
+    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue1} <h>Reflection</h>.<br />Play the top card of the discard pile.",
+    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue1} <h>Reflection</h>.<br />Play the top card of the discard pile."
+  },
+  "FlandreDevilsFlesh": {
+    "Name": "Devil's Flesh",
+    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Gain {FlandreValue1} life.",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Gain {FlandreValue1} life."
+  },
+  "FlandreDevilsMockery": {
+    "Name": "Devil's Mockery",
+    "Description": "Gain {FlandreValue1} <h>Calamity</h>.<br />Gain {FlandreValue2} <h>Graze</h>.",
+    "UpgradedDescription": "Gain {FlandreValue1} <h>Calamity</h>.<br />Gain {FlandreValue2} <h>Graze</h>."
+  },
+  "FlandreDontFearTheReaper": {
+    "Name": "Don't Fear The Reaper",
+    "Description": "Gain {FlandreValue1} <h>Firepower</h>.<br />Play all attack cards in the hand, draw pile, and discard pile.<br />For each attack card played this way, gain <Value2 /> <h>Madness</h>.",
+    "UpgradedDescription": "Gain {FlandreValue1} <h>Firepower</h>.<br />Play all attack cards in the hand, draw pile, and discard pile.<br />For each attack card played this way, gain <Value2 /> <h>Madness</h>."
+  },
+  "FlandreDoombringer": {
+    "Name": "Doombringer",
+    "Description": "At the start of <PlayerName />'s turn, gain {FlandreValue1} <h>Calamity</h>.",
+    "UpgradedDescription": "At the start of <PlayerName />'s turn, gain {FlandreValue1} <h>Calamity</h>.<br />Trigger {SelfName} once."
+  },
+  "FlandreDoomsdayClock": {
+    "Name": "Doomsday Clock",
+    "Description": "<PlayerName /> gains {FlandreValue1:plural one='% time' other='% times'} more <h>Calamity</h>.",
+    "UpgradedDescription": "<PlayerName /> gains {FlandreValue1:plural one='% time' other='% times'} more <h>Calamity</h>.<br />Gain {Value3} <h>Calamity</h>."
+  },
+  "FlandreDreadofTransylvania": {
+    "Name": "Dread of Transylvania",
+    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Apply {FlandreValue1} <h>Weak</h> and {FlandreValue2} <h>Ruin</h> to each enemy.",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Apply {FlandreValue1} <h>Weak</h> and {FlandreValue2} <h>Ruin</h> to each enemy."
+  },
+  "FlandreEmbraceofGehenna": {
+    "Name": "Embrace of Gehenna",
+    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue1} more <h>Barrier</h> for each <h>Calamity</h> <PlayerName /> has.<br /><h>Destroy</h> enemies with life equal to {FlandreValue2:plural one='% time' other='% times'} <PlayerName />'s <h>Calamity</h> or less.",
+    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue1} more <h>Barrier</h> for each <h>Calamity</h> <PlayerName /> has.<br /><h>Destroy</h> enemies with life equal to {FlandreValue2:plural one='% time' other='% times'} <PlayerName />'s <h>Calamity</h> or less."
+  },
+  "FlandreEndwithaBang": {
+    "Name": "End with a Bang",
+    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Gain {FlandreValue1} <h>Firepower</h>.<br />Trigger <h>Brimstone</h> of each enemy {FlandreValue2:plural one='% time' other='% times'}.<br /><h>At the end of combat</h>: If {SelfName} was the last card played, gain a <hp>random</hp> card reward.",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Gain {FlandreValue1} <h>Firepower</h>.<br />Trigger <h>Brimstone</h> of each enemy {FlandreValue2:plural one='% time' other='% times'}.<br /><h>At the end of combat</h>: If {SelfName} was the last card played, gain a <hp>random</hp> card reward."
+  },
+  "FlandreFaustianBargain": {
+    "Name": "Faustian Bargain",
+    "Description": "<h>Offering</h> <Value1 />.<br />Choose up to {FlandreValue2:plural one='% card' other='% cards'} from <h>Exile</h> and return it to the hand.<br /><h>When Exiled</h>: Choose up to {Value3:plural one='% card' other='% cards'} from <h>Exile</h> and return it to the hand.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Choose up to {FlandreValue2:plural one='% card' other='% cards'} from <h>Exile</h> and return it to the hand.<br /><h>When Exiled</h>: Choose up to {Value3:plural one='% card' other='% cards'} from <h>Exile</h> and return it to the hand."
+  },
+  "FlandreFieryLaser": {
+    "Name": "Fiery Laser",
+    "Description": "Deal {FlandreDamage} damage.<br />Apply {FlandreValue1} <h>Hellfire</h>.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage.<br />Apply {FlandreValue1} <h>Hellfire</h>."
+  },
+  "FlandreFlancanCook": {
+    "Name": "Flan can Cook!",
+    "Description": "<h>For each <Mana /> spent</h>: <h>Upgrade</h> {SelfName}.<br />Choose up to {FlandreValue1} of {FlandreValue2} <hp>random</hp> <h>Flandre</h> card{FlandreValue2:plural one='' other='s'} to add to the hand. Prioritizes lower rarity cards. {FlandreValue1:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} {Mana2} and {FlandreValue1:plural one='has' other='have'} <h>Exile</h> and <h>Ethereal</h>.<br />{SelfName} can be <h>Upgraded</h> up to {Value3:plural one='% time' other='% times'} regardless of <h>Magical Girl</h>.",
+    "UpgradedDescription": "<h>For each <Mana /> spent</h>: <h>Upgrade</h> {SelfName}.<br />Choose up to {FlandreValue1} of {FlandreValue2} <hp>random</hp> <h>Flandre</h> card{FlandreValue2:plural one='' other='s'} to add to the hand. Prioritizes lower rarity cards. {FlandreValue1:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} {Mana2} and {FlandreValue1:plural one='has' other='have'} <h>Exile</h> and <h>Ethereal</h>.<br />{SelfName} can be <h>Upgraded</h> up to {Value3:plural one='% time' other='% times'} regardless of <h>Magical Girl</h>."
+  },
+  "FlandreForbiddenFruit": {
+    "Name": "Forbidden Fruit",
+    "Description": "<h>Offering</h> <Value1 />.<br />Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue2} life.<br />Gain {Value3} <Money />.<br />Gain {Value4} <Power />.<br />Add {Value5} <hp>random</hp> <h>Crystal{Value5:plural one='' other='s'}</h> to the hand.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue2} life.<br />Gain {Value3} <Money />.<br />Gain {Value4} <Power />.<br />Add {Value5} <hp>random</hp> <h>Crystal{Value5:plural one='' other='s'}+{Value6}</h> to the hand."
+  },
+  "FlandreForbiddenGames": {
+    "Name": "Forbidden Games",
+    "Description": "<h>Offering</h> <Value1 />.<br />Deal {FlandreValue2} damage to each enemy.<br />Enemies cannot act for {Value3:plural one='% round' other='% rounds'}.<br />Only the first {SelfName} will take effect each combat.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Deal {FlandreValue2} damage to each enemy.<br />Enemies cannot act for {Value3:plural one='% round' other='% rounds'}.<br />Only the first {SelfName} will take effect each combat."
+  },
+  "FlandreForbiddenScarletCuriosity": {
+    "Name": "Forbidden Scarlet Curiosity",
+    "Description": "<PlayerName /> is immune to all debuffs.<br /><PlayerName />'s attacks deal {FlandreValue1:plural one='% time' other='% times'} more damage.<br />Whenever an enemy loses life, <PlayerName /> gains that much life.<br />These effects does not stack.<br />Gain {FlandreValue2}% <h>Temporary Maximum Life</h>.<br />Gain {Value3} <h>Madness</h>.",
+    "UpgradedDescription": "<PlayerName /> is immune to all debuffs.<br /><PlayerName />'s attacks deal {FlandreValue1:plural one='% time' other='% times'} more damage.<br />Whenever an enemy loses life, <PlayerName /> gains that much life.<br />These effects does not stack.<br />Gain {FlandreValue2}% <h>Temporary Maximum Life</h>.<br />Gain {Value3} <h>Madness</h>."
+  },
+  "FlandreFourHorsemenoftheApocalypse": {
+    "Name": "Four Horsemen of the Apocalypse",
+    "Description": "Gain {FlandreValue1} <h>Calamity</h>.<br />Discard any number of cards from the hand.<br />Put the topmost attack, defense, skill, and <h>Ability</h> cards from the draw pile into the hand.<br /><h>Overflow</h>: Gain {FlandreMana}.",
+    "UpgradedDescription": "Gain {FlandreValue1} <h>Calamity</h>.<br />Discard any number of cards from the hand.<br />Put the topmost attack, defense, skill, and <h>Ability</h> cards from the draw pile into the hand.<br /><h>Overflow</h>: Gain {FlandreMana}."
+  },
+  "FlandreFourofaKind": {
+    "Name": "Four of a Kind",
+    "Description": "Choose a card in the hand. It <h>temporarily costs</h> <Mana />.<br />Add {FlandreValue1} <h>Copies</h> of it to the draw pile that <h>temporarily cost</h> <Mana /> and have <h>Exile</h> and <h>Replenish</h>.",
+    "UpgradedDescription": "Choose a card in the hand. It <h>temporarily costs</h> <Mana />.<br />Add {FlandreValue1} <h>Copies</h> of it to the draw pile that <h>temporarily cost</h> <Mana /> and have <h>Exile</h> and <h>Replenish</h>."
+  },
+  "FlandreFragileWing": {
+    "Name": "Fragile Wing",
+    "Description": "",
+    "UpgradedDescription": ""
+  },
+  "FlandreFragmentsofLight": {
+    "Name": "Fragments of Light",
+    "Description": "At the start of <PlayerName />'s turn, add {FlandreValue1} random <h>Crystal{FlandreValue1:plural one='' other='s'}</h> to the hand.",
+    "UpgradedDescription": "At the start of <PlayerName />'s turn, add {FlandreValue1} random <h>Crystal{FlandreValue1:plural one='' other='s'}</h> to the hand.<br />Trigger {SelfName} once."
+  },
+  "FlandreFranticDestroyer": {
+    "Name": "Frantic Destroyer",
+    "Description": "<h>Offering</h> <Value1 />.<br />Whenever an attack card is activated, gain {FlandreMana} and draw {FlandreValue2:plural one='% card' other='% cards'}.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Whenever an attack card is activated, gain {FlandreMana} and draw {FlandreValue2:plural one='% card' other='% cards'}."
+  },
+  "FlandreFriendOkina": {
+    "Name": "Okina, Absolute Secret God",
+    "PassiveDescription": "<hf>Power of Secret</hf>: Whenever <Value1 /> multicolored card{FlandreValue2:plural one=' is' other='s are'} activated, gain {FlandreMana} and gain {FlandrePassiveBarrier} <h>Barrier</h>."
+  },
+  "FlandreFriendOkinaFall": {
+    "Name": "Okina, Absolute Secret God - Fall",
+    "PassiveDescription": "<hf>Power of Fall</hf>: Whenever <Value1 /> red card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and apply {FlandreValue2} <h>Hellfire</h> to each enemy."
+  },
+  "FlandreFriendOkinaSpring": {
+    "Name": "Okina, Absolute Secret God - Spring",
+    "PassiveDescription": "<hf>Power of Spring</hf>: Whenever <Value1 /> black card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and add <Value2 /> <h>Crystal{Value2:plural one='' other='s'}</h> to the hand.",
+    "UpgradedPassiveDescription": "<hf>Power of Spring</hf>: Whenever <Value1 /> black card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and add <Value2 /> <h>Crystal{Value2:plural one='' other='s'}+{Value3}</h> to the hand."
+  },
+  "FlandreFriendOkinaSummer": {
+    "Name": "Okina, Absolute Secret God - Summer",
+    "PassiveDescription": "<hf>Power of Summer</hf>: Whenever <Value1 /> green card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and apply {FlandreValue2} <h>Ruin</h> to each enemy."
+  },
+  "FlandreFriendOkinaWinter": {
+    "Name": "Okina, Absolute Secret God - Winter",
+    "PassiveDescription": "<hf>Power of Winter</hf>: Whenever <Value1 /> blue card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and gain {FlandreValue2} <h>Calamity</h>."
+  },
+  "FlandreGrowingGemstones": {
+    "Name": "Growing Gemstones",
+    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Add {FlandreValue1} <hp>random</hp> <h>Crystal{FlandreValue1:plural one='' other='s'}</h> to the hand.",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Add {FlandreValue1} <hp>random</hp> <h>Crystal{FlandreValue1:plural one='' other='s'}</h> to the hand."
+  },
+  "FlandreHellisFull": {
+    "Name": "Hell is Full",
+    "Description": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br />{SelfName} deals {FlandreValue2} more damage for each enemy defeated this run.<br />Gain {Value3} <h>Madness</h>.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br />{SelfName} deals {FlandreValue2} more damage for each enemy defeated this run.<br />Gain {Value3} <h>Madness</h>."
+  },
+  "FlandreHellonEarth": {
+    "Name": "Hell on Earth",
+    "Description": "When <h>Hellfire</h> and <h>Brimstone</h> would trigger, they trigger {FlandreValue1} additional time{FlandreValue1:plural one='' other='s'}.",
+    "UpgradedDescription": "When <h>Hellfire</h> and <h>Brimstone</h> would trigger, they trigger {FlandreValue1} additional time{FlandreValue1:plural one='' other='s'}.<br />Apply {FlandreValue2} <h>Hellfire</h> to each enemy."
+  },
+  "FlandreHighCard": {
+    "Name": "High Card",
+    "Description": "Gain {FlandreValue1} <h>Temporary Firepower</h> and <h>Temporary Spirit</h>.<br />Put the highest-cost card from the draw pile into the hand. It <h>temporarily costs</h> <Mana />.",
+    "UpgradedDescription": "Gain {FlandreValue1} <h>Temporary Firepower</h> and <h>Temporary Spirit</h>.<br />Put the highest-cost card from the draw pile into the hand. It <h>temporarily costs</h> <Mana />."
+  },
+  "FlandreHotSurface": {
+    "Name": "Hot Surface",
+    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Until <PlayerName />'s next turn, whenever <PlayerName /> receives attack damage, apply {FlandreValue1} <h>Hellfire</h> to the attacker.",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Until <PlayerName />'s next turn, whenever <PlayerName /> receives attack damage, apply {FlandreValue1} <h>Hellfire</h> to the attacker."
+  },
+  "FlandreHymnoftheTorturedSouls": {
+    "Name": "Hymn of the Tortured Souls",
+    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Gain {FlandreMana} and draw {FlandreValue1:plural one='% card' other='% cards'} for each character with <h>Hellfire</h>.",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Gain {FlandreMana} and draw {FlandreValue1:plural one='% card' other='% cards'} for each character with <h>Hellfire</h>."
+  },
+  "FlandreIgnitingSnap": {
+    "Name": "Igniting Snap",
+    "Description": "Apply {FlandreValue1} <h>Hellfire</h>.<br />Trigger <h>Hellfire</h> of the target {FlandreValue2:plural one='% time' other='% times'}.",
+    "UpgradedDescription": "Apply {FlandreValue1} <h>Hellfire</h>.<br />Trigger <h>Hellfire</h> of the target {FlandreValue2:plural one='% time' other='% times'}."
+  },
+  "FlandreInfernalRampage": {
+    "Name": "Infernal Rampage",
+    "Description": "Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Hellfire</h> to a <hp>random</hp> enemy {FlandreValue2:plural one='% time' other='% times'}.<br />Gain {Value3} <h>Firepower</h>.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Hellfire</h> to a <hp>random</hp> enemy {FlandreValue2:plural one='% time' other='% times'}.<br />Gain {Value3} <h>Firepower</h>."
+  },
+  "FlandreInstability": {
+    "Name": "Instability",
+    "Description": "{SelfName}'s effects are <hp>randomized</hp> each round.<br /><h>Average amount of effects</h>: <he>{AmountF}</he>."
+  },
+  "FlandreInternetSurvivor": {
+    "Name": "Internet Survivor",
+    "Description": "Remove all debuffs from <PlayerName />.<br />Gain {FlandreValue1}% life.",
+    "UpgradedDescription": "Remove all debuffs from <PlayerName />.<br />Gain {FlandreValue1}% life."
+  },
+  "FlandreKagomeKagome": {
+    "Name": "Kagome, Kagome",
+    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />Apply {FlandreValue1} <h>Ruin</h> to each enemy.<br />Deal damage to each enemy equal to {FlandreValue2:plural one='% time' other='% times'} the target's Ruin.",
+    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />Apply {FlandreValue1} <h>Ruin</h> to each enemy.<br />Deal damage to each enemy equal to {FlandreValue2:plural one='% time' other='% times'} the target's Ruin."
+  },
+  "FlandreKindLiesandGoodbyes": {
+    "Name": "Kind Lies and Goodbyes",
+    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue1} <h>Firepower</h> and <h>Spirit</h>.<br />When <PlayerName /> would be defeated, remove all debuffs, heal to maximum life, and can't lose life for {FlandreValue2:plural one='% turn' other='% turns'}.<br />Then, deal {Value3} damage to each enemy, <h>Destroy</h> enemies with {Value3} or less life, and remove {SelfName} from combat and the library.",
+    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue1} <h>Firepower</h> and <h>Spirit</h>.<br />When <PlayerName /> would be defeated, remove all debuffs, heal to maximum life, and can't lose life for {FlandreValue2:plural one='% turn' other='% turns'}.<br />Then, deal {Value3} damage to each enemy, <h>Destroy</h> enemies with {Value3} or less life, and remove {SelfName} from combat and the library."
+  },
+  "FlandreLaevateinn": {
+    "Name": "Laevateinn",
+    "Description": "Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Hellfire</h> to each enemy.<br />This effect is affected by <h>Firepower</h> {FlandreValue2:plural one='% time' other='% times'}.<br />Trigger <h>Hellfire</h> of each enemy {Value3:plural one='% time' other='% times'}.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Hellfire</h> to each enemy.<br />This effect is affected by <h>Firepower</h> {FlandreValue2:plural one='% time' other='% times'}.<br />Trigger <h>Hellfire</h> of each enemy {Value3:plural one='% time' other='% times'}."
+  },
+  "FlandreLittleJeweler": {
+    "Name": "Little Jeweler",
+    "Description": "Add {FlandreValue1} <hp>random</hp> <h>Crystal{FlandreValue1:plural one='' other='s'}</h> to the hand.<br />Gain {FlandreValue2} <hp>random</hp> mana.",
+    "UpgradedDescription": "Add {FlandreValue1} <hp>random</hp> <h>Crystal{FlandreValue1:plural one='' other='s'}</h> to the hand.<br />Gain {FlandreValue2} <hp>random</hp> mana."
+  },
+  "FlandreLooseCannon": {
+    "Name": "Loose Cannon",
+    "Description": "Deal {FlandreDamage} damage to each enemy.<br />Apply {FlandreValue1} <h>Hellfire</h> to each enemy.<br /><h>While in hand</h>: Whenever <PlayerName /> deals or receives attack damage, {SelfName} <h>temporarily costs</h> <Mana /> less. When {SelfName}'s cost is {Mana2}, play {SelfName}.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage to each enemy.<br />Apply {FlandreValue1} <h>Hellfire</h> to each enemy.<br /><h>While in hand</h>: Whenever <PlayerName /> deals or receives attack damage, {SelfName} <h>temporarily costs</h> <Mana /> less. When {SelfName}'s cost is {Mana2}, play {SelfName}."
+  },
+  "FlandreMagicalGirlFlandreEngage": {
+    "Name": "Magical Girl Flandre Engage!",
+    "Description": "All <h>Magical Girl</h> cards can be <h>Upgraded</h> <Value1 />additional time$t(plurals.-s, { 'count': {{Value1}} }).<br />The maximum hand size becomes <Value2 />.<br />Add a <h>Magical Slash</h>, <h>Magical Guard</h>, <h>Magical Technique</h>, and <h>Magical Potential</h> to the hand.<br />These effects does not stack.<br />Gain {Value3} <h>Amulet</h> and <h>Ward</h>.",
+    "UpgradedDescription": "All <h>Magical Girl</h> cards can be <h>Upgraded</h> <Value1 />additional time$t(plurals.-s, { 'count': {{Value1}} }).<br />The maximum hand size becomes <Value2 />.<br />Add a <h>Magical Slash+{Value4}</h>, <h>Magical Guard+{Value4}</h>, <h>Magical Technique+{Value4}</h>, and <h>Magical Potential+{Value4}</h> to the hand.<br />These effects does not stack.<br />Gain {Value3} <h>Amulet</h> and <h>Ward</h>."
+  },
+  "FlandreMagicalGuard": {
+    "Name": "Magical Guard",
+    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Return {SelfName} to the hand.<br />{SelfName} costs <Mana /> more this turn.",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Return {SelfName} to the hand.<br />{SelfName} costs <Mana /> more this turn."
+  },
+  "FlandreMagicalPotential": {
+    "Name": "Magical Potential",
+    "Description": "This card is sealed.",
+    "UpgradedDescription": "This card is sealed."
+  },
+  "FlandreMagicalSlash": {
+    "Name": "Magical Slash",
+    "Description": "Deal {FlandreDamage} damage.<br />Return {SelfName} to the hand.<br />{SelfName} costs <Mana /> more this turn.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage.<br />Return {SelfName} to the hand.<br />{SelfName} costs <Mana /> more this turn."
+  },
+  "FlandreMagicalTechnique": {
+    "Name": "Magical Technique",
+    "Description": "Choose up to {FlandreValue1} of {FlandreValue2} <hp>random</hp> Common card{FlandreValue2:plural one='' other='s'} to play it.<br />Return {SelfName} to the hand.<br />{SelfName} costs <Mana /> more this turn.",
+    "UpgradedDescription": "Choose up to {FlandreValue1} of {FlandreValue2} <hp>random</hp> Common card{FlandreValue2:plural one='' other='s'} to play it.<br />Return {SelfName} to the hand.<br />{SelfName} costs <Mana /> more this turn."
+  },
+  "FlandreMazeofLove": {
+    "Name": "Maze of Love",
+    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Weak</h> to each enemy.<br />Play {FlandreValue2} <hp>random</hp> <h>Crystal{FlandreValue2:plural one='' other='s'}</h> to each enemy.",
+    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Weak</h> to each enemy.<br />Play {FlandreValue2} <hp>random</hp> <h>Crystal{FlandreValue2:plural one='' other='s'}</h> to each enemy."
+  },
+  "FlandreMindsEye": {
+    "Name": "Mind's Eye",
+    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />The next {FlandreValue1:plural one='% time' other='% times'} <PlayerName /> deals or takes attack damage, double the damage dealt or halve the damage taken.",
+    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />The next {FlandreValue1:plural one='% time' other='% times'} <PlayerName /> deals or takes attack damage, double the damage dealt or halve the damage taken."
+  },
+  "FlandreMPBullofPhalaris": {
+    "Name": "Bull of Phalaris",
+    "Description": "Whenever any player receives damage from status effects, they deal {FlandreValue1} damage to each enemy.<br />Apply <Value2 /> <h>Hellfire</h> to all players.<br /><h>Scaled</h> <Mana />.",
+    "UpgradedDescription": "Whenever any player receives damage from status effects, they deal {FlandreValue1} damage to each enemy.<br />Apply <Value2 /> <h>Hellfire</h> to all players.<br /><h>Scaled</h> <Mana />."
+  },
+  "FlandreMPButchersCircus": {
+    "Name": "Butcher's Circus",
+    "Description": "Whenever an enemy is defeated, all players gain {FlandreValue2} <h>Firepower</h> and {Value3} life.<br /><h>Scaled</h> <Mana />.",
+    "UpgradedDescription": "Whenever an enemy is defeated, all players gain {FlandreValue2} <h>Firepower</h> and {Value3} life.<br />Trigger {SelfName} once.<br /><h>Scaled</h> <Mana />."
+  },
+  "FlandreMPEnfantTerrible": {
+    "Name": "Enfant Terrible",
+    "Description": "Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.<br />Enemies deal <Value2 />% less attack damage for the next {Value3:plural one='% turn' other='% turns'}.<br />All <h>Partners</h> deal {Value4}% less attack damage for the next {Value5:plural one='% turn' other='% turns'}.<br />Gain {Value6} <h>Madness</h>.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.<br />Enemies deal <Value2 />% less attack damage for the next {Value3:plural one='% turn' other='% turns'}.<br />All <h>Partners</h> deal {Value4}% less attack damage for the next {Value5:plural one='% turn' other='% turns'}.<br />Gain {Value6} <h>Madness</h>."
+  },
+  "FlandreMPFirestorm": {
+    "Name": "Firestorm",
+    "Description": "Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Hellfire</h> to each enemy.<br />{SelfName} is affected by <h>Firepower</h> of all players.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Hellfire</h> to each enemy.<br />{SelfName} is affected by <h>Firepower</h> of all players."
+  },
+  "FlandreMPKrystallos": {
+    "Name": "Krystallos",
+    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />All players play {FlandreValue1} <hp>random</hp> <h>Crystal{FlandreValue1:plural one='' other='s'}</h>.<br /><h>Scaled</h> <Mana />.",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />All players play {FlandreValue1} <hp>random</hp> <h>Crystal{FlandreValue1:plural one='' other='s'}</h>.<br /><h>Scaled</h> <Mana />."
+  },
+  "FlandreMPLostandForgotten": {
+    "Name": "Lost and Forgotten",
+    "Description": "All players gain {FlandreBlock} <h>Block</h> and {FlandreShield} <h>Barrier</h>.<br /><h>When Exiled</h>: Gain {FlandreValue1} <h>Firepower</h> and apply {FlandreValue2} <h>Ruin</h> to each enemy.<br /><h>Scaled</h> <Mana />.",
+    "UpgradedDescription": "All players gain {FlandreBlock} <h>Block</h> and {FlandreShield} <h>Barrier</h>.<br /><h>When Exiled</h>: Gain {FlandreValue1} <h>Firepower</h> and apply {FlandreValue2} <h>Ruin</h> to each enemy.<br /><h>Scaled</h> <Mana />."
+  },
+  "FlandreMPMagicalCheering": {
+    "Name": "Magical Cheering",
+    "Description": "All players gain {FlandreMana}.<br />All players <h>Upgrade</h> all cards in the hand {FlandreValue1:plural one='% time' other='% times'} until the end of combat.<br /><h>Scaled</h> {Mana2}.",
+    "UpgradedDescription": "All players gain {FlandreMana}.<br />All players <h>Upgrade</h> all cards in the hand {FlandreValue1:plural one='% time' other='% times'} until the end of combat.<br /><h>Scaled</h> {Mana2}."
+  },
+  "FlandreMPPhantomPain": {
+    "Name": "Phantom Pain",
+    "Description": "Deal {FlandreDamage} damage.<br />Until <PlayerName />'s next turn, whenever any player activates attack card, the target takes {FlandreValue1} damage.<br />Gain {FlandreValue2} <h>Calamity</h>.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage.<br />Until <PlayerName />'s next turn, whenever any player activates attack card, the target takes {FlandreValue1} damage.<br />Gain {FlandreValue2} <h>Calamity</h>."
+  },
+  "FlandreMPProblemChild": {
+    "Name": "Problem Child",
+    "Description": "<h>Offering</h> <Value1 />.<br />All <h>Flandre</h> <h>Multiplayer</h> cards gain <h>Unplayable</h> until the end of combat.<br />All attack cards cost {FlandreMana} less until the end of combat.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />All <h>Flandre</h> <h>Multiplayer</h> cards gain <h>Unplayable</h> until the end of combat.<br />All attack cards cost {FlandreMana} less until the end of combat."
+  },
+  "FlandreMPRiggedGame": {
+    "Name": "Rigged Game",
+    "Description": "All players gain {FlandreValue1} <h>Temporary Firepower</h> and <h>Temporary Spirit</h>.<br />All players put the next {FlandreValue2} rare card{FlandreValue2:plural one='' other='s'} sent to the discard pile on top of the draw pile.<br /><h>Scaled</h> <Mana />.",
+    "UpgradedDescription": "All players gain {FlandreValue1} <h>Temporary Firepower</h> and <h>Temporary Spirit</h>.<br />All players put the next {FlandreValue2} rare card{FlandreValue2:plural one='' other='s'} sent to the discard pile on top of the draw pile.<br /><h>Scaled</h> <Mana />."
+  },
+  "FlandreMurderMystery": {
+    "Name": "Murder Mystery",
+    "Description": "Gain {FlandreValue1} <h>Calamity</h>.<br />Draw {FlandreValue2:plural one='% card' other='% cards'}.",
+    "UpgradedDescription": "Gain {FlandreValue1} <h>Calamity</h>.<br />Draw {FlandreValue2:plural one='% card' other='% cards'}."
+  },
+  "FlandreNoMercy": {
+    "Name": "No Mercy",
+    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Put the {FlandreValue1} topmost attack card{FlandreValue1:plural one='' other='s'} from the draw pile into the hand.<br />The next {FlandreValue2} attack card{FlandreValue2:plural one='' other='s'} played cost{FlandreValue2:plural one='s' other=''} <Mana /> to play.<br />Gain {Value3} <h>Madness</h>.",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Put the {FlandreValue1} topmost attack card{FlandreValue1:plural one='' other='s'} from the draw pile into the hand.<br />The next {FlandreValue2} attack card{FlandreValue2:plural one='' other='s'} played cost{FlandreValue2:plural one='s' other=''} <Mana /> to play.<br />Gain {Value3} <h>Madness</h>."
+  },
+  "FlandreOnePair": {
+    "Name": "One Pair",
+    "Description": "Choose a non-<h>Misfortune</h>, non-Status card in the hand.<br />Choose up to {FlandreValue1} of {FlandreValue2} <hp>random</hp> card{FlandreValue2:plural one='' other='s'} of the same type to add to the hand. {FlandreValue1:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} <Mana /> and {FlandreValue1:plural one='has' other='have'} <h>Exile</h> and <h>Ethereal</h>.",
+    "UpgradedDescription": "Choose a non-<h>Misfortune</h>, non-Status card in the hand.<br />Choose up to {FlandreValue1} of {FlandreValue2} <hp>random</hp> card{FlandreValue2:plural one='' other='s'} of the same type to add to the hand. {FlandreValue1:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} <Mana /> and {FlandreValue1:plural one='has' other='have'} <h>Exile</h> and <h>Ethereal</h>."
+  },
+  "FlandreOrthrusBrigantine": {
+    "Name": "Orthrus Brigantine",
+    "Description": "Deal {FlandreDamage} damage.<br />Apply {FlandreValue1} <h>Ruin</h>.<br />Gain {FlandreValue2} life.<br />Repeat these effects on another <hp>random</hp> enemy.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage.<br />Apply {FlandreValue1} <h>Ruin</h>.<br />Gain {FlandreValue2} life.<br />Repeat these effects on another <hp>random</hp> enemy."
+  },
+  "FlandrePartnersinCrime": {
+    "Name": "Partners in Crime",
+    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />Deal {FlandreDamage} damage.<br />Play up to {FlandreValue1:plural one='% card' other='% cards'} in the hand.<br />For each attack card played this way, gain {FlandreValue2} <h>Firepower</h>. For each defense card played this way, gain {FlandreValue2} <h>Spirit</h>.",
+    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />Deal {FlandreDamage} damage.<br />Play up to {FlandreValue1:plural one='% card' other='% cards'} in the hand.<br />For each attack card played this way, gain {FlandreValue2} <h>Firepower</h>. For each defense card played this way, gain {FlandreValue2} <h>Spirit</h>."
+  },
+  "FlandrePathofDestruction": {
+    "Name": "Path of Destruction",
+    "Description": "<h>Offering</h> <Value1 />.<br />Gain {FlandreBlock} <h>Block</h>.<br />Draw {FlandreValue2:plural one='% card' other='% cards'}.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Gain {FlandreBlock} <h>Block</h>.<br />Draw {FlandreValue2:plural one='% card' other='% cards'}."
+  },
+  "FlandrePlayTogether": {
+    "Name": "Play Together",
+    "Description": "<h>Debut</h>: Gain {FlandreValue1} <h>Firepower</h>.<br />Choose up to {FlandreValue2:plural one='% card' other='% cards'} from the discard pile and return {FlandreValue2:plural one='it' other='them'} to the hand.",
+    "UpgradedDescription": "<h>Debut</h>: Gain {FlandreValue1} <h>Firepower</h>.<br />Choose up to {FlandreValue2:plural one='% card' other='% cards'} from the discard pile and return {FlandreValue2:plural one='it' other='them'} to the hand."
+  },
+  "FlandrePrayerofRuin": {
+    "Name": "Prayer of Ruin",
+    "Description": "Apply {FlandreValue1} <h>Ruin</h>.<br />Apply additional <h>Ruin</h> equal to the target's lost life.<br /><h>Expel</h>: Gain {FlandreValue2} <Money />.",
+    "UpgradedDescription": "Apply {FlandreValue1} <h>Ruin</h>.<br />Apply additional <h>Ruin</h> equal to the target's lost life.<br /><h>Expel</h>: Gain {FlandreValue2} <Money />."
+  },
+  "FlandreRecklessBullet": {
+    "Name": "Reckless Bullet",
+    "Description": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br />Add {FlandreValue2} <hp>random</hp> <h>Crystal{FlandreValue2:plural one='' other='s'}</h> to the hand.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br />Add {FlandreValue2} <hp>random</hp> <h>Crystal{FlandreValue2:plural one='' other='s'}+{Value3}</h> to the hand."
+  },
+  "FlandreReliableLittleSister": {
+    "Name": "Reliable Little Sister",
+    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Gain additional <h>Block</h> equal to <PlayerName />'s maximum life.",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Gain additional <h>Block</h> equal to <PlayerName />'s maximum life."
+  },
+  "FlandreRipandTear": {
+    "Name": "Rip and Tear",
+    "Description": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br />If the target has {FlandreValue2} or less life, <h>Destroy</h> it.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br />If the target has {FlandreValue2} or less life, <h>Destroy</h> it."
+  },
+  "FlandreRipplesof495Years": {
+    "Name": "Ripples of 495 Years",
+    "Description": "<PlayerName /> is immune to all debuffs.<br />Convert all mana <PlayerName /> would gain this combat to <ManaP />.<br />Unspent mana isn't lost at the end of each turn.<br />All cards are played {FlandreValue1:plural one='% additional time' other='% additional times'}.<br />These effects does not stack.",
+    "UpgradedDescription": "<PlayerName /> is immune to all debuffs.<br />Convert all mana <PlayerName /> would gain this combat to <ManaP />.<br />Unspent mana isn't lost at the end of each turn.<br />All cards are played {FlandreValue1:plural one='% additional time' other='% additional times'}.<br />These effects does not stack."
+  },
+  "FlandreRoseCross": {
+    "Name": "Rose Cross",
+    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />Apply {FlandreValue1} <h>Hellfire</h> to each enemy.",
+    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />Apply {FlandreValue1} <h>Hellfire</h> to each enemy."
+  },
+  "FlandreRuinedFortress": {
+    "Name": "Ruined Fortress",
+    "Description": "Enemies with <h>Ruin</h> deal <Value1 />% less attack damage.<br />This effect does not stack.",
+    "UpgradedDescription": "Enemies with <h>Ruin</h> deal <Value1 />% less attack damage.<br />This effect does not stack.<br />Apply {FlandreValue2} <h>Ruin</h> to each enemy."
+  },
+  "FlandreScarletCasino": {
+    "Name": "Scarlet Casino",
+    "Description": "For every <Value1 /> <hp>random</hp> effect <h>Flandre</h> cards activated, gain <Value2 /> of <Value1 /> random effects:<br />All cards cost {Amount1} less this turn.<br />The next {Amount2:plural one='% card is' other='% cards are'} played <Value2 />additional time$t(plurals.-s, { 'count': {{Value2}} }).<br />Prevent the next {Amount3:plural one='% time' other='% times'} <PlayerName /> would lose life.<br /><h>Upgrade</h> {Amount4} random card{Amount4:plural one='' other='s'} in the <h>battlefield</h> {Value4:plural one='% time' other='% times'}.<br />Gain {Amount5}.<br />Gain {Amount6} <Money />.",
+    "UpgradedDescription": "For every <Value1 /> <hp>random</hp> effect <h>Flandre</h> cards activated, gain <Value2 /> of <Value1 /> random effects:<br />All cards cost {Amount1} less this turn.<br />The next {Amount2:plural one='% card is' other='% cards are'} played <Value2 />additional time$t(plurals.-s, { 'count': {{Value2}} }).<br />Prevent the next {Amount3:plural one='% time' other='% times'} <PlayerName /> would lose life.<br /><h>Upgrade</h> {Amount4} random card{Amount4:plural one='' other='s'} in the <h>battlefield</h> {Value4:plural one='% time' other='% times'}.<br />Gain {Amount5}.<br />Gain {Amount6} <Money />.<br />Trigger {SelfName} once."
+  },
+  "FlandreScarletNihility": {
+    "Name": "Scarlet Nihility",
+    "Description": "Deal {FlandreDamage} damage.<br />For each unspent mana, increase {SelfName}'s damage by {FlandreValue1}.<br />If the target has <Value2 />% or less life, <h>Destroy</h> it.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage.<br />For each unspent mana, increase {SelfName}'s damage by {FlandreValue1}.<br />If the target has <Value2 />% or less life, <h>Destroy</h> it."
+  },
+  "FlandreScaryLittleSister": {
+    "Name": "Scary Little Sister",
+    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Apply {FlandreValue1} <h>Weak</h> to each enemy.<br /><h>When Exiled</h>: Gain {FlandreMana} and draw {FlandreValue2:plural one='% card' other='% cards'}.",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Apply {FlandreValue1} <h>Weak</h> to each enemy.<br /><h>When Exiled</h>: Gain {FlandreMana} and draw {FlandreValue2:plural one='% card' other='% cards'}."
+  },
+  "FlandreSisteroftheDevil": {
+    "Name": "Sister of the Devil",
+    "Description": "<h>At the start of combat</h>: <h>Exile</h> {SelfName}, gain <h>Sister of the Devil</h> and {FlandreMana}.",
+    "UpgradedDescription": "<h>At the start of combat</h>: <h>Exile</h> {SelfName}, gain <h>Sister of the Devil</h> and {FlandreMana}."
+  },
+  "FlandreSoulMelter": {
+    "Name": "Soul Melter",
+    "Description": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br />Apply {FlandreValue2} <h>Hellfire</h> and {Value3} <h>Ruin</h>.<br /><h>Expel</h>: Gain {Value4} maximum life.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br />Apply {FlandreValue2} <h>Hellfire</h> and {Value3} <h>Ruin</h>.<br /><h>Expel</h>: Gain {Value4} maximum life."
+  },
+  "FlandreSpectrometer": {
+    "Name": "Spectrometer",
+    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Add {FlandreValue1} <hp>random</hp> <h>Crystal{FlandreValue1:plural one='' other='s'}</h> to the draw and discard piles.",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Add {FlandreValue1} <hp>random</hp> <h>Crystal{FlandreValue1:plural one='' other='s'}</h> to the draw and discard piles."
+  },
+  "FlandreSpellBreak": {
+    "Name": "Spell Break",
+    "Description": "Deal {FlandreValue1} damage.<br />The target cannot act for <Value2 />turn$t(plurals.-s, { 'count': {{Value2}} }).<br />The target is immune to <h>Spell Break</h> for {Value3:plural one='% turn' other='% turns'}.",
+    "UpgradedDescription": "Deal {FlandreValue1} damage.<br />The target cannot act for <Value2 />turn$t(plurals.-s, { 'count': {{Value2}} }).<br />The target is immune to <h>Spell Break</h> for {Value3:plural one='% turn' other='% turns'}."
+  },
+  "FlandreStarbowBreak": {
+    "Name": "Starbow Break",
+    "Description": "<h>For each mana of a different color spent</h>: Deal {FlandreDamage} damage to each enemy.<br />{SelfName} deals {FlandreValue1} more damage for each attack card in the hand.<br />Enemies with <h>Barrier</h> or <h>Block</h> are dealt {FlandreValue2:plural one='% time' other='% times'} that much damage instead.",
+    "UpgradedDescription": "<h>For each mana of a different color spent</h>: Deal {FlandreDamage} damage to each enemy.<br />{SelfName} deals {FlandreValue1} more damage for each attack card in the hand.<br />Enemies with <h>Barrier</h> or <h>Block</h> are dealt {FlandreValue2:plural one='% time' other='% times'} that much damage instead."
+  },
+  "FlandreStraightFlush": {
+    "Name": "Straight Flush",
+    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue1} <h>Firepower</h>, <h>Spirit</h>, <h>Amulet</h>, and <h>Ward</h>.<br />If there are <Value2 /> or more cards of the same type in the hand, {SelfName} costs <Mana /> to play.",
+    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue1} <h>Firepower</h>, <h>Spirit</h>, <h>Amulet</h>, and <h>Ward</h>.<br />If there are <Value2 /> or more cards of the same type in the hand, {SelfName} costs <Mana /> to play."
+  },
+  "FlandreSuperhumanCatastrophePilgrimage": {
+    "Name": "Superhuman Catastrophe Pilgrimage",
+    "Description": "<h>Offering</h> <Value1 />.<br />Add {FlandreValue2} <hp>random</hp> attack, defense, skill, and <h>Ability</h> cards to the hand. They <h>temporarily cost</h> <Mana /> and have <h>Exile</h> and <h>Ethereal</h>.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Add {FlandreValue2} <hp>random</hp> attack, defense, skill, and <h>Ability</h> cards to the hand. They <h>temporarily cost</h> <Mana /> and have <h>Exile</h> and <h>Ethereal</h>."
+  },
+  "FlandreTheCentennialFestivalforMagicalGirls": {
+    "Name": "The Centennial Festival for Magical Girls",
+    "Description": "All <h>Magical Girl</h> cards can be <h>Upgraded</h> <Value1 />additional time$t(plurals.-s, { 'count': {{Value1}} }).<br />All <h>Flandre</h> cards gain <h>Magical Girl</h> until the end of combat.<br />Whenever <PlayerName /> adds a card during this combat, <h>Upgrade</h> it.<br />These effects does not stack.",
+    "UpgradedDescription": "All <h>Magical Girl</h> cards can be <h>Upgraded</h> <Value1 />additional time$t(plurals.-s, { 'count': {{Value1}} }).<br />All <h>Flandre</h> cards gain <h>Magical Girl</h> until the end of combat.<br />Whenever <PlayerName /> adds a card during this combat, <h>Upgrade</h> it.<br />These effects does not stack.<br /><h>Upgrade</h> all cards {FlandreValue2:plural one='% time' other='% times'} until the end of combat."
+  },
+  "FlandreTheMousetrap": {
+    "Name": "The Mousetrap",
+    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue1} <h>Calamity</h>.<br />At the start of <PlayerName />'s next turn, deal damage to each enemy equal to the amount of damage taken last turn.",
+    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue1} <h>Calamity</h>.<br />At the start of <PlayerName />'s next turn, deal damage to each enemy equal to the amount of damage taken last turn."
+  },
+  "FlandreThePsychoticandCuteGuest": {
+    "Name": "The Psychotic and Cute Guest",
+    "Description": "Whenever an attack card is activated, gain {FlandreValue1} <h>Calamity</h> and <h>Firepower</h>.",
+    "UpgradedDescription": "Whenever an attack card is activated, gain {FlandreValue1} <h>Calamity</h> and <h>Firepower</h>."
+  },
+  "FlandreTirelessVampire": {
+    "Name": "Tireless Vampire",
+    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Gain {FlandreValue1} <hp>random</hp> mana.",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Gain {FlandreValue1} <hp>random</hp> mana."
+  },
+  "FlandreToolDestroyingObstacles": {
+    "Name": "Destroying Obstacles",
+    "Description": "Remove a card from the library.<br /><h>Limited【{DeckCounter}】</h>"
+  },
+  "FlandreToolTheCureforMadness": {
+    "Name": "The Cure for Madness",
+    "Description": "Remove all debuffs from <PlayerName />.<br />Lose <Value1 /> <h>Madness</h>.<br /><h>Limited【{DeckCounter}】</h>"
+  },
+  "FlandreTrueDevilsCurtain": {
+    "Name": "True Devil's Curtain",
+    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Gain {FlandreValue1} life.",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Gain {FlandreValue1} life."
+  },
+  "FlandreTrueDevilsMantle": {
+    "Name": "True Devil's Mantle",
+    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Gain {FlandreValue1} life.",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Gain {FlandreValue1} life."
+  },
+  "FlandreTrueDevilsRain": {
+    "Name": "True Devil's Rain",
+    "Description": "Deal {FlandreDamage} damage.<br />Gain {FlandreValue1} life.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage.<br />Gain {FlandreValue1} life."
+  },
+  "FlandreTrueDevilsShot": {
+    "Name": "True Devil's Shot",
+    "Description": "Deal {FlandreDamage} damage.<br />Gain {FlandreValue1} life.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage.<br />Gain {FlandreValue1} life."
+  },
+  "FlandreUltraViolence": {
+    "Name": "Ultra-Violence",
+    "Description": "Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Vulnerable</h> to each enemy.<br />Add <hp>random</hp> attack cards to the hand until it's full. They <h>temporarily cost</h> <Mana /> and have <h>Exile</h> and <h>Ethereal</h>.<br />Gain <Value2 /> <h>Madness</h>.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Vulnerable</h> to each enemy.<br />Add <hp>random</hp> attack cards to the hand until it's full. They <h>temporarily cost</h> <Mana /> and have <h>Exile</h> and <h>Ethereal</h>.<br />Gain <Value2 /> <h>Madness</h>."
+  },
+  "FlandreUncontrollableBomb": {
+    "Name": "Uncontrollable Bomb",
+    "Description": "<hp>Randomly</hp> deal <Value1 /> damage to <PlayerName /> and gain {FlandreValue2} <h>Firepower</h>, deal {FlandreDamage} damage to each enemy, or deal <Value1 /> damage to <PlayerName /> and deal {FlandreDamage} damage to each enemy.",
+    "UpgradedDescription": "<hp>Randomly</hp> deal <Value1 /> damage to <PlayerName /> and gain {FlandreValue2} <h>Firepower</h>, deal {FlandreDamage} damage to each enemy, or deal <Value1 /> damage to <PlayerName /> and deal {FlandreDamage} damage to each enemy."
+  },
+  "FlandreUnholySanctuary": {
+    "Name": "Unholy Sanctuary",
+    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br /><PlayerName /> takes half as much damage until the next turn.<br />At the start of <PlayerName />'s next turn, gain life equal to the amount of life lost last turn.",
+    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br /><PlayerName /> takes half as much damage until the next turn.<br />At the start of <PlayerName />'s next turn, gain life equal to the amount of life lost last turn."
+  },
+  "FlandreUnstablePower": {
+    "Name": "Unstable Power",
+    "Description": "<PlayerName />'s attacks deal between <Value1 />% to {FlandreValue2}% damage.<br />This effect does not stack.<br />Gain {Value3} <h>Madness</h>.",
+    "UpgradedDescription": "<PlayerName />'s attacks deal between <Value1 />% to {FlandreValue2}% damage.<br />This effect does not stack.<br />Gain {Value3} <h>Madness</h>."
+  },
+  "FlandreViolentSpread": {
+    "Name": "Violent Spread",
+    "Description": "Deal {FlandreDamage} damage to a <hp>random</hp> enemy {FlandreValue1:plural one='% time' other='% times'}.<br />Gain {FlandreValue2} <h>Calamity</h>.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage to a <hp>random</hp> enemy {FlandreValue1:plural one='% time' other='% times'}.<br />Gain {FlandreValue2} <h>Calamity</h>."
+  },
+  "FlandreWalpurgisNight": {
+    "Name": "Walpurgis Night",
+    "Description": "Increase the maximum stack of <h>Ruin</h> to <Value1 />.<br />Whenever <PlayerName /> deals attack damage, also apply half that much <h>Ruin</h>.<br />These effects does not stack.",
+    "UpgradedDescription": "Increase the maximum stack of <h>Ruin</h> to <Value1 />.<br />Whenever <PlayerName /> deals attack damage, also apply half that much <h>Ruin</h>.<br />These effects does not stack.<br />Apply {FlandreValue2} <h>Ruin</h> to each enemy."
+  },
+  "FlandreWarmonger": {
+    "Name": "Warmonger",
+    "Description": "<h>When {SelfName} enters the hand</h>: Gain {FlandreValue1} <h>Temporary Firepower</h> and <h>Temporary Spirit</h> for each enemy.",
+    "UpgradedDescription": "<h>When {SelfName} enters the hand</h>: Gain {FlandreValue1} <h>Temporary Firepower</h> and <h>Temporary Spirit</h> for each enemy."
+  },
+  "FlandreWatchtheWorldBurn": {
+    "Name": "Watch the World Burn",
+    "Description": "At the end of <PlayerName />'s turn, apply {FlandreValue1} <h>Hellfire</h> to each enemy.",
+    "UpgradedDescription": "At the end of <PlayerName />'s turn, apply {FlandreValue1} <h>Hellfire</h> to each enemy."
+  },
+  "FlandreWhitefire": {
+    "Name": "Whitefire",
+    "Description": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br /><h>Upgrade</h> all cards in the hand {FlandreValue2:plural one='% time' other='% times'} until the end of combat.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br /><h>Upgrade</h> all cards in the hand {FlandreValue2:plural one='% time' other='% times'} until the end of combat."
+  },
+
   "cardadrenaline": {
     "Name": "Adrenaline",
     "Description": "<h>While <PlayerName /> has less than</h> <he>50</he>% <h>life</h>: Whenever <PlayerName />'s life decreases, gain <Value1 /> <h>Attack Increase</h> and <Value2 /> <h>Blood Clot</h>."

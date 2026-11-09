@@ -1,0 +1,4 @@
+﻿AyaNewspaperBag:
+  Description: At the start of combat, add {Value1:plural one='% |Bunbunmaru Newspaper|' other='% |Bunbunmaru Newspapers|'} to the draw pile. {Value1:plural one='It |costs|' other='They |cost|'} {Mana}.
+  Name: Newspaper Bag
+  FlavorText: This is a newspaper bag made of newspaper that contains newspaper. It's eco-friendly!

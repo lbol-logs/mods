@@ -1,0 +1,35 @@
+﻿FlandreScarletCasino:
+  Description: >-
+    |p:ランダム効果|を持つ|フランドール|カードを{Value1}枚使用するたび、以下の{Value1}種類の効果からランダムに{Value2}種類を得る：
+
+    このターン、すべてのカードのコストが{Amount1}減少する。
+
+    次に使用する{Amount2}枚のカードは追加で{Value2}回発動する。
+
+    次に{PlayerName}がライフを失う{Amount3}回を無効化する。
+
+    |戦場|のランダムなカード{Amount4}枚を{Value4}回|アップグレード|する。
+
+    {Amount5}を得る。
+
+    <sprite="Point" name="Gold">{Amount6}を得る。
+  UpgradedDescription: >-
+    |p:ランダム効果|を持つ|フランドール|カードを{Value1}枚使用するたび、以下の{Value1}種類の効果からランダムに{Value2}種類を得る：
+
+    このターン、すべてのカードのコストが{Amount1}減少する。
+
+    次に使用する{Amount2}枚のカードは追加で{Value2}回発動する。
+
+    次に{PlayerName}がライフを失う{Amount3}回を無効化する。
+
+    |戦場|のランダムなカード{Amount4}枚を{Value4}回|アップグレード|する。
+
+    {Amount5}を得る。
+
+    <sprite="Point" name="Gold">{Amount6}を得る。
+
+    {SelfName}を1回誘発する。
+  Name: スカーレットカジノ
+  DetailText: '{SelfName}は戦闘中にランダム生成されず、複製もできない。'
+  ScarletCasino1Flandre: スカーレットカジノへようこそ！
+  ScarletCasino2Flandre: 賭けるのは、あなたの魂よ！

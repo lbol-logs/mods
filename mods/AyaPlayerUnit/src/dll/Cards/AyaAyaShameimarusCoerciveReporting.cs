@@ -1,0 +1,513 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using HarmonyLib;
+using LBoL.Base;
+using LBoL.Base.Extensions;
+using LBoL.Core;
+using LBoL.Core.Battle;
+using LBoL.Core.Battle.BattleActions;
+using LBoL.Core.Cards;
+using LBoL.Core.StatusEffects;
+using LBoL.Core.Units;
+using LBoL.EntityLib.Cards.Enemy;
+using LBoL.EntityLib.EnemyUnits.Character;
+using LBoL.EntityLib.StatusEffects.Enemy;
+using LBoL.Presentation.UI;
+using LBoLEntitySideloader.Attributes;
+using LBoLEntitySideloader.Entities;
+using UnityEngine;
+
+namespace AyaShameimaru.Cards
+{
+	[EntityLogic(typeof(AyaAyaShameimarusCoerciveReportingDef))]
+	public sealed class AyaAyaShameimarusCoerciveReporting : Card
+	{
+		public int Value3
+		{
+			get
+			{
+				return 4;
+			}
+		}
+
+		public int Value4
+		{
+			get
+			{
+				return 8;
+			}
+		}
+
+		public int Value5
+		{
+			get
+			{
+				return 16;
+			}
+		}
+
+		public int Value6
+		{
+			get
+			{
+				return 32;
+			}
+		}
+
+		public string AyaShameimarusCoerciveReportingSleep1Aya
+		{
+			[MethodImpl(MethodImplOptions.NoInlining)]
+			get
+			{
+				return this.LocalizeProperty(<Module>.\u200C\u200F\u206A\u200D\u202B\u200C\u206F\u206A\u200C\u206D\u206C\u206E\u200C\u202B\u200C\u200C\u202A\u206D\u202E\u200F\u202D\u206C\u206C\u202B\u206A\u202C\u202D\u206C\u202C\u200D\u200F\u200F\u202C\u202C\u202B\u200D\u200E\u206D\u206D\u202E\u202E<string>(-105704453), true, true);
+			}
+		}
+
+		public string AyaShameimarusCoerciveReportingEscape1Aya
+		{
+			[MethodImpl(MethodImplOptions.NoInlining)]
+			get
+			{
+				return this.LocalizeProperty(<Module>.\u202D\u200F\u202D\u200B\u206C\u200B\u202B\u206C\u206E\u206E\u200C\u206B\u200D\u206B\u202B\u202A\u206F\u200C\u202E\u200D\u200B\u200B\u206F\u206B\u202C\u206F\u202E\u200B\u200B\u202C\u200C\u200E\u202C\u202C\u202C\u202B\u206D\u200D\u200E\u202A\u202E<string>(-2127681117), true, true);
+			}
+		}
+
+		public string AyaShameimarusCoerciveReportingEscape2Aya
+		{
+			[MethodImpl(MethodImplOptions.NoInlining)]
+			get
+			{
+				return this.LocalizeProperty(<Module>.\u200C\u200F\u206A\u200D\u202B\u200C\u206F\u206A\u200C\u206D\u206C\u206E\u200C\u202B\u200C\u200C\u202A\u206D\u202E\u200F\u202D\u206C\u206C\u202B\u206A\u202C\u202D\u206C\u202C\u200D\u200F\u200F\u202C\u202C\u202B\u200D\u200E\u206D\u206D\u202E\u202E<string>(1820559378), true, true);
+			}
+		}
+
+		public string AyaShameimarusCoerciveReportingEscape31Aya
+		{
+			[MethodImpl(MethodImplOptions.NoInlining)]
+			get
+			{
+				return this.LocalizeProperty(<Module>.\u200C\u200F\u206A\u200D\u202B\u200C\u206F\u206A\u200C\u206D\u206C\u206E\u200C\u202B\u200C\u200C\u202A\u206D\u202E\u200F\u202D\u206C\u206C\u202B\u206A\u202C\u202D\u206C\u202C\u200D\u200F\u200F\u202C\u202C\u202B\u200D\u200E\u206D\u206D\u202E\u202E<string>(180238366), true, true);
+			}
+		}
+
+		public string AyaShameimarusCoerciveReportingEscape32Aya
+		{
+			[MethodImpl(MethodImplOptions.NoInlining)]
+			get
+			{
+				return this.LocalizeProperty(<Module>.\u202D\u200F\u202D\u200B\u206C\u200B\u202B\u206C\u206E\u206E\u200C\u206B\u200D\u206B\u202B\u202A\u206F\u200C\u202E\u200D\u200B\u200B\u206F\u206B\u202C\u206F\u202E\u200B\u200B\u202C\u200C\u200E\u202C\u202C\u202C\u202B\u206D\u200D\u200E\u202A\u202E<string>(1434388903), true, true);
+			}
+		}
+
+		public string AyaShameimarusCoerciveReportingEscape33Aya
+		{
+			[MethodImpl(MethodImplOptions.NoInlining)]
+			get
+			{
+				return this.LocalizeProperty(<Module>.\u206A\u202A\u202B\u206E\u202B\u206A\u202E\u206A\u202A\u200D\u202B\u206E\u200B\u202A\u206D\u206E\u200C\u206B\u200D\u206B\u200F\u202A\u206D\u206E\u206E\u200B\u200C\u206D\u206D\u200D\u200E\u202A\u206C\u206A\u202D\u206C\u202B\u200E\u206A\u200F\u202E<string>(-998137681), true, true);
+			}
+		}
+
+		public string AyaShameimarusCoerciveReportingDetonate1Aya
+		{
+			[MethodImpl(MethodImplOptions.NoInlining)]
+			get
+			{
+				return this.LocalizeProperty(<Module>.\u200F\u206C\u206A\u202D\u200D\u202B\u202B\u206B\u206A\u202C\u206C\u206B\u200B\u200D\u202E\u206F\u206C\u206E\u202E\u200D\u200F\u206D\u202A\u200B\u206D\u200B\u206F\u200D\u206B\u202E\u200F\u206D\u200B\u200F\u206D\u200D\u202C\u206C\u206C\u202E<string>(-1406094917), true, true);
+			}
+		}
+
+		public string AyaShameimarusCoerciveReportingDetonate2Rin
+		{
+			[MethodImpl(MethodImplOptions.NoInlining)]
+			get
+			{
+				return this.LocalizeProperty(<Module>.\u202D\u206A\u202E\u202B\u206C\u200E\u206B\u206E\u200F\u206E\u200C\u202E\u206F\u200C\u206D\u200B\u206E\u200F\u200D\u202A\u206F\u202E\u200E\u206D\u206D\u206F\u202D\u200C\u206F\u202A\u200B\u202E\u206C\u206A\u206B\u202A\u206C\u202E\u200D\u202B\u202E<string>(-190982736), true, true);
+			}
+		}
+
+		public string AyaShameimarusCoerciveReportingDetonate3Aya
+		{
+			[MethodImpl(MethodImplOptions.NoInlining)]
+			get
+			{
+				return this.LocalizeProperty(<Module>.\u202D\u200F\u202D\u200B\u206C\u200B\u202B\u206C\u206E\u206E\u200C\u206B\u200D\u206B\u202B\u202A\u206F\u200C\u202E\u200D\u200B\u200B\u206F\u206B\u202C\u206F\u202E\u200B\u200B\u202C\u200C\u200E\u202C\u202C\u202C\u202B\u206D\u200D\u200E\u202A\u202E<string>(1806219319), true, true);
+			}
+		}
+
+		public string AyaShameimarusCoerciveReportingDetonate4Rin
+		{
+			[MethodImpl(MethodImplOptions.NoInlining)]
+			get
+			{
+				return this.LocalizeProperty(<Module>.\u200F\u206C\u206A\u202D\u200D\u202B\u202B\u206B\u206A\u202C\u206C\u206B\u200B\u200D\u202E\u206F\u206C\u206E\u202E\u200D\u200F\u206D\u202A\u200B\u206D\u200B\u206F\u200D\u206B\u202E\u200F\u206D\u200B\u200F\u206D\u200D\u202C\u206C\u206C\u202E<string>(655937703), true, true);
+			}
+		}
+
+		public string AyaShameimarusCoerciveReportingDetonate5Rin
+		{
+			[MethodImpl(MethodImplOptions.NoInlining)]
+			get
+			{
+				return this.LocalizeProperty(<Module>.\u202D\u206A\u202E\u202B\u206C\u200E\u206B\u206E\u200F\u206E\u200C\u202E\u206F\u200C\u206D\u200B\u206E\u200F\u200D\u202A\u206F\u202E\u200E\u206D\u206D\u206F\u202D\u200C\u206F\u202A\u200B\u202E\u206C\u206A\u206B\u202A\u206C\u202E\u200D\u202B\u202E<string>(-278567332), true, true);
+			}
+		}
+
+		public string AyaShameimarusCoerciveReportingNohofDarkness1Aya
+		{
+			[MethodImpl(MethodImplOptions.NoInlining)]
+			get
+			{
+				return this.LocalizeProperty(<Module>.\u200F\u206C\u206A\u202D\u200D\u202B\u202B\u206B\u206A\u202C\u206C\u206B\u200B\u200D\u202E\u206F\u206C\u206E\u202E\u200D\u200F\u206D\u202A\u200B\u206D\u200B\u206F\u200D\u206B\u202E\u200F\u206D\u200B\u200F\u206D\u200D\u202C\u206C\u206C\u202E<string>(-1258006305), true, true);
+			}
+		}
+
+		public string AyaShameimarusCoerciveReportingNohofDarkness2Kokoro
+		{
+			[MethodImpl(MethodImplOptions.NoInlining)]
+			get
+			{
+				return this.LocalizeProperty(<Module>.\u200C\u200F\u206A\u200D\u202B\u200C\u206F\u206A\u200C\u206D\u206C\u206E\u200C\u202B\u200C\u200C\u202A\u206D\u202E\u200F\u202D\u206C\u206C\u202B\u206A\u202C\u202D\u206C\u202C\u200D\u200F\u200F\u202C\u202C\u202B\u200D\u200E\u206D\u206D\u202E\u202E<string>(1028869259), true, true);
+			}
+		}
+
+		protected override IEnumerable<BattleAction> Actions(UnitSelector selector, ManaGroup consumingMana, Interaction precondition)
+		{
+			AyaAyaShameimarusCoerciveReporting.<Actions>d__36 <Actions>d__ = new AyaAyaShameimarusCoerciveReporting.<Actions>d__36(-2);
+			<Actions>d__.<>4__this = this;
+			<Actions>d__.<>3__selector = selector;
+			return <Actions>d__;
+		}
+
+		private void OnEnemySpawningSpawn(UnitEventArgs args)
+		{
+			if (AyaAyaShameimarusCoerciveReporting.\u206A\u200B\u200E\u202B\u200F\u200D\u200B\u200C\u206E\u202D\u206B\u200E\u200E\u206A\u206C\u202B\u200B\u202B\u206B\u202A\u206A\u206F\u202E\u202A\u202B\u206F\u200D\u202A\u200B\u202B\u200D\u200E\u200F\u206A\u206B\u202E\u202C\u200D\u206D\u206C\u202E(AyaAyaShameimarusCoerciveReporting.\u200E\u206C\u202B\u200D\u200C\u206D\u200E\u200D\u206D\u200E\u206A\u202E\u200B\u200D\u200D\u200E\u202A\u200E\u200C\u200D\u200F\u206D\u202E\u206C\u200C\u206C\u206D\u206D\u202D\u200B\u202C\u200C\u206B\u202C\u206F\u202E\u202C\u202A\u200B\u206E\u202E(this)).Count<EnemyUnit>() == AyaAyaShameimarusCoerciveReporting.\u206D\u200B\u202A\u206A\u200D\u200E\u200E\u200E\u200F\u200C\u202C\u206F\u200B\u202E\u200F\u202A\u200F\u200F\u206B\u206A\u206E\u200B\u206C\u206E\u202B\u200F\u200D\u200E\u206A\u200F\u202E\u206F\u202C\u200C\u202B\u202A\u206E\u202E\u200C\u202D\u202E(AyaAyaShameimarusCoerciveReporting.\u200E\u206C\u202B\u200D\u200C\u206D\u200E\u200D\u206D\u200E\u206A\u202E\u200B\u200D\u200D\u200E\u202A\u200E\u200C\u200D\u200F\u206D\u202E\u206C\u200C\u206C\u206D\u206D\u202D\u200B\u202C\u200C\u206B\u202C\u206F\u202E\u202C\u202A\u200B\u206E\u202E(this))._index)
+			{
+				for (;;)
+				{
+					IL_0025:
+					int num = 1442486668;
+					for (;;)
+					{
+						int num2 = num;
+						uint num3;
+						switch ((num3 = (uint)(~(uint)(~(-num2) + 1859473421 * 1389204907))) % 5U)
+						{
+						case 0U:
+							AyaAyaShameimarusCoerciveReporting.\u200C\u200C\u200E\u202E\u200E\u206F\u200F\u206F\u206F\u200B\u202A\u200B\u206F\u206C\u202E\u202D\u206C\u206B\u202E\u200E\u202C\u206E\u202E\u202D\u200D\u202E\u200D\u206E\u200E\u206A\u206A\u206C\u200D\u200B\u206E\u200B\u206F\u206C\u206C\u202E(args, true);
+							num = (int)((num3 * 3040202900U) ^ 2852187596U);
+							continue;
+						case 1U:
+							AyaAyaShameimarusCoerciveReporting.\u200E\u206D\u200B\u200D\u202D\u202C\u202D\u202A\u206B\u206D\u200F\u206B\u200F\u200E\u206E\u202E\u206B\u206D\u202E\u200F\u206F\u200F\u206F\u202E\u200E\u200D\u200E\u200C\u200D\u200B\u202D\u206A\u206C\u206A\u200F\u206F\u206A\u200C\u206E\u206F\u202E(args, this);
+							num = (int)((num3 * 2066709848U) ^ 1668587447U);
+							continue;
+						case 3U:
+							num = (int)((AyaAyaShameimarusCoerciveReporting.\u202B\u202E\u200E\u202A\u202E\u206B\u206F\u200F\u206C\u200B\u200E\u206A\u200E\u200E\u200E\u206A\u200E\u200C\u200B\u206A\u206B\u202D\u206D\u202A\u206A\u202C\u206A\u200F\u200D\u202A\u202C\u202C\u200C\u202A\u200D\u206A\u202B\u200F\u206C\u206C\u202E(args) ? 1067044473U : 1218917532U) ^ (num3 * 3825186846U));
+							continue;
+						case 4U:
+							goto IL_0025;
+						}
+						goto Block_1;
+					}
+				}
+				Block_1:;
+			}
+		}
+
+		private void OnAllEnemyTurnEndedRin(GameEventArgs args)
+		{
+			int num = AyaAyaShameimarusCoerciveReporting.\u206A\u200B\u200E\u202B\u200F\u200D\u200B\u200C\u206E\u202D\u206B\u200E\u200E\u206A\u206C\u202B\u200B\u202B\u206B\u202A\u206A\u206F\u202E\u202A\u202B\u206F\u200D\u202A\u200B\u202B\u200D\u200E\u200F\u206A\u206B\u202E\u202C\u200D\u206D\u206C\u202E(AyaAyaShameimarusCoerciveReporting.\u200E\u206C\u202B\u200D\u200C\u206D\u200E\u200D\u206D\u200E\u206A\u202E\u200B\u200D\u200D\u200E\u202A\u200E\u200C\u200D\u200F\u206D\u202E\u206C\u200C\u206C\u206D\u206D\u202D\u200B\u202C\u200C\u206B\u202C\u206F\u202E\u202C\u202A\u200B\u206E\u202E(this)).Count<EnemyUnit>();
+			Rin rin = AyaAyaShameimarusCoerciveReporting.\u206A\u200B\u200E\u202B\u200F\u200D\u200B\u200C\u206E\u202D\u206B\u200E\u200E\u206A\u206C\u202B\u200B\u202B\u206B\u202A\u206A\u206F\u202E\u202A\u202B\u206F\u200D\u202A\u200B\u202B\u200D\u200E\u200F\u206A\u206B\u202E\u202C\u200D\u206D\u206C\u202E(AyaAyaShameimarusCoerciveReporting.\u200E\u206C\u202B\u200D\u200C\u206D\u200E\u200D\u206D\u200E\u206A\u202E\u200B\u200D\u200D\u200E\u202A\u200E\u200C\u200D\u200F\u206D\u202E\u206C\u200C\u206C\u206D\u206D\u202D\u200B\u202C\u200C\u206B\u202C\u206F\u202E\u202C\u202A\u200B\u206E\u202E(this)).FirstOrDefault((EnemyUnit e) => e is Rin) as Rin;
+			for (;;)
+			{
+				IL_0046:
+				int num2 = -1773666698;
+				for (;;)
+				{
+					int num3 = num2;
+					uint num4;
+					switch ((num4 = (uint)((-num3 ^ (1780477017 * -533554788 - (-211393850 ^ -988642836))) + -490703646 * 2118811653 - 732396665)) % 5U)
+					{
+					case 0U:
+					{
+						RinSummon rinSummon;
+						AyaAyaShameimarusCoerciveReporting.\u206E\u200E\u202C\u206D\u206A\u202D\u202A\u206A\u200E\u200F\u206D\u206A\u202A\u200F\u202E\u202C\u202D\u206D\u206E\u206A\u200B\u202A\u202D\u200E\u206F\u206D\u202B\u206F\u202B\u206D\u202B\u206A\u206D\u200E\u206D\u200E\u206D\u206A\u206E\u206C\u202E(rinSummon, AyaAyaShameimarusCoerciveReporting.\u200E\u200F\u202C\u202E\u202E\u206A\u200D\u202C\u200B\u206A\u206E\u206C\u202B\u200C\u206C\u200F\u202D\u200D\u200F\u206C\u206A\u202A\u200B\u206D\u202D\u206B\u200C\u202B\u200C\u202D\u200F\u202E\u200C\u200D\u206C\u200D\u202D\u200F\u206B\u206F\u202E(4 - num, AyaAyaShameimarusCoerciveReporting.\u206E\u206B\u200D\u206E\u200B\u200D\u206B\u206E\u202B\u206B\u200E\u200C\u202D\u202E\u202D\u202E\u202A\u206B\u200F\u206B\u200D\u202D\u206D\u206D\u202E\u202A\u206C\u206E\u202E\u206B\u202D\u200D\u206A\u206C\u202E\u202E\u206D\u200B\u206A\u200F\u202E(rinSummon)));
+						num2 = (int)((num4 * 3429346829U) ^ 2900319347U);
+						continue;
+					}
+					case 1U:
+					{
+						AyaAyaShameimarusCoerciveReporting.\u206E\u200E\u202C\u206D\u206A\u202D\u202A\u206A\u200E\u200F\u206D\u206A\u202A\u200F\u202E\u202C\u202D\u206D\u206E\u206A\u200B\u202A\u202D\u200E\u206F\u206D\u202B\u206F\u202B\u206D\u202B\u206A\u206D\u200E\u206D\u200E\u206D\u206A\u206E\u206C\u202E(rin.SummonSe, AyaAyaShameimarusCoerciveReporting.\u200E\u200F\u202C\u202E\u202E\u206A\u200D\u202C\u200B\u206A\u206E\u206C\u202B\u200C\u206C\u200F\u202D\u200D\u200F\u206C\u206A\u202A\u200B\u206D\u202D\u206B\u200C\u202B\u200C\u202D\u200F\u202E\u200C\u200D\u206C\u200D\u202D\u200F\u206B\u206F\u202E(4 - num, AyaAyaShameimarusCoerciveReporting.\u206E\u206B\u200D\u206E\u200B\u200D\u206B\u206E\u202B\u206B\u200E\u200C\u202D\u202E\u202D\u202E\u202A\u206B\u200F\u206B\u200D\u202D\u206D\u206D\u202E\u202A\u206C\u206E\u202E\u206B\u202D\u200D\u206A\u206C\u202E\u202E\u206D\u200B\u206A\u200F\u202E(rin.SummonSe)));
+						RinSummon rinSummon;
+						num2 = (int)((rin.TryGetStatusEffect<RinSummon>(out rinSummon) ? 3930612306U : 3935217690U) ^ (num4 * 3569529190U));
+						continue;
+					}
+					case 3U:
+						goto IL_0046;
+					case 4U:
+						num2 = (int)(((rin != null) ? 2816132523U : 2545735626U) ^ (num4 * 1187803776U));
+						continue;
+					}
+					return;
+				}
+			}
+		}
+
+		private void OnPlayerDamageTakingExplode(DamageEventArgs args)
+		{
+			int num = AyaAyaShameimarusCoerciveReporting.\u202B\u202C\u200F\u200F\u206A\u206E\u200F\u206A\u200D\u206F\u200D\u200D\u200D\u206D\u200F\u202A\u200F\u202A\u206E\u200C\u200D\u202A\u200C\u202E\u202D\u206B\u200C\u200B\u200F\u206B\u202E\u202D\u206A\u202C\u200B\u200D\u200B\u206B\u200B\u206E\u202E(AyaAyaShameimarusCoerciveReporting.\u202D\u206D\u206D\u202E\u202C\u200D\u206A\u202D\u206E\u202B\u200B\u200B\u200C\u202B\u202D\u206D\u200C\u206A\u206D\u206A\u206E\u206A\u200D\u206B\u206D\u200B\u206D\u202A\u200F\u206C\u202A\u206F\u206A\u206E\u200C\u206C\u200B\u202E\u206C\u206F\u202E(args).Damage);
+			for (;;)
+			{
+				IL_0014:
+				int num2 = 1761103388;
+				for (;;)
+				{
+					int num3 = num2;
+					uint num4;
+					switch ((num4 = (uint)(~(-(1936436810 ^ -1263330761) - -num3) * 104090445)) % 5U)
+					{
+					case 0U:
+						goto IL_0014;
+					case 2U:
+						num2 = (int)(((num > 0) ? 211533688U : 233256295U) ^ (num4 * 2712287382U));
+						continue;
+					case 3U:
+						AyaAyaShameimarusCoerciveReporting.\u206A\u202D\u202A\u202A\u206E\u206B\u202C\u200D\u206D\u200C\u206B\u200F\u200C\u202E\u200C\u200B\u202D\u206C\u206A\u200E\u206C\u200D\u202B\u200D\u206E\u206A\u202C\u202B\u200D\u200C\u206D\u202A\u200D\u200C\u202A\u200F\u202E\u206A\u206D\u200C\u202E(args, AyaAyaShameimarusCoerciveReporting.\u202D\u206D\u206D\u202E\u202C\u200D\u206A\u202D\u206E\u202B\u200B\u200B\u200C\u202B\u202D\u206D\u200C\u206A\u206D\u206A\u206E\u206A\u200D\u206B\u206D\u200B\u206D\u202A\u200F\u206C\u202A\u206F\u206A\u206E\u200C\u206C\u200B\u202E\u206C\u206F\u202E(args).ReduceActualDamageBy(num));
+						num2 = (int)((num4 * 3591329357U) ^ 2002199373U);
+						continue;
+					case 4U:
+						AyaAyaShameimarusCoerciveReporting.\u206B\u200B\u206B\u200D\u200E\u200C\u202B\u206C\u202E\u206C\u206A\u200F\u202B\u200B\u202E\u200E\u206B\u200B\u200D\u200B\u206F\u206B\u200F\u202A\u206D\u206F\u202B\u202C\u206A\u202B\u202B\u206F\u200E\u202B\u200B\u206E\u200F\u200E\u202D\u202D\u202E(args, this);
+						num2 = (int)((num4 * 1794813436U) ^ 3254632963U);
+						continue;
+					}
+					goto Block_1;
+				}
+			}
+			Block_1:
+			AyaAyaShameimarusCoerciveReporting.\u202D\u200E\u202C\u202A\u202A\u202A\u202A\u200E\u206A\u200E\u200B\u200D\u206D\u202C\u200E\u202A\u200F\u206A\u206C\u202B\u202B\u200E\u200F\u202B\u206A\u206E\u200C\u206F\u200D\u200C\u206F\u200E\u202A\u206A\u206A\u202A\u202A\u202B\u206B\u202A\u202E(AyaAyaShameimarusCoerciveReporting.\u206E\u206E\u202E\u202B\u206E\u206E\u206A\u200C\u206A\u206F\u202D\u206D\u206C\u206D\u206E\u206A\u202E\u206E\u200D\u200C\u202A\u200B\u200C\u200E\u206B\u206E\u202D\u202E\u202C\u206B\u206A\u200B\u202C\u206F\u202D\u202B\u200F\u202D\u206E\u206C\u202E(AyaAyaShameimarusCoerciveReporting.\u200E\u206C\u202B\u200D\u200C\u206D\u200E\u200D\u206D\u200E\u206A\u202E\u200B\u200D\u200D\u200E\u202A\u200E\u200C\u200D\u200F\u206D\u202E\u206C\u200C\u206C\u206D\u206D\u202D\u200B\u202C\u200C\u206B\u202C\u206F\u202E\u202C\u202A\u200B\u206E\u202E(this))).RemoveHandler(new GameEventHandler<DamageEventArgs>(this.OnPlayerDamageTakingExplode), (GameEventPriority)0);
+		}
+
+		private void OnPlayerDamageReceivingKokoroDark(DamageEventArgs args)
+		{
+			if (AyaAyaShameimarusCoerciveReporting.\u200F\u202D\u206C\u206D\u206D\u206B\u206D\u200E\u200C\u202D\u200C\u202B\u202A\u206A\u206D\u200B\u202C\u206F\u206F\u202E\u206B\u202C\u202B\u202A\u206B\u200C\u202A\u206B\u202B\u200C\u206D\u200C\u200E\u200E\u202E\u206F\u202C\u206E\u206D\u200E\u202E(args) is Kokoro)
+			{
+				for (;;)
+				{
+					IL_0010:
+					int num = 1360592716;
+					for (;;)
+					{
+						int num2 = num;
+						uint num3;
+						switch ((num3 = (uint)((((num2 - ((-1302028623 * ~577096910) ^ -(-378071404))) * 1541370457) ^ (951569396 * -1503538627)) - -1128943451)) % 8U)
+						{
+						case 0U:
+						{
+							DamageInfo damageInfo;
+							int num4 = AyaAyaShameimarusCoerciveReporting.\u202B\u202C\u200F\u200F\u206A\u206E\u200F\u206A\u200D\u206F\u200D\u200D\u200D\u206D\u200F\u202A\u200F\u202A\u206E\u200C\u200D\u202A\u200C\u202E\u202D\u206B\u200C\u200B\u200F\u206B\u202E\u202D\u206A\u202C\u200B\u200D\u200B\u206B\u200B\u206E\u202E(damageInfo.Damage);
+							num = (int)((num3 * 2872516163U) ^ 3704907962U);
+							continue;
+						}
+						case 1U:
+						{
+							DamageInfo damageInfo;
+							num = (int)(((damageInfo.DamageType != DamageType.Reaction) ? 198738183U : 1435381124U) ^ (num3 * 2154164767U));
+							continue;
+						}
+						case 3U:
+							goto IL_0010;
+						case 4U:
+						{
+							int num4;
+							num = (int)(((num4 <= 0) ? 3475838044U : 1196492721U) ^ (num3 * 2593685135U));
+							continue;
+						}
+						case 5U:
+						{
+							DamageInfo damageInfo = AyaAyaShameimarusCoerciveReporting.\u202D\u206D\u206D\u202E\u202C\u200D\u206A\u202D\u206E\u202B\u200B\u200B\u200C\u202B\u202D\u206D\u200C\u206A\u206D\u206A\u206E\u206A\u200D\u206B\u206D\u200B\u206D\u202A\u200F\u206C\u202A\u206F\u206A\u206E\u200C\u206C\u200B\u202E\u206C\u206F\u202E(args);
+							num = (int)((num3 * 2024941048U) ^ 3664380230U);
+							continue;
+						}
+						case 6U:
+						{
+							DamageInfo damageInfo = AyaAyaShameimarusCoerciveReporting.\u202D\u206D\u206D\u202E\u202C\u200D\u206A\u202D\u206E\u202B\u200B\u200B\u200C\u202B\u202D\u206D\u200C\u206A\u206D\u206A\u206E\u206A\u200D\u206B\u206D\u200B\u206D\u202A\u200F\u206C\u202A\u206F\u206A\u206E\u200C\u206C\u200B\u202E\u206C\u206F\u202E(args);
+							num = (int)((num3 * 2476364645U) ^ 184818145U);
+							continue;
+						}
+						case 7U:
+						{
+							DamageInfo damageInfo = AyaAyaShameimarusCoerciveReporting.\u202D\u206D\u206D\u202E\u202C\u200D\u206A\u202D\u206E\u202B\u200B\u200B\u200C\u202B\u202D\u206D\u200C\u206A\u206D\u206A\u206E\u206A\u200D\u206B\u206D\u200B\u206D\u202A\u200F\u206C\u202A\u206F\u206A\u206E\u200C\u206C\u200B\u202E\u206C\u206F\u202E(args);
+							int num4;
+							AyaAyaShameimarusCoerciveReporting.\u206A\u202D\u202A\u202A\u206E\u206B\u202C\u200D\u206D\u200C\u206B\u200F\u200C\u202E\u200C\u200B\u202D\u206C\u206A\u200E\u206C\u200D\u202B\u200D\u206E\u206A\u202C\u202B\u200D\u200C\u206D\u202A\u200D\u200C\u202A\u200F\u202E\u206A\u206D\u200C\u202E(args, damageInfo.ReduceActualDamageBy(num4));
+							AyaAyaShameimarusCoerciveReporting.\u206B\u200B\u206B\u200D\u200E\u200C\u202B\u206C\u202E\u206C\u206A\u200F\u202B\u200B\u202E\u200E\u206B\u200B\u200D\u200B\u206F\u206B\u200F\u202A\u206D\u206F\u202B\u202C\u206A\u202B\u202B\u206F\u200E\u202B\u200B\u206E\u200F\u200E\u202D\u202D\u202E(args, this);
+							num = (int)((num3 * 555956325U) ^ 52055483U);
+							continue;
+						}
+						}
+						goto Block_1;
+					}
+				}
+				Block_1:;
+			}
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		private void OnCardTransformedHex(CardTransformEventArgs args)
+		{
+			if (AyaAyaShameimarusCoerciveReporting.\u206D\u202B\u200D\u206B\u206E\u202E\u206F\u206D\u200F\u200F\u206C\u200D\u202E\u200C\u200F\u200C\u202B\u202E\u200C\u206F\u206B\u202C\u206E\u202A\u202E\u206B\u200B\u206D\u202D\u206D\u200B\u206B\u202C\u202D\u206D\u202B\u202C\u206E\u206C\u200F\u202E(args) is Frog)
+			{
+				for (;;)
+				{
+					IL_0010:
+					int num = -428069897;
+					for (;;)
+					{
+						int num2 = num;
+						uint num3;
+						switch ((num3 = (uint)(~(uint)(~(uint)((num2 ^ ((1262939978 * -862634075 - (1258856007 + -1451980964)) ^ ~(542320904 + 475241318))) - (-670442256 ^ ~-600703665))))) % 3U)
+						{
+						case 1U:
+							this.React(AyaAyaShameimarusCoerciveReporting.\u200B\u202A\u202A\u200E\u200F\u202B\u200F\u200E\u200E\u206C\u200E\u202B\u202A\u200E\u202C\u202B\u202B\u202E\u200B\u206F\u200D\u206B\u206F\u202A\u202B\u202C\u200B\u206D\u202D\u200B\u200E\u202C\u206C\u202D\u200D\u200B\u206A\u200D\u206F\u200F\u202E(AyaAyaShameimarusCoerciveReporting.\u202B\u206C\u202E\u200D\u200E\u206A\u202D\u200B\u200B\u206F\u200C\u206E\u202A\u200C\u206F\u202E\u200F\u200B\u202A\u202C\u202D\u202A\u206A\u202A\u206E\u202E\u200C\u202B\u200E\u206B\u200C\u202D\u202D\u206D\u206A\u206F\u202D\u202E\u206E\u206A\u202E(<Module>.\u202D\u200F\u202D\u200B\u206C\u200B\u202B\u206C\u206E\u206E\u200C\u206B\u200D\u206B\u202B\u202A\u206F\u200C\u202E\u200D\u200B\u200B\u206F\u206B\u202C\u206F\u202E\u200B\u200B\u202C\u200C\u200E\u202C\u202C\u202C\u202B\u206D\u200D\u200E\u202A\u202E<string>(706629538))));
+							this.React(AyaAyaShameimarusCoerciveReporting.\u200B\u202A\u202A\u200E\u200F\u202B\u200F\u200E\u200E\u206C\u200E\u202B\u202A\u200E\u202C\u202B\u202B\u202E\u200B\u206F\u200D\u206B\u206F\u202A\u202B\u202C\u200B\u206D\u202D\u200B\u200E\u202C\u206C\u202D\u200D\u200B\u206A\u200D\u206F\u200F\u202E(AyaAyaShameimarusCoerciveReporting.\u202D\u200D\u202D\u200B\u200F\u202B\u202C\u202E\u206E\u202D\u200E\u200F\u200D\u202D\u200C\u200C\u200B\u200B\u200F\u202B\u202D\u202E\u206A\u200C\u202E\u206F\u206A\u206B\u202D\u202A\u200D\u200E\u202A\u202C\u206E\u200D\u202B\u200D\u206E\u200E\u202E(AyaAyaShameimarusCoerciveReporting.\u206E\u206E\u202E\u202B\u206E\u206E\u206A\u200C\u206A\u206F\u202D\u206D\u206C\u206D\u206E\u206A\u202E\u206E\u200D\u200C\u202A\u200B\u200C\u200E\u206B\u206E\u202D\u202E\u202C\u206B\u206A\u200B\u202C\u206F\u202D\u202B\u200F\u202D\u206E\u206C\u202E(AyaAyaShameimarusCoerciveReporting.\u200E\u206C\u202B\u200D\u200C\u206D\u200E\u200D\u206D\u200E\u206A\u202E\u200B\u200D\u200D\u200E\u202A\u200E\u200C\u200D\u200F\u206D\u202E\u206C\u200C\u206C\u206D\u206D\u202D\u200B\u202C\u200C\u206B\u202C\u206F\u202E\u202C\u202A\u200B\u206E\u202E(this)), AyaAyaShameimarusCoerciveReporting.\u206A\u200B\u200E\u202B\u200F\u200D\u200B\u200C\u206E\u202D\u206B\u200E\u200E\u206A\u206C\u202B\u200B\u202B\u206B\u202A\u206A\u206F\u202E\u202A\u202B\u206F\u200D\u202A\u200B\u202B\u200D\u200E\u200F\u206A\u206B\u202E\u202C\u200D\u206D\u206C\u202E(AyaAyaShameimarusCoerciveReporting.\u200E\u206C\u202B\u200D\u200C\u206D\u200E\u200D\u206D\u200E\u206A\u202E\u200B\u200D\u200D\u200E\u202A\u200E\u200C\u200D\u200F\u206D\u202E\u206C\u200C\u206C\u206D\u206D\u202D\u200B\u202C\u200C\u206B\u202C\u206F\u202E\u202C\u202A\u200B\u206E\u202E(this)), DamageInfo.Reaction((float)this.Value6, false), <Module>.\u200C\u200F\u206A\u200D\u202B\u200C\u206F\u206A\u200C\u206D\u206C\u206E\u200C\u202B\u200C\u200C\u202A\u206D\u202E\u200F\u202D\u206C\u206C\u202B\u206A\u202C\u202D\u206C\u202C\u200D\u200F\u200F\u202C\u202C\u202B\u200D\u200E\u206D\u206D\u202E\u202E<string>(546817177), GunType.Single)));
+							num = (int)((num3 * 3912352089U) ^ 2048701410U);
+							continue;
+						case 2U:
+							goto IL_0010;
+						}
+						goto Block_1;
+					}
+				}
+				Block_1:;
+			}
+		}
+
+		static BattleController \u200E\u206C\u202B\u200D\u200C\u206D\u200E\u200D\u206D\u200E\u206A\u202E\u200B\u200D\u200D\u200E\u202A\u200E\u200C\u200D\u200F\u206D\u202E\u206C\u200C\u206C\u206D\u206D\u202D\u200B\u202C\u200C\u206B\u202C\u206F\u202E\u202C\u202A\u200B\u206E\u202E(Card A_0)
+		{
+			return A_0.Battle;
+		}
+
+		static IEnumerable<EnemyUnit> \u206A\u200B\u200E\u202B\u200F\u200D\u200B\u200C\u206E\u202D\u206B\u200E\u200E\u206A\u206C\u202B\u200B\u202B\u206B\u202A\u206A\u206F\u202E\u202A\u202B\u206F\u200D\u202A\u200B\u202B\u200D\u200E\u200F\u206A\u206B\u202E\u202C\u200D\u206D\u206C\u202E(BattleController A_0)
+		{
+			return A_0.AllAliveEnemies;
+		}
+
+		static EnemyGroup \u206D\u200B\u202A\u206A\u200D\u200E\u200E\u200E\u200F\u200C\u202C\u206F\u200B\u202E\u200F\u202A\u200F\u200F\u206B\u206A\u206E\u200B\u206C\u206E\u202B\u200F\u200D\u200E\u206A\u200F\u202E\u206F\u202C\u200C\u202B\u202A\u206E\u202E\u200C\u202D\u202E(BattleController A_0)
+		{
+			return A_0.EnemyGroup;
+		}
+
+		static bool \u202B\u202E\u200E\u202A\u202E\u206B\u206F\u200F\u206C\u200B\u200E\u206A\u200E\u200E\u200E\u206A\u200E\u200C\u200B\u206A\u206B\u202D\u206D\u202A\u206A\u202C\u206A\u200F\u200D\u202A\u202C\u202C\u200C\u202A\u200D\u206A\u202B\u200F\u206C\u206C\u202E(GameEventArgs A_0)
+		{
+			return A_0.IsCanceled;
+		}
+
+		static void \u200C\u200C\u200E\u202E\u200E\u206F\u200F\u206F\u206F\u200B\u202A\u200B\u206F\u206C\u202E\u202D\u206C\u206B\u202E\u200E\u202C\u206E\u202E\u202D\u200D\u202E\u200D\u206E\u200E\u206A\u206A\u206C\u200D\u200B\u206E\u200B\u206F\u206C\u206C\u202E(GameEventArgs A_0, bool A_1)
+		{
+			A_0.CanCancel = A_1;
+		}
+
+		static void \u200E\u206D\u200B\u200D\u202D\u202C\u202D\u202A\u206B\u206D\u200F\u206B\u200F\u200E\u206E\u202E\u206B\u206D\u202E\u200F\u206F\u200F\u206F\u202E\u200E\u200D\u200E\u200C\u200D\u200B\u202D\u206A\u206C\u206A\u200F\u206F\u206A\u200C\u206E\u206F\u202E(GameEventArgs A_0, GameEntity A_1)
+		{
+			A_0.CancelBy(A_1);
+		}
+
+		static int \u206E\u206B\u200D\u206E\u200B\u200D\u206B\u206E\u202B\u206B\u200E\u200C\u202D\u202E\u202D\u202E\u202A\u206B\u200F\u206B\u200D\u202D\u206D\u206D\u202E\u202A\u206C\u206E\u202E\u206B\u202D\u200D\u206A\u206C\u202E\u202E\u206D\u200B\u206A\u200F\u202E(StatusEffect A_0)
+		{
+			return A_0.Level;
+		}
+
+		static int \u200E\u200F\u202C\u202E\u202E\u206A\u200D\u202C\u200B\u206A\u206E\u206C\u202B\u200C\u206C\u200F\u202D\u200D\u200F\u206C\u206A\u202A\u200B\u206D\u202D\u206B\u200C\u202B\u200C\u202D\u200F\u202E\u200C\u200D\u206C\u200D\u202D\u200F\u206B\u206F\u202E(int A_0, int A_1)
+		{
+			return Math.Min(A_0, A_1);
+		}
+
+		static void \u206E\u200E\u202C\u206D\u206A\u202D\u202A\u206A\u200E\u200F\u206D\u206A\u202A\u200F\u202E\u202C\u202D\u206D\u206E\u206A\u200B\u202A\u202D\u200E\u206F\u206D\u202B\u206F\u202B\u206D\u202B\u206A\u206D\u200E\u206D\u200E\u206D\u206A\u206E\u206C\u202E(StatusEffect A_0, int A_1)
+		{
+			A_0.Level = A_1;
+		}
+
+		static DamageInfo \u202D\u206D\u206D\u202E\u202C\u200D\u206A\u202D\u206E\u202B\u200B\u200B\u200C\u202B\u202D\u206D\u200C\u206A\u206D\u206A\u206E\u206A\u200D\u206B\u206D\u200B\u206D\u202A\u200F\u206C\u202A\u206F\u206A\u206E\u200C\u206C\u200B\u202E\u206C\u206F\u202E(DamageEventArgs A_0)
+		{
+			return A_0.DamageInfo;
+		}
+
+		static int \u202B\u202C\u200F\u200F\u206A\u206E\u200F\u206A\u200D\u206F\u200D\u200D\u200D\u206D\u200F\u202A\u200F\u202A\u206E\u200C\u200D\u202A\u200C\u202E\u202D\u206B\u200C\u200B\u200F\u206B\u202E\u202D\u206A\u202C\u200B\u200D\u200B\u206B\u200B\u206E\u202E(float A_0)
+		{
+			return A_0.RoundToInt();
+		}
+
+		static void \u206A\u202D\u202A\u202A\u206E\u206B\u202C\u200D\u206D\u200C\u206B\u200F\u200C\u202E\u200C\u200B\u202D\u206C\u206A\u200E\u206C\u200D\u202B\u200D\u206E\u206A\u202C\u202B\u200D\u200C\u206D\u202A\u200D\u200C\u202A\u200F\u202E\u206A\u206D\u200C\u202E(DamageEventArgs A_0, DamageInfo A_1)
+		{
+			A_0.DamageInfo = A_1;
+		}
+
+		static void \u206B\u200B\u206B\u200D\u200E\u200C\u202B\u206C\u202E\u206C\u206A\u200F\u202B\u200B\u202E\u200E\u206B\u200B\u200D\u200B\u206F\u206B\u200F\u202A\u206D\u206F\u202B\u202C\u206A\u202B\u202B\u206F\u200E\u202B\u200B\u206E\u200F\u200E\u202D\u202D\u202E(GameEventArgs A_0, GameEntity A_1)
+		{
+			A_0.AddModifier(A_1);
+		}
+
+		static PlayerUnit \u206E\u206E\u202E\u202B\u206E\u206E\u206A\u200C\u206A\u206F\u202D\u206D\u206C\u206D\u206E\u206A\u202E\u206E\u200D\u200C\u202A\u200B\u200C\u200E\u206B\u206E\u202D\u202E\u202C\u206B\u206A\u200B\u202C\u206F\u202D\u202B\u200F\u202D\u206E\u206C\u202E(BattleController A_0)
+		{
+			return A_0.Player;
+		}
+
+		static GameEvent<DamageEventArgs> \u202D\u200E\u202C\u202A\u202A\u202A\u202A\u200E\u206A\u200E\u200B\u200D\u206D\u202C\u200E\u202A\u200F\u206A\u206C\u202B\u202B\u200E\u200F\u202B\u206A\u206E\u200C\u206F\u200D\u200C\u206F\u200E\u202A\u206A\u206A\u202A\u202A\u202B\u206B\u202A\u202E(Unit A_0)
+		{
+			return A_0.DamageTaking;
+		}
+
+		static Unit \u200F\u202D\u206C\u206D\u206D\u206B\u206D\u200E\u200C\u202D\u200C\u202B\u202A\u206A\u206D\u200B\u202C\u206F\u206F\u202E\u206B\u202C\u202B\u202A\u206B\u200C\u202A\u206B\u202B\u200C\u206D\u200C\u200E\u200E\u202E\u206F\u202C\u206E\u206D\u200E\u202E(DamageEventArgs A_0)
+		{
+			return A_0.Source;
+		}
+
+		static Card \u206D\u202B\u200D\u206B\u206E\u202E\u206F\u206D\u200F\u200F\u206C\u200D\u202E\u200C\u200F\u200C\u202B\u202E\u200C\u206F\u206B\u202C\u206E\u202A\u202E\u206B\u200B\u206D\u202D\u206D\u200B\u206B\u202C\u202D\u206D\u202B\u202C\u206E\u206C\u200F\u202E(CardTransformEventArgs A_0)
+		{
+			return A_0.DestinationCard;
+		}
+
+		static PerformAction \u202B\u206C\u202E\u200D\u200E\u206A\u202D\u200B\u200B\u206F\u200C\u206E\u202A\u200C\u206F\u202E\u200F\u200B\u202A\u202C\u202D\u202A\u206A\u202A\u206E\u202E\u200C\u202B\u200E\u206B\u200C\u202D\u202D\u206D\u206A\u206F\u202D\u202E\u206E\u206A\u202E(string A_0)
+		{
+			return PerformAction.UiSound(A_0);
+		}
+
+		static Reactor \u200B\u202A\u202A\u200E\u200F\u202B\u200F\u200E\u200E\u206C\u200E\u202B\u202A\u200E\u202C\u202B\u202B\u202E\u200B\u206F\u200D\u206B\u206F\u202A\u202B\u202C\u200B\u206D\u202D\u200B\u200E\u202C\u206C\u202D\u200D\u200B\u206A\u200D\u206F\u200F\u202E(BattleAction A_0)
+		{
+			return A_0;
+		}
+
+		static DamageAction \u202D\u200D\u202D\u200B\u200F\u202B\u202C\u202E\u206E\u202D\u200E\u200F\u200D\u202D\u200C\u200C\u200B\u200B\u200F\u202B\u202D\u202E\u206A\u200C\u202E\u206F\u206A\u206B\u202D\u202A\u200D\u200E\u202A\u202C\u206E\u200D\u202B\u200D\u206E\u200E\u202E(Unit A_0, IEnumerable<Unit> A_1, DamageInfo A_2, string A_3, GunType A_4)
+		{
+			return new DamageAction(A_0, A_1, A_2, A_3, A_4);
+		}
+
+		static GameObject \u202A\u200B\u200D\u202D\u202A\u206E\u200F\u200E\u202D\u200B\u206C\u202B\u202A\u206D\u206A\u206D\u202C\u202D\u200E\u202E\u200B\u202B\u206E\u202C\u206C\u202C\u200F\u200B\u202C\u206F\u200E\u206C\u202C\u200C\u202B\u206C\u200E\u200F\u202E\u206D\u202E(string A_0, Assembly A_1)
+		{
+			return StageTemplate.TryGetEnvObject(A_0, A_1);
+		}
+
+		private static GameObject background = AyaAyaShameimarusCoerciveReporting.\u202A\u200B\u200D\u202D\u202A\u206E\u200F\u200E\u202D\u200B\u206C\u202B\u202A\u206D\u206A\u206D\u202C\u202D\u200E\u202E\u200B\u202B\u206E\u202C\u206C\u202C\u200F\u200B\u202C\u206F\u200E\u206C\u202C\u200C\u202B\u206C\u200E\u200F\u202E\u206D\u202E(<Module>.\u200C\u200F\u206A\u200D\u202B\u200C\u206F\u206A\u200C\u206D\u206C\u206E\u200C\u202B\u200C\u200C\u202A\u206D\u202E\u200F\u202D\u206C\u206C\u202B\u206A\u202C\u202D\u206C\u202C\u200D\u200F\u200F\u202C\u202C\u202B\u200D\u200E\u206D\u206D\u202E\u202E<string>(-2053366231), null);
+
+		[HarmonyPatch(typeof(UiManager), "LeaveGameRun")]
+		private class UiManager_LeaveGameRun_Patch
+		{
+			private static void Postfix(UiManager __instance)
+			{
+				GameObject background = AyaAyaShameimarusCoerciveReporting.background;
+				if (background == null)
+				{
+					return;
+				}
+				AyaAyaShameimarusCoerciveReporting.UiManager_LeaveGameRun_Patch.\u202E\u200F\u200B\u200E\u200D\u200E\u206E\u200E\u202E\u206A\u202A\u206B\u200C\u200E\u200F\u200D\u206C\u200B\u202E\u206A\u206B\u206C\u200F\u200D\u206D\u200B\u206F\u206C\u206B\u206E\u206E\u206A\u206E\u202C\u206F\u200B\u206C\u206C\u206B\u200D\u202E(background, false);
+			}
+
+			static void \u202E\u200F\u200B\u200E\u200D\u200E\u206E\u200E\u202E\u206A\u202A\u206B\u200C\u200E\u200F\u200D\u206C\u200B\u202E\u206A\u206B\u206C\u200F\u200D\u206D\u200B\u206F\u206C\u206B\u206E\u206E\u206A\u206E\u202C\u206F\u200B\u206C\u206C\u206B\u200D\u202E(GameObject A_0, bool A_1)
+			{
+				A_0.SetActive(A_1);
+			}
+		}
+	}
+}

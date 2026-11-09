@@ -1,0 +1,292 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using AyaShameimaru.PlayerUnits;
+using LBoL.Base;
+using LBoL.ConfigData;
+using LBoL.Core;
+using LBoL.Core.Battle;
+using LBoL.Core.Cards;
+using LBoL.Core.StatusEffects;
+using LBoL.Core.Units;
+using LBoL.Presentation;
+using LBoL.Presentation.UI;
+using LBoL.Presentation.UI.ExtraWidgets;
+using LBoL.Presentation.UI.Panels;
+using LBoLEntitySideloader;
+using LBoLEntitySideloader.Attributes;
+using LBoLEntitySideloader.Entities;
+using LBoLEntitySideloader.Resource;
+using UnityEngine;
+
+namespace AyaShameimaru.Cards
+{
+	public sealed class AyaHeadShotDef : CardTemplate
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override IdContainer GetId()
+		{
+			return <Module>.\u202D\u206A\u202E\u202B\u206C\u200E\u206B\u206E\u200F\u206E\u200C\u202E\u206F\u200C\u206D\u200B\u206E\u200F\u200D\u202A\u206F\u202E\u200E\u206D\u206D\u206F\u202D\u200C\u206F\u202A\u200B\u202E\u206C\u206A\u206B\u202A\u206C\u202E\u200D\u202B\u202E<string>(-1965678169);
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override CardImages LoadCardImages()
+		{
+			CardImages cardImages = AyaHeadShotDef.\u202B\u206D\u202E\u206F\u206A\u206E\u206B\u206F\u206B\u206C\u202E\u200B\u206B\u202D\u206D\u202B\u200E\u206E\u202D\u202A\u206C\u200E\u202D\u206C\u200F\u202B\u202B\u206A\u206C\u202E\u202B\u202D\u206B\u200F\u202C\u202A\u200B\u202B\u202E\u206E\u202E(BepinexPlugin.embeddedSource);
+			AyaHeadShotDef.\u206D\u206E\u206B\u200F\u200D\u200C\u202C\u200C\u200D\u202E\u200F\u200C\u206C\u200E\u202A\u202D\u202C\u202D\u206E\u206F\u206D\u202E\u202C\u202E\u206D\u202E\u206D\u200D\u206D\u206E\u206E\u202A\u206E\u206A\u206E\u200D\u202E\u206E\u200D\u202D\u202E(cardImages, this, <Module>.\u202D\u206A\u202E\u202B\u206C\u200E\u206B\u206E\u200F\u206E\u200C\u202E\u206F\u200C\u206D\u200B\u206E\u200F\u200D\u202A\u206F\u202E\u200E\u206D\u206D\u206F\u202D\u200C\u206F\u202A\u200B\u202E\u206C\u206A\u206B\u202A\u206C\u202E\u200D\u202B\u202E<string>(529911995), <Module>.\u200C\u200F\u206A\u200D\u202B\u200C\u206F\u206A\u200C\u206D\u206C\u206E\u200C\u202B\u200C\u200C\u202A\u206D\u202E\u200F\u202D\u206C\u206C\u202B\u206A\u202C\u202D\u206C\u202C\u200D\u200F\u200F\u202C\u202C\u202B\u200D\u200E\u206D\u206D\u202E\u202E<string>(1283511019), false);
+			return cardImages;
+		}
+
+		public override LocalizationOption LoadLocalization()
+		{
+			return AyaHeadShotDef.\u200E\u202E\u202B\u206A\u202D\u200B\u206D\u200F\u202D\u206E\u202E\u200B\u206B\u206F\u200E\u200E\u206B\u200F\u202A\u202E\u206E\u206F\u206B\u206E\u200E\u206A\u206C\u202E\u206A\u206A\u206F\u206D\u200E\u200E\u202A\u206F\u200D\u200C\u200B\u206A\u202E(BepinexPlugin.cardLoc, this);
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override CardConfig MakeConfig()
+		{
+			return new CardConfig(AyaHeadShotDef.\u200B\u202B\u202B\u200B\u206D\u202B\u206D\u206B\u206B\u206D\u200E\u200B\u206A\u202B\u206C\u200C\u206F\u202B\u206C\u200E\u206B\u206A\u200F\u200E\u206A\u200B\u202B\u202E\u202A\u202E\u200F\u206E\u206B\u206D\u206C\u200E\u206A\u200E\u202B\u200D\u202E(BepinexPlugin.sequenceTable, AyaHeadShotDef.\u202B\u200E\u202D\u206D\u202E\u206B\u202E\u202C\u206F\u200E\u206F\u202A\u206F\u200E\u200E\u206C\u202D\u206B\u202E\u200F\u200B\u200C\u200C\u200D\u202C\u200F\u206D\u200C\u202C\u202C\u202D\u206F\u202A\u202E\u206E\u202E\u206B\u200C\u206B\u200D\u202E(typeof(CardConfig).TypeHandle)), "", 10, true, new string[0][], <Module>.\u206A\u202A\u202B\u206E\u202B\u206A\u202E\u206A\u202A\u200D\u202B\u206E\u200B\u202A\u206D\u206E\u200C\u206B\u200D\u206B\u200F\u202A\u206D\u206E\u206E\u200B\u200C\u206D\u206D\u200D\u200E\u202A\u206C\u206A\u202D\u206C\u202B\u200E\u206A\u200F\u202E<string>(374581598), <Module>.\u202D\u200F\u202D\u200B\u206C\u200B\u202B\u206C\u206E\u206E\u200C\u206B\u200D\u206B\u202B\u202A\u206F\u200C\u202E\u200D\u200B\u200B\u206F\u206B\u202C\u206F\u202E\u200B\u200B\u202C\u200C\u200E\u202C\u202C\u202C\u202B\u206D\u200D\u200E\u202A\u202E<string>(1919399235), 0, false, true, false, true, true, Rarity.Rare, CardType.Attack, new TargetType?(TargetType.SingleEnemy), new List<ManaColor> { ManaColor.Green }, false, new ManaGroup
+			{
+				Any = 3,
+				Green = 1
+			}, null, null, null, null, new int?(BepinexPlugin.AyaPhantasmMode.Value ? 30 : 40), null, null, null, null, null, new int?(BepinexPlugin.AyaPhantasmMode.Value ? 4 : 6), new int?(BepinexPlugin.AyaPhantasmMode.Value ? 6 : 8), null, null, new ManaGroup?(new ManaGroup
+			{
+				Green = 4
+			}), new ManaGroup?(new ManaGroup
+			{
+				Green = 2,
+				Philosophy = 2
+			}), null, null, null, null, null, null, null, null, null, null, null, null, null, Keyword.Accuracy, Keyword.Accuracy, false, Keyword.None, Keyword.Philosophy, new List<string> { <Module>.\u206A\u202A\u202B\u206E\u202B\u206A\u202E\u206A\u202A\u200D\u202B\u206E\u200B\u202A\u206D\u206E\u200C\u206B\u200D\u206B\u200F\u202A\u206D\u206E\u206E\u200B\u200C\u206D\u206D\u200D\u200E\u202A\u206C\u206A\u202D\u206C\u202B\u200E\u206A\u200F\u202E<string>(-2013978315) }, new List<string> { <Module>.\u206A\u202A\u202B\u206E\u202B\u206A\u202E\u206A\u202A\u200D\u202B\u206E\u200B\u202A\u206D\u206E\u200C\u206B\u200D\u206B\u200F\u202A\u206D\u206E\u206E\u200B\u200C\u206D\u206D\u200D\u200E\u202A\u206C\u206A\u202D\u206C\u202B\u200E\u206A\u200F\u202E<string>(-2013978315) }, new List<string>(), new List<string>(), <Module>.\u200C\u200F\u206A\u200D\u202B\u200C\u206F\u206A\u200C\u206D\u206C\u206E\u200C\u202B\u200C\u200C\u202A\u206D\u202E\u200F\u202D\u206C\u206C\u202B\u206A\u202C\u202D\u206C\u202C\u200D\u200F\u200F\u202C\u202C\u202B\u200D\u200E\u206D\u206D\u202E\u202E<string>(-714371867), null, "", "", false, <Module>.\u202D\u200F\u202D\u200B\u206C\u200B\u202B\u206C\u206E\u206E\u200C\u206B\u200D\u206B\u202B\u202A\u206F\u200C\u202E\u200D\u200B\u200B\u206F\u206B\u202C\u206F\u202E\u200B\u200B\u202C\u200C\u200E\u202C\u202C\u202C\u202B\u206D\u200D\u200E\u202A\u202E<string>(1736174916), new List<string> { <Module>.\u206A\u202A\u202B\u206E\u202B\u206A\u202E\u206A\u202A\u200D\u202B\u206E\u200B\u202A\u206D\u206E\u200C\u206B\u200D\u206B\u200F\u202A\u206D\u206E\u206E\u200B\u200C\u206D\u206D\u200D\u200E\u202A\u206C\u206A\u202D\u206C\u202B\u200E\u206A\u200F\u202E<string>(777068185) });
+		}
+
+		static CardImages \u202B\u206D\u202E\u206F\u206A\u206E\u206B\u206F\u206B\u206C\u202E\u200B\u206B\u202D\u206D\u202B\u200E\u206E\u202D\u202A\u206C\u200E\u202D\u206C\u200F\u202B\u202B\u206A\u206C\u202E\u202B\u202D\u206B\u200F\u202C\u202A\u200B\u202B\u202E\u206E\u202E(IResourceSource A_0)
+		{
+			return new CardImages(A_0);
+		}
+
+		static void \u206D\u206E\u206B\u200F\u200D\u200C\u202C\u200C\u200D\u202E\u200F\u200C\u206C\u200E\u202A\u202D\u202C\u202D\u206E\u206F\u206D\u202E\u202C\u202E\u206D\u202E\u206D\u200D\u206D\u206E\u206E\u202A\u206E\u206A\u206E\u200D\u202E\u206E\u200D\u202D\u202E(CardImages A_0, CardTemplate A_1, string A_2, string A_3, bool A_4)
+		{
+			A_0.AutoLoad(A_1, A_2, A_3, A_4);
+		}
+
+		static BatchLocalization \u200E\u202E\u202B\u206A\u202D\u200B\u206D\u200F\u202D\u206E\u202E\u200B\u206B\u206F\u200E\u200E\u206B\u200F\u202A\u202E\u206E\u206F\u206B\u206E\u200E\u206A\u206C\u202E\u206A\u206A\u206F\u206D\u200E\u200E\u202A\u206F\u200D\u200C\u200B\u206A\u202E(BatchLocalization A_0, EntityDefinition A_1)
+		{
+			return A_0.AddEntity(A_1);
+		}
+
+		static Type \u202B\u200E\u202D\u206D\u202E\u206B\u202E\u202C\u206F\u200E\u206F\u202A\u206F\u200E\u200E\u206C\u202D\u206B\u202E\u200F\u200B\u200C\u200C\u200D\u202C\u200F\u206D\u200C\u202C\u202C\u202D\u206F\u202A\u202E\u206E\u202E\u206B\u200C\u206B\u200D\u202E(RuntimeTypeHandle A_0)
+		{
+			return Type.GetTypeFromHandle(A_0);
+		}
+
+		static int \u200B\u202B\u202B\u200B\u206D\u202B\u206D\u206B\u206B\u206D\u200E\u200B\u206A\u202B\u206C\u200C\u206F\u202B\u206C\u200E\u206B\u206A\u200F\u200E\u206A\u200B\u202B\u202E\u202A\u202E\u200F\u206E\u206B\u206D\u206C\u200E\u206A\u200E\u202B\u200D\u202E(TemplateSequenceTable A_0, Type A_1)
+		{
+			return A_0.Next(A_1);
+		}
+
+		[EntityLogic(typeof(AyaHeadShotDef))]
+		public sealed class AyaHeadShot : Card
+		{
+			protected override void OnEnterBattle(BattleController battle)
+			{
+				base.HandleBattleEvent<DamageDealingEventArgs>(AyaHeadShotDef.AyaHeadShot.\u206B\u202A\u202E\u206E\u200E\u206A\u200F\u206A\u206A\u206A\u202E\u200C\u206E\u202B\u200C\u202E\u206E\u200D\u206C\u200F\u206F\u202D\u200F\u202A\u202D\u200C\u202E\u206E\u202E\u202C\u200F\u200E\u202D\u202D\u206E\u206A\u200E\u202C\u200F\u200F\u202E(AyaHeadShotDef.AyaHeadShot.\u206D\u206D\u202E\u206C\u206C\u206D\u202E\u206F\u200E\u200C\u200E\u200D\u206A\u200E\u200F\u202A\u202A\u202A\u206C\u206C\u206E\u200D\u206A\u206E\u206B\u200E\u202D\u206C\u200E\u202B\u206A\u202A\u206A\u202E\u206B\u206B\u200D\u200E\u200E\u200F\u202E(AyaHeadShotDef.AyaHeadShot.\u206D\u202A\u202D\u206C\u206A\u200B\u200C\u202A\u200E\u200F\u206E\u200F\u202C\u202D\u200E\u200B\u202D\u206D\u200C\u202A\u202D\u206A\u202E\u206B\u202A\u202B\u206A\u200C\u202C\u206F\u200E\u200C\u200C\u200B\u200F\u206B\u200E\u200E\u200C\u202D\u202E(this))), new GameEventHandler<DamageDealingEventArgs>(this.OnPlayerDamageDealing), (GameEventPriority)0);
+			}
+
+			private void OnPlayerDamageDealing(DamageDealingEventArgs args)
+			{
+				if (AyaHeadShotDef.AyaHeadShot.\u202B\u200E\u200C\u202E\u200F\u200E\u200F\u200C\u200E\u202B\u200B\u200F\u200D\u202D\u202B\u200B\u206D\u200F\u202A\u202C\u202D\u202D\u206B\u206F\u200C\u200D\u202C\u206A\u202D\u206C\u200B\u202D\u206A\u206B\u202C\u202C\u200E\u206E\u202E\u202D\u202E(args) == this)
+				{
+					for (;;)
+					{
+						IL_000C:
+						int num = -103306540;
+						for (;;)
+						{
+							int num2 = num;
+							uint num3;
+							switch ((num3 = (uint)((~(-num2) - (2006081767 ^ -405854552)) * 1924003143)) % 8U)
+							{
+							case 0U:
+								goto IL_000C;
+							case 1U:
+								num = (int)(((AyaHeadShotDef.AyaHeadShot.\u206F\u206D\u202E\u206B\u206F\u202C\u202D\u202D\u206C\u206E\u200E\u206F\u200E\u200F\u206B\u202E\u200B\u202E\u206A\u206B\u202D\u206A\u206C\u202B\u200C\u206C\u206D\u200C\u202B\u200B\u202E\u206D\u206A\u206A\u200E\u206B\u200C\u200C\u206D\u202E(args) != null) ? 1070659773U : 92498663U) ^ (num3 * 1116868124U));
+								continue;
+							case 2U:
+							{
+								DamageInfo damageInfo;
+								num = (int)(((damageInfo.DamageType == DamageType.Attack) ? 3202428523U : 2934662599U) ^ (num3 * 2947488318U));
+								continue;
+							}
+							case 3U:
+								AyaHeadShotDef.AyaHeadShot.\u200E\u202A\u206C\u202B\u202D\u206A\u202A\u200B\u200E\u202C\u206E\u202B\u200C\u206E\u206C\u206B\u206E\u202E\u200F\u200C\u200B\u202B\u202C\u206C\u202E\u202E\u200C\u206B\u200E\u200E\u202B\u202E\u200C\u200C\u206F\u206D\u202E\u200E\u206A\u202B\u202E(args, this);
+								num = (int)((num3 * 237173563U) ^ 568661954U);
+								continue;
+							case 4U:
+							{
+								DamageInfo damageInfo = AyaHeadShotDef.AyaHeadShot.\u200F\u200E\u206D\u206A\u200E\u206E\u206D\u202C\u200E\u206D\u200F\u202C\u206E\u206E\u206E\u202C\u200C\u206A\u206A\u202B\u206F\u202B\u200B\u206B\u202A\u202C\u202A\u206C\u206F\u206F\u202B\u200B\u200E\u200C\u206B\u206D\u202E\u206F\u200E\u202B\u202E(args);
+								num = (int)((num3 * 1467364955U) ^ 3080000074U);
+								continue;
+							}
+							case 6U:
+							{
+								DamageInfo damageInfo = AyaHeadShotDef.AyaHeadShot.\u200F\u200E\u206D\u206A\u200E\u206E\u206D\u202C\u200E\u206D\u200F\u202C\u206E\u206E\u206E\u202C\u200C\u206A\u206A\u202B\u206F\u202B\u200B\u206B\u202A\u202C\u202A\u206C\u206F\u206F\u202B\u200B\u200E\u200C\u206B\u206D\u202E\u206F\u200E\u202B\u202E(args);
+								LockedOn lockedOn;
+								AyaHeadShotDef.AyaHeadShot.\u202A\u200B\u206A\u202B\u200E\u200B\u206C\u202E\u206F\u202A\u206A\u202A\u202C\u200E\u206D\u200B\u200C\u202D\u206B\u206E\u200F\u206F\u206E\u202E\u206B\u200B\u202B\u200D\u200D\u202B\u202D\u200B\u200C\u206A\u206F\u200B\u202C\u200E\u206D\u206F\u202E(args, damageInfo.IncreaseBy(AyaHeadShotDef.AyaHeadShot.\u202D\u206E\u206C\u206C\u206B\u206A\u202C\u206B\u202B\u200F\u206F\u200B\u202E\u200C\u206B\u206D\u200D\u202E\u202A\u206A\u200B\u206E\u206A\u200C\u200B\u200C\u206B\u200C\u200E\u200B\u206A\u200F\u200B\u206C\u206F\u206C\u200D\u206E\u206D\u202B\u202E(lockedOn) * (AyaHeadShotDef.AyaHeadShot.\u202D\u200E\u206C\u206C\u202A\u206D\u200C\u206C\u202B\u202D\u206B\u202B\u200D\u200D\u200D\u202A\u200E\u200B\u200F\u200E\u202B\u206B\u200C\u200D\u206B\u206B\u202B\u206A\u206F\u206A\u206F\u200E\u206B\u206D\u206A\u202C\u206B\u200B\u202C\u202B\u202E(this) - 1)));
+								num = (int)((num3 * 3990243205U) ^ 3380352931U);
+								continue;
+							}
+							case 7U:
+							{
+								LockedOn lockedOn;
+								num = (int)((AyaHeadShotDef.AyaHeadShot.\u206F\u206D\u202E\u206B\u206F\u202C\u202D\u202D\u206C\u206E\u200E\u206F\u200E\u200F\u206B\u202E\u200B\u202E\u206A\u206B\u202D\u206A\u206C\u202B\u200C\u206C\u206D\u200C\u202B\u200B\u202E\u206D\u206A\u206A\u200E\u206B\u200C\u200C\u206D\u202E(args).First<Unit>().TryGetStatusEffect<LockedOn>(out lockedOn) ? 1815569504U : 1606423841U) ^ (num3 * 1688986422U));
+								continue;
+							}
+							}
+							goto Block_1;
+						}
+					}
+					Block_1:;
+				}
+			}
+
+			public override bool CanUse
+			{
+				get
+				{
+					if (AyaHeadShotDef.AyaHeadShot.\u206D\u206D\u202E\u206C\u206C\u206D\u202E\u206F\u200E\u200C\u200E\u200D\u206A\u200E\u200F\u202A\u202A\u202A\u206C\u206C\u206E\u200D\u206A\u206E\u206B\u200E\u202D\u206C\u200E\u202B\u206A\u202A\u206A\u202E\u206B\u206B\u200D\u200E\u200E\u200F\u202E(AyaHeadShotDef.AyaHeadShot.\u206D\u202A\u202D\u206C\u206A\u200B\u200C\u202A\u200E\u200F\u206E\u200F\u202C\u202D\u200E\u200B\u202D\u206D\u200C\u202A\u202D\u206A\u202E\u206B\u202A\u202B\u206A\u200C\u202C\u206F\u200E\u200C\u200C\u200B\u200F\u206B\u200E\u200E\u200C\u202D\u202E(this)) is AyaPlayerUnitDef.AyaPlayerUnit)
+					{
+						for (;;)
+						{
+							IL_0015:
+							int num = -1742975714;
+							for (;;)
+							{
+								int num2 = num;
+								uint num3;
+								switch ((num3 = (uint)(~(num2 * 850452751 - (--1838680227 - (230577538 + 12122150))) ^ -1826082970)) % 4U)
+								{
+								case 0U:
+									goto IL_0015;
+								case 1U:
+									AyaHeadShotDef.AyaHeadShot.\u200E\u200C\u206B\u200E\u206F\u202E\u206E\u200D\u206D\u202B\u200F\u202A\u206B\u202A\u202D\u200C\u200F\u200C\u206F\u206D\u202B\u206F\u202D\u206E\u202E\u202B\u200B\u200B\u200D\u202E\u202E\u200C\u202D\u200D\u206F\u202E\u202D\u200D\u202A\u202A\u202E(Singleton<GameMaster>.Instance, this.<get_CanUse>g__coroutine|4_0());
+									num = (int)((num3 * 1344999605U) ^ 2010439954U);
+									continue;
+								case 2U:
+								{
+									HandCard activeHand = UiManager.GetPanel<PlayBoard>()._activeHand;
+									num = ((((activeHand != null) ? AyaHeadShotDef.AyaHeadShot.\u206A\u206C\u202D\u206D\u202C\u206C\u202D\u202A\u202E\u206C\u202A\u202A\u206C\u200C\u202E\u200F\u206D\u206E\u206E\u206C\u206B\u200F\u200D\u202D\u202B\u206F\u202E\u200C\u200E\u206A\u200B\u206E\u200E\u202B\u202C\u200F\u206F\u202C\u202E\u206A\u202E(activeHand) : null) == this) ? 484505473 : (-1961482717));
+									continue;
+								}
+								}
+								goto Block_1;
+							}
+						}
+						Block_1:;
+					}
+					return this.\u206B\u206C\u206F\u202C\u206F\u206D\u202A\u206A\u202B\u206A\u202D\u202B\u206E\u206B\u206F\u202B\u200B\u200D\u206A\u206D\u206A\u200C\u206F\u202B\u202E\u202B\u202C\u206A\u202A\u202E\u200F\u206B\u206E\u200F\u202B\u202A\u206B\u206B\u200D\u206D\u202E();
+				}
+			}
+
+			protected override IEnumerable<BattleAction> Actions(UnitSelector selector, ManaGroup consumingMana, Interaction precondition)
+			{
+				AyaHeadShotDef.AyaHeadShot.<Actions>d__6 <Actions>d__ = new AyaHeadShotDef.AyaHeadShot.<Actions>d__6(-2);
+				<Actions>d__.<>4__this = this;
+				<Actions>d__.<>3__selector = selector;
+				return <Actions>d__;
+			}
+
+			[CompilerGenerated]
+			private IEnumerator <get_CanUse>g__coroutine|4_0()
+			{
+				AyaHeadShotDef.AyaHeadShot.<<get_CanUse>g__coroutine|4_0>d <<get_CanUse>g__coroutine|4_0>d = new AyaHeadShotDef.AyaHeadShot.<<get_CanUse>g__coroutine|4_0>d(0);
+				<<get_CanUse>g__coroutine|4_0>d.<>4__this = this;
+				return <<get_CanUse>g__coroutine|4_0>d;
+			}
+
+			[CompilerGenerated]
+			private IEnumerator <Actions>g__coroutine2|6_0()
+			{
+				AyaHeadShotDef.AyaHeadShot.<<Actions>g__coroutine2|6_0>d <<Actions>g__coroutine2|6_0>d = new AyaHeadShotDef.AyaHeadShot.<<Actions>g__coroutine2|6_0>d(0);
+				<<Actions>g__coroutine2|6_0>d.<>4__this = this;
+				return <<Actions>g__coroutine2|6_0>d;
+			}
+
+			static BattleController \u206D\u202A\u202D\u206C\u206A\u200B\u200C\u202A\u200E\u200F\u206E\u200F\u202C\u202D\u200E\u200B\u202D\u206D\u200C\u202A\u202D\u206A\u202E\u206B\u202A\u202B\u206A\u200C\u202C\u206F\u200E\u200C\u200C\u200B\u200F\u206B\u200E\u200E\u200C\u202D\u202E(Card A_0)
+			{
+				return A_0.Battle;
+			}
+
+			static PlayerUnit \u206D\u206D\u202E\u206C\u206C\u206D\u202E\u206F\u200E\u200C\u200E\u200D\u206A\u200E\u200F\u202A\u202A\u202A\u206C\u206C\u206E\u200D\u206A\u206E\u206B\u200E\u202D\u206C\u200E\u202B\u206A\u202A\u206A\u202E\u206B\u206B\u200D\u200E\u200E\u200F\u202E(BattleController A_0)
+			{
+				return A_0.Player;
+			}
+
+			static GameEvent<DamageDealingEventArgs> \u206B\u202A\u202E\u206E\u200E\u206A\u200F\u206A\u206A\u206A\u202E\u200C\u206E\u202B\u200C\u202E\u206E\u200D\u206C\u200F\u206F\u202D\u200F\u202A\u202D\u200C\u202E\u206E\u202E\u202C\u200F\u200E\u202D\u202D\u206E\u206A\u200E\u202C\u200F\u200F\u202E(Unit A_0)
+			{
+				return A_0.DamageDealing;
+			}
+
+			static GameEntity \u202B\u200E\u200C\u202E\u200F\u200E\u200F\u200C\u200E\u202B\u200B\u200F\u200D\u202D\u202B\u200B\u206D\u200F\u202A\u202C\u202D\u202D\u206B\u206F\u200C\u200D\u202C\u206A\u202D\u206C\u200B\u202D\u206A\u206B\u202C\u202C\u200E\u206E\u202E\u202D\u202E(GameEventArgs A_0)
+			{
+				return A_0.ActionSource;
+			}
+
+			static DamageInfo \u200F\u200E\u206D\u206A\u200E\u206E\u206D\u202C\u200E\u206D\u200F\u202C\u206E\u206E\u206E\u202C\u200C\u206A\u206A\u202B\u206F\u202B\u200B\u206B\u202A\u202C\u202A\u206C\u206F\u206F\u202B\u200B\u200E\u200C\u206B\u206D\u202E\u206F\u200E\u202B\u202E(DamageDealingEventArgs A_0)
+			{
+				return A_0.DamageInfo;
+			}
+
+			static Unit[] \u206F\u206D\u202E\u206B\u206F\u202C\u202D\u202D\u206C\u206E\u200E\u206F\u200E\u200F\u206B\u202E\u200B\u202E\u206A\u206B\u202D\u206A\u206C\u202B\u200C\u206C\u206D\u200C\u202B\u200B\u202E\u206D\u206A\u206A\u200E\u206B\u200C\u200C\u206D\u202E(DamageDealingEventArgs A_0)
+			{
+				return A_0.Targets;
+			}
+
+			static int \u202D\u206E\u206C\u206C\u206B\u206A\u202C\u206B\u202B\u200F\u206F\u200B\u202E\u200C\u206B\u206D\u200D\u202E\u202A\u206A\u200B\u206E\u206A\u200C\u200B\u200C\u206B\u200C\u200E\u200B\u206A\u200F\u200B\u206C\u206F\u206C\u200D\u206E\u206D\u202B\u202E(StatusEffect A_0)
+			{
+				return A_0.Level;
+			}
+
+			static int \u202D\u200E\u206C\u206C\u202A\u206D\u200C\u206C\u202B\u202D\u206B\u202B\u200D\u200D\u200D\u202A\u200E\u200B\u200F\u200E\u202B\u206B\u200C\u200D\u206B\u206B\u202B\u206A\u206F\u206A\u206F\u200E\u206B\u206D\u206A\u202C\u206B\u200B\u202C\u202B\u202E(Card A_0)
+			{
+				return A_0.Value1;
+			}
+
+			static void \u202A\u200B\u206A\u202B\u200E\u200B\u206C\u202E\u206F\u202A\u206A\u202A\u202C\u200E\u206D\u200B\u200C\u202D\u206B\u206E\u200F\u206F\u206E\u202E\u206B\u200B\u202B\u200D\u200D\u202B\u202D\u200B\u200C\u206A\u206F\u200B\u202C\u200E\u206D\u206F\u202E(DamageDealingEventArgs A_0, DamageInfo A_1)
+			{
+				A_0.DamageInfo = A_1;
+			}
+
+			static void \u200E\u202A\u206C\u202B\u202D\u206A\u202A\u200B\u200E\u202C\u206E\u202B\u200C\u206E\u206C\u206B\u206E\u202E\u200F\u200C\u200B\u202B\u202C\u206C\u202E\u202E\u200C\u206B\u200E\u200E\u202B\u202E\u200C\u200C\u206F\u206D\u202E\u200E\u206A\u202B\u202E(GameEventArgs A_0, GameEntity A_1)
+			{
+				A_0.AddModifier(A_1);
+			}
+
+			static Card \u206A\u206C\u202D\u206D\u202C\u206C\u202D\u202A\u202E\u206C\u202A\u202A\u206C\u200C\u202E\u200F\u206D\u206E\u206E\u206C\u206B\u200F\u200D\u202D\u202B\u206F\u202E\u200C\u200E\u206A\u200B\u206E\u200E\u202B\u202C\u200F\u206F\u202C\u202E\u206A\u202E(HandCard A_0)
+			{
+				return A_0.Card;
+			}
+
+			static Coroutine \u200E\u200C\u206B\u200E\u206F\u202E\u206E\u200D\u206D\u202B\u200F\u202A\u206B\u202A\u202D\u200C\u200F\u200C\u206F\u206D\u202B\u206F\u202D\u206E\u202E\u202B\u200B\u200B\u200D\u202E\u202E\u200C\u202D\u200D\u206F\u202E\u202D\u200D\u202A\u202A\u202E(MonoBehaviour A_0, IEnumerator A_1)
+			{
+				return A_0.StartCoroutine(A_1);
+			}
+
+			bool \u206B\u206C\u206F\u202C\u206F\u206D\u202A\u206A\u202B\u206A\u202D\u202B\u206E\u206B\u206F\u202B\u200B\u200D\u206A\u206D\u206A\u200C\u206F\u202B\u202E\u202B\u202C\u206A\u202A\u202E\u200F\u206B\u206E\u200F\u202B\u202A\u206B\u206B\u200D\u206D\u202E()
+			{
+				return base.CanUse;
+			}
+
+			static GameObject \u206B\u206F\u206A\u202E\u206D\u206B\u200E\u206D\u206D\u202A\u202A\u206C\u206D\u200C\u206A\u200C\u200D\u200B\u206F\u202A\u200C\u206C\u206B\u206B\u200C\u206C\u202E\u200E\u206D\u202B\u202B\u206F\u206B\u200F\u200D\u206E\u202D\u202A\u200E\u206D\u202E(string A_0, Assembly A_1)
+			{
+				return StageTemplate.TryGetEnvObject(A_0, A_1);
+			}
+
+			private static GameObject zoom = AyaHeadShotDef.AyaHeadShot.\u206B\u206F\u206A\u202E\u206D\u206B\u200E\u206D\u206D\u202A\u202A\u206C\u206D\u200C\u206A\u200C\u200D\u200B\u206F\u202A\u200C\u206C\u206B\u206B\u200C\u206C\u202E\u200E\u206D\u202B\u202B\u206F\u206B\u200F\u200D\u206E\u202D\u202A\u200E\u206D\u202E(<Module>.\u200F\u206C\u206A\u202D\u200D\u202B\u202B\u206B\u206A\u202C\u206C\u206B\u200B\u200D\u202E\u206F\u206C\u206E\u202E\u200D\u200F\u206D\u202A\u200B\u206D\u200B\u206F\u200D\u206B\u202E\u200F\u206D\u200B\u200F\u206D\u200D\u202C\u206C\u206C\u202E<string>(713567635), null);
+
+			private bool Fire;
+		}
+	}
+}

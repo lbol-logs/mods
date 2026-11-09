@@ -1,0 +1,10 @@
+﻿FlandreHotSurface:
+  Description: >-
+    获得 {Block} |格挡|。
+
+    直到{PlayerName}的下回合开始，每当{PlayerName}受到攻击伤害时，对伤害来源施加 {Value1} |地狱火|。
+  UpgradedDescription: >-
+    获得 {Block} |格挡|。
+
+    直到{PlayerName}的下回合开始，每当{PlayerName}受到攻击伤害时，对伤害来源施加 {Value1} |地狱火|。
+  Name: 炽热表面

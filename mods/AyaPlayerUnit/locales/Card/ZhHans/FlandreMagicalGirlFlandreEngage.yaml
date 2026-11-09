@@ -1,0 +1,43 @@
+﻿FlandreMagicalGirlFlandreEngage:
+  Description: >-
+    手牌上限变为 {Value1}。
+
+    直到战斗结束，所有非 |魔法少女| 卡牌的费用增加{Mana}点。
+
+    所有 |魔法少女| 卡牌最多可被 |升级| {Value2}次。
+
+    将1张 |魔法斩击| 、1张 |魔法守护| 、1张 |魔法技巧| 和1张 |魔法潜能| 加入手牌。
+
+    此效果不可叠加。
+
+    直到战斗结束，|升级| 所有 |魔法少女| 卡牌。
+
+    获得{Value3}点 |护身符| 和{Value3}点 |庇护|。
+  UpgradedDescription: >-
+    手牌上限变为 {Value1}。
+
+    直到战斗结束，所有非 |魔法少女| 卡牌的费用增加{Mana}点。
+
+    所有 |魔法少女| 卡牌最多可被 |升级| {Value2}次。
+
+    将1张 |魔法斩击| 、1张 |魔法守护| 、1张 |魔法技巧| 和1张 |魔法潜能| 加入手牌。
+
+    此效果不可叠加。
+
+    直到战斗结束，|升级| 所有 |魔法少女| 卡牌。
+
+    获得{Value3}点 |护身符| 和{Value3}点 |庇护|。
+  Name: 魔法少女芙兰·出击！
+  DetailText: 这些牌不计入手牌上限。
+  MagicalGirlFlandreEngage1Flandre: 魔法少女{0}，变身！
+  MagicalGirlFlandreEngage2Flandre: 爱与正义的力量，会打败你！
+  MagicalGirlFlandreEngage3Flandre: 你的野心到此为止了！魔法少女{0}，参上！
+  MagicalGirlFlandreEngage4Flandre: ……我非说不可吗？
+  MagicalGirlFlandreEngage5Flandre: ……解释一下。不然折断你的脊椎
+  MagicalGirlFlandreEngage6Flandre: '...这跟解决异变有什么关系？'
+  MagicalGirlFlandreEngage7Okina: 魔法少女没有相应的仪态怎么行？
+  MagicalGirlFlandreEngage8Okina: 要好好认真对待魔法少女的身份才行啊。
+  MagicalGirlFlandreEngage9Okina: 你以魔法少女的身份解决异变，我能收集更多信仰呀。
+  MagicalGirlFlandreEngage10Flandre: 走开啦。
+  MagicalGirlFlandreEngage11Flandre: 你好奇怪。
+  MagicalGirlFlandreEngage12Flandre: 你其实乐在其中吧？

@@ -1,0 +1,9 @@
+﻿FlandreUltB:
+  Title: 禁忌
+  Content: 憎しみの迷宮
+  Description: >-
+    {FlandreShield}|バリア|を得る。
+
+    敵全体に{FlandreDamage}ダメージを与え、|弱体|{FlandreValue1}を与える。|精密|
+
+    敵全体に{FlandreValue2}枚のランダムな|クリスタル{Value2:plural one='' other=''}|を使用する。

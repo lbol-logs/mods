@@ -1,0 +1,14 @@
+﻿FlandreCrystalBullet:
+  Description: >-
+    Deal {FlandreDamage} damage.
+
+    Add {FlandreValue1} |p:random| |Crystal{FlandreValue1:plural one='' other='s'}| to the hand.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage.
+
+    Add {FlandreValue1} |p:random| |Crystal{FlandreValue1:plural one='' other='s'}| to the hand.
+  ExtraDescription1: >-
+    Deal {FlandreDamage} damage.
+
+    Add {FlandreValue1} |p:random| |Crystal{FlandreValue1:plural one='' other='s'}+{Value3}| to the hand.
+  Name: Crystal Bullet

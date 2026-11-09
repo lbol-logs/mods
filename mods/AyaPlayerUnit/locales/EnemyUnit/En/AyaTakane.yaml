@@ -1,0 +1,17 @@
+﻿AyaTakane:
+  Title: Business Youkai of the Mountain's Recess
+  Move:
+  - Y60 Machine Gun
+  - Y202 FLASH
+  - Yamawaro Bomber
+  - Banditry Y82
+  - First Aid Kit
+  - Bullet Money
+  - Ability Cards Galore
+  AyaTakaneAttack: Do you really want to attack {0}?
+  AyaTakaneIntro1Takane: Stop, thief!
+  AyaTakaneIntro2Takane: Oh no you don't!
+  AyaTakaneIntro3Takane: Time to teach you a lesson!
+  AyaTakaneSteal1: Loot
+  AyaTakaneSteal2: Choose a card to Upgrade.
+  AyaTakaneSteal3: Choose a card to remove.

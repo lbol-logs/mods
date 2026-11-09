@@ -1,0 +1,10 @@
+﻿FlandreCatastropheofSeventeenArticles:
+  Description: >-
+    Gain {FlandreShield} |Barrier|.
+
+    |Upgrade| all cards {FlandreValue1:plural one='% time' other='% times'} until the end of combat.
+  UpgradedDescription: >-
+    Gain {FlandreShield} |Barrier|.
+
+    |Upgrade| all cards {FlandreValue1:plural one='% time' other='% times'} until the end of combat.
+  Name: Catastrophe of Seventeen Articles

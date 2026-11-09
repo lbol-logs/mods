@@ -1,0 +1,22 @@
+﻿FlandreEndwithaBang:
+  Description: >-
+    Gain {FlandreBlock} |Block|.
+
+    Gain {FlandreValue1} |Firepower|.
+
+    Trigger |Brimstone| of each enemy {FlandreValue2:plural one='% time' other='% times'}.
+
+    |At the end of combat|: If {SelfName} was the last card played, gain a |p:random| card reward.
+  UpgradedDescription: >-
+    Gain {FlandreBlock} |Block|.
+
+    Gain {FlandreValue1} |Firepower|.
+
+    Trigger |Brimstone| of each enemy {FlandreValue2:plural one='% time' other='% times'}.
+
+    |At the end of combat|: If {SelfName} was the last card played, gain a |p:random| card reward.
+  Name: End with a Bang
+  FlavorText: >-
+    "Art is an explosion."
+
+    - Flandre Scarlet

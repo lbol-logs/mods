@@ -1,0 +1,18 @@
+﻿AyaPeltingintheDarkNight:
+  Description: >-
+    |When {SelfName} enters the hand|: Deal {Damage} damage to the enemy with the least life, draw a card and discard {SelfName}.
+
+    This effect can only happen {Value1:plural one='% time' other='% times'} per turn.
+  UpgradedDescription: >-
+    |When {SelfName} enters the hand|: Deal {Damage} damage to the enemy with the least life, draw a card and discard {SelfName}.
+
+    This effect can only happen {Value1:plural one='% time' other='% times'} per turn.
+  ExtraDescription1: >-
+    |d:When {SelfName} enters the hand: Deal {Damage} damage to the enemy with the least life, draw a card and discard {SelfName}.
+
+    This effect can only happen {Value1:plural one='% time' other='% times'} per turn.|
+  UpgradedExtraDescription1: >-
+    |d:When {SelfName} enters the hand: Deal {Damage} damage to the enemy with the least life, draw a card and discard {SelfName}.
+
+    This effect can only happen {Value1:plural one='% time' other='% times'} per turn.|
+  Name: Pelting in the Dark Night

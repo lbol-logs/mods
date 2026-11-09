@@ -1,0 +1,14 @@
+﻿FlandreDontFearTheReaper:
+  Description: >-
+    Gain {FlandreValue1} |Firepower|.
+
+    Play all attack cards in the hand, draw pile, and discard pile.
+
+    For each attack card played this way, gain {Value2} |Madness|.
+  UpgradedDescription: >-
+    Gain {FlandreValue1} |Firepower|.
+
+    Play all attack cards in the hand, draw pile, and discard pile.
+
+    For each attack card played this way, gain {Value2} |Madness|.
+  Name: Don't Fear The Reaper

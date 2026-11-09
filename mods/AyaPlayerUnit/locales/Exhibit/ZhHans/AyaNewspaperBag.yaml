@@ -1,0 +1,4 @@
+﻿AyaNewspaperBag:
+  Description: 战斗开始时，将 {Value1:plural one='% |文文新闻|' other='% |文文新闻|'} 添加到抽牌堆。{Value1:plural one='它 |消耗|' other='它们 |消耗|'} {Mana}。
+  Name: 报纸袋
+  FlavorText: 一个用报纸制成的报纸袋，里面装着报纸，很环保！

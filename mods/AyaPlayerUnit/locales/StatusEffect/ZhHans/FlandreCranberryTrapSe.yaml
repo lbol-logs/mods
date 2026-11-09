@@ -1,0 +1,10 @@
+﻿FlandreCranberryTrapSe:
+  Brief: >-
+    在 {PlayerName} 的回合结束时，对每个敌人造成 |精准| 攻击伤害。
+
+    当 {PlayerName} 因敌人失去生命值时，将所有 |蔓越莓陷阱| 转化为 |护盾|。
+  Description: >-
+    在 {PlayerName} 的回合结束时，对每个敌人造成 {Damage} |精准| 攻击伤害。
+
+    当 {PlayerName} 因敌人失去生命值时，将所有 |蔓越莓陷阱| 转化为 |护盾|。
+  Name: 蔓越莓陷阱

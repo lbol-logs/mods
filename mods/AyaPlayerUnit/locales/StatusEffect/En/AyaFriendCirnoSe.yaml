@@ -1,0 +1,10 @@
+﻿AyaFriendCirnoSe:
+  Brief: >-
+    Whenever {OwnerName} takes attack damage, they lose life and increase {SelfName} by same amount.
+
+    At the end of {OwnerName}'s turn, they lose |Final Freeze|.
+  Description: >-
+    Whenever {OwnerName} takes attack damage, they lose {Level} life and increase {SelfName} by same amount.
+
+    At the end of {OwnerName}'s turn, they lose |Final Freeze|.
+  Name: Final Freeze

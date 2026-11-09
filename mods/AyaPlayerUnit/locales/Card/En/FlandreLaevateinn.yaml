@@ -1,0 +1,14 @@
+﻿FlandreLaevateinn:
+  Description: >-
+    Deal {FlandreDamage} damage and apply {FlandreValue1} |Hellfire| to each enemy.
+
+    This effect is affected by |Firepower| {FlandreValue2:plural one='% time' other='% times'}.
+
+    Trigger |Hellfire| of each enemy {Value3:plural one='% time' other='% times'}.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage and apply {FlandreValue1} |Hellfire| to each enemy.
+
+    This effect is affected by |Firepower| {FlandreValue2:plural one='% time' other='% times'}.
+
+    Trigger |Hellfire| of each enemy {Value3:plural one='% time' other='% times'}.
+  Name: Laevateinn

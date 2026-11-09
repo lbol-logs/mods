@@ -1,0 +1,6 @@
+﻿FlandreFriendOkinaFall:
+  Description: '{FriendP}|f:丰饶权能|:每当消耗{Mana}时，对所有敌人施加 {Value1} 点|地狱火|。(剩余 {Count} 次)'
+  NonbattleDescription: '{FriendP}|f:丰饶权能|:每当消耗{Mana}时，对所有敌人施加 {Value1} 点|地狱火|。'
+  ExtraDescription1: '{FriendA}|a:季相解放|:从{Value2}种 |季节| 中选择1种。 {SelfName} 获得其效果。'
+  ExtraDescription3: '{FriendU}|u:「里·疯狂秋风」|:每当卡牌被放逐时，获得 {Value3} 点|闪避|。'
+  Name: 绝对秘神隐岐奈 - 秋

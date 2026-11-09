@@ -1,0 +1,4 @@
+﻿AyaOpeningWindoftheTenguRealm:
+  Description: '|전투 시작시|: {SelfName}이 |소멸|하고, |추가턴|을 {Value1} 얻습니다.'
+  UpgradedDescription: '|전투 시작시|: {SelfName}이 |소멸|하고, |추가턴|을 {Value1} 얻으며, |가속|을 {Value2} 얻습니다.'
+  Name: 천구도의 개풍

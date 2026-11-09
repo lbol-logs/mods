@@ -1,0 +1,18 @@
+﻿FlandreMagicalSlash:
+  Description: >-
+    Deal {FlandreDamage} damage.
+
+    Return {SelfName} to the hand.
+
+    {SelfName} costs {Mana} more this turn.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage.
+
+    Return {SelfName} to the hand.
+
+    {SelfName} costs {Mana} more this turn.
+  Name: Magical Slash
+  DetailText: >-
+    |p:{SelfName} never leaves the hand under any circumstances.|
+
+    {SelfName} is always the {Order:ordinal one='%st' two='%nd' few='%rd' other='%th'} card in the hand.

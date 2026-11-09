@@ -1,0 +1,4 @@
+﻿AyaOrbBlackUnexplainedFeverSe:
+  Brief: 在 {OwnerName} 的回合结束时，对 {PlayerName} 施加 |中毒|。
+  Description: 在 {OwnerName} 的回合结束时，对 {PlayerName} 施加 {Level} |中毒|。
+  Name: 不明发热

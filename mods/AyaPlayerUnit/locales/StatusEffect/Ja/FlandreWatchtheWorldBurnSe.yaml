@@ -1,0 +1,4 @@
+﻿FlandreWatchtheWorldBurnSe:
+  Brief: '{PlayerName}のターン終了時に敵全体に|業火|を与える。'
+  Description: '{PlayerName}のターン終了時に敵全体に|業火|{Value}を与える。'
+  Name: 見よ、燃える世界を

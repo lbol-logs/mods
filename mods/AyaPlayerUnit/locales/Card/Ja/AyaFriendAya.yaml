@@ -1,0 +1,13 @@
+﻿AyaFriendAya:
+  Description: '{FriendP}|f:岐符「サルタクロス」|: |加速|{Value1}を得る。'
+  ExtraDescription1: '{FriendA}|a:風神「Storm Day」|: この効果はターンに1回のみ使用できる。|手札|の各カードを|廃棄|する。その後、手札が満たされるまでランダムな|アップグレード済み|カードを手札に加える。'
+  ExtraDescription2: '{FriendA}|d:風神「Storm Day」: この効果はターンに1回のみ使用できる。手札の各カードを追放する。その後、手札が満たされるまでランダムな強化済みカードを手札に加える。|'
+  ExtraDescription3: '{FriendU}|u:風神「Peerless Wind God」|: この効果は戦闘中に1回のみ使用できる。全ての敵に{Value2}回、{Damage}の攻撃ダメージを与える。敵はこのターン行動できない。これらの効果は{PlayerName}の次のターンの開始時にも繰り返される。 |精密|'
+  ExtraDescription4: '{FriendU}|d:「無双風神」: この効果は戦闘中に1回のみ使用できる。全ての敵に{Value2}回、{Damage}の攻撃ダメージを与える。敵はこのターン行動できない。これらの効果は{PlayerName}の次のターンの開始時にも繰り返される。精密|'
+  Name: 風神少女、文
+  DetailText: >-
+    |召喚された時|：|天上天下の照國|を得る。
+
+    |p:このカードは手札から離れない。|
+
+    {PlayerName}のターン終了時、このカードの|支援度|が0ならば、|r:{PlayerName}は敗北する。|

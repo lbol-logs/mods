@@ -1,0 +1,26 @@
+﻿AyaArsenalBird:
+  Description: >-
+    获得 {Value1} |防御矩阵|。
+
+    在{PlayerName}回合开始时，将 |无人空中乌鸦| 召唤到手牌中。
+
+    此效果不会叠加。
+  UpgradedDescription: >-
+    获得 {Value1} |防御矩阵|。
+
+    在{PlayerName}回合开始时，将 |无人空中乌鸦| 召唤到手牌中。
+
+    此效果不会叠加。
+
+    触发 {SelfName} 一次。
+  PhantasmModeDescription: >-
+    在{PlayerName}回合开始时，将 |无人空中乌鸦| 召唤到手牌中。
+
+    此效果不会叠加。
+  PhantasmModeUpgradedDescription: >-
+    在{PlayerName}回合开始时，将 |无人空中乌鸦| 召唤到手牌中。
+
+    此效果不会叠加。
+
+    触发 {SelfName} 一次。
+  Name: 军械库鸟

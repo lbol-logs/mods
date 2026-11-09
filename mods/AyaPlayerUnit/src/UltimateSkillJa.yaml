@@ -1,0 +1,111 @@
+AyaBossFlandreUltThreeofaKind:
+  Title: 禁忌
+  Content: スリーオブアカインド
+AyaBossFlandreUlt1:
+  Title: 禁忌
+  Content: クランベリートラップ
+AyaBossFlandreUlt2:
+  Title: 禁忌
+  Content: レーヴァテイン
+AyaBossFlandreUlt3:
+  Title: 禁忌
+  Content: フォーオブアカインド
+AyaBossFlandreUlt4:
+  Title: 禁忌
+  Content: カゴメカゴメ
+AyaBossFlandreUlt5:
+  Title: 禁忌
+  Content: 恋の迷路
+AyaBossFlandreUlt6:
+  Title: 禁弾
+  Content: スターボウブレイク
+AyaBossFlandreUlt7:
+  Title: 禁弾
+  Content: カタディオプトリック
+AyaBossFlandreUlt8:
+  Title: 禁弾
+  Content: 過去を刻む時計
+AyaBossFlandreUlt9:
+  Title: 秘弾
+  Content: そして誰もいなくなるか？
+AyaBossFlandreUlt10:
+  Title: Q.E.D.
+  Content: 495年の波紋
+AyaBossYukariUlt1:
+  Title: 
+  Content: 幻想結界
+AyaBossYukariUlt2:
+  Title: 式神
+  Content: 八雲藍
+AyaBossYukariUlt3:
+  Title: 紫奥義
+  Content: 弾幕結界
+AyaBossYukariUlt4:
+  Title: 
+  Content: 深奥なる弾幕結界　―夢幻・泡影・幻影―
+AyaBossYukariUlt5:
+  Title: 
+  Content: 不可能弾幕結界
+AyaBossZUNUlt:
+  Title: 酔符
+  Content: 無料トライアルは終了しました。
+AyaChameleonHyperSpeedScratch:
+  Title: 爪符
+  Content: 高速引っ掻き
+AyaPatchouliUlt:
+  Title: 火水木金土符
+  Content: 賢者の石
+AyaTakaneUlt:
+  Title: 弾幕マネー
+  Content: 能力カード大盤振る舞い
+AyaUltR:
+  Title: 旋符
+  Content: 紅葉扇風
+  Description: "|加速|{Value1}を得る。\n敵全体に{Damage}ダメージを与え、{PlayerName}の|加速|と同じ値の|臨時火力ダウン|を与える。|精密|"
+AyaUltG:
+  Title: 突符
+  Content: 天狗のマクロバースト
+  Description: "{Damage}ダメージを与える。|精密|\nカードを{Value1}枚引く。その後、手札にある|厄災|と状態異常カードを全て使用または|廃棄|する。"
+AyaUltAdvent:
+  Title: 塞符
+  Content: 天孫降臨
+AyaUltIllusionary:
+  Title: 
+  Content: 幻想風靡
+AyaUltPeerless:
+  Title: 
+  Content: 無双風神
+AyaUltTerukuni:
+  Title: 塞符
+  Content: 天上天下の照國
+FlandreUltB:
+  Title: 禁忌
+  Content: 憎しみの迷宮
+  Description: "{FlandreShield}|バリア|を得る。\n敵全体に{FlandreDamage}ダメージを与え、|弱体|{FlandreValue1}を与える。|精密|\n敵全体に{FlandreValue2}枚のランダムな|クリスタル{Value2:plural one='' other=''}|を使用する。"
+FlandreUltR:
+  Title: 禁忌
+  Content: レーヴァテイン -業火-
+  Description: "敵全体に|業火|{FlandreValue1}を与える。この効果は|火力|の影響を{FlandreValue2:plural one='%回' other='%回'}受ける。\n敵全体の|業火|を\n敵全体の|業火|を{Value3}回発動。"
+FlandreUltArmageddon:
+  Title:
+  Content: アルマゲドン
+
+FlandreUltCasino:
+  Title:
+  Content: 紅魔カジノ
+
+FlandreUltForbidden:
+  Title:
+  Content: 禁断の紅い好奇心
+  
+FlandreUltRipples:
+  Title: Q.E.D.
+  Content: 495年の波紋
+OkinaUltU:
+  Title: 
+  Content: 
+  Description: ""
+OkinaUltG:
+  Title: 
+  Content: 
+  Description: ""

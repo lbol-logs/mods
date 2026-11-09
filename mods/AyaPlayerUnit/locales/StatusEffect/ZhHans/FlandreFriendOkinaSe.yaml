@@ -1,0 +1,4 @@
+﻿FlandreFriendOkinaSe:
+  Brief: 在 {PlayerName} 的回合开始时，从一些 |p:完全随机| 的稀有牌中选择 1 张加入手牌。它临时消耗 {Mana} 并具有|放逐|和 |虚无|。
+  Description: 在 {隐秘的时空幻游} 的回合开始时，从 {Level} 张 |p:完全随机| 的稀有牌{Level:plural one='' other=''} 中选择 1 张加入手牌。它临时消耗 {Mana} 并具有|放逐|和 |虚无|。
+  Name: 隐秘时空幻想之旅

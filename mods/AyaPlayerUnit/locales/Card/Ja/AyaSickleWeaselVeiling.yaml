@@ -1,0 +1,4 @@
+﻿AyaSickleWeaselVeiling:
+  Description: '{PlayerName}が攻撃を0ダメージで受けた時、攻撃してきた相手に{Value1}ダメージを与える。'
+  UpgradedDescription: '{PlayerName}が攻撃を0ダメージで受けた時、攻撃してきた相手に{Value1}ダメージを与える。'
+  Name: 鎌鼬ベーリング

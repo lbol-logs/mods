@@ -1,0 +1,1139 @@
+#prettier-ignore
+AyaAdventoftheDivineGrandson:
+  Description: "{Mana}를 얻습니다.\n손이 가득 찰 때까지 카드를 뽑습니다.\n{PlayerName}가 모든 상태이상에 면역이 됩니다.\n모든 카드가 두번 사용됩니다.\n|사용제한\u3010{DeckCounterToolPlayableTimes}\u3011|"
+  UpgradedDescription: "{Mana}를 얻습니다.\n손이 가득 찰 때까지 카드를 뽑습니다.\n{PlayerName}가 모든 상태이상에 면역이 됩니다.\n모든 카드가 두번 사용됩니다.\n|사용제한\u3010{DeckCounterToolPlayableTimes}\u3011|"
+  PhantasmModeDescription: "이 카드는 판타즘 모드에선 금지되었습니다."
+  PhantasmModeUpgradedDescription: "이 카드는 판타즘 모드에선 금지되었습니다."
+  Name: 천손강림
+  DetailText: "{SelfName}은 전투중에 생성되지 않고, 복사되지 않습니다."
+  AdventoftheDivineGrandson1Aya: ""
+  AdventoftheDivineGrandson2Aya: ""
+AyaAnythingisNewsworthy:
+  Description: '상태카드가 추가될때, 이름에 "붕붕마루"나 "신문"이 없다면, 대신 |붕붕마루 신문|을 추가합니다.'
+  UpgradedDescription: '상태카드가 추가될때, 이름에 "붕붕마루"나  "신문"이 없다면, 대신 |붕붕마루 신문|을 추가합니다.'
+  Name: 무엇이든 보도할수있지
+AyaApexPredator:
+  Description: "{PlayerName}가 공격 피해를 받을 때마다 그 피해를 {PlayerName}의 |가속|만큼 줄이고 |가속|을 2 잃습니다.\n|가속|을 {Value1} 얻습니다."
+  UpgradedDescription: "{PlayerName}가 공격 피해를 받을 때마다 그 피해를 {PlayerName}의 |가속|만큼 줄이고 |가속|을 2 잃습니다.\n|가속|을 {Value1} 얻습니다."
+  Name: 최상위 포식자
+AyaArmoredRaven:
+  Description: "{PlayerName}의 턴에 처음 사용하는 공격 카드가 두번 사용됩니다.\n{PlayerName}의 턴에 처음 사용하는 상태 카드가 두번 사용됩니다."
+  UpgradedDescription: "{PlayerName}의 턴에 처음 사용하는 공격 카드가 두번 사용됩니다.\n{PlayerName}의 턴에 처음 사용하는 상태 카드가 두번 사용됩니다."
+  Name: 중장갑 까마귀
+AyaArsenalBird:
+  Description: "|방어 매트릭스|를 {Value1} 얻습니다.\n{PlayerName}의 턴 시작시, 손에 |무인 항공 까마귀|를 소환합니다.\n이 효과는 중첩되지 않습니다."
+  UpgradedDescription: "|방어 매트릭스|를 {Value1} 얻습니다.\n{PlayerName}의 턴 시작시, 손에 |무인 항공 까마귀|를 소환합니다.\n이 효과는 중첩되지 않습니다.\n{SelfName}를 한 번 발동합니다."
+  PhantasmModeDescription: "{PlayerName}의 턴 시작시, 손에 |무인 항공 까마귀|를 소환합니다.\n이 효과는 중첩되지 않습니다."
+  PhantasmModeUpgradedDescription: "{PlayerName}의 턴 시작시, 손에 |무인 항공 까마귀|를 소환합니다.\n이 효과는 중첩되지 않습니다.\n{SelfName}를 한 번 발동합니다."
+  Name: 아스널 버드
+AyaArsenalBirdDrone:
+  Description: "{FriendP}|f:순찰 모드|: {Mana}를 얻고 카드를 한 장 뽑습니다."
+  ExtraDescription1: "{FriendP}|f:전투 모드|: |방어|를 {PassiveBlock} 얻고 무작위 적에게 피해를 {Damage} 줍니다."
+  ExtraDescription2: "{FriendA}|a:순찰 모드|: {SelfName} |소멸|. {PlayerName}의 턴 시작시, {Mana}를 얻고 카드를 한 장 뽑습니다."
+  ExtraDescription3: "{FriendA}|a:전투 모드|: {SelfName} |소멸|. {PlayerName}의 턴 종료시, |방어|를 {PassiveBlock} 얻고 무작위 적에게 피해를 {Damage} 줍니다."
+  ExtraDescription4: "{FriendU}|u:자폭|: 모든 적에게 피해를 {Damage2} 줍니다. 제거될 때도 발동합니다. |명중|"
+  Name: 무인 항공 까마귀
+  DetailText: "{SelfName}의 효과는 손에 있지 않아도 발동됩니다."
+  FlavorText: "최신 기술 집약형 로봇 까마귀를 소개합니다!"
+AyaAttackR:
+  Description: "피해를 {Damage} 줍니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다."
+  Name: 질풍선
+AyaAttackG:
+  Description: "피해를 {Damage} 줍니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다."
+  Name: 열풍선
+AyaAyaShameimarusCoerciveReporting:
+  Description: "|특별 붕붕마루 신문|을 손에 추가합니다.\n대상이 하려는 행동에 따라 추가효과를 얻습니다."
+  UpgradedDescription: "|특별 붕붕마루 신문|을 손에 추가합니다.\n대상이 하려는 행동에 따라 추가효과를 얻습니다."
+  Name: 샤메이마루 아야의 압박취재
+  DetailText: "|공격|: |허약|을 {Value2} 줍니다.\n|강화|: |화력|을 {Value2} 얻습니다.\n|약화|: |부적|을 {Value2} 얻습니다.\n|상태이상|: |활력|을 손에 추가합니다.\n|방어|: |취약|을 {Value2} 줍니다.\n|그레이즈|: |가속|을 {Value4} 얻습니다.\n|소환|: 대신 |스쿠스쿠 아야|를 소환합니다.\n|수면|: 대상을 깨웁니다.\n|기절하거나 아무것도 안함|: |추가 턴|을 {Value1} 얻습니다.\n|도망|: 대상을 처치합니다.\n|기폭|: 대상이 엘리트나 보스라면, 처치합니다. 아니라면, 처치하고 모든 적에게 두배의 피해를 줍니다.\n|준비|: |버스트|상태가 됩니다.\n|회복 또는 수리|: 체력을 {Value4} 얻습니다.\n|스펠카드|: <sprite=\"Point\" name=\"Gold\">와 <sprite=\"Point\" name=\"Power\">를 {Value5} 얻습니다..\n|청소|: {PlayerName}의 모든 디버프를 제거하고 |부적|을 2 얻습니다.\n|암흑노가쿠|: {PlayerName}의 모든 디버프를 제거하고 |부적|을 {Value5} 얻습니다. 남은 전투동안 |암흑노가쿠|를 무효합니다.\n|방해|: 카드가 |방해|당할 때 마다, 모든 적에게 피해를 {Value6} 줍니다."
+  AyaShameimarusCoerciveReportingSleep1Aya: "일어나, 잠꾸러기!"
+  AyaShameimarusCoerciveReportingEscape1Aya: "환상향 최속에게서 도망치려고? 바보아냐?"
+  AyaShameimarusCoerciveReportingEscape2Aya: "내 앞에서 도망칠 수 있을 거라고 생각했어?"
+  AyaShameimarusCoerciveReportingEscape31Aya: "안녕 안녕!"
+  AyaShameimarusCoerciveReportingEscape32Aya: "이제, 난"
+  AyaShameimarusCoerciveReportingEscape33Aya: "바로 네 뒤에 있어!"
+  AyaShameimarusCoerciveReportingDetonate1Aya: "폭발물 면허증은 있어?"
+  AyaShameimarusCoerciveReportingDetonate2Rin: "폭발물 면허증이 뭐야?"
+  AyaShameimarusCoerciveReportingDetonate3Aya: "이분이에요, 경관님."
+  AyaShameimarusCoerciveReportingDetonate4Rin: "잠깐만! 내가 설명할게!"
+  AyaShameimarusCoerciveReportingDetonate5Rin: "도와주세요! 사토리님!"
+  AyaShameimarusCoerciveReportingNohofDarkness1Aya: "여기 너무 어두워. 불 좀 켤게."
+  AyaShameimarusCoerciveReportingNohofDarkness2Kokoro: "내 눈!"
+AyaBirdStrike:
+  Description: "피해를 {Damage} 줍니다.\n{PlayerName}의 |가속|마다 {SelfName}의 피해량이 {Value1} 증가합니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n{PlayerName}의 |가속|마다 {SelfName}의 피해량이 {Value1} 증가합니다."
+  PhantasmModeDescription: "피해를 {Damage} 줍니다.\n{PlayerName}의 |가속|마다 {SelfName}의 피해량이 {Value1} 증가합니다.\n{PlayerName}의 |가속|만큼 피해를 받습니다."
+  PhantasmModeUpgradedDescription: "피해를 {Damage} 줍니다.\n{PlayerName}의 |가속|마다 {SelfName}의 피해량이 {Value1} 증가합니다.\n{PlayerName}의 |가속|만큼 피해를 받습니다."
+  Name: 버드스트라이크
+AyaBlackmail:
+  Description: "|붕붕마루 신문|이 추가로 |일시 화력 저하|를 {Value1} 주고, 발동시 <sprite=\"Point\" name=\"Gold\">를 {Value2} 얻습니다. |붕붕마루 신문|을 {Value3}장 뽑을 카드 더미에 넣습니다."
+  UpgradedDescription: "|붕붕마루 신문|이 추가로 |일시 화력 저하|를 {Value1} 주고, 발동시 <sprite=\"Point\" name=\"Gold\">를 {Value2} 얻습니다. |붕붕마루 신문|을 {Value3}장 뽑을 카드 더미에 넣습니다."
+  Name: 찌라시
+  DetailText: "상관에게 |찌라시|를 시도한다면..."
+AyaBlockG:
+  Description: "|방어|를 {Block} 얻습니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다."
+  Name: 텐구 다운버스트
+AyaBlockR:
+  Description: "|방어|를 {Block} 얻습니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다."
+  Name: 텐구의 바람이슬 일으키기
+AyaBunbunmaruPrinter:
+  Description: "{PlayerName}의 턴 시작시 |일시적으로| 비용이 {Mana}인 |붕붕마루 신문|을 {Value1}장 손에 가져옵니다."
+  UpgradedDescription: "{PlayerName}의 턴 시작시 |일시적으로| 비용이 {Mana}인 |붕붕마루 신문|을 {Value1}장 손에 가져옵니다.\n{SelfName}을 한 번 발동합니다."
+  PhantasmModeDescription: "{PlayerName}의 턴 시작시, |붕붕마루 신문|을 {Value1}장 손에 가져옵니다."
+  PhantasmModeUpgradedDescription: "{PlayerName}의 턴 시작시, |붕붕마루 신문|을 {Value1}장 손에 가져옵니다.\n{SelfName}을 한 번 발동합니다."
+  Name: 붕붕마루 프린터
+AyaCandidShot:
+  Description: "피해를 {Damage}씩 {Times}번 줍니다.\n|록 온|을 {Value1} 줍니다.\n|손에 있을 때|: |액운| 또는 상태 카드가 |소멸|될 때마다 {SelfName}의 비용이 |일시적으로| {Mana} 감소합니다."
+  UpgradedDescription: "피해를 {Damage}씩 {Times}번 줍니다.\n|록 온|을 {Value1} 줍니다.\n|손에 있을 때|: |액운| 또는 상태 카드가 |소멸|될 때마다 {SelfName}의 비용이 |일시적으로| {Mana} 감소합니다."
+  Name: 캔디드 샷
+AyaChapter0:
+  Description: "고정된 만남 없이도 일반적인 게임을 즐길 수 있습니다."
+  Name: 프리모드
+AyaChapter1:
+  Description: "관객들이 보물을 찾으러 떠난 후, 아야는 사건을 조사하기로 결심합니다."
+  Name: 엑스트라! 잃어버린 보물의 진실
+AyaChapter2:
+  LockedDescription: "챕터 2는 아직 준비되지 않았습니다. 앞으로의 업데이트를 기대해 주세요."
+  Description: "꼬마 너구리는 어디에도 보이지 않았고, 아야는 그녀를 찾기 위해 요괴의 산으로 돌아갑니다.\n그녀의 모든 행동에는 결과가 있었습니다."
+  Name: 나비효과
+AyaCloseup:
+  Description: "|방어|를 {Block} 얻습니다.\n{SelfName}의 양옆의 |액운| 또는 상태 카드마다, {Mana}를 얻고 카드를 한 장 뽑습니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n{SelfName}의 양옆의 |액운| 또는 상태 카드마다, {Mana}를 얻고 카드를 한 장 뽑습니다."
+  Name: 클로즈업
+AyaComicallyLargeHat:
+  Description: "|방어|를 {Block} 얻습니다.\n|감속 {Value1}|: 모든 적에게 |허약|을 {Value2} 줍니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n모든 적에게 |허약|을 {Value2} 줍니다."
+  Name: 만화처럼 큰 모자
+AyaCompletedInterview:
+  Description: "|선보임|: |붕붕마루 신문| {Value1}장과 |붕붕마루 아야 특간호| {Value2}장을 버린 카드 더미에 추가합니다.\n카드를 {Value3}장 뽑습니다."
+  UpgradedDescription: "|선보임|: |붕붕마루 신문| {Value1}장과 |붕붕마루 아야 특간호| {Value2}장을 버린 카드 더미에 추가합니다.\n카드를 {Value3}장 뽑습니다."
+  ExtraDescription1: "|d:선보임: 붕붕마루 신문 {Value1}장과 붕붕마루 아야 특간호 {Value2}장을 버린 카드 더미에 추가합니다.|\n카드를 {Value3}장 뽑습니다."
+  UpgradedExtraDescription1: "|d:선보임: 붕붕마루 신문 {Value1}장과 붕붕마루 아야 특간호 {Value2}장을 버린 카드 더미에 추가합니다.|\n카드를 {Value3}장 뽑습니다."
+  Name: 완벽한 인터뷰
+AyaCrazyFallWind:
+  Description: "카드가 |소멸|될 때마다 |가속|을 {Value1} 얻습니다."
+  UpgradedDescription: "카드가 |소멸|될 때마다 |가속|을 {Value1} 얻습니다."
+  Name: 가을의 광풍
+AyaCrossroadsofHeaven:
+  Description: "|가속|을 {Value1} 얻습니다.\n{PlayerName}가 |가속|을 얻을 때 마다, |가속|을 추가로 {Value2} 얻습니다."
+  UpgradedDescription: "|가속|을 {Value1} 얻습니다.\n{PlayerName}가 |가속|을 얻을 때 마다, |가속|을 추가로 {Value2} 얻습니다."
+  PhantasmModeDescription: "{PlayerName}가 |가속|을 얻을 때 마다, |가속|을 추가로 {Value2} 얻습니다."
+  PhantasmModeUpgradedDescription: "{PlayerName}가 |가속|을 얻을 때 마다, |가속|을 추가로 {Value2} 얻습니다."
+  Name: 천국의 갈림길
+AyaDanceofBlackQuill:
+  Description: "모든 적에게 피해를 {Damage} 주고 |록 온|을 {Value1} 줍니다.\n|가속|을 {Value1} 얻습니다.\n{SelfName}을 사용해 적을 처치할 시, 이 효과를 반복합니다."
+  UpgradedDescription: "모든 적에게 피해를 {Damage} 주고 |록 온|을 {Value1} 줍니다.\n|가속|을 {Value1} 얻습니다.\n{SelfName}을 사용해 적을 처치할 시, 이 효과를 반복합니다."
+  PhantasmModeDescription: "모든 적에게 피해를 {Damage} 주고 |록 온|을 {Value1} 줍니다.\n|가속|을 {Value1} 얻습니다."
+  PhantasmModeUpgradedDescription: "모든 적에게 피해를 {Damage} 주고 |록 온|을 {Value1} 줍니다.\n|가속|을 {Value1} 얻습니다."
+  Name: 검은 깃털의 춤
+AyaDashingDomination:
+  Description: "|가속|을 {Value1} 얻습니다.\n카드를 {Value2}장 뽑습니다."
+  UpgradedDescription: "|가속|을 {Value1} 얻습니다.\n카드를 {Value2}장 뽑습니다."
+  Name: 풍미질주
+AyaDashingGrace:
+  Description: "{PlayerName}가 가진 |가속|마다 모든 적에게 피해를 {Value2} 줍니다. ({AccelerationDamage})"
+  UpgradedDescription: "{PlayerName}가 가진 |가속|마다 모든 적에게 피해를 {Value2} 줍니다. ({AccelerationDamage})"
+  NonbattleDescription: "{PlayerName}가 가진 |가속|마다 모든 적에게 피해를 {Value2} 줍니다."
+  UpgradedNonbattleDescription: "{PlayerName}가 가진 |가속|마다 모든 적에게 피해를 {Value2} 줍니다."
+  Name: 화려한 기품
+AyaDaymareintheDarkNight:
+  Description: "피해를 {Damage} 줍니다.\n{PlayerName}의 다음 턴까지, |가속|을 얻을 때마다 체력이 가장 적은 적에게 피해를 {Damage} 줍니다.\n|가속|을 {Value1} 얻습니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n{PlayerName}의 다음 턴까지, |가속|을 얻을 때마다 체력이 가장 적은 적에게 피해를 {Damage} 줍니다.\n|가속|을 {Value1} 얻습니다."
+  Name: 한밤중의 악몽
+AyaDeaExMachina:
+  Description: ""
+  UpgradedDescription: ""
+  Name: 디아 EX 마키나
+AyaEffortlessFlight:
+  Description: "{PlayerName}의 턴 시작시, |가속|을 {Value1} 얻습니다."
+  UpgradedDescription: "{PlayerName}의 턴 시작시, |가속|을 {Value1} 얻습니다."
+  PhantasmModeDescription: "{PlayerName}의 턴 시작시, |가속|을 {Value1} 얻습니다."
+  PhantasmModeUpgradedDescription: "{PlayerName}의 턴 시작시, |가속|을 {Value1} 얻습니다."
+  Name: 편안한 비행
+AyaExtraBossSelectFlandre:
+  Description: "이 보스는 아직 준비 안됬으니 다음 업데이트를 확인하세요."
+  Name: 플랑드르 (아야 전용)
+AyaExtraBossSelectKoishi:
+  Description: ""
+  Name: Koishi
+AyaExtraBossSelectRandom:
+  Description: ""
+  Name: Random
+AyaExtraBossSelectYuuma:
+  Description: "이 보스는 아직 준비 안됬으니 다음 업데이트를 확인하세요."
+  Name: 유우마 (플랑드르 전용)
+AyaExtraBossSelectZUN:
+  Description: ""
+  Name: ZUN
+AyaExtraFans:
+  Description: "피해를 {Damage} 줍니다.\n|가속|을 {Value1} 얻습니다.\n|붕붕마루 신문|을 1장 손에 넣습니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n|가속|을 {Value1} 얻습니다.\n|붕붕마루 신문|을 1장 손에 넣습니다."
+  Name: 예비 부채
+AyaEyeoftheStorm:
+  Description: "|방어|를 {Block} 얻습니다.\n|반사|를 {Value1} 얻습니다.\n{SelfName}은 |가속|의 영향을 받습니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n|반사|를 {Value1} 얻습니다.\n{SelfName}은 |가속|의 영향을 받습니다."
+  Name: 태풍의 눈
+AyaFastShot:
+  Description: "피해를 {Damage} 줍니다.\n손의 무작위 |붕붕마루 신문|을 사용합니다.\n|붕붕마루 신문|을 1장 손으로 가져옵니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n손의 무작위 |붕붕마루 신문|을 사용합니다.\n|붕붕마루 신문|을 1장 손으로 가져옵니다."
+  Name: 속사
+AyaBossFlandreForbiddenFruit:
+  Description: "체력을 {Value1} 얻습니다.\n{FlandreName}의 |스칼렛 니힐리티|의 피해량이 손/뽑을 카드 더미/버린 카드 더미 {SelfName}마다 {Value2} 증가합니다."
+  Name: 포비든 프루츠
+AyaFma:
+  Description: "|가속|을 {Value1} 얻습니다.\n|화력|을 {Value2} 얻습니다.\n{PlayerName}의 |가속| 4마다, {SelfName}의 |화력|이 {Value3} 증가합니다."
+  UpgradedDescription: "|가속|을 {Value1} 얻습니다.\n|화력|을 {Value2} 얻습니다.\n{PlayerName}의 |가속| 4마다, {SelfName}의 |화력|이 {Value3} 증가합니다."
+  Name: F = ma
+AyaFriendAya:
+  Description: "{FriendP}|f:기부\u300C사루타 크로스\u300D|: |가속|을 {Value1} 얻습니다."
+  ExtraDescription1: "{FriendA}|a:풍신\u300C210일\u300D|: 한 턴에 한 번만 사용할 수 있습니다. 패의 모든 카드를 |소멸|시킵니다. 그 후, 손이 가득 찰때까지 무작위 |강화|된 카드를 손에 추가합니다."
+  ExtraDescription2: "{FriendA}|d:풍신\u300C210일\u300D: 한 턴에 한 번만 사용할 수 있습니다. 패의 모든 카드를 소멸시킵니다. 그 후, 손이 가득 찰때까지 무작위 강화된 카드를 손에 추가합니다|"
+  ExtraDescription3: "{FriendU}|u:\u300C무쌍풍신\u300D|: 전투중에 한 번만 사용할 수 있습니다. 모든 적에게 피해를 {Damage}씩 {Value2}번 줍니다. 적들은 이번 턴 행동할 수 없습니다. {PlayerName}의 다음 턴 시작시 이 효과를 반복합니다. |명중|"
+  ExtraDescription4: "{FriendU}|d:\u300C무쌍풍신\u300D: 전투중에 한 번만 사용할 수 있습니다. 모든 적에게 피해를 {Damage}씩 {Value2}번 줍니다. 적들은 이번 턴 행동할 수 없습니다. {PlayerName}의 다음 턴 시작시 이 효과를 반복합니다. 명중|"
+  Name: 아야, 바람의 여신
+  DetailText: "|서로 다른 색상의 마나를 지불할 시|: |지원력|을 1 얻습니다.\n|p:이 카드는 어떤 상황에서도 손을 떠나지 않습니다.|\n{PlayerName}의 턴 종료시, 이 카드의 |지원력|이 0이라면, |r:{PlayerName}는 게임에서 패배합니다.|"
+AyaFriendCirno:
+  Description: "{FriendP}|f:한여름의 개화|: |전장|의 |동료|마다 |지원력|을 {Value1} 얻습니다."
+  ExtraDescription1: "{FriendA}|a:완고한 가을|: 한 턴에 한 번만 사용할 수 있습니다. 무작위 |강화|된 |동료|카드를 {Value2}장 소환합니다. {Value2:plural one='그 카드는' other='그 카드들은'} |지원력|을 {Value1} 얻습니다."
+  ExtraDescription2: "{FriendA}|d:완고한 가을: 한 턴에 한 번만 사용할 수 있습니다. 무작위 강화된 동료카드를 {Value2}장 소환합니다. {Value2:plural one='그 카드는' other='그 카드들은'} 지원력을 {Value1} 얻습니다.|"
+  ExtraDescription3: "{FriendU}|u:\u300C사계절의 끝\u300D|: 전투중에 한 번만 사용할 수 있습니다. 모든 적에게 피해를 {Damage} 주고 |파이널 프리즈|를 {Value1} 줍니다. |명중|"
+  ExtraDescription4: "{FriendU}|d:\u300C사계절의 끝\u300D: 전투중에 한 번만 사용할 수 있습니다. 모든 적에게 피해를 {Damage} 주고 |파이널 프리즈|를 {Value1} 줍니다. 명중|"
+  Name: 치르노, 사계절의 작은 친구
+  DetailText: "|p:이 카드는 어떤 상황에서도 손을 떠나지 않습니다.|"
+AyaFriendHatate:
+  Description: "{FriendP}|f:염사|: |영력|을 {Value1} 얻습니다. |화과자념보|를 {Value2}장 뽑을 카드 더미에 추가합니다."
+  ExtraDescription1: "{FriendP2}|f:경쟁자|: |화과자념보|가 추가될 때 마다, 대신 |특별 화과자념보|를 추가합니다."
+  ExtraDescription3: "{FriendU3}|u:원안\u300C텐구 사이코그래피\u300D|: 체력이 가장 적은 적에게 피해를 {Damage} 줍니다. |퇴치|: 대상이 유명한 존재라면, |영구적으로| 추가스킬을 얻습니다. |명중|"
+  Name: 하타테, 요즘 시대의 염사 기자
+  DetailText: "|염사 - Empty|: 효과 없음."
+  DetailTextKanako: "|염사 - 카나코|: 전투 시작시, 최대체력을 {Value4} 얻습니다."
+  DetailTextSuwako: "|염사 - 스와코|: 전투 시작시, <sprite=\"Point\" name=\"Power\">를 {Value7} 얻습니다."
+  DetailTextSunny: "|염사 - 써니|: 전투 시작시, |화력|을 {Value4} 얻습니다."
+  DetailTextLuna: "|염사 - 루나|: 전투 시작시, |영력|을 {Value4} 얻습니다."
+  DetailTextStar: "|염사 - 스타|: 전투 시작시, 모든 적에게 |록 온|을 {Value5} 줍니다."
+  DetailTextAya: "|염사 - 아야|: 효과 없음."
+  DetailTextRin: "|염사 - 린|: 적이 |소환|될 때, |화력|을 {Value4} 얻습니다."
+  DetailTextNitori: "<sprite=\"Ultimate\" name=\"0\">|u:염사 - 니토리|: 덱에 무작위 |도구|카드를 추가합니다."
+  DetailTextYoumu: "<sprite=\"Active\" name=\"-3\">|a:염사 - 요우무|: 체력이 가장 적은 적에게 피해를 {Damage2Value}씩 {Value6}번 줍니다. |명중|"
+  DetailTextKokoro: "<sprite=\"Passive\" name=\"0\">|f:염사 - 코코로|: 적이 부정적 효과를 얻을 때, |일시 화력|을 {Value4} 얻습니다."
+  DetailTextClownpiece: "<sprite=\"Active\" name=\"0\">|a:염사 - 클라운피스|: {Mana}를 얻습니다. 모든 적이 |화력|을 {Value3} 얻습니다."
+  DetailTextSiji: "<sprite=\"Active\" name=\"-3\">|a:염사 - 시키에이키|: 모든 적에게 피해를 {Damage3Value} 줍니다. |명중|"
+  DetailTextDoremy: "<sprite=\"Active\" name=\"-3\">|a:염사 - 도레미|: 손의 카드를 한 장 고릅니다. 그 카드의 |복사본|을 한 장 얻습니다."
+  DetailTextReimu: "<sprite=\"Active\" name=\"0\">|a:염사 - 레이무|: 전투 종료시 까지 모든 카드를 |강화|합니다."
+  DetailTextMarisa: "<sprite=\"Passive\" name=\"0\">|f:염사 - 마리사|: 공격/상태 카드를 사용할 때, |충전|을 {Value3} 얻습니다."
+  DetailTextSakuya: "<sprite=\"Ultimate\" name=\"-3\">|u:염사 - 사쿠야|: |추가 턴|을 {Value3} 얻습니다."
+  DetailTextCirno: "<sprite=\"Passive\" name=\"0\">|f:염사 - 치르노|: 손의 모든 |동료|카드가 |지원력|을 {Value4} 얻습니다."
+  DetailTextKoishi: "<sprite=\"Passive\" name=\"0\">|f:염사 - 코이시|: 뽑을 카드 더미 맨 위의 카드를 사용합니다."
+  DetailTextLong: "<sprite=\"Passive\" name=\"0\">|f:염사 - 메구무|: |붕붕마루 신문|이 피해를 두배로 줍니다. 이 효과는 중첩되지 않습니다."
+  DetailTextTianzi: "<sprite=\"Ultimate\" name=\"-3\">|u:염사 - 텐시|: |천위무봉|을 {Value3} 얻습니다."
+  DetailTextYuyuko: "<sprite=\"Active\" name=\"-3\">|a:염사 - 유유코|: 체력이 가장 적은 적에게 피해를 {Damage3Value} 줍니다. 적이 유명한 존재가 아니라면, 즉사시킵니다. |명중|"
+  DetailTextSanae: "<sprite=\"Active\" name=\"-3\">|a:염사 - 사나에|: {PlayerName}의 모든 부정적인 효과를 제거하고 |부적|을 {Value4} 얻습니다."
+  DetailTextRemilia: "<sprite=\"Ultimate\" name=\"-6\">|u:염사 - 레밀리아|: 체력이 가장 적은 적에게 피해를 {Damage3Value} 줍니다. 막히지 않은 피해만큼 체력을 얻습니다. |명중|"
+  DetailTextJunko: "<sprite=\"Ultimate\" name=\"-3\">|u:염사 - 순호|: 전투 종료시 까지 모든 카드가 |정화|됩니다."
+  DetailTextSeija: "|염사 - 세이자|: {PlayerName}는 한 턴에 최대 체력의 {Value8}% 이상의 피해를 받지 않습니다."
+  DetailTextYiji: "|염사 - 요리히메|: 효과 없음."
+  DetailTextUnknown: "|염사 - Unknown|: 전투 시작시, |화력|과 |영력|을 {Value3} 얻습니다."
+AyaFriendHatateNewsSpecial:
+  Description: "무작위 마나를 {Value1} 얻습니다. 이번 전투에서 |소멸|한 {SelfName}마다 1 증가합니다.\n|패에 {SelfName}가 들어올시|: |보호막|을 {Shield} 얻습니다."
+  Name: 특별 화과자념보
+AyaFriendMegumu:
+  Description: "{FriendP}|f:감시|: |액운| 또는 상태 카드가 |소멸|하면, {Mana}를 얻습니다."
+  ExtraDescription1: "{FriendA}|a:착취|: 체력을 {Value1} 잃고, {Mana2}를 얻고 카드를 {Value2}장 뽑습니다. 이는 마지막 턴에 |소멸|한 |액운| 또는 상태 카드가 없을 때도 발동합니다."
+  ExtraDescription3: "{FriendU}|u:홍광\u300C광풍제월\u300D|: 모든 적에게 피해를 {Damage2} 줍니다. |액운| 또는 상태 카드가 |소멸|할 때마다 {Mana3}를 얻고 카드를 {Value3}장 뽑습니다. |명중|"
+  Name: 메구무, 카라스텐구의 대장
+AyaFriendMomiji:
+  Description: "{FriendP}|f:천리안|: |예지| {Scry}."
+  ExtraDescription1: "{FriendP2}|f:추격|: {PlayerName}가 공격 피해를 가하면, 그 대상에게 피해를 {Damage} 줍니다."
+  ExtraDescription2: "{FriendP2}|f:받아넘기기|: {PlayerName}가 공격 피해를 받아 체력을 잃으려할때, |보호막|을 {PassiveBarrier} 얻습니다."
+  ExtraDescription3: "{FriendU}|u:아부\u300C저작완미\u300D|: 체력이 가장 적은 적에게 피해를 {Damage2} 줍니다. |퇴치|: 체력을 {Value1} 회복합니다. |명중|"
+  Name: 모미지, 귀여운 백랑 텐구
+AyaHeadShot:
+  Description: "피해를 {Damage} 줍니다.\n{SelfName}은 |록온|의 효과를 {Value1}번 받습니다.\n{SelfName}을 사용해 적을 처치할 시, {Mana}를 얻습니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n{SelfName}은 |록온|의 효과를 {Value1}번 받습니다.\n{SelfName}을 사용해 적을 처치할 시, {Mana}를 얻습니다."
+  Name: 헤드샷
+AyaHeavenlyPartner:
+  Description: "|방어|를 {Block} 얻습니다.\n모든 적에게 |허약|과 |취약|을 {Value1} 줍니다.\n소환된 |모미지, 귀여운 백랑 텐구|가 손에 있다면, |일시 화력|을 {Value2} 얻습니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n모든 적에게 |허약|과 |취약|을 {Value1} 줍니다.\n소환된 |모미지, 귀여운 백랑 텐구|가 손에 있다면, |일시 화력|을 {Value2} 얻습니다."
+  Name: 천상의 동료
+AyaHraesvelgrofTerminus:
+  Description: "모든 적의 |방어|, |보호막|, 버프는 {PlayerName}의 다음 턴까지 무효됩니다."
+  UpgradedDescription: "모든 적의 |방어|, |보호막|, 버프는 {PlayerName}의 다음 턴까지 무효됩니다."
+  Name: 경계의 흐레스벨그
+  DetailText: "{SelfName}은 전투중 생성되지 않고, 복사되지 않습니다."
+AyaIllusionaryDominance:
+  Description: "피해를 {Damage}씩 {Times}번 줍니다.\n{PlayerName}의 |가속|만큼 피해가 증가합니다.\n{PlayerName}의 |가속| {Value3} 마다 한번씩 {Value2}번까지 추가로 더 공격합니다."
+  UpgradedDescription: "피해를 {Damage}씩 {Times}번 줍니다.\n{PlayerName}의 |가속|만큼 피해가 증가합니다.\n{PlayerName}의 |가속| {Value3} 마다 한번씩 {Value2}번까지 추가로 더 공격합니다."
+  Name: 환상풍미
+AyaInstantShotJournalist:
+  Description: "|방어|를 {Block} 얻습니다.\n|가속|을 {Value1} 얻습니다.\n{PlayerName}가 {Value2}턴동안 |가속|을 잃지 않습니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n|가속|을 {Value1} 얻습니다.\n{PlayerName}가 {Value2}턴동안 |가속|을 잃지 않습니다."
+  Name: 인스턴트 샷 저널리스트
+AyaLittleSalvation:
+  Description: "|방어|를 {Block} 얻습니다.\n|가속|과 |일시 화력|을 {Value1} 얻습니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n|가속|과 |일시 화력|을 {Value1} 얻습니다."
+  Name: 작은 구원
+AyaMapleFansWind:
+  Description: "|가속|을 {Value1} 얻습니다."
+  UpgradedDescription: "|가속|을 {Value1} 얻습니다."
+  Name: 엽선의 바람
+AyaMemoryinPicture:
+  Description: "|보호막|을 {Shield} 얻습니다.\n|전장|의 |액운| 또는 상태 카드마다 |보호막|을 {Value1} 얻습니다."
+  UpgradedDescription: "|보호막|을 {Shield} 얻습니다.\n|전장|의 |액운| 또는 상태 카드마다 |보호막|을 {Value1} 얻습니다."
+  Name: 사진속 기억
+AyaMomentofRelaxation:
+  Description: "|감속 {Value1}|: {Mana}를 얻고 카드를 {Value2}장 뽑습니다."
+  UpgradedDescription: "|감속 {Value1}|: {Mana}를 얻고 카드를 {Value2}장 뽑습니다."
+  Name: 휴식의 순간
+AyaMountainGodsProcession:
+  Description: "{PlayerName}가 |가속|을 얻을때, {Mana}를 얻습니다.\n|가속|을 {Value1} 얻습니다."
+  UpgradedDescription: "{PlayerName}가 |가속|을 얻을때, {Mana}를 얻습니다.\n|가속|을 {Value1} 얻습니다."
+  PhantasmModeDescription: "{PlayerName}가 |가속|을 얻을때, {Mana}를 얻습니다."
+  PhantasmModeUpgradedDescription: "{PlayerName}가 |가속|을 얻을때, {Mana}를 얻습니다."
+  Name: 산신행차
+AyaNewsAyaPlayerUnitSp:
+  Description: "|턴 종료시|: |화력|과 |영력|을 {Value1} 얻습니다."
+  Name: 붕붕마루 아야 특간호
+  FlavorText: "제가 진짜로 제 유언비어를 뉴스에 적을거라고 생각했어요?"
+AyaNewsDissemination:
+  Description: "카드를 {Value1} 버립니다.\n그만큼 |붕붕마루 신문|을 손으로 가져옵니다.\n{Mana}를 얻습니다."
+  UpgradedDescription: "카드를 {Value1}~{Value2}장 버립니다.\n그만큼 |붕붕마루 신문|을 손으로 가져옵니다.\n{Mana}를 얻습니다."
+  Name: 뉴스 전파
+AyaNewsOverwhelming:
+  Description: "|복사본| 이외의 |액운| 또는 상태 카드가 |소멸|할 때 마다, |일시적으로| 비용이 {Mana}인 |붕붕마루 신문|의 |복사본|을 손으로 가져옵니다."
+  UpgradedDescription: "|복사본| 이외의 |액운| 또는 상태 카드가 |소멸|할 때 마다, |일시적으로| 비용이 {Mana}인 |붕붕마루 신문|의 |복사본|을 손으로 가져옵니다."
+  Name: 압도적인 뉴스로!
+AyaNewsSpecial:
+  Description: "|방어|를 {Block} 얻습니다.\n모든 적에게 피해를 {Damage} 주고 |록 온|을 {Value1} 줍니다.\n|록온|을 가진 적은 피해를 두 번 받습니다."
+  Name: 특별 붕붕마루 신문
+  AyaNewsDescription: "피해를 {Damage} 주고 |록 온|을 {Value1} 줍니다."
+AyaOpeningWindoftheTenguRealm:
+  Description: "|전투 시작시|: {SelfName}이 |소멸|하고, |추가턴|을 {Value1} 얻습니다."
+  UpgradedDescription: "|전투 시작시|: {SelfName}이 |소멸|하고, |추가턴|을 {Value1} 얻으며, |가속|을 {Value2} 얻습니다."
+  Name: 천구도의 개풍
+AyaOrbGreenMorphBird:
+  Description: "모든 적에게 {Value1} |그레이즈|을 줍니다."
+  UpgradedDescription: "모든 적에게 {Value1} |그레이즈|을 줍니다."
+  Name: 조류의 형상
+AyaOrbGreenMorphDog:
+  Description: "모든 적에게 {Value1} |화력|을 줍니다."
+  UpgradedDescription: "모든 적에게 {Value1} |화력|을 줍니다."
+  Name: 육식동물의 형상
+AyaOrbGreenMorphFrog:
+  Description: "모든 적의 최대 체력을 {Value1} 증가시킵니다."
+  UpgradedDescription: "모든 적의 최대 체력을 {Value1} 증가시킵니다."
+  Name: 양서류의 형상
+AyaOrbGreenMorphMan:
+  Description: "{Value1} <sprite=\"Point\" name=\"Power\">를 잃습니다."
+  UpgradedDescription: "{Value1} <sprite=\"Point\" name=\"Power\">를 잃습니다."
+  Name: 인간의 형상
+AyaPanorama:
+  Description: "|방어|를 {Block} 얻습니다.\n|특별 붕붕마루 신문|의 수치가 {Value1} 증가합니다.\n|소멸할시|: 손에 |특별 붕붕마루 신문|을 추가합니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n|특별 붕붕마루 신문|의 수치가 {Value1} 증가합니다.\n|소멸할시|: 손에 |특별 붕붕마루 신문|을 추가합니다."
+  Name: 파노라마
+AyaPaperRecycling:
+  Description: "손의 |액운| 또는 상태 카드를 |소멸|시킵니다. 그 카드의 비용만큼 마나를 얻습니다.\n카드를 한장 뽑습니다.\n{Mana}를 얻습니다."
+  UpgradedDescription: "손의 |액운| 또는 상태 카드를 |소멸|시킵니다. 그 카드의 비용만큼 마나를 얻습니다.\n카드를 한장 뽑습니다.\n{Mana}를 얻습니다."
+  Name: 재활용지
+AyaPeltingintheDarkNight:
+  Description: "|{SelfName}이 패로 들어올시|: 가장 체력이 적은 적에게 피해를 {Damage} 주고 카드를 한장 뽑고 {SelfName}를 버립니다.\n이 효과는 턴마다 {Value1}번 까지 발동합니다."
+  UpgradedDescription: "|{SelfName}이 패로 들어올시|: 가장 체력이 적은 적에게 피해를 {Damage} 주고 카드를 한장 뽑고 {SelfName}를 버립니다.\n이 효과는 턴마다 {Value1}번 까지 발동합니다."
+  ExtraDescription1: "|d:{SelfName}이 패로 들어올시: 가장 체력이 적은 적에게 피해를 {Damage} 주고 카드를 한장 뽑고 {SelfName}를 버립니다.\n이 효과는 턴마다 {Value1}번 까지 발동합니다.|"
+  UpgradedExtraDescription1: "|d:{SelfName}이 패로 들어올시: 가장 체력이 적은 적에게 피해를 {Damage} 주고 카드를 한장 뽑고 {SelfName}를 버립니다.\n이 효과는 턴마다 {Value1}번 까지 발동합니다.|"
+  Name: 한밤중의 투척
+AyaPhantasmModeTooltip:
+  Description: "활성화 시, '아야' 모드의 캐릭터들이 약화됩니다.\n<color=#dd7473>변경하려면 게임을 종료해야 합니다.</color>"
+  Name: 판타즘 모드
+AyaPinnacleofEvasion:
+  Description: "|감속 {Value1}|: |완벽한 회피|를 {Value2} 얻습니다."
+  UpgradedDescription: "|감속 {Value1}|: |완벽한 회피|를 {Value2} 얻습니다."
+  Name: 회피의 정상
+AyaProtectionPaper:
+  Description: "|액운| 또는 상태 카드가 |소멸|할 때 마다, |방어|를 {Value1} 얻습니다."
+  UpgradedDescription: "|액운| 또는 상태 카드가 |소멸|할 때 마다, |방어|를 {Value1} 얻습니다."
+  Name: 보호용지
+AyaQuickDraw:
+  Description: "|가속|을 {Value1} 얻습니다.\n뽑을 카드 더미 맨 위의 카드를 사용합니다."
+  UpgradedDescription: "|가속|을 {Value1} 얻습니다.\n뽑을 카드 더미 맨 위의 카드를 사용합니다."
+  Name: 빨리 뽑기
+AyaQuickShootingTenguScoop:
+  Description: "|방어|를 {Block} 얻습니다.\n이번 턴 동안 상태 카드의 비용이 {Mana}만큼 감소합니다.\n|붕붕마루 신문|을 {Value1}장 손에 추가합니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n이번 턴 동안 카드의 비용이 {Mana}만큼 감소합니다.\n|붕붕마루 신문|을 {Value1}장 손에 추가합니다."
+  Name: 격촬 텐구 스쿠프
+AyaRequestingAirSupport:
+  Description: "|무인 항공 까마귀|를 손에 {Value1}장 소환합니다."
+  UpgradedDescription: "|무인 항공 까마귀|를 손에 {Value1}장 소환합니다."
+  Name: 항공 지원 요청
+AyaRouteForbiddentoMan:
+  Description: "{PlayerName}의 턴 종료시, 이번 턴에 |소멸|한 카드의 수 만큼(최대{Value2}) 무작위 적에게 피해를 {Damage} 주고 |록 온|을 {Value1} 줍니다."
+  UpgradedDescription: "{PlayerName}의 턴 종료시, 이번 턴에 |소멸|한 카드의 수 만큼(최대{Value2}) 무작위 적에게 피해를 {Damage} 주고 |록 온|을 {Value1} 줍니다.\n|충원|: {Mana}를 얻습니다."
+  UpgradedExtraDescription1: "{PlayerName}의 턴 종료시, 이번 턴에 |소멸|한 카드의 수 만큼(최대{Value2}) 무작위 적에게 피해를 {Damage} 주고 |록 온|을 {Value1} 줍니다.\n|d:충원: {Mana}를 얻습니다.|"
+  PhantasmModeDescription: "{PlayerName}의 턴 종료시, 이번 턴에 |소멸|한 카드의 수 만큼(최대{Value2}) 무작위 적에게 피해를 {Damage} 주고 |록 온|을 {Value1} 줍니다."
+  PhantasmModeUpgradedDescription: "{PlayerName}의 턴 종료시, 이번 턴에 |소멸|한 카드의 수 만큼(최대{Value2}) 무작위 적에게 피해를 {Damage} 주고 |록 온|을 {Value1} 줍니다.\n|충원|: {Mana}를 얻습니다."
+  PhantasmModeUpgradedExtraDescription1: "{PlayerName}의 턴 종료시, 이번 턴에 |소멸|한 카드의 수 만큼(최대{Value2}) 무작위 적에게 피해를 {Damage} 주고 |록 온|을 {Value1} 줍니다.\n|d:충원: {Mana}를 얻습니다.|"
+  Name: 인간금제의 길
+AyaSarutahikosGuidance:
+  Description: "손의 카드를 전부 버리고 그 만큼 카드를 뽑습니다.\n이 효과로 버린 카드의 수 만큼 |가속|을 {Value1} 얻습니다.\n|충원|: {Mana}를 얻습니다."
+  UpgradedDescription: "손의 카드를 전부 버리고 그 만큼 카드를 뽑습니다.\n이 효과로 버린 카드의 수 만큼 |가속|을 {Value1} 얻습니다.\n|충원|: {Mana}를 얻습니다."
+  ExtraDescription1: "손의 카드를 전부 버리고 그 만큼 카드를 뽑습니다.\n이 효과로 버린 카드의 수 만큼 |가속|을 {Value1} 얻습니다.\n|d:충원: {Mana}를 얻습니다.|"
+  UpgradedExtraDescription1: "손의 카드를 전부 버리고 그 만큼 카드를 뽑습니다.\n이 효과로 버린 카드의 수 만큼 |가속|을 {Value1} 얻습니다.\n|d:충원: {Mana}를 얻습니다.|"
+  Name: 사루타히코의 선도
+AyaSelectNo:
+  Description: ""
+  Name: 아니
+AyaSelectYes:
+  Description: ""
+  Name: 응!
+AyaSettlementDate:
+  Description: "|화력|을 {Value1} 얻습니다.\n<sprite=\"Point\" name=\"Gold\">를 {Value2} 얻습니다.\n|액운| 또는 상태 카드가 |소멸|할 때 마다, |영구적으로| {SelfName}의 <sprite=\"Point\" name=\"Gold\">값이 {Value1}증가합니다.\n|사용제한\u3010{ToolPlayableTimes}\u3011|"
+  UpgradedDescription: "|화력|을 {Value1} 얻습니다.\n<sprite=\"Point\" name=\"Gold\">를 {Value2} 얻습니다.\n|액운| 또는 상태 카드가 |소멸|할 때 마다, |영구적으로| {SelfName}의 <sprite=\"Point\" name=\"Gold\">값이 {Value1}증가합니다.\n|사용제한\u3010{ToolPlayableTimes}\u3011|"
+  Name: 결산일
+  DetailText: "{SelfName}은 전투중 무작위로 생성되지 않으며 복사되지 않습니다."
+  FlavorText: "월급날이다!"
+AyaSickleWeaselVeiling:
+  Description: "{PlayerName}가 공격으로 0의 피해를 받을 때 마다, 공격자에게 피해를 {Value1} 줍니다."
+  UpgradedDescription: "{PlayerName}가 공격으로 0의 피해를 받을 때 마다, 공격자에게 피해를 {Value1} 줍니다."
+  Name: 카마이타치 베일링
+AyaTakePicture:
+  Description: "|록온|을 {Value1} 줍니다.\n|일시적으로| 비용이 {Mana} 감소한 |붕붕마루 신문|을 {Value2}장 손에 가져옵니다."
+  UpgradedDescription: "|록온|을 {Value1} 줍니다.\n|일시적으로| 비용이 {Mana} 감소한 |붕붕마루 신문|을 {Value2}장 손에 가져옵니다."
+  PhantasmModeDescription: "|일시적으로| 비용이 {Mana} 감소한 |붕붕마루 신문|을 {Value2}장 손에 가져옵니다."
+  PhantasmModeUpgradedDescription: "|일시적으로| 비용이 {Mana} 감소한 |붕붕마루 신문|을 {Value2}장 손에 가져옵니다."
+  Name: 사진찍기
+AyaTenguGaleBullet:
+  Description: "피해를 {Damage}씩 {Times}번 줍니다.\n|가속|을 {Value1} 얻습니다."
+  UpgradedDescription: "피해를 {Damage}씩 {Times}번 줍니다.\n|가속|을 {Value1} 얻습니다."
+  Name: 텐구 열풍탄
+AyaTenguGirlsBanquet:
+  Description: "|보호막|을 {Shield} 얻습니다.\n손의 모든 카드를 |강화|하고, 그 카드들의 |방어|, |보호막|, 피해량이 {Value1} 증가합니다."
+  UpgradedDescription: "|보호막|을 {Shield} 얻습니다.\n손의 모든 카드를 |강화|하고, 그 카드들의 |방어|, |보호막|, 피해량이 {Value1} 증가합니다."
+  Name: 텐구 소녀의 연회
+AyaTenguNewspaperDeadlineDay:
+  Description: "손패 매수 제한이 {MaxHand}가 됩니다.\n모든 |액운| 또는 상태 카드가 |보충|을 얻습니다.\n|덱에 존재할 시|: |기나긴 밤|을 무효합니다."
+  UpgradedDescription: "손패 매수 제한이 {MaxHand}가 됩니다.\n모든 |액운| 또는 상태 카드가 |보충|을 얻습니다.\n|덱에 존재할 시|: |기나긴 밤|을 무효합니다."
+  Name: 텐구 신문 마감일
+AyaTenguTreeFelling:
+  Description: "|방어|를 {Block} 얻고 |보호막|을 {Shield} 얻습니다.\n{PlayerName}의 턴 종료시, {SelfName}의 |방어|와 |보호막|이 {Value1} 감소합니다."
+  UpgradedDescription: "|방어|를 {Block} 얻고 |보호막|을 {Shield} 얻습니다.\n{PlayerName}의 턴 종료시, {SelfName}의 |방어|와 |보호막|이 {Value1} 감소합니다."
+  Name: 텐구의 나무 쓰러트리기
+AyaTengusDrumbeats:
+  Description: "모든 적에게 피해를 {Damage} 줍니다.\n|일시 화력|을 {Value1} 얻습니다.\n|감속 {Value1}|:{PlayerName}의 다음 턴 시작시, 모든 적에게 피해를 {Damage} 주고 |일시 화력|을 {Value1} 얻습니다."
+  UpgradedDescription: "모든 적에게 피해를 {Damage} 줍니다.\n|일시 화력|을 {Value1} 얻습니다.\n|감속 {Value1}|:{PlayerName}의 다음 턴 시작시, 모든 적에게 피해를 {Damage} 주고 |일시 화력|을 {Value1} 얻습니다."
+  PhantasmModeDescription: "모든 적에게 피해를 {Damage} 줍니다.\n|감속 {Value1}|: {PlayerName}의 다음 턴 시작시, 모든 적에게 피해를 {Damage} 주고 |일시 화력|을 {Value1} 얻습니다."
+  PhantasmModeUpgradedDescription: "모든 적에게 피해를 {Damage} 줍니다.\n|감속 {Value1}|: {PlayerName}의 다음 턴 시작시, 모든 적에게 피해를 {Damage} 주고 |일시 화력|을 {Value1} 얻습니다."
+  Name: 텐구의 북소리
+  FlavorText: "아야 더 락!"
+AyaTengusEdiblePompoms:
+  Description: "|방어|를 {Block} 얻습니다.\n체력을 {Value1} 회복합니다.\n<sprite=\"Point\" name=\"Power\">를 {Value1} 얻습니다.\n|전투 시작시|: {PlayerName}의 {Value2}번째 턴이 지났다면, {SelfName}을 |소멸|시킵니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n체력을 {Value1} 회복합니다.\n<sprite=\"Point\" name=\"Power\">를 {Value1} 얻습니다.\n|전투 시작시|: {PlayerName}의 {Value2}번째 턴이 지났다면, {SelfName}을 |소멸|시킵니다."
+  Name: 텐구의 식용 털방울
+  FlavorText: "\"모미지의 것은 된장 맛입니다.\"\n- 샤메이마루 아야"
+AyaTengusFallWind:
+  Description: "다음 {Value1}장의 |동료|/|도구|카드 이외의 카드가 두번 사용됩니다."
+  UpgradedDescription: "다음 {Value1}장의 |동료|/|도구|카드 이외의 카드가 두번 사용됩니다."
+  Name: 텐구 산바람
+AyaThinOut:
+  Description: "|방어|를 {Block} 얻습니다.\n뽑을 카드 더미에서 가장 위에 있는 |액운| 또는 상태 카드 {Value1}장을 손으로 가져옵니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n뽑을 카드 더미에서 가장 위에 있는 |액운| 또는 상태 카드 {Value1}장을 손으로 가져옵니다."
+  Name: 솎아내기
+AyaToolBunbunNewspaperStore:
+  LockedDescription: "샤메이마루 아야로 하드 모드 이상의 이변을 해결하면 잠금 해제됩니다."
+  Description: "손에 추가할 |아야| 카드 {Value1}장 중 한 장을 선택해 얻습니다. 이 카드의 비용은 |일시적으로| {Mana}가 됩니다.\n|제한\u3010{DeckCounter}\u3011|"
+  Name: 붕붕마루 신문가게
+AyaToolCrowsEgg:
+  LockedDescription: "샤메이마루 아야로 노멀 모드 이상의 사건을 해결하면 잠금 해제됩니다."
+  Description: "체력을 {Value1} 얻습니다.\n|일시 화력|을 {Value1} 얻습니다.\n{PlayerName}의 턴 시작 시, 이 효과를 1씩 줄여가며 반복합니다.\n|제한\u3010{DeckCounter}\u3011|"
+  Name: 까마귀알
+AyaToolForcedBreakthrough:
+  Description: "전투를 종료합니다.\n|보스 전투 시작시|: 이 전투에서 {SelfName}을 제거합니다.\n|사용 제한\u3010{DeckCounter}\u3011|"
+  Name: 강제 돌파
+  ForcedBreakthrough1: "실례합니다!"
+  ForcedBreakthrough2: "특종을 놓치지 마세요!"
+  ForcedBreakthrough3: "이럴 시간 없어요!"
+  LockedDescription: "샤메이마루 아야로 루나틱 이상 난이도에서 이변을 해결하면 잠금 해제됩니다."
+AyaToriiWhorlWind:
+  Description: "손에서 최대 {Value1}장의 카드를 |소멸|시킵니다. 그 수만큼 |붕붕마루 신문|을 손에 넣습니다.\n|가속|을 {Value2} 얻습니다."
+  UpgradedDescription: "손, 뽑을 카드 더미, 버릴 카드 더미에서 최대 {Value1}장의 카드를 |소멸|시킵니다. 그 수만큼 |붕붕마루 신문|을 손에 넣습니다.\n|가속|을 {Value2} 얻습니다."
+  Name: 토리이의 회오리바람
+AyaVitalityonVacation:
+  Description: ""
+  UpgradedDescription: ""
+  PhantasmModeDescription: ""
+  PhantasmModeUpgradedDescription: ""
+  Name: 
+AyaWindGodsLeafVeiling:
+  Description: "피해를 {Damage} 줍니다.\n대상 적에 대한 모든 공격은 |명중|을 얻습니다.\n|붕붕마루 신문|을 1장 손에 넣습니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n대상 적에 대한 모든 공격은 |명중|을 얻습니다.\n|붕붕마루 신문|을 1장 손에 넣습니다."
+  Name: 풍신 나뭇잎 은신술
+FlandreAndThenWillThereBeNone:
+  Description: "손에서 원하는 만큼의 카드를 |소멸|시킵니다.\n이렇게 |소멸|된 카드 한 장마다 |파멸|을 {Value1} 얻습니다.\n모든 적에게 피해를 {Damage} 줍니다.\n손패가 비어 있다면, 해당 피해를 한 번 더 줍니다."
+  UpgradedDescription: "손에서 원하는 만큼의 카드를 |소멸|시킵니다.\n이렇게 |소멸|된 카드 한 장마다 |파멸|을 {Value1} 얻습니다.\n모든 적에게 피해를 {Damage} 줍니다.\n손패가 비어 있다면, 해당 피해를 한 번 더 줍니다."
+  Name: 그리고 아무도 없게 되는가?
+FlandreAttackB:
+  Description: "피해를 {Damage} 줍니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다."
+  Name: 화려한 탄막
+FlandreAttackR:
+  Description: "피해를 {Damage} 줍니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다."
+  Name: 급탄
+FlandreBitestheDust:
+  Description: ""
+  UpgradedDescription: ""
+  Name: 바이츠 더 더스트
+FlandreBlockUB:
+  Description: "|방어|를 {Block} 얻습니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다."
+  Name: 탄막 파괴
+FlandreBlockUR:
+  Description: "|방어|를 {Block} 얻습니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다."
+  Name: 광휘
+FlandreBloodisFuel:
+  Description: "체력을 {Value1} 잃습니다.\n|채홍|을 손에 넣습니다."
+  UpgradedDescription: "체력을 {Value1} 잃습니다.\n|채홍+|을 손에 넣습니다."
+  Name: 피는 연료
+FlandreBloodyCatastrophe:
+  Description: "모든 적에게 피해를 {Damage}씩 {Value1}번 줍니다.\n체력을 {Value2} 얻습니다.\n전투 종료시 까지 {PlayerName}의 공격은 |명중|을 얻습니다."
+  UpgradedDescription: "모든 적에게 피해를 {Damage}씩 {Value1}번 줍니다.\n체력을 {Value2} 얻습니다.\n전투 종료시 까지 {PlayerName}의 공격은 |명중|을 얻습니다."
+  Name: 블러디 카타스트로피
+FlandreBloodyRequiem:
+  Description: "{PlayerName}의 다음 턴까지 모든 공격이 두 배의 피해를 주고, |지옥불|도 두 배로 줍니다."
+  UpgradedDescription: "{PlayerName}의 다음 턴까지 모든 공격이 두 배의 피해를 주고, |지옥불|도 두 배로 줍니다."
+  Name: 핏빛 장송곡
+FlandreBombTransmutation:
+  Description: "손에 있는 카드 중 최대 {Value1}장까지 고릅니다. 해당 카드에 |폭탄|을 부여합니다."
+  UpgradedDescription: "손, 뽑을 카드 더미, 버린 카드 더미에서 최대 {Value1}장까지 고릅니다. 해당 카드에 |폭탄|을 부여합니다."
+  Name: 폭탄 변환
+FlandreBrokenGlass:
+  Description: "손에서 최대 {Value1}장까지 |소멸|시킵니다.\n피해를 {Damage} 줍니다.\n이 방식으로 |소멸|된 카드 1장마다 피해를 한 번 더 줍니다."
+  UpgradedDescription: "손에서 최대 {Value1}장까지 |소멸|시킵니다.\n피해를 {Damage} 줍니다.\n이 방식으로 |소멸|된 카드 1장마다 피해를 한 번 더 줍니다."
+  Name: 부셔진 유리
+FlandreBurningPassion:
+  Description: "카드를 {Value1}장 뽑습니다.\n|지옥불|을 {Value2} 줍니다."
+  UpgradedDescription: "카드를 {Value1}장 뽑습니다.\n|지옥불|을 {Value2} 줍니다."
+  Name: 타오르는 열정
+FlandreCageofVampire:
+  Description: "피해를 {Damage} 줍니다.\n|소멸될 시|: 모든 적에게 피해를 {Damage} 주고, |파멸|을 {Value1} 얻습니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n|소멸될 시|: 모든 적에게 피해를 {Damage} 주고, |파멸|을 {Value1} 얻습니다"
+  Name: 흡혈귀의 우리
+FlandreCasuallyApproachChild:
+  Description: "|보호막|을 {Shield} 얻습니다.\n|파멸|을 {Value1} 얻습니다."
+  UpgradedDescription: "|보호막|을 {Shield} 얻습니다.\n|파멸|을 {Value1} 얻습니다."
+  Name: 자연스러운 접근
+FlandreCatadioptric:
+  Description: "|손에 있을시|: {PlayerName}가 공격 피해를 줄 때 마다, 공격자에게 피해를 {Damage} 줍니다.\n{PlayerName}의 턴 시작시, {SelfName}를 버립니다."
+  UpgradedDescription: "|손에 있을시|: {PlayerName}가 공격 피해를 줄 때 마다, 공격자에게 피해를 {Damage} 줍니다.\n{PlayerName}의 턴 시작시, {SelfName}를 버립니다."
+  Name: 캐터디옵트릭
+FlandreCatastropheofSeventeenArticles:
+  Description: "|보호막|을 {Shield} 얻습니다.\n전투 종료시 까지 모든 카드를 |강화|합니다."
+  UpgradedDescription: "|보호막|을 {Shield} 얻습니다.\n전투 종료시 까지 모든 카드를 |강화|합니다."
+  Name: 열일곱개의 재앙
+FlandreCerberusClipper:
+  Description: "피해를 {Damage}씩 {Value1}번 줍니다.\n|허약|과 |취약|을 {Value1} 줍니다.\n체력을 {Value1} 얻습니다."
+  UpgradedDescription: "피해를 {Damage}씩 {Value1}번 줍니다.\n|허약|과 |취약|을 {Value1} 줍니다.\n체력을 {Value1} 얻습니다."
+  Name: 케르베로스 클리퍼
+FlandreChaosIncarnation:
+  Description: "|방어|를 {Block} 얻습니다.\n손이 가득 찰 때까지 무작위 |파편|을 손에 추가합니다.\n손에 있는 모든 |파편|을 사용합니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n손이 가득 찰 때까지 무작위 |파편|을 손에 추가합니다.\n손에 있는 모든 |파편|을 사용합니다."
+  Name: 혼돈의 화신
+FlandreChromaticWings:
+  Description: "{PlayerName}의 턴 시작 시, {Mana}를 얻습니다."
+  UpgradedDescription: "{PlayerName}의 턴 시작 시, {Mana}를 얻습니다."
+  Name: 다채로운 날개
+FlandreClockthatTicksAwaythePast:
+  Description: "손패를 뽑을 카드 더미에 섞습니다.\n{PlayerName}의 턴을 종료합니다. 그 후, 추가 턴을 얻습니다. 추가 턴 동안, 드로우 단계에서 카드를 뽑는 대신 버린 카드 더미 맨 위에서 카드를 {Value1}장 손으로 가져옵니다.\n{PlayerName}의 턴 종료시, {SelfName}의 비용이 이 전투 동안 {Mana} 감소합니다."
+  UpgradedDescription: "손패를 뽑을 카드 더미에 섞습니다.\n{PlayerName}의 턴을 종료합니다. 그 후, 추가 턴을 얻습니다. 추가 턴 동안, 드로우 단계에서 카드를 뽑는 대신 버린 카드 더미 맨 위에서 카드를 {Value1}장 손으로 가져옵니다.\n{PlayerName}의 턴 종료시, {SelfName}의 비용이 이 전투 동안 {Mana} 감소합니다."
+  Name: 과거를 새기는 시계
+FlandreClockthatTicksIntotheFuture:
+  Description: "{PlayerName}의 턴을 종료합니다.\n적들은 {Value1}라운드 동안 행동할 수 없습니다.\n전투당 첫 {SelfName}만 효과가 발동합니다."
+  UpgradedDescription: "{PlayerName}의 턴을 종료합니다.\n적들은 {Value1}라운드 동안 행동할 수 없습니다.\n전투당 첫 {SelfName}만 효과가 발동합니다."
+  ExtraDescription1: "|d:{PlayerName}의 턴을 종료합니다.\n적들은 {Value1}라운드 동안 행동할 수 없습니다.|\n전투당 첫 {SelfName}만 효과가 발동합니다."
+  Name: 미래를 새기는 시계
+FlandreColorofMadness:
+  Description: "공격 카드가 발동될 때마다 무작위 |파편|을 사용합니다."
+  UpgradedDescription: "공격 카드가 발동될 때마다 무작위 |파편|을 사용합니다."
+  Name: 광기의 색채
+FlandreCranberryTrap:
+  Description: "{PlayerName}의 턴 종료시, 모든 적에게 |명중| 피해를 {Value1} 줍니다.\n{PlayerName}가 적에게 체력을 잃으면, 모든 |크랜베리 트랩|을 |보호막|으로 전환합니다."
+  UpgradedDescription: "{PlayerName}의 턴 종료시, 모든 적에게 |명중| 피해를 {Value1} 줍니다.\n{PlayerName}가 적에게 체력을 잃으면, 모든 |크랜베리 트랩|을 |보호막|으로 전환합니다."
+  Name: 크랜베리 트랩
+  DetailText: "|파괴 충동|에는 발동하지 않습니다."
+FlandreCrystalBullet:
+  Description: "피해를 {Damage} 줍니다.\n무작위 |파편|을 {Value1}장 손에 추가합니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n무작위 |파편|을 {Value1}장 손에 추가합니다."
+  Name: 파편 탄환
+FlandreCrystallineOutburst:
+  Description: "|파편|이 발동할 때, 그 효과를 모두 발동합니다.\n|파편화된 광기|는 무작위 마나 대신 <sprite=\"ManaSprite\" name=\"P\">를 제공합니다.\n|파편화된 광기|를 {Value1}장 손에 추가합니다."
+  UpgradedDescription: "|파편|이 발동할 때, 그 효과를 모두 발동합니다.\n|파편화된 광기|는 무작위 마나 대신 <sprite=\"ManaSprite\" name=\"P\">를 제공합니다.\n|파편화된 광기|를 {Value1}장 손에 추가합니다."
+  Name: 파편 폭발
+FlandreCrystallization:
+  Description: "손에서 카드를 |소멸|시킵니다.\n무작위 |파편|을 손에 추가합니다."
+  UpgradedDescription: "손에서 최대 {Value1}장의 카드를 |소멸|시킵니다.\n무작위 |강화된 파편|을 손에 추가합니다."
+  Name: 결정화
+FlandreCrystallizedChaos:
+  Description: "피해를 {Damage} 줍니다.\n|허약| {Value1}/|취약| {Value1}/|지옥불| {Value2}중 무작위로 부여합니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n|허약| {Value1}/|취약| {Value1}/|지옥불| {Value2}중 무작위로 부여합니다."
+  ExtraDescription1: "피해를 {Damage} 줍니다.\n|허약| {Value1}/|취약| {Value1}/|지옥불| {Value2}를 부여합니다."
+  Name: 파편화된 혼돈
+FlandreCrystallizedDevilry:
+  Description: "피해를 {Damage} 줍니다.\n체력 {Value1}/<sprite=\"Point\" name=\"Gold\"> {Value2}/<sprite=\"Point\" name=\"Power\"> {Value2}중 무작위로 얻습니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n체력 {Value1}/<sprite=\"Point\" name=\"Gold\"> {Value2}/<sprite=\"Point\" name=\"Power\"> {Value2}중 무작위로 얻습니다."
+  ExtraDescription1: "피해를 {Damage} 줍니다.\n체력 {Value1}/<sprite=\"Point\" name=\"Gold\"> {Value2}/<sprite=\"Point\" name=\"Power\"> {Value2}를 얻습니다."
+  Name: 파편화된 악의
+  FlavorText: "\"모르는 악마보다 아는 악마가 더 낫지!\"\n- 플랑드르 스칼렛"
+FlandreCrystallizedLunacy:
+  Description: "피해를 {Damage} 줍니다.\n무작위 마나를 {Value1} 얻습니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n무작위 마나를 {Value1} 얻습니다."
+  ExtraDescription1: "피해를 {Damage} 줍니다.\n{Mana}를 얻습니다."
+  Name: 파편화된 광기
+FlandreCrystallizedSolitude:
+  Description: "피해를 {Damage} 줍니다.\n|방어| {Block}/|보호막| {Shield}/|그레이즈| {Value1}중 무작위로 얻습니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n|방어| {Block}/|보호막| {Shield}/|그레이즈| {Value1}중 무작위로 얻습니다."
+  ExtraDescription1: "피해를 {Damage} 줍니다.\n|방어| {Block}/|보호막| {Shield}/|그레이즈| {Value1}를 얻습니다."
+  Name: 파편화된 고독
+FlandreDanmakuofDenial:
+  Description: "공격 카드가 발동될 때마다 |방어|를 {Value1} 얻습니다."
+  UpgradedDescription: "공격 카드가 발동될 때마다 |방어|를 {Value1} 얻습니다."
+  Name: 부정의 탄막
+FlandreDeathorTreat:
+  Description: "|선택|: |파멸|을 {Value1} 얻거나, |파편화된 악의+|를 {Value2}장 손에 추가합니다."
+  UpgradedDescription: "|선택|: |파멸|을 {Value1} 얻거나, |파편화된 악의+|를 {Value2}장 손에 추가합니다."
+  ExtraDescription1: "|파멸|을 {Value1} 얻습니다."
+  ExtraDescription2: "|파편화된 악의+|를 {Value2}장 손에 추가합니다."
+  Name: Death or Treat
+FlandreDeliciousHeart:
+  Description: "체력을 {Value1} 회복합니다.\n{SelfName}의 회복량이 |영구히| {Value2} 증가합니다."
+  UpgradedDescription: "체력을 {Value1} 회복합니다.\n{SelfName}의 회복량이 |영구히| {Value2} 증가합니다."
+  Name: 맛있는 심장
+FlandreDesolatePlace:
+  Description: "|방어|를 {Block} 얻습니다.\n|그레이즈|를 {Value1} 얻습니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n|그레이즈|를 {Value1} 얻습니다."
+  Name: 황량한 지대
+FlandreDestroyerinthePalmofOnesHand:
+  Description: "피해를 {Damage} 줍니다.\n|파멸|이 있다면 {SelfName}의 피해는 |파멸|의 {Value1}배만큼 증가합니다.\n대상이 유명한 존재가 아니라면, |파괴|합니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n|파멸|이 있다면 {SelfName}의 피해는 |파멸|의 {Value1}배만큼 증가합니다.\n대상이 유명한 존재가 아니라면, |파괴|합니다."
+  Name: 손바닥 안의 파괴자
+  DestroyerinthePalmofOnesHand1Flandre: "꽉 쥐어서..."
+  DestroyerinthePalmofOnesHand2Flandre: "쾅."
+FlandreDestructiveImpulse:
+  Description: "|턴 종료 시|: 체력을 {Value1} 잃고 |화력|을 {Value2} 얻습니다.\n|소멸|될 시: {SelfName}을 |소멸|에서 버린 카드 더미로 되돌립니다."
+  UpgradedDescription: "|턴 종료 시|: 체력을 {Value1} 잃고 |화력|을 {Value2} 얻습니다.\n|소멸|될 시: {SelfName}을 |소멸|에서 버린 카드 더미로 되돌립니다."
+  Name: 파괴 충동
+FlandreDeviloftheMirror:
+  Description: "|보호막|을 {Shield} 얻습니다.\n|반사|를 {Value1} 얻습니다.\n버린 카드 더미 맨 위의 카드를 사용합니다."
+  UpgradedDescription: "|보호막|을 {Shield} 얻습니다.\n|반사|를 {Value1} 얻습니다.\n버린 카드 더미 맨 위의 카드를 사용합니다."
+  Name: 거울 속의 악마
+FlandreDevilsFlesh:
+  Description: "|방어|를 {Block} 얻습니다.\n체력을 {Value1} 얻습니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n체력을 {Value1} 얻습니다."
+  Name: 악마의 살점
+FlandreDevilsMockery:
+  Description: "|파멸|을 {Value1} 얻습니다.\n|그레이즈|를 {Value2} 얻습니다."
+  UpgradedDescription: "|파멸|을 {Value1} 얻습니다.\n|그레이즈|를 {Value2} 얻습니다."
+  Name: 악마의 조롱
+FlandreDoombringer:
+  Description: "|파멸|을 {Value1} 얻습니다.\n{PlayerName}의 턴 시작 시, |파멸|을 {Value1} 얻습니다."
+  UpgradedDescription: "|파멸|을 {Value1} 얻습니다.\n{PlayerName}의 턴 시작 시, |파멸|을 {Value1} 얻습니다."
+  Name: 파멸을 부르는 자
+FlandreDoomsdayClock:
+  Description: "{PlayerName}가 |파멸|을 두 배로 얻습니다.\n{SelfName} 사용 후 {PlayerName}의 {Value1}번째 턴 시작 시, |대량학살병기|를 손에 넣습니다."
+  UpgradedDescription: "{PlayerName}가 |파멸|을 두 배로 얻습니다.\n{SelfName} 사용 후 {PlayerName}의 {Value1}번째 턴 시작 시, |대량학살병기|를 손에 넣습니다.\n|파멸|을 {Value2} 추가로 얻습니다."
+  Name: 종말의 시계
+FlandreDreadofTransylvania:
+  Description: "|방어|를 {Block} 얻습니다.\n모든 적에게 |허약| {Value1} 및 |몰락| {Value2}를 줍니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n모든 적에게 |허약| {Value1} 및 |몰락| {Value2}를 줍니다."
+  Name: 트란실바니아의 공포
+FlandreEmbraceofGehenna:
+  Description: "|보호막|을 {Shield} 얻습니다.\n{PlayerName}가 가진 |파멸| 1개당 |보호막|을 {Value1} 추가로 얻습니다.\n{PlayerName}가 가진 |파멸| 1개당 모든 적에게 {Value2}의 피해를 줍니다. ({CalamityDamage})"
+  UpgradedDescription: "|보호막|을 {Shield} 얻습니다.\n{PlayerName}가 가진 |파멸| 1개당 |보호막|을 {Value1} 추가로 얻습니다.\n{PlayerName}가 가진 |파멸| 1개당 모든 적에게 {Value2}의 피해를 줍니다. ({CalamityDamage})"
+  NonbattleDescription: "|보호막|을 {Shield} 얻습니다.\n{PlayerName}가 가진 |파멸| 1개당 |보호막|을 {Value1} 추가로 얻습니다.\n{PlayerName}가 가진 |파멸| 1개당 모든 적에게 {Value2}의 피해를 줍니다."
+  UpgradedNonbattleDescription: "|보호막|을 {Shield} 얻습니다.\n{PlayerName}가 가진 |파멸| 1개당 |보호막|을 {Value1} 추가로 얻습니다.\n{PlayerName}가 가진 |파멸| 1개당 모든 적에게 {Value2}의 피해를 줍니다."
+  Name: 게헨나의 포옹
+FlandreEndwithaBang:
+  Description: "|방어|를 {Block} 얻습니다.\n모든 적에게 |유황|을 {Value1} 줍니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n모든 적에게 |유황|을 {Value1} 줍니다."
+  Name: 폭발로 끝내자
+FlandreFaustianBargain:
+  Description: "손, 뽑을 카드 더미, 버린 더미에서 각각 1장씩 |소멸|시킵니다.\n이렇게 |소멸|된 카드가 있다면, |소멸| 영역에서 카드 1장을 선택해 손에 되돌립니다.\n|소멸 시|: |소멸| 영역에서 카드 1장을 선택해 손에 되돌립니다."
+  UpgradedDescription: "손패, 뽑을 카드 더미, 버린 더미에서 최대 {Value1}장씩 |소멸|시킵니다.\n이렇게 |소멸|된 카드가 있다면, |소멸| 영역에서 최대 {Value1}장까지 선택해 손에 되돌립니다.\n|소멸 시|: |소멸| 영역에서 최대 {Value1}장까지 선택해 손에 되돌립니다."
+  PhantasmModeDescription: "손, 뽑을 카드 더미, 버린 카드 더미에서 카드를 한 장 |소멸|시킵니다.\n이렇게 |소멸|된 카드가 있다면, 체력을 {Value2} 잃고 |소멸| 영역에서 카드를 한 장 선택해 손으로 되돌립니다.\n|소멸|될 시: |소멸| 영역에서 카드를 한 장 선택해 손으로 되돌립니다."
+  PhantasmModeUpgradedDescription: "손, 뽑을 카드 더미, 버린 카드 더미에서 최대 {Value1}장의 카드를 |소멸|시킵니다.\n이렇게 |소멸|된 카드가 있다면, 체력을 {Value2} 잃고 |소멸| 영역에서 최대 {Value1}장의 카드를 선택해 손으로 되돌립니다.\n|소멸|될 시: |소멸| 영역에서 최대 {Value1}장의 카드를 선택해 손으로 되돌립니다."
+  Name: 파우스트의 거래
+  DetailText: "{SelfName}은 전투 중 무작위로 생성되지 않으며, 복사할 수 없습니다."
+FlandreFieryLaser:
+  Description: "피해를 {Damage} 줍니다.\n|지옥불|을 {Value1} 줍니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n|지옥불|을 {Value1} 줍니다."
+  Name: 불타는 레이저
+FlandreForbiddenFruit:
+  Description: "|보호막|을 {Shield} 얻습니다.\n체력을 {Value1} 얻습니다.\n<sprite=\"Point\" name=\"Gold\">를 {Value1} 얻습니다.\n<sprite=\"Point\" name=\"Power\">를 {Value1} 얻습니다."
+  UpgradedDescription: "|보호막|을 {Shield} 얻습니다.\n체력을 {Value1} 얻습니다.\n<sprite=\"Point\" name=\"Gold\">를 {Value1} 얻습니다.\n<sprite=\"Point\" name=\"Power\">를 {Value1} 얻습니다."
+  Name: 포비든 프루츠
+FlandreForbiddenGames:
+  Description: "적들은 {Value1}라운드 동안 행동할 수 없습니다.\n전투마다 처음 사용된 {SelfName}만 효과를 발휘합니다."
+  UpgradedDescription: "적들은 {Value1}라운드 동안 행동할 수 없습니다.\n전투마다 처음 사용된 {SelfName}만 효과를 발휘합니다."
+  ExtraDescription1: "|d:적들은 {Value1}라운드 동안 행동할 수 없습니다.|\n전투마다 처음 사용된 {SelfName}만 효과를 발휘합니다."
+  Name: 금지된 장난
+FlandreFourHorsemenoftheApocalypse:
+  Description: "|파멸|을 {Value1} 얻습니다.\n손에서 원하는 만큼 카드를 버립니다.\n뽑을 카드 더미 가장 위에 있는 공격, 방어, 스킬, |능력| 카드를 손에 넣습니다."
+  UpgradedDescription: "|파멸|을 {Value1} 얻습니다.\n손에서 원하는 만큼 카드를 버립니다.\n뽑을 카드 더미 가장 위에 있는 공격, 방어, 스킬, |능력| 카드를 손에 넣습니다.\n|충원|: {Mana}를 얻습니다."
+  ExtraDescription1: "|파멸|을 {Value1} 얻습니다.\n손에서 원하는 만큼 카드를 버립니다.\n뽑을 카드 더미 가장 위에 있는 공격, 방어, 스킬, |능력| 카드를 손에 넣습니다.\n|d:충원: {Mana}를 얻습니다.|"
+  Name: 네 명의 종말의 기사
+FlandreFourofaKind:
+  Description: "손의 카드를 한 장 선택합니다. 그 카드는 |일시적으로| 비용이 {Mana}가 됩니다.\n그 카드의 |일시적으로| 비용이 {Mana}고 |소멸| |휘발성| |보충|을 가진 |복사본|을 3장 뽑을 카드 더미에 추가합니다."
+  UpgradedDescription: "손의 카드를 한 장 선택합니다. 그 카드는 |일시적으로| 비용이 {Mana}가 됩니다.\n그 카드의 |일시적으로| 비용이 {Mana}고 |소멸| |휘발성| |보충|을 가진 |복사본|을 3장 뽑을 카드 더미에 추가합니다."
+  Name: 포 오브 어 카인드
+FlandreFragmentsofLight:
+  Description: "{PlayerName}의 턴 시작 시, 무작위 |파편|을 {Value1}장 손에 추가합니다."
+  UpgradedDescription: "{PlayerName}의 턴 시작 시, 무작위 |파편|을 {Value1}장 손에 추가합니다.\n{SelfName}을 한 번 발동합니다."
+  Name: 빛의 조각
+FlandreFranticDestroyer:
+  Description: "공격 카드가 발동될 때마다 {Mana}를 얻고 카드를 {Value1}장 뽑습니다."
+  UpgradedDescription: "공격 카드가 발동될 때마다 {Mana}를 얻고 카드를 {Value1}장 뽑습니다."
+  Name: 광기의 파괴자
+FlandreFriendOkina:
+  Description: "{FriendP}|f:비밀의 힘|: {Mana}를 사용할 때마다 |보호막|을 {PassiveBarrier} 얻습니다. ({Count} 남음)"
+  NonbattleDescription: "{FriendP}|f:비밀의 힘|: {Mana}를 사용할 때마다 |보호막|을 {PassiveBarrier} 얻습니다."
+  ExtraDescription1: "{FriendA}|a:계절 해방|: {Value2}개의 |계절| 중 1개를 선택합니다. {SelfName}이 해당 효과를 얻습니다."
+  ExtraDescription3: "{FriendU}|u:\u300C비닉된 시공환상 투어\u300D|: {PlayerName}의 턴 시작 시, |p:완전 무작위| 희귀 카드 {Value3}장 중 1장을 선택해 손에 넣습니다.\n그 카드는 일시적으로 {Mana2}의 비용을 가지며, |소멸| 및 |휘발성|을 얻습니다."
+  Name: 오키나, 궁극의 절대비신
+FlandreFriendOkinaFall:
+  Description: "{FriendP}|f:가을의 힘|: {Mana}를 사용할 때마다 모든 적에게 |지옥불|을 {Value1} 적용합니다. ({Count} 남음)"
+  NonbattleDescription: "{FriendP}|f:가을의 힘|: {Mana}를 사용할 때마다 모든 적에게 |지옥불|을 {Value1} 적용합니다."
+  ExtraDescription1: "{FriendA}|a:계절 해방|: {Value2}개의 |계절| 중 1개를 선택합니다. {SelfName}이 해당 효과를 얻습니다."
+  ExtraDescription3: "{FriendU}|u:\u300C뒷・크레이지 폴 윈드\u300D|: 카드가 |소멸|될 때마다 |그레이즈|를 {Value3} 얻습니다."
+  Name: 오키나, 궁극의 절대비신 - 가을
+FlandreFriendOkinaSpring:
+  Description: "{FriendP}|f:봄의 힘|: {Mana}를 사용할 때마다 무작위 |강화된 파편|을 {Value1}장 손에 추가합니다. (남은 횟수: {Count})"
+  NonbattleDescription: "{FriendP}|f:봄의 힘|: {Mana}를 사용할 때마다 무작위 |강화된 파편|을 {Value1}장 손에 추가합니다."
+  ExtraDescription1: "{FriendA}|a:계절 해방|: {Value2}개의 |계절| 중 1개를 선택합니다. {SelfName}이 해당 효과를 얻습니다."
+  ExtraDescription3: "{FriendU}|u:\u300C뒷・브리지 체리 블러섬\u300D|: {PlayerName}의 턴 시작 시 체력, |부적|, |비호|를 각각 {Value3} 얻습니다."
+  Name: 오키나, 궁극의 절대비신 - 봄
+FlandreFriendOkinaSummer:
+  Description: "{FriendP}|f:여름의 힘|: {Mana}를 사용할 때마다 모든 적에게 |몰락|을 {Value1} 줍니다. ({Count} 남음)"
+  NonbattleDescription: "{FriendP}|f:여름의 힘|: {Mana}를 사용할 때마다 모든 적에게 |몰락|을 {Value1} 줍니다."
+  ExtraDescription1: "{FriendA}|a:계절 해방|: {Value2}개의 |계절| 중 1개를 선택합니다. {SelfName}이 해당 효과를 얻습니다."
+  ExtraDescription3: "{FriendU}|u:\u300C뒷・퍼펙트 서머 아이스\u300D|: {PlayerName}가 카드를 {Value3}장 사용할 때마다 모든 적에게 |명중| 피해를 {Value4} 주고 |빙결|을 줍니다."
+  Name: 오키나, 궁극의 절대비신 - 여름
+  FlavorText: "\"수영복 입고 나올 줄 알았어?\"\n- 오키나 마타라"
+FlandreFriendOkinaWinter:
+  Description: "{FriendP}|f:겨울의 힘|: {Mana}를 사용할 때마다 |파멸|을 {Value1} 얻습니다. ({Count} 남음)"
+  NonbattleDescription: "{FriendP}|f:겨울의 힘|: {Mana}를 사용할 때마다 |파멸|을 {Value1} 얻습니다."
+  ExtraDescription1: "{FriendA}|a:계절 해방|: {Value2}개의 |계절| 중 1개를 선택합니다. {SelfName}이 해당 효과를 얻습니다."
+  ExtraDescription3: "{FriendU}|u:\u300C뒷・익스트림 윈터\u300D|: 카드를 사용할 때마다 |충전|을 {Value3} 얻습니다."
+  Name: 오키나, 궁극의 절대비신 - 겨울
+FlandreGrowingGemstones:
+  Description: "|방어|를 {Block} 얻습니다.\n무작위 |파편|을 {Value1}장 손에 추가합니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n무작위 |파편|을 {Value1}장 손에 추가합니다."
+  Name: 자라나는 보석
+FlandreHellisFull:
+  Description: "피해를 {Damage}씩 {Value1}번 줍니다.\n이번 게임에서 처치한 적 1명당 {SelfName}의 피해가 {Value2} 증가합니다."
+  UpgradedDescription: "피해를 {Damage}씩 {Value1}번 줍니다.\n이번 게임에서 처치한 적 1명당 {SelfName}의 피해가 {Value2} 증가합니다."
+  Name: 지옥은 만원
+FlandreHellonEarth:
+  Description: "|지옥불|이 발동할 때, 한 번 더 발동합니다.\n모든 적에게 |지옥불|을 {Value1} 줍니다."
+  UpgradedDescription: "|지옥불|이 발동할 때, 한 번 더 발동합니다.\n모든 적에게 |지옥불|을 {Value1} 줍니다."
+  Name: 지상의 지옥
+FlandreHotSurface:
+  Description: "|방어|를 {Block} 얻습니다.\n{PlayerName}의 다음 턴까지, {PlayerName}가 공격 피해를 받을 때마다 공격자에게 |지옥불|을 {Value1} 줍니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n{PlayerName}의 다음 턴까지, {PlayerName}가 공격 피해를 받을 때마다 공격자에게 |지옥불|을 {Value1} 줍니다."
+  Name: 뜨거운 표면
+FlandreHymnoftheTorturedSouls:
+  Description: "|보호막|을 {Shield} 얻습니다.\n모든 적에게 |지옥불|을 {Value1} 줍니다."
+  UpgradedDescription: "|보호막|을 {Shield} 얻습니다.\n모든 적에게 |지옥불|을 {Value1} 줍니다."
+  Name: 고문당한 영혼의 찬가
+FlandreIgnitingSnap:
+  Description: "대상의 |지옥불|을 발동시킵니다."
+  UpgradedDescription: "|선보임|: |유황불|을 {Value1} 줍니다.\n대상의 |지옥불|을 발동시킵니다."
+  ExtraDescription1: "|d:선보임: 유황불 {Value1} 줍니다.|\n대상의 |지옥불|을 발동시킵니다."
+  Name: 점화의 손길
+FlandreInfernalRampage:
+  Description: "무작위 적에게 피해를 {Damage} 주고, |지옥불| {Value1}을 {Value2}번 줍니다."
+  UpgradedDescription: "무작위 적에게 피해를 {Damage} 주고, |지옥불| {Value1}을 {Value2}번 줍니다."
+  Name: 지옥의 광란
+FlandreInstability:
+  Description: "{SelfName}의 효과는 매 라운드마다 무작위로 바뀝니다."
+  PhantasmModeDescription: "{SelfName}의 효과는 매 라운드마다 무작위로 바뀝니다.\n각 효과는 {HiddenChance}% 확률로 숨겨질 수 있습니다."
+  InstabilityHidden: "숨겨진 효과."
+  InstabilityBlock: "|방어|를 {BlockValue} 얻습니다."
+  InstabilityBarrier: "|보호막|을 {ShieldValue} 얻습니다."
+  InstabilityMana: "{ManaValue}를 얻습니다."
+  InstabilityScry: "|예지| {ScryValue}."
+  InstabilityDream: "|꿈결| {DreamValue}."
+  InstabilityCleanse: "{PlayerName}의 해로운 효과를 모두 제거합니다."
+  InstabilityHeal: "체력을 {HealValue} 회복합니다."
+  InstabilityGold: "<sprite=\"Point\" name=\"Gold\">를 {GoldValue} 얻습니다."
+  InstabilityPower: "<sprite=\"Point\" name=\"Power\">를 {PowerValue} 얻습니다."
+  InstabilityUpgrade: "손에 든 모든 카드를 전투 종료 시까지 |강화|합니다."
+  InstabilityDamage1: "피해를 {DamageValue} 줍니다."
+  InstabilityDamage2: "모든 적에게 피해를 {DamageValue} 줍니다."
+  InstabilityDamage3: "무작위 적에게 피해를 {DamageValue} 줍니다."
+  InstabilityAdd1: "|{Add}|을 {AddValue1}장 손에 넣습니다. {AddValue1:plural one='그 카드는' other='그 카드들은'} |일시적으로| {AddManaValue}의 비용을 가지며, |소멸| 및 |휘발성|입니다."
+  InstabilityAdd2: "무작위 카드 {AddValue1}장을 손에 넣습니다. {AddValue1:plural one='그 카드는' other='그 카드들은'} |일시적으로| {AddManaValue}의 비용을 가지며, |소멸| 및 |휘발성|입니다."
+  InstabilityAdd3: "무작위 카드 {AddValue2}장 중 {AddValue1}장을 선택해 손에 넣습니다. {AddValue1:plural one='그 카드는' other='그 카드들은'} |일시적으로| {AddManaValue}의 비용을 가지며, |소멸| 및 |휘발성|입니다."
+  InstabilityDraw1: "카드를 {DrawValue}장 뽑습니다."
+  InstabilityDraw2: "손이 가득 찰 때까지 카드를 뽑습니다."
+  InstabilityDiscard1: "손에서 최대 {DiscardValue}장까지 버립니다."
+  InstabilityDiscard2: "손에 든 모든 카드를 버립니다."
+  InstabilityExile1: "손, 뽑을 카드 더미, 버린 카드 더미에서 최대 {ExileValue}장을 |소멸|시킵니다."
+  InstabilityExile2: "손에 든 모든 카드를 |소멸|시킵니다."
+  InstabilityMove1: "뽑을 카드 더미에서 카드 최대 {MoveValue}장을 선택해 손에 넣습니다."
+  InstabilityMove2: "버린 카드 더미에서 카드 최대 {MoveValue}장을 선택해 손에 넣습니다."
+  InstabilityRetain1: "손에 든 카드 중 최대 {RetainValue}장을 선택해 이번 턴에 |보존|합니다."
+  InstabilityRetain2: "이번 턴 동안 손의 카드들을 |보존|합니다."
+  InstabilityBuff1: "|{Buff1}|을 {BuffValue1} 얻습니다."
+  InstabilityBuff2: "|{Buff1}|을 {BuffValue1}, |{Buff2}|을 {BuffValue2} 얻습니다."
+  InstabilityDebuff1: "|{Debuff}|을 {DebuffValue} 줍니다."
+  InstabilityDebuff2: "모든 적에게 |{Debuff}|을 {DebuffValue} 줍니다."
+  Name: 정신분열
+  DetailText: "{SelfName}은 전투 중 무작위로 생성되지 않으며, 복사할 수 없습니다."
+FlandreInternetSurvivor:
+  Description: "{PlayerName}의 해로운 효과를 모두 제거합니다.\n{PlayerName} 최대 체력의 {Value1}%에 해당하는 체력을 회복합니다. ({Amount})"
+  UpgradedDescription: "{PlayerName}의 해로운 효과를 모두 제거합니다.\n{PlayerName} 최대 체력의 {Value1}%에 해당하는 체력을 회복합니다. ({Amount})"
+  NonbattleDescription: "{PlayerName}의 해로운 효과를 모두 제거합니다.\n{PlayerName} 최대 체력의 {Value1}%에 해당하는 체력을 회복합니다."
+  UpgradedNonbattleDescription: "{PlayerName}의 해로운 효과를 모두 제거합니다.\n{PlayerName} 최대 체력의 {Value1}%에 해당하는 체력을 회복합니다."
+  Name: 인터넷 서바이버
+FlandreKagomeKagome:
+  Description: "|보호막|을 {Shield} 얻습니다.\n다음 {Value1}개의 공격 카드가 {PlayerName}의 |보호막| 수치만큼 추가 피해를 줍니다."
+  UpgradedDescription: "|보호막|을 {Shield} 얻습니다.\n다음 {Value1}개의 공격 카드가 {PlayerName}의 |보호막| 수치만큼 추가 피해를 줍니다."
+  Name: 카고메카고메
+FlandreKindLiesandGoodbyes:
+  Description: "|보호막|을 {Shield} 얻습니다.\n|화력|과 |영력|을 {Value1} 얻습니다.\n{PlayerName}가 쓰러질 경우, 체력을 최대치까지 회복하고 모든 디버프를 제거하며 |천의무봉|을 {Value2} 얻습니다.\n그 후 모든 적에게 {Value3}의 피해를 주고, 체력이 {Value3} 이하인 적을 |처치|하며, {SelfName}은 전투와 덱에서 제거됩니다."
+  UpgradedDescription: "|보호막|을 {Shield} 얻습니다.\n|화력|과 |영력|을 {Value1} 얻습니다.\n{PlayerName}가 쓰러질 경우, 체력을 최대치까지 회복하고 모든 디버프를 제거하며 |천의무봉|을 {Value2} 얻습니다.\n그 후 모든 적에게 {Value3}의 피해를 주고, 체력이 {Value3} 이하인 적을 |처치|하며, {SelfName}은 전투와 덱에서 제거됩니다."
+  Name: 착한 거짓말과 작별
+  DetailText: "{SelfName}은 전투 중 무작위로 생성되지 않으며 복제할 수 없습니다."
+FlandreLaevateinn:
+  Description: "모든 적에게 피해를 {Damage} 주고 |지옥불|을 {Value1} 줍니다.\n{SelfName}은 |화력|의 영향을 {Value2}번 받습니다."
+  UpgradedDescription: "모든 적에게 피해를 {Damage} 주고 |지옥불|을 {Value1} 줍니다.\n{SelfName}은 |화력|의 영향을 {Value2}번 받습니다.\n모든 적의 |지옥불|을 발동시킵니다."
+  Name: 레바테인
+FlandreLightBlaster:
+  Description: "피해를 {Damage} 주고, |록온|을 {Value1}씩 {Value2}번 부여합니다."
+  UpgradedDescription: "피해를 {Damage} 주고, |록온|을 {Value1}씩 {Value2}번 부여합니다."
+  Name: 라이트 블래스터
+FlandreLittleJeweler:
+  Description: "무작위 |파편|을 {Value1}장 손에 추가합니다."
+  UpgradedDescription: "무작위 |파편|을 {Value1}장 손에 추가합니다."
+  Name: 꼬마 보석상
+FlandreLooseCannon:
+  Description: "모든 적에게 피해를 {Damage} 주고 |지옥불|을 {Value1} 줍니다.\n|손에 있을 때|: {PlayerName}가 공격 피해를 주거나 받을 때마다 {SelfName}의 비용이 |일시적으로| {Mana2} 감소합니다. {Mana}가 되면 자동으로 사용됩니다."
+  UpgradedDescription: "모든 적에게 피해를 {Damage} 주고 |지옥불|을 {Value1} 줍니다.\n|손에 있을 때|: {PlayerName}가 공격 피해를 주거나 받을 때마다 {SelfName}의 비용이 |일시적으로| {Mana2} 감소합니다. {Mana}가 되면 자동으로 사용됩니다."
+  Name: 폭주 대포
+FlandreMagicalGirlFlandreEngage:
+  Description: "최대 손패 수가 {Value1}로 변경됩니다.\n|마법소녀|가 아닌 모든 카드의 비용이 전투 종료 시까지 {Mana} 증가합니다.\n모든 |마법소녀| 카드는 최대 {Value2}번까지 |강화|할 수 있습니다.\n|마법의 참격|, |마법의 수비|, |마법의 전술|, |마법의 잠재력|을 손에 추가합니다.\n이 효과들은 중첩되지 않습니다.\n전투 종료 시까지 모든 |마법소녀| 카드를 |강화|합니다.\n|부적|과 |비호|를 {Value3} 얻습니다."
+  UpgradedDescription: "최대 손패 수가 {Value1}로 변경됩니다.\n|마법소녀|가 아닌 모든 카드의 비용이 전투 종료 시까지 {Mana} 증가합니다.\n모든 |마법소녀| 카드는 최대 {Value2}번까지 |강화|할 수 있습니다.\n|마법의 참격|, |마법의 수비|, |마법의 전술|, |마법의 잠재력|을 손에 추가합니다.\n이 효과들은 중첩되지 않습니다.\n전투 종료 시까지 모든 |마법소녀| 카드를 |강화|합니다.\n|부적|과 |비호|를 {Value3} 얻습니다."
+  Name: 마법소녀 플랑드르, 등장!
+  DetailText: "이 |e:특수 카드|들은 최대 손패 수를 무시합니다."
+  MagicalGirlFlandreEngage1Flandre: "마법소녀 {0}, 등장!"
+  MagicalGirlFlandreEngage2Flandre: "사랑과 정의의 힘으로, 너를 물리치겠어!"
+  MagicalGirlFlandreEngage3Flandre: "네 야망은 여기서 끝이야! 마법소녀 {0} 등장!"
+  MagicalGirlFlandreEngage4Flandre: "...이걸 꼭 말해야 돼?"
+  MagicalGirlFlandreEngage5Flandre: "...설명해. 아니면 네 척추를 부러뜨릴 거야."
+  MagicalGirlFlandreEngage6Flandre: "...이게 이변 해결이랑 무슨 상관이지?"
+  MagicalGirlFlandreEngage7Okina: "그렇게 행동하는 마법소녀가 어딨니?"
+  MagicalGirlFlandreEngage8Okina: "마법소녀로서의 정체성을 진지하게 받아들이는 게 중요해."
+  MagicalGirlFlandreEngage9Okina: "마법소녀로서 이변을 해결하면 더 많은 신앙을 모을 수 있어."
+  MagicalGirlFlandreEngage10Flandre: "꺼져."
+  MagicalGirlFlandreEngage11Flandre: "너 이상해."
+  MagicalGirlFlandreEngage12Flandre: "즐기고 있지, 지금?"
+FlandreMagicalGuard:
+  Description: "|방어|를 {Block} 얻습니다.\n{SelfName}을 손으로 되돌립니다.\n이번 턴 동안 {SelfName}의 비용이 {Mana} 증가합니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n{SelfName}을 손으로 되돌립니다.\n이번 턴 동안 {SelfName}의 비용이 {Mana} 증가합니다."
+  Name: 마법의 수비
+  DetailText: "|p:{SelfName}은 어떤 상황에서도 손에서 떠나지 않습니다.|\n{SelfName}은 항상 손패의 {Order}번째 카드입니다."
+FlandreMagicalPotential:
+  Description: "이 카드는 봉인되어 있습니다."
+  UpgradedDescription: "이 카드는 봉인되어 있습니다."
+  Name: 마법의 잠재력
+  DetailText: "|p:{SelfName}은 어떤 상황에서도 손에서 떠나지 않습니다.|\n{SelfName}은 항상 손패의 {Order}번째 카드입니다."
+FlandreMagicalSlash:
+  Description: "피해를 {Damage} 줍니다.\n{SelfName}을 손으로 되돌립니다.\n이번 턴 동안 {SelfName}의 비용이 {Mana} 증가합니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n{SelfName}을 손으로 되돌립니다.\n이번 턴 동안 {SelfName}의 비용이 {Mana} 증가합니다."
+  Name: 마법의 참격
+  DetailText: "|p:{SelfName}은 어떤 상황에서도 손에서 떠나지 않습니다.|\n{SelfName}은 항상 손패의 {Order}번째 카드입니다."
+FlandreMagicalTechnique:
+  Description: "무작위 일반 카드 {Value1}장 중 1장을 선택하여 사용합니다.\n{SelfName}을 손으로 되돌립니다.\n이번 턴 동안 {SelfName}의 비용이 {Mana} 증가합니다."
+  UpgradedDescription: "무작위 일반 카드 {Value1}장 중 1장을 선택하여 사용합니다.\n{SelfName}을 손으로 되돌립니다.\n이번 턴 동안 {SelfName}의 비용이 {Mana} 증가합니다."
+  Name: 마법의 전술
+  DetailText: "|p:{SelfName}은 어떤 상황에서도 손에서 떠나지 않습니다.|\n{SelfName}은 항상 손패의 {Order}번째 카드입니다."
+FlandreMazeofLove:
+  Description: "|보호막|을 {Shield} 얻습니다.\n모든 적에게 피해를 {Damage} 주고 |일시 화력 저하|를 {Value1} 줍니다.\n{PlayerName}의 다음 턴 시작시, 모든 적에게 |일시 화력 저하|를 {Value1} 줍니다."
+  UpgradedDescription: "|보호막|을 {Shield} 얻습니다.\n모든 적에게 피해를 {Damage} 주고 |일시 화력 저하|를 {Value1} 줍니다.\n{PlayerName}의 다음 턴 시작시, 모든 적에게 |일시 화력 저하|를 {Value1} 줍니다."
+  Name: 사랑의 미로
+FlandreMindsEye:
+  Description: "|보호막|을 {Shield} 얻습니다.\n다음 {Value1}번 동안 {PlayerName}가 공격 피해를 주거나 받을 때,\n피해를 두 배로 주거나 피해를 무효화합니다."
+  UpgradedDescription: "|보호막|을 {Shield} 얻습니다.\n다음 {Value1}번 동안 {PlayerName}가 공격 피해를 주거나 받을 때,\n피해를 두 배로 주거나 피해를 무효화합니다."
+  Name: 마음의 눈
+FlandreMurderMystery:
+  Description: "|파멸|을 {Value1} 얻습니다.\n카드를 {Value2}장 뽑습니다."
+  UpgradedDescription: "|파멸|을 {Value1} 얻습니다.\n카드를 {Value2}장 뽑습니다."
+  Name: 살인 수수께끼
+FlandreNoMercy:
+  Description: "|방어|를 {Block} 얻습니다.\n뽑을 카드 더미에서 가장 위에 있는 공격 카드 {Value1}장을 손에 넣습니다.\n{Value1:plural one='그 카드는' other='그 카드들은'} 이번 턴 동안 |일시적으로| 비용이 {Mana}가 됩니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n뽑을 카드 더미에서 가장 위에 있는 공격 카드 {Value1}장을 손에 넣습니다.\n{Value1:plural one='그 카드는' other='그 카드들은'} 이번 턴 동안 |일시적으로| 비용이 {Mana}가 됩니다."
+  Name: 자비는 없다
+FlandreOnePair:
+  Description: "손에 있는 |액운| 또는 상태 카드가 아닌 카드를 1장 선택합니다.\n카드를 선택했다면, 같은 종류의 무작위 카드 {Value1}장 중 1장을 선택해 손에 넣습니다.\n그 카드는 |일시적으로| {Mana}의 비용을 가지며, |소멸| 및 |휘발성|입니다."
+  UpgradedDescription: "손에 있는 |액운| 또는 상태 카드가 아닌 카드를 1장 선택합니다.\n카드를 선택했다면, 같은 종류의 무작위 카드 {Value1}장 중 1장을 선택해 손에 넣습니다.\n그 카드는 |일시적으로| {Mana}의 비용을 가지며, |소멸| 및 |휘발성|입니다."
+  Name: 원 페어
+FlandreOrthrusBrigantine:
+  Description: "피해를 {Damage} 줍니다.\n|몰락|을 {Value1} 줍니다.\n{SelfName}으로 적을 처치하면 체력을 {Value2} 회복합니다.\n이 효과를 무작위 다른 적에게 반복합니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n|몰락|을 {Value1} 줍니다.\n{SelfName}으로 적을 처치하면 체력을 {Value2} 회복합니다.\n이 효과를 무작위 다른 적에게 반복합니다."
+  Name: 오르트루스 브리건틴
+  OrthrusBrigantineFlandre1: "뭐야?"
+  OrthrusBrigantineFlandre2: "넌 어디서 온 거야?"
+  OrthrusBrigantineRumia1: "냠."
+  OrthrusBrigantineRumia2: "잘먹겠습니다~"
+  OrthrusBrigantineRumia3: "맛있어 보이네~"
+FlandrePartnersinCrime:
+  Description: "|보호막|을 {Shield} 얻습니다.\n피해를 {Damage} 줍니다.\n손에 있는 카드 1장을 발동합니다.\n그 카드가 공격 카드라면 {Mana}와 |화력| {Value2}를 얻고,\n방어 카드라면 {Mana2}와 |영력| {Value2}를 얻습니다."
+  UpgradedDescription: "|보호막|을 {Shield} 얻습니다.\n피해를 {Damage} 줍니다.\n손에 있는 카드 1장을 발동합니다.\n그 카드가 공격 카드라면 {Mana}와 |화력| {Value2}를 얻고,\n방어 카드라면 {Mana2}와 |영력| {Value2}를 얻습니다."
+  Name: 범죄 공범
+FlandrePathofDestruction:
+  Description: "|방어|를 {Block} 얻습니다.\n카드를 {Value1}장 뽑습니다.\n|소멸|된 공격 카드 1장마다 {SelfName}의 비용이 {Mana}만큼 감소합니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n카드를 {Value1}장 뽑습니다.\n|소멸|된 공격 카드 1장마다 {SelfName}의 비용이 {Mana}만큼 감소합니다."
+  Name: 파괴의 길
+FlandrePlayTogether:
+  Description: "|일시 화력|을 {Value1} 얻습니다.\n버린 카드 더미에서 카드를 {Value2}장 까지 골라 손으로 가져옵니다."
+  UpgradedDescription: "|일시 화력|을 {Value1} 얻습니다.\n버린 카드 더미에서 카드를 {Value2}장 까지 골라 손으로 가져옵니다."
+  Name: 같이 놀자
+FlandreRecklessBullet:
+  Description: "피해를 {Damage}씩 {Value1}번 줍니다.\n무작위 {Value2}장의 {Value1:plural one='|파편|' other='|파편들|'}을 손에 추가합니다."
+  UpgradedDescription: "피해를 {Damage}씩 {Value1}번 줍니다.\n무작위 {Value2}장의 {Value1:plural one='|강화된 파편|' other='|강화된 파편들|'}을 손에 추가합니다."
+  Name: 무모한 탄환
+FlandreRipandTear:
+  Description: "피해를 {Damage}씩 {Value1}번 줍니다.\n{SelfName}는 |화력|의 영향을 받지 않습니다."
+  UpgradedDescription: "피해를 {Damage}씩 {Value1}번 줍니다.\n{SelfName}는 |화력|의 영향을 받지 않습니다."
+  Name: 찢고 찢는다
+FlandreRipplesof495Years:
+  Description: "{PlayerName}가 모든 부정적 효과에 면역이 됩니다.\n이 전투 동안 {PlayerName}가 얻는 모든 마나가 <sprite=\"ManaSprite\" name=\"P\">가 됩니다.\n카드를 사용할 시, 그 카드의 비용만큼 마나를 얻습니다.\n모든 카드가 두 번 사용됩니다.\n|사용 제한\u3010{ToolPlayableTimes}\u3011|"
+  UpgradedDescription: "{PlayerName}가 모든 부정적 효과에 면역이 됩니다.\n이 전투 동안 {PlayerName}가 얻는 모든 마나가 <sprite=\"ManaSprite\" name=\"P\">가 됩니다.\n카드를 사용할 시, 그 카드의 비용만큼 마나를 얻습니다.\n모든 카드가 두 번 사용됩니다.\n|사용 제한\u3010{ToolPlayableTimes}\u3011|"
+  PhantasmModeDescription: "이 카드는 판타즘 모드에선 금지되었습니다."
+  PhantasmModeUpgradedDescription: "이 카드는 판타즘 모드에선 금지되었습니다."
+  Name: 495년의 파문
+  DetailText: "{SelfName}은 전투중 무작위로 생성되지 않고, 복사되지 않습니다"
+  Ripplesof495Years1Flandre: "난 아무거나 파괴하고 싶을 뿐이야."
+  Ripplesof495Years2Flandre: "너라던가!"
+FlandreRuinedFortress:
+  Description: "{PlayerName}가 적에게 |몰락|을 부여할 때마다, {PlayerName}가 가진 |영력| 1개당 |몰락|을 {Value1} 더 줍니다.\n|영력|을 {Value2} 얻습니다."
+  UpgradedDescription: "{PlayerName}가 적에게 |몰락|을 부여할 때마다, {PlayerName}가 가진 |영력| 1개당 |몰락|을 {Value1} 더 줍니다.\n|영력|을 {Value2} 얻습니다."
+  Name: 무너진 요새
+FlandreScarletNihility:
+  Description: "피해를 {Damage} 줍니다.\n대상의 체력이 {Value1}% 이하라면, |파괴|합니다. ({Threshold})"
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n대상의 체력이 {Value1}% 이하라면, |파괴|합니다. ({Threshold})"
+  NonbattleDescription: "피해를 {Damage} 줍니다.\n대상의 체력이 {Value1}% 이하라면, |파괴|합니다."
+  UpgradedNonbattleDescription: "피해를 {Damage} 줍니다.\n대상의 체력이 {Value1}% 이하라면, |파괴|합니다."
+  Name: 스칼렛 니힐리티
+  DetailText: "{SelfName}은 전투중 무작위로 생성되지 않고, 복사되지 않습니다"
+FlandreScaryLittleSister:
+  Description: "|방어|를 {Block} 얻습니다.\n|소멸될 시|: {Mana}를 얻고 카드를 {Value1}장 뽑습니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n|소멸될 시|: {Mana}를 얻고 카드를 {Value1}장 뽑습니다."
+  Name: 무서운 여동생
+FlandreSisteroftheDevil:
+  Description: "|전투 시작 시|: {SelfName}을 |소멸|시키고, |악마의 여동생|을 얻습니다."
+  UpgradedDescription: "|전투 시작 시|: {SelfName}을 |소멸|시키고, |악마의 여동생|과 {Mana}를 얻습니다."
+  Name: 악마의 여동생
+  DetailText: "{SelfName}은 전투 중 무작위로 생성되지 않으며, 복사할 수 없습니다."
+FlandreSoulMelter:
+  Description: "피해를 {Damage}씩 {Value1}번 줍니다.\n|지옥불| {Value2}와 |몰락| {Value3}를 줍니다.\n대상의 |지옥불|을 발동시킵니다.\n|퇴치|: 최대 체력을 {Value1} 얻습니다."
+  UpgradedDescription: "피해를 {Damage}씩 {Value1}번 줍니다.\n|지옥불| {Value2}와 |몰락| {Value3}를 줍니다.\n대상의 |지옥불|을 발동시킵니다.\n|퇴치|: 최대 체력을 {Value1} 얻습니다."
+  Name: 소울 멜터
+FlandreSpectrometer:
+  Description: "|방어|를 {Block} 얻습니다.\n무작위 |파편| {Value1}장을 뽑을 카드 더미와 버린 카드 더미에 추가합니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n무작위 |파편| {Value1}장을 뽑을 카드 더미와 버린 카드 더미에 추가합니다."
+  Name: 분광계
+FlandreSpellBreak:
+  Description: "피해를 {Value1} 줍니다.\n대상은 {Value2}턴 동안 행동할 수 없습니다.\n대상은 {Value3}턴 동안 |스펠 브레이크|에 면역입니다."
+  UpgradedDescription: "피해를 {Value1} 줍니다.\n대상은 {Value2}턴 동안 행동할 수 없습니다.\n대상은 {Value3}턴 동안 |스펠 브레이크|에 면역입니다."
+  Name: 스펠 브레이크
+FlandreStarbowBreak:
+  Description: "|색이 다른 마나를 소모할 때 마다|: 모든 적에게 피해를 {Damage} 줍니다.\n{SelfName}가 패의 공격 카드 마다 추가로 피해를 {Value1} 줍니다."
+  UpgradedDescription: "|색이 다른 마나를 소모할 때 마다|: 모든 적에게 피해를 {Damage} 줍니다.\n{SelfName}가 패의 공격 카드 마다 추가로 피해를 {Value1} 줍니다."
+  Name: 스타 보우 브레이크
+FlandreStraightFlush:
+  Description: "|보호막|을 {Shield} 얻습니다.\n|화력|, |영력|, |부적|, |비호|를 각각 {Value1} 얻습니다.\n|파멸|을 {Value2} 얻습니다.\n손에 같은 유형의 카드가 {Value3}장 이상 있을 경우, {SelfName}의 비용은 {Mana}입니다."
+  UpgradedDescription: "|보호막|을 {Shield} 얻습니다.\n|화력|, |영력|, |부적|, |비호|를 각각 {Value1} 얻습니다.\n|파멸|을 {Value2} 얻습니다.\n손에 같은 유형의 카드가 {Value3}장 이상 있을 경우, {SelfName}의 비용은 {Mana}입니다."
+  Name: 스트레이트 플러시
+FlandreSuperhumanCatastrophePilgrimage:
+  Description: 무작위 공격, 방어, 스킬, |능력| 카드를 손에 추가합니다. 이 카드는 |일시적으로| 비용이 {Mana}이고 |소멸|과 |휘발성|을 가집니다.
+  UpgradedDescription: 무작위 공격, 방어, 스킬, |능력| 카드를 손에 추가합니다. 이 카드는 |일시적으로| 비용이 {Mana}이고 |소멸|과 |휘발성|을 가집니다.
+  Name: 초인적 재난 순례
+FlandreTheDemolitionist:
+  Description: "|방어|를 {Block} 얻습니다.\n|유황|을 {Value1} 줍니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n|유황|을 {Value1} 줍니다."
+  Name: 폭파 전문가
+FlandreTheMousetrap:
+  Description: "|보호막|을 {Shield} 얻습니다.\n|파멸|을 {Value1} 얻습니다.\n{PlayerName}의 다음 턴 시작 시, 지난 턴에 받은 피해량만큼 모든 적에게 피해를 줍니다."
+  UpgradedDescription: "|보호막|을 {Shield} 얻습니다.\n|파멸|을 {Value1} 얻습니다.\n{PlayerName}의 다음 턴 시작 시, 지난 턴에 받은 피해량만큼 모든 적에게 피해를 줍니다."
+  Name: 쥐덫
+FlandreThePsychoticandCuteGuest:
+  Description: "청색 카드를 발동할 때마다 |파멸|을 {Value1} 얻습니다.\n적색 카드를 발동할 때마다 |화력|을 {Value2} 얻습니다."
+  UpgradedDescription: "청색 카드를 발동할 때마다 |파멸|을 {Value1} 얻습니다.\n적색 카드를 발동할 때마다 |화력|을 {Value2} 얻습니다."
+  Name: 정신 나갔지만 귀여운 손님
+FlandreToolDestroyingObstacles:
+  LockedDescription: "플랑드르 스칼렛으로 하드 이상 난이도에서 이변을 해결하면 잠금 해제됩니다."
+  Description: "덱에서 카드를 제거합니다.\n|사용 제한\u3010{DeckCounter}\u3011|"
+  Name: 장애물 파괴
+  DetailText: "{SelfName}은 전투 중 무작위로 생성되지 않으며, 복사할 수 없습니다.\n선택한 카드는 덱에서 제거되지만, 이번 전투에서는 제거되지 않습니다."
+FlandreToolDevilsPower:
+  LockedDescription: "플랑드르 스칼렛으로 노말 이상 난이도에서 이변을 해결하면 잠금 해제됩니다."
+  Description: "|화력|과 |영력|을 각각 {Value1} 얻습니다.\n|사용 제한\u3010{DeckCounter}\u3011|"
+  Name: 악마의 힘
+FlandreUnstablePower:
+  Description: 모든 공격이 {Value1}%에서 {Value2}% 사이의 피해를 줍니다.
+  UpgradedDescription: 모든 공격이 {Value1}%에서 {Value2}% 사이의 피해를 줍니다.
+  Name: 불안정한 힘
+FlandreViolentSpread:
+  Description: "무작위 적에게 피해를 {Damage}씩 {Value1}번 줍니다.\n|파멸|을 {Value2} 얻습니다."
+  UpgradedDescription: "무작위 적에게 피해를 {Damage}씩 {Value1}번 줍니다.\n|파멸|을 {Value2} 얻습니다."
+  Name: 폭력적 확산
+FlandreWalpurgisNight:
+  Description: "{PlayerName}가 공격 피해를 줄 때마다, 같은 수치만큼 |몰락|을 추가로 적용합니다."
+  UpgradedDescription: "{PlayerName}가 공격 피해를 줄 때마다, 같은 수치만큼 |몰락|을 추가로 적용합니다."
+  Name: 발푸르기스의 밤
+FlandreWarmonger:
+  Description: "|일시 화력|과 |일시 영력|을 {Value1} 얻습니다.\n적의 수 만큼 |일시 화력|과 |일시 영력|을 추가로 {Value2} 얻습니다."
+  UpgradedDescription: "|일시 화력|과 |일시 영력|을 {Value1} 얻습니다.\n적의 수 만큼 |일시 화력|과 |일시 영력|을 추가로 {Value2} 얻습니다."
+  Name: 전쟁광
+FlandreWatchtheWorldBurn:
+  Description: "{PlayerName}의 턴 종료시, 모든 적에게 |지옥불|을 {Value1} 줍니다."
+  UpgradedDescription: "{PlayerName}의 턴 종료시, 모든 적에게 |지옥불|을 {Value1} 줍니다."
+  Name: 불타는 세상을 지켜봐!
+FlandreWeaponofMassDestruction:
+  Description: "모든 적에게 {Damage}의 피해를 줍니다.\n체력이 {Value1} 이하인 적을 |소멸|시킵니다.\n{SelfName}은 |파멸|의 영향을 {Value2}배로 받습니다."
+  UpgradedDescription: "모든 적에게 {Damage}의 피해를 줍니다.\n체력이 {Value1} 이하인 적을 |소멸|시킵니다.\n{SelfName}은 |파멸|의 영향을 {Value2}배로 받습니다."
+  Name: 대량학살병기
+OkinaAFarawayFantasyLand:
+  Description: "|방어|를 {Block} 얻습니다.\n|가을 에너지|를 {Value1} 얻습니다.\n지난 턴에 방어 카드가 {Value2}장 이하로 사용되었다면, {SelfName}의 비용은 {Mana}입니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n|가을 에너지|를 {Value1} 얻습니다.\n지난 턴에 방어 카드가 {Value2}장 이하로 사용되었다면, {SelfName}의 비용은 {Mana}입니다."
+  Name: 아득한 환상의 땅
+OkinaAnywhereDoor:
+  Description: "|선택|: |전장|에 있는 카드를 손으로 가져오거나, |전장|에 있는 카드를 |소멸|시킵니다.\n|겨울 에너지|를 {Value1} 얻습니다."
+  UpgradedDescription: "|선택|: |전장|에 있는 카드를 손으로 가져오거나, |전장|에 있는 카드를 |소멸|시킵니다.\n|겨울 에너지|를 {Value1} 얻습니다."
+  Name: 어디로든 문
+OkinaAprilWizard:
+  Description: "카드를 {Value1}장 뽑습니다.\n|은총|을 {Value2} 얻습니다.\n|봄 에너지|를 {Value1} 얻습니다."
+  UpgradedDescription: "카드를 {Value1}장 뽑습니다.\n|은총|을 {Value2} 얻습니다.\n|봄 에너지|를 {Value1} 얻습니다."
+  Name: 4월의 마법사
+OkinaBackDoorofFastTravel:
+  Description: "|방어|를 {Block} 얻습니다.\n뽑을 카드 더미에서 최대 {Value1}장의 카드를 골라 손으로 가져옵니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n뽑을 카드 더미에서 최대 {Value1}장의 카드를 골라 손으로 가져옵니다."
+  Name: 순간이동의 뒷문
+OkinaBeginningofaNewArea:
+  Description: "뽑을 카드 더미가 섞일 때마다 {Value1}장의 |p:완전 무작위| 카드 중 2장을 손으로 가져옵니다. 해당 카드{Value1:plural one='는 |일시적으로|' other='들은 |일시적으로|'} {Mana}의 비용을 가지며 |소멸|과 |휘발성|을 지닙니다.\n|봄 에너지|를 {Value2} 얻습니다."
+  UpgradedDescription: "뽑을 카드 더미가 섞일 때마다 {Value1}장의 |p:완전 무작위| 카드 중 2장을 손으로 가져옵니다. 해당 카드{Value1:plural one='는 |일시적으로|' other='들은 |일시적으로|'} {Mana}의 비용을 가지며 |소멸|과 |휘발성|을 지닙니다.\n|봄 에너지|를 {Value2} 얻습니다."
+  Name: 새로운 지역의 시작
+OkinaBlackSnowman:
+  Description: "|방어|를 {Block} 얻습니다.\n{PlayerName}의 |방어|를 |보호막|으로 전환합니다.\n|겨울 에너지|를 {Value1} 얻습니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n{PlayerName}의 |방어|를 |보호막|으로 전환합니다.\n|겨울 에너지|를 {Value1} 얻습니다."
+  Name: 검은 눈사람
+OkinaCowardsMasterSpark:
+  Description: "모든 적에게 피해를 {Damage}씩 {Value1}번 줍니다.\n|겨울 에너지|를 {Value1} 얻습니다.\n|턴 종료 시|: 이번 턴에 공격 카드가 {Value2}장 이하로 사용되었다면 {SelfName}을 발동합니다."
+  UpgradedDescription: "모든 적에게 피해를 {Damage}씩 {Value1}번 줍니다.\n|겨울 에너지|를 {Value1} 얻습니다.\n|턴 종료 시|: 이번 턴에 공격 카드가 {Value2}장 이하로 사용되었다면 {SelfName}을 발동합니다."
+  Name: 비겁자 마스터 스파크
+OkinaCycleofLife:
+  Description: "왼쪽 끝의 카드를 버립니다.\n버린 카드 더미의 맨 아래 카드를 뽑을 카드 더미의 맨 위로 올립니다.\n뽑을 카드 더미의 맨 아래 카드를 손으로 가져옵니다."
+  UpgradedDescription: "왼쪽 끝의 카드를 버립니다.\n버린 카드 더미의 맨 아래 카드를 뽑을 카드 더미의 맨 위로 올립니다.\n뽑을 카드 더미의 맨 아래 카드를 손으로 가져옵니다.\n해당 카드들은 |일시적으로| 비용이 {Mana} 감소합니다."
+  Name: 생명의 순환
+OkinaDieofFamine:
+  Description: "피해를 {Damage} 줍니다.\n|중독|을 {Value1} 줍니다.\n{PlayerName}의 |화력|만큼 추가 |중독|을 부여합니다.\n|가을 에너지|를 {Value1} 얻습니다."
+  UpgradedDescription: "피해를 {Damage} 줍니다.\n|중독|을 {Value1} 줍니다.\n{PlayerName}의 |화력|만큼 추가 |중독|을 부여합니다.\n|가을 에너지|를 {Value1} 얻습니다."
+  Name: 기근의 주사위
+OkinaDoorSurfing:
+  Description: "|방어|를 {Block} 얻습니다.\n피해를 {Damage} 줍니다.\n{SelfName}은 |은총|의 영향을 {Value1}번 받습니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n피해를 {Damage} 줍니다.\n{SelfName}은 |은총|의 영향을 {Value1}번 받습니다."
+  Name: 도어 서핑
+OkinaEverlastingSummer:
+  Description: "모든 적에게 피해를 {Damage} 줍니다.\n오키나의 턴 시작 시, 모든 적에게 |명중| 피해를 {Damage} 줍니다.\n|성장|: 전투가 끝날 때까지 비용이 {Mana} 증가합니다."
+  UpgradedDescription: "모든 적에게 피해를 {Damage} 줍니다.\n오키나의 턴 시작 시, 모든 적에게 |명중| 피해를 {Damage} 줍니다.\n|성장|: 전투가 끝날 때까지 비용이 {Mana} 증가합니다."
+  Name: 영원한 여름
+OkinaFireofEna:
+  Description: "{PlayerName}의 다음 턴까지, 마나를 {Mana} 소비할 때마다 모든 적에게 |명중| 피해를 {Value1} 주고, |가을 에너지|를 {Value2} 얻습니다.\n{Mana2}를 얻습니다."
+  UpgradedDescription: "{PlayerName}의 다음 턴까지, 마나를 {Mana} 소비할 때마다 모든 적에게 |명중| 피해를 {Value1} 주고, |가을 에너지|를 {Value2} 얻습니다.\n{Mana2}를 얻습니다."
+  Name: 예나의 불
+OkinaHalooftheSecretGod:
+  Description: "마나를 소비할 때마다 |보호막|을 {Value1} 얻습니다."
+  UpgradedDescription: "마나를 소비할 때마다 |보호막|을 {Value1} 얻습니다."
+  Name: 비신의 후광
+OkinaHiddenBreezyCherryBlossom:
+  Description: "{Mana}를 얻습니다.\n{PlayerName}의 다음 턴까지 기술 카드를 사용할 때마다 |은총|을 {Value1} 얻습니다.\n{PlayerName}가 |봄 에너지|를 12 이상 보유하면 |봄 해방| 상태에 돌입합니다."
+  UpgradedDescription: "{Mana}를 얻습니다.\n{PlayerName}의 다음 턴까지 기술 카드를 사용할 때마다 |은총|을 {Value1} 얻습니다.\n{PlayerName}가 |봄 에너지|를 12 이상 보유하면 |봄 해방| 상태에 돌입합니다."
+  Name: 뒷・브리지 체리 블러섬
+OkinaHiddenCrazyFallWind:
+  Description: "모든 적에게 피해를 {Damage}씩 {Value1}번 줍니다.\n|화력|을 {Value2} 얻습니다.\n{PlayerName}가 |가을 에너지|를 12 이상 보유하면 |가을 해방| 상태에 돌입합니다."
+  UpgradedDescription: "모든 적에게 피해를 {Damage}씩 {Value1}번 줍니다.\n|화력|을 {Value2} 얻습니다.\n{PlayerName}가 |가을 에너지|를 12 이상 보유하면 |가을 해방| 상태에 돌입합니다."
+  Name: 뒷・크레이지 폴 윈드
+OkinaHiddenExtremeWinter:
+  Description: "|보호막|을 {Shield} 얻습니다.\n|영력|을 {Value1} 얻습니다.\n{SelfName}이 |겨울 에너지|를 12 이상 보유하면 |겨울 해방| 상태에 돌입합니다."
+  UpgradedDescription: "|보호막|을 {Shield} 얻습니다.\n|영력|을 {Value1} 얻습니다.\n{SelfName}이 |겨울 에너지|를 12 이상 보유하면 |겨울 해방| 상태에 돌입합니다."
+  Name: 뒷・익스트림 윈터
+OkinaHiddenPerfectSummerIce:
+  Description: "{PlayerName}가 |여름 에너지|를 12 이상 보유하면 |여름 해방| 상태에 돌입합니다. 이 효과는 턴당 한 번만 발동됩니다.\n|얼음 갑옷|을 {Value1} 얻습니다."
+  UpgradedDescription: "{PlayerName}가 |여름 에너지|를 12 이상 보유하면 |여름 해방| 상태에 돌입합니다. 이 효과는 턴당 한 번만 발동됩니다.\n|얼음 갑옷|을 {Value1} 얻습니다."
+  Name: 뒷・퍼펙트 서머 아이스
+OkinaKochSnowflake:
+  Description: "모든 적에게 피해를 {Damage} 줍니다.\n|겨울 에너지|를 {Value1} 얻습니다.\n카드를 {Value2}장 뽑습니다."
+  UpgradedDescription: "모든 적에게 피해를 {Damage} 주고 |빙결|을 부여합니다.\n|겨울 에너지|를 {Value1} 얻습니다.\n카드를 {Value2}장 뽑습니다."
+  Name: 코흐 눈송이
+OkinaKyogenoftheBackDoor:
+  Description: "|{SelfName}이 손에 들어올 때|: |보호막| {Shield}와 |여름 에너지| {Value1}을 얻습니다."
+  UpgradedDescription: "|{SelfName}이 손에 들어올 때|: |보호막| {Shield}와 |여름 에너지| {Value1}을 얻습니다."
+  Name: 뒷면의 사염
+OkinaManipulationofLifeEnergy:
+  Description: "|선택|: 체력을 {Value1} 회복하거나, 대상의 체력을 {Value2} 잃게 합니다.\n|여름 에너지|를 {Value3} 얻습니다.\n{SelfName}을 손으로 되돌립니다.\n|{Value4}번째 사용 후|: {SelfName}은 전투에서 제거됩니다."
+  UpgradedDescription: "|선택|: 체력을 {Value1} 회복하거나, 대상의 체력을 {Value2} 잃게 합니다.\n|여름 에너지|를 {Value3} 얻습니다.\n{SelfName}을 손으로 되돌립니다.\n|{Value4}번째 사용 후|: {SelfName}은 전투에서 제거됩니다."
+  ExtraDescription1: "체력을 {Value1} 회복합니다."
+  ExtraDescription2: "대상의 체력을 {Value2} 잃게 합니다."
+  Name: 생명의 조작
+OkinaManipulationofMentalEnergy:
+  Description: "|화력 소실|과 |영력 소실|을 {Value1} 부여합니다.\n|여름 에너지|를 {Value2} 얻습니다."
+  UpgradedDescription: "|화력 소실|과 |영력 소실|을 {Value1} 부여합니다.\n|여름 에너지|를 {Value2} 얻습니다."
+  Name: 정신 에너지 조작
+OkinaMastermindBehindtheScenes:
+  Description: "적이 약화 효과를 받을 때마다 |보호막|을 {Value1} 얻습니다.\n|봄 에너지|를 {Value2} 얻습니다."
+  UpgradedDescription: "적이 약화 효과를 받을 때마다 |보호막|을 {Value1} 얻습니다.\n|봄 에너지|를 {Value2} 얻습니다."
+  Name: 배후의 지략가
+OkinaRearShotsofBetrayal:
+  Description: "{PlayerName}가 매 턴 처음으로 공격 피해를 받을 경우, 해당 피해를 무작위 적에게 전가합니다.\n|가을 에너지|를 {Value1} 얻습니다."
+  UpgradedDescription: "{PlayerName}가 매 턴 처음으로 공격 피해를 받을 경우, 해당 피해를 무작위 적에게 전가합니다.\n|가을 에너지|를 {Value1} 얻습니다."
+  Name: 배반의 후방 사격
+OkinaSacrificetotheGod:
+  Description: "손에서 카드를 |소멸|시킵니다.\n카드를 소멸시켰다면, |화력|을 {Value1} 얻고 카드를 {Value2}장 뽑습니다."
+  UpgradedDescription: "손에서 카드를 |소멸|시킵니다.\n카드를 소멸시켰다면, |화력|을 {Value1} 얻고 카드를 {Value2}장 뽑습니다."
+  Name: 신에게 바치는 제물
+OkinaSageMeeting:
+  Description: "|방어|를 {Block} 얻습니다.\n|은총|을 {Value1} 얻습니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n|은총|을 {Value1} 얻습니다.\n|선보임|: |v:완전 무작위| 카드 {Value2}장 중 하나를 선택해 손에 넣습니다."
+  ExtraDescription1: "|방어|를 {Block} 얻습니다.\n|은총|을 {Value1} 얻습니다.\n|d:선보임: |v:완전 무작위| 카드 {Value2}장 중 하나를 선택해 손에 넣습니다.|"
+  Name: 현자의 회합
+OkinaSarugakuofFireandIce:
+  Description: "|방어|를 {Block} 얻습니다.\n|가을 에너지|를 {Value1} 얻습니다.\n다음 {Value2}장의 빨간색 또는 파란색 카드는 비용이 {Mana}가 됩니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n|가을 에너지|를 {Value1} 얻습니다.\n다음 {Value2}장의 빨간색 또는 파란색 카드는 비용이 {Mana}가 됩니다."
+  Name: 불과 얼음의 사루가쿠
+OkinaScorchByHotSummer:
+  Description: "{PlayerName}의 턴 시작 시 |여름 에너지|를 {Value1} 얻습니다."
+  UpgradedDescription: "{PlayerName}의 턴 시작 시 |여름 에너지|를 {Value1} 얻습니다."
+  Name: 작열의 여름날
+OkinaSecretGodBarrier:
+  Description: "|방어|를 {Block} 얻습니다.\n|보호막|을 {Shield} 얻습니다.\n|봄 에너지|를 {Value1} 얻습니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n|보호막|을 {Shield} 얻습니다.\n|봄 에너지|를 {Value1} 얻습니다."
+  Name: 비신결계
+OkinaSecretGodsBehindtheScenesDanmaku:
+  Description: "{PlayerName}가 |방어| 또는 |보호막|을 얻을 때마다 같은 양의 피해를 모든 적에게 줍니다.\n|겨울 에너지|를 {Value1} 얻습니다."
+  UpgradedDescription: "{PlayerName}가 |방어| 또는 |보호막|을 얻을 때마다 같은 양의 피해를 모든 적에게 줍니다.\n|겨울 에너지|를 {Value1} 얻습니다."
+  Name: 비신의 암약 탄막
+OkinaSneakPhotographersExorcismfromtheBack:
+  Description: "피해를 {Damage}씩 {Value1}번 줍니다.\n|부적|과 |비호|를 {Value2} 얻습니다.\n|봄 에너지|를 {Value1} 얻습니다.\n대상이 약화 효과를 주거나 상태 카드를 추가하려 한다면, 이 효과를 반복합니다."
+  UpgradedDescription: "피해를 {Damage}씩 {Value1}번 줍니다.\n|부적|과 |비호|를 {Value2} 얻습니다.\n|봄 에너지|를 {Value1} 얻습니다.\n대상이 약화 효과를 주거나 상태 카드를 추가하려 한다면, 이 효과를 반복합니다."
+  Name: 등 뒤에서 도촬자 퇴치
+OkinaSummerWars:
+  Description: "|방어|를 {Block} 얻습니다.\n모든 적에게 피해를 {Damage} 줍니다.\n|여름 에너지|를 {Value1} 얻습니다.\n적 하나당 이 효과를 반복합니다."
+  UpgradedDescription: "|방어|를 {Block} 얻습니다.\n모든 적에게 피해를 {Damage} 줍니다.\n|여름 에너지|를 {Value1} 얻습니다.\n적 하나당 이 효과를 반복합니다."
+  Name: 썸머 워즈
+OkinaThinkingwithPortals:
+  Description: "{PlayerName}의 턴 종료 시, 이번 턴에 이동한 카드 1장당 |보호막|을 {Value1} 얻습니다."
+  UpgradedDescription: "{PlayerName}의 턴 종료 시, 이번 턴에 이동한 카드 1장당 |보호막|을 {Value1} 얻습니다."
+  Name: 차원문 사고
+  DetailText: "뽑거나 버리거나 |소멸|된 카드는 포함되지 않습니다."

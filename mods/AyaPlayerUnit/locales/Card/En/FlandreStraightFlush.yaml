@@ -1,0 +1,30 @@
+﻿FlandreStraightFlush:
+  Description: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Gain {FlandreValue1} |Firepower|, |Spirit|, |Amulet|, and |Ward|.
+
+    If there are {Value2} or more cards of the same type in the hand, {SelfName} costs {Mana} to play.
+
+    ({AmountS})
+  UpgradedDescription: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Gain {FlandreValue1} |Firepower|, |Spirit|, |Amulet|, and |Ward|.
+
+    If there are {Value2} or more cards of the same type in the hand, {SelfName} costs {Mana} to play.
+
+    ({AmountS})
+  NonbattleDescription: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Gain {FlandreValue1} |Firepower|, |Spirit|, |Amulet|, and |Ward|.
+
+    If there are {Value2} or more cards of the same type in the hand, {SelfName} costs {Mana} to play.
+  UpgradedNonbattleDescription: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Gain {FlandreValue1} |Firepower|, |Spirit|, |Amulet|, and |Ward|.
+
+    If there are {Value2} or more cards of the same type in the hand, {SelfName} costs {Mana} to play.
+  Name: Straight Flush

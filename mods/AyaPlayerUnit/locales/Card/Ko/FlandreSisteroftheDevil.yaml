@@ -1,0 +1,5 @@
+﻿FlandreSisteroftheDevil:
+  Description: '|전투 시작 시|: {SelfName}을 |소멸|시키고, |악마의 여동생|을 얻습니다.'
+  UpgradedDescription: '|전투 시작 시|: {SelfName}을 |소멸|시키고, |악마의 여동생|과 {Mana}를 얻습니다.'
+  Name: 악마의 여동생
+  DetailText: '{SelfName}은 전투 중 무작위로 생성되지 않으며, 복사할 수 없습니다.'

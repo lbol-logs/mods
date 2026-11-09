@@ -1,0 +1,11 @@
+﻿FlandreSuperhumanCatastrophePilgrimage:
+  Description: >-
+    |Offering| {Value1}.
+
+    Add {FlandreValue2} |p:random| attack, defense, skill, and |Ability| cards to the hand. They |temporarily cost| {Mana} and have |Exile| and |Ethereal|.
+  UpgradedDescription: >-
+    |Offering| {Value1}.
+
+    Add {FlandreValue2} |p:random| attack, defense, skill, and |Ability| cards to the hand. They |temporarily cost| {Mana} and have |Exile| and |Ethereal|.
+  Name: Superhuman Catastrophe Pilgrimage
+  DetailText: '{SelfName} cannot be produced by this effect.'

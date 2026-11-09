@@ -1,0 +1,14 @@
+﻿AyaDaymareintheDarkNight:
+  Description: >-
+    Deal {Damage} damage.
+
+    Until {PlayerName}'s next turn, whenever {PlayerName} gains |Acceleration|, deal {Damage} damage to the enemy with the least life.
+
+    Gain {Value1} |Acceleration|.
+  UpgradedDescription: >-
+    Deal {Damage} damage.
+
+    Until {PlayerName}'s next turn, whenever {PlayerName} gains |Acceleration|, deal {Damage} damage to the enemy with the least life.
+
+    Gain {Value1} |Acceleration|.
+  Name: Daymare in the Dark Night

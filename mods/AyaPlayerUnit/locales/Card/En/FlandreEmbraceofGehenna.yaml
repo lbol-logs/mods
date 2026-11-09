@@ -1,0 +1,26 @@
+﻿FlandreEmbraceofGehenna:
+  Description: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Gain {FlandreValue1} more |Barrier| for each |Calamity| {PlayerName} has.
+
+    |Destroy| enemies with life equal to {FlandreValue2:plural one='% time' other='% times'} {PlayerName}'s |Calamity| or less. ({Amount})
+  UpgradedDescription: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Gain {FlandreValue1} more |Barrier| for each |Calamity| {PlayerName} has.
+
+    |Destroy| enemies with life equal to {FlandreValue2:plural one='% time' other='% times'} {PlayerName}'s |Calamity| or less. ({Amount})
+  NonbattleDescription: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Gain {FlandreValue1} more |Barrier| for each |Calamity| {PlayerName} has.
+
+    |Destroy| enemies with life equal to {FlandreValue2:plural one='% time' other='% times'} {PlayerName}'s |Calamity| or less.
+  UpgradedNonbattleDescription: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Gain {FlandreValue1} more |Barrier| for each |Calamity| {PlayerName} has.
+
+    |Destroy| enemies with life equal to {FlandreValue2:plural one='% time' other='% times'} {PlayerName}'s |Calamity| or less.
+  Name: Embrace of Gehenna

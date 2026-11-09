@@ -1,0 +1,4 @@
+﻿AyaOrbWhiteSuperspeedFlierSe:
+  Brief: '{OwnerName}の次のターン開始時、{PlayerName}にダメージを与える。'
+  Description: '{OwnerName}の次のターン開始時、{PlayerName}に{Level}ダメージを与える。'
+  Name: 神速の飛行者

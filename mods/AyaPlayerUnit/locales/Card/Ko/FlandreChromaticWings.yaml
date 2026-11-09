@@ -1,0 +1,4 @@
+﻿FlandreChromaticWings:
+  Description: '{PlayerName}의 턴 시작 시, {Mana}를 얻습니다.'
+  UpgradedDescription: '{PlayerName}의 턴 시작 시, {Mana}를 얻습니다.'
+  Name: 다채로운 날개

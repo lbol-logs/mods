@@ -1,0 +1,7 @@
+﻿FlandreCrystallineOutburstSe:
+  Brief: '|混沌のクリスタル|、|悪魔のクリスタル|、|狂気のクリスタル|、|孤独のクリスタル|がすべて発動すると、手札に|破滅のクリスタル|を加える。'
+  Description: >-
+    |混沌のクリスタル|、|悪魔のクリスタル|、|狂気のクリスタル|、|孤独のクリスタル|がすべて発動すると、手札に{Level}枚の|破滅のクリスタル{Level:plural one='' other=''}|を加える。
+
+    （残り{Amount}：{Count:plural one='%枚' other='%枚'}）
+  Name: 結晶の爆発

@@ -1,0 +1,4 @@
+﻿FlandreUnstablePower:
+  Description: 모든 공격이 {Value1}%에서 {Value2}% 사이의 피해를 줍니다.
+  UpgradedDescription: 모든 공격이 {Value1}%에서 {Value2}% 사이의 피해를 줍니다.
+  Name: 불안정한 힘

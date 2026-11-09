@@ -1,0 +1,10 @@
+﻿AyaApexPredator:
+  Description: >-
+    每当{PlayerName}受到攻击伤害时，减少等同于{PlayerName}的|加速|的伤害，并失去 {Value3}|加速|。
+
+    获得 {Value1}|加速|。
+  UpgradedDescription: >-
+    每当{PlayerName}受到攻击伤害时，减少等同于{PlayerName}的|加速|的伤害，并失去 {Value3}|加速|。
+
+    获得 {Value1}|加速|。
+  Name: 顶级掠食者

@@ -1,0 +1,55 @@
+﻿AyaAyaShameimarusCoerciveReporting:
+  Description: >-
+    Add a |Bunbunmaru Newspaper Special| to the hand.
+
+    Gain additional effects based on target's intention.
+  UpgradedDescription: >-
+    Add a |Bunbunmaru Newspaper Special| to the hand.
+
+    Gain additional effects based on target's intention.
+  Name: Aya Shameimaru's Coercive Reporting
+  DetailText: >-
+    |Attack|: Apply {Value2} |Weak|.
+
+    |Buff|: Gain {Value2} |Firepower|.
+
+    |Debuff|: Gain {Value2} |Amulet|.
+
+    |Status|: Add a |Vitality| to the hand.
+
+    |Defense|: Apply {Value2} |Vulnerable|.
+
+    |Graze|: Gain {Value4} |Acceleration|.
+
+    |Summon|: Summon |Sukusuku Aya|.
+
+    |Sleep|: Wakes up target.
+
+    |Stunned, Do Nothing|: Gain {Value1} |Extra Turn|.
+
+    |Escape, Detonate|: Defeat the target.
+
+    |Charge|: Enter |Burst|.
+
+    |Heal, Repair|: Gain {Value4} life.
+
+    |Spell Card|: Gain {Value5} <sprite="Point" name="Gold"> and <sprite="Point" name="Power">.
+
+    |Cleanse|: Remove all debuffs from {PlayerName} and gain {Value2} |Amulet|.
+
+    |Noh of Darkness|: Remove all debuffs from {PlayerName} and gain {Value5} |Amulet|. Negate |Noh of Darkness| for the rest of combat.
+
+    |Jinx|: Whenever a card is |Jinxed|, deal {Value6} damage to each enemy.
+  AyaShameimarusCoerciveReportingSleep1Aya: Wake up, sleepyhead!
+  AyaShameimarusCoerciveReportingEscape1Aya: Trying to escape from the fastest being in Gensokyo? Foolish.
+  AyaShameimarusCoerciveReportingEscape2Aya: Did you think you could run away in front of me?
+  AyaShameimarusCoerciveReportingEscape31Aya: Hello, hello!
+  AyaShameimarusCoerciveReportingEscape32Aya: Now, I'm
+  AyaShameimarusCoerciveReportingEscape33Aya: Right behind you!
+  AyaShameimarusCoerciveReportingDetonate1Aya: Do you have an explosives license?
+  AyaShameimarusCoerciveReportingDetonate2Rin: What is explosives license?
+  AyaShameimarusCoerciveReportingDetonate3Aya: This person right here, officer.
+  AyaShameimarusCoerciveReportingDetonate4Rin: Wait! I can explain!
+  AyaShameimarusCoerciveReportingDetonate5Rin: Satori-sama! Help me!
+  AyaShameimarusCoerciveReportingNohofDarkness1Aya: It's too dark in here. Let me turn on some lights.
+  AyaShameimarusCoerciveReportingNohofDarkness2Kokoro: My eyes!

@@ -1,0 +1,10 @@
+﻿FlandreEndwithaBang:
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    모든 적에게 |유황|을 {Value1} 줍니다.
+  UpgradedDescription: >-
+    |방어|를 {Block} 얻습니다.
+
+    모든 적에게 |유황|을 {Value1} 줍니다.
+  Name: 폭발로 끝내자

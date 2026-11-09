@@ -1,0 +1,14 @@
+﻿AyaInstantShotJournalist:
+  Description: >-
+    Gain {Block} |Block|.
+
+    Gain {Value1} |Acceleration|.
+
+    {PlayerName} can't lose |Acceleration| for {Value2:plural one='% turn' other='% turns'}.
+  UpgradedDescription: >-
+    Gain {Block} |Block|.
+
+    Gain {Value1} |Acceleration|.
+
+    {PlayerName} can't lose |Acceleration| for {Value2:plural one='% turn' other='% turns'}.
+  Name: Instant Shot Journalist

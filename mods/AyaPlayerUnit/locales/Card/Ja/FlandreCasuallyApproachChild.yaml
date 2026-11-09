@@ -1,0 +1,10 @@
+﻿FlandreCasuallyApproachChild:
+  Description: >-
+    {FlandreShield}|バリア|を得る。
+
+    |災禍|{FlandreValue1}を得る。
+  UpgradedDescription: >-
+    {FlandreShield}|バリア|を得る。
+
+    |災禍|{FlandreValue1}を得る。
+  Name: 無邪気な接近

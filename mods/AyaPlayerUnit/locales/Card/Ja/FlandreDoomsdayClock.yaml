@@ -1,0 +1,7 @@
+﻿FlandreDoomsdayClock:
+  Description: '{PlayerName}は|災禍|を{FlandreValue1}回多く得る。'
+  UpgradedDescription: >-
+    {PlayerName}は|災禍|を{FlandreValue1}回多く得る。
+
+    |災禍|{Value3}を得る。
+  Name: 終末時計

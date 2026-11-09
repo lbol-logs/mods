@@ -1,0 +1,6 @@
+﻿AyaDashingGrace:
+  Description: Deal {Value2} damage to each enemy for each |Acceleration| {PlayerName} has. ({AccelerationDamage})
+  UpgradedDescription: Deal {Value2} damage to each enemy for each |Acceleration| {PlayerName} has. ({AccelerationDamage})
+  NonbattleDescription: Deal {Value2} damage to each enemy for each |Acceleration| {PlayerName} has.
+  UpgradedNonbattleDescription: Deal {Value2} damage to each enemy for each |Acceleration| {PlayerName} has.
+  Name: Dashing Grace

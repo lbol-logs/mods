@@ -1,0 +1,10 @@
+﻿FlandreFourofaKind:
+  Description: >-
+    Choose a card in the hand. It |temporarily costs| {Mana}.
+
+    Add {FlandreValue1} |Copies| of it to the draw pile that |temporarily cost| {Mana} and have |Exile| and |Replenish|.
+  UpgradedDescription: >-
+    Choose a card in the hand. It |temporarily costs| {Mana}.
+
+    Add {FlandreValue1} |Copies| of it to the draw pile that |temporarily cost| {Mana} and have |Exile| and |Replenish|.
+  Name: Four of a Kind

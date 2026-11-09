@@ -1,0 +1,4 @@
+﻿FlandreWatchtheWorldBurn:
+  Description: At the end of {PlayerName}'s turn, apply {FlandreValue1} |Hellfire| to each enemy.
+  UpgradedDescription: At the end of {PlayerName}'s turn, apply {FlandreValue1} |Hellfire| to each enemy.
+  Name: Watch the World Burn

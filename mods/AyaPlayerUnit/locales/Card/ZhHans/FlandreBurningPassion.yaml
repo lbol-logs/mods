@@ -1,0 +1,10 @@
+﻿FlandreBurningPassion:
+  Description: >-
+    抽 {Value1} 张牌。
+
+    对目标施加 {Value2} 层|地狱火|。
+  UpgradedDescription: >-
+    抽 {Value1} 张牌。
+
+    对目标施加 {Value2} 层|地狱火|。
+  Name: 知愿长燃

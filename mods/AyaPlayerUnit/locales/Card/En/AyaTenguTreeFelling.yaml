@@ -1,0 +1,10 @@
+﻿AyaTenguTreeFelling:
+  Description: >-
+    Gain {Block} |Block| and {Shield} |Barrier|.
+
+    At the end of {PlayerName}'s turn, decrease {SelfName}'s |Block| and |Barrier| by {Value1}.
+  UpgradedDescription: >-
+    Gain {Block} |Block| and {Shield} |Barrier|.
+
+    At the end of {PlayerName}'s turn, decrease {SelfName}'s |Block| and |Barrier| by {Value1}.
+  Name: Tengu Tree-Felling

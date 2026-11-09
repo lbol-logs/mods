@@ -1,0 +1,4 @@
+﻿AyaFriendMegumuSe:
+  Brief: Whenever a |Misfortune| or Status card is |Exiled|, gain <sprite="ManaSprite" name="P"> and draw a card.
+  Description: Whenever a |Misfortune| or Status card is |Exiled|, gain {Level} <sprite="ManaSprite" name="P"> and draw {Level:plural one='% card' other='% cards'}.
+  Name: Rainbow Illumination「Clear and Tranquil Wind and Moon」

@@ -1,0 +1,4 @@
+﻿FlandreHellfireSe:
+  Brief: '{OwnerName}가 턴 시작 시 체력을 잃습니다.'
+  Description: '{OwnerName}가 턴 시작 시 체력을 {Level} 잃습니다.'
+  Name: 지옥불

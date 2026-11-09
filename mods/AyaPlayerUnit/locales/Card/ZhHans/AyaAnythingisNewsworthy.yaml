@@ -1,0 +1,4 @@
+﻿AyaAnythingisNewsworthy:
+  Description: 每当一张|崩坏|或状态牌即将被添加时，如果其名称不包含“文文”或“新闻”，则改为添加一张 |文文新闻|。
+  UpgradedDescription: 每当一张|崩坏|或状态牌即将被添加时，如果其名称不包含“文文”或“新闻”，则改为添加一张 |文文新闻|。
+  Name: 任何事都值得报道

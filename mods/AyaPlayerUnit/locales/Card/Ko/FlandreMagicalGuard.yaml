@@ -1,0 +1,18 @@
+﻿FlandreMagicalGuard:
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    {SelfName}을 손으로 되돌립니다.
+
+    이번 턴 동안 {SelfName}의 비용이 {Mana} 증가합니다.
+  UpgradedDescription: >-
+    |방어|를 {Block} 얻습니다.
+
+    {SelfName}을 손으로 되돌립니다.
+
+    이번 턴 동안 {SelfName}의 비용이 {Mana} 증가합니다.
+  Name: 마법의 수비
+  DetailText: >-
+    |p:{SelfName}은 어떤 상황에서도 손에서 떠나지 않습니다.|
+
+    {SelfName}은 항상 손패의 {Order}번째 카드입니다.

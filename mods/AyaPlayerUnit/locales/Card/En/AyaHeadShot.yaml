@@ -1,0 +1,14 @@
+﻿AyaHeadShot:
+  Description: >-
+    Deal {Damage} damage.
+
+    |Lock On| increases {SelfName}'s damage {Value1:plural one='% time' other='% times'}.
+
+    When an enemy is defeated using {SelfName}, gain {Mana}.
+  UpgradedDescription: >-
+    Deal {Damage} damage.
+
+    |Lock On| increases {SelfName}'s damage {Value1:plural one='% time' other='% times'}.
+
+    When an enemy is defeated using {SelfName}, gain {Mana}.
+  Name: Head Shot

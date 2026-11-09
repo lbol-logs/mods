@@ -1,0 +1,543 @@
+AyaBossAya:
+  Title: ''
+  Move:
+  - 
+
+AyaBossChimata:
+  Title: 'The God of the Unowned'
+  Move:
+  - 
+
+AyaBossFlandre:
+  Title: 'Devil of Scarlet Blood'
+  Move:
+  - 'Taboo'
+  - Blueberry Trap
+  - Mistilteinn
+  - Three of a Kind
+  - Toryanse, Toryanse
+  - Labyrinth of Love
+  - 'Taboo'
+  - Cranberry Trap
+  - Laevateinn
+  - Four of a Kind
+  - Kagome, Kagome
+  - Maze of Love
+  - 'Forbidden Barrage'
+  - Starbow Break
+  - Catadioptric
+  - Clock that Ticks Away the Past
+  - 'Secret Barrage'
+  - And Then Will There Be None?
+  - 'Q.E.D.'
+  - Ripples of 495 Years
+  - Forbidden Fruit
+  - Forbidden Games
+  - Reckless Bullet
+  - Cerberus Clipper
+  - Destroyer in the Palm of One's Hand
+  - Scarlet Nihility
+  AyaBossFlandreDemoMove11FlandrePleasure: "Taboo\u300CBlueberry Trap\u300D!"
+  AyaBossFlandreDemoMove12Flandre: "Blueberry? Why?"
+  AyaBossFlandreDemoMove13FlandrePleasure: "Danmaku isn't about why. It's about why not!"
+  AyaBossFlandreDemoMove14FlandrePleasure: "If Cranberry Trap exists, that means there is Blueberry Trap somewhere!"
+  AyaBossFlandreDemoMove15Flandre: "There's no such thing as Cranberry Trap in the first place."
+  AyaBossFlandreDemoMove16FlandrePleasure: "What? Nobody thought of making a trap with cranberries?"
+  AyaBossFlandreDemoMove17Flandre: "Even if it does, it's just one of the baits that can be set in a trap."
+  AyaBossFlandreDemoMove18FlandrePleasure: "That's not fun. I want a trap where cranberries explode violently."
+  AyaBossFlandreDemoMove19Flandre: "Ask Crazy Dave."
+  AyaBossFlandreDemoMove21FlandrePleasure: "Hey, check this out."
+  AyaBossFlandreDemoMove22Flandre: "That's not Laevateinn! Since when did you learn that?"
+  AyaBossFlandreDemoMove23FlandrePleasure: "While you were sleeping, I came out and practiced a new magic."
+  AyaBossFlandreDemoMove24Flandre: "Hah? I never said you could come out without my permission."
+  AyaBossFlandreDemoMove25FlandrePleasure: "Oh come on. You really need to make proper use of your clones."
+  AyaBossFlandreDemoMove26FlandrePleasure: "You only use clones when you need them, but we can do much more than that."
+  AyaBossFlandreDemoMove27Flandre: "If you girls hadn't caused more trouble than me, I would have done that a long time ago."
+  AyaBossFlandreDemoMove28FlandrePleasure: "...Can't argue with that!"
+  AyaBossFlandreDemoMove31FlandrePleasure: "Come out, everyone!"
+  AyaBossFlandreDemoMove32Flandre: "Hey! Only I can summon clones!"
+  AyaBossFlandreDemoMove33FlandreAnger: "I was sleeping, damn it!"
+  AyaBossFlandreDemoMove34FlandrePleasure: "Oops, sorry!"
+  AyaBossFlandreDemoMove35FlandreSorrow: "I was reading books... but if you need my help."
+  AyaBossFlandreDemoMove36Flandre: "I have no memory of there being a book in my inner world?"
+  AyaBossFlandreDemoMove37FlandreSorrow: "I memorized books from the real world and replicated them in the inner world."
+  AyaBossFlandreDemoMove38Flandre: "That's actually pretty impressive."
+  AyaBossFlandreDemoMove39FlandrePleasure: "Alright, girls. Let's do it!"
+  AyaBossFlandreDemoMove310FlandreSorrow: "Guess I have no choice."
+  AyaBossFlandreDemoMove311FlandreAnger: "This is going to hurt, original!"
+  AyaBossFlandreDemoMove312Flandre: "Wait-"
+  AyaBossFlandreDemoMove313Flandre: "...Did I do something wrong to you girls?"
+  AyaBossFlandreDemoMove314FlandrePleasure: "Nope!"
+  AyaBossFlandreDemoMove315FlandreSorrow: "Um... I think not."
+  AyaBossFlandreDemoMove316FlandreAnger: "No, at least for now."
+  AyaBossFlandreDemoMove41Flandre: "You may go in, you may enter."
+  AyaBossFlandreDemoMove42FlandrePleasure: "Whose narrow path is this?"
+  AyaBossFlandreDemoMove43Flandre: "This is the narrow pathway of the Tenjin-sama."
+  AyaBossFlandreDemoMove44FlandrePleasure: "Please allow me to go through."
+  AyaBossFlandreDemoMove4Normal5Flandre: "..."
+  AyaBossFlandreDemoMove4Hidden6Flandre: "Those without good reason shall not pass."
+  AyaBossFlandreDemoMove4Hidden7FlandrePleasure: "To celebrate the 7th birthday of this child,"
+  AyaBossFlandreDemoMove4Hidden8FlandrePleasure: "We've come to offer our Ofuda here."
+  AyaBossFlandreDemoMove4HiddenFailure9Flandre: "..."
+  AyaBossFlandreDemoMove4HiddenSuccess10Flandre: "Going in is easy, but returning is scary."
+  AyaBossFlandreDemoMove4HiddenSuccess11Flandre: "It's scary, but,"
+  AyaBossFlandreDemoMove4HiddenSuccess12Flandre: "You may go in, You may may enter."
+  AyaBossFlandreDemoMove51FlandrePleasure: "Maze of Love? Think bigger."
+  AyaBossFlandreDemoMove52FlandrePleasure: "How about Labyrinth of Love!"
+  AyaBossFlandreDemoMove53Flandre: "I don't think you can find love in a labyrinth."
+  AyaBossFlandreDemoMove54FlandrePleasure: "As if you can find love in a maze."
+  AyaBossFlandreDemoMove55Flandre: "You got me."
+  AyaBossFlandreDemoLastWord1FlandrePleasure: "Hey, don't you think that's a bit too much?"
+  AyaBossFlandreDemoLose1FlandrePleasure: "I won!"
+  AyaBossFlandreDemoLose2Flandre: "Idiot, we lost!"
+  AyaBossFlandreDemoLose3FlandrePleasure: "Oh right. I'm also defeated when you're defeated."
+  AyaBossFlandreDemoWin1FlandrePleasure: "I yield!"
+  AyaBossFlandreJoyName: Flandre (Joy)
+  AyaBossFlandreAngerName: Flandre (Anger)
+  AyaBossFlandreSorrowName: Flandre (Sorrow)
+  AyaBossFlandrePleasureName: Flandre (Pleasure)
+  
+AyaBossKoishi:
+  Title: 'The Curious, Closed Eye'
+  Move:
+  - 'Unconscious Action'
+  - 'White Inspiration'
+  - 'Blue Inspiration'
+
+  - Black Inspiration
+  - Red Inspiration
+  - Green Inspiration
+  - Shoot
+  - Double Danmaku
+  - Defense
+  - Love Sign
+  - Heart Concerto
+  - I'm Going to Call You Now, So Answer the Phone!
+  AyaBossKoishiSpell21Koishi: "Hello, hello!"
+  AyaBossKoishiSpell22Koishi: "Now, I'm"
+  AyaBossKoishiSpell23Koishi: "Right behind you!"
+  AyaBossKoishiSpell24Koishi: "Right in front of you!"
+  
+AyaBossLong:
+  Title: 'Daitengu'
+  Move:
+  - 'Multicolored Star Formation'
+  - 'Rainbow Starfall'
+  - 'Rainbow Illumination'
+  - Clear and Tranquil Wind and Moon
+  
+AyaBossLongSeija:
+  Title: 'Messiah of All Tools'
+  Move:
+  - 'Multi-Barrage'
+  - 'Keen Shot'
+  - 'Reverse Offensive'
+  
+AyaBossYukari:
+  Title: 'Border of Phantasm'
+  Move:
+  - 'Barrier'
+  - Curse of Dreams and Reality
+  - Balance of Motion and Stillness
+  - Mesh of Light and Darkness
+  - 'Evil Spirits'
+  - Dreamland of Straight and Curve
+  - Yukari Yakumo's Spiriting Away
+  - Bewitching Butterfly Living in the Zen Temple
+  - 'Sinister Spirits'
+  - Double Black Death Butterfly
+  - 'Shikigami'
+  - Ran Yakumo
+  - Boundary of Humans and Youkai
+  - Boundary of Life and Death
+  - 'Yukari''s Arcanum'
+  - Danmaku Barrier
+  - Profound Danmaku Barrier -Phantasm, Foam and Shadow-
+  AyaBossYukariIntro1Yukari: "Very well. I'll be your opponent."
+  AyaBossYukariIntro2Yukari: "Because I'm really weak, I temporarily removed Ultramarine Orb Elixir's power."
+  AyaBossYukariIntro3Yukari: "Please go easy on me~"
+  AyaBossYukariIntro31Aya: "Should I go easy on you because you're miss Yukari, or not because you're really dangerous?"
+  AyaBossYukariIntro32Flandre: "I can't Restart Level or Main Menu in this battle? What a hassle."
+  AyaBossYukariNightmare11Yukari: "Sleep peacefully on my lap."
+  AyaBossYukariNightmare121Aya: "Ayaya, did you forget that I'm as old as you..."
+  AyaBossYukariNightmare122Flandre: "Hah? Who would want to sleep on hag's lap..."
+  AyaBossYukariNightmare21Yukari: "In your dreams, may there be peace, not fight."
+  AyaBossYukariNightmare221Aya: "But peace doesn't make the news...!"
+  AyaBossYukariNightmare222Flandre: "No, that's my worst nightmare...!"
+  AyaBossYukariRanYakumo1Yukari: "Ran! Give me a hand, will you?"
+  AyaBossYukariRanYakumo2Ran: "Of course, lady Yukari. What do you need?"
+  AyaBossYukariRanYakumo3Yukari: "Oh, you're such a tease. Can't you see I'm sparring with {0}?"
+  AyaBossYukariRanYakumo4Yukari: "Let's see if our incident resolver can handle two people at once."
+  AyaBossYukariRanYakumo5Ran: "As you command."
+  AyaBossYukariRanYakumo6Ran: "Alright, {0}. Show me what you've got!"
+  AyaBossYukariRanYakumo71Aya: "I've been looking for you, miss Ran! You're so busy that it's really hard to find a chance to interview you!"
+  AyaBossYukariRanYakumo72Flandre: "I¡¯ve been wanting to try Kitsune Udon, so guess I¡¯ll give it a bite now!"
+  AyaBossYukariRanYakumo81Ran: "Why am I not surprised..."
+  AyaBossYukariRanYakumo82Ran: "Kitsune Udon isn't made with Kitsune..."
+  AyaBossYukariBoundaryofHumans1Everyone: "!"
+  AyaBossYukariBoundaryofHumans21Aya: "Ayayaya! Where are we!?"
+  AyaBossYukariBoundaryofHumans22Flandre: "The scenery suddenly changed!"
+  AyaBossYukariBoundaryofHumans3Yukari: "Hmm, a teleportation? No, I can't grasp the reality of this world."
+  AyaBossYukariBoundaryofHumans41Aya: "Is this... the Outside World? It¡¯s been a really long time since I¡¯ve seen it."
+  AyaBossYukariBoundaryofHumans421Flandre: "The Outside World? I¡¯ve been to the Outside World a few times with Okina."
+  AyaBossYukariBoundaryofHumans422SukusukuAya: "Suku!\n(If you want to know more, please look forward to Flandre's Story Mode!)"
+  AyaBossYukariBoundaryofHumans5Yukari: "What we are seeing is clearly the Outside World, but we are not actually there."
+  AyaBossYukariBoundaryofHumans61Aya: "And you look different too, miss Yukari. What happened?"
+  AyaBossYukariBoundaryofHumans62Flandre: "Also, did you change your clothes?"
+  AyaBossYukariBoundaryofHumans7Yukari: "My appearance... I see. This is someone's memory."
+  AyaBossYukariBoundaryofHumans81Aya: "Memory? Does that mean your current appearance is the owner of this memory?"
+  AyaBossYukariBoundaryofHumans82Flandre: "Not sure how we're peeking at the brain of that human."
+  AyaBossYukariBoundaryofHumans9Yukari: "I can't guarantee that this memory is from this human, it could be someone else's memory with the human I currently look like as part of the memory."
+  AyaBossYukariBoundaryofHumans101Aya: "Someone else... still, there must be a reason why this happened out of nowhere."
+  AyaBossYukariBoundaryofHumans102Flandre: "Either way, do you know why we're seeing this?"
+  AyaBossYukariBoundaryofHumans11Yukari: "Ran, analysis."
+  AyaBossYukariBoundaryofHumans12Ran: "This memory must have seeped in through a gap when lady Yukari visited the Outside World."
+  AyaBossYukariBoundaryofHumans13Ran: "If the memory has reacted to lady Yukari's power, there is a chance that the owner of memory may have similar power."
+  AyaBossYukariBoundaryofHumans14Yukari: "Interesting. I'd like to meet that human later."
+  AyaBossYukariBoundaryofHumans15Yukari: "But for now, let's focus on the battle."
+  AyaBossYukariBoundaryofHumans161Aya: "(That human looks very similar to miss Yukari. Is it just a coincidence, or...?)"
+  AyaBossYukariBoundaryofHumans162Flandre: "(Either Yukari doesn't know anything about Merry, or she's just pretending not to know.)"
+  AyaBossYukariMagicalGirlFlandreEngage1Okina: "Hey Yukari. What do you think about my Flandre?"
+  AyaBossYukariMagicalGirlFlandreEngage2Yukari: "She has become truly remarkable. I can see your plans are going well."
+  AyaBossYukariMagicalGirlFlandreEngage3Okina: "Indeed! I already knew Flandre had potential ever since the oil incident."
+  AyaBossYukariMagicalGirlFlandreEngage4Okina: "Flandre. Facing Yukari will be completely different from any enemy you have encountered so far."
+  AyaBossYukariMagicalGirlFlandreEngage5Okina: "Whether you win or lose, do your best!"
+  AyaBossYukariLastWord1Yukari: "Oh dear, you seem to have gotten quite serious."
+  AyaBossYukariLastWord2Yukari: "I guess I¡¯ll have to give it my all, too~"
+  AyaBossYukariLose1Yukari: "You broke my barrier 0 times. You need more training."
+  AyaBossYukariLose2Yukari: "You broke my barrier 1 time. I'd say that was expected from our incident resolver."
+  AyaBossYukariLose3Yukari: "You broke my barrier 2 times. It was impressive, but you can do better than that."
+  AyaBossYukariLose4Yukari: "You broke my barrier 3 times. Maybe you can defeat me next time."
+  AyaBossYukariLose5Yukari: "I can send you home, or you can continue your adventure."
+
+AyaBossZUN:
+  Title: 'Hakurei Kannushi'
+  Move:
+  - Intoxicated
+  - Highly Responsive to Prayers
+  - Story of Eastern Wonderland
+  - Phantasmagoria of Dim.Dream
+  - Lotus Land Story
+  - Mystic Square
+  - Embodiment of Scarlet Devil
+  - Perfect Cherry Blossom
+  - Imperishable Night
+  - Phantasmagoria of Flower View
+  - Mountain of Faith
+  - Subterranean Animism
+  - Undefined Fantastic Object
+  - Ten Desires
+  - Double Dealing Character
+  - Legacy of Lunatic Kingdom
+  - Hidden Star in Four Seasons
+  - Wily Beast and Weakest Creature
+  - Unconnected Marketeers
+  - Unfinished Dream of All Living Ghost
+  - 'Drunk Sign'
+  - Your Free Trial of Life has Expired
+  AyaOrbSeWarning: "|r:Warning|: This card is negated by {0}."
+
+AyaChameleon:
+  Title: 'Chameleon'
+  Move:
+  - 
+  
+AyaDummy:
+  Title:
+  Move:
+  - 
+  
+AyaFlandreHallucination1:
+  Title: ''
+  Move:
+  - 
+  - 
+  - 
+
+AyaFlandreHallucination2:
+  Title: ''
+  Move:
+  - 
+  - 
+  - 
+  
+AyaFlandreHallucination3:
+  Title: ''
+  Move:
+  - 
+  - 
+  - 
+
+AyaKoakuma:
+  Title: 'Demon Working In a Dusty Library'
+  Move:
+  - 
+  
+AyaKotohime:
+  Title: 'Princess Dreaming of Beauty in Danmaku'
+  Move:
+  - 
+
+AyaLong:
+  Title: 'Daitengu'
+  Move:
+  - 'Multicolored Star Formation'
+  - 'Rainbow Starfall'
+  - 'Rainbow Illumination'
+  - Clear and Tranquil Wind and Moon
+
+AyaMai:
+  Title: 'The Backup Dancer who Brings Out Life'
+  Move:
+  - 
+
+AyaBossOkina:
+  Title: 'The Ultimate, Absolute Secret God'
+  Move:
+  - 
+
+AyaOrbBlack:
+  Title: 'Black Orb'
+  Move:
+  - Shade
+  - Ageless Dream
+  - Seeping Miasma
+  - Heart Blossoms
+  - Song of the Night Sparrow
+  - Unexplained Fever
+  - Devil's Codex
+  - Violin Solo
+  - Sin of the Black Horse
+  - Wheel of Misfortune
+  - Manipulation of Fate
+  - Dream Express
+  - True Full Moon
+  - Rest
+  
+AyaOrbBlue:
+  Title: 'Blue Orb'
+  Move:
+  - Riptide
+  - Play with Water
+  - Melancholy Eruption
+  - Rabbit Landing
+  - Water Blanket
+  - Tao Fetal Movement
+  - Memories of the Divine Age
+  - Sculpture - Circle
+  - Sculpture - Square
+  - Sculpture - Arc
+  - The Reclusive Sage
+  - Rest
+  
+AyaOrbColorless:
+  Title: 'Colorless Orb'
+  Move:
+  - Tipsy
+  - Shoot
+  - Boundary
+  - Cucumber Missile
+  - Clean Energy
+  - Sea of Tranquility
+  - Power of the Ordinary
+  - Disintegrating Winds
+  - Shivering Nightmare
+  - Rest
+  
+AyaOrbGreen:
+  Title: 'Green Orb'
+  Move:
+  - Midsummer Flowers
+  - Flash of Spring
+  - Instant Bodhi
+  - Butterfly's Wingbeats
+  - Rainbow Danmaku Dupion
+  - Gensokyo's Blossoming
+  - Forest Depths
+  - Shapeshift Academy
+  - Hourai's Sea of Trees
+  - Rest
+  
+AyaOrbPhilosophy:
+  Title: 'Philosopher''s Orb'
+  Move:
+  - Baby of the Stone
+  - Ritual of Exorcism
+  - Tianxian's Rumbling
+  - Counter Danmaku
+  - Four of a Kind
+  - Devour Desires
+  - Close-Eye Shot
+  - Panoramic Shot
+  - Suwa Clear Water
+  - Waves of Reversed Scale
+  - Grudge Returning
+  - Frantic Falling Leaves
+  - Poison Raze
+  - Rest
+  
+AyaOrbRed:
+  Title: 'Red Orb'
+  Move:
+  - Full Moon Howl
+  - Impatience
+  - Phoenix Wings Rise
+  - Bass of Taiko
+  - Battle Stance
+  - Strengthen Body
+  - Oni Spirit Bomb
+  - Indiscriminate Ignition
+  - Crimson Energy Release
+  - Keyboard Solo
+  - Dreadful Raging Waves
+  - Bat Incarnation
+  - The Immortal Flame
+  - Rest
+  
+AyaOrbWhite:
+  Title: 'White Orb'
+  Move:
+  - Heart Excerpt Slash
+  - Superspeed Flier
+  - Entrench Body
+  - Purify the Land
+  - Tranquility
+  - Gather Faith
+  - Trumpet Solo
+  - Noctilucae's Nest
+  - The Falling Moon Rabbit
+  - Rest
+  
+AyaPatchouli:
+  Title: 'The Unmoving Great Library'
+  Move:
+  - 'Fire Sign'
+  - Agni Shine
+  - 'Water Sign'
+  - Princess Undine
+  - 'Wood Sign'
+  - Sylphy Horn
+  - 'Earth Sign'
+  - Lazy Trilithon
+  - 'Metal Sign'
+  - Metal Fatigue
+  - 'Moon Sign'
+  - Silent Selene
+  - 'Sun Sign'
+  - Royal Flare
+  - 'Fire Water Wood Metal Earth Sign'
+  - Philosopher's Stone
+  AyaPatchouliIntro1Patchouli: "...So you want to spar with {0}?"
+  AyaPatchouliIntro2Flandre: "Yeah, something's wrong?"
+  AyaPatchouliIntro3Patchouli: "Everything. I'm not gonna allow you to do that."
+  AyaPatchouliIntro4Flandre: "Why?"
+  AyaPatchouliIntro5Patchouli: "Because this is my library!"
+  AyaPatchouliIntro6Flandre: "Come on, Patche. There is sun outside, lobby is already occupied, basement is too small to fight."
+  AyaPatchouliIntro7Flandre: "Please~?"
+  AyaPatchouliIntro8Patchouli: "Even if you make a pitiful face, my answer is no!"
+  AyaPatchouliIntro9Flandre: "Well, alright."
+  AyaPatchouliIntro10Flandre: "Looks like we need to persuade {0}, {1}."
+  AyaPatchouliIntro11Aya: "I'm starting to regret coming here."
+  AyaPatchouliOutro1Patchouli: "Mukyu..."
+  AyaPatchouliOutro2Flandre: "Changed your mind?"
+  AyaPatchouliOutro3Patchouli: "...Fine! Do whatever you want."
+  AyaPatchouliOutro4Patchouli: "{0}!"
+  AyaPatchouliOutro5Patchouli: "Help me prepare area barrier."
+  AyaPatchouliOutro6Koakuma: "Roger!"
+  AyaPatchouliOutro7Aya: "Ayaya..."
+  
+AyaSatono:
+  Title: 'The Backup Dancer who Brings Out Mental Strength'
+  Move:
+  - 
+  
+AyaSukusukuAya:
+  Title: 'Sukusuku Hakutaku'
+  Move:
+  - Suku?
+  - Suku!
+  HakureiShrine: "Hakurei Shrine"
+  PalaceoftheEarthSpirits: "Palace of the Earth Spirits"
+  ScarletDevilMansion: "Scarlet Devil Mansion"
+  AyaSukusukuAyaExtraBossPrepare1AyaSukusukuAya: "Suku!\n(Welcome to the {0}!)"
+  AyaSukusukuAyaExtraBossPrepare2AyaSukusukuAya: "Suku.\n(Your maximum life is too low. Let's fix that.)"
+  AyaSukusukuAyaExtraBossPrepare3AyaSukusukuAya: "Suku.\n(Here, have some cash.)"
+  AyaSukusukuAyaExtraBossPrepare4AyaSukusukuAya: "Suku.\n(Seija stole your exhibits? I'll return them.)"
+  AyaSukusukuAyaExtraBossPrepare5AyaSukusukuAya: "Suku.\n(Take this. It will be helpful for a long battle.)"
+  AyaSukusukuAyaExtraBossPrepare6AyaSukusukuAya: "Suku!\n(Good luck!)"
+
+AyaSukusukuFlandre:
+  Title: 'Sukusuku Hakutaku'
+  Move:
+  - 
+
+AyaTakane:
+  Title: 'Business Youkai of the Mountain''s Recess'
+  Move:
+  - Y60 Machine Gun
+  - Y202 FLASH
+  - Yamawaro Bomber
+  - Banditry Y82
+  - First Aid Kit
+  - 'Bullet Money'
+  - Ability Cards Galore
+  AyaTakaneAttack: Do you really want to attack {0}?
+  AyaTakaneIntro1Takane: "Stop, thief!"
+  AyaTakaneIntro2Takane: "Oh no you don't!"
+  AyaTakaneIntro3Takane: "Time to teach you a lesson!"
+  AyaTakaneSteal1: Loot
+  AyaTakaneSteal2: Choose a card to Upgrade.
+  AyaTakaneSteal3: Choose a card to remove.
+
+AyaTanuki:
+  Title: 'A Tanuki Still Learning'
+  Move:
+  - Focused Shot
+  - Double Shot
+  - Extra?
+  - Crouch
+  - Gain Firepower
+  - Gain Spirit
+  - Gain Amulet
+  - Gain Extra Turn
+  - Gain Optical Camouflage
+  - 'Absolute Sign'
+  - Super Hyper Alpha Omega Annihilating Devastating Ultimate Strike
+  AyaTanukiDying1AyaTanuki: "Miss Aya is strong... but!"
+  AyaTanukiDying2AyaTanuki: "I will never fall until I show you my ultimate move!"
+  AyaTanukiWaterpower1AyaTanuki: "My attacks will become stronger! Be afraid!"
+  AyaTanukiWaterpower2AyaTanuki: "Or don't be afraid."
+  AyaTanukiSprite1AyaTanuki: "I heard that Spirit improves my defensive capability!"
+  AyaTanukiSprite2AyaTanuki: "Well at least it's refreshing."
+  AyaTanukiAMOLED1AyaTanuki: "I'm going to become immune to debuffs!"
+  AyaTanukiAMOLED2AyaTanuki: "I'm so bad at this."
+  AyaTanukiExtremeTurn1AyaTanuki: "Miss Aya's turn will never come! I cast Extra Turn!"
+  AyaTanukiExtremeTurn2AyaTanuki: "Um, why is there a wall in front of"
+  AyaTanukiExtremeTurn3AyaTanuki: "Meaaaaaaaaaaaah!!!"
+  AyaTanukiExtremeTurn4AyaTanuki: "Please just pretend nothing happened."
+  AyaTanukiOpticalChameleon1AyaTanuki: "Miss Aya can never break through my defense strategy."
+  AyaTanukiOpticalChameleon2AyaTanuki: "Wait, where are you going? Come back!"
+  AyaTanukiOpticalChameleon3AyaTanuki: "...Huh?"
+  AyaTanukiOpticalChameleon4AyaTanuki: "Ouch ouch ouch ouch ouch ouch ouch."
+  AyaTanukiUltimate1AyaTanuki: "Here it comes! My ultimate Spell Card!"
+  AyaTanukiUltimate2AyaTanuki: "It's the one attack that will end everything!"
+  AyaTanukiUltimate3AyaTanuki: "Yaaaaaaaaaaaagh!!!"
+  AyaTanukiOutro1AyaTanuki: "Hey! You are not supposed to dodge that!"
+  AyaTanukiOutro2AyaTanuki: "Miss Aya is not taking this seriously. Be more serious!"
+  AyaTanukiOutro3Aya: "Oh sorry. I just thought what you were doing was cute."
+  AyaTanukiOutro4AyaTanuki: "C... Cute?"
+  AyaTanukiOutro5Aya: "Why are you here in the first place? Aren't you Miss Mamizou's subordinate?"
+  AyaTanukiOutro6AyaTanuki: "I still have a lot to learn, so I've never taken orders from her."
+  AyaTanukiOutro7AyaTanuki: "Was practicing my disguise technique in the bamboo forest, then I saw Miss Aya's danmaku flying away."
+  AyaTanukiOutro8Aya: "She seems suspicious, but there is no way Miss Mamizou would dispatch a novice tanuki to the incident."
+  AyaTanukiOutro9AyaTanuki: "I just wanted to surprise Miss Aya, but as soon as I opened my mouth, you attacked."
+  AyaTanukiOutro10Aya: "Oh, um, sorry again."
+  AyaTanukiOutro11AyaTanuki: "If you want to apologize, let me follow you."
+  AyaTanukiOutro12Aya: "What? Why would I..."
+  AyaTanukiOutro13Aya: "Alright, alright. Just don't fall behind."
+  AyaTanukiOutro14AyaTanuki: "Yay~! There's a lot to learn from Miss Aya!"
+
+AyaTargetDummy:
+  Title: 'Target Dummy'
+  Move:
+  - 

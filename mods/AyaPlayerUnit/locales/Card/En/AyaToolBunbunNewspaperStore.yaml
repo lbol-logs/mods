@@ -1,0 +1,7 @@
+﻿AyaToolBunbunNewspaperStore:
+  LockedDescription: Unlocked by resolve the incident on Hard Mode or higher with Aya Shameimaru.
+  Description: >-
+    Choose 1 of {Value1} |Aya| cards to add to the hand. It |costs| {Mana}.
+
+    |Limited【{DeckCounter}】|
+  Name: Bunbun Newspaper Store

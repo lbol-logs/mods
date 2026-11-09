@@ -1,0 +1,7 @@
+﻿FlandreHellonEarth:
+  Description: '|業火|と|災火の導火線|が発動する時、追加で{FlandreValue1}回発動する。'
+  UpgradedDescription: >-
+    |業火|と|災火の導火線|が発動する時、追加で{FlandreValue1}回発動する。
+
+    敵全体に|業火|{FlandreValue2}を与える。
+  Name: 生き地獄

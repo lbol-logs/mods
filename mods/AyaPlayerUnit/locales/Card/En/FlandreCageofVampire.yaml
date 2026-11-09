@@ -1,0 +1,10 @@
+﻿FlandreCageofVampire:
+  Description: >-
+    Deal {FlandreDamage} damage and apply {FlandreValue1} |Vulnerable|.
+
+    |When Exiled|: Deal {FlandreDamage} damage and apply {FlandreValue1} |Vulnerable| to each enemy.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage and apply {FlandreValue1} |Vulnerable|.
+
+    |When Exiled|: Deal {FlandreDamage} damage and apply {FlandreValue1} |Vulnerable| to each enemy.
+  Name: Cage of Vampire

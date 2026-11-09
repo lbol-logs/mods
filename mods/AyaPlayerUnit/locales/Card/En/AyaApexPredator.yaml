@@ -1,0 +1,10 @@
+﻿AyaApexPredator:
+  Description: >-
+    Whenever {PlayerName} takes attack damage, reduce it by equal to {PlayerName}'s |Acceleration| and lose {Value3} |Acceleration|.
+
+    Gain {Value1} |Acceleration|.
+  UpgradedDescription: >-
+    Whenever {PlayerName} takes attack damage, reduce it by equal to {PlayerName}'s |Acceleration| and lose {Value3} |Acceleration|.
+
+    Gain {Value1} |Acceleration|.
+  Name: Apex Predator

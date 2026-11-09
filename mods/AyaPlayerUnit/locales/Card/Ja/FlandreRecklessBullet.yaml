@@ -1,0 +1,10 @@
+﻿FlandreRecklessBullet:
+  Description: >-
+    {FlandreDamage}ダメージを{FlandreValue1:plural one='%回' other='%回'}与える。
+
+    |p:ランダム|な|クリスタル|{FlandreValue2}枚を手札に加える。
+  UpgradedDescription: >-
+    {FlandreDamage}ダメージを{FlandreValue1:plural one='%回' other='%回'}与える。
+
+    |p:ランダム|な|クリスタル|+{Value3}を{FlandreValue2}枚手札に加える。
+  Name: レックレスバレット

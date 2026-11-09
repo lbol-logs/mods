@@ -1,0 +1,4 @@
+﻿AyaSickleWeaselVeilingSe:
+  Brief: 每当 {PlayerName} 从攻击中受到 0 点伤害时，对攻击者造成伤害。
+  Description: 每当 {PlayerName} 从攻击中受到 0 点伤害时，对攻击者造成 {Level} 点伤害。
+  Name: 镰鼬之幕

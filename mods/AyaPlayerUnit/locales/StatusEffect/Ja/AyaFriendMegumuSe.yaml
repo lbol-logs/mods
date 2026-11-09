@@ -1,0 +1,4 @@
+﻿AyaFriendMegumuSe:
+  Brief: '|厄災|または状態異常カードが|廃棄|されるたび、<sprite="ManaSprite" name="P">を得て、カードを1枚引く。'
+  Description: '|厄災|または状態異常カードが|廃棄|されるたび、<sprite="ManaSprite" name="P">{Level}を得て、カードを{Level}枚引く。'
+  Name: 虹光「光風霽月」

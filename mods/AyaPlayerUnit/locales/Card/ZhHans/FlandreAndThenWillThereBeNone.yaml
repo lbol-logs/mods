@@ -1,0 +1,18 @@
+﻿FlandreAndThenWillThereBeNone:
+  Description: >-
+    |放逐|任意张手牌。
+
+    以此法每放逐一张牌，获得 {Value1} |崩坏|。
+
+    对所有敌人造成 {Damage} 点伤害。
+
+    如果没有手牌，则对所有敌人额外造成一次该伤害。
+  UpgradedDescription: >-
+    |放逐|任意张手牌。
+
+    以此法每放逐一张牌，获得 {Value1} |崩坏|。
+
+    对所有敌人造成 {Damage} 点伤害。
+
+    如果没有手牌，则对所有敌人额外造成一次该伤害。
+  Name: 之后就一个人都没有了吗？

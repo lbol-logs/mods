@@ -1,0 +1,14 @@
+﻿FlandreMazeofLove:
+  Description: >-
+    {FlandreShield}|バリア|を得る。
+
+    敵全体に{FlandreDamage}ダメージを与え、|弱体|{FlandreValue1}を与える。
+
+    敵全体に|p:ランダム|な|クリスタル|を{FlandreValue2}枚プレイする。
+  UpgradedDescription: >-
+    {FlandreShield}|バリア|を得る。
+
+    敵全体に{FlandreDamage}ダメージを与え、|弱体|{FlandreValue1}を与える。
+
+    敵全体に|p:ランダム|な|クリスタル|を{FlandreValue2}枚プレイする。
+  Name: 恋の迷路

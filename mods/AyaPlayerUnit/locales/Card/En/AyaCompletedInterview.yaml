@@ -1,0 +1,18 @@
+﻿AyaCompletedInterview:
+  Description: >-
+    |Debut|: Add |{Value1:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| and |{Value2:plural one='% Bunbunmaru - Aya Special' other='% Bunbunmaru - Aya Specials'}| to the discard pile.
+
+    Draw {Value3:plural one='% card' other='% cards'}.
+  UpgradedDescription: >-
+    |Debut|: Add |{Value1:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| and |{Value2:plural one='% Bunbunmaru - Aya Special' other='% Bunbunmaru - Aya Specials'}| to the discard pile.
+
+    Draw {Value3:plural one='% card' other='% cards'}.
+  ExtraDescription1: >-
+    |d:Debut: Add {Value1:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'} and {Value2:plural one='% Bunbunmaru - Aya Special' other='% Bunbunmaru - Aya Specials'} to the discard pile.|
+
+    Draw {Value3:plural one='% card' other='% cards'}.
+  UpgradedExtraDescription1: >-
+    |d:Debut: Add {Value1:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'} and {Value2:plural one='% Bunbunmaru - Aya Special' other='% Bunbunmaru - Aya Specials'} to the discard pile.|
+
+    Draw {Value3:plural one='% card' other='% cards'}.
+  Name: Completed Interview

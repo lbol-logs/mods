@@ -1,0 +1,14 @@
+﻿AyaQuickShootingTenguScoop:
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    이번 턴 동안 상태 카드의 비용이 {Mana}만큼 감소합니다.
+
+    |붕붕마루 신문|을 {Value1}장 손에 추가합니다.
+  UpgradedDescription: >-
+    |방어|를 {Block} 얻습니다.
+
+    이번 턴 동안 카드의 비용이 {Mana}만큼 감소합니다.
+
+    |붕붕마루 신문|을 {Value1}장 손에 추가합니다.
+  Name: 격촬 텐구 스쿠프

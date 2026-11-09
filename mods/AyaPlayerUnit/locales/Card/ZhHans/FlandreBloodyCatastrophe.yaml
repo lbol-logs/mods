@@ -1,0 +1,14 @@
+﻿FlandreBloodyCatastrophe:
+  Description: >-
+    对所有敌人造成 {Damage} 点伤害 {Value1:plural one='% 次' other='% 次'}。
+
+    恢复 {Value2} 点生命。
+
+    {PlayerName}的攻击附带 |精准| 直至战斗结束。
+  UpgradedDescription: >-
+    对所有敌人造成 {Damage} 点伤害 {Value1:plural one='% 次' other='% 次'}。
+
+    恢复 {Value2} 点生命。
+
+    {PlayerName}的攻击附带 |精准| 直至战斗结束。
+  Name: 赤血异变

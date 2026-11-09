@@ -1,0 +1,7 @@
+﻿FlandreFragmentsofLight:
+  Description: 在{PlayerName}的回合开始时，将 {Value1} 张随机|水晶|加入手牌。
+  UpgradedDescription: >-
+    在{PlayerName}的回合开始时，将 {Value1} 张随机|水晶|加入手牌。
+
+    触发一次 {SelfName}。
+  Name: 光之碎片

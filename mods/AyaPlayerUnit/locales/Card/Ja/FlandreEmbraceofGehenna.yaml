@@ -1,0 +1,26 @@
+﻿FlandreEmbraceofGehenna:
+  Description: >-
+    {FlandreShield}|バリア|を得る。
+
+    {PlayerName}の|災禍|1につき、さらに|バリア|{FlandreValue1}を得る。
+
+    {PlayerName}の|災禍|の{FlandreValue2}倍以下のライフを持つ敵を|破壊|する。({Amount})
+  UpgradedDescription: >-
+    {FlandreShield}|バリア|を得る。
+
+    {PlayerName}の|災禍|1につき、さらに|バリア|{FlandreValue1}を得る。
+
+    {PlayerName}の|災禍|の{FlandreValue2}倍以下のライフを持つ敵を|破壊|する。({Amount})
+  NonbattleDescription: >-
+    {FlandreShield}|バリア|を得る。
+
+    {PlayerName}の|災禍|1につき、追加で|バリア|{FlandreValue1}を得る。
+
+    {PlayerName}の|災禍|の{FlandreValue2}倍以下のライフを持つ敵を|破壊|する。
+  UpgradedNonbattleDescription: >-
+    {FlandreShield}|バリア|を得る。
+
+    {PlayerName}の|災禍|1につき、追加で|バリア|{FlandreValue1}を得る。
+
+    {PlayerName}の|災禍|の{FlandreValue2}倍以下のライフを持つ敵を|破壊|する。
+  Name: 地獄の抱擁

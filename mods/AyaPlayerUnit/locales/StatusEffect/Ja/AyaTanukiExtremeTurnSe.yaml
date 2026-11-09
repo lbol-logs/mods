@@ -1,0 +1,10 @@
+﻿AyaTanukiExtremeTurnSe:
+  Brief: >-
+    {OwnerName}のターン終了時、エクストリームターンを得る。
+
+    |d:(このステータスに効果はない)|
+  Description: >-
+    {OwnerName}のターン終了時、エクストリームターンを得る。残り{Level}回有効
+
+    |d:(このステータスに効果はない)|
+  Name: エクストリームターン

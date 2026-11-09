@@ -1,0 +1,4 @@
+﻿AyaOrbRedSe:
+  Brief: 每当一张红色牌即将被使用时，如果其目标是 {OwnerName}，则改为将其送入弃牌堆。
+  Description: 每当一张红色牌即将被使用时，如果其目标是 {OwnerName}，则改为将其送入弃牌堆。
+  Name: 红色精华

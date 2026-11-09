@@ -1,0 +1,20 @@
+﻿AyaRouteForbiddentoMan:
+  Description: 在{PlayerName}回合结束时，每有一张牌被 |放逐|，便对随机敌人造成 {Damage} 点伤害并施加 {Value1}|锁定|，最多 {Value2} 次。
+  UpgradedDescription: >-
+    在{PlayerName}回合结束时，每有一张牌被 |放逐|，便对随机敌人造成 {Damage} 点伤害并施加 {Value1}|锁定|，最多 {Value2} 次。
+
+    |充盈|: 获得 {Mana}。
+  UpgradedExtraDescription1: >-
+    在{PlayerName}回合结束时，每有一张牌被 |放逐|，便对随机敌人造成 {Damage} 点伤害并施加 {Value1}|锁定|，最多 {Value2} 次。
+
+    |d:充盈: 获得 {Mana}。|
+  PhantasmModeDescription: 在{PlayerName}回合结束时，每有一张牌被 |放逐|，便对随机敌人造成 {Damage} 点伤害，最多 {Value2} 次。
+  PhantasmModeUpgradedDescription: >-
+    在{PlayerName}回合结束时，每有一张牌被 |放逐|，便对随机敌人造成 {Damage} 点伤害，最多 {Value2} 次。
+
+    |充盈|: 获得 {Mana}。
+  PhantasmModeUpgradedExtraDescription1: >-
+    在{PlayerName}回合结束时，每有一张牌被 |放逐|，便对随机敌人造成 {Damage} 点伤害，最多 {Value2} 次。
+
+    |d:充盈: 获得 {Mana}。|
+  Name: 禁止人类通行的道路

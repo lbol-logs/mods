@@ -1,0 +1,585 @@
+AyaAccelerationSe:
+    Brief: "{OwnerName}'s |Graze| is replenished to a fixed level for each 4 |Acceleration| at the end of her turn.\nWhenever {OwnerName} |Grazes| an attack, they lose 2 |Acceleration|."
+    Description: "{OwnerName}'s |Graze| is replenished to {Count} at the end of her turn.\nWhenever {OwnerName} |Grazes| an attack, they lose 2 |Acceleration|."
+    Name: Acceleration
+AyaAdventoftheDivineGrandsonSe:
+    Brief: "{PlayerName} is immune to all debuffs.\nAll cards are played twice."
+    Description: "{PlayerName} is immune to all debuffs.\nAll cards are played twice."
+    Name: Advent of the Divine Grandson
+AyaAnythingisNewsworthySe:
+    Brief: "Whenever a |Misfortune| or Status card would have added, if its name does not contain \"Bunbunmaru\" or \"News\", add a |Bunbunmaru Newspaper| instead."
+    Description: "Whenever a |Misfortune| or Status card would have added, if its name does not contain \"Bunbunmaru\" or \"News\", add a |Bunbunmaru Newspaper| instead."
+    Name: Anything is Newsworthy
+AyaApexPredatorSe:
+    Brief: "Whenever {PlayerName} takes attack damage, reduce it by equal to {PlayerName}'s |Acceleration| and lose {Value} |Acceleration|."
+    Description: "Whenever {PlayerName} takes attack damage, reduce it by equal to {PlayerName}'s |Acceleration| and lose {Value} |Acceleration|."
+    Name: Apex Predator
+AyaArmoredRavenSe:
+    Brief: "The first attack cards played during {PlayerName}'s turn are played twice.\nThe first Status cards played during {PlayerName}'s turn are played twice."
+    Description: "The first {Limit} attack card{Limit:plural one='' other='s'} played during {PlayerName}'s turn {Limit:plural one='is' other='are'} played twice. ({Level} left)\nThe first {Limit} Status card{Limit:plural one='' other='s'} played during {PlayerName}'s turn {Limit:plural one='is' other='are'} played twice. ({Count} left)"
+    Name: Armored Raven
+AyaArsenalBirdSe:
+    Brief: "At the start of {PlayerName}'s turn, summon |Unmanned Aerial Crow| to the hand."
+    Description: "At the start of {PlayerName}'s turn, summon |Unmanned Aerial Crow| to the hand.\n|Unmanned Aerial Crows in Patrol Mode|: {Count}\n|Unmanned Aerial Crows in Combat Mode|: {Level}"
+    Name: Arsenal Bird
+AyaBlackmailSe:
+    Brief: "|Bunbunmaru Newspapers| also apply |Temporary Firepower Down| and gain <sprite=\"Point\" name=\"Gold\"> when activated."
+    Description: "|Bunbunmaru Newspapers| also apply {Level} |Temporary Firepower Down| and gain {Count} <sprite=\"Point\" name=\"Gold\"> when activated."
+    Name: Blackmail
+    Blackmail1Aya: "A reporter trying to tell the truth is under attack!"
+    Blackmail2Aya: "Look at what they are doing! That's proof they are the culprit!"
+    Blackmail3Aya: "Local residents commit violence against journalist! Is this an attempt to overthrow Gensokyo?"
+    BlackmailMegumu1Megumu: "Oh my, are you trying to blackmail me?"
+    BlackmailMegumu2Megumu: "Be prepared to dance naked at today's banquet, no matter what."
+    BlackmailEiki1Eiki: "Scamming and blackmailing. Sentence extended by one year."
+AyaBossFlandreSe:
+    Brief: "{OwnerName} is immune to |Destroy|.\n{OwnerName} receives less damage."
+    Description: "{OwnerName} is immune to |Destroy|.\n{OwnerName} receives {Level}% less damage."
+    Name: Devil of Scarlet Blood
+AyaBossKoishiSe:
+    Brief: "{OwnerName}'s life is unknown.\nAt the start of {OwnerName}'s turn, she lose only half of her |Block| instead of all of it.\nWhenever enough cards have been played, {OwnerName} immediately acts once, without ending {PlayerName}'s turn."
+    Description: "{OwnerName}'s life is unknown.\nAt the start of {OwnerName}'s turn, she lose only half of her |Block| instead of all of it.\nWhenever {Limit} cards have been played, {OwnerName} immediately acts once, without ending {PlayerName}'s turn.\n|d:({Count:plural one='% card' other='% cards'} left.)|"
+    Name: The Closed Eyes of Love
+AyaBossYukariBorderofPhantasmSe:
+    Brief: "When {OwnerName}'s life is reduced to certain amount, gain |Barrier|.\n{OwnerName}'s life cannot be reduced below certain amount until {SelfName} is triggered.\n{OwnerName} cannot be defeated until {SelfName} is triggered certain times."
+    Description: "When {OwnerName}'s life is reduced to {Value1}%, gain {Value2} |Barrier|.\n{OwnerName}'s life cannot be reduced below {Value1}% until {SelfName} is triggered.\n{OwnerName} cannot be defeated until {SelfName} is triggered {Limit} times.\n|d:({Count:plural one='% time' other='% times'} left.)|"
+    Name: Border of Phantasm
+AyaBossYukariUncannySmileSe:
+    Brief: "Whenever {PlayerName} plays enough cards in a turn, all cards cost {Mana} more this turn, and {OwnerName} gains |Firepower|."
+    Description: "Whenever {PlayerName} plays {Limit} cards in a turn, all cards cost {Mana} more this turn, and {OwnerName} gains {Level} |Firepower|.\n|d:({Count:plural one='% card' other='% cards'} left.)|"
+    Name: Uncanny Smile
+AyaBossYukariYoukaiofBoundariesSe:
+    Brief: "At the end of {OwnerName}'s turn, if {PlayerName} has |Barrier|, steal Barrier from {PlayerName}.\nThen, gain |Firepower|."
+    Description: "At the end of {OwnerName}'s turn, if {PlayerName} has |Barrier|, steal {Value}% Barrier from {PlayerName}. ({Amount})\nThen, gain {Level} |Firepower|."
+    Name: Youkai of Boundaries
+AyaBossYukariMastermindbehindtheSpiritingAwaySe:
+    Brief: "{OwnerName} deals 1% more damage for every certain amount of cards in the |Exile|."
+    Description: "{OwnerName} deals 1% more damage for every {Value:plural one='% card' other='% cards'} in the |Exile|. ({Level}%)"
+    Name: Mastermind behind the Spiriting Away
+AyaBossYukariPerfectDefenseSe:
+    Brief: "If {OwnerName} has |Barrier|, whenever {OwnerName} loses life, gain that much life."
+    Description: "If {OwnerName} has |Barrier|, whenever {OwnerName} loses life, gain that much life."
+    Name: Perfect Defense
+AyaBossYukariSunshowerofFantasySe:
+    Brief: "{OwnerName}'s actions are more powerful."
+    Description: "{OwnerName}'s actions are more powerful."
+    Name: Sunshower of Fantasy
+AyaBossYukariGatekeeperofGensokyoSe:
+    Brief: "At the end of {OwnerName}'s turn, gain |Barrier| and |Firepower|."
+    Description: "At the end of {OwnerName}'s turn, gain {Value} |Barrier| and {Level} |Firepower|."
+    Name: Gatekeeper of Gensokyo
+AyaBossYukariImpossibleDanmakuBarrierSe:
+    Brief: "Whenever {OwnerName} takes damage, gain |Barrier| equal to certain amount of damage taken."
+    Description: "Whenever {OwnerName} takes damage, gain |Barrier| equal to {Level}% of damage taken."
+    Name: Impossible Danmaku Barrier
+AyaBossYukariBoundaryofHumansSe:
+    Brief: "{OwnerName} deals less attack damage."
+    Description: "{OwnerName} deals {Value}% less attack damage."
+    Name: Boundary of Humans
+AyaBossYukariBoundaryofYoukaiSe:
+    Brief: "{OwnerName} deals more attack damage."
+    Description: "{OwnerName} deals {Value}% more attack damage."
+    Name: Boundary of Youkai
+AyaBossYukariSagesInstructionsSe:
+    Brief: ""
+    Description: ""
+    Description0: "At the end of {PlayerName}'s turn, if less than {Level} cards have been drawn this turn, lose {Value} life. ({Count})"
+    Description1: "At the end of {PlayerName}'s turn, if more than {Level} cards have been drawn this turn, lose {Value} life. ({Count})"
+    Description2: "At the end of {PlayerName}'s turn, if less than {Level} cards have been |Exiled| this turn, lose {Value} life. ({Count})"
+    Description3: "At the end of {PlayerName}'s turn, if more than {Level} cards have been |Exiled| this turn, lose {Value} life. ({Count})"
+    Description4: "At the end of {PlayerName}'s turn, if less than {Level} attack cards have been played this turn, lose {Value} life. ({Count})"
+    Description5: "At the end of {PlayerName}'s turn, if more than {Level} attack cards have been played this turn, lose {Value} life. ({Count})"
+    Description6: "At the end of {PlayerName}'s turn, if less than {Level} defense cards have been played this turn, lose {Value} life. ({Count})"
+    Description7: "At the end of {PlayerName}'s turn, if more than {Level} defense cards have been played this turn, lose {Value} life. ({Count})"
+    Description8: "At the end of {PlayerName}'s turn, if less than {Level} skill cards have been played this turn, lose {Value} life. ({Count})"
+    Description9: "At the end of {PlayerName}'s turn, if more than {Level} skill cards have been played this turn, lose {Value} life. ({Count})"
+    Name: Sage's Instructions
+    Name0: Sage's Instructions - Minimum Draw
+    Name1: Sage's Instructions - Maximum Draw
+    Name2: Sage's Instructions - Minimum Exile
+    Name3: Sage's Instructions - Maximum Exile
+    Name4: Sage's Instructions - Minimum Attack
+    Name5: Sage's Instructions - Maximum Attack
+    Name6: Sage's Instructions - Minimum Defense
+    Name7: Sage's Instructions - Maximum Defense
+    Name8: Sage's Instructions - Minimum Skill
+    Name9: Sage's Instructions - Maximum Skill
+AyaBossZUNSe:
+    Brief: "Negate all cards, damage, and status effects targeting {OwnerName}.\nAfter all other enemies are defeated, {OwnerName} leaves the combat."
+    Description: "Negate all cards, damage, and status effects targeting {OwnerName}.\nAfter all other enemies are defeated, {OwnerName} leaves the combat."
+    Name: Hakurei Kannushi
+AyaBunbunmaruPrinterSe:
+    Brief: "At the start of {PlayerName}'s turn, add |Bunbunmaru Newspapers| to the hand. They |temporarily cost| {Mana}."
+    Description: "At the start of {PlayerName}'s turn, add |{Level:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand. {Level:plural one='It |temporarily costs|' other='They |temporarily cost|} {Mana}."
+    PhantasmModeDescription: "At the start of {PlayerName}'s turn, add |{Level:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the hand."
+    Name: Bunbunmaru Printer
+AyaCrazyFallWindSe:
+    Brief: "Whenever a card is |Exiled|, gain |Acceleration|."
+    Description: "Whenever a card is |Exiled|, gain {Level} |Acceleration|."
+    Name: Crazy Fall Wind
+AyaCrossroadsofHeavenSe:
+    Brief: "Whenever {PlayerName} gains |Acceleration|, gain more |Acceleration|."
+    Description: "Whenever {PlayerName} gains |Acceleration|, gain {Level} more |Acceleration|."
+    Name: Crossroads of Heaven
+AyaDaymareintheDarkNightSe:
+    Brief: "Until {PlayerName}'s next turn, whenever {PlayerName} gains |Acceleration|, deal |Accurate| attack damage to the enemy with the least life."
+    Description: "Until {PlayerName}'s next turn, whenever {PlayerName} gains |Acceleration|, deal {Damage} |Accurate| attack damage to the enemy with the least life."
+    Name: Daymare in the Dark Night
+AyaDeaMachinaSe:
+    Brief: ""
+    Description: ""
+    Name: 
+AyaDecelerationSe:
+    Brief: "Activated if the Player has at least X |Acceleration|, consuming that |Acceleration|."
+    Description: "Activated if the Player has at least X |Acceleration|, consuming that |Acceleration|."
+    Name: Deceleration X
+AyaEffortlessFlightSe:
+    Brief: "At the start of {PlayerName}'s turn, gain |Acceleration|."
+    Description: "At the start of {PlayerName}'s turn, gain {Level} |Acceleration|."
+    Name: Effortless Flight
+AyaFriendAyaSe:
+    Brief: "{PlayerName} can't gain |Block| or |Barrier|.\n{PlayerName} is immune to all damage and debuffs.\nUnspent mana isn't lost at the end of each turn.\nThe maximum hand size becomes {MaxHand}.\nWhenever {PlayerName} plays a card, Place a card on top of the draw pile into the hand, gain {Mana} and {Value} |Acceleration|.\n|Acceleration| increases damage dealt with attacks."
+    Description: "{PlayerName} can't gain |Block| or |Barrier|.\n{PlayerName} is immune to all damage and debuffs.\nUnspent mana isn't lost at the end of each turn.\nThe maximum hand size becomes {MaxHand}.\nWhenever {PlayerName} plays a card, Place a card on top of the draw pile into the hand, gain {Mana} and {Value} |Acceleration|.\n|Acceleration| increases damage dealt with attacks."
+    Name: Terukuni Shining Through Heaven and Earth
+AyaFriendCirnoSe:
+    Brief: "Whenever {OwnerName} takes attack damage, they lose life and increase {SelfName} by same amount.\nAt the end of {OwnerName}'s turn, they lose |Final Freeze|."
+    Description: "Whenever {OwnerName} takes attack damage, they lose {Level} life and increase {SelfName} by same amount.\nAt the end of {OwnerName}'s turn, they lose |Final Freeze|."
+    Name: Final Freeze
+AyaFriendMegumuSe:
+    Brief: "Whenever a |Misfortune| or Status card is |Exiled|, gain <sprite=\"ManaSprite\" name=\"P\"> and draw a card."
+    Description: "Whenever a |Misfortune| or Status card is |Exiled|, gain {Level} <sprite=\"ManaSprite\" name=\"P\"> and draw {Level:plural one='% card' other='% cards'}."
+    Name: "Rainbow Illumination\u300CClear and Tranquil Wind and Moon\u300D"
+AyaHraesvelgrofTerminusSe:
+    Brief: "All enemy |Block|, |Barrier|, and buffs are nullified for a certain number of turns."
+    Description: "All enemy |Block|, |Barrier|, and buffs are nullified for {Duration:plural one='% turn' other='% turns'}."
+    Name: Hraesvelgr of Terminus
+AyaInstantShotJournalistSe:
+    Brief: "{PlayerName} can't lose |Acceleration| for a certain number of turns."
+    Description: "{PlayerName} can't lose |Acceleration| for {Duration:plural one='% turn' other='% turns'}."
+    Name: Instant Shot Journalist
+AyaMountainGodsProcessionSe:
+    Brief: "Whenever {PlayerName} gains |Acceleration|, gain <sprite=\"ManaSprite\" name=\"P\">."
+    Description: "Whenever {PlayerName} gains |Acceleration|, gain {Level} <sprite=\"ManaSprite\" name=\"P\">."
+    Name: Mountain God's Procession
+AyaMultiplayerSe:
+    Brief: "This card is available if LBOL MP mod is enabled."
+    Description: "This card is available if LBOL MP mod is enabled."
+    Name: Multiplayer
+AyaNewsOverwhelmingSe:
+    Brief: "Whenever a |Misfortune| or Status card that isn't |Copy| is |Exiled|, add a |Copy| of |Bunbunmaru Newspaper| to the hand. It |temporarily costs| {Mana}."
+    Description: "Whenever a |Misfortune| or Status card that isn't |Copy| is |Exiled|, add {Level:plural one='% |Copy|' other='% |Copies|'} of |Bunbunmaru Newspaper{Level:plural one='' other='s'}| to the hand. {Level:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana}."
+    Name: News Overwhelming
+AyaOrbBlackSe:
+    Brief: "Whenever a black card would be played, if it targets {OwnerName}, sent to the discard pile instead."
+    Description: "Whenever a black card would be played, if it targets {OwnerName}, sent to the discard pile instead."
+    Name: Essence of Black
+AyaOrbBlackDreamExpressSe:
+    Brief: "At the end of {OwnerName}'s turn, |Dream| some cards, then deal damage to {PlayerName} equal twice the sum of the total costs of the |Dreamed| cards."
+    Description: "At the end of {OwnerName}'s turn, |Dream| {Level}, then deal damage to {PlayerName} equal twice the {Level:plural one='total cost' other='sum of the total costs'} of the |Dreamed| card{Level:plural one='' other='s'}."
+    Name: Dream Express
+AyaOrbBlackUnexplainedFeverSe:
+    Brief: "At the end of {OwnerName}'s turn, apply |Poison| to {PlayerName}."
+    Description: "At the end of {OwnerName}'s turn, apply {Level} |Poison| to {PlayerName}."
+    Name: Unexplained Fever
+AyaOrbBlueSe:
+    Brief: "Whenever a blue card would be played, if it targets {OwnerName}, sent to the discard pile instead."
+    Description: "Whenever a blue card would be played, if it targets {OwnerName}, sent to the discard pile instead."
+    Name: Essence of Blue
+AyaOrbBlueTheReclusiveSageSe:
+    Brief: "At the end of {OwnerName}'s turn, add |False Moons| to the draw pile."
+    Description: "At the end of {OwnerName}'s turn, add {Level} |False Moon{Level:plural one='' other='s'}| to the draw pile."
+    Name: The Reclusive Sage
+AyaOrbColorlessPoweroftheOrdinarySe:
+    Brief: "After a Common card is played, {OwnerName} gains |Temporary Firepower|."
+    Description: "After a Common card is played, {OwnerName} gains {Level} |Temporary Firepower|."
+    Name: Power of the Ordinary
+AyaOrbColorlessSe:
+    Brief: "Whenever a colorless card would be played, if it targets {OwnerName}, sent to the discard pile instead."
+    Description: "Whenever a colorless card would be played, if it targets {OwnerName}, sent to the discard pile instead."
+    Name: Essence of Colorless
+AyaOrbGreenSe:
+    Brief: "Whenever a green card would be played, if it targets {OwnerName}, sent to the discard pile instead."
+    Description: "Whenever a green card would be played, if it targets {OwnerName}, sent to the discard pile instead."
+    Name: Essence of Green
+AyaOrbPhilosophySe:
+    Brief: "Whenever a multicolored card would be played, if it targets {OwnerName}, sent to the discard pile instead."
+    Description: "Whenever a multicolored card would be played, if it targets {OwnerName}, sent to the discard pile instead."
+    Name: Essence of Philosopher
+AyaOrbRedIndiscriminateIgnitionSe:
+    Brief: "At the end of {OwnerName}'s turn, deal damage to {PlayerName}.\nThis also happens when a |Misfortune| or Status card is drawn."
+    Description: "At the end of {OwnerName}'s turn, deal {Level} damage to {PlayerName}.\nThis also happens when a |Misfortune| or Status card is drawn."
+    Name: Indiscriminate Ignition
+AyaOrbRedSe:
+    Brief: "Whenever a red card would be played, if it targets {OwnerName}, sent to the discard pile instead."
+    Description: "Whenever a red card would be played, if it targets {OwnerName}, sent to the discard pile instead."
+    Name: Essence of Red
+AyaOrbSe:
+    Brief: "At the start of {OwnerName}'s turn, they lose only half of their |Block| instead of all of it.\n{OwnerName} receives less damage.\nWhenever the draw pile is shuffled, gain {Value1} |Creator's Legacy|.\nAt the end of {OwnerName}'s turn, lose {Value2} |Creator's Legacy|."
+    Description: "At the start of {OwnerName}'s turn, they lose only half of their |Block| instead of all of it.\n{OwnerName} receives {Level}% less damage.\nWhenever the draw pile is shuffled, gain {Value1} |Creator's Legacy|.\nAt the end of {OwnerName}'s turn, lose {Value2} |Creator's Legacy|."
+    Name: Creator's Legacy
+AyaOrbWhiteSe:
+    Brief: "Whenever a white card would be played, if it targets {OwnerName}, sent to the discard pile instead."
+    Description: "Whenever a white card would be played, if it targets {OwnerName}, sent to the discard pile instead."
+    Name: Essence of White
+AyaOrbWhiteSuperspeedFlierSe:
+    Brief: "At the start of {OwnerName}'s next turn, deal damage to {PlayerName}."
+    Description: "At the start of {OwnerName}'s next turn, deal {Level} damage to {PlayerName}."
+    Name: Superspeed Flier
+AyaPanoramaSe:
+    Brief: "|Bunbunmaru Newspaper Special|'s numerical value increased."
+    Description: "|Bunbunmaru Newspaper Special|'s numerical value increased by {Level}."
+    Name: Panorama
+AyaPassiveSe:
+    Brief: "|Bunbunmaru Newspaper| deals {Value1} damage, apply {Value2} |Lock On| and has |Replenish|.\n|Kakashi Spirit News| has |Replenish|.\n|Misfortune| and Status cards lose |Unplayable| and gain |Exile|.\nThey gain a mana cost based on their rarity."
+    Description: "|Bunbunmaru Newspaper| deals {Value1} damage, apply {Value2} |Lock On| and has |Replenish|.\n|Kakashi Spirit News| has |Replenish|.\n|Misfortune| and Status cards lose |Unplayable| and gain |Exile|.\nThey gain a mana cost based on their rarity."
+    Name: Traditional Reporter of Fantasy
+AyaPatchouliSe:
+    Brief: "If {OwnerName} has |Barrier|, whenever {OwnerName} would take certain amount or less damage, take 0 damage instead."
+    Description: "If {OwnerName} has |Barrier|, whenever {OwnerName} would take {Level} or less damage, take 0 damage instead."
+    Name: Magic Barrier
+AyaPerfectGrazeSe:
+    Brief: "{OwnerName} takes 0 damage from |Accurate| attacks.\nLose 1 |Perfect Graze| when |Accurate| attacked."
+    Description: "{OwnerName} takes 0 damage from the next {Level:plural one='|Accurate| attack' other='% |Accurate| attacks'}.\nLose 1 |Perfect Graze| when |Accurate| attacked."
+    Name: Perfect Graze
+AyaPlayerUnitAllySe:
+    Brief: "{OwnerName} will fight alongside {PlayerName}! {OwnerName} is immune to all debuffs and cannot be attacked."
+    Description: "{OwnerName} will fight alongside {PlayerName}! {OwnerName} is immune to all debuffs and cannot be attacked."
+    Name: Real Teammate
+AyaPlayerUnitBuddySe:
+    Brief: "{OwnerName} doesn't want to fight."
+    Description: "{OwnerName} doesn't want to fight."
+    Name: Shaking Heart
+AyaProtectionPaperSe:
+    Brief: "Whenever a |Misfortune| or Status card is |Exiled|, gain |Block|."
+    Description: "Whenever a |Misfortune| or Status card is |Exiled|, gain {Level} |Block|."
+    Name: Protection Paper
+AyaQuickShootingTenguScoopSe:
+    Brief: "Status cards cost {Mana} less to play this turn."
+    Description: "Status cards cost {Mana} less to play this turn."
+    ExtraDescription: "Cards cost {Mana} less to play this turn."
+    Name: Quick-Shooting Tengu Scoop
+AyaRouteForbiddentoManSe:
+    Brief: "At the end of {PlayerName}'s turn, deal |Accurate| attack damage and apply |Lock On| to a random enemy for each card |Exiled| this turn, up to a certain number of times."
+    Description: "At the end of {PlayerName}'s turn, deal {Damage} |Accurate| attack damage and apply {Limit} |Lock On| to a random enemy for each card |Exiled| this turn, up to {Value} times.\n(Accumulated times: {Count})"
+    PhantasmModeDescription: "At the end of {PlayerName}'s turn, deal {Damage} |Accurate| attack damage to a random enemy for each card |Exiled| this turn, up to {Value} times.\n(Accumulated times: {Count})"
+    Name: Route Forbidden to Man
+AyaSickleWeaselVeilingSe:
+    Brief: "Whenever {PlayerName} takes 0 damage from attacks, deal damage to the attacker."
+    Description: "Whenever {PlayerName} takes 0 damage from attacks, deal {Level} damage to the attacker."
+    Name: Sickle Weasel Veiling
+AyaTakaneSe:
+    Brief: "{OwnerName} is really angry.\n{OwnerName}'s maximum life is increased, and deals more damage."
+    Description: "{OwnerName} is really angry.\n{OwnerName}'s maximum life is increased by {Value}%, and deals {Level}% more damage."
+    Name: Angry Shopkeeper
+AyaTakaneCenturysDoppelgangersSe:
+    Brief: "{OwnerName} attacks twice as many times."
+    Description: "{OwnerName} attacks twice as many times."
+    Name: Century's Doppelgangers
+AyaTakaneEndofImperishableNightSe:
+    Brief: "At the end of {OwnerName}'s |Natural Turn|, take an extra turn."
+    Description: "At the end of {OwnerName}'s |Natural Turn|, take an extra turn."
+    Name: '"End of Imperishable Night"'
+AyaTanukiAMOLEDSe:
+    Brief: "Negates incoming darkness.\n|d:(This effect does nothing.)|"
+    Description: "Negates the next {Level:plural one='darkness' other='% darkness'}.\n|d:(This effect does nothing.)|"
+    Name: AMOLED
+AyaTanukiExtremeTurnSe:
+    Brief: "After {OwnerName}'s turn ends, perform extreme turn.\n|d:(This effect does nothing.)|"
+    Description: "{OwnerName} will perform {Level:plural one='% extreme turn' other='% extreme turns'}.\n|d:(This effect does nothing.)|"
+    Name: Extreme Turn
+AyaTanukiGravySe:
+    Brief: "{OwnerName} takes 0 damage from burnt meat.\nLose 1 |Gravy| when attacked or at the start of each turn.\n|d:(This effect does nothing.)|"
+    Description: "{OwnerName} takes 0 damage from the next {Level:plural one='burnt meat' other='% burnt meats'}.\nLose 1 |Gravy| when attacked or when turn starts.\n|d:(This effect does nothing.)|"
+    Name: Gravy
+AyaTanukiOpticalChameleonSe:
+    Brief: "Chameleon takes half as much damage from attacks for a certain number of turns.\n|d:(This effect does nothing.)|"
+    Description: "Chameleon takes half as much damage from attacks {Duration:plural one='until end of turn' other='for the next % turns'}.\n|d:(This effect does nothing.)|"
+    Name: Optical Chameleon
+AyaTanukiSpriteSe:
+    Brief: "|Sprite| increased. |Sprite| hydrates {OwnerName}.\n|d:(This effect does nothing.)|"
+    Description: "Gain {Level} |Sprite|.\n|Sprite| hydrates {OwnerName}.\n|d:(This effect does nothing.)|"
+    Name: Sprite
+AyaTanukiWaterpowerSe:
+    Brief: "|Waterpower| increased. |Waterpower| increases wetness with attacks.\n|d:(This effect does nothing.)|"
+    Description: "Gain {Level} |Waterpower|.\n|Waterpower| increases wetness with attacks.\n|d:(This effect does nothing.)|"
+    Name: Waterpower
+AyaTanukiWindGodGrillSe:
+    Brief: "Whenever {OwnerName} gains |Wind God Grill|, she gains that much |Gravy|.\n{OwnerName}'s |Gravy| is replenished to a fixed level at the end of her turn."
+    Description: "{OwnerName}'s |Gravy| is replenished to {Level} at the end of her turn."
+    Name: Wind God Grill
+AyaTemporaryMaximumLifeDownSe:
+    Brief: "Maximum life decreased until end of combat."
+    Description: "Until end of combat, lose {Amount} maximum life."
+    Name: Temporary Maximum Life Down
+AyaTemporaryMaximumLifeSe:
+    Brief: "Maximum life increased until end of combat."
+    Description: "Until end of combat, gain {Amount} maximum life."
+    Name: Temporary Maximum Life
+AyaTenguNewspaperDeadlineDaySe:
+    Brief: "All |Misfortune| and Status cards have |Replenish|."
+    Description: "All |Misfortune| and Status cards have |Replenish|."
+    Name: Tengu Newspaper Deadline Day
+AyaTenguTreeFellingSe:
+    Brief: "The next few cards played cost {Mana} less to play."
+    Description: "The next {Level} card{Level:plural one='' other='s'} played cost{Level:plural one='s' other=''} {Mana} less to play."
+    PhantasmModeDescription: "Until end of turn, The next {Level} card{Level:plural one='' other='s'} played cost{Level:plural one='s' other=''} {Mana} less to play."
+    Name: Tengu Tree-Felling
+AyaTengusDrumbeatsSe:
+    Brief: "At the start of {PlayerName}'s next turn, deal |Accurate| attack damage to each enemy and gain |Temporary Firepower|."
+    Description: "At the start of {PlayerName}'s next turn, deal {Damage} |Accurate| attack damage to each enemy and gain {Count} |Temporary Firepower|."
+    PhantasmModeDescription: "At the start of {PlayerName}'s next turn, deal {Damage} |Accurate| attack damage to each enemy."
+    Name: Tengu's Drumbeats
+AyaTengusFallWindSe:
+    Brief: "The next cards are played twice."
+    Description: "The next {Level:plural one='% card' other='% cards'} are played twice."
+    Name: Tengu's Fall Wind
+AyaToolCrowsEggSe:
+    Brief: "At the start of {PlayerName}'s turn, gain life and |Temporary Firepower|, then lose 1 |Crow's Egg|."
+    Description: "At the start of {PlayerName}'s turn, gain {Duration} life and {Duration} |Temporary Firepower|, then lose 1 |Crow's Egg|."
+    Name: Crow's Egg
+AyaWindGodsLeafVeilingSe:
+    Brief: "All attacks against {OwnerName} gain |Accurate|."
+    Description: "All attacks against {OwnerName} gain |Accurate|."
+    Name: Wind God's Leaf-Veiling
+FlandreAndThenWillThereBeNoneSe:
+    Brief: "{PlayerName} is immune to all damage and debuffs for a certain number of turns."
+    Description: "{PlayerName} is immune to all damage and debuffs for the next {Duration:plural one='% turn' other='% turns'}."
+    Name: And Then Will There Be None?
+FlandreAnnoyingSunlightSe:
+    Brief: "{PlayerName} can't gain life."
+    Description: "{PlayerName} can't gain life."
+    Name: Annoying Sunlight
+FlandreBloodisFuelSe:
+    Brief: "Unspent mana isn't lost for a certain number of turns."
+    Description: "Unspent mana isn't lost for the next {Duration:plural one='% turn' other='% turns'}."
+    Name: Blood is Fuel
+FlandreBloodlustSe:
+    Brief: "This card's effect increases by |e:{Value1}|% for every 1% of {PlayerName}'s life lost, up to {Value2}%. (|e:{Amount}|%)"
+    Description: "This card's effect increases by |e:{Value1}|% for every 1% of {PlayerName}'s life lost, up to {Value2}%. (|e:{Amount}|%)"
+    Name: Bloodlust
+FlandreBloodyCatastropheSe:
+    Brief: "{PlayerName}'s attacks become |Accurate| until the end of combat."
+    Description: "{PlayerName}'s attacks become |Accurate| until the end of combat."
+    Name: Bloody Catastrophe
+FlandreBloodyRequiemSe:
+    Brief: "For a certain number of turns, All |Flandre| cards gain |Bloodlust|, and |Bloodlust| is always applied at its maximum value."
+    Description: "For the next {Duration:plural one='% turn' other='% turns'}, All |Flandre| cards gain |Bloodlust|, and |Bloodlust| is always applied at its maximum value."
+    Name: Bloody Requiem
+FlandreCalamitySe:
+    Brief: "Whenever enemies take damage, take more damage."
+    Description: "Whenever enemies take damage, take {Amount} more damage."
+    Name: Calamity
+FlandreChromaticWingsSe:
+    Brief: "At the start of {PlayerName}'s turn, add <sprite=\"ManaSprite\" name=\"P\">."
+    Description: "At the start of {PlayerName}'s turn, add {Level} <sprite=\"ManaSprite\" name=\"P\">."
+    Name: Chromatic Wings
+FlandreClockthatTicksAwaythePastSe:
+    Brief: "Skip the card drawing phase of turn starting, return topmost cards from the discard pile to the hand instead."
+    Description: "Skip the card drawing phase of turn starting, return {Limit} topmost cards from the discard pile to the hand instead."
+    ExtraDescription: "Skip the card drawing phase of turn starting, return {Limit} topmost cards from the discard pile to the hand instead.\n{SelfName} is inactive and will only be removed after it resolves."
+    Name: Clock that Ticks Away the Past
+FlandreColorofMadnessSe:
+    Brief: "Whenever an attack card is activated, play random |Crystals|."
+    Description: "Whenever an attack card is activated, play {Level} random {Level:plural one='|Crystal|' other='|Crystals|'}."
+    Name: Color of Madness
+FlandreCranberryTrapSe:
+    Brief: "At the end of {PlayerName}'s turn, deal damage to each enemy for each status effect applied this turn."
+    Description: "At the end of {PlayerName}'s turn, deal {Level} damage to each enemy for each status effect applied this turn. ({Count})"
+    Name: Cranberry Trap
+FlandreCrystallineOutburstSe:
+    Brief: "Whenever all of |Crystallized Chaos|, |Crystallized Devilry|, |Crystallized Lunacy|, and |Crystallized Solitude| are activated, add |Crystallized Catastrophe| to the hand."
+    Description: "Whenever all of |Crystallized Chaos|, |Crystallized Devilry|, |Crystallized Lunacy|, and |Crystallized Solitude| are activated, add {Level} |Crystallized Catastrophe{Level:plural one='' other='s'}| to the hand.\n({Count:plural one='% card' other='% cards'} left: {Amount})"
+    Name: Crystalline Outburst
+FlandreDanmakuofDenialSe:
+    Brief: "Whenever an attack card is activated, gain some |Block|."
+    Description: "Whenever an attack card is activated, gain {Level} |Block|."
+    Name: Danmaku of Denial
+FlandreDestroySe:
+    Brief: "Defeat the target."
+    Description: "Defeat the target."
+    Name: Destroy
+FlandreDoombringerSe:
+    Brief: "At the start of {PlayerName}'s turn, gain some |Calamity|."
+    Description: "At the start of {PlayerName}'s turn, gain {Level} |Calamity|."
+    Name: Doombringer
+FlandreDoomsdayClockSe:
+    Brief: "{PlayerName} gains more |Calamity|."
+    Description: "{PlayerName} gains {Level:plural one='% time' other='% times'} more |Calamity|."
+    Name: Doomsday Clock
+FlandreForbiddenGamesSe:
+    Brief: "Enemies cannot act for a certain number of rounds."
+    Description: "Enemies cannot act {Duration:plural one='until end of round' other='for the next % rounds'}."
+    Name: Forbidden Games
+FlandreForbiddenScarletCuriositySe:
+    Brief: "{PlayerName} is immune to all debuffs.\n{PlayerName}'s attacks deal several times more damage.\nWhenever an enemy loses life, {PlayerName} gains that much life."
+    Description: "{PlayerName} is immune to all debuffs.\n{PlayerName}'s attacks deal {Level:plural one='% time' other='% times'} more damage.\nWhenever an enemy loses life, {PlayerName} gains that much life."
+    Name: Forbidden Scarlet Curiosity
+FlandreFragmentsofLightSe:
+    Brief: "At the start of {PlayerName}'s turn, add random |Crystals| to the hand."
+    Description: "At the start of {PlayerName}'s turn, add {Level} random |Crystal{Level:plural one='' other='s'}| to the hand."
+    Name: Fragments of Light
+FlandreFranticDestroyerSe:
+    Brief: "Whenever an attack card is activated, gain <sprite=\"ManaSprite\" name=\"P\"> and draw a card."
+    Description: "Whenever an attack card is activated, gain {Level} <sprite=\"ManaSprite\" name=\"P\"> and draw {Level:plural one='% card' other='% cards'}."
+    Name: Frantic Destroyer
+FlandreFriendOkinaSe:
+    Brief: "At the start of {PlayerName}'s turn, choose 1 of some |p:completely random| Rare cards to add to the hand. It temporarily costs {Mana} and has |Exile| and |Ethereal|."
+    Description: "At the start of {PlayerName}'s turn, choose 1 of {Level} |p:completely random| Rare {Level:plural one='card' other='cards'} to add to the hand. It temporarily costs {Mana} and has |Exile| and |Ethereal|."
+    Name: Concealed Spacetime Fantasy Tour
+FlandreFriendOkinaFallSe:
+    Brief: "Whenever a card is |Exiled|, gain |Graze|."
+    Description: "Whenever a card is |Exiled|, gain {Level} |Graze|."
+    Name: Hidden Crazy Fall Wind
+FlandreFriendOkinaSpringSe:
+    Brief: "At the start of {PlayerName}'s turn, gain life, |Amulet| and |Ward|."
+    Description: "At the start of {PlayerName}'s turn, gain {Level} life, {Level} |Amulet| and |Ward|."
+    Name: Hidden Breezy Cherry Blossom
+FlandreFriendOkinaSummerSe:
+    Brief: "Whenever {PlayerName} activates some cards, deal |Accurate| attack damage and apply |Cold| to each enemy."
+    Description: "Whenever {PlayerName} activates {Limit:plural one='% card' other='% cards'}, deal {Level} |Accurate| attack damage and apply |Cold| to each enemy.\n({Count:plural one='% card' other='% cards'} left.)"
+    Name: Hidden Perfect Summer Ice
+FlandreFriendOkinaWinterSe:
+    Brief: "Whenever a card is activated, gain |Charge|."
+    Description: "Whenever a card is activated, gain {Level} |Charge|."
+    Name: Hidden Extreme Winter
+FlandreHellonEarthSe:
+    Brief: "When |Hellfire| and |Brimstone| would trigger, they trigger additional times."
+    Description: "When |Hellfire| and |Brimstone| would trigger, they trigger {Level} additional time{Level:plural one='' other='s'}."
+    Name: Hell on Earth
+FlandreHotSurfaceSe:
+    Brief: "Until {PlayerName}'s next turn, whenever {PlayerName} receives attack damage, apply |Hellfire| to the attacker."
+    Description: "Until {PlayerName}'s next turn, whenever {PlayerName} receives attack damage, apply {Level} |Hellfire| to the attacker."
+    Name: Hot Surface
+FlandreHellfireSe:
+    Brief: "{OwnerName} loses life at the start of their turn.\n|Brimstone|: When {OwnerName} is defeated, all enemies lose life."
+    Description: "{OwnerName} loses {Amount} life at the start of their turn.\n|Brimstone|: When {OwnerName} is defeated, all enemies lose {Amount} life."
+    Name: Hellfire
+FlandreKindLiesandGoodbyesSe:
+    Brief: "{PlayerName} can't lose life for a certain number of turns."
+    Description: "{PlayerName} can't lose life for {Duration:plural one='% turn' other='% turns'}."
+    Name: Kind Lies and Goodbyes
+FlandreMadnessSe:
+    Brief: "{PlayerName} can have up to {MadnessValue4} |Madness|.\n{PlayerName}'s attacks deal |e:{MadnessValue1}|% more damage for each |Madness|.\n{PlayerName} gains |e:{MadnessValue2}|% less |Block| and |Barrier| from cards for each |Madness|.\nWhenever {PlayerName} advances a level, lose {MadnessDecay} |Madness|.\n|r:When {PlayerName} has {MadnessValue4} Madness, {PlayerName} loses the game.|"
+    Description: "{PlayerName} can have up to {MadnessValue4} |Madness|.\n{PlayerName}'s attacks deal |e:{MadnessValue1}|% more damage for each |Madness|. (|e:{MadnessAmount1}|%)\n{PlayerName} gains |e:{MadnessValue2}|% less |Block| and |Barrier| from cards for each |Madness|. (|e:{MadnessAmount2}|%)\nWhenever {PlayerName} advances a level, lose {MadnessDecay} |Madness|.\n|r:When {PlayerName} has {MadnessValue4} Madness, {PlayerName} loses the game.|"
+    Name: Madness
+FlandreMagicalGirlFlandreEngageSe:
+    Brief: "All |Magical Girl| cards can be |Upgraded| {Value:plural one='% additional time' other='% additional times'}."
+    Description: "All |Magical Girl| cards can be |Upgraded| {Value:plural one='% additional time' other='% additional times'}."
+    Name: Magical Girl Flandre Engage!
+FlandreMagicalGirlSe:
+    Brief: "This card can be |Upgraded| up to {Value1:plural one='% time' other='% times'}.\nAt the start of combat, gain {Value2} |Barrier| for each |Upgrade| on any |Magical Girl| card in the library. ({Amount})"
+    Description: "This card can be |Upgraded| up to {Value1:plural one='% time' other='% times'}.\nAt the start of combat, gain {Value2} |Barrier| for each |Upgrade| on any |Magical Girl| card in the library. ({Amount})"
+    Name: Magical Girl
+FlandreMindsEyeSe:
+    Brief: "The next time {PlayerName} deals or takes attack damage, double the damage dealt or halve the damage taken."
+    Description: "The next {Level:plural one='% time' other='% times'} {PlayerName} deals or takes attack damage, double the damage dealt or halve the damage taken."
+    Name: Mind's Eye
+FlandreMPBullofPhalarisSe:
+    Brief: "Whenever {PlayerName} receives damage from status effects, deal damage to each enemy."
+    Description: "Whenever {PlayerName} receives damage from status effects, deal {Level} damage to each enemy."
+    Name: Bull of Phalaris
+FlandreMPButchersCircusSe:
+    Brief: "Whenever an enemy is defeated, all players gain |Firepower| and life."
+    Description: "Whenever an enemy is defeated, all players gain {Level} |Firepower| and {Count} life."
+    Name: Butcher's Circus
+FlandreMPPhantomPainSe:
+    Brief: "Until {PlayerName}'s next turn, whenever any player activates attack card, {OwnerName} takes damage."
+    Description: "Until {PlayerName}'s next turn, whenever any player activates attack card, {OwnerName} takes {Level} damage."
+    Name: Phantom Pain
+FlandreMPProblemChildSe:
+    Brief: "All |Flandre| |Multiplayer| cards gain |Unplayable| until the end of combat.\nAll attack cards cost less until the end of combat."
+    Description: "All |Flandre| |Multiplayer| cards gain |Unplayable| until the end of combat.\nAll attack cards cost {Mana} less until the end of combat."
+    Name: Problem Child
+FlandreMPEnfantTerribleSe:
+    Brief: "{OwnerName}'s attacks deal less damage for a certain number of turns."
+    Description: "{OwnerName}'s attacks deal {Limit}% less damage {Duration:plural one='until end of turn' other='for the next % turns'}."
+    Name: Enfant Terrible
+FlandreMPRiggedGameSe:
+    Brief: "Put the next few rare cards sent to the discard pile on top of the draw pile."
+    Description: "Put the next {Level} rare card{Level:plural one='' other='s'} sent to the discard pile on top of the draw pile."
+    Name: Rigged Game
+FlandreNoMercySe:
+    Brief: "The next few attack cards played cost {Mana} to play."
+    Description: "The next {Level} attack card{Level:plural one='' other='s'} played cost{Level:plural one='s' other=''} {Mana} to play."
+    Name: No Mercy
+FlandreOfferingSe:
+    Brief: "|Exile| up to X cards from the hand, draw pile, and discard pile. Lose {Value} life for each card not |Exiled| this way.\n|Offering| can be skipped and always lose life instead."
+    Description: "|Exile| up to X cards from the hand, draw pile, and discard pile. Lose {Value} life for each card not |Exiled| this way.\n|Offering| can be skipped and always lose life instead."
+    Name: Offering X
+FlandrePassiveSe:
+    Brief: "The number of choices for card rewards is increased by {Value}."
+    Description: "The number of choices for card rewards is increased by {Value}."
+    Name: Devil of Scarlet Blood
+FlandreRipplesof495YearsSe:
+    Brief: "{PlayerName} is immune to all debuffs.\nConvert all mana {PlayerName} would gain this combat to <sprite=\"ManaSprite\" name=\"P\">.\nUnspent mana isn't lost at the end of each turn.\nAll cards are played additional times."
+    Description: "{PlayerName} is immune to all debuffs.\nConvert all mana {PlayerName} would gain this combat to <sprite=\"ManaSprite\" name=\"P\">.\nUnspent mana isn't lost at the end of each turn.\nAll cards are played {Level:plural one='% additional time' other='% additional times'}."
+    Name: Ripples of 495 Years
+FlandreRuinedFortressSe:
+    Brief: "Enemies with Ruin deal less attack damage."
+    Description: "Enemies with Ruin deal {Level}% less attack damage."
+    Name: Ruined Fortress
+FlandreRuinSe:
+    Brief: "{OwnerName} takes more damage.\nIf {OwnerName}'s life is equal to |Ruin| or less, |Destroy| it."
+    Description: "{OwnerName} takes {Amount}% more damage.\nIf {OwnerName} has {Level} or less life, |Destroy| it."
+    ExtraDescription: "{OwnerName}'s attacks deal {Value}% less damage.\n{OwnerName} takes {Amount}% more damage.\nIf {OwnerName} has {Level} or less life, |Destroy| it."
+    Name: Ruin
+FlandreScarletCasinoSe:
+    Brief: "For every few |p:random| effect |Flandre| cards activated, gain {Value1} of {Value2} random effects:\nAll cards cost less this turn.\nThe next few cards are played {Value3:plural one='% more time' other='% more times'}.\nPrevent the next few times {PlayerName} would lose life.\n|Upgrade| random cards in the |battlefield| few times.\nGain <sprite=\"ManaSprite\" name=\"P\">.\nGain <sprite=\"Point\" name=\"Gold\">."
+    Description: "For every {Limit} |p:random| effect |Flandre| cards activated, gain {Value1} of {Value2} random effects:\nAll cards cost {Amount1} less this turn.\nThe next {Amount2:plural one='% card is' other='% cards are'} played {Value3:plural one='% more time' other='% more times'}.\nPrevent the next {Amount3:plural one='% time' other='% times'} {PlayerName} would lose life.\n|Upgrade| {Amount4} random card{Amount4:plural one='' other='s'} in the |battlefield| {Value4:plural one='% time' other='% times'}.\nGain {Amount5}.\nGain {Amount6} <sprite=\"Point\" name=\"Gold\">.\n({Count:plural one='% card' other='% cards'} left.)"
+    Name: Scarlet Casino
+FlandreScarletCasinoD1Se:
+    Brief: "All cards cost less this turn."
+    Description: "All cards cost {Mana} less this turn."
+    Name: Scarlet Casino - D1
+FlandreScarletCasinoD2Se:
+    Brief: "The next few cards are played additional times."
+    Description: "The next {Level:plural one='% card is' other='% cards are'} played {Value:plural one='% additional time' other='% additional times'}."
+    Name: Scarlet Casino - D2
+FlandreScarletCasinoD3Se:
+    Brief: "Prevent the next few times {PlayerName} would lose life."
+    Description: "Prevent the next {Level:plural one='% time' other='% times'} {PlayerName} would lose life."
+    Name: Scarlet Casino - D3
+FlandreSisteroftheDevilSe:
+    Brief: "{PlayerName}'s attacks deal {Value1}% more damage, gains {Value1}% more |Block| and |Barrier| from cards, and takes {Value2}% less damage from attacks."
+    Description: "{PlayerName}'s attacks deal {Value1}% more damage, gains {Value1}% more |Block| and |Barrier| from cards, and takes {Value2}% less damage from attacks."
+    Name: Sister of the Devil
+FlandreSpellBreakCooldownSe:
+    Brief: "{OwnerName} is immune to |Spell Break| for a certain number of turns."
+    Description: "{OwnerName} is immune to |Spell Break| {Duration:plural one='until end of turn' other='for the next % turns'}."
+    Name: Spell Break Cooldown
+FlandreSpellBreakSe:
+    Brief: "{OwnerName} can't act for a certain number of turns."
+    Description: "{OwnerName} can't act {Duration:plural one='until end of turn' other='for the next % turns'}."
+    Name: Spell Break
+FlandreTheCentennialFestivalforMagicalGirlsSe:
+    Brief: "All |Magical Girl| cards can be |Upgraded| {Value:plural one='% additional time' other='% additional times'}.\nAll |Flandre| cards gain |Magical Girl| until the end of combat.\nWhenever {PlayerName} adds a card during this combat, |Upgrade| it."
+    Description: "All |Magical Girl| cards can be |Upgraded| {Value:plural one='% additional time' other='% additional times'}.\nAll |Flandre| cards gain |Magical Girl| until the end of combat.\nWhenever {PlayerName} adds a card during this combat, |Upgrade| it."
+    Name: The Centennial Festival for Magical Girls
+FlandreTheMousetrapSe:
+    Brief: "At the start of {PlayerName}'s next turn, deal damage to each enemy equal to the amount of damage taken last turn."
+    Description: "At the start of {PlayerName}'s next {Duration:plural one='% turn' other='% turns'}, deal damage to each enemy equal to the amount of damage taken last turn. ({Count})"
+    Name: The Mousetrap
+FlandreThePsychoticandCuteGuestSe:
+    Brief: "Whenever an attack card is activated, gain |Calamity| and |Firepower|."
+    Description: "Whenever an attack card is activated, gain {Level} |Calamity| and |Firepower|."
+    Name: The Psychotic and Cute Guest
+FlandreUnholySanctuarySe:
+    Brief: "{PlayerName} takes half as much damage for a certain number of turns.\nAt the start of {PlayerName}'s next turn, gain life equal to the amount of life lost last turn."
+    Description: "{PlayerName} takes half as much damage for {Duration:plural one='% turn' other='% turns'}.\nAt the start of {PlayerName}'s next {Duration:plural one='% turn' other='% turns'}, gain life equal to the amount of life lost last turn. ({Count})"
+    Name: Unholy Sanctuary
+FlandreUnstablePowerSe:
+    Brief: "All attacks deal between {Value}% to {Level}% damage."
+    Description: "All attacks deal between {Value}% to {Level}% damage."
+    Name: Unstable Power
+FlandreWalpurgisNightSe:
+    Brief: "Increase the maximum stack of |Ruin| to {Value}.\nWhenever {PlayerName} deals attack damage, also apply half that much |Ruin|."
+    Description: "Increase the maximum stack of |Ruin| to {Value}.\nWhenever {PlayerName} deals attack damage, also apply half that much |Ruin|."
+    Name: Walpurgis Night
+FlandreWatchtheWorldBurnSe:
+    Brief: "At the end of {PlayerName}'s turn, apply |Hellfire| to each enemy."
+    Description: "At the end of {PlayerName}'s turn, apply {Level} |Hellfire| to each enemy."
+    Name: Watch the World Burn
+OkinaPassiveSe:
+    Brief: ""
+    Description: ""
+    Name: The Ultimate, Absolute Secret God

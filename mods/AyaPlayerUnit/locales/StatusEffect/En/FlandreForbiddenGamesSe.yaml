@@ -1,0 +1,4 @@
+﻿FlandreForbiddenGamesSe:
+  Brief: Enemies cannot act for a certain number of rounds.
+  Description: Enemies cannot act {Duration:plural one='until end of round' other='for the next % rounds'}.
+  Name: Forbidden Games

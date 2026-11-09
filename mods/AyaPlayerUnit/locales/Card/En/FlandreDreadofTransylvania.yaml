@@ -1,0 +1,10 @@
+﻿FlandreDreadofTransylvania:
+  Description: >-
+    Gain {FlandreBlock} |Block|.
+
+    Apply {FlandreValue1} |Weak| and {FlandreValue2} |Ruin| to each enemy.
+  UpgradedDescription: >-
+    Gain {FlandreBlock} |Block|.
+
+    Apply {FlandreValue1} |Weak| and {FlandreValue2} |Ruin| to each enemy.
+  Name: Dread of Transylvania

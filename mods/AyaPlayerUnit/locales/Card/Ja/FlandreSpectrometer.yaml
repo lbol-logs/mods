@@ -1,0 +1,14 @@
+﻿FlandreSpectrometer:
+  Description: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    山札と捨て札に、それぞれ|p:ランダム|な|クリスタル|を{FlandreValue1}枚加える。
+  UpgradedDescription: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    山札と捨て札に、それぞれ|p:ランダム|な|クリスタル|を{FlandreValue1}枚加える。
+  ExtraDescription1: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    山札と捨て札に、それぞれ|p:ランダム|な|クリスタル+{Value3}|を{FlandreValue1}枚加える。
+  Name: スペクトロメーター

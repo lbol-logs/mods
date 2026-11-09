@@ -1,0 +1,10 @@
+﻿AyaCloseup:
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    {SelfName}의 양옆의 |액운| 또는 상태 카드마다, {Mana}를 얻고 카드를 한 장 뽑습니다.
+  UpgradedDescription: >-
+    |방어|를 {Block} 얻습니다.
+
+    {SelfName}의 양옆의 |액운| 또는 상태 카드마다, {Mana}를 얻고 카드를 한 장 뽑습니다.
+  Name: 클로즈업

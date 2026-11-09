@@ -1,0 +1,12 @@
+﻿AyaNewsSpecial:
+  Description: >-
+    获得 {Block}|格挡|。
+
+    对所有敌人造成 {Damage} 点伤害并施加 {Value1}|锁定|。
+
+    带有|锁定|的敌人会受到双倍伤害。
+  Name: 文文新闻特刊
+  AyaNewsDescription: >-
+    造成 {Damage} 点伤害。
+
+    施加 {Value1}|锁定|。

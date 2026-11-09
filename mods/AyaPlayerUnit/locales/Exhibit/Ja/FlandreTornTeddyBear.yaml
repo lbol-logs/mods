@@ -1,0 +1,10 @@
+﻿FlandreTornTeddyBear:
+  Description: >-
+    戦闘開始時、|火力|を{Value1}得る。
+
+    |狂血|の効果が、{PlayerName}の失ったライフ1%につきさらに|e:{Value4}|%増加する。
+  Name: 破れたテディベア
+  FlavorText: >-
+    「これはもう壊れちゃった……あなたは、どれくらいもつのかしら？」
+
+    ―フランドール・スカーレット

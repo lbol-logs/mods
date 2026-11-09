@@ -1,0 +1,4 @@
+﻿FlandreDoombringerSe:
+  Brief: '{PlayerName}のターン開始時、|災禍|を得る。'
+  Description: '{PlayerName}のターン開始時、|災禍|{Level}を得る。'
+  Name: 破滅をもたらす者

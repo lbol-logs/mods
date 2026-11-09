@@ -1,0 +1,4 @@
+﻿FlandreAndThenWillThereBeNoneSe:
+  Brief: '{PlayerName}は数ターンの間、敵の全てのダメージとデバフを無効化する。'
+  Description: '{PlayerName}は{Duration}ターンの間、敵の全てのダメージとデバフを無効化する。'
+  Name: そして誰もいなくなるか？

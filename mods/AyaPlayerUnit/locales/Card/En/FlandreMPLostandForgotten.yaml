@@ -1,0 +1,14 @@
+﻿FlandreMPLostandForgotten:
+  Description: >-
+    All players gain {FlandreBlock} |Block| and {FlandreShield} |Barrier|.
+
+    |When Exiled|: Gain {FlandreValue1} |Firepower| and apply {FlandreValue2} |Ruin| to each enemy.
+
+    |Scaled| {Mana}.
+  UpgradedDescription: >-
+    All players gain {FlandreBlock} |Block| and {FlandreShield} |Barrier|.
+
+    |When Exiled|: Gain {FlandreValue1} |Firepower| and apply {FlandreValue2} |Ruin| to each enemy.
+
+    |Scaled| {Mana}.
+  Name: Lost and Forgotten

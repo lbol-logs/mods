@@ -1,0 +1,14 @@
+﻿AyaWindGodsLeafVeiling:
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    대상 적에 대한 모든 공격은 |명중|을 얻습니다.
+
+    |붕붕마루 신문|을 1장 손에 넣습니다.
+  UpgradedDescription: >-
+    피해를 {Damage} 줍니다.
+
+    대상 적에 대한 모든 공격은 |명중|을 얻습니다.
+
+    |붕붕마루 신문|을 1장 손에 넣습니다.
+  Name: 풍신 나뭇잎 은신술

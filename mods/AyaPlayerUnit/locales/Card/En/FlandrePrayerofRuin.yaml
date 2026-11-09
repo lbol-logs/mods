@@ -1,0 +1,38 @@
+﻿FlandrePrayerofRuin:
+  Description: >-
+    Apply {FlandreValue1} |Ruin|.
+
+    Apply additional |Ruin| equal to the target's lost life. ({Amount})
+
+    |Expel|: Gain {FlandreValue2} <sprite="Point" name="Gold">.
+  UpgradedDescription: >-
+    Apply {FlandreValue1} |Ruin|.
+
+    Apply additional |Ruin| equal to the target's lost life. ({Amount})
+
+    |Expel|: Gain {FlandreValue2} <sprite="Point" name="Gold">.
+  NonbattleDescription: >-
+    Apply {FlandreValue1} |Ruin|.
+
+    Apply additional |Ruin| equal to the target's lost life.
+
+    |Expel|: Gain {FlandreValue2} <sprite="Point" name="Gold">.
+  UpgradedNonbattleDescription: >-
+    Apply {FlandreValue1} |Ruin|.
+
+    Apply additional |Ruin| equal to the target's lost life.
+
+    |Expel|: Gain {FlandreValue2} <sprite="Point" name="Gold">.
+  Name: Prayer of Ruin
+  FlavorText: >-
+    "Who are you praying to? Of course it's me, right?"
+
+    - Okina Matara
+
+    "No, it's ZUN."
+
+    - Flandre Scarlet
+
+    "...Who?"
+
+    - Okina Matara

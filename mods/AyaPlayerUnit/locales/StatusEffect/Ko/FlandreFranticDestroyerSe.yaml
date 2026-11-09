@@ -1,0 +1,4 @@
+﻿FlandreFranticDestroyerSe:
+  Brief: 공격 카드가 발동될 때마다 <sprite="ManaSprite" name="P">를 얻고 카드를 뽑습니다.
+  Description: 공격 카드가 발동될 때마다 <sprite="ManaSprite" name="P">를 {Level} 얻고, 카드를 {Level}장 뽑습니다.
+  Name: 광기의 파괴자

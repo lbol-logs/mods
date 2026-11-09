@@ -1,0 +1,10 @@
+﻿AyaOrbRedIndiscriminateIgnitionSe:
+  Brief: >-
+    在 {OwnerName} 的回合结束时，对 {PlayerName} 造成伤害。
+
+    当一张 |不幸| 或状态牌被抽到时，也会发生此效果。
+  Description: >-
+    在 {OwnerName} 的回合结束时，对 {PlayerName} 造成 {Level} 点伤害。
+
+    当一张 |不幸| 或状态牌被抽到时，也会发生此效果。
+  Name: 无差别点火

@@ -1,0 +1,7 @@
+﻿AyaToolBunbunNewspaperStore:
+  LockedDescription: 샤메이마루 아야로 하드 모드 이상의 이변을 해결하면 잠금 해제됩니다.
+  Description: >-
+    손에 추가할 |아야| 카드 {Value1}장 중 한 장을 선택해 얻습니다. 이 카드의 비용은 |일시적으로| {Mana}가 됩니다.
+
+    |제한【{DeckCounter}】|
+  Name: 붕붕마루 신문가게

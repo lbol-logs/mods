@@ -1,0 +1,22 @@
+﻿AyaDanceofBlackQuill:
+  Description: >-
+    Deal {Damage} damage and apply {Value1} |Lock On| to each enemy.
+
+    Gain {Value1} |Acceleration|.
+
+    When an enemy is defeated using {SelfName}, repeat these effects.
+  UpgradedDescription: >-
+    Deal {Damage} damage and apply {Value1} |Lock On| to each enemy.
+
+    Gain {Value1} |Acceleration|.
+
+    When an enemy is defeated using {SelfName}, repeat these effects.
+  PhantasmModeDescription: >-
+    Deal {Damage} damage and apply {Value1} |Lock On| to each enemy.
+
+    Gain {Value1} |Acceleration|.
+  PhantasmModeUpgradedDescription: >-
+    Deal {Damage} damage and apply {Value1} |Lock On| to each enemy.
+
+    Gain {Value1} |Acceleration|.
+  Name: Dance of Black Quill

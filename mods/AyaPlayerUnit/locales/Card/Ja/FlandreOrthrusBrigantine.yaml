@@ -1,0 +1,18 @@
+﻿FlandreOrthrusBrigantine:
+  Description: >-
+    {FlandreDamage}ダメージを与える。
+
+    |破滅|{FlandreValue1}を与える。
+
+    ライフを{FlandreValue2}回復する。
+
+    別の|p:ランダム|な敵にこれらの効果を繰り返す。
+  UpgradedDescription: >-
+    {FlandreDamage}ダメージを与える。
+
+    |破滅|{FlandreValue1}を与える。
+
+    ライフを{FlandreValue2}回復する。
+
+    別の|p:ランダム|な敵にこれらの効果を繰り返す。
+  Name: 双頭の襲撃艦

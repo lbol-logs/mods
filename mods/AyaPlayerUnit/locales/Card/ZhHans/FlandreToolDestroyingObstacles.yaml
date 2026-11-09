@@ -1,0 +1,11 @@
+﻿FlandreToolDestroyingObstacles:
+  LockedDescription: 通过以芙兰朵露·斯卡雷特在困难及以上难度通关事件解锁。
+  Description: >-
+    从牌库中移除一张牌。
+
+    |消耗品【{DeckCounter}】|
+  Name: 势如破竹
+  DetailText: >-
+    本卡不会在战斗中随机生成，也无法被复制。
+
+    当牌库中的卡牌被移除时，本场战斗中不会被移除。

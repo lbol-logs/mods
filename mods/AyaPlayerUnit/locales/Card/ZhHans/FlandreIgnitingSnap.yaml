@@ -1,0 +1,11 @@
+﻿FlandreIgnitingSnap:
+  Description: 触发目标的|地狱火|。
+  UpgradedDescription: >-
+    |初见|: 施加 {Value1} |硫磺|。
+
+    触发目标的|地狱火|。
+  ExtraDescription1: >-
+    |d:|初见|: 施加 {Value1} |硫磺|。|
+
+    触发目标的|地狱火|。
+  Name: 爆破响指

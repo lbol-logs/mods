@@ -1,0 +1,12 @@
+﻿FlandreThePsychoticandCuteGuest:
+  Description: Whenever an attack card is activated, gain {FlandreValue1} |Calamity| and |Firepower|.
+  UpgradedDescription: Whenever an attack card is activated, gain {FlandreValue1} |Calamity| and |Firepower|.
+  PhantasmModeDescription: >-
+    Whenever an attack card is activated, gain {FlandreValue1} |Calamity| and |Firepower|.
+
+    Gain {Value2} |Madness|.
+  PhantasmModeUpgradedDescription: >-
+    Whenever an attack card is activated, gain {FlandreValue1} |Calamity| and |Firepower|.
+
+    Gain {Value2} |Madness|.
+  Name: The Psychotic and Cute Guest

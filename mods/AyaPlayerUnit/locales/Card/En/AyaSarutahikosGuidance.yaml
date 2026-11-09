@@ -1,0 +1,26 @@
+﻿AyaSarutahikosGuidance:
+  Description: >-
+    Discard all cards in the hand and draw that many cards.
+
+    Gain {Value1} |Acceleration| for each card discarded this way.
+
+    |Overflow|: Gain {Mana}.
+  UpgradedDescription: >-
+    Discard all cards in the hand and draw that many cards.
+
+    Gain {Value1} |Acceleration| for each card discarded this way.
+
+    |Overflow|: Gain {Mana}.
+  ExtraDescription1: >-
+    Discard all cards in the hand and draw that many cards.
+
+    Gain {Value1} |Acceleration| for each card discarded this way.
+
+    |d:Overflow: Gain {Mana}.|
+  UpgradedExtraDescription1: >-
+    Discard all cards in the hand and draw that many cards.
+
+    Gain {Value1} |Acceleration| for each card discarded this way.
+
+    |d:Overflow: Gain {Mana}.|
+  Name: Sarutahiko's Guidance

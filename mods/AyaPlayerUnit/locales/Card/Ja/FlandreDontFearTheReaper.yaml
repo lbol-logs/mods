@@ -1,0 +1,14 @@
+﻿FlandreDontFearTheReaper:
+  Description: >-
+    |火力|{FlandreValue1}を得る。
+
+    手札、山札、捨て札のすべての攻撃カードを発動する。
+
+    この方法で発動した攻撃カード1枚につき、|狂気|{Value2}を得る。
+  UpgradedDescription: >-
+    |火力|{FlandreValue1}を得る。
+
+    手札、山札、捨て札のすべての攻撃カードを発動する。
+
+    この方法で発動した攻撃カード1枚につき、|狂気|{Value2}を得る。
+  Name: 死神を恐れるな

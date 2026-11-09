@@ -1,4 +1,93 @@
 {
+  "Aya1up": {
+    "Rarity": "Rare",
+    "InitialCounter": 0
+  },
+  "AyaG": {
+    "Owner": "AyaPlayerUnit",
+    "Rarity": "Shining",
+    "Value1": 12,
+    "Value2": 1,
+    "Mana": "GG",
+    "BaseMana": "G"
+  },
+  "AyaKhakkhara": {
+    "Rarity": "Rare",
+    "Value1": 1
+  },
+  "AyaNewsboyCap": {
+    "Rarity": "Uncommon",
+    "Value1": 5
+  },
+  "AyaNewspaperBag": {
+    "Rarity": "Common",
+    "Value1": 2,
+    "Mana": 0
+  },
+  "AyaR": {
+    "Owner": "AyaPlayerUnit",
+    "Rarity": "Shining",
+    "Value1": 4,
+    "Value2": 12,
+    "Value3": 1,
+    "BaseMana": "R"
+  },
+  "AyaTanukisLeaf": {
+    "Rarity": "Mythic"
+  },
+  "FlandreB": {
+    "Owner": "FlandrePlayerUnit",
+    "Rarity": "Shining",
+    "Mana": "P",
+    "BaseMana": "B"
+  },
+  "FlandreBranchofCalamity": {
+    "Rarity": "Rare",
+    "Value1": 30
+  },
+  "FlandreBrokenHorn": {
+    "Rarity": "Common",
+    "Value1": 1
+  },
+  "FlandreDevilPlushie": {
+    "Rarity": "Uncommon",
+    "Mana": "P"
+  },
+  "FlandreDevilsGold": {
+    "Rarity": "Rare",
+    "Value1": 5,
+    "Value2": 15
+  },
+  "FlandreFlan": {
+    "Rarity": "Common",
+    "Value1": 5
+  },
+  "FlandreMagicalGirlContract": {
+    "Rarity": "Rare"
+  },
+  "FlandreMindStabilizer": {
+    "Rarity": "Common",
+    "Value1": 4
+  },
+  "FlandrePortableAltar": {
+    "Rarity": "Uncommon",
+    "Value1": 2,
+    "Value2": 5
+  },
+  "FlandreR": {
+    "Owner": "FlandrePlayerUnit",
+    "Rarity": "Shining",
+    "Mana": "P",
+    "BaseMana": "R"
+  },
+  "FlandreSeedofCorruption": {
+    "Rarity": "Mythic"
+  },
+  "FlandreTornTeddyBear": {
+    "Rarity": "Uncommon",
+    "Value1": 2
+  },
+
   "exexa": {
     "Owner": "lvalonexrumia",
     "Rarity": "Shining",

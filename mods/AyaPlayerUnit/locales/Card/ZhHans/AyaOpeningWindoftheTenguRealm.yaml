@@ -1,0 +1,4 @@
+﻿AyaOpeningWindoftheTenguRealm:
+  Description: '|在战斗开始时|:|放逐|{SelfName}，获得 {Value1} |额外回合|。'
+  UpgradedDescription: '|在战斗开始时|:|放逐|{SelfName}，获得 {Value1} |额外回合| 和 {Value2}|加速|。'
+  Name: 天狗领域的开启之风

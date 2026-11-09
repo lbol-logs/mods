@@ -1,0 +1,10 @@
+﻿FlandreChromaticWings:
+  Description: >-
+    |供物|{Value1}。
+
+    {PlayerName}のターン開始時、{FlandreMana}を得る。
+  UpgradedDescription: >-
+    |供物|{Value1}。
+
+    {PlayerName}のターン開始時、{FlandreMana}を得る。
+  Name: 虹色の翼

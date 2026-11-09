@@ -1,0 +1,32 @@
+﻿FlandreScarletCasinoSe:
+  Brief: >-
+    一定数の|ランダム|効果を持つ|フランドール|カードを発動するたび、{Value2}種類のランダム効果から{Value1}つを得る：
+
+    このターン、すべてのカードのコストが減少する。
+
+    次に使用するカードが{Value3}回追加で発動する。
+
+    {PlayerName}がライフを失う次の数回を防ぐ。
+
+    |戦場|のランダムなカードを数回|アップグレード|する。
+
+    <sprite="ManaSprite" name="P">を得る。
+
+    <sprite="Point" name="Gold">を得る。
+  Description: >-
+    {Limit}枚の|ランダム|効果を持つ|フランドール|カードを発動するたび、{Value2}種類のランダム効果から{Value1}つを得る：
+
+    このターン、すべてのカードのコストが{Amount1}減少する。
+
+    次に使用する{Amount2}枚のカードが{Value3}回追加で発動する。
+
+    {PlayerName}がライフを失う次の{Amount3}回を防ぐ。
+
+    |戦場|のランダムなカード{Amount4}枚を{Value4}回|アップグレード|する。
+
+    {Amount5}を得る。
+
+    {Amount6}<sprite="Point" name="Gold">を得る。
+
+    （残り{Count}枚）
+  Name: スカーレットカジノ

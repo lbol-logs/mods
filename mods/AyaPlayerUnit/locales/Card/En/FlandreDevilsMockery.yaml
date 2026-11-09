@@ -1,0 +1,14 @@
+﻿FlandreDevilsMockery:
+  Description: >-
+    Gain {FlandreValue1} |Calamity|.
+
+    Gain {FlandreValue2} |Graze|.
+  UpgradedDescription: >-
+    Gain {FlandreValue1} |Calamity|.
+
+    Gain {FlandreValue2} |Graze|.
+  Name: Devil's Mockery
+  FlavorText: >-
+    "Weakling♥"
+
+    - Flandre Scarlet

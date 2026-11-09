@@ -1,0 +1,4 @@
+﻿FlandreSpellBreakCooldownSe:
+  Brief: '{OwnerName}가 일정 턴 동안 |스펠 브레이크|에 면역입니다.'
+  Description: "{OwnerName}가 {Duration:plural one='이번 턴이 끝날 때까지' other='다음 {Duration}턴 동안'} |스펠 브레이크|에 면역입니다."
+  Name: 스펠 브레이크 쿨다운

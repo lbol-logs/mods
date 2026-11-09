@@ -1,0 +1,24 @@
+﻿FlandreFourHorsemenoftheApocalypse:
+  Description: >-
+    获得 {Value1} 点|崩坏|。
+
+    弃置任意数量的手牌。
+
+    将抽牌堆顶的攻击、防御、技能和|能力|卡牌各一张加入手牌。
+  UpgradedDescription: >-
+    获得 {Value1} 点|崩坏|。
+
+    弃置任意数量的手牌。
+
+    将抽牌堆顶的攻击、防御、技能和|能力|卡牌各一张加入手牌。
+
+    充盈:获得{Mana}。
+  ExtraDescription1: >-
+    获得 {Value1} 点|崩坏|。
+
+    弃置任意数量的手牌。
+
+    将抽牌堆顶的攻击、防御、技能和|能力|卡牌各一张加入手牌。
+
+    充盈:获得{Mana}。
+  Name: 天启四骑士

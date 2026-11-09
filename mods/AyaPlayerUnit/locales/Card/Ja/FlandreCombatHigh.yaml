@@ -1,0 +1,4 @@
+﻿FlandreCombatHigh:
+  Description: '|火力|{FlandreValue1}と|霊力|{FlandreValue1}を得る。'
+  UpgradedDescription: '|火力|{FlandreValue1}と|霊力|{FlandreValue1}を得る。'
+  Name: 戦闘高揚

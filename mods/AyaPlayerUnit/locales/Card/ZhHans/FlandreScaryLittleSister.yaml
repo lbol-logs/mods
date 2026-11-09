@@ -1,0 +1,10 @@
+﻿FlandreScaryLittleSister:
+  Description: >-
+    获得 {Block} 点|格挡|。
+
+    当被放逐时:获得{Mana}并抽 {Value1:plural one='% 张牌' other='% 张牌'}。
+  UpgradedDescription: >-
+    获得 {Block} 点|格挡|。
+
+    当被放逐时:获得{Mana}并抽 {Value1:plural one='% 张牌' other='% 张牌'}。
+  Name: 二妹的午夜后宫

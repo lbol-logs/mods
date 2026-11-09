@@ -1,0 +1,6 @@
+﻿AyaFriendMomiji:
+  Description: '{FriendP}|f:心灵感应|: |预知| {Scry}。'
+  ExtraDescription1: '{FriendP2}|f:追逐|: 当{PlayerName}攻击时，对目标造成 {Damage} 点攻击伤害。'
+  ExtraDescription2: '{FriendP2}|f:招架|: 当{PlayerName}受到攻击伤害并因此失去生命时，获得 {PassiveBarrier}|护盾|。'
+  ExtraDescription3: '{FriendU}|u:牙符「咀嚼满足」|: 对生命最低的敌人造成 {Damage2} 点攻击伤害。|退治|: 恢复 {Value1} 点生命。|精准|'
+  Name: 巡逻天狗犬走椛

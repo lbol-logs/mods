@@ -1,0 +1,4 @@
+﻿FlandreFriendOkinaSpringSe:
+  Brief: At the start of {PlayerName}'s turn, gain life, |Amulet| and |Ward|.
+  Description: At the start of {PlayerName}'s turn, gain {Level} life, {Level} |Amulet| and |Ward|.
+  Name: Hidden Breezy Cherry Blossom

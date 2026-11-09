@@ -1,0 +1,14 @@
+﻿FlandreKagomeKagome:
+  Description: >-
+    {FlandreShield}|バリア|を得る。
+
+    敵全体に|破滅|{FlandreValue1}を与える。
+
+    敵全体に対象の|破滅|の{FlandreValue2:plural one='%倍' other='%倍'}のダメージを与える。
+  UpgradedDescription: >-
+    {FlandreShield}|バリア|を得る。
+
+    敵全体に|破滅|{FlandreValue1}を与える。
+
+    敵全体に対象の|破滅|の{FlandreValue2:plural one='%倍' other='%倍'}のダメージを与える。
+  Name: カゴメ、カゴメ

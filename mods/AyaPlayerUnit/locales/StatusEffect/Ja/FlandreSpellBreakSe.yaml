@@ -1,0 +1,4 @@
+﻿FlandreSpellBreakSe:
+  Brief: 数ターンの間、{OwnerName}は行動できない。
+  Description: 次の{Duration}ターンの間、{OwnerName}は行動できない。
+  Name: スペルブレイク

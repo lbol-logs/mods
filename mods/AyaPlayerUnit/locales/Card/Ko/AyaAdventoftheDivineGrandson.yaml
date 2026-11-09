@@ -1,0 +1,27 @@
+﻿AyaAdventoftheDivineGrandson:
+  Description: >-
+    {Mana}를 얻습니다.
+
+    손이 가득 찰 때까지 카드를 뽑습니다.
+
+    {PlayerName}가 모든 상태이상에 면역이 됩니다.
+
+    모든 카드가 두번 사용됩니다.
+
+    |사용제한【{DeckCounterToolPlayableTimes}】|
+  UpgradedDescription: >-
+    {Mana}를 얻습니다.
+
+    손이 가득 찰 때까지 카드를 뽑습니다.
+
+    {PlayerName}가 모든 상태이상에 면역이 됩니다.
+
+    모든 카드가 두번 사용됩니다.
+
+    |사용제한【{DeckCounterToolPlayableTimes}】|
+  PhantasmModeDescription: 이 카드는 판타즘 모드에선 금지되었습니다.
+  PhantasmModeUpgradedDescription: 이 카드는 판타즘 모드에선 금지되었습니다.
+  Name: 천손강림
+  DetailText: '{SelfName}은 전투중에 생성되지 않고, 복사되지 않습니다.'
+  AdventoftheDivineGrandson1Aya: ''
+  AdventoftheDivineGrandson2Aya: ''

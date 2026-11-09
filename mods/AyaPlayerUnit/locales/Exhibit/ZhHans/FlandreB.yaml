@@ -1,0 +1,7 @@
+﻿FlandreB:
+  Description: >-
+    提供基础法力{BaseMana}。|芙兰| 的专属卡牌将被添加到卡池中。
+
+    每场战斗的 {PlayerName} 的第一个回合开始时，将 {Value1} 张|幻虹|加入手牌。
+  Name: 方片A
+  FlavorText: 芙兰朵露常玩的一副纸牌，通常和她的分身一块玩。

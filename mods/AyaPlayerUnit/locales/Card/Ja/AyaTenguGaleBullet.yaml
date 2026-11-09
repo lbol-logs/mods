@@ -1,0 +1,10 @@
+﻿AyaTenguGaleBullet:
+  Description: >-
+    {Damage}ダメージを{Times}回与える。
+
+    |加速|{Value1}を得る。
+  UpgradedDescription: >-
+    {Damage}ダメージを{Times}回与える。
+
+    |加速|{Value1}を得る。
+  Name: 天狗烈風弾

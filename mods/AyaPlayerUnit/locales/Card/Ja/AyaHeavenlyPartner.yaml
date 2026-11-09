@@ -1,0 +1,14 @@
+﻿AyaHeavenlyPartner:
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    敵全体に|脱力|{Value1}と|弱体|{Value1}を与える。
+
+    手札に召喚済みの|下っ端哨戒天狗、椛|が存在する場合、|臨時火力|{Value2}を得る。
+  UpgradedDescription: >-
+    {Block}|ブロック|を得る。
+
+    敵全体に|脱力|{Value1}と|弱体|{Value1}を与える。
+
+    手札に召喚済みの|下っ端哨戒天狗、椛|が存在する場合、|臨時火力|{Value2}を得る。
+  Name: 天生の一対

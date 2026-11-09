@@ -1,0 +1,10 @@
+﻿FlandreFieryLaser:
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    施加 {Value1} 点|地狱火|。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害。
+
+    施加 {Value1} 点|地狱火|。
+  Name: 炽热激光

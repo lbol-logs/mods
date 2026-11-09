@@ -1,0 +1,10 @@
+﻿FlandreDesolatePlace:
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    |그레이즈|를 {Value1} 얻습니다.
+  UpgradedDescription: >-
+    |방어|를 {Block} 얻습니다.
+
+    |그레이즈|를 {Value1} 얻습니다.
+  Name: 황량한 지대

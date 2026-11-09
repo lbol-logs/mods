@@ -1,0 +1,6 @@
+﻿AyaDashingGrace:
+  Description: '{PlayerName}가 가진 |가속|마다 모든 적에게 피해를 {Value2} 줍니다. ({AccelerationDamage})'
+  UpgradedDescription: '{PlayerName}가 가진 |가속|마다 모든 적에게 피해를 {Value2} 줍니다. ({AccelerationDamage})'
+  NonbattleDescription: '{PlayerName}가 가진 |가속|마다 모든 적에게 피해를 {Value2} 줍니다.'
+  UpgradedNonbattleDescription: '{PlayerName}가 가진 |가속|마다 모든 적에게 피해를 {Value2} 줍니다.'
+  Name: 화려한 기품

@@ -1,0 +1,10 @@
+﻿FlandreHotSurface:
+  Description: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    {PlayerName}の次のターンまで、{PlayerName}が攻撃ダメージを受けるたび、攻撃者に|業火|{FlandreValue1}を与える。
+  UpgradedDescription: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    {PlayerName}の次のターンまで、{PlayerName}が攻撃ダメージを受けるたび、攻撃者に|業火|{FlandreValue1}を与える。
+  Name: 高温注意

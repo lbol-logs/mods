@@ -1,0 +1,5 @@
+﻿AyaBunbunmaruPrinterSe:
+  Brief: '{PlayerName}のターン開始時、|文々。新聞|を手札に加える。それらは|臨時コスト|{Mana}。'
+  Description: '{PlayerName}のターン開始時、|文々。新聞|を{Level}枚手札に加える。それらは|臨時コスト|{Mana}。'
+  PhantasmModeDescription: '{PlayerName}のターン開始時、|文々。新聞|を{Level}枚手札に加える。'
+  Name: 文々。新聞プリンター

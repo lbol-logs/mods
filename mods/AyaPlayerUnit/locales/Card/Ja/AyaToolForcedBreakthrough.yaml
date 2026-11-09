@@ -1,0 +1,12 @@
+﻿AyaToolForcedBreakthrough:
+  LockedDescription: 射命丸文を使用してルナティック以上の難易度で異変を解決すると解放される。
+  Description: >-
+    戦闘を終わらせる。
+
+    |ボス戦の開始時|：{SelfName}を戦闘から消滅させる。
+
+    |消耗品【{DeckCounter}】|
+  Name: 強行突破
+  ForcedBreakthrough1: 失礼！
+  ForcedBreakthrough2: スクープを見逃すわけにはいきません！
+  ForcedBreakthrough3: 今は付き合うヒマがない！

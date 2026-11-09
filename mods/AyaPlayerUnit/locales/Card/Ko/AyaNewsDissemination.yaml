@@ -1,0 +1,14 @@
+﻿AyaNewsDissemination:
+  Description: >-
+    카드를 {Value1} 버립니다.
+
+    그만큼 |붕붕마루 신문|을 손으로 가져옵니다.
+
+    {Mana}를 얻습니다.
+  UpgradedDescription: >-
+    카드를 {Value1}~{Value2}장 버립니다.
+
+    그만큼 |붕붕마루 신문|을 손으로 가져옵니다.
+
+    {Mana}를 얻습니다.
+  Name: 뉴스 전파

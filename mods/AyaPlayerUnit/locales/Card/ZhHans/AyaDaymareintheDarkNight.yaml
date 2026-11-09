@@ -1,0 +1,14 @@
+﻿AyaDaymareintheDarkNight:
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    直到{PlayerName}的下个回合，每当{PlayerName}获得|加速|时，对生命最低的敌人造成 {Damage} 点伤害。
+
+    获得 {Value1}|加速|。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害。
+
+    直到{PlayerName}的下个回合，每当{PlayerName}获得|加速|时，对生命最低的敌人造成 {Damage} 点伤害。
+
+    获得 {Value1}|加速|。
+  Name: 黑夜中的白日梦

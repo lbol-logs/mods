@@ -1,0 +1,10 @@
+﻿FlandreDevilsFlesh:
+  Description: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    ライフ{FlandreValue1}を得る。
+  UpgradedDescription: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    ライフ{FlandreValue1}を得る。
+  Name: 悪魔の情欲

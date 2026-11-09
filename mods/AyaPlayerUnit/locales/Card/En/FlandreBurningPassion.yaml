@@ -1,0 +1,10 @@
+﻿FlandreBurningPassion:
+  Description: >-
+    Apply {FlandreValue1} |Hellfire|.
+
+    Draw {FlandreValue2:plural one='% card' other='% cards'}.
+  UpgradedDescription: >-
+    Apply {FlandreValue1} |Hellfire|.
+
+    Draw {FlandreValue2:plural one='% card' other='% cards'}.
+  Name: Burning Passion

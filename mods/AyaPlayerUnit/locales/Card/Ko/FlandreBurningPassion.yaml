@@ -1,0 +1,10 @@
+﻿FlandreBurningPassion:
+  Description: >-
+    카드를 {Value1}장 뽑습니다.
+
+    |지옥불|을 {Value2} 줍니다.
+  UpgradedDescription: >-
+    카드를 {Value1}장 뽑습니다.
+
+    |지옥불|을 {Value2} 줍니다.
+  Name: 타오르는 열정

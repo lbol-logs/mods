@@ -1,0 +1,55 @@
+﻿AyaAyaShameimarusCoerciveReporting:
+  Description: >-
+    |文々。新聞・号外|を1枚手札に加える。
+
+    対象の行動予定によって追加の効果を得る。
+  UpgradedDescription: >-
+    |文々。新聞・号外|を1枚手札に加える。
+
+    対象の行動予定によって追加の効果を得る。
+  Name: 射命丸文の圧迫取材
+  DetailText: >-
+    |攻撃|：|脱力|{Value2}を与える。
+
+    |強化|：|火力|{Value2}を得る。
+
+    |デバフ|：|加護|{Value2}を得る。
+
+    |状態異常|：|活力|を1枚手札に加える。
+
+    |防御|：|弱体|を与える。
+
+    |グレイズ|：|加速|{Value4}を得る。
+
+    |召喚|：|スクスク文|を召喚する。
+
+    |熟睡中|：対象を起こす。
+
+    |気絶、何もしない|：|追加ターン|{Value1}を得る。
+
+    |逃走、起爆|：対象を即死させる。
+
+    |充填中|：|バースト|状態に入る。
+
+    |治療、修理|：ライフを{Value4}回復する。
+
+    |スペルカード|：<sprite="Point" name="Gold">{Value5}と<sprite="Point" name="Power">{Value5}を得る。
+
+    |洗浄|：{PlayerName}のデバフをすべて取り除き、|加護|{Value2}を得る。
+
+    |暗黒能楽|：{PlayerName}のデバフをすべて取り除き、|加護|{Value5}を得る。この戦闘中、|暗黒能楽|を無効化する。
+
+    |祟り|：カードが|祟られる|たび、敵全体に{Value6}ダメージを与える。
+  AyaShameimarusCoerciveReportingSleep1Aya: 起きなさいねぼすけ！
+  AyaShameimarusCoerciveReportingEscape1Aya: 幻想郷最速から逃げようたってそうはいきませんよ！
+  AyaShameimarusCoerciveReportingEscape2Aya: 本気で私から逃げられると思います？
+  AyaShameimarusCoerciveReportingEscape31Aya: こんにちは！
+  AyaShameimarusCoerciveReportingEscape32Aya: 私は今、
+  AyaShameimarusCoerciveReportingEscape33Aya: あなたの後ろにいます！
+  AyaShameimarusCoerciveReportingDetonate1Aya: 危険物取扱者資格はお持ちで？
+  AyaShameimarusCoerciveReportingDetonate2Rin: 危険物取扱者資格って？
+  AyaShameimarusCoerciveReportingDetonate3Aya: おまわりさん、こいつです！
+  AyaShameimarusCoerciveReportingDetonate4Rin: 待って！話を聞いて！
+  AyaShameimarusCoerciveReportingDetonate5Rin: 助けてください！さとり様ぁぁぁ！
+  AyaShameimarusCoerciveReportingNohofDarkness1Aya: ここはちょっと暗い過ぎますね。電気をつけましょう。
+  AyaShameimarusCoerciveReportingNohofDarkness2Kokoro: 目が！目がぁぁ！

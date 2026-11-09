@@ -1,0 +1,11 @@
+﻿AyaToolCrowsEgg:
+  LockedDescription: 샤메이마루 아야로 노멀 모드 이상의 사건을 해결하면 잠금 해제됩니다.
+  Description: >-
+    체력을 {Value1} 얻습니다.
+
+    |일시 화력|을 {Value1} 얻습니다.
+
+    {PlayerName}의 턴 시작 시, 이 효과를 1씩 줄여가며 반복합니다.
+
+    |제한【{DeckCounter}】|
+  Name: 까마귀알

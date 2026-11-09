@@ -1,0 +1,12 @@
+﻿FlandreCrystallineOutburst:
+  Description: >-
+    |供物|{Value1}。
+
+    |混沌のクリスタル|、|悪魔のクリスタル|、|狂気のクリスタル|、|孤独のクリスタル|がすべて発動した時、|破滅のクリスタル|{FlandreValue2}枚を手札に加える。
+  UpgradedDescription: >-
+    |供物|{Value1}。
+
+    |混沌のクリスタル|、|悪魔のクリスタル|、|狂気のクリスタル|、|孤独のクリスタル|がすべて発動した時、|破滅のクリスタル|{FlandreValue2}枚を手札に加える。
+
+    |クリスタル|{Value3}枚を山札に加える。
+  Name: 結晶の爆発

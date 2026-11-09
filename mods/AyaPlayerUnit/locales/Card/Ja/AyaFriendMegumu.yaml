@@ -1,0 +1,5 @@
+﻿AyaFriendMegumu:
+  Description: '{FriendP}|f:Supervision|: |厄災|または状態異常カードが|廃棄|されるたび、{Mana}を得る。'
+  ExtraDescription1: '{FriendA}|a:Exploitation|: ライフを{Value1}失う、{Mana2}を得てカードを{Value2}枚引く。この効果は前のターンに|厄災|や状態異常カードを|廃棄|してなかった時も発動する。'
+  ExtraDescription3: '{FriendU}|u:虹光「光風霽月」|: 敵全体に{Damage2}ダメージを与える。|厄災|または状態異常カードが廃棄されるたび、{Mana3}を得てカードを{Value3}枚引く。|精密|'
+  Name: 鴉天狗の大将、龍

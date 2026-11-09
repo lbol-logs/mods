@@ -1,0 +1,9 @@
+﻿FlandreFriendOkinaSpring:
+  Description: "{FriendP}|f:Power of Spring|: Whenever {Value1} black card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and add {Value2} |Crystal{Value2:plural one='' other='s'}| to the hand. ({Amount:plural one='% card' other='% cards'} left.)"
+  UpgradedDescription: "{FriendP}|f:Power of Spring|: Whenever {Value1} black card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and add {Value2} |Crystal{Value2:plural one='' other='s'}+{Value3}| to the hand. ({Amount:plural one='% card' other='% cards'} left.)"
+  NonbattleDescription: "{FriendP}|f:Power of Spring|: Whenever {Value1} black card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and add {Value2} |Crystal{Value2:plural one='' other='s'}| to the hand."
+  UpgradedNonbattleDescription: "{FriendP}|f:Power of Spring|: Whenever {Value1} black card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and add {Value2} |Crystal{Value2:plural one='' other='s'}+{Value3}| to the hand."
+  ExtraDescription1: '{FriendA}|a:Season Release|: Choose 1 of {Value4} |Seasons|. {SelfName} gains their effects.'
+  ExtraDescription3: "{FriendU}|u:「Hidden Breezy Cherry Blossom」|: At the start of {PlayerName}'s turn, gain {Value5} life, {Value5} |Amulet| and |Ward|."
+  Name: Okina, Absolute Secret God - Spring
+  DetailText: '{SelfName} cannot be randomly generated in combat, and cannot be copied.'

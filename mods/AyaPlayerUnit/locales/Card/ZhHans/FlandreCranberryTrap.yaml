@@ -1,0 +1,10 @@
+﻿FlandreCranberryTrap:
+  Description: >-
+    于{PlayerName}回合结束时，对所有敌人造成 {Value1} 点 |精准| 攻击伤害。
+
+    当{PlayerName}因敌人而失去生命时，将所有 |蔓越莓陷阱| 转换为|护盾|。
+  UpgradedDescription: >-
+    于{PlayerName}回合结束时，对所有敌人造成 {Value1} 点 |精准| 攻击伤害。
+
+    当{PlayerName}因敌人而失去生命时，将所有 |蔓越莓陷阱| 转换为|护盾|。
+  Name: 蔓越莓陷阱

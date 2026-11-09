@@ -1,0 +1,5 @@
+﻿AyaHraesvelgrofTerminus:
+  Description: 次の{PlayerName}のターンまで、全ての敵の|ブロック|、|バリア|、全てのバフは無効化される。
+  UpgradedDescription: 次の{PlayerName}のターンまで、全ての敵の|ブロック|、|バリア|、全てのバフは無効化される。
+  Name: 終末のフレースヴェルグ
+  DetailText: '{SelfName}は戦闘中に作成されることはなく、コピーすることもできない。'

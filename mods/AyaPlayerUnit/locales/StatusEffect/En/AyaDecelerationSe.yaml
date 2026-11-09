@@ -1,0 +1,4 @@
+﻿AyaDecelerationSe:
+  Brief: Activated if the Player has at least X |Acceleration|, consuming that |Acceleration|.
+  Description: Activated if the Player has at least X |Acceleration|, consuming that |Acceleration|.
+  Name: Deceleration X

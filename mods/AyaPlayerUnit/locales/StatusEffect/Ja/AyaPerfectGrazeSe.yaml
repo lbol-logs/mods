@@ -1,0 +1,10 @@
+﻿AyaPerfectGrazeSe:
+  Brief: >-
+    {OwnerName}が受ける|精密|攻撃ダメージを0にする。
+
+    |精密|攻撃される時に1減少する。
+  Description: >-
+    {OwnerName}が受ける次の{Level}回の|精密|攻撃ダメージを0にする。
+
+    |精密|攻撃される時に1減少する。
+  Name: 完全グレイズ

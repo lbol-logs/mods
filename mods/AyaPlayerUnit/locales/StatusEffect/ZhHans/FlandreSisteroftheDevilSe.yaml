@@ -1,0 +1,11 @@
+﻿FlandreSisteroftheDevilSe:
+  Brief: >-
+    {PlayerName} 免疫 |虚弱|、|脆弱| 和 |易伤|。
+
+    {PlayerName} 的攻击造成 {Value1}% 更多伤害，从牌中获得 {Value1}% 更多 |护盾| 和 |护盾|，并受到 {Value2}% 更少的攻击伤害。
+  Description: >-
+    {PlayerName} 免疫 |虚弱|、|脆弱| 和 |易伤|。
+
+    {PlayerName} 的攻击造成 {Value1}% 更多伤害，从牌中获得 {Value1}% 更多 |护盾| 和 |护盾|，并受到 {Value2}% 更少的攻击伤害。
+  PhantasmModeDescription: '{PlayerName} 免疫 |虚弱|、|脆弱| 和 |易伤|。'
+  Name: 恶魔之妹

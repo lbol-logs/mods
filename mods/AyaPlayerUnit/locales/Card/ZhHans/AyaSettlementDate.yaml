@@ -1,0 +1,20 @@
+﻿AyaSettlementDate:
+  Description: >-
+    获得 {Value1}|火力|。
+
+    获得 {Value2} <sprite="Point" name="Gold">。
+
+    每当一张|崩坏|或状态牌被|放逐|时，|永久| 增加 {SelfName} 的 <sprite="Point" name="Gold"> {Value1}。
+
+    |限制【{ToolPlayableTimes}】|
+  UpgradedDescription: >-
+    获得 {Value1}|火力|。
+
+    获得 {Value2} <sprite="Point" name="Gold">。
+
+    每当一张|崩坏|或状态牌被|放逐|时，|永久| 增加 {SelfName} 的 <sprite="Point" name="Gold"> {Value1}。
+
+    |限制【{ToolPlayableTimes}】|
+  Name: 结算日
+  DetailText: '{SelfName} 无法在战斗中随机生成，也无法被复制。'
+  FlavorText: 发薪日到了，伙计们！

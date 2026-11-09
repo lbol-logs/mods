@@ -1,0 +1,10 @@
+﻿AyaLittleSalvation:
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    |加速|{Value1}と|臨時火力|{Value1}を得る。
+  UpgradedDescription: >-
+    {Block}|ブロック|を得る。
+
+    |加速|{Value1}と|臨時火力|{Value1}を得る。
+  Name: 小さな救い

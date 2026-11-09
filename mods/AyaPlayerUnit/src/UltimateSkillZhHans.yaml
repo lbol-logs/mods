@@ -1,0 +1,67 @@
+AyaBossFlandreUlt1:
+  Title: 禁忌
+  Content: 蔓越莓陷阱
+AyaBossFlandreUlt2:
+  Title: 禁忌
+  Content: 莱万汀
+AyaBossFlandreUlt3:
+  Title: 禁忌
+  Content: 四重存在
+AyaBossFlandreUlt4:
+  Title: 禁忌
+  Content: 笼中鸟
+AyaBossFlandreUlt5:
+  Title: 禁忌
+  Content: 恋之迷宫
+AyaBossFlandreUlt6:
+  Title: Forbidden Barrage
+  Content: 星虹破碎
+AyaBossFlandreUlt7:
+  Title: Forbidden Barrage
+  Content: 折反射
+AyaBossFlandreUlt8:
+  Title: 禁忌
+  Content: 刻着过去的钟表
+AyaBossFlandreUlt9:
+  Title: 秘弹
+  Content: 之后就一个人都没有了吗？
+AyaBossFlandreUlt10:
+  Title: Q.E.D.
+  Content: 493年的波纹
+AyaBossZUNUlt:
+  Title: 饮符
+  Content: 你的免费生存体验卡已经到期
+AyaChameleonHyperSpeedScratch:
+  Title: 爪符
+  Content: 极速爪击
+AyaUltR:
+  Title: 旋符
+  Content: 红叶扇风
+  Description: "获得 {Value1} 层|加速|。\n对所有敌人造成 {Damage} 点伤害，并施加等同于{PlayerName}|加速|层数的|暂失火力|。|精准|"
+AyaUltG:
+  Title: 突符
+  Content: 天狗巨暴流
+  Description: "造成 {Damage} 点伤害。|精准|\n抽 {Value1} 张牌。然后，打出并|放逐|手中所有的|厄运|和状态牌。"
+AyaUltAdvent:
+  Title: 塞符
+  Content: 天孙降临
+AyaUltIllusionary:
+  Title: 
+  Content: 幻想风靡
+AyaUltPeerless:
+  Title: 
+  Content: 无双风神
+AyaUltTerukuni:
+  Title: 塞符
+  Content: 天上天下的照国
+FlandreUltB:
+  Title: 禁忌
+  Content: 恨之迷宫
+  Description: "获得 {Shield} 点|护盾|。\n对所有敌人造成 {Damage} 点伤害。|精准|\n将等同于敌人数量的随机的|水晶|加入手中。"
+FlandreUltR:
+  Title: 禁忌
+  Content: 莱瓦汀
+  Description: "对所有敌人施加 {Value1} 层|地狱火|。\n触发所有敌人的|地狱火|效果。"
+FlandreUltRipples:
+  Title: Q.E.D.
+  Content: 493年的波纹

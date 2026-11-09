@@ -1,0 +1,10 @@
+﻿FlandreDevilsFlesh:
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    체력을 {Value1} 얻습니다.
+  UpgradedDescription: >-
+    |방어|를 {Block} 얻습니다.
+
+    체력을 {Value1} 얻습니다.
+  Name: 악마의 살점

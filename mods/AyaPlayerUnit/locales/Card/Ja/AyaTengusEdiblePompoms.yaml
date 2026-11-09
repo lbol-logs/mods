@@ -1,0 +1,22 @@
+﻿AyaTengusEdiblePompoms:
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    ライフを{Value1}回復する。
+
+    <sprite="Point" name="Power">{Value1}を得る。
+
+    |戦闘開始時|：{PlayerName}の{Value2}ターン目の終了時、{SelfName}を|廃棄|する。
+  UpgradedDescription: >-
+    {Block}|ブロック|を得る。
+
+    ライフを{Value1}回復する。
+
+    <sprite="Point" name="Power">{Value1}を得る。
+
+    |戦闘開始時|：{PlayerName}の{Value2}ターン目の終了時、{SelfName}を|廃棄|する。
+  Name: 天狗の結袈裟(食用)
+  FlavorText: >-
+    「椛のは味噌味だわ」
+
+    - 射命丸文

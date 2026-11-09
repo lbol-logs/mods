@@ -1,0 +1,10 @@
+﻿FlandreCranberryTrapSe:
+  Brief: >-
+    {PlayerName}のターン終了時、すべての敵攻撃ダメージを与える。|精密|
+
+    {PlayerName}が敵からライフを失ったとき、|バリア|を得てすべての|クランベリートラップ|を失う。
+  Description: >-
+    {PlayerName}のターン終了時、すべての敵に{Damage}攻撃ダメージを与える。|精密|
+
+    {PlayerName}が敵からライフを失ったとき、|バリア|{Amount}を得てすべての|クランベリートラップ|を失う。
+  Name: クランベリートラップ

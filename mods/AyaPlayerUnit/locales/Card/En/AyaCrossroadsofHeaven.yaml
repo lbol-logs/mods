@@ -1,0 +1,12 @@
+﻿AyaCrossroadsofHeaven:
+  Description: >-
+    Gain {Value1} |Acceleration|.
+
+    Whenever {PlayerName} gains |Acceleration|, gain {Value2} more |Acceleration|.
+  UpgradedDescription: >-
+    Gain {Value1} |Acceleration|.
+
+    Whenever {PlayerName} gains |Acceleration|, gain {Value2} more |Acceleration|.
+  PhantasmModeDescription: Whenever {PlayerName} gains |Acceleration|, gain {Value2} more |Acceleration|.
+  PhantasmModeUpgradedDescription: Whenever {PlayerName} gains |Acceleration|, gain {Value2} more |Acceleration|.
+  Name: Crossroads of Heaven

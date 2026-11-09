@@ -1,0 +1,14 @@
+﻿AyaDaymareintheDarkNight:
+  Description: >-
+    {Damage}ダメージを与える。
+
+    次の{PlayerName}のターンまで、{PlayerName}が|加速|を得るたび、ライフが最も少ない敵に{Damage}ダメージを与える。それは|精密|を持つ。
+
+    |加速|{Value1}を得る。
+  UpgradedDescription: >-
+    {Damage}ダメージを与える。
+
+    次の{PlayerName}のターンまで、{PlayerName}が|加速|を得るたび、ライフが最も少ない敵に{Damage}ダメージを与える。それは|精密|を持つ。
+
+    |加速|{Value1}を得る。
+  Name: 暗夜のデイメア

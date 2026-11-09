@@ -1,0 +1,10 @@
+﻿FlandreGrowingGemstones:
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    무작위 |파편|을 {Value1}장 손에 추가합니다.
+  UpgradedDescription: >-
+    |방어|를 {Block} 얻습니다.
+
+    무작위 |파편|을 {Value1}장 손에 추가합니다.
+  Name: 자라나는 보석

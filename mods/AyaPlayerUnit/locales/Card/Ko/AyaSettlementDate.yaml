@@ -1,0 +1,20 @@
+﻿AyaSettlementDate:
+  Description: >-
+    |화력|을 {Value1} 얻습니다.
+
+    <sprite="Point" name="Gold">를 {Value2} 얻습니다.
+
+    |액운| 또는 상태 카드가 |소멸|할 때 마다, |영구적으로| {SelfName}의 <sprite="Point" name="Gold">값이 {Value1}증가합니다.
+
+    |사용제한【{ToolPlayableTimes}】|
+  UpgradedDescription: >-
+    |화력|을 {Value1} 얻습니다.
+
+    <sprite="Point" name="Gold">를 {Value2} 얻습니다.
+
+    |액운| 또는 상태 카드가 |소멸|할 때 마다, |영구적으로| {SelfName}의 <sprite="Point" name="Gold">값이 {Value1}증가합니다.
+
+    |사용제한【{ToolPlayableTimes}】|
+  Name: 결산일
+  DetailText: '{SelfName}은 전투중 무작위로 생성되지 않으며 복사되지 않습니다.'
+  FlavorText: 월급날이다!

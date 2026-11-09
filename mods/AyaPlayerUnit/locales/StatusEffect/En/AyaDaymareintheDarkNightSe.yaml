@@ -1,0 +1,4 @@
+﻿AyaDaymareintheDarkNightSe:
+  Brief: Until {PlayerName}'s next turn, whenever {PlayerName} gains |Acceleration|, deal |Accurate| attack damage to the enemy with the least life.
+  Description: Until {PlayerName}'s next turn, whenever {PlayerName} gains |Acceleration|, deal {Damage} |Accurate| attack damage to the enemy with the least life.
+  Name: Daymare in the Dark Night

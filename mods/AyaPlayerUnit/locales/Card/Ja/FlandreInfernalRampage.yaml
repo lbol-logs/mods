@@ -1,0 +1,10 @@
+﻿FlandreInfernalRampage:
+  Description: >-
+    |p:ランダム|な敵1体に{FlandreDamage}ダメージを与え、|業火|{FlandreValue1}を与えることを{FlandreValue2}回行う。
+
+    |火力|{Value3}を得る。
+  UpgradedDescription: >-
+    |p:ランダム|な敵1体に{FlandreDamage}ダメージを与え、|業火|{FlandreValue1}を与えることを{FlandreValue2}回行う。
+
+    |火力|{Value3}を得る。
+  Name: 灼熱の暴走

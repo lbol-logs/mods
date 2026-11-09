@@ -1,0 +1,6 @@
+﻿AyaFriendMomiji:
+  Description: '{FriendP}|f:천리안|: |예지| {Scry}.'
+  ExtraDescription1: '{FriendP2}|f:추격|: {PlayerName}가 공격 피해를 가하면, 그 대상에게 피해를 {Damage} 줍니다.'
+  ExtraDescription2: '{FriendP2}|f:받아넘기기|: {PlayerName}가 공격 피해를 받아 체력을 잃으려할때, |보호막|을 {PassiveBarrier} 얻습니다.'
+  ExtraDescription3: '{FriendU}|u:아부「저작완미」|: 체력이 가장 적은 적에게 피해를 {Damage2} 줍니다. |퇴치|: 체력을 {Value1} 회복합니다. |명중|'
+  Name: 모미지, 귀여운 백랑 텐구

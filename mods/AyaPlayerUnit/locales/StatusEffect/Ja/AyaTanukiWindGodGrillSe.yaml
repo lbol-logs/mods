@@ -1,0 +1,7 @@
+﻿AyaTanukiWindGodGrillSe:
+  Brief: >-
+    {OwnerName}が|風神グリル|を得るたび、同じ数の|グレイビーソース|を得る。
+
+    {OwnerName}のターン終了時、|グレイビーソース|が補充される。
+  Description: '{OwnerName}のターン終了時、|グレイビーソース|が{Level}まで補充される。'
+  Name: 風神グリル

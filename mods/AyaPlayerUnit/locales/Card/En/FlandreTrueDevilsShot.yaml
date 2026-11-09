@@ -1,0 +1,10 @@
+﻿FlandreTrueDevilsShot:
+  Description: >-
+    Deal {FlandreDamage} damage.
+
+    Gain {FlandreValue1} life.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage.
+
+    Gain {FlandreValue1} life.
+  Name: True Devil's Shot

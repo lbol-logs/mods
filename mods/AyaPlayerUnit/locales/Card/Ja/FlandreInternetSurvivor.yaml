@@ -1,0 +1,18 @@
+﻿FlandreInternetSurvivor:
+  Description: >-
+    {PlayerName}からすべての|デバフ|を解除する。
+
+    ライフを{FlandreValue1}%回復する。({Amount})
+  UpgradedDescription: >-
+    {PlayerName}からすべての|デバフ|を解除する。
+
+    ライフを{FlandreValue1}%回復する。({Amount})
+  NonbattleDescription: >-
+    {PlayerName}からすべての|デバフ|を解除する。
+
+    ライフを{FlandreValue1}%回復する。
+  UpgradedNonbattleDescription: >-
+    {PlayerName}からすべての|デバフ|を解除する。
+
+    ライフを{FlandreValue1}%回復する。
+  Name: インターネットサバイバー

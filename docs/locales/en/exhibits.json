@@ -1,4 +1,81 @@
 {
+  "Aya1up": {
+    "Name": "1up",
+    "Description": "The next time <PlayerName /> would be defeated, heal to maximum life and remove all debuffs instead. This effect only works once."
+  },
+  "AyaG": {
+    "Name": "Aya's Camera",
+    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Aya</h> are added to the card pool.<br />When a <h>Misfortune</h> or Status card is <h>Exiled</h> for the first time each turn, gain <Mana />.<br /><h>Bunbunmaru Newspaper</h> deals <Value1 /> damage, apply <Value2 /> <h>Lock On</h> and has <h>Replenish</h>.<br /><h>Kakashi Spirit News</h> has <h>Replenish</h>."
+  },
+  "AyaKhakkhara": {
+    "Name": "Khakkhara",
+    "Description": "At the start of combat, gain <Value1 /> <h>Perfect Graze</h>."
+  },
+  "AyaNewsboyCap": {
+    "Name": "Aya's Newsboy Cap",
+    "Description": "When a <h>Misfortune</h> or Status card is <h>Exiled</h> for the first time each turn, gain <Value1 /> <h>Barrier</h>."
+  },
+  "AyaNewspaperBag": {
+    "Name": "Newspaper Bag",
+    "Description": "At the start of combat, add {Value1:plural one='% <h>Bunbunmaru Newspaper</h>' other='% <h>Bunbunmaru Newspapers</h>'} to the draw pile. {Value1:plural one='It <h>costs</h>' other='They <h>cost</h>'} <Mana />."
+  },
+  "AyaR": {
+    "Name": "Hauchiwa Fan",
+    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Aya</h> are added to the card pool.<br />At the start of combat, gain <Value1 /> <h>Acceleration</h>.<br /><h>Bunbunmaru Newspaper</h> deals <Value2 /> damage, apply <Value3 /> <h>Lock On</h> and has <h>Replenish</h>.<br /><h>Kakashi Spirit News</h> has <h>Replenish</h>."
+  },
+  "AyaTanukisLeaf": {
+    "Name": "Young Tanuki's Leaf",
+    "Description": "Increase the chance to find Rare cards."
+  },
+  "FlandreB": {
+    "Name": "Ace of Diamonds",
+    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Flandre</h> are added to the card pool.<br />When a <h>Crystal</h> is activated for the first time each turn, gain <Mana />."
+  },
+  "FlandreBranchofCalamity": {
+    "Name": "Branch of Calamity",
+    "Description": "<PlayerName />'s attacks deal <Value1 />% more damage.<br />This Exhibit cannot be lost."
+  },
+  "FlandreBrokenHorn": {
+    "Name": "Broken Horn",
+    "Description": "At the start of combat, Gain <Value1 /> <h>Calamity</h>."
+  },
+  "FlandreDevilPlushie": {
+    "Name": "Devil Plushie",
+    "Description": "At the start of <PlayerName />'s turn, gain <Mana />."
+  },
+  "FlandreDevilsGold": {
+    "Name": "Devil's Gold",
+    "Description": "Whenever <PlayerName /> applies <h>Ruin</h>, apply <Value1 /> more <h>Ruin</h>.<br />Whenever an enemy with <h>Ruin</h> is defeated, gain <Value2 /> <Money />."
+  },
+  "FlandreFlan": {
+    "Name": "Flan",
+    "Description": "At the end of combat, gain <Value1 /> life."
+  },
+  "FlandreMagicalGirlContract": {
+    "Name": "Magical Girl Contract",
+    "Description": "Whenever <PlayerName /> adds a card during combat, <h>Upgrade</h> it.<br />This Exhibit cannot be lost."
+  },
+  "FlandreMindStabilizer": {
+    "Name": "Mind Stabilizer",
+    "Description": "Whenever <PlayerName /> advances a level, lose <Value1 /> <h>Madness</h>."
+  },
+  "FlandrePortableAltar": {
+    "Name": "Portable Altar",
+    "Description": "At the start of combat, gain <Value1 /> <h>Spirit</h>.<br />Whenever a card is <h>Exiled</h> by <h>Offering</h>, gain <Value2 /> <h>Block</h>."
+  },
+  "FlandreR": {
+    "Name": "Burnt Polaroid",
+    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Flandre</h> are added to the card pool.<br />When <PlayerName /> applies <h>Hellfire</h> for the first time each turn, gain <Mana />."
+  },
+  "FlandreSeedofCorruption": {
+    "Name": "Seed of Corruption",
+    "Description": "??????????"
+  },
+  "FlandreTornTeddyBear": {
+    "Name": "Torn Teddy Bear",
+    "Description": "At the start of combat, Gain <Value1 /> <h>Firepower</h>.<br />The effect of <h>Bloodlust</h> is further increased by <he>{Value4}</he>% for every 1% of <PlayerName />'s life lost."
+  },
+
   "exexa": {
     "Name": "Honored Darkness",
     "Description": "Adds <Mana /> to the mana base. Cards unique to <h>EX Rumia</h> are added to the card pool.<br />At the start of the first turn each combat, apply <Value1 /> <h>Blood Mark</h> to each enemy.<br /><PlayerName />'s attack damage is increased by <Value2 />% of life lost (rounded up)."

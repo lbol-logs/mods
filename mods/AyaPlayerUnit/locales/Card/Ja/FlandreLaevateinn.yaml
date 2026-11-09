@@ -1,0 +1,14 @@
+﻿FlandreLaevateinn:
+  Description: >-
+    敵全体に{FlandreDamage}ダメージを与え、|業火|{FlandreValue1}を与える。
+
+    この効果は|火力|{FlandreValue2:plural one='%回' other='%回'}の影響を受ける。
+
+    敵全体の|業火|を{Value3:plural one='%回' other='%回'}発動する。
+  UpgradedDescription: >-
+    敵全体に{FlandreDamage}ダメージを与え、|業火|{FlandreValue1}を与える。
+
+    この効果は|火力|{FlandreValue2:plural one='%回' other='%回'}の影響を受ける。
+
+    敵全体の|業火|を{Value3:plural one='%回' other='%回'}発動する。
+  Name: レーヴァテイン

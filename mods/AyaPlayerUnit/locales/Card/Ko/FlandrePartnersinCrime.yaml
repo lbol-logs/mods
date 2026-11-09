@@ -1,0 +1,22 @@
+﻿FlandrePartnersinCrime:
+  Description: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    피해를 {Damage} 줍니다.
+
+    손에 있는 카드 1장을 발동합니다.
+
+    그 카드가 공격 카드라면 {Mana}와 |화력| {Value2}를 얻고,
+
+    방어 카드라면 {Mana2}와 |영력| {Value2}를 얻습니다.
+  UpgradedDescription: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    피해를 {Damage} 줍니다.
+
+    손에 있는 카드 1장을 발동합니다.
+
+    그 카드가 공격 카드라면 {Mana}와 |화력| {Value2}를 얻고,
+
+    방어 카드라면 {Mana2}와 |영력| {Value2}를 얻습니다.
+  Name: 범죄 공범

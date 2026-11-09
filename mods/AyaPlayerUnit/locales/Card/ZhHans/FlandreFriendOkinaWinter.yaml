@@ -1,0 +1,6 @@
+﻿FlandreFriendOkinaWinter:
+  Description: '{FriendP}|f:冬之力|:每当消耗{Mana}时，获得 {Value1} 点|崩坏|。({Count} 次剩余)'
+  NonbattleDescription: '{FriendP}|f:凛风权能|:每当消耗{Mana}时，获得 {Value1} 点|崩坏|。'
+  ExtraDescription1: '{FriendA}|a:季相解放|:从{Value2}种 |季节| 中选择1种。 {SelfName} 获得其效果。'
+  ExtraDescription3: '{FriendU}|u:「里·极端寒冬」|:每当打出卡牌时，获得 {Value3} 点 |充能|。'
+  Name: 绝对秘神隐岐奈 - 冬

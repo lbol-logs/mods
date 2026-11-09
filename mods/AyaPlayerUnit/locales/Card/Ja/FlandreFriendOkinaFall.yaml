@@ -1,0 +1,7 @@
+﻿FlandreFriendOkinaFall:
+  Description: '{FriendP}|f:秋の力|：赤色カードを{Value1}枚発動するたび、{FlandreMana}を得て、敵全体に|業火|{FlandreValue2}を与える。（残り{Amount}枚）'
+  NonbattleDescription: '{FriendP}|f:秋の力|：赤色カードを{Value1}枚発動するたび、{FlandreMana}を得て、敵全体に|業火|{FlandreValue2}を与える。'
+  ExtraDescription1: '{FriendA}|a:季節解放|：{Value3}種類の|季節|から1つ選ぶ。{SelfName}はその効果を得る。'
+  ExtraDescription3: '{FriendU}|u:「裏・クレイジーフォールウィンド」|：カードが|廃棄|されるたび、|かすり|{Value4}を得る。'
+  Name: 究極の絶対秘神、隠岐奈(秋)
+  DetailText: '{SelfName}は戦闘中にランダム生成されず、コピーもできない。'

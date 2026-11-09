@@ -1,0 +1,23 @@
+﻿AyaTengusDrumbeats:
+  Description: >-
+    Deal {Damage} damage to each enemy.
+
+    Gain {Value1} |Temporary Firepower|.
+
+    |Deceleration {Value1}|: Repeat these effects at the start of {PlayerName}'s next turn.
+  UpgradedDescription: >-
+    Deal {Damage} damage to each enemy.
+
+    Gain {Value1} |Temporary Firepower|.
+
+    |Deceleration {Value1}|: Repeat these effects at the start of {PlayerName}'s next turn.
+  PhantasmModeDescription: >-
+    Deal {Damage} damage to each enemy.
+
+    |Deceleration {Value1}|: Repeat this effect at the start of {PlayerName}'s next turn.
+  PhantasmModeUpgradedDescription: >-
+    Deal {Damage} damage to each enemy.
+
+    |Deceleration {Value1}|: Repeat this effect at the start of {PlayerName}'s next turn.
+  Name: Tengu's Drumbeats
+  FlavorText: Aya the Rock!

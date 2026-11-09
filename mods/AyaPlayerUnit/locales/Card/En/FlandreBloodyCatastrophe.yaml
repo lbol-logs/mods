@@ -1,0 +1,14 @@
+﻿FlandreBloodyCatastrophe:
+  Description: >-
+    Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.
+
+    Gain {FlandreValue2} life.
+
+    {PlayerName}'s attacks become |Accurate| until the end of combat.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.
+
+    Gain {FlandreValue2} life.
+
+    {PlayerName}'s attacks become |Accurate| until the end of combat.
+  Name: Bloody Catastrophe

@@ -1,0 +1,1 @@
+﻿{EnemyGroupConfig Id=, IsSub=False, Subs=[], Name=AyaTakane, FormationName=Single, Enemies=[AyaTakane], EnemyType=Elite, Hidden=False, DebutTime=1, RollBossExhibit=False, PlayerRoot=(-4.00, 0.50), PreBattleDialogName=, PostBattleDialogName=, Environment=}

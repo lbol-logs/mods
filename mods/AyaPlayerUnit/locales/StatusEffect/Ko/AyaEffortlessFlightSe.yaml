@@ -1,0 +1,4 @@
+﻿AyaEffortlessFlightSe:
+  Brief: '{PlayerName}의 턴 시작시, |가속|을 얻습니다.'
+  Description: '{PlayerName}의 턴 시작시, |가속|을 {Level} 얻습니다.'
+  Name: 편안한 비행

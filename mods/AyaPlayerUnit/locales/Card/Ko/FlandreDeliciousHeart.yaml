@@ -1,0 +1,10 @@
+﻿FlandreDeliciousHeart:
+  Description: >-
+    체력을 {Value1} 회복합니다.
+
+    {SelfName}의 회복량이 |영구히| {Value2} 증가합니다.
+  UpgradedDescription: >-
+    체력을 {Value1} 회복합니다.
+
+    {SelfName}의 회복량이 |영구히| {Value2} 증가합니다.
+  Name: 맛있는 심장

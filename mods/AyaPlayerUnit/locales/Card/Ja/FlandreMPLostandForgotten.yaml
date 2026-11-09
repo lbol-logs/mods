@@ -1,0 +1,14 @@
+﻿FlandreMPLostandForgotten:
+  Description: >-
+    全プレイヤーは{FlandreBlock}|ブロック|、{FlandreShield}|バリア|を得る。
+
+    |廃棄された時|：|火力|{FlandreValue1}得て、敵全体に|破滅|{FlandreValue2}を与える。
+
+    |代償|{Mana}。
+  UpgradedDescription: >-
+    全プレイヤーは{FlandreBlock}|ブロック|、{FlandreShield}|バリア|を得る。
+
+    |廃棄された時|：|火力|{FlandreValue1}得て、敵全体に|破滅|{FlandreValue2}を与える。
+
+    |代償|{Mana}。
+  Name: 失われしもの、忘れられしもの

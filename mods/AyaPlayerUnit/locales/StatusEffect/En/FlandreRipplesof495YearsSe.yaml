@@ -1,0 +1,18 @@
+﻿FlandreRipplesof495YearsSe:
+  Brief: >-
+    {PlayerName} is immune to all debuffs.
+
+    Convert all mana {PlayerName} would gain this combat to <sprite="ManaSprite" name="P">.
+
+    Unspent mana isn't lost at the end of each turn.
+
+    All cards are played additional times.
+  Description: >-
+    {PlayerName} is immune to all debuffs.
+
+    Convert all mana {PlayerName} would gain this combat to <sprite="ManaSprite" name="P">.
+
+    Unspent mana isn't lost at the end of each turn.
+
+    All cards are played {Level:plural one='% additional time' other='% additional times'}.
+  Name: Ripples of 495 Years

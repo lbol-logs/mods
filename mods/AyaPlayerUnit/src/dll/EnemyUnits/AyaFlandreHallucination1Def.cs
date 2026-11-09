@@ -1,0 +1,35 @@
+﻿using System;
+using System.Runtime.CompilerServices;
+using LBoL.Base;
+using LBoL.ConfigData;
+using LBoLEntitySideloader;
+using LBoLEntitySideloader.Entities;
+using LBoLEntitySideloader.Resource;
+
+namespace AyaShameimaru.EnemyUnits
+{
+	public sealed class AyaFlandreHallucination1Def : EnemyUnitTemplate
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override IdContainer GetId()
+		{
+			return <Module>.\u202D\u206A\u202E\u202B\u206C\u200E\u206B\u206E\u200F\u206E\u200C\u202E\u206F\u200C\u206D\u200B\u206E\u200F\u200D\u202A\u206F\u202E\u200E\u206D\u206D\u206F\u202D\u200C\u206F\u202A\u200B\u202E\u206C\u206A\u206B\u202A\u206C\u202E\u200D\u202B\u202E<string>(-12491452);
+		}
+
+		public override LocalizationOption LoadLocalization()
+		{
+			return AyaFlandreHallucination1Def.\u202E\u206D\u202B\u200C\u206A\u202E\u200F\u200B\u206C\u202D\u202D\u200C\u200F\u206C\u206D\u206A\u202E\u202B\u202D\u202D\u200D\u202B\u206A\u202D\u206B\u206C\u202D\u200C\u202A\u202C\u202B\u200B\u200E\u206C\u202B\u206B\u202D\u206A\u202B\u202A\u202E(BepinexPlugin.enemyUnitLoc, this);
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override EnemyUnitConfig MakeConfig()
+		{
+			return new EnemyUnitConfig(<Module>.\u206A\u202A\u202B\u206E\u202B\u206A\u202E\u206A\u202A\u200D\u202B\u206E\u200B\u202A\u206D\u206E\u200C\u206B\u200D\u206B\u200F\u202A\u206D\u206E\u206E\u200B\u200C\u206D\u206D\u200D\u200E\u202A\u206C\u206A\u202D\u206C\u202B\u200E\u206A\u200F\u202E<string>(-1703008229), true, false, null, 10, null, <Module>.\u202D\u206A\u202E\u202B\u206C\u200E\u206B\u206E\u200F\u206E\u200C\u202E\u206F\u200C\u206D\u200B\u206E\u200F\u200D\u202A\u206F\u202E\u200E\u206D\u206D\u206F\u202D\u200C\u206F\u202A\u200B\u202E\u206C\u206A\u206B\u202A\u206C\u202E\u200D\u202B\u202E<string>(1879721685), EnemyType.Elite, false, null, null, 5555, new int?(0), null, null, null, new int?(1), null, new int?(2), null, new int?(7777), new int?(0), null, null, null, new int?(2), null, new int?(4), null, new int?(9999), new int?(0), null, null, null, new int?(3), null, new int?(6), null, new MinMax(50, 50), new MinMax(100, 100), new string[] { <Module>.\u202D\u206A\u202E\u202B\u206C\u200E\u206B\u206E\u200F\u206E\u200C\u202E\u206F\u200C\u206D\u200B\u206E\u200F\u200D\u202A\u206F\u202E\u200E\u206D\u206D\u206F\u202D\u200C\u206F\u202A\u200B\u202E\u206C\u206A\u206B\u202A\u206C\u202E\u200D\u202B\u202E<string>(1341462283) }, new string[] { <Module>.\u202D\u206A\u202E\u202B\u206C\u200E\u206B\u206E\u200F\u206E\u200C\u202E\u206F\u200C\u206D\u200B\u206E\u200F\u200D\u202A\u206F\u202E\u200E\u206D\u206D\u206F\u202D\u200C\u206F\u202A\u200B\u202E\u206C\u206A\u206B\u202A\u206C\u202E\u200D\u202B\u202E<string>(1341462283) }, new string[] { <Module>.\u200C\u200F\u206A\u200D\u202B\u200C\u206F\u206A\u200C\u206D\u206C\u206E\u200C\u202B\u200C\u200C\u202A\u206D\u202E\u200F\u202D\u206C\u206C\u202B\u206A\u202C\u202D\u206C\u202C\u200D\u200F\u200F\u202C\u202C\u202B\u200D\u200E\u206D\u206D\u202E\u202E<string>(-497217431) }, new string[] { <Module>.\u200C\u200F\u206A\u200D\u202B\u200C\u206F\u206A\u200C\u206D\u206C\u206E\u200C\u202B\u200C\u200C\u202A\u206D\u202E\u200F\u202D\u206C\u206C\u202B\u206A\u202C\u202D\u206C\u202C\u200D\u200F\u200F\u202C\u202C\u202B\u200D\u200E\u206D\u206D\u202E\u202E<string>(-497217431) });
+		}
+
+		static BatchLocalization \u202E\u206D\u202B\u200C\u206A\u202E\u200F\u200B\u206C\u202D\u202D\u200C\u200F\u206C\u206D\u206A\u202E\u202B\u202D\u202D\u200D\u202B\u206A\u202D\u206B\u206C\u202D\u200C\u202A\u202C\u202B\u200B\u200E\u206C\u202B\u206B\u202D\u206A\u202B\u202A\u202E(BatchLocalization A_0, EntityDefinition A_1)
+		{
+			return A_0.AddEntity(A_1);
+		}
+	}
+}

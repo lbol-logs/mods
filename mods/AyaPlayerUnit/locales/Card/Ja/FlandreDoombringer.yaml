@@ -1,0 +1,7 @@
+﻿FlandreDoombringer:
+  Description: '{PlayerName}のターン開始時、|災禍|{FlandreValue1}を得る。'
+  UpgradedDescription: >-
+    {PlayerName}のターン開始時、|災禍|{FlandreValue1}を得る。
+
+    {SelfName}を1回発動する。
+  Name: 終焉をもたらす者

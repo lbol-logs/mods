@@ -1,0 +1,10 @@
+﻿FlandreBrokenGlass:
+  Description: >-
+    |供物|{Value1}。
+
+    {FlandreDamage}ダメージを{FlandreValue2}回与える。
+  UpgradedDescription: >-
+    |供物|{Value1}。
+
+    {FlandreDamage}ダメージを{FlandreValue2}回与える。
+  Name: 割れたガラス

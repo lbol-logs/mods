@@ -1,0 +1,14 @@
+﻿FlandreDoomsdayClockSe:
+  Brief: >-
+    {PlayerName}가 |파멸|을 두 배로 얻습니다.
+
+    몇 턴 후, |대량파괴병기|를 손에 넣습니다.
+  Description: >-
+    {PlayerName}가 |파멸|을 두 배로 얻습니다.
+
+    {PlayerName}의 {Countdown}턴째 시작 시, |대량학살병기|를 손에 넣습니다.
+  ExtraDescription: >-
+    {PlayerName}가 |파멸|을 두 배로 얻습니다.
+
+    |d:{PlayerName}의 {Countdown}턴째 시작 시, |대량학살병기|를 손에 넣습니다.|
+  Name: 종말의 시계

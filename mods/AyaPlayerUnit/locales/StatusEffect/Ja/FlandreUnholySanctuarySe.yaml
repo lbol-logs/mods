@@ -1,0 +1,10 @@
+﻿FlandreUnholySanctuarySe:
+  Brief: >-
+    {PlayerName}が受けるダメージが半分になる。
+
+    次のターン開始時、前のターンに失ったライフと同じ量のライフを回復する。
+  Description: >-
+    {PlayerName}が受けるダメージが{Duration:plural one='% ターン' other='% ターン'}の間半分になる。
+
+    {PlayerName}の次の{Duration:plural one='% ターン' other='% ターン'}開始時、前のターンに失ったライフと同じ量のライフを回復する。（{Count}）
+  Name: 禁忌の聖域

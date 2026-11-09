@@ -1,0 +1,10 @@
+﻿AyaAccelerationSe:
+  Brief: >-
+    {OwnerName} 的 |闪避| 在回合结束时恢复到固定值，每 4 点 |加速| 恢复一次。
+
+    每当 {OwnerName} |闪避| 一次攻击时，失去 2 点 |加速|。
+  Description: >-
+    {OwnerName} 的 |闪避| 在回合结束时恢复到 {Count}。
+
+    每当 {OwnerName} |闪避| 一次攻击时，失去 2 点 |加速|。
+  Name: 加速

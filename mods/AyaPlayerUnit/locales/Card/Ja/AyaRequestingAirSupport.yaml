@@ -1,0 +1,4 @@
+﻿AyaRequestingAirSupport:
+  Description: '|無人航空鴉|を{Value1}枚召喚済みの状態で手札に加える。'
+  UpgradedDescription: '|無人航空鴉|を{Value1}枚召喚済みの状態で手札に加える。'
+  Name: 空援要請

@@ -1,0 +1,4 @@
+﻿FlandreCatadioptric:
+  Description: '|手札効果|: {PlayerName}が攻撃する度に、対象に{FlandreDamage}ダメージを与える。'
+  UpgradedDescription: '|手札効果|: {PlayerName}が攻撃する度に、対象に{FlandreDamage}ダメージを与える。'
+  Name: 屈折反射

@@ -1,0 +1,18 @@
+﻿FlandrePartnersinCrime:
+  Description: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Deal {FlandreDamage} damage.
+
+    Play up to {FlandreValue1:plural one='% card' other='% cards'} in the hand.
+
+    For each attack card played this way, gain {FlandreValue2} |Firepower|. For each defense card played this way, gain {FlandreValue2} |Spirit|.
+  UpgradedDescription: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Deal {FlandreDamage} damage.
+
+    Play up to {FlandreValue1:plural one='% card' other='% cards'} in the hand.
+
+    For each attack card played this way, gain {FlandreValue2} |Firepower|. For each defense card played this way, gain {FlandreValue2} |Spirit|.
+  Name: Partners in Crime

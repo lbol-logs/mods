@@ -1,0 +1,14 @@
+﻿FlandreNoMercy:
+  Description: >-
+    获得 {Block} 点|格挡|。
+
+    从抽牌堆顶抽取 {Value1} 张攻击牌
+
+    其消耗变为 {Mana}。
+  UpgradedDescription: >-
+    获得 {Block} 点|格挡|。
+
+    从抽牌堆顶抽取 {Value1} 张攻击牌
+
+    其消耗变为 {Mana}。
+  Name: 寸草无生

@@ -1,0 +1,14 @@
+﻿FlandreSoulMelter:
+  Description: >-
+    {FlandreDamage}ダメージを{FlandreValue1}回与える。
+
+    |業火|{FlandreValue2}と|破滅|{Value3}を与える。
+
+    |退治|：最大ライフ{Value4}を得る。
+  UpgradedDescription: >-
+    {FlandreDamage}ダメージを{FlandreValue1}回与える。
+
+    |業火|{FlandreValue2}と|破滅|{Value3}を与える。
+
+    |退治|：最大ライフ{Value4}を得る。
+  Name: 魂を溶かす者

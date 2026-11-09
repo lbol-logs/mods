@@ -1,0 +1,14 @@
+﻿FlandreMPPhantomPain:
+  Description: >-
+    Deal {FlandreDamage} damage.
+
+    Until {PlayerName}'s next turn, whenever any player activates attack card, the target takes {FlandreValue1} damage.
+
+    Gain {FlandreValue2} |Calamity|.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage.
+
+    Until {PlayerName}'s next turn, whenever any player activates attack card, the target takes {FlandreValue1} damage.
+
+    Gain {FlandreValue2} |Calamity|.
+  Name: Phantom Pain

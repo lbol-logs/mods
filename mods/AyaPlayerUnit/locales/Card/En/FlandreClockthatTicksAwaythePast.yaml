@@ -1,0 +1,18 @@
+﻿FlandreClockthatTicksAwaythePast:
+  Description: >-
+    |Offering| {Value1}.
+
+    Deal {FlandreValue2} damage to each enemy.
+
+    Return the hand to the draw pile.
+
+    End {PlayerName}'s turn. Then, take an extra turn. During that extra turn, return {Value3} topmost card{Value1:plural one='' other='s'} from the discard pile to the hand instead of drawing cards during the draw step.
+  UpgradedDescription: >-
+    |Offering| {Value1}.
+
+    Deal {FlandreValue2} damage to each enemy.
+
+    Return the hand to the draw pile.
+
+    End {PlayerName}'s turn. Then, take an extra turn. During that extra turn, return {Value3} topmost card{Value1:plural one='' other='s'} from the discard pile to the hand instead of drawing cards during the draw step.
+  Name: Clock that Ticks Away the Past

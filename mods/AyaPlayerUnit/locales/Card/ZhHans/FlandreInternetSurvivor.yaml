@@ -1,0 +1,18 @@
+﻿FlandreInternetSurvivor:
+  Description: >-
+    清除{PlayerName}的所有负面状态。
+
+    恢复等同于{PlayerName}最大生命 {Value1}% 的生命。 ({Amount})
+  UpgradedDescription: >-
+    清除{PlayerName}的所有负面状态。
+
+    恢复等同于{PlayerName}最大生命 {Value1}% 的生命。 ({Amount})
+  NonbattleDescription: >-
+    清除{PlayerName}的所有负面状态。
+
+    恢复等同于{PlayerName}最大生命 {Value1}% 的生命。
+  UpgradedNonbattleDescription: >-
+    清除{PlayerName}的所有负面状态。
+
+    获得等同于{PlayerName}最大生命 {Value1}% 的生命。
+  Name: INTERNET SURVIVOR

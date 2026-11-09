@@ -1,0 +1,10 @@
+﻿FlandreDeliciousHeart:
+  Description: >-
+    ライフ{FlandreValue1}を得る。
+
+    |永久|に{SelfName}によるライフ回復量を{FlandreValue2}増加させる。
+  UpgradedDescription: >-
+    ライフ{FlandreValue1}を得る。
+
+    |永久|に{SelfName}によるライフ回復量を{FlandreValue2}増加させる。
+  Name: 美味しい心臓

@@ -1,0 +1,14 @@
+﻿FlandreChaosIncarnation:
+  Description: >-
+    获得 {Block}|格挡|。
+
+    随机将 |水晶| 加入手中，直到手牌达到手牌上限。
+
+    使用手牌中的所有 |水晶|。
+  UpgradedDescription: >-
+    获得 {Block}|格挡|。
+
+    随机将 |水晶| 加入手中，直到手牌达到手牌上限。
+
+    使用手牌中的所有 |水晶|。
+  Name: 混沌化身

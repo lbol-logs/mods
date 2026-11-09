@@ -1,0 +1,10 @@
+﻿AyaTanukiOpticalChameleonSe:
+  Brief: >-
+    Chameleon takes half as much damage from attacks for a certain number of turns.
+
+    |d:(This effect does nothing.)|
+  Description: >-
+    Chameleon takes half as much damage from attacks {Duration:plural one='until end of turn' other='for the next % turns'}.
+
+    |d:(This effect does nothing.)|
+  Name: Optical Chameleon

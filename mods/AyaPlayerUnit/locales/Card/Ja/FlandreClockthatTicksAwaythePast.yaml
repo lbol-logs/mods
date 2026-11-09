@@ -1,0 +1,22 @@
+﻿FlandreClockthatTicksAwaythePast:
+  Description: >-
+    |供物|{Value1}。
+
+    敵全体に{FlandreValue2}ダメージを与える。
+
+    手札を山札に戻す。
+
+    {PlayerName}のターンを終了する。その後、追加ターンを得る。
+
+    その追加ターン中、ドローの代わりに捨て札の一番上の{Value3}枚のカードを手札に戻す。
+  UpgradedDescription: >-
+    |供物|{Value1}。
+
+    敵全体に{FlandreValue2}ダメージを与える。
+
+    手札を山札に戻す。
+
+    {PlayerName}のターンを終了する。その後、追加ターンを得る。
+
+    その追加ターン中、ドローの代わりに捨て札の一番上の{Value3}枚のカードを手札に戻す。
+  Name: 過去を刻む時計

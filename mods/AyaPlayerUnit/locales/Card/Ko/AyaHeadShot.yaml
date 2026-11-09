@@ -1,0 +1,14 @@
+﻿AyaHeadShot:
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    {SelfName}은 |록온|의 효과를 {Value1}번 받습니다.
+
+    {SelfName}을 사용해 적을 처치할 시, {Mana}를 얻습니다.
+  UpgradedDescription: >-
+    피해를 {Damage} 줍니다.
+
+    {SelfName}은 |록온|의 효과를 {Value1}번 받습니다.
+
+    {SelfName}을 사용해 적을 처치할 시, {Mana}를 얻습니다.
+  Name: 헤드샷

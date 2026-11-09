@@ -1,0 +1,10 @@
+﻿FlandreDreadofTransylvania:
+  Description: >-
+    获得 |{Block}| 点|格挡|。
+
+    对所有敌人施加 |{Value1}| 层|虚弱|和 |{Value2}| 层|终末|。
+  UpgradedDescription: >-
+    获得 |{Block}| 点|格挡|。
+
+    对所有敌人施加 |{Value1}| 层|虚弱|和 |{Value2}| 层|终末|。
+  Name: 特兰西瓦尼亚之惧

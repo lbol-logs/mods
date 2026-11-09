@@ -1,0 +1,12 @@
+﻿AyaEffortlessFlight:
+  Description: >-
+    Gain {Value1} |Acceleration|.
+
+    At the start of {PlayerName}'s turn, gain {Value1} |Acceleration|.
+  UpgradedDescription: >-
+    Gain {Value1} |Acceleration|.
+
+    At the start of {PlayerName}'s turn, gain {Value1} |Acceleration|.
+  PhantasmModeDescription: At the start of {PlayerName}'s turn, gain {Value1} |Acceleration|.
+  PhantasmModeUpgradedDescription: At the start of {PlayerName}'s turn, gain {Value1} |Acceleration|.
+  Name: Effortless Flight

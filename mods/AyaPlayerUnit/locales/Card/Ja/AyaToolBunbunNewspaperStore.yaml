@@ -1,0 +1,7 @@
+﻿AyaToolBunbunNewspaperStore:
+  LockedDescription: 射命丸文を使用してハード以上の難易度で異変を解決すると解放される。
+  Description: >-
+    {Value1}枚の|文|のカードの中から1枚選んで手札に加える。それは|コスト|{Mana}。
+
+    |消耗品【{DeckCounter}】|
+  Name: 文々。新聞特売ストア

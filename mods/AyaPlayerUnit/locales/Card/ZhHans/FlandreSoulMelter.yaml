@@ -1,0 +1,18 @@
+﻿FlandreSoulMelter:
+  Description: >-
+    造成 {Damage} 点伤害 {Value1} 次。
+
+    施加 {Value2}|地狱火|和 {Value3}|终末|。
+
+    触发目标的|地狱火|。
+
+    |退治|: 获得 {Value1} 点最大生命。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害 {Value1} 次。
+
+    施加 {Value2}|地狱火|和 {Value3}|终末|。
+
+    触发目标的|地狱火|。
+
+    |退治|: 获得 {Value1} 点最大生命。
+  Name: 灵魂熔炉

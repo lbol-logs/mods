@@ -1,0 +1,4 @@
+﻿FlandreBloodyRequiemSe:
+  Brief: 所有攻击造成双倍伤害并施加双倍 |地狱火|，持续一定回合。
+  Description: 所有攻击造成双倍伤害并施加双倍 |地狱火|，持续 {Duration:plural one='% 回合' other='% 回合'}。
+  Name: 血腥安魂曲

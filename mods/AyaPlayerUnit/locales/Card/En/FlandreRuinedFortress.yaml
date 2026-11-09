@@ -1,0 +1,12 @@
+﻿FlandreRuinedFortress:
+  Description: >-
+    Enemies with |Ruin| deal {Value1}% less attack damage.
+
+    This effect does not stack.
+  UpgradedDescription: >-
+    Enemies with |Ruin| deal {Value1}% less attack damage.
+
+    This effect does not stack.
+
+    Apply {FlandreValue2} |Ruin| to each enemy.
+  Name: Ruined Fortress

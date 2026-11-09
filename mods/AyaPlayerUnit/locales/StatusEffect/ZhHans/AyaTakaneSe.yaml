@@ -1,0 +1,10 @@
+﻿AyaTakaneSe:
+  Brief: >-
+    {OwnerName} 非常愤怒。
+
+    {OwnerName} 的最大生命值增加，并造成更多伤害。
+  Description: >-
+    {OwnerName} 非常愤怒。
+
+    {OwnerName} 的最大生命值增加 {Value}%，并造成 {Level}% 更多伤害。
+  Name: 愤怒的店主

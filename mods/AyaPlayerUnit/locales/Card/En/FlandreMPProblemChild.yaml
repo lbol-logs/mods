@@ -1,0 +1,14 @@
+﻿FlandreMPProblemChild:
+  Description: >-
+    |Offering| {Value1}.
+
+    All |Flandre| |Multiplayer| cards gain |Unplayable| until the end of combat.
+
+    All attack cards cost {FlandreMana} less until the end of combat.
+  UpgradedDescription: >-
+    |Offering| {Value1}.
+
+    All |Flandre| |Multiplayer| cards gain |Unplayable| until the end of combat.
+
+    All attack cards cost {FlandreMana} less until the end of combat.
+  Name: Problem Child

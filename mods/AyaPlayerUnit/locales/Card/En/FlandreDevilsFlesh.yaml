@@ -1,0 +1,10 @@
+﻿FlandreDevilsFlesh:
+  Description: >-
+    Gain {FlandreBlock} |Block|.
+
+    Gain {FlandreValue1} life.
+  UpgradedDescription: >-
+    Gain {FlandreBlock} |Block|.
+
+    Gain {FlandreValue1} life.
+  Name: Devil's Flesh

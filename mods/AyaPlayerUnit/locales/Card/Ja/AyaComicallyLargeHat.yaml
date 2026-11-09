@@ -1,0 +1,10 @@
+﻿AyaComicallyLargeHat:
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    |減速{Value1}|：敵全体に|脱力|{Value2}を与える。
+  UpgradedDescription: >-
+    {Block}|ブロック|を得る。
+
+    敵全体に|脱力|{Value2}を与える。
+  Name: あまりにもデカい帽子

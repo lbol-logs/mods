@@ -1,0 +1,24 @@
+title: Main
+---
+<<declare $cards = "">>
+<<declare $exhibit = "">>
+<<declare $battle = "">>
+<<declare $heal = 0>>
+<<setAdventureImage "">>
+<<enemyTitle Cirno>>
+<<lEnemyName Cirno>>
+Marisa: Test #line:marisa_001
+-> Choice1 #line:opt_1
+    <<lPlayerName>>
+    Choice1 #line:player_002
+-> Choice2 #line:opt_2
+    <<lPlayerName>>
+    Choice2 #line:player_003
+-> Choice3 #line:opt_3
+    <<lPlayerName>>
+    Choice3 #line:player_004
+-> Choice4 #line:opt_4
+    <<lPlayerName>>
+    Choice4 #line:player_005
+<<stop>>
+===

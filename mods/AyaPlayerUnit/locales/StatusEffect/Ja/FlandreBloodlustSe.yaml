@@ -1,0 +1,4 @@
+﻿FlandreBloodlustSe:
+  Brief: このカードの効果は、{PlayerName}が失ったライフ1%につき|e:{Value1}|%増加する。最大{Value2}%。（現在|e:{Amount}|%）
+  Description: このカードの効果は、{PlayerName}が失ったライフ1%につき|e:{Value1}|%増加する。最大{Value2}%。（現在|e:{Amount}|%）
+  Name: 血の渇望

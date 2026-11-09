@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EC47AB60-88CE-49FF-9EAF-EAB7E7866230}</ProjectGuid>
+    <ProjectGuid>{3D604077-200F-4D7A-A07C-FE63BEC49776}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>lvalonexrumia</RootNamespace>

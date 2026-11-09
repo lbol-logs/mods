@@ -1,0 +1,7 @@
+﻿FlandreCrystallineOutburstSe:
+  Brief: Whenever all of |Crystallized Chaos|, |Crystallized Devilry|, |Crystallized Lunacy|, and |Crystallized Solitude| are activated, add |Crystallized Catastrophe| to the hand.
+  Description: >-
+    Whenever all of |Crystallized Chaos|, |Crystallized Devilry|, |Crystallized Lunacy|, and |Crystallized Solitude| are activated, add {Level} |Crystallized Catastrophe{Level:plural one='' other='s'}| to the hand.
+
+    ({Count:plural one='% card' other='% cards'} left: {Amount})
+  Name: Crystalline Outburst

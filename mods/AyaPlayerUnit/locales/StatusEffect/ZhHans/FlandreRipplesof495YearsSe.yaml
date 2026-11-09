@@ -1,0 +1,18 @@
+﻿FlandreRipplesof495YearsSe:
+  Brief: >-
+    {PlayerName} 免疫所有减益。
+
+    将 {PlayerName} 在本场战斗中获得的法力转化为 <sprite="ManaSprite" name="P">。
+
+    每当一张牌被使用时，获得等于该牌消耗的法力。
+
+    所有牌被使用两次。
+  Description: >-
+    {PlayerName} 免疫所有减益。
+
+    将 {PlayerName} 在本场战斗中获得的法力转化为 <sprite="ManaSprite" name="P">。
+
+    每当一张牌被使用时，获得等于该牌消耗的法力。
+
+    所有牌被使用两次。
+  Name: 495年的涟漪

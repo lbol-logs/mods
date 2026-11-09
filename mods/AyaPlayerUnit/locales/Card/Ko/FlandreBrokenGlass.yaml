@@ -1,0 +1,14 @@
+﻿FlandreBrokenGlass:
+  Description: >-
+    손에서 최대 {Value1}장까지 |소멸|시킵니다.
+
+    피해를 {Damage} 줍니다.
+
+    이 방식으로 |소멸|된 카드 1장마다 피해를 한 번 더 줍니다.
+  UpgradedDescription: >-
+    손에서 최대 {Value1}장까지 |소멸|시킵니다.
+
+    피해를 {Damage} 줍니다.
+
+    이 방식으로 |소멸|된 카드 1장마다 피해를 한 번 더 줍니다.
+  Name: 부셔진 유리

@@ -1,0 +1,52 @@
+﻿FlandreForbiddenScarletCuriosity:
+  Description: >-
+    {PlayerName}はすべてのデバフを無効化する。
+
+    すべての攻撃は{FlandreValue1}倍のダメージを与える。
+
+    敵がライフを失うたび、{PlayerName}は失った量と同じライフを得る。
+
+    これらの効果は重複しない。
+
+    |一時最大ライフ|{FlandreValue2}%を得る。({Amount})
+
+    |狂気|{Value3}を得る。
+  UpgradedDescription: >-
+    {PlayerName}はすべてのデバフを無効化する。
+
+    すべての攻撃は{FlandreValue1}倍のダメージを与える。
+
+    敵がライフを失うたび、{PlayerName}は失った量と同じライフを得る。
+
+    これらの効果は重複しない。
+
+    |一時最大ライフ|{FlandreValue2}%を得る。({Amount})
+
+    |狂気|{Value3}を得る。
+  NonbattleDescription: >-
+    {PlayerName}はすべてのデバフを無効化する。
+
+    すべての攻撃は{FlandreValue1}倍のダメージを与える。
+
+    敵がライフを失うたび、{PlayerName}は失った量と同じライフを得る。
+
+    これらの効果は重複しない。
+
+    |一時最大ライフ|{FlandreValue2}%を得る。
+
+    |狂気|{Value3}を得る。
+  UpgradedNonbattleDescription: >-
+    {PlayerName}はすべてのデバフを無効化する。
+
+    すべての攻撃は{FlandreValue1}倍のダメージを与える。
+
+    敵がライフを失うたび、{PlayerName}は失った量と同じライフを得る。
+
+    これらの効果は重複しない。
+
+    |一時最大ライフ|{FlandreValue2}%を得る。
+
+    |狂気|{Value3}を得る。
+  Name: 禁断の紅い好奇心
+  ForbiddenScarletCuriosity1Flandre: ねえねえ。聞きたいことがあるの。
+  ForbiddenScarletCuriosity2Flandre: 恐怖って……どんな味がするの？

@@ -1,0 +1,26 @@
+﻿AyaFriendAyaSe:
+  Brief: >-
+    {PlayerName} can't gain |Block| or |Barrier|.
+
+    {PlayerName} is immune to all damage and debuffs.
+
+    Unspent mana isn't lost at the end of each turn.
+
+    The maximum hand size becomes {MaxHand}.
+
+    Whenever {PlayerName} plays a card, Place a card on top of the draw pile into the hand, gain {Mana} and {Value} |Acceleration|.
+
+    |Acceleration| increases damage dealt with attacks.
+  Description: >-
+    {PlayerName} can't gain |Block| or |Barrier|.
+
+    {PlayerName} is immune to all damage and debuffs.
+
+    Unspent mana isn't lost at the end of each turn.
+
+    The maximum hand size becomes {MaxHand}.
+
+    Whenever {PlayerName} plays a card, Place a card on top of the draw pile into the hand, gain {Mana} and {Value} |Acceleration|.
+
+    |Acceleration| increases damage dealt with attacks.
+  Name: Terukuni Shining Through Heaven and Earth

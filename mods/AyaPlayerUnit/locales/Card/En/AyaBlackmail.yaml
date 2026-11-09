@@ -1,0 +1,11 @@
+﻿AyaBlackmail:
+  Description: >-
+    |Bunbunmaru Newspapers| also apply {Value1} |Temporary Firepower Down| and gain {Value2} <sprite="Point" name="Gold"> when activated.
+
+    Add |{Value3:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the draw pile.
+  UpgradedDescription: >-
+    |Bunbunmaru Newspapers| also apply {Value1} |Temporary Firepower Down| and gain {Value2} <sprite="Point" name="Gold"> when activated.
+
+    Add |{Value3:plural one='% Bunbunmaru Newspaper' other='% Bunbunmaru Newspapers'}| to the draw pile.
+  Name: Blackmail
+  DetailText: If you try to |Blackmail| your superior...

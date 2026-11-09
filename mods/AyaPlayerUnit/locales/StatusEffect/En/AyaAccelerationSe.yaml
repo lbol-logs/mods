@@ -1,0 +1,10 @@
+﻿AyaAccelerationSe:
+  Brief: >-
+    {OwnerName}'s |Graze| is replenished to a fixed level for each 4 |Acceleration| at the end of her turn.
+
+    Whenever {OwnerName} |Grazes| an attack, they lose 2 |Acceleration|.
+  Description: >-
+    {OwnerName}'s |Graze| is replenished to {Count} at the end of her turn.
+
+    Whenever {OwnerName} |Grazes| an attack, they lose 2 |Acceleration|.
+  Name: Acceleration

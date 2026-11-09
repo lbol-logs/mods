@@ -1,0 +1,4 @@
+﻿FlandreMPRiggedGameSe:
+  Brief: Put the next few rare cards sent to the discard pile on top of the draw pile.
+  Description: Put the next {Level} rare card{Level:plural one='' other='s'} sent to the discard pile on top of the draw pile.
+  Name: Rigged Game

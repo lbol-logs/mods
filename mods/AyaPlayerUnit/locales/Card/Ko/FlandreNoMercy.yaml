@@ -1,0 +1,14 @@
+﻿FlandreNoMercy:
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    뽑을 카드 더미에서 가장 위에 있는 공격 카드 {Value1}장을 손에 넣습니다.
+
+    {Value1:plural one='그 카드는' other='그 카드들은'} 이번 턴 동안 |일시적으로| 비용이 {Mana}가 됩니다.
+  UpgradedDescription: >-
+    |방어|를 {Block} 얻습니다.
+
+    뽑을 카드 더미에서 가장 위에 있는 공격 카드 {Value1}장을 손에 넣습니다.
+
+    {Value1:plural one='그 카드는' other='그 카드들은'} 이번 턴 동안 |일시적으로| 비용이 {Mana}가 됩니다.
+  Name: 자비는 없다

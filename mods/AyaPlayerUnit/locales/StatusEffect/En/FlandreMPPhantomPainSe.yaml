@@ -1,0 +1,4 @@
+﻿FlandreMPPhantomPainSe:
+  Brief: Until {PlayerName}'s next turn, whenever any player activates attack card, {OwnerName} takes damage.
+  Description: Until {PlayerName}'s next turn, whenever any player activates attack card, {OwnerName} takes {Level} damage.
+  Name: Phantom Pain

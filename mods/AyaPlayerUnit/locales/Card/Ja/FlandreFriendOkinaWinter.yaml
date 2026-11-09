@@ -1,0 +1,7 @@
+﻿FlandreFriendOkinaWinter:
+  Description: '{FriendP}|f:冬の力|：青色カードを{Value1}枚発動するたび、{FlandreMana}を得て、|災禍|{FlandreValue2}を得る。（残り{Amount}枚）'
+  NonbattleDescription: '{FriendP}|f:冬の力|：青色カードを{Value1}枚発動するたび、{FlandreMana}を得て、|災禍|{FlandreValue2}を得る。'
+  ExtraDescription1: '{FriendA}|a:季節解放|：{Value3}種類の|季節|から1つ選ぶ。{SelfName}はその効果を得る。'
+  ExtraDescription3: '{FriendU}|u:「裏・エクストリームウィンター」|：カードを発動するたび、|チャージ|{Value4}を得る。'
+  Name: 究極の絶対秘神、隠岐奈(冬)
+  DetailText: '{SelfName}は戦闘中にランダム生成されず、コピーもできない。'

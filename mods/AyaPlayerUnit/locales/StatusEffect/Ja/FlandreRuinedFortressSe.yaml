@@ -1,0 +1,4 @@
+﻿FlandreRuinedFortressSe:
+  Brief: '|破滅|を持つ敵は攻撃ダメージが減少する。'
+  Description: '|破滅|を持つ敵は攻撃ダメージが{Level}%減少する。'
+  Name: 崩れた要塞

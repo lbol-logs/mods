@@ -1,0 +1,26 @@
+﻿FlandreDeathorTreat:
+  Description: >-
+    |Offering| {Value1}.
+
+    Add {FlandreValue2} |Crystallized Devilry{FlandreValue2:plural one='' other='s'}| to the hand.
+
+    |Debut|: Gain {Value3} |Calamity|.
+  UpgradedDescription: >-
+    |Offering| {Value1}.
+
+    Add {FlandreValue2} |Crystallized Devilry{FlandreValue2:plural one='' other='s'}+{Value4}| to the hand.
+
+    |Debut|: Gain {Value3} |Calamity|.
+  ExtraDescription1: >-
+    |Offering| {Value1}.
+
+    Add {FlandreValue2} |Crystallized Devilry{FlandreValue2:plural one='' other='s'}| to the hand.
+
+    |d:Debut: Gain {Value3} Calamity.|
+  ExtraDescription2: >-
+    |Offering| {Value1}.
+
+    Add {FlandreValue2} |Crystallized Devilry{FlandreValue2:plural one='' other='s'}+{Value4}| to the hand.
+
+    |d:Debut: Gain {Value3} Calamity.|
+  Name: Death or Treat

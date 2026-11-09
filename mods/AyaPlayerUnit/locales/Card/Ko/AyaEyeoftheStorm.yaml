@@ -1,0 +1,14 @@
+﻿AyaEyeoftheStorm:
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    |반사|를 {Value1} 얻습니다.
+
+    {SelfName}은 |가속|의 영향을 받습니다.
+  UpgradedDescription: >-
+    |방어|를 {Block} 얻습니다.
+
+    |반사|를 {Value1} 얻습니다.
+
+    {SelfName}은 |가속|의 영향을 받습니다.
+  Name: 태풍의 눈

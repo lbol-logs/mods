@@ -1,0 +1,10 @@
+﻿FlandreMindsEye:
+  Description: >-
+    {FlandreShield}|バリア|を得る。
+
+    次に{PlayerName}が攻撃ダメージを与える、または受ける{FlandreValue1:plural one='%回' other='%回'}、与えるダメージを2倍にするか、受けるダメージを半分にする。
+  UpgradedDescription: >-
+    {FlandreShield}|バリア|を得る。
+
+    次に{PlayerName}が攻撃ダメージを与える、または受ける{FlandreValue1:plural one='%回' other='%回'}、与えるダメージを2倍にするか、受けるダメージを半分にする。
+  Name: 心の目

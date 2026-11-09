@@ -1,0 +1,10 @@
+﻿FlandreThePsychoticandCuteGuestSe:
+  Brief: >-
+    每当一张蓝色牌被激活时，获得 |崩坏|。
+
+    每当一张红色牌被激活时，获得 |火力|。
+  Description: >-
+    每当一张蓝色牌被激活时，获得 {Value} |崩坏|。
+
+    每当一张红色牌被激活时，获得 {Level} |火力|。
+  Name: 狂气甜心

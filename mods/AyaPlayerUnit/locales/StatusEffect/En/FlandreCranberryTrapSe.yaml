@@ -1,0 +1,4 @@
+﻿FlandreCranberryTrapSe:
+  Brief: At the end of {PlayerName}'s turn, deal damage to each enemy for each status effect applied this turn.
+  Description: At the end of {PlayerName}'s turn, deal {Level} damage to each enemy for each status effect applied this turn. ({Count})
+  Name: Cranberry Trap

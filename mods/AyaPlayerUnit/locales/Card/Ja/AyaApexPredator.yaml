@@ -1,0 +1,10 @@
+﻿AyaApexPredator:
+  Description: >-
+    {PlayerName}が攻撃ダメージを受ける時、{PlayerName}の|加速|の分だけそれを軽減し、|加速|{Value3}を失う。
+
+    |加速|{Value1}を得る。
+  UpgradedDescription: >-
+    {PlayerName}が攻撃ダメージを受ける時、{PlayerName}の|加速|の分だけそれを軽減し、|加速|{Value3}を失う。
+
+    |加速|{Value1}を得る。
+  Name: 頂点捕食者

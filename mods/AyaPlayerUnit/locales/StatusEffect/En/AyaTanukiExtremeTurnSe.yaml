@@ -1,0 +1,10 @@
+﻿AyaTanukiExtremeTurnSe:
+  Brief: >-
+    After {OwnerName}'s turn ends, perform extreme turn.
+
+    |d:(This effect does nothing.)|
+  Description: >-
+    {OwnerName} will perform {Level:plural one='% extreme turn' other='% extreme turns'}.
+
+    |d:(This effect does nothing.)|
+  Name: Extreme Turn

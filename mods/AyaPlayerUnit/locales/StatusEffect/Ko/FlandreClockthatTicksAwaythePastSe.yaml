@@ -1,0 +1,8 @@
+﻿FlandreClockthatTicksAwaythePastSe:
+  Brief: 드로우 단계에서 카드를 뽑는 대신 버린 카드 더미 맨 위에서 카드를 손으로 가져옵니다.
+  Description: 드로우 단계에서 카드를 뽑는 대신 버린 카드 더미 맨 위에서 카드를 {Limit}장 손으로 가져옵니다.
+  ExtraDescription: >-
+    드로우 단계에서 카드를 뽑는 대신 버린 카드 더미 맨 위에서 카드를 {Limit}장 손으로 가져옵니다.
+
+    {SelfName}는 비활성화중이며, 작동한 이후 사라집니다.
+  Name: 과거를 새기는 시계

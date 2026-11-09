@@ -1,0 +1,14 @@
+﻿FlandreMPMagicalCheering:
+  Description: >-
+    All players gain {FlandreMana}.
+
+    All players |Upgrade| all cards in the hand {FlandreValue1:plural one='% time' other='% times'} until the end of combat.
+
+    |Scaled| {Mana2}.
+  UpgradedDescription: >-
+    All players gain {FlandreMana}.
+
+    All players |Upgrade| all cards in the hand {FlandreValue1:plural one='% time' other='% times'} until the end of combat.
+
+    |Scaled| {Mana2}.
+  Name: Magical Cheering

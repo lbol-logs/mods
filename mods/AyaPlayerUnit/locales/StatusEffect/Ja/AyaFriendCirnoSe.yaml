@@ -1,0 +1,10 @@
+﻿AyaFriendCirnoSe:
+  Brief: >-
+    {OwnerName}が攻撃ダメージを受けるたび、ライフを失って{SelfName}の数値を上昇させる。
+
+    {OwnerName}のターン終了時、|ファイナルフリーズ|を失う。
+  Description: >-
+    {OwnerName}が攻撃ダメージを受けるたび、ライフを{Level}失い{SelfName}の数値を{Level}上昇させる。
+
+    {OwnerName}のターン終了時、|ファイナルフリーズ|を失う。
+  Name: ファイナルフリーズ

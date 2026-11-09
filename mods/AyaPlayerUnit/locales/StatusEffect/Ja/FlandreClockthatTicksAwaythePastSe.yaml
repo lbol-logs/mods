@@ -1,0 +1,8 @@
+﻿FlandreClockthatTicksAwaythePastSe:
+  Brief: ターン開始時のカードドローをスキップし、代わりに捨て札の一番上から手札に戻す。
+  Description: ターン開始時のカードドローをスキップし、代わりに捨て札の一番上から{Limit}枚を手札に戻す。
+  ExtraDescription: >-
+    ターン開始時のカードドローをスキップし、代わりに捨て札の一番上から{Limit}枚を手札に戻す。
+
+    {SelfName}は無効状態となり、解決後にのみ取り除かれる。
+  Name: 過去を刻む時計

@@ -1,0 +1,14 @@
+﻿FlandreForbiddenGames:
+  Description: >-
+    적들은 {Value1}라운드 동안 행동할 수 없습니다.
+
+    전투마다 처음 사용된 {SelfName}만 효과를 발휘합니다.
+  UpgradedDescription: >-
+    적들은 {Value1}라운드 동안 행동할 수 없습니다.
+
+    전투마다 처음 사용된 {SelfName}만 효과를 발휘합니다.
+  ExtraDescription1: >-
+    |d:적들은 {Value1}라운드 동안 행동할 수 없습니다.|
+
+    전투마다 처음 사용된 {SelfName}만 효과를 발휘합니다.
+  Name: 금지된 장난

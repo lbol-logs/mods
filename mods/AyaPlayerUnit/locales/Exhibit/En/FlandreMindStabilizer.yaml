@@ -1,0 +1,4 @@
+﻿FlandreMindStabilizer:
+  Description: Whenever {PlayerName} advances a level, lose {Value1} |Madness|.
+  Name: Mind Stabilizer
+  FlavorText: This advanced medical device was jointly developed by Eirin and Patchouli. Prevents Flandre from falling into madness, but ultimately it depends on her will.

@@ -1,0 +1,9 @@
+﻿AyaArsenalBirdSe:
+  Brief: 在 {PlayerName} 的回合开始时，将 |无人空中乌鸦| 加入手牌。
+  Description: >-
+    在 {PlayerName} 的回合开始时，将 |无人空中乌鸦| 加入手牌。
+
+    |巡逻模式中的无人空中乌鸦|: {Count}
+
+    |战斗模式中的无人空中乌鸦|: {Level}
+  Name: 军火鸟

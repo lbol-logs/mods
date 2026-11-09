@@ -1,0 +1,8 @@
+﻿FlandreClockthatTicksAwaythePastSe:
+  Brief: 跳过回合开始的抽牌阶段，改为将弃牌堆顶的牌返回手牌。
+  Description: 跳过回合开始的抽牌阶段，改为将弃牌堆顶的 {Limit} 张牌返回手牌。
+  ExtraDescription: >-
+    跳过回合开始的抽牌阶段，改为将弃牌堆顶的 {Limit} 张牌返回手牌。
+
+    {SelfName} 处于非活动状态，仅在解决后移除。
+  Name: 流逝过去的时钟

@@ -1,0 +1,18 @@
+﻿FlandreForbiddenFruit:
+  Description: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    체력을 {Value1} 얻습니다.
+
+    <sprite="Point" name="Gold">를 {Value1} 얻습니다.
+
+    <sprite="Point" name="Power">를 {Value1} 얻습니다.
+  UpgradedDescription: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    체력을 {Value1} 얻습니다.
+
+    <sprite="Point" name="Gold">를 {Value1} 얻습니다.
+
+    <sprite="Point" name="Power">를 {Value1} 얻습니다.
+  Name: 포비든 프루츠

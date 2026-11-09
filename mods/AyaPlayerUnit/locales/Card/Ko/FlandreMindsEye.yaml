@@ -1,0 +1,14 @@
+﻿FlandreMindsEye:
+  Description: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    다음 {Value1}번 동안 {PlayerName}가 공격 피해를 주거나 받을 때,
+
+    피해를 두 배로 주거나 피해를 무효화합니다.
+  UpgradedDescription: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    다음 {Value1}번 동안 {PlayerName}가 공격 피해를 주거나 받을 때,
+
+    피해를 두 배로 주거나 피해를 무효화합니다.
+  Name: 마음의 눈

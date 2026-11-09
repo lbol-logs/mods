@@ -1,0 +1,10 @@
+﻿AyaDashingDomination:
+  Description: >-
+    |가속|을 {Value1} 얻습니다.
+
+    카드를 {Value2}장 뽑습니다.
+  UpgradedDescription: >-
+    |가속|을 {Value1} 얻습니다.
+
+    카드를 {Value2}장 뽑습니다.
+  Name: 풍미질주

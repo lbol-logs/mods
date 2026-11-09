@@ -1,0 +1,11 @@
+﻿AyaRouteForbiddentoManSe:
+  Brief: '{PlayerName}의 턴 종료시, 최대 몇번까지 이 턴에 |소멸|한 카드의 수 만큼 무작위 적에게 피해와 |록 온|을 줍니다.'
+  Description: >-
+    {PlayerName}의 턴 종료시, 최대 {Value}번까지 이 턴에 |소멸|한 카드의 수 만큼 무작위 적에게 {Damage}의 피해와 {Limit}의 |록 온|을 줍니다.
+
+    (누적 횟수: {Count})
+  PhantasmModeDescription: >-
+    {PlayerName}의 턴 종료시, 최대 {Value}번까지 이 턴에 |소멸|한 카드의 수 만큼 무작위 적에게 {Damage}의 피해를 줍니다.
+
+    (누적 횟수: {Count})
+  Name: 인간금제의 길

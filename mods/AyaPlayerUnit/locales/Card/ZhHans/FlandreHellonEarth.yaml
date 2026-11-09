@@ -1,0 +1,10 @@
+﻿FlandreHellonEarth:
+  Description: >-
+    当|地狱火|触发时，使其再次结算一次。
+
+    对所有敌人施加 {Value1}|地狱火|。
+  UpgradedDescription: >-
+    当|地狱火|触发时，使其再次结算一次。
+
+    对所有敌人施加 {Value1}|地狱火|。
+  Name: 人间地狱

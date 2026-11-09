@@ -1,0 +1,10 @@
+﻿FlandreCrystallization:
+  Description: >-
+    손에서 카드를 |소멸|시킵니다.
+
+    무작위 |파편|을 손에 추가합니다.
+  UpgradedDescription: >-
+    손에서 최대 {Value1}장의 카드를 |소멸|시킵니다.
+
+    무작위 |강화된 파편|을 손에 추가합니다.
+  Name: 결정화

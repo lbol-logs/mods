@@ -1,0 +1,10 @@
+﻿FlandreGrowingGemstones:
+  Description: >-
+    获得 {Block}|格挡|。
+
+    将 {Value1} 张随机|水晶|加入手牌。
+  UpgradedDescription: >-
+    获得 {Block}|格挡|。
+
+    将 {Value1} 张随机|水晶|加入手牌。
+  Name: 扩张宝石

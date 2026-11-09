@@ -1,0 +1,4 @@
+﻿AyaOpeningWindoftheTenguRealm:
+  Description: '|At the start of combat|: |Exile| {SelfName}, gain {Value1} |Extra Turn|.'
+  UpgradedDescription: '|At the start of combat|: |Exile| {SelfName}, gain {Value1} |Extra Turn| and {Value2} |Acceleration|.'
+  Name: Opening Wind of the Tengu Realm

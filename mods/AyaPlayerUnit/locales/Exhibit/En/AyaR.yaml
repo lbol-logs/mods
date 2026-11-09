@@ -1,0 +1,11 @@
+﻿AyaR:
+  Description: >-
+    Adds {BaseMana} to the mana base. Cards unique to |Aya| are added to the card pool.
+
+    At the start of combat, gain {Value1} |Acceleration|.
+
+    |Bunbunmaru Newspaper| deals {Value2} damage, apply {Value3} |Lock On| and has |Replenish|.
+
+    |Kakashi Spirit News| has |Replenish|.
+  Name: Hauchiwa Fan
+  FlavorText: One sweep of the fan can knock down a house, two sweeps can fell a large tree, and three sweeps can cause a traveler's cloak to be blown away.

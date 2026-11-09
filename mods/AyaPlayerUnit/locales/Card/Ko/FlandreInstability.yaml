@@ -1,0 +1,39 @@
+﻿FlandreInstability:
+  Description: '{SelfName}의 효과는 매 라운드마다 무작위로 바뀝니다.'
+  PhantasmModeDescription: >-
+    {SelfName}의 효과는 매 라운드마다 무작위로 바뀝니다.
+
+    각 효과는 {HiddenChance}% 확률로 숨겨질 수 있습니다.
+  InstabilityHidden: 숨겨진 효과.
+  InstabilityBlock: '|방어|를 {BlockValue} 얻습니다.'
+  InstabilityBarrier: '|보호막|을 {ShieldValue} 얻습니다.'
+  InstabilityMana: '{ManaValue}를 얻습니다.'
+  InstabilityScry: '|예지| {ScryValue}.'
+  InstabilityDream: '|꿈결| {DreamValue}.'
+  InstabilityCleanse: '{PlayerName}의 해로운 효과를 모두 제거합니다.'
+  InstabilityHeal: 체력을 {HealValue} 회복합니다.
+  InstabilityGold: <sprite="Point" name="Gold">를 {GoldValue} 얻습니다.
+  InstabilityPower: <sprite="Point" name="Power">를 {PowerValue} 얻습니다.
+  InstabilityUpgrade: 손에 든 모든 카드를 전투 종료 시까지 |강화|합니다.
+  InstabilityDamage1: 피해를 {DamageValue} 줍니다.
+  InstabilityDamage2: 모든 적에게 피해를 {DamageValue} 줍니다.
+  InstabilityDamage3: 무작위 적에게 피해를 {DamageValue} 줍니다.
+  InstabilityAdd1: "|{Add}|을 {AddValue1}장 손에 넣습니다. {AddValue1:plural one='그 카드는' other='그 카드들은'} |일시적으로| {AddManaValue}의 비용을 가지며, |소멸| 및 |휘발성|입니다."
+  InstabilityAdd2: 무작위 카드 {AddValue1}장을 손에 넣습니다. {AddValue1:plural one='그 카드는' other='그 카드들은'} |일시적으로| {AddManaValue}의 비용을 가지며, |소멸| 및 |휘발성|입니다.
+  InstabilityAdd3: 무작위 카드 {AddValue2}장 중 {AddValue1}장을 선택해 손에 넣습니다. {AddValue1:plural one='그 카드는' other='그 카드들은'} |일시적으로| {AddManaValue}의 비용을 가지며, |소멸| 및 |휘발성|입니다.
+  InstabilityDraw1: 카드를 {DrawValue}장 뽑습니다.
+  InstabilityDraw2: 손이 가득 찰 때까지 카드를 뽑습니다.
+  InstabilityDiscard1: 손에서 최대 {DiscardValue}장까지 버립니다.
+  InstabilityDiscard2: 손에 든 모든 카드를 버립니다.
+  InstabilityExile1: 손, 뽑을 카드 더미, 버린 카드 더미에서 최대 {ExileValue}장을 |소멸|시킵니다.
+  InstabilityExile2: 손에 든 모든 카드를 |소멸|시킵니다.
+  InstabilityMove1: 뽑을 카드 더미에서 카드 최대 {MoveValue}장을 선택해 손에 넣습니다.
+  InstabilityMove2: 버린 카드 더미에서 카드 최대 {MoveValue}장을 선택해 손에 넣습니다.
+  InstabilityRetain1: 손에 든 카드 중 최대 {RetainValue}장을 선택해 이번 턴에 |보존|합니다.
+  InstabilityRetain2: 이번 턴 동안 손의 카드들을 |보존|합니다.
+  InstabilityBuff1: '|{Buff1}|을 {BuffValue1} 얻습니다.'
+  InstabilityBuff2: '|{Buff1}|을 {BuffValue1}, |{Buff2}|을 {BuffValue2} 얻습니다.'
+  InstabilityDebuff1: '|{Debuff}|을 {DebuffValue} 줍니다.'
+  InstabilityDebuff2: 모든 적에게 |{Debuff}|을 {DebuffValue} 줍니다.
+  Name: 정신분열
+  DetailText: '{SelfName}은 전투 중 무작위로 생성되지 않으며, 복사할 수 없습니다.'

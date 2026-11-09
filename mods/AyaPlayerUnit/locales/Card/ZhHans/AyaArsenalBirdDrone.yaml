@@ -1,0 +1,9 @@
+﻿AyaArsenalBirdDrone:
+  Description: '{FriendP}|f:巡逻模式|: 获得{Mana}并抽一张牌。'
+  ExtraDescription1: '{FriendP}|f:战斗模式|: 获得 {PassiveBlock}|护盾|并对随机敌人造成 {Damage} 点攻击伤害。'
+  ExtraDescription2: '{FriendA}|a:巡逻模式|:|放逐|{SelfName}。在{PlayerName}回合开始时，获得{Mana}并抽一张牌。'
+  ExtraDescription3: '{FriendA}|a:战斗模式|:|放逐|{SelfName}。在{PlayerName}回合结束时，获得 {PassiveBlock}|护盾|并对随机敌人造成 {Damage} 点攻击伤害。'
+  ExtraDescription4: '{FriendU}|u:自毁|: 对所有敌人造成 {Damage2} 点攻击伤害。此效果在移除时也会触发。|精准|'
+  Name: 无人空中乌鸦
+  DetailText: '{SelfName} 的效果即使不在手牌中也会触发。'
+  FlavorText: 介绍最新技术密集型的机器人乌鸦！

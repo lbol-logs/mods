@@ -1,0 +1,144 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using JetBrains.Annotations;
+using LBoL.Base;
+using LBoL.ConfigData;
+using LBoL.Core;
+using LBoL.Core.Battle;
+using LBoL.Core.Units;
+using LBoLEntitySideloader;
+using LBoLEntitySideloader.Attributes;
+using LBoLEntitySideloader.Entities;
+using LBoLEntitySideloader.Resource;
+using UnityEngine;
+
+namespace AyaShameimaru.Exhibits
+{
+	public sealed class FlandreDevilPlushieDef : ExhibitTemplate
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override IdContainer GetId()
+		{
+			return <Module>.\u202D\u200F\u202D\u200B\u206C\u200B\u202B\u206C\u206E\u206E\u200C\u206B\u200D\u206B\u202B\u202A\u206F\u200C\u202E\u200D\u200B\u200B\u206F\u206B\u202C\u206F\u202E\u200B\u200B\u202C\u200C\u200E\u202C\u202C\u202C\u202B\u206D\u200D\u200E\u202A\u202E<string>(383235124);
+		}
+
+		public override LocalizationOption LoadLocalization()
+		{
+			return FlandreDevilPlushieDef.\u206E\u200F\u200C\u206F\u206D\u206C\u206C\u202A\u200B\u206B\u206E\u200D\u206B\u206D\u206E\u200B\u200B\u202B\u200B\u200B\u206F\u200E\u200F\u206F\u206A\u202C\u202D\u206D\u200D\u206F\u200B\u206E\u206A\u200F\u200B\u202C\u200D\u200F\u206E\u206B\u202E(BepinexPlugin.exhibitLoc, this);
+		}
+
+		public override ExhibitSprites LoadSprite()
+		{
+			string folder = "";
+			ExhibitSprites exhibitSprites = FlandreDevilPlushieDef.\u202E\u200E\u206B\u200B\u206A\u202C\u200C\u200E\u202B\u202D\u202D\u200D\u206B\u200E\u200C\u202C\u202A\u200E\u206C\u200F\u206E\u206C\u202A\u202A\u206C\u206B\u202C\u206A\u202C\u202B\u202A\u202D\u200C\u202E\u202E\u206B\u200D\u206A\u206A\u200C\u202E();
+			Func<string, Sprite> func = (string s) => FlandreDevilPlushieDef.<>c__DisplayClass2_0.\u202C\u202B\u202E\u202E\u206B\u202E\u200F\u200B\u206D\u202C\u206B\u200F\u200F\u200B\u206D\u202A\u206A\u202D\u200C\u200E\u200E\u200E\u206C\u206D\u200D\u202E\u200F\u202A\u202A\u202D\u202E\u200E\u206A\u202D\u202B\u206F\u206A\u200F\u202B\u200F\u202E(FlandreDevilPlushieDef.<>c__DisplayClass2_0.\u202D\u206D\u206D\u202A\u202A\u202B\u206B\u200D\u202A\u200D\u200F\u200F\u200F\u202E\u206A\u200D\u202D\u206A\u200C\u206C\u202A\u202A\u200B\u200E\u206B\u200B\u206C\u202A\u206D\u206B\u206E\u200B\u206F\u200E\u202B\u206F\u206D\u202B\u200F\u206A\u202E(folder, FlandreDevilPlushieDef.<>c__DisplayClass2_0.\u200D\u200B\u200F\u202A\u206E\u200F\u200E\u202B\u202D\u200B\u200B\u200E\u206C\u206C\u200B\u202E\u202B\u202B\u200E\u202D\u206B\u206F\u200B\u206B\u206C\u200C\u206F\u206A\u200F\u206C\u200F\u202C\u202D\u200D\u202B\u202E\u202A\u206B\u206E\u200D\u202E(this), s, <Module>.\u200F\u206C\u206A\u202D\u200D\u202B\u202B\u206B\u206A\u202C\u206C\u206B\u200B\u200D\u202E\u206F\u206C\u206E\u202E\u200D\u200F\u206D\u202A\u200B\u206D\u200B\u206F\u200D\u206B\u202E\u200F\u206D\u200B\u200F\u206D\u200D\u202C\u206C\u206C\u202E<string>(-1738697972)), BepinexPlugin.embeddedSource, null, 1, null);
+			exhibitSprites.main = func("");
+			return exhibitSprites;
+		}
+
+		public override ExhibitConfig MakeConfig()
+		{
+			return new ExhibitConfig(FlandreDevilPlushieDef.\u200F\u202B\u202A\u202A\u202D\u206E\u200C\u206F\u202C\u200C\u202C\u202D\u206E\u206C\u206C\u202C\u206A\u202A\u206A\u200D\u200B\u206C\u206B\u206C\u202C\u206C\u206D\u206F\u200B\u206E\u200C\u206D\u206D\u206D\u206D\u206A\u202E\u202A\u202D\u200F\u202E(BepinexPlugin.sequenceTable, FlandreDevilPlushieDef.\u202A\u200C\u206C\u202E\u200E\u202D\u202A\u206D\u206E\u200C\u206A\u202E\u200B\u200B\u200E\u206F\u202E\u206F\u206E\u200C\u202E\u202E\u200C\u206A\u202B\u202A\u200C\u200C\u200E\u206C\u200B\u206F\u206B\u202B\u206A\u200E\u202A\u202C\u206D\u202E(typeof(ExhibitConfig).TypeHandle)), "", 10, false, true, false, true, AppearanceType.Anywhere, "", ExhibitLosableType.Losable, Rarity.Uncommon, null, null, null, new ManaGroup?(new ManaGroup
+			{
+				Philosophy = 1
+			}), null, null, 0, false, null, Keyword.Philosophy, new List<string>(), new List<string>());
+		}
+
+		static BatchLocalization \u206E\u200F\u200C\u206F\u206D\u206C\u206C\u202A\u200B\u206B\u206E\u200D\u206B\u206D\u206E\u200B\u200B\u202B\u200B\u200B\u206F\u200E\u200F\u206F\u206A\u202C\u202D\u206D\u200D\u206F\u200B\u206E\u206A\u200F\u200B\u202C\u200D\u200F\u206E\u206B\u202E(BatchLocalization A_0, EntityDefinition A_1)
+		{
+			return A_0.AddEntity(A_1);
+		}
+
+		static ExhibitSprites \u202E\u200E\u206B\u200B\u206A\u202C\u200C\u200E\u202B\u202D\u202D\u200D\u206B\u200E\u200C\u202C\u202A\u200E\u206C\u200F\u206E\u206C\u202A\u202A\u206C\u206B\u202C\u206A\u202C\u202B\u202A\u202D\u200C\u202E\u202E\u206B\u200D\u206A\u206A\u200C\u202E()
+		{
+			return new ExhibitSprites();
+		}
+
+		static Type \u202A\u200C\u206C\u202E\u200E\u202D\u202A\u206D\u206E\u200C\u206A\u202E\u200B\u200B\u200E\u206F\u202E\u206F\u206E\u200C\u202E\u202E\u200C\u206A\u202B\u202A\u200C\u200C\u200E\u206C\u200B\u206F\u206B\u202B\u206A\u200E\u202A\u202C\u206D\u202E(RuntimeTypeHandle A_0)
+		{
+			return Type.GetTypeFromHandle(A_0);
+		}
+
+		static int \u200F\u202B\u202A\u202A\u202D\u206E\u200C\u206F\u202C\u200C\u202C\u202D\u206E\u206C\u206C\u202C\u206A\u202A\u206A\u200D\u200B\u206C\u206B\u206C\u202C\u206C\u206D\u206F\u200B\u206E\u200C\u206D\u206D\u206D\u206D\u206A\u202E\u202A\u202D\u200F\u202E(TemplateSequenceTable A_0, Type A_1)
+		{
+			return A_0.Next(A_1);
+		}
+
+		[EntityLogic(typeof(FlandreDevilPlushieDef))]
+		[UsedImplicitly]
+		[ExhibitInfo(WeighterType = typeof(FlandreDevilPlushieDef.FlandreDevilPlushie.FlandreDevilPlushieWeighter))]
+		public sealed class FlandreDevilPlushie : Exhibit
+		{
+			protected override void OnEnterBattle()
+			{
+				base.ReactBattleEvent<UnitEventArgs>(FlandreDevilPlushieDef.FlandreDevilPlushie.\u202C\u200C\u206A\u206E\u202C\u202D\u200B\u206F\u202C\u202E\u206A\u202E\u206E\u202A\u202B\u202B\u206B\u206A\u202A\u206B\u206C\u202A\u202E\u202D\u200B\u206F\u202B\u200E\u200D\u206A\u206A\u202C\u202C\u202A\u202D\u200B\u200D\u202B\u206E\u202C\u202E(FlandreDevilPlushieDef.FlandreDevilPlushie.\u202B\u200E\u206A\u202C\u202B\u202A\u202B\u200D\u206E\u202D\u202B\u206F\u200D\u202A\u202C\u202A\u202A\u200F\u206E\u206F\u200D\u200F\u200E\u200E\u202B\u200C\u202E\u206A\u200D\u206C\u200D\u202E\u206C\u206A\u200F\u200E\u200E\u200F\u200E\u202C\u202E(FlandreDevilPlushieDef.FlandreDevilPlushie.\u202C\u202C\u206E\u206D\u202A\u200E\u206F\u202C\u200D\u200F\u202E\u200F\u202B\u200B\u206F\u200C\u202B\u206D\u200F\u200B\u200F\u200D\u200F\u200B\u200C\u200D\u202D\u206C\u206F\u206F\u202E\u200C\u206E\u202B\u206B\u206F\u206A\u206E\u206B\u202A\u202E(this))), new EventSequencedReactor<UnitEventArgs>(this.OnPlayerTurnStarted));
+			}
+
+			private IEnumerable<BattleAction> OnPlayerTurnStarted(UnitEventArgs args)
+			{
+				FlandreDevilPlushieDef.FlandreDevilPlushie.<OnPlayerTurnStarted>d__1 <OnPlayerTurnStarted>d__ = new FlandreDevilPlushieDef.FlandreDevilPlushie.<OnPlayerTurnStarted>d__1(-2);
+				<OnPlayerTurnStarted>d__.<>4__this = this;
+				return <OnPlayerTurnStarted>d__;
+			}
+
+			static BattleController \u202C\u202C\u206E\u206D\u202A\u200E\u206F\u202C\u200D\u200F\u202E\u200F\u202B\u200B\u206F\u200C\u202B\u206D\u200F\u200B\u200F\u200D\u200F\u200B\u200C\u200D\u202D\u206C\u206F\u206F\u202E\u200C\u206E\u202B\u206B\u206F\u206A\u206E\u206B\u202A\u202E(Exhibit A_0)
+			{
+				return A_0.Battle;
+			}
+
+			static PlayerUnit \u202B\u200E\u206A\u202C\u202B\u202A\u202B\u200D\u206E\u202D\u202B\u206F\u200D\u202A\u202C\u202A\u202A\u200F\u206E\u206F\u200D\u200F\u200E\u200E\u202B\u200C\u202E\u206A\u200D\u206C\u200D\u202E\u206C\u206A\u200F\u200E\u200E\u200F\u200E\u202C\u202E(BattleController A_0)
+			{
+				return A_0.Player;
+			}
+
+			static GameEvent<UnitEventArgs> \u202C\u200C\u206A\u206E\u202C\u202D\u200B\u206F\u202C\u202E\u206A\u202E\u206E\u202A\u202B\u202B\u206B\u206A\u202A\u206B\u206C\u202A\u202E\u202D\u200B\u206F\u202B\u200E\u200D\u206A\u206A\u202C\u202C\u202A\u202D\u200B\u200D\u202B\u206E\u202C\u202E(Unit A_0)
+			{
+				return A_0.TurnStarted;
+			}
+
+			private class FlandreDevilPlushieWeighter : IExhibitWeighter
+			{
+				[MethodImpl(MethodImplOptions.NoInlining)]
+				public float WeightFor(Type type, GameRunController gameRun)
+				{
+					if (!FlandreDevilPlushieDef.FlandreDevilPlushie.FlandreDevilPlushieWeighter.\u202D\u200F\u200D\u206B\u206A\u202B\u200F\u202D\u206A\u202D\u202A\u200B\u200C\u202B\u200D\u202D\u206C\u200D\u202A\u206D\u206F\u206C\u200B\u206A\u200C\u200B\u202B\u202C\u206D\u202E\u202D\u202E\u202E\u206D\u200F\u202E\u202A\u206E\u200E\u202C\u202E(FlandreDevilPlushieDef.FlandreDevilPlushie.FlandreDevilPlushieWeighter.\u202A\u206C\u206D\u200D\u202C\u200D\u200F\u202C\u200C\u202D\u200C\u200C\u202D\u200D\u200E\u200F\u202B\u202B\u206A\u206D\u202E\u206F\u200D\u200F\u206B\u200E\u200F\u206A\u206E\u202D\u200B\u202E\u200C\u206B\u202D\u206C\u202B\u202C\u206D\u202E(FlandreDevilPlushieDef.FlandreDevilPlushie.FlandreDevilPlushieWeighter.\u200C\u200B\u206D\u200E\u200C\u206D\u202B\u200D\u202B\u202A\u206B\u202B\u202C\u202D\u202E\u206B\u200F\u202C\u202A\u206A\u206E\u200C\u206F\u206B\u206B\u206C\u202C\u206E\u202D\u202A\u200E\u206E\u206B\u206F\u206D\u202B\u202C\u202D\u200D\u206A\u202E(gameRun)), <Module>.\u200F\u206C\u206A\u202D\u200D\u202B\u202B\u206B\u206A\u202C\u206C\u206B\u200B\u200D\u202E\u206F\u206C\u206E\u202E\u200D\u200F\u206D\u202A\u200B\u206D\u200B\u206F\u200D\u206B\u202E\u200F\u206D\u200B\u200F\u206D\u200D\u202C\u206C\u206C\u202E<string>(-1804336317)))
+					{
+						for (;;)
+						{
+							int num = 1287497828;
+							switch ((-(-num) * 2020161247 - -1034949108) % 3)
+							{
+							case 0:
+								continue;
+							case 1:
+								goto IL_004A;
+							}
+							break;
+						}
+						goto IL_005F;
+						IL_004A:
+						return 1.15f;
+					}
+					IL_005F:
+					return 0f;
+				}
+
+				static PlayerUnit \u200C\u200B\u206D\u200E\u200C\u206D\u202B\u200D\u202B\u202A\u206B\u202B\u202C\u202D\u202E\u206B\u200F\u202C\u202A\u206A\u206E\u200C\u206F\u206B\u206B\u206C\u202C\u206E\u202D\u202A\u200E\u206E\u206B\u206F\u206D\u202B\u202C\u202D\u200D\u206A\u202E(GameRunController A_0)
+				{
+					return A_0.Player;
+				}
+
+				static string \u202A\u206C\u206D\u200D\u202C\u200D\u200F\u202C\u200C\u202D\u200C\u200C\u202D\u200D\u200E\u200F\u202B\u202B\u206A\u206D\u202E\u206F\u200D\u200F\u206B\u200E\u200F\u206A\u206E\u202D\u200B\u202E\u200C\u206B\u202D\u206C\u202B\u202C\u206D\u202E(GameEntity A_0)
+				{
+					return A_0.Id;
+				}
+
+				static bool \u202D\u200F\u200D\u206B\u206A\u202B\u200F\u202D\u206A\u202D\u202A\u200B\u200C\u202B\u200D\u202D\u206C\u200D\u202A\u206D\u206F\u206C\u200B\u206A\u200C\u200B\u202B\u202C\u206D\u202E\u202D\u202E\u202E\u206D\u200F\u202E\u202A\u206E\u200E\u202C\u202E(string A_0, string A_1)
+				{
+					return A_0 != A_1;
+				}
+			}
+		}
+	}
+}

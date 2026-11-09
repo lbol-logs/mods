@@ -1,0 +1,12 @@
+﻿FlandreDoomsdayClock:
+  Description: >-
+    |{PlayerName}| 获得的|崩坏|效果变为两倍。
+
+    在 |{SelfName}| 被打出后的第 |{Value1}| 个回合开始时，将一张 |灭世兵器| 加入手牌。
+  UpgradedDescription: >-
+    |{PlayerName}| 获得的|崩坏|效果变为两倍。
+
+    在 |{SelfName}| 被打出后的第 |{Value1}| 个回合开始时，将一张 |灭世兵器| 加入手牌。
+
+    获得 |{Value2}| 点|崩坏|。
+  Name: 末日之钟

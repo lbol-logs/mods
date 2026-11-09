@@ -1,0 +1,5 @@
+﻿AyaBlackmail:
+  Description: '|붕붕마루 신문|이 추가로 |일시 화력 저하|를 {Value1} 주고, 발동시 <sprite="Point" name="Gold">를 {Value2} 얻습니다. |붕붕마루 신문|을 {Value3}장 뽑을 카드 더미에 넣습니다.'
+  UpgradedDescription: '|붕붕마루 신문|이 추가로 |일시 화력 저하|를 {Value1} 주고, 발동시 <sprite="Point" name="Gold">를 {Value2} 얻습니다. |붕붕마루 신문|을 {Value3}장 뽑을 카드 더미에 넣습니다.'
+  Name: 찌라시
+  DetailText: 상관에게 |찌라시|를 시도한다면...

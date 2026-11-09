@@ -1,0 +1,52 @@
+﻿FlandreAndThenWillThereBeNone:
+  Description: >-
+    |供物|{Value1}。
+
+    {PlayerName}は次の{FlandreValue2}ターンの間、あらゆるダメージとデバフを無効化する。
+
+    |災禍|{Value3}を得る。敵全体に{FlandreDamage}ダメージを{Value4}回与える。
+
+    各戦闘で最初の{SelfName}のみ効果を発揮する。
+  UpgradedDescription: >-
+    |供物|{Value1}。
+
+    {PlayerName}は次の{FlandreValue2}ターンの間、あらゆるダメージとデバフを無効化する。
+
+    |災禍|{Value3}を得る。敵全体に{FlandreDamage}ダメージを{Value4}回与える。
+
+    各戦闘で最初の{SelfName}のみ効果を発揮する。
+  ExtraDescription1: >-
+    |d:供物 {Value1}。
+
+    {PlayerName}は次の{FlandreValue2}ターンの間、あらゆるダメージとデバフを無効化する。
+
+    |災禍|{Value3}を得る。敵全体に{FlandreDamage}ダメージを{Value4}回与える。
+
+    各戦闘で最初の{SelfName}のみ効果を発揮する。
+  PhantasmModeDescription: >-
+    |供物|{Value1}。
+
+    {PlayerName}は次の{FlandreValue2}ターンの間、あらゆるダメージとデバフを無効化する。
+
+    |災禍|{Value3}を得る。敵全体に{FlandreDamage}ダメージを{Value4}回与える。|狂気|{Value5}を得る。
+
+    各戦闘で最初の{SelfName}のみ効果を発揮する。
+  PhantasmModeUpgradedDescription: >-
+    |供物|{Value1}。
+
+    {PlayerName}は次の{FlandreValue2}ターンの間、あらゆるダメージとデバフを無効化する。
+
+    |災禍|{Value3}を得る。敵全体に{FlandreDamage}ダメージを{Value4}回与える。|狂気|{Value5}を得る。
+
+    各戦闘で最初の{SelfName}のみ効果を発揮する。
+  PhantasmModeExtraDescription1: >-
+    |d:供物{Value1}。
+
+    {PlayerName}は次の{FlandreValue2}ターンの間、あらゆるダメージとデバフを無効化する。
+
+    |災禍|{Value3}を得る。敵全体に{FlandreDamage}ダメージを{Value4}回与える。
+
+    {Value5} 狂気を得る。
+
+    各戦闘で最初の{SelfName}のみ効果を発揮する。
+  Name: そして誰もいなくなるか？

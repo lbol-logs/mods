@@ -1,0 +1,14 @@
+﻿FlandreCerberusClipper:
+  Description: >-
+    {FlandreDamage}ダメージを{FlandreValue1}回与える。
+
+    |弱体|{FlandreValue2}と|脱力|{FlandreValue2}を与える。
+
+    ライフ{Value3}を得る。
+  UpgradedDescription: >-
+    {FlandreDamage}ダメージを{FlandreValue1}回与える。
+
+    |弱体|{FlandreValue2}と|脱力|{FlandreValue2}を与える。
+
+    ライフ{Value3}を得る。
+  Name: ケルベロスクリッパー

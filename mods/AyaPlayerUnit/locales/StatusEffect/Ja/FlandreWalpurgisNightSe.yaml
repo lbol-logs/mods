@@ -1,0 +1,10 @@
+﻿FlandreWalpurgisNightSe:
+  Brief: >-
+    |破滅|の最大スタック数が{Value}になる。
+
+    {PlayerName}が攻撃ダメージを与えるたび、その半分の量の|破滅|を追加で与える。
+  Description: >-
+    |破滅|の最大スタック数が{Value}になる。
+
+    {PlayerName}が攻撃ダメージを与えるたび、その半分の量の|破滅|を追加で与える。
+  Name: ワルプルギスの夜

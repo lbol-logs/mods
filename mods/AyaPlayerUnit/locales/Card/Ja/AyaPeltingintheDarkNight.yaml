@@ -1,0 +1,18 @@
+﻿AyaPeltingintheDarkNight:
+  Description: >-
+    |手札に加わった時|：ライフが最も少ない敵に{Damage}ダメージを与えて、カードを1枚引き{SelfName}を捨てる。
+
+    この効果は1ターンにつき{Value1}回しか発動しない。
+  UpgradedDescription: >-
+    |手札に加わった時|：ライフが最も少ない敵に{Damage}ダメージを与えて、カードを1枚引き{SelfName}を捨てる。
+
+    この効果は1ターンにつき{Value1}回しか発動しない。
+  ExtraDescription1: >-
+    |d:手札に加わった時:ライフが最も少ない敵に{Damage}ダメージを与えて、カードを1枚引き{SelfName}を捨てる。
+
+    この効果は1ターンにつき{Value1}回しか発動しない。|
+  UpgradedExtraDescription1: >-
+    |d:手札に加わった時:ライフが最も少ない敵に{Damage}ダメージを与えて、カードを1枚引き{SelfName}を捨てる。
+
+    この効果は1ターンにつき{Value1}回しか発動しない。|
+  Name: 暗夜の礫

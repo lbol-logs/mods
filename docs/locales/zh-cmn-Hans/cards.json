@@ -1,4 +1,983 @@
 {
+  "AyaAdventoftheDivineGrandson": {
+    "Name": "神孙降临",
+    "Description": "获得 <Mana />。<br />抽牌直到手牌满。<br /><PlayerName /> 免疫所有负面状态。<br />所有卡牌被使用两次。<br /><h>消耗品【{ToolPlayableTimes}】</h>",
+    "UpgradedDescription": "获得 <Mana />。<br />抽牌直到手牌满。<br /><PlayerName /> 免疫所有负面状态。<br />所有卡牌被使用两次。<br /><h>消耗品【{ToolPlayableTimes}】</h>"
+  },
+  "AyaAnythingisNewsworthy": {
+    "Name": "任何事都值得报道",
+    "Description": "每当一张<h>崩坏</h>或状态牌即将被添加时，如果其名称不包含“文文”或“新闻”，则改为添加一张 <h>文文新闻</h>。",
+    "UpgradedDescription": "每当一张<h>崩坏</h>或状态牌即将被添加时，如果其名称不包含“文文”或“新闻”，则改为添加一张 <h>文文新闻</h>。"
+  },
+  "AyaApexPredator": {
+    "Name": "顶级掠食者",
+    "Description": "每当<PlayerName />受到攻击伤害时，减少等同于<PlayerName />的<h>加速</h>的伤害，并失去 {Value3}<h>加速</h>。<br />获得 <Value1 /><h>加速</h>。",
+    "UpgradedDescription": "每当<PlayerName />受到攻击伤害时，减少等同于<PlayerName />的<h>加速</h>的伤害，并失去 {Value3}<h>加速</h>。<br />获得 <Value1 /><h>加速</h>。"
+  },
+  "AyaArmoredRaven": {
+    "Name": "装甲乌鸦",
+    "Description": "<PlayerName /> 回合中使用的第一张攻击牌会被使用两次。<br /><PlayerName /> 回合中使用的第一张状态牌会被使用两次。",
+    "UpgradedDescription": "<PlayerName /> 回合中使用的第一张攻击牌会被使用两次。<br /><PlayerName /> 回合中使用的第一张状态牌会被使用两次。"
+  },
+  "AyaArsenalBird": {
+    "Name": "军械库鸟",
+    "Description": "获得 <Value1 /> <h>防御矩阵</h>。<br />在<PlayerName />回合开始时，将 <h>无人空中乌鸦</h> 召唤到手牌中。<br />此效果不会叠加。",
+    "UpgradedDescription": "获得 <Value1 /> <h>防御矩阵</h>。<br />在<PlayerName />回合开始时，将 <h>无人空中乌鸦</h> 召唤到手牌中。<br />此效果不会叠加。<br />触发 {SelfName} 一次。"
+  },
+  "AyaArsenalBirdDrone": {
+    "Name": "无人空中乌鸦",
+    "PassiveDescription": "<hf>巡逻模式</hf>: 获得<Mana />并抽一张牌。"
+  },
+  "AyaAttackG": {
+    "Name": "烈风扇",
+    "Description": "造成 <Damage /> 点伤害。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。"
+  },
+  "AyaAttackR": {
+    "Name": "疾风扇",
+    "Description": "造成 <Damage /> 点伤害。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。"
+  },
+  "AyaAyaShameimarusCoerciveReporting": {
+    "Name": "射命丸文的强制报道",
+    "Description": "将一张 <h>文文新闻特刊</h> 加入手牌。<br />根据目标的意图获得额外效果。",
+    "UpgradedDescription": "将一张 <h>文文新闻特刊</h> 加入手牌。<br />根据目标的意图获得额外效果。"
+  },
+  "AyaBirdStrike": {
+    "Name": "鸟击",
+    "Description": "造成 <Damage /> 点伤害。<br />{SelfName} 每有<PlayerName />的<h>加速</h>，便额外造成 <Value1 /> 点伤害。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />{SelfName} 每有<PlayerName />的<h>加速</h>，便额外造成 <Value1 /> 点伤害。"
+  },
+  "AyaBlackmail": {
+    "Name": "敲诈",
+    "Description": "<h>文文新闻</h> 还会施加 <Value1 /><h>暂失火力</h>并在生效时获得 <Value2 /> <Money />。<br />将 <h>{Value3:plural one='% 文文新闻' other='% 文文新闻'}</h> 加入抽牌堆。",
+    "UpgradedDescription": "<h>文文新闻</h> 还会施加 <Value1 /><h>暂失火力</h>并在生效时获得 <Value2 /> <Money />。<br />将 <h>{Value3:plural one='% 文文新闻' other='% 文文新闻'}</h> 加入抽牌堆。"
+  },
+  "AyaBlockG": {
+    "Name": "天狗的下冲",
+    "Description": "获得 <Block /><h>格挡</h>。",
+    "UpgradedDescription": "获得 <Block /><h>格挡</h>。"
+  },
+  "AyaBlockR": {
+    "Name": "天狗的雾立",
+    "Description": "获得 <Block /><h>格挡</h>。",
+    "UpgradedDescription": "获得 <Block /><h>格挡</h>。"
+  },
+  "AyaBossYukariBlackDeathButterfly": {},
+  "AyaBunbunmaruPrinter": {
+    "Name": "文文印刷机",
+    "Description": "在<PlayerName />回合开始时，将 <h>{Value1:plural one='% 文文新闻' other='% 文文新闻'}</h> 加入手牌。{Value1:plural one='它 <h>临时消耗</h>' other='它们 <h>临时消耗</h>'} <Mana />。",
+    "UpgradedDescription": "在<PlayerName />回合开始时，将 <h>{Value1:plural one='% 文文新闻' other='% 文文新闻'}</h> 加入手牌。{Value1:plural one='它 <h>临时消耗</h>' other='它们 <h>临时消耗</h>'} <Mana />。<br />触发 {SelfName} 一次。"
+  },
+  "AyaCandidShot": {
+    "Name": "直击",
+    "Description": "造成 <Damage /> 点伤害，重复 {Times} 次。<br />施加 <Value1 /><h>锁定</h>。<br /><h>手牌中</h>: 每当一张<h>崩坏</h>或状态牌被<h>放逐</h>时，{SelfName} <h>临时消耗</h> 减少 <Mana />。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害，重复 {Times} 次。<br />施加 <Value1 /><h>锁定</h>。<br /><h>手牌中</h>: 每当一张<h>崩坏</h>或状态牌被<h>放逐</h>时，{SelfName} <h>临时消耗</h> 减少 <Mana />。"
+  },
+  "AyaChapter0": {
+    "Name": "自由模式",
+    "Description": "没有任何固定遭遇的标准游戏模式。"
+  },
+  "AyaChapter1": {
+    "Name": "特辑！失落的宝藏真相",
+    "Description": "在观众离开寻找宝藏后，射命丸文决定调查此案。"
+  },
+  "AyaChapter2": {
+    "Name": "蝴蝶效应",
+    "Description": "小狸猫不见了，射命丸文回到妖怪山希望能找到她。<br />她的每一个行动都有其后果。"
+  },
+  "AyaCloseup": {
+    "Name": "特写",
+    "Description": "获得 <Block /><h>格挡</h>。<br />对于每张与 {SelfName} 相邻的<h>崩坏</h>或状态牌，获得<Mana />并抽一张牌。",
+    "UpgradedDescription": "获得 <Block /><h>格挡</h>。<br />对于每张与 {SelfName} 相邻的<h>崩坏</h>或状态牌，获得<Mana />并抽一张牌。"
+  },
+  "AyaComicallyLargeHat": {
+    "Name": "滑稽的大帽子",
+    "Description": "获得 <Block /><h>格挡</h>。<br /><h>减速 <Value1 /></h>: 对所有敌人施加 <Value2 /> <h>虚弱</h>。",
+    "UpgradedDescription": "获得 <Block /><h>格挡</h>。<br />对所有敌人施加 <Value2 /> <h>虚弱</h>。"
+  },
+  "AyaCompletedInterview": {
+    "Name": "完成的采访",
+    "Description": "<h>初见</h>: 将 <h>{Value1:plural one='% 文文新闻' other='% 文文新闻'}</h> 和 <h>{Value2:plural one='% 文文新闻 - 文特刊' other='% 文文新闻 - 文特刊'}</h> 加入弃牌堆。<br />抽 {Value3:plural one='% 张牌' other='% 张牌'}。",
+    "UpgradedDescription": "<h>初见</h>: 将 <h>{Value1:plural one='% 文文新闻' other='% 文文新闻'}</h> 和 <h>{Value2:plural one='% 文文新闻 - 文特刊' other='% 文文新闻 - 文特刊'}</h> 加入弃牌堆。<br />抽 {Value3:plural one='% 张牌' other='% 张牌'}。"
+  },
+  "AyaCrazyFallWind": {
+    "Name": "疯狂的秋风",
+    "Description": "每当一张牌被<h>放逐</h>时，获得 <Value1 /><h>加速</h>。",
+    "UpgradedDescription": "每当一张牌被<h>放逐</h>时，获得 <Value1 /><h>加速</h>。"
+  },
+  "AyaCrossroadsofHeaven": {
+    "Name": "天界的十字路口",
+    "Description": "获得 <Value1 /><h>加速</h>。<br />每当<PlayerName />获得<h>加速</h>时，额外获得 <Value2 /><h>加速</h>。",
+    "UpgradedDescription": "获得 <Value1 /><h>加速</h>。<br />每当<PlayerName />获得<h>加速</h>时，额外获得 <Value2 /><h>加速</h>。"
+  },
+  "AyaDanceofBlackQuill": {
+    "Name": "黑羽之舞",
+    "Description": "对所有敌人造成 <Damage /> 点伤害并施加 <Value1 /><h>锁定</h>。<br />获得 <Value1 /><h>加速</h>。<br />当使用 {SelfName} 击败敌人时，重复这些效果。",
+    "UpgradedDescription": "对所有敌人造成 <Damage /> 点伤害并施加 <Value1 /><h>锁定</h>。<br />获得 <Value1 /><h>加速</h>。<br />当使用 {SelfName} 击败敌人时，重复这些效果。"
+  },
+  "AyaDashingDomination": {
+    "Name": "疾驰的支配",
+    "Description": "获得 <Value1 /><h>加速</h>。<br />抽 <Value2 /> 张牌。",
+    "UpgradedDescription": "获得 <Value1 /><h>加速</h>。<br />抽 <Value2 /> 张牌。"
+  },
+  "AyaDashingGrace": {
+    "Name": "疾驰的优雅",
+    "Description": "对所有敌人造成 <Value2 /> 点伤害，每有<PlayerName />的<h>加速</h>便额外造成一次伤害。",
+    "UpgradedDescription": "对所有敌人造成 <Value2 /> 点伤害，每有<PlayerName />的<h>加速</h>便额外造成一次伤害。"
+  },
+  "AyaDaymareintheDarkNight": {
+    "Name": "黑夜中的白日梦",
+    "Description": "造成 <Damage /> 点伤害。<br />直到<PlayerName />的下个回合，每当<PlayerName />获得<h>加速</h>时，对生命最低的敌人造成 <Damage /> 点伤害。<br />获得 <Value1 /><h>加速</h>。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />直到<PlayerName />的下个回合，每当<PlayerName />获得<h>加速</h>时，对生命最低的敌人造成 <Damage /> 点伤害。<br />获得 <Value1 /><h>加速</h>。"
+  },
+  "AyaEffortlessFlight": {
+    "Name": "轻松飞行",
+    "Description": "获得 <Value1 /><h>加速</h>。<br />在<PlayerName />回合开始时，获得 <Value1 /><h>加速</h>。",
+    "UpgradedDescription": "获得 <Value1 /><h>加速</h>。<br />在<PlayerName />回合开始时，获得 <Value1 /><h>加速</h>。"
+  },
+  "AyaExtraBossSelectFlandre": {
+    "Name": "芙兰朵露（仅限文）",
+    "Description": "此Boss尚未准备好。请期待未来的更新。"
+  },
+  "AyaExtraBossSelectKoishi": {
+    "Name": "古明地恋",
+    "Description": ""
+  },
+  "AyaExtraBossSelectRandom": {
+    "Name": "随机",
+    "Description": ""
+  },
+  "AyaExtraBossSelectYuuma": {
+    "Name": "幽魔（仅限芙兰）",
+    "Description": "此Boss尚未准备好。请期待未来的更新。"
+  },
+  "AyaExtraBossSelectZUN": {
+    "Name": "ZUN",
+    "Description": ""
+  },
+  "AyaExtraFans": {
+    "Name": "额外粉丝",
+    "Description": "造成 <Damage /> 点伤害。<br />获得 <Value1 /><h>加速</h>。<br />将一张 <h>文文新闻</h> 加入手牌。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />获得 <Value1 /><h>加速</h>。<br />将一张 <h>文文新闻</h> 加入手牌。"
+  },
+  "AyaEyeoftheStorm": {
+    "Name": "风暴之眼",
+    "Description": "获得 <Block /><h>格挡</h>。<br />获得 <Value1 /><h>反射</h>。<br />{SelfName} 也会受到<h>加速</h>的影响。",
+    "UpgradedDescription": "获得 <Block /><h>格挡</h>。<br />获得 <Value1 /><h>反射</h>。<br />{SelfName} 也会受到<h>加速</h>的影响。"
+  },
+  "AyaFastShot": {
+    "Name": "快速射击",
+    "Description": "造成 <Damage /> 点伤害。<br />使用手牌中的一张随机 <h>文文新闻</h>。<br />将一张 <h>文文新闻</h> 加入手牌。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />使用手牌中的一张随机 <h>文文新闻</h>。<br />将一张 <h>文文新闻</h> 加入手牌。"
+  },
+  "AyaFma": {
+    "Name": "F = ma",
+    "Description": "获得 <Value1 /><h>加速</h>。<br />获得 <Value2 /><h>火力</h>。<br />每有 4 点<h>加速</h>，{SelfName} 的<h>火力</h>增加 {Value3}。",
+    "UpgradedDescription": "获得 <Value1 /><h>加速</h>。<br />获得 <Value2 /><h>火力</h>。<br />每有 4 点<h>加速</h>，{SelfName} 的<h>火力</h>增加 {Value3}。"
+  },
+  "AyaFriendAya": {
+    "Name": "射命丸文，风神",
+    "PassiveDescription": "<hf>十字路口标志「猿田十字」</hf>: 获得 <Value1 /><h>加速</h>。"
+  },
+  "AyaFriendCirno": {
+    "Name": "琪露诺，四季的小友",
+    "PassiveDescription": "<hf>盛夏绽放</hf>: 每个<h>战场</h>中的 <h>队友</h> 获得 <Value1 /> <h>团结</h>。"
+  },
+  "AyaFriendHatate": {
+    "Name": "当代的念写记者姬海棠果",
+    "PassiveDescription": "<hf>灵异摄影</hf>: 获得 <Value1 /> <h>灵力</h>。将 <Value2 /> <h>鸦天狗灵异新闻</h> 加入抽牌堆。"
+  },
+  "AyaFriendHatateNewsSpecial": {
+    "Name": "鸦天狗灵异新闻特刊",
+    "Description": "获得 <Value1 /> 点随机法力。每有本场战斗中被<h>放逐</h>的 {SelfName}，便增加 1 点。<br /><h>当 {SelfName} 进入手牌时</h>: 获得 <Shield /><h>护盾</h>。"
+  },
+  "AyaFriendMegumu": {
+    "Name": "鸦天狗首领饭纲丸龙",
+    "PassiveDescription": "<hf>监督</hf>: 每当一张<h>崩坏</h>或状态牌被<h>放逐</h>时，获得 <Mana />。"
+  },
+  "AyaFriendMomiji": {
+    "Name": "巡逻天狗犬走椛",
+    "PassiveDescription": "<hf>心灵感应</hf>: <h>预知</h> <Scry />。"
+  },
+  "AyaHeadShot": {
+    "Name": "爆头",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>锁定</h> 增加 {SelfName} 的伤害 {Value1:plural one='% 次' other='% 次'}。<br />当使用 {SelfName} 击败敌人时，获得 <Mana />。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br /><h>锁定</h> 增加 {SelfName} 的伤害 {Value1:plural one='% 次' other='% 次'}。<br />当使用 {SelfName} 击败敌人时，获得 <Mana />。"
+  },
+  "AyaHeavenlyPartner": {
+    "Name": "天界伙伴",
+    "Description": "获得 <Block /><h>格挡</h>。<br />对所有敌人施加 <Value1 /><h>虚弱</h>和<h>易伤</h>。<br />如果手牌中有召唤的 <h>犬走椛，巡逻天狗</h>，则获得 <Value2 /> <h>临时火力</h>。",
+    "UpgradedDescription": "获得 <Block /><h>格挡</h>。<br />对所有敌人施加 <Value1 /><h>虚弱</h>和<h>易伤</h>。<br />如果手牌中有召唤的 <h>犬走椛，巡逻天狗</h>，则获得 <Value2 /> <h>临时火力</h>。"
+  },
+  "AyaHraesvelgrofTerminus": {
+    "Name": "终点的赫拉斯瓦尔格",
+    "Description": "所有敌人的<h>护盾</h>、<h>护盾</h> 和增益效果在<PlayerName />的下个回合前无效。",
+    "UpgradedDescription": "所有敌人的<h>护盾</h>、<h>护盾</h> 和增益效果在<PlayerName />的下个回合前无效。"
+  },
+  "AyaIllusionaryDominance": {
+    "Name": "幻影支配",
+    "Description": "造成 <Damage /> 点伤害，重复 {Times} 次。<br />额外造成等同于<PlayerName />的<h>加速</h>的伤害。<br />每有 {Value3}<h>加速</h>，便额外造成一次伤害，最多 <Value2 /> 次。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害，重复 {Times} 次。<br />额外造成等同于<PlayerName />的<h>加速</h>的伤害。<br />每有 {Value3}<h>加速</h>，便额外造成一次伤害，最多 <Value2 /> 次。"
+  },
+  "AyaInstantShotJournalist": {
+    "Name": "瞬间射击记者",
+    "Description": "获得 <Block /><h>格挡</h>。<br />获得 <Value1 /><h>加速</h>。<br /><PlayerName /> 在 {Value2:plural one='% 回合' other='% 回合'} 内无法失去<h>加速</h>。",
+    "UpgradedDescription": "获得 <Block /><h>格挡</h>。<br />获得 <Value1 /><h>加速</h>。<br /><PlayerName /> 在 {Value2:plural one='% 回合' other='% 回合'} 内无法失去<h>加速</h>。"
+  },
+  "AyaLittleSalvation": {
+    "Name": "小小的救赎",
+    "Description": "获得 <Block /><h>格挡</h>。<br />获得 <Value1 /><h>加速</h>和 <h>临时火力</h>。",
+    "UpgradedDescription": "获得 <Block /><h>格挡</h>。<br />获得 <Value1 /><h>加速</h>和 <h>临时火力</h>。"
+  },
+  "AyaMapleFansWind": {
+    "Name": "枫扇之风",
+    "Description": "获得 <Value1 /><h>加速</h>。",
+    "UpgradedDescription": "获得 <Value1 /><h>加速</h>。"
+  },
+  "AyaMemoryinPicture": {
+    "Name": "记忆中的画面",
+    "Description": "获得 <Shield /><h>护盾</h>。<br />每有<h>战场</h>中的一张<h>崩坏</h>或状态牌，便获得 <Value1 /><h>护盾</h>。",
+    "UpgradedDescription": "获得 <Shield /><h>护盾</h>。<br />每有<h>战场</h>中的一张<h>崩坏</h>或状态牌，便获得 <Value1 /><h>护盾</h>。"
+  },
+  "AyaMomentofRelaxation": {
+    "Name": "放松时刻",
+    "Description": "<h>减速 <Value1 /></h>: 获得<Mana />并抽 {Value2:plural one='% 张牌' other='% 张牌'}。",
+    "UpgradedDescription": "<h>减速 <Value1 /></h>: 获得<Mana />并抽 {Value2:plural one='% 张牌' other='% 张牌'}。"
+  },
+  "AyaMountainGodsProcession": {
+    "Name": "山神巡游",
+    "Description": "每当<PlayerName />获得<h>加速</h>时，获得 <Mana />。<br />获得 <Value1 /><h>加速</h>。",
+    "UpgradedDescription": "每当<PlayerName />获得<h>加速</h>时，获得 <Mana />。<br />获得 <Value1 /><h>加速</h>。"
+  },
+  "AyaNewsAyaPlayerUnitSp": {
+    "Name": "文文新闻 - 文特刊",
+    "Description": "<h>在回合结束时</h>: 获得 <Value1 /><h>火力</h>和 <h>灵力</h>。"
+  },
+  "AyaNewsDissemination": {
+    "Name": "新闻传播",
+    "Description": "弃掉 <Value1 /> 张牌。<br />将等量的 <h>文文新闻</h> 加入手牌。<br />获得 <Mana />。",
+    "UpgradedDescription": "弃掉 <Value1 /> 到 <Value2 /> 张牌。<br />将等量的 <h>文文新闻</h> 加入手牌。<br />获得 <Mana />。"
+  },
+  "AyaNewsOverwhelming": {
+    "Name": "新闻压倒",
+    "Description": "每当一张非 <h>复制</h> 的<h>崩坏</h>或状态牌被<h>放逐</h>时，将一张 <h>文文新闻</h> 的 <h>复制</h> 加入手牌。它 <h>临时消耗</h> <Mana />。",
+    "UpgradedDescription": "每当一张非 <h>复制</h> 的<h>崩坏</h>或状态牌被<h>放逐</h>时，将一张 <h>文文新闻</h> 的 <h>复制</h> 加入手牌。它 <h>临时消耗</h> <Mana />。"
+  },
+  "AyaNewsSpecial": {
+    "Name": "文文新闻特刊",
+    "Description": "获得 <Block /><h>格挡</h>。<br />对所有敌人造成 <Damage /> 点伤害并施加 <Value1 /><h>锁定</h>。<br />带有<h>锁定</h>的敌人会受到双倍伤害。"
+  },
+  "AyaOpeningWindoftheTenguRealm": {
+    "Name": "天狗领域的开启之风",
+    "Description": "<h>在战斗开始时</h>:<h>放逐</h>{SelfName}，获得 <Value1 /> <h>额外回合</h>。",
+    "UpgradedDescription": "<h>在战斗开始时</h>:<h>放逐</h>{SelfName}，获得 <Value1 /> <h>额外回合</h> 和 <Value2 /><h>加速</h>。"
+  },
+  "AyaOrbGreenMorphBird": {
+    "Name": "鸟类形态",
+    "Description": "对所有敌人施加 <Value1 /><h>闪避</h>。",
+    "UpgradedDescription": "对所有敌人施加 <Value1 /><h>闪避</h>。"
+  },
+  "AyaOrbGreenMorphDog": {
+    "Name": "犬类形态",
+    "Description": "对所有敌人施加 <Value1 /><h>火力</h>。",
+    "UpgradedDescription": "对所有敌人施加 <Value1 /><h>火力</h>。"
+  },
+  "AyaOrbGreenMorphFrog": {
+    "Name": "两栖类形态",
+    "Description": "所有敌人获得 <Value1 /> 点最大生命。",
+    "UpgradedDescription": "所有敌人获得 <Value1 /> 点最大生命。"
+  },
+  "AyaOrbGreenMorphMan": {
+    "Name": "人类形态",
+    "Description": "失去 <Value1 /> <Power />。",
+    "UpgradedDescription": "失去 <Value1 /> <Power />。"
+  },
+  "AyaPanorama": {
+    "Name": "全景",
+    "Description": "获得 <Block /><h>格挡</h>。<br />增加 <h>文文新闻特刊</h> 的数值 <Value1 />。<br /><h>当被放逐时</h>: 将一张 <h>文文新闻特刊</h> 加入手牌。",
+    "UpgradedDescription": "获得 <Block /><h>格挡</h>。<br />增加 <h>文文新闻特刊</h> 的数值 <Value1 />。<br /><h>当被放逐时</h>: 将一张 <h>文文新闻特刊</h> 加入手牌。"
+  },
+  "AyaPaperRecycling": {
+    "Name": "纸张回收",
+    "Description": "<h>放逐</h>手牌中的一张<h>崩坏</h>或状态牌。获得等同于该卡消耗的法力。<br />抽一张牌。<br />获得 <Mana />。",
+    "UpgradedDescription": "<h>放逐</h>手牌中的一张<h>崩坏</h>或状态牌。获得等同于该卡消耗的法力。<br />抽一张牌。<br />获得 <Mana />。"
+  },
+  "AyaPeltingintheDarkNight": {
+    "Name": "黑夜中的投掷",
+    "Description": "<h>当 {SelfName} 进入手牌时</h>: 对生命最低的敌人造成 <Damage /> 点伤害，抽一张牌并弃掉 {SelfName}。<br />此效果每回合只能触发 {Value1:plural one='% 次' other='% 次'}。",
+    "UpgradedDescription": "<h>当 {SelfName} 进入手牌时</h>: 对生命最低的敌人造成 <Damage /> 点伤害，抽一张牌并弃掉 {SelfName}。<br />此效果每回合只能触发 {Value1:plural one='% 次' other='% 次'}。"
+  },
+  "AyaPhantasmModeTooltip": {
+    "Name": "幻影模式",
+    "Description": "启用时，削弱来自“射命丸文”模组的角色。<br /><color=#dd7473>更改此设置需要退出游戏。</color>"
+  },
+  "AyaPinnacleofEvasion": {
+    "Name": "闪避巅峰",
+    "Description": "<h>减速 <Value1 /></h>: 获得 <Value2 /> <h>完美闪避</h>。",
+    "UpgradedDescription": "<h>减速 <Value1 /></h>: 获得 <Value2 /> <h>完美闪避</h>。"
+  },
+  "AyaProtectionPaper": {
+    "Name": "保护纸",
+    "Description": "每当一张<h>崩坏</h>或状态牌被<h>放逐</h>时，获得 <Value1 /><h>护盾</h>。",
+    "UpgradedDescription": "每当一张<h>崩坏</h>或状态牌被<h>放逐</h>时，获得 <Value1 /><h>护盾</h>。"
+  },
+  "AyaQuickDraw": {
+    "Name": "快速抽牌",
+    "Description": "获得 <Value1 /><h>加速</h>。<br />使用抽牌堆顶的卡牌。",
+    "UpgradedDescription": "获得 <Value1 /><h>加速</h>。<br />使用抽牌堆顶的卡牌。"
+  },
+  "AyaQuickShootingTenguScoop": {
+    "Name": "快速射击天狗特辑",
+    "Description": "获得 <Block /><h>格挡</h>。<br />本回合状态牌消耗减少 <Mana />。<br />将 <h>{Value1:plural one='% 文文新闻' other='% 文文新闻'}</h> 加入手牌。",
+    "UpgradedDescription": "获得 <Block /><h>格挡</h>。<br />本回合卡牌消耗减少 <Mana />。<br />将 <h>{Value1:plural one='% 文文新闻' other='% 文文新闻'}</h> 加入手牌。"
+  },
+  "AyaRequestingAirSupport": {
+    "Name": "请求空中支援",
+    "Description": "将 <h>{Value1:plural one='% 无人空中乌鸦' other='% 无人空中乌鸦'}</h> 召唤到手牌中。",
+    "UpgradedDescription": "将 <h>{Value1:plural one='% 无人空中乌鸦' other='% 无人空中乌鸦'}</h> 召唤到手牌中。"
+  },
+  "AyaRouteForbiddentoMan": {
+    "Name": "禁止人类通行的道路",
+    "Description": "在<PlayerName />回合结束时，每有一张牌被 <h>放逐</h>，便对随机敌人造成 <Damage /> 点伤害并施加 <Value1 /><h>锁定</h>，最多 <Value2 /> 次。",
+    "UpgradedDescription": "在<PlayerName />回合结束时，每有一张牌被 <h>放逐</h>，便对随机敌人造成 <Damage /> 点伤害并施加 <Value1 /><h>锁定</h>，最多 <Value2 /> 次。<br /><h>充盈</h>: 获得 <Mana />。"
+  },
+  "AyaSarutahikosGuidance": {
+    "Name": "猿田彦的指引",
+    "Description": "弃掉手牌中的所有卡牌并抽取等量的卡牌。<br />每弃掉一张牌，便获得 <Value1 /><h>加速</h>。<br /><h>充盈</h>: 获得 <Mana />。",
+    "UpgradedDescription": "弃掉手牌中的所有卡牌并抽取等量的卡牌。<br />每弃掉一张牌，便获得 <Value1 /><h>加速</h>。<br /><h>充盈</h>: 获得 <Mana />。"
+  },
+  "AyaSelectNo": {
+    "Name": "否",
+    "Description": ""
+  },
+  "AyaSelectYes": {
+    "Name": "是",
+    "Description": ""
+  },
+  "AyaSettlementDate": {
+    "Name": "结算日",
+    "Description": "获得 <Value1 /><h>火力</h>。<br />获得 <Value2 /> <Money />。<br />每当一张<h>崩坏</h>或状态牌被<h>放逐</h>时，<h>永久</h> 增加 {SelfName} 的 <Money /> <Value1 />。<br /><h>限制【{ToolPlayableTimes}】</h>",
+    "UpgradedDescription": "获得 <Value1 /><h>火力</h>。<br />获得 <Value2 /> <Money />。<br />每当一张<h>崩坏</h>或状态牌被<h>放逐</h>时，<h>永久</h> 增加 {SelfName} 的 <Money /> <Value1 />。<br /><h>限制【{ToolPlayableTimes}】</h>"
+  },
+  "AyaSickleWeaselVeiling": {
+    "Name": "镰鼬之幕",
+    "Description": "每当<PlayerName />受到攻击伤害为 0 时，对攻击者造成 <Value1 /> 点伤害。",
+    "UpgradedDescription": "每当<PlayerName />受到攻击伤害为 0 时，对攻击者造成 <Value1 /> 点伤害。"
+  },
+  "AyaTakePicture": {
+    "Name": "拍照",
+    "Description": "施加 <Value1 /><h>锁定</h>。<br />将 <h>{Value2:plural one='% 文文新闻' other='% 文文新闻'}</h> 加入手牌。<br />{Value2:plural one='它 <h>临时消耗</h>' other='它们 <h>临时消耗</h>'} 减少 <Mana />。",
+    "UpgradedDescription": "施加 <Value1 /><h>锁定</h>。<br />将 <h>{Value2:plural one='% 文文新闻' other='% 文文新闻'}</h> 加入手牌。<br />{Value2:plural one='它 <h>临时消耗</h>' other='它们 <h>临时消耗</h>'} 减少 <Mana />。"
+  },
+  "AyaTenguGaleBullet": {
+    "Name": "天狗疾风弹",
+    "Description": "造成 <Damage /> 点伤害，重复 {Times} 次。<br />获得 <Value1 /><h>加速</h>。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害，重复 {Times} 次。<br />获得 <Value1 /><h>加速</h>。"
+  },
+  "AyaTenguGirlsBanquet": {
+    "Name": "天狗少女的宴会",
+    "Description": "获得 <Shield /><h>护盾</h>。<br /><h>升级</h> 手牌中的所有卡牌，增加其<h>护盾</h>、<h>护盾</h> 和伤害 <Value1 />。",
+    "UpgradedDescription": "获得 <Shield /><h>护盾</h>。<br /><h>升级</h> 手牌中的所有卡牌，增加其<h>护盾</h>、<h>护盾</h> 和伤害 <Value1 />。"
+  },
+  "AyaTenguNewspaperDeadlineDay": {
+    "Name": "天狗新闻截稿日",
+    "Description": "手牌上限变为 {MaxHand}。<br />所有<h>崩坏</h>和状态牌具有 <h>填充</h>。<br /><h>在牌库中时</h>: 无效化 <h>漫漫长夜</h>。",
+    "UpgradedDescription": "手牌上限变为 {MaxHand}。<br />所有<h>崩坏</h>和状态牌具有 <h>填充</h>。<br /><h>在牌库中时</h>: 无效化 <h>漫漫长夜</h>。"
+  },
+  "AyaTengusDrumbeats": {
+    "Name": "天狗的鼓点",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br />获得 <Value1 /> <h>临时火力</h>。<br /><h>减速 <Value1 /></h>: 在<PlayerName />的下个回合开始时重复这些效果。",
+    "UpgradedDescription": "对所有敌人造成 <Damage /> 点伤害。<br />获得 <Value1 /> <h>临时火力</h>。<br /><h>减速 <Value1 /></h>: 在<PlayerName />的下个回合开始时重复这些效果。"
+  },
+  "AyaTengusEdiblePompoms": {
+    "Name": "天狗的可食用绒球",
+    "Description": "获得 <Block /><h>格挡</h>。<br />恢复 <Value1 /> 点生命。<br />获得 <Value1 /> <Power />。<br /><h>在战斗开始时</h>: 在<PlayerName />的第 {Value2:ordinal one='%st' two='%nd' few='%rd' other='%th'} 回合结束时，<h>放逐</h>{SelfName}。",
+    "UpgradedDescription": "获得 <Block /><h>格挡</h>。<br />恢复 <Value1 /> 点生命。<br />获得 <Value1 /> <Power />。<br /><h>在战斗开始时</h>: 在<PlayerName />的第 {Value2:ordinal one='%st' two='%nd' few='%rd' other='%th'} 回合结束时，<h>放逐</h>{SelfName}。"
+  },
+  "AyaTengusFallWind": {
+    "Name": "天狗的秋风",
+    "Description": "接下来的 {Value1:plural one='% 张牌' other='% 张牌'} 会被使用两次。",
+    "UpgradedDescription": "接下来的 {Value1:plural one='% 张牌' other='% 张牌'} 会被使用两次。"
+  },
+  "AyaTenguTreeFelling": {
+    "Name": "天狗伐木",
+    "Description": "获得 <Block /><h>格挡</h>和 <Shield /><h>护盾</h>。<br />在<PlayerName />回合结束时，减少 {SelfName} 的<h>护盾</h>和<h>护盾</h><Value1 />。",
+    "UpgradedDescription": "获得 <Block /><h>格挡</h>和 <Shield /><h>护盾</h>。<br />在<PlayerName />回合结束时，减少 {SelfName} 的<h>护盾</h>和<h>护盾</h><Value1 />。"
+  },
+  "AyaThinOut": {
+    "Name": "稀疏",
+    "Description": "获得 <Block /><h>格挡</h>。<br />将抽牌堆顶的 <Value1 /> 张<h>崩坏</h>或状态牌加入手牌。",
+    "UpgradedDescription": "获得 <Block /><h>格挡</h>。<br />将抽牌堆顶的 <Value1 /> 张<h>崩坏</h>或状态牌加入手牌。"
+  },
+  "AyaToolBunbunNewspaperStore": {
+    "Name": "文文新闻店",
+    "Description": "选择 1 张 <Value1 /> <h>文</h> 卡牌加入手牌。它 <h>消耗</h> <Mana />。<br /><h>限制【{DeckCounter}】</h>"
+  },
+  "AyaToolCrowsEgg": {
+    "Name": "乌鸦蛋",
+    "Description": "恢复 <Value1 /> 点生命。<br />获得 <Value1 /> <h>临时火力</h>。<br />在<PlayerName />回合开始时，重复这些效果，每次减少 1。<br /><h>限制【{DeckCounter}】</h>"
+  },
+  "AyaToolForcedBreakthrough": {
+    "Name": "强制突破",
+    "Description": "结束战斗。<br /><h>在Boss战斗开始时</h>: 将 {SelfName} 从战斗中移除。<br /><h>限制【{DeckCounter}】</h>"
+  },
+  "AyaToriiWhorlWind": {
+    "Name": "鸟居旋风",
+    "Description": "<h>放逐</h>手牌中的最多 {Value1:plural one='% 张牌' other='% 张牌'}。将等量的 <h>文文新闻</h> 加入手牌。<br />获得 <Value2 /><h>加速</h>。",
+    "UpgradedDescription": "<h>放逐</h>手牌、抽牌堆和弃牌堆中的最多 {Value1:plural one='% 张牌' other='% 张牌'}。将等量的 <h>文文新闻</h> 加入手牌。<br />获得 <Value2 /><h>加速</h>。"
+  },
+  "AyaWindGodsLeafVeiling": {
+    "Name": "风神叶幕",
+    "Description": "造成 <Damage /> 点伤害。<br />所有针对该敌人的攻击获得 <h>精准</h>。<br />将一张 <h>文文新闻</h> 加入手牌。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />所有针对该敌人的攻击获得 <h>精准</h>。<br />将一张 <h>文文新闻</h> 加入手牌。"
+  },
+  "FlandreAndThenWillThereBeNone": {
+    "Name": "之后就一个人都没有了吗？",
+    "Description": "<h>放逐</h>任意张手牌。<br />以此法每放逐一张牌，获得 <Value1 /> <h>崩坏</h>。<br />对所有敌人造成 <Damage /> 点伤害。<br />如果没有手牌，则对所有敌人额外造成一次该伤害。",
+    "UpgradedDescription": "<h>放逐</h>任意张手牌。<br />以此法每放逐一张牌，获得 <Value1 /> <h>崩坏</h>。<br />对所有敌人造成 <Damage /> 点伤害。<br />如果没有手牌，则对所有敌人额外造成一次该伤害。"
+  },
+  "FlandreArmageddon": {},
+  "FlandreAttackB": {
+    "Name": "彩虹弹幕",
+    "Description": "造成 <Damage /> 点伤害。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。"
+  },
+  "FlandreAttackR": {
+    "Name": "热射",
+    "Description": "造成 <Damage /> 点伤害。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。"
+  },
+  "FlandreBitestheDust": {},
+  "FlandreBlockUB": {
+    "Name": "粉碎弹幕",
+    "Description": "获得 <Block /> 点<h>格挡</h>。",
+    "UpgradedDescription": "获得 <Block /> 点<h>格挡</h>。"
+  },
+  "FlandreBlockUR": {
+    "Name": "耀斑",
+    "Description": "获得 <Block /> 点<h>格挡</h>。",
+    "UpgradedDescription": "获得 <Block /> 点<h>格挡</h>。"
+  },
+  "FlandreBloodisFuel": {
+    "Name": "沸血为薪",
+    "Description": "失去 <Value1 /> 点生命。<br />将一张 <h>幻虹</h> 加入手中。",
+    "UpgradedDescription": "失去 <Value1 /> 点生命。<br />将一张 <h>幻虹+</h> 加入手中。"
+  },
+  "FlandreBloodyCatastrophe": {
+    "Name": "赤血异变",
+    "Description": "对所有敌人造成 <Damage /> 点伤害 {Value1:plural one='% 次' other='% 次'}。<br />恢复 <Value2 /> 点生命。<br /><PlayerName />的攻击附带 <h>精准</h> 直至战斗结束。",
+    "UpgradedDescription": "对所有敌人造成 <Damage /> 点伤害 {Value1:plural one='% 次' other='% 次'}。<br />恢复 <Value2 /> 点生命。<br /><PlayerName />的攻击附带 <h>精准</h> 直至战斗结束。"
+  },
+  "FlandreBloodyRequiem": {
+    "Name": "染血乐章",
+    "Description": "直至<PlayerName />下一回合开始，所有攻击伤害翻倍并施加双倍<h>地狱火</h>。",
+    "UpgradedDescription": "直至<PlayerName />下一回合开始，所有攻击伤害翻倍并施加双倍<h>地狱火</h>。"
+  },
+  "FlandreBrokenGlass": {
+    "Name": "破镜无圆",
+    "Description": "放逐最多 <Value1 /> 张牌。<br />造成 <Damage /> 点伤害。<br />每以此法<h>放逐</h>一张牌，便额外造成一次伤害。",
+    "UpgradedDescription": "放逐最多 <Value1 /> 张牌。<br />造成 <Damage /> 点伤害。<br />每以此法<h>放逐</h>一张牌，便额外造成一次伤害。"
+  },
+  "FlandreBurningPassion": {
+    "Name": "知愿长燃",
+    "Description": "抽 <Value1 /> 张牌。<br />对目标施加 <Value2 /> 层<h>地狱火</h>。",
+    "UpgradedDescription": "抽 <Value1 /> 张牌。<br />对目标施加 <Value2 /> 层<h>地狱火</h>。"
+  },
+  "FlandreCageofVampire": {
+    "Name": "吸血鬼之笼",
+    "Description": "造成 <Damage /> 点伤害。<br />当被<h>放逐</h>时:对所有敌人造成 <Damage /> 点伤害并获得 <Value1 /> 点<h>崩坏</h>。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />当被<h>放逐</h>时:对所有敌人造成 <Damage /> 点伤害并获得 <Value1 /> 点<h>崩坏</h>。"
+  },
+  "FlandreCasuallyApproachChild": {
+    "Name": "搭讪幼童",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br />获得 <Value1 /> 点<h>崩坏</h>。",
+    "UpgradedDescription": "获得 <Shield /> 点<h>护盾</h>。<br />获得 <Value1 /> 点<h>崩坏</h>。"
+  },
+  "FlandreCatadioptric": {
+    "Name": "折反射",
+    "Description": "<h>手牌中</h>:每当<PlayerName />造成攻击伤害时，对目标追加 <Damage /> 点伤害。",
+    "UpgradedDescription": "<h>手牌中</h>:每当<PlayerName />造成攻击伤害时，对目标追加 <Damage /> 点伤害。"
+  },
+  "FlandreCatastropheofSeventeenArticles": {
+    "Name": "十七条宪法炸弹",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br />升级所有卡牌直至战斗结束。",
+    "UpgradedDescription": "获得 <Shield /> 点<h>护盾</h>。<br />升级所有卡牌直至战斗结束。"
+  },
+  "FlandreCerberusClipper": {
+    "Name": "三首战车",
+    "Description": "对敌人造成 <Damage /> 点伤害 {Value1:plural one='% 次' other='% 次'}。<br />施加 <Value1 /> 回合<h>虚弱</h>和<h>易伤</h>。<br />恢复 <Value1 /> 点生命。",
+    "UpgradedDescription": "对敌人造成 <Damage /> 点伤害 {Value1:plural one='% 次' other='% 次'}。<br />施加 <Value1 /> 回合<h>虚弱</h>和<h>易伤</h>。<br />恢复 <Value1 /> 点生命。"
+  },
+  "FlandreChaosIncarnation": {
+    "Name": "混沌化身",
+    "Description": "获得 <Block /><h>格挡</h>。<br />随机将 <h>水晶</h> 加入手中，直到手牌达到手牌上限。<br />使用手牌中的所有 <h>水晶</h>。",
+    "UpgradedDescription": "获得 <Block /><h>格挡</h>。<br />随机将 <h>水晶</h> 加入手中，直到手牌达到手牌上限。<br />使用手牌中的所有 <h>水晶</h>。"
+  },
+  "FlandreChaosManaStorm": {},
+  "FlandreChromaticWings": {
+    "Name": "幻虹之翼",
+    "Description": "在<PlayerName />的回合开始时，获得<Mana />。",
+    "UpgradedDescription": "在<PlayerName />的回合开始时，获得<Mana />。"
+  },
+  "FlandreClockthatTicksAwaythePast": {
+    "Name": "刻着过去的钟表",
+    "Description": "将所有手牌放回抽牌堆。<br />结束<h><PlayerName /></h>的回合，然后进行一个额外回合。该额外回合的抽牌阶段，改为抽取弃牌堆顶部的 <h><Value1 /></h> 张牌。<br />在<h><PlayerName /></h>的回合开始时，<h>{SelfName}</h> 在本场战斗中的费用减少 <h><Mana /></h>。",
+    "UpgradedDescription": "将所有手牌放回抽牌堆。<br />结束<h><PlayerName /></h>的回合，然后进行一个额外回合。该额外回合的抽牌阶段，改为抽取弃牌堆顶部的 <h><Value1 /></h> 张牌<br />在<h><PlayerName /></h>的回合开始时，<h>{SelfName}</h> 在本场战斗中的费用减少<h><Mana /></h>。"
+  },
+  "FlandreColorofMadness": {
+    "Name": "疯狂之色",
+    "Description": "每当一张攻击牌被生效时，使用一个随机的 <h>水晶</h>。",
+    "UpgradedDescription": "每当一张攻击牌被生效时，使用一个随机的 <h>水晶</h>。"
+  },
+  "FlandreCombatHigh": {},
+  "FlandreCranberryTrap": {
+    "Name": "蔓越莓陷阱",
+    "Description": "于<PlayerName />回合结束时，对所有敌人造成 <Value1 /> 点 <h>精准</h> 攻击伤害。<br />当<PlayerName />因敌人而失去生命时，将所有 <h>蔓越莓陷阱</h> 转换为<h>护盾</h>。",
+    "UpgradedDescription": "于<PlayerName />回合结束时，对所有敌人造成 <Value1 /> 点 <h>精准</h> 攻击伤害。<br />当<PlayerName />因敌人而失去生命时，将所有 <h>蔓越莓陷阱</h> 转换为<h>护盾</h>。"
+  },
+  "FlandreCreepingBloodstain": {},
+  "FlandreCrystalBullet": {
+    "Name": "水晶弹幕",
+    "Description": "造成 <Damage /> 点伤害。<br />将 <Value1 /> 个随机的 {Value1:plural one='<h>水晶</h>' other='<h>水晶</h>'} 加入手牌。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />将 <Value1 /> 个随机的 {Value1:plural one='<h>水晶</h>' other='<h>水晶</h>'} 加入手牌。"
+  },
+  "FlandreCrystallineOutburst": {
+    "Name": "水晶爆发",
+    "Description": "当 <h>水晶</h> 生效时，触发其所有效果。<br /><h>疯狂水晶</h> 会给予 <ManaP /> 而不是随机法力。<br />将 {Value1:plural one='% <h>疯狂水晶</h>' other='% <h>疯狂水晶</h>'} 加入手牌。",
+    "UpgradedDescription": "当 <h>水晶</h> 生效时，触发其所有效果。<br /><h>疯狂水晶</h> 会给予 <ManaP /> 而不是随机法力。<br />将 {Value1:plural one='% <h>疯狂水晶</h>' other='% <h>疯狂水晶</h>'} 加入手牌。"
+  },
+  "FlandreCrystallization": {
+    "Name": "结晶化",
+    "Description": "<h>放逐</h>一张手牌。<br />将一张随机的 <h>水晶</h> 加入手牌。",
+    "UpgradedDescription": "<h>放逐</h>最多 {Value1:plural one='% 张牌' other='% 张牌'}。<br />将一张随机的 <h>水晶+</h> 加入手牌。"
+  },
+  "FlandreCrystallizedCatastrophe": {},
+  "FlandreCrystallizedChaos": {
+    "Name": "混沌水晶",
+    "Description": "造成 <Damage /> 点伤害。<br />随机施加 <Value1 /> <h>虚弱</h>、<Value1 /><h>易伤</h>或 <Value2 /><h>地狱火</h>。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />随机施加 <Value1 /> <h>虚弱</h>、<Value1 /><h>易伤</h>或 <Value2 /><h>地狱火</h>。"
+  },
+  "FlandreCrystallizedDevilry": {
+    "Name": "残暴水晶",
+    "Description": "造成 <Damage /> 点伤害。<br />随机恢复 <Value1 /> 点生命、<Value2 /> <Money /> 或 <Value2 /> <Power />。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />随机恢复 <Value1 /> 点生命、<Value2 /> <Money /> 或 <Value2 /> <Power />。"
+  },
+  "FlandreCrystallizedLunacy": {
+    "Name": "疯狂水晶",
+    "Description": "造成 <Damage /> 点伤害。<br />获得 <Value1 /> 点随机法力。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />获得 <Value1 /> 点随机法力。"
+  },
+  "FlandreCrystallizedSolitude": {
+    "Name": "孤独水晶",
+    "Description": "造成 <Damage /> 点伤害。<br />随机获得 <Block /><h>格挡</h>、<Shield /><h>护盾</h>或 <Value1 /> <h>闪避</h>。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />随机获得 <Block /><h>格挡</h>、<Shield /><h>护盾</h>或 <Value1 /> <h>闪避</h>。"
+  },
+  "FlandreDanmakuHeart": {},
+  "FlandreDanmakuofDenial": {
+    "Name": "否定弹幕",
+    "Description": "在攻击牌生效后，获得 <Value1 /> 点<h>格挡</h>。",
+    "UpgradedDescription": "在攻击牌生效后，获得 <Value1 /> 点<h>格挡</h>。"
+  },
+  "FlandreDeathorTreat": {
+    "Name": "不给糖，就拆家",
+    "Description": "<h>选择</h>: 获得 <Value1 /> <h>崩坏</h>，或将 <Value2 /> 张 <h>残暴水晶+</h> 加入手牌。",
+    "UpgradedDescription": "<h>选择</h>: 获得 <Value1 /> <h>崩坏</h>，或将 <Value2 /> 张 <h>残暴水晶+</h> 加入手牌。"
+  },
+  "FlandreDeliciousHeart": {
+    "Name": "甜心",
+    "Description": "恢复 <Value1 /> 点生命。<br />永久提升本卡的生命获取量 <Value2 /> 点。",
+    "UpgradedDescription": "恢复 <Value1 /> 点生命。<br />永久提升本卡的生命获取量 <Value2 /> 点。"
+  },
+  "FlandreDesolatePlace": {
+    "Name": "荒芜之地",
+    "Description": "获得 <Block /><h>格挡</h>。<br />获得 <Value1 /> <h>闪避</h>。",
+    "UpgradedDescription": "获得 <Block /><h>格挡</h>。<br />获得 <Value1 /> <h>闪避</h>。"
+  },
+  "FlandreDestroyerinthePalmofOnesHand": {
+    "Name": "顷刻炼化",
+    "Description": "造成 <h><Damage /></h> 点 <h>伤害</h>。<br /><h><PlayerName /></h>的每层<h>终末</h>，都会额外提升<h>{SelfName}</h> <h><Value1 /></h> 点伤害。<br />若目标未知姓名，则将其<h>消灭</h>。",
+    "UpgradedDescription": "造成 <h><Damage /></h> 点 <h>伤害</h>。<br /><h><PlayerName /></h>的每层<h>终末</h>，都会额外提升<h>{SelfName}</h> <h><Value1 /></h> 点伤害。<br />若目标未知姓名，则将其<h>消灭</h>。"
+  },
+  "FlandreDestructiveImpulse": {
+    "Name": "破灭冲动",
+    "Description": "回合结束时：失去 <Value1 /> 点生命，并获得 <Value2 /> 点火力。<br />当被<h>放逐</h>时：将 {SelfName} 从放逐区移回弃牌堆。",
+    "UpgradedDescription": "回合结束时：失去 <Value1 /> 点生命，并获得 <Value2 /> 点火力。<br />当被<h>放逐</h>时：将 {SelfName} 从放逐区移回弃牌堆。"
+  },
+  "FlandreDeviloftheMirror": {
+    "Name": "镜中恶魔",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br />获得 <Value1 /> 点<h>反射</h>。<br />打出弃牌堆顶牌。",
+    "UpgradedDescription": "获得 <Shield /> 点<h>护盾</h>。<br />获得 <Value1 /> 点<h>反射</h>。<br />打出弃牌堆顶牌。"
+  },
+  "FlandreDevilsFlesh": {
+    "Name": "恶魔血肉",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />恢复 <Value1 /> 点生命。",
+    "UpgradedDescription": "获得 <Block /> 点<h>格挡</h>。<br />恢复 <Value1 /> 点生命。"
+  },
+  "FlandreDevilsMockery": {
+    "Name": "恶魔的嘲讽",
+    "Description": "获得 <Value1 /> 点<h>崩坏</h>。<br />获得 <Value2 /> 点<h>闪避</h>。",
+    "UpgradedDescription": "获得 <Value1 /> 点<h>崩坏</h>。<br />获得 <Value2 /> 点<h>闪避</h>。"
+  },
+  "FlandreDontFearTheReaper": {},
+  "FlandreDoombringer": {
+    "Name": "厄运使者",
+    "Description": "获得 <Value1 /> 点<h>崩坏</h>。<br />于<PlayerName />回合开始时，获得 <Value1 /> 点<h>崩坏</h>。",
+    "UpgradedDescription": "获得 <Value1 /> 点<h>崩坏</h>。<br />于<PlayerName />回合开始时，获得 <Value1 /> 点<h>崩坏</h>。"
+  },
+  "FlandreDoomsdayClock": {
+    "Name": "末日之钟",
+    "Description": "<h><PlayerName /></h> 获得的<h>崩坏</h>效果变为两倍。<br />在 <h>{SelfName}</h> 被打出后的第 <h><Value1 /></h> 个回合开始时，将一张 <h>灭世兵器</h> 加入手牌。",
+    "UpgradedDescription": "<h><PlayerName /></h> 获得的<h>崩坏</h>效果变为两倍。<br />在 <h>{SelfName}</h> 被打出后的第 <h><Value1 /></h> 个回合开始时，将一张 <h>灭世兵器</h> 加入手牌。<br />获得 <h><Value2 /></h> 点<h>崩坏</h>。"
+  },
+  "FlandreDreadofTransylvania": {
+    "Name": "特兰西瓦尼亚之惧",
+    "Description": "获得 <h><Block /></h> 点<h>格挡</h>。<br />对所有敌人施加 <h><Value1 /></h> 层<h>虚弱</h>和 <h><Value2 /></h> 层<h>终末</h>。",
+    "UpgradedDescription": "获得 <h><Block /></h> 点<h>格挡</h>。<br />对所有敌人施加 <h><Value1 /></h> 层<h>虚弱</h>和 <h><Value2 /></h> 层<h>终末</h>。"
+  },
+  "FlandreEmbraceofGehenna": {
+    "Name": "地狱拥抱",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br /><PlayerName />每拥有一个<h>崩坏</h>，获得 <Value1 /> 点<h>护盾</h>。<br />对所有敌人造成 <Value2 /> 点伤害，数值等于<PlayerName />拥有的<PlayerName />拥有的<h>崩坏</h>数量。",
+    "UpgradedDescription": "获得 <Shield /> 点<h>护盾</h>。<br /><PlayerName />每拥有一个<h>崩坏</h>，获得 <Value1 /> 点<h>护盾</h>。<br />对所有敌人造成 <Value2 /> 点伤害，数值等于<PlayerName />拥有的<PlayerName />拥有的<h>崩坏</h>数量。"
+  },
+  "FlandreEndwithaBang": {
+    "Name": "爆破谢幕",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />对所有敌人施加 <Value1 /> 点 <h>硫磺</h>。",
+    "UpgradedDescription": "获得 <Block /> 点<h>格挡</h>。<br />对所有敌人施加 <Value1 /> 点 <h>硫磺</h>。"
+  },
+  "FlandreFaustianBargain": {
+    "Name": "浮士德契约",
+    "Description": "从手牌、抽牌堆和弃牌堆中各<h>放逐</h> <h><Value1 /></h> 张牌。<br />若以此法<h>放逐</h>了牌，则从放逐区中选择并获得 <h><Value1 /></h> 张牌。<br />被放逐时：从放逐区中选择并获得 <h><Value1 /></h> 张牌。",
+    "UpgradedDescription": "从手牌、抽牌堆和弃牌堆中<h>放逐</h> <h><Value1 /></h> 张牌。<br />若以此法<h>放逐</h>了牌，则从放逐区中选择并获得 <h><Value1 /></h> 张牌。<br />被放逐时：从放逐区中选择并获得 <h><Value1 /></h> 张牌。"
+  },
+  "FlandreFieryLaser": {
+    "Name": "炽热激光",
+    "Description": "造成 <Damage /> 点伤害。<br />施加 <Value1 /> 点<h>地狱火</h>。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />施加 <Value1 /> 点<h>地狱火</h>。"
+  },
+  "FlandreFlancanCook": {},
+  "FlandreForbiddenFruit": {
+    "Name": "禁果",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br />恢复 <Value1 /> 点生命。<br />获得 <Value1 /> 点 <Money />。<br />获得 <Value1 /> 点 <Power />。",
+    "UpgradedDescription": "获得 <Shield /> 点<h>护盾</h>。<br />恢复 <Value1 /> 点生命。<br />获得 <Value1 /> 点 <Money />。<br />获得 <Value1 /> 点 <Power />。"
+  },
+  "FlandreForbiddenGames": {
+    "Name": "禁忌游戏",
+    "Description": "使敌人 <Value1 /> 回合无法行动。<br />每场战斗只有第一张 {SelfName} 会生效。",
+    "UpgradedDescription": "使敌人 <Value1 /> 回合无法行动。<br />每场战斗只有第一张 {SelfName} 会生效。"
+  },
+  "FlandreForbiddenScarletCuriosity": {},
+  "FlandreFourHorsemenoftheApocalypse": {
+    "Name": "天启四骑士",
+    "Description": "获得 <Value1 /> 点<h>崩坏</h>。<br />弃置任意数量的手牌。<br />将抽牌堆顶的攻击、防御、技能和<h>能力</h>卡牌各一张加入手牌。",
+    "UpgradedDescription": "获得 <Value1 /> 点<h>崩坏</h>。<br />弃置任意数量的手牌。<br />将抽牌堆顶的攻击、防御、技能和<h>能力</h>卡牌各一张加入手牌。<br />充盈:获得<Mana />。"
+  },
+  "FlandreFourofaKind": {
+    "Name": "四重存在",
+    "Description": "选择一张手牌。其<h>暂塑</h>为 <Mana />。<br />向抽牌堆添加3张复制，这些牌<h>暂塑</h>为<Mana />并具有<h>放逐</h>和<h>填充</h>效果。",
+    "UpgradedDescription": "选择一张手牌。其<h>暂塑</h>为 <Mana />。<br />向抽牌堆添加3张复制，这些牌<h>暂塑</h>为<Mana />并具有<h>放逐</h>和<h>填充</h>效果。"
+  },
+  "FlandreFragileWing": {},
+  "FlandreFragmentsofLight": {
+    "Name": "光之碎片",
+    "Description": "在<PlayerName />的回合开始时，将 <Value1 /> 张随机<h>水晶</h>加入手牌。",
+    "UpgradedDescription": "在<PlayerName />的回合开始时，将 <Value1 /> 张随机<h>水晶</h>加入手牌。<br />触发一次 {SelfName}。"
+  },
+  "FlandreFranticDestroyer": {
+    "Name": "狂暴破坏者",
+    "Description": "每当攻击牌生效时，获得 <Mana />并摸 <Value1 /> 张牌。",
+    "UpgradedDescription": "每当攻击牌生效时，获得 <Mana />并摸 <Value1 /> 张牌。"
+  },
+  "FlandreFriendOkina": {
+    "Name": "绝对秘神隐岐奈",
+    "PassiveDescription": "<hf>秘术之力</hf>:每当消耗<Mana />时，获得 {PassiveBarrier} 点<h>护盾</h>。"
+  },
+  "FlandreFriendOkinaFall": {
+    "Name": "绝对秘神隐岐奈 - 秋",
+    "PassiveDescription": "<hf>丰饶权能</hf>:每当消耗<Mana />时，对所有敌人施加 <Value1 /> 点<h>地狱火</h>。"
+  },
+  "FlandreFriendOkinaSpring": {
+    "Name": "绝对秘神隐岐奈 - 春",
+    "PassiveDescription": "<hf>萌育权能</hf>: 每当消耗<Mana />时，将<Value1 />张随机 <h>水晶+</h> 加入手牌。"
+  },
+  "FlandreFriendOkinaSummer": {
+    "Name": "绝对秘神隐岐奈 - 夏",
+    "PassiveDescription": "<hf>烈阳权能</hf>:每当消耗<Mana />时，对所有敌人施加 <Value1 /> 点<h>终末</h>。"
+  },
+  "FlandreFriendOkinaWinter": {
+    "Name": "绝对秘神隐岐奈 - 冬",
+    "PassiveDescription": "<hf>凛风权能</hf>:每当消耗<Mana />时，获得 <Value1 /> 点<h>崩坏</h>。"
+  },
+  "FlandreGrowingGemstones": {
+    "Name": "扩张宝石",
+    "Description": "获得 <Block /><h>格挡</h>。<br />将 <Value1 /> 张随机<h>水晶</h>加入手牌。",
+    "UpgradedDescription": "获得 <Block /><h>格挡</h>。<br />将 <Value1 /> 张随机<h>水晶</h>加入手牌。"
+  },
+  "FlandreHellisFull": {
+    "Name": "地狱客满",
+    "Description": "造成 <Damage /> 点伤害 <Value1 /> 次。<br />{SelfName} 在本次调查中每击败一名敌人，此技能便额外造成 <Value2 /> 点伤害。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害 <Value1 /> 次。<br />{SelfName} 在本次调查中每击败一名敌人，此技能便额外造成 <Value2 /> 点伤害。"
+  },
+  "FlandreHellonEarth": {
+    "Name": "人间地狱",
+    "Description": "当<h>地狱火</h>触发时，使其再次结算一次。<br />对所有敌人施加 <Value1 /><h>地狱火</h>。",
+    "UpgradedDescription": "当<h>地狱火</h>触发时，使其再次结算一次。<br />对所有敌人施加 <Value1 /><h>地狱火</h>。"
+  },
+  "FlandreHighCard": {},
+  "FlandreHotSurface": {
+    "Name": "炽热表面",
+    "Description": "获得 <Block /> <h>格挡</h>。<br />直到<PlayerName />的下回合开始，每当<PlayerName />受到攻击伤害时，对伤害来源施加 <Value1 /> <h>地狱火</h>。",
+    "UpgradedDescription": "获得 <Block /> <h>格挡</h>。<br />直到<PlayerName />的下回合开始，每当<PlayerName />受到攻击伤害时，对伤害来源施加 <Value1 /> <h>地狱火</h>。"
+  },
+  "FlandreHymnoftheTorturedSouls": {
+    "Name": "灵魂哀歌",
+    "Description": "获得 <Shield /> 点<h>护盾</h>.<br />为所有敌人施加 <Value1 /> 点<h>地狱火</h>。",
+    "UpgradedDescription": "获得 <Shield /> 点<h>护盾</h>.<br />为所有敌人施加 <Value1 /> 点<h>地狱火</h>。"
+  },
+  "FlandreIgnitingSnap": {
+    "Name": "爆破响指",
+    "Description": "触发目标的<h>地狱火</h>。",
+    "UpgradedDescription": "<h>初见</h>: 施加 <Value1 /> <h>硫磺</h>。<br />触发目标的<h>地狱火</h>。"
+  },
+  "FlandreInfernalRampage": {
+    "Name": "地狱狂奔",
+    "Description": "对随机敌人造成 <Damage /> 点伤害 <Value1 /> 次。<br />命中时施加 <Value2 /> 点<h>地狱火</h>。",
+    "UpgradedDescription": "对随机敌人造成 <Damage /> 点伤害 <Value1 /> 次。<br />命中时施加 <Value2 /> 点<h>地狱火</h>。"
+  },
+  "FlandreInstability": {
+    "Name": "喜怒无常",
+    "Description": "<h>{SelfName}</h> 的效果每回合随机变化。"
+  },
+  "FlandreInternetSurvivor": {
+    "Name": "INTERNET SURVIVOR",
+    "Description": "清除<PlayerName />的所有负面状态。<br />恢复等同于<PlayerName />最大生命 <Value1 />% 的生命。",
+    "UpgradedDescription": "清除<PlayerName />的所有负面状态。<br />获得等同于<PlayerName />最大生命 <Value1 />% 的生命。"
+  },
+  "FlandreKagomeKagome": {
+    "Name": "笼中鸟",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br />接下来 <Value1 /> 张攻击牌造成额外等于<PlayerName /><h>护盾</h>的伤害。",
+    "UpgradedDescription": "获得 <Shield /> 点<h>护盾</h>。<br />接下来 <Value1 /> 张攻击牌造成额外等于<PlayerName /><h>护盾</h>的伤害。"
+  },
+  "FlandreKindLiesandGoodbyes": {
+    "Name": "温柔谎言终须别",
+    "Description": "获得 <Shield /><h>护盾</h>。<br />获得 <Value1 /><h> 火力</h>和<h>灵力</h>。<br />当<PlayerName />即将被击败时，恢复至最大生命，移除所有负面效果，并获得 <Value2 /> 回合 <h>天衣无缝</h>。<br />然后对所有敌人造成 {Value3} 点伤害，<h>消灭</h> 生命 {Value3} 或更低的敌人，并将 {SelfName} 从战斗和牌库中移除。",
+    "UpgradedDescription": "获得 <Shield /><h>护盾</h>。<br />获得 <Value1 /> <h>火力</h>和<h>灵力</h>。<br />当<PlayerName />即将被击败时，恢复至最大生命，移除所有负面效果，并获得 <Value2 /> 回合 <h>天衣无缝</h>。<br />然后对所有敌人造成 {Value3} 点伤害，<h>消灭</h> 生命 {Value3} 或更低的敌人，并将 {SelfName} 从战斗和牌库中移除。"
+  },
+  "FlandreLaevateinn": {
+    "Name": "莱瓦汀",
+    "Description": "对所有敌人造成 <Damage /> 点伤害并施加 <Value1 /> <h>地狱火</h>。<br />{SelfName} 受 <Value2 /> 倍<h>火力</h>影响。",
+    "UpgradedDescription": "对所有敌人造成 <Damage /> 点伤害并施加 <Value1 /> <h>地狱火</h>。<br />{SelfName} 受 <Value2 /> 倍<h>火力</h>影响。"
+  },
+  "FlandreLittleJeweler": {
+    "Name": "小珠宝匠",
+    "Description": "将 <Value1 /> 张随机的<h>水晶</h>加入手牌。",
+    "UpgradedDescription": "将 <Value1 /> 张随机的<h>水晶</h>加入手牌。"
+  },
+  "FlandreLooseCannon": {
+    "Name": "脱缰野炮",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br /><h>手牌中</h>:每当<PlayerName />造成或承受攻击伤害时，本卡临时消耗减少{Mana2}。降至<Mana />后自动打出。",
+    "UpgradedDescription": "对所有敌人造成 <Damage /> 点伤害并施加 <Value1 /> 点<h>地狱火</h>。<br /><h>手牌中</h>:每当<PlayerName />造成或承受攻击伤害时，本卡临时消耗减少{Mana2}。降至<Mana />后自动打出。"
+  },
+  "FlandreMagicalGirlFlandreEngage": {
+    "Name": "魔法少女芙兰·出击！",
+    "Description": "手牌上限变为 <Value1 />。<br />直到战斗结束，所有非 <h>魔法少女</h> 卡牌的费用增加<Mana />点。<br />所有 <h>魔法少女</h> 卡牌最多可被 <h>升级</h> <Value2 />次。<br />将1张 <h>魔法斩击</h> 、1张 <h>魔法守护</h> 、1张 <h>魔法技巧</h> 和1张 <h>魔法潜能</h> 加入手牌。<br />此效果不可叠加。<br />直到战斗结束，<h>升级</h> 所有 <h>魔法少女</h> 卡牌。<br />获得{Value3}点 <h>护身符</h> 和{Value3}点 <h>庇护</h>。",
+    "UpgradedDescription": "手牌上限变为 <Value1 />。<br />直到战斗结束，所有非 <h>魔法少女</h> 卡牌的费用增加<Mana />点。<br />所有 <h>魔法少女</h> 卡牌最多可被 <h>升级</h> <Value2 />次。<br />将1张 <h>魔法斩击</h> 、1张 <h>魔法守护</h> 、1张 <h>魔法技巧</h> 和1张 <h>魔法潜能</h> 加入手牌。<br />此效果不可叠加。<br />直到战斗结束，<h>升级</h> 所有 <h>魔法少女</h> 卡牌。<br />获得{Value3}点 <h>护身符</h> 和{Value3}点 <h>庇护</h>。"
+  },
+  "FlandreMagicalGuard": {
+    "Name": "魔法守护",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />将 <h>{SelfName}</h> 返回手牌。<br />本回合中，<h>{SelfName}</h> 的费用增加<h><Mana /></h>。",
+    "UpgradedDescription": "获得 <Block /> 点<h>格挡</h>。<br />将 <h>{SelfName}</h> 返回手牌。<br />本回合中，<h>{SelfName}</h> 的费用增加<h><Mana /></h>。"
+  },
+  "FlandreMagicalPotential": {
+    "Name": "魔法潜能",
+    "Description": "这张牌被 <h>封印</h> 了。",
+    "UpgradedDescription": "这张牌被 <h>封印</h> 了。"
+  },
+  "FlandreMagicalSlash": {
+    "Name": "魔法斩击",
+    "Description": "造成 <h><Damage /></h> 点伤害。<br />将 <h>{SelfName}</h> 返回手牌。<br />本回合中，<h>{SelfName}</h> 的费用增加<h><Mana /></h>。",
+    "UpgradedDescription": "造成 <h><Damage /></h> 点伤害。<br />将 <h>{SelfName}</h> 返回手牌。<br />本回合中，<h>{SelfName}</h> 的费用增加<h><Mana /></h>。"
+  },
+  "FlandreMagicalTechnique": {
+    "Name": "魔法技巧",
+    "Description": "从 <h><Value1 /></h> 张随机 <h>普通卡牌</h> 中选择 <h>1</h> 张并 <h>打出</h>。<br />将 <h>{SelfName}</h> 返回手牌。<br />本回合中，<h>{SelfName}</h> 的费用增加<h><Mana /></h>。",
+    "UpgradedDescription": "从 <h><Value1 /></h> 张随机 <h>普通卡牌</h> 中选择 <h>1</h> 张并 <h>打出</h>。<br />将 <h>{SelfName}</h> 返回手牌。<br />本回合中，<h>{SelfName}</h> 的费用增加<h><Mana /></h>。"
+  },
+  "FlandreMazeofLove": {
+    "Name": "恋之迷宫",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br />造成 <Damage /> 点伤害并对所有敌人施加 <Value1 /> 点<h>暂失火力</h>。<br />于<PlayerName />下一回合开始时，对所有敌人施加 <Value1 /> 点<h>暂失火力</h>。",
+    "UpgradedDescription": "获得 <Shield /> 点<h>护盾</h>。<br />造成 <Damage /> 点伤害并对所有敌人施加 <Value1 /> 点<h>暂失火力</h>。<br />于<PlayerName />下一回合开始时，对所有敌人施加 <Value1 /> 点<h>暂失火力</h>。"
+  },
+  "FlandreMindsEye": {
+    "Name": "心眼",
+    "Description": "获得 <h><Shield /></h> 点<h>护盾</h>。<br />在接下来的 <h><Value1 /></h> 次中，当<h><PlayerName /></h>造成攻击伤害时，伤害翻倍；当<h><PlayerName /></h>受到攻击伤害时，防止该伤害。",
+    "UpgradedDescription": "获得 <h><Shield /></h> 点<h>护盾</h>。<br />在接下来的 <h><Value1 /></h> 次中，当<h><PlayerName /></h>造成攻击伤害时，伤害翻倍；当<h><PlayerName /></h>受到攻击伤害时，防止该伤害。"
+  },
+  "FlandreMPBullofPhalaris": {},
+  "FlandreMPButchersCircus": {},
+  "FlandreMPEnfantTerrible": {},
+  "FlandreMPFirestorm": {},
+  "FlandreMPKrystallos": {},
+  "FlandreMPLostandForgotten": {},
+  "FlandreMPMagicalCheering": {},
+  "FlandreMPPhantomPain": {},
+  "FlandreMPProblemChild": {},
+  "FlandreMPRiggedGame": {},
+  "FlandreMurderMystery": {
+    "Name": "谋杀疑案",
+    "Description": "获得 <Value1 /> 点<h>崩坏</h>。<br />抽 <Value2 /> 张牌。",
+    "UpgradedDescription": "获得 <Value1 /> 点<h>崩坏</h>。<br />抽 <Value2 /> 张牌。"
+  },
+  "FlandreNoMercy": {
+    "Name": "寸草无生",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />从抽牌堆顶抽取 <Value1 /> 张攻击牌<br />其消耗变为 <Mana />。",
+    "UpgradedDescription": "获得 <Block /> 点<h>格挡</h>。<br />从抽牌堆顶抽取 <Value1 /> 张攻击牌<br />其消耗变为 <Mana />。"
+  },
+  "FlandreOnePair": {
+    "Name": "天作之合",
+    "Description": "选择手中一张非<h>崩坏</h>非<h>状态</h>卡牌。<br />若成功选择，则从相同类型卡牌中随机抽取 <Value1 /> 张加入手牌。它们将被 <h>暂塑</h> 为<Mana />并具有<h>放逐</h>和<h>虚无</h>效果。",
+    "UpgradedDescription": "选择手中一张非<h>崩坏</h>非<h>状态</h>卡牌。<br />若成功选择，则从相同类型卡牌中随机抽取 <Value1 /> 张加入手牌。它们将被 <h>暂塑</h> 为<Mana />并具有<h>放逐</h>和<h>虚无</h>效果。"
+  },
+  "FlandreOrthrusBrigantine": {
+    "Name": "双头犬号装甲舰",
+    "Description": "造成 <Damage /> 点伤害。<br />施加 <Value1 /><h>终末</h>。<br />当使用 {SelfName} 击败敌人时，获得 <Value2 /> 点生命。<br />对另一个随机敌人重复这些效果。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />施加 <Value1 /><h>终末</h>。<br />当使用 {SelfName} 击败敌人时，获得 <Value2 /> 点生命。<br />对另一个随机敌人重复这些效果。"
+  },
+  "FlandrePartnersinCrime": {
+    "Name": "命运共犯",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br />造成 <Damage /> 点伤害。<br />打出一张手牌。<br />若为攻击牌，获得<Mana />和 <Value2 /> 点<h>火力</h>；若为防御牌，获得{Mana2}和 <Value2 /> 点 <h>灵力</h>。",
+    "UpgradedDescription": "获得 <Shield /> 点<h>护盾</h>。<br />造成 <Damage /> 点伤害。<br />打出一张手牌。<br />若为攻击牌，获得<Mana />和 <Value2 /> 点<h>火力</h>；若为防御牌，获得{Mana2}和 <Value2 /> 点 <h>灵力</h>。"
+  },
+  "FlandrePathofDestruction": {
+    "Name": "毁灭征途",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />抽 {Value1:plural one='% 张牌' other='% 张牌'}。<br />对于放逐区中的每张攻击牌，本卡消耗减少<Mana />。",
+    "UpgradedDescription": "获得 <Block /> 点<h>格挡</h>。<br />抽 {Value1:plural one='% 张牌' other='% 张牌'}。<br />对于放逐区中的每张攻击牌，本卡消耗减少<Mana />。"
+  },
+  "FlandrePlayTogether": {
+    "Name": "携手同游",
+    "Description": "获得 <Value1 /> 点 <h>临时火力</h>。<br />从弃牌堆中选择最多 {Value2:plural one='% 张牌' other='% 张牌'} 返回手牌。",
+    "UpgradedDescription": "获得 <Value1 /> 点 <h>临时火力</h>。<br />从弃牌堆中选择最多 {Value2:plural one='% 张牌' other='% 张牌'} 返回手牌。"
+  },
+  "FlandrePrayerofRuin": {},
+  "FlandreRecklessBullet": {
+    "Name": "狂飙弹幕",
+    "Description": "造成 <h><Damage /></h> 点 <h>伤害</h> <h><Value1 /></h> 次。<br />将 <h><Value2 /></h> 张随机 <h>水晶</h> 加入手牌。",
+    "UpgradedDescription": "造成 <h><Damage /></h> 点 <h>伤害</h> <h><Value1 /></h> 次。<br />将 <h><Value2 /></h> 张随机 <h>水晶+</h> 加入手牌。"
+  },
+  "FlandreReliableLittleSister": {},
+  "FlandreRipandTear": {
+    "Name": "癫狂屠戮",
+    "Description": "对所有敌人造成 <Value1 /> 次 <Damage /> 点伤害。<br />此牌不受<h>火力</h>影响。",
+    "UpgradedDescription": "对所有敌人造成 <Value1 /> 次 <Damage /> 点伤害。<br />此牌不受<h>火力</h>影响。"
+  },
+  "FlandreRipplesof495Years": {
+    "Name": "495年的涟漪",
+    "Description": "<PlayerName />免疫所有负面状态。<br />将本场战斗中获得的所有法力值转换为 <ManaP />。<br />每当打出卡牌时，获得等于该卡消耗的法力值。<br />所有卡牌均被打出两次。<br /><h>消耗品【{ToolPlayableTimes}】</h>",
+    "UpgradedDescription": "<PlayerName />免疫所有负面状态。<br />将本场战斗中获得的所有法力值转换为 <ManaP />。<br />每当打出卡牌时，获得等于该卡消耗的法力值。<br />所有卡牌均被打出两次。<br /><h>消耗品【{ToolPlayableTimes}】</h>"
+  },
+  "FlandreRoseCross": {},
+  "FlandreRuinedFortress": {
+    "Name": "废墟城堡",
+    "Description": "每当<PlayerName />对一名敌人施加<h>终末</h>时，每拥有1层 <h>灵力</h> ，便多施加<Value1 />层<h>终末</h>。获得<Value2 />层 <h>灵力</h>。",
+    "UpgradedDescription": "每当<PlayerName />对一名敌人施加<h>终末</h>时，每拥有1层 <h>灵力</h> ，便多施加<Value1 />层<h>终末</h>。获得<Value2 />层 <h>灵力</h> 。"
+  },
+  "FlandreScarletCasino": {},
+  "FlandreScarletNihility": {
+    "Name": "绯色虚无",
+    "Description": "造成 <Damage /> 点伤害。<br />若目标生命低于 <Value1 />%，则将其<h>消灭</h>。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />若目标生命低于 <Value1 />%，则将其<h>消灭</h>。"
+  },
+  "FlandreScaryLittleSister": {
+    "Name": "二妹的午夜后宫",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />当被放逐时:获得<Mana />并抽 {Value1:plural one='% 张牌' other='% 张牌'}。",
+    "UpgradedDescription": "获得 <Block /> 点<h>格挡</h>。<br />当被放逐时:获得<Mana />并抽 {Value1:plural one='% 张牌' other='% 张牌'}。"
+  },
+  "FlandreSisteroftheDevil": {
+    "Name": "恶魔之妹",
+    "Description": "<h>战斗开始时</h>:<h>放逐</h>{SelfName}，获得<h>恶魔之妹</h>。",
+    "UpgradedDescription": "<h>战斗开始时</h>:<h>放逐</h>{SelfName}，获得<h>恶魔之妹</h>和 <Mana />。"
+  },
+  "FlandreSoulMelter": {
+    "Name": "灵魂熔炉",
+    "Description": "造成 <Damage /> 点伤害 <Value1 /> 次。<br />施加 <Value2 /><h>地狱火</h>和 {Value3}<h>终末</h>。<br />触发目标的<h>地狱火</h>。<br /><h>退治</h>: 获得 <Value1 /> 点最大生命。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害 <Value1 /> 次。<br />施加 <Value2 /><h>地狱火</h>和 {Value3}<h>终末</h>。<br />触发目标的<h>地狱火</h>。<br /><h>退治</h>: 获得 <Value1 /> 点最大生命。"
+  },
+  "FlandreSpectrometer": {
+    "Name": "光谱仪",
+    "Description": "获得 <Block /> <h>格挡</h>。<br />将 <Value1 /> 张随机<h>水晶</h>加入抽牌堆和弃牌堆。",
+    "UpgradedDescription": "获得 <Block /> <h>格挡</h>。<br />将 <Value1 /> 张随机<h>水晶</h>加入抽牌堆和弃牌堆。"
+  },
+  "FlandreSpellBreak": {
+    "Name": "咒言破碎",
+    "Description": "造成 <Value1 /> 点伤害。<br />使目标 <Value2 /> 回合无法行动。<br />目标 {Value3} 回合内免疫 <h>咒言破碎</h>。",
+    "UpgradedDescription": "造成 <Value1 /> 点伤害。<br />使目标 <Value2 /> 回合无法行动。<br />目标 {Value3} 回合内免疫 <h>咒言破碎</h>"
+  },
+  "FlandreStarbowBreak": {
+    "Name": "星虹破碎",
+    "Description": "<h>每消耗不同颜色的法力值</h>:对所有敌人造成 <Damage /> 点伤害。<br />本卡对每张手牌中的攻击牌多造成 <Value1 /> 点伤害。",
+    "UpgradedDescription": "<h>每消耗不同颜色的法力值</h>:对所有敌人造成 <Damage /> 点伤害。<br />本卡对每张手牌中的攻击牌多造成 <Value1 /> 点伤害。"
+  },
+  "FlandreStraightFlush": {
+    "Name": "同花顺",
+    "Description": "获得 <Shield /><h>护盾</h>。<br />获得 <Value1 /><h>火力</h>、<h>灵力</h>、<h>护身符</h> 和 <h>庇护</h>。<br />获得 <Value2 /><h>崩坏</h>。<br />如果手牌中有 {Value3} 张或更多相同类型的牌，{SelfName} 的消耗为 <Mana />。",
+    "UpgradedDescription": "获得 <Shield /><h>护盾</h>。<br />获得 <Value1 /><h>火力</h>、<h>灵力</h>、<h>护身符</h> 和 <h>庇护</h>。<br />获得 <Value2 /><h>崩坏</h>。<br />如果手牌中有 {Value3} 张或更多相同类型的牌，{SelfName} 的消耗为 <Mana />。"
+  },
+  "FlandreSuperhumanCatastrophePilgrimage": {
+    "Name": "天灾巡游",
+    "Description": "向手牌添加随机攻击、防御、技能和<h>能力</h>卡牌各一张。它们临时消耗<Mana />并具有<h>放逐</h>和<h>虚无</h>效果。",
+    "UpgradedDescription": "向手牌添加随机攻击、防御、技能和<h>能力</h>卡牌各一张。它们临时消耗<Mana />并具有<h>放逐</h>和<h>虚无</h>效果。"
+  },
+  "FlandreTheCentennialFestivalforMagicalGirls": {},
+  "FlandreTheMousetrap": {
+    "Name": "老鼠夹",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br />获得 <Value1 /> 点<h>崩坏</h>。<br />于<PlayerName />下一回合开始时，对所有敌人造成等于上回合所受伤害的伤害。",
+    "UpgradedDescription": "获得 <Shield /> 点<h>护盾</h>。<br />获得 <Value1 /> 点<h>崩坏</h>。<br />于<PlayerName />下一回合开始时，对所有敌人造成等于上回合所受伤害的伤害。"
+  },
+  "FlandreThePsychoticandCuteGuest": {
+    "Name": "疯狂来客",
+    "Description": "每当一张蓝色卡牌被生效时，获得 <Value1 /> <h>崩坏</h>。<br />每当一张红色卡牌被生效时，获得 <Value2 /> <h>火力</h>。",
+    "UpgradedDescription": "每当一张蓝色卡牌被生效时，获得 <Value1 /> <h>崩坏</h>。<br />每当一张红色卡牌被生效时，获得 <Value2 /> <h>火力</h>。"
+  },
+  "FlandreTirelessVampire": {},
+  "FlandreToolDestroyingObstacles": {
+    "Name": "势如破竹",
+    "Description": "从牌库中移除一张牌。<br /><h>消耗品【{DeckCounter}】</h>"
+  },
+  "FlandreToolTheCureforMadness": {},
+  "FlandreTrueDevilsCurtain": {},
+  "FlandreTrueDevilsMantle": {},
+  "FlandreTrueDevilsRain": {},
+  "FlandreTrueDevilsShot": {},
+  "FlandreUltraViolence": {},
+  "FlandreUncontrollableBomb": {},
+  "FlandreUnholySanctuary": {},
+  "FlandreUnstablePower": {
+    "Name": "不稳之力",
+    "Description": "所有攻击造成 <Value1 />%到 <Value2 />%的伤害。",
+    "UpgradedDescription": "所有攻击造成 <Value1 />%到 <Value2 />%的伤害。"
+  },
+  "FlandreViolentSpread": {
+    "Name": "暴力扩散",
+    "Description": "对随机敌人造成 <Damage /> 点伤害 <Value1 /> 次。<br />获得 <Value1 /> 点<h>崩坏</h>。",
+    "UpgradedDescription": "对随机敌人造成 <Damage /> 点伤害  <Value1 /> 次。<br />获得 <Value1 /> 点<h>崩坏</h>。"
+  },
+  "FlandreWalpurgisNight": {
+    "Name": "魔女夜宴",
+    "Description": "每当<PlayerName />造成攻击伤害时，额外施加等量的<h>终末</h>。",
+    "UpgradedDescription": "每当<PlayerName />造成攻击伤害时，额外施加等量的<h>终末</h>。"
+  },
+  "FlandreWarmonger": {
+    "Name": "战斗狂",
+    "Description": "获得 <Value1 /> 点 <h>临时火力</h> 和 <h>临时灵力</h>。<br />每存在一个敌人，额外获得 <Value2 /> 点 <h>临时火力</h> 和 <h>临时灵力</h>。",
+    "UpgradedDescription": "获得 <Value1 /> 点 <h>临时火力</h> 和 <h>临时灵力</h>。<br />每存在一个敌人，额外获得 <Value2 /> 点 <h>临时火力</h> 和 <h>临时灵力</h>。"
+  },
+  "FlandreWatchtheWorldBurn": {
+    "Name": "彼岸观火",
+    "Description": "于<PlayerName />回合结束时，对所有敌人施加 <Value1 /> 点<h>地狱火</h>。",
+    "UpgradedDescription": "于<PlayerName />回合结束时，对所有敌人施加 <Value1 /> 点<h>地狱火</h>。"
+  },
+  "FlandreWhitefire": {},
+
   "cardadrenaline": {
     "Name": "肾上腺素",
     "Description": "<h>当<PlayerName />的生命值少于</h> <he>50</he>% <h>时</h>：每当<PlayerName />的生命值降低时，获得 <Value1 /> 层<h>攻击提升</h>和 <Value2 /> 层<h>血块</h>。"

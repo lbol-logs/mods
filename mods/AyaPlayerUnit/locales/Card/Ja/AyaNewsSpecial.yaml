@@ -1,0 +1,12 @@
+﻿AyaNewsSpecial:
+  Description: >-
+    {Block}|ブロック|を得る。
+
+    敵全体に{Damage}ダメージを与え、|ロックオン|{Value1}を与える。
+
+    |ロックオン|を持つ敵にはダメージを2回与える。
+  Name: 文々。新聞・号外
+  AyaNewsDescription: >-
+    {Damage}ダメージを与える。
+
+    |ロックオン|{Value1}を与える。

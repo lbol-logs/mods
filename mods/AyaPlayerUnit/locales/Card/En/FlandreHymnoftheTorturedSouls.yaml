@@ -1,0 +1,18 @@
+﻿FlandreHymnoftheTorturedSouls:
+  Description: >-
+    Gain {FlandreBlock} |Block|.
+
+    Gain {FlandreMana} and draw {FlandreValue1:plural one='% card' other='% cards'} for each character with |Hellfire|. ({Amount})
+  UpgradedDescription: >-
+    Gain {FlandreBlock} |Block|.
+
+    Gain {FlandreMana} and draw {FlandreValue1:plural one='% card' other='% cards'} for each character with |Hellfire|. ({Amount})
+  NonbattleDescription: >-
+    Gain {FlandreBlock} |Block|.
+
+    Gain {FlandreMana} and draw {FlandreValue1:plural one='% card' other='% cards'} for each character with |Hellfire|.
+  UpgradedNonbattleDescription: >-
+    Gain {FlandreBlock} |Block|.
+
+    Gain {FlandreMana} and draw {FlandreValue1:plural one='% card' other='% cards'} for each character with |Hellfire|.
+  Name: Hymn of the Tortured Souls

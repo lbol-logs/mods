@@ -1,0 +1,4 @@
+﻿AyaOrbColorlessPoweroftheOrdinarySe:
+  Brief: 在一张普通牌被使用后，{OwnerName} 获得 |临时火力|。
+  Description: 在一张普通牌被使用后，{OwnerName} 获得 {Level} |临时火力|。
+  Name: 平凡之力

@@ -1,0 +1,6 @@
+﻿FlandreDeathorTreat:
+  Description: '|选择|: 获得 {Value1} |崩坏|，或将 {Value2} 张 |残暴水晶+| 加入手牌。'
+  UpgradedDescription: '|选择|: 获得 {Value1} |崩坏|，或将 {Value2} 张 |残暴水晶+| 加入手牌。'
+  ExtraDescription1: 获得 {Value1}|崩坏|。
+  ExtraDescription2: 将 {Value2} 张 |残暴水晶+| 加入手牌。
+  Name: 不给糖，就拆家

@@ -1,0 +1,10 @@
+﻿FlandreDevilsFlesh:
+  Description: >-
+    获得 {Block} 点|格挡|。
+
+    恢复 {Value1} 点生命。
+  UpgradedDescription: >-
+    获得 {Block} 点|格挡|。
+
+    恢复 {Value1} 点生命。
+  Name: 恶魔血肉

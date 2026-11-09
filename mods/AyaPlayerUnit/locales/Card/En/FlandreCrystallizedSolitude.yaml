@@ -1,0 +1,10 @@
+﻿FlandreCrystallizedSolitude:
+  Description: >-
+    Deal {FlandreDamage} damage.
+
+    |p:Randomly| gain {FlandreShield} |Barrier| or {FlandreValue1} |Graze|.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage.
+
+    |p:Randomly| gain {FlandreShield} |Barrier| or {FlandreValue1} |Graze|.
+  Name: Crystallized Solitude

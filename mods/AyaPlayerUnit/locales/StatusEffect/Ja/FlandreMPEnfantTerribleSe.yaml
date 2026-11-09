@@ -1,0 +1,4 @@
+﻿FlandreMPEnfantTerribleSe:
+  Brief: '{OwnerName}の攻撃は、一定ターンの間、与えるダメージが減少する。'
+  Description: "{OwnerName}の攻撃は、{Duration:plural one='ターン終了時まで' other='次の%ターンの間'}、与えるダメージが{Limit}%減少する。"
+  Name: アンファン・テリブル

@@ -1,0 +1,24 @@
+﻿FlandreMagicalTechnique:
+  Description: >-
+    从 |{Value1}| 张随机 |普通卡牌| 中选择 |1| 张并 |打出|。
+
+    将 |{SelfName}| 返回手牌。
+
+    本回合中，|{SelfName}| 的费用增加|{Mana}|。
+  UpgradedDescription: >-
+    从 |{Value1}| 张随机 |普通卡牌| 中选择 |1| 张并 |打出|。
+
+    将 |{SelfName}| 返回手牌。
+
+    本回合中，|{SelfName}| 的费用增加|{Mana}|。
+  ExtraDescription1: >-
+    从 |{Value1}| 张随机 |已升级| 的 |普通卡牌| 中选择 |1| 张并 |打出|。
+
+    将 |{SelfName}| 返回手牌。
+
+    本回合中，|{SelfName}| 的费用增加|{Mana}|。
+  Name: 魔法技巧
+  DetailText: >-
+    |p:|{SelfName}| 在任何情况下都不会离开手牌。|
+
+    |{SelfName}| 始终位于手牌 中的第 |{Order}| 位。

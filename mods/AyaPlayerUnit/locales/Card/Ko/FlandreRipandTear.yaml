@@ -1,0 +1,10 @@
+﻿FlandreRipandTear:
+  Description: >-
+    피해를 {Damage}씩 {Value1}번 줍니다.
+
+    {SelfName}는 |화력|의 영향을 받지 않습니다.
+  UpgradedDescription: >-
+    피해를 {Damage}씩 {Value1}번 줍니다.
+
+    {SelfName}는 |화력|의 영향을 받지 않습니다.
+  Name: 찢고 찢는다

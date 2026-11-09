@@ -1,0 +1,14 @@
+﻿FlandreCrystallizedSolitude:
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    随机获得 {Block}|格挡|、{Shield}|护盾|或 {Value1} |闪避|。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害。
+
+    随机获得 {Block}|格挡|、{Shield}|护盾|或 {Value1} |闪避|。
+  ExtraDescription1: >-
+    造成 {Damage} 点伤害。
+
+    获得 {Block}|格挡|、{Shield}|护盾|和 {Value1} |闪避|。
+  Name: 孤独水晶

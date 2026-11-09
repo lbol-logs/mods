@@ -1,0 +1,4 @@
+﻿AyaMomentofRelaxation:
+  Description: "|减速 {Value1}|: 获得{Mana}并抽 {Value2:plural one='% 张牌' other='% 张牌'}。"
+  UpgradedDescription: "|减速 {Value1}|: 获得{Mana}并抽 {Value2:plural one='% 张牌' other='% 张牌'}。"
+  Name: 放松时刻

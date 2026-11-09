@@ -1,0 +1,17 @@
+﻿AyaTakane:
+  Title: 山奥のビジネス妖怪
+  Move:
+  - Y60マシンガン
+  - Y202フラッシュ
+  - 山童爆弾
+  - 盗賊Y82
+  - ファーストエイドキット
+  - 弾幕マネー
+  - 能力カード大盤振る舞い
+  AyaTakaneAttack: 本当に{0}を攻撃したいですか？
+  AyaTakaneIntro1Takane: 止まれ！盗賊！！！!
+  AyaTakaneIntro2Takane: そうはさせないよっ！
+  AyaTakaneIntro3Takane: お仕置きの時間だよっ！
+  AyaTakaneSteal1: 拾う
+  AyaTakaneSteal2: カードを1枚アップグレードする。
+  AyaTakaneSteal3: カードを1枚削除する。

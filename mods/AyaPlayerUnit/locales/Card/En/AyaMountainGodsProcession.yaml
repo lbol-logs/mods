@@ -1,0 +1,12 @@
+﻿AyaMountainGodsProcession:
+  Description: >-
+    Whenever {PlayerName} gains |Acceleration|, gain {Mana}.
+
+    Gain {Value1} |Acceleration|.
+  UpgradedDescription: >-
+    Whenever {PlayerName} gains |Acceleration|, gain {Mana}.
+
+    Gain {Value1} |Acceleration|.
+  PhantasmModeDescription: Whenever {PlayerName} gains |Acceleration|, gain {Mana}.
+  PhantasmModeUpgradedDescription: Whenever {PlayerName} gains |Acceleration|, gain {Mana}.
+  Name: Mountain God's Procession

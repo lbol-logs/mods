@@ -1,0 +1,12 @@
+﻿FlandreMPButchersCircus:
+  Description: >-
+    Whenever an enemy is defeated, all players gain {FlandreValue2} |Firepower| and {Value3} life.
+
+    |Scaled| {Mana}.
+  UpgradedDescription: >-
+    Whenever an enemy is defeated, all players gain {FlandreValue2} |Firepower| and {Value3} life.
+
+    Trigger {SelfName} once.
+
+    |Scaled| {Mana}.
+  Name: Butcher's Circus

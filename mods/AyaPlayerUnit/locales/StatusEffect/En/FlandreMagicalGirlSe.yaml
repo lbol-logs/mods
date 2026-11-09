@@ -1,0 +1,10 @@
+﻿FlandreMagicalGirlSe:
+  Brief: >-
+    This card can be |Upgraded| up to {Value1:plural one='% time' other='% times'}.
+
+    At the start of combat, gain {Value2} |Barrier| for each |Upgrade| on any |Magical Girl| card in the library. ({Amount})
+  Description: >-
+    This card can be |Upgraded| up to {Value1:plural one='% time' other='% times'}.
+
+    At the start of combat, gain {Value2} |Barrier| for each |Upgrade| on any |Magical Girl| card in the library. ({Amount})
+  Name: Magical Girl

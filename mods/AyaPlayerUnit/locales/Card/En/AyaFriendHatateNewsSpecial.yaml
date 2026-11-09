@@ -1,0 +1,6 @@
+﻿AyaFriendHatateNewsSpecial:
+  Description: >-
+    Gain {Value1} random mana. Increased by 1 for each {SelfName} |Exiled| this combat.
+
+    |When {SelfName} enters the hand|: Gain {Shield} |Barrier|.
+  Name: Kakashi Spirit News Special

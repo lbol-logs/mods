@@ -1,0 +1,8 @@
+﻿AyaFriendCirno:
+  Description: '{FriendP}|f:満開の夏|: |フィールド|に存在する全ての|パートナー|は|支援度|{Value1}を得る。'
+  ExtraDescription1: '{FriendA}|a:不屈の秋|: ターンごとに1回しか発動できない。ランダムな{Value2}枚の|アップグレード済み|の|パートナー|を召喚する。それらの|支援度|は{Value1}。'
+  ExtraDescription2: '{FriendA}|d:不屈の秋: ターンごとに1回しか発動できない。ランダムな{Value2}枚のアップグレード済みのパートナーを召喚する。 それらの支援度は{Value1}。|'
+  ExtraDescription3: '{FriendU}|u:「四季のフィナーレ」|: 戦闘ごとに1回しか発動できない。敵全体に{Damage}ダメージを与え、|ファイナルフリーズ|{Value1}を与える。|精密|'
+  ExtraDescription4: '{FriendU}|d:「四季のフィナーレ」: 戦闘ごとに1回しか発動できない。敵全体に{Damage}ダメージを与え、ファイナルフリーズ{Value1}与える。精密|'
+  Name: 四季の小さなお友達、チルノ
+  DetailText: '|p:このカードは手札から離れない。|'

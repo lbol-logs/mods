@@ -1,0 +1,14 @@
+﻿AyaPanorama:
+  Description: >-
+    Gain {Block} |Block|.
+
+    Increase |Bunbunmaru Newspaper Special|'s numerical value by {Value1}.
+
+    |When Exiled|: Add a |Bunbunmaru Newspaper Special| to the hand.
+  UpgradedDescription: >-
+    Gain {Block} |Block|.
+
+    Increase |Bunbunmaru Newspaper Special|'s numerical value by {Value1}.
+
+    |When Exiled|: Add a |Bunbunmaru Newspaper Special| to the hand.
+  Name: Panorama

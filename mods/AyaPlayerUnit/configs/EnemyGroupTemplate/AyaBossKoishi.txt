@@ -1,0 +1,1 @@
+﻿{EnemyGroupConfig Id=, IsSub=False, Subs=[], Name=AyaBossKoishi, FormationName=Single, Enemies=[AyaBossKoishi], EnemyType=Boss, Hidden=False, DebutTime=1, RollBossExhibit=False, PlayerRoot=(-4.00, 0.50), PreBattleDialogName=, PostBattleDialogName=, Environment=}

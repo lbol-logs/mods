@@ -1,4 +1,81 @@
 {
+  "Aya1up": {
+    "Name": "１アップ",
+    "Description": "次に<PlayerName />が敗北するとき、代わりに体力を完全回復しデバフをすべて取り除く。一度だけ効果がある。"
+  },
+  "AyaG": {
+    "Name": "文のカメラ",
+    "Description": "マナ基盤に<BaseMana />を加え、<h>文</h>専用のカードが出現するようになる。<br />各ターンに初めて<h>厄災</h>または状態異常カードを<h>廃棄</h>した時、<Mana />を得る。<br /><h>文々。新聞</h>は<Value1 />ダメージを与え、<h>ロックオン</h><Value2 />を与えるようになり、<h>補充</h>を持つ。<br /><h>花果子念報</h>は<h>補充</h>を持つ。"
+  },
+  "AyaKhakkhara": {
+    "Name": "錫杖",
+    "Description": "戦闘開始時、<h>完全グレイズ</h><Value1 />を得る。"
+  },
+  "AyaNewsboyCap": {
+    "Name": "文のキャスケット",
+    "Description": "各ターンに初めて<h>厄災</h>または状態異常カードを<h>廃棄</h>した時、<Value1 /><h>バリア</h>を得る。"
+  },
+  "AyaNewspaperBag": {
+    "Name": "新聞紙の袋",
+    "Description": "戦闘開始時、<h>文々。新聞</h>を<Value1 />枚山札に加える。それらは<h>コスト</h><Mana />。"
+  },
+  "AyaR": {
+    "Name": "羽団扇",
+    "Description": "マナ基盤に<BaseMana />を加え、<h>文</h>専用のカードが出現するようになる。<br />戦闘開始時、<h>加速</h><Value1 />を得る。<br /><h>文々。新聞</h>は<Value2 />ダメージを与え、<h>ロックオン</h><Value3 />を与えるようになり、<h>補充</h>を持つ。<br /><h>花果子念報</h>は<h>補充</h>を持つ。"
+  },
+  "AyaTanukisLeaf": {
+    "Name": "子タヌキの葉っぱ",
+    "Description": "レアカードの出現率を上げる。"
+  },
+  "FlandreB": {
+    "Name": "ダイヤのエース",
+    "Description": "マナ基盤に<BaseMana />を加え、<h>フランドール</h>専用のカードが出現するようになる。<br />各ターン、最初に<h>クリスタル</h>が発動したとき、<Mana />を得る。"
+  },
+  "FlandreBranchofCalamity": {
+    "Name": "災厄の枝",
+    "Description": "<PlayerName />の攻撃が与えるダメージが<Value1 />%増加する。<br />この展示品は失われない。"
+  },
+  "FlandreBrokenHorn": {
+    "Name": "折れた角",
+    "Description": "戦闘開始時、<h>災禍</h><Value1 />得る。"
+  },
+  "FlandreDevilPlushie": {
+    "Name": "悪魔のぬいぐるみ",
+    "Description": " <PlayerName />のターン開始時、<Mana />を得る。"
+  },
+  "FlandreDevilsGold": {
+    "Name": "悪魔の金貨",
+    "Description": "<PlayerName />が<h>破滅</h>を付与するたび、さらに<Value1 />の<h>破滅</h>を付与する。<br /><h>破滅</h>を持つ敵が倒されるたび、<Value2 /><Money />を得る。"
+  },
+  "FlandreFlan": {
+    "Name": "Flan",
+    "Description": "戦闘終了時、ライフ<Value1 />を回復する。"
+  },
+  "FlandreMagicalGirlContract": {
+    "Name": "魔法少女契約",
+    "Description": "戦闘中に<PlayerName />がカードを獲得するたび、そのカードを<h>アップグレード</h>する。<br />この展示品は失われない。"
+  },
+  "FlandreMindStabilizer": {
+    "Name": "精神安定装置",
+    "Description": "<PlayerName />のレベルが上がるたび、<h>狂気</h><Value1 />失う。"
+  },
+  "FlandrePortableAltar": {
+    "Name": "携帯祭壇",
+    "Description": "戦闘開始時、<h>霊力</h><Value1 />得る。<br />カードが<h>供物</h>によって<h>廃棄</h>されるたび、<h>ブロック</h><Value2 />得る。"
+  },
+  "FlandreR": {
+    "Name": "焼けたポラロイド",
+    "Description": "マナ基盤に<BaseMana />を加え、<h>フランドール</h>専用のカードが出現するようになる。<br /><PlayerName />が各ターン初めて敵に<h>業火</h>を付与したとき、<Mana />を得る。"
+  },
+  "FlandreSeedofCorruption": {
+    "Name": "堕落の種",
+    "Description": "??????????"
+  },
+  "FlandreTornTeddyBear": {
+    "Name": "破れたテディベア",
+    "Description": "戦闘開始時、<h>火力</h>を<Value1 />得る。<br /><h>狂血</h>の効果が、<PlayerName />の失ったライフ1%につきさらに<he>{Value4}</he>%増加する。"
+  },
+
   "exexa": {
     "Name": "崇められし闇",
     "Description": "マナ基盤に<Mana />を加える。<h>EXルーミア</h>固有のカードが出現するようになる。<br />各戦闘の最初のターン開始時、敵全体に<h>血の印</h><Value1 />を与える。<br /><PlayerName />の攻撃ダメージが、失ったライフの<Value2 />%分だけ増加する。（端数切り上げ）"

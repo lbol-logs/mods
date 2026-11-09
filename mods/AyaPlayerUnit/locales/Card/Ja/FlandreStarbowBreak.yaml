@@ -1,0 +1,14 @@
+﻿FlandreStarbowBreak:
+  Description: >-
+    |異なる色のマナを1点消費するたび|：すべての敵に{FlandreDamage}ダメージを与える。
+
+    手札の攻撃カード1枚につき、{SelfName}のダメージが{FlandreValue1}増加する。
+
+    |バリア|または|ブロック|を持つ敵には、その{FlandreValue2}倍のダメージを与える。
+  UpgradedDescription: >-
+    |異なる色のマナを1点消費するたび|：すべての敵に{FlandreDamage}ダメージを与える。
+
+    手札の攻撃カード1枚につき、{SelfName}のダメージが{FlandreValue1}増加する。
+
+    |バリア|または|ブロック|を持つ敵には、その{FlandreValue2}倍のダメージを与える。
+  Name: スターボウブレイク

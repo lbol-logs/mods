@@ -1,0 +1,14 @@
+﻿FlandreTirelessVampire:
+  Description: >-
+    Gain {FlandreBlock} |Block|.
+
+    Gain {FlandreValue1} |p:random| mana.
+  UpgradedDescription: >-
+    Gain {FlandreBlock} |Block|.
+
+    Gain {FlandreValue1} |p:random| mana.
+  Name: Tireless Vampire
+  FlavorText: >-
+    "Come on, Meiling! The night has just begun!"
+
+    - Flandre Scarlet

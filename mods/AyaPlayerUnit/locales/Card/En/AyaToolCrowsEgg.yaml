@@ -1,0 +1,11 @@
+﻿AyaToolCrowsEgg:
+  LockedDescription: Unlocked by resolve the incident on Normal Mode or higher with Aya Shameimaru.
+  Description: >-
+    Gain {Value1} life.
+
+    Gain {Value1} |Temporary Firepower|.
+
+    At the start of {PlayerName}'s turn, repeat these effects with 1 less.
+
+    |Limited【{DeckCounter}】|
+  Name: Crow's Egg

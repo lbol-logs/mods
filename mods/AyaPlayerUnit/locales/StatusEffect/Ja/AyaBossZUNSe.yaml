@@ -1,0 +1,10 @@
+﻿AyaBossZUNSe:
+  Brief: >-
+    {OwnerName} を対象とするすべてのカード、ダメージ、状態異常を無効化する。
+
+    他のすべての敵が倒された後、{OwnerName} は戦闘から離脱する。
+  Description: >-
+    {OwnerName} を対象とするすべてのカード、ダメージ、状態異常を無効化する。
+
+    他のすべての敵が倒された後、{OwnerName} は戦闘から離脱する。
+  Name: 博麗の神主

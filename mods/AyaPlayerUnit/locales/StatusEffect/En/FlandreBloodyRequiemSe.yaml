@@ -1,0 +1,4 @@
+﻿FlandreBloodyRequiemSe:
+  Brief: For a certain number of turns, All |Flandre| cards gain |Bloodlust|, and |Bloodlust| is always applied at its maximum value.
+  Description: For the next {Duration:plural one='% turn' other='% turns'}, All |Flandre| cards gain |Bloodlust|, and |Bloodlust| is always applied at its maximum value.
+  Name: Bloody Requiem

@@ -1,0 +1,151 @@
+﻿AyaPlayerUnit:
+  Title: 伝統の幻想ブン屋
+  AyaSelect: 選択
+  AyaChallengeYukariName: 挑戦
+  AyaChallengeYukariDescription: 本当に{0}に挑戦しますか？
+  AyaBribery1Megumu: 今日は妙ね、文。攻撃してくるかと思えば、お金まで渡してくるなんて。
+  AyaBribery2Aya: えっ、道を塞がないの？
+  AyaBribery3Megumu: 自分の商売を邪魔する理由があるかしら？
+  AyaBribery4Megumu: でもあなたがいきなり何も言わずに攻撃してきたから・・・私は挑戦者は拒まないの主義なの。
+  AyaBribery5Aya: えっと・・・挑戦するつもりじゃなかったの。勘弁して?～～。
+  AyaBribery6Megumu: 罰は後で決めるわ。今はこのお金に見合うご褒美をあげないと・・・
+  AyaBribery7Megumu: そうそう。あなた、あのカードを集めてるんでしょう？ 私のカードをあげるわ。
+  AyaBribery8Aya: もちろんです！あなたからの贈り物、光栄です！
+  AyaBribery9Aya: >-
+    えぇぇぇぇぇ！？　めんどくさっ！　本当にこのカード持ち歩かなきゃいけないの！？
+
+    くそっ くそっ くそっ くそっ
+  AyaBribery10Megumu: 会話に入ってるわよ～
+  AyaFastAttack1Aya: やだ。
+  AyaFastAttack2Aya: あやや。
+  AyaFastAttack3Aya: もっと頑張って。
+  AyaExtraBoss1SukusukuAya: >-
+    すく？
+
+    （勝負、望むの？）
+  AyaExtraBossFlandre1SukusukuAya: >-
+    すく...
+
+    (ちょっと時間を巻き戻してみようか…)
+  AyaExtraBossFlandre2Aya: えっ?
+  AyaExtraBossFlandre3Flandre: え。
+  AyaExtraBossFlandre4Flandre: それだけ？
+  AyaExtraBossFlandre5Aya: まあまあ、まさか紅魔館の妹さんに会えるとは思いませんでした。
+  AyaExtraBossFlandre6Flandre: ん？ あなた…{0}でしょ？
+  AyaExtraBossFlandre7Aya: そうです！ 正義と真実を追い求める記者として、事件の犯人にインタビューしようとしていたんですよ！
+  AyaExtraBossFlandre8Aya: …あなたが一瞬で倒すまでは。
+  AyaExtraBossFlandre9Flandre: 事件の犯人って、普通は強いもんじゃないの？
+  AyaExtraBossFlandre10Aya: そうとも限りませんよ。それに、あなたの力に耐えられる者なんて、そうそういませんし。
+  AyaExtraBossFlandre11Flandre: もっと頑丈なおもちゃだと思ってたのに…
+  AyaExtraBossFlandre12Flandre: …あなた、どれくらい強いの？
+  AyaExtraBossFlandre13Aya: 少なくとも、あの魔法アイテム使いの天邪鬼よりは強いですよ。
+  AyaExtraBossFlandre14Flandre: 退屈だなあ。じゃあ、私と戦って。
+  AyaExtraBossFlandre15Aya: あややや…じょ、冗談ですよ！ 私は最弱の烏天狗でして…
+  AyaExtraBossFlandre16Flandre: 嘘つかないで。私との取材のときのこと、忘れたとでも思ってるの？
+  AyaExtraBossFlandre17Flandre: 私の攻撃を全部避けながら、写真撮って、一度も反撃せずに帰ったくせに。
+  AyaExtraBossFlandre18Flandre: だから、ぐだぐだ言ってないで来なさい！
+  AyaExtraBossFlandre19Aya: な、なにをっ??
+  AyaExtraBossFlandre20Aya: 助けて！ 誘拐されてますぅぅぅ！
+  AyaExtraBossFlandre21Flandre: ねぇ、抵抗しないで。じゃないと太陽壊してここで戦うよ？
+  AyaExtraBossFlandre22Aya: あやややややややややーーーっ！！
+  AyaSkipDialogue: 会話をスキップしたいですか？
+  AyaChapterSelect: チャプター選択
+  AyaChapter1Act1AyaTanukiIntro1AyaTanuki: うわっ！何するのよ！
+  AyaChapter1Act1AyaTanukiIntro2Aya: そんなのも避けられないくせに、私に化けたって？
+  AyaChapter1Act1AyaTanukiIntro3Aya: 今こそ、その罪を償ってもらうわ。
+  AyaChapter1Act1AyaTanukiIntro4AyaTanuki: や、や・・・
+  AyaChapter1Act21AyaTanuki: で、何があったの？
+  AyaChapter1Act22Aya: 輝夜がまた展示会を開いてたのよ。今回は、来場者が好きな展示品を一つ持ち帰っていいって。
+  AyaChapter1Act23Aya: もちろん彼女の宝物は対象外なんだけど、どうやらそれを無視した人がいたみたい。
+  AyaChapter1Act24Aya: それで、無くなった宝物を見つけて戻してくれたら、お礼に宝物を一つ譲るって言い出して・・・みんな宝探しに夢中なのよ。
+  AyaChapter1Act25AyaTanuki: 永遠亭からたくさん人が飛び出して行ったの見たけど、展示会があったなんて知らなかった。
+  AyaChapter1Act26AyaTanuki: もしかして、あんたも宝探ししてるの？
+  AyaChapter1Act27Aya: 違うわよ、私はスクープを探してるの！
+  AyaChapter1Act28Aya: 輝夜姫の宝物を盗むなんて大胆な、この謎の人物は一体誰なのかしら？
+  AyaChapter1Act29Aya: ここに来るまでに、たくさんの展示品が荒らされてたわ。この事件が幻想郷に与える影響は・・・？
+  AyaChapter1Act210Aya: もしこれが何か大きな陰謀の一部だとしたら、黒幕は誰？
+  AyaChapter1Act211Aya: あややや！面白くなってきたわねぇ！
+  AyaChapter1Act212AyaTanuki: そ、そうかも？
+  AyaChapter1Act213Aya: あなたは？ お宝に興味あるの？
+  AyaChapter1Act214AyaTanuki: キラキラした物なんてもらっても困るし、遠慮しとくわ。
+  AyaChapter1Act215Aya: '...'
+  AyaChapter1Act216AyaTanuki: なに？
+  AyaChapter1Act217Aya: あなたってどれだけ純粋で無垢なのよ・・・
+  AyaChapter1Act218Aya: 妖精たちでさえ、宝を手に入れようとしてるの・・・
+  AyaChapter1Act219AyaTanuki: えへん、それは褒め言葉として受け取っとくわ。
+  AyaChapter1Act220Aya: さあ、先に進みましょう。
+  AyaChapter1Act221Aya: 私の情報によると、犯人は妖怪の山に逃げたみたい。
+  AyaChapter1Act31Aya: ここから先は、あなたは付いてこない方がいいと思う。
+  AyaChapter1Act32AyaTanuki: でも・・・
+  AyaChapter1Act33Aya: 危険すぎるわ。犯人が何者かも分かってないんだから。
+  AyaChapter1Act34Aya: ここはまだ比較的安全だから、ここで待ってて。ちゃんと良い知らせを持って戻るから。
+  AyaChapter1Act35AyaTanuki: わかった・・・そう言うなら・・・
+  AyaChapter1Act36AyaTanuki: そ?っとついて行くくらいなら、問題ないでしょ。
+  AyaChapter1Act4SeijaPhase11Seija: 三流新聞記者にしては悪くないじゃない。
+  AyaChapter1Act4SeijaPhase12Aya: ふふ、記者としての腕前には定評があるのよ。
+  AyaChapter1Act4SeijaPhase13Aya: で、それがあなたの全力？ じゃあ――
+  AyaChapter1Act4SeijaPhase14Seija: 甘いわよ、カラス！　まだ何も見せてないわ！
+  AyaChapter1Act4SeijaPhase15Seija: 不可能を可能にする”ってこと、教えてあげる！
+  AyaChapter1Act4SeijaPhase16Aya: これはまた、取材しがいのある相手が出てきたわね・・・
+  AyaChapter1Act4SeijaPhase2Hidden1Aya: いい？ 不可能が可能なら、最初から|不可能|なんて言わないのよ。
+  AyaChapter1Act4SeijaPhase2Hidden2Koishi: ・・・?
+  AyaChapter1Act4SeijaPhase21Seija: バカ記者は片付いた…って、あれ？
+  AyaChapter1Act4SeijaPhase22Seija: まだ立ってるの？ なかなかやるじゃない。
+  AyaChapter1Act4SeijaPhase23Aya: 記者には真実を伝える責任があるのよ・・・
+  AyaChapter1Act4SeijaPhase24Seija: 真実？　なら、私にも|真実|があるわよ。
+  AyaChapter1Act4SeijaPhase25Seija: みんな、出てきなさい。
+  AyaChapter1Act4SeijaPhase26Reimu: あんたのふざけた新聞のせいで、博麗のヤクザ扱いされたんだけど。
+  AyaChapter1Act4SeijaPhase27Marisa: アタシは盗んだことなんてないぜ？　ちょっと借りただけなのに毎回写真撮るなっての、だぜ。
+  AyaChapter1Act4SeijaPhase28Sakuya: お嬢様の命令ですわ。|存在しないスキャンダルを作ってる偽記者|は処理しろと。
+  AyaChapter1Act4SeijaPhase29Cirno: よく分かんないけど…ウソはよくないよ？
+  AyaChapter1Act4SeijaPhase210Seija: 結局のところ、あんたも私と同じくらいには腐ってるってことよ。
+  AyaChapter1Act4SeijaPhase211Aya: あやや…
+  AyaChapter1Act4SeijaPhase212Seija: '|私たち|が叩きのめす前に、何か言い残すことある？'
+  AyaChapter1Act4SeijaPhase213Aya: あやややややややややっ！！
+  AyaChapter1Act4SeijaPhase214Seija: な、何よこれ・・・
+  AyaChapter1Act4SeijaPhase215Aya: 見てこれ！事件の犯人と解決者が共謀しているという決定的瞬間よ！
+  AyaChapter1Act4SeijaPhase216Aya: これが真実だっていうの？　本当に幻想郷には|正義|なんてないの？
+  AyaChapter1Act4SeijaPhase217Aya: こんな貴重な現場を見逃す手はないわ！ タイトルは――.
+  AyaChapter1Act4SeijaPhase3Normal1Cirno: ごめんね、文...
+  AyaChapter1Act4SeijaPhase3True1Cirno: 文、わたし...
+  AyaChapter1Act4SeijaPhase3True2Aya: 謝る必要なんてないわ。私は正直な記者じゃないから。
+  AyaChapter1Act4SeijaPhase3True3Aya: でも、今回は胸を張って見せられる記事を書くって約束する。
+  AyaChapter1Act4SeijaPhase3True4Cirno: '...'
+  AyaChapter1Act4SeijaPhase3True5Cirno: もうひとつだけ、約束してくれる？
+  AyaChapter1Act4SeijaPhase3True6Aya: あや?
+  AyaChapter1Act4SeijaPhase3True7Cirno: 負けないで。
+  AyaChapter1Act4SeijaPhase3True8Aya: もちろんよ！
+  AyaChapter1Act4SeijaPhase31Seija: まだまだ、あんたを嫌ってる奴はたくさんいるのよ！
+  AyaChapter1Act4SeijaPhase32Megumu: 私は違うわよ。
+  AyaChapter1Act4SeijaPhase33Seija: えっ？
+  AyaChapter1Act4SeijaPhase34Seija: 裏切る気？
+  AyaChapter1Act4SeijaPhase35Megumu: いつ私があなたの味方だって言った？
+  AyaChapter1Act4SeijaPhase36Megumu: 山に勝手に入り込んで、散々荒らしておいて助けを求める？
+  AyaChapter1Act4SeijaPhase37Megumu: もうそろそろ、迷惑客は追い出さなきゃね。
+  AyaChapter1Act4SeijaPhase38Seija: まだ終わってない！私にはまだ強力な仲間が…！
+  AyaChapter1Act4SeijaPhase39Seija: あんた…
+  AyaChapter1Act4SeijaPhase310Seija: あんた、もしかして怪物か…？
+  AyaChapter1Act4SeijaPhase311Seija: ま、待って！待ってってば！
+  AyaChapter1Act4SeijaPhase312Seija: ごめんなさい！枝は返すから！
+  AyaChapter1Act4SeijaPhase3Normal2Megumu: これで終わりかな。
+  AyaChapter1Act4SeijaPhase3Normal3Megumu: 行こう、文。
+  AyaChapter1Act4SeijaPhase3Normal4Megumu: 怒った文って、ほんと怖いわね?
+  AyaChapter1Act4SeijaPhase3True9Megumu: これで終わりかな。
+  AyaChapter1Act4SeijaPhase3True10Megumu: 行こう、文。
+  AyaChapter1Act4SeijaPhase3True11Aya: 待ってる子がいるの。
+  AyaChapter1Act4SeijaPhase3True12Megumu: ほう？
+  AyaChapter1Act4SeijaPhase3True13Aya: 私が|いい知らせ|を届けるって約束した子。
+  AyaChapter1Act4SeijaPhase3True14Megumu: 止められそうにないわね。好きにしなさい。
+  AyaChapter1Act4SeijaPhase3True15Aya: ありがとうございます、飯綱丸様。
+  AyaChapter1Act4SeijaPhase3True16Megumu: '...'
+  AyaChapter1Act4SeijaPhase3True17Megumu: そこにいるの、分かってるわよ？見てるだけでバレないと思った？
+  AyaChapter1Act4SeijaPhase3True18Megumu: 沈黙が答え…ってわけね。じゃあ一つ忠告を。
+  AyaChapter1Act4SeijaPhase3True19Megumu: うちの文には、手を出さないことね。
+  AyaChapter1Act4SeijaPhase3True20Okina: '...'
+  AyaChapter1Act4SeijaPhase3True21AyaTanuki: はぁ…はぁ…
+  AyaChapter1Act4SeijaPhase3True22AyaTanuki: 文さん…早すぎ…
+  AyaChapter1Act4SeijaPhase3True23AyaTanuki: もう犯人を倒しちゃったのかな。
+  AyaChapter1Act4SeijaPhase3True24AyaTanuki: あれは…？
+  AyaChapter1Act4SeijaPhase3True25AyaTanuki: 宝石のついた枝…これが、失われた宝物？
+  AyaChapter1Act4SeijaPhase3True26AyaTanuki: ってことは…
+  AyaChapter1Act4SeijaPhase3True27AyaTanuki: 文さんはどこに行ったの…？

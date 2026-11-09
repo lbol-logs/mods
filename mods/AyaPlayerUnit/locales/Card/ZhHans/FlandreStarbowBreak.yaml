@@ -1,0 +1,10 @@
+﻿FlandreStarbowBreak:
+  Description: >-
+    |每消耗不同颜色的法力值|:对所有敌人造成 {Damage} 点伤害。
+
+    本卡对每张手牌中的攻击牌多造成 {Value1} 点伤害。
+  UpgradedDescription: >-
+    |每消耗不同颜色的法力值|:对所有敌人造成 {Damage} 点伤害。
+
+    本卡对每张手牌中的攻击牌多造成 {Value1} 点伤害。
+  Name: 星虹破碎

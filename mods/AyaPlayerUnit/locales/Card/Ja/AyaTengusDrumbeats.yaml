@@ -1,0 +1,23 @@
+﻿AyaTengusDrumbeats:
+  Description: >-
+    敵全体に{Damage}ダメージを与える。
+
+    |臨時火力|{Value1}を得る。
+
+    |減速{Value1}|：次の{PlayerName}のターン開始時にこの効果を再び発動する。
+  UpgradedDescription: >-
+    敵全体に{Damage}ダメージを与える。
+
+    |臨時火力|{Value1}を得る。
+
+    |減速{Value1}|：次の{PlayerName}のターン開始時にこの効果を再び発動する。
+  PhantasmModeDescription: >-
+    敵全体に{Damage}ダメージを与える。
+
+    |減速{Value1}|：次の{PlayerName}のターン開始時にこの効果を再び発動する。
+  PhantasmModeUpgradedDescription: >-
+    敵全体に{Damage}ダメージを与える。
+
+    |減速{Value1}|：次の{PlayerName}のターン開始時にこの効果を再び発動する。
+  Name: 天狗の太鼓
+  FlavorText: あやや・ざ・ろっく！

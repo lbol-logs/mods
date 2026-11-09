@@ -1,0 +1,5 @@
+﻿AyaTengusDrumbeatsSe:
+  Brief: 次の{PlayerName}のターン開始時、敵全体に|精密|ダメージを与え、|臨時火力|を得る。
+  Description: 次の{PlayerName}のターン開始時、敵全体に{Damage}ダメージを与え、|臨時火力|{Count}を得る。それは|精密|を持つ。
+  PhantasmModeDescription: 次の{PlayerName}のターン開始時、敵全体に{Damage}ダメージを与える。それは|精密|を持つ。
+  Name: 天狗の太鼓

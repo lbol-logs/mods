@@ -1,0 +1,10 @@
+﻿FlandreHighCard:
+  Description: >-
+    |臨時火力|{FlandreValue1}と|臨時霊力|{FlandreValue1}を得る。
+
+    山札から最もコストが高いカードを手札に加える。そのカードは|臨時コスト|{Mana}になる。
+  UpgradedDescription: >-
+    |臨時火力|{FlandreValue1}と|臨時霊力|{FlandreValue1}を得る。
+
+    山札から最もコストが高いカードを手札に加える。そのカードは|臨時コスト|{Mana}になる。
+  Name: ハイカード

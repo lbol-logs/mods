@@ -1,0 +1,5 @@
+﻿AyaHraesvelgrofTerminus:
+  Description: All enemy |Block|, |Barrier|, and buffs are nullified until {PlayerName}'s next turn.
+  UpgradedDescription: All enemy |Block|, |Barrier|, and buffs are nullified until {PlayerName}'s next turn.
+  Name: Hraesvelgr of Terminus
+  DetailText: '{SelfName} cannot be randomly generated in combat, and cannot be copied.'

@@ -1,0 +1,22 @@
+﻿FlandreMadnessSe:
+  Brief: >-
+    {PlayerName} can have up to {MadnessValue4} |Madness|.
+
+    {PlayerName}'s attacks deal |e:{MadnessValue1}|% more damage for each |Madness|.
+
+    {PlayerName} gains |e:{MadnessValue2}|% less |Block| and |Barrier| from cards for each |Madness|.
+
+    Whenever {PlayerName} advances a level, lose {MadnessDecay} |Madness|.
+
+    |r:When {PlayerName} has {MadnessValue4} Madness, {PlayerName} loses the game.|
+  Description: >-
+    {PlayerName} can have up to {MadnessValue4} |Madness|.
+
+    {PlayerName}'s attacks deal |e:{MadnessValue1}|% more damage for each |Madness|. (|e:{MadnessAmount1}|%)
+
+    {PlayerName} gains |e:{MadnessValue2}|% less |Block| and |Barrier| from cards for each |Madness|. (|e:{MadnessAmount2}|%)
+
+    Whenever {PlayerName} advances a level, lose {MadnessDecay} |Madness|.
+
+    |r:When {PlayerName} has {MadnessValue4} Madness, {PlayerName} loses the game.|
+  Name: Madness

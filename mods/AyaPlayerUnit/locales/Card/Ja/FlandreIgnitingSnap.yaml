@@ -1,0 +1,10 @@
+﻿FlandreIgnitingSnap:
+  Description: >-
+    |業火|{FlandreValue1}を与える。
+
+    対象の|業火|を{FlandreValue2}回発動する。
+  UpgradedDescription: >-
+    |業火|{FlandreValue1}を与える。
+
+    対象の|業火|を{FlandreValue2}回発動する。
+  Name: 着火の一撃

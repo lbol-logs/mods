@@ -1,0 +1,4 @@
+﻿AyaPlayerUnitAllySe:
+  Brief: '{OwnerName}は{PlayerName}側として戦う！{OwnerName}は全てのデバフを無効化し、攻撃されない。'
+  Description: '{OwnerName}は{PlayerName}側として戦う！{OwnerName}は全てのデバフを無効化し、攻撃されない。'
+  Name: 真のパートナー

@@ -1,0 +1,14 @@
+﻿FlandreSpellBreak:
+  Description: >-
+    造成 {Value1} 点伤害。
+
+    使目标 {Value2} 回合无法行动。
+
+    目标 {Value3} 回合内免疫 |咒言破碎|。
+  UpgradedDescription: >-
+    造成 {Value1} 点伤害。
+
+    使目标 {Value2} 回合无法行动。
+
+    目标 {Value3} 回合内免疫 |咒言破碎|
+  Name: 咒言破碎

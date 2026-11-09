@@ -1,0 +1,4 @@
+﻿FlandreHellfireSe:
+  Brief: '{OwnerName} 在回合开始时失去生命值。'
+  Description: '{OwnerName} 在回合开始时失去 {Level} 点生命值。'
+  Name: 地狱火

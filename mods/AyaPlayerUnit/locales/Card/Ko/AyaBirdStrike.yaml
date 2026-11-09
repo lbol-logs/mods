@@ -1,0 +1,22 @@
+﻿AyaBirdStrike:
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    {PlayerName}의 |가속|마다 {SelfName}의 피해량이 {Value1} 증가합니다.
+  UpgradedDescription: >-
+    피해를 {Damage} 줍니다.
+
+    {PlayerName}의 |가속|마다 {SelfName}의 피해량이 {Value1} 증가합니다.
+  PhantasmModeDescription: >-
+    피해를 {Damage} 줍니다.
+
+    {PlayerName}의 |가속|마다 {SelfName}의 피해량이 {Value1} 증가합니다.
+
+    {PlayerName}의 |가속|만큼 피해를 받습니다.
+  PhantasmModeUpgradedDescription: >-
+    피해를 {Damage} 줍니다.
+
+    {PlayerName}의 |가속|마다 {SelfName}의 피해량이 {Value1} 증가합니다.
+
+    {PlayerName}의 |가속|만큼 피해를 받습니다.
+  Name: 버드스트라이크

@@ -1,0 +1,12 @@
+﻿AyaTanukiSpriteSe:
+  Brief: >-
+    |精霊|を得る。|精霊|は{OwnerName}を水和させる。
+
+    |d:(このステータスに効果はない)|
+  Description: >-
+    |精霊|{Level}を得る。
+
+    |精霊|は{OwnerName}を水和させる。
+
+    |d:(このステータスに効果はない)|
+  Name: 精霊

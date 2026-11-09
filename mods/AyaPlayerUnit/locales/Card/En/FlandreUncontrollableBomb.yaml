@@ -1,0 +1,4 @@
+﻿FlandreUncontrollableBomb:
+  Description: '|p:Randomly| deal {Value1} damage to {PlayerName} and gain {FlandreValue2} |Firepower|, deal {FlandreDamage} damage to each enemy, or deal {Value1} damage to {PlayerName} and deal {FlandreDamage} damage to each enemy.'
+  UpgradedDescription: '|p:Randomly| deal {Value1} damage to {PlayerName} and gain {FlandreValue2} |Firepower|, deal {FlandreDamage} damage to each enemy, or deal {Value1} damage to {PlayerName} and deal {FlandreDamage} damage to each enemy.'
+  Name: Uncontrollable Bomb

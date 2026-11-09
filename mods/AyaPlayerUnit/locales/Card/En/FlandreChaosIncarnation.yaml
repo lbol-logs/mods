@@ -1,0 +1,20 @@
+﻿FlandreChaosIncarnation:
+  Description: >-
+    Gain {FlandreBlock} |Block|.
+
+    |p:Randomly| add |Crystals| to the hand until it's full.
+
+    Play all |Crystals| in the hand.
+  UpgradedDescription: >-
+    Gain {FlandreBlock} |Block|.
+
+    |p:Randomly| add |Crystals| to the hand until it's full.
+
+    Play all |Crystals| in the hand.
+  ExtraDescription1: >-
+    Gain {FlandreBlock} |Block|.
+
+    |p:Randomly| add |Crystals+{Value3}| to the hand until it's full.
+
+    Play all |Crystals| in the hand.
+  Name: Chaos Incarnation

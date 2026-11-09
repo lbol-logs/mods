@@ -1,0 +1,20 @@
+﻿AyaRouteForbiddentoMan:
+  Description: At the end of {PlayerName}'s turn, deal {Damage} damage and apply {Value1} |Lock On| to a random enemy for each card |Exiled| that turn, up to {Value2} times.
+  UpgradedDescription: >-
+    At the end of {PlayerName}'s turn, deal {Damage} damage and apply {Value1} |Lock On| to a random enemy for each card |Exiled| that turn, up to {Value2} times.
+
+    |Overflow|: Gain {Mana}.
+  UpgradedExtraDescription1: >-
+    At the end of {PlayerName}'s turn, deal {Damage} damage and apply {Value1} |Lock On| to a random enemy for each card |Exiled| that turn, up to {Value2} times.
+
+    |d:Overflow: Gain {Mana}.|
+  PhantasmModeDescription: At the end of {PlayerName}'s turn, deal {Damage} damage to a random enemy for each card |Exiled| that turn, up to {Value2} times.
+  PhantasmModeUpgradedDescription: >-
+    At the end of {PlayerName}'s turn, deal {Damage} damage to a random enemy for each card |Exiled| that turn, up to {Value2} times.
+
+    |Overflow|: Gain {Mana}.
+  PhantasmModeUpgradedExtraDescription1: >-
+    At the end of {PlayerName}'s turn, deal {Damage} damage to a random enemy for each card |Exiled| that turn, up to {Value2} times.
+
+    |d:Overflow: Gain {Mana}.|
+  Name: Route Forbidden to Man

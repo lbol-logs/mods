@@ -1,0 +1,16 @@
+﻿FlandreDestroyerinthePalmofOnesHand:
+  Description: >-
+    {FlandreDamage}ダメージを与える。
+
+    {PlayerName}が持つ|災禍|1つにつき、{SelfName}のダメージが{FlandreValue1}増加する。
+
+    対象がネームドではない場合、|破壊|する。
+  UpgradedDescription: >-
+    {FlandreDamage}ダメージを与える。
+
+    {PlayerName}が持つ|災禍|1つにつき、{SelfName}のダメージが{FlandreValue1}増加する。
+
+    対象がネームドではない場合、|破壊|する。
+  Name: 手のひらの破壊者
+  DestroyerinthePalmofOnesHand1Flandre: ぎゅっとして……
+  DestroyerinthePalmofOnesHand2Flandre: どかーん。

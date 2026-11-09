@@ -1,0 +1,11 @@
+﻿AyaToolCrowsEgg:
+  LockedDescription: 射命丸文を使用してノーマル以上の難易度で異変を解決すると解放される。
+  Description: >-
+    ライフを{Value1}回復する。
+
+    |臨時火力|{Value1}を得る。
+
+    {PlayerName}のターン開始時、このカードの効果の値を1減らして発動する。
+
+    |消耗品【{DeckCounter}】|
+  Name: カラスの卵

@@ -1,0 +1,4 @@
+﻿FlandreChromaticWingsSe:
+  Brief: '{PlayerName}のターン開始時、<sprite="ManaSprite" name="P">を得る。'
+  Description: '{PlayerName}ののターン開始時、<sprite="ManaSprite" name="P">{Level}を得る'
+  Name: 虹色の羽

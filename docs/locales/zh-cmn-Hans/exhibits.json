@@ -1,4 +1,49 @@
 {
+  "Aya1up": {
+    "Name": "1up",
+    "Description": "下一次 <PlayerName /> 即将被击败时，恢复至最大生命值并移除所有减益。此效果仅生效一次。"
+  },
+  "AyaG": {
+    "Name": "文的相机",
+    "Description": "提供基础法力<BaseMana />。<h>文</h> 的专属卡牌将被添加到卡池中。<br />每回合首次 <h>放逐</h> <h>厄运</h> 或状态卡牌时，获得 <Mana />。<br /><h>文文新闻</h> 造成 <Value1 /> 点伤害，施加 <Value2 /> <h>锁定</h> 并具有 <h>填充</h>。<br /><h>文文新闻</h> 具有 <h>填充</h>。"
+  },
+  "AyaKhakkhara": {
+    "Name": "锡杖",
+    "Description": "战斗开始时，获得 <Value1 /> 回合 <h>完美闪避</h>。"
+  },
+  "AyaNewsboyCap": {
+    "Name": "文的报童帽",
+    "Description": "每回合首次 <h>放逐</h> <h>厄运</h> 或状态卡牌时，获得 <Value1 /> <h>护盾</h>。"
+  },
+  "AyaNewspaperBag": {
+    "Name": "报纸袋",
+    "Description": "战斗开始时，将 {Value1:plural one='% <h>文文新闻</h>' other='% <h>文文新闻</h>'} 添加到抽牌堆。{Value1:plural one='它 <h>消耗</h>' other='它们 <h>消耗</h>'} <Mana />。"
+  },
+  "AyaR": {
+    "Name": "天狗团扇",
+    "Description": "提供基础法力<BaseMana />。<h>文</h> 的专属卡牌将被添加到卡池中。<br />战斗开始时，获得 <Value1 /> <h>加速</h>。<br /><h>文文新闻</h> 造成 <Value2 /> 点伤害，施加 <Value3 /> <h>锁定</h> 并具有 <h>填充</h>。<br /><h>文文新闻</h> 具有 <h>填充</h>。"
+  },
+  "AyaTanukisLeaf": {
+    "Name": "小狸猫的叶子",
+    "Description": "增加找到稀有卡牌的几率。"
+  },
+  "FlandreB": {
+    "Name": "方片A",
+    "Description": "提供基础法力<BaseMana />。<h>芙兰</h> 的专属卡牌将被添加到卡池中。<br />每场战斗的 <PlayerName /> 的第一个回合开始时，将 <Value1 /> 张<h>幻虹</h>加入手牌。"
+  },
+  "FlandreDevilPlushie": {
+    "Name": "恶魔玩偶",
+    "Description": "在 <PlayerName /> 的回合开始时, 获得 <Mana />.。"
+  },
+  "FlandreFlan": {
+    "Name": "布丁",
+    "Description": "战斗开始时，获得 <Value1 /> 点 <h>火力</h> 和 <Value2 /> 点生命值。"
+  },
+  "FlandreR": {
+    "Name": "烧焦的相片",
+    "Description": "提供基础法力<BaseMana />。<h>芙兰</h> 的专属卡牌将被添加到卡池中。<br />每当一个带有 <h>地狱火</h> 的敌人被击败时，将一半的 <h>地狱火</h> 施加给一个随机敌人。"
+  },
+
   "exexa": {
     "Name": "唯暗独尊",
     "Description": "提供基础法力<BaseMana />，<h>EX露米娅</h>的专属卡牌会加入牌池。<br />在第一回合的开始时,对所有敌人施加 <Value1 /> 层<h>血迹</h>。<br /><PlayerName />的攻击伤害提升已损生命值的 <Value2 />% （向上取整）。"

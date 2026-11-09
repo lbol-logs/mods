@@ -1,0 +1,5 @@
+﻿AyaHraesvelgrofTerminus:
+  Description: 所有敌人的|护盾|、|护盾| 和增益效果在{PlayerName}的下个回合前无效。
+  UpgradedDescription: 所有敌人的|护盾|、|护盾| 和增益效果在{PlayerName}的下个回合前无效。
+  Name: 终点的赫拉斯瓦尔格
+  DetailText: '{SelfName} 无法在战斗中随机生成，也无法被复制。'

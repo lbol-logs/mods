@@ -1,0 +1,10 @@
+﻿FlandreKagomeKagome:
+  Description: >-
+    获得 {Shield} 点|护盾|。
+
+    接下来 {Value1} 张攻击牌造成额外等于{PlayerName}|护盾|的伤害。
+  UpgradedDescription: >-
+    获得 {Shield} 点|护盾|。
+
+    接下来 {Value1} 张攻击牌造成额外等于{PlayerName}|护盾|的伤害。
+  Name: 笼中鸟

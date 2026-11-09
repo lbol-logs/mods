@@ -1,0 +1,18 @@
+﻿FlandreSoulMelter:
+  Description: >-
+    피해를 {Damage}씩 {Value1}번 줍니다.
+
+    |지옥불| {Value2}와 |몰락| {Value3}를 줍니다.
+
+    대상의 |지옥불|을 발동시킵니다.
+
+    |퇴치|: 최대 체력을 {Value1} 얻습니다.
+  UpgradedDescription: >-
+    피해를 {Damage}씩 {Value1}번 줍니다.
+
+    |지옥불| {Value2}와 |몰락| {Value3}를 줍니다.
+
+    대상의 |지옥불|을 발동시킵니다.
+
+    |퇴치|: 최대 체력을 {Value1} 얻습니다.
+  Name: 소울 멜터

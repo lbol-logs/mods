@@ -1,0 +1,10 @@
+﻿AyaLittleSalvation:
+  Description: >-
+    Gain {Block} |Block|.
+
+    Gain {Value1} |Acceleration| and |Temporary Firepower|.
+  UpgradedDescription: >-
+    Gain {Block} |Block|.
+
+    Gain {Value1} |Acceleration| and |Temporary Firepower|.
+  Name: Little Salvation

@@ -1,0 +1,12 @@
+﻿AyaCrossroadsofHeaven:
+  Description: >-
+    |加速|{Value1}を得る。
+
+    {PlayerName}が|加速|を得るたび、追加で|加速|{Value2}を得る。
+  UpgradedDescription: >-
+    |加速|{Value1}を得る。
+
+    {PlayerName}が|加速|を得るたび、追加で|加速|{Value2}を得る。
+  PhantasmModeDescription: '{PlayerName}が|加速|を得るたび、追加で|加速|{Value2}を得る。'
+  PhantasmModeUpgradedDescription: '{PlayerName}が|加速|を得るたび、追加で|加速|{Value2}を得る。'
+  Name: 天の八衢

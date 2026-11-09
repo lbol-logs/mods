@@ -1,0 +1,4 @@
+﻿AyaTengusFallWind:
+  Description: The next {Value1:plural one='% card is' other='% cards are'} played twice.
+  UpgradedDescription: The next {Value1:plural one='% card is' other='% cards are'} played twice.
+  Name: Tengu's Fall Wind

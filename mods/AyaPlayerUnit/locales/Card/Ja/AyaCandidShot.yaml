@@ -1,0 +1,14 @@
+﻿AyaCandidShot:
+  Description: >-
+    {Damage}ダメージを{Times}回与える。
+
+    |ロックオン|{Value1}を与える。
+
+    |手札効果|：|厄災|または状態異常カードが|廃棄|されるたび、{SelfName}の|臨時コスト|を{Mana}減らす。
+  UpgradedDescription: >-
+    {Damage}ダメージを{Times}回与える。
+
+    |ロックオン|{Value1}を与える。
+
+    |手札効果|：|厄災|または状態異常カードが|廃棄|されるたび、{SelfName}の|臨時コスト|を{Mana}減らす。
+  Name: キャンディッドショット

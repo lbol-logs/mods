@@ -1,0 +1,4 @@
+﻿AyaDaymareintheDarkNightSe:
+  Brief: '{PlayerName}の次のターンまで、{PlayerName}が|加速|を得るたびに、残り体力が最も少ない敵に|精密|攻撃ダメージを与える。'
+  Description: '{PlayerName}の次のターンまで、{PlayerName}が|加速|を得るたびに、残り体力が最も少ない敵に|精密|攻撃{Damage}ダメージを与える。'
+  Name: 暗夜のデイメア

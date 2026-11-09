@@ -1,0 +1,10 @@
+﻿FlandreWhitefire:
+  Description: >-
+    {FlandreDamage}ダメージを{FlandreValue1}回与える。
+
+    戦闘終了まで、手札のカードをすべて{FlandreValue2}回|アップグレード|する。
+  UpgradedDescription: >-
+    {FlandreDamage}ダメージを{FlandreValue1}回与える。
+
+    戦闘終了まで、手札のカードをすべて{FlandreValue2}回|アップグレード|する。
+  Name: 白炎

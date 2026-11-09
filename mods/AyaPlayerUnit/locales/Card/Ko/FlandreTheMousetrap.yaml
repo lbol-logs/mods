@@ -1,0 +1,14 @@
+﻿FlandreTheMousetrap:
+  Description: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    |파멸|을 {Value1} 얻습니다.
+
+    {PlayerName}의 다음 턴 시작 시, 지난 턴에 받은 피해량만큼 모든 적에게 피해를 줍니다.
+  UpgradedDescription: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    |파멸|을 {Value1} 얻습니다.
+
+    {PlayerName}의 다음 턴 시작 시, 지난 턴에 받은 피해량만큼 모든 적에게 피해를 줍니다.
+  Name: 쥐덫

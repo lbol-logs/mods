@@ -1,0 +1,7 @@
+﻿FlandreDoomsdayClock:
+  Description: "{PlayerName} gains {FlandreValue1:plural one='% time' other='% times'} more |Calamity|."
+  UpgradedDescription: >-
+    {PlayerName} gains {FlandreValue1:plural one='% time' other='% times'} more |Calamity|.
+
+    Gain {Value3} |Calamity|.
+  Name: Doomsday Clock

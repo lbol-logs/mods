@@ -1,0 +1,10 @@
+﻿FlandreWhitefire:
+  Description: >-
+    Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.
+
+    |Upgrade| all cards in the hand {FlandreValue2:plural one='% time' other='% times'} until the end of combat.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.
+
+    |Upgrade| all cards in the hand {FlandreValue2:plural one='% time' other='% times'} until the end of combat.
+  Name: Whitefire

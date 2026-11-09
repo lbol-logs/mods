@@ -1,0 +1,4 @@
+﻿FlandreMPRiggedGameSe:
+  Brief: 次に捨て札に送られるレアカード何枚かを、山札の一番上に置く
+  Description: 次に捨て札に送られるレアカード{Level}枚を、山札の一番上に置く
+  Name: 仕組まれたゲーム

@@ -1,0 +1,4 @@
+﻿FlandreMPEnfantTerribleSe:
+  Brief: "{OwnerName}'s attacks deal less damage for a certain number of turns."
+  Description: "{OwnerName}'s attacks deal {Limit}% less damage {Duration:plural one='until end of turn' other='for the next % turns'}."
+  Name: Enfant Terrible

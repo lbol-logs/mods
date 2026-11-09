@@ -1,0 +1,7 @@
+﻿FlandreFragmentsofLight:
+  Description: '{PlayerName}のターン開始時、|ランダム|な|光の欠片|{FlandreValue1}枚を手札に加える。'
+  UpgradedDescription: >-
+    {PlayerName}のターン開始時、|ランダム|な|光の欠片|{FlandreValue1}枚を手札に加える。
+
+    {SelfName}を1回発動する。
+  Name: 光の欠片

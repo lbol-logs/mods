@@ -1,0 +1,20 @@
+﻿AyaSettlementDate:
+  Description: >-
+    Gain {Value1} |Firepower|.
+
+    Gain {Value2} <sprite="Point" name="Gold">.
+
+    Whenever a |Misfortune| or Status card is |Exiled|, |Permanently| increase {SelfName}'s <sprite="Point" name="Gold"> by {Value1}.
+
+    |Limited【{ToolPlayableTimes}】|
+  UpgradedDescription: >-
+    Gain {Value1} |Firepower|.
+
+    Gain {Value2} <sprite="Point" name="Gold">.
+
+    Whenever a |Misfortune| or Status card is |Exiled|, |Permanently| increase {SelfName}'s <sprite="Point" name="Gold"> by {Value1}.
+
+    |Limited【{ToolPlayableTimes}】|
+  Name: Settlement Date
+  DetailText: '{SelfName} cannot be randomly generated in combat, and cannot be copied.'
+  FlavorText: It's payday fellas!

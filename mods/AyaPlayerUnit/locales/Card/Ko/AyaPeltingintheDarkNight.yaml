@@ -1,0 +1,18 @@
+﻿AyaPeltingintheDarkNight:
+  Description: >-
+    |{SelfName}이 패로 들어올시|: 가장 체력이 적은 적에게 피해를 {Damage} 주고 카드를 한장 뽑고 {SelfName}를 버립니다.
+
+    이 효과는 턴마다 {Value1}번 까지 발동합니다.
+  UpgradedDescription: >-
+    |{SelfName}이 패로 들어올시|: 가장 체력이 적은 적에게 피해를 {Damage} 주고 카드를 한장 뽑고 {SelfName}를 버립니다.
+
+    이 효과는 턴마다 {Value1}번 까지 발동합니다.
+  ExtraDescription1: >-
+    |d:{SelfName}이 패로 들어올시: 가장 체력이 적은 적에게 피해를 {Damage} 주고 카드를 한장 뽑고 {SelfName}를 버립니다.
+
+    이 효과는 턴마다 {Value1}번 까지 발동합니다.|
+  UpgradedExtraDescription1: >-
+    |d:{SelfName}이 패로 들어올시: 가장 체력이 적은 적에게 피해를 {Damage} 주고 카드를 한장 뽑고 {SelfName}를 버립니다.
+
+    이 효과는 턴마다 {Value1}번 까지 발동합니다.|
+  Name: 한밤중의 투척

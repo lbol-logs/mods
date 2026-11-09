@@ -1,0 +1,10 @@
+﻿FlandreToolTheCureforMadness:
+  LockedDescription: Unlocked by resolve the incident on Hard Mode or higher with Flandre Scarlet.
+  Description: >-
+    Remove all debuffs from {PlayerName}.
+
+    Lose {Value1} |Madness|.
+
+    |Limited【{DeckCounter}】|
+  Name: The Cure for Madness
+  DetailText: '{SelfName} cannot be randomly generated in combat, and cannot be copied.'

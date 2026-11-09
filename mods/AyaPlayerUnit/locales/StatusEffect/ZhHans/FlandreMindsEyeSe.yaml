@@ -1,0 +1,4 @@
+﻿FlandreMindsEyeSe:
+  Brief: 下一次 {PlayerName} 造成或受到攻击伤害时，双倍伤害或防止伤害。
+  Description: 接下来的 {Level:plural one='% 次' other='% 次'} {PlayerName} 造成或受到攻击伤害时，双倍伤害或防止伤害。
+  Name: 心眼

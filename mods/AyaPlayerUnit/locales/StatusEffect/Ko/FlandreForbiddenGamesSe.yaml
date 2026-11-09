@@ -1,0 +1,4 @@
+﻿FlandreForbiddenGamesSe:
+  Brief: 적들은 일정 라운드 동안 행동할 수 없습니다.
+  Description: 적들은 {Duration:plural one='이번 라운드가 끝날 때까지' other='다음 {Duration}라운드 동안'} 행동할 수 없습니다.
+  Name: 금지된 장난

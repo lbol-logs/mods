@@ -1,0 +1,14 @@
+﻿FlandreTheMousetrap:
+  Description: >-
+    获得 {Shield} 点|护盾|。
+
+    获得 {Value1} 点|崩坏|。
+
+    于{PlayerName}下一回合开始时，对所有敌人造成等于上回合所受伤害的伤害。
+  UpgradedDescription: >-
+    获得 {Shield} 点|护盾|。
+
+    获得 {Value1} 点|崩坏|。
+
+    于{PlayerName}下一回合开始时，对所有敌人造成等于上回合所受伤害的伤害。
+  Name: 老鼠夹

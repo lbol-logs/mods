@@ -1,0 +1,10 @@
+﻿FlandreViolentSpread:
+  Description: >-
+    |p:ランダム|な敵1体に{FlandreDamage}ダメージを{FlandreValue1}回与える。
+
+    |災禍|{FlandreValue2}を得る。
+  UpgradedDescription: >-
+    |p:ランダム|な敵1体に{FlandreDamage}ダメージを{FlandreValue1}回与える。
+
+    |災禍|{FlandreValue2}を得る。
+  Name: 暴力の拡散

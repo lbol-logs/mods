@@ -1,0 +1,4 @@
+﻿AyaSickleWeaselVeiling:
+  Description: '{PlayerName}가 공격으로 0의 피해를 받을 때 마다, 공격자에게 피해를 {Value1} 줍니다.'
+  UpgradedDescription: '{PlayerName}가 공격으로 0의 피해를 받을 때 마다, 공격자에게 피해를 {Value1} 줍니다.'
+  Name: 카마이타치 베일링

@@ -1,0 +1,6 @@
+AyaBossFlandreSpellCardsIntention:
+  Name: 스펠 카드
+  Description: "{OwnerName}는 |스펠 카드|가 {Counter}개 있습니다."
+AyaBossKoishiUnconsciousActionIntention:
+  Name: 무의식적인 행동
+  Description: "{Limit}장의 카드를 사용한 후, 즉시 추가 행동을 합니다. 이때 {PlayerName}의 턴은 종료되지 않습니다.\n|d:(카드 {Counter}장 남음.)|"

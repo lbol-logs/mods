@@ -1,0 +1,4 @@
+﻿AyaAnythingisNewsworthy:
+  Description: 상태카드가 추가될때, 이름에 "붕붕마루"나 "신문"이 없다면, 대신 |붕붕마루 신문|을 추가합니다.
+  UpgradedDescription: 상태카드가 추가될때, 이름에 "붕붕마루"나  "신문"이 없다면, 대신 |붕붕마루 신문|을 추가합니다.
+  Name: 무엇이든 보도할수있지

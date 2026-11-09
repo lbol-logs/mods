@@ -1,0 +1,14 @@
+﻿FlandreBrokenGlass:
+  Description: >-
+    放逐最多 {Value1} 张牌。
+
+    造成 {Damage} 点伤害。
+
+    每以此法|放逐|一张牌，便额外造成一次伤害。
+  UpgradedDescription: >-
+    放逐最多 {Value1} 张牌。
+
+    造成 {Damage} 点伤害。
+
+    每以此法|放逐|一张牌，便额外造成一次伤害。
+  Name: 破镜无圆

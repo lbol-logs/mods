@@ -1,0 +1,14 @@
+﻿FlandreMPRiggedGame:
+  Description: >-
+    All players gain {FlandreValue1} |Temporary Firepower| and |Temporary Spirit|.
+
+    All players put the next {FlandreValue2} rare card{FlandreValue2:plural one='' other='s'} sent to the discard pile on top of the draw pile.
+
+    |Scaled| {Mana}.
+  UpgradedDescription: >-
+    All players gain {FlandreValue1} |Temporary Firepower| and |Temporary Spirit|.
+
+    All players put the next {FlandreValue2} rare card{FlandreValue2:plural one='' other='s'} sent to the discard pile on top of the draw pile.
+
+    |Scaled| {Mana}.
+  Name: Rigged Game

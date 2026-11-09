@@ -1,0 +1,27 @@
+﻿FlandreRipplesof495Years:
+  Description: >-
+    {PlayerName}가 모든 부정적 효과에 면역이 됩니다.
+
+    이 전투 동안 {PlayerName}가 얻는 모든 마나가 <sprite="ManaSprite" name="P">가 됩니다.
+
+    카드를 사용할 시, 그 카드의 비용만큼 마나를 얻습니다.
+
+    모든 카드가 두 번 사용됩니다.
+
+    |사용 제한【{ToolPlayableTimes}】|
+  UpgradedDescription: >-
+    {PlayerName}가 모든 부정적 효과에 면역이 됩니다.
+
+    이 전투 동안 {PlayerName}가 얻는 모든 마나가 <sprite="ManaSprite" name="P">가 됩니다.
+
+    카드를 사용할 시, 그 카드의 비용만큼 마나를 얻습니다.
+
+    모든 카드가 두 번 사용됩니다.
+
+    |사용 제한【{ToolPlayableTimes}】|
+  PhantasmModeDescription: 이 카드는 판타즘 모드에선 금지되었습니다.
+  PhantasmModeUpgradedDescription: 이 카드는 판타즘 모드에선 금지되었습니다.
+  Name: 495년의 파문
+  DetailText: '{SelfName}은 전투중 무작위로 생성되지 않고, 복사되지 않습니다'
+  Ripplesof495Years1Flandre: 난 아무거나 파괴하고 싶을 뿐이야.
+  Ripplesof495Years2Flandre: 너라던가!

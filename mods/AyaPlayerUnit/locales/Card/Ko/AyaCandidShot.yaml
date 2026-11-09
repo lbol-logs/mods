@@ -1,0 +1,14 @@
+﻿AyaCandidShot:
+  Description: >-
+    피해를 {Damage}씩 {Times}번 줍니다.
+
+    |록 온|을 {Value1} 줍니다.
+
+    |손에 있을 때|: |액운| 또는 상태 카드가 |소멸|될 때마다 {SelfName}의 비용이 |일시적으로| {Mana} 감소합니다.
+  UpgradedDescription: >-
+    피해를 {Damage}씩 {Times}번 줍니다.
+
+    |록 온|을 {Value1} 줍니다.
+
+    |손에 있을 때|: |액운| 또는 상태 카드가 |소멸|될 때마다 {SelfName}의 비용이 |일시적으로| {Mana} 감소합니다.
+  Name: 캔디드 샷

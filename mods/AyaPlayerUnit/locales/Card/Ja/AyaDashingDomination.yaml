@@ -1,0 +1,10 @@
+﻿AyaDashingDomination:
+  Description: >-
+    |加速|{Value1}を得る。
+
+    カードを{Value2}枚引く。
+  UpgradedDescription: >-
+    |加速|{Value1}を得る。
+
+    カードを{Value2}枚引く。
+  Name: 疾走風靡

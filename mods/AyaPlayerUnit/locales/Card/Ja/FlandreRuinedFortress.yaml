@@ -1,0 +1,14 @@
+﻿FlandreRuinedFortress:
+  Description: >-
+    |破滅|状態の敵が与える攻撃ダメージは{Value1}%減少する。
+
+    この効果は重複しない。
+
+    敵全体に|破滅|{FlandreValue2}を与える。
+  UpgradedDescription: >-
+    |破滅|状態の敵が与える攻撃ダメージは{Value1}%減少する。
+
+    この効果は重複しない。
+
+    敵全体に|破滅|{FlandreValue2}を与える。
+  Name: 廃墟の要塞

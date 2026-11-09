@@ -1,0 +1,10 @@
+﻿FlandreOnePair:
+  Description: >-
+    Choose a non-|Misfortune|, non-Status card in the hand.
+
+    Choose up to {FlandreValue1} of {FlandreValue2} |p:random| card{FlandreValue2:plural one='' other='s'} of the same type to add to the hand. {FlandreValue1:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana} and {FlandreValue1:plural one='has' other='have'} |Exile| and |Ethereal|.
+  UpgradedDescription: >-
+    Choose a non-|Misfortune|, non-Status card in the hand.
+
+    Choose up to {FlandreValue1} of {FlandreValue2} |p:random| card{FlandreValue2:plural one='' other='s'} of the same type to add to the hand. {FlandreValue1:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana} and {FlandreValue1:plural one='has' other='have'} |Exile| and |Ethereal|.
+  Name: One Pair

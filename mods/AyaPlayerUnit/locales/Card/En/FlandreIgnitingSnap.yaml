@@ -1,0 +1,10 @@
+﻿FlandreIgnitingSnap:
+  Description: >-
+    Apply {FlandreValue1} |Hellfire|.
+
+    Trigger |Hellfire| of the target {FlandreValue2:plural one='% time' other='% times'}.
+  UpgradedDescription: >-
+    Apply {FlandreValue1} |Hellfire|.
+
+    Trigger |Hellfire| of the target {FlandreValue2:plural one='% time' other='% times'}.
+  Name: Igniting Snap

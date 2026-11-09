@@ -1,0 +1,26 @@
+﻿AyaFriendAyaSe:
+  Brief: >-
+    {PlayerName} 无法获得 |护盾| 或 |护盾|。
+
+    {PlayerName} 免疫所有伤害和减益。
+
+    未使用的法力不会在每回合结束时丢失。
+
+    最大手牌数变为 {MaxHand}。
+
+    每当 {PlayerName} 使用一张牌时，将抽牌堆顶的一张牌加入手牌，获得 {Mana} 和 {Value} |加速|。
+
+    |加速| 增加攻击造成的伤害。
+  Description: >-
+    {PlayerName} 无法获得 |护盾| 或 |护盾|。
+
+    {PlayerName} 免疫所有伤害和减益。
+
+    未使用的法力不会在每回合结束时丢失。
+
+    最大手牌数变为 {MaxHand}。
+
+    每当 {PlayerName} 使用一张牌时，将抽牌堆顶的一张牌加入手牌，获得 {Mana} 和 {Value} |加速|。
+
+    |加速| 增加攻击造成的伤害。
+  Name: 照天辉地

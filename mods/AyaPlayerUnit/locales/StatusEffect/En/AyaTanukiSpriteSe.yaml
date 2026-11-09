@@ -1,0 +1,12 @@
+﻿AyaTanukiSpriteSe:
+  Brief: >-
+    |Sprite| increased. |Sprite| hydrates {OwnerName}.
+
+    |d:(This effect does nothing.)|
+  Description: >-
+    Gain {Level} |Sprite|.
+
+    |Sprite| hydrates {OwnerName}.
+
+    |d:(This effect does nothing.)|
+  Name: Sprite

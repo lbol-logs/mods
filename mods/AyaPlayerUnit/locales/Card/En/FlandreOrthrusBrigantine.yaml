@@ -1,0 +1,18 @@
+﻿FlandreOrthrusBrigantine:
+  Description: >-
+    Deal {FlandreDamage} damage.
+
+    Apply {FlandreValue1} |Ruin|.
+
+    Gain {FlandreValue2} life.
+
+    Repeat these effects on another |p:random| enemy.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage.
+
+    Apply {FlandreValue1} |Ruin|.
+
+    Gain {FlandreValue2} life.
+
+    Repeat these effects on another |p:random| enemy.
+  Name: Orthrus Brigantine

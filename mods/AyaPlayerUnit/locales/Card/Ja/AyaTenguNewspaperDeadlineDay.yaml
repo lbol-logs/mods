@@ -1,0 +1,14 @@
+﻿AyaTenguNewspaperDeadlineDay:
+  Description: >-
+    手札の上限が{MaxHand}枚になる。
+
+    全ての|厄災|と状態異常カードは|補充|を持つ。
+
+    |所持時|：|永き夜|を無効化する。
+  UpgradedDescription: >-
+    手札の上限が{MaxHand}枚になる。
+
+    全ての|厄災|と状態異常カードは|補充|を持つ。
+
+    |所持時|：|永き夜|を無効化する。
+  Name: 天狗報即日限

@@ -1,0 +1,108 @@
+AyaBossFlandreUltThreeofaKind:
+  Title: Taboo
+  Content: Three of a Kind
+AyaBossFlandreUlt1:
+  Title: Taboo
+  Content: Cranberry Trap
+AyaBossFlandreUlt2:
+  Title: Taboo
+  Content: Laevatein
+AyaBossFlandreUlt3:
+  Title: Taboo
+  Content: Four of a Kind
+AyaBossFlandreUlt4:
+  Title: Taboo
+  Content: Kagome, Kagome
+AyaBossFlandreUlt5:
+  Title: Taboo
+  Content: Maze of Love
+AyaBossFlandreUlt6:
+  Title: Forbidden Barrage
+  Content: Starbow Break
+AyaBossFlandreUlt7:
+  Title: Forbidden Barrage
+  Content: Catadioptric
+AyaBossFlandreUlt8:
+  Title: Forbidden Barrage
+  Content: Clock that Ticks Away the Past
+AyaBossFlandreUlt9:
+  Title: Secret Barrage
+  Content: And Then Will There Be None?
+AyaBossFlandreUlt10:
+  Title: Q.E.D.
+  Content: Ripples of 495 Years
+AyaBossYukariUlt1:
+  Title: 
+  Content: Border of Phantasm
+AyaBossYukariUlt2:
+  Title: Shikigami
+  Content: Ran Yakumo
+AyaBossYukariUlt3:
+  Title: Yukari's Arcanum
+  Content: Danmaku Barrier
+AyaBossYukariUlt4:
+  Title: 
+  Content: Profound Danmaku Barrier -Phantasm, Foam and Shadow-
+AyaBossYukariUlt5:
+  Title: 
+  Content: Impossible Danmaku Barrier
+AyaBossZUNUlt:
+  Title: Drunk Sign
+  Content: Your Free Trial of Existence has Expired
+AyaChameleonHyperSpeedScratch:
+  Title: Claw Sign
+  Content: Hyper Speed Scratch
+AyaPatchouliUlt:
+  Title: Fire Water Wood Metal Earth Sign
+  Content: Philosopher's Stone
+AyaTakaneUlt:
+  Title: Bullet Money
+  Content: Ability Cards Galore
+AyaUltR:
+  Title: Whirl Sign
+  Content: Autumn Leaf Fan's Wind
+  Description: "Gain {Value1} |Acceleration|.\nDeal {Damage} damage and apply |Temporary Firepower Down| equal to {PlayerName}'s |Acceleration| to each enemy. |Accurate|"
+AyaUltG:
+  Title: Thrust Sign
+  Content: Tengu's Macroburst
+  Description: "Deal {Damage} damage. |Accurate|\nDraw {Value1:plural one='% card' other='% cards'}. Then, play each |Misfortune| and Status card in the hand."
+AyaUltAdvent:
+  Title: Blockade Sign
+  Content: Advent of the Divine Grandson
+AyaUltIllusionary:
+  Title: 
+  Content: Illusionary Dominance
+AyaUltPeerless:
+  Title: 
+  Content: Peerless Wind God
+AyaUltTerukuni:
+  Title: Blockade Sign
+  Content: Terukuni Shining Through Heaven and Earth
+FlandreUltB:
+  Title: Taboo
+  Content: Maze of Hate
+  Description: "Gain {FlandreShield} |Barrier|.\nDeal {FlandreDamage} damage and apply {FlandreValue1} |Vulnerable| to each enemy. |Accurate|\nPlay {FlandreValue2} random |Crystal{Value2:plural one='' other='s'}| to each enemy."
+FlandreUltR:
+  Title: Taboo
+  Content: Laevatein -Conflagration-
+  Description: "Apply {FlandreValue1} |Hellfire| to each enemy.\nThis effect is affected by |Firepower| {FlandreValue2:plural one='% time' other='% times'}.\nTrigger |Brimstone| of each enemy {Value3:plural one='% time' other='% times'}."
+FlandreUltArmageddon:
+  Title: 
+  Content: Armageddon
+FlandreUltCasino:
+  Title: 
+  Content: Scarlet Casino
+FlandreUltForbidden:
+  Title: 
+  Content: Forbidden Scarlet Curiosity
+FlandreUltRipples:
+  Title: Q.E.D.
+  Content: Ripples of 495 Years
+OkinaUltU:
+  Title: 
+  Content: 
+  Description: ""
+OkinaUltG:
+  Title: 
+  Content: 
+  Description: ""

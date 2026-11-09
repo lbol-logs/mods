@@ -1,0 +1,19 @@
+﻿FlandreScarletNihility:
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    대상의 체력이 {Value1}% 이하라면, |파괴|합니다. ({Threshold})
+  UpgradedDescription: >-
+    피해를 {Damage} 줍니다.
+
+    대상의 체력이 {Value1}% 이하라면, |파괴|합니다. ({Threshold})
+  NonbattleDescription: >-
+    피해를 {Damage} 줍니다.
+
+    대상의 체력이 {Value1}% 이하라면, |파괴|합니다.
+  UpgradedNonbattleDescription: >-
+    피해를 {Damage} 줍니다.
+
+    대상의 체력이 {Value1}% 이하라면, |파괴|합니다.
+  Name: 스칼렛 니힐리티
+  DetailText: '{SelfName}은 전투중 무작위로 생성되지 않고, 복사되지 않습니다'

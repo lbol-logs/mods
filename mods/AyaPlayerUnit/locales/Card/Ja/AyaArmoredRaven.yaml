@@ -1,0 +1,10 @@
+﻿AyaArmoredRaven:
+  Description: >-
+    {PlayerName}のターン中、最初に使用した攻撃カードは2回発動する。
+
+    {PlayerName}のターン中、最初に使用した状態カードは2回発動する。
+  UpgradedDescription: >-
+    {PlayerName}のターン中、最初に使用した攻撃カードは2回発動する。
+
+    {PlayerName}のターン中、最初に使用した状態カードは2回発動する。
+  Name: アーマードレイヴン

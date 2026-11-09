@@ -1,0 +1,14 @@
+﻿FlandreCrystallizedDevilry:
+  Description: >-
+    {FlandreDamage}ダメージを与える。
+
+    |p:ランダム|でライフ{FlandreValue1}または<sprite="Point" name="Gold">{FlandreValue2}を得る。
+  UpgradedDescription: >-
+    {FlandreDamage}ダメージを与える。
+
+    |p:ランダム|でライフ{FlandreValue1}または<sprite="Point" name="Gold">{FlandreValue2}を得る。
+  Name: 悪魔のクリスタル
+  FlavorText: >-
+    "知らない悪魔より、知ってる悪魔のほうがマシってね！"
+
+    - フランドール・スカーレット

@@ -1,0 +1,18 @@
+﻿FlandreForbiddenFruit:
+  Description: >-
+    获得 {Shield} 点|护盾|。
+
+    恢复 {Value1} 点生命。
+
+    获得 {Value1} 点 <sprite="Point" name="Gold">。
+
+    获得 {Value1} 点 <sprite="Point" name="Power">。
+  UpgradedDescription: >-
+    获得 {Shield} 点|护盾|。
+
+    恢复 {Value1} 点生命。
+
+    获得 {Value1} 点 <sprite="Point" name="Gold">。
+
+    获得 {Value1} 点 <sprite="Point" name="Power">。
+  Name: 禁果

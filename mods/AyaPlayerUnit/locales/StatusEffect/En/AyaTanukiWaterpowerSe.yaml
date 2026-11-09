@@ -1,0 +1,12 @@
+﻿AyaTanukiWaterpowerSe:
+  Brief: >-
+    |Waterpower| increased. |Waterpower| increases wetness with attacks.
+
+    |d:(This effect does nothing.)|
+  Description: >-
+    Gain {Level} |Waterpower|.
+
+    |Waterpower| increases wetness with attacks.
+
+    |d:(This effect does nothing.)|
+  Name: Waterpower

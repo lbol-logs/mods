@@ -1,0 +1,14 @@
+﻿FlandreBloodyCatastrophe:
+  Description: >-
+    모든 적에게 피해를 {Damage}씩 {Value1}번 줍니다.
+
+    체력을 {Value2} 얻습니다.
+
+    전투 종료시 까지 {PlayerName}의 공격은 |명중|을 얻습니다.
+  UpgradedDescription: >-
+    모든 적에게 피해를 {Damage}씩 {Value1}번 줍니다.
+
+    체력을 {Value2} 얻습니다.
+
+    전투 종료시 까지 {PlayerName}의 공격은 |명중|을 얻습니다.
+  Name: 블러디 카타스트로피

@@ -1,0 +1,12 @@
+﻿AyaNewsSpecial:
+  Description: >-
+    Gain {Block} |Block|.
+
+    Deal {Damage} damage and apply {Value1} |Lock On| to each enemy.
+
+    Enemies with |Lock On| are dealt that damage twice.
+  Name: Bunbunmaru Newspaper Special
+  AyaNewsDescription: >-
+    Deal {Damage} damage.
+
+    Apply {Value1} |Lock On|.

@@ -1,0 +1,18 @@
+﻿FlandreMPFirestorm:
+  Description: >-
+    敵全体に{FlandreDamage}ダメージを与え、|業火|{FlandreValue1} を与える。
+
+    {SelfName}は全プレイヤーの|火力|の影響を受ける。({Amount})
+  UpgradedDescription: >-
+    敵全体に{FlandreDamage}ダメージを与え、|業火|{FlandreValue1} を与える。
+
+    {SelfName}は全プレイヤーの|火力|の影響を受ける。({Amount})
+  NonbattleDescription: >-
+    敵全体に{FlandreDamage}ダメージを与え、 |業火|{FlandreValue1}を与える。
+
+    {SelfName}は全プレイヤーの|火力|の影響を受ける。
+  UpgradedNonbattleDescription: >-
+    敵全体に{FlandreDamage}ダメージを与え、|業火|{FlandreValue1} を与える。
+
+    {SelfName}は全プレイヤーの|火力|の影響を受ける。
+  Name: ファイアストーム

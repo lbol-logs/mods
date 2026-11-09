@@ -1,0 +1,11 @@
+﻿FlandreSuperhumanCatastrophePilgrimage:
+  Description: >-
+    |供物|{Value1}。
+
+    |p:ランダム|な攻撃、防御、スキル、|能力|カードをそれぞれ{FlandreValue2}枚手札に加える。それらは|臨時コスト|{Mana}となり、|廃棄|と|虚無|を持つ。
+  UpgradedDescription: >-
+    |供物|{Value1}。
+
+    |p:ランダム|な攻撃、防御、スキル、|能力|カードをそれぞれ{FlandreValue2}枚手札に加える。それらは|臨時コスト|{Mana}となり、|廃棄|と|虚無|を持つ。
+  Name: 超人災厄巡礼
+  DetailText: '{SelfName}はこの効果では生成されない。'

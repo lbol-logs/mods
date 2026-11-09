@@ -1,0 +1,9 @@
+﻿AyaArsenalBirdSe:
+  Brief: '{PlayerName}のターン開始時、|無人航空鴉|を召喚済みの状態で手札に加える。'
+  Description: >-
+    {PlayerName}のターン開始時、|無人航空鴉|を召喚済みの状態で手札に加える。
+
+    |巡回中の鴉|：{Count}体
+
+    |戦闘中の鴉|：{Level}体
+  Name: アーセナルバード

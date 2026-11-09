@@ -1,0 +1,11 @@
+﻿FlandrePlayTogether:
+  Description: >-
+    获得 {Value1} 点 |临时火力|。
+
+    从弃牌堆中选择最多 {Value2:plural one='% 张牌' other='% 张牌'} 返回手牌。
+  UpgradedDescription: >-
+    获得 {Value1} 点 |临时火力|。
+
+    从弃牌堆中选择最多 {Value2:plural one='% 张牌' other='% 张牌'} 返回手牌。
+  Name: 携手同游
+  DetailText: 本卡无法成为该效果的目标。

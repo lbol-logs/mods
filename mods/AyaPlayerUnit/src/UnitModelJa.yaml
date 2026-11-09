@@ -1,0 +1,111 @@
+AyaBossAya:
+  Default: 射命丸文
+  Short: 文
+AyaBossAyaGoddessofTime:
+  Default: 時間の女神 射命丸文
+  Short: 時間の女神 射命丸文
+AyaBossFlandre:
+  Default: フランドール・スカーレット
+  Short: フランドール
+AyaBossFlandreEndofFantasy:
+  Default: 幻想の終焉 ランドール・スカーレット
+  Short: 幻想の終焉 ランドール・スカーレット
+AyaBossKoishi:
+  Default: 古明地こいし
+  Short: こいし
+AyaBossLong:
+  Default: 飯綱丸龍
+  Short: 龍
+AyaBossOkina:
+  Default: 摩多羅隠岐奈
+  Short: 隠岐奈
+AyaBossYukari:
+  Default: 八雲紫
+  Short: 紫
+AyaBossZUN:
+  Default: Junya Ota
+  Short: ZUN
+AyaFlandreHallucination1:
+  Default: ??????????
+  Short: ??????????
+AyaFlandreHallucination2:
+  Default: ??????????
+  Short: ??????????
+AyaFlandreHallucination3:
+  Default: ??????????
+  Short: ??????????
+AyaKoakuma:
+  Default: 小悪魔
+  Short: 小悪魔
+AyaKotohime:
+  Default: 小兎姫
+  Short: 小兎姫
+AyaLong:
+  Default: 飯綱丸龍
+  Short: 龍
+AyaMai:
+  Default: 丁礼田舞
+  Short: 舞
+AyaOrbBlack:
+  Default: 黒のオーブ
+  Short: 黒のオーブ
+AyaOrbBlue:
+  Default: 青のオーブ
+  Short: 青のオーブ
+AyaOrbColorless:
+  Default: 無色のオーブ
+  Short: 無色のオーブ
+AyaOrbGreen:
+  Default: 緑のオーブ
+  Short: 緑のオーブ
+AyaOrbPhilosophy:
+  Default: 虹のオーブ
+  Short: 虹のオーブ
+AyaOrbRed:
+  Default: 赤のオーブ
+  Short: 赤のオーブ
+AyaOrbWhite:
+  Default: 白のオーブ
+  Short: 白のオーブ
+AyaPatchouli:
+  Default: パチュリーノレッジ
+  Short: パチュリー
+AyaPlayerUnit:
+  Default: 射命丸文
+  Short: 文
+AyaSatono:
+  Default: 爾子田里乃
+  Short: 里乃
+AyaSukusukuAya:
+  Default: すくすくあや
+  Short: すくすくあや
+AyaSukusukuMomiji:
+  Default: すくすくもみじ
+  Short: すくすくもみじ
+AyaSukusukuFlandre:
+  Default: すくすくフラン
+  Short: すくすくフラン
+AyaTakane:
+  Default: 山城たかね
+  Short: たかね
+AyaTanuki:
+  Default: 子分タヌキ
+  Short: 子分タヌキ
+AyaTargetDummy:
+  Default: Target Dummy
+  Short: Target Dummy
+FlandrePlayerUnit:
+  Default: フランドール
+  Short: フランドール
+LongPlayerUnit:
+  Default: 飯綱丸龍
+  Short: 龍
+LongTsukasaPlayerUnit:
+  Default: 龍/典
+  Short: 龍/典
+OkinaPlayerUnit:
+  Default: 摩多羅隠岐奈
+  Short: 隠岐奈
+TsukasaPlayerUnit:
+  Default: 菅牧典
+  Short: 典

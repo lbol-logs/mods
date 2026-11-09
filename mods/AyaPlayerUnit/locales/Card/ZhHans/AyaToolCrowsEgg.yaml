@@ -1,0 +1,11 @@
+﻿AyaToolCrowsEgg:
+  LockedDescription: 通过使用射命丸文在普通模式或更高难度下解决事件解锁。
+  Description: >-
+    恢复 {Value1} 点生命。
+
+    获得 {Value1} |临时火力|。
+
+    在{PlayerName}回合开始时，重复这些效果，每次减少 1。
+
+    |限制【{DeckCounter}】|
+  Name: 乌鸦蛋

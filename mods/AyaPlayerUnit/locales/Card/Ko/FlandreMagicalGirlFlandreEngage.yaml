@@ -1,0 +1,43 @@
+﻿FlandreMagicalGirlFlandreEngage:
+  Description: >-
+    최대 손패 수가 {Value1}로 변경됩니다.
+
+    |마법소녀|가 아닌 모든 카드의 비용이 전투 종료 시까지 {Mana} 증가합니다.
+
+    모든 |마법소녀| 카드는 최대 {Value2}번까지 |강화|할 수 있습니다.
+
+    |마법의 참격|, |마법의 수비|, |마법의 전술|, |마법의 잠재력|을 손에 추가합니다.
+
+    이 효과들은 중첩되지 않습니다.
+
+    전투 종료 시까지 모든 |마법소녀| 카드를 |강화|합니다.
+
+    |부적|과 |비호|를 {Value3} 얻습니다.
+  UpgradedDescription: >-
+    최대 손패 수가 {Value1}로 변경됩니다.
+
+    |마법소녀|가 아닌 모든 카드의 비용이 전투 종료 시까지 {Mana} 증가합니다.
+
+    모든 |마법소녀| 카드는 최대 {Value2}번까지 |강화|할 수 있습니다.
+
+    |마법의 참격|, |마법의 수비|, |마법의 전술|, |마법의 잠재력|을 손에 추가합니다.
+
+    이 효과들은 중첩되지 않습니다.
+
+    전투 종료 시까지 모든 |마법소녀| 카드를 |강화|합니다.
+
+    |부적|과 |비호|를 {Value3} 얻습니다.
+  Name: 마법소녀 플랑드르, 등장!
+  DetailText: 이 |e:특수 카드|들은 최대 손패 수를 무시합니다.
+  MagicalGirlFlandreEngage1Flandre: 마법소녀 {0}, 등장!
+  MagicalGirlFlandreEngage2Flandre: 사랑과 정의의 힘으로, 너를 물리치겠어!
+  MagicalGirlFlandreEngage3Flandre: 네 야망은 여기서 끝이야! 마법소녀 {0} 등장!
+  MagicalGirlFlandreEngage4Flandre: '...이걸 꼭 말해야 돼?'
+  MagicalGirlFlandreEngage5Flandre: '...설명해. 아니면 네 척추를 부러뜨릴 거야.'
+  MagicalGirlFlandreEngage6Flandre: '...이게 이변 해결이랑 무슨 상관이지?'
+  MagicalGirlFlandreEngage7Okina: 그렇게 행동하는 마법소녀가 어딨니?
+  MagicalGirlFlandreEngage8Okina: 마법소녀로서의 정체성을 진지하게 받아들이는 게 중요해.
+  MagicalGirlFlandreEngage9Okina: 마법소녀로서 이변을 해결하면 더 많은 신앙을 모을 수 있어.
+  MagicalGirlFlandreEngage10Flandre: 꺼져.
+  MagicalGirlFlandreEngage11Flandre: 너 이상해.
+  MagicalGirlFlandreEngage12Flandre: 즐기고 있지, 지금?

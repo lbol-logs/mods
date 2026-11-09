@@ -1,0 +1,10 @@
+﻿FlandreCrystallization:
+  Description: >-
+    |供物|{Value1}。
+
+    ランダムな|クリスタル|{FlandreValue2}枚を手札に加える。
+  UpgradedDescription: >-
+    |供物|{Value1}。
+
+    ランダムな|クリスタル|+{Value3}を{FlandreValue2}枚手札に加える。
+  Name: 結晶化

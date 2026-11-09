@@ -1,0 +1,4 @@
+﻿AyaCrossroadsofHeavenSe:
+  Brief: '{PlayerName}が|加速|を得るたび、追加の|加速|を得る。'
+  Description: '{PlayerName}が|加速|を得るたび、追加で|加速|{Level}を得る。'
+  Name: 天の八衢

@@ -1,0 +1,18 @@
+﻿FlandreStraightFlush:
+  Description: >-
+    获得 {Shield}|护盾|。
+
+    获得 {Value1}|火力|、|灵力|、|护身符| 和 |庇护|。
+
+    获得 {Value2}|崩坏|。
+
+    如果手牌中有 {Value3} 张或更多相同类型的牌，{SelfName} 的消耗为 {Mana}。
+  UpgradedDescription: >-
+    获得 {Shield}|护盾|。
+
+    获得 {Value1}|火力|、|灵力|、|护身符| 和 |庇护|。
+
+    获得 {Value2}|崩坏|。
+
+    如果手牌中有 {Value3} 张或更多相同类型的牌，{SelfName} 的消耗为 {Mana}。
+  Name: 同花顺

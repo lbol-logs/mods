@@ -1,0 +1,7 @@
+﻿FlandreFragmentsofLight:
+  Description: At the start of {PlayerName}'s turn, add {FlandreValue1} random |Crystal{FlandreValue1:plural one='' other='s'}| to the hand.
+  UpgradedDescription: >-
+    At the start of {PlayerName}'s turn, add {FlandreValue1} random |Crystal{FlandreValue1:plural one='' other='s'}| to the hand.
+
+    Trigger {SelfName} once.
+  Name: Fragments of Light

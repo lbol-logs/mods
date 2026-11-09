@@ -1,0 +1,4 @@
+﻿AyaSickleWeaselVeilingSe:
+  Brief: Whenever {PlayerName} takes 0 damage from attacks, deal damage to the attacker.
+  Description: Whenever {PlayerName} takes 0 damage from attacks, deal {Level} damage to the attacker.
+  Name: Sickle Weasel Veiling

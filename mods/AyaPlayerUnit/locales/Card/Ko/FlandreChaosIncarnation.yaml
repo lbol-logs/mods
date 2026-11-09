@@ -1,0 +1,14 @@
+﻿FlandreChaosIncarnation:
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    손이 가득 찰 때까지 무작위 |파편|을 손에 추가합니다.
+
+    손에 있는 모든 |파편|을 사용합니다.
+  UpgradedDescription: >-
+    |방어|를 {Block} 얻습니다.
+
+    손이 가득 찰 때까지 무작위 |파편|을 손에 추가합니다.
+
+    손에 있는 모든 |파편|을 사용합니다.
+  Name: 혼돈의 화신

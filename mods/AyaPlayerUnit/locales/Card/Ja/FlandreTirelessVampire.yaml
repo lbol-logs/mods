@@ -1,0 +1,14 @@
+﻿FlandreTirelessVampire:
+  Description: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    |p:ランダム|なマナを{FlandreValue1}得る。
+  UpgradedDescription: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    |p:ランダム|なマナを{FlandreValue1}得る。
+  Name: 疲れ知らずの吸血鬼
+  FlavorText: >-
+    "さあ、美鈴！夜はまだ始まったばかりだよ！"
+
+    - フランドール・スカーレット

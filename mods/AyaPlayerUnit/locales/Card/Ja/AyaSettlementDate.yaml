@@ -1,0 +1,20 @@
+﻿AyaSettlementDate:
+  Description: >-
+    |火力|{Value1}を得る。
+
+    <sprite="Point" name="Gold">{Value2}を得る。
+
+    |厄災|または状態異常カードを|廃棄|するたび、{SelfName}で得られる<sprite="Point" name="Gold">の値を|永久|に{Value1}増加させる。
+
+    |消耗品【{ToolPlayableTimes}】|
+  UpgradedDescription: >-
+    |火力|{Value1}を得る。
+
+    <sprite="Point" name="Gold">{Value2}を得る。
+
+    |厄災|または状態異常カードを|廃棄|するたび、{SelfName}で得られる<sprite="Point" name="Gold">の値を|永久|に{Value1}増加させる。
+
+    |消耗品【{ToolPlayableTimes}】|
+  Name: 給料日
+  DetailText: '{SelfName}は戦闘中に作成されることはなく、コピーすることもできない。'
+  FlavorText: 給料日じゃ！

@@ -1,0 +1,23 @@
+﻿FlandreOrthrusBrigantine:
+  Description: >-
+    造成 {Damage} 点伤害。
+
+    施加 {Value1}|终末|。
+
+    当使用 {SelfName} 击败敌人时，获得 {Value2} 点生命。
+
+    对另一个随机敌人重复这些效果。
+  UpgradedDescription: >-
+    造成 {Damage} 点伤害。
+
+    施加 {Value1}|终末|。
+
+    当使用 {SelfName} 击败敌人时，获得 {Value2} 点生命。
+
+    对另一个随机敌人重复这些效果。
+  Name: 双头犬号装甲舰
+  OrthrusBrigantineFlandre1: 唉？
+  OrthrusBrigantineFlandre2: 你从哪儿冒出来的？
+  OrthrusBrigantineRumia1: 嘿嘿，我开动啦。
+  OrthrusBrigantineRumia2: 那我就不客气啦~
+  OrthrusBrigantineRumia3: 你看起来很好吃嘛~

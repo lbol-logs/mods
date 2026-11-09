@@ -1,0 +1,68 @@
+﻿FlandreAndThenWillThereBeNone:
+  Description: >-
+    |Offering| {Value1}.
+
+    {PlayerName} is immune to all damage and debuffs for the next {FlandreValue2:plural one='% turn' other='% turns'}.
+
+    Gain {Value3} |Calamity|.
+
+    Deal {FlandreDamage} damage to each enemy {Value4:plural one='% time' other='% times'}.
+
+    Only the first {SelfName} will take effect each combat.
+  UpgradedDescription: >-
+    |Offering| {Value1}.
+
+    {PlayerName} is immune to all damage and debuffs for the next {FlandreValue2:plural one='% turn' other='% turns'}.
+
+    Gain {Value3} |Calamity|.
+
+    Deal {FlandreDamage} damage to each enemy {Value4:plural one='% time' other='% times'}.
+
+    Only the first {SelfName} will take effect each combat.
+  ExtraDescription1: >-
+    |d:Offering {Value1}.
+
+    {PlayerName} is immune to all damage and debuffs for the next {FlandreValue2:plural one='% turn' other='% turns'}.
+
+    Gain {Value3} Calamity.
+
+    Deal {FlandreDamage} damage to each enemy {Value4:plural one='% time' other='% times'}.|
+
+    Only the first {SelfName} will take effect each combat.
+  PhantasmModeDescription: >-
+    |Offering| {Value1}.
+
+    {PlayerName} is immune to all damage and debuffs for the next {FlandreValue2:plural one='% turn' other='% turns'}.
+
+    Gain {Value3} |Calamity|.
+
+    Deal {FlandreDamage} damage to each enemy {Value4:plural one='% time' other='% times'}.
+
+    Gain {Value5} |Madness|.
+
+    Only the first {SelfName} will take effect each combat.
+  PhantasmModeUpgradedDescription: >-
+    |Offering| {Value1}.
+
+    {PlayerName} is immune to all damage and debuffs for the next {FlandreValue2:plural one='% turn' other='% turns'}.
+
+    Gain {Value3} |Calamity|.
+
+    Deal {FlandreDamage} damage to each enemy {Value4:plural one='% time' other='% times'}.
+
+    Gain {Value5} |Madness|.
+
+    Only the first {SelfName} will take effect each combat.
+  PhantasmModeExtraDescription1: >-
+    |d:Offering {Value1}.
+
+    {PlayerName} is immune to all damage and debuffs for the next {FlandreValue2:plural one='% turn' other='% turns'}.
+
+    Gain {Value3} Calamity.
+
+    Deal {FlandreDamage} damage to each enemy {Value4:plural one='% time' other='% times'}.
+
+    Gain {Value5} Madness.|
+
+    Only the first {SelfName} will take effect each combat.
+  Name: And Then Will There Be None?

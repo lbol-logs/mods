@@ -1,0 +1,9 @@
+﻿AyaNewsSpecial:
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    모든 적에게 피해를 {Damage} 주고 |록 온|을 {Value1} 줍니다.
+
+    |록온|을 가진 적은 피해를 두 번 받습니다.
+  Name: 특별 붕붕마루 신문
+  AyaNewsDescription: 피해를 {Damage} 주고 |록 온|을 {Value1} 줍니다.

@@ -1,0 +1,10 @@
+﻿FlandreDoombringer:
+  Description: >-
+    |파멸|을 {Value1} 얻습니다.
+
+    {PlayerName}의 턴 시작 시, |파멸|을 {Value1} 얻습니다.
+  UpgradedDescription: >-
+    |파멸|을 {Value1} 얻습니다.
+
+    {PlayerName}의 턴 시작 시, |파멸|을 {Value1} 얻습니다.
+  Name: 파멸을 부르는 자

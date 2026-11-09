@@ -1,0 +1,3 @@
+AyaBossFlandreSpellCardsIntention:
+  Name: 符卡
+  Description: "{OwnerName}拥有 {Counter} 张|符卡|。"

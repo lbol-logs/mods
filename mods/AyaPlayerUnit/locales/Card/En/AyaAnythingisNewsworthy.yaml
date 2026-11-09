@@ -1,0 +1,4 @@
+﻿AyaAnythingisNewsworthy:
+  Description: Whenever a |Misfortune| or Status card would have added, if its name does not contain "Bunbunmaru" or "News", add a |Bunbunmaru Newspaper| instead.
+  UpgradedDescription: Whenever a |Misfortune| or Status card would have added, if its name does not contain "Bunbunmaru" or "News", add a |Bunbunmaru Newspaper| instead.
+  Name: Anything is Newsworthy

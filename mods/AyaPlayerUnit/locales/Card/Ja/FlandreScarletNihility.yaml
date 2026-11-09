@@ -1,0 +1,27 @@
+﻿FlandreScarletNihility:
+  Description: >-
+    {FlandreDamage}ダメージを与える。
+
+    未使用のマナ1点につき、{SelfName}のダメージが{FlandreValue1}増加する。({Amount})
+
+    対象のライフが{Value2}%以下なら、|破壊|する。({Amount2})
+  UpgradedDescription: >-
+    {FlandreDamage}ダメージを与える。
+
+    未使用のマナ1点につき、{SelfName}のダメージが{FlandreValue1}増加する。({Amount})
+
+    対象のライフが{Value2}%以下なら、|破壊|する。({Amount2})
+  NonbattleDescription: >-
+    {FlandreDamage}ダメージを与える。
+
+    未使用のマナ1点につき、{SelfName}のダメージが{FlandreValue1}増加する。
+
+    対象のライフが{Value2}%以下なら、|破壊|する。
+  UpgradedNonbattleDescription: >-
+    {FlandreDamage}ダメージを与える。
+
+    未使用のマナ1点につき、{SelfName}のダメージが{FlandreValue1}増加する。
+
+    対象のライフが{Value2}%以下なら、|破壊|する。
+  Name: スカーレットニヒリティ
+  DetailText: '{SelfName}は戦闘中ランダムに生成されない。コピーもできない。'

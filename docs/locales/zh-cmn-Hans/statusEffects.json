@@ -6,6 +6,387 @@
     "turn_other": "<Count /> 回合后的"
   },
 
+  "AyaAccelerationSe": {
+    "Name": "加速",
+    "Description": "<OwnerName /> 的 <h>闪避</h> 在回合结束时恢复到 <Count />。<br />每当 <OwnerName /> <h>闪避</h> 一次攻击时，失去 2 点 <h>加速</h>。"
+  },
+  "AyaAdventoftheDivineGrandsonSe": {
+    "Name": "神孙降临",
+    "Description": "<PlayerName /> 免疫所有减益。<br />所有牌被使用两次。"
+  },
+  "AyaAnythingisNewsworthySe": {
+    "Name": "一切皆可新闻",
+    "Description": "每当一张 <h>不幸</h> 或状态牌即将被添加时，如果其名称不包含 \"文文新闻\" 或 \"新闻\"，则改为添加一张 <h>文文新闻</h>。"
+  },
+  "AyaApexPredatorSe": {
+    "Name": "顶级掠食者",
+    "Description": "每当 <PlayerName /> 受到攻击伤害时，减少等同于 <PlayerName /> 的 <h>加速</h> 的伤害，并失去 {Value} 点 <h>加速</h>。"
+  },
+  "AyaArmoredRavenSe": {
+    "Name": "装甲乌鸦",
+    "Description": "<PlayerName /> 回合中使用的前 <Limit /> 张攻击牌{Limit:plural one='' other=''} 被使用两次。（剩余 <Level /> 次）<br /><PlayerName /> 回合中使用的前 <Limit /> 张状态牌{Limit:plural one='' other=''} 被使用两次。（剩余 <Count /> 次）"
+  },
+  "AyaArsenalBirdSe": {
+    "Name": "军火鸟",
+    "Description": "在 <PlayerName /> 的回合开始时，将 <h>无人空中乌鸦</h> 加入手牌。<br /><h>巡逻模式中的无人空中乌鸦</h>: <Count /><br /><h>战斗模式中的无人空中乌鸦</h>: <Level />"
+  },
+  "AyaBlackmailSe": {
+    "Name": "敲诈",
+    "Description": "<h>文文新闻</h> 还会施加 <Level /> <h>暂失火力</h> 并在激活时获得 <Count /> <Money />。"
+  },
+  "AyaBossKoishiSe": {
+    "Name": "闭锁的恋之瞳",
+    "Description": "<OwnerName /> 的生命值未知。<br />在 <OwnerName /> 的回合开始时，她只失去一半的 <h>护盾</h> 而不是全部。<br />每当 <Limit /> 张牌被使用时，<OwnerName /> 立即行动一次，不会结束 <PlayerName /> 的回合。<br /><hd>（剩余 {Count:plural one='% 张牌' other='% 张牌'}。）</hd>"
+  },
+  "AyaBossZUNSe": {
+    "Name": "博丽神主",
+    "Description": "无效所有针对 <OwnerName /> 的牌、伤害和状态效果。<br />在所有其他敌人被击败后，<OwnerName /> 离开战斗。"
+  },
+  "AyaBunbunmaruPrinterSe": {
+    "Name": "文文新闻印刷机",
+    "Description": "在 <PlayerName /> 的回合开始时，将 <h>{Level:plural one='% 文文新闻' other='% 文文新闻'}</h> 加入手牌。{Level:plural one='它 <h>临时消耗</h>' other='它们 <h>临时消耗</h>'} {Mana}。"
+  },
+  "AyaCrazyFallWindSe": {
+    "Name": "疯狂秋风",
+    "Description": "每当一张牌被<h>放逐</h>时，获得 <Level /> <h>加速</h>。"
+  },
+  "AyaCrossroadsofHeavenSe": {
+    "Name": "天之十字路口",
+    "Description": "每当 <PlayerName /> 获得 <h>加速</h> 时，获得 <Level /> 更多 <h>加速</h>。"
+  },
+  "AyaDaymareintheDarkNightSe": {
+    "Name": "暗夜中的白日梦",
+    "Description": "直到 <PlayerName /> 的下一个回合，每当 <PlayerName /> 获得 <h>加速</h> 时，对生命值最低的敌人造成 {Damage} <h>精准</h> 攻击伤害。"
+  },
+  "AyaDecelerationSe": {
+    "Name": "减速 X",
+    "Description": "如果玩家拥有至少 X 点 <h>加速</h>，则激活，消耗该 <h>加速</h>。"
+  },
+  "AyaEffortlessFlightSe": {
+    "Name": "轻松飞行",
+    "Description": "在 <PlayerName /> 的回合开始时，获得 <Level /> <h>加速</h>。"
+  },
+  "AyaFriendAyaSe": {
+    "Name": "照天辉地",
+    "Description": "<PlayerName /> 无法获得 <h>护盾</h> 或 <h>护盾</h>。<br /><PlayerName /> 免疫所有伤害和减益。<br />未使用的法力不会在每回合结束时丢失。<br />最大手牌数变为 {MaxHand}。<br />每当 <PlayerName /> 使用一张牌时，将抽牌堆顶的一张牌加入手牌，获得 {Mana} 和 {Value} <h>加速</h>。<br /><h>加速</h> 增加攻击造成的伤害。"
+  },
+  "AyaFriendCirnoSe": {
+    "Name": "最终冻结",
+    "Description": "每当 <OwnerName /> 受到攻击伤害时，失去 <Level /> 点生命值并增加 {SelfName} 相同数值。<br />在 <OwnerName /> 的回合结束时，失去 <h>最终冻结</h>。"
+  },
+  "AyaFriendMegumuSe": {
+    "Name": "彩虹照明「清风明月」",
+    "Description": "每当一张 <h>不幸</h> 或状态牌被<h>放逐</h>时，获得 <Level /> <ManaP /> 并抽 {Level:plural one='% 张牌' other='% 张牌'}。"
+  },
+  "AyaHraesvelgrofTerminusSe": {
+    "Name": "终末之鹰",
+    "Description": "所有敌人的 <h>护盾</h>、<h>护盾</h> 和增益 {Duration:plural one='% 回合' other='% 回合'} 无效。"
+  },
+  "AyaInstantShotJournalistSe": {
+    "Name": "瞬间射击记者",
+    "Description": "<PlayerName /> {Duration:plural one='% 回合' other='% 回合'} 无法失去 <h>加速</h>。"
+  },
+  "AyaMountainGodsProcessionSe": {
+    "Name": "山神巡游",
+    "Description": "每当 <PlayerName /> 获得 <h>加速</h> 时，获得 <Level /> <ManaP />。"
+  },
+  "AyaNewsOverwhelmingSe": {
+    "Name": "新闻压倒性",
+    "Description": "每当一张 <h>不幸</h> 或状态牌（非 <h>复制</h>）被<h>放逐</h>时，将 {Level:plural one='% <h>复制</h>' other='% <h>复制</h>'} 的 <h>文文新闻{Level:plural one='' other=''}</h> 加入手牌。{Level:plural one='它 <h>临时消耗</h>' other='它们 <h>临时消耗</h>'} {Mana}。"
+  },
+  "AyaOrbBlackDreamExpressSe": {
+    "Name": "梦境快车",
+    "Description": "在 <OwnerName /> 的回合结束时，<h>梦境</h> <Level /> 张牌，然后对 <PlayerName /> 造成等于 {Level:plural one='总成本' other='总成本之和'} 两倍的伤害。"
+  },
+  "AyaOrbBlackSe": {
+    "Name": "黑色精华",
+    "Description": "每当一张黑色牌即将被使用时，如果其目标是 <OwnerName />，则改为将其送入弃牌堆。"
+  },
+  "AyaOrbBlackUnexplainedFeverSe": {
+    "Name": "不明发热",
+    "Description": "在 <OwnerName /> 的回合结束时，对 <PlayerName /> 施加 <Level /> <h>中毒</h>。"
+  },
+  "AyaOrbBlueSe": {
+    "Name": "蓝色精华",
+    "Description": "每当一张蓝色牌即将被使用时，如果其目标是 <OwnerName />，则改为将其送入弃牌堆。"
+  },
+  "AyaOrbBlueTheReclusiveSageSe": {
+    "Name": "隐居的贤者",
+    "Description": "在 <OwnerName /> 的回合结束时，将 <Level /> <h>虚假之月{Level:plural one='' other=''}</h> 加入抽牌堆。"
+  },
+  "AyaOrbColorlessPoweroftheOrdinarySe": {
+    "Name": "平凡之力",
+    "Description": "在一张普通牌被使用后，<OwnerName /> 获得 <Level /> <h>临时火力</h>。"
+  },
+  "AyaOrbColorlessSe": {
+    "Name": "无色精华",
+    "Description": "每当一张无色牌即将被使用时，如果其目标是 <OwnerName />，则改为将其送入弃牌堆。"
+  },
+  "AyaOrbGreenSe": {
+    "Name": "绿色精华",
+    "Description": "每当一张绿色牌即将被使用时，如果其目标是 <OwnerName />，则改为将其送入弃牌堆。"
+  },
+  "AyaOrbPhilosophySe": {
+    "Name": "哲学家精华",
+    "Description": "每当一张多色牌即将被使用时，如果其目标是 <OwnerName />，则改为将其送入弃牌堆。"
+  },
+  "AyaOrbRedIndiscriminateIgnitionSe": {
+    "Name": "无差别点火",
+    "Description": "在 <OwnerName /> 的回合结束时，对 <PlayerName /> 造成 <Level /> 点伤害。<br />当一张 <h>不幸</h> 或状态牌被抽到时，也会发生此效果。"
+  },
+  "AyaOrbRedSe": {
+    "Name": "红色精华",
+    "Description": "每当一张红色牌即将被使用时，如果其目标是 <OwnerName />，则改为将其送入弃牌堆。"
+  },
+  "AyaOrbSe": {
+    "Name": "创造者遗产",
+    "Description": "在 <OwnerName /> 的回合开始时，他们只失去一半的 <h>护盾</h> 而不是全部。<br /><OwnerName /> 受到的伤害减少 <Level />%。<br />每当抽牌堆被洗牌时，获得 {Value1} <h>创造者遗产</h>。<br />在 <OwnerName /> 的回合结束时，失去 {Value2} <h>创造者遗产</h>。"
+  },
+  "AyaOrbWhiteSe": {
+    "Name": "白色精华",
+    "Description": "每当一张白色牌即将被使用时，如果其目标是 <OwnerName />，则改为将其送入弃牌堆。"
+  },
+  "AyaOrbWhiteSuperspeedFlierSe": {
+    "Name": "超速飞行者",
+    "Description": "在 <OwnerName /> 的下一个回合开始时，对 <PlayerName /> 造成 <Level /> 点伤害。"
+  },
+  "AyaPanoramaSe": {
+    "Name": "全景",
+    "Description": "<h>文文新闻特别版</h> 的数值增加 <Level />。"
+  },
+  "AyaPassiveSe": {
+    "Name": "幻想乡的传统记者",
+    "Description": "<h>文文新闻</h> 造成 {Value1} 点伤害，施加 {Value2} <h>锁定</h> 并具有 <h>补充</h>。<br /><h>稻草人灵异新闻</h> 具有 <h>补充</h>。<br /><h>不幸</h> 和状态牌失去 <h>不可使用</h> 并获得 <h>放逐</h>。<br />它们根据稀有度获得法力消耗。"
+  },
+  "AyaPerfectGrazeSe": {
+    "Name": "完美闪避",
+    "Description": "<OwnerName /> 从接下来的 {Level:plural one='% 次 <h>精准</h> 攻击' other='% 次 <h>精准</h> 攻击'} 中受到 0 点伤害。<br />当受到 <h>精准</h> 攻击时，失去 1 点 <h>完美闪避</h>。"
+  },
+  "AyaPlayerUnitAllySe": {
+    "Name": "真正的队友",
+    "Description": "<OwnerName /> 将与 <PlayerName /> 并肩作战！<OwnerName /> 免疫所有减益且无法被攻击。"
+  },
+  "AyaPlayerUnitBuddySe": {
+    "Name": "颤抖的心",
+    "Description": "<OwnerName /> 不想战斗。"
+  },
+  "AyaProtectionPaperSe": {
+    "Name": "保护纸",
+    "Description": "每当一张 <h>不幸</h> 或状态牌被<h>放逐</h>时，获得 <Level /> <h>护盾</h>。"
+  },
+  "AyaQuickShootingTenguScoopSe": {
+    "Name": "快速射击天狗独家新闻",
+    "Description": "状态牌在本回合内消耗减少 {Mana}。"
+  },
+  "AyaRouteForbiddentoManSe": {
+    "Name": "禁止人类之路",
+    "Description": "在 <PlayerName /> 的回合结束时，对随机敌人造成 {Damage} <h>精准</h> 攻击伤害并施加 <Limit /> <h>锁定</h>，每张本回合被<h>放逐</h>的牌触发一次，最多触发 {Value} 次。<br />（累计次数：<Count />）"
+  },
+  "AyaSickleWeaselVeilingSe": {
+    "Name": "镰鼬之幕",
+    "Description": "每当 <PlayerName /> 从攻击中受到 0 点伤害时，对攻击者造成 <Level /> 点伤害。"
+  },
+  "AyaTakaneCenturysDoppelgangersSe": {
+    "Name": "世纪的分身",
+    "Description": "<OwnerName /> 攻击次数翻倍。"
+  },
+  "AyaTakaneEndofImperishableNightSe": {
+    "Name": "\"永夜终末\"",
+    "Description": "在 <OwnerName /> 的 <h>自然回合</h> 结束时，进行一个额外回合。"
+  },
+  "AyaTakaneSe": {
+    "Name": "愤怒的店主",
+    "Description": "<OwnerName /> 非常愤怒。<br /><OwnerName /> 的最大生命值增加 {Value}%，并造成 <Level />% 更多伤害。"
+  },
+  "AyaTanukiAMOLEDSe": {
+    "Name": "AMOLED",
+    "Description": "抵消接下来的 {Level:plural one='% 次黑暗' other='% 次黑暗'}。<br /><hd>（此效果无效。）</hd>"
+  },
+  "AyaTanukiExtremeTurnSe": {
+    "Name": "极限回合",
+    "Description": "<OwnerName /> 将进行 {Level:plural one='% 次极限回合' other='% 次极限回合'}。<br /><hd>（此效果无效。）</hd>"
+  },
+  "AyaTanukiGravySe": {
+    "Name": "肉汁",
+    "Description": "<OwnerName /> 从接下来的 {Level:plural one='% 次烧焦的肉' other='% 次烧焦的肉'} 中受到 0 点伤害。<br />当受到攻击或回合开始时，失去 1 点 <h>肉汁</h>。<br /><hd>（此效果无效。）</hd>"
+  },
+  "AyaTanukiOpticalChameleonSe": {
+    "Name": "光学变色龙",
+    "Description": "变色龙 {Duration:plural one='直到回合结束' other='在接下来的 % 回合内'} 受到的攻击伤害减半。<br /><hd>（此效果无效。）</hd>"
+  },
+  "AyaTanukiSpriteSe": {
+    "Name": "精灵",
+    "Description": "获得 <Level /> <h>精灵</h>。<br /><h>精灵</h> 为 <OwnerName /> 补充水分。<br /><hd>（此效果无效。）</hd>"
+  },
+  "AyaTanukiWaterpowerSe": {
+    "Name": "水力",
+    "Description": "获得 <Level /> <h>水力</h>。<br /><h>水力</h> 增加攻击的湿润度。<br /><hd>（此效果无效。）</hd>"
+  },
+  "AyaTanukiWindGodGrillSe": {
+    "Name": "风神烤架",
+    "Description": "<OwnerName /> 的 <h>肉汁</h> 在回合结束时恢复到 <Level />。"
+  },
+  "AyaTenguNewspaperDeadlineDaySe": {
+    "Name": "天狗新闻截稿日",
+    "Description": "所有 <h>不幸</h> 和状态牌具有 <h>补充</h>。"
+  },
+  "AyaTengusDrumbeatsSe": {
+    "Name": "天狗鼓声",
+    "Description": "在 <PlayerName /> 的下一个回合开始时，对每个敌人造成 {Damage} <h>精准</h> 攻击伤害并获得 <Count /> <h>临时火力</h>。"
+  },
+  "AyaTengusFallWindSe": {
+    "Name": "天狗秋风",
+    "Description": "接下来的 {Level:plural one='% 张牌' other='% 张牌'} 被使用两次。"
+  },
+  "AyaToolCrowsEggSe": {
+    "Name": "乌鸦蛋",
+    "Description": "在 <PlayerName /> 的回合开始时，获得 <Duration /> 点生命值和 <Duration /> <h>临时火力</h>，然后失去 1 点 <h>乌鸦蛋</h>。"
+  },
+  "AyaWindGodsLeafVeilingSe": {
+    "Name": "风神叶幕",
+    "Description": "所有针对 <OwnerName /> 的攻击获得 <h>精准</h>。"
+  },
+  "FlandreBloodyCatastropheSe": {
+    "Name": "血腥灾难",
+    "Description": "<PlayerName /> 的攻击变为 <h>精准</h>，直到战斗结束。"
+  },
+  "FlandreBloodyRequiemSe": {
+    "Name": "血腥安魂曲",
+    "Description": "所有攻击造成双倍伤害并施加双倍 <h>地狱火</h>，持续 {Duration:plural one='% 回合' other='% 回合'}。"
+  },
+  "FlandreCalamitySe": {
+    "Name": "崩坏",
+    "Description": "每当敌人受到伤害时，额外受到 <Level /> 点伤害。<br />每回合开始时失去 1 点 <h>崩坏</h>。"
+  },
+  "FlandreChromaticWingsSe": {
+    "Name": "彩色之翼",
+    "Description": "在 <PlayerName /> 的回合开始时，添加 <Level /> <ManaP />。"
+  },
+  "FlandreClockthatTicksAwaythePastSe": {
+    "Name": "流逝过去的时钟",
+    "Description": "跳过回合开始的抽牌阶段，改为将弃牌堆顶的 <Limit /> 张牌返回手牌。"
+  },
+  "FlandreColorofMadnessSe": {
+    "Name": "疯狂之色",
+    "Description": "每当一张攻击牌被激活时，使用 <Level /> 个随机的 {Level:plural one='<h>水晶</h>' other='<h>水晶</h>'}。"
+  },
+  "FlandreCranberryTrapSe": {
+    "Name": "蔓越莓陷阱",
+    "Description": "在 <PlayerName /> 的回合结束时，对每个敌人造成 {Damage} <h>精准</h> 攻击伤害。<br />当 <PlayerName /> 因敌人失去生命值时，将所有 <h>蔓越莓陷阱</h> 转化为 <h>护盾</h>。"
+  },
+  "FlandreCrystallineOutburstSe": {
+    "Name": "水晶爆发",
+    "Description": "当 <h>水晶</h> 激活时，触发其所有效果。<br /><h>疯狂水晶</h> 会给予 <ManaP /> 而不是随机法力。"
+  },
+  "FlandreDanmakuofDenialSe": {
+    "Name": "否定弹幕",
+    "Description": "在一张攻击牌被激活后，获得 <Level /> <h>护盾</h>。"
+  },
+  "FlandreDestroySe": {
+    "Name": "消灭",
+    "Description": "击败目标。"
+  },
+  "FlandreDoombringerSe": {
+    "Name": "厄运使者",
+    "Description": "在 <PlayerName /> 的回合开始时，获得 <Level /> <h>崩坏</h>。"
+  },
+  "FlandreDoomsdayClockSe": {
+    "Name": "末日时钟",
+    "Description": "<PlayerName /> 获得双倍 <h>崩坏</h>。<br />在 <PlayerName /> 的 {Countdown:ordinal one='下一个' two='%nd' few='%rd' other='%th'} 回合 {Countdown:plural one='' other='开始'} 时，将 <h>大规模杀伤性武器</h> 加入手牌。"
+  },
+  "FlandreForbiddenGamesSe": {
+    "Name": "禁忌游戏",
+    "Description": "敌人 {Duration:plural one='直到回合结束' other='在接下来的 % 回合内'} 无法行动。"
+  },
+  "FlandreFragmentsofLightSe": {
+    "Name": "光之碎片",
+    "Description": "在 <PlayerName /> 的回合开始时，将 <Level /> 个随机的 {Level:plural one='<h>水晶</h>' other='<h>水晶</h>'} 加入手牌。"
+  },
+  "FlandreFranticDestroyerSe": {
+    "Name": "疯狂毁灭者",
+    "Description": "每当一张攻击牌被激活时，获得 <Level /> <ManaP /> 并抽 {Level:plural one='% 张牌' other='% 张牌'}。"
+  },
+  "FlandreFriendOkinaFallSe": {
+    "Name": "里·疯狂秋风",
+    "Description": "每当一张牌被<h>放逐</h>时，获得 <Level /> <h>闪避</h>。"
+  },
+  "FlandreFriendOkinaSe": {
+    "Name": "隐秘时空幻想之旅",
+    "Description": "在 {隐秘的时空幻游} 的回合开始时，从 <Level /> 张 <hp>完全随机</hp> 的稀有牌{Level:plural one='' other=''} 中选择 1 张加入手牌。它临时消耗 {Mana} 并具有<h>放逐</h>和 <h>虚无</h>。"
+  },
+  "FlandreFriendOkinaSpringSe": {
+    "Name": "里·吹拂樱花",
+    "Description": "在 <PlayerName /> 的回合开始时，获得 <Level /> 点生命值、<Level /> <h>护符</h> 和 <h>守护</h>。"
+  },
+  "FlandreFriendOkinaSummerSe": {
+    "Name": "里·完美夏冰",
+    "Description": "每当 <PlayerName /> 使用 {Limit:plural one='% 张牌' other='% 张牌'} 时，对每个敌人造成 <Level /> <h>精准</h> 攻击伤害并施加 <h>寒冷</h>。<br />剩余 {Count:plural one='% 张牌' other='% 张牌'}。"
+  },
+  "FlandreFriendOkinaWinterSe": {
+    "Name": "里·极端寒冬",
+    "Description": "每当一张牌被使用时，获得 <Level /> <h>充能</h>。"
+  },
+  "FlandreHellfireSe": {
+    "Name": "地狱火",
+    "Description": "<OwnerName /> 在回合开始时失去 <Level /> 点生命值。"
+  },
+  "FlandreHellonEarthSe": {
+    "Name": "人间地狱",
+    "Description": "当 <h>地狱火</h> 触发时，它会额外触发 <Level /> 次{Level:plural one='' other=''}。"
+  },
+  "FlandreHotSurfaceSe": {
+    "Name": "炽热表面",
+    "Description": "直到 <PlayerName /> 的下一个回合，每当 <PlayerName /> 受到攻击伤害时，对攻击者施加 {Value} <h>地狱火</h>。"
+  },
+  "FlandreMagicalGirlSe": {
+    "Name": "魔法少女",
+    "Description": "这是一张<h>魔法少女</h>牌。部分 <h>芙兰</h> 的牌与<h>魔法少女</h>牌存在互动效果。"
+  },
+  "FlandreMindsEyeSe": {
+    "Name": "心眼",
+    "Description": "接下来的 {Level:plural one='% 次' other='% 次'} <PlayerName /> 造成或受到攻击伤害时，双倍伤害或防止伤害。"
+  },
+  "FlandrePassiveSe": {
+    "Name": "绯红之血的恶魔",
+    "Description": "牌奖励的选择数量增加 {Value1}。<br /><h>脆弱</h> 对 <PlayerName /> 的效果减少 {Value2}%。"
+  },
+  "FlandreRipplesof495YearsSe": {
+    "Name": "495年的涟漪",
+    "Description": "<PlayerName /> 免疫所有减益。<br />将 <PlayerName /> 在本场战斗中获得的法力转化为 <ManaP />。<br />每当一张牌被使用时，获得等于该牌消耗的法力。<br />所有牌被使用两次。"
+  },
+  "FlandreRuinSe": {
+    "Name": "终末",
+    "Description": "如果 <OwnerName /> 的生命值低于 <Level />，则 <h>消灭</h> 它。"
+  },
+  "FlandreSisteroftheDevilSe": {
+    "Name": "恶魔之妹",
+    "Description": "<PlayerName /> 免疫 <h>虚弱</h>、<h>脆弱</h> 和 <h>易伤</h>。<br /><PlayerName /> 的攻击造成 {Value1}% 更多伤害，从牌中获得 {Value1}% 更多 <h>护盾</h> 和 <h>护盾</h>，并受到 {Value2}% 更少的攻击伤害。"
+  },
+  "FlandreSpellBreakCooldownSe": {
+    "Name": "咒言破碎冷却",
+    "Description": "<OwnerName /> {Duration:plural one='直到回合结束' other='在接下来的 % 回合内'} 免疫 <h>咒言破碎</h>。"
+  },
+  "FlandreSpellBreakSe": {
+    "Name": "咒言破碎",
+    "Description": "<OwnerName /> {Duration:plural one='直到回合结束' other='在接下来的 % 回合内'} 无法行动。"
+  },
+  "FlandreTheMousetrapSe": {
+    "Name": "捕鼠夹",
+    "Description": "在 <PlayerName /> 的下一个 {Level:plural one='% 回合' other='% 回合'} 开始时，对每个敌人造成等于上回合所受伤害的伤害。<br />（累计伤害：<Count />）"
+  },
+  "FlandreThePsychoticandCuteGuestSe": {
+    "Name": "狂气甜心",
+    "Description": "每当一张蓝色牌被激活时，获得 {Value} <h>崩坏</h>。<br />每当一张红色牌被激活时，获得 <Level /> <h>火力</h>。"
+  },
+  "FlandreWalpurgisNightSe": {
+    "Name": "魔女夜宴",
+    "Description": "每当 <PlayerName /> 造成攻击伤害时，同时施加等量的 <h>终末</h>。"
+  },
+  "FlandreWatchtheWorldBurnSe": {
+    "Name": "彼岸观火",
+    "Description": "在 <PlayerName /> 的回合结束时，对每个敌人施加 {Value} <h>地狱火</h>。"
+  },
+
   "seaccel": {
     "Name": "加速",
     "Description": "<OwnerName />的下回合开始时，获得 <Level /> 层<h>闪避</h>。"

@@ -1,0 +1,7 @@
+﻿FlandreBranchofCalamity:
+  Description: >-
+    {PlayerName}の攻撃が与えるダメージが{Value1}%増加する。
+
+    この展示品は失われない。
+  Name: 災厄の枝
+  FlavorText: 発動に170<sprite="Point" name="Power">は不要になった。

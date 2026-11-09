@@ -1,0 +1,10 @@
+﻿AyaBlackmailSe:
+  Brief: '|文々。新聞|は|臨時火力ダウン|を与え、<sprite="Point" name="Gold">を得る。'
+  Description: '|文々。新聞|は|臨時火力ダウン|{Level}を与え、<sprite="Point" name="Gold">{Count}を得る効果を持つ。'
+  Name: ブラックメール
+  Blackmail1Aya: 真実を伝えようとする記者が攻撃を受けています！
+  Blackmail2Aya: 何と言う仕打ち！これこそ相手が犯人の証拠！
+  Blackmail3Aya: 地元住民がジャーナリストに暴力を振るう！幻想郷の転覆を狙っているのでしょうか？
+  BlackmailMegumu1Megumu: あら、私を脅迫しようというの？
+  BlackmailMegumu2Megumu: 今日の宴会で裸踊りさせられる覚悟をしておきなさい。
+  BlackmailEiki1Eiki: 詐欺に脅迫、刑期を一年延長。

@@ -1,0 +1,10 @@
+﻿FlandreWarmonger:
+  Description: >-
+    |일시 화력|과 |일시 영력|을 {Value1} 얻습니다.
+
+    적의 수 만큼 |일시 화력|과 |일시 영력|을 추가로 {Value2} 얻습니다.
+  UpgradedDescription: >-
+    |일시 화력|과 |일시 영력|을 {Value1} 얻습니다.
+
+    적의 수 만큼 |일시 화력|과 |일시 영력|을 추가로 {Value2} 얻습니다.
+  Name: 전쟁광

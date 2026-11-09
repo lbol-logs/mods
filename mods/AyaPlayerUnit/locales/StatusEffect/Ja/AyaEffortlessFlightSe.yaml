@@ -1,0 +1,4 @@
+﻿AyaEffortlessFlightSe:
+  Brief: '{PlayerName}のターン開始時、|加速|を得る。'
+  Description: '{PlayerName}のターン開始時、|加速|{Level}を得る。'
+  Name: 省力飛行

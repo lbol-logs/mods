@@ -1,0 +1,37 @@
+﻿FlandreInstability:
+  Description: >-
+    {SelfName}'s effects are |p:randomized| each round.
+
+    |Average amount of effects|: |e:{AmountF}|.
+  InstabilityBlock: Gain {BlockValue} |Block|.
+  InstabilityBarrier: Gain {ShieldValue} |Barrier|.
+  InstabilityMana: Gain {ManaValue}.
+  InstabilityScry: '|Scry| {ScryValue}.'
+  InstabilityDream: '|Dream| {DreamValue}.'
+  InstabilityCleanse: Remove all debuffs from {PlayerName}.
+  InstabilityHeal: Gain {HealValue} life.
+  InstabilityGold: Gain {GoldValue} <sprite="Point" name="Gold">.
+  InstabilityPower: Gain {PowerValue} <sprite="Point" name="Power">.
+  InstabilityUpgrade: '|Upgrade| all cards in the hand until the end of combat.'
+  InstabilityDamage1: Deal {DamageValue} damage.
+  InstabilityDamage2: Deal {DamageValue} damage to each enemy.
+  InstabilityDamage3: Deal {DamageValue} damage to a random enemy.
+  InstabilityAdd1: Add {AddValue1} |{Add}| to the hand. {AddValue1:plural one='It |temporarily costs|' other='They |temporarily cost|'} {AddManaValue} and {AddValue1:plural one='has' other='have'} |Exile| and |Ethereal|.
+  InstabilityAdd2: Add {AddValue1} random card{AddValue1:plural one='' other='s'} to the hand. {AddValue1:plural one='It |temporarily costs|' other='They |temporarily cost|'} {AddManaValue} and {AddValue1:plural one='has' other='have'} |Exile| and |Ethereal|.
+  InstabilityAdd3: Choose {AddValue1} of {AddValue2} random card{AddValue2:plural one='' other='s'} to add to the hand. {AddValue1:plural one='It |temporarily costs|' other='They |temporarily cost|'} {AddManaValue} and {AddValue1:plural one='has' other='have'} |Exile| and |Ethereal|.
+  InstabilityDraw1: Draw {DrawValue:plural one='% card' other='% cards'}.
+  InstabilityDraw2: Draw cards until the hand is full.
+  InstabilityDiscard1: Discard up to {DiscardValue:plural one='% card' other='% cards'}.
+  InstabilityDiscard2: Discard all cards in the hand.
+  InstabilityExile1: "|Exile| up to {ExileValue:plural one='% card' other='% cards'} in the hand, draw pile, and discard pile."
+  InstabilityExile2: '|Exile| each card in the hand.'
+  InstabilityMove1: Choose up to {MoveValue:plural one='% card' other='% cards'} from the draw pile and put it into the hand.
+  InstabilityMove2: Choose up to {MoveValue:plural one='% card' other='% cards'} from the discard pile and put it into the hand.
+  InstabilityRetain1: Choose up to {RetainValue:plural one='% card' other='% cards'} in the hand. |Retain| {RetainValue:plural one='it' other='them'} this turn.
+  InstabilityRetain2: '|Retain| the hand this turn.'
+  InstabilityBuff1: Gain {BuffValue1} |{Buff1}|.
+  InstabilityBuff2: Gain {BuffValue1} |{Buff1}| and {BuffValue2} |{Buff2}|.
+  InstabilityDebuff1: Apply {DebuffValue} |{Debuff}|.
+  InstabilityDebuff2: Apply {DebuffValue} |{Debuff}| to each enemy.
+  Name: Instability
+  DetailText: '{SelfName} cannot be randomly generated in combat, and cannot be copied.'

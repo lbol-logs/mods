@@ -1,0 +1,4 @@
+﻿AyaTengusFallWindSe:
+  Brief: 接下来的牌被使用两次。
+  Description: 接下来的 {Level:plural one='% 张牌' other='% 张牌'} 被使用两次。
+  Name: 天狗秋风

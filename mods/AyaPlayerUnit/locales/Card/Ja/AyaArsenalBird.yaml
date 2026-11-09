@@ -1,0 +1,26 @@
+﻿AyaArsenalBird:
+  Description: >-
+    |ディフェンスマトリックス|{Value1}を得る。
+
+    {PlayerName}のターン開始時、|無人航空鴉|を召喚済みの状態で手札に加える。
+
+    この効果は重複しない。
+  UpgradedDescription: >-
+    |ディフェンスマトリックス|{Value1}を得る。
+
+    {PlayerName}のターン開始時、|無人航空鴉|を召喚済みの状態で手札に加える。
+
+    この効果は重複しない。
+
+    {SelfName}の効果を1回発動する。
+  PhantasmModeDescription: >-
+    {PlayerName}のターン開始時、|無人航空鴉|を召喚済みの状態で手札に加える。
+
+    この効果は重複しない。
+  PhantasmModeUpgradedDescription: >-
+    {PlayerName}のターン開始時、|無人航空鴉|を召喚済みの状態で手札に加える。
+
+    この効果は重複しない。
+
+    {SelfName}の効果を1回発動する。
+  Name: アーセナルバード

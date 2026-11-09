@@ -1,0 +1,545 @@
+AyaAccelerationSe:
+  Brief: "{OwnerName} 的 |闪避| 在回合结束时恢复到固定值，每 4 点 |加速| 恢复一次。\n每当 {OwnerName} |闪避| 一次攻击时，失去 2 点 |加速|。"
+  Description: "{OwnerName} 的 |闪避| 在回合结束时恢复到 {Count}。\n每当 {OwnerName} |闪避| 一次攻击时，失去 2 点 |加速|。"
+  Name: "加速"
+
+AyaAdventoftheDivineGrandsonSe:
+  Brief: "{PlayerName} 免疫所有减益。\n所有牌被使用两次。"
+  Description: "{PlayerName} 免疫所有减益。\n所有牌被使用两次。"
+  Name: "神孙降临"
+
+AyaAnythingisNewsworthySe:
+  Brief: "每当一张 |不幸| 或状态牌即将被添加时，如果其名称不包含 \"文文新闻\" 或 \"新闻\"，则改为添加一张 |文文新闻|。"
+  Description: "每当一张 |不幸| 或状态牌即将被添加时，如果其名称不包含 \"文文新闻\" 或 \"新闻\"，则改为添加一张 |文文新闻|。"
+  Name: "一切皆可新闻"
+
+AyaApexPredatorSe:
+  Brief: "每当 {PlayerName} 受到攻击伤害时，减少等同于 {PlayerName} 的 |加速| 的伤害，并失去 {Value} 点 |加速|。"
+  Description: "每当 {PlayerName} 受到攻击伤害时，减少等同于 {PlayerName} 的 |加速| 的伤害，并失去 {Value} 点 |加速|。"
+  Name: "顶级掠食者"
+
+AyaArmoredRavenSe:
+  Brief: "{PlayerName} 回合中使用的第一张攻击牌被使用两次。\n{PlayerName} 回合中使用的第一张状态牌被使用两次。"
+  Description: "{PlayerName} 回合中使用的前 {Limit} 张攻击牌{Limit:plural one='' other=''} 被使用两次。（剩余 {Level} 次）\n{PlayerName} 回合中使用的前 {Limit} 张状态牌{Limit:plural one='' other=''} 被使用两次。（剩余 {Count} 次）"
+  Name: "装甲乌鸦"
+
+AyaArsenalBirdSe:
+  Brief: "在 {PlayerName} 的回合开始时，将 |无人空中乌鸦| 加入手牌。"
+  Description: "在 {PlayerName} 的回合开始时，将 |无人空中乌鸦| 加入手牌。\n|巡逻模式中的无人空中乌鸦|: {Count}\n|战斗模式中的无人空中乌鸦|: {Level}"
+  Name: "军火鸟"
+
+AyaBlackmailSe:
+  Brief: "|文文新闻| 还会施加 |暂失火力| 并在激活时获得 <sprite=\"Point\" name=\"Gold\">。"
+  Description: "|文文新闻| 还会施加 {Level} |暂失火力| 并在激活时获得 {Count} <sprite=\"Point\" name=\"Gold\">。"
+  Name: "敲诈"
+  Blackmail1Aya: "试图揭露真相的记者正在遭受攻击！"
+  Blackmail2Aya: "看看他们在做什么！这就是他们罪行的证据！"
+  Blackmail3Aya: "当地居民对记者施暴！这是试图推翻幻想乡吗？"
+  BlackmailMegumu1Megumu: "哦，你是想敲诈我吗？"
+  BlackmailMegumu2Megumu: "准备好今天宴会上裸舞吧，无论如何。"
+  BlackmailEiki1Eiki: "诈骗和敲诈。刑期延长一年。"
+
+AyaBossKoishiSe:
+  Brief: "{OwnerName} 的生命值未知。\n在 {OwnerName} 的回合开始时，她只失去一半的 |护盾| 而不是全部。\n每当某些牌被使用时，{OwnerName} 立即行动一次，不会结束 {PlayerName} 的回合。"
+  Description: "{OwnerName} 的生命值未知。\n在 {OwnerName} 的回合开始时，她只失去一半的 |护盾| 而不是全部。\n每当 {Limit} 张牌被使用时，{OwnerName} 立即行动一次，不会结束 {PlayerName} 的回合。\n|d:（剩余 {Count:plural one='% 张牌' other='% 张牌'}。）|"
+  Name: "闭锁的恋之瞳"
+
+AyaBossZUNSe:
+  Brief: "无效所有针对 {OwnerName} 的牌、伤害和状态效果。\n在所有其他敌人被击败后，{OwnerName} 离开战斗。"
+  Description: "无效所有针对 {OwnerName} 的牌、伤害和状态效果。\n在所有其他敌人被击败后，{OwnerName} 离开战斗。"
+  Name: "博丽神主"
+
+AyaBunbunmaruPrinterSe:
+  Brief: "在 {PlayerName} 的回合开始时，将 |文文新闻| 加入手牌。它们 |临时消耗| {Mana}。"
+  Description: "在 {PlayerName} 的回合开始时，将 |{Level:plural one='% 文文新闻' other='% 文文新闻'}| 加入手牌。{Level:plural one='它 |临时消耗|' other='它们 |临时消耗|'} {Mana}。"
+  PhantasmModeDescription: "在 {PlayerName} 的回合开始时，将 |{Level:plural one='% 文文新闻' other='% 文文新闻'}| 加入手牌。"
+  Name: "文文新闻印刷机"
+
+AyaConfig:
+  AyaPhantasmMode: "削弱了许多卡牌和展品。"
+  AyaRecords: "如果手动编辑，可能会导致错误。"
+  FlandreSong: "当满足条件时，Flandre 会开始唱歌并切换当前背景音乐。\n数值：-1 -> Flandre 永远不会唱歌。0 -> 每次都会询问。1 -> Flandre 总是会唱歌。2 -> 有 50% 的概率唱歌。"
+  FlandreSongCondition: "弗兰德尔开始唱歌的必要条件。\n数值：0 -> 在第4幕 boss战中，当 boss 血量 <= 33% 且弗兰德尔血量 >= 67% 时。1 -> 在第5幕 boss战中，当 boss 血量 <= 33% 且弗兰德尔血量 >= 67% 时。"
+  FlandreSongList: ""
+
+AyaCrazyFallWindSe:
+  Brief: "每当一张牌被|放逐|时，获得 |加速|。"
+  Description: "每当一张牌被|放逐|时，获得 {Level} |加速|。"
+  Name: "疯狂秋风"
+
+AyaCrossroadsofHeavenSe:
+  Brief: "每当 {PlayerName} 获得 |加速| 时，获得更多 |加速|。"
+  Description: "每当 {PlayerName} 获得 |加速| 时，获得 {Level} 更多 |加速|。"
+  Name: "天之十字路口"
+
+AyaDaymareintheDarkNightSe:
+  Brief: "直到 {PlayerName} 的下一个回合，每当 {PlayerName} 获得 |加速| 时，对生命值最低的敌人造成 |精准| 攻击伤害。"
+  Description: "直到 {PlayerName} 的下一个回合，每当 {PlayerName} 获得 |加速| 时，对生命值最低的敌人造成 {Damage} |精准| 攻击伤害。"
+  Name: "暗夜中的白日梦"
+
+AyaDeaMachinaSe:
+  Brief: ""
+  Description: ""
+  Name: ""
+
+AyaDecelerationSe:
+  Brief: "如果玩家拥有至少 X 点 |加速|，则激活，消耗该 |加速|。"
+  Description: "如果玩家拥有至少 X 点 |加速|，则激活，消耗该 |加速|。"
+  Name: "减速 X"
+
+AyaEffortlessFlightSe:
+  Brief: "在 {PlayerName} 的回合开始时，获得 |加速|。"
+  Description: "在 {PlayerName} 的回合开始时，获得 {Level} |加速|。"
+  Name: "轻松飞行"
+
+AyaFriendAyaSe:
+  Brief: "{PlayerName} 无法获得 |护盾| 或 |护盾|。\n{PlayerName} 免疫所有伤害和减益。\n未使用的法力不会在每回合结束时丢失。\n最大手牌数变为 {MaxHand}。\n每当 {PlayerName} 使用一张牌时，将抽牌堆顶的一张牌加入手牌，获得 {Mana} 和 {Value} |加速|。\n|加速| 增加攻击造成的伤害。"
+  Description: "{PlayerName} 无法获得 |护盾| 或 |护盾|。\n{PlayerName} 免疫所有伤害和减益。\n未使用的法力不会在每回合结束时丢失。\n最大手牌数变为 {MaxHand}。\n每当 {PlayerName} 使用一张牌时，将抽牌堆顶的一张牌加入手牌，获得 {Mana} 和 {Value} |加速|。\n|加速| 增加攻击造成的伤害。"
+  Name: "照天辉地"
+
+AyaFriendCirnoSe:
+  Brief: "每当 {OwnerName} 受到攻击伤害时，失去生命值并增加 {SelfName} 相同数值。\n在 {OwnerName} 的回合结束时，失去 |最终冻结|。"
+  Description: "每当 {OwnerName} 受到攻击伤害时，失去 {Level} 点生命值并增加 {SelfName} 相同数值。\n在 {OwnerName} 的回合结束时，失去 |最终冻结|。"
+  Name: "最终冻结"
+
+AyaFriendMegumuSe:
+  Brief: "每当一张 |不幸| 或状态牌被|放逐|时，获得 <sprite=\"ManaSprite\" name=\"P\"> 并抽一张牌。"
+  Description: "每当一张 |不幸| 或状态牌被|放逐|时，获得 {Level} <sprite=\"ManaSprite\" name=\"P\"> 并抽 {Level:plural one='% 张牌' other='% 张牌'}。"
+  Name: "彩虹照明\u300C清风明月\u300D"
+
+AyaHraesvelgrofTerminusSe:
+  Brief: "所有敌人的 |护盾|、|护盾| 和增益在一定回合内无效。"
+  Description: "所有敌人的 |护盾|、|护盾| 和增益 {Duration:plural one='% 回合' other='% 回合'} 无效。"
+  Name: "终末之鹰"
+
+AyaInstantShotJournalistSe:
+  Brief: "{PlayerName} 在一定回合内无法失去 |加速|。"
+  Description: "{PlayerName} {Duration:plural one='% 回合' other='% 回合'} 无法失去 |加速|。"
+  Name: "瞬间射击记者"
+
+AyaMountainGodsProcessionSe:
+  Brief: "每当 {PlayerName} 获得 |加速| 时，获得 <sprite=\"ManaSprite\" name=\"P\">。"
+  Description: "每当 {PlayerName} 获得 |加速| 时，获得 {Level} <sprite=\"ManaSprite\" name=\"P\">。"
+  Name: "山神巡游"
+
+AyaNewsOverwhelmingSe:
+  Brief: "每当一张 |不幸| 或状态牌（非 |复制|）被|放逐|时，将 |文文新闻| 的 |复制| 加入手牌。它 |临时消耗| {Mana}。"
+  Description: "每当一张 |不幸| 或状态牌（非 |复制|）被|放逐|时，将 {Level:plural one='% |复制|' other='% |复制|'} 的 |文文新闻{Level:plural one='' other=''}| 加入手牌。{Level:plural one='它 |临时消耗|' other='它们 |临时消耗|'} {Mana}。"
+  Name: "新闻压倒性"
+
+AyaOrbBlackSe:
+  Brief: "每当一张黑色牌即将被使用时，如果其目标是 {OwnerName}，则改为将其送入弃牌堆。"
+  Description: "每当一张黑色牌即将被使用时，如果其目标是 {OwnerName}，则改为将其送入弃牌堆。"
+  Name: "黑色精华"
+
+AyaOrbBlackDreamExpressSe:
+  Brief: "在 {OwnerName} 的回合结束时，|梦境| 一些牌，然后对 {PlayerName} 造成等于 |梦境| 牌总成本两倍的伤害。"
+  Description: "在 {OwnerName} 的回合结束时，|梦境| {Level} 张牌，然后对 {PlayerName} 造成等于 {Level:plural one='总成本' other='总成本之和'} 两倍的伤害。"
+  Name: "梦境快车"
+
+AyaOrbBlackUnexplainedFeverSe:
+  Brief: "在 {OwnerName} 的回合结束时，对 {PlayerName} 施加 |中毒|。"
+  Description: "在 {OwnerName} 的回合结束时，对 {PlayerName} 施加 {Level} |中毒|。"
+  Name: "不明发热"
+
+AyaOrbBlueSe:
+  Brief: "每当一张蓝色牌即将被使用时，如果其目标是 {OwnerName}，则改为将其送入弃牌堆。"
+  Description: "每当一张蓝色牌即将被使用时，如果其目标是 {OwnerName}，则改为将其送入弃牌堆。"
+  Name: "蓝色精华"
+
+AyaOrbBlueTheReclusiveSageSe:
+  Brief: "在 {OwnerName} 的回合结束时，将 |虚假之月| 加入抽牌堆。"
+  Description: "在 {OwnerName} 的回合结束时，将 {Level} |虚假之月{Level:plural one='' other=''}| 加入抽牌堆。"
+  Name: "隐居的贤者"
+
+AyaOrbColorlessPoweroftheOrdinarySe:
+  Brief: "在一张普通牌被使用后，{OwnerName} 获得 |临时火力|。"
+  Description: "在一张普通牌被使用后，{OwnerName} 获得 {Level} |临时火力|。"
+  Name: "平凡之力"
+
+AyaOrbColorlessSe:
+  Brief: "每当一张无色牌即将被使用时，如果其目标是 {OwnerName}，则改为将其送入弃牌堆。"
+  Description: "每当一张无色牌即将被使用时，如果其目标是 {OwnerName}，则改为将其送入弃牌堆。"
+  Name: "无色精华"
+
+AyaOrbGreenSe:
+  Brief: "每当一张绿色牌即将被使用时，如果其目标是 {OwnerName}，则改为将其送入弃牌堆。"
+  Description: "每当一张绿色牌即将被使用时，如果其目标是 {OwnerName}，则改为将其送入弃牌堆。"
+  Name: "绿色精华"
+
+AyaOrbPhilosophySe:
+  Brief: "每当一张多色牌即将被使用时，如果其目标是 {OwnerName}，则改为将其送入弃牌堆。"
+  Description: "每当一张多色牌即将被使用时，如果其目标是 {OwnerName}，则改为将其送入弃牌堆。"
+  Name: "哲学家精华"
+
+AyaOrbRedIndiscriminateIgnitionSe:
+  Brief: "在 {OwnerName} 的回合结束时，对 {PlayerName} 造成伤害。\n当一张 |不幸| 或状态牌被抽到时，也会发生此效果。"
+  Description: "在 {OwnerName} 的回合结束时，对 {PlayerName} 造成 {Level} 点伤害。\n当一张 |不幸| 或状态牌被抽到时，也会发生此效果。"
+  Name: "无差别点火"
+
+AyaOrbRedSe:
+  Brief: "每当一张红色牌即将被使用时，如果其目标是 {OwnerName}，则改为将其送入弃牌堆。"
+  Description: "每当一张红色牌即将被使用时，如果其目标是 {OwnerName}，则改为将其送入弃牌堆。"
+  Name: "红色精华"
+
+AyaOrbSe:
+  Brief: "在 {OwnerName} 的回合开始时，他们只失去一半的 |护盾| 而不是全部。\n{OwnerName} 受到的伤害减少。\n每当抽牌堆被洗牌时，获得 {Value1} |创造者遗产|。\n在 {OwnerName} 的回合结束时，失去 {Value2} |创造者遗产|。"
+  Description: "在 {OwnerName} 的回合开始时，他们只失去一半的 |护盾| 而不是全部。\n{OwnerName} 受到的伤害减少 {Level}%。\n每当抽牌堆被洗牌时，获得 {Value1} |创造者遗产|。\n在 {OwnerName} 的回合结束时，失去 {Value2} |创造者遗产|。"
+  Name: "创造者遗产"
+
+AyaOrbWhiteSe:
+  Brief: "每当一张白色牌即将被使用时，如果其目标是 {OwnerName}，则改为将其送入弃牌堆。"
+  Description: "每当一张白色牌即将被使用时，如果其目标是 {OwnerName}，则改为将其送入弃牌堆。"
+  Name: "白色精华"
+
+AyaOrbWhiteSuperspeedFlierSe:
+  Brief: "在 {OwnerName} 的下一个回合开始时，对 {PlayerName} 造成伤害。"
+  Description: "在 {OwnerName} 的下一个回合开始时，对 {PlayerName} 造成 {Level} 点伤害。"
+  Name: "超速飞行者"
+
+AyaPanoramaSe:
+  Brief: "|文文新闻特别版| 的数值增加。"
+  Description: "|文文新闻特别版| 的数值增加 {Level}。"
+  Name: "全景"
+
+AyaPassiveSe:
+  Brief: "|文文新闻| 造成 {Value1} 点伤害，施加 {Value2} |锁定| 并具有 |补充|。\n|稻草人灵异新闻| 具有 |补充|。\n|不幸| 和状态牌失去 |不可使用| 并获得 |放逐|。\n它们根据稀有度获得法力消耗。"
+  Description: "|文文新闻| 造成 {Value1} 点伤害，施加 {Value2} |锁定| 并具有 |补充|。\n|稻草人灵异新闻| 具有 |补充|。\n|不幸| 和状态牌失去 |不可使用| 并获得 |放逐|。\n它们根据稀有度获得法力消耗。"
+  Name: "幻想乡的传统记者"
+
+AyaPatchouliSe:
+  Brief: "如果 {OwnerName} 拥有 |护盾|，每当 {OwnerName} 即将受到一定数值或更少的伤害时，改为受到 0 点伤害。"
+  Description: "如果 {OwnerName} 拥有 |护盾|，每当 {OwnerName} 即将受到 {Level} 点或更少的伤害时，改为受到 0 点伤害。"
+  Name: "魔法护盾"
+
+AyaPerfectGrazeSe:
+  Brief: "{OwnerName} 从 |精准| 攻击中受到 0 点伤害。\n当受到 |精准| 攻击时，失去 1 点 |完美闪避|。"
+  Description: "{OwnerName} 从接下来的 {Level:plural one='% 次 |精准| 攻击' other='% 次 |精准| 攻击'} 中受到 0 点伤害。\n当受到 |精准| 攻击时，失去 1 点 |完美闪避|。"
+  Name: "完美闪避"
+
+AyaPlayerUnitAllySe:
+  Brief: "{OwnerName} 将与 {PlayerName} 并肩作战！{OwnerName} 免疫所有减益且无法被攻击。"
+  Description: "{OwnerName} 将与 {PlayerName} 并肩作战！{OwnerName} 免疫所有减益且无法被攻击。"
+  Name: "真正的队友"
+
+AyaPlayerUnitBuddySe:
+  Brief: "{OwnerName} 不想战斗。"
+  Description: "{OwnerName} 不想战斗。"
+  Name: "颤抖的心"
+
+AyaProtectionPaperSe:
+  Brief: "每当一张 |不幸| 或状态牌被|放逐|时，获得 |护盾|。"
+  Description: "每当一张 |不幸| 或状态牌被|放逐|时，获得 {Level} |护盾|。"
+  Name: "保护纸"
+
+AyaQuickShootingTenguScoopSe:
+  Brief: "状态牌在本回合内消耗减少 {Mana}。"
+  Description: "状态牌在本回合内消耗减少 {Mana}。"
+  ExtraDescription: "牌在本回合内消耗减少 {Mana}。"
+  Name: "快速射击天狗独家新闻"
+
+AyaRouteForbiddentoManSe:
+  Brief: "在 {PlayerName} 的回合结束时，对随机敌人造成 |精准| 攻击伤害并施加 |锁定|，每张本回合被|放逐|的牌触发一次，最多触发一定次数。"
+  Description: "在 {PlayerName} 的回合结束时，对随机敌人造成 {Damage} |精准| 攻击伤害并施加 {Limit} |锁定|，每张本回合被|放逐|的牌触发一次，最多触发 {Value} 次。\n（累计次数：{Count}）"
+  PhantasmModeDescription: "在 {PlayerName} 的回合结束时，对随机敌人造成 {Damage} |精准| 攻击伤害，每张本回合被|放逐|的牌触发一次，最多触发 {Value} 次。\n（累计次数：{Count}）"
+  Name: "禁止人类之路"
+
+AyaSickleWeaselVeilingSe:
+  Brief: "每当 {PlayerName} 从攻击中受到 0 点伤害时，对攻击者造成伤害。"
+  Description: "每当 {PlayerName} 从攻击中受到 0 点伤害时，对攻击者造成 {Level} 点伤害。"
+  Name: "镰鼬之幕"
+
+AyaTakaneSe:
+  Brief: "{OwnerName} 非常愤怒。\n{OwnerName} 的最大生命值增加，并造成更多伤害。"
+  Description: "{OwnerName} 非常愤怒。\n{OwnerName} 的最大生命值增加 {Value}%，并造成 {Level}% 更多伤害。"
+  Name: "愤怒的店主"
+
+AyaTakaneCenturysDoppelgangersSe:
+  Brief: "{OwnerName} 攻击次数翻倍。"
+  Description: "{OwnerName} 攻击次数翻倍。"
+  Name: "世纪的分身"
+
+AyaTakaneEndofImperishableNightSe:
+  Brief: "在 {OwnerName} 的 |自然回合| 结束时，进行一个额外回合。"
+  Description: "在 {OwnerName} 的 |自然回合| 结束时，进行一个额外回合。"
+  Name: "\"永夜终末\""
+
+AyaTanukiAMOLEDSe:
+  Brief: "抵消即将到来的黑暗。\n|d:（此效果无效。）|"
+  Description: "抵消接下来的 {Level:plural one='% 次黑暗' other='% 次黑暗'}。\n|d:（此效果无效。）|"
+  Name: "AMOLED"
+
+AyaTanukiExtremeTurnSe:
+  Brief: "在 {OwnerName} 的回合结束后，进行极限回合。\n|d:（此效果无效。）|"
+  Description: "{OwnerName} 将进行 {Level:plural one='% 次极限回合' other='% 次极限回合'}。\n|d:（此效果无效。）|"
+  Name: "极限回合"
+
+AyaTanukiGravySe:
+  Brief: "{OwnerName} 从烧焦的肉中受到 0 点伤害。\n当受到攻击或每回合开始时，失去 1 点 |肉汁|。\n|d:（此效果无效。）|"
+  Description: "{OwnerName} 从接下来的 {Level:plural one='% 次烧焦的肉' other='% 次烧焦的肉'} 中受到 0 点伤害。\n当受到攻击或回合开始时，失去 1 点 |肉汁|。\n|d:（此效果无效。）|"
+  Name: "肉汁"
+
+AyaTanukiOpticalChameleonSe:
+  Brief: "变色龙在一定回合内受到的攻击伤害减半。\n|d:（此效果无效。）|"
+  Description: "变色龙 {Duration:plural one='直到回合结束' other='在接下来的 % 回合内'} 受到的攻击伤害减半。\n|d:（此效果无效。）|"
+  Name: "光学变色龙"
+
+AyaTanukiSpriteSe:
+  Brief: "|精灵| 增加。|精灵| 为 {OwnerName} 补充水分。\n|d:（此效果无效。）|"
+  Description: "获得 {Level} |精灵|。\n|精灵| 为 {OwnerName} 补充水分。\n|d:（此效果无效。）|"
+  Name: "精灵"
+
+AyaTanukiWaterpowerSe:
+  Brief: "|水力| 增加。|水力| 增加攻击的湿润度。\n|d:（此效果无效。）|"
+  Description: "获得 {Level} |水力|。\n|水力| 增加攻击的湿润度。\n|d:（此效果无效。）|"
+  Name: "水力"
+
+AyaTanukiWindGodGrillSe:
+  Brief: "每当 {OwnerName} 获得 |风神烤架| 时，她获得等量的 |肉汁|。\n{OwnerName} 的 |肉汁| 在回合结束时恢复到固定值。"
+  Description: "{OwnerName} 的 |肉汁| 在回合结束时恢复到 {Level}。"
+  Name: "风神烤架"
+
+AyaTenguNewspaperDeadlineDaySe:
+  Brief: "所有 |不幸| 和状态牌具有 |补充|。"
+  Description: "所有 |不幸| 和状态牌具有 |补充|。"
+  Name: "天狗新闻截稿日"
+
+AyaTenguTreeFellingSe:
+  Brief: "接下来使用的几张牌消耗减少 {Mana}。"
+  Description: "接下来使用的 {Level} 张牌{Level:plural one='' other=''} 消耗减少 {Mana}。"
+  PhantasmModeDescription: "直到回合结束，接下来使用的 {Level} 张牌{Level:plural one='' other=''} 消耗减少 {Mana}。"
+  Name: "天狗伐木"
+
+AyaTengusDrumbeatsSe:
+  Brief: "在 {PlayerName} 的下一个回合开始时，对每个敌人造成 |精准| 攻击伤害并获得 |临时火力|。"
+  Description: "在 {PlayerName} 的下一个回合开始时，对每个敌人造成 {Damage} |精准| 攻击伤害并获得 {Count} |临时火力|。"
+  PhantasmModeDescription: "在 {PlayerName} 的下一个回合开始时，对每个敌人造成 {Damage} |精准| 攻击伤害。"
+  Name: "天狗鼓声"
+
+AyaTengusFallWindSe:
+  Brief: "接下来的牌被使用两次。"
+  Description: "接下来的 {Level:plural one='% 张牌' other='% 张牌'} 被使用两次。"
+  Name: "天狗秋风"
+
+AyaToolCrowsEggSe:
+  Brief: "在 {PlayerName} 的回合开始时，获得生命值和 |临时火力|，然后失去 1 点 |乌鸦蛋|。"
+  Description: "在 {PlayerName} 的回合开始时，获得 {Duration} 点生命值和 {Duration} |临时火力|，然后失去 1 点 |乌鸦蛋|。"
+  Name: "乌鸦蛋"
+
+AyaWindGodsLeafVeilingSe:
+  Brief: "所有针对 {OwnerName} 的攻击获得 |精准|。"
+  Description: "所有针对 {OwnerName} 的攻击获得 |精准|。"
+  Name: "风神叶幕"
+
+FlandreBloodyCatastropheSe:
+  Brief: "{PlayerName} 的攻击变为 |精准|，直到战斗结束。"
+  Description: "{PlayerName} 的攻击变为 |精准|，直到战斗结束。"
+  Name: "血腥灾难"
+
+FlandreBloodyRequiemSe:
+  Brief: "所有攻击造成双倍伤害并施加双倍 |地狱火|，持续一定回合。"
+  Description: "所有攻击造成双倍伤害并施加双倍 |地狱火|，持续 {Duration:plural one='% 回合' other='% 回合'}。"
+  Name: "血腥安魂曲"
+
+FlandreBrimstoneSe:
+  Brief: "下一次触发的 |地狱火| 对每个敌人造成 {Value} 倍伤害。"
+  Description: "接下来的 {Level} 次触发的 |地狱火| 对每个敌人造成 {Value} 倍伤害。"
+  Name: "硫磺"
+
+FlandreChromaticWingsSe:
+  Brief: "在 {PlayerName} 的回合开始时，添加 <sprite=\"ManaSprite\" name=\"P\">。"
+  Description: "在 {PlayerName} 的回合开始时，添加 {Level} <sprite=\"ManaSprite\" name=\"P\">。"
+  Name: "彩色之翼"
+
+FlandreClockthatTicksAwaythePastSe:
+  Brief: "跳过回合开始的抽牌阶段，改为将弃牌堆顶的牌返回手牌。"
+  Description: "跳过回合开始的抽牌阶段，改为将弃牌堆顶的 {Limit} 张牌返回手牌。"
+  ExtraDescription: "跳过回合开始的抽牌阶段，改为将弃牌堆顶的 {Limit} 张牌返回手牌。\n{SelfName} 处于非活动状态，仅在解决后移除。"
+  Name: "流逝过去的时钟"
+
+FlandreColorofMadnessSe:
+  Brief: "每当一张攻击牌被激活时，使用随机 |水晶|。"
+  Description: "每当一张攻击牌被激活时，使用 {Level} 个随机的 {Level:plural one='|水晶|' other='|水晶|'}。"
+  Name: "疯狂之色"
+
+FlandreCranberryTrapSe:
+  Brief: "在 {PlayerName} 的回合结束时，对每个敌人造成 |精准| 攻击伤害。\n当 {PlayerName} 因敌人失去生命值时，将所有 |蔓越莓陷阱| 转化为 |护盾|。"
+  Description: "在 {PlayerName} 的回合结束时，对每个敌人造成 {Damage} |精准| 攻击伤害。\n当 {PlayerName} 因敌人失去生命值时，将所有 |蔓越莓陷阱| 转化为 |护盾|。"
+  Name: "蔓越莓陷阱"
+
+FlandreCrystallineOutburstSe:
+  Brief: "当 |水晶| 激活时，触发其所有效果。\n|疯狂水晶| 会给予 <sprite=\"ManaSprite\" name=\"P\"> 而不是随机法力。"
+  Description: "当 |水晶| 激活时，触发其所有效果。\n|疯狂水晶| 会给予 <sprite=\"ManaSprite\" name=\"P\"> 而不是随机法力。"
+  Name: "水晶爆发"
+
+FlandreDanmakuofDenialSe:
+  Brief: "在一张攻击牌被激活后，获得 |护盾|。"
+  Description: "在一张攻击牌被激活后，获得 {Level} |护盾|。"
+  Name: "否定弹幕"
+
+FlandreDestroySe:
+  Brief: "击败目标。"
+  Description: "击败目标。"
+  Name: "消灭"
+
+FlandreDoombringerSe:
+  Brief: "在 {PlayerName} 的回合开始时，获得 |崩坏|。"
+  Description: "在 {PlayerName} 的回合开始时，获得 {Level} |崩坏|。"
+  Name: "厄运使者"
+
+FlandreDoomsdayClockSe:
+  Brief: "{PlayerName} 获得双倍 |崩坏|。\n经过一定回合后，将 |灭世兵器| 加入手牌。"
+  Description: "{PlayerName} 获得双倍 |崩坏|。\n在 {PlayerName} 的 {Countdown:ordinal one='下一个' two='%nd' few='%rd' other='%th'} 回合 {Countdown:plural one='' other='开始'} 时，将 |大规模杀伤性武器| 加入手牌。"
+  ExtraDescription: "{PlayerName} 获得双倍 |崩坏|。\n|d:在 {PlayerName} 的 {Countdown:ordinal one='下一个' two='%nd' few='%rd' other='%th'} 回合 {Countdown:plural one='' other='开始'} 时，将大规模杀伤性武器加入手牌。|"
+  Name: "末日时钟"
+
+FlandreCalamitySe:
+  Brief: "敌人受到伤害时, 额外受到等同于 |崩坏| 层数的伤害.\n每回合开始时失去一层 |崩坏| 。"
+  Description: "每当敌人受到伤害时，额外受到 {Level} 点伤害。\n每回合开始时失去 1 点 |崩坏|。"
+  Name: "崩坏"
+
+FlandreForbiddenGamesSe:
+  Brief: "敌人无法行动，持续一定回合。"
+  Description: "敌人 {Duration:plural one='直到回合结束' other='在接下来的 % 回合内'} 无法行动。"
+  Name: "禁忌游戏"
+
+FlandreFragmentsofLightSe:
+  Brief: "在 {PlayerName} 的回合开始时，将随机 |水晶| 加入手牌。"
+  Description: "在 {PlayerName} 的回合开始时，将 {Level} 个随机的 {Level:plural one='|水晶|' other='|水晶|'} 加入手牌。"
+  Name: "光之碎片"
+
+FlandreFranticDestroyerSe:
+  Brief: "每当一张攻击牌被激活时，获得 <sprite=\"ManaSprite\" name=\"P\"> 并抽一张牌。"
+  Description: "每当一张攻击牌被激活时，获得 {Level} <sprite=\"ManaSprite\" name=\"P\"> 并抽 {Level:plural one='% 张牌' other='% 张牌'}。"
+  Name: "疯狂毁灭者"
+
+FlandreFriendOkinaSe:
+  Brief: "在 {PlayerName} 的回合开始时，从一些 |p:完全随机| 的稀有牌中选择 1 张加入手牌。它临时消耗 {Mana} 并具有|放逐|和 |虚无|。"
+  Description: "在 {隐秘的时空幻游} 的回合开始时，从 {Level} 张 |p:完全随机| 的稀有牌{Level:plural one='' other=''} 中选择 1 张加入手牌。它临时消耗 {Mana} 并具有|放逐|和 |虚无|。"
+  Name: "隐秘时空幻想之旅"
+
+FlandreFriendOkinaFallSe:
+  Brief: "每当一张牌被|放逐|时，获得 |闪避|。"
+  Description: "每当一张牌被|放逐|时，获得 {Level} |闪避|。"
+  Name: "里·疯狂秋风"
+
+FlandreFriendOkinaSpringSe:
+  Brief: "在 {PlayerName} 的回合开始时，获得生命值、|护符| 和 |守护|。"
+  Description: "在 {PlayerName} 的回合开始时，获得 {Level} 点生命值、{Level} |护符| 和 |守护|。"
+  Name: "里·吹拂樱花"
+
+FlandreFriendOkinaSummerSe:
+  Brief: "每当 {PlayerName} 使用一些牌时，对每个敌人造成 |精准| 攻击伤害并施加 |寒冷|。"
+  Description: "每当 {PlayerName} 使用 {Limit:plural one='% 张牌' other='% 张牌'} 时，对每个敌人造成 {Level} |精准| 攻击伤害并施加 |寒冷|。\n剩余 {Count:plural one='% 张牌' other='% 张牌'}。"
+  Name: "里·完美夏冰"
+
+FlandreFriendOkinaWinterSe:
+  Brief: "每当一张牌被使用时，获得 |充能|。"
+  Description: "每当一张牌被使用时，获得 {Level} |充能|。"
+  Name: "里·极端寒冬"
+
+FlandreHellonEarthSe:
+  Brief: "当 |地狱火| 触发时，它会额外触发多次。"
+  Description: "当 |地狱火| 触发时，它会额外触发 {Level} 次{Level:plural one='' other=''}。"
+  Name: "人间地狱"
+
+FlandreHellfireSe:
+  Brief: "{OwnerName} 在回合开始时失去生命值。"
+  Description: "{OwnerName} 在回合开始时失去 {Level} 点生命值。"
+  Name: "地狱火"
+
+FlandreKagomeKagomeSe:
+  Brief: "接下来激活的牌造成额外伤害，数值等于 {PlayerName} 的 |护盾|。"
+  Description: "接下来激活的 {Level:plural one='% 张牌' other='% 张牌'} 造成额外伤害，数值等于 {PlayerName} 的 |护盾|。"
+  Name: "笼中鸟"
+
+FlandreMazeofLoveSe:
+  Brief: "在 {PlayerName} 的下一个回合开始时，对每个敌人施加 |暂失火力|。"
+  Description: "在 {PlayerName} 的下一个回合开始时，对每个敌人施加 {Level} |暂失火力|。"
+  Name: "爱之迷宫"
+
+FlandreMindsEyeSe:
+  Brief: "下一次 {PlayerName} 造成或受到攻击伤害时，双倍伤害或防止伤害。"
+  Description: "接下来的 {Level:plural one='% 次' other='% 次'} {PlayerName} 造成或受到攻击伤害时，双倍伤害或防止伤害。"
+  Name: "心眼"
+
+FlandrePassiveSe:
+  Brief: "牌奖励的选择数量增加 {Value1}。\n|脆弱| 对 {PlayerName} 的效果减少 {Value2}%。"
+  Description: "牌奖励的选择数量增加 {Value1}。\n|脆弱| 对 {PlayerName} 的效果减少 {Value2}%。"
+  Name: "绯红之血的恶魔"
+
+FlandreRipplesof495YearsSe:
+  Brief: "{PlayerName} 免疫所有减益。\n将 {PlayerName} 在本场战斗中获得的法力转化为 <sprite=\"ManaSprite\" name=\"P\">。\n每当一张牌被使用时，获得等于该牌消耗的法力。\n所有牌被使用两次。"
+  Description: "{PlayerName} 免疫所有减益。\n将 {PlayerName} 在本场战斗中获得的法力转化为 <sprite=\"ManaSprite\" name=\"P\">。\n每当一张牌被使用时，获得等于该牌消耗的法力。\n所有牌被使用两次。"
+  Name: "495年的涟漪"
+
+FlandreRuinSe:
+  Brief: "如果 {OwnerName} 的生命值低于 |终末|，则 |消灭| 它。"
+  Description: "如果 {OwnerName} 的生命值低于 {Level}，则 |消灭| 它。"
+  Name: "终末"
+
+FlandreSisteroftheDevilSe:
+  Brief: "{PlayerName} 免疫 |虚弱|、|脆弱| 和 |易伤|。\n{PlayerName} 的攻击造成 {Value1}% 更多伤害，从牌中获得 {Value1}% 更多 |护盾| 和 |护盾|，并受到 {Value2}% 更少的攻击伤害。"
+  Description: "{PlayerName} 免疫 |虚弱|、|脆弱| 和 |易伤|。\n{PlayerName} 的攻击造成 {Value1}% 更多伤害，从牌中获得 {Value1}% 更多 |护盾| 和 |护盾|，并受到 {Value2}% 更少的攻击伤害。"
+  PhantasmModeDescription: "{PlayerName} 免疫 |虚弱|、|脆弱| 和 |易伤|。"
+  Name: "恶魔之妹"
+
+FlandreSpellBreakCooldownSe:
+  Brief: "{OwnerName} 在一定回合内免疫 |咒言破碎|。"
+  Description: "{OwnerName} {Duration:plural one='直到回合结束' other='在接下来的 % 回合内'} 免疫 |咒言破碎|。"
+  Name: "咒言破碎冷却"
+
+FlandreSpellBreakSe:
+  Brief: "{OwnerName} 在一定回合内无法行动。"
+  Description: "{OwnerName} {Duration:plural one='直到回合结束' other='在接下来的 % 回合内'} 无法行动。"
+  Name: "咒言破碎"
+
+FlandreTheMousetrapSe:
+  Brief: "在 {PlayerName} 的下一个回合开始时，对每个敌人造成等于上回合所受伤害的伤害。"
+  Description: "在 {PlayerName} 的下一个 {Level:plural one='% 回合' other='% 回合'} 开始时，对每个敌人造成等于上回合所受伤害的伤害。\n（累计伤害：{Count}）"
+  Name: "捕鼠夹"
+
+FlandreThePsychoticandCuteGuestSe:
+  Brief: "每当一张蓝色牌被激活时，获得 |崩坏|。\n每当一张红色牌被激活时，获得 |火力|。"
+  Description: "每当一张蓝色牌被激活时，获得 {Value} |崩坏|。\n每当一张红色牌被激活时，获得 {Level} |火力|。"
+  Name: "狂气甜心"
+
+FlandreUncomfortableSunlightSe:
+  Brief: "在 {PlayerName} 的回合结束时，失去 {Value} 点生命值。"
+  Description: "在 {PlayerName} 的回合结束时，失去 {Value} 点生命值。"
+  Name: "不适的阳光"
+
+FlandreWalpurgisNightSe:
+  Brief: "每当 {PlayerName} 造成攻击伤害时，同时施加等量的 |终末|。"
+  Description: "每当 {PlayerName} 造成攻击伤害时，同时施加等量的 |终末|。"
+  Name: "魔女夜宴"
+
+FlandreWatchtheWorldBurnSe:
+  Brief: "在 {PlayerName} 的回合结束时，对每个敌人施加 |地狱火|。"
+  Description: "在 {PlayerName} 的回合结束时，对每个敌人施加 {Value} |地狱火|。"
+  Name: "彼岸观火"
+
+OkinaPassiveSe:
+  Brief: ""
+  Description: ""
+  Name: "绝对秘神"
+
+ShinkiPassiveSe:
+  Brief: ""
+  Description: ""
+  Name: "魔界之神"
+
+FlandreHotSurfaceSe:
+  Brief: "直到 {PlayerName} 的下一个回合，每当 {PlayerName} 受到攻击伤害时，对攻击者施加 |地狱火|。"
+  Description: "直到 {PlayerName} 的下一个回合，每当 {PlayerName} 受到攻击伤害时，对攻击者施加 {Value} |地狱火|。"
+  Name: "炽热表面"
+
+FlandreBombSe:
+    Brief: "被|放逐|时，对所有敌人造成 |{Damage}| 点 |精准| 伤害，并|放逐|战场上所有 |爆弹| 牌。"
+    Description: "被|放逐|时，对所有敌人造成 |{Damage}| 点 |精准| 伤害，并|放逐|战场上所有 |爆弹| 牌。"
+    Name: 爆弹
+
+FlandreMagicalGirlSe:
+    Brief: "这是一张|魔法少女|牌。部分 |芙兰| 的牌与|魔法少女|牌存在互动效果。"
+    Description: "这是一张|魔法少女|牌。部分 |芙兰| 的牌与|魔法少女|牌存在互动效果。"
+    Name: 魔法少女

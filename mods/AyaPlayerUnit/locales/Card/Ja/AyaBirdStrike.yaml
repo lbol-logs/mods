@@ -1,0 +1,22 @@
+﻿AyaBirdStrike:
+  Description: >-
+    {Damage}ダメージを与える。
+
+    {PlayerName}が持っている|加速|1につき、{SelfName}が与えるダメージは{Value1}増える。
+  UpgradedDescription: >-
+    {Damage}ダメージを与える。
+
+    {PlayerName}が持っている|加速|1につき、{SelfName}が与えるダメージは{Value1}増える。
+  PhantasmModeDescription: >-
+    {Damage}ダメージを与える。
+
+    {PlayerName}が持っている|加速|1につき、{SelfName}が与えるダメージは{Value1}増える。
+
+    {PlayerName}が持っている|加速|の値に等しいダメージを受ける。
+  PhantasmModeUpgradedDescription: >-
+    {Damage}ダメージを与える。
+
+    {PlayerName}が持っている|加速|1につき、{SelfName}が与えるダメージは{Value1}増える。
+
+    {PlayerName}が持っている|加速|の値に等しいダメージを受ける。
+  Name: バードストライク

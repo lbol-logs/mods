@@ -1,0 +1,13 @@
+﻿AyaFriendAya:
+  Description: '{FriendP}|f:十字路口标志「猿田十字」|: 获得 {Value1}|加速|。'
+  ExtraDescription1: '{FriendA}|a:风神「风暴日」|: 每回合只能生效一次。|放逐|手牌中的每张牌。然后，将随机 |升级| 卡牌加入手牌直到手牌满。'
+  ExtraDescription2: '{FriendA}|d:风神「风暴日」: 每回合只能生效一次。放逐手牌中的每张牌。然后，将随机升级卡牌加入手牌直到手牌满。|'
+  ExtraDescription3: '{FriendU}|u:「无与伦比的风神」|: 每场战斗只能生效一次。对所有敌人造成 {Damage} 点攻击伤害，重复 {Value2} 次。敌人本回合无法行动。在{PlayerName}的下个回合开始时重复这些效果。|精准|'
+  ExtraDescription4: '{FriendU}|d:「无与伦比的风神」: 每场战斗只能生效一次。对所有敌人造成 {Damage} 点攻击伤害，重复 {Value2} 次。敌人本回合无法行动。在{PlayerName}的下个回合开始时重复这些效果。精准|'
+  Name: 射命丸文，风神
+  DetailText: >-
+    |召唤时|: 获得 |照天辉地|。
+
+    |p:此卡在任何情况下都不会离开手牌。|
+
+    在{PlayerName}回合结束时，如果此卡的 |团结| 为零，|r:{PlayerName} 输掉游戏。|

@@ -1,0 +1,10 @@
+﻿FlandreRipandTear:
+  Description: >-
+    Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.
+
+    If the target has {FlandreValue2} or less life, |Destroy| it.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.
+
+    If the target has {FlandreValue2} or less life, |Destroy| it.
+  Name: Rip and Tear

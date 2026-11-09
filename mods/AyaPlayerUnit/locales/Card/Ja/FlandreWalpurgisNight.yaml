@@ -1,0 +1,16 @@
+﻿FlandreWalpurgisNight:
+  Description: >-
+    |破滅|の最大スタック数が{Value1}になる。
+
+    {PlayerName}が攻撃ダメージを与えるたび、その半分に等しい|破滅|も与える。
+
+    この効果は重複しない。
+  UpgradedDescription: >-
+    |破滅|の最大スタック数が{Value1}になる。
+
+    {PlayerName}が攻撃ダメージを与えるたび、その半分に等しい|破滅|も与える。
+
+    この効果は重複しない。
+
+    敵全体に|破滅|{FlandreValue2}を与える。
+  Name: ワルプルギスの夜

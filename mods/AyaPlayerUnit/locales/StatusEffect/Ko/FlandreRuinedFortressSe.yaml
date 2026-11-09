@@ -1,0 +1,4 @@
+﻿FlandreRuinedFortressSe:
+  Brief: '{PlayerName}가 적에게 |파멸|을 줄 때마다, 보유한 |영력| 1마다 추가로 |파멸|을 줍니다.'
+  Description: '{PlayerName}가 적에게 |파멸|을 줄 때마다, 보유한 |영력| 1마다 |파멸|을 {Level} 더 줍니다.'
+  Name: 무너진 요새

@@ -1,0 +1,4 @@
+﻿AyaMountainGodsProcessionSe:
+  Brief: Whenever {PlayerName} gains |Acceleration|, gain <sprite="ManaSprite" name="P">.
+  Description: Whenever {PlayerName} gains |Acceleration|, gain {Level} <sprite="ManaSprite" name="P">.
+  Name: Mountain God's Procession

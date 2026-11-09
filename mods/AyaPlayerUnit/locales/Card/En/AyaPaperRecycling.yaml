@@ -1,0 +1,14 @@
+﻿AyaPaperRecycling:
+  Description: >-
+    |Exile| a |Misfortune| or Status card from the hand. Gain mana equal to that card's cost.
+
+    Draw a card.
+
+    Gain {Mana}.
+  UpgradedDescription: >-
+    |Exile| a |Misfortune| or Status card from the hand. Gain mana equal to that card's cost.
+
+    Draw a card.
+
+    Gain {Mana}.
+  Name: Paper Recycling

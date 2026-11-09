@@ -1,0 +1,10 @@
+﻿AyaFriendCirnoSe:
+  Brief: >-
+    每当 {OwnerName} 受到攻击伤害时，失去生命值并增加 {SelfName} 相同数值。
+
+    在 {OwnerName} 的回合结束时，失去 |最终冻结|。
+  Description: >-
+    每当 {OwnerName} 受到攻击伤害时，失去 {Level} 点生命值并增加 {SelfName} 相同数值。
+
+    在 {OwnerName} 的回合结束时，失去 |最终冻结|。
+  Name: 最终冻结

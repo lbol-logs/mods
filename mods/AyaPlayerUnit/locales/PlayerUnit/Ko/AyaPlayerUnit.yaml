@@ -1,0 +1,149 @@
+﻿AyaPlayerUnit:
+  Title: 전통의 환상 신문쟁이
+  AyaSelect: 선택
+  AyaBribery1Megumu: 오늘따라 참 이상하군, 아야. 나를 공격하면서 동시에 돈을 건네다니.
+  AyaBribery2Aya: 잠깐. 길을 막지 않는 겁니까?
+  AyaBribery3Megumu: 내 사업을 내가 망칠 이유가 없지.
+  AyaBribery4Megumu: 하지만 네가 말도 없이 갑자기 덤벼들었으니, 도전자는 거절하지 않아.
+  AyaBribery5Aya: 어... 도전할 생각은 아니었습니다만... 제발 봐주세요...
+  AyaBribery6Megumu: 처벌은 나중에 정하지. 일단, 이 많은 돈에 대한 보상을 해줘야겠군...
+  AyaBribery7Megumu: 그래. 네가 그 카드들을 모으고 있다고 들었어. 내 카드를 줄게.
+  AyaBribery8Aya: 물론입니다! 선물을 받아 영광입니다!
+  AyaBribery9Aya: >-
+    뭐어어어어? 귀찮아! 진짜 이 카드까지 챙겨야 해?
+
+    젠장 젠장 젠장 젠장
+  AyaBribery10Megumu: 대사가 뒤섞였네~
+  AyaFastAttack1Aya: 안돼.
+  AyaFastAttack2Aya: 아야야.
+  AyaFastAttack3Aya: 더 노력해.
+  AyaExtraBoss1SukusukuAya: >-
+    스쿠?
+
+    (도전할 것을 찾고있나요??)
+  AyaExtraBossFlandre1SukusukuAya: >-
+    스쿠...
+
+    (시간을 조금 되돌려보죠...)
+  AyaExtraBossFlandre2Aya: 허?
+  AyaExtraBossFlandre3Flandre: 에.
+  AyaExtraBossFlandre4Flandre: 그게 다야?
+  AyaExtraBossFlandre5Aya: 어머, 홍마관의 여동생을 여기서 보게 되다니.
+  AyaExtraBossFlandre6Flandre: 음? 너... {0} 맞지?
+  AyaExtraBossFlandre7Aya: 맞아요! 정의롭고 정직한 기자로서, 이 이변의 범인을 인터뷰하려던 참이었죠.
+  AyaExtraBossFlandre8Aya: 그녀가 당신한테 순식간에 당하기 전까지는요.
+  AyaExtraBossFlandre9Flandre: 이변의 범인이라면 보통 강한 거 아니야?
+  AyaExtraBossFlandre10Aya: 항상 그런 건 아니에요. 게다가 당신 힘을 버틸 수 있는 사람은 드물죠.
+  AyaExtraBossFlandre11Flandre: 좀 더 튼튼한 장난감일 줄 알았는데…
+  AyaExtraBossFlandre12Flandre: '...넌 얼마나 강한 거야?'
+  AyaExtraBossFlandre13Aya: 음, 적어도 마법 도구를 든 그 아마노자쿠보단 강하죠.
+  AyaExtraBossFlandre14Flandre: 심심해. 나랑 싸워.
+  AyaExtraBossFlandre15Aya: 아야야. 사실 방금 농담이었고, 전 까마귀 텐구 중에서도 제일 약한…
+  AyaExtraBossFlandre16Flandre: 거짓말하지 마. 예전에 네가 날 인터뷰했을 때 기억 안 나겠어?
+  AyaExtraBossFlandre17Flandre: 내 공격을 전부 피하면서, 사진까지 찍고, 반격도 안 했잖아.
+  AyaExtraBossFlandre18Flandre: 그러니까 투덜대지 말고 따라와!
+  AyaExtraBossFlandre19Aya: 뭐라-
+  AyaExtraBossFlandre20Aya: 도와줘요! 납치당하고 있어요!
+  AyaExtraBossFlandre21Flandre: 에이, 버티지 마. 그러면 태양을 부숴서라도 여기서 싸울 거야.
+  AyaExtraBossFlandre22Aya: 아야야야야야야야야!!!
+  AyaSkipDialogue: 대화를 스킵하시겠습니까?
+  AyaChapterSelect: 챕터 선택
+  AyaChapter1Act1AyaTanukiIntro1AyaTanuki: 으앗! 뭐하는거야!
+  AyaChapter1Act1AyaTanukiIntro2Aya: 그것도 피할 수 없는데 저로 변장한다고요?
+  AyaChapter1Act1AyaTanukiIntro3Aya: 자, 네 죄를 헤아리세요.
+  AyaChapter1Act1AyaTanukiIntro4AyaTanuki: 이런...
+  AyaChapter1Act21AyaTanuki: 그래서, 무슨 일이에요?
+  AyaChapter1Act22Aya: 카구야가 또 전시회를 열었어. 이번에는 방문객이 원하는 전시품 하나를 가져갈 수 있었대.
+  AyaChapter1Act23Aya: 당연히 비보는 포함되지 않았지만, 누군가 그 규칙을 무시하기로 했나 봐.
+  AyaChapter1Act24Aya: 잃어버린 보물을 되찾아오면 그녀의 보물 중 하나를 가질 수 있다고 했어. 그래서 다들 보물찾기에 나선 거야.
+  AyaChapter1Act25AyaTanuki: 많은 사람들이 영원정을 빠져나가는 걸 보긴 했지만, 전시회가 열렸다는 건 몰랐어요.
+  AyaChapter1Act26AyaTanuki: 아야씨도 보물을 찾고 있는 거에요?
+  AyaChapter1Act27Aya: 아니, 난 특종을 찾고 있지!
+  AyaChapter1Act28Aya: 카구야 공주의 보물을 훔치려는 대담한 자는 과연 누구일까?
+  AyaChapter1Act29Aya: 여기 오는 길에도 이미 많은 전시품을 봤어. 이 일이 환상향에 어떤 영향을 미칠까?
+  AyaChapter1Act210Aya: 이게 더 큰 음모의 일부라면, 그 배후는 누구일까?
+  AyaChapter1Act211Aya: 아야야야! 정말 흥미롭지 않아!?
+  AyaChapter1Act212AyaTanuki: 그렇겠죠?
+  AyaChapter1Act213Aya: 넌 어때? 보물에 관심 있어?
+  AyaChapter1Act214AyaTanuki: 반짝이는거요? 관심없어요.
+  AyaChapter1Act215Aya: '...'
+  AyaChapter1Act216AyaTanuki: 왜요?
+  AyaChapter1Act217Aya: 너무 순진한 거 아냐...
+  AyaChapter1Act218Aya: 요정들조차도 보물을 차지하려고 하는데...
+  AyaChapter1Act219AyaTanuki: 에헴, 칭찬으로 알고있을게요.
+  AyaChapter1Act220Aya: 계속 가자.
+  AyaChapter1Act221Aya: 내 정보에 따르면, 범인은 요괴산으로 도망쳤어.
+  AyaChapter1Act31Aya: 여기서부터는 따라오지 않는 게 좋을 거야.
+  AyaChapter1Act32AyaTanuki: 하지만...
+  AyaChapter1Act33Aya: 너무 위험해, 특히 범인이 어떤 능력을 가졌는지 모르니까.
+  AyaChapter1Act34Aya: 여긴 비교적 안전하니까 여기서 기다려. 좋은 소식을 들고 돌아올게.
+  AyaChapter1Act35AyaTanuki: 알았어요..
+  AyaChapter1Act36AyaTanuki: 조용히 따라가면 괜찮겠지..?
+  AyaChapter1Act4SeijaPhase11Seija: 삼류 신문 기자치고는 나쁘지 않네.
+  AyaChapter1Act4SeijaPhase12Aya: 아, 제 취재기술은 잘 알려져 있죠.
+  AyaChapter1Act4SeijaPhase13Aya: 그래서 그게 전부인가요? 그럼...
+  AyaChapter1Act4SeijaPhase14Seija: 그럴리가 없잖아, 까마귀! 아직 아무것도 안보여줬다고!
+  AyaChapter1Act4SeijaPhase15Seija: 불가능을 가능하게 만드는게 뭔지 보여주지!
+  AyaChapter1Act4SeijaPhase16Aya: 이건 꽤 흥미로운 인터뷰 상대네요...
+  AyaChapter1Act4SeijaPhase2Hidden1Aya: 너도 알겠지만, 불가능을 가능하게 할 수 있다면 처음부터 불가능하다고 하지 않았겠지.
+  AyaChapter1Act4SeijaPhase2Hidden2Koishi: '...?'
+  AyaChapter1Act4SeijaPhase21Seija: 바보 기자가... 어?
+  AyaChapter1Act4SeijaPhase22Seija: 아직도 버티고 있어? 꽤 인상적이네.
+  AyaChapter1Act4SeijaPhase23Aya: 언론인들은 진실을 퍼뜨릴 의무가 있으니까요...
+  AyaChapter1Act4SeijaPhase24Seija: 진실? 글쎄, 진실은 있겠지
+  AyaChapter1Act4SeijaPhase25Seija: 다들, 나와.
+  AyaChapter1Act4SeijaPhase26Reimu: 네 망할 신문 덕분에 하쿠레이의 깡패가 됐네.
+  AyaChapter1Act4SeijaPhase27Marisa: 난 아무것도 아무것도 안훔쳤다구. 내가 뭘 빌릴 때마다 사진좀 그만찍으라구.
+  AyaChapter1Act4SeijaPhase28Sakuya: 큰아가씨께서 존재하지 않는 스캔들을 일으키고 있는 가짜 기자를 상대하라고 하셨습니다.
+  AyaChapter1Act4SeijaPhase29Cirno: 잘은 모르겠지만.. 거짓말은 안하는게 좋지않을까?
+  AyaChapter1Act4SeijaPhase210Seija: 사실은, 넌 나보다 나을 게 없지.
+  AyaChapter1Act4SeijaPhase211Aya: 아야야...
+  AyaChapter1Act4SeijaPhase212Seija: 쓰러지기전에 마지막으로 할 말이라도 있어?
+  AyaChapter1Act4SeijaPhase213Aya: 아야야야야야야!
+  AyaChapter1Act4SeijaPhase214Seija: 이건 뭐...
+  AyaChapter1Act4SeijaPhase215Aya: 이것 좀 보세요! 이것은 사건의 범인과 해결사가 결탁한 장면입니다!
+  AyaChapter1Act4SeijaPhase216Aya: 이게 사실일까요? 환상향에는 정말 정의란 존재하지 않는걸까요?
+  AyaChapter1Act4SeijaPhase217Aya: 이렇게 소중한 장면을 놓치면 안 돼요! 제목은...
+  AyaChapter1Act4SeijaPhase3Normal1Cirno: 미안 아야.
+  AyaChapter1Act4SeijaPhase3True1Cirno: 아야, 나...
+  AyaChapter1Act4SeijaPhase3True2Aya: 사과할 필요 없어. 난 정직한 기자가 아니니까.
+  AyaChapter1Act4SeijaPhase3True3Aya: 하지만 이번에는 자랑스럽게 보여줄 수 있는 기사를 쓸거라고 약속할게.
+  AyaChapter1Act4SeijaPhase3True4Cirno: '...'
+  AyaChapter1Act4SeijaPhase3True5Cirno: 한 가지만 더 약속해줄래?
+  AyaChapter1Act4SeijaPhase3True6Aya: 아야?
+  AyaChapter1Act4SeijaPhase3True7Cirno: 지지마.
+  AyaChapter1Act4SeijaPhase3True8Aya: 물론!
+  AyaChapter1Act4SeijaPhase31Seija: 아직도 널 싫어하는 사람들은 많아!
+  AyaChapter1Act4SeijaPhase32Megumu: 난 아닌데.
+  AyaChapter1Act4SeijaPhase33Seija: 뭐?
+  AyaChapter1Act4SeijaPhase34Seija: 지금 날 배신한거야?
+  AyaChapter1Act4SeijaPhase35Megumu: 내가 언제부터 네 아군이였지?
+  AyaChapter1Act4SeijaPhase36Megumu: 산에 침입해서 엉망진창으로 만들고 아군이라고?
+  AyaChapter1Act4SeijaPhase37Megumu: 불청객들을 내쫓아야 할 때야.
+  AyaChapter1Act4SeijaPhase38Seija: 아직 안 끝났어! 난 아직도 강한 아군이 많다고!
+  AyaChapter1Act4SeijaPhase39Seija: 너...
+  AyaChapter1Act4SeijaPhase310Seija: 너 진짜 괴물이냐?
+  AyaChapter1Act4SeijaPhase311Seija: 잠깐 잠깐!
+  AyaChapter1Act4SeijaPhase312Seija: 미안! 가지는 돌려줄게!
+  AyaChapter1Act4SeijaPhase3Normal2Megumu: 끝난거같네.
+  AyaChapter1Act4SeijaPhase3Normal3Megumu: 가자, 아야.
+  AyaChapter1Act4SeijaPhase3Normal4Megumu: 아야는 화나면 진짜 무서워~
+  AyaChapter1Act4SeijaPhase3True9Megumu: 끝난거같네.
+  AyaChapter1Act4SeijaPhase3True10Megumu: 가자, 아야.
+  AyaChapter1Act4SeijaPhase3True11Aya: 저를 기다리는 사람이 있습니다.
+  AyaChapter1Act4SeijaPhase3True12Megumu: 응?
+  AyaChapter1Act4SeijaPhase3True13Aya: 제가 이겼다는 속보를 기다리고 있을겁니다.
+  AyaChapter1Act4SeijaPhase3True14Megumu: 내가 어떻게 말리겠어? 하고싶은대로 해.
+  AyaChapter1Act4SeijaPhase3True15Aya: 감사합니다, 이즈나마루님.
+  AyaChapter1Act4SeijaPhase3True16Megumu: '...'
+  AyaChapter1Act4SeijaPhase3True17Megumu: 이만 나오지? 내가 못볼줄 알았어?
+  AyaChapter1Act4SeijaPhase3True18Megumu: 침묵으로 넘기려고? 조언 하나 해줄게.
+  AyaChapter1Act4SeijaPhase3True19Megumu: 내 아야 건들지마.
+  AyaChapter1Act4SeijaPhase3True20Okina: '...'
+  AyaChapter1Act4SeijaPhase3True21AyaTanuki: '*흐엑* *흐엑*'
+  AyaChapter1Act4SeijaPhase3True22AyaTanuki: 아야씨... 너무 빨라...
+  AyaChapter1Act4SeijaPhase3True23AyaTanuki: 이미 범인을 물리치셨겠지.
+  AyaChapter1Act4SeijaPhase3True24AyaTanuki: 이게 뭐야?
+  AyaChapter1Act4SeijaPhase3True25AyaTanuki: 보석이 있는 나뭇가지... 이게 잃어버린 보물 아닌가?
+  AyaChapter1Act4SeijaPhase3True26AyaTanuki: 그렇다면...
+  AyaChapter1Act4SeijaPhase3True27AyaTanuki: 아야씨는 어디간거지..?

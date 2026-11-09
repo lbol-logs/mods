@@ -1,0 +1,4 @@
+﻿FlandreFragmentsofLightSe:
+  Brief: '{PlayerName}のターン開始時、手札にランダムな|クリスタル|を加える'
+  Description: '{PlayerName}のターン開始時、手札にランダムな|クリスタル|を{Level}枚加える。'
+  Name: 光の欠片

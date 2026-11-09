@@ -1,0 +1,93 @@
+AyaBossAya:
+  Default: 시간의 여신
+  Short: 시간의 여신
+AyaBossFlandre:
+  Default: 플랑드르 스칼렛
+  Short: 플랑드르
+AyaBossKoishi:
+  Default: 코메이지 코이시
+  Short: 코이시
+AyaBossLong:
+  Default: 이즈나마루 메구무
+  Short: 메구무
+AyaBossZUN:
+  Default: 오오타 준야
+  Short: ZUN
+AyaKoakuma:
+  Default: 소악마
+  Short: 소악마
+AyaKotohime:
+  Default: 코토히메
+  Short: 코토히메
+AyaLong:
+  Default: 이즈나마루 메구무
+  Short: 메구무
+AyaMai:
+  Default: 테이레이다 마이
+  Short: 마이
+AyaBossOkina:
+  Default: 마타라 오키나
+  Short: 오키나
+AyaOrbBlack:
+  Default: 흑색 구체
+  Short: 흑색 구체
+AyaOrbBlue:
+  Default: 청색 구체
+  Short: 청색 구체
+AyaOrbColorless:
+  Default: 무색 구체
+  Short: 무색 구체
+AyaOrbGreen:
+  Default: 녹색 구체
+  Short: 녹색 구체
+AyaOrbPhilosophy:
+  Default: 무지개색 구체
+  Short: 무지개색 구체
+AyaOrbRed:
+  Default: 적색 구체
+  Short: 적색 구체
+AyaOrbWhite:
+  Default: 백색 구체
+  Short: 백색 구체
+AyaPatchouli:
+  Default: 파츄리 노우릿지
+  Short: 파츄리
+AyaPlayerUnit:
+  Default: 샤메이마루 아야
+  Short: 아야
+AyaSatono:
+  Default: 니시다 사토노
+  Short: 사토노
+AyaSukusukuAya:
+  Default: 스쿠스쿠 아야
+  Short: 스쿠스쿠 아야
+AyaSukusukuFlandre:
+  Default: 스쿠스쿠 플랑드르
+  Short: 스쿠스쿠 플랑드르
+AyaTakane:
+  Default: 야마시로 타카네
+  Short: 타카네
+AyaTanuki:
+  Default: 어린 너구리
+  Short: 어린 너구리
+FlandrePlayerUnit:
+  Default: 플랑드르 스칼렛
+  Short: 플랑드르
+LongBossAya:
+  Default: 샤메이마루 아야
+  Short: 아야
+LongPlayerUnit:
+  Default: 이즈나마루 메구무
+  Short: 메구무
+LongTsukasaPlayerUnit:
+  Default: 메구무/츠카사
+  Short: 메구무/츠카사
+OkinaPlayerUnit:
+  Default: 마타라 오키나
+  Short: 오키나
+ShinkiPlayerUnit:
+  Default: 신키
+  Short: 신키
+TsukasaPlayerUnit:
+  Default: 쿠다마키 츠카사
+  Short: 츠카사

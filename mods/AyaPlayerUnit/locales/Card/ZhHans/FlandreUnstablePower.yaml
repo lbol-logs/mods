@@ -1,0 +1,4 @@
+﻿FlandreUnstablePower:
+  Description: 所有攻击造成 {Value1}%到 {Value2}%的伤害。
+  UpgradedDescription: 所有攻击造成 {Value1}%到 {Value2}%的伤害。
+  Name: 不稳之力

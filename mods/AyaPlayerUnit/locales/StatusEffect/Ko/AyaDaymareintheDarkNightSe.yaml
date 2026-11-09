@@ -1,0 +1,4 @@
+﻿AyaDaymareintheDarkNightSe:
+  Brief: '{PlayerName}의 다음 턴까지, {PlayerName}가 |가속|을 얻을 때마다 체력이 가장 적은 적에게 |명중| 피해를 줍니다.'
+  Description: '{PlayerName}의 다음 턴까지, {PlayerName}가 |가속|을 얻을 때마다 체력이 가장 적은 적에게 |명중| 피해를 {Damage} 줍니다.'
+  Name: 한밤중의 악몽

@@ -1,0 +1,14 @@
+﻿FlandreMPKrystallos:
+  Description: >-
+    Gain {FlandreBlock} |Block|.
+
+    All players play {FlandreValue1} |p:random| |Crystal{FlandreValue1:plural one='' other='s'}|.
+
+    |Scaled| {Mana}.
+  UpgradedDescription: >-
+    Gain {FlandreBlock} |Block|.
+
+    All players play {FlandreValue1} |p:random| |Crystal{FlandreValue1:plural one='' other='s'}|.
+
+    |Scaled| {Mana}.
+  Name: Krystallos

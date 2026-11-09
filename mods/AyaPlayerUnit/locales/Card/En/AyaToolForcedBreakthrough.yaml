@@ -1,0 +1,12 @@
+﻿AyaToolForcedBreakthrough:
+  LockedDescription: Unlocked by resolve the incident on Lunatic Mode or higher with Aya Shameimaru.
+  Description: >-
+    End the combat.
+
+    |At the start of Boss combat|: Remove {SelfName} from combat.
+
+    |Limited【{DeckCounter}】|
+  Name: Forced Breakthrough
+  ForcedBreakthrough1: Excuse me!
+  ForcedBreakthrough2: You can't miss the scoop!
+  ForcedBreakthrough3: I don't have time for this!

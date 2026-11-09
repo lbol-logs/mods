@@ -1,0 +1,12 @@
+﻿FlandreDoomsdayClock:
+  Description: >-
+    {PlayerName}가 |파멸|을 두 배로 얻습니다.
+
+    {SelfName} 사용 후 {PlayerName}의 {Value1}번째 턴 시작 시, |대량학살병기|를 손에 넣습니다.
+  UpgradedDescription: >-
+    {PlayerName}가 |파멸|을 두 배로 얻습니다.
+
+    {SelfName} 사용 후 {PlayerName}의 {Value1}번째 턴 시작 시, |대량학살병기|를 손에 넣습니다.
+
+    |파멸|을 {Value2} 추가로 얻습니다.
+  Name: 종말의 시계

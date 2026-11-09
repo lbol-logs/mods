@@ -1,0 +1,15 @@
+﻿FlandreFaustianBargain:
+  Description: >-
+    |供物|{Value1}。
+
+    |廃棄場|から最大{FlandreValue2}枚のカードを選び、手札に戻す。
+
+    |廃棄された時|：|廃棄場|から最大{Value3}枚のカードを選び、手札に戻す。
+  UpgradedDescription: >-
+    |供物|{Value1}。
+
+    |廃棄場|から最大{FlandreValue2}枚のカードを選び、手札に戻す。
+
+    |廃棄された時|：|廃棄場|から最大{Value3}枚のカードを選び、手札に戻す。
+  Name: 悪魔との取引
+  DetailText: '{SelfName}は戦闘中にランダム生成されず、複製されない。'

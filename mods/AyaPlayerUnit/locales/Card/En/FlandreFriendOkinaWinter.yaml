@@ -1,0 +1,7 @@
+﻿FlandreFriendOkinaWinter:
+  Description: "{FriendP}|f:Power of Winter|: Whenever {Value1} blue card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and gain {FlandreValue2} |Calamity|. ({Amount:plural one='% card' other='% cards'} left.)"
+  NonbattleDescription: "{FriendP}|f:Power of Winter|: Whenever {Value1} blue card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and gain {FlandreValue2} |Calamity|."
+  ExtraDescription1: '{FriendA}|a:Season Release|: Choose 1 of {Value3} |Seasons|. {SelfName} gains their effects.'
+  ExtraDescription3: '{FriendU}|u:「Hidden Extreme Winter」|: Whenever a card is activated, gain {Value4} |Charge|.'
+  Name: Okina, Absolute Secret God - Winter
+  DetailText: '{SelfName} cannot be randomly generated in combat, and cannot be copied.'

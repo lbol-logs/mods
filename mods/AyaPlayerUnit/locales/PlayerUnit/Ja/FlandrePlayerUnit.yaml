@@ -1,0 +1,419 @@
+﻿FlandrePlayerUnit:
+  Title: 紅い血液の悪魔
+  HomeName: 紅魔館
+  FlandreSelect: 選択
+  FlandreSkipDialogue: 会話をスキップ？
+  FlandreSkipOfferingOff: 供物を表示
+  FlandreSkipOfferingOn: 供物をスキップ
+  FlandreTutorialIntro1SukusukuAya: >-
+    すく！
+
+    （チュートリアルへようこそ！）
+  FlandreTutorialIntro2SukusukuAya: >-
+    すく。
+
+    （このチュートリアルでは基本操作は説明しません。その代わり、キャラクター専用チュートリアルとして見てください。）
+  FlandreTutorialIntro3SukusukuAya: >-
+    すく。
+
+    （簡単なパズル形式の戦闘を通して、{0}が各マナカラーで何ができるのか説明します。）
+  FlandreTutorialIntro4SukusukuAya: >-
+    すく。
+
+    （好きなステージへ進むこともできます。）
+  FlandreTutorialBattleWin1SukusukuAya: >-
+    すく！
+
+    （成功！続けましょう！）
+  FlandreTutorialBattleWin2SukusukuAya: >-
+    すく！
+
+    （完全クリア！おめでとうございます！）
+  FlandreTutorialBattleLoseSukusukuAya: >-
+    すく？
+
+    （失敗です！もう一度挑戦しますか？）
+  FlandreTutorialReturnSukusukuAya: >-
+    すく？
+
+    （何を学びますか？）
+  FlandreTutorialExitSukusukuAya: >-
+    すく！
+
+    （また会いましょう！）
+  FlandreTutorialStage1Description: 未完了
+  FlandreTutorialStage1Description2: 完了
+  FlandreTutorialStage1Name: ステージ1 - 青
+  FlandreTutorialStage1Intro1SukusukuAya: >-
+    すく。
+
+    （説明を始める前に、まずあなたが何者なのか紹介しましょう。）
+  FlandreTutorialStage1Intro2SukusukuAya: >-
+    すく。
+
+    （あなたは{0}です。あなたは吸血鬼ですが、吸血鬼・悪魔・魔法少女という複数の側面を持っています。）
+  FlandreTutorialStage1Intro3SukusukuAya: >-
+    すく。
+
+    （少なくとも495歳以上です。紅魔館の主であるレミリア・スカーレットの妹です。）
+  FlandreTutorialStage1Intro4SukusukuAya: >-
+    すく。
+
+    （あなたはレミリアによって495年間地下室に閉じ込められていました。でも、本気を出せば脱出することもできました。）
+  FlandreTutorialStage1Intro5Flandre: それって引きこもりって言いたいの？
+  FlandreTutorialStage1Intro6SukusukuAya: >-
+    すく。
+
+    （なぜなら、あなたにはあらゆるものを破壊する能力があるからです。）
+  FlandreTutorialStage1Intro7Flandre: ふふん。すべてのものには目があって、私はすべての目を手の中に握っているの。
+  FlandreTutorialStage1Intro8Flandre: その目を握りつぶすと……ドカーン！
+  FlandreTutorialStage1Intro9SukusukuAya: >-
+    すく！
+
+    （そして、それこそが最初に学ぶことです！）
+  FlandreTutorialStage1Intro10SukusukuAya: >-
+    すく。
+
+    （{0}の青マナは、あらゆるものを破壊する能力を表しています。主なキーワードは|破滅|と|破壊|です。）
+  FlandreTutorialStage1Intro11SukusukuAya: >-
+    すく。
+
+    （|破滅|は、敵が受けるダメージを増加させます。たとえ本来なら0ダメージになる攻撃でも影響します。そのため{0}はどんな状況でもダメージを与えられます。）
+  FlandreTutorialStage1Intro12SukusukuAya: >-
+    すく。
+
+    （|破壊|は単純です。条件を満たすと、{0}は対象を即座に倒します。）
+  FlandreTutorialStage1Intro13SukusukuAya: >-
+    すく。
+
+    （あなたの青カードには、カード操作や防御面を強化する効果もあります。）
+  FlandreTutorialStage1Intro14SukusukuAya: >-
+    すく！
+
+    （チュートリアル戦闘を手伝ってくれる仲間を紹介します！）
+  FlandreTutorialStage1Intro15SukusukuAya: >-
+    すく！
+
+    （来て、椛！）
+  FlandreTutorialStage1Intro16SukusukuMomiji: >-
+    すく……
+
+    （もう、文。山の見回りで忙しかったのに……）
+  FlandreTutorialStage1Intro17SukusukuAya: >-
+    すく。
+
+    （嘘ですね。寝ていました。）
+  FlandreTutorialStage1Intro18SukusukuAya: >-
+    すく！
+
+    （さあ、文句を言うのはやめて授業を手伝ってください！）
+  FlandreTutorialStage1Intro19SukusukuMomiji: >-
+    すく？
+
+    （でも本当の先生がいるよね？どうしてその人じゃなくて文が教えてるの？）
+  FlandreTutorialStage1Intro20SukusukuAya: >-
+    すく。
+
+    （輝夜と妹紅の決闘に巻き込まれて入院中です。）
+  FlandreTutorialStage1Intro21SukusukuMomiji: >-
+    すく。
+
+    （ああ……）
+  FlandreTutorialStage1Intro22Flandre: それは面白いね。
+  FlandreTutorialStage1Intro23SukusukuAya: >-
+    すく！
+
+    （とにかく椛！盾を使って{0}の攻撃を受けてください！）
+  FlandreTutorialStage1Intro24SukusukuMomiji: >-
+    すく！
+
+    （分かった！）
+  FlandreTutorialStage1Intro25SukusukuMomiji: >-
+    ……すく？
+
+    （……今なんて言ったか分かってる？）
+  FlandreTutorialStage1Intro26SukusukuAya: >-
+    すく。
+
+    （{0}の攻撃を受けてください。）
+  FlandreTutorialStage1Intro27SukusukuMomiji: >-
+    すく！
+
+    （それって、ナイフ一本で核ミサイルを止めろって言ってるようなものだよ！）
+  FlandreTutorialStage1Intro28SukusukuAya: >-
+    すく？
+
+    （安心してください。{0}は手加減してくれますよね？{0}？）
+  FlandreTutorialStage1Intro29Flandre: 生命保険には入っておいた方がいいよ！
+  FlandreTutorialStage1Intro30SukusukuMomiji: >-
+    すく！！！
+
+    （すくすく白狼天狗に生命保険なんてないよ！！！）
+  FlandreTutorialStage1Intro31SukusukuAya: >-
+    すく！
+
+    （椛の犠牲は忘れません！）
+  FlandreTutorialStage1Intro32Flandre: いや、冗談だよ。力の0％しか使わないから。
+  FlandreTutorialStage1Intro33SukusukuMomiji: >-
+    すく？
+
+    （それ全然安心できない……0％？）
+  FlandreTutorialStage1BattleWave11Flandre: 私の攻撃は全部0ダメージになるけど、そこで|破滅|が役に立つんだ！
+  FlandreTutorialStage1BattleWave12SukusukuAya: >-
+    すく！
+
+    （1ターンで{0}のHPを50％以下にしましょう！）
+  FlandreTutorialStage1BattleWave21SukusukuMomiji: >-
+    すく……
+
+    （肋骨が1本か2本折れた気がする……）
+  FlandreTutorialStage1BattleWave22SukusukuAya: >-
+    すく。
+
+    （攻撃を全部受け止めたのはあなたではなく、あなたの盾です。）
+  FlandreTutorialStage1BattleWave23SukusukuAya: >-
+    すく！
+
+    （|破壊|を試してみましょう！）
+  FlandreTutorialStage1BattleWave24SukusukuMomiji: >-
+    ……すく？
+
+    （……本気で言ってる？）
+  FlandreTutorialStage1BattleWave25SukusukuAya: >-
+    すく。
+
+    （いえいえ、破壊されるのはあなたではありません。）
+  FlandreTutorialStage1BattleWave26SukusukuAya: >-
+    すく。
+
+    （無駄な殺生を避けるため、標的用の人形を用意します。）
+  FlandreTutorialStage1BattleWave27Flandre: まるで私が今まで無駄な殺人をしてきたみたいな言い方はやめてほしいな。
+  FlandreTutorialStage1BattleWave28SukusukuMomiji: >-
+    すく？
+
+    （じゃあ、あれは何だったの？）
+  FlandreTutorialStage1BattleWave29Flandre: 自然淘汰。
+  FlandreTutorialStage1BattleWave210SukusukuMomiji: >-
+    すく。
+
+    （聞かなければよかった。）
+  FlandreTutorialStage1BattleWave211Flandre: 冗談だけどね。
+  FlandreTutorialStage1BattleWave212Flandre: 東方Projectのああいうダークな設定は、ZUNさんが中二病だった頃に作られたものなんだよ。
+  FlandreTutorialStage1BattleWave213Flandre: 今ではホラー系二次創作を作るための便利な素材になってるだけ。
+  FlandreTutorialStage1BattleWave214Flandre: 例えば、私が他の東方キャラと遊んでいる二次創作はたくさんあるよ。最後にはみんな酷い目に遭うけど。
+  FlandreTutorialStage1BattleWave215SukusukuMomiji: >-
+    すく。
+
+    （例を出さなくてもよかったよね。）
+  FlandreTutorialStage1BattleWave216SukusukuMomiji: >-
+    すく。
+
+    （それと、第四の壁を壊すのはやめてくれる？そういうのはするものじゃないよ。）
+  FlandreTutorialStage1BattleWave217Flandre: でも私は公式設定でも第四の壁を破壊するキャラだから。
+  FlandreTutorialStage1BattleWave218SukusukuMomiji: >-
+    ……
+
+    （……）
+  FlandreTutorialStage1BattleWave219SukusukuAya: >-
+    すく。
+
+    （この標的人形のHPは9999です。）
+  FlandreTutorialStage1BattleWave220Flandre: え、これ何でできてるの？
+  FlandreTutorialStage1BattleWave221SukusukuAya: >-
+    すく。
+
+    （干し草の束です。）
+  FlandreTutorialStage1BattleWave222Flandre: えっ……
+  FlandreTutorialStage1BattleWave223SukusukuAya: >-
+    すく！
+
+    （そんな大ダメージを狙うより、|破壊|しましょう！）
+  FlandreTutorialStage1BattleWave224SukusukuAya: >-
+    すく！
+
+    （1ターンで標的人形を倒しましょう！）
+  FlandreTutorialStage1BattleWave31SukusukuAya: >-
+    すく。
+
+    （今のは本当に恐ろしい能力ですね。）
+  FlandreTutorialStage1BattleWave32SukusukuAya: >-
+    すく。
+
+    （最後の戦闘には、あなたにぴったりの相手を用意しました。）
+  FlandreTutorialStage1BattleWave33SukusukuAya: >-
+    すく！
+
+    （兎です！）
+  FlandreTutorialStage1BattleWave34FraudRabbit: あたなは2MRC(守矢コイン)を受け取りました。取引を確認するにはリンクをクリックしてください：https://store.steampowered.com/app/1140150/Touhou_Lost_Branch_of_Legend/
+  FlandreTutorialStage1BattleWave35SukusukuMomiji: >-
+    すく！
+
+    （詐欺師だ！）
+  FlandreTutorialStage1BattleWave36Flandre: 働かずにお金を稼ごうとする人は嫌い。
+  FlandreTutorialStage1BattleWave37SukusukuMomiji: >-
+    すく。
+
+    （あなたは働かなくてもいいからね。）
+  FlandreTutorialStage1BattleWave38HardworkingRabbit: 地上人発見！戦闘開始！
+  FlandreTutorialStage1BattleWave39LazyRabbit: えっと……3分もあれば、この地上人を倒すには十分ね。
+  FlandreTutorialStage1BattleWave310Flandre: 私、不幸を司る神じゃないのに、あの兎たちへのすごい恨みを感じるんだけど。
+  FlandreTutorialStage1BattleWave311Flandre: よっぽど嫌われてるんだね。
+  FlandreTutorialStage1BattleWave312SukusukuMomiji: >-
+    すく。
+
+    （何をしても1ダメージしか受けない敵は、いろんなゲームであまり良い印象を持たれてないよね。）
+  FlandreTutorialStage1BattleWave313SukusukuAya: >-
+    すく！
+
+    （何でも破壊できるということを見せてあげましょう、{0}！）
+  FlandreTutorialStage1BattleWave314SukusukuAya: >-
+    すく！
+
+    （3ターン以内にすべての敵を倒しましょう！）
+  FlandreTutorialStage1Outro1SukusukuAya: >-
+    すく。
+
+    （まとめると、{0}の青カードは何があっても敵を破壊することに特化しています。）
+  FlandreTutorialStage1Outro2SukusukuAya: >-
+    すく！
+
+    （椛が破壊されなくてよかったですね！）
+  FlandreTutorialStage1Outro3SukusukuMomiji: >-
+    すく。
+
+    （相手が誰か分かっていたら、ここには来なかったよ……）
+  FlandreTutorialStage1Outro4SukusukuAya: >-
+    すく？
+
+    （あやや、あなたが手伝ってくれなかったら誰に助けてもらえばいいんですか？）
+  FlandreTutorialStage1Outro5SukusukuMomiji: >-
+    すく。
+
+    （はたて。）
+  FlandreTutorialStage1Outro6SukusukuAya: >-
+    すく。
+
+    （それは無理ですね。）
+  FlandreTutorialStage1Outro7SukusukuMomiji: >-
+    すく。
+
+    （そう言うと思った。）
+  FlandreTutorialStage2Description: 未完了
+  FlandreTutorialStage2Description2: 完了
+  FlandreTutorialStage2Name: ステージ2 - 黒
+  FlandreTutorialStage2Intro1SukusukuAya: >-
+    すく！
+
+    （次はあなたの黒マナを見てみましょう！）
+  FlandreTutorialStage2Intro2SukusukuAya: >-
+    すく！
+
+    （{0}の黒マナは、悪魔としての側面を表しています。主なキーワードは|クリスタル|と|供物|です。）
+  FlandreTutorialStage2Intro3SukusukuMomiji: >-
+    すく。
+
+    （クリスタルといえば、あなたのクリスタルの翼が気になっていたんだけど。）
+  FlandreTutorialStage2Intro4Flandre: 私の翼？
+  FlandreTutorialStage2Intro5SukusukuMomiji: >-
+    すく？
+
+    （幻想郷の基準で見ても、あなたの翼は前例がないものだよ。一体どうしてそんな翼になったの？）
+  FlandreTutorialStage2Intro6Flandre: 昔はお姉様と同じ翼だったんだけど、何度も壊しては治しているうちに、クリスタルを翼として使うことにしたの。
+  FlandreTutorialStage2Intro7Flandre: 修理するのもずっと簡単だし、弾幕にも使えるからね。
+  FlandreTutorialStage2Intro8SukusukuMomiji: >-
+    すく？
+
+    （弾幕？）
+  FlandreTutorialStage3Description: 未完了
+  FlandreTutorialStage3Description2: 完了
+  FlandreTutorialStage3Name: ステージ3 - 赤
+  FlandreTutorialStage4Description: このステージはまだ利用できません。
+  FlandreTutorialStage4Name: ステージ4 - 白
+  FlandreTutorialStage5Description: このステージはまだ利用できません。
+  FlandreTutorialStage5Name: ステージ5 - 緑
+  FlandreTutorialStage6Description: このステージはまだ利用できません。
+  FlandreTutorialStage6Name: ステージ6 - 無色
+  FlandreTutorialStage7Description: このステージはまだ利用できません。
+  FlandreTutorialStage7Name: ステージ7 - 卒業試験
+  FlandreTutorialExitDescription: チュートリアルを終了してメインメニューに戻ります。
+  FlandreTutorialExitName: 終了
+  FlandreMadnessDescription: >-
+    {0}は最大で |狂気|{6}まで蓄積できます。
+
+    {0}の攻撃は、|狂気|1つにつき|e:{1}|%ダメージが増加します。（最大|e:{2}|%）
+
+    {0}がカードから得る|ブロック|と|バリア|は、|狂気|1つにつき|e:{3}|%減少します。（最大|e:{4}|%）
+
+    {0}がレベルアップするたびに、{5} |狂気|を失います。
+
+    |r:{0}が{6} |狂気|になると、ゲームに敗北します。|
+  FlandreMadnessName: 狂気
+  FlandreExtraBoss1SukusukuAya: >-
+    すく?
+
+    (何か壊すものを探しているのか？)
+  FlandreEiki1Eiki: ！
+  FlandreEiki2Flandre: 違うよ。
+  FlandreEiki3Flandre: まず、私は盗みに来たんじゃなくて、遊びに来たの。
+  FlandreEiki4Flandre: それに、私の分身は全部私自身なの。たとえ誰かに召喚されたとしてもね。
+  FlandreEiki5Eiki: ……これで終わりだと思わないことです。後であなたの館を訪ねます、{0}。
+  FlandreEiki6Flandre: 探しに来ても、私は家にいないけどね～
+  FlandreEiki7Flandre: それで……どうする？
+  FlandreEikiYesDescription: ''
+  FlandreEikiYesName: 戦闘を続ける
+  FlandreEikiNoDescription: ''
+  FlandreEikiNoName: 戦闘を終了する
+  FlandreEikiYes1Flandre: もちろん戦うよ！
+  FlandreEikiYes2Flandre: それが聞きたかった！
+  FlandreEikiNo1Flandre: ここで時間を無駄にするのはやめよう。
+  FlandreEikiNo2Flandre: えー？つまらないのに～
+  FlandreTakaneAttack: 攻撃
+  FlandreTakane1Takane: げっ、またあんた！？
+  FlandreTakane2Takane: 店じまいだよ！帰った帰った！
+  FlandreTakane3Takane: あんたに売るものなんて何もないよ！
+  FlandreTakane4Flandre: ……
+  FlandreTakane5Takane: ゴホン
+  FlandreTakane6Takane: ……じゃなくて、いらっしゃい！
+  FlandreTakane7Takane: もちろん冗談だよ！あはは！
+  FlandreAnnoyingSunlight1Flandre: 日傘を持ってくればよかった。
+  FlandreAnnoyingSunlight2Flandre: 暑すぎる！
+  FlandreAnnoyingSunlight31Flandre: うーん、太陽を壊しちゃおうかな？
+  FlandreAnnoyingSunlight32Okina: ダメ！
+  FlandreAnnoyingSunlight33Yukari: 絶対にダメ！
+  FlandreAnnoyingSunlight34Flandre: はいはい……
+  FlandreSongFirstTime1Okina: ねえフランドール、ちょっと聞きたいことがあるんだけど。
+  FlandreSongFirstTime2Flandre: 今戦闘中だから、あとでね。
+  FlandreSongFirstTime3Okina: 歌える？
+  FlandreSongFirstTime4Flandre: ……え？
+  FlandreSongFirstTime5Okina: 試してみるといいわ。魔法少女は歌も上手じゃないとね。
+  FlandreSongFirstTime6Okina: 魔法少女と歌はいつだって最高の組み合わせよ。みんな魔法少女の歌が大好きなの。
+  FlandreSongFirstTime7Okina: そして、それは当然ながら人間から得られる信仰も増えるということね。
+  FlandreSongFirstTime8Flandre: でも、私は今まで一度も歌ったことなんてないよ。歌なんて一曲も知らないし。
+  FlandreSongFirstTime9Okina: そんなことは関係ないわ。自分の心に浮かんだものを、感情を隠さずに歌えばいいの。
+  FlandreSongFirstTime10Okina: もしかしたら、本当は歌が得意なのに、自分で気付いていないだけかもしれないわよ。
+  FlandreSongFirstTime11Flandre: でも、魔法少女って戦いながら歌うものじゃないと思うけど。
+  FlandreSongFirstTimeSelect: 歌い始めますか？
+  FlandreSongFirstTimeYes1Flandre: 分かった。でも、私がどれだけ下手に歌っても笑わないでよ。
+  FlandreSongFirstTimeYes2Okina: もちろん。最初は誰だって下手なものよ……
+  FlandreSongFirstTimeYes3Okina: ！？
+  FlandreSongFirstTimeNo1Flandre: 私に歌わせようなんて思わないでね。
+  FlandreSongFirstTimeNo2Okina: '*ため息* 分かったわ。'
+  FlandreSongFirstTimeEnding1Okina: いやぁ、本当に貴重な経験だったわ。どうだった？
+  FlandreSongFirstTimeEnding2Flandre: 喉が痛い。ずっと喋り続けることに慣れてないから。
+  FlandreSongFirstTimeEnding3Okina: あえて批判点を挙げるなら、歌詞がかなり奇妙だったことかしら。
+  FlandreSongFirstTimeEnding4Okina: でも、好きなように歌ってと言った私の責任ね。
+  FlandreSongFirstTimeEnding5Okina: だから……素晴らしかったわ！最高だったと言ってもいいくらい！
+  FlandreSongFirstTimeEnding6Flandre: 褒めても、もっと歌ったりはしないからね。
+  FlandreSongFirstTimeEnding7Okina: 分かっているわ。それに、人間たちはあの演出を本当に気に入っていたわよ。
+  FlandreSongFirstTimeEnding8Flandre: 人間？どうして？
+  FlandreSongFirstTimeEnding9Okina: 私の扉を使って、あなたの歌を人間の里に放送していたのよ。
+  FlandreSongFirstTimeEnding10Okina: 人間の里にはテレビなんてほとんどないけれど、私には関係ないわ。
+  FlandreSongFirstTimeEnding11Flandre: あなたって神様なの？それともパパラッチ？
+  FlandreSongFirstTimeEnding12Okina: 失礼ね。私はあなたのマネージャーとして仕事をしているだけよ。
+  FlandreSongFirstTimeEnding13Okina: 人間たちは歌詞の意味はほとんど理解できなかったけれど、それでもあなたの歌と戦いには夢中になっていたわ。
+  FlandreSongFirstTimeEnding14Flandre: 歌いながら誰かを倒すことの何がそんなに面白いのか、私にはよく分からないけどね。
+  FlandreSongFirstTimeEnding15Okina: それで、あなたの歌についてだけど……
+  FlandreSongFirstTimeEnding16Flandre: 嫌。
+  FlandreSongFirstTimeEnding17Okina: お願い？
+  FlandreSongFirstTimeEnding18Flandre: 嫌。
+  FlandreSongFirstTimeEnding19Okina: 気が変わる日を、いつまでも待っているわ！

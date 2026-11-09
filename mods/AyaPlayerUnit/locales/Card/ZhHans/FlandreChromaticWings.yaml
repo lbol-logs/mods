@@ -1,0 +1,4 @@
+﻿FlandreChromaticWings:
+  Description: 在{PlayerName}的回合开始时，获得{Mana}。
+  UpgradedDescription: 在{PlayerName}的回合开始时，获得{Mana}。
+  Name: 幻虹之翼

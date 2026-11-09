@@ -1,0 +1,22 @@
+﻿FlandreCrystallizedCatastrophe:
+  Description: >-
+    敵全体に{FlandreDamage}ダメージを与える。
+
+    敵全体に|業火|{FlandreValue1}と|破滅|{FlandreValue2}を与える。
+
+    ライフ{Value3}と<sprite="Point" name="Gold">{FlandreValue1}を得る。
+
+    |p:ランダム|なマナ{Value3}を得る。
+
+    {FlandreShield}|バリア|と|グレイズ|{Value4}を得る。
+  UpgradedDescription: >-
+    敵全体に{FlandreDamage}ダメージを与える。
+
+    敵全体に|業火|{FlandreValue1}と|破滅|{FlandreValue2}を与える。
+
+    ライフ{Value3}と<sprite="Point" name="Gold">{FlandreValue1}を得る。
+
+    |p:ランダム|なマナ{Value3}を得る。
+
+    {FlandreShield}|バリア|と|グレイズ|{Value4}を得る。
+  Name: 破滅のクリスタル

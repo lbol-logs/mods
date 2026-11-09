@@ -1,0 +1,4 @@
+﻿AyaOrbBlackDreamExpressSe:
+  Brief: At the end of {OwnerName}'s turn, |Dream| some cards, then deal damage to {PlayerName} equal twice the sum of the total costs of the |Dreamed| cards.
+  Description: At the end of {OwnerName}'s turn, |Dream| {Level}, then deal damage to {PlayerName} equal twice the {Level:plural one='total cost' other='sum of the total costs'} of the |Dreamed| card{Level:plural one='' other='s'}.
+  Name: Dream Express

@@ -1,0 +1,4 @@
+﻿AyaMomentofRelaxation:
+  Description: '|감속 {Value1}|: {Mana}를 얻고 카드를 {Value2}장 뽑습니다.'
+  UpgradedDescription: '|감속 {Value1}|: {Mana}를 얻고 카드를 {Value2}장 뽑습니다.'
+  Name: 휴식의 순간

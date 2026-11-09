@@ -1,0 +1,11 @@
+﻿FlandreToolDestroyingObstacles:
+  LockedDescription: Unlocked by resolve the incident on Normal Mode or higher with Flandre Scarlet.
+  Description: >-
+    Remove a card from the library.
+
+    |Limited【{DeckCounter}】|
+  Name: Destroying Obstacles
+  DetailText: >-
+    {SelfName} cannot be randomly generated in combat, and cannot be copied.
+
+    When the selected card is removed from the library, it will not be removed from this combat.

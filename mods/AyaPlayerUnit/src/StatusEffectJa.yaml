@@ -1,0 +1,661 @@
+AyaAccelerationSe:
+    Brief: "{OwnerName}のターン終了時、|グレイズ|が|加速|の1/4まで補充される。(切り捨て)\n{OwnerName}が攻撃を|グレイズ|するたび、|加速|2を失う。"
+    Description: "{OwnerName}のターン終了時、|グレイズ|が{Count}まで補充される。\n{OwnerName}が攻撃を|グレイズ|するたび、|加速|2を失う。"
+    Name: 加速
+AyaAdventoftheDivineGrandsonSe:
+    Brief: "{PlayerName}は全てのデバフを無効化する。\n手札からカードを使用した時、それは2回使用される。"
+    Description: "{PlayerName}は全てのデバフを無効化する。\n手札からカードを使用した時、それは2回使用される。"
+    Name: 天孫降臨
+AyaAnythingisNewsworthySe:
+    Brief: "名前に「新聞」も「報」も含まれていない|厄災|または状態異常カードがデッキに加えられるたび、代わりに|文々。新聞|を加える。"
+    Description: "名前に「新聞」も「報」も含まれていない|厄災|または状態異常カードがデッキに加えられるたび、代わりに|文々。新聞|を加える。"
+    Name: なんだってニュースになる
+AyaApexPredatorSe:
+    Brief: "{PlayerName}が攻撃ダメージを受ける時、{PlayerName}の|加速|の分だけそれを軽減し、|加速|{Value}を失う。"
+    Description: "{PlayerName}が攻撃ダメージを受ける時、{PlayerName}の|加速|の分だけそれを軽減し、|加速|{Value}を失う。"
+    Name: 頂点捕食者
+AyaArmoredRavenSe:
+    Brief: "{PlayerName}のターン最初にプレイされるアタックカードと状態異常カードは２回プレイされる。"
+    Description: "{PlayerName}のターン最初にプレイされる{Limit}枚のアタックカードは2回プレイされる。(残り{Level})\n{PlayerName}のターン最初にプレイされる{Limit}枚状態異常カードは2回プレイされる。(残り{Count})"
+    Name: アーマードレイヴン
+AyaArsenalBirdSe:
+    Brief: "{PlayerName}のターン開始時、|無人航空鴉|を召喚済みの状態で手札に加える。"
+    Description: "{PlayerName}のターン開始時、|無人航空鴉|を召喚済みの状態で手札に加える。\n|巡回中の鴉|：{Count}体\n|戦闘中の鴉|：{Level}体"
+    Name: アーセナルバード
+AyaBlackmailSe:
+    Brief: "|文々。新聞|は|臨時火力ダウン|を与え、<sprite=\"Point\" name=\"Gold\">を得る。"
+    Description: "|文々。新聞|は|臨時火力ダウン|{Level}を与え、<sprite=\"Point\" name=\"Gold\">{Count}を得る効果を持つ。"
+    Name: ブラックメール
+    Blackmail1Aya: "真実を伝えようとする記者が攻撃を受けています！"
+    Blackmail2Aya: "何と言う仕打ち！これこそ相手が犯人の証拠！"
+    Blackmail3Aya: "地元住民がジャーナリストに暴力を振るう！幻想郷の転覆を狙っているのでしょうか？"
+    BlackmailMegumu1Megumu: "あら、私を脅迫しようというの？"
+    BlackmailMegumu2Megumu: "今日の宴会で裸踊りさせられる覚悟をしておきなさい。"
+    BlackmailEiki1Eiki: "詐欺に脅迫、刑期を一年延長。"
+    
+AyaBossFlandreSe:
+    Brief: "{OwnerName}は|破壊|を無効化する。\n{OwnerName}が受けるダメージが減少する。"
+    Description: "{OwnerName}は|破壊|を無効化する。\n{OwnerName}が受けるダメージが{Level}%減少する。"
+    Name: 紅き血の悪魔
+AyaBossKoishiSe:
+    Brief: "{OwnerName}のライフは不明。\n{OwnerName}のターン開始時、|ブロック|をすべて失う代わりに半分だけ失う。\n一定枚数のカードがプレイされると、{PlayerName}のターンを終了せずに{OwnerName}が即座に一度行動する。"
+    Description: "{OwnerName}のライフは不明。\n{OwnerName}のターン開始時、|ブロック|をすべて失う代わりに半分だけ失う。\n{Limit}枚のカードがプレイされるたび、{PlayerName}のターンを終了せずに{OwnerName}が即座に一度行動する。\n|d:({Count:plural one='%枚残り' other='%枚残り'})|"
+    Name: 閉じた恋の瞳
+    
+    
+AyaBossYukariBorderofPhantasmSe:
+    Brief: "{OwnerName}のライフが一定値まで減少すると、|バリア|を得る。\n{SelfName}が発動するまで、{OwnerName}のライフは一定値以下にならない。\n{SelfName}が一定回数発動するまで、{OwnerName}は倒されない。"
+    Description: "{OwnerName}のライフが{Value1}%まで減少すると、{Value2}の|バリア|を得る。\n{SelfName}が発動するまで、{OwnerName}のライフは{Value1}%以下にならない。\n{SelfName}が{Limit}回発動するまで、{OwnerName}は倒されない。\n|d:({Count:plural one='%回残り' other='%回残り'})|"
+    Name: 幻想結界
+
+AyaBossYukariUncannySmileSe:
+    Brief: "{PlayerName}が1ターン中に一定枚数のカードを使用すると、このターンすべてのカードのコストが{Mana}増加し、{OwnerName}が|火力|を得る。"
+    Description: "{PlayerName}が1ターン中に{Limit}枚のカードを使用すると、このターンすべてのカードのコストが{Mana}増加し、{OwnerName}が{Level}の|火力|を得る。\n|d:({Count:plural one='%枚残り' other='%枚残り'})|"
+    Name: 不気味な笑顔
+
+AyaBossYukariYoukaiofBoundariesSe:
+    Brief: "{OwnerName}のターン終了時、{PlayerName}が|バリア|を持っている場合、それを奪う。\nその後、|火力|を得る。"
+    Description: "{OwnerName}のターン終了時、{PlayerName}が|バリア|を持っている場合、{PlayerName}から{Value}%の|バリア|を奪う。({Amount})\nその後、{Level}の|火力|を得る。"
+    Name: 境界の妖怪
+
+AyaBossYukariMastermindbehindtheSpiritingAwaySe:
+    Brief: "{OwnerName}は|追放|されたカード一定枚数ごとに、与えるダメージが1%増加する。"
+    Description: "{OwnerName}は|追放|された{Value:plural one='%枚のカード' other='%枚のカード'}ごとに、与えるダメージが1%増加する。({Level}%)"
+    Name: 神隠しの黒幕
+
+AyaBossYukariPerfectDefenseSe:
+    Brief: "{OwnerName}が|バリア|を持っている場合、ライフを失うたび、その量と同じライフを回復する。"
+    Description: "{OwnerName}が|バリア|を持っている場合、ライフを失うたび、その量と同じライフを回復する。"
+    Name: 完全防御
+
+AyaBossYukariSunshowerofFantasySe:
+    Brief: "{OwnerName}の行動がより強力になる。"
+    Description: "{OwnerName}の行動がより強力になる。"
+    Name: 幻想の太陽雨
+
+AyaBossYukariGatekeeperofGensokyoSe:
+    Brief: "{OwnerName}のターン終了時、|バリア|と|火力|を得る。"
+    Description: "{OwnerName}のターン終了時、{Value}の|バリア|と{Level}の|火力|を得る。"
+    Name: 幻想郷の門番
+
+AyaBossYukariImpossibleDanmakuBarrierSe:
+    Brief: "{OwnerName}がダメージを受けるたび、受けたダメージの一定割合に等しい|バリア|を得る。"
+    Description: "{OwnerName}がダメージを受けるたび、受けたダメージの{Level}%に等しい|バリア|を得る。"
+    Name: 不可能弾幕結界
+
+AyaBossYukariBoundaryofHumansSe:
+    Brief: "{OwnerName}の攻撃ダメージが減少する。"
+    Description: "{OwnerName}の攻撃ダメージが{Value}%減少する。"
+    Name: 人間の境界
+
+AyaBossYukariBoundaryofYoukaiSe:
+    Brief: "{OwnerName}の攻撃ダメージが増加する。"
+    Description: "{OwnerName}の攻撃ダメージが{Value}%増加する。"
+    Name: 妖怪の境界
+    
+AyaBossYukariSagesInstructionsSe:
+    Brief: ""
+    Description: ""
+    Description0: "{PlayerName}のターン終了時、このターンに引いたカードが{Level}枚未満の場合、ライフを{Value}失う。({Count})"
+    Description1: "{PlayerName}のターン終了時、このターンに引いたカードが{Level}枚を超えている場合、ライフを{Value}失う。({Count})"
+    Description2: "{PlayerName}のターン終了時、このターンに|追放|したカードが{Level}枚未満の場合、ライフを{Value}失う。({Count})"
+    Description3: "{PlayerName}のターン終了時、このターンに|追放|したカードが{Level}枚を超えている場合、ライフを{Value}失う。({Count})"
+    Description4: "{PlayerName}のターン終了時、このターンに攻撃カードを使用した枚数が{Level}枚未満の場合、ライフを{Value}失う。({Count})"
+    Description5: "{PlayerName}のターン終了時、このターンに攻撃カードを使用した枚数が{Level}枚を超えている場合、ライフを{Value}失う。({Count})"
+    Description6: "{PlayerName}のターン終了時、このターンに防御カードを使用した枚数が{Level}枚未満の場合、ライフを{Value}失う。({Count})"
+    Description7: "{PlayerName}のターン終了時、このターンに防御カードを使用した枚数が{Level}枚を超えている場合、ライフを{Value}失う。({Count})"
+    Description8: "{PlayerName}のターン終了時、このターンにスキルカードを使用した枚数が{Level}枚未満の場合、ライフを{Value}失う。({Count})"
+    Description9: "{PlayerName}のターン終了時、このターンにスキルカードを使用した枚数が{Level}枚を超えている場合、ライフを{Value}失う。({Count})"
+    Name: 賢者の教え
+    Name0: 賢者の教え - 最低ドロー
+    Name1: 賢者の教え - 最大ドロー
+    Name2: 賢者の教え - 最低廃棄
+    Name3: 賢者の教え - 最大廃棄
+    Name4: 賢者の教え - 最低攻撃
+    Name5: 賢者の教え - 最大攻撃
+    Name6: 賢者の教え - 最低防御
+    Name7: 賢者の教え - 最大防御
+    Name8: 賢者の教え - 最低スキル
+    Name9: 賢者の教え - 最大スキル
+
+
+    
+    
+    
+AyaBossZUNSe:
+    Brief: "{OwnerName} を対象とするすべてのカード、ダメージ、状態異常を無効化する。\n他のすべての敵が倒された後、{OwnerName} は戦闘から離脱する。"
+    Description: "{OwnerName} を対象とするすべてのカード、ダメージ、状態異常を無効化する。\n他のすべての敵が倒された後、{OwnerName} は戦闘から離脱する。"
+    Name: 博麗の神主
+AyaBunbunmaruPrinterSe:
+    Brief: "{PlayerName}のターン開始時、|文々。新聞|を手札に加える。それらは|臨時コスト|{Mana}。"
+    Description: "{PlayerName}のターン開始時、|文々。新聞|を{Level}枚手札に加える。それらは|臨時コスト|{Mana}。"
+    PhantasmModeDescription: "{PlayerName}のターン開始時、|文々。新聞|を{Level}枚手札に加える。"
+    Name: 文々。新聞プリンター
+AyaCrazyFallWindSe:
+    Brief: "カードを|廃棄|するたび、|加速|を得る。"
+    Description: "カードを|廃棄|するたび、|加速|{Level}を得る。"
+    Name: クレイジーフォールウィンド
+AyaCrossroadsofHeavenSe:
+    Brief: "{PlayerName}が|加速|を得るたび、追加の|加速|を得る。"
+    Description: "{PlayerName}が|加速|を得るたび、追加で|加速|{Level}を得る。"
+    Name: 天の八衢
+AyaDaymareintheDarkNightSe:
+    Brief: "{PlayerName}の次のターンまで、{PlayerName}が|加速|を得るたびに、残り体力が最も少ない敵に|精密|攻撃ダメージを与える。"
+    Description: "{PlayerName}の次のターンまで、{PlayerName}が|加速|を得るたびに、残り体力が最も少ない敵に|精密|攻撃{Damage}ダメージを与える。"
+    Name: 暗夜のデイメア
+AyaDeaMachinaSe:
+    Brief: ""
+    Description: ""
+    Name: 
+AyaDecelerationSe:
+    Brief: "プレイヤーがX以上の|加速|を持っている時、|加速|Xを消費して効果を発動する。"
+    Description: "プレイヤーがX以上の|加速|を持っている時、|加速|Xを消費して効果を発動する。"
+    Name: 減速X
+AyaEffortlessFlightSe:
+    Brief: "{PlayerName}のターン開始時、|加速|を得る。"
+    Description: "{PlayerName}のターン開始時、|加速|{Level}を得る。"
+    Name: 省力飛行
+AyaFriendAyaSe:
+    Brief: "{PlayerName}は|ブロック|と|バリア|を得られない。\n{PlayerName}は全てのダメージと全てのデバフを無効化する。\nターン終了時にマナを失わない。\n手札の上限が{MaxHand}枚になる。\n{PlayerName}がカードを使用するたび、山札の一番上のカードを手札に移動させ、{Mana}と|加速|{Value}を得る。\n|加速|は攻撃ダメージを上昇させる。"
+    Description: "{PlayerName}は|ブロック|と|バリア|を得られない。\n{PlayerName}は全てのダメージと全てのデバフを無効化する。\nターン終了時にマナを失わない。\n手札の上限が{MaxHand}枚になる。\n{PlayerName}がカードを使用するたび、山札の一番上のカードを手札に移動させ、{Mana}と|加速|{Value}を得る。\n|加速|は攻撃ダメージを上昇させる。"
+    Name: 天上天下の照國
+AyaFriendCirnoSe:
+    Brief: "{OwnerName}が攻撃ダメージを受けるたび、ライフを失って{SelfName}の数値を上昇させる。\n{OwnerName}のターン終了時、|ファイナルフリーズ|を失う。"
+    Description: "{OwnerName}が攻撃ダメージを受けるたび、ライフを{Level}失い{SelfName}の数値を{Level}上昇させる。\n{OwnerName}のターン終了時、|ファイナルフリーズ|を失う。"
+    Name: ファイナルフリーズ
+AyaFriendMegumuSe:
+    Brief: "|厄災|または状態異常カードが|廃棄|されるたび、<sprite=\"ManaSprite\" name=\"P\">を得て、カードを1枚引く。"
+    Description: "|厄災|または状態異常カードが|廃棄|されるたび、<sprite=\"ManaSprite\" name=\"P\">{Level}を得て、カードを{Level}枚引く。"
+    Name: "虹光\u300C光風霽月\u300D"
+AyaHraesvelgrofTerminusSe:
+    Brief: "次の数ターンの間、全ての敵の|ブロック|、|バリア|、全てのバフは無効化される。"
+    Description: "次の{Duration}ターンの間、全ての敵の|ブロック|、|バリア|、全てのバフは無効化される。"
+    Name: 終末のフレースヴェルグ
+AyaInstantShotJournalistSe:
+    Brief: "{PlayerName}は次の数ターンの間、|加速|を失わない。"
+    Description: "{PlayerName}は次の{Duration}ターンの間、|加速|を失わない。"
+    Name: 瞬撮ジャーナリスト
+AyaMountainGodsProcessionSe:
+    Brief: "{PlayerName}が|加速|を得るたび、<sprite=\"ManaSprite\" name=\"P\">を得る。"
+    Description: "{PlayerName}が|加速|を得るたび、<sprite=\"ManaSprite\" name=\"P\">を{Level}つ得る。"
+    Name: 山神渡御
+    
+AyaMultiplayerSe:
+    Brief: "このカードはLBOL MP Modが有効な場合に使用可能。"
+    Description: "このカードはLBOL MP Modが有効な場合に使用可能。"
+    Name: "マルチプレイ"
+
+AyaNewsOverwhelmingSe:
+    Brief: "|複製|でない|厄災|または状態異常カードが|廃棄|されるたび、|文々。新聞|の|複製|を1枚手札に加える。それは|臨時コスト|{Mana}。"
+    Description: "|複製|でない|厄災|または状態異常カードが|廃棄|されるたび、|文々。新聞|の|複製|を{Level}枚手札に加える。それは|臨時コスト|{Mana}。"
+    Name: 空前の大ニュース
+AyaOrbBlackSe:
+    Brief: "黒色のカードをプレイするとき、対象が{OwnerName}ならば、代わりに捨て札にカードを送る。"
+    Description: "黒色のカードをプレイするとき、対象が{OwnerName}ならば、代わりに捨て札にカードを送る。"
+    Name: 黒の神髄
+AyaOrbBlackDreamExpressSe:
+    Brief: "{OwnerName}のターン終了時、何枚かのカードを|夢見|。その後、|夢見|カードの合計コストの2倍に等しいダメージを{PlayerName}に与える。"
+    Description: "{OwnerName}のターン終了時、|夢見|{Level}。その後、|夢見|カード{Level}枚の合計コストの2倍に等しいダメージを{PlayerName}に与える。"
+    Name: ドリームエクスプレス
+AyaOrbBlackUnexplainedFeverSe:
+    Brief: "{OwnerName}のターン終了時、{PlayerName}に|毒|を与える。"
+    Description: "{OwnerName}のターン終了時、{PlayerName}に{Level}の|毒|を与える。"
+    Name: 原因不明の熱
+AyaOrbBlueSe:
+    Brief: "青色のカードをプレイするとき、対象が{OwnerName}ならば、代わりに捨て札にカードを送る。"
+    Description: "青色のカードをプレイするとき、対象が{OwnerName}ならば、代わりに捨て札にカードを送る。"
+    Name: 青の神髄
+AyaOrbBlueTheReclusiveSageSe:
+    Brief: "{OwnerName}のターン終了時、|偽りの月|を山札に加える。"
+    Description: "{OwnerName}のターン終了時、{Level}枚の|偽りの月|を山札に加える。"
+    Name: 賢者の帰依
+AyaOrbColorlessPoweroftheOrdinarySe:
+    Brief: "コモンカードをプレイする度、{OwnerName}は|臨時火力|を得る。"
+    Description: "コモンカードをプレイする度、{OwnerName}は|臨時火力|{Level}を得る。"
+    Name: 弱者の力
+AyaOrbColorlessSe:
+    Brief: "無色のカードをプレイするとき、対象が{OwnerName}ならば、代わりに捨て札にカードを送る。"
+    Description: "無色のカードをプレイするとき、対象が{OwnerName}ならば、代わりに捨て札にカードを送る。"
+    Name: 無の神髄
+AyaOrbGreenSe:
+    Brief: "緑色のカードをプレイするとき、対象が{OwnerName}ならば、代わりに捨て札にカードを送る。"
+    Description: "緑色のカードをプレイするとき、対象が{OwnerName}ならば、代わりに捨て札にカードを送る。"
+    Name: 緑の神髄
+AyaOrbPhilosophySe:
+    Brief: "混合色のカードをプレイするとき、対象が{OwnerName}ならば、代わりに捨て札にカードを送る。"
+    Description: "混合色のカードをプレイするとき、対象が{OwnerName}ならば、代わりに捨て札にカードを送る。"
+    Name: 虹の神髄
+AyaOrbRedIndiscriminateIgnitionSe:
+    Brief: "{OwnerName} のターン終了時、{PlayerName}にダメージを与える。\nこの効果は、|災厄|や状態異常カードを引いたときにも発動する。"
+    Description: "{OwnerName}のターン終了時、{PlayerName}に{Level} ダメージを与える。\nこの効果は、|災厄|や状態異常カードを引いたときにも発動する。"
+    Name: 無差別発火の符
+AyaOrbRedSe:
+    Brief: "赤色のカードをプレイするとき、対象が{OwnerName}ならば、代わりに捨て札にカードを送る。"
+    Description: "赤色のカードをプレイするとき、対象が{OwnerName}ならば、代わりに捨て札にカードを送る。"
+    Name: 赤の神髄
+AyaOrbSe:
+    Brief: "{OwnerName} のターン開始時、|ブロック|をすべてではなく半分だけ失う。\n{OwnerName} が受けるダメージが軽減される。\n山札をシャッフルするたびに、{Value1}の|創造者の遺産|を得る。\n{OwnerName}のターン終了時、{Value2}の|創造者の遺産|を失う。"
+    Description: "{OwnerName} のターン開始時、|ブロック|をすべてではなく半分だけ失う。\n{OwnerName} が受けるダメージが{Level}%軽減される。\n山札をシャッフルするたびに、{Value1}の|創造者の遺産|を得る。\n{OwnerName}のターン終了時、{Value2}の|創造者の遺産|を失う。"
+    Name: 創造者の遺産
+AyaOrbWhiteSe:
+    Brief: "白色のカードをプレイするとき、対象が{OwnerName}ならば、代わりに捨て札にカードを送る。"
+    Description: "白色のカードをプレイするとき、対象が{OwnerName}ならば、代わりに捨て札にカードを送る。"
+    Name: 白の神髄
+AyaOrbWhiteSuperspeedFlierSe:
+    Brief: "{OwnerName}の次のターン開始時、{PlayerName}にダメージを与える。"
+    Description: "{OwnerName}の次のターン開始時、{PlayerName}に{Level}ダメージを与える。"
+    Name: 神速の飛行者
+AyaPanoramaSe:
+    Brief: "|文々。新聞・号外|の数値を増加させる。"
+    Description: "|文々。新聞・号外|の数値を{Level}増やす。"
+    Name: パノラマ
+AyaPassiveSe:
+    Brief: "|文々。新聞|は{Value1}ダメージを与え、|ロックオン|{Value2}を与えるようになり、|補充|を持つ。\n|花果子念報|は|補充|を持つ。\n|厄災|と|状態異常|は|禁止|を失い、|廃棄|を得る。\nそれらはレアリティに基づいてマナコストを獲得する。"
+    Description: "|文々。新聞|は{Value1}ダメージを与え、|ロックオン|{Value2}を与えるようになり、|補充|を持つ。\n|花果子念報|は|補充|を持つ。\n|厄災|と|状態異常|は|禁止|を失い、|廃棄|を得る。\nそれらはレアリティに基づいてマナコストを獲得する。"
+    Name: 伝統の幻想ブン屋
+AyaPatchouliSe:
+    Brief: "{OwnerName}が|バリア|を持っている場合、特定のダメージ量以下のダメージを受けると、ダメージを0にする。"
+    Description: "{OwnerName}が|バリア|を持っている場合、{Level}以下のダメージを受けると、そのダメージは0になる。"
+    Name: マジックバリア
+AyaPerfectGrazeSe:
+    Brief: "{OwnerName}が受ける|精密|攻撃ダメージを0にする。\n|精密|攻撃される時に1減少する。"
+    Description: "{OwnerName}が受ける次の{Level}回の|精密|攻撃ダメージを0にする。\n|精密|攻撃される時に1減少する。"
+    Name: 完全グレイズ
+AyaPlayerUnitAllySe:
+    Brief: "{OwnerName}は{PlayerName}側として戦う！{OwnerName}は全てのデバフを無効化し、攻撃されない。"
+    Description: "{OwnerName}は{PlayerName}側として戦う！{OwnerName}は全てのデバフを無効化し、攻撃されない。"
+    Name: 真のパートナー
+AyaPlayerUnitBuddySe:
+    Brief: "{OwnerName}は戦いたくない。"
+    Description: "{OwnerName}は戦いたくない。"
+    Name: 震える心
+AyaProtectionPaperSe:
+    Brief: "|厄災|または状態異常カードが|廃棄|されるたび、|ブロック|を得る。"
+    Description: "|厄災|または状態異常カードが|廃棄|されるたび、{Level}|ブロック|を得る。"
+    Name: プロテクションペーパー
+AyaQuickShootingTenguScoopSe:
+    Brief: "このターン中、状態異常カードのコストを{Mana}減らす。"
+    Description: "このターン中、状態異常カードのコストを{Mana}減らす。"
+    ExtraDescription: "このターン中、カードのコストを{Mana}減らす。"
+    Name: 激撮テングスクープ
+AyaRouteForbiddentoManSe:
+    Brief: "{PlayerName}のターン終了時、そのターン中に|廃棄|したカードの枚数だけランダムな敵に|精密|ダメージと|ロックオン|を与える。"
+    Description: "{PlayerName}のターン終了時、そのターン中に|廃棄|したカードの枚数だけランダムな敵に{Damage}ダメージと|ロックオン|{Limit}を与える。それは|精密|を持つ。最大{Value}回まで。\n(蓄積回数：{Count})"
+    PhantasmModeDescription: "{PlayerName}のターン終了時、そのターン中に|廃棄|したカードの枚数だけランダムな敵に{Damage}ダメージと|ロックオン|{Limit}を与える。それは|精密|を持つ。最大{Value}回まで。\n(蓄積回数：{Count})"
+    Name: 人間禁制の道
+AyaSickleWeaselVeilingSe:
+    Brief: "{PlayerName}が攻撃を0ダメージで受けた時、攻撃してきた相手にダメージを与える。"
+    Description: "{PlayerName}が攻撃を0ダメージで受けた時、攻撃してきた相手に{Level}ダメージを与える。"
+    Name: 鎌鼬ベーリング
+AyaTakaneSe:
+    Brief: "{OwnerName}は本当に怒っている。\n{OwnerName}の最大ライフを増やし、ダメージを多く与えるようになる。"
+    Description: "{OwnerName}は本当に怒っている。\n{OwnerName}の最大ライフを{Value}%増やし、ダメージを{Level}%多く与えるようになる。"
+    Name: 激怒の店主
+AyaTakaneCenturysDoppelgangersSe:
+    Brief: "{OwnerName}の攻撃は２回攻撃になる。"
+    Description: "{OwnerName}の攻撃は２回攻撃になる。"
+    Name: 世紀のダブルエスパー
+AyaTakaneEndofImperishableNightSe:
+    Brief: "{OwnerName}の|通常ターン|終了時、追加で１ターンを得る。"
+    Description: "{OwnerName}の|通常ターン|終了時、追加で１ターンを得る。"
+    Name: '「永夜返し」'
+AyaTanukiAMOLEDSe:
+    Brief: "ダークネスを無効化する。\n|d:(このステータスに効果はない)|"
+    Description: "次の{Level}回のダークネスを無効化する。\n|d:(このステータスに効果はない)|"
+    Name: AMOLED
+AyaTanukiExtremeTurnSe:
+    Brief: "{OwnerName}のターン終了時、エクストリームターンを得る。\n|d:(このステータスに効果はない)|"
+    Description: "{OwnerName}のターン終了時、エクストリームターンを得る。残り{Level}回有効\n|d:(このステータスに効果はない)|"
+    Name: エクストリームターン
+AyaTanukiGravySe:
+    Brief: "{OwnerName}が焼けた肉から受けるダメージを0にする。\n攻撃されるかターン開始時に1減少する。\n|d:(このステータスに効果はない)|"
+    Description: "{OwnerName}が焼けた肉から受けるダメージを0にする。残り{Level}回有効。\n攻撃されるかターン開始時に1減少する。\n|d:(このステータスに効果はない)|"
+    Name: グレイビーソース
+AyaTanukiOpticalChameleonSe:
+    Brief: "カメレオンが受ける攻撃ダメージが半減する。\n|d:(このステータスに効果はない)|"
+    Description: "カメレオンが受ける攻撃ダメージが半減する。残り{Duration}ターン持続。\n|d:(このステータスに効果はない)|"
+    Name: カメレオン迷彩
+AyaTanukiSpriteSe:
+    Brief: "|精霊|を得る。|精霊|は{OwnerName}を水和させる。\n|d:(このステータスに効果はない)|"
+    Description: "|精霊|{Level}を得る。\n|精霊|は{OwnerName}を水和させる。\n|d:(このステータスに効果はない)|"
+    Name: 精霊
+AyaTanukiWaterpowerSe:
+    Brief: "|水力|を得る。|水力|は攻撃の湿度を上げる。\n|d:(このステータスに効果はない)|"
+    Description: "|水力|{Level}を得る。\n|水力|は攻撃の湿度を上げる。\n|d:(このステータスに効果はない)|"
+    Name: 水力
+AyaTanukiWindGodGrillSe:
+    Brief: "{OwnerName}が|風神グリル|を得るたび、同じ数の|グレイビーソース|を得る。\n{OwnerName}のターン終了時、|グレイビーソース|が補充される。"
+    Description: "{OwnerName}のターン終了時、|グレイビーソース|が{Level}まで補充される。"
+    Name: 風神グリル
+    
+AyaTemporaryMaximumLifeDownSe:
+    Brief: "戦闘終了まで最大ライフが減少する。"
+    Description: "戦闘終了まで最大ライフを{Amount}失う。"
+    Name: 一時的な最大ライフ減少
+
+AyaTemporaryMaximumLifeSe:
+    Brief: "戦闘終了まで最大ライフが増加する。"
+    Description: "戦闘終了まで最大ライフを{Amount}得る。"
+    Name: 一時的な最大ライフ増加
+
+    
+AyaTenguNewspaperDeadlineDaySe:
+    Brief: "全ての|厄災|と状態異常カードは|補充|を持つ。"
+    Description: "全ての|厄災|と状態異常カードは|補充|を持つ。"
+    Name: 天狗報即日限
+AyaTenguTreeFellingSe:
+    Brief: "次の数枚のカードのコストを{Mana}減らす。"
+    Description: "次に使用する{Level}枚のカードのコストを{Mana}減らす。"
+    PhantasmModeDescription: "このターンの終了時まで、次に使用する{Level}枚のカードのコストを{Mana}減らす。"
+    Name: 天狗ナメシ
+AyaTengusDrumbeatsSe:
+    Brief: "次の{PlayerName}のターン開始時、敵全体に|精密|ダメージを与え、|臨時火力|を得る。"
+    Description: "次の{PlayerName}のターン開始時、敵全体に{Damage}ダメージを与え、|臨時火力|{Count}を得る。それは|精密|を持つ。"
+    PhantasmModeDescription: "次の{PlayerName}のターン開始時、敵全体に{Damage}ダメージを与える。それは|精密|を持つ。"
+    Name: 天狗の太鼓
+AyaTengusFallWindSe:
+    Brief: "次に使用するカードは2回使用される。"
+    Description: "次に使用する{Level}枚のカードは2回使用される。"
+    Name: 天狗颪
+AyaToolCrowsEggSe:
+    Brief: "{PlayerName}のターン開始時ライフを回復して|臨時火力|を得る。|カラスの卵|を1減らす。"
+    Description: "{PlayerName}のターン開始時ライフを{Duration}回復して|臨時火力|{Duration}を得る。|カラスの卵|を1減らす。"
+    Name: カラスの卵
+AyaWindGodsLeafVeilingSe:
+    Brief: "{OwnerName}への攻撃は全て|精密|を得る。"
+    Description: "{OwnerName}への攻撃は全て|精密|を得る。"
+    Name: 風神木の葉隠れ
+    
+FlandreAndThenWillThereBeNoneSe:
+    Brief: "{PlayerName}は数ターンの間、敵の全てのダメージとデバフを無効化する。"
+    Description: "{PlayerName}は{Duration}ターンの間、敵の全てのダメージとデバフを無効化する。"
+    Name: そして誰もいなくなるか？
+    
+FlandreAnnoyingSunlightSe:
+    Brief: "{PlayerName}はライフを回復できない。"
+    Description: "{PlayerName}はライフを回復できない。"
+    Name: "うっとうしい日差し"
+
+FlandreBloodisFuelSe:
+    Brief: "未使用のマナは一定ターンの間失われない。"
+    Description: "未使用のマナは次の{Duration:plural one='%ターン' other='%ターン'}の間失われない。"
+    Name: "血は燃料"
+
+FlandreBloodlustSe:
+    Brief: "このカードの効果は、{PlayerName}が失ったライフ1%につき|e:{Value1}|%増加する。最大{Value2}%。（現在|e:{Amount}|%）"
+    Description: "このカードの効果は、{PlayerName}が失ったライフ1%につき|e:{Value1}|%増加する。最大{Value2}%。（現在|e:{Amount}|%）"
+    Name: "血の渇望"
+    
+    
+FlandreBloodyCatastropheSe:
+    Brief: "戦闘終了まで{PlayerName}の攻撃は|精密|を得る。"
+    Description: "戦闘終了まで{PlayerName}の攻撃は|精密|を得る。"
+    Name: ブラッディカタストロフ
+
+
+FlandreBloodyRequiemSe:
+    Brief: "一定ターンの間、すべての|フランドール|カードが|血の渇望|を得て、|血の渇望|は常に最大値で適用される。"
+    Description: "次の{Duration:plural one='%ターン' other='%ターン'}の間、すべての|フランドール|カードが|血の渇望|を得て、|血の渇望|は常に最大値で適用される。"
+    Name: "ブラッディ・レクイエム"
+
+FlandreChromaticWingsSe:
+    Brief: "{PlayerName}のターン開始時、<sprite=\"ManaSprite\" name=\"P\">を得る。"
+    Description: "{PlayerName}ののターン開始時、<sprite=\"ManaSprite\" name=\"P\">{Level}を得る"
+    Name: 虹色の羽
+FlandreClockthatTicksAwaythePastSe:
+    Brief: "ターン開始時のカードドローをスキップし、代わりに捨て札の一番上から手札に戻す。"
+    Description: "ターン開始時のカードドローをスキップし、代わりに捨て札の一番上から{Limit}枚を手札に戻す。"
+    ExtraDescription: "ターン開始時のカードドローをスキップし、代わりに捨て札の一番上から{Limit}枚を手札に戻す。\n{SelfName}は無効状態となり、解決後にのみ取り除かれる。"
+    Name: 過去を刻む時計
+FlandreColorofMadnessSe:
+    Brief: "攻撃カードをプレイする度に、ランダムな|クリスタル|をプレイする。"
+    Description: "攻撃カードをプレイする度に、ランダムな|クリスタル|を{Level}回プレイする。"
+    Name: 狂気の色彩
+FlandreCranberryTrapSe:
+    Brief: "{PlayerName}のターン終了時、すべての敵攻撃ダメージを与える。|精密|\n{PlayerName}が敵からライフを失ったとき、|バリア|を得てすべての|クランベリートラップ|を失う。"
+    Description: "{PlayerName}のターン終了時、すべての敵に{Damage}攻撃ダメージを与える。|精密|\n{PlayerName}が敵からライフを失ったとき、|バリア|{Amount}を得てすべての|クランベリートラップ|を失う。"
+    Name: クランベリートラップ
+FlandreCrystallineOutburstSe:
+    Brief: "|混沌のクリスタル|、|悪魔のクリスタル|、|狂気のクリスタル|、|孤独のクリスタル|がすべて発動すると、手札に|破滅のクリスタル|を加える。"
+    Description: "|混沌のクリスタル|、|悪魔のクリスタル|、|狂気のクリスタル|、|孤独のクリスタル|がすべて発動すると、手札に{Level}枚の|破滅のクリスタル{Level:plural one='' other=''}|を加える。\n（残り{Amount}：{Count:plural one='%枚' other='%枚'}）"
+    Name: 結晶の爆発
+FlandreDanmakuofDenialSe:
+    Brief: "攻撃カードを使うたびに、|ブロック|を得る。"
+    Description: "攻撃カードを使うたびに、{Level}|ブロック|を得る。"
+    Name: 拒絶の弾幕
+FlandreDestroySe:
+    Brief: "対象を打ち負かす。"
+    Description: "対象を打ち負かす。"
+    Name: 破壊
+FlandreDoombringerSe:
+    Brief: "{PlayerName}のターン開始時、|災禍|を得る。"
+    Description: "{PlayerName}のターン開始時、|災禍|{Level}を得る。"
+    Name: 破滅をもたらす者
+
+
+    
+FlandreDoomsdayClockSe:
+    Brief: "{PlayerName}はより多くの|災禍|を得る。"
+    Description: "{PlayerName}は|災禍|を{Level}回多く得る。"
+    Name: "終末時計"
+    
+FlandreCalamitySe:
+    Brief: "敵がダメージを受けるとき、追加で|災禍|に等しいダメージをうける。\nターン開始時、|災禍|は1失われる。"
+    Description: "敵がダメージを受けるとき、追加で{Level}ダメージをうける。\nターン開始時、|災禍|は1失われる。"
+    Name: 災禍
+FlandreForbiddenGamesSe:
+    Brief: "敵は一定ターンの間、行動できない。"
+    Description: "敵は{Duration:plural one='このラウンド終了まで' other='次の%ターンの間'}行動できない。"
+    Name: 禁じられた遊び
+    
+FlandreForbiddenScarletCuriositySe:
+    Brief: "{PlayerName}はすべてのデバフを無効化する。\nすべての攻撃のダメージが数倍になる。\n敵がライフを失うたび、{PlayerName}はその量だけライフを得る。"
+    Description: "{PlayerName}はすべてのデバフを無効化する。\nすべての攻撃のダメージが{Level}倍になる。\n敵がライフを失うたび、{PlayerName}はその量だけライフを得る。"
+    Name: 禁じられた紅輝心
+
+    
+FlandreFragmentsofLightSe:
+    Brief: "{PlayerName}のターン開始時、手札にランダムな|クリスタル|を加える"
+    Description: "{PlayerName}のターン開始時、手札にランダムな|クリスタル|を{Level}枚加える。"
+    Name: 光の欠片
+FlandreFranticDestroyerSe:
+    Brief: "攻撃カードをプレイする度に、<sprite=\"ManaSprite\" name=\"P\">を得てカードを1枚引く。"
+    Description: "攻撃カードをプレイする度に、<sprite=\"ManaSprite\" name=\"P\">{Level}を得てカードを{Level}枚引く。"
+    Name: 狂乱の破壊者
+FlandreFriendOkinaSe:
+    Brief: "{PlayerName}のターン開始時、何枚かの|p:完全ランダムな|レアカードの中から1枚選び、手札に加える。その臨時コストは{Mana}で、|廃棄|と|虚無|を持つ。"
+    Description: "{PlayerName}のターン開始時、{Level}枚の|p:完全ランダムな|レアカードの中から1枚選び、手札に加える。その臨時コストは{Mana}で、|廃棄|と|虚無|を持つ。"
+    Name: 秘匿された時空幻想ツアー
+FlandreFriendOkinaFallSe:
+    Brief: "カードが|廃棄|される度に、|グレイズ|を得る。"
+    Description: "カードが|廃棄|される度に、|グレイズ|{Level} を得る。"
+    Name: 裏・クレイジーフォールウィンド
+FlandreFriendOkinaSpringSe:
+    Brief: "{PlayerName}のターン開始時、ライフと|加護|と|庇護|を得る。"
+    Description: "{PlayerName}のターン開始時、ライフを{Level}、|加護|{Level}、|庇護|{Level}を得る。"
+    Name: 裏・ブリージーチェリーブロッサム
+
+FlandreFriendOkinaSummerSe:
+    Brief: "{PlayerName}がカードを一定枚数発動するたび、各敵に|精密|な攻撃ダメージを与え、|凍結|を与える。"
+    Description: "{PlayerName}が{Limit:plural one='%枚' other='%枚'}のカードを発動するたび、各敵に{Level}の|精密|な攻撃ダメージを与え、|凍結|を与える。\n（残り{Count:plural one='%枚' other='%枚'}）"
+    Name: 裏・パーフェクトサマーアイス
+FlandreFriendOkinaWinterSe:
+    Brief: "カードをプレイする度に、|チャージ|を得る。"
+    Description: "カードをプレイする度に、|チャージ|{Level}を得る。"
+    Name: 裏・エクストリームウィンター
+FlandreHellonEarthSe:
+    Brief: "|業火|が発動するとき、追加でもう一回発動する。"
+    Description: "|業火|が発動するとき、追加でもう{Level}回発動する。"
+    Name: 生き地獄
+FlandreHotSurfaceSe:
+    Brief: "{PlayerName}の次のターンまで、{PlayerName}が攻撃を受ける度に、その攻撃者に|業火|を与える。"
+    Description: "{PlayerName}の次のターンまで、{PlayerName}が攻撃を受ける度に、その攻撃者に|業火|{Value}を与える。"
+    Name: 高温注意
+
+FlandreHellfireSe:
+    Brief: "{OwnerName}はターン開始時にライフを失う。\n|災火の導火線|：{OwnerName}が倒された時、すべての敵はライフを失う。"
+    Description: "{OwnerName}はターン開始時に{Amount}ライフを失う。\n|災火の導火線|：{OwnerName}が倒された時、すべての敵はライフ{Amount}を失う。"
+    Name: 業火
+
+FlandreKindLiesandGoodbyesSe:
+    Brief: "{PlayerName}は一定ターンの間、ライフを失わない。"
+    Description: "{PlayerName}は{Duration}ターンの間、ライフを失わない。"
+    Name: 優しい嘘と別れ
+
+FlandreMadnessSe:
+    Brief: "{PlayerName}は最大{MadnessValue4}の|狂気|を持つことができる。\n{PlayerName}の攻撃は|狂気|1つにつき|e:{MadnessValue1}|%ダメージが増加する。\n{PlayerName}がカードから得る|ブロック|と|バリア|は、|狂気|1つにつき|e:{MadnessValue2}|%減少する。\n{PlayerName}がレベルアップするたび、|狂気|を{MadnessDecay}失う。\n|r:{PlayerName}の|狂気|が{MadnessValue4}に達すると、敗北する。|"
+    Description: "{PlayerName}は最大{MadnessValue4}の|狂気|を持つことができる。\n{PlayerName}の攻撃は|狂気|1つにつき|e:{MadnessValue1}|%ダメージが増加する。（|e:{MadnessAmount1}|%）\n{PlayerName}がカードから得る|ブロック|と|バリア|は、|狂気|1つにつき|e:{MadnessValue2}|%減少する。（|e:{MadnessAmount2}|%）\n{PlayerName}がレベルアップするたび、|狂気|を{MadnessDecay}失う。\n|r:{PlayerName}の|狂気|が{MadnessValue4}に達すると、敗北する。|"
+    Name: 狂気
+
+FlandreMagicalGirlFlandreEngageSe:
+    Brief: "すべての|魔法少女|カードは追加で{Value}回まで|アップグレード|できる。"
+    Description: "すべての|魔法少女|カードは追加で{Value}回まで|アップグレード|できる。"
+    Name: 魔法少女フランドール、いっきまーすっ☆
+
+FlandreMagicalGirlSe:
+    Brief: "このカードは最大{Value1}回まで|アップグレード|できる。\n戦闘開始時、ライブラリ内の|魔法少女|カードの|アップグレード|1回につき、{Value2}|バリア|を得る。({Amount})"
+    Description: "このカードは最大{Value1}回まで|アップグレード|できる。\n戦闘開始時、ライブラリ内の|魔法少女|カードの|アップグレード|1回につき、{Value2}|バリア|を得る。({Amount})"
+    Name: 魔法少女
+
+
+
+FlandreMindsEyeSe:
+    Brief: "{PlayerName}が次に攻撃ダメージを与える、または受ける時、与えるダメージを2倍にするか、受けるダメージを半分にする。"
+    Description: "{PlayerName}が次に{Level}回、攻撃ダメージを与える、または受ける時、与えるダメージを2倍にするか、受けるダメージを半分にする。"
+    Name: 心眼
+
+FlandreMPBullofPhalarisSe:
+    Brief: "{PlayerName}が状態異常によるダメージを受けるたび、敵全体にダメージを与える。"
+    Description: "{PlayerName}が状態異常によるダメージを受けるたび、敵全体に{Level}ダメージを与える。"
+    Name: ファラリスの雄牛
+FlandreMPButchersCircusSe:
+    Brief: "敵が倒されるたび、すべてのプレイヤーは|火力|とライフを得る。"
+    Description: "敵が倒されるたび、すべてのプレイヤーは|火力|{Level}とライフ{Count}を得る。"
+    Name: 屠殺人のサーカス
+FlandreMPPhantomPainSe:
+    Brief: "{PlayerName}の次のターンまで、いずれかのプレイヤーが攻撃カードを使用するたび、{OwnerName}はダメージを受ける。"
+    Description: "{PlayerName}の次のターンまで、いずれかのプレイヤーが攻撃カードを使用するたび、{OwnerName}は{Level}ダメージを受ける。"
+    Name: ファントムペイン
+FlandreMPProblemChildSe:
+    Brief: "すべての|フランドール|の|マルチプレイヤー|カードは、戦闘終了まで|プレイ不可|を得る。\nすべての攻撃カードのコストが、戦闘終了まで減少する。"
+    Description: "すべての|フランドール|の|マルチプレイヤー|カードは、戦闘終了まで|プレイ不可|を得る。\nすべての攻撃カードのコストが、戦闘終了まで{Mana}減少する。"
+    Name: 問題児
+FlandreMPEnfantTerribleSe:
+    Brief: "{OwnerName}の攻撃は、一定ターンの間、与えるダメージが減少する。"
+    Description: "{OwnerName}の攻撃は、{Duration:plural one='ターン終了時まで' other='次の%ターンの間'}、与えるダメージが{Limit}%減少する。"
+    Name: アンファン・テリブル
+FlandreMPRiggedGameSe:
+    Brief: "次に捨て札に送られるレアカード何枚かを、山札の一番上に置く"
+    Description: "次に捨て札に送られるレアカード{Level}枚を、山札の一番上に置く"
+    Name: 仕組まれたゲーム
+
+
+
+FlandreNoMercySe:
+    Brief: "次に使用する数枚の攻撃カードのコストは{Mana}になる。"
+    Description: "次に使用する{Level}枚の攻撃カードのコストは{Mana}になる。"
+    Name: 無慈悲
+    
+FlandreOfferingSe:
+    Brief: "手札、山札、捨て札から最大X枚のカードを|廃棄|する。この方法で|廃棄|しなかったカード1枚につき、ライフを{Value}失う。\n|供物|はスキップでき、その場合は必ずライフを失う。"
+    Description: "手札、山札、捨て札から最大X枚のカードを|廃棄|する。この方法で|廃棄|しなかったカード1枚につき、ライフを{Value}失う。\n|供物|はスキップでき、その場合は必ずライフを失う。"
+    Name: 供物 X
+    
+
+FlandrePassiveSe:
+    Brief: "カード報酬で選択できるカードの数が{Value}増加する。"
+    Description: "カード報酬で選択できるカードの数が{Value}増加する。"
+    Name: "紅き血の悪魔"
+
+FlandreRipplesof495YearsSe:
+    Brief: "{PlayerName}はすべてのデバフを無効化する。\nこの戦闘中に{PlayerName}が得るすべてのマナを<sprite=\"ManaSprite\" name=\"P\">に変換する。\n未使用のマナはターン終了時に失われない。\nすべてのカードを追加で発動する。"
+    Description: "{PlayerName}はすべてのデバフを無効化する。\nこの戦闘中に{PlayerName}が得るすべてのマナを<sprite=\"ManaSprite\" name=\"P\">に変換する。\n未使用のマナはターン終了時に失われない。\nすべてのカードを{Level}回追加で発動する。"
+    Name: "495年の波紋"
+
+FlandreRuinedFortressSe:
+    Brief: "|破滅|を持つ敵は攻撃ダメージが減少する。"
+    Description: "|破滅|を持つ敵は攻撃ダメージが{Level}%減少する。"
+    Name: "崩れた要塞"
+
+FlandreRuinSe:
+    Brief: "{OwnerName}が受けるダメージが増加する。\n{OwnerName}の生命が|破滅|以下の場合、|破壊|する。"
+    Description: "{OwnerName}が受けるダメージが{Amount}%増加する。\n{OwnerName}の生命が{Level}以下の場合、|破壊|する。"
+    ExtraDescription: "{OwnerName}の攻撃ダメージが{Value}%減少する。\n{OwnerName}が受けるダメージが{Amount}%増加する。\n{OwnerName}の生命が{Level}以下の場合、|破壊|する。"
+    Name: "破滅"
+
+FlandreScarletCasinoSe:
+    Brief: "一定数の|ランダム|効果を持つ|フランドール|カードを発動するたび、{Value2}種類のランダム効果から{Value1}つを得る：\nこのターン、すべてのカードのコストが減少する。\n次に使用するカードが{Value3}回追加で発動する。\n{PlayerName}がライフを失う次の数回を防ぐ。\n|戦場|のランダムなカードを数回|アップグレード|する。\n<sprite=\"ManaSprite\" name=\"P\">を得る。\n<sprite=\"Point\" name=\"Gold\">を得る。"
+    Description: "{Limit}枚の|ランダム|効果を持つ|フランドール|カードを発動するたび、{Value2}種類のランダム効果から{Value1}つを得る：\nこのターン、すべてのカードのコストが{Amount1}減少する。\n次に使用する{Amount2}枚のカードが{Value3}回追加で発動する。\n{PlayerName}がライフを失う次の{Amount3}回を防ぐ。\n|戦場|のランダムなカード{Amount4}枚を{Value4}回|アップグレード|する。\n{Amount5}を得る。\n{Amount6}<sprite=\"Point\" name=\"Gold\">を得る。\n（残り{Count}枚）"
+    Name: "スカーレットカジノ"
+
+FlandreScarletCasinoD1Se:
+    Brief: "このターン、すべてのカードのコストが減少する。"
+    Description: "このターン、すべてのカードのコストが{Mana}減少する。"
+    Name: "スカーレットカジノ - D1"
+
+FlandreScarletCasinoD2Se:
+    Brief: "次に使用する数枚のカードが追加で発動する。"
+    Description: "次に使用する{Level}枚のカードが{Value}回追加で発動する。"
+    Name: "スカーレットカジノ - D2"
+
+FlandreScarletCasinoD3Se:
+    Brief: "{PlayerName}がライフを失う次の数回を防ぐ。"
+    Description: "{PlayerName}がライフを失う次の{Level}回を防ぐ。"
+    Name: "スカーレットカジノ - D3"
+
+FlandreSisteroftheDevilSe:
+    Brief: "{PlayerName}の攻撃ダメージが{Value1}%増加し、カードから得る|ブロック|と|バリア|が{Value1}%増加し、攻撃から受けるダメージが{Value2}%減少する。"
+    Description: "{PlayerName}の攻撃ダメージが{Value1}%増加し、カードから得る|ブロック|と|バリア|が{Value1}%増加し、攻撃から受けるダメージが{Value2}%減少する。"
+    Name: "悪魔の妹"
+
+    
+
+FlandreSpellBreakCooldownSe:
+    Brief: "数ターンの間、{OwnerName}は|スペルブレイク|を無効にする。"
+    Description: "{Duration}ターンの間、{OwnerName}は|スペルブレイク|を無効にする。"
+    Name: スペルブレイククールダウン
+FlandreSpellBreakSe:
+    Brief: "数ターンの間、{OwnerName}は行動できない。"
+    Description: "次の{Duration}ターンの間、{OwnerName}は行動できない。"
+    Name: スペルブレイク
+    
+
+   
+FlandreTheCentennialFestivalforMagicalGirlsSe:
+    Brief: "すべての|魔法少女|カードは|アップグレード|できる回数が{Value}回増加する。\nこの戦闘中、すべての|フランドール|カードは|魔法少女|になる。\nこの戦闘中、{PlayerName}がカードを追加するたび、そのカードを|アップグレード|する。"
+    Description: "すべての|魔法少女|カードは|アップグレード|できる回数が{Value}回増加する。\nこの戦闘中、すべての|フランドール|カードは|魔法少女|になる。\nこの戦闘中、{PlayerName}がカードを追加するたび、そのカードを|アップグレード|する。"
+    Name: 魔法少女百年祭
+   
+FlandreTheMousetrapSe:
+    Brief: "次の{PlayerName}のターン開始時、前のターンに受けたダメージと同じ量のダメージをすべての敵に与える。"
+    Description: "{PlayerName}の次の{Duration:plural one='% ターン' other='% ターン'}開始時、前のターンに受けたダメージと同じ量のダメージをすべての敵に与える。（{Count}）"
+    Name: ネズミ捕り
+
+FlandreThePsychoticandCuteGuestSe:
+    Brief: "攻撃カードを使用するたび、|災禍|と|火力|を得る。"
+    Description: "攻撃カードを使用するたび、|災禍|{Level}と|火力|{Level}を得る。"
+    Name: 狂カワなゲスト
+
+FlandreUnholySanctuarySe:
+    Brief: "{PlayerName}が受けるダメージが半分になる。\n次のターン開始時、前のターンに失ったライフと同じ量のライフを回復する。"
+    Description: "{PlayerName}が受けるダメージが{Duration:plural one='% ターン' other='% ターン'}の間半分になる。\n{PlayerName}の次の{Duration:plural one='% ターン' other='% ターン'}開始時、前のターンに失ったライフと同じ量のライフを回復する。（{Count}）"
+    Name: 禁忌の聖域
+
+FlandreUnstablePowerSe:
+    Brief: "すべての攻撃が{Value}%～{Level}%のダメージを与える。"
+    Description: "すべての攻撃が{Value}%～{Level}%のダメージを与える。"
+    Name: 不安定な力
+   
+FlandreWalpurgisNightSe:
+    Brief: "|破滅|の最大スタック数が{Value}になる。\n{PlayerName}が攻撃ダメージを与えるたび、その半分の量の|破滅|を追加で与える。"
+    Description: "|破滅|の最大スタック数が{Value}になる。\n{PlayerName}が攻撃ダメージを与えるたび、その半分の量の|破滅|を追加で与える。"
+    Name: ワルプルギスの夜
+
+FlandreWatchtheWorldBurnSe:
+    Brief: "{PlayerName}のターン終了時に敵全体に|業火|を与える。"
+    Description: "{PlayerName}のターン終了時に敵全体に|業火|{Value}を与える。"
+    Name: 見よ、燃える世界を
+OkinaPassiveSe:
+    Brief: ""
+    Description: ""
+    Name: 究極の絶対秘神

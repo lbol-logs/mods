@@ -1,0 +1,4 @@
+﻿Aya1up:
+  Description: '{PlayerName}가 패배했다면, 체력을 전부 회복하고 부정적인 효과를 제거한다. 이 효과는 한번만 발동한다.'
+  Name: 1up
+  FlavorText: 스쿠!

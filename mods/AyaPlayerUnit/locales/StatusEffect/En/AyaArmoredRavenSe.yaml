@@ -1,0 +1,10 @@
+﻿AyaArmoredRavenSe:
+  Brief: >-
+    The first attack cards played during {PlayerName}'s turn are played twice.
+
+    The first Status cards played during {PlayerName}'s turn are played twice.
+  Description: >-
+    The first {Limit} attack card{Limit:plural one='' other='s'} played during {PlayerName}'s turn {Limit:plural one='is' other='are'} played twice. ({Level} left)
+
+    The first {Limit} Status card{Limit:plural one='' other='s'} played during {PlayerName}'s turn {Limit:plural one='is' other='are'} played twice. ({Count} left)
+  Name: Armored Raven

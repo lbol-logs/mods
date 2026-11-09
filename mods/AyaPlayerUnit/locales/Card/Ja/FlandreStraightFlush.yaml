@@ -1,0 +1,30 @@
+﻿FlandreStraightFlush:
+  Description: >-
+    {FlandreShield}|バリア|を得る。
+
+    |火力|、|霊力|、|加護|、|庇護|をそれぞれ{FlandreValue1}得る。
+
+    手札に同じ種類のカードが{Value2}枚以上ある場合、{SelfName}のコストは{Mana}になる。
+
+    ({AmountS})
+  UpgradedDescription: >-
+    {FlandreShield}|バリア|を得る。
+
+    |火力|、|霊力|、|加護|、|庇護|をそれぞれ{FlandreValue1}得る。
+
+    手札に同じ種類のカードが{Value2}枚以上ある場合、{SelfName}のコストは{Mana}になる。
+
+    ({AmountS})
+  NonbattleDescription: >-
+    {FlandreShield}|バリア|を得る。
+
+    |火力|、|霊力|、|加護|、|庇護|をそれぞれ{FlandreValue1}得る。
+
+    手札に同じ種類のカードが{Value2}枚以上ある場合、{SelfName}のコストは{Mana}になる。
+  UpgradedNonbattleDescription: >-
+    {FlandreShield}|バリア|を得る。
+
+    |火力|、|霊力|、|加護|、|庇護|をそれぞれ{FlandreValue1}得る。
+
+    手札に同じ種類のカードが{Value2}枚以上ある場合、{SelfName}のコストは{Mana}になる。
+  Name: ストレートフラッシュ

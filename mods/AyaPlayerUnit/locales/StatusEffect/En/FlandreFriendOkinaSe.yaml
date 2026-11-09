@@ -1,0 +1,4 @@
+﻿FlandreFriendOkinaSe:
+  Brief: At the start of {PlayerName}'s turn, choose 1 of some |p:completely random| Rare cards to add to the hand. It temporarily costs {Mana} and has |Exile| and |Ethereal|.
+  Description: At the start of {PlayerName}'s turn, choose 1 of {Level} |p:completely random| Rare {Level:plural one='card' other='cards'} to add to the hand. It temporarily costs {Mana} and has |Exile| and |Ethereal|.
+  Name: Concealed Spacetime Fantasy Tour

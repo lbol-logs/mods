@@ -1,0 +1,12 @@
+﻿AyaTakePicture:
+  Description: >-
+    |록온|을 {Value1} 줍니다.
+
+    |일시적으로| 비용이 {Mana} 감소한 |붕붕마루 신문|을 {Value2}장 손에 가져옵니다.
+  UpgradedDescription: >-
+    |록온|을 {Value1} 줍니다.
+
+    |일시적으로| 비용이 {Mana} 감소한 |붕붕마루 신문|을 {Value2}장 손에 가져옵니다.
+  PhantasmModeDescription: '|일시적으로| 비용이 {Mana} 감소한 |붕붕마루 신문|을 {Value2}장 손에 가져옵니다.'
+  PhantasmModeUpgradedDescription: '|일시적으로| 비용이 {Mana} 감소한 |붕붕마루 신문|을 {Value2}장 손에 가져옵니다.'
+  Name: 사진찍기

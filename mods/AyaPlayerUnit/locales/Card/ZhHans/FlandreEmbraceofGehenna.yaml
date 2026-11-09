@@ -1,0 +1,26 @@
+﻿FlandreEmbraceofGehenna:
+  Description: >-
+    获得 {Shield} 点|护盾|。
+
+    {PlayerName}每拥有一个|崩坏|，获得 {Value1} 点|护盾|。
+
+    对所有敌人造成 {Value2} 点伤害，数值等于{PlayerName}拥有的|崩坏|数量。 ({CalamityDamage})
+  UpgradedDescription: >-
+    获得 {Shield} 点|护盾|。
+
+    {PlayerName}每拥有一个|崩坏|，获得 {Value1} 点|护盾|。
+
+    对所有敌人造成 {Value2} 点伤害，数值等于{PlayerName}拥有的{PlayerName}拥有的|崩坏|数量。 ({CalamityDamage})
+  NonbattleDescription: >-
+    获得 {Shield} 点|护盾|。
+
+    {PlayerName}每拥有一个|崩坏|，获得 {Value1} 点|护盾|。
+
+    对所有敌人造成 {Value2} 点伤害，数值等于{PlayerName}拥有的{PlayerName}拥有的|崩坏|数量。
+  UpgradedNonbattleDescription: >-
+    获得 {Shield} 点|护盾|。
+
+    {PlayerName}每拥有一个|崩坏|，获得 {Value1} 点|护盾|。
+
+    对所有敌人造成 {Value2} 点伤害，数值等于{PlayerName}拥有的{PlayerName}拥有的|崩坏|数量。
+  Name: 地狱拥抱

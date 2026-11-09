@@ -1,0 +1,15 @@
+﻿FlandreFaustianBargain:
+  Description: >-
+    |Offering| {Value1}.
+
+    Choose up to {FlandreValue2:plural one='% card' other='% cards'} from |Exile| and return it to the hand.
+
+    |When Exiled|: Choose up to {Value3:plural one='% card' other='% cards'} from |Exile| and return it to the hand.
+  UpgradedDescription: >-
+    |Offering| {Value1}.
+
+    Choose up to {FlandreValue2:plural one='% card' other='% cards'} from |Exile| and return it to the hand.
+
+    |When Exiled|: Choose up to {Value3:plural one='% card' other='% cards'} from |Exile| and return it to the hand.
+  Name: Faustian Bargain
+  DetailText: '{SelfName} cannot be randomly generated in combat, and cannot be copied.'

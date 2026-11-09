@@ -1,0 +1,5 @@
+﻿FlandreSuperhumanCatastrophePilgrimage:
+  Description: 向手牌添加随机攻击、防御、技能和|能力|卡牌各一张。它们临时消耗{Mana}并具有|放逐|和|虚无|效果。
+  UpgradedDescription: 向手牌添加随机攻击、防御、技能和|能力|卡牌各一张。它们临时消耗{Mana}并具有|放逐|和|虚无|效果。
+  Name: 天灾巡游
+  DetailText: 本卡无法通过此效果生成。

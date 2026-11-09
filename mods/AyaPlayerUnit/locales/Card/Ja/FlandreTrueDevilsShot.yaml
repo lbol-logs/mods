@@ -1,0 +1,10 @@
+﻿FlandreTrueDevilsShot:
+  Description: >-
+    {FlandreDamage}ダメージを与える。
+
+    ライフを{FlandreValue1}回復する。
+  UpgradedDescription: >-
+    {FlandreDamage}ダメージを与える。
+
+    ライフを{FlandreValue1}回復する。
+  Name: 真・悪魔の弾丸

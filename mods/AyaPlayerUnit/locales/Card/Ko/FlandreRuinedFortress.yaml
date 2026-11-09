@@ -1,0 +1,10 @@
+﻿FlandreRuinedFortress:
+  Description: >-
+    {PlayerName}가 적에게 |몰락|을 부여할 때마다, {PlayerName}가 가진 |영력| 1개당 |몰락|을 {Value1} 더 줍니다.
+
+    |영력|을 {Value2} 얻습니다.
+  UpgradedDescription: >-
+    {PlayerName}가 적에게 |몰락|을 부여할 때마다, {PlayerName}가 가진 |영력| 1개당 |몰락|을 {Value1} 더 줍니다.
+
+    |영력|을 {Value2} 얻습니다.
+  Name: 무너진 요새

@@ -1,0 +1,10 @@
+﻿AyaBossYukariBlackDeathButterfly:
+  Description: >-
+    |{SelfName}を引いた時|:|毒|{Value1}を得る。
+
+    |廃棄された時|: {SelfName}を|廃棄場|から捨て札に戻す。
+  UpgradedDescription: >-
+    |{SelfName}を引いた時|:|毒|{Value1}を得る。
+
+    |廃棄された時|: {SelfName}を|廃棄場|から捨て札に戻す。
+  Name: 黒死蝶

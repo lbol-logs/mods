@@ -1,0 +1,387 @@
+AyaBossAya:
+  Title: "시간의 여신"
+  Move:
+    - 시간 포식자
+    - 파괴적인 광채
+    - 시드는 우주
+    - 산산조각난 희망
+    - 차원 링크
+    - 시간의 지평선
+    - 환상풍미
+    - 데우스 엑스 마키나
+
+AyaBossChimata:
+  Title: "시장의 신"
+  Move:
+    -
+
+AyaBossFlandre:
+  Title: "붉은 혈액의 악마"
+  Move:
+    - "금기"
+    - 크랜베리 트랩
+    - 레바테인
+    - 포 오브 어 카인드
+    - 카고메카고메
+    - 사랑의 미로
+    - "금탄"
+    - 스타 보우 브레이크
+    - 캐터디옵트릭
+    - 과거를 새기는 시계
+    - "비탄"
+    - 그리고 아무도 없게 되는가?
+    - "Q.E.D."
+    - 495년의 파문
+    - 포비든 프루츠
+    - 금지된 장난
+    - 레클리스 불릿
+    - 케르베로스 클리퍼
+    - 손바닥 안의 파괴자
+    - 스칼렛 니힐리티
+    - 진홍빛 방패
+    - 악마의 힘
+    - 눈 겨누기
+    - 탄막 소환
+    - 스펠브레이크
+  AyaBossFlandreMove31Flandre: ""
+  AyaBossFlandreMove32Flandre: ""
+
+AyaBossKoishi:
+  Title: "닫힌 사랑의 눈동자"
+  Move:
+    - "무의식 행동"
+    - "백색의 영감"
+    - "청색의 영감"
+
+    - 흑색의 영감
+    - 적색의 영감
+    - 녹색의 영감
+    - 마음의 파문
+    - 찬란한 장미
+    - 탄막 방어
+    - 애부
+    - 하트 콘체르토
+    - 지금 너에게 전화하고있어, 전화받아!
+  AyaBossKoishiSpell21Koishi: "안녕, 안녕!"
+  AyaBossKoishiSpell22Koishi: "지금 나는"
+  AyaBossKoishiSpell23Koishi: "네 바로 뒤에 있어!"
+  AyaBossKoishiSpell24Koishi: "네 바로 앞에 있어!"
+
+AyaBossLong:
+  Title: "대텐구"
+  Move:
+    - "채성진"
+    - "무지개별 강림"
+    - "홍광"
+    - "광풍제월"
+
+AyaBossLongSeija:
+  Title: "도구들의 메시아"
+  Move:
+    - "다중 사격"
+    - "정밀 사격"
+    - "리버스 오펜시브"
+
+AyaBossZUN:
+  Title: "하쿠레이 신주"
+  Move:
+    - Intoxicated
+    - Highly Responsive to Prayers
+    - Story of Eastern Wonderland
+    - Phantasmagoria of Dim.Dream
+    - Lotus Land Story
+    - Mystic Square
+    - Embodiment of Scarlet Devil
+    - Perfect Cherry Blossom
+    - Imperishable Night
+    - Phantasmagoria of Flower View
+    - Mountain of Faith
+    - Subterranean Animism
+    - Undefined Fantastic Object
+    - Ten Desires
+    - Double Dealing Character
+    - Legacy of Lunatic Kingdom
+    - Hidden Star in Four Seasons
+    - Wily Beast and Weakest Creature
+    - Unconnected Marketeers
+    - Unfinished Dream of All Living Ghost
+    - "취부"
+    - 삶의 무료 체험판 종료
+
+AyaChameleon:
+  Title: "카멜레온"
+  Move:
+    -
+
+AyaDummy:
+  Title:
+  Move:
+    -
+
+AyaKoakuma:
+  Title: "먼지가 많은 도서관에서 일하는 마물"
+  Move:
+    -
+
+AyaKotohime:
+  Title: "탄막에서 아름다움을 꿈꾸는 공주"
+  Move:
+    -
+
+AyaLong:
+  Title: "대텐구"
+  Move:
+    - "채성진"
+    - "무지개별 강림"
+    - "홍광"
+    - "광풍제월"
+
+AyaMai:
+  Title: "생명력을 끌어올리는 백댄서"
+  Move:
+    -
+
+AyaBossOkina:
+  Title: "궁극의 절대비신"
+  Move:
+    -
+
+AyaOrbBlack:
+  Title: "흑색 구체"
+  Move:
+    - 차광
+    - 무수의 꿈
+    - 필드 미아즈마
+    - 하트 블로섬
+    - 요스즈메의 노래
+    - 원인불명의 열병
+    - 악마의 서적
+    - 바이올린 독주
+    - 쿠로코마의 죄악
+    - 액운의 수레바퀴
+    - 운명 조작
+    - 드림 익스프레스
+    - 진정한 보름달
+    - 휴식
+
+AyaOrbBlue:
+  Title: "청색 구체"
+  Move:
+    - 격류
+    - 물장난
+    - 기나라 사람 땅을 걱정하다
+    - 토끼는 내려앉았다
+    - 물빛 양탄자
+    - 도의 태동
+    - 신대의 기억
+    - 진원 조형술
+    - 사각형 조형술
+    - 하니와 조형술
+    - 은퇴한 현자
+    - 휴식
+
+AyaOrbColorless:
+  Title: "무색 구체"
+  Move:
+    - 가벼운 한 잔
+    - 슛 더 문
+    - 역전결계
+    - 오이 미사일
+    - 청정 에너지
+    - 고요의 바다
+    - 평범의 힘
+    - 흩날리는 바람
+    - 떨며 얼어붙는 악몽
+    - 휴식
+
+AyaOrbGreen:
+  Title: "녹색 구체"
+  Move:
+    - 자연의 분노
+    - 봄빛 섬광
+    - 인스턴트 바디
+    - 나비 날개바람
+    - 탄막의 쌍고치
+    - 환상향의 개화
+    - 깊은 숲 속으로
+    - 요괴너구리의 변신학교
+    - 봉래의 수해
+    - 휴식
+
+AyaOrbPhilosophy:
+  Title: "현자의 구체"
+  Move:
+    - 스톤 베이비
+    - 탈혼의 의식
+    - 천선명동
+    - 탄막 반사
+    - 포 오브 어 카인드
+    - 탐식의 욕망
+    - 클로즈 아이 샷
+    - 풀 파노라마 샷
+    - 스와의 맑은 물
+    - 역린의 거친 파도
+    - 축시의 참배
+    - 광기의 낙엽
+    - 포이즌 레이즈
+    - 휴식
+
+AyaOrbRed:
+  Title: "적색 구체"
+  Move:
+    - 만월의 포효
+    - 성급함
+    - 봉익천상
+    - 저음역 드럼
+    - 전투 태세
+    - 신체 강화
+    - 원귀옥
+    - 무차별 발화의 부적
+    - 홍촌경
+    - 키보드 독주
+    - 귀기광란
+    - 박쥐의 화신
+    - 불사의 불꽃
+    - 휴식
+
+AyaOrbWhite:
+  Title: "백색 구체"
+  Move:
+    - 심초참
+    - 초고속비행체
+    - 금강불괴
+    - 대지 정화
+    - 고요
+    - 신앙 수집
+    - 트럼펫 독주
+    - 비광충 네스트
+    - 내려온 달토끼
+    - 휴식
+
+AyaPatchouli:
+  Title: "움직이지 않는 대도서관"
+  Move:
+    - "화부"
+    - 아그니 샤인
+    - "수부"
+    - 프린세스 운디네
+    - "목부"
+    - 실피 호른
+    - "토부"
+    - 레이지 트릴리톤
+    - "금부"
+    - 메탈 퍼티그
+    - "월부"
+    - 사일런트 셀레네
+    - "일부"
+    - 로얄 플레어
+    - "화수목금토부"
+    - 현자의 돌
+  AyaPatchouliIntro1Patchouli: "...{0}랑 겨루고 싶다고?"
+  AyaPatchouliIntro2Flandre: "응, 뭐가 문제야?"
+  AyaPatchouliIntro3Patchouli: "전부 문제지. 절대 허락 못 해."
+  AyaPatchouliIntro4Flandre: "왜?"
+  AyaPatchouliIntro5Patchouli: "여긴 내 도서관이니까!"
+  AyaPatchouliIntro6Flandre: "에이, 파체. 지하실은 싸우기엔 너무 좁잖아."
+  AyaPatchouliIntro7Flandre: "부탁이야~"
+  AyaPatchouliIntro8Patchouli: "불쌍한 얼굴을 해도, 대답은 '아니'야!"
+  AyaPatchouliIntro9Flandre: "쳇, 알겠어."
+  AyaPatchouliIntro10Flandre: "{0}, {1}. 설득해야겠네."
+  AyaPatchouliIntro11Aya: "여기 온 걸 후회하기 시작했어."
+  AyaPatchouliOutro1Patchouli: "무큥..."
+  AyaPatchouliOutro2Flandre: "생각 바꿨어?"
+  AyaPatchouliOutro3Patchouli: "...좋아! 맘대로 해!"
+  AyaPatchouliOutro4Patchouli: "{0}!"
+  AyaPatchouliOutro5Patchouli: "영역 장벽 준비 도와줘."
+  AyaPatchouliOutro6Koakuma: "알겠습니다!"
+  AyaPatchouliOutro7Aya: "아야야야…"
+
+AyaSatono:
+  Title: "정신력을 끌어올리는 백댄서"
+  Move:
+    -
+
+AyaSukusukuAya:
+  Title: "스쿠스쿠 백택"
+  Move:
+    - "스쿠?"
+    - "스쿠!"
+  HakureiShrine: "하쿠레이 신사"
+  PalaceoftheEarthSpirits: "지령전"
+  ScarletDevilMansion: "홍마관"
+  AyaSukusukuAyaExtraBossPrepare1AyaSukusukuAya: "스쿠!\n(여기는 {0}야, 환영해!)"
+  AyaSukusukuAyaExtraBossPrepare2AyaSukusukuAya: "스쿠.\n(네 최대 체력이 너무 낮아. 내가 고쳐줄게.)"
+  AyaSukusukuAyaExtraBossPrepare3AyaSukusukuAya: "스쿠.\n(자, 돈 좀 가져가.)"
+  AyaSukusukuAyaExtraBossPrepare4AyaSukusukuAya: "스쿠.\n(세이자가 전시품을 훔쳐갔다고? 내가 돌려줄게.)"
+  AyaSukusukuAyaExtraBossPrepare5AyaSukusukuAya: "스쿠.\n(이걸 가져가. 긴 싸움에 도움이 될 거야.)"
+  AyaSukusukuAyaExtraBossPrepare6AyaSukusukuAya: "스쿠!\n(행운을 빌어!)"
+
+AyaSukusukuFlandre:
+  Title: "스쿠스쿠 백택"
+  Move:
+    -
+AyaTakane:
+  Title: "산 속의 비즈니스 요괴"
+  Move:
+    - Y60 기관총
+    - Y202 플래시
+    - 야마와로 폭격기
+    - Y95 약탈
+    - 구급상자
+    - "탄화"
+    - 능력 카드 대방출
+  AyaTakaneAttack: 정말로 {0}를 공격하시겠습니까?
+  AyaTakaneIntro1Takane: "멈춰, 도둑!"
+  AyaTakaneIntro2Takane: "그렇게는 안 돼!"
+  AyaTakaneIntro3Takane: "혼쭐을 내줘야겠군!"
+  AyaTakaneSteal1: 전리품
+  AyaTakaneSteal2: 강화할 카드를 선택하세요.
+  AyaTakaneSteal3: 제거할 카드를 선택하세요.
+
+AyaTanuki:
+  Title: "배우는 너구리"
+  Move:
+    - 집중 사격
+    - 이중 사격
+    - 추가?
+    - 웅크리기
+    - 화력 획득
+    - 영력 획득
+    - 부적 획득
+    - 추가 턴 획득
+    - 광학 미채 획득
+    - "완부"
+    - 슈퍼 하이퍼 알파 오메가 절멸 황폐 궁극 공격
+  AyaTanukiDying1AyaTanuki: "아야씨는 강해.. 하지만!"
+  AyaTanukiDying2AyaTanuki: "제 궁극 스펠카드를 보여드리기 전까지는 절대 쓰러지지 않을 거예요!"
+  AyaTanukiWaterpower1AyaTanuki: "제 공격이 더 강해질 거에요! 두렵죠!"
+  AyaTanukiWaterpower2AyaTanuki: "아니면 두렵지 않겠죠."
+  AyaTanukiSprite1AyaTanuki: "영력은 제 방어 능력을 향상시킨다고 들었어요!"
+  AyaTanukiSprite2AyaTanuki: "음, 어떻게 버프 이름이..."
+  AyaTanukiAMOLED1AyaTanuki: "저는 상태이상을 막을거에요!"
+  AyaTanukiAMOLED2AyaTanuki: "저 이거 너무 못하는거같아요."
+  AyaTanukiExtremeTurn1AyaTanuki: "아야씨의 차례는 절대 오지 않을 거예요! 나와라 추가턴!"
+  AyaTanukiExtremeTurn2AyaTanuki: "음, 왜 앞에 벽이 있죠"
+  AyaTanukiExtremeTurn3AyaTanuki: "미야아아앜!!!"
+  AyaTanukiExtremeTurn4AyaTanuki: "아무 일도 없었던 걸로 해주세요."
+  AyaTanukiOpticalChameleon1AyaTanuki: "아야씨는 절대 제 방어전략을 뚫을 수 없을걸요?"
+  AyaTanukiOpticalChameleon2AyaTanuki: "잠깐, 어디가? 돌아와요!"
+  AyaTanukiOpticalChameleon3AyaTanuki: "...에?"
+  AyaTanukiOpticalChameleon4AyaTanuki: "읏 윽 읏 윽 읏 윽"
+  AyaTanukiUltimate1AyaTanuki: "나와라! 내 궁극 스펠카드!"
+  AyaTanukiUltimate2AyaTanuki: "모든 것을 끝낼 단 한 번의 공격!"
+  AyaTanukiUltimate3AyaTanuki: "이야아아아아아아압!!!"
+  AyaTanukiOutro1AyaTanuki: "저기요! 그걸 피하면 어떡해요!"
+  AyaTanukiOutro2AyaTanuki: "아야씨는 이걸 장난으로 생각하고있어요. 좀 더 진지하게 생각해주세요!"
+  AyaTanukiOutro3Aya: "미안. 그냥 네가 하는 행동이 귀여워서."
+  AyaTanukiOutro4AyaTanuki: "ㄱ...귀엽다고요?"
+  AyaTanukiOutro5Aya: "애초에 왜 여기 있어? 마미조씨의 부하 아냐?"
+  AyaTanukiOutro6AyaTanuki: "전 아직 배울게 많아요. 그래서 대장님이 저한테는 일을 안시켜요.."
+  AyaTanukiOutro7AyaTanuki: "죽림에서 변장 기술을 연습하던 중 아야씨의 탄막이 날아가는걸 봤어요."
+  AyaTanukiOutro8Aya: "의심스럽지만, 마미조씨가 이 사건에 초보 너구리를 보낼일은 없겠지."
+  AyaTanukiOutro9AyaTanuki: "아야씨를 놀래켜주고 싶었을 뿐인데, 입을 열자마자 공격하셔서.."
+  AyaTanukiOutro10Aya: "어, 음.. 미안해.?"
+  AyaTanukiOutro11AyaTanuki: "사과하고 싶으시면 저도 따라갈래요."
+  AyaTanukiOutro12Aya: "뭐? 내가 왜..."
+  AyaTanukiOutro13Aya: "그래, 그래. 뒤쳐지지나 마."
+  AyaTanukiOutro14AyaTanuki: "야호~! 아야씨에게 많이 배울거야!"

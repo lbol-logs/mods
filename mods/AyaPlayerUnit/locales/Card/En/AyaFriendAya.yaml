@@ -1,0 +1,13 @@
+﻿AyaFriendAya:
+  Description: '{FriendP}|f:Crossroad Sign「Saruta Cross」|: Gain {Value1} |Acceleration|.'
+  ExtraDescription1: '{FriendA}|a:Wind God「Storm Day」|: Can only be activated once per turn. |Exile| each card from the hand. Then, add |Upgraded| random cards to the hand until the hand is full.'
+  ExtraDescription2: '{FriendA}|d:Wind God「Storm Day」: Can only be activated once per turn. Exile each card from the hand. Then, add Upgraded random cards to the hand until the hand is full.|'
+  ExtraDescription3: "{FriendU}|u:「Peerless Wind God」|: Can only be activated once per combat. Deal {Damage} attack damage to each enemy {Value2} times. Enemies cannot act this turn. Repeat these effects at the start of {PlayerName}'s next turn. |Accurate|"
+  ExtraDescription4: "{FriendU}|d:「Peerless Wind God」: Can only be activated once per combat. Deal {Damage} attack damage to each enemy {Value2} times. Enemies cannot act this turn. Repeat these effects at the start of {PlayerName}'s next turn. Accurate|"
+  Name: Aya, Goddess of Wind
+  DetailText: >-
+    |When summoned|: Gain |Terukuni Shining Through Heaven and Earth|.
+
+    |p:This card never leaves the hand under any circumstances.|
+
+    At the end of {PlayerName}'s turn, if this card's |Unity| is zero, |r:{PlayerName} loses the game.|

@@ -1,0 +1,18 @@
+﻿FlandreNoMercy:
+  Description: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    山札から上から{FlandreValue1}枚の攻撃カードを手札に加える。
+
+    次にプレイする{FlandreValue2}枚の攻撃カードは、プレイ時のコストが{Mana}になる。
+
+    |狂気|{Value3}を得る。
+  UpgradedDescription: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    山札から上から{FlandreValue1}枚の攻撃カードを手札に加える。
+
+    次にプレイする{FlandreValue2}枚の攻撃カードは、プレイ時のコストが{Mana}になる。
+
+    |狂気|{Value3}を得る。
+  Name: 無慈悲

@@ -1,0 +1,10 @@
+﻿FlandreRoseCross:
+  Description: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Apply {FlandreValue1} |Hellfire| to each enemy.
+  UpgradedDescription: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Apply {FlandreValue1} |Hellfire| to each enemy.
+  Name: Rose Cross

@@ -1,0 +1,10 @@
+﻿FlandreFieryLaser:
+  Description: >-
+    {FlandreDamage}ダメージを与える。
+
+    |業火|{FlandreValue1}を与える。
+  UpgradedDescription: >-
+    {FlandreDamage}ダメージを与える。
+
+    |業火|{FlandreValue1}を与える。
+  Name: 灼熱のレーザー

@@ -1,0 +1,22 @@
+﻿FlandreDevilsGold:
+  Description: >-
+    Whenever {PlayerName} applies |Ruin|, apply {Value1} more |Ruin|.
+
+    Whenever an enemy with |Ruin| is defeated, gain {Value2} <sprite="Point" name="Gold">.
+  Name: Devil's Gold
+  FlavorText: >-
+    "If I were to have people wish for money, grant their wishes, and then accept that money as a sacrifice, would that be breaking the rules of Gensokyo?"
+
+    - Flandre Scarlet
+
+    "...No."
+
+    - Okina Matara
+
+    "It's time to earn some pocket money!"
+
+    - Flandre Scarlet
+
+    "Sometimes it suddenly hits me that you're the Devil, and this is one of those moments."
+
+    - Okina Matara

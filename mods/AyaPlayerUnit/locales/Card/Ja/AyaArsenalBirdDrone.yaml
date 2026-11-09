@@ -1,0 +1,9 @@
+﻿AyaArsenalBirdDrone:
+  Description: '{FriendP}|f:巡回モード|：{Mana}を得て、カードを1枚引く。'
+  ExtraDescription1: '{FriendP}|f:戦闘モード|：{PassiveBlock}|ブロック|を得て、ランダムな敵に{Damage}ダメージを与える。'
+  ExtraDescription2: '{FriendA}|a:巡回モード|：{SelfName}を|廃棄|する。{PlayerName}のターン開始時、{Mana}を得て、カードを1枚引く。'
+  ExtraDescription3: '{FriendA}|a:戦闘モード|：{SelfName}を|廃棄|する。{PlayerName}のターン終了時、{PassiveBlock}|ブロック|を得て、ランダムな敵に{Damage}ダメージを与える。'
+  ExtraDescription4: '{FriendU}|u:自己破壊|：敵全体に{Damage2}ダメージを与える。この効果はこのカードが消滅した時も発動する。|精密|'
+  Name: 無人航空鴉
+  DetailText: '{SelfName}の効果は手札になくても発動する。'
+  FlavorText: 最新のテクノロジーを駆使した機械カラスを紹介しよう！

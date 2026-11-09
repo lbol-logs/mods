@@ -1,0 +1,10 @@
+﻿AyaCloseup:
+  Description: >-
+    获得 {Block}|格挡|。
+
+    对于每张与 {SelfName} 相邻的|崩坏|或状态牌，获得{Mana}并抽一张牌。
+  UpgradedDescription: >-
+    获得 {Block}|格挡|。
+
+    对于每张与 {SelfName} 相邻的|崩坏|或状态牌，获得{Mana}并抽一张牌。
+  Name: 特写

@@ -1,0 +1,14 @@
+﻿AyaHeadShot:
+  Description: >-
+    {Damage}ダメージを与える。
+
+    {SelfName}は|ロックオン|の影響が{Value1}倍になる。
+
+    {SelfName}で敵を倒した場合、{Mana}を得る。
+  UpgradedDescription: >-
+    {Damage}ダメージを与える。
+
+    {SelfName}は|ロックオン|の影響が{Value1}倍になる。
+
+    {SelfName}で敵を倒した場合、{Mana}を得る。
+  Name: ヘッドショット

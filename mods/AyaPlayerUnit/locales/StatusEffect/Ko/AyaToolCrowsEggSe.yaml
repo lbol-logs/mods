@@ -1,0 +1,4 @@
+﻿AyaToolCrowsEggSe:
+  Brief: '{PlayerName}의 턴 시작시, 체력과 |일시 화력|을 얻고, |까마귀알|을 1 잃습니다.'
+  Description: '{PlayerName}의 턴 시작시, 체력과 |일시 화력|을 {Duration} 얻고, |까마귀알|을 1 잃습니다.'
+  Name: 까마귀알

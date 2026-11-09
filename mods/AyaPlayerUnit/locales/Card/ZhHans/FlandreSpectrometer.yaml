@@ -1,0 +1,10 @@
+﻿FlandreSpectrometer:
+  Description: >-
+    获得 {Block} |格挡|。
+
+    将 {Value1} 张随机|水晶|加入抽牌堆和弃牌堆。
+  UpgradedDescription: >-
+    获得 {Block} |格挡|。
+
+    将 {Value1} 张随机|水晶|加入抽牌堆和弃牌堆。
+  Name: 光谱仪

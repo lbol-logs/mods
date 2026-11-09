@@ -1,0 +1,18 @@
+﻿FlandreFlancanCook:
+  Description: >-
+    |{Mana}を消費するたび|：{SelfName}を|アップグレード|する。
+
+    {FlandreValue2}枚の|p:ランダム|な|フランドール|カードの中から、最大{FlandreValue1}枚を手札に加える。低レアリティのカードを優先する。{FlandreValue1}枚のカードは一時的にコストが{Mana2}になり、|廃棄|と|幽体|を持つ。
+
+    {SelfName}は|魔法少女|でなくても最大{Value3}回まで|アップグレード|できる。
+  UpgradedDescription: >-
+    |{Mana}を消費するたび|：{SelfName}を|アップグレード|する。
+
+    {FlandreValue2}枚の|p:ランダム|な|フランドール|カードの中から、最大{FlandreValue1}枚を手札に加える。低レアリティのカードを優先する。{FlandreValue1}枚のカードは一時的にコストが{Mana2}になり、|廃棄|と|幽体|を持つ。
+
+    {SelfName}は|魔法少女|でなくても最大{Value3}回まで|アップグレード|できる。
+  Name: フランは料理できるもん！
+  FlavorText: >-
+    "待って……彼女に任せてみよう。"
+
+    - 摩多羅隠岐奈

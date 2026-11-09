@@ -1,0 +1,10 @@
+﻿FlandreBloodisFuel:
+  Description: >-
+    체력을 {Value1} 잃습니다.
+
+    |채홍|을 손에 넣습니다.
+  UpgradedDescription: >-
+    체력을 {Value1} 잃습니다.
+
+    |채홍+|을 손에 넣습니다.
+  Name: 피는 연료

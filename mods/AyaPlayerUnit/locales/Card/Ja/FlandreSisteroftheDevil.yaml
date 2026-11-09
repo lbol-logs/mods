@@ -1,0 +1,5 @@
+﻿FlandreSisteroftheDevil:
+  Description: '|戦闘開始時|：{SelfName}を|廃棄|し、|悪魔の妹|と{FlandreMana}を得る。'
+  UpgradedDescription: '|戦闘開始時|：{SelfName}を|廃棄|し、|悪魔の妹|と{FlandreMana}を得る。'
+  Name: 悪魔の妹
+  DetailText: '{SelfName}は戦闘中にランダム生成されず、複製もできない。'

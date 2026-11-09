@@ -1,0 +1,4 @@
+﻿AyaOrbGreenMorphMan:
+  Description: <sprite="Point" name="Power">{Value1}を失う。
+  UpgradedDescription: <sprite="Point" name="Power">{Value1}を失う。
+  Name: 人間の姿

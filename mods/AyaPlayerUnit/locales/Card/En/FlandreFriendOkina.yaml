@@ -1,0 +1,7 @@
+﻿FlandreFriendOkina:
+  Description: "{FriendP}|f:Power of Secret|: Whenever {Value1} multicolored card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and gain {FlandrePassiveBarrier} |Barrier|. ({Amount:plural one='% card' other='% cards'} left.)"
+  NonbattleDescription: "{FriendP}|f:Power of Secret|: Whenever {Value1} multicolored card{FlandreValue2:plural one=' is' other='s are'} activated, gain {FlandreMana} and gain {FlandrePassiveBarrier} |Barrier|."
+  ExtraDescription1: '{FriendA}|a:Season Release|: Choose 1 of {Value2} |Seasons|. {SelfName} gains their effects.'
+  ExtraDescription3: "{FriendU}|u:「Concealed Spacetime Fantasy Tour」|: At the start of {PlayerName}'s turn, choose 1 of {Value3} |p:completely random| Rare card{Value2:plural one='' other='s'} to add to the hand. It |temporarily costs| {Mana} and has |Exile| and |Ethereal|."
+  Name: Okina, Absolute Secret God
+  DetailText: '{SelfName} cannot be randomly generated in combat, and cannot be copied.'

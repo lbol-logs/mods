@@ -1,0 +1,10 @@
+﻿FlandreMindsEye:
+  Description: >-
+    Gain {FlandreShield} |Barrier|.
+
+    The next {FlandreValue1:plural one='% time' other='% times'} {PlayerName} deals or takes attack damage, double the damage dealt or halve the damage taken.
+  UpgradedDescription: >-
+    Gain {FlandreShield} |Barrier|.
+
+    The next {FlandreValue1:plural one='% time' other='% times'} {PlayerName} deals or takes attack damage, double the damage dealt or halve the damage taken.
+  Name: Mind's Eye

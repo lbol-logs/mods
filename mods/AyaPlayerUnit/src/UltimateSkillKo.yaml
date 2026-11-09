@@ -1,0 +1,89 @@
+AyaBossFlandreUlt1:
+  Title: 금기
+  Content: 크랜베리 트랩
+AyaBossFlandreUlt2:
+  Title: 금기
+  Content: 레바테인
+AyaBossFlandreUlt3:
+  Title: 금기
+  Content: 포 오브 어 카인드
+AyaBossFlandreUlt4:
+  Title: 금기
+  Content: 카고메카고메
+AyaBossFlandreUlt5:
+  Title: 금기
+  Content: 사랑의 미로
+AyaBossFlandreUlt6:
+  Title: 금탄
+  Content: 스타 보우 브레이크
+AyaBossFlandreUlt7:
+  Title: 금탄
+  Content: 캐터디옵트릭
+AyaBossFlandreUlt8:
+  Title: 금탄
+  Content: 과거를 새기는 시계
+AyaBossFlandreUlt9:
+  Title: 비탄
+  Content: 그리고 아무도 없게 되는가?
+AyaBossFlandreUlt10:
+  Title: Q.E.D.
+  Content: 495년의 파문
+AyaBossZUNUlt:
+  Title: 취부
+  Content: 삶의 무료 체험판 종료
+AyaChameleonHyperSpeedScratch:
+  Title: 조부
+  Content: 초고속 할퀴기
+AyaPatchouliUlt:
+  Title: 화수목풍토부
+  Content: 현자의 돌
+AyaTakaneUlt:
+  Title: 탄화
+  Content: 능력 카드 대방출
+AyaUltR:
+  Title: 선부
+  Content: 홍엽선풍
+  Description: "|가속|을 {Value1} 얻습니다.\n모든 적에게 피해를 {Damage} 주고 {PlayerName}의 |가속|만큼 |일시 화력 저하|를 줍니다. |명중|"
+AyaUltG:
+  Title: 돌부
+  Content: 텐구의 매크로버스트
+  Description: "피해를 {Damage} 줍니다. |명중|\n카드를 {Value1} 뽑습니다. 내 손의 모든 |액운|카드와 상태카드를 사용합니다."
+AyaUltAdvent:
+  Title: 새부
+  Content: 천손강림
+AyaUltIllusionary:
+  Title:
+  Content: 환상풍미
+AyaUltPeerless:
+  Title:
+  Content: 무쌍풍신
+AyaUltTerukuni:
+  Title: 새부
+  Content: 천상천하의 테루쿠니
+FlandreUltB:
+  Title: 금기
+  Content: 증오의 미로
+  Description: "|보호막|을 {Shield} 얻습니다.\n모든 적에게 피해를 {Damage} 줍니다. |명중|\n모든 적에게 무작위 |파편|을 1개씩 사용합니다."
+FlandreUltR:
+  Title: 금기
+  Content: 레바테인 -대화-
+  Description: "모든 적에게 |지옥불|을 {Value1} 줍니다.\n모든 적의 |지옥불|을 발동시킵니다."
+FlandreUltRipples:
+  Title: Q.E.D.
+  Content: 495년의 파문
+OkinaUltU:
+  Title:
+  Content:
+  Description: ""
+OkinaUltG:
+  Title:
+  Content:
+  Description: ""
+ShinkiUltC:
+  Title:
+  Content:
+  Description: ""
+ShinkiUltP:
+  Title:
+  Content:
+  Description: ""

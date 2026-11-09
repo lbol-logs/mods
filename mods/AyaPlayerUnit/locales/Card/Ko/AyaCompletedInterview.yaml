@@ -1,0 +1,18 @@
+﻿AyaCompletedInterview:
+  Description: >-
+    |선보임|: |붕붕마루 신문| {Value1}장과 |붕붕마루 아야 특간호| {Value2}장을 버린 카드 더미에 추가합니다.
+
+    카드를 {Value3}장 뽑습니다.
+  UpgradedDescription: >-
+    |선보임|: |붕붕마루 신문| {Value1}장과 |붕붕마루 아야 특간호| {Value2}장을 버린 카드 더미에 추가합니다.
+
+    카드를 {Value3}장 뽑습니다.
+  ExtraDescription1: >-
+    |d:선보임: 붕붕마루 신문 {Value1}장과 붕붕마루 아야 특간호 {Value2}장을 버린 카드 더미에 추가합니다.|
+
+    카드를 {Value3}장 뽑습니다.
+  UpgradedExtraDescription1: >-
+    |d:선보임: 붕붕마루 신문 {Value1}장과 붕붕마루 아야 특간호 {Value2}장을 버린 카드 더미에 추가합니다.|
+
+    카드를 {Value3}장 뽑습니다.
+  Name: 완벽한 인터뷰

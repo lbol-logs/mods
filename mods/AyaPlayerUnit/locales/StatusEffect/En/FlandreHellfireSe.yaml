@@ -1,0 +1,10 @@
+﻿FlandreHellfireSe:
+  Brief: >-
+    {OwnerName} loses life at the start of their turn.
+
+    |Brimstone|: When {OwnerName} is defeated, all enemies lose life.
+  Description: >-
+    {OwnerName} loses {Amount} life at the start of their turn.
+
+    |Brimstone|: When {OwnerName} is defeated, all enemies lose {Amount} life.
+  Name: Hellfire

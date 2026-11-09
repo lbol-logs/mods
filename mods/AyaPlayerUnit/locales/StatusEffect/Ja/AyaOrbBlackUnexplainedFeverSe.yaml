@@ -1,0 +1,4 @@
+﻿AyaOrbBlackUnexplainedFeverSe:
+  Brief: '{OwnerName}のターン終了時、{PlayerName}に|毒|を与える。'
+  Description: '{OwnerName}のターン終了時、{PlayerName}に{Level}の|毒|を与える。'
+  Name: 原因不明の熱

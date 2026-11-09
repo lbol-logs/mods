@@ -1,0 +1,7 @@
+﻿FlandreFriendOkinaSummerSe:
+  Brief: 每当 {PlayerName} 使用一些牌时，对每个敌人造成 |精准| 攻击伤害并施加 |寒冷|。
+  Description: >-
+    每当 {PlayerName} 使用 {Limit:plural one='% 张牌' other='% 张牌'} 时，对每个敌人造成 {Level} |精准| 攻击伤害并施加 |寒冷|。
+
+    剩余 {Count:plural one='% 张牌' other='% 张牌'}。
+  Name: 里·完美夏冰

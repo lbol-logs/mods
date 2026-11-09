@@ -1,0 +1,10 @@
+﻿AyaArmoredRaven:
+  Description: >-
+    The first attack card played during {PlayerName}'s turn is played twice.
+
+    The first Status card played during {PlayerName}'s turn is played twice.
+  UpgradedDescription: >-
+    The first attack card played during {PlayerName}'s turn is played twice.
+
+    The first Status card played during {PlayerName}'s turn is played twice.
+  Name: Armored Raven

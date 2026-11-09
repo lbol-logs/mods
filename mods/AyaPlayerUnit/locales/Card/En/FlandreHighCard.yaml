@@ -1,0 +1,10 @@
+﻿FlandreHighCard:
+  Description: >-
+    Gain {FlandreValue1} |Temporary Firepower| and |Temporary Spirit|.
+
+    Put the highest-cost card from the draw pile into the hand. It |temporarily costs| {Mana}.
+  UpgradedDescription: >-
+    Gain {FlandreValue1} |Temporary Firepower| and |Temporary Spirit|.
+
+    Put the highest-cost card from the draw pile into the hand. It |temporarily costs| {Mana}.
+  Name: High Card

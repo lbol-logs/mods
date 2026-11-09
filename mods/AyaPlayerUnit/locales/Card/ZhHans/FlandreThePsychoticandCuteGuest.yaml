@@ -1,0 +1,10 @@
+﻿FlandreThePsychoticandCuteGuest:
+  Description: >-
+    每当一张蓝色卡牌被生效时，获得 {Value1} |崩坏|。
+
+    每当一张红色卡牌被生效时，获得 {Value2} |火力|。
+  UpgradedDescription: >-
+    每当一张蓝色卡牌被生效时，获得 {Value1} |崩坏|。
+
+    每当一张红色卡牌被生效时，获得 {Value2} |火力|。
+  Name: 疯狂来客

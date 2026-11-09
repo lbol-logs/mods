@@ -1,0 +1,14 @@
+﻿FlandreClockthatTicksAwaythePast:
+  Description: >-
+    손패를 뽑을 카드 더미에 섞습니다.
+
+    {PlayerName}의 턴을 종료합니다. 그 후, 추가 턴을 얻습니다. 추가 턴 동안, 드로우 단계에서 카드를 뽑는 대신 버린 카드 더미 맨 위에서 카드를 {Value1}장 손으로 가져옵니다.
+
+    {PlayerName}의 턴 종료시, {SelfName}의 비용이 이 전투 동안 {Mana} 감소합니다.
+  UpgradedDescription: >-
+    손패를 뽑을 카드 더미에 섞습니다.
+
+    {PlayerName}의 턴을 종료합니다. 그 후, 추가 턴을 얻습니다. 추가 턴 동안, 드로우 단계에서 카드를 뽑는 대신 버린 카드 더미 맨 위에서 카드를 {Value1}장 손으로 가져옵니다.
+
+    {PlayerName}의 턴 종료시, {SelfName}의 비용이 이 전투 동안 {Mana} 감소합니다.
+  Name: 과거를 새기는 시계

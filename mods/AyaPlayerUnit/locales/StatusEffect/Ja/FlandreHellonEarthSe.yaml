@@ -1,0 +1,4 @@
+﻿FlandreHellonEarthSe:
+  Brief: '|業火|が発動するとき、追加でもう一回発動する。'
+  Description: '|業火|が発動するとき、追加でもう{Level}回発動する。'
+  Name: 生き地獄

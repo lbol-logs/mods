@@ -1,0 +1,26 @@
+﻿FlandreFourHorsemenoftheApocalypse:
+  Description: >-
+    |災禍|{FlandreValue1}を得る。
+
+    手札から好きな枚数のカードを捨てる。
+
+    山札から攻撃、防御、スキル、|能力|カードをそれぞれ1枚ずつ、山札の上から手札に加える。
+
+    |充填|：{FlandreMana}を得る。
+  UpgradedDescription: >-
+    |災禍|{FlandreValue1}を得る。
+
+    手札から好きな枚数のカードを捨てる。
+
+    山札から攻撃、防御、スキル、|能力|カードをそれぞれ1枚ずつ、山札の上から手札に加える。
+
+    |充填|：{FlandreMana}を得る。
+  ExtraDescription1: >-
+    |災禍|{FlandreValue1}を得る。
+
+    手札から好きな枚数のカードを捨てる。
+
+    山札から攻撃、防御、スキル、|能力|カードをそれぞれ1枚ずつ、山札の上から手札に加える。
+
+    |d:充填：{FlandreMana}を得る。|
+  Name: 黙示録の四騎士

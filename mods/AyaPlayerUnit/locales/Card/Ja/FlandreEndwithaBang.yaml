@@ -1,0 +1,22 @@
+﻿FlandreEndwithaBang:
+  Description: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    |火力|{FlandreValue1}を得る。
+
+    敵全体の|災火の導火線|を{FlandreValue2}回発動する。
+
+    |戦闘終了時|：{SelfName}が最後に発動したカードの場合、|p:ランダム|なカード報酬を得る。
+  UpgradedDescription: >-
+    {FlandreBlock}|ブロック|を得る。
+
+    |火力|{FlandreValue1}を得る。
+
+    敵全体の|災火の導火線|を{FlandreValue2}回発動する。
+
+    |戦闘終了時|：{SelfName}が最後に発動したカードの場合、|p:ランダム|なカード報酬を得る。
+  Name: 爆発で終わらせる
+  FlavorText: >-
+    "芸術は爆発よ。"
+
+    - フランドール・スカーレット

@@ -1,0 +1,11 @@
+﻿FlandreFriendOkinaSummer:
+  Description: "{FriendP}|f:Power of Summer|: Whenever {Value1} green card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and apply {FlandreValue2} |Ruin| to each enemy. ({Amount:plural one='% card' other='% cards'} left.)"
+  NonbattleDescription: "{FriendP}|f:Power of Summer|: Whenever {Value1} green card{Value1:plural one=' is' other='s are'} activated, gain {FlandreMana} and apply {FlandreValue2} |Ruin| to each enemy."
+  ExtraDescription1: '{FriendA}|a:Season Release|: Choose 1 of {Value3} |Seasons|. {SelfName} gains their effects.'
+  ExtraDescription3: "{FriendU}|u:「Hidden Perfect Summer Ice」|: Whenever {PlayerName} activates {Value4:plural one='% card' other='% cards'}, deal {Value5} |Accurate| attack damage and apply |Cold| to each enemy."
+  Name: Okina, Absolute Secret God - Summer
+  DetailText: '{SelfName} cannot be randomly generated in combat, and cannot be copied.'
+  FlavorText: >-
+    "What? You expected me in a swimsuit?"
+
+    - Okina Matara

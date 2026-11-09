@@ -1,0 +1,4 @@
+﻿FlandreColorofMadnessSe:
+  Brief: 每当一张攻击牌被激活时，使用随机 |水晶|。
+  Description: 每当一张攻击牌被激活时，使用 {Level} 个随机的 {Level:plural one='|水晶|' other='|水晶|'}。
+  Name: 疯狂之色

@@ -1,0 +1,11 @@
+﻿AyaArmoredRavenSe:
+  Brief: >-
+    {PlayerName}의 턴에 처음 사용하는 공격 카드가 두번 사용됩니다.
+
+    {PlayerName}의 턴에 처음 사용하는 상태 카드가 두번 사용됩니다.
+  Description: >-
+    {PlayerName}의 턴에 처음 사용하는 {Limit}장의 공격 카드가 두번 사용됩니다. ({Level}번 남음)
+
+    {PlayerName}의 턴에 처음 사용하는 {Limit}장의 상태 카드가 두번 사용됩니다. ({Count}번 남음)
+  PhantasmModeDescription: '{PlayerName}가 가하는 피해가 25% 줄어들지만 {Level} 회 더 줍니다.'
+  Name: 중장갑 까마귀

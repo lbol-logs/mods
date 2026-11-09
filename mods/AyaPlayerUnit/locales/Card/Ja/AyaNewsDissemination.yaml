@@ -1,0 +1,14 @@
+﻿AyaNewsDissemination:
+  Description: >-
+    カードを{Value1}枚捨てる。
+
+    捨てた枚数と同じ数の|文々。新聞|を手札に加える。
+
+    {Mana}を得る。
+  UpgradedDescription: >-
+    {Value1}から{Value2}枚のカードを捨てる。
+
+    捨てた枚数と同じ数の|文々。新聞|を手札に加える。
+
+    {Mana}を得る。
+  Name: ニュースの流布

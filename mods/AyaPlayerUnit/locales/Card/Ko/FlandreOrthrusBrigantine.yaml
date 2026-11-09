@@ -1,0 +1,23 @@
+﻿FlandreOrthrusBrigantine:
+  Description: >-
+    피해를 {Damage} 줍니다.
+
+    |몰락|을 {Value1} 줍니다.
+
+    {SelfName}으로 적을 처치하면 체력을 {Value2} 회복합니다.
+
+    이 효과를 무작위 다른 적에게 반복합니다.
+  UpgradedDescription: >-
+    피해를 {Damage} 줍니다.
+
+    |몰락|을 {Value1} 줍니다.
+
+    {SelfName}으로 적을 처치하면 체력을 {Value2} 회복합니다.
+
+    이 효과를 무작위 다른 적에게 반복합니다.
+  Name: 오르트루스 브리건틴
+  OrthrusBrigantineFlandre1: 뭐야?
+  OrthrusBrigantineFlandre2: 넌 어디서 온 거야?
+  OrthrusBrigantineRumia1: 냠.
+  OrthrusBrigantineRumia2: 잘먹겠습니다~
+  OrthrusBrigantineRumia3: 맛있어 보이네~

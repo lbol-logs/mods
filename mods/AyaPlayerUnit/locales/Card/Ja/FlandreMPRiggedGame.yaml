@@ -1,0 +1,14 @@
+﻿FlandreMPRiggedGame:
+  Description: >-
+    すべてのプレイヤーは|臨時火力|と|臨時霊力|{FlandreValue1}得る。
+
+    すべてのプレイヤーは、次に捨て札に送られるレアカード{FlandreValue2}枚を、山札の一番上に置く。
+
+    |代償|{Mana}。
+  UpgradedDescription: >-
+    すべてのプレイヤーは|臨時火力|と|臨時霊力|{FlandreValue1}得る。
+
+    すべてのプレイヤーは、次に捨て札に送られるレアカード{FlandreValue2}枚を、山札の一番上に置く。
+
+    |代償|{Mana}。
+  Name: 仕組まれたゲーム

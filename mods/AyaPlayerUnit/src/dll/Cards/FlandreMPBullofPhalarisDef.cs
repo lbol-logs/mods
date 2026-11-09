@@ -1,0 +1,235 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using AyaShameimaru.Stages;
+using BepInEx;
+using BepInEx.Bootstrap;
+using LBoL.Base;
+using LBoL.ConfigData;
+using LBoL.Core;
+using LBoL.Core.Battle;
+using LBoL.Core.Cards;
+using LBoLEntitySideloader;
+using LBoLEntitySideloader.Attributes;
+using LBoLEntitySideloader.Entities;
+using LBoLEntitySideloader.Resource;
+
+namespace AyaShameimaru.Cards
+{
+	public sealed class FlandreMPBullofPhalarisDef : CardTemplate
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override IdContainer GetId()
+		{
+			return <Module>.\u202D\u206A\u202E\u202B\u206C\u200E\u206B\u206E\u200F\u206E\u200C\u202E\u206F\u200C\u206D\u200B\u206E\u200F\u200D\u202A\u206F\u202E\u200E\u206D\u206D\u206F\u202D\u200C\u206F\u202A\u200B\u202E\u206C\u206A\u206B\u202A\u206C\u202E\u200D\u202B\u202E<string>(981123343);
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override CardImages LoadCardImages()
+		{
+			CardImages cardImages = FlandreMPBullofPhalarisDef.\u206F\u206D\u200C\u202A\u200C\u200F\u202B\u206F\u202C\u200F\u206C\u202C\u202B\u200E\u200C\u200D\u200C\u202C\u206C\u206F\u200D\u202E\u202C\u200C\u200D\u206E\u206D\u206C\u202E\u202B\u202B\u206A\u202B\u206D\u202B\u200F\u200C\u206F\u200D\u206C\u202E(BepinexPlugin.embeddedSource);
+			FlandreMPBullofPhalarisDef.\u202B\u202B\u202D\u200E\u202B\u200E\u206D\u206E\u200B\u200E\u200D\u200C\u200D\u206A\u200E\u200E\u200B\u200D\u202A\u200F\u206E\u206B\u206D\u202E\u206A\u200B\u202A\u206D\u202D\u200F\u200B\u202E\u200F\u202B\u202D\u206E\u206A\u206E\u202C\u200D\u202E(cardImages, this, <Module>.\u202D\u200F\u202D\u200B\u206C\u200B\u202B\u206C\u206E\u206E\u200C\u206B\u200D\u206B\u202B\u202A\u206F\u200C\u202E\u200D\u200B\u200B\u206F\u206B\u202C\u206F\u202E\u200B\u200B\u202C\u200C\u200E\u202C\u202C\u202C\u202B\u206D\u200D\u200E\u202A\u202E<string>(-402992198), <Module>.\u206A\u202A\u202B\u206E\u202B\u206A\u202E\u206A\u202A\u200D\u202B\u206E\u200B\u202A\u206D\u206E\u200C\u206B\u200D\u206B\u200F\u202A\u206D\u206E\u206E\u200B\u200C\u206D\u206D\u200D\u200E\u202A\u206C\u206A\u202D\u206C\u202B\u200E\u206A\u200F\u202E<string>(2088778032), false);
+			return cardImages;
+		}
+
+		public override LocalizationOption LoadLocalization()
+		{
+			return FlandreMPBullofPhalarisDef.\u206A\u202D\u200E\u200B\u200E\u206C\u206E\u206E\u200C\u200B\u206E\u202B\u202B\u200B\u206D\u206C\u200C\u200F\u206B\u202D\u202C\u206E\u200F\u206D\u202D\u206F\u200D\u202E\u202D\u200C\u202A\u202B\u202C\u200F\u200F\u206C\u202C\u202E\u202E\u200D\u202E(BepinexPlugin.cardLoc, this);
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public override CardConfig MakeConfig()
+		{
+			int num = FlandreMPBullofPhalarisDef.\u200E\u200D\u206D\u200D\u202E\u206B\u206C\u202B\u200E\u202A\u202D\u206A\u206D\u206A\u202D\u202A\u202A\u200D\u206F\u202C\u200B\u200D\u206E\u206C\u206B\u202A\u200D\u200C\u206C\u206C\u206A\u202C\u200E\u200C\u202E\u206B\u200D\u206C\u206F\u206A\u202E(BepinexPlugin.sequenceTable, FlandreMPBullofPhalarisDef.\u200B\u206A\u202A\u202B\u200B\u200D\u202E\u202C\u202A\u200B\u200E\u200F\u200E\u200C\u202B\u206D\u200B\u202E\u202A\u206C\u202B\u206D\u202C\u200D\u206A\u206C\u202D\u200F\u200C\u202A\u206D\u202C\u200F\u202E\u202B\u202D\u206A\u200C\u202D\u200F\u202E(typeof(CardConfig).TypeHandle));
+			string text = "";
+			int num2 = 10;
+			bool flag = true;
+			string[][] array = new string[0][];
+			string text2 = <Module>.\u202D\u200F\u202D\u200B\u206C\u200B\u202B\u206C\u206E\u206E\u200C\u206B\u200D\u206B\u202B\u202A\u206F\u200C\u202E\u200D\u200B\u200B\u206F\u206B\u202C\u206F\u202E\u200B\u200B\u202C\u200C\u200E\u202C\u202C\u202C\u202B\u206D\u200D\u200E\u202A\u202E<string>(-840054262);
+			string text3 = <Module>.\u202D\u200F\u202D\u200B\u206C\u200B\u202B\u206C\u206E\u206E\u200C\u206B\u200D\u206B\u202B\u202A\u206F\u200C\u202E\u200D\u200B\u200B\u206F\u206B\u202C\u206F\u202E\u200B\u200B\u202C\u200C\u200E\u202C\u202C\u202C\u202B\u206D\u200D\u200E\u202A\u202E<string>(-840054262);
+			int num3 = 0;
+			bool flag2 = false;
+			bool flag3 = FlandreMPBullofPhalarisDef.\u202A\u202C\u206C\u202D\u202D\u200D\u200F\u200B\u202E\u202E\u202E\u200E\u202C\u206B\u206E\u202B\u206A\u206F\u202A\u200B\u206F\u200B\u202C\u202D\u202C\u206C\u200E\u200D\u202B\u200D\u200D\u202E\u200E\u202A\u200D\u206C\u202B\u206D\u202A\u206C\u202E().ContainsKey(<Module>.\u206A\u202A\u202B\u206E\u202B\u206A\u202E\u206A\u202A\u200D\u202B\u206E\u200B\u202A\u206D\u206E\u200C\u206B\u200D\u206B\u200F\u202A\u206D\u206E\u206E\u200B\u200C\u206D\u206D\u200D\u200E\u202A\u206C\u206A\u202D\u206C\u202B\u200E\u206A\u200F\u202E<string>(-806222643));
+			bool flag4 = false;
+			bool flag5 = FlandreMPBullofPhalarisDef.\u202A\u202C\u206C\u202D\u202D\u200D\u200F\u200B\u202E\u202E\u202E\u200E\u202C\u206B\u206E\u202B\u206A\u206F\u202A\u200B\u206F\u200B\u202C\u202D\u202C\u206C\u200E\u200D\u202B\u200D\u200D\u202E\u200E\u202A\u200D\u206C\u202B\u206D\u202A\u206C\u202E().ContainsKey(<Module>.\u200F\u206C\u206A\u202D\u200D\u202B\u202B\u206B\u206A\u202C\u206C\u206B\u200B\u200D\u202E\u206F\u206C\u206E\u202E\u200D\u200F\u206D\u202A\u200B\u206D\u200B\u206F\u200D\u206B\u202E\u200F\u206D\u200B\u200F\u206D\u200D\u202C\u206C\u206C\u202E<string>(422596837));
+			bool flag6 = true;
+			Rarity rarity = Rarity.Rare;
+			CardType cardType = CardType.Ability;
+			TargetType? targetType = new TargetType?(TargetType.Self);
+			List<ManaColor> list = new List<ManaColor>();
+			list.Add(ManaColor.Red);
+			bool flag7 = false;
+			ManaGroup manaGroup = new ManaGroup
+			{
+				Red = 3
+			};
+			ManaGroup? manaGroup2 = null;
+			ManaGroup? manaGroup3 = null;
+			ManaGroup? manaGroup4 = null;
+			int? num4 = null;
+			int? num5 = null;
+			int? num6 = null;
+			int? num7 = null;
+			int? num8 = null;
+			int? num9 = null;
+			int? num10 = null;
+			int? num11 = new int?(24);
+			int? num12 = null;
+			int? num13 = new int?(1);
+			int? num14 = null;
+			ManaGroup? manaGroup5 = new ManaGroup?(new ManaGroup
+			{
+				Any = 1
+			});
+			ManaGroup? manaGroup6 = null;
+			int? num15 = null;
+			int? num16 = null;
+			int? num17 = null;
+			int? num18 = null;
+			int? num19 = null;
+			int? num20 = null;
+			int? num21 = null;
+			int? num22 = null;
+			int? num23 = null;
+			int? num24 = null;
+			int? num25 = null;
+			int? num26 = null;
+			int? num27 = null;
+			Keyword keyword = Keyword.None;
+			Keyword keyword2 = Keyword.None;
+			bool flag8 = false;
+			Keyword keyword3 = Keyword.None;
+			Keyword keyword4 = Keyword.None;
+			List<string> list2;
+			if (!FlandreMPBullofPhalarisDef.\u202A\u202C\u206C\u202D\u202D\u200D\u200F\u200B\u202E\u202E\u202E\u200E\u202C\u206B\u206E\u202B\u206A\u206F\u202A\u200B\u206F\u200B\u202C\u202D\u202C\u206C\u200E\u200D\u202B\u200D\u200D\u202E\u200E\u202A\u200D\u206C\u202B\u206D\u202A\u206C\u202E().ContainsKey(<Module>.\u200C\u200F\u206A\u200D\u202B\u200C\u206F\u206A\u200C\u206D\u206C\u206E\u200C\u202B\u200C\u200C\u202A\u206D\u202E\u200F\u202D\u206C\u206C\u202B\u206A\u202C\u202D\u206C\u202C\u200D\u200F\u200F\u202C\u202C\u202B\u200D\u200E\u206D\u206D\u202E\u202E<string>(1958841692)))
+			{
+				(list2 = new List<string>()).Add(<Module>.\u200C\u200F\u206A\u200D\u202B\u200C\u206F\u206A\u200C\u206D\u206C\u206E\u200C\u202B\u200C\u200C\u202A\u206D\u202E\u200F\u202D\u206C\u206C\u202B\u206A\u202C\u202D\u206C\u202C\u200D\u200F\u200F\u202C\u202C\u202B\u200D\u200E\u206D\u206D\u202E\u202E<string>(403931841));
+			}
+			else
+			{
+				List<string> list3 = new List<string>();
+				list3.Add(<Module>.\u200C\u200F\u206A\u200D\u202B\u200C\u206F\u206A\u200C\u206D\u206C\u206E\u200C\u202B\u200C\u200C\u202A\u206D\u202E\u200F\u202D\u206C\u206C\u202B\u206A\u202C\u202D\u206C\u202C\u200D\u200F\u200F\u202C\u202C\u202B\u200D\u200E\u206D\u206D\u202E\u202E<string>(403931841));
+				list3.Add(<Module>.\u200F\u206C\u206A\u202D\u200D\u202B\u202B\u206B\u206A\u202C\u206C\u206B\u200B\u200D\u202E\u206F\u206C\u206E\u202E\u200D\u200F\u206D\u202A\u200B\u206D\u200B\u206F\u200D\u206B\u202E\u200F\u206D\u200B\u200F\u206D\u200D\u202C\u206C\u206C\u202E<string>(637535589));
+				list2 = list3;
+				list3.Add(<Module>.\u206A\u202A\u202B\u206E\u202B\u206A\u202E\u206A\u202A\u200D\u202B\u206E\u200B\u202A\u206D\u206E\u200C\u206B\u200D\u206B\u200F\u202A\u206D\u206E\u206E\u200B\u200C\u206D\u206D\u200D\u200E\u202A\u206C\u206A\u202D\u206C\u202B\u200E\u206A\u200F\u202E<string>(540437644));
+			}
+			List<string> list4;
+			if (!FlandreMPBullofPhalarisDef.\u202A\u202C\u206C\u202D\u202D\u200D\u200F\u200B\u202E\u202E\u202E\u200E\u202C\u206B\u206E\u202B\u206A\u206F\u202A\u200B\u206F\u200B\u202C\u202D\u202C\u206C\u200E\u200D\u202B\u200D\u200D\u202E\u200E\u202A\u200D\u206C\u202B\u206D\u202A\u206C\u202E().ContainsKey(<Module>.\u206A\u202A\u202B\u206E\u202B\u206A\u202E\u206A\u202A\u200D\u202B\u206E\u200B\u202A\u206D\u206E\u200C\u206B\u200D\u206B\u200F\u202A\u206D\u206E\u206E\u200B\u200C\u206D\u206D\u200D\u200E\u202A\u206C\u206A\u202D\u206C\u202B\u200E\u206A\u200F\u202E<string>(-806222643)))
+			{
+				(list4 = new List<string>()).Add(<Module>.\u200F\u206C\u206A\u202D\u200D\u202B\u202B\u206B\u206A\u202C\u206C\u206B\u200B\u200D\u202E\u206F\u206C\u206E\u202E\u200D\u200F\u206D\u202A\u200B\u206D\u200B\u206F\u200D\u206B\u202E\u200F\u206D\u200B\u200F\u206D\u200D\u202C\u206C\u206C\u202E<string>(-1625028300));
+			}
+			else
+			{
+				List<string> list5 = new List<string>();
+				list5.Add(<Module>.\u202D\u200F\u202D\u200B\u206C\u200B\u202B\u206C\u206E\u206E\u200C\u206B\u200D\u206B\u202B\u202A\u206F\u200C\u202E\u200D\u200B\u200B\u206F\u206B\u202C\u206F\u202E\u200B\u200B\u202C\u200C\u200E\u202C\u202C\u202C\u202B\u206D\u200D\u200E\u202A\u202E<string>(653136914));
+				list5.Add(<Module>.\u200C\u200F\u206A\u200D\u202B\u200C\u206F\u206A\u200C\u206D\u206C\u206E\u200C\u202B\u200C\u200C\u202A\u206D\u202E\u200F\u202D\u206C\u206C\u202B\u206A\u202C\u202D\u206C\u202C\u200D\u200F\u200F\u202C\u202C\u202B\u200D\u200E\u206D\u206D\u202E\u202E<string>(911976412));
+				list4 = list5;
+				list5.Add(<Module>.\u206A\u202A\u202B\u206E\u202B\u206A\u202E\u206A\u202A\u200D\u202B\u206E\u200B\u202A\u206D\u206E\u200C\u206B\u200D\u206B\u200F\u202A\u206D\u206E\u206E\u200B\u200C\u206D\u206D\u200D\u200E\u202A\u206C\u206A\u202D\u206C\u202B\u200E\u206A\u200F\u202E<string>(540437644));
+			}
+			return new CardConfig(num, text, num2, flag, array, text2, text3, num3, flag2, flag3, flag4, flag5, flag6, rarity, cardType, targetType, list, flag7, manaGroup, manaGroup2, manaGroup3, manaGroup4, num4, num5, num6, num7, num8, num9, num10, num11, num12, num13, num14, manaGroup5, manaGroup6, num15, num16, num17, num18, num19, num20, num21, num22, num23, num24, num25, num26, num27, keyword, keyword2, flag8, keyword3, keyword4, list2, list4, new List<string>(), new List<string>(), <Module>.\u202D\u200F\u202D\u200B\u206C\u200B\u202B\u206C\u206E\u206E\u200C\u206B\u200D\u206B\u202B\u202A\u206F\u200C\u202E\u200D\u200B\u200B\u206F\u206B\u202C\u206F\u202E\u200B\u200B\u202C\u200C\u200E\u202C\u202C\u202C\u202B\u206D\u200D\u200E\u202A\u202E<string>(-58151961), null, "", "", false, <Module>.\u200F\u206C\u206A\u202D\u200D\u202B\u202B\u206B\u206A\u202C\u206C\u206B\u200B\u200D\u202E\u206F\u206C\u206E\u202E\u200D\u200F\u206D\u202A\u200B\u206D\u200B\u206F\u200D\u206B\u202E\u200F\u206D\u200B\u200F\u206D\u200D\u202C\u206C\u206C\u202E<string>(-1472925906), new List<string>());
+		}
+
+		static CardImages \u206F\u206D\u200C\u202A\u200C\u200F\u202B\u206F\u202C\u200F\u206C\u202C\u202B\u200E\u200C\u200D\u200C\u202C\u206C\u206F\u200D\u202E\u202C\u200C\u200D\u206E\u206D\u206C\u202E\u202B\u202B\u206A\u202B\u206D\u202B\u200F\u200C\u206F\u200D\u206C\u202E(IResourceSource A_0)
+		{
+			return new CardImages(A_0);
+		}
+
+		static void \u202B\u202B\u202D\u200E\u202B\u200E\u206D\u206E\u200B\u200E\u200D\u200C\u200D\u206A\u200E\u200E\u200B\u200D\u202A\u200F\u206E\u206B\u206D\u202E\u206A\u200B\u202A\u206D\u202D\u200F\u200B\u202E\u200F\u202B\u202D\u206E\u206A\u206E\u202C\u200D\u202E(CardImages A_0, CardTemplate A_1, string A_2, string A_3, bool A_4)
+		{
+			A_0.AutoLoad(A_1, A_2, A_3, A_4);
+		}
+
+		static BatchLocalization \u206A\u202D\u200E\u200B\u200E\u206C\u206E\u206E\u200C\u200B\u206E\u202B\u202B\u200B\u206D\u206C\u200C\u200F\u206B\u202D\u202C\u206E\u200F\u206D\u202D\u206F\u200D\u202E\u202D\u200C\u202A\u202B\u202C\u200F\u200F\u206C\u202C\u202E\u202E\u200D\u202E(BatchLocalization A_0, EntityDefinition A_1)
+		{
+			return A_0.AddEntity(A_1);
+		}
+
+		static Type \u200B\u206A\u202A\u202B\u200B\u200D\u202E\u202C\u202A\u200B\u200E\u200F\u200E\u200C\u202B\u206D\u200B\u202E\u202A\u206C\u202B\u206D\u202C\u200D\u206A\u206C\u202D\u200F\u200C\u202A\u206D\u202C\u200F\u202E\u202B\u202D\u206A\u200C\u202D\u200F\u202E(RuntimeTypeHandle A_0)
+		{
+			return Type.GetTypeFromHandle(A_0);
+		}
+
+		static int \u200E\u200D\u206D\u200D\u202E\u206B\u206C\u202B\u200E\u202A\u202D\u206A\u206D\u206A\u202D\u202A\u202A\u200D\u206F\u202C\u200B\u200D\u206E\u206C\u206B\u202A\u200D\u200C\u206C\u206C\u206A\u202C\u200E\u200C\u202E\u206B\u200D\u206C\u206F\u206A\u202E(TemplateSequenceTable A_0, Type A_1)
+		{
+			return A_0.Next(A_1);
+		}
+
+		static Dictionary<string, PluginInfo> \u202A\u202C\u206C\u202D\u202D\u200D\u200F\u200B\u202E\u202E\u202E\u200E\u202C\u206B\u206E\u202B\u206A\u206F\u202A\u200B\u206F\u200B\u202C\u202D\u202C\u206C\u200E\u200D\u202B\u200D\u200D\u202E\u200E\u202A\u200D\u206C\u202B\u206D\u202A\u206C\u202E()
+		{
+			return Chainloader.PluginInfos;
+		}
+
+		[EntityLogic(typeof(FlandreMPBullofPhalarisDef))]
+		public sealed class FlandreMPBullofPhalaris : FlandreCard
+		{
+			public override int AdditionalValue1
+			{
+				get
+				{
+					return FlandreMPBullofPhalarisDef.FlandreMPBullofPhalaris.\u206B\u206B\u206E\u202A\u202D\u206C\u200B\u202B\u206B\u202A\u206F\u202B\u200D\u206D\u206D\u206E\u202E\u206D\u206A\u200C\u200F\u206F\u200D\u206C\u206A\u200F\u200C\u202B\u202E\u200D\u202E\u206B\u202C\u206B\u202A\u200B\u200C\u202A\u206B\u202E\u202E(this).GetValueOrDefault() * 8;
+				}
+			}
+
+			public override ManaGroup AdditionalCost
+			{
+				[MethodImpl(MethodImplOptions.NoInlining)]
+				get
+				{
+					return FlandreMPBullofPhalarisDef.FlandreMPBullofPhalaris.\u206A\u202C\u202C\u202E\u200C\u200B\u202B\u206E\u206F\u206D\u202B\u202E\u200B\u200F\u200D\u202C\u206D\u202C\u206A\u200D\u206B\u200C\u200F\u202E\u206B\u202D\u206C\u200C\u206E\u200D\u206D\u202C\u202D\u202C\u206F\u202E\u206E\u202C\u206A\u206A\u202E(this) * FlandreMPBullofPhalarisDef.FlandreMPBullofPhalaris.\u206D\u206D\u206A\u200C\u206A\u200D\u206D\u206F\u200D\u206F\u200E\u206D\u202D\u206E\u200C\u206E\u200C\u200B\u206B\u202E\u202B\u206F\u206B\u200E\u200F\u200E\u200F\u206B\u200D\u202B\u206C\u200C\u206D\u206B\u206E\u206D\u206C\u202E\u206B\u202D\u202E((FlandreMPBullofPhalarisDef.FlandreMPBullofPhalaris.\u206D\u200B\u200E\u206D\u200C\u202A\u200B\u200D\u202B\u202E\u202E\u200F\u202B\u202A\u206B\u202D\u200B\u200D\u202C\u200B\u200F\u206E\u206D\u206A\u206E\u202D\u200D\u206F\u200F\u200C\u200F\u200B\u206D\u202B\u202A\u206C\u202E\u200F\u206C\u202A\u202E().ContainsKey(<Module>.\u202D\u206A\u202E\u202B\u206C\u200E\u206B\u206E\u200F\u206E\u200C\u202E\u206F\u200C\u206D\u200B\u206E\u200F\u200D\u202A\u206F\u202E\u200E\u206D\u206D\u206F\u202D\u200C\u206F\u202A\u200B\u202E\u206C\u206A\u206B\u202A\u206C\u202E\u200D\u202B\u202E<string>(-1770291014)) && AyaLBOLMPHelper.MPIsActive) ? (AyaLBOLMPHelper.MPConnectedCount - 1) : 0, 0, 3);
+				}
+			}
+
+			public override void Initialize()
+			{
+				base.Initialize();
+				for (;;)
+				{
+					IL_0006:
+					int num = -371714398;
+					for (;;)
+					{
+						int num2 = num;
+						uint num3;
+						switch ((num3 = (uint)(-(uint)((-1611567510 ^ 333343235) - (num2 + 1657149801 * ((-325332813 ^ -1440254761) + (380035338 ^ 1076040288)) - (-1726747096 - 745706593 * -872728693))))) % 3U)
+						{
+						case 1U:
+							base.IsMultiplayer = true;
+							num = (int)((num3 * 2480864871U) ^ 1221642847U);
+							continue;
+						case 2U:
+							goto IL_0006;
+						}
+						return;
+					}
+				}
+			}
+
+			protected override IEnumerable<BattleAction> Actions(UnitSelector selector, ManaGroup consumingMana, Interaction precondition)
+			{
+				FlandreMPBullofPhalarisDef.FlandreMPBullofPhalaris.<Actions>d__5 <Actions>d__ = new FlandreMPBullofPhalarisDef.FlandreMPBullofPhalaris.<Actions>d__5(-2);
+				<Actions>d__.<>4__this = this;
+				return <Actions>d__;
+			}
+
+			static int? \u206B\u206B\u206E\u202A\u202D\u206C\u200B\u202B\u206B\u202A\u206F\u202B\u200D\u206D\u206D\u206E\u202E\u206D\u206A\u200C\u200F\u206F\u200D\u206C\u206A\u200F\u200C\u202B\u202E\u200D\u202E\u206B\u202C\u206B\u202A\u200B\u200C\u202A\u206B\u202E\u202E(Card A_0)
+			{
+				return A_0.UpgradeCounter;
+			}
+
+			static ManaGroup \u206A\u202C\u202C\u202E\u200C\u200B\u202B\u206E\u206F\u206D\u202B\u202E\u200B\u200F\u200D\u202C\u206D\u202C\u206A\u200D\u206B\u200C\u200F\u202E\u206B\u202D\u206C\u200C\u206E\u200D\u206D\u202C\u202D\u202C\u206F\u202E\u206E\u202C\u206A\u206A\u202E(Card A_0)
+			{
+				return A_0.Mana;
+			}
+
+			static Dictionary<string, PluginInfo> \u206D\u200B\u200E\u206D\u200C\u202A\u200B\u200D\u202B\u202E\u202E\u200F\u202B\u202A\u206B\u202D\u200B\u200D\u202C\u200B\u200F\u206E\u206D\u206A\u206E\u202D\u200D\u206F\u200F\u200C\u200F\u200B\u206D\u202B\u202A\u206C\u202E\u200F\u206C\u202A\u202E()
+			{
+				return Chainloader.PluginInfos;
+			}
+
+			static int \u206D\u206D\u206A\u200C\u206A\u200D\u206D\u206F\u200D\u206F\u200E\u206D\u202D\u206E\u200C\u206E\u200C\u200B\u206B\u202E\u202B\u206F\u206B\u200E\u200F\u200E\u200F\u206B\u200D\u202B\u206C\u200C\u206D\u206B\u206E\u206D\u206C\u202E\u206B\u202D\u202E(int A_0, int A_1, int A_2)
+			{
+				return Math.Clamp(A_0, A_1, A_2);
+			}
+		}
+	}
+}

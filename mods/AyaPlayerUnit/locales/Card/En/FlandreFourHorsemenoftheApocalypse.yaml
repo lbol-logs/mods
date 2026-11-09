@@ -1,0 +1,26 @@
+﻿FlandreFourHorsemenoftheApocalypse:
+  Description: >-
+    Gain {FlandreValue1} |Calamity|.
+
+    Discard any number of cards from the hand.
+
+    Put the topmost attack, defense, skill, and |Ability| cards from the draw pile into the hand.
+
+    |Overflow|: Gain {FlandreMana}.
+  UpgradedDescription: >-
+    Gain {FlandreValue1} |Calamity|.
+
+    Discard any number of cards from the hand.
+
+    Put the topmost attack, defense, skill, and |Ability| cards from the draw pile into the hand.
+
+    |Overflow|: Gain {FlandreMana}.
+  ExtraDescription1: >-
+    Gain {FlandreValue1} |Calamity|.
+
+    Discard any number of cards from the hand.
+
+    Put the topmost attack, defense, skill, and |Ability| cards from the draw pile into the hand.
+
+    |d:Overflow: Gain {FlandreMana}.|
+  Name: Four Horsemen of the Apocalypse

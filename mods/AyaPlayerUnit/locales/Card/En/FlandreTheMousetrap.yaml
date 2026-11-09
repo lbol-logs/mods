@@ -1,0 +1,14 @@
+﻿FlandreTheMousetrap:
+  Description: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Gain {FlandreValue1} |Calamity|.
+
+    At the start of {PlayerName}'s next turn, deal damage to each enemy equal to the amount of damage taken last turn.
+  UpgradedDescription: >-
+    Gain {FlandreShield} |Barrier|.
+
+    Gain {FlandreValue1} |Calamity|.
+
+    At the start of {PlayerName}'s next turn, deal damage to each enemy equal to the amount of damage taken last turn.
+  Name: The Mousetrap

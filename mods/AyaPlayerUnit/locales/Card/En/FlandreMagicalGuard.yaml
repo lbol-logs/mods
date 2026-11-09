@@ -1,0 +1,18 @@
+﻿FlandreMagicalGuard:
+  Description: >-
+    Gain {FlandreBlock} |Block|.
+
+    Return {SelfName} to the hand.
+
+    {SelfName} costs {Mana} more this turn.
+  UpgradedDescription: >-
+    Gain {FlandreBlock} |Block|.
+
+    Return {SelfName} to the hand.
+
+    {SelfName} costs {Mana} more this turn.
+  Name: Magical Guard
+  DetailText: >-
+    |p:{SelfName} never leaves the hand under any circumstances.|
+
+    {SelfName} is always the {Order:ordinal one='%st' two='%nd' few='%rd' other='%th'} card in the hand.

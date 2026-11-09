@@ -1,0 +1,4 @@
+﻿FlandreBloodlustSe:
+  Brief: This card's effect increases by |e:{Value1}|% for every 1% of {PlayerName}'s life lost, up to {Value2}%. (|e:{Amount}|%)
+  Description: This card's effect increases by |e:{Value1}|% for every 1% of {PlayerName}'s life lost, up to {Value2}%. (|e:{Amount}|%)
+  Name: Bloodlust

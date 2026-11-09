@@ -1,0 +1,7 @@
+﻿AyaTanukiWindGodGrillSe:
+  Brief: >-
+    {OwnerName}가 |풍신소나|,를 얻을 때 마다, 그 만큼 |그래이즈|를 얻습니다.
+
+    {OwnerName}의 |그래이즈|는 턴 종료시 고정된 수치만큼 보충됩니다.
+  Description: '{OwnerName}의 |그래이즈|가 턴 종료시 {Level}까지 보충됩니다.'
+  Name: 풍신소나

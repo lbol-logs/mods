@@ -1,0 +1,18 @@
+﻿FlandreMPEnfantTerrible:
+  Description: >-
+    Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.
+
+    Enemies deal {Value2}% less attack damage for the next {Value3:plural one='% turn' other='% turns'}.
+
+    All |Partners| deal {Value4}% less attack damage for the next {Value5:plural one='% turn' other='% turns'}.
+
+    Gain {Value6} |Madness|.
+  UpgradedDescription: >-
+    Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.
+
+    Enemies deal {Value2}% less attack damage for the next {Value3:plural one='% turn' other='% turns'}.
+
+    All |Partners| deal {Value4}% less attack damage for the next {Value5:plural one='% turn' other='% turns'}.
+
+    Gain {Value6} |Madness|.
+  Name: Enfant Terrible

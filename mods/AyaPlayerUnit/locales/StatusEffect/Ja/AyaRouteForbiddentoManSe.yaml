@@ -1,0 +1,11 @@
+﻿AyaRouteForbiddentoManSe:
+  Brief: '{PlayerName}のターン終了時、そのターン中に|廃棄|したカードの枚数だけランダムな敵に|精密|ダメージと|ロックオン|を与える。'
+  Description: >-
+    {PlayerName}のターン終了時、そのターン中に|廃棄|したカードの枚数だけランダムな敵に{Damage}ダメージと|ロックオン|{Limit}を与える。それは|精密|を持つ。最大{Value}回まで。
+
+    (蓄積回数：{Count})
+  PhantasmModeDescription: >-
+    {PlayerName}のターン終了時、そのターン中に|廃棄|したカードの枚数だけランダムな敵に{Damage}ダメージと|ロックオン|{Limit}を与える。それは|精密|を持つ。最大{Value}回まで。
+
+    (蓄積回数：{Count})
+  Name: 人間禁制の道

@@ -1,0 +1,4 @@
+﻿AyaInstantShotJournalistSe:
+  Brief: '{PlayerName} 在一定回合内无法失去 |加速|。'
+  Description: "{PlayerName} {Duration:plural one='% 回合' other='% 回合'} 无法失去 |加速|。"
+  Name: 瞬间射击记者

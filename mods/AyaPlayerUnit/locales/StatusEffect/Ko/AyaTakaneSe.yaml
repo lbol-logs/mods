@@ -1,0 +1,10 @@
+﻿AyaTakaneSe:
+  Brief: >-
+    {OwnerName}가 정말 화가 났습니다.
+
+    {OwnerName}가 최대 체력이 증가하고 더 많은 피해를 줍니다.
+  Description: >-
+    {OwnerName}가 정말 화가 났습니다.
+
+    {OwnerName}가 최대 체력이 {Value}% 증가하고, {Level}% 더 많은 피해를 줍니다.
+  Name: 화난 상점주인

@@ -1,0 +1,22 @@
+﻿AyaTakePicture:
+  Description: >-
+    |ロックオン|{Value1}を与える。
+
+    |文々。新聞|を{Value2}枚手札に加える。
+
+    それらの|臨時コスト|を{Mana}減らす。
+  UpgradedDescription: >-
+    |ロックオン|{Value1}を与える。
+
+    |文々。新聞|を{Value2}枚手札に加える。
+
+    それらの|臨時コスト|を{Mana}減らす。
+  PhantasmModeDescription: >-
+    |文々。新聞|を{Value2}枚手札に加える。
+
+    それらの|臨時コスト|を{Mana}減らす。
+  PhantasmModeUpgradedDescription: >-
+    |文々。新聞|を{Value2}枚手札に加える。
+
+    それらの|臨時コスト|を{Mana}減らす。
+  Name: 写真撮影

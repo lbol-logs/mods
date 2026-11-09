@@ -1,0 +1,4 @@
+﻿FlandreCalamitySe:
+  Brief: Whenever enemies take damage, take more damage.
+  Description: Whenever enemies take damage, take {Amount} more damage.
+  Name: Calamity

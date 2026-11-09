@@ -1,0 +1,10 @@
+﻿AyaLittleSalvation:
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    |가속|과 |일시 화력|을 {Value1} 얻습니다.
+  UpgradedDescription: >-
+    |방어|를 {Block} 얻습니다.
+
+    |가속|과 |일시 화력|을 {Value1} 얻습니다.
+  Name: 작은 구원

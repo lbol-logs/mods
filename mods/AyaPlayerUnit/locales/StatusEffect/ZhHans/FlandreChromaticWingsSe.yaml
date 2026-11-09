@@ -1,0 +1,4 @@
+﻿FlandreChromaticWingsSe:
+  Brief: 在 {PlayerName} 的回合开始时，添加 <sprite="ManaSprite" name="P">。
+  Description: 在 {PlayerName} 的回合开始时，添加 {Level} <sprite="ManaSprite" name="P">。
+  Name: 彩色之翼

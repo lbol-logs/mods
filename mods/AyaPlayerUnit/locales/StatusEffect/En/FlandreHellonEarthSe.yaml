@@ -1,0 +1,4 @@
+﻿FlandreHellonEarthSe:
+  Brief: When |Hellfire| and |Brimstone| would trigger, they trigger additional times.
+  Description: When |Hellfire| and |Brimstone| would trigger, they trigger {Level} additional time{Level:plural one='' other='s'}.
+  Name: Hell on Earth

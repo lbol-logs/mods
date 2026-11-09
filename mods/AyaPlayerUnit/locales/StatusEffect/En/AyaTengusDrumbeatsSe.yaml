@@ -1,0 +1,5 @@
+﻿AyaTengusDrumbeatsSe:
+  Brief: At the start of {PlayerName}'s next turn, deal |Accurate| attack damage to each enemy and gain |Temporary Firepower|.
+  Description: At the start of {PlayerName}'s next turn, deal {Damage} |Accurate| attack damage to each enemy and gain {Count} |Temporary Firepower|.
+  PhantasmModeDescription: At the start of {PlayerName}'s next turn, deal {Damage} |Accurate| attack damage to each enemy.
+  Name: Tengu's Drumbeats

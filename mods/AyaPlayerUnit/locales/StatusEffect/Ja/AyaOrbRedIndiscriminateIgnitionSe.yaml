@@ -1,0 +1,10 @@
+﻿AyaOrbRedIndiscriminateIgnitionSe:
+  Brief: >-
+    {OwnerName} のターン終了時、{PlayerName}にダメージを与える。
+
+    この効果は、|災厄|や状態異常カードを引いたときにも発動する。
+  Description: >-
+    {OwnerName}のターン終了時、{PlayerName}に{Level} ダメージを与える。
+
+    この効果は、|災厄|や状態異常カードを引いたときにも発動する。
+  Name: 無差別発火の符

@@ -1,0 +1,22 @@
+﻿AyaTengusEdiblePompoms:
+  Description: >-
+    |방어|를 {Block} 얻습니다.
+
+    체력을 {Value1} 회복합니다.
+
+    <sprite="Point" name="Power">를 {Value1} 얻습니다.
+
+    |전투 시작시|: {PlayerName}의 {Value2}번째 턴이 지났다면, {SelfName}을 |소멸|시킵니다.
+  UpgradedDescription: >-
+    |방어|를 {Block} 얻습니다.
+
+    체력을 {Value1} 회복합니다.
+
+    <sprite="Point" name="Power">를 {Value1} 얻습니다.
+
+    |전투 시작시|: {PlayerName}의 {Value2}번째 턴이 지났다면, {SelfName}을 |소멸|시킵니다.
+  Name: 텐구의 식용 털방울
+  FlavorText: >-
+    "모미지의 것은 된장 맛입니다."
+
+    - 샤메이마루 아야

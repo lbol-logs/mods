@@ -1,0 +1,419 @@
+﻿FlandrePlayerUnit:
+  Title: Devil of Scarlet Blood
+  HomeName: Scarlet Devil Mansion
+  FlandreSelect: Select
+  FlandreSkipDialogue: Skip Dialogue?
+  FlandreSkipOfferingOff: Show Offering
+  FlandreSkipOfferingOn: Skip Offering
+  FlandreTutorialIntro1SukusukuAya: >-
+    Suku!
+
+    (Welcome to the tutorial!)
+  FlandreTutorialIntro2SukusukuAya: >-
+    Suku.
+
+    (This tutorial does not cover the basics. Instead think of this as a character exclusive tutorial.)
+  FlandreTutorialIntro3SukusukuAya: >-
+    Suku.
+
+    (I'll explain what {0} is capable of by going through each mana color, with a simple puzzle-style battles.)
+  FlandreTutorialIntro4SukusukuAya: >-
+    Suku.
+
+    (You can also skip to any Stage you want.)
+  FlandreTutorialBattleWin1SukusukuAya: >-
+    Suku!
+
+    (Success! Let's continue!)
+  FlandreTutorialBattleWin2SukusukuAya: >-
+    Suku!
+
+    (All clear! Congraturations!)
+  FlandreTutorialBattleLoseSukusukuAya: >-
+    Suku?
+
+    (Failure! Wanna try again?)
+  FlandreTutorialReturnSukusukuAya: >-
+    Suku?
+
+    (What do you want to learn?)
+  FlandreTutorialExitSukusukuAya: >-
+    Suku!
+
+    (See you next time!)
+  FlandreTutorialStage1Description: Not completed.
+  FlandreTutorialStage1Description2: Completed.
+  FlandreTutorialStage1Name: Stage 1 - Blue
+  FlandreTutorialStage1Intro1SukusukuAya: >-
+    Suku.
+
+    (Before I teach you, let's start with introducing who you are.)
+  FlandreTutorialStage1Intro2SukusukuAya: >-
+    Suku.
+
+    (You are {0}. You are a Vampire, but you also have multiple identity, which is Vampire, Devil, and Magical girl.)
+  FlandreTutorialStage1Intro3SukusukuAya: >-
+    Suku.
+
+    (You're at least 495 years old. You are an younger sister of Remilia Scarlet, Mistress of Scarlet Devil Mansion.)
+  FlandreTutorialStage1Intro4SukusukuAya: >-
+    Suku.
+
+    (You were locked in a basement by Remilia for 495 years. But you can force your way out if you wanted to.)
+  FlandreTutorialStage1Intro5Flandre: Are you trying to call me a shut-in or what?
+  FlandreTutorialStage1Intro6SukusukuAya: >-
+    Suku.
+
+    (Because you have the ability to destroy absolutely anything.)
+  FlandreTutorialStage1Intro7Flandre: Hmph. Everything has its eye, and I have eyes of everything in my hand.
+  FlandreTutorialStage1Intro8Flandre: I squeeze the eye, and it went boom!
+  FlandreTutorialStage1Intro9SukusukuAya: >-
+    Suku!
+
+    (And that's what we're going to learn first!)
+  FlandreTutorialStage1Intro10SukusukuAya: >-
+    Suku.
+
+    ({0}'s Blue mana represents her ability to destroy absolutely anything. Its main keywords are Calamity and Destroy.)
+  FlandreTutorialStage1Intro11SukusukuAya: >-
+    Suku.
+
+    (Calamity increases any damage enemies take, even if it was supposed to deal 0 damage. Allowing {0} to deal damage no matter what.)
+  FlandreTutorialStage1Intro12SukusukuAya: >-
+    Suku.
+
+    (Destroy is pretty simple. When conditions are met, {0} will instantly kill the target.)
+  FlandreTutorialStage1Intro13SukusukuAya: >-
+    Suku.
+
+    (Your Blue cards also offer card manipulation and more defensive options.)
+  FlandreTutorialStage1Intro14SukusukuAya: >-
+    Suku!
+
+    (Let me introduce you a helper for the tutorial battle!)
+  FlandreTutorialStage1Intro15SukusukuAya: >-
+    Suku!
+
+    (Come on, Momiji!)
+  FlandreTutorialStage1Intro16SukusukuMomiji: >-
+    Suku...
+
+    (Geez, Aya. I was busy patrolling the mountain...)
+  FlandreTutorialStage1Intro17SukusukuAya: >-
+    Suku.
+
+    (No you're not. You were sleeping.)
+  FlandreTutorialStage1Intro18SukusukuAya: >-
+    Suku!
+
+    (Now stop whining and help me with my teaching!)
+  FlandreTutorialStage1Intro19SukusukuMomiji: >-
+    Suku?
+
+    (But we have an actual teacher. Why are you teaching instead of her?)
+  FlandreTutorialStage1Intro20SukusukuAya: >-
+    Suku.
+
+    (She was hospitalized after getting caught up in the duel between Kaguya and Mokou.)
+  FlandreTutorialStage1Intro21SukusukuMomiji: >-
+    Suku.
+
+    (Oh...)
+  FlandreTutorialStage1Intro22Flandre: That's funny.
+  FlandreTutorialStage1Intro23SukusukuAya: >-
+    Suku!
+
+    (Anyway, Momiji! Use your shield to take {0}'s attack!)
+  FlandreTutorialStage1Intro24SukusukuMomiji: >-
+    Suku!
+
+    (Alright!)
+  FlandreTutorialStage1Intro25SukusukuMomiji: >-
+    ...Suku?
+
+    (...Do you know what you just said?)
+  FlandreTutorialStage1Intro26SukusukuAya: >-
+    Suku.
+
+    (Take {0}'s attack.)
+  FlandreTutorialStage1Intro27SukusukuMomiji: >-
+    Suku!
+
+    (It's basically like telling me to stop a nuclear missile with a knife!)
+  FlandreTutorialStage1Intro28SukusukuAya: >-
+    Suku?
+
+    (Relax, {0} will go easy on you. Right, {0}?)
+  FlandreTutorialStage1Intro29Flandre: I hope you have a life insurance!
+  FlandreTutorialStage1Intro30SukusukuMomiji: >-
+    Suku!!!
+
+    (There is no life insurance for Sukusuku Hakutaku!!!)
+  FlandreTutorialStage1Intro31SukusukuAya: >-
+    Suku!
+
+    (Your sacrifice will be remembered, Momiji!)
+  FlandreTutorialStage1Intro32Flandre: Nah, I was just joking. I'll only use 0% of my power.
+  FlandreTutorialStage1Intro33SukusukuMomiji: >-
+    Suku?
+
+    (That's not reassuring... 0%?)
+  FlandreTutorialStage1BattleWave11Flandre: All my attacks will deal 0 damage, and that's when my Calamity comes in handy!
+  FlandreTutorialStage1BattleWave12SukusukuAya: >-
+    Suku!
+
+    (Reduce {0}'s Hp to 50% or lower in 1 turn!)
+  FlandreTutorialStage1BattleWave21SukusukuMomiji: >-
+    Suku...
+
+    (I think one or two of my rib broke...)
+  FlandreTutorialStage1BattleWave22SukusukuAya: >-
+    Suku.
+
+    (It was your shield that took all the hits, not you.)
+  FlandreTutorialStage1BattleWave23SukusukuAya: >-
+    Suku!
+
+    (Let's try Destroy!)
+  FlandreTutorialStage1BattleWave24SukusukuMomiji: >-
+    ...Suku?
+
+    (...Are you serious?)
+  FlandreTutorialStage1BattleWave25SukusukuAya: >-
+    Suku.
+
+    (No no, You're not the one going to be destroyed.)
+  FlandreTutorialStage1BattleWave26SukusukuAya: >-
+    Suku.
+
+    (To prevent unnecessary killing, I will bring a target dummy.)
+  FlandreTutorialStage1BattleWave27Flandre: I don't like the way you're implying that I committed an unnecessary murder before.
+  FlandreTutorialStage1BattleWave28SukusukuMomiji: >-
+    Suku?
+
+    (Then what was it?)
+  FlandreTutorialStage1BattleWave29Flandre: Natural selection.
+  FlandreTutorialStage1BattleWave210SukusukuMomiji: >-
+    Suku.
+
+    (I shouldn't have asked.)
+  FlandreTutorialStage1BattleWave211Flandre: Just kidding.
+  FlandreTutorialStage1BattleWave212Flandre: Those dark lore about Touhou Project were created back when ZUN had Chuunibyou.
+  FlandreTutorialStage1BattleWave213Flandre: Nowadays, these are just a convenient material to create horror themed fanworks.
+  FlandreTutorialStage1BattleWave214Flandre: For example, there are bunch of doujinshis where I'm playing with other Touhou characters. They end up brutally murdered.
+  FlandreTutorialStage1BattleWave215SukusukuMomiji: >-
+    Suku.
+
+    (You didn't have to give an example.)
+  FlandreTutorialStage1BattleWave216SukusukuMomiji: >-
+    Suku.
+
+    (Also, can you stop break 4th wall? You're not supposed to do that.)
+  FlandreTutorialStage1BattleWave217Flandre: But I'm canonically 4th wall breaking character.
+  FlandreTutorialStage1BattleWave218SukusukuMomiji: >-
+    ...
+
+    (...)
+  FlandreTutorialStage1BattleWave219SukusukuAya: >-
+    Suku.
+
+    (This target dummy has 9999 life.)
+  FlandreTutorialStage1BattleWave220Flandre: Wow, what is that dummy made of?
+  FlandreTutorialStage1BattleWave221SukusukuAya: >-
+    Suku.
+
+    (Hay bale.)
+  FlandreTutorialStage1BattleWave222Flandre: Eh-
+  FlandreTutorialStage1BattleWave223SukusukuAya: >-
+    Suku!
+
+    (Instead of trying to deal that much damage, Destroy it!)
+  FlandreTutorialStage1BattleWave224SukusukuAya: >-
+    Suku!
+
+    (Defeat target dummy in 1 turn!)
+  FlandreTutorialStage1BattleWave31SukusukuAya: >-
+    Suku.
+
+    (Now that's a really scary ability.)
+  FlandreTutorialStage1BattleWave32SukusukuAya: >-
+    Suku.
+
+    (As for final battle, I have prepared perfect opponent for you.)
+  FlandreTutorialStage1BattleWave33SukusukuAya: >-
+    Suku!
+
+    (Rabbits!)
+  FlandreTutorialStage1BattleWave34FraudRabbit: You have received 2 Moriyacoin MRC. Please confirm transaction by clicking link:https://store.steampowered.com/app/1140150/Touhou_Lost_Branch_of_Legend/
+  FlandreTutorialStage1BattleWave35SukusukuMomiji: >-
+    Suku!
+
+    (It's a scammer!)
+  FlandreTutorialStage1BattleWave36Flandre: I despise people who try to make money without working.
+  FlandreTutorialStage1BattleWave37SukusukuMomiji: >-
+    Suku.
+
+    (That's because you don't need to work.)
+  FlandreTutorialStage1BattleWave38HardworkingRabbit: Earthling spotted! Engaging combat!
+  FlandreTutorialStage1BattleWave39LazyRabbit: Let's see... 3 minutes should be enough to eliminate this earthling.
+  FlandreTutorialStage1BattleWave310Flandre: You know, I'm not a Misfortune God and yet I can feel a tremendous amount of grudges against those rabbits.
+  FlandreTutorialStage1BattleWave311Flandre: They must be really hated.
+  FlandreTutorialStage1BattleWave312SukusukuMomiji: >-
+    Suku.
+
+    (An enemy that takes 1 damage from anything never had good impression in many games.)
+  FlandreTutorialStage1BattleWave313SukusukuAya: >-
+    Suku!
+
+    (Time to show them there is nothing you can't destroy, {0}!)
+  FlandreTutorialStage1BattleWave314SukusukuAya: >-
+    Suku!
+
+    (Defeat all enemies in 3 turn!)
+  FlandreTutorialStage1Outro1SukusukuAya: >-
+    Suku.
+
+    (In conclusion, {0}'s Blue cards are about destroying enemies no matter what.)
+  FlandreTutorialStage1Outro2SukusukuAya: >-
+    Suku!
+
+    (Good thing you aren't destroyed, Momiji!)
+  FlandreTutorialStage1Outro3SukusukuMomiji: >-
+    Suku.
+
+    (Yeah, if I��d known who I��d be dealing with, I wouldn��t have come here.)
+  FlandreTutorialStage1Outro4SukusukuAya: >-
+    Suku?
+
+    (Ayaya, Who am I suposed to get help if you don't help me?)
+  FlandreTutorialStage1Outro5SukusukuMomiji: >-
+    Suku.
+
+    (Hatate.)
+  FlandreTutorialStage1Outro6SukusukuAya: >-
+    Suku.
+
+    (Not gonna happen.)
+  FlandreTutorialStage1Outro7SukusukuMomiji: >-
+    Suku.
+
+    (I knew you'd say that.)
+  FlandreTutorialStage2Description: Not completed.
+  FlandreTutorialStage2Description2: Completed.
+  FlandreTutorialStage2Name: Stage 2 - Black
+  FlandreTutorialStage2Intro1SukusukuAya: >-
+    Suku!
+
+    (Let's take a look at your Black mana!)
+  FlandreTutorialStage2Intro2SukusukuAya: >-
+    Suku!
+
+    ({0}'s Black mana represents her identity as a Devil. Its main keywords are Crystal and Offering.)
+  FlandreTutorialStage2Intro3SukusukuMomiji: >-
+    Suku.
+
+    (Speaking of crystal, I was curious about your crystal wings.)
+  FlandreTutorialStage2Intro4Flandre: My wings?
+  FlandreTutorialStage2Intro5SukusukuMomiji: >-
+    Suku?
+
+    (Even by Gensokyo standards, your wings are unprecedented. What happened to those wings?)
+  FlandreTutorialStage2Intro6Flandre: They used to be same as big sis', but after repeatedly breaking and healing my wings, I decided to use crystals as wings.
+  FlandreTutorialStage2Intro7Flandre: Much easier to fix, and can also be used as a danmaku.
+  FlandreTutorialStage2Intro8SukusukuMomiji: >-
+    Suku?
+
+    (Danmaku?)
+  FlandreTutorialStage3Description: Not completed.
+  FlandreTutorialStage3Description2: Completed.
+  FlandreTutorialStage3Name: Stage 3 - Red
+  FlandreTutorialStage4Description: This Stage is not available yet.
+  FlandreTutorialStage4Name: Stage 4 - White
+  FlandreTutorialStage5Description: This Stage is not available yet.
+  FlandreTutorialStage5Name: Stage 5 - Green
+  FlandreTutorialStage6Description: This Stage is not available yet.
+  FlandreTutorialStage6Name: Stage 6 - Colorless
+  FlandreTutorialStage7Description: This Stage is not available yet.
+  FlandreTutorialStage7Name: Stage 7 - Graduation Exam
+  FlandreTutorialExitDescription: End the tutorial and return to main menu.
+  FlandreTutorialExitName: Exit
+  FlandreMadnessDescription: >-
+    {0} can have up to {6} |Madness|.
+
+    {0}'s attacks deal |e:{1}|% more damage for each |Madness|. (|e:{2}|%)
+
+    {0} gains |e:{3}|% less |Block| and |Barrier| from cards for each |Madness|. (|e:{4}|%)
+
+    Whenever {0} advances a level, lose {5} |Madness|.
+
+    |r:When {0} has {6} Madness, {0} loses the game.|
+  FlandreMadnessName: Madness
+  FlandreExtraBoss1SukusukuAya: >-
+    Suku?
+
+    (Are you looking for a thing to destroy?)
+  FlandreEiki1Eiki: '!'
+  FlandreEiki2Flandre: You're wrong.
+  FlandreEiki3Flandre: First, I'm not here to steal, but to play.
+  FlandreEiki4Flandre: Second, all my clones are also me. Even when summoned by another person.
+  FlandreEiki5Eiki: "...Don't think this is the end. I'll visit your mansion later, {0}."
+  FlandreEiki6Flandre: I won't be home if you come to find me~
+  FlandreEiki7Flandre: So... what now?
+  FlandreEikiYesDescription: ''
+  FlandreEikiYesName: Continue Battle
+  FlandreEikiNoDescription: ''
+  FlandreEikiNoName: End Battle
+  FlandreEikiYes1Flandre: Of course we fight!
+  FlandreEikiYes2Flandre: That's what I wanted to hear!
+  FlandreEikiNo1Flandre: Let's not waste our time here.
+  FlandreEikiNo2Flandre: Eh? Not fun~
+  FlandreTakaneAttack: Attack
+  FlandreTakane1Takane: Geh, you again!?
+  FlandreTakane2Takane: Shop's closed! Go away!
+  FlandreTakane3Takane: I have nothing to sell you!
+  FlandreTakane4Flandre: '...'
+  FlandreTakane5Takane: '*cough*'
+  FlandreTakane6Takane: I mean, welcome!
+  FlandreTakane7Takane: Of course it was a joke! Hahaha!
+  FlandreAnnoyingSunlight1Flandre: I should have brought my parasol.
+  FlandreAnnoyingSunlight2Flandre: It's too hot!
+  FlandreAnnoyingSunlight31Flandre: Ugh, should I destroy the sun?
+  FlandreAnnoyingSunlight32Okina: No!
+  FlandreAnnoyingSunlight33Yukari: Absolutely not!
+  FlandreAnnoyingSunlight34Flandre: Alright, alright...
+  FlandreSongFirstTime1Okina: Hey Flandre, I'd like to ask you something.
+  FlandreSongFirstTime2Flandre: I'm in a battle, later.
+  FlandreSongFirstTime3Okina: Can you sing?
+  FlandreSongFirstTime4Flandre: '...What?'
+  FlandreSongFirstTime5Okina: You should try it. Magical Girls needs to be good at singing too.
+  FlandreSongFirstTime6Okina: Magical Girls and songs are always a great combination. People love Magical Girl songs.
+  FlandreSongFirstTime7Okina: And that means more faith I can get from humans, obviously.
+  FlandreSongFirstTime8Flandre: But I have never sung a song in my entire life. I don't know a single song.
+  FlandreSongFirstTime9Okina: That doesn't matter. You just need to sing whatever is in your mind, without hiding your emotions.
+  FlandreSongFirstTime10Okina: Who knows? Maybe you were actually good at singing and you just didn't knew.
+  FlandreSongFirstTime11Flandre: I don't think Magical Girls are supposed to sing while they fight though.
+  FlandreSongFirstTimeSelect: Start Singing?
+  FlandreSongFirstTimeYes1Flandre: Okay. But don't laugh when you see how badly I sing.
+  FlandreSongFirstTimeYes2Okina: Of course. Everyone is bad at first...
+  FlandreSongFirstTimeYes3Okina: '!?'
+  FlandreSongFirstTimeNo1Flandre: Don't expect me to sing for you.
+  FlandreSongFirstTimeNo2Okina: '*sigh* Understood.'
+  FlandreSongFirstTimeEnding1Okina: Well that was truly an experience. How do you feel?
+  FlandreSongFirstTimeEnding2Flandre: My throat hurts. I'm not used to continuously speaking.
+  FlandreSongFirstTimeEnding3Okina: If I had to find something to criticize, it would be that the lyrics were bizarre.
+  FlandreSongFirstTimeEnding4Okina: But that's my fault for saying you to sing whatever you want.
+  FlandreSongFirstTimeEnding5Okina: So... that was great! Fantastic even!
+  FlandreSongFirstTimeEnding6Flandre: Just because you praise me doesn't mean I sing more.
+  FlandreSongFirstTimeEnding7Okina: I know. Also, humans really loved that sequence.
+  FlandreSongFirstTimeEnding8Flandre: Humans? How?
+  FlandreSongFirstTimeEnding9Okina: I was broadcasting your song to the Human Village with my doors.
+  FlandreSongFirstTimeEnding10Okina: There are hardly any televisions in the human village, but that doesn't matter for me.
+  FlandreSongFirstTimeEnding11Flandre: Are you a god or a paparazzi?
+  FlandreSongFirstTimeEnding12Okina: That's rude. I'm just doing my part as your manager.
+  FlandreSongFirstTimeEnding13Okina: Humans could barely understand the lyrics, but they were still captivated by your song and combat.
+  FlandreSongFirstTimeEnding14Flandre: I'm not really sure what's so exciting about beating someone while singing, but whatever.
+  FlandreSongFirstTimeEnding15Okina: So, about your singing...
+  FlandreSongFirstTimeEnding16Flandre: No.
+  FlandreSongFirstTimeEnding17Okina: Please?
+  FlandreSongFirstTimeEnding18Flandre: No.
+  FlandreSongFirstTimeEnding19Okina: I will always be waiting for you to change your mind!

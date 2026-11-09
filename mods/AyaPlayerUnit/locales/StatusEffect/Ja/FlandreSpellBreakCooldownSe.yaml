@@ -1,0 +1,4 @@
+﻿FlandreSpellBreakCooldownSe:
+  Brief: 数ターンの間、{OwnerName}は|スペルブレイク|を無効にする。
+  Description: '{Duration}ターンの間、{OwnerName}は|スペルブレイク|を無効にする。'
+  Name: スペルブレイククールダウン

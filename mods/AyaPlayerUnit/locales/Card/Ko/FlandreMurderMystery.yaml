@@ -1,0 +1,10 @@
+﻿FlandreMurderMystery:
+  Description: >-
+    |파멸|을 {Value1} 얻습니다.
+
+    카드를 {Value2}장 뽑습니다.
+  UpgradedDescription: >-
+    |파멸|을 {Value1} 얻습니다.
+
+    카드를 {Value2}장 뽑습니다.
+  Name: 살인 수수께끼

@@ -1,0 +1,18 @@
+﻿FlandrePartnersinCrime:
+  Description: >-
+    获得 {Shield} 点|护盾|。
+
+    造成 {Damage} 点伤害。
+
+    打出一张手牌。
+
+    若为攻击牌，获得{Mana}和 {Value2} 点|火力|；若为防御牌，获得{Mana2}和 {Value2} 点 |灵力|。
+  UpgradedDescription: >-
+    获得 {Shield} 点|护盾|。
+
+    造成 {Damage} 点伤害。
+
+    打出一张手牌。
+
+    若为攻击牌，获得{Mana}和 {Value2} 点|火力|；若为防御牌，获得{Mana2}和 {Value2} 点 |灵力|。
+  Name: 命运共犯

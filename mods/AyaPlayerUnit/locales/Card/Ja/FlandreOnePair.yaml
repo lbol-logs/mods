@@ -1,0 +1,10 @@
+﻿FlandreOnePair:
+  Description: >-
+    手札の|厄災|でも|状態異常|でもないカードを1枚選ぶ。
+
+    同じ種類の|p:ランダム|なカードを{FlandreValue2}枚から最大{FlandreValue1}枚選び、手札に加える。それらは|臨時コスト|{Mana}になり、|廃棄|と|エーテル|を持つ。
+  UpgradedDescription: >-
+    手札の|厄災|でも|状態異常|でもないカードを1枚選ぶ。
+
+    同じ種類の|p:ランダム|なカードを{FlandreValue2}枚から最大{FlandreValue1}枚選び、手札に加える。それらは|臨時コスト|{Mana}になり、|廃棄|と|エーテル|を持つ。
+  Name: ワンペア

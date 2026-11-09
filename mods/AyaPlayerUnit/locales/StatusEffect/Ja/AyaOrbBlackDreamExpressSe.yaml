@@ -1,0 +1,4 @@
+﻿AyaOrbBlackDreamExpressSe:
+  Brief: '{OwnerName}のターン終了時、何枚かのカードを|夢見|。その後、|夢見|カードの合計コストの2倍に等しいダメージを{PlayerName}に与える。'
+  Description: '{OwnerName}のターン終了時、|夢見|{Level}。その後、|夢見|カード{Level}枚の合計コストの2倍に等しいダメージを{PlayerName}に与える。'
+  Name: ドリームエクスプレス

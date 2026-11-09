@@ -1,0 +1,26 @@
+﻿AyaSarutahikosGuidance:
+  Description: >-
+    手札を全て捨てて、捨てた枚数と同じ数だけカードを引く。
+
+    捨てたカード1枚につき|加速|{Value1}を得る。
+
+    |充填|：{Mana}を得る。
+  UpgradedDescription: >-
+    手札を全て捨てて、捨てた枚数と同じ数だけカードを引く。
+
+    捨てたカード1枚につき|加速|{Value1}を得る。
+
+    |充填|：{Mana}を得る。
+  ExtraDescription1: >-
+    手札を全て捨てて、捨てた枚数と同じ数だけカードを引く。
+
+    捨てたカード1枚につき|加速|{Value1}を得る。
+
+    |d:充填:{Mana}を得る。|
+  UpgradedExtraDescription1: >-
+    手札を全て捨てて、捨てた枚数と同じ数だけカードを引く。
+
+    捨てたカード1枚につき|加速|{Value1}を得る。
+
+    |d:充填:{Mana}を得る。|
+  Name: 猿田彦の先導

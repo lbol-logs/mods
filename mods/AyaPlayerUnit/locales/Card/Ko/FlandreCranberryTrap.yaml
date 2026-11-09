@@ -1,0 +1,11 @@
+﻿FlandreCranberryTrap:
+  Description: >-
+    {PlayerName}의 턴 종료시, 모든 적에게 |명중| 피해를 {Value1} 줍니다.
+
+    {PlayerName}가 적에게 체력을 잃으면, 모든 |크랜베리 트랩|을 |보호막|으로 전환합니다.
+  UpgradedDescription: >-
+    {PlayerName}의 턴 종료시, 모든 적에게 |명중| 피해를 {Value1} 줍니다.
+
+    {PlayerName}가 적에게 체력을 잃으면, 모든 |크랜베리 트랩|을 |보호막|으로 전환합니다.
+  Name: 크랜베리 트랩
+  DetailText: '|파괴 충동|에는 발동하지 않습니다.'

@@ -1,0 +1,237 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using AyaShameimaru.StatusEffects;
+using LBoL.Base;
+using LBoL.Base.Extensions;
+using LBoL.Core;
+using LBoL.Core.Battle;
+using LBoL.Core.Cards;
+using LBoL.Core.StatusEffects;
+using LBoL.Core.Units;
+using LBoLEntitySideloader.Attributes;
+
+namespace AyaShameimaru.Cards
+{
+	[EntityLogic(typeof(FlandreKagomeKagomeDef))]
+	public sealed class FlandreKagomeKagome : FlandreCard
+	{
+		public override int AdditionalShield
+		{
+			get
+			{
+				return FlandreKagomeKagome.\u206E\u206C\u202E\u200E\u206C\u202E\u200F\u200E\u200D\u200F\u202A\u206C\u206A\u206A\u206D\u200E\u200D\u200F\u200D\u206C\u206E\u202A\u200B\u206D\u206D\u206D\u206A\u206D\u206D\u200C\u200F\u206B\u206A\u200B\u200C\u202B\u200D\u200B\u200C\u202E\u202E(this).GetValueOrDefault() * 7;
+			}
+		}
+
+		public override int AdditionalValue1
+		{
+			get
+			{
+				return FlandreKagomeKagome.\u206E\u206C\u202E\u200E\u206C\u202E\u200F\u200E\u200D\u200F\u202A\u206C\u206A\u206A\u206D\u200E\u200D\u200F\u200D\u206C\u206E\u202A\u200B\u206D\u206D\u206D\u206A\u206D\u206D\u200C\u200F\u206B\u206A\u200B\u200C\u202B\u200D\u200B\u200C\u202E\u202E(this).GetValueOrDefault() * 10;
+			}
+		}
+
+		public override int AdditionalValue2
+		{
+			get
+			{
+				return FlandreKagomeKagome.\u206E\u202D\u206C\u202D\u202C\u206C\u200D\u200E\u206D\u200B\u206E\u206C\u202D\u200B\u200B\u200F\u200F\u202B\u202D\u206A\u200F\u202A\u206E\u200C\u202D\u200F\u200F\u206B\u206E\u206D\u200C\u200E\u202D\u206A\u200E\u202D\u202A\u206B\u202B\u202B\u202E((float)FlandreKagomeKagome.\u206E\u206C\u202E\u200E\u206C\u202E\u200F\u200E\u200D\u200F\u202A\u206C\u206A\u206A\u206D\u200E\u200D\u200F\u200D\u206C\u206E\u202A\u200B\u206D\u206D\u206D\u206A\u206D\u206D\u200C\u200F\u206B\u206A\u200B\u200C\u202B\u200D\u200B\u200C\u202E\u202E(this).GetValueOrDefault() / 2f);
+			}
+		}
+
+		protected override void OnEnterBattle(BattleController battle)
+		{
+			IEnumerator<EnemyUnit> enumerator = FlandreKagomeKagome.\u206D\u206C\u206E\u202D\u200C\u200D\u200B\u200C\u206A\u206E\u202A\u206B\u200B\u202A\u200B\u206C\u206F\u202C\u206F\u206D\u206A\u202E\u202C\u200B\u200B\u202B\u202A\u200F\u206E\u202B\u200F\u206A\u206D\u206C\u202D\u200C\u202A\u206F\u200C\u206E\u202E(FlandreKagomeKagome.\u206E\u200C\u202D\u202B\u206B\u200E\u202D\u206E\u200C\u206A\u200C\u202B\u200B\u200C\u200D\u202B\u206C\u202D\u206F\u200F\u202D\u200E\u202A\u206B\u206A\u200E\u200F\u200D\u206A\u206E\u202B\u206B\u206E\u200F\u206B\u206E\u200C\u200F\u206F\u206F\u202E(this)).GetEnumerator();
+			try
+			{
+				for (;;)
+				{
+					IL_006B:
+					int num = ((!FlandreKagomeKagome.\u202C\u202A\u206A\u202D\u206C\u206A\u206B\u202C\u202D\u200D\u206C\u206C\u206F\u202A\u202D\u200C\u206B\u206D\u200D\u206B\u202A\u200D\u206A\u200B\u200F\u202D\u202A\u200C\u200D\u200D\u202B\u202E\u202A\u202B\u200E\u200C\u202A\u206D\u202D\u206E\u202E(enumerator)) ? 1810097989 : 226337087);
+					for (;;)
+					{
+						int num2 = num;
+						switch (-(~645403371 - (~num2 ^ -1069300807)) % 4)
+						{
+						case 0:
+							num = 226337087;
+							continue;
+						case 1:
+						{
+							EnemyUnit enemyUnit = enumerator.Current;
+							base.HandleBattleEvent<DamageEventArgs>(FlandreKagomeKagome.\u202A\u206E\u206C\u206A\u202A\u206C\u200F\u202A\u206D\u206E\u206F\u202C\u200D\u200B\u200B\u202B\u206E\u206F\u202A\u206E\u200D\u202E\u200C\u206C\u200F\u202C\u200B\u206A\u200E\u206D\u206A\u202D\u200B\u200D\u200B\u202B\u202D\u200C\u200F\u202B\u202E(enemyUnit), new GameEventHandler<DamageEventArgs>(this.OnEnemyDamageReceiving), (GameEventPriority)0);
+							num = -812487636;
+							continue;
+						}
+						case 2:
+							goto IL_006B;
+						}
+						goto Block_3;
+					}
+				}
+				Block_3:;
+			}
+			finally
+			{
+				if (enumerator != null)
+				{
+					for (;;)
+					{
+						IL_0089:
+						int num3 = 2120265511;
+						for (;;)
+						{
+							int num2 = num3;
+							uint num4;
+							switch ((num4 = (uint)(-(uint)(~645403371 - (~num2 ^ -1069300807)))) % 3U)
+							{
+							case 0U:
+								goto IL_0089;
+							case 2U:
+								FlandreKagomeKagome.\u200D\u206A\u200C\u206E\u200E\u202A\u200B\u206D\u200D\u202C\u200E\u200D\u202A\u200D\u202E\u200D\u200F\u200C\u206C\u202B\u206A\u206A\u206A\u200E\u202D\u200E\u206E\u200C\u200D\u202C\u200C\u206F\u206E\u200C\u202D\u202A\u206E\u200C\u200E\u200F\u202E(enumerator);
+								num3 = (int)((num4 * 1188002184U) ^ 4231673271U);
+								continue;
+							}
+							goto Block_6;
+						}
+					}
+					Block_6:;
+				}
+			}
+			base.HandleBattleEvent<UnitEventArgs>(FlandreKagomeKagome.\u202E\u202B\u200B\u206F\u206E\u200D\u200E\u206A\u206A\u206F\u206F\u202D\u206A\u206D\u202B\u202A\u202B\u202D\u206C\u206D\u202B\u206C\u202C\u206F\u202C\u200D\u202D\u206E\u206A\u206B\u202A\u200D\u200C\u206C\u206F\u200E\u202C\u206F\u200B\u202A\u202E(FlandreKagomeKagome.\u206E\u200C\u202D\u202B\u206B\u200E\u202D\u206E\u200C\u206A\u200C\u202B\u200B\u200C\u200D\u202B\u206C\u202D\u206F\u200F\u202D\u200E\u202A\u206B\u206A\u200E\u200F\u200D\u206A\u206E\u202B\u206B\u206E\u200F\u206B\u206E\u200C\u200F\u206F\u206F\u202E(this)), new GameEventHandler<UnitEventArgs>(this.OnEnemySpawned), (GameEventPriority)0);
+		}
+
+		private void OnEnemyDamageReceiving(DamageEventArgs args)
+		{
+			DamageInfo damageInfo = FlandreKagomeKagome.\u202D\u200F\u206B\u200E\u200D\u206E\u206B\u206B\u202D\u200F\u206F\u200E\u202C\u206A\u202E\u200C\u200C\u202A\u200B\u206F\u202C\u200D\u200D\u200F\u202C\u202C\u206B\u202D\u202B\u200B\u206C\u206C\u206B\u200B\u200B\u202B\u202E\u200D\u206D\u202E(args);
+			for (;;)
+			{
+				IL_0007:
+				int num = -24003078;
+				for (;;)
+				{
+					int num2 = num;
+					uint num3;
+					switch ((num3 = (uint)((708371386 ^ -1479909481) - -(uint)(num2 ^ ~(1550871861 * (2099808707 * -1799426317))))) % 7U)
+					{
+					case 0U:
+						goto IL_0007;
+					case 1U:
+						FlandreKagomeKagome.\u206E\u202B\u206B\u206D\u206F\u206C\u202B\u200B\u206D\u206B\u206A\u202C\u200B\u202A\u206C\u202C\u200D\u206B\u200F\u202E\u206E\u206A\u202E\u200C\u202A\u202E\u202B\u202A\u202A\u202E\u206D\u202D\u200B\u206E\u200E\u202C\u206B\u202B\u200D\u202A\u202E(args, this);
+						num = (int)((num3 * 2299811100U) ^ 274315280U);
+						continue;
+					case 2U:
+					{
+						FlandreRuinSeDef.FlandreRuinSe flandreRuinSe;
+						num = (int)((FlandreKagomeKagome.\u200E\u202B\u202D\u206F\u202D\u200F\u206B\u200E\u202C\u206B\u206B\u200D\u202B\u200C\u200C\u200F\u200F\u206D\u202B\u206F\u200C\u206D\u200E\u202B\u206A\u200B\u200F\u202A\u202D\u200F\u202C\u200F\u200B\u200F\u200C\u202B\u206B\u206E\u200E\u202A\u202E(args).TryGetStatusEffect<FlandreRuinSeDef.FlandreRuinSe>(out flandreRuinSe) ? 866064287U : 661116838U) ^ (num3 * 1037479459U));
+						continue;
+					}
+					case 4U:
+						num = (int)(((FlandreKagomeKagome.\u206C\u206A\u200C\u206D\u202A\u206C\u202A\u202D\u202E\u206A\u206B\u200C\u200C\u200B\u206F\u200E\u202D\u200F\u202D\u202B\u206B\u206B\u200D\u206F\u202E\u200C\u200B\u206B\u206B\u200F\u206D\u202E\u202D\u206B\u202C\u200B\u200B\u200C\u206F\u200C\u202E(args) == this) ? 1283852978U : 1305615900U) ^ (num3 * 2183511636U));
+						continue;
+					case 5U:
+						num = (int)(((damageInfo.DamageType == DamageType.Reaction) ? 1711286866U : 3208865445U) ^ (num3 * 2660859501U));
+						continue;
+					case 6U:
+					{
+						FlandreRuinSeDef.FlandreRuinSe flandreRuinSe;
+						damageInfo.Damage += (float)(FlandreKagomeKagome.\u202B\u202D\u200B\u202A\u206A\u206F\u202A\u200D\u206E\u200C\u206B\u202E\u206A\u206A\u202E\u200F\u200E\u200F\u206F\u206B\u206D\u206F\u202A\u202C\u202D\u200E\u202B\u200F\u202C\u206F\u200F\u200D\u200D\u202C\u200E\u202E\u206A\u200B\u206E\u202B\u202E(flandreRuinSe) * this.FlandreValue2);
+						FlandreKagomeKagome.\u202D\u206E\u202A\u206F\u200B\u200F\u206E\u200F\u206E\u206E\u202B\u206F\u200B\u200C\u202C\u202D\u206C\u206C\u206D\u200B\u206B\u206B\u202C\u202E\u206B\u206B\u200C\u200D\u202D\u202A\u202C\u206A\u202B\u200B\u200D\u202D\u202D\u206F\u202C\u200D\u202E(args, damageInfo);
+						num = (int)((num3 * 1142340849U) ^ 1491907227U);
+						continue;
+					}
+					}
+					return;
+				}
+			}
+		}
+
+		private void OnEnemySpawned(UnitEventArgs args)
+		{
+			base.HandleBattleEvent<DamageEventArgs>(FlandreKagomeKagome.\u202A\u206E\u206C\u206A\u202A\u206C\u200F\u202A\u206D\u206E\u206F\u202C\u200D\u200B\u200B\u202B\u206E\u206F\u202A\u206E\u200D\u202E\u200C\u206C\u200F\u202C\u200B\u206A\u200E\u206D\u206A\u202D\u200B\u200D\u200B\u202B\u202D\u200C\u200F\u202B\u202E(FlandreKagomeKagome.\u206B\u202A\u206C\u202E\u202B\u202E\u206A\u206B\u202B\u202B\u202A\u202B\u206E\u202C\u206D\u202C\u206C\u202C\u200E\u202B\u206B\u206E\u200C\u202E\u206A\u206A\u200C\u206F\u206D\u206A\u200C\u206B\u206C\u202E\u202D\u206D\u202B\u200C\u200E\u202A\u202E(args)), new GameEventHandler<DamageEventArgs>(this.OnEnemyDamageReceiving), (GameEventPriority)0);
+		}
+
+		protected override IEnumerable<BattleAction> Actions(UnitSelector selector, ManaGroup consumingMana, Interaction precondition)
+		{
+			FlandreKagomeKagome.<Actions>d__9 <Actions>d__ = new FlandreKagomeKagome.<Actions>d__9(-2);
+			<Actions>d__.<>4__this = this;
+			return <Actions>d__;
+		}
+
+		static int? \u206E\u206C\u202E\u200E\u206C\u202E\u200F\u200E\u200D\u200F\u202A\u206C\u206A\u206A\u206D\u200E\u200D\u200F\u200D\u206C\u206E\u202A\u200B\u206D\u206D\u206D\u206A\u206D\u206D\u200C\u200F\u206B\u206A\u200B\u200C\u202B\u200D\u200B\u200C\u202E\u202E(Card A_0)
+		{
+			return A_0.UpgradeCounter;
+		}
+
+		static int \u206E\u202D\u206C\u202D\u202C\u206C\u200D\u200E\u206D\u200B\u206E\u206C\u202D\u200B\u200B\u200F\u200F\u202B\u202D\u206A\u200F\u202A\u206E\u200C\u202D\u200F\u200F\u206B\u206E\u206D\u200C\u200E\u202D\u206A\u200E\u202D\u202A\u206B\u202B\u202B\u202E(float A_0)
+		{
+			return A_0.FloorToInt();
+		}
+
+		static BattleController \u206E\u200C\u202D\u202B\u206B\u200E\u202D\u206E\u200C\u206A\u200C\u202B\u200B\u200C\u200D\u202B\u206C\u202D\u206F\u200F\u202D\u200E\u202A\u206B\u206A\u200E\u200F\u200D\u206A\u206E\u202B\u206B\u206E\u200F\u206B\u206E\u200C\u200F\u206F\u206F\u202E(Card A_0)
+		{
+			return A_0.Battle;
+		}
+
+		static IEnumerable<EnemyUnit> \u206D\u206C\u206E\u202D\u200C\u200D\u200B\u200C\u206A\u206E\u202A\u206B\u200B\u202A\u200B\u206C\u206F\u202C\u206F\u206D\u206A\u202E\u202C\u200B\u200B\u202B\u202A\u200F\u206E\u202B\u200F\u206A\u206D\u206C\u202D\u200C\u202A\u206F\u200C\u206E\u202E(BattleController A_0)
+		{
+			return A_0.AllAliveEnemies;
+		}
+
+		static GameEvent<DamageEventArgs> \u202A\u206E\u206C\u206A\u202A\u206C\u200F\u202A\u206D\u206E\u206F\u202C\u200D\u200B\u200B\u202B\u206E\u206F\u202A\u206E\u200D\u202E\u200C\u206C\u200F\u202C\u200B\u206A\u200E\u206D\u206A\u202D\u200B\u200D\u200B\u202B\u202D\u200C\u200F\u202B\u202E(Unit A_0)
+		{
+			return A_0.DamageReceiving;
+		}
+
+		static bool \u202C\u202A\u206A\u202D\u206C\u206A\u206B\u202C\u202D\u200D\u206C\u206C\u206F\u202A\u202D\u200C\u206B\u206D\u200D\u206B\u202A\u200D\u206A\u200B\u200F\u202D\u202A\u200C\u200D\u200D\u202B\u202E\u202A\u202B\u200E\u200C\u202A\u206D\u202D\u206E\u202E(IEnumerator A_0)
+		{
+			return A_0.MoveNext();
+		}
+
+		static void \u200D\u206A\u200C\u206E\u200E\u202A\u200B\u206D\u200D\u202C\u200E\u200D\u202A\u200D\u202E\u200D\u200F\u200C\u206C\u202B\u206A\u206A\u206A\u200E\u202D\u200E\u206E\u200C\u200D\u202C\u200C\u206F\u206E\u200C\u202D\u202A\u206E\u200C\u200E\u200F\u202E(IDisposable A_0)
+		{
+			A_0.Dispose();
+		}
+
+		static GameEvent<UnitEventArgs> \u202E\u202B\u200B\u206F\u206E\u200D\u200E\u206A\u206A\u206F\u206F\u202D\u206A\u206D\u202B\u202A\u202B\u202D\u206C\u206D\u202B\u206C\u202C\u206F\u202C\u200D\u202D\u206E\u206A\u206B\u202A\u200D\u200C\u206C\u206F\u200E\u202C\u206F\u200B\u202A\u202E(BattleController A_0)
+		{
+			return A_0.EnemySpawned;
+		}
+
+		static DamageInfo \u202D\u200F\u206B\u200E\u200D\u206E\u206B\u206B\u202D\u200F\u206F\u200E\u202C\u206A\u202E\u200C\u200C\u202A\u200B\u206F\u202C\u200D\u200D\u200F\u202C\u202C\u206B\u202D\u202B\u200B\u206C\u206C\u206B\u200B\u200B\u202B\u202E\u200D\u206D\u202E(DamageEventArgs A_0)
+		{
+			return A_0.DamageInfo;
+		}
+
+		static GameEntity \u206C\u206A\u200C\u206D\u202A\u206C\u202A\u202D\u202E\u206A\u206B\u200C\u200C\u200B\u206F\u200E\u202D\u200F\u202D\u202B\u206B\u206B\u200D\u206F\u202E\u200C\u200B\u206B\u206B\u200F\u206D\u202E\u202D\u206B\u202C\u200B\u200B\u200C\u206F\u200C\u202E(GameEventArgs A_0)
+		{
+			return A_0.ActionSource;
+		}
+
+		static Unit \u200E\u202B\u202D\u206F\u202D\u200F\u206B\u200E\u202C\u206B\u206B\u200D\u202B\u200C\u200C\u200F\u200F\u206D\u202B\u206F\u200C\u206D\u200E\u202B\u206A\u200B\u200F\u202A\u202D\u200F\u202C\u200F\u200B\u200F\u200C\u202B\u206B\u206E\u200E\u202A\u202E(DamageEventArgs A_0)
+		{
+			return A_0.Target;
+		}
+
+		static int \u202B\u202D\u200B\u202A\u206A\u206F\u202A\u200D\u206E\u200C\u206B\u202E\u206A\u206A\u202E\u200F\u200E\u200F\u206F\u206B\u206D\u206F\u202A\u202C\u202D\u200E\u202B\u200F\u202C\u206F\u200F\u200D\u200D\u202C\u200E\u202E\u206A\u200B\u206E\u202B\u202E(StatusEffect A_0)
+		{
+			return A_0.Level;
+		}
+
+		static void \u202D\u206E\u202A\u206F\u200B\u200F\u206E\u200F\u206E\u206E\u202B\u206F\u200B\u200C\u202C\u202D\u206C\u206C\u206D\u200B\u206B\u206B\u202C\u202E\u206B\u206B\u200C\u200D\u202D\u202A\u202C\u206A\u202B\u200B\u200D\u202D\u202D\u206F\u202C\u200D\u202E(DamageEventArgs A_0, DamageInfo A_1)
+		{
+			A_0.DamageInfo = A_1;
+		}
+
+		static void \u206E\u202B\u206B\u206D\u206F\u206C\u202B\u200B\u206D\u206B\u206A\u202C\u200B\u202A\u206C\u202C\u200D\u206B\u200F\u202E\u206E\u206A\u202E\u200C\u202A\u202E\u202B\u202A\u202A\u202E\u206D\u202D\u200B\u206E\u200E\u202C\u206B\u202B\u200D\u202A\u202E(GameEventArgs A_0, GameEntity A_1)
+		{
+			A_0.AddModifier(A_1);
+		}
+
+		static Unit \u206B\u202A\u206C\u202E\u202B\u202E\u206A\u206B\u202B\u202B\u202A\u202B\u206E\u202C\u206D\u202C\u206C\u202C\u200E\u202B\u206B\u206E\u200C\u202E\u206A\u206A\u200C\u206F\u206D\u206A\u200C\u206B\u206C\u202E\u202D\u206D\u202B\u200C\u200E\u202A\u202E(UnitEventArgs A_0)
+		{
+			return A_0.Unit;
+		}
+	}
+}

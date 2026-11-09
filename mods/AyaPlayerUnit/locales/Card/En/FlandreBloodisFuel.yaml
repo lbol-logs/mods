@@ -1,0 +1,14 @@
+﻿FlandreBloodisFuel:
+  Description: >-
+    Lose {Value1} life.
+
+    Gain {FlandreMana}.
+
+    Unspent mana isn't lost for the next {FlandreValue2:plural one='% turn' other='% turns'}.
+  UpgradedDescription: >-
+    Lose {Value1} life.
+
+    Gain {FlandreMana}.
+
+    Unspent mana isn't lost for the next {FlandreValue2:plural one='% turn' other='% turns'}.
+  Name: Blood is Fuel

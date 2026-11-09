@@ -1,0 +1,4 @@
+﻿AyaDaymareintheDarkNightSe:
+  Brief: 直到 {PlayerName} 的下一个回合，每当 {PlayerName} 获得 |加速| 时，对生命值最低的敌人造成 |精准| 攻击伤害。
+  Description: 直到 {PlayerName} 的下一个回合，每当 {PlayerName} 获得 |加速| 时，对生命值最低的敌人造成 {Damage} |精准| 攻击伤害。
+  Name: 暗夜中的白日梦

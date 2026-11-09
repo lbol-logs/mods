@@ -1,0 +1,8 @@
+﻿FlandreMagicalPotential:
+  Description: 이 카드는 봉인되어 있습니다.
+  UpgradedDescription: 이 카드는 봉인되어 있습니다.
+  Name: 마법의 잠재력
+  DetailText: >-
+    |p:{SelfName}은 어떤 상황에서도 손에서 떠나지 않습니다.|
+
+    {SelfName}은 항상 손패의 {Order}번째 카드입니다.

@@ -1,0 +1,14 @@
+﻿FlandreDeviloftheMirror:
+  Description: >-
+    {FlandreShield}|バリア|を得る。
+
+    |反射|{FlandreValue1}を得る。
+
+    捨て札の一番上のカードをプレイする。
+  UpgradedDescription: >-
+    {FlandreShield}|バリア|を得る。
+
+    |反射|{FlandreValue1}を得る。
+
+    捨て札の一番上のカードをプレイする。
+  Name: 鏡の悪魔

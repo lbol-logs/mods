@@ -1,0 +1,38 @@
+﻿FlandrePrayerofRuin:
+  Description: >-
+    |破滅|{FlandreValue1}を与える。
+
+    対象の失ったライフと同じ量の追加の|破滅|を与える。({Amount})
+
+    |退治|：<sprite="Point" name="Gold">{FlandreValue2}を得る。
+  UpgradedDescription: >-
+    |破滅|{FlandreValue1}を与える。
+
+    対象の失ったライフと同じ量の追加の|破滅|を与える。({Amount})
+
+    |退治|：<sprite="Point" name="Gold">{FlandreValue2}を得る。
+  NonbattleDescription: >-
+    |破滅|{FlandreValue1}を与える。
+
+    対象の失ったライフと同じ量の追加の|破滅|を与える。
+
+    |退治|：<sprite="Point" name="Gold">{FlandreValue2}を得る。
+  UpgradedNonbattleDescription: >-
+    |破滅|{FlandreValue1}を与える。
+
+    対象の失ったライフと同じ量の追加の|破滅|を与える。
+
+    |退治|：<sprite="Point" name="Gold">{FlandreValue2}を得る。
+  Name: 破滅の祈り
+  FlavorText: >-
+    "誰に祈っているの？　もちろん私よね？」"
+
+    - 摩多羅隠岐奈
+
+    "いや、ZUNだよ。"
+
+    - フランドール・スカーレット
+
+    "...誰?"
+
+    - 摩多羅隠岐奈

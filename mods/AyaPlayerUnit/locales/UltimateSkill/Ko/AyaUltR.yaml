@@ -1,0 +1,7 @@
+﻿AyaUltR:
+  Title: 선부
+  Content: 홍엽선풍
+  Description: >-
+    |가속|을 {Value1} 얻습니다.
+
+    모든 적에게 피해를 {Damage} 주고 {PlayerName}의 |가속|만큼 |일시 화력 저하|를 줍니다. |명중|

@@ -1,0 +1,18 @@
+﻿FlandreStraightFlush:
+  Description: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    |화력|, |영력|, |부적|, |비호|를 각각 {Value1} 얻습니다.
+
+    |파멸|을 {Value2} 얻습니다.
+
+    손에 같은 유형의 카드가 {Value3}장 이상 있을 경우, {SelfName}의 비용은 {Mana}입니다.
+  UpgradedDescription: >-
+    |보호막|을 {Shield} 얻습니다.
+
+    |화력|, |영력|, |부적|, |비호|를 각각 {Value1} 얻습니다.
+
+    |파멸|을 {Value2} 얻습니다.
+
+    손에 같은 유형의 카드가 {Value3}장 이상 있을 경우, {SelfName}의 비용은 {Mana}입니다.
+  Name: 스트레이트 플러시
