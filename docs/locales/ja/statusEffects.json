@@ -8,6 +8,499 @@
     "until_other": ""
   },
 
+  "AyaAccelerationSe": {
+    "Name": "加速",
+    "Description": "<OwnerName />のターン終了時、<h>グレイズ</h>が<Count />まで補充される。<br /><OwnerName />が攻撃を<h>グレイズ</h>するたび、<h>加速</h>2を失う。"
+  },
+  "AyaAdventoftheDivineGrandsonSe": {
+    "Name": "天孫降臨",
+    "Description": "<PlayerName />は全てのデバフを無効化する。<br />手札からカードを使用した時、それは2回使用される。"
+  },
+  "AyaAnythingisNewsworthySe": {
+    "Name": "なんだってニュースになる",
+    "Description": "名前に「新聞」も「報」も含まれていない<h>厄災</h>または状態異常カードがデッキに加えられるたび、代わりに<h>文々。新聞</h>を加える。"
+  },
+  "AyaApexPredatorSe": {
+    "Name": "頂点捕食者",
+    "Description": "<PlayerName />が攻撃ダメージを受ける時、<PlayerName />の<h>加速</h>の分だけそれを軽減し、<h>加速</h>{Value}を失う。"
+  },
+  "AyaArmoredRavenSe": {
+    "Name": "アーマードレイヴン",
+    "Description": "<PlayerName />のターン最初にプレイされる<Limit />枚のアタックカードは2回プレイされる。(残り<Level />)<br /><PlayerName />のターン最初にプレイされる<Limit />枚状態異常カードは2回プレイされる。(残り<Count />)"
+  },
+  "AyaArsenalBirdSe": {
+    "Name": "アーセナルバード",
+    "Description": "<PlayerName />のターン開始時、<h>無人航空鴉</h>を召喚済みの状態で手札に加える。<br /><h>巡回中の鴉</h>：<Count />体<br /><h>戦闘中の鴉</h>：<Level />体"
+  },
+  "AyaBlackmailSe": {
+    "Name": "ブラックメール",
+    "Description": "<h>文々。新聞</h>は<h>臨時火力ダウン</h><Level />を与え、<Money /><Count />を得る効果を持つ。"
+  },
+  "AyaBossFlandreSe": {
+    "Name": "紅き血の悪魔",
+    "Description": "<OwnerName />は<h>破壊</h>を無効化する。<br /><OwnerName />が受けるダメージが<Level />%減少する。"
+  },
+  "AyaBossKoishiSe": {
+    "Name": "閉じた恋の瞳",
+    "Description": "<OwnerName />のライフは不明。<br /><OwnerName />のターン開始時、<h>ブロック</h>をすべて失う代わりに半分だけ失う。<br /><Limit />枚のカードがプレイされるたび、<PlayerName />のターンを終了せずに<OwnerName />が即座に一度行動する。<br /><hd>({Count:plural one='%枚残り' other='%枚残り'})</hd>"
+  },
+  "AyaBossZUNSe": {
+    "Name": "博麗の神主",
+    "Description": "<OwnerName /> を対象とするすべてのカード、ダメージ、状態異常を無効化する。<br />他のすべての敵が倒された後、<OwnerName /> は戦闘から離脱する。"
+  },
+  "AyaBunbunmaruPrinterSe": {
+    "Name": "文々。新聞プリンター",
+    "Description": "<PlayerName />のターン開始時、<h>文々。新聞</h>を<Level />枚手札に加える。それらは<h>臨時コスト</h>{Mana}。"
+  },
+  "AyaCrazyFallWindSe": {
+    "Name": "クレイジーフォールウィンド",
+    "Description": "カードを<h>廃棄</h>するたび、<h>加速</h><Level />を得る。"
+  },
+  "AyaCrossroadsofHeavenSe": {
+    "Name": "天の八衢",
+    "Description": "<PlayerName />が<h>加速</h>を得るたび、追加で<h>加速</h><Level />を得る。"
+  },
+  "AyaDaymareintheDarkNightSe": {
+    "Name": "暗夜のデイメア",
+    "Description": "<PlayerName />の次のターンまで、<PlayerName />が<h>加速</h>を得るたびに、残り体力が最も少ない敵に<h>精密</h>攻撃{Damage}ダメージを与える。"
+  },
+  "AyaDecelerationSe": {
+    "Name": "減速X",
+    "Description": "プレイヤーがX以上の<h>加速</h>を持っている時、<h>加速</h>Xを消費して効果を発動する。"
+  },
+  "AyaEffortlessFlightSe": {
+    "Name": "省力飛行",
+    "Description": "<PlayerName />のターン開始時、<h>加速</h><Level />を得る。"
+  },
+  "AyaFriendAyaSe": {
+    "Name": "天上天下の照國",
+    "Description": "<PlayerName />は<h>ブロック</h>と<h>バリア</h>を得られない。<br /><PlayerName />は全てのダメージと全てのデバフを無効化する。<br />ターン終了時にマナを失わない。<br />手札の上限が{MaxHand}枚になる。<br /><PlayerName />がカードを使用するたび、山札の一番上のカードを手札に移動させ、{Mana}と<h>加速</h>{Value}を得る。<br /><h>加速</h>は攻撃ダメージを上昇させる。"
+  },
+  "AyaFriendCirnoSe": {
+    "Name": "ファイナルフリーズ",
+    "Description": "<OwnerName />が攻撃ダメージを受けるたび、ライフを<Level />失い{SelfName}の数値を<Level />上昇させる。<br /><OwnerName />のターン終了時、<h>ファイナルフリーズ</h>を失う。"
+  },
+  "AyaFriendMegumuSe": {
+    "Name": "虹光「光風霽月」",
+    "Description": "<h>厄災</h>または状態異常カードが<h>廃棄</h>されるたび、<ManaP /><Level />を得て、カードを<Level />枚引く。"
+  },
+  "AyaHraesvelgrofTerminusSe": {
+    "Name": "終末のフレースヴェルグ",
+    "Description": "次の<Duration />ターンの間、全ての敵の<h>ブロック</h>、<h>バリア</h>、全てのバフは無効化される。"
+  },
+  "AyaInstantShotJournalistSe": {
+    "Name": "瞬撮ジャーナリスト",
+    "Description": "<PlayerName />は次の<Duration />ターンの間、<h>加速</h>を失わない。"
+  },
+  "AyaMountainGodsProcessionSe": {
+    "Name": "山神渡御",
+    "Description": "<PlayerName />が<h>加速</h>を得るたび、<ManaP />を<Level />つ得る。"
+  },
+  "AyaMultiplayerSe": {
+    "Name": "マルチプレイ",
+    "Description": "このカードはLBOL MP Modが有効な場合に使用可能。"
+  },
+  "AyaNewsOverwhelmingSe": {
+    "Name": "空前の大ニュース",
+    "Description": "<h>複製</h>でない<h>厄災</h>または状態異常カードが<h>廃棄</h>されるたび、<h>文々。新聞</h>の<h>複製</h>を<Level />枚手札に加える。それは<h>臨時コスト</h>{Mana}。"
+  },
+  "AyaOrbBlackDreamExpressSe": {
+    "Name": "ドリームエクスプレス",
+    "Description": "<OwnerName />のターン終了時、<h>夢見</h><Level />。その後、<h>夢見</h>カード<Level />枚の合計コストの2倍に等しいダメージを<PlayerName />に与える。"
+  },
+  "AyaOrbBlackSe": {
+    "Name": "黒の神髄",
+    "Description": "黒色のカードをプレイするとき、対象が<OwnerName />ならば、代わりに捨て札にカードを送る。"
+  },
+  "AyaOrbBlackUnexplainedFeverSe": {
+    "Name": "原因不明の熱",
+    "Description": "<OwnerName />のターン終了時、<PlayerName />に<Level />の<h>毒</h>を与える。"
+  },
+  "AyaOrbBlueSe": {
+    "Name": "青の神髄",
+    "Description": "青色のカードをプレイするとき、対象が<OwnerName />ならば、代わりに捨て札にカードを送る。"
+  },
+  "AyaOrbBlueTheReclusiveSageSe": {
+    "Name": "賢者の帰依",
+    "Description": "<OwnerName />のターン終了時、<Level />枚の<h>偽りの月</h>を山札に加える。"
+  },
+  "AyaOrbColorlessPoweroftheOrdinarySe": {
+    "Name": "弱者の力",
+    "Description": "コモンカードをプレイする度、<OwnerName />は<h>臨時火力</h><Level />を得る。"
+  },
+  "AyaOrbColorlessSe": {
+    "Name": "無の神髄",
+    "Description": "無色のカードをプレイするとき、対象が<OwnerName />ならば、代わりに捨て札にカードを送る。"
+  },
+  "AyaOrbGreenSe": {
+    "Name": "緑の神髄",
+    "Description": "緑色のカードをプレイするとき、対象が<OwnerName />ならば、代わりに捨て札にカードを送る。"
+  },
+  "AyaOrbPhilosophySe": {
+    "Name": "虹の神髄",
+    "Description": "混合色のカードをプレイするとき、対象が<OwnerName />ならば、代わりに捨て札にカードを送る。"
+  },
+  "AyaOrbRedIndiscriminateIgnitionSe": {
+    "Name": "無差別発火の符",
+    "Description": "<OwnerName />のターン終了時、<PlayerName />に<Level /> ダメージを与える。<br />この効果は、<h>災厄</h>や状態異常カードを引いたときにも発動する。"
+  },
+  "AyaOrbRedSe": {
+    "Name": "赤の神髄",
+    "Description": "赤色のカードをプレイするとき、対象が<OwnerName />ならば、代わりに捨て札にカードを送る。"
+  },
+  "AyaOrbSe": {
+    "Name": "創造者の遺産",
+    "Description": "<OwnerName /> のターン開始時、<h>ブロック</h>をすべてではなく半分だけ失う。<br /><OwnerName /> が受けるダメージが<Level />%軽減される。<br />山札をシャッフルするたびに、{Value1}の<h>創造者の遺産</h>を得る。<br /><OwnerName />のターン終了時、{Value2}の<h>創造者の遺産</h>を失う。"
+  },
+  "AyaOrbWhiteSe": {
+    "Name": "白の神髄",
+    "Description": "白色のカードをプレイするとき、対象が<OwnerName />ならば、代わりに捨て札にカードを送る。"
+  },
+  "AyaOrbWhiteSuperspeedFlierSe": {
+    "Name": "神速の飛行者",
+    "Description": "<OwnerName />の次のターン開始時、<PlayerName />に<Level />ダメージを与える。"
+  },
+  "AyaPanoramaSe": {
+    "Name": "パノラマ",
+    "Description": "<h>文々。新聞・号外</h>の数値を<Level />増やす。"
+  },
+  "AyaPassiveSe": {
+    "Name": "伝統の幻想ブン屋",
+    "Description": "<h>文々。新聞</h>は{Value1}ダメージを与え、<h>ロックオン</h>{Value2}を与えるようになり、<h>補充</h>を持つ。<br /><h>花果子念報</h>は<h>補充</h>を持つ。<br /><h>厄災</h>と<h>状態異常</h>は<h>禁止</h>を失い、<h>廃棄</h>を得る。<br />それらはレアリティに基づいてマナコストを獲得する。"
+  },
+  "AyaPerfectGrazeSe": {
+    "Name": "完全グレイズ",
+    "Description": "<OwnerName />が受ける次の<Level />回の<h>精密</h>攻撃ダメージを0にする。<br /><h>精密</h>攻撃される時に1減少する。"
+  },
+  "AyaPlayerUnitAllySe": {
+    "Name": "真のパートナー",
+    "Description": "<OwnerName />は<PlayerName />側として戦う！<OwnerName />は全てのデバフを無効化し、攻撃されない。"
+  },
+  "AyaPlayerUnitBuddySe": {
+    "Name": "震える心",
+    "Description": "<OwnerName />は戦いたくない。"
+  },
+  "AyaProtectionPaperSe": {
+    "Name": "プロテクションペーパー",
+    "Description": "<h>厄災</h>または状態異常カードが<h>廃棄</h>されるたび、<Level /><h>ブロック</h>を得る。"
+  },
+  "AyaQuickShootingTenguScoopSe": {
+    "Name": "激撮テングスクープ",
+    "Description": "このターン中、状態異常カードのコストを{Mana}減らす。"
+  },
+  "AyaRouteForbiddentoManSe": {
+    "Name": "人間禁制の道",
+    "Description": "<PlayerName />のターン終了時、そのターン中に<h>廃棄</h>したカードの枚数だけランダムな敵に{Damage}ダメージと<h>ロックオン</h><Limit />を与える。それは<h>精密</h>を持つ。最大{Value}回まで。<br />(蓄積回数：<Count />)"
+  },
+  "AyaSickleWeaselVeilingSe": {
+    "Name": "鎌鼬ベーリング",
+    "Description": "<PlayerName />が攻撃を0ダメージで受けた時、攻撃してきた相手に<Level />ダメージを与える。"
+  },
+  "AyaTakaneCenturysDoppelgangersSe": {
+    "Name": "世紀のダブルエスパー",
+    "Description": "<OwnerName />の攻撃は２回攻撃になる。"
+  },
+  "AyaTakaneEndofImperishableNightSe": {
+    "Name": "「永夜返し」",
+    "Description": "<OwnerName />の<h>通常ターン</h>終了時、追加で１ターンを得る。"
+  },
+  "AyaTakaneSe": {
+    "Name": "激怒の店主",
+    "Description": "<OwnerName />は本当に怒っている。<br /><OwnerName />の最大ライフを{Value}%増やし、ダメージを<Level />%多く与えるようになる。"
+  },
+  "AyaTanukiAMOLEDSe": {
+    "Name": "AMOLED",
+    "Description": "次の<Level />回のダークネスを無効化する。<br /><hd>(このステータスに効果はない)</hd>"
+  },
+  "AyaTanukiExtremeTurnSe": {
+    "Name": "エクストリームターン",
+    "Description": "<OwnerName />のターン終了時、エクストリームターンを得る。残り<Level />回有効<br /><hd>(このステータスに効果はない)</hd>"
+  },
+  "AyaTanukiGravySe": {
+    "Name": "グレイビーソース",
+    "Description": "<OwnerName />が焼けた肉から受けるダメージを0にする。残り<Level />回有効。<br />攻撃されるかターン開始時に1減少する。<br /><hd>(このステータスに効果はない)</hd>"
+  },
+  "AyaTanukiOpticalChameleonSe": {
+    "Name": "カメレオン迷彩",
+    "Description": "カメレオンが受ける攻撃ダメージが半減する。残り<Duration />ターン持続。<br /><hd>(このステータスに効果はない)</hd>"
+  },
+  "AyaTanukiSpriteSe": {
+    "Name": "精霊",
+    "Description": "<h>精霊</h><Level />を得る。<br /><h>精霊</h>は<OwnerName />を水和させる。<br /><hd>(このステータスに効果はない)</hd>"
+  },
+  "AyaTanukiWaterpowerSe": {
+    "Name": "水力",
+    "Description": "<h>水力</h><Level />を得る。<br /><h>水力</h>は攻撃の湿度を上げる。<br /><hd>(このステータスに効果はない)</hd>"
+  },
+  "AyaTanukiWindGodGrillSe": {
+    "Name": "風神グリル",
+    "Description": "<OwnerName />のターン終了時、<h>グレイビーソース</h>が<Level />まで補充される。"
+  },
+  "AyaTemporaryMaximumLifeDownSe": {
+    "Name": "一時的な最大ライフ減少",
+    "Description": "戦闘終了まで最大ライフを{Amount}失う。"
+  },
+  "AyaTemporaryMaximumLifeSe": {
+    "Name": "一時的な最大ライフ増加",
+    "Description": "戦闘終了まで最大ライフを{Amount}得る。"
+  },
+  "AyaTenguNewspaperDeadlineDaySe": {
+    "Name": "天狗報即日限",
+    "Description": "全ての<h>厄災</h>と状態異常カードは<h>補充</h>を持つ。"
+  },
+  "AyaTengusDrumbeatsSe": {
+    "Name": "天狗の太鼓",
+    "Description": "次の<PlayerName />のターン開始時、敵全体に{Damage}ダメージを与え、<h>臨時火力</h><Count />を得る。それは<h>精密</h>を持つ。"
+  },
+  "AyaTengusFallWindSe": {
+    "Name": "天狗颪",
+    "Description": "次に使用する<Level />枚のカードは2回使用される。"
+  },
+  "AyaToolCrowsEggSe": {
+    "Name": "カラスの卵",
+    "Description": "<PlayerName />のターン開始時ライフを<Duration />回復して<h>臨時火力</h><Duration />を得る。<h>カラスの卵</h>を1減らす。"
+  },
+  "AyaWindGodsLeafVeilingSe": {
+    "Name": "風神木の葉隠れ",
+    "Description": "<OwnerName />への攻撃は全て<h>精密</h>を得る。"
+  },
+  "FlandreAndThenWillThereBeNoneSe": {
+    "Name": "そして誰もいなくなるか？",
+    "Description": "<PlayerName />は<Duration />ターンの間、敵の全てのダメージとデバフを無効化する。"
+  },
+  "FlandreAnnoyingSunlightSe": {
+    "Name": "うっとうしい日差し",
+    "Description": "<PlayerName />はライフを回復できない。"
+  },
+  "FlandreBloodisFuelSe": {
+    "Name": "血は燃料",
+    "Description": "未使用のマナは次の{Duration:plural one='%ターン' other='%ターン'}の間失われない。"
+  },
+  "FlandreBloodlustSe": {
+    "Name": "血の渇望",
+    "Description": "このカードの効果は、<PlayerName />が失ったライフ1%につき<he>{Value1}</he>%増加する。最大{Value2}%。（現在<he>{Amount}</he>%）"
+  },
+  "FlandreBloodyCatastropheSe": {
+    "Name": "ブラッディカタストロフ",
+    "Description": "戦闘終了まで<PlayerName />の攻撃は<h>精密</h>を得る。"
+  },
+  "FlandreBloodyRequiemSe": {
+    "Name": "ブラッディ・レクイエム",
+    "Description": "次の{Duration:plural one='%ターン' other='%ターン'}の間、すべての<h>フランドール</h>カードが<h>血の渇望</h>を得て、<h>血の渇望</h>は常に最大値で適用される。"
+  },
+  "FlandreCalamitySe": {
+    "Name": "災禍",
+    "Description": "敵がダメージを受けるとき、追加で<Level />ダメージをうける。<br />ターン開始時、<h>災禍</h>は1失われる。"
+  },
+  "FlandreChromaticWingsSe": {
+    "Name": "虹色の羽",
+    "Description": "<PlayerName />ののターン開始時、<ManaP /><Level />を得る"
+  },
+  "FlandreClockthatTicksAwaythePastSe": {
+    "Name": "過去を刻む時計",
+    "Description": "ターン開始時のカードドローをスキップし、代わりに捨て札の一番上から<Limit />枚を手札に戻す。"
+  },
+  "FlandreColorofMadnessSe": {
+    "Name": "狂気の色彩",
+    "Description": "攻撃カードをプレイする度に、ランダムな<h>クリスタル</h>を<Level />回プレイする。"
+  },
+  "FlandreCranberryTrapSe": {
+    "Name": "クランベリートラップ",
+    "Description": "<PlayerName />のターン終了時、すべての敵に{Damage}攻撃ダメージを与える。<h>精密</h><br /><PlayerName />が敵からライフを失ったとき、<h>バリア</h>{Amount}を得てすべての<h>クランベリートラップ</h>を失う。"
+  },
+  "FlandreCrystallineOutburstSe": {
+    "Name": "結晶の爆発",
+    "Description": "<h>混沌のクリスタル</h>、<h>悪魔のクリスタル</h>、<h>狂気のクリスタル</h>、<h>孤独のクリスタル</h>がすべて発動すると、手札に<Level />枚の<h>破滅のクリスタル{Level:plural one='' other=''}</h>を加える。<br />（残り{Amount}：{Count:plural one='%枚' other='%枚'}）"
+  },
+  "FlandreDanmakuofDenialSe": {
+    "Name": "拒絶の弾幕",
+    "Description": "攻撃カードを使うたびに、<Level /><h>ブロック</h>を得る。"
+  },
+  "FlandreDestroySe": {
+    "Name": "破壊",
+    "Description": "対象を打ち負かす。"
+  },
+  "FlandreDoombringerSe": {
+    "Name": "破滅をもたらす者",
+    "Description": "<PlayerName />のターン開始時、<h>災禍</h><Level />を得る。"
+  },
+  "FlandreDoomsdayClockSe": {
+    "Name": "終末時計",
+    "Description": "<PlayerName />は<h>災禍</h>を<Level />回多く得る。"
+  },
+  "FlandreForbiddenGamesSe": {
+    "Name": "禁じられた遊び",
+    "Description": "敵は{Duration:plural one='このラウンド終了まで' other='次の%ターンの間'}行動できない。"
+  },
+  "FlandreForbiddenScarletCuriositySe": {
+    "Name": "禁じられた紅輝心",
+    "Description": "<PlayerName />はすべてのデバフを無効化する。<br />すべての攻撃のダメージが<Level />倍になる。<br />敵がライフを失うたび、<PlayerName />はその量だけライフを得る。"
+  },
+  "FlandreFragmentsofLightSe": {
+    "Name": "光の欠片",
+    "Description": "<PlayerName />のターン開始時、手札にランダムな<h>クリスタル</h>を<Level />枚加える。"
+  },
+  "FlandreFranticDestroyerSe": {
+    "Name": "狂乱の破壊者",
+    "Description": "攻撃カードをプレイする度に、<ManaP /><Level />を得てカードを<Level />枚引く。"
+  },
+  "FlandreFriendOkinaFallSe": {
+    "Name": "裏・クレイジーフォールウィンド",
+    "Description": "カードが<h>廃棄</h>される度に、<h>グレイズ</h><Level /> を得る。"
+  },
+  "FlandreFriendOkinaSe": {
+    "Name": "秘匿された時空幻想ツアー",
+    "Description": "<PlayerName />のターン開始時、<Level />枚の<hp>完全ランダムな</hp>レアカードの中から1枚選び、手札に加える。その臨時コストは{Mana}で、<h>廃棄</h>と<h>虚無</h>を持つ。"
+  },
+  "FlandreFriendOkinaSpringSe": {
+    "Name": "裏・ブリージーチェリーブロッサム",
+    "Description": "<PlayerName />のターン開始時、ライフを<Level />、<h>加護</h><Level />、<h>庇護</h><Level />を得る。"
+  },
+  "FlandreFriendOkinaSummerSe": {
+    "Name": "裏・パーフェクトサマーアイス",
+    "Description": "<PlayerName />が{Limit:plural one='%枚' other='%枚'}のカードを発動するたび、各敵に<Level />の<h>精密</h>な攻撃ダメージを与え、<h>凍結</h>を与える。<br />（残り{Count:plural one='%枚' other='%枚'}）"
+  },
+  "FlandreFriendOkinaWinterSe": {
+    "Name": "裏・エクストリームウィンター",
+    "Description": "カードをプレイする度に、<h>チャージ</h><Level />を得る。"
+  },
+  "FlandreHellfireSe": {
+    "Name": "業火",
+    "Description": "<OwnerName />はターン開始時に{Amount}ライフを失う。<br /><h>災火の導火線</h>：<OwnerName />が倒された時、すべての敵はライフ{Amount}を失う。"
+  },
+  "FlandreHellonEarthSe": {
+    "Name": "生き地獄",
+    "Description": "<h>業火</h>が発動するとき、追加でもう<Level />回発動する。"
+  },
+  "FlandreHotSurfaceSe": {
+    "Name": "高温注意",
+    "Description": "<PlayerName />の次のターンまで、<PlayerName />が攻撃を受ける度に、その攻撃者に<h>業火</h>{Value}を与える。"
+  },
+  "FlandreKindLiesandGoodbyesSe": {
+    "Name": "優しい嘘と別れ",
+    "Description": "<PlayerName />は<Duration />ターンの間、ライフを失わない。"
+  },
+  "FlandreMadnessSe": {
+    "Name": "狂気",
+    "Description": "<PlayerName />は最大{MadnessValue4}の<h>狂気</h>を持つことができる。<br /><PlayerName />の攻撃は<h>狂気</h>1つにつき<he>{MadnessValue1}</he>%ダメージが増加する。（<he>{MadnessAmount1}</he>%）<br /><PlayerName />がカードから得る<h>ブロック</h>と<h>バリア</h>は、<h>狂気</h>1つにつき<he>{MadnessValue2}</he>%減少する。（<he>{MadnessAmount2}</he>%）<br /><PlayerName />がレベルアップするたび、<h>狂気</h>を{MadnessDecay}失う。<br />|r:<PlayerName />の<h>狂気</h>が{MadnessValue4}に達すると、敗北する。|"
+  },
+  "FlandreMagicalGirlFlandreEngageSe": {
+    "Name": "魔法少女フランドール、いっきまーすっ☆",
+    "Description": "すべての<h>魔法少女</h>カードは追加で{Value}回まで<h>アップグレード</h>できる。"
+  },
+  "FlandreMagicalGirlSe": {
+    "Name": "魔法少女",
+    "Description": "このカードは最大{Value1}回まで<h>アップグレード</h>できる。<br />戦闘開始時、ライブラリ内の<h>魔法少女</h>カードの<h>アップグレード</h>1回につき、{Value2}<h>バリア</h>を得る。({Amount})"
+  },
+  "FlandreMindsEyeSe": {
+    "Name": "心眼",
+    "Description": "<PlayerName />が次に<Level />回、攻撃ダメージを与える、または受ける時、与えるダメージを2倍にするか、受けるダメージを半分にする。"
+  },
+  "FlandreMPBullofPhalarisSe": {
+    "Name": "ファラリスの雄牛",
+    "Description": "<PlayerName />が状態異常によるダメージを受けるたび、敵全体に<Level />ダメージを与える。"
+  },
+  "FlandreMPButchersCircusSe": {
+    "Name": "屠殺人のサーカス",
+    "Description": "敵が倒されるたび、すべてのプレイヤーは<h>火力</h><Level />とライフ<Count />を得る。"
+  },
+  "FlandreMPEnfantTerribleSe": {
+    "Name": "アンファン・テリブル",
+    "Description": "<OwnerName />の攻撃は、{Duration:plural one='ターン終了時まで' other='次の%ターンの間'}、与えるダメージが<Limit />%減少する。"
+  },
+  "FlandreMPPhantomPainSe": {
+    "Name": "ファントムペイン",
+    "Description": "<PlayerName />の次のターンまで、いずれかのプレイヤーが攻撃カードを使用するたび、<OwnerName />は<Level />ダメージを受ける。"
+  },
+  "FlandreMPProblemChildSe": {
+    "Name": "問題児",
+    "Description": "すべての<h>フランドール</h>の<h>マルチプレイヤー</h>カードは、戦闘終了まで<h>プレイ不可</h>を得る。<br />すべての攻撃カードのコストが、戦闘終了まで{Mana}減少する。"
+  },
+  "FlandreMPRiggedGameSe": {
+    "Name": "仕組まれたゲーム",
+    "Description": "次に捨て札に送られるレアカード<Level />枚を、山札の一番上に置く"
+  },
+  "FlandreNoMercySe": {
+    "Name": "無慈悲",
+    "Description": "次に使用する<Level />枚の攻撃カードのコストは{Mana}になる。"
+  },
+  "FlandreOfferingSe": {
+    "Name": "供物 X",
+    "Description": "手札、山札、捨て札から最大X枚のカードを<h>廃棄</h>する。この方法で<h>廃棄</h>しなかったカード1枚につき、ライフを{Value}失う。<br /><h>供物</h>はスキップでき、その場合は必ずライフを失う。"
+  },
+  "FlandrePassiveSe": {
+    "Name": "紅き血の悪魔",
+    "Description": "カード報酬で選択できるカードの数が{Value}増加する。"
+  },
+  "FlandreRipplesof495YearsSe": {
+    "Name": "495年の波紋",
+    "Description": "<PlayerName />はすべてのデバフを無効化する。<br />この戦闘中に<PlayerName />が得るすべてのマナを<ManaP />に変換する。<br />未使用のマナはターン終了時に失われない。<br />すべてのカードを<Level />回追加で発動する。"
+  },
+  "FlandreRuinedFortressSe": {
+    "Name": "崩れた要塞",
+    "Description": "<h>破滅</h>を持つ敵は攻撃ダメージが<Level />%減少する。"
+  },
+  "FlandreRuinSe": {
+    "Name": "破滅",
+    "Description": "<OwnerName />が受けるダメージが{Amount}%増加する。<br /><OwnerName />の生命が<Level />以下の場合、<h>破壊</h>する。"
+  },
+  "FlandreScarletCasinoD1Se": {
+    "Name": "スカーレットカジノ - D1",
+    "Description": "このターン、すべてのカードのコストが{Mana}減少する。"
+  },
+  "FlandreScarletCasinoD2Se": {
+    "Name": "スカーレットカジノ - D2",
+    "Description": "次に使用する<Level />枚のカードが{Value}回追加で発動する。"
+  },
+  "FlandreScarletCasinoD3Se": {
+    "Name": "スカーレットカジノ - D3",
+    "Description": "<PlayerName />がライフを失う次の<Level />回を防ぐ。"
+  },
+  "FlandreScarletCasinoSe": {
+    "Name": "スカーレットカジノ",
+    "Description": "<Limit />枚の<h>ランダム</h>効果を持つ<h>フランドール</h>カードを発動するたび、{Value2}種類のランダム効果から{Value1}つを得る：<br />このターン、すべてのカードのコストが{Amount1}減少する。<br />次に使用する{Amount2}枚のカードが{Value3}回追加で発動する。<br /><PlayerName />がライフを失う次の{Amount3}回を防ぐ。<br /><h>戦場</h>のランダムなカード{Amount4}枚を{Value4}回<h>アップグレード</h>する。<br />{Amount5}を得る。<br />{Amount6}<Money />を得る。<br />（残り<Count />枚）"
+  },
+  "FlandreSisteroftheDevilSe": {
+    "Name": "悪魔の妹",
+    "Description": "<PlayerName />の攻撃ダメージが{Value1}%増加し、カードから得る<h>ブロック</h>と<h>バリア</h>が{Value1}%増加し、攻撃から受けるダメージが{Value2}%減少する。"
+  },
+  "FlandreSpellBreakCooldownSe": {
+    "Name": "スペルブレイククールダウン",
+    "Description": "<Duration />ターンの間、<OwnerName />は<h>スペルブレイク</h>を無効にする。"
+  },
+  "FlandreSpellBreakSe": {
+    "Name": "スペルブレイク",
+    "Description": "次の<Duration />ターンの間、<OwnerName />は行動できない。"
+  },
+  "FlandreTheCentennialFestivalforMagicalGirlsSe": {
+    "Name": "魔法少女百年祭",
+    "Description": "すべての<h>魔法少女</h>カードは<h>アップグレード</h>できる回数が{Value}回増加する。<br />この戦闘中、すべての<h>フランドール</h>カードは<h>魔法少女</h>になる。<br />この戦闘中、<PlayerName />がカードを追加するたび、そのカードを<h>アップグレード</h>する。"
+  },
+  "FlandreTheMousetrapSe": {
+    "Name": "ネズミ捕り",
+    "Description": "<PlayerName />の次の{Duration:plural one='% ターン' other='% ターン'}開始時、前のターンに受けたダメージと同じ量のダメージをすべての敵に与える。（<Count />）"
+  },
+  "FlandreThePsychoticandCuteGuestSe": {
+    "Name": "狂カワなゲスト",
+    "Description": "攻撃カードを使用するたび、<h>災禍</h><Level />と<h>火力</h><Level />を得る。"
+  },
+  "FlandreUnholySanctuarySe": {
+    "Name": "禁忌の聖域",
+    "Description": "<PlayerName />が受けるダメージが{Duration:plural one='% ターン' other='% ターン'}の間半分になる。<br /><PlayerName />の次の{Duration:plural one='% ターン' other='% ターン'}開始時、前のターンに失ったライフと同じ量のライフを回復する。（<Count />）"
+  },
+  "FlandreUnstablePowerSe": {
+    "Name": "不安定な力",
+    "Description": "すべての攻撃が{Value}%～<Level />%のダメージを与える。"
+  },
+  "FlandreWalpurgisNightSe": {
+    "Name": "ワルプルギスの夜",
+    "Description": "<h>破滅</h>の最大スタック数が{Value}になる。<br /><PlayerName />が攻撃ダメージを与えるたび、その半分の量の<h>破滅</h>を追加で与える。"
+  },
+  "FlandreWatchtheWorldBurnSe": {
+    "Name": "見よ、燃える世界を",
+    "Description": "<PlayerName />のターン終了時に敵全体に<h>業火</h>{Value}を与える。"
+  },
+
   "seaccel": {
     "Name": "加速",
     "Description": "<OwnerName />の次のターン開始時、<h>グレイズ</h><Level />を得る。"

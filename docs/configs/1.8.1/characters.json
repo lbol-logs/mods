@@ -1,4 +1,26 @@
 {
+  "AyaPlayerUnit": {
+    "BaseMana": "RRGG",
+    "A": {
+      "Cards":  ["Shoot", "Shoot", "Boundary", "Boundary", "AyaAttackR", "AyaAttackR", "AyaBlockG", "AyaBlockG", "AyaTenguGaleBullet"],
+      "Exhibit": "AyaR"
+    },
+    "B": {
+      "Cards":  ["Shoot", "Shoot", "Boundary", "Boundary", "AyaAttackG", "AyaAttackG", "AyaBlockR", "AyaBlockR", "AyaFastShot", "AyaNews"],
+      "Exhibit": "AyaG"
+    }
+  },
+  "FlandrePlayerUnit": {
+    "BaseMana": "UBRP",
+    "A": {
+      "Cards":  ["Shoot", "Shoot", "Boundary", "Boundary", "FlandreAttackB", "FlandreAttackB", "FlandreBlockUR", "FlandreBlockUR", "FlandreCrystalBullet", "FlandreGrowingGemstones"],
+      "Exhibit": "FlandreB"
+    },
+    "B": {
+      "Cards":  ["Shoot", "Shoot", "Boundary", "Boundary", "FlandreAttackR", "FlandreAttackR", "FlandreBlockUB", "FlandreBlockUB", "FlandreFieryLaser", "FlandreHotSurface"],
+      "Exhibit": "FlandreR"
+    }
+  },
   "lvalonexrumia": {
     "BaseMana": "BBRR",
     "A": {
