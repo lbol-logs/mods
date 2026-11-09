@@ -30,7 +30,6 @@ namespace ExportModImgs.Exporters
             //{ "lvalonexrumia", "llbol.char.exrumia" },
             //{ "ReimuUnifierMod", "Saevin.ReimuUnifierMod" },
             { "AyaPlayerUnit", "intoxicatedkid.ayashameimaru" },
-            { "FlandrePlayerUnit", "intoxicatedkid.ayashameimaru" },
 
             //{ "PKaguya", "aqing0601.PKaguya" },
 
