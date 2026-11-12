@@ -29,7 +29,7 @@ namespace ExportModImgs.Exporters
             //{ "YoumuMod", "rmrfmaxx.lbol.YoumuCharacterMod" },
             //{ "lvalonexrumia", "llbol.char.exrumia" },
             //{ "ReimuUnifierMod", "Saevin.ReimuUnifierMod" },
-            { "AyaPlayerUnit", "intoxicatedkid.ayashameimaru" },
+            //{ "AyaPlayerUnit", "intoxicatedkid.ayashameimaru" },
 
             //{ "PKaguya", "aqing0601.PKaguya" },
 
