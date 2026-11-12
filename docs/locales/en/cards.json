@@ -10,8 +10,8 @@
 
   "AyaAdventoftheDivineGrandson": {
     "Name": "Advent of the Divine Grandson",
-    "Description": "Gain <Mana />.<br />Draw cards until the hand is full.<br /><PlayerName /> is immune to all debuffs.<br />All cards are played twice.<br /><h>Limited【{ToolPlayableTimes}】</h>",
-    "UpgradedDescription": "Gain <Mana />.<br />Draw cards until the hand is full.<br /><PlayerName /> is immune to all debuffs.<br />All cards are played twice.<br /><h>Limited【{ToolPlayableTimes}】</h>"
+    "Description": "Gain <Mana />.<br />Draw cards until the hand is full.<br /><PlayerName /> is immune to all debuffs.<br />All cards are played twice.<br /><h>Limited【<ToolPlayableTimes />】</h>",
+    "UpgradedDescription": "Gain <Mana />.<br />Draw cards until the hand is full.<br /><PlayerName /> is immune to all debuffs.<br />All cards are played twice.<br /><h>Limited【<ToolPlayableTimes />】</h>"
   },
   "AyaAnythingisNewsworthy": {
     "Name": "Anything is Newsworthy",
@@ -35,7 +35,9 @@
   },
   "AyaArsenalBirdDrone": {
     "Name": "Unmanned Aerial Crow",
-    "PassiveDescription": "<hf>Patrol Mode</hf>: Gain <Mana /> and draw a card."
+    "ActiveDescription": "<ha>Patrol Mode</ha>: <h>Exile</h> <SelfName />. At the start of <PlayerName />'s turn, gain <Mana /> and draw a card.",
+    "Active2Description": "<ha>Combat Mode</ha>: <h>Exile</h> <SelfName />. At the end of <PlayerName />'s turn, gain <Block /> <h>Block</h> and deal <Damage /> attack damage to a random enemy.",
+    "UltimateDescription": "<hu>Self-destruct</hu>: Deal <Damage2 /> attack damage to each enemy. This also happens when removed. <h>Accurate</h>"
   },
   "AyaAttackG": {
     "Name": "Gale Fan",
@@ -203,7 +205,9 @@
   },
   "AyaFriendHatate": {
     "Name": "Hatate, Modern Thoughtography Reporter",
-    "PassiveDescription": "<hf>Spirit Photography</hf>: Gain <Value1 /> <h>Spirit</h>. Add <Value2 /> <h>Kakashi Spirit News</h> to the draw pile."
+    "PassiveDescription": "<hf>Spirit Photography</hf>: Gain <Value1 /> <h>Spirit</h>. Add <Value2 /> <h>Kakashi Spirit News</h> to the draw pile.",
+    "Passive2Description": "<hf>Competitor</hf>: Whenever a <h>Kakashi Spirit News</h> would have added, add a <h>Kakashi Spirit News Special</h> instead.",
+    "UltimateDescription": "<hu>Far-sightedness「Tengu Psychography」</h>: Deal <Damage /> attack damage to the enemy with the least life. <h>Expel</h>: If the target has known name, <h>Permanently</h> gain additional skill. <h>Accurate</h>"
   },
   "AyaFriendHatateNewsSpecial": {
     "Name": "Kakashi Spirit News Special",
@@ -213,12 +217,14 @@
     "Name": "Megumu, Chief of the Crow Tengu",
     "PassiveDescription": "<hf>Supervision</hf>: Whenever a <h>Misfortune</h> or Status card is <h>Exiled</h>, gain <Mana />.",
     "ActiveDescription": "<ha>Exploitation</ha>: Lose <Value1 /> life, gain {Mana2} and draw <Value2 />card$t(plurals.-s, { 'count': {{Value2}} }). This also happens when no <h>Misfortune</h> and Status cards were <h>Exiled</h> last turn.",
-    "UltimateDescription": "<hu>Rainbow Illumination「Clear and Tranquil Wind and Moon」</hu>: Deal {Damage2} attack damage to each enemy. Whenever a <h>Misfortune</h> or Status card is <h>Exiled</h>, gain {Mana3} and draw {Value3:plural one='% card' other='% cards'}. <h>Accurate</h>"
+    "UltimateDescription": "<hu>Rainbow Illumination「Clear and Tranquil Wind and Moon」</hu>: Deal <Damage /> attack damage to each enemy. Whenever a <h>Misfortune</h> or Status card is <h>Exiled</h>, gain {Mana3} and draw {Value3:plural one='% card' other='% cards'}. <h>Accurate</h>"
   },
   "AyaFriendMomiji": {
     "Name": "Momiji, Petty Patrol Tengu",
     "PassiveDescription": "<hf>Telegnosis</hf>: <h>Scry</h> <Scry />.",
-    "UltimateDescription": "<hu>Fang Sign「Chewing Satisfaction」</hu>: Deal {Damage2} attack damage to the enemy with the least life. <h>Expel</h>: Gain <Value1 /> life. <h>Accurate</h>"
+    "Passive2Description": "<hf>Chase</hf>: When <PlayerName /> attacks, deal <Damage /> attack damage to the target(s).",
+    "ActiveDescription": "<hf>Parry</hf>: When <PlayerName /> would receive attack damage and lose life from it, gain <Shield /> <h>Barrier</h>.",
+    "UltimateDescription": "<hu>Fang Sign「Chewing Satisfaction」</hu>: Deal <Damage2 /> attack damage to the enemy with the least life. <h>Expel</h>: Gain <Value1 /> life. <h>Accurate</h>"
   },
   "AyaHeadShot": {
     "Name": "Head Shot",
@@ -330,7 +336,7 @@
   },
   "AyaPhantasmModeTooltip": {
     "Name": "Phantasm Mode",
-    "Description": "When enabled, weakens characters from 'Aya Shameimaru' mod.<br /><color=#dd7473>Changing it requires exiting the game.</color>"
+    "Description": "When enabled, weakens characters from 'Aya Shameimaru' mod.<br /><hu>Changing it requires exiting the game.</hu>"
   },
   "AyaPinnacleofEvasion": {
     "Name": "Pinnacle of Evasion",
@@ -377,8 +383,8 @@
   },
   "AyaSettlementDate": {
     "Name": "Settlement Date",
-    "Description": "Gain <Value1 /> <h>Firepower</h>.<br />Gain <Value2 /> <Money />.<br />Whenever a <h>Misfortune</h> or Status card is <h>Exiled</h>, <h>Permanently</h> increase <SelfName />'s <Money /> by <Value1 />.<br /><h>Limited【{ToolPlayableTimes}】</h>",
-    "UpgradedDescription": "Gain <Value1 /> <h>Firepower</h>.<br />Gain <Value2 /> <Money />.<br />Whenever a <h>Misfortune</h> or Status card is <h>Exiled</h>, <h>Permanently</h> increase <SelfName />'s <Money /> by <Value1 />.<br /><h>Limited【{ToolPlayableTimes}】</h>"
+    "Description": "Gain <Value1 /> <h>Firepower</h>.<br />Gain <Value2 /> <Money />.<br />Whenever a <h>Misfortune</h> or Status card is <h>Exiled</h>, <h>Permanently</h> increase <SelfName />'s <Money /> by <Value1 />.<br /><h>Limited【<ToolPlayableTimes />】</h>",
+    "UpgradedDescription": "Gain <Value1 /> <h>Firepower</h>.<br />Gain <Value2 /> <Money />.<br />Whenever a <h>Misfortune</h> or Status card is <h>Exiled</h>, <h>Permanently</h> increase <SelfName />'s <Money /> by <Value1 />.<br /><h>Limited【<ToolPlayableTimes />】</h>"
   },
   "AyaSickleWeaselVeiling": {
     "Name": "Sickle Weasel Veiling",

@@ -75,8 +75,8 @@
       "Block": 8,
       "Mana": "P",
       "Loyalty": 6,
-      "PassiveCost": -1,
       "ActiveCost": 0,
+      "ActiveCost2": 0,
       "UltimateCost": 0
     }
   },
@@ -515,9 +515,8 @@
       "Mana": "{5P}",
       "Loyalty": 1,
       "PassiveCost": 0,
-      "ActiveCost": 0,
-      "ActiveCost2": -3,
-      "UltimateCost": 0
+      "PassiveCost2": 1,
+      "UltimateCost": -6
     },
     "1": {
       "Cost": "3B",
@@ -575,12 +574,15 @@
       "Scry": 10,
       "Loyalty": 1,
       "PassiveCost": 6,
+      "PassiveCost2": -2,
+      "ActiveCost": -2,
       "UltimateCost": -4
     },
     "1": {
       "Cost": "3R",
       "Loyalty": 7
-    }
+    },
+    "OverrideActiveCost": true
   },
   "AyaHeadShot": {
     "Rarity": "Rare",

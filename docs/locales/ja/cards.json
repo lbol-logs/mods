@@ -1,8 +1,8 @@
 {
   "AyaAdventoftheDivineGrandson": {
     "Name": "天孫降臨",
-    "Description": "<Mana />を得る。<br />手札上限に達するまでカードを引く。<br /><PlayerName />は全てのデバフを受けない。<br /><h>パートナー</h>と<h>道具</h>以外の全てのカードが使用された時、それは2回使用される。この効果は重複しない。<br /><h>消耗品【{ToolPlayableTimes}】</h>",
-    "UpgradedDescription": "<Mana />を得る。<br />手札上限に達するまでカードを引く。<br /><PlayerName />は全てのデバフを受けない。<br /><h>パートナー</h>と<h>道具</h>以外の全てのカードが使用された時、それは2回使用される。この効果は重複しない。<br /><h>消耗品【{ToolPlayableTimes}】</h>"
+    "Description": "<Mana />を得る。<br />手札上限に達するまでカードを引く。<br /><PlayerName />は全てのデバフを受けない。<br /><h>パートナー</h>と<h>道具</h>以外の全てのカードが使用された時、それは2回使用される。この効果は重複しない。<br /><h>消耗品【<ToolPlayableTimes />】</h>",
+    "UpgradedDescription": "<Mana />を得る。<br />手札上限に達するまでカードを引く。<br /><PlayerName />は全てのデバフを受けない。<br /><h>パートナー</h>と<h>道具</h>以外の全てのカードが使用された時、それは2回使用される。この効果は重複しない。<br /><h>消耗品【<ToolPlayableTimes />】</h>"
   },
   "AyaAnythingisNewsworthy": {
     "Name": "なんだってニュースになる",
@@ -26,7 +26,9 @@
   },
   "AyaArsenalBirdDrone": {
     "Name": "無人航空鴉",
-    "PassiveDescription": "<hf>巡回モード</hf>：<Mana />を得て、カードを1枚引く。"
+    "ActiveDescription": "<ha>巡回モード</ha>：<SelfName />を<h>廃棄</h>する。<PlayerName />のターン開始時、<Mana />を得て、カードを1枚引く。",
+    "Active2Description": "<ha>戦闘モード</ha>：<SelfName />を<h>廃棄</h>する。<PlayerName />のターン終了時、<Block /><h>ブロック</h>を得て、ランダムな敵に<Damage />ダメージを与える。",
+    "UltimateDescription": "<hu>自己破壊</hu>：敵全体に<Damage2 />ダメージを与える。この効果はこのカードが消滅した時も発動する。<h>精密</h>"
   },
   "AyaAttackG": {
     "Name": "烈風扇",
@@ -194,7 +196,9 @@
   },
   "AyaFriendHatate": {
     "Name": "今どきの念写記者、はたて",
-    "PassiveDescription": "<hf>念写</hf>:<h>霊力</h><Value1 />を得る。<h>花果子念報</h>を<Value2 />枚山札に加える。"
+    "PassiveDescription": "<hf>念写</hf>:<h>霊力</h><Value1 />を得る。<h>花果子念報</h>を<Value2 />枚山札に加える。",
+    "Passive2Description": "<hf>商売敵</hf>:<h>花果子念報</h>がデッキに加えられる時、代わりに<h>花果子念報・号外</h>を1枚加える。",
+    "UltimateDescription": "<hu>遠眼「天狗サイコグラフィ」</hu>: 一番ライフが少ない敵に<Damage />ダメージを与える。<h>退治</h>: ターゲットがネームドの場合、永続効果を得る。<h>精密</h>"
   },
   "AyaFriendHatateNewsSpecial": {
     "Name": "花果子念報・号外",
@@ -204,12 +208,14 @@
     "Name": "鴉天狗の大将、龍",
     "PassiveDescription": "<hf>Supervision</hf>: <h>厄災</h>または状態異常カードが<h>廃棄</h>されるたび、<Mana />を得る。",
     "ActiveDescription": "<ha>Exploitation</ha>: ライフを<Value1 />失う、{Mana2}を得てカードを<Value2 />枚引く。この効果は前のターンに<h>厄災</h>や状態異常カードを<h>廃棄</h>してなかった時も発動する。",
-    "UltimateDescription": "<hu>虹光「光風霽月」</hu>: 敵全体に{Damage2}ダメージを与える。<h>厄災</h>または状態異常カードが廃棄されるたび、{Mana3}を得てカードを{Value3}枚引く。<h>精密</h>"
+    "UltimateDescription": "<hu>虹光「光風霽月」</hu>: 敵全体に<Damage />ダメージを与える。<h>厄災</h>または状態異常カードが廃棄されるたび、{Mana3}を得てカードを{Value3}枚引く。<h>精密</h>"
   },
   "AyaFriendMomiji": {
     "Name": "下っ端哨戒天狗、椛",
     "PassiveDescription": "<hf>千里眼</hf>: <h>占術</h><Scry />。",
-    "UltimateDescription": "<hu>牙符「咀嚼玩味」</hu>: ライフが一番少ない敵に{Damage2}ダメージを与える。<br /><h>退治</h>: ライフ<Value1 />を得る。<br /><h>精密</h>"
+    "Passive2Description": "<hf>挑発</hf>: <PlayerName />が攻撃するとき、ターゲットに<Damage />ダメージを与える。",
+    "ActiveDescription": "<hf>パリィ</hf>: <PlayerName />が攻撃ダメージを受けライフを失う時、<Shield /><h>バリア</h>を得る。",
+    "UltimateDescription": "<hu>牙符「咀嚼玩味」</hu>: ライフが一番少ない敵に<Damage2 />ダメージを与える。<br /><h>退治</h>: ライフ<Value1 />を得る。<br /><h>精密</h>"
   },
   "AyaHeadShot": {
     "Name": "ヘッドショット",
@@ -321,7 +327,7 @@
   },
   "AyaPhantasmModeTooltip": {
     "Name": "ファンタズムモード",
-    "Description": "有効化すると射命丸文modのキャラクターが弱体化します。<br /><color=#dd7473>変更するにはゲームを終了する必要がある。</color>"
+    "Description": "有効化すると射命丸文modのキャラクターが弱体化します。<br /><hu>変更するにはゲームを終了する必要がある。</hu>"
   },
   "AyaPinnacleofEvasion": {
     "Name": "究極の回避",
@@ -368,8 +374,8 @@
   },
   "AyaSettlementDate": {
     "Name": "給料日",
-    "Description": "<h>火力</h><Value1 />を得る。<br /><Money /><Value2 />を得る。<br /><h>厄災</h>または状態異常カードを<h>廃棄</h>するたび、<SelfName />で得られる<Money />の値を<h>永久</h>に<Value1 />増加させる。<br /><h>消耗品【{ToolPlayableTimes}】</h>",
-    "UpgradedDescription": "<h>火力</h><Value1 />を得る。<br /><Money /><Value2 />を得る。<br /><h>厄災</h>または状態異常カードを<h>廃棄</h>するたび、<SelfName />で得られる<Money />の値を<h>永久</h>に<Value1 />増加させる。<br /><h>消耗品【{ToolPlayableTimes}】</h>"
+    "Description": "<h>火力</h><Value1 />を得る。<br /><Money /><Value2 />を得る。<br /><h>厄災</h>または状態異常カードを<h>廃棄</h>するたび、<SelfName />で得られる<Money />の値を<h>永久</h>に<Value1 />増加させる。<br /><h>消耗品【<ToolPlayableTimes />】</h>",
+    "UpgradedDescription": "<h>火力</h><Value1 />を得る。<br /><Money /><Value2 />を得る。<br /><h>厄災</h>または状態異常カードを<h>廃棄</h>するたび、<SelfName />で得られる<Money />の値を<h>永久</h>に<Value1 />増加させる。<br /><h>消耗品【<ToolPlayableTimes />】</h>"
   },
   "AyaSickleWeaselVeiling": {
     "Name": "鎌鼬ベーリング",

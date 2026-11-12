@@ -1,8 +1,8 @@
 {
   "AyaAdventoftheDivineGrandson": {
     "Name": "神孙降临",
-    "Description": "获得 <Mana />。<br />抽牌直到手牌满。<br /><PlayerName /> 免疫所有负面状态。<br />所有卡牌被使用两次。<br /><h>消耗品【{ToolPlayableTimes}】</h>",
-    "UpgradedDescription": "获得 <Mana />。<br />抽牌直到手牌满。<br /><PlayerName /> 免疫所有负面状态。<br />所有卡牌被使用两次。<br /><h>消耗品【{ToolPlayableTimes}】</h>"
+    "Description": "获得 <Mana />。<br />抽牌直到手牌满。<br /><PlayerName /> 免疫所有负面状态。<br />所有卡牌被使用两次。<br /><h>消耗品【<ToolPlayableTimes />】</h>",
+    "UpgradedDescription": "获得 <Mana />。<br />抽牌直到手牌满。<br /><PlayerName /> 免疫所有负面状态。<br />所有卡牌被使用两次。<br /><h>消耗品【<ToolPlayableTimes />】</h>"
   },
   "AyaAnythingisNewsworthy": {
     "Name": "任何事都值得报道",
@@ -26,7 +26,9 @@
   },
   "AyaArsenalBirdDrone": {
     "Name": "无人空中乌鸦",
-    "PassiveDescription": "<hf>巡逻模式</hf>: 获得<Mana />并抽一张牌。"
+    "ActiveDescription": "<ha>巡逻模式</ha>:<h>放逐</h><SelfName />。在<PlayerName />回合开始时，获得<Mana />并抽一张牌。",
+    "Active2Description": "<ha>战斗模式</ha>:<h>放逐</h><SelfName />。在<PlayerName />回合结束时，获得 <Block /><h>护盾</h>并对随机敌人造成 <Damage /> 点攻击伤害。",
+    "UltimateDescription": "<hu>自毁</h>: 对所有敌人造成 <Damage2 /> 点攻击伤害。此效果在移除时也会触发。<h>精准</h>"
   },
   "AyaAttackG": {
     "Name": "烈风扇",
@@ -190,7 +192,9 @@
   },
   "AyaFriendHatate": {
     "Name": "当代的念写记者姬海棠果",
-    "PassiveDescription": "<hf>灵异摄影</hf>: 获得 <Value1 /> <h>灵力</h>。将 <Value2 /> <h>鸦天狗灵异新闻</h> 加入抽牌堆。"
+    "PassiveDescription": "<hf>灵异摄影</hf>: 获得 <Value1 /> <h>灵力</h>。将 <Value2 /> <h>鸦天狗灵异新闻</h> 加入抽牌堆。",
+    "Passive2Description": "<hf>竞争者</hf>: 每当一张 <h>鸦天狗灵异新闻</h> 即将被添加时，改为添加一张 <h>鸦天狗灵异新闻特刊</h>。",
+    "UltimateDescription": "<hu>远见「天狗心灵摄影」</h>: 对生命最低的敌人造成 <Damage /> 点攻击伤害。<h>退治</h>: 如果目标有已知名称，<h>永久</h> 获得额外技能。<h>精准</h>"
   },
   "AyaFriendHatateNewsSpecial": {
     "Name": "鸦天狗灵异新闻特刊",
@@ -200,12 +204,14 @@
     "Name": "鸦天狗首领饭纲丸龙",
     "PassiveDescription": "<hf>监督</hf>: 每当一张<h>崩坏</h>或状态牌被<h>放逐</h>时，获得 <Mana />。",
     "ActiveDescription": "<ha>剥削</ha>: 失去 <Value1 /> 点生命，获得{Mana2}并抽 {Value2:plural one='% 张牌' other='% 张牌'}。如果上回合没有<h>崩坏</h>和状态牌被 <h>放逐</h>，此效果也会触发。",
-    "UltimateDescription": "<hu>虹光「光风霁月」</hu>: 对所有敌人造成 {Damage2} 点攻击伤害。每当一张<h>崩坏</h>或状态牌被<h>放逐</h>时，获得 {Mana3} 并抽 {Value3:plural one='% 张牌' other='% 张牌'}。<h>精准</h>"
+    "UltimateDescription": "<hu>虹光「光风霁月」</hu>: 对所有敌人造成 <Damage /> 点攻击伤害。每当一张<h>崩坏</h>或状态牌被<h>放逐</h>时，获得 {Mana3} 并抽 {Value3:plural one='% 张牌' other='% 张牌'}。<h>精准</h>"
   },
   "AyaFriendMomiji": {
     "Name": "巡逻天狗犬走椛",
     "PassiveDescription": "<hf>心灵感应</hf>: <h>预知</h> <Scry />。",
-    "UltimateDescription": "<hu>牙符「咀嚼满足」</hu>: 对生命最低的敌人造成 {Damage2} 点攻击伤害。<h>退治</h>: 恢复 <Value1 /> 点生命。<h>精准</h>"
+    "Passive2Description": "<hf>追逐</hf>: 当<PlayerName />攻击时，对目标造成 <Damage /> 点攻击伤害。",
+    "ActiveDescription": "<hf>招架</hf>: 当<PlayerName />受到攻击伤害并因此失去生命时，获得 <Shield /><h>护盾</h>。",
+    "UltimateDescription": "<hu>牙符「咀嚼满足」</hu>: 对生命最低的敌人造成 <Damage2 /> 点攻击伤害。<h>退治</h>: 恢复 <Value1 /> 点生命。<h>精准</h>"
   },
   "AyaHeadShot": {
     "Name": "爆头",
@@ -317,7 +323,7 @@
   },
   "AyaPhantasmModeTooltip": {
     "Name": "幻影模式",
-    "Description": "启用时，削弱来自“射命丸文”模组的角色。<br /><color=#dd7473>更改此设置需要退出游戏。</color>"
+    "Description": "启用时，削弱来自“射命丸文”模组的角色。<br /><hu>更改此设置需要退出游戏。</hu>"
   },
   "AyaPinnacleofEvasion": {
     "Name": "闪避巅峰",
@@ -364,8 +370,8 @@
   },
   "AyaSettlementDate": {
     "Name": "结算日",
-    "Description": "获得 <Value1 /><h>火力</h>。<br />获得 <Value2 /> <Money />。<br />每当一张<h>崩坏</h>或状态牌被<h>放逐</h>时，<h>永久</h> 增加 <SelfName /> 的 <Money /> <Value1 />。<br /><h>限制【{ToolPlayableTimes}】</h>",
-    "UpgradedDescription": "获得 <Value1 /><h>火力</h>。<br />获得 <Value2 /> <Money />。<br />每当一张<h>崩坏</h>或状态牌被<h>放逐</h>时，<h>永久</h> 增加 <SelfName /> 的 <Money /> <Value1 />。<br /><h>限制【{ToolPlayableTimes}】</h>"
+    "Description": "获得 <Value1 /><h>火力</h>。<br />获得 <Value2 /> <Money />。<br />每当一张<h>崩坏</h>或状态牌被<h>放逐</h>时，<h>永久</h> 增加 <SelfName /> 的 <Money /> <Value1 />。<br /><h>限制【<ToolPlayableTimes />】</h>",
+    "UpgradedDescription": "获得 <Value1 /><h>火力</h>。<br />获得 <Value2 /> <Money />。<br />每当一张<h>崩坏</h>或状态牌被<h>放逐</h>时，<h>永久</h> 增加 <SelfName /> 的 <Money /> <Value1 />。<br /><h>限制【<ToolPlayableTimes />】</h>"
   },
   "AyaSickleWeaselVeiling": {
     "Name": "镰鼬之幕",
@@ -889,8 +895,8 @@
   },
   "FlandreRipplesof495Years": {
     "Name": "495年的涟漪",
-    "Description": "<PlayerName />免疫所有负面状态。<br />将本场战斗中获得的所有法力值转换为 <ManaP />。<br />每当打出卡牌时，获得等于该卡消耗的法力值。<br />所有卡牌均被打出两次。<br /><h>消耗品【{ToolPlayableTimes}】</h>",
-    "UpgradedDescription": "<PlayerName />免疫所有负面状态。<br />将本场战斗中获得的所有法力值转换为 <ManaP />。<br />每当打出卡牌时，获得等于该卡消耗的法力值。<br />所有卡牌均被打出两次。<br /><h>消耗品【{ToolPlayableTimes}】</h>"
+    "Description": "<PlayerName />免疫所有负面状态。<br />将本场战斗中获得的所有法力值转换为 <ManaP />。<br />每当打出卡牌时，获得等于该卡消耗的法力值。<br />所有卡牌均被打出两次。<br /><h>消耗品【<ToolPlayableTimes />】</h>",
+    "UpgradedDescription": "<PlayerName />免疫所有负面状态。<br />将本场战斗中获得的所有法力值转换为 <ManaP />。<br />每当打出卡牌时，获得等于该卡消耗的法力值。<br />所有卡牌均被打出两次。<br /><h>消耗品【<ToolPlayableTimes />】</h>"
   },
   "FlandreRoseCross": {},
   "FlandreRuinedFortress": {
