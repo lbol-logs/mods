@@ -466,7 +466,7 @@
   },
   "FlandreScarletCasinoSe": {
     "Name": "Scarlet Casino",
-    "Description": "For every <Limit /> <hp>random</hp> effect <h>Flandre</h> cards activated, gain {Value1} of {Value2} random effects:<br />All cards cost {Amount1} less this turn.<br />The next {Amount2} card$t(plurals.-s, { 'count': {{Amount2}} }) $t(subject.is, { 'count': {{Amount2}} }) played {Value3:plural one='% more time' other='% more times'}.<br />Prevent the next {Amount3} time$t(plurals.-s, { 'count': {{Amount3}} }) <PlayerName /> would lose life.<br /><h>Upgrade</h> {Amount4} random card$t(plurals.-s, { 'count': {{Amount4}} }) in the <h>battlefield</h> {Value4:plural one='% time' other='% times'}.<br />Gain {Amount5}.<br />Gain {Amount6} <Money />.<br />(<Count />card$t(plurals.-s, { 'count': {{Count}} }) left.)"
+    "Description": "For every <Limit /> <hp>random</hp> effect <h>Flandre</h> cards activated, gain {Value1} of {Value2} random effects:<br />All cards cost {Amount1} less this turn.<br />The next {Amount2} card$t(plurals.-s, { 'count': {{Amount2}} }) $t(subject.is, { 'count': {{Amount2}} }) played {Value3:plural one='% more time' other='% more times'}.<br />Prevent the next {Amount3} time$t(plurals.-s, { 'count': {{Amount3}} }) <PlayerName /> would lose life.<br /><h>Upgrade</h> {Amount4} random card$t(plurals.-s, { 'count': {{Amount4}} }) in the <h>battlefield</h> {Value4} time$t(plurals.-s, { 'count': {{Value4}} }).<br />Gain {Amount5}.<br />Gain {Amount6} <Money />.<br />(<Count />card$t(plurals.-s, { 'count': {{Count}} }) left.)"
   },
   "FlandreSisteroftheDevilSe": {
     "Name": "Sister of the Devil",

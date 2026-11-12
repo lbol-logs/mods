@@ -127,8 +127,8 @@
   },
   "AyaCompletedInterview": {
     "Name": "Completed Interview",
-    "Description": "<h>Debut</h>: Add <h><Value1 />Bunbunmaru Newspaper$t(plurals.-s, { 'count': {{Value1}} })</h> and <h><Value2 />Bunbunmaru - Aya Special$t(plurals.-s, { 'count': {{Value2}} })</h> to the discard pile.<br />Draw {Value3:plural one='% card' other='% cards'}.",
-    "UpgradedDescription": "<h>Debut</h>: Add <h><Value1 />Bunbunmaru Newspaper$t(plurals.-s, { 'count': {{Value1}} })</h> and <h><Value2 />Bunbunmaru - Aya Special$t(plurals.-s, { 'count': {{Value2}} })</h> to the discard pile.<br />Draw {Value3:plural one='% card' other='% cards'}."
+    "Description": "<h>Debut</h>: Add <h><Value1 />Bunbunmaru Newspaper$t(plurals.-s, { 'count': {{Value1}} })</h> and <h><Value2 />Bunbunmaru - Aya Special$t(plurals.-s, { 'count': {{Value2}} })</h> to the discard pile.<br />Draw {Value3} card$t(plurals.-s, { 'count': {{Value3}} }).",
+    "UpgradedDescription": "<h>Debut</h>: Add <h><Value1 />Bunbunmaru Newspaper$t(plurals.-s, { 'count': {{Value1}} })</h> and <h><Value2 />Bunbunmaru - Aya Special$t(plurals.-s, { 'count': {{Value2}} })</h> to the discard pile.<br />Draw {Value3} card$t(plurals.-s, { 'count': {{Value3}} })."
   },
   "AyaCrazyFallWind": {
     "Name": "Crazy Fall Wind",
@@ -231,7 +231,7 @@
     "Name": "Megumu, Chief of the Crow Tengu",
     "PassiveDescription": "<hf>Supervision</hf>: Whenever a <h>Misfortune</h> or Status card is <h>Exiled</h>, gain <Mana />.",
     "ActiveDescription": "<ha>Exploitation</ha>: Lose <Value1 /> life, gain {Mana2} and draw <Value2 />card$t(plurals.-s, { 'count': {{Value2}} }). This also happens when no <h>Misfortune</h> and Status cards were <h>Exiled</h> last turn.",
-    "UltimateDescription": "<hu>Rainbow Illumination「Clear and Tranquil Wind and Moon」</hu>: Deal <Damage /> attack damage to each enemy. Whenever a <h>Misfortune</h> or Status card is <h>Exiled</h>, gain {Mana3} and draw {Value3:plural one='% card' other='% cards'}. <h>Accurate</h>"
+    "UltimateDescription": "<hu>Rainbow Illumination「Clear and Tranquil Wind and Moon」</hu>: Deal <Damage /> attack damage to each enemy. Whenever a <h>Misfortune</h> or Status card is <h>Exiled</h>, gain {Mana3} and draw {Value3} card$t(plurals.-s, { 'count': {{Value3}} }). <h>Accurate</h>"
   },
   "AyaFriendMomiji": {
     "Name": "Momiji, Petty Patrol Tengu",
@@ -474,8 +474,8 @@
   },
   "FlandreAndThenWillThereBeNone": {
     "Name": "And Then Will There Be None?",
-    "Description": "<h>Offering</h> <Value1 />.<br /><PlayerName /> is immune to all damage and debuffs for the next {FlandreValue2} turn$t(plurals.-s, { 'count': {{FlandreValue2}} }).<br />Gain {Value3} <h>Calamity</h>.<br />Deal {FlandreDamage} damage to each enemy {Value4:plural one='% time' other='% times'}.<br />Only the first <SelfName /> will take effect each combat.",
-    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br /><PlayerName /> is immune to all damage and debuffs for the next {FlandreValue2} turn$t(plurals.-s, { 'count': {{FlandreValue2}} }).<br />Gain {Value3} <h>Calamity</h>.<br />Deal {FlandreDamage} damage to each enemy {Value4:plural one='% time' other='% times'}.<br />Only the first <SelfName /> will take effect each combat."
+    "Description": "<h>Offering</h> <Value1 />.<br /><PlayerName /> is immune to all damage and debuffs for the next {FlandreValue2} turn$t(plurals.-s, { 'count': {{FlandreValue2}} }).<br />Gain {Value3} <h>Calamity</h>.<br />Deal {FlandreDamage} damage to each enemy {Value4} time$t(plurals.-s, { 'count': {{Value4}} }).<br />Only the first <SelfName /> will take effect each combat.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br /><PlayerName /> is immune to all damage and debuffs for the next {FlandreValue2} turn$t(plurals.-s, { 'count': {{FlandreValue2}} }).<br />Gain {Value3} <h>Calamity</h>.<br />Deal {FlandreDamage} damage to each enemy {Value4} time$t(plurals.-s, { 'count': {{Value4}} }).<br />Only the first <SelfName /> will take effect each combat."
   },
   "FlandreArmageddon": {
     "Name": "Armageddon",
@@ -719,8 +719,8 @@
   },
   "FlandreFaustianBargain": {
     "Name": "Faustian Bargain",
-    "Description": "<h>Offering</h> <Value1 />.<br />Choose up to {FlandreValue2} card$t(plurals.-s, { 'count': {{FlandreValue2}} }) from <h>Exile</h> and return it to the hand.<br /><h>When Exiled</h>: Choose up to {Value3:plural one='% card' other='% cards'} from <h>Exile</h> and return it to the hand.",
-    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Choose up to {FlandreValue2} card$t(plurals.-s, { 'count': {{FlandreValue2}} }) from <h>Exile</h> and return it to the hand.<br /><h>When Exiled</h>: Choose up to {Value3:plural one='% card' other='% cards'} from <h>Exile</h> and return it to the hand."
+    "Description": "<h>Offering</h> <Value1 />.<br />Choose up to {FlandreValue2} card$t(plurals.-s, { 'count': {{FlandreValue2}} }) from <h>Exile</h> and return it to the hand.<br /><h>When Exiled</h>: Choose up to {Value3} card$t(plurals.-s, { 'count': {{Value3}} }) from <h>Exile</h> and return it to the hand.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Choose up to {FlandreValue2} card$t(plurals.-s, { 'count': {{FlandreValue2}} }) from <h>Exile</h> and return it to the hand.<br /><h>When Exiled</h>: Choose up to {Value3} card$t(plurals.-s, { 'count': {{Value3}} }) from <h>Exile</h> and return it to the hand."
   },
   "FlandreFieryLaser": {
     "Name": "Fiery Laser",
@@ -729,8 +729,8 @@
   },
   "FlandreFlancanCook": {
     "Name": "Flan can Cook!",
-    "Description": "<h>For each <Mana /> spent</h>: <h>Upgrade</h> <SelfName />.<br />Choose up to {FlandreValue1} of {FlandreValue2} <hp>random</hp> <h>Flandre</h> card{FlandreValue2:plural one='' other='s'} to add to the hand. Prioritizes lower rarity cards. {FlandreValue1:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} {Mana2} and {FlandreValue1:plural one='has' other='have'} <h>Exile</h> and <h>Ethereal</h>.<br /><SelfName /> can be <h>Upgraded</h> up to {Value3:plural one='% time' other='% times'} regardless of <h>Magical Girl</h>.",
-    "UpgradedDescription": "<h>For each <Mana /> spent</h>: <h>Upgrade</h> <SelfName />.<br />Choose up to {FlandreValue1} of {FlandreValue2} <hp>random</hp> <h>Flandre</h> card{FlandreValue2:plural one='' other='s'} to add to the hand. Prioritizes lower rarity cards. {FlandreValue1:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} {Mana2} and {FlandreValue1:plural one='has' other='have'} <h>Exile</h> and <h>Ethereal</h>.<br /><SelfName /> can be <h>Upgraded</h> up to {Value3:plural one='% time' other='% times'} regardless of <h>Magical Girl</h>."
+    "Description": "<h>For each <Mana /> spent</h>: <h>Upgrade</h> <SelfName />.<br />Choose up to {FlandreValue1} of {FlandreValue2} <hp>random</hp> <h>Flandre</h> card{FlandreValue2:plural one='' other='s'} to add to the hand. Prioritizes lower rarity cards. {FlandreValue1:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} {Mana2} and {FlandreValue1:plural one='has' other='have'} <h>Exile</h> and <h>Ethereal</h>.<br /><SelfName /> can be <h>Upgraded</h> up to {Value3} time$t(plurals.-s, { 'count': {{Value3}} }) regardless of <h>Magical Girl</h>.",
+    "UpgradedDescription": "<h>For each <Mana /> spent</h>: <h>Upgrade</h> <SelfName />.<br />Choose up to {FlandreValue1} of {FlandreValue2} <hp>random</hp> <h>Flandre</h> card{FlandreValue2:plural one='' other='s'} to add to the hand. Prioritizes lower rarity cards. {FlandreValue1:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} {Mana2} and {FlandreValue1:plural one='has' other='have'} <h>Exile</h> and <h>Ethereal</h>.<br /><SelfName /> can be <h>Upgraded</h> up to {Value3} time$t(plurals.-s, { 'count': {{Value3}} }) regardless of <h>Magical Girl</h>."
   },
   "FlandreForbiddenFruit": {
     "Name": "Forbidden Fruit",
@@ -795,7 +795,7 @@
     "Name": "Okina, Absolute Secret God - Summer",
     "PassiveDescription": "<hf>Power of Summer</hf>: Whenever <Value1 /> green card$t(plurals.-s, { 'count': {{Value1}} }) $t(subject.is, { 'count': {{Value1}} }) activated, gain {FlandreMana} and apply {FlandreValue2} <h>Ruin</h> to each enemy.",
     "ActiveDescription": "<ha>Season Release</ha>: Choose 1 of {Value3} <h>Seasons</h>. <SelfName /> gains their effects.",
-    "UltimateDescription": "<hu>「Hidden Perfect Summer Ice」</hu>: Whenever <PlayerName /> activates {Value4:plural one='% card' other='% cards'}, deal {Value5} <h>Accurate</h> attack damage and apply <h>Cold</h> to each enemy."
+    "UltimateDescription": "<hu>「Hidden Perfect Summer Ice」</hu>: Whenever <PlayerName /> activates {Value4} card$t(plurals.-s, { 'count': {{Value4}} }), deal {Value5} <h>Accurate</h> attack damage and apply <h>Cold</h> to each enemy."
   },
   "FlandreFriendOkinaWinter": {
     "Name": "Okina, Absolute Secret God - Winter",
@@ -864,8 +864,8 @@
   },
   "FlandreLaevateinn": {
     "Name": "Laevateinn",
-    "Description": "Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Hellfire</h> to each enemy.<br />This effect is affected by <h>Firepower</h> {FlandreValue2} time$t(plurals.-s, { 'count': {{FlandreValue2}} }).<br />Trigger <h>Hellfire</h> of each enemy {Value3:plural one='% time' other='% times'}.",
-    "UpgradedDescription": "Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Hellfire</h> to each enemy.<br />This effect is affected by <h>Firepower</h> {FlandreValue2} time$t(plurals.-s, { 'count': {{FlandreValue2}} }).<br />Trigger <h>Hellfire</h> of each enemy {Value3:plural one='% time' other='% times'}."
+    "Description": "Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Hellfire</h> to each enemy.<br />This effect is affected by <h>Firepower</h> {FlandreValue2} time$t(plurals.-s, { 'count': {{FlandreValue2}} }).<br />Trigger <h>Hellfire</h> of each enemy {Value3} time$t(plurals.-s, { 'count': {{Value3}} }).",
+    "UpgradedDescription": "Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Hellfire</h> to each enemy.<br />This effect is affected by <h>Firepower</h> {FlandreValue2} time$t(plurals.-s, { 'count': {{FlandreValue2}} }).<br />Trigger <h>Hellfire</h> of each enemy {Value3} time$t(plurals.-s, { 'count': {{Value3}} })."
   },
   "FlandreLittleJeweler": {
     "Name": "Little Jeweler",
@@ -924,8 +924,8 @@
   },
   "FlandreMPEnfantTerrible": {
     "Name": "Enfant Terrible",
-    "Description": "Deal {FlandreDamage} damage to each enemy {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br />Enemies deal <Value2 />% less attack damage for the next {Value3:plural one='% turn' other='% turns'}.<br />All <h>Partners</h> deal {Value4}% less attack damage for the next {Value5:plural one='% turn' other='% turns'}.<br />Gain {Value6} <h>Madness</h>.",
-    "UpgradedDescription": "Deal {FlandreDamage} damage to each enemy {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br />Enemies deal <Value2 />% less attack damage for the next {Value3:plural one='% turn' other='% turns'}.<br />All <h>Partners</h> deal {Value4}% less attack damage for the next {Value5:plural one='% turn' other='% turns'}.<br />Gain {Value6} <h>Madness</h>."
+    "Description": "Deal {FlandreDamage} damage to each enemy {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br />Enemies deal <Value2 />% less attack damage for the next {Value3} turn$t(plurals.-s, { 'count': {{Value3}} }).<br />All <h>Partners</h> deal {Value4}% less attack damage for the next {Value5} turn$t(plurals.-s, { 'count': {{Value5}} }).<br />Gain {Value6} <h>Madness</h>.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage to each enemy {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br />Enemies deal <Value2 />% less attack damage for the next {Value3} turn$t(plurals.-s, { 'count': {{Value3}} }).<br />All <h>Partners</h> deal {Value4}% less attack damage for the next {Value5} turn$t(plurals.-s, { 'count': {{Value5}} }).<br />Gain {Value6} <h>Madness</h>."
   },
   "FlandreMPFirestorm": {
     "Name": "Firestorm",
@@ -1034,8 +1034,8 @@
   },
   "FlandreScarletCasino": {
     "Name": "Scarlet Casino",
-    "Description": "For every <Value1 /> <hp>random</hp> effect <h>Flandre</h> cards activated, gain <Value2 /> of <Value1 /> random effects:<br />All cards cost {Amount1} less this turn.<br />The next {Amount2} card$t(plurals.-s, { 'count': {{Amount2}} }) $t(subject.is, { 'count': {{Amount2}} }) played <Value2 />additional time$t(plurals.-s, { 'count': {{Value2}} }).<br />Prevent the next {Amount3} time$t(plurals.-s, { 'count': {{Amount3}} }) <PlayerName /> would lose life.<br /><h>Upgrade</h> {Amount4} random card$t(plurals.-s, { 'count': {{Amount4}} }) in the <h>battlefield</h> {Value4:plural one='% time' other='% times'}.<br />Gain {Amount5}.<br />Gain {Amount6} <Money />.",
-    "UpgradedDescription": "For every <Value1 /> <hp>random</hp> effect <h>Flandre</h> cards activated, gain <Value2 /> of <Value1 /> random effects:<br />All cards cost {Amount1} less this turn.<br />The next {Amount2} card$t(plurals.-s, { 'count': {{Amount2}} }) $t(subject.is, { 'count': {{Amount2}} }) played <Value2 />additional time$t(plurals.-s, { 'count': {{Value2}} }).<br />Prevent the next {Amount3} time$t(plurals.-s, { 'count': {{Amount3}} }) <PlayerName /> would lose life.<br /><h>Upgrade</h> {Amount4} random card$t(plurals.-s, { 'count': {{Amount4}} }) in the <h>battlefield</h> {Value4:plural one='% time' other='% times'}.<br />Gain {Amount5}.<br />Gain {Amount6} <Money />.<br />Trigger <SelfName /> once."
+    "Description": "For every <Value1 /> <hp>random</hp> effect <h>Flandre</h> cards activated, gain <Value2 /> of <Value1 /> random effects:<br />All cards cost {Amount1} less this turn.<br />The next {Amount2} card$t(plurals.-s, { 'count': {{Amount2}} }) $t(subject.is, { 'count': {{Amount2}} }) played <Value2 />additional time$t(plurals.-s, { 'count': {{Value2}} }).<br />Prevent the next {Amount3} time$t(plurals.-s, { 'count': {{Amount3}} }) <PlayerName /> would lose life.<br /><h>Upgrade</h> {Amount4} random card$t(plurals.-s, { 'count': {{Amount4}} }) in the <h>battlefield</h> {Value4} time$t(plurals.-s, { 'count': {{Value4}} }).<br />Gain {Amount5}.<br />Gain {Amount6} <Money />.",
+    "UpgradedDescription": "For every <Value1 /> <hp>random</hp> effect <h>Flandre</h> cards activated, gain <Value2 /> of <Value1 /> random effects:<br />All cards cost {Amount1} less this turn.<br />The next {Amount2} card$t(plurals.-s, { 'count': {{Amount2}} }) $t(subject.is, { 'count': {{Amount2}} }) played <Value2 />additional time$t(plurals.-s, { 'count': {{Value2}} }).<br />Prevent the next {Amount3} time$t(plurals.-s, { 'count': {{Amount3}} }) <PlayerName /> would lose life.<br /><h>Upgrade</h> {Amount4} random card$t(plurals.-s, { 'count': {{Amount4}} }) in the <h>battlefield</h> {Value4} time$t(plurals.-s, { 'count': {{Value4}} }).<br />Gain {Amount5}.<br />Gain {Amount6} <Money />.<br />Trigger <SelfName /> once."
   },
   "FlandreScarletNihility": {
     "Name": "Scarlet Nihility",
@@ -1064,8 +1064,8 @@
   },
   "FlandreSpellBreak": {
     "Name": "Spell Break",
-    "Description": "Deal {FlandreValue1} damage.<br />The target cannot act for <Value2 />turn$t(plurals.-s, { 'count': {{Value2}} }).<br />The target is immune to <h>Spell Break</h> for {Value3:plural one='% turn' other='% turns'}.",
-    "UpgradedDescription": "Deal {FlandreValue1} damage.<br />The target cannot act for <Value2 />turn$t(plurals.-s, { 'count': {{Value2}} }).<br />The target is immune to <h>Spell Break</h> for {Value3:plural one='% turn' other='% turns'}."
+    "Description": "Deal {FlandreValue1} damage.<br />The target cannot act for <Value2 />turn$t(plurals.-s, { 'count': {{Value2}} }).<br />The target is immune to <h>Spell Break</h> for {Value3} turn$t(plurals.-s, { 'count': {{Value3}} }).",
+    "UpgradedDescription": "Deal {FlandreValue1} damage.<br />The target cannot act for <Value2 />turn$t(plurals.-s, { 'count': {{Value2}} }).<br />The target is immune to <h>Spell Break</h> for {Value3} turn$t(plurals.-s, { 'count': {{Value3}} })."
   },
   "FlandreStarbowBreak": {
     "Name": "Starbow Break",
