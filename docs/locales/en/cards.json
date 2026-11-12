@@ -474,13 +474,13 @@
   },
   "FlandreAndThenWillThereBeNone": {
     "Name": "And Then Will There Be None?",
-    "Description": "<h>Offering</h> <Value1 />.<br /><PlayerName /> is immune to all damage and debuffs for the next {FlandreValue2:plural one='% turn' other='% turns'}.<br />Gain {Value3} <h>Calamity</h>.<br />Deal {FlandreDamage} damage to each enemy {Value4:plural one='% time' other='% times'}.<br />Only the first <SelfName /> will take effect each combat.",
-    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br /><PlayerName /> is immune to all damage and debuffs for the next {FlandreValue2:plural one='% turn' other='% turns'}.<br />Gain {Value3} <h>Calamity</h>.<br />Deal {FlandreDamage} damage to each enemy {Value4:plural one='% time' other='% times'}.<br />Only the first <SelfName /> will take effect each combat."
+    "Description": "<h>Offering</h> <Value1 />.<br /><PlayerName /> is immune to all damage and debuffs for the next {FlandreValue2} turn$t(plurals.-s, { 'count': {{FlandreValue2}} }).<br />Gain {Value3} <h>Calamity</h>.<br />Deal {FlandreDamage} damage to each enemy {Value4:plural one='% time' other='% times'}.<br />Only the first <SelfName /> will take effect each combat.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br /><PlayerName /> is immune to all damage and debuffs for the next {FlandreValue2} turn$t(plurals.-s, { 'count': {{FlandreValue2}} }).<br />Gain {Value3} <h>Calamity</h>.<br />Deal {FlandreDamage} damage to each enemy {Value4:plural one='% time' other='% times'}.<br />Only the first <SelfName /> will take effect each combat."
   },
   "FlandreArmageddon": {
     "Name": "Armageddon",
-    "Description": "Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.<br /><SelfName /> deals {FlandreValue2} more damage for each attack card in the <h>battlefield</h>.<br />Only the first <SelfName /> will take effect each combat.",
-    "UpgradedDescription": "Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.<br /><SelfName /> deals {FlandreValue2} more damage for each attack card in the <h>battlefield</h>.<br />Only the first <SelfName /> will take effect each combat."
+    "Description": "Deal {FlandreDamage} damage to each enemy {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br /><SelfName /> deals {FlandreValue2} more damage for each attack card in the <h>battlefield</h>.<br />Only the first <SelfName /> will take effect each combat.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage to each enemy {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br /><SelfName /> deals {FlandreValue2} more damage for each attack card in the <h>battlefield</h>.<br />Only the first <SelfName /> will take effect each combat."
   },
   "FlandreAttackB": {
     "Name": "Colorful Danmaku",
@@ -509,28 +509,28 @@
   },
   "FlandreBloodisFuel": {
     "Name": "Blood is Fuel",
-    "Description": "Lose <Value1 /> life.<br />Gain {FlandreMana}.<br />Unspent mana isn't lost for the next {FlandreValue2:plural one='% turn' other='% turns'}.",
-    "UpgradedDescription": "Lose <Value1 /> life.<br />Gain {FlandreMana}.<br />Unspent mana isn't lost for the next {FlandreValue2:plural one='% turn' other='% turns'}."
+    "Description": "Lose <Value1 /> life.<br />Gain {FlandreMana}.<br />Unspent mana isn't lost for the next {FlandreValue2} turn$t(plurals.-s, { 'count': {{FlandreValue2}} }).",
+    "UpgradedDescription": "Lose <Value1 /> life.<br />Gain {FlandreMana}.<br />Unspent mana isn't lost for the next {FlandreValue2} turn$t(plurals.-s, { 'count': {{FlandreValue2}} })."
   },
   "FlandreBloodyCatastrophe": {
     "Name": "Bloody Catastrophe",
-    "Description": "Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.<br />Gain {FlandreValue2} life.<br /><PlayerName />'s attacks become <h>Accurate</h> until the end of combat.",
-    "UpgradedDescription": "Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.<br />Gain {FlandreValue2} life.<br /><PlayerName />'s attacks become <h>Accurate</h> until the end of combat."
+    "Description": "Deal {FlandreDamage} damage to each enemy {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br />Gain {FlandreValue2} life.<br /><PlayerName />'s attacks become <h>Accurate</h> until the end of combat.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage to each enemy {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br />Gain {FlandreValue2} life.<br /><PlayerName />'s attacks become <h>Accurate</h> until the end of combat."
   },
   "FlandreBloodyRequiem": {
     "Name": "Bloody Requiem",
-    "Description": "For the next {FlandreValue1:plural one='% turn' other='% turns'}, all <h>Flandre</h> cards gain <h>Bloodlust</h>, and <h>Bloodlust</h> is always applied at its maximum value.",
-    "UpgradedDescription": "For the next {FlandreValue1:plural one='% turn' other='% turns'}, all <h>Flandre</h> cards gain <h>Bloodlust</h>, and <h>Bloodlust</h> is always applied at its maximum value."
+    "Description": "For the next {FlandreValue1} turn$t(plurals.-s, { 'count': {{FlandreValue1}} }), all <h>Flandre</h> cards gain <h>Bloodlust</h>, and <h>Bloodlust</h> is always applied at its maximum value.",
+    "UpgradedDescription": "For the next {FlandreValue1} turn$t(plurals.-s, { 'count': {{FlandreValue1}} }), all <h>Flandre</h> cards gain <h>Bloodlust</h>, and <h>Bloodlust</h> is always applied at its maximum value."
   },
   "FlandreBrokenGlass": {
     "Name": "Broken Glass",
-    "Description": "<h>Offering</h> <Value1 />.<br />Deal {FlandreDamage} damage {FlandreValue2:plural one='% time' other='% times'}.",
-    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Deal {FlandreDamage} damage {FlandreValue2:plural one='% time' other='% times'}."
+    "Description": "<h>Offering</h> <Value1 />.<br />Deal {FlandreDamage} damage {FlandreValue2} time$t(plurals.-s, { 'count': {{FlandreValue2}} }).",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Deal {FlandreDamage} damage {FlandreValue2} time$t(plurals.-s, { 'count': {{FlandreValue2}} })."
   },
   "FlandreBurningPassion": {
     "Name": "Burning Passion",
-    "Description": "Apply {FlandreValue1} <h>Hellfire</h>.<br />Draw {FlandreValue2:plural one='% card' other='% cards'}.",
-    "UpgradedDescription": "Apply {FlandreValue1} <h>Hellfire</h>.<br />Draw {FlandreValue2:plural one='% card' other='% cards'}."
+    "Description": "Apply {FlandreValue1} <h>Hellfire</h>.<br />Draw {FlandreValue2} card$t(plurals.-s, { 'count': {{FlandreValue2}} }).",
+    "UpgradedDescription": "Apply {FlandreValue1} <h>Hellfire</h>.<br />Draw {FlandreValue2} card$t(plurals.-s, { 'count': {{FlandreValue2}} })."
   },
   "FlandreCageofVampire": {
     "Name": "Cage of Vampire",
@@ -549,13 +549,13 @@
   },
   "FlandreCatastropheofSeventeenArticles": {
     "Name": "Catastrophe of Seventeen Articles",
-    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br /><h>Upgrade</h> all cards {FlandreValue1:plural one='% time' other='% times'} until the end of combat.",
-    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br /><h>Upgrade</h> all cards {FlandreValue1:plural one='% time' other='% times'} until the end of combat."
+    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br /><h>Upgrade</h> all cards {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }) until the end of combat.",
+    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br /><h>Upgrade</h> all cards {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }) until the end of combat."
   },
   "FlandreCerberusClipper": {
     "Name": "Cerberus Clipper",
-    "Description": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br />Apply {FlandreValue2} <h>Weak</h> and <h>Vulnerable</h>.<br />Gain {Value3} life.",
-    "UpgradedDescription": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br />Apply {FlandreValue2} <h>Weak</h> and <h>Vulnerable</h>.<br />Gain {Value3} life."
+    "Description": "Deal {FlandreDamage} damage {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br />Apply {FlandreValue2} <h>Weak</h> and <h>Vulnerable</h>.<br />Gain {Value3} life.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br />Apply {FlandreValue2} <h>Weak</h> and <h>Vulnerable</h>.<br />Gain {Value3} life."
   },
   "FlandreChaosIncarnation": {
     "Name": "Chaos Incarnation",
@@ -699,8 +699,8 @@
   },
   "FlandreDoomsdayClock": {
     "Name": "Doomsday Clock",
-    "Description": "<PlayerName /> gains {FlandreValue1:plural one='% time' other='% times'} more <h>Calamity</h>.",
-    "UpgradedDescription": "<PlayerName /> gains {FlandreValue1:plural one='% time' other='% times'} more <h>Calamity</h>.<br />Gain {Value3} <h>Calamity</h>."
+    "Description": "<PlayerName /> gains {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }) more <h>Calamity</h>.",
+    "UpgradedDescription": "<PlayerName /> gains {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }) more <h>Calamity</h>.<br />Gain {Value3} <h>Calamity</h>."
   },
   "FlandreDreadofTransylvania": {
     "Name": "Dread of Transylvania",
@@ -709,18 +709,18 @@
   },
   "FlandreEmbraceofGehenna": {
     "Name": "Embrace of Gehenna",
-    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue1} more <h>Barrier</h> for each <h>Calamity</h> <PlayerName /> has.<br /><h>Destroy</h> enemies with life equal to {FlandreValue2:plural one='% time' other='% times'} <PlayerName />'s <h>Calamity</h> or less.",
-    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue1} more <h>Barrier</h> for each <h>Calamity</h> <PlayerName /> has.<br /><h>Destroy</h> enemies with life equal to {FlandreValue2:plural one='% time' other='% times'} <PlayerName />'s <h>Calamity</h> or less."
+    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue1} more <h>Barrier</h> for each <h>Calamity</h> <PlayerName /> has.<br /><h>Destroy</h> enemies with life equal to {FlandreValue2} time$t(plurals.-s, { 'count': {{FlandreValue2}} }) <PlayerName />'s <h>Calamity</h> or less.",
+    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue1} more <h>Barrier</h> for each <h>Calamity</h> <PlayerName /> has.<br /><h>Destroy</h> enemies with life equal to {FlandreValue2} time$t(plurals.-s, { 'count': {{FlandreValue2}} }) <PlayerName />'s <h>Calamity</h> or less."
   },
   "FlandreEndwithaBang": {
     "Name": "End with a Bang",
-    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Gain {FlandreValue1} <h>Firepower</h>.<br />Trigger <h>Brimstone</h> of each enemy {FlandreValue2:plural one='% time' other='% times'}.<br /><h>At the end of combat</h>: If <SelfName /> was the last card played, gain a <hp>random</hp> card reward.",
-    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Gain {FlandreValue1} <h>Firepower</h>.<br />Trigger <h>Brimstone</h> of each enemy {FlandreValue2:plural one='% time' other='% times'}.<br /><h>At the end of combat</h>: If <SelfName /> was the last card played, gain a <hp>random</hp> card reward."
+    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Gain {FlandreValue1} <h>Firepower</h>.<br />Trigger <h>Brimstone</h> of each enemy {FlandreValue2} time$t(plurals.-s, { 'count': {{FlandreValue2}} }).<br /><h>At the end of combat</h>: If <SelfName /> was the last card played, gain a <hp>random</hp> card reward.",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Gain {FlandreValue1} <h>Firepower</h>.<br />Trigger <h>Brimstone</h> of each enemy {FlandreValue2} time$t(plurals.-s, { 'count': {{FlandreValue2}} }).<br /><h>At the end of combat</h>: If <SelfName /> was the last card played, gain a <hp>random</hp> card reward."
   },
   "FlandreFaustianBargain": {
     "Name": "Faustian Bargain",
-    "Description": "<h>Offering</h> <Value1 />.<br />Choose up to {FlandreValue2:plural one='% card' other='% cards'} from <h>Exile</h> and return it to the hand.<br /><h>When Exiled</h>: Choose up to {Value3:plural one='% card' other='% cards'} from <h>Exile</h> and return it to the hand.",
-    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Choose up to {FlandreValue2:plural one='% card' other='% cards'} from <h>Exile</h> and return it to the hand.<br /><h>When Exiled</h>: Choose up to {Value3:plural one='% card' other='% cards'} from <h>Exile</h> and return it to the hand."
+    "Description": "<h>Offering</h> <Value1 />.<br />Choose up to {FlandreValue2} card$t(plurals.-s, { 'count': {{FlandreValue2}} }) from <h>Exile</h> and return it to the hand.<br /><h>When Exiled</h>: Choose up to {Value3:plural one='% card' other='% cards'} from <h>Exile</h> and return it to the hand.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Choose up to {FlandreValue2} card$t(plurals.-s, { 'count': {{FlandreValue2}} }) from <h>Exile</h> and return it to the hand.<br /><h>When Exiled</h>: Choose up to {Value3:plural one='% card' other='% cards'} from <h>Exile</h> and return it to the hand."
   },
   "FlandreFieryLaser": {
     "Name": "Fiery Laser",
@@ -744,8 +744,8 @@
   },
   "FlandreForbiddenScarletCuriosity": {
     "Name": "Forbidden Scarlet Curiosity",
-    "Description": "<PlayerName /> is immune to all debuffs.<br /><PlayerName />'s attacks deal {FlandreValue1:plural one='% time' other='% times'} more damage.<br />Whenever an enemy loses life, <PlayerName /> gains that much life.<br />These effects does not stack.<br />Gain {FlandreValue2}% <h>Temporary Maximum Life</h>.<br />Gain {Value3} <h>Madness</h>.",
-    "UpgradedDescription": "<PlayerName /> is immune to all debuffs.<br /><PlayerName />'s attacks deal {FlandreValue1:plural one='% time' other='% times'} more damage.<br />Whenever an enemy loses life, <PlayerName /> gains that much life.<br />These effects does not stack.<br />Gain {FlandreValue2}% <h>Temporary Maximum Life</h>.<br />Gain {Value3} <h>Madness</h>."
+    "Description": "<PlayerName /> is immune to all debuffs.<br /><PlayerName />'s attacks deal {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }) more damage.<br />Whenever an enemy loses life, <PlayerName /> gains that much life.<br />These effects does not stack.<br />Gain {FlandreValue2}% <h>Temporary Maximum Life</h>.<br />Gain {Value3} <h>Madness</h>.",
+    "UpgradedDescription": "<PlayerName /> is immune to all debuffs.<br /><PlayerName />'s attacks deal {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }) more damage.<br />Whenever an enemy loses life, <PlayerName /> gains that much life.<br />These effects does not stack.<br />Gain {FlandreValue2}% <h>Temporary Maximum Life</h>.<br />Gain {Value3} <h>Madness</h>."
   },
   "FlandreFourHorsemenoftheApocalypse": {
     "Name": "Four Horsemen of the Apocalypse",
@@ -769,8 +769,8 @@
   },
   "FlandreFranticDestroyer": {
     "Name": "Frantic Destroyer",
-    "Description": "<h>Offering</h> <Value1 />.<br />Whenever an attack card is activated, gain {FlandreMana} and draw {FlandreValue2:plural one='% card' other='% cards'}.",
-    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Whenever an attack card is activated, gain {FlandreMana} and draw {FlandreValue2:plural one='% card' other='% cards'}."
+    "Description": "<h>Offering</h> <Value1 />.<br />Whenever an attack card is activated, gain {FlandreMana} and draw {FlandreValue2} card$t(plurals.-s, { 'count': {{FlandreValue2}} }).",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Whenever an attack card is activated, gain {FlandreMana} and draw {FlandreValue2} card$t(plurals.-s, { 'count': {{FlandreValue2}} })."
   },
   "FlandreFriendOkina": {
     "Name": "Okina, Absolute Secret God",
@@ -810,8 +810,8 @@
   },
   "FlandreHellisFull": {
     "Name": "Hell is Full",
-    "Description": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br /><SelfName /> deals {FlandreValue2} more damage for each enemy defeated this run.<br />Gain {Value3} <h>Madness</h>.",
-    "UpgradedDescription": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br /><SelfName /> deals {FlandreValue2} more damage for each enemy defeated this run.<br />Gain {Value3} <h>Madness</h>."
+    "Description": "Deal {FlandreDamage} damage {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br /><SelfName /> deals {FlandreValue2} more damage for each enemy defeated this run.<br />Gain {Value3} <h>Madness</h>.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br /><SelfName /> deals {FlandreValue2} more damage for each enemy defeated this run.<br />Gain {Value3} <h>Madness</h>."
   },
   "FlandreHellonEarth": {
     "Name": "Hell on Earth",
@@ -830,18 +830,18 @@
   },
   "FlandreHymnoftheTorturedSouls": {
     "Name": "Hymn of the Tortured Souls",
-    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Gain {FlandreMana} and draw {FlandreValue1:plural one='% card' other='% cards'} for each character with <h>Hellfire</h>.",
-    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Gain {FlandreMana} and draw {FlandreValue1:plural one='% card' other='% cards'} for each character with <h>Hellfire</h>."
+    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Gain {FlandreMana} and draw {FlandreValue1} card$t(plurals.-s, { 'count': {{FlandreValue1}} }) for each character with <h>Hellfire</h>.",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Gain {FlandreMana} and draw {FlandreValue1} card$t(plurals.-s, { 'count': {{FlandreValue1}} }) for each character with <h>Hellfire</h>."
   },
   "FlandreIgnitingSnap": {
     "Name": "Igniting Snap",
-    "Description": "Apply {FlandreValue1} <h>Hellfire</h>.<br />Trigger <h>Hellfire</h> of the target {FlandreValue2:plural one='% time' other='% times'}.",
-    "UpgradedDescription": "Apply {FlandreValue1} <h>Hellfire</h>.<br />Trigger <h>Hellfire</h> of the target {FlandreValue2:plural one='% time' other='% times'}."
+    "Description": "Apply {FlandreValue1} <h>Hellfire</h>.<br />Trigger <h>Hellfire</h> of the target {FlandreValue2} time$t(plurals.-s, { 'count': {{FlandreValue2}} }).",
+    "UpgradedDescription": "Apply {FlandreValue1} <h>Hellfire</h>.<br />Trigger <h>Hellfire</h> of the target {FlandreValue2} time$t(plurals.-s, { 'count': {{FlandreValue2}} })."
   },
   "FlandreInfernalRampage": {
     "Name": "Infernal Rampage",
-    "Description": "Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Hellfire</h> to a <hp>random</hp> enemy {FlandreValue2:plural one='% time' other='% times'}.<br />Gain {Value3} <h>Firepower</h>.",
-    "UpgradedDescription": "Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Hellfire</h> to a <hp>random</hp> enemy {FlandreValue2:plural one='% time' other='% times'}.<br />Gain {Value3} <h>Firepower</h>."
+    "Description": "Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Hellfire</h> to a <hp>random</hp> enemy {FlandreValue2} time$t(plurals.-s, { 'count': {{FlandreValue2}} }).<br />Gain {Value3} <h>Firepower</h>.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Hellfire</h> to a <hp>random</hp> enemy {FlandreValue2} time$t(plurals.-s, { 'count': {{FlandreValue2}} }).<br />Gain {Value3} <h>Firepower</h>."
   },
   "FlandreInstability": {
     "Name": "Instability",
@@ -854,18 +854,18 @@
   },
   "FlandreKagomeKagome": {
     "Name": "Kagome, Kagome",
-    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />Apply {FlandreValue1} <h>Ruin</h> to each enemy.<br />Deal damage to each enemy equal to {FlandreValue2:plural one='% time' other='% times'} the target's Ruin.",
-    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />Apply {FlandreValue1} <h>Ruin</h> to each enemy.<br />Deal damage to each enemy equal to {FlandreValue2:plural one='% time' other='% times'} the target's Ruin."
+    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />Apply {FlandreValue1} <h>Ruin</h> to each enemy.<br />Deal damage to each enemy equal to {FlandreValue2} time$t(plurals.-s, { 'count': {{FlandreValue2}} }) the target's Ruin.",
+    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />Apply {FlandreValue1} <h>Ruin</h> to each enemy.<br />Deal damage to each enemy equal to {FlandreValue2} time$t(plurals.-s, { 'count': {{FlandreValue2}} }) the target's Ruin."
   },
   "FlandreKindLiesandGoodbyes": {
     "Name": "Kind Lies and Goodbyes",
-    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue1} <h>Firepower</h> and <h>Spirit</h>.<br />When <PlayerName /> would be defeated, remove all debuffs, heal to maximum life, and can't lose life for {FlandreValue2:plural one='% turn' other='% turns'}.<br />Then, deal {Value3} damage to each enemy, <h>Destroy</h> enemies with {Value3} or less life, and remove <SelfName /> from combat and the library.",
-    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue1} <h>Firepower</h> and <h>Spirit</h>.<br />When <PlayerName /> would be defeated, remove all debuffs, heal to maximum life, and can't lose life for {FlandreValue2:plural one='% turn' other='% turns'}.<br />Then, deal {Value3} damage to each enemy, <h>Destroy</h> enemies with {Value3} or less life, and remove <SelfName /> from combat and the library."
+    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue1} <h>Firepower</h> and <h>Spirit</h>.<br />When <PlayerName /> would be defeated, remove all debuffs, heal to maximum life, and can't lose life for {FlandreValue2} turn$t(plurals.-s, { 'count': {{FlandreValue2}} }).<br />Then, deal {Value3} damage to each enemy, <h>Destroy</h> enemies with {Value3} or less life, and remove <SelfName /> from combat and the library.",
+    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />Gain {FlandreValue1} <h>Firepower</h> and <h>Spirit</h>.<br />When <PlayerName /> would be defeated, remove all debuffs, heal to maximum life, and can't lose life for {FlandreValue2} turn$t(plurals.-s, { 'count': {{FlandreValue2}} }).<br />Then, deal {Value3} damage to each enemy, <h>Destroy</h> enemies with {Value3} or less life, and remove <SelfName /> from combat and the library."
   },
   "FlandreLaevateinn": {
     "Name": "Laevateinn",
-    "Description": "Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Hellfire</h> to each enemy.<br />This effect is affected by <h>Firepower</h> {FlandreValue2:plural one='% time' other='% times'}.<br />Trigger <h>Hellfire</h> of each enemy {Value3:plural one='% time' other='% times'}.",
-    "UpgradedDescription": "Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Hellfire</h> to each enemy.<br />This effect is affected by <h>Firepower</h> {FlandreValue2:plural one='% time' other='% times'}.<br />Trigger <h>Hellfire</h> of each enemy {Value3:plural one='% time' other='% times'}."
+    "Description": "Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Hellfire</h> to each enemy.<br />This effect is affected by <h>Firepower</h> {FlandreValue2} time$t(plurals.-s, { 'count': {{FlandreValue2}} }).<br />Trigger <h>Hellfire</h> of each enemy {Value3:plural one='% time' other='% times'}.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Hellfire</h> to each enemy.<br />This effect is affected by <h>Firepower</h> {FlandreValue2} time$t(plurals.-s, { 'count': {{FlandreValue2}} }).<br />Trigger <h>Hellfire</h> of each enemy {Value3:plural one='% time' other='% times'}."
   },
   "FlandreLittleJeweler": {
     "Name": "Little Jeweler",
@@ -909,8 +909,8 @@
   },
   "FlandreMindsEye": {
     "Name": "Mind's Eye",
-    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />The next {FlandreValue1:plural one='% time' other='% times'} <PlayerName /> deals or takes attack damage, double the damage dealt or halve the damage taken.",
-    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />The next {FlandreValue1:plural one='% time' other='% times'} <PlayerName /> deals or takes attack damage, double the damage dealt or halve the damage taken."
+    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />The next {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }) <PlayerName /> deals or takes attack damage, double the damage dealt or halve the damage taken.",
+    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />The next {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }) <PlayerName /> deals or takes attack damage, double the damage dealt or halve the damage taken."
   },
   "FlandreMPBullofPhalaris": {
     "Name": "Bull of Phalaris",
@@ -924,8 +924,8 @@
   },
   "FlandreMPEnfantTerrible": {
     "Name": "Enfant Terrible",
-    "Description": "Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.<br />Enemies deal <Value2 />% less attack damage for the next {Value3:plural one='% turn' other='% turns'}.<br />All <h>Partners</h> deal {Value4}% less attack damage for the next {Value5:plural one='% turn' other='% turns'}.<br />Gain {Value6} <h>Madness</h>.",
-    "UpgradedDescription": "Deal {FlandreDamage} damage to each enemy {FlandreValue1:plural one='% time' other='% times'}.<br />Enemies deal <Value2 />% less attack damage for the next {Value3:plural one='% turn' other='% turns'}.<br />All <h>Partners</h> deal {Value4}% less attack damage for the next {Value5:plural one='% turn' other='% turns'}.<br />Gain {Value6} <h>Madness</h>."
+    "Description": "Deal {FlandreDamage} damage to each enemy {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br />Enemies deal <Value2 />% less attack damage for the next {Value3:plural one='% turn' other='% turns'}.<br />All <h>Partners</h> deal {Value4}% less attack damage for the next {Value5:plural one='% turn' other='% turns'}.<br />Gain {Value6} <h>Madness</h>.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage to each enemy {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br />Enemies deal <Value2 />% less attack damage for the next {Value3:plural one='% turn' other='% turns'}.<br />All <h>Partners</h> deal {Value4}% less attack damage for the next {Value5:plural one='% turn' other='% turns'}.<br />Gain {Value6} <h>Madness</h>."
   },
   "FlandreMPFirestorm": {
     "Name": "Firestorm",
@@ -944,8 +944,8 @@
   },
   "FlandreMPMagicalCheering": {
     "Name": "Magical Cheering",
-    "Description": "All players gain {FlandreMana}.<br />All players <h>Upgrade</h> all cards in the hand {FlandreValue1:plural one='% time' other='% times'} until the end of combat.<br /><h>Scaled</h> {Mana2}.",
-    "UpgradedDescription": "All players gain {FlandreMana}.<br />All players <h>Upgrade</h> all cards in the hand {FlandreValue1:plural one='% time' other='% times'} until the end of combat.<br /><h>Scaled</h> {Mana2}."
+    "Description": "All players gain {FlandreMana}.<br />All players <h>Upgrade</h> all cards in the hand {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }) until the end of combat.<br /><h>Scaled</h> {Mana2}.",
+    "UpgradedDescription": "All players gain {FlandreMana}.<br />All players <h>Upgrade</h> all cards in the hand {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }) until the end of combat.<br /><h>Scaled</h> {Mana2}."
   },
   "FlandreMPPhantomPain": {
     "Name": "Phantom Pain",
@@ -964,8 +964,8 @@
   },
   "FlandreMurderMystery": {
     "Name": "Murder Mystery",
-    "Description": "Gain {FlandreValue1} <h>Calamity</h>.<br />Draw {FlandreValue2:plural one='% card' other='% cards'}.",
-    "UpgradedDescription": "Gain {FlandreValue1} <h>Calamity</h>.<br />Draw {FlandreValue2:plural one='% card' other='% cards'}."
+    "Description": "Gain {FlandreValue1} <h>Calamity</h>.<br />Draw {FlandreValue2} card$t(plurals.-s, { 'count': {{FlandreValue2}} }).",
+    "UpgradedDescription": "Gain {FlandreValue1} <h>Calamity</h>.<br />Draw {FlandreValue2} card$t(plurals.-s, { 'count': {{FlandreValue2}} })."
   },
   "FlandreNoMercy": {
     "Name": "No Mercy",
@@ -984,18 +984,18 @@
   },
   "FlandrePartnersinCrime": {
     "Name": "Partners in Crime",
-    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />Deal {FlandreDamage} damage.<br />Play up to {FlandreValue1:plural one='% card' other='% cards'} in the hand.<br />For each attack card played this way, gain {FlandreValue2} <h>Firepower</h>. For each defense card played this way, gain {FlandreValue2} <h>Spirit</h>.",
-    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />Deal {FlandreDamage} damage.<br />Play up to {FlandreValue1:plural one='% card' other='% cards'} in the hand.<br />For each attack card played this way, gain {FlandreValue2} <h>Firepower</h>. For each defense card played this way, gain {FlandreValue2} <h>Spirit</h>."
+    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />Deal {FlandreDamage} damage.<br />Play up to {FlandreValue1} card$t(plurals.-s, { 'count': {{FlandreValue1}} }) in the hand.<br />For each attack card played this way, gain {FlandreValue2} <h>Firepower</h>. For each defense card played this way, gain {FlandreValue2} <h>Spirit</h>.",
+    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />Deal {FlandreDamage} damage.<br />Play up to {FlandreValue1} card$t(plurals.-s, { 'count': {{FlandreValue1}} }) in the hand.<br />For each attack card played this way, gain {FlandreValue2} <h>Firepower</h>. For each defense card played this way, gain {FlandreValue2} <h>Spirit</h>."
   },
   "FlandrePathofDestruction": {
     "Name": "Path of Destruction",
-    "Description": "<h>Offering</h> <Value1 />.<br />Gain {FlandreBlock} <h>Block</h>.<br />Draw {FlandreValue2:plural one='% card' other='% cards'}.",
-    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Gain {FlandreBlock} <h>Block</h>.<br />Draw {FlandreValue2:plural one='% card' other='% cards'}."
+    "Description": "<h>Offering</h> <Value1 />.<br />Gain {FlandreBlock} <h>Block</h>.<br />Draw {FlandreValue2} card$t(plurals.-s, { 'count': {{FlandreValue2}} }).",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Gain {FlandreBlock} <h>Block</h>.<br />Draw {FlandreValue2} card$t(plurals.-s, { 'count': {{FlandreValue2}} })."
   },
   "FlandrePlayTogether": {
     "Name": "Play Together",
-    "Description": "<h>Debut</h>: Gain {FlandreValue1} <h>Firepower</h>.<br />Choose up to {FlandreValue2:plural one='% card' other='% cards'} from the discard pile and return {FlandreValue2:plural one='it' other='them'} to the hand.",
-    "UpgradedDescription": "<h>Debut</h>: Gain {FlandreValue1} <h>Firepower</h>.<br />Choose up to {FlandreValue2:plural one='% card' other='% cards'} from the discard pile and return {FlandreValue2:plural one='it' other='them'} to the hand."
+    "Description": "<h>Debut</h>: Gain {FlandreValue1} <h>Firepower</h>.<br />Choose up to {FlandreValue2} card$t(plurals.-s, { 'count': {{FlandreValue2}} }) from the discard pile and return {FlandreValue2:plural one='it' other='them'} to the hand.",
+    "UpgradedDescription": "<h>Debut</h>: Gain {FlandreValue1} <h>Firepower</h>.<br />Choose up to {FlandreValue2} card$t(plurals.-s, { 'count': {{FlandreValue2}} }) from the discard pile and return {FlandreValue2:plural one='it' other='them'} to the hand."
   },
   "FlandrePrayerofRuin": {
     "Name": "Prayer of Ruin",
@@ -1004,8 +1004,8 @@
   },
   "FlandreRecklessBullet": {
     "Name": "Reckless Bullet",
-    "Description": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br />Add {FlandreValue2} <hp>random</hp> <h>Crystal{FlandreValue2:plural one='' other='s'}</h> to the hand.",
-    "UpgradedDescription": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br />Add {FlandreValue2} <hp>random</hp> <h>Crystal{FlandreValue2:plural one='' other='s'}+{Value3}</h> to the hand."
+    "Description": "Deal {FlandreDamage} damage {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br />Add {FlandreValue2} <hp>random</hp> <h>Crystal{FlandreValue2:plural one='' other='s'}</h> to the hand.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br />Add {FlandreValue2} <hp>random</hp> <h>Crystal{FlandreValue2:plural one='' other='s'}+{Value3}</h> to the hand."
   },
   "FlandreReliableLittleSister": {
     "Name": "Reliable Little Sister",
@@ -1014,8 +1014,8 @@
   },
   "FlandreRipandTear": {
     "Name": "Rip and Tear",
-    "Description": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br />If the target has {FlandreValue2} or less life, <h>Destroy</h> it.",
-    "UpgradedDescription": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br />If the target has {FlandreValue2} or less life, <h>Destroy</h> it."
+    "Description": "Deal {FlandreDamage} damage {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br />If the target has {FlandreValue2} or less life, <h>Destroy</h> it.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br />If the target has {FlandreValue2} or less life, <h>Destroy</h> it."
   },
   "FlandreRipplesof495Years": {
     "Name": "Ripples of 495 Years",
@@ -1044,8 +1044,8 @@
   },
   "FlandreScaryLittleSister": {
     "Name": "Scary Little Sister",
-    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Apply {FlandreValue1} <h>Weak</h> to each enemy.<br /><h>When Exiled</h>: Gain {FlandreMana} and draw {FlandreValue2:plural one='% card' other='% cards'}.",
-    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Apply {FlandreValue1} <h>Weak</h> to each enemy.<br /><h>When Exiled</h>: Gain {FlandreMana} and draw {FlandreValue2:plural one='% card' other='% cards'}."
+    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Apply {FlandreValue1} <h>Weak</h> to each enemy.<br /><h>When Exiled</h>: Gain {FlandreMana} and draw {FlandreValue2} card$t(plurals.-s, { 'count': {{FlandreValue2}} }).",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Apply {FlandreValue1} <h>Weak</h> to each enemy.<br /><h>When Exiled</h>: Gain {FlandreMana} and draw {FlandreValue2} card$t(plurals.-s, { 'count': {{FlandreValue2}} })."
   },
   "FlandreSisteroftheDevil": {
     "Name": "Sister of the Devil",
@@ -1054,8 +1054,8 @@
   },
   "FlandreSoulMelter": {
     "Name": "Soul Melter",
-    "Description": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br />Apply {FlandreValue2} <h>Hellfire</h> and {Value3} <h>Ruin</h>.<br /><h>Expel</h>: Gain {Value4} maximum life.",
-    "UpgradedDescription": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br />Apply {FlandreValue2} <h>Hellfire</h> and {Value3} <h>Ruin</h>.<br /><h>Expel</h>: Gain {Value4} maximum life."
+    "Description": "Deal {FlandreDamage} damage {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br />Apply {FlandreValue2} <h>Hellfire</h> and {Value3} <h>Ruin</h>.<br /><h>Expel</h>: Gain {Value4} maximum life.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br />Apply {FlandreValue2} <h>Hellfire</h> and {Value3} <h>Ruin</h>.<br /><h>Expel</h>: Gain {Value4} maximum life."
   },
   "FlandreSpectrometer": {
     "Name": "Spectrometer",
@@ -1069,8 +1069,8 @@
   },
   "FlandreStarbowBreak": {
     "Name": "Starbow Break",
-    "Description": "<h>For each mana of a different color spent</h>: Deal {FlandreDamage} damage to each enemy.<br /><SelfName /> deals {FlandreValue1} more damage for each attack card in the hand.<br />Enemies with <h>Barrier</h> or <h>Block</h> are dealt {FlandreValue2:plural one='% time' other='% times'} that much damage instead.",
-    "UpgradedDescription": "<h>For each mana of a different color spent</h>: Deal {FlandreDamage} damage to each enemy.<br /><SelfName /> deals {FlandreValue1} more damage for each attack card in the hand.<br />Enemies with <h>Barrier</h> or <h>Block</h> are dealt {FlandreValue2:plural one='% time' other='% times'} that much damage instead."
+    "Description": "<h>For each mana of a different color spent</h>: Deal {FlandreDamage} damage to each enemy.<br /><SelfName /> deals {FlandreValue1} more damage for each attack card in the hand.<br />Enemies with <h>Barrier</h> or <h>Block</h> are dealt {FlandreValue2} time$t(plurals.-s, { 'count': {{FlandreValue2}} }) that much damage instead.",
+    "UpgradedDescription": "<h>For each mana of a different color spent</h>: Deal {FlandreDamage} damage to each enemy.<br /><SelfName /> deals {FlandreValue1} more damage for each attack card in the hand.<br />Enemies with <h>Barrier</h> or <h>Block</h> are dealt {FlandreValue2} time$t(plurals.-s, { 'count': {{FlandreValue2}} }) that much damage instead."
   },
   "FlandreStraightFlush": {
     "Name": "Straight Flush",
@@ -1085,7 +1085,7 @@
   "FlandreTheCentennialFestivalforMagicalGirls": {
     "Name": "The Centennial Festival for Magical Girls",
     "Description": "All <h>Magical Girl</h> cards can be <h>Upgraded</h> <Value1 />additional time$t(plurals.-s, { 'count': {{Value1}} }).<br />All <h>Flandre</h> cards gain <h>Magical Girl</h> until the end of combat.<br />Whenever <PlayerName /> adds a card during this combat, <h>Upgrade</h> it.<br />These effects does not stack.",
-    "UpgradedDescription": "All <h>Magical Girl</h> cards can be <h>Upgraded</h> <Value1 />additional time$t(plurals.-s, { 'count': {{Value1}} }).<br />All <h>Flandre</h> cards gain <h>Magical Girl</h> until the end of combat.<br />Whenever <PlayerName /> adds a card during this combat, <h>Upgrade</h> it.<br />These effects does not stack.<br /><h>Upgrade</h> all cards {FlandreValue2:plural one='% time' other='% times'} until the end of combat."
+    "UpgradedDescription": "All <h>Magical Girl</h> cards can be <h>Upgraded</h> <Value1 />additional time$t(plurals.-s, { 'count': {{Value1}} }).<br />All <h>Flandre</h> cards gain <h>Magical Girl</h> until the end of combat.<br />Whenever <PlayerName /> adds a card during this combat, <h>Upgrade</h> it.<br />These effects does not stack.<br /><h>Upgrade</h> all cards {FlandreValue2} time$t(plurals.-s, { 'count': {{FlandreValue2}} }) until the end of combat."
   },
   "FlandreTheMousetrap": {
     "Name": "The Mousetrap",
@@ -1152,8 +1152,8 @@
   },
   "FlandreViolentSpread": {
     "Name": "Violent Spread",
-    "Description": "Deal {FlandreDamage} damage to a <hp>random</hp> enemy {FlandreValue1:plural one='% time' other='% times'}.<br />Gain {FlandreValue2} <h>Calamity</h>.",
-    "UpgradedDescription": "Deal {FlandreDamage} damage to a <hp>random</hp> enemy {FlandreValue1:plural one='% time' other='% times'}.<br />Gain {FlandreValue2} <h>Calamity</h>."
+    "Description": "Deal {FlandreDamage} damage to a <hp>random</hp> enemy {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br />Gain {FlandreValue2} <h>Calamity</h>.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage to a <hp>random</hp> enemy {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br />Gain {FlandreValue2} <h>Calamity</h>."
   },
   "FlandreWalpurgisNight": {
     "Name": "Walpurgis Night",
@@ -1172,8 +1172,8 @@
   },
   "FlandreWhitefire": {
     "Name": "Whitefire",
-    "Description": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br /><h>Upgrade</h> all cards in the hand {FlandreValue2:plural one='% time' other='% times'} until the end of combat.",
-    "UpgradedDescription": "Deal {FlandreDamage} damage {FlandreValue1:plural one='% time' other='% times'}.<br /><h>Upgrade</h> all cards in the hand {FlandreValue2:plural one='% time' other='% times'} until the end of combat."
+    "Description": "Deal {FlandreDamage} damage {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br /><h>Upgrade</h> all cards in the hand {FlandreValue2} time$t(plurals.-s, { 'count': {{FlandreValue2}} }) until the end of combat.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br /><h>Upgrade</h> all cards in the hand {FlandreValue2} time$t(plurals.-s, { 'count': {{FlandreValue2}} }) until the end of combat."
   },
 
   "cardadrenaline": {
