@@ -579,8 +579,8 @@
   },
   "FlandreColorofMadness": {
     "Name": "Color of Madness",
-    "Description": "<h>Offering</h> <Value1 />.<br />Whenever an attack card is activated, play {FlandreValue2} random <h>Crystal{FlandreValue2:plural one='' other='s'}</h>.",
-    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Whenever an attack card is activated, play {FlandreValue2} random <h>Crystal{FlandreValue2:plural one='' other='s'}</h>."
+    "Description": "<h>Offering</h> <Value1 />.<br />Whenever an attack card is activated, play {FlandreValue2} random <h>Crystal$t(plurals.-s, { 'count': {{FlandreValue2}} })</h>.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Whenever an attack card is activated, play {FlandreValue2} random <h>Crystal$t(plurals.-s, { 'count': {{FlandreValue2}} })</h>."
   },
   "FlandreCombatHigh": {
     "Name": "Combat High",
@@ -604,13 +604,13 @@
   },
   "FlandreCrystallineOutburst": {
     "Name": "Crystalline Outburst",
-    "Description": "<h>Offering</h> <Value1 />.<br />Whenever all of <h>Crystallized Chaos</h>, <h>Crystallized Devilry</h>, <h>Crystallized Lunacy</h>, and <h>Crystallized Solitude</h> are activated, add {FlandreValue2} <h>Crystallized Catastrophe{FlandreValue2:plural one='' other='s'}</h> to the hand.",
-    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Whenever all of <h>Crystallized Chaos</h>, <h>Crystallized Devilry</h>, <h>Crystallized Lunacy</h>, and <h>Crystallized Solitude</h> are activated, add {FlandreValue2} <h>Crystallized Catastrophe{FlandreValue2:plural one='' other='s'}</h> to the hand.<br />Add {Value3} <h>Crystals</h> to the draw pile."
+    "Description": "<h>Offering</h> <Value1 />.<br />Whenever all of <h>Crystallized Chaos</h>, <h>Crystallized Devilry</h>, <h>Crystallized Lunacy</h>, and <h>Crystallized Solitude</h> are activated, add {FlandreValue2} <h>Crystallized Catastrophe$t(plurals.-s, { 'count': {{FlandreValue2}} })</h> to the hand.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Whenever all of <h>Crystallized Chaos</h>, <h>Crystallized Devilry</h>, <h>Crystallized Lunacy</h>, and <h>Crystallized Solitude</h> are activated, add {FlandreValue2} <h>Crystallized Catastrophe$t(plurals.-s, { 'count': {{FlandreValue2}} })</h> to the hand.<br />Add {Value3} <h>Crystals</h> to the draw pile."
   },
   "FlandreCrystallization": {
     "Name": "Crystallization",
-    "Description": "<h>Offering</h> <Value1 />.<br />Add {FlandreValue2} <hp>random</hp> <h>Crystal{FlandreValue2:plural one='' other='s'}</h> to the hand.",
-    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Add {FlandreValue2} <hp>random</hp> <h>Crystal{FlandreValue2:plural one='' other='s'}+{Value3}</h> to the hand."
+    "Description": "<h>Offering</h> <Value1 />.<br />Add {FlandreValue2} <hp>random</hp> <h>Crystal$t(plurals.-s, { 'count': {{FlandreValue2}} })</h> to the hand.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Add {FlandreValue2} <hp>random</hp> <h>Crystal$t(plurals.-s, { 'count': {{FlandreValue2}} })+{Value3}</h> to the hand."
   },
   "FlandreCrystallizedCatastrophe": {
     "Name": "Crystallized Catastrophe",
@@ -649,8 +649,8 @@
   },
   "FlandreDeathorTreat": {
     "Name": "Death or Treat",
-    "Description": "<h>Offering</h> <Value1 />.<br />Add {FlandreValue2} <h>Crystallized Devilry{FlandreValue2:plural one='' other='s'}</h> to the hand.<br /><h>Debut</h>: Gain {Value3} <h>Calamity</h>.",
-    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Add {FlandreValue2} <h>Crystallized Devilry{FlandreValue2:plural one='' other='s'}+{Value4}</h> to the hand.<br /><h>Debut</h>: Gain {Value3} <h>Calamity</h>."
+    "Description": "<h>Offering</h> <Value1 />.<br />Add {FlandreValue2} <h>Crystallized Devilry$t(plurals.-s, { 'count': {{FlandreValue2}} })</h> to the hand.<br /><h>Debut</h>: Gain {Value3} <h>Calamity</h>.",
+    "UpgradedDescription": "<h>Offering</h> <Value1 />.<br />Add {FlandreValue2} <h>Crystallized Devilry$t(plurals.-s, { 'count': {{FlandreValue2}} })+{Value4}</h> to the hand.<br /><h>Debut</h>: Gain {Value3} <h>Calamity</h>."
   },
   "FlandreDeliciousHeart": {
     "Name": "Delicious Heart",
@@ -729,8 +729,8 @@
   },
   "FlandreFlancanCook": {
     "Name": "Flan can Cook!",
-    "Description": "<h>For each <Mana /> spent</h>: <h>Upgrade</h> <SelfName />.<br />Choose up to {FlandreValue1} of {FlandreValue2} <hp>random</hp> <h>Flandre</h> card{FlandreValue2:plural one='' other='s'} to add to the hand. Prioritizes lower rarity cards. $t(subjects.It, { 'count': {{FlandreValue1}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{FlandreValue1}} })</h> {Mana2} and $t(subjects.has, { 'count': {{FlandreValue1}} }) <h>Exile</h> and <h>Ethereal</h>.<br /><SelfName /> can be <h>Upgraded</h> up to {Value3} time$t(plurals.-s, { 'count': {{Value3}} }) regardless of <h>Magical Girl</h>.",
-    "UpgradedDescription": "<h>For each <Mana /> spent</h>: <h>Upgrade</h> <SelfName />.<br />Choose up to {FlandreValue1} of {FlandreValue2} <hp>random</hp> <h>Flandre</h> card{FlandreValue2:plural one='' other='s'} to add to the hand. Prioritizes lower rarity cards. $t(subjects.It, { 'count': {{FlandreValue1}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{FlandreValue1}} })</h> {Mana2} and $t(subjects.has, { 'count': {{FlandreValue1}} }) <h>Exile</h> and <h>Ethereal</h>.<br /><SelfName /> can be <h>Upgraded</h> up to {Value3} time$t(plurals.-s, { 'count': {{Value3}} }) regardless of <h>Magical Girl</h>."
+    "Description": "<h>For each <Mana /> spent</h>: <h>Upgrade</h> <SelfName />.<br />Choose up to {FlandreValue1} of {FlandreValue2} <hp>random</hp> <h>Flandre</h> card$t(plurals.-s, { 'count': {{FlandreValue2}} }) to add to the hand. Prioritizes lower rarity cards. $t(subjects.It, { 'count': {{FlandreValue1}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{FlandreValue1}} })</h> {Mana2} and $t(subjects.has, { 'count': {{FlandreValue1}} }) <h>Exile</h> and <h>Ethereal</h>.<br /><SelfName /> can be <h>Upgraded</h> up to {Value3} time$t(plurals.-s, { 'count': {{Value3}} }) regardless of <h>Magical Girl</h>.",
+    "UpgradedDescription": "<h>For each <Mana /> spent</h>: <h>Upgrade</h> <SelfName />.<br />Choose up to {FlandreValue1} of {FlandreValue2} <hp>random</hp> <h>Flandre</h> card$t(plurals.-s, { 'count': {{FlandreValue2}} }) to add to the hand. Prioritizes lower rarity cards. $t(subjects.It, { 'count': {{FlandreValue1}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{FlandreValue1}} })</h> {Mana2} and $t(subjects.has, { 'count': {{FlandreValue1}} }) <h>Exile</h> and <h>Ethereal</h>.<br /><SelfName /> can be <h>Upgraded</h> up to {Value3} time$t(plurals.-s, { 'count': {{Value3}} }) regardless of <h>Magical Girl</h>."
   },
   "FlandreForbiddenFruit": {
     "Name": "Forbidden Fruit",
@@ -774,7 +774,7 @@
   },
   "FlandreFriendOkina": {
     "Name": "Okina, Absolute Secret God",
-    "PassiveDescription": "<hf>Power of Secret</hf>: Whenever <Value1 /> multicolored card{FlandreValue2:plural one=' is' other='s are'} activated, gain {FlandreMana} and gain {FlandrePassiveBarrier} <h>Barrier</h>.",
+    "PassiveDescription": "<hf>Power of Secret</hf>: Whenever <Value1 /> multicolored card$t(plurals.-s, { 'count': {{FlandreValue2}} }) $t(subjects.is, { 'count': {{FlandreValue2}} }) activated, gain {FlandreMana} and gain {FlandrePassiveBarrier} <h>Barrier</h>.",
     "ActiveDescription": "<ha>Season Release</ha>: Choose 1 of <Value2 /> <h>Seasons</h>. <SelfName /> gains their effects.",
     "UltimateDescription": "<hu>「Concealed Spacetime Fantasy Tour」</hu>: At the start of <PlayerName />'s turn, choose 1 of {Value3} <hp>completely random</hp> Rare card$t(plurals.-s, { 'count': {{Value2}} }) to add to the hand. It <h>temporarily costs</h> <Mana /> and has <h>Exile</h> and <h>Ethereal</h>."
   },
@@ -899,13 +899,13 @@
   },
   "FlandreMagicalTechnique": {
     "Name": "Magical Technique",
-    "Description": "Choose up to {FlandreValue1} of {FlandreValue2} <hp>random</hp> Common card{FlandreValue2:plural one='' other='s'} to play it.<br />Return <SelfName /> to the hand.<br /><SelfName /> costs <Mana /> more this turn.",
-    "UpgradedDescription": "Choose up to {FlandreValue1} of {FlandreValue2} <hp>random</hp> Common card{FlandreValue2:plural one='' other='s'} to play it.<br />Return <SelfName /> to the hand.<br /><SelfName /> costs <Mana /> more this turn."
+    "Description": "Choose up to {FlandreValue1} of {FlandreValue2} <hp>random</hp> Common card$t(plurals.-s, { 'count': {{FlandreValue2}} }) to play it.<br />Return <SelfName /> to the hand.<br /><SelfName /> costs <Mana /> more this turn.",
+    "UpgradedDescription": "Choose up to {FlandreValue1} of {FlandreValue2} <hp>random</hp> Common card$t(plurals.-s, { 'count': {{FlandreValue2}} }) to play it.<br />Return <SelfName /> to the hand.<br /><SelfName /> costs <Mana /> more this turn."
   },
   "FlandreMazeofLove": {
     "Name": "Maze of Love",
-    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Weak</h> to each enemy.<br />Play {FlandreValue2} <hp>random</hp> <h>Crystal{FlandreValue2:plural one='' other='s'}</h> to each enemy.",
-    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Weak</h> to each enemy.<br />Play {FlandreValue2} <hp>random</hp> <h>Crystal{FlandreValue2:plural one='' other='s'}</h> to each enemy."
+    "Description": "Gain {FlandreShield} <h>Barrier</h>.<br />Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Weak</h> to each enemy.<br />Play {FlandreValue2} <hp>random</hp> <h>Crystal$t(plurals.-s, { 'count': {{FlandreValue2}} })</h> to each enemy.",
+    "UpgradedDescription": "Gain {FlandreShield} <h>Barrier</h>.<br />Deal {FlandreDamage} damage and apply {FlandreValue1} <h>Weak</h> to each enemy.<br />Play {FlandreValue2} <hp>random</hp> <h>Crystal$t(plurals.-s, { 'count': {{FlandreValue2}} })</h> to each enemy."
   },
   "FlandreMindsEye": {
     "Name": "Mind's Eye",
@@ -959,8 +959,8 @@
   },
   "FlandreMPRiggedGame": {
     "Name": "Rigged Game",
-    "Description": "All players gain {FlandreValue1} <h>Temporary Firepower</h> and <h>Temporary Spirit</h>.<br />All players put the next {FlandreValue2} rare card{FlandreValue2:plural one='' other='s'} sent to the discard pile on top of the draw pile.<br /><h>Scaled</h> <Mana />.",
-    "UpgradedDescription": "All players gain {FlandreValue1} <h>Temporary Firepower</h> and <h>Temporary Spirit</h>.<br />All players put the next {FlandreValue2} rare card{FlandreValue2:plural one='' other='s'} sent to the discard pile on top of the draw pile.<br /><h>Scaled</h> <Mana />."
+    "Description": "All players gain {FlandreValue1} <h>Temporary Firepower</h> and <h>Temporary Spirit</h>.<br />All players put the next {FlandreValue2} rare card$t(plurals.-s, { 'count': {{FlandreValue2}} }) sent to the discard pile on top of the draw pile.<br /><h>Scaled</h> <Mana />.",
+    "UpgradedDescription": "All players gain {FlandreValue1} <h>Temporary Firepower</h> and <h>Temporary Spirit</h>.<br />All players put the next {FlandreValue2} rare card$t(plurals.-s, { 'count': {{FlandreValue2}} }) sent to the discard pile on top of the draw pile.<br /><h>Scaled</h> <Mana />."
   },
   "FlandreMurderMystery": {
     "Name": "Murder Mystery",
@@ -969,13 +969,13 @@
   },
   "FlandreNoMercy": {
     "Name": "No Mercy",
-    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Put the {FlandreValue1} topmost attack card$t(plurals.-s, { 'count': {{FlandreValue1}} }) from the draw pile into the hand.<br />The next {FlandreValue2} attack card{FlandreValue2:plural one='' other='s'} played cost{FlandreValue2:plural one='s' other=''} <Mana /> to play.<br />Gain {Value3} <h>Madness</h>.",
-    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Put the {FlandreValue1} topmost attack card$t(plurals.-s, { 'count': {{FlandreValue1}} }) from the draw pile into the hand.<br />The next {FlandreValue2} attack card{FlandreValue2:plural one='' other='s'} played cost{FlandreValue2:plural one='s' other=''} <Mana /> to play.<br />Gain {Value3} <h>Madness</h>."
+    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Put the {FlandreValue1} topmost attack card$t(plurals.-s, { 'count': {{FlandreValue1}} }) from the draw pile into the hand.<br />The next {FlandreValue2} attack card$t(plurals.-s, { 'count': {{FlandreValue2}} }) played cost{FlandreValue2:plural one='s' other=''} <Mana /> to play.<br />Gain {Value3} <h>Madness</h>.",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Put the {FlandreValue1} topmost attack card$t(plurals.-s, { 'count': {{FlandreValue1}} }) from the draw pile into the hand.<br />The next {FlandreValue2} attack card$t(plurals.-s, { 'count': {{FlandreValue2}} }) played cost{FlandreValue2:plural one='s' other=''} <Mana /> to play.<br />Gain {Value3} <h>Madness</h>."
   },
   "FlandreOnePair": {
     "Name": "One Pair",
-    "Description": "Choose a non-<h>Misfortune</h>, non-Status card in the hand.<br />Choose up to {FlandreValue1} of {FlandreValue2} <hp>random</hp> card{FlandreValue2:plural one='' other='s'} of the same type to add to the hand. $t(subjects.It, { 'count': {{FlandreValue1}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{FlandreValue1}} })</h> <Mana /> and $t(subjects.has, { 'count': {{FlandreValue1}} }) <h>Exile</h> and <h>Ethereal</h>.",
-    "UpgradedDescription": "Choose a non-<h>Misfortune</h>, non-Status card in the hand.<br />Choose up to {FlandreValue1} of {FlandreValue2} <hp>random</hp> card{FlandreValue2:plural one='' other='s'} of the same type to add to the hand. $t(subjects.It, { 'count': {{FlandreValue1}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{FlandreValue1}} })</h> <Mana /> and $t(subjects.has, { 'count': {{FlandreValue1}} }) <h>Exile</h> and <h>Ethereal</h>."
+    "Description": "Choose a non-<h>Misfortune</h>, non-Status card in the hand.<br />Choose up to {FlandreValue1} of {FlandreValue2} <hp>random</hp> card$t(plurals.-s, { 'count': {{FlandreValue2}} }) of the same type to add to the hand. $t(subjects.It, { 'count': {{FlandreValue1}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{FlandreValue1}} })</h> <Mana /> and $t(subjects.has, { 'count': {{FlandreValue1}} }) <h>Exile</h> and <h>Ethereal</h>.",
+    "UpgradedDescription": "Choose a non-<h>Misfortune</h>, non-Status card in the hand.<br />Choose up to {FlandreValue1} of {FlandreValue2} <hp>random</hp> card$t(plurals.-s, { 'count': {{FlandreValue2}} }) of the same type to add to the hand. $t(subjects.It, { 'count': {{FlandreValue1}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{FlandreValue1}} })</h> <Mana /> and $t(subjects.has, { 'count': {{FlandreValue1}} }) <h>Exile</h> and <h>Ethereal</h>."
   },
   "FlandreOrthrusBrigantine": {
     "Name": "Orthrus Brigantine",
@@ -1004,8 +1004,8 @@
   },
   "FlandreRecklessBullet": {
     "Name": "Reckless Bullet",
-    "Description": "Deal {FlandreDamage} damage {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br />Add {FlandreValue2} <hp>random</hp> <h>Crystal{FlandreValue2:plural one='' other='s'}</h> to the hand.",
-    "UpgradedDescription": "Deal {FlandreDamage} damage {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br />Add {FlandreValue2} <hp>random</hp> <h>Crystal{FlandreValue2:plural one='' other='s'}+{Value3}</h> to the hand."
+    "Description": "Deal {FlandreDamage} damage {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br />Add {FlandreValue2} <hp>random</hp> <h>Crystal$t(plurals.-s, { 'count': {{FlandreValue2}} })</h> to the hand.",
+    "UpgradedDescription": "Deal {FlandreDamage} damage {FlandreValue1} time$t(plurals.-s, { 'count': {{FlandreValue1}} }).<br />Add {FlandreValue2} <hp>random</hp> <h>Crystal$t(plurals.-s, { 'count': {{FlandreValue2}} })+{Value3}</h> to the hand."
   },
   "FlandreReliableLittleSister": {
     "Name": "Reliable Little Sister",
