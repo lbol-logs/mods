@@ -312,7 +312,7 @@
   },
   "FlandreFriendOkinaSe": {
     "Name": "隐秘时空幻想之旅",
-    "Description": "在 {隐秘的时空幻游} 的回合开始时，从 <Level /> 张 <hp>完全随机</hp> 的稀有牌{Level:plural one='' other=''} 中选择 1 张加入手牌。它临时消耗 {Mana} 并具有<h>放逐</h>和 <h>虚无</h>。"
+    "Description": "在 <PlayerName /> 的回合开始时，从 <Level /> 张 <hp>完全随机</hp> 的稀有牌{Level:plural one='' other=''} 中选择 1 张加入手牌。它临时消耗 {Mana} 并具有<h>放逐</h>和 <h>虚无</h>。"
   },
   "FlandreFriendOkinaSpringSe": {
     "Name": "里·吹拂樱花",
@@ -320,7 +320,7 @@
   },
   "FlandreFriendOkinaSummerSe": {
     "Name": "里·完美夏冰",
-    "Description": "每当 <PlayerName /> 使用 {Limit:plural one='% 张牌' other='% 张牌'} 时，对每个敌人造成 <Level /> <h>精准</h> 攻击伤害并施加 <h>寒冷</h>。<br />剩余 {Count:plural one='% 张牌' other='% 张牌'}。"
+    "Description": "每当 <PlayerName /> 使用 <Limit /> 张牌 时，对每个敌人造成 <Level /> <h>精准</h> 攻击伤害并施加 <h>寒冷</h>。<br />剩余 {Count:plural one='% 张牌' other='% 张牌'}。"
   },
   "FlandreFriendOkinaWinterSe": {
     "Name": "里·极端寒冬",
@@ -344,7 +344,7 @@
   },
   "FlandreMindsEyeSe": {
     "Name": "心眼",
-    "Description": "接下来的 {Level:plural one='% 次' other='% 次'} <PlayerName /> 造成或受到攻击伤害时，双倍伤害或防止伤害。"
+    "Description": "接下来的 <Level /> 次 <PlayerName /> 造成或受到攻击伤害时，双倍伤害或防止伤害。"
   },
   "FlandrePassiveSe": {
     "Name": "绯红之血的恶魔",
@@ -372,7 +372,7 @@
   },
   "FlandreTheMousetrapSe": {
     "Name": "捕鼠夹",
-    "Description": "在 <PlayerName /> 的下一个 {Level:plural one='% 回合' other='% 回合'} 开始时，对每个敌人造成等于上回合所受伤害的伤害。<br />（累计伤害：<Count />）"
+    "Description": "在 <PlayerName /> 的下一个 <Level /> 回合 开始时，对每个敌人造成等于上回合所受伤害的伤害。<br />（累计伤害：<Count />）"
   },
   "FlandreThePsychoticandCuteGuestSe": {
     "Name": "狂气甜心",

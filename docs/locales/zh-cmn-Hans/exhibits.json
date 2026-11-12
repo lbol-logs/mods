@@ -1,4 +1,9 @@
 {
+  "subjects": {
+    "It": "它",
+    "-It_other": "它们"
+  },
+
   "Aya1up": {
     "Name": "1up",
     "Description": "下一次 <PlayerName /> 即将被击败时，恢复至最大生命值并移除所有减益。此效果仅生效一次。"
@@ -17,7 +22,7 @@
   },
   "AyaNewspaperBag": {
     "Name": "报纸袋",
-    "Description": "战斗开始时，将 {Value1:plural one='% <h>文文新闻</h>' other='% <h>文文新闻</h>'} 添加到抽牌堆。{Value1:plural one='它 <h>消耗</h>' other='它们 <h>消耗</h>'} <Mana />。"
+    "Description": "战斗开始时，将 <Value1 /> <h>文文新闻</h> 添加到抽牌堆。$t(subjects.It, { 'count': {{Value1}} }) <h>消耗</h> <Mana />。"
   },
   "AyaR": {
     "Name": "天狗团扇",

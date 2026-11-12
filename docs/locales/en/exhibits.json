@@ -17,7 +17,7 @@
   },
   "AyaNewspaperBag": {
     "Name": "Newspaper Bag",
-    "Description": "At the start of combat, add {Value1:plural one='% <h>Bunbunmaru Newspaper</h>' other='% <h>Bunbunmaru Newspapers</h>'} to the draw pile. {Value1:plural one='It <h>costs</h>' other='They <h>cost</h>'} <Mana />."
+    "Description": "At the start of combat, add <Value1 /> <h>Bunbunmaru Newspaper$t(plurals.-s, { 'count': {{Value1}} })</h> to the draw pile. $t(subjects.It, { 'count': {{Value1}} }) <h>cost$t(subjects.-s, { 'count': {{Value1}} })</h> <Mana />."
   },
   "AyaR": {
     "Name": "Hauchiwa Fan",

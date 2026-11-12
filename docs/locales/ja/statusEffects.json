@@ -5,7 +5,11 @@
     "turn": "次の",
     "turn_other": "<Count />ターン後",
     "until": "まで",
-    "until_other": ""
+    "until_other": "",
+    "rounds": "このラウンド終了まで",
+    "rounds_other": "次の<Duration />ラウンドの間",
+    "turns": "ターン終了時まで",
+    "turns_other": "次の<Duration />ターンの間"
   },
 
   "AyaAccelerationSe": {
@@ -42,7 +46,7 @@
   },
   "AyaBossKoishiSe": {
     "Name": "閉じた恋の瞳",
-    "Description": "<OwnerName />のライフは不明。<br /><OwnerName />のターン開始時、<h>ブロック</h>をすべて失う代わりに半分だけ失う。<br /><Limit />枚のカードがプレイされるたび、<PlayerName />のターンを終了せずに<OwnerName />が即座に一度行動する。<br /><hd>({Count:plural one='%枚残り' other='%枚残り'})</hd>"
+    "Description": "<OwnerName />のライフは不明。<br /><OwnerName />のターン開始時、<h>ブロック</h>をすべて失う代わりに半分だけ失う。<br /><Limit />枚のカードがプレイされるたび、<PlayerName />のターンを終了せずに<OwnerName />が即座に一度行動する。<br /><hd>(<Count />枚残り)</hd>"
   },
   "AyaBossZUNSe": {
     "Name": "博麗の神主",
@@ -274,7 +278,7 @@
   },
   "FlandreBloodisFuelSe": {
     "Name": "血は燃料",
-    "Description": "未使用のマナは次の{Duration:plural one='%ターン' other='%ターン'}の間失われない。"
+    "Description": "未使用のマナは次の<Duration />ターンの間失われない。"
   },
   "FlandreBloodlustSe": {
     "Name": "血の渇望",
@@ -286,7 +290,7 @@
   },
   "FlandreBloodyRequiemSe": {
     "Name": "ブラッディ・レクイエム",
-    "Description": "次の{Duration:plural one='%ターン' other='%ターン'}の間、すべての<h>フランドール</h>カードが<h>血の渇望</h>を得て、<h>血の渇望</h>は常に最大値で適用される。"
+    "Description": "次の<Duration />ターンの間、すべての<h>フランドール</h>カードが<h>血の渇望</h>を得て、<h>血の渇望</h>は常に最大値で適用される。"
   },
   "FlandreCalamitySe": {
     "Name": "災禍",
@@ -310,7 +314,7 @@
   },
   "FlandreCrystallineOutburstSe": {
     "Name": "結晶の爆発",
-    "Description": "<h>混沌のクリスタル</h>、<h>悪魔のクリスタル</h>、<h>狂気のクリスタル</h>、<h>孤独のクリスタル</h>がすべて発動すると、手札に<Level />枚の<h>破滅のクリスタル{Level:plural one='' other=''}</h>を加える。<br />（残り{Amount}：{Count:plural one='%枚' other='%枚'}）"
+    "Description": "<h>混沌のクリスタル</h>、<h>悪魔のクリスタル</h>、<h>狂気のクリスタル</h>、<h>孤独のクリスタル</h>がすべて発動すると、手札に<Level />枚の<h>破滅のクリスタル{Level:plural one='' other=''}</h>を加える。<br />（残り{Amount}：<Count />枚）"
   },
   "FlandreDanmakuofDenialSe": {
     "Name": "拒絶の弾幕",
@@ -330,7 +334,7 @@
   },
   "FlandreForbiddenGamesSe": {
     "Name": "禁じられた遊び",
-    "Description": "敵は{Duration:plural one='このラウンド終了まで' other='次の%ターンの間'}行動できない。"
+    "Description": "敵は$t(plurals.rounds, { 'count': {{Duration}} })行動できない。"
   },
   "FlandreForbiddenScarletCuriositySe": {
     "Name": "禁じられた紅輝心",
@@ -358,7 +362,7 @@
   },
   "FlandreFriendOkinaSummerSe": {
     "Name": "裏・パーフェクトサマーアイス",
-    "Description": "<PlayerName />が{Limit:plural one='%枚' other='%枚'}のカードを発動するたび、各敵に<Level />の<h>精密</h>な攻撃ダメージを与え、<h>凍結</h>を与える。<br />（残り{Count:plural one='%枚' other='%枚'}）"
+    "Description": "<PlayerName />が<Limit />枚のカードを発動するたび、各敵に<Level />の<h>精密</h>な攻撃ダメージを与え、<h>凍結</h>を与える。<br />（残り<Count />枚）"
   },
   "FlandreFriendOkinaWinterSe": {
     "Name": "裏・エクストリームウィンター",
@@ -406,7 +410,7 @@
   },
   "FlandreMPEnfantTerribleSe": {
     "Name": "アンファン・テリブル",
-    "Description": "<OwnerName />の攻撃は、{Duration:plural one='ターン終了時まで' other='次の%ターンの間'}、与えるダメージが<Limit />%減少する。"
+    "Description": "<OwnerName />の攻撃は、$t(plurals.turns, { 'count': {{Duration}} })、与えるダメージが<Limit />%減少する。"
   },
   "FlandreMPPhantomPainSe": {
     "Name": "ファントムペイン",
@@ -478,7 +482,7 @@
   },
   "FlandreTheMousetrapSe": {
     "Name": "ネズミ捕り",
-    "Description": "<PlayerName />の次の{Duration:plural one='% ターン' other='% ターン'}開始時、前のターンに受けたダメージと同じ量のダメージをすべての敵に与える。（<Count />）"
+    "Description": "<PlayerName />の次の<Duration /> ターン開始時、前のターンに受けたダメージと同じ量のダメージをすべての敵に与える。（<Count />）"
   },
   "FlandreThePsychoticandCuteGuestSe": {
     "Name": "狂カワなゲスト",
@@ -486,7 +490,7 @@
   },
   "FlandreUnholySanctuarySe": {
     "Name": "禁忌の聖域",
-    "Description": "<PlayerName />が受けるダメージが{Duration:plural one='% ターン' other='% ターン'}の間半分になる。<br /><PlayerName />の次の{Duration:plural one='% ターン' other='% ターン'}開始時、前のターンに失ったライフと同じ量のライフを回復する。（<Count />）"
+    "Description": "<PlayerName />が受けるダメージが<Duration /> ターンの間半分になる。<br /><PlayerName />の次の<Duration /> ターン開始時、前のターンに失ったライフと同じ量のライフを回復する。（<Count />）"
   },
   "FlandreUnstablePowerSe": {
     "Name": "不安定な力",

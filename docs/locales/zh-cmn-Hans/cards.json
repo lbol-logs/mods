@@ -1,4 +1,9 @@
 {
+  "subjects": {
+    "It": "它",
+    "-It_other": "它们"
+  },
+
   "AyaAdventoftheDivineGrandson": {
     "Name": "神孙降临",
     "Description": "获得 <Mana />。<br />抽牌直到手牌满。<br /><PlayerName /> 免疫所有负面状态。<br />所有卡牌被使用两次。<br /><h>消耗品【<ToolPlayableTimes />】</h>",
@@ -52,8 +57,8 @@
   },
   "AyaBlackmail": {
     "Name": "敲诈",
-    "Description": "<h>文文新闻</h> 还会施加 <Value1 /><h>暂失火力</h>并在生效时获得 <Value2 /> <Money />。<br />将 <h>{Value3:plural one='% 文文新闻' other='% 文文新闻'}</h> 加入抽牌堆。",
-    "UpgradedDescription": "<h>文文新闻</h> 还会施加 <Value1 /><h>暂失火力</h>并在生效时获得 <Value2 /> <Money />。<br />将 <h>{Value3:plural one='% 文文新闻' other='% 文文新闻'}</h> 加入抽牌堆。"
+    "Description": "<h>文文新闻</h> 还会施加 <Value1 /><h>暂失火力</h>并在生效时获得 <Value2 /> <Money />。<br />将 <h>{Value3} 文文新闻</h> 加入抽牌堆。",
+    "UpgradedDescription": "<h>文文新闻</h> 还会施加 <Value1 /><h>暂失火力</h>并在生效时获得 <Value2 /> <Money />。<br />将 <h>{Value3} 文文新闻</h> 加入抽牌堆。"
   },
   "AyaBlockG": {
     "Name": "天狗的下冲",
@@ -68,8 +73,8 @@
   "AyaBossYukariBlackDeathButterfly": {},
   "AyaBunbunmaruPrinter": {
     "Name": "文文印刷机",
-    "Description": "在<PlayerName />回合开始时，将 <h>{Value1:plural one='% 文文新闻' other='% 文文新闻'}</h> 加入手牌。{Value1:plural one='它 <h>临时消耗</h>' other='它们 <h>临时消耗</h>'} <Mana />。",
-    "UpgradedDescription": "在<PlayerName />回合开始时，将 <h>{Value1:plural one='% 文文新闻' other='% 文文新闻'}</h> 加入手牌。{Value1:plural one='它 <h>临时消耗</h>' other='它们 <h>临时消耗</h>'} <Mana />。<br />触发 <SelfName /> 一次。"
+    "Description": "在<PlayerName />回合开始时，将 <h><Value1 /> 文文新闻</h> 加入手牌。$t(subjects.It, { 'count': {{Value1}} }) <h>临时消耗</h> <Mana />。",
+    "UpgradedDescription": "在<PlayerName />回合开始时，将 <h><Value1 /> 文文新闻</h> 加入手牌。$t(subjects.It, { 'count': {{Value1}} }) <h>临时消耗</h> <Mana />。<br />触发 <SelfName /> 一次。"
   },
   "AyaCandidShot": {
     "Name": "直击",
@@ -100,8 +105,8 @@
   },
   "AyaCompletedInterview": {
     "Name": "完成的采访",
-    "Description": "<h>初见</h>: 将 <h>{Value1:plural one='% 文文新闻' other='% 文文新闻'}</h> 和 <h>{Value2:plural one='% 文文新闻 - 文特刊' other='% 文文新闻 - 文特刊'}</h> 加入弃牌堆。<br />抽 {Value3:plural one='% 张牌' other='% 张牌'}。",
-    "UpgradedDescription": "<h>初见</h>: 将 <h>{Value1:plural one='% 文文新闻' other='% 文文新闻'}</h> 和 <h>{Value2:plural one='% 文文新闻 - 文特刊' other='% 文文新闻 - 文特刊'}</h> 加入弃牌堆。<br />抽 {Value3:plural one='% 张牌' other='% 张牌'}。"
+    "Description": "<h>初见</h>: 将 <h><Value1 /> 文文新闻</h> 和 <h><Value2 /> 文文新闻 - 文特刊</h> 加入弃牌堆。<br />抽 {Value3} 张牌。",
+    "UpgradedDescription": "<h>初见</h>: 将 <h><Value1 /> 文文新闻</h> 和 <h><Value2 /> 文文新闻 - 文特刊</h> 加入弃牌堆。<br />抽 {Value3} 张牌。"
   },
   "AyaCrazyFallWind": {
     "Name": "疯狂的秋风",
@@ -187,7 +192,7 @@
   "AyaFriendCirno": {
     "Name": "琪露诺，四季的小友",
     "PassiveDescription": "<hf>盛夏绽放</hf>: 每个<h>战场</h>中的 <h>队友</h> 获得 <Value1 /> <h>团结</h>。",
-    "ActiveDescription": "<ha>不屈的秋天</ha>: 每回合只能生效一次。召唤 <Value2 /> 张随机 <h>升级</h> <h>队友</h> 卡牌。{Value2:plural one='它有' other='它们有'} <Value1 /> <h>团结</h>。",
+    "ActiveDescription": "<ha>不屈的秋天</ha>: 每回合只能生效一次。召唤 <Value2 /> 张随机 <h>升级</h> <h>队友</h> 卡牌。$t(subjects.It, { 'count': {{Value2}} })有 <Value1 /> <h>团结</h>。",
     "UltimateDescription": "<hu>「四季终曲」</hu>: 每场战斗只能生效一次。对所有敌人造成 <Damage /> 点攻击伤害并施加 <Value1 /> <h>最终冻结</h>。<h>精准</h>"
   },
   "AyaFriendHatate": {
@@ -203,8 +208,8 @@
   "AyaFriendMegumu": {
     "Name": "鸦天狗首领饭纲丸龙",
     "PassiveDescription": "<hf>监督</hf>: 每当一张<h>崩坏</h>或状态牌被<h>放逐</h>时，获得 <Mana />。",
-    "ActiveDescription": "<ha>剥削</ha>: 失去 <Value1 /> 点生命，获得{Mana2}并抽 {Value2:plural one='% 张牌' other='% 张牌'}。如果上回合没有<h>崩坏</h>和状态牌被 <h>放逐</h>，此效果也会触发。",
-    "UltimateDescription": "<hu>虹光「光风霁月」</hu>: 对所有敌人造成 <Damage /> 点攻击伤害。每当一张<h>崩坏</h>或状态牌被<h>放逐</h>时，获得 {Mana3} 并抽 {Value3:plural one='% 张牌' other='% 张牌'}。<h>精准</h>"
+    "ActiveDescription": "<ha>剥削</ha>: 失去 <Value1 /> 点生命，获得{Mana2}并抽 <Value2 /> 张牌。如果上回合没有<h>崩坏</h>和状态牌被 <h>放逐</h>，此效果也会触发。",
+    "UltimateDescription": "<hu>虹光「光风霁月」</hu>: 对所有敌人造成 <Damage /> 点攻击伤害。每当一张<h>崩坏</h>或状态牌被<h>放逐</h>时，获得 {Mana3} 并抽 {Value3} 张牌。<h>精准</h>"
   },
   "AyaFriendMomiji": {
     "Name": "巡逻天狗犬走椛",
@@ -235,8 +240,8 @@
   },
   "AyaInstantShotJournalist": {
     "Name": "瞬间射击记者",
-    "Description": "获得 <Block /><h>格挡</h>。<br />获得 <Value1 /><h>加速</h>。<br /><PlayerName /> 在 {Value2:plural one='% 回合' other='% 回合'} 内无法失去<h>加速</h>。",
-    "UpgradedDescription": "获得 <Block /><h>格挡</h>。<br />获得 <Value1 /><h>加速</h>。<br /><PlayerName /> 在 {Value2:plural one='% 回合' other='% 回合'} 内无法失去<h>加速</h>。"
+    "Description": "获得 <Block /><h>格挡</h>。<br />获得 <Value1 /><h>加速</h>。<br /><PlayerName /> 在 <Value2 /> 回合 内无法失去<h>加速</h>。",
+    "UpgradedDescription": "获得 <Block /><h>格挡</h>。<br />获得 <Value1 /><h>加速</h>。<br /><PlayerName /> 在 <Value2 /> 回合 内无法失去<h>加速</h>。"
   },
   "AyaLittleSalvation": {
     "Name": "小小的救赎",
@@ -255,8 +260,8 @@
   },
   "AyaMomentofRelaxation": {
     "Name": "放松时刻",
-    "Description": "<h>减速 <Value1 /></h>: 获得<Mana />并抽 {Value2:plural one='% 张牌' other='% 张牌'}。",
-    "UpgradedDescription": "<h>减速 <Value1 /></h>: 获得<Mana />并抽 {Value2:plural one='% 张牌' other='% 张牌'}。"
+    "Description": "<h>减速 <Value1 /></h>: 获得<Mana />并抽 <Value2 /> 张牌。",
+    "UpgradedDescription": "<h>减速 <Value1 /></h>: 获得<Mana />并抽 <Value2 /> 张牌。"
   },
   "AyaMountainGodsProcession": {
     "Name": "山神巡游",
@@ -318,8 +323,8 @@
   },
   "AyaPeltingintheDarkNight": {
     "Name": "黑夜中的投掷",
-    "Description": "<h>当 <SelfName /> 进入手牌时</h>: 对生命最低的敌人造成 <Damage /> 点伤害，抽一张牌并弃掉 <SelfName />。<br />此效果每回合只能触发 {Value1:plural one='% 次' other='% 次'}。",
-    "UpgradedDescription": "<h>当 <SelfName /> 进入手牌时</h>: 对生命最低的敌人造成 <Damage /> 点伤害，抽一张牌并弃掉 <SelfName />。<br />此效果每回合只能触发 {Value1:plural one='% 次' other='% 次'}。"
+    "Description": "<h>当 <SelfName /> 进入手牌时</h>: 对生命最低的敌人造成 <Damage /> 点伤害，抽一张牌并弃掉 <SelfName />。<br />此效果每回合只能触发 <Value1 /> 次。",
+    "UpgradedDescription": "<h>当 <SelfName /> 进入手牌时</h>: 对生命最低的敌人造成 <Damage /> 点伤害，抽一张牌并弃掉 <SelfName />。<br />此效果每回合只能触发 <Value1 /> 次。"
   },
   "AyaPhantasmModeTooltip": {
     "Name": "幻影模式",
@@ -342,13 +347,13 @@
   },
   "AyaQuickShootingTenguScoop": {
     "Name": "快速射击天狗特辑",
-    "Description": "获得 <Block /><h>格挡</h>。<br />本回合状态牌消耗减少 <Mana />。<br />将 <h>{Value1:plural one='% 文文新闻' other='% 文文新闻'}</h> 加入手牌。",
-    "UpgradedDescription": "获得 <Block /><h>格挡</h>。<br />本回合卡牌消耗减少 <Mana />。<br />将 <h>{Value1:plural one='% 文文新闻' other='% 文文新闻'}</h> 加入手牌。"
+    "Description": "获得 <Block /><h>格挡</h>。<br />本回合状态牌消耗减少 <Mana />。<br />将 <h><Value1 /> 文文新闻</h> 加入手牌。",
+    "UpgradedDescription": "获得 <Block /><h>格挡</h>。<br />本回合卡牌消耗减少 <Mana />。<br />将 <h><Value1 /> 文文新闻</h> 加入手牌。"
   },
   "AyaRequestingAirSupport": {
     "Name": "请求空中支援",
-    "Description": "将 <h>{Value1:plural one='% 无人空中乌鸦' other='% 无人空中乌鸦'}</h> 召唤到手牌中。",
-    "UpgradedDescription": "将 <h>{Value1:plural one='% 无人空中乌鸦' other='% 无人空中乌鸦'}</h> 召唤到手牌中。"
+    "Description": "将 <h><Value1 /> 无人空中乌鸦</h> 召唤到手牌中。",
+    "UpgradedDescription": "将 <h><Value1 /> 无人空中乌鸦</h> 召唤到手牌中。"
   },
   "AyaRouteForbiddentoMan": {
     "Name": "禁止人类通行的道路",
@@ -380,8 +385,8 @@
   },
   "AyaTakePicture": {
     "Name": "拍照",
-    "Description": "施加 <Value1 /><h>锁定</h>。<br />将 <h>{Value2:plural one='% 文文新闻' other='% 文文新闻'}</h> 加入手牌。<br />{Value2:plural one='它 <h>临时消耗</h>' other='它们 <h>临时消耗</h>'} 减少 <Mana />。",
-    "UpgradedDescription": "施加 <Value1 /><h>锁定</h>。<br />将 <h>{Value2:plural one='% 文文新闻' other='% 文文新闻'}</h> 加入手牌。<br />{Value2:plural one='它 <h>临时消耗</h>' other='它们 <h>临时消耗</h>'} 减少 <Mana />。"
+    "Description": "施加 <Value1 /><h>锁定</h>。<br />将 <h><Value2 /> 文文新闻</h> 加入手牌。<br />$t(subjects.It, { 'count': {{Value2}} }) <h>临时消耗</h> 减少 <Mana />。",
+    "UpgradedDescription": "施加 <Value1 /><h>锁定</h>。<br />将 <h><Value2 /> 文文新闻</h> 加入手牌。<br />$t(subjects.It, { 'count': {{Value2}} }) <h>临时消耗</h> 减少 <Mana />。"
   },
   "AyaTenguGaleBullet": {
     "Name": "天狗疾风弹",
@@ -405,13 +410,13 @@
   },
   "AyaTengusEdiblePompoms": {
     "Name": "天狗的可食用绒球",
-    "Description": "获得 <Block /><h>格挡</h>。<br />恢复 <Value1 /> 点生命。<br />获得 <Value1 /> <Power />。<br /><h>在战斗开始时</h>: 在<PlayerName />的第 {Value2:ordinal one='%st' two='%nd' few='%rd' other='%th'} 回合结束时，<h>放逐</h><SelfName />。",
-    "UpgradedDescription": "获得 <Block /><h>格挡</h>。<br />恢复 <Value1 /> 点生命。<br />获得 <Value1 /> <Power />。<br /><h>在战斗开始时</h>: 在<PlayerName />的第 {Value2:ordinal one='%st' two='%nd' few='%rd' other='%th'} 回合结束时，<h>放逐</h><SelfName />。"
+    "Description": "获得 <Block /><h>格挡</h>。<br />恢复 <Value1 /> 点生命。<br />获得 <Value1 /> <Power />。<br /><h>在战斗开始时</h>: 在<PlayerName />的第 $t(ordinal, { 'context': {{Value2}} }) 回合结束时，<h>放逐</h><SelfName />。",
+    "UpgradedDescription": "获得 <Block /><h>格挡</h>。<br />恢复 <Value1 /> 点生命。<br />获得 <Value1 /> <Power />。<br /><h>在战斗开始时</h>: 在<PlayerName />的第 $t(ordinal, { 'context': {{Value2}} }) 回合结束时，<h>放逐</h><SelfName />。"
   },
   "AyaTengusFallWind": {
     "Name": "天狗的秋风",
-    "Description": "接下来的 {Value1:plural one='% 张牌' other='% 张牌'} 会被使用两次。",
-    "UpgradedDescription": "接下来的 {Value1:plural one='% 张牌' other='% 张牌'} 会被使用两次。"
+    "Description": "接下来的 <Value1 /> 张牌 会被使用两次。",
+    "UpgradedDescription": "接下来的 <Value1 /> 张牌 会被使用两次。"
   },
   "AyaTenguTreeFelling": {
     "Name": "天狗伐木",
@@ -437,8 +442,8 @@
   },
   "AyaToriiWhorlWind": {
     "Name": "鸟居旋风",
-    "Description": "<h>放逐</h>手牌中的最多 {Value1:plural one='% 张牌' other='% 张牌'}。将等量的 <h>文文新闻</h> 加入手牌。<br />获得 <Value2 /><h>加速</h>。",
-    "UpgradedDescription": "<h>放逐</h>手牌、抽牌堆和弃牌堆中的最多 {Value1:plural one='% 张牌' other='% 张牌'}。将等量的 <h>文文新闻</h> 加入手牌。<br />获得 <Value2 /><h>加速</h>。"
+    "Description": "<h>放逐</h>手牌中的最多 <Value1 /> 张牌。将等量的 <h>文文新闻</h> 加入手牌。<br />获得 <Value2 /><h>加速</h>。",
+    "UpgradedDescription": "<h>放逐</h>手牌、抽牌堆和弃牌堆中的最多 <Value1 /> 张牌。将等量的 <h>文文新闻</h> 加入手牌。<br />获得 <Value2 /><h>加速</h>。"
   },
   "AyaWindGodsLeafVeiling": {
     "Name": "风神叶幕",
@@ -552,18 +557,18 @@
   "FlandreCreepingBloodstain": {},
   "FlandreCrystalBullet": {
     "Name": "水晶弹幕",
-    "Description": "造成 <Damage /> 点伤害。<br />将 <Value1 /> 个随机的 {Value1:plural one='<h>水晶</h>' other='<h>水晶</h>'} 加入手牌。",
-    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />将 <Value1 /> 个随机的 {Value1:plural one='<h>水晶</h>' other='<h>水晶</h>'} 加入手牌。"
+    "Description": "造成 <Damage /> 点伤害。<br />将 <Value1 /> 个随机的 <h>水晶</h> 加入手牌。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />将 <Value1 /> 个随机的 <h>水晶</h> 加入手牌。"
   },
   "FlandreCrystallineOutburst": {
     "Name": "水晶爆发",
-    "Description": "当 <h>水晶</h> 生效时，触发其所有效果。<br /><h>疯狂水晶</h> 会给予 <ManaP /> 而不是随机法力。<br />将 {Value1:plural one='% <h>疯狂水晶</h>' other='% <h>疯狂水晶</h>'} 加入手牌。",
-    "UpgradedDescription": "当 <h>水晶</h> 生效时，触发其所有效果。<br /><h>疯狂水晶</h> 会给予 <ManaP /> 而不是随机法力。<br />将 {Value1:plural one='% <h>疯狂水晶</h>' other='% <h>疯狂水晶</h>'} 加入手牌。"
+    "Description": "当 <h>水晶</h> 生效时，触发其所有效果。<br /><h>疯狂水晶</h> 会给予 <ManaP /> 而不是随机法力。<br />将 <Value1 /> <h>疯狂水晶</h> 加入手牌。",
+    "UpgradedDescription": "当 <h>水晶</h> 生效时，触发其所有效果。<br /><h>疯狂水晶</h> 会给予 <ManaP /> 而不是随机法力。<br />将 <Value1 /> <h>疯狂水晶</h> 加入手牌。"
   },
   "FlandreCrystallization": {
     "Name": "结晶化",
     "Description": "<h>放逐</h>一张手牌。<br />将一张随机的 <h>水晶</h> 加入手牌。",
-    "UpgradedDescription": "<h>放逐</h>最多 {Value1:plural one='% 张牌' other='% 张牌'}。<br />将一张随机的 <h>水晶+</h> 加入手牌。"
+    "UpgradedDescription": "<h>放逐</h>最多 <Value1 /> 张牌。<br />将一张随机的 <h>水晶+</h> 加入手牌。"
   },
   "FlandreCrystallizedCatastrophe": {},
   "FlandreCrystallizedChaos": {
@@ -873,13 +878,13 @@
   },
   "FlandrePathofDestruction": {
     "Name": "毁灭征途",
-    "Description": "获得 <Block /> 点<h>格挡</h>。<br />抽 {Value1:plural one='% 张牌' other='% 张牌'}。<br />对于放逐区中的每张攻击牌，本卡消耗减少<Mana />。",
-    "UpgradedDescription": "获得 <Block /> 点<h>格挡</h>。<br />抽 {Value1:plural one='% 张牌' other='% 张牌'}。<br />对于放逐区中的每张攻击牌，本卡消耗减少<Mana />。"
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />抽 <Value1 /> 张牌。<br />对于放逐区中的每张攻击牌，本卡消耗减少<Mana />。",
+    "UpgradedDescription": "获得 <Block /> 点<h>格挡</h>。<br />抽 <Value1 /> 张牌。<br />对于放逐区中的每张攻击牌，本卡消耗减少<Mana />。"
   },
   "FlandrePlayTogether": {
     "Name": "携手同游",
-    "Description": "获得 <Value1 /> 点 <h>临时火力</h>。<br />从弃牌堆中选择最多 {Value2:plural one='% 张牌' other='% 张牌'} 返回手牌。",
-    "UpgradedDescription": "获得 <Value1 /> 点 <h>临时火力</h>。<br />从弃牌堆中选择最多 {Value2:plural one='% 张牌' other='% 张牌'} 返回手牌。"
+    "Description": "获得 <Value1 /> 点 <h>临时火力</h>。<br />从弃牌堆中选择最多 <Value2 /> 张牌 返回手牌。",
+    "UpgradedDescription": "获得 <Value1 /> 点 <h>临时火力</h>。<br />从弃牌堆中选择最多 <Value2 /> 张牌 返回手牌。"
   },
   "FlandrePrayerofRuin": {},
   "FlandreRecklessBullet": {
@@ -912,8 +917,8 @@
   },
   "FlandreScaryLittleSister": {
     "Name": "二妹的午夜后宫",
-    "Description": "获得 <Block /> 点<h>格挡</h>。<br />当被放逐时:获得<Mana />并抽 {Value1:plural one='% 张牌' other='% 张牌'}。",
-    "UpgradedDescription": "获得 <Block /> 点<h>格挡</h>。<br />当被放逐时:获得<Mana />并抽 {Value1:plural one='% 张牌' other='% 张牌'}。"
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />当被放逐时:获得<Mana />并抽 <Value1 /> 张牌。",
+    "UpgradedDescription": "获得 <Block /> 点<h>格挡</h>。<br />当被放逐时:获得<Mana />并抽 <Value1 /> 张牌。"
   },
   "FlandreSisteroftheDevil": {
     "Name": "恶魔之妹",
