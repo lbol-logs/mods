@@ -22,7 +22,7 @@
   "AyaArsenalBird": {
     "Name": "アーセナルバード",
     "Description": "<h>ディフェンスマトリックス</h><Value1 />を得る。<br /><PlayerName />のターン開始時、<h>無人航空鴉</h>を召喚済みの状態で手札に加える。<br />この効果は重複しない。",
-    "UpgradedDescription": "<h>ディフェンスマトリックス</h><Value1 />を得る。<br /><PlayerName />のターン開始時、<h>無人航空鴉</h>を召喚済みの状態で手札に加える。<br />この効果は重複しない。<br />{SelfName}の効果を1回発動する。"
+    "UpgradedDescription": "<h>ディフェンスマトリックス</h><Value1 />を得る。<br /><PlayerName />のターン開始時、<h>無人航空鴉</h>を召喚済みの状態で手札に加える。<br />この効果は重複しない。<br /><SelfName />の効果を1回発動する。"
   },
   "AyaArsenalBirdDrone": {
     "Name": "無人航空鴉",
@@ -45,8 +45,8 @@
   },
   "AyaBirdStrike": {
     "Name": "バードストライク",
-    "Description": "<Damage />ダメージを与える。<br /><PlayerName />が持っている<h>加速</h>1につき、{SelfName}が与えるダメージは<Value1 />増える。",
-    "UpgradedDescription": "<Damage />ダメージを与える。<br /><PlayerName />が持っている<h>加速</h>1につき、{SelfName}が与えるダメージは<Value1 />増える。"
+    "Description": "<Damage />ダメージを与える。<br /><PlayerName />が持っている<h>加速</h>1につき、<SelfName />が与えるダメージは<Value1 />増える。",
+    "UpgradedDescription": "<Damage />ダメージを与える。<br /><PlayerName />が持っている<h>加速</h>1につき、<SelfName />が与えるダメージは<Value1 />増える。"
   },
   "AyaBlackmail": {
     "Name": "ブラックメール",
@@ -65,18 +65,18 @@
   },
   "AyaBossYukariBlackDeathButterfly": {
     "Name": "黒死蝶",
-    "Description": "<h>{SelfName}を引いた時</h>:<h>毒</h><Value1 />を得る。<br /><h>廃棄された時</h>: {SelfName}を<h>廃棄場</h>から捨て札に戻す。",
-    "UpgradedDescription": "<h>{SelfName}を引いた時</h>:<h>毒</h><Value1 />を得る。<br /><h>廃棄された時</h>: {SelfName}を<h>廃棄場</h>から捨て札に戻す。"
+    "Description": "<h><SelfName />を引いた時</h>:<h>毒</h><Value1 />を得る。<br /><h>廃棄された時</h>: <SelfName />を<h>廃棄場</h>から捨て札に戻す。",
+    "UpgradedDescription": "<h><SelfName />を引いた時</h>:<h>毒</h><Value1 />を得る。<br /><h>廃棄された時</h>: <SelfName />を<h>廃棄場</h>から捨て札に戻す。"
   },
   "AyaBunbunmaruPrinter": {
     "Name": "文々。新聞プリンター",
     "Description": "<PlayerName />のターン開始時、<h>文々。新聞</h>を<Value1 />枚手札に加える。それらは<h>臨時コスト</h><Mana />。",
-    "UpgradedDescription": "<PlayerName />のターン開始時、<h>文々。新聞</h>を<Value1 />枚手札に加える。それらは<h>臨時コスト</h><Mana />。<br />{SelfName}の効果を1回発動する。"
+    "UpgradedDescription": "<PlayerName />のターン開始時、<h>文々。新聞</h>を<Value1 />枚手札に加える。それらは<h>臨時コスト</h><Mana />。<br /><SelfName />の効果を1回発動する。"
   },
   "AyaCandidShot": {
     "Name": "キャンディッドショット",
-    "Description": "<Damage />ダメージを{Times}回与える。<br /><h>ロックオン</h><Value1 />を与える。<br /><h>手札効果</h>：<h>厄災</h>または状態異常カードが<h>廃棄</h>されるたび、{SelfName}の<h>臨時コスト</h>を<Mana />減らす。",
-    "UpgradedDescription": "<Damage />ダメージを{Times}回与える。<br /><h>ロックオン</h><Value1 />を与える。<br /><h>手札効果</h>：<h>厄災</h>または状態異常カードが<h>廃棄</h>されるたび、{SelfName}の<h>臨時コスト</h>を<Mana />減らす。"
+    "Description": "<Damage />ダメージを{Times}回与える。<br /><h>ロックオン</h><Value1 />を与える。<br /><h>手札効果</h>：<h>厄災</h>または状態異常カードが<h>廃棄</h>されるたび、<SelfName />の<h>臨時コスト</h>を<Mana />減らす。",
+    "UpgradedDescription": "<Damage />ダメージを{Times}回与える。<br /><h>ロックオン</h><Value1 />を与える。<br /><h>手札効果</h>：<h>厄災</h>または状態異常カードが<h>廃棄</h>されるたび、<SelfName />の<h>臨時コスト</h>を<Mana />減らす。"
   },
   "AyaChapter0": {
     "Name": "フリーモード",
@@ -92,8 +92,8 @@
   },
   "AyaCloseup": {
     "Name": "クローズアップ",
-    "Description": "<Block /><h>ブロック</h>を得る。<br />{SelfName}に隣接する<h>厄災</h>または状態異常カード1枚につき、<Mana />を得てカードを1枚引く。",
-    "UpgradedDescription": "<Block /><h>ブロック</h>を得る。<br />{SelfName}に隣接する<h>厄災</h>または状態異常カード1枚につき、<Mana />を得てカードを1枚引く。"
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><SelfName />に隣接する<h>厄災</h>または状態異常カード1枚につき、<Mana />を得てカードを1枚引く。",
+    "UpgradedDescription": "<Block /><h>ブロック</h>を得る。<br /><SelfName />に隣接する<h>厄災</h>または状態異常カード1枚につき、<Mana />を得てカードを1枚引く。"
   },
   "AyaComicallyLargeHat": {
     "Name": "あまりにもデカい帽子",
@@ -117,8 +117,8 @@
   },
   "AyaDanceofBlackQuill": {
     "Name": "黒羽の舞",
-    "Description": "敵全体に<Damage />ダメージを与える。<br /><h>ロックオン</h><Value1 />を与える。<br /><h>加速</h><Value1 />を得る。<br />{SelfName}で敵を倒すたび、このカードの効果を繰り返す。",
-    "UpgradedDescription": "敵全体に<Damage />ダメージを与える。<br /><h>ロックオン</h><Value1 />を与える。<br /><h>加速</h><Value1 />を得る。<br />{SelfName}で敵を倒すたび、このカードの効果を繰り返す。"
+    "Description": "敵全体に<Damage />ダメージを与える。<br /><h>ロックオン</h><Value1 />を与える。<br /><h>加速</h><Value1 />を得る。<br /><SelfName />で敵を倒すたび、このカードの効果を繰り返す。",
+    "UpgradedDescription": "敵全体に<Damage />ダメージを与える。<br /><h>ロックオン</h><Value1 />を与える。<br /><h>加速</h><Value1 />を得る。<br /><SelfName />で敵を倒すたび、このカードの効果を繰り返す。"
   },
   "AyaDashingDomination": {
     "Name": "疾走風靡",
@@ -167,8 +167,8 @@
   },
   "AyaEyeoftheStorm": {
     "Name": "嵐の目",
-    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>反射</h><Value1 />を得る。<br />{SelfName}の効果量は<h>加速</h>の数値だけ増加する。",
-    "UpgradedDescription": "<Block /><h>ブロック</h>を得る。<br /><h>反射</h><Value1 />を得る。<br />{SelfName}の効果量は<h>加速</h>の数値だけ増加する。"
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>反射</h><Value1 />を得る。<br /><SelfName />の効果量は<h>加速</h>の数値だけ増加する。",
+    "UpgradedDescription": "<Block /><h>ブロック</h>を得る。<br /><h>反射</h><Value1 />を得る。<br /><SelfName />の効果量は<h>加速</h>の数値だけ増加する。"
   },
   "AyaFastShot": {
     "Name": "ファストショット",
@@ -177,16 +177,20 @@
   },
   "AyaFma": {
     "Name": "F = ma",
-    "Description": "<h>加速</h><Value1 />を得る。<br /><h>火力</h><Value2 />を得る。<br /><PlayerName />が持っている<h>加速</h>4点につき、{SelfName}で得られる<h>火力</h>か{Value3}増える。",
-    "UpgradedDescription": "<h>加速</h><Value1 />を得る。<br /><h>火力</h><Value2 />を得る。<br /><PlayerName />が持っている<h>加速</h>4点につき、{SelfName}で得られる<h>火力</h>か{Value3}増える。"
+    "Description": "<h>加速</h><Value1 />を得る。<br /><h>火力</h><Value2 />を得る。<br /><PlayerName />が持っている<h>加速</h>4点につき、<SelfName />で得られる<h>火力</h>か{Value3}増える。",
+    "UpgradedDescription": "<h>加速</h><Value1 />を得る。<br /><h>火力</h><Value2 />を得る。<br /><PlayerName />が持っている<h>加速</h>4点につき、<SelfName />で得られる<h>火力</h>か{Value3}増える。"
   },
   "AyaFriendAya": {
     "Name": "風神少女、文",
-    "PassiveDescription": "<hf>岐符「サルタクロス」</hf>: <h>加速</h><Value1 />を得る。"
+    "PassiveDescription": "<hf>岐符「サルタクロス」</hf>: <h>加速</h><Value1 />を得る。",
+    "ActiveDescription": "<ha>風神「Storm Day」</ha>: この効果はターンに1回のみ使用できる。<h>手札</h>の各カードを<h>廃棄</h>する。その後、手札が満たされるまでランダムな<h>アップグレード済み</h>カードを手札に加える。",
+    "UltimateDescription": "<hu>風神「Peerless Wind God」</hu>: この効果は戦闘中に1回のみ使用できる。全ての敵に<Value2 />回、<Damage />の攻撃ダメージを与える。敵はこのターン行動できない。これらの効果は<PlayerName />の次のターンの開始時にも繰り返される。 <h>精密</h>"
   },
   "AyaFriendCirno": {
     "Name": "四季の小さなお友達、チルノ",
-    "PassiveDescription": "<hf>満開の夏</hf>: <h>フィールド</h>に存在する全ての<h>パートナー</h>は<h>支援度</h><Value1 />を得る。"
+    "PassiveDescription": "<hf>満開の夏</hf>: <h>フィールド</h>に存在する全ての<h>パートナー</h>は<h>支援度</h><Value1 />を得る。",
+    "ActiveDescription": "<ha>不屈の秋</ha>: ターンごとに1回しか発動できない。ランダムな<Value2 />枚の<h>アップグレード済み</h>の<h>パートナー</h>を召喚する。それらの<h>支援度</h>は<Value1 />。",
+    "UltimateDescription": "<hu>「四季のフィナーレ」</hu>: 戦闘ごとに1回しか発動できない。敵全体に<Damage />ダメージを与え、<h>ファイナルフリーズ</h><Value1 />を与える。<h>精密</h>"
   },
   "AyaFriendHatate": {
     "Name": "今どきの念写記者、はたて",
@@ -194,20 +198,23 @@
   },
   "AyaFriendHatateNewsSpecial": {
     "Name": "花果子念報・号外",
-    "Description": "ランダムなマナを<Value1 />つ得る。この戦闘中に<h>廃棄</h>した{SelfName}の枚数だけ得られるマナの数を1増やす。<br /><h>{SelfName}が手札に加わった時</h>：<Shield /><h>バリア</h>を得る。"
+    "Description": "ランダムなマナを<Value1 />つ得る。この戦闘中に<h>廃棄</h>した<SelfName />の枚数だけ得られるマナの数を1増やす。<br /><h><SelfName />が手札に加わった時</h>：<Shield /><h>バリア</h>を得る。"
   },
   "AyaFriendMegumu": {
     "Name": "鴉天狗の大将、龍",
-    "PassiveDescription": "<hf>Supervision</hf>: <h>厄災</h>または状態異常カードが<h>廃棄</h>されるたび、<Mana />を得る。"
+    "PassiveDescription": "<hf>Supervision</hf>: <h>厄災</h>または状態異常カードが<h>廃棄</h>されるたび、<Mana />を得る。",
+    "ActiveDescription": "<ha>Exploitation</ha>: ライフを<Value1 />失う、{Mana2}を得てカードを<Value2 />枚引く。この効果は前のターンに<h>厄災</h>や状態異常カードを<h>廃棄</h>してなかった時も発動する。",
+    "UltimateDescription": "<hu>虹光「光風霽月」</hu>: 敵全体に{Damage2}ダメージを与える。<h>厄災</h>または状態異常カードが廃棄されるたび、{Mana3}を得てカードを{Value3}枚引く。<h>精密</h>"
   },
   "AyaFriendMomiji": {
     "Name": "下っ端哨戒天狗、椛",
-    "PassiveDescription": "<hf>千里眼</hf>: <h>占術</h><Scry />。"
+    "PassiveDescription": "<hf>千里眼</hf>: <h>占術</h><Scry />。",
+    "UltimateDescription": "<hu>牙符「咀嚼玩味」</hu>: ライフが一番少ない敵に{Damage2}ダメージを与える。<br /><h>退治</h>: ライフ<Value1 />を得る。<br /><h>精密</h>"
   },
   "AyaHeadShot": {
     "Name": "ヘッドショット",
-    "Description": "<Damage />ダメージを与える。<br />{SelfName}は<h>ロックオン</h>の影響が<Value1 />倍になる。<br />{SelfName}で敵を倒した場合、<Mana />を得る。",
-    "UpgradedDescription": "<Damage />ダメージを与える。<br />{SelfName}は<h>ロックオン</h>の影響が<Value1 />倍になる。<br />{SelfName}で敵を倒した場合、<Mana />を得る。"
+    "Description": "<Damage />ダメージを与える。<br /><SelfName />は<h>ロックオン</h>の影響が<Value1 />倍になる。<br /><SelfName />で敵を倒した場合、<Mana />を得る。",
+    "UpgradedDescription": "<Damage />ダメージを与える。<br /><SelfName />は<h>ロックオン</h>の影響が<Value1 />倍になる。<br /><SelfName />で敵を倒した場合、<Mana />を得る。"
   },
   "AyaHeavenlyPartner": {
     "Name": "天生の一対",
@@ -274,8 +281,8 @@
   },
   "AyaOpeningWindoftheTenguRealm": {
     "Name": "天狗道の開風",
-    "Description": "<h>戦闘開始時</h>：{SelfName}を<h>廃棄</h>する、<h>追加ターン</h><Value1 />を得る。",
-    "UpgradedDescription": "<h>戦闘開始時</h>：{SelfName}を<h>廃棄</h>する、<h>追加ターン</h><Value1 />と<h>加速</h><Value2 />を得る。"
+    "Description": "<h>戦闘開始時</h>：<SelfName />を<h>廃棄</h>する、<h>追加ターン</h><Value1 />を得る。",
+    "UpgradedDescription": "<h>戦闘開始時</h>：<SelfName />を<h>廃棄</h>する、<h>追加ターン</h><Value1 />と<h>加速</h><Value2 />を得る。"
   },
   "AyaOrbGreenMorphBird": {
     "Name": "鳥類の姿",
@@ -309,8 +316,8 @@
   },
   "AyaPeltingintheDarkNight": {
     "Name": "暗夜の礫",
-    "Description": "<h>手札に加わった時</h>：ライフが最も少ない敵に<Damage />ダメージを与えて、カードを1枚引き{SelfName}を捨てる。<br />この効果は1ターンにつき<Value1 />回しか発動しない。",
-    "UpgradedDescription": "<h>手札に加わった時</h>：ライフが最も少ない敵に<Damage />ダメージを与えて、カードを1枚引き{SelfName}を捨てる。<br />この効果は1ターンにつき<Value1 />回しか発動しない。"
+    "Description": "<h>手札に加わった時</h>：ライフが最も少ない敵に<Damage />ダメージを与えて、カードを1枚引き<SelfName />を捨てる。<br />この効果は1ターンにつき<Value1 />回しか発動しない。",
+    "UpgradedDescription": "<h>手札に加わった時</h>：ライフが最も少ない敵に<Damage />ダメージを与えて、カードを1枚引き<SelfName />を捨てる。<br />この効果は1ターンにつき<Value1 />回しか発動しない。"
   },
   "AyaPhantasmModeTooltip": {
     "Name": "ファンタズムモード",
@@ -361,8 +368,8 @@
   },
   "AyaSettlementDate": {
     "Name": "給料日",
-    "Description": "<h>火力</h><Value1 />を得る。<br /><Money /><Value2 />を得る。<br /><h>厄災</h>または状態異常カードを<h>廃棄</h>するたび、{SelfName}で得られる<Money />の値を<h>永久</h>に<Value1 />増加させる。<br /><h>消耗品【{ToolPlayableTimes}】</h>",
-    "UpgradedDescription": "<h>火力</h><Value1 />を得る。<br /><Money /><Value2 />を得る。<br /><h>厄災</h>または状態異常カードを<h>廃棄</h>するたび、{SelfName}で得られる<Money />の値を<h>永久</h>に<Value1 />増加させる。<br /><h>消耗品【{ToolPlayableTimes}】</h>"
+    "Description": "<h>火力</h><Value1 />を得る。<br /><Money /><Value2 />を得る。<br /><h>厄災</h>または状態異常カードを<h>廃棄</h>するたび、<SelfName />で得られる<Money />の値を<h>永久</h>に<Value1 />増加させる。<br /><h>消耗品【{ToolPlayableTimes}】</h>",
+    "UpgradedDescription": "<h>火力</h><Value1 />を得る。<br /><Money /><Value2 />を得る。<br /><h>厄災</h>または状態異常カードを<h>廃棄</h>するたび、<SelfName />で得られる<Money />の値を<h>永久</h>に<Value1 />増加させる。<br /><h>消耗品【{ToolPlayableTimes}】</h>"
   },
   "AyaSickleWeaselVeiling": {
     "Name": "鎌鼬ベーリング",
@@ -396,8 +403,8 @@
   },
   "AyaTengusEdiblePompoms": {
     "Name": "天狗の結袈裟(食用)",
-    "Description": "<Block /><h>ブロック</h>を得る。<br />ライフを<Value1 />回復する。<br /><Power /><Value1 />を得る。<br /><h>戦闘開始時</h>：<PlayerName />の<Value2 />ターン目の終了時、{SelfName}を<h>廃棄</h>する。",
-    "UpgradedDescription": "<Block /><h>ブロック</h>を得る。<br />ライフを<Value1 />回復する。<br /><Power /><Value1 />を得る。<br /><h>戦闘開始時</h>：<PlayerName />の<Value2 />ターン目の終了時、{SelfName}を<h>廃棄</h>する。"
+    "Description": "<Block /><h>ブロック</h>を得る。<br />ライフを<Value1 />回復する。<br /><Power /><Value1 />を得る。<br /><h>戦闘開始時</h>：<PlayerName />の<Value2 />ターン目の終了時、<SelfName />を<h>廃棄</h>する。",
+    "UpgradedDescription": "<Block /><h>ブロック</h>を得る。<br />ライフを<Value1 />回復する。<br /><Power /><Value1 />を得る。<br /><h>戦闘開始時</h>：<PlayerName />の<Value2 />ターン目の終了時、<SelfName />を<h>廃棄</h>する。"
   },
   "AyaTengusFallWind": {
     "Name": "天狗颪",
@@ -406,8 +413,8 @@
   },
   "AyaTenguTreeFelling": {
     "Name": "天狗ナメシ",
-    "Description": "<Block /><h>ブロック</h>を得る。<br /><Shield /><h>バリア</h>を得る。<br /><PlayerName />のターン終了時、{SelfName}で得られる<h>ブロック</h>と<h>バリア</h>の数値は<Value1 />減る。",
-    "UpgradedDescription": "<Block /><h>ブロック</h>を得る。<br /><Shield /><h>バリア</h>を得る。<br /><PlayerName />のターン終了時、{SelfName}で得られる<h>ブロック</h>と<h>バリア</h>の数値は<Value1 />減る。"
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><Shield /><h>バリア</h>を得る。<br /><PlayerName />のターン終了時、<SelfName />で得られる<h>ブロック</h>と<h>バリア</h>の数値は<Value1 />減る。",
+    "UpgradedDescription": "<Block /><h>ブロック</h>を得る。<br /><Shield /><h>バリア</h>を得る。<br /><PlayerName />のターン終了時、<SelfName />で得られる<h>ブロック</h>と<h>バリア</h>の数値は<Value1 />減る。"
   },
   "AyaThinOut": {
     "Name": "間引き",
@@ -424,7 +431,7 @@
   },
   "AyaToolForcedBreakthrough": {
     "Name": "強行突破",
-    "Description": "戦闘を終わらせる。<br /><h>ボス戦の開始時</h>：{SelfName}を戦闘から消滅させる。<br /><h>消耗品【{DeckCounter}】</h>"
+    "Description": "戦闘を終わらせる。<br /><h>ボス戦の開始時</h>：<SelfName />を戦闘から消滅させる。<br /><h>消耗品【{DeckCounter}】</h>"
   },
   "AyaToriiWhorlWind": {
     "Name": "鳥居つむじ風",
@@ -438,13 +445,13 @@
   },
   "FlandreAndThenWillThereBeNone": {
     "Name": "そして誰もいなくなるか？",
-    "Description": "<h>供物</h><Value1 />。<br /><PlayerName />は次の{FlandreValue2}ターンの間、あらゆるダメージとデバフを無効化する。<br /><h>災禍</h>{Value3}を得る。敵全体に{FlandreDamage}ダメージを{Value4}回与える。<br />各戦闘で最初の{SelfName}のみ効果を発揮する。",
-    "UpgradedDescription": "<h>供物</h><Value1 />。<br /><PlayerName />は次の{FlandreValue2}ターンの間、あらゆるダメージとデバフを無効化する。<br /><h>災禍</h>{Value3}を得る。敵全体に{FlandreDamage}ダメージを{Value4}回与える。<br />各戦闘で最初の{SelfName}のみ効果を発揮する。"
+    "Description": "<h>供物</h><Value1 />。<br /><PlayerName />は次の{FlandreValue2}ターンの間、あらゆるダメージとデバフを無効化する。<br /><h>災禍</h>{Value3}を得る。敵全体に{FlandreDamage}ダメージを{Value4}回与える。<br />各戦闘で最初の<SelfName />のみ効果を発揮する。",
+    "UpgradedDescription": "<h>供物</h><Value1 />。<br /><PlayerName />は次の{FlandreValue2}ターンの間、あらゆるダメージとデバフを無効化する。<br /><h>災禍</h>{Value3}を得る。敵全体に{FlandreDamage}ダメージを{Value4}回与える。<br />各戦闘で最初の<SelfName />のみ効果を発揮する。"
   },
   "FlandreArmageddon": {
     "Name": "アルマゲドン",
-    "Description": "敵全体に{FlandreDamage}ダメージを{FlandreValue1:plural one='%回' other='%回'}与える。<br /><h>フィールド</h>にある攻撃カード1枚につき、{SelfName}のダメージが{FlandreValue2}増加する。<br />この戦闘中、最初に発動した{SelfName}のみ効果を発揮する。",
-    "UpgradedDescription": "敵全体に{FlandreDamage}ダメージを{FlandreValue1:plural one='%回' other='%回'}与える。<br /><h>フィールド</h>にある攻撃カード1枚につき、{SelfName}のダメージが{FlandreValue2}増加する。<br />この戦闘中、最初に発動した{SelfName}のみ効果を発揮する。"
+    "Description": "敵全体に{FlandreDamage}ダメージを{FlandreValue1:plural one='%回' other='%回'}与える。<br /><h>フィールド</h>にある攻撃カード1枚につき、<SelfName />のダメージが{FlandreValue2}増加する。<br />この戦闘中、最初に発動した<SelfName />のみ効果を発揮する。",
+    "UpgradedDescription": "敵全体に{FlandreDamage}ダメージを{FlandreValue1:plural one='%回' other='%回'}与える。<br /><h>フィールド</h>にある攻撃カード1枚につき、<SelfName />のダメージが{FlandreValue2}増加する。<br />この戦闘中、最初に発動した<SelfName />のみ効果を発揮する。"
   },
   "FlandreAttackB": {
     "Name": "華やかな弾幕",
@@ -458,8 +465,8 @@
   },
   "FlandreBitestheDust": {
     "Name": "負けて死ね",
-    "Description": "{FlandreShield}<h>バリア</h>を得る。<br /><h>帯電</h>{FlandreValue1}を得る。<br /><h>狂気</h><Value2 /> を得る。<br />ボス以外の戦闘中に<PlayerName />のライフが{Value3}%以下の場合、現在のレベルをやり直す。<br />その後、<PlayerName />の最初のターン開始時、敵全体を<h>破壊</h>し、<h>狂気</h>{Value4}を得て、{SelfName}を戦闘およびライブラリから除外する。",
-    "UpgradedDescription": "{FlandreShield}<h>バリア</h>を得る。<br /><h>帯電</h>{FlandreValue1}を得る。<br /><h>狂気</h><Value2 /> を得る。<br />ボス以外の戦闘中に<PlayerName />のライフが{Value3}%以下の場合、現在のレベルをやり直す。<br />その後、<PlayerName />の最初のターン開始時、敵全体を<h>破壊</h>し、<h>狂気</h>{Value4}を得て、{SelfName}を戦闘およびライブラリから除外する。"
+    "Description": "{FlandreShield}<h>バリア</h>を得る。<br /><h>帯電</h>{FlandreValue1}を得る。<br /><h>狂気</h><Value2 /> を得る。<br />ボス以外の戦闘中に<PlayerName />のライフが{Value3}%以下の場合、現在のレベルをやり直す。<br />その後、<PlayerName />の最初のターン開始時、敵全体を<h>破壊</h>し、<h>狂気</h>{Value4}を得て、<SelfName />を戦闘およびライブラリから除外する。",
+    "UpgradedDescription": "{FlandreShield}<h>バリア</h>を得る。<br /><h>帯電</h>{FlandreValue1}を得る。<br /><h>狂気</h><Value2 /> を得る。<br />ボス以外の戦闘中に<PlayerName />のライフが{Value3}%以下の場合、現在のレベルをやり直す。<br />その後、<PlayerName />の最初のターン開始時、敵全体を<h>破壊</h>し、<h>狂気</h>{Value4}を得て、<SelfName />を戦闘およびライブラリから除外する。"
   },
   "FlandreBlockUB": {
     "Name": "弾幕粉砕",
@@ -618,8 +625,8 @@
   },
   "FlandreDeliciousHeart": {
     "Name": "美味しい心臓",
-    "Description": "ライフ{FlandreValue1}を得る。<br /><h>永久</h>に{SelfName}によるライフ回復量を{FlandreValue2}増加させる。",
-    "UpgradedDescription": "ライフ{FlandreValue1}を得る。<br /><h>永久</h>に{SelfName}によるライフ回復量を{FlandreValue2}増加させる。"
+    "Description": "ライフ{FlandreValue1}を得る。<br /><h>永久</h>に<SelfName />によるライフ回復量を{FlandreValue2}増加させる。",
+    "UpgradedDescription": "ライフ{FlandreValue1}を得る。<br /><h>永久</h>に<SelfName />によるライフ回復量を{FlandreValue2}増加させる。"
   },
   "FlandreDesolatePlace": {
     "Name": "人里離れた場所",
@@ -628,13 +635,13 @@
   },
   "FlandreDestroyerinthePalmofOnesHand": {
     "Name": "手のひらの破壊者",
-    "Description": "{FlandreDamage}ダメージを与える。<br /><PlayerName />が持つ<h>災禍</h>1つにつき、{SelfName}のダメージが{FlandreValue1}増加する。<br />対象がネームドではない場合、<h>破壊</h>する。",
-    "UpgradedDescription": "{FlandreDamage}ダメージを与える。<br /><PlayerName />が持つ<h>災禍</h>1つにつき、{SelfName}のダメージが{FlandreValue1}増加する。<br />対象がネームドではない場合、<h>破壊</h>する。"
+    "Description": "{FlandreDamage}ダメージを与える。<br /><PlayerName />が持つ<h>災禍</h>1つにつき、<SelfName />のダメージが{FlandreValue1}増加する。<br />対象がネームドではない場合、<h>破壊</h>する。",
+    "UpgradedDescription": "{FlandreDamage}ダメージを与える。<br /><PlayerName />が持つ<h>災禍</h>1つにつき、<SelfName />のダメージが{FlandreValue1}増加する。<br />対象がネームドではない場合、<h>破壊</h>する。"
   },
   "FlandreDestructiveImpulse": {
     "Name": "破壊衝動",
-    "Description": "<h>ターン終了時</h>：<h>狂気</h><Value1 />を得る。<br /><h>廃棄された時</h>：<h>廃棄場</h>から{SelfName}を捨て札に戻す。",
-    "UpgradedDescription": "<h>ターン終了時</h>：<h>狂気</h><Value1 />を得る。<br /><h>廃棄された時</h>：<h>廃棄場</h>から{SelfName}を捨て札に戻す。"
+    "Description": "<h>ターン終了時</h>：<h>狂気</h><Value1 />を得る。<br /><h>廃棄された時</h>：<h>廃棄場</h>から<SelfName />を捨て札に戻す。",
+    "UpgradedDescription": "<h>ターン終了時</h>：<h>狂気</h><Value1 />を得る。<br /><h>廃棄された時</h>：<h>廃棄場</h>から<SelfName />を捨て札に戻す。"
   },
   "FlandreDeviloftheMirror": {
     "Name": "鏡の悪魔",
@@ -659,7 +666,7 @@
   "FlandreDoombringer": {
     "Name": "終焉をもたらす者",
     "Description": "<PlayerName />のターン開始時、<h>災禍</h>{FlandreValue1}を得る。",
-    "UpgradedDescription": "<PlayerName />のターン開始時、<h>災禍</h>{FlandreValue1}を得る。<br />{SelfName}を1回発動する。"
+    "UpgradedDescription": "<PlayerName />のターン開始時、<h>災禍</h>{FlandreValue1}を得る。<br /><SelfName />を1回発動する。"
   },
   "FlandreDoomsdayClock": {
     "Name": "終末時計",
@@ -678,8 +685,8 @@
   },
   "FlandreEndwithaBang": {
     "Name": "爆発で終わらせる",
-    "Description": "{FlandreBlock}<h>ブロック</h>を得る。<br /><h>火力</h>{FlandreValue1}を得る。<br />敵全体の<h>災火の導火線</h>を{FlandreValue2}回発動する。<br /><h>戦闘終了時</h>：{SelfName}が最後に発動したカードの場合、<hp>ランダム</hp>なカード報酬を得る。",
-    "UpgradedDescription": "{FlandreBlock}<h>ブロック</h>を得る。<br /><h>火力</h>{FlandreValue1}を得る。<br />敵全体の<h>災火の導火線</h>を{FlandreValue2}回発動する。<br /><h>戦闘終了時</h>：{SelfName}が最後に発動したカードの場合、<hp>ランダム</hp>なカード報酬を得る。"
+    "Description": "{FlandreBlock}<h>ブロック</h>を得る。<br /><h>火力</h>{FlandreValue1}を得る。<br />敵全体の<h>災火の導火線</h>を{FlandreValue2}回発動する。<br /><h>戦闘終了時</h>：<SelfName />が最後に発動したカードの場合、<hp>ランダム</hp>なカード報酬を得る。",
+    "UpgradedDescription": "{FlandreBlock}<h>ブロック</h>を得る。<br /><h>火力</h>{FlandreValue1}を得る。<br />敵全体の<h>災火の導火線</h>を{FlandreValue2}回発動する。<br /><h>戦闘終了時</h>：<SelfName />が最後に発動したカードの場合、<hp>ランダム</hp>なカード報酬を得る。"
   },
   "FlandreFaustianBargain": {
     "Name": "悪魔との取引",
@@ -693,8 +700,8 @@
   },
   "FlandreFlancanCook": {
     "Name": "フランは料理できるもん！",
-    "Description": "<h><Mana />を消費するたび</h>：{SelfName}を<h>アップグレード</h>する。<br />{FlandreValue2}枚の<hp>ランダム</hp>な<h>フランドール</h>カードの中から、最大{FlandreValue1}枚を手札に加える。低レアリティのカードを優先する。{FlandreValue1}枚のカードは一時的にコストが{Mana2}になり、<h>廃棄</h>と<h>幽体</h>を持つ。<br />{SelfName}は<h>魔法少女</h>でなくても最大{Value3}回まで<h>アップグレード</h>できる。",
-    "UpgradedDescription": "<h><Mana />を消費するたび</h>：{SelfName}を<h>アップグレード</h>する。<br />{FlandreValue2}枚の<hp>ランダム</hp>な<h>フランドール</h>カードの中から、最大{FlandreValue1}枚を手札に加える。低レアリティのカードを優先する。{FlandreValue1}枚のカードは一時的にコストが{Mana2}になり、<h>廃棄</h>と<h>幽体</h>を持つ。<br />{SelfName}は<h>魔法少女</h>でなくても最大{Value3}回まで<h>アップグレード</h>できる。"
+    "Description": "<h><Mana />を消費するたび</h>：<SelfName />を<h>アップグレード</h>する。<br />{FlandreValue2}枚の<hp>ランダム</hp>な<h>フランドール</h>カードの中から、最大{FlandreValue1}枚を手札に加える。低レアリティのカードを優先する。{FlandreValue1}枚のカードは一時的にコストが{Mana2}になり、<h>廃棄</h>と<h>幽体</h>を持つ。<br /><SelfName />は<h>魔法少女</h>でなくても最大{Value3}回まで<h>アップグレード</h>できる。",
+    "UpgradedDescription": "<h><Mana />を消費するたび</h>：<SelfName />を<h>アップグレード</h>する。<br />{FlandreValue2}枚の<hp>ランダム</hp>な<h>フランドール</h>カードの中から、最大{FlandreValue1}枚を手札に加える。低レアリティのカードを優先する。{FlandreValue1}枚のカードは一時的にコストが{Mana2}になり、<h>廃棄</h>と<h>幽体</h>を持つ。<br /><SelfName />は<h>魔法少女</h>でなくても最大{Value3}回まで<h>アップグレード</h>できる。"
   },
   "FlandreForbiddenFruit": {
     "Name": "禁断の果実",
@@ -703,8 +710,8 @@
   },
   "FlandreForbiddenGames": {
     "Name": "禁断の遊び",
-    "Description": "<h>供物</h><Value1 />。<br />敵全体に{FlandreValue2}ダメージを与える。<br />敵は{Value3}ラウンドの間、行動できない。<br />各戦闘で最初に発動した{SelfName}のみ効果を発揮する。",
-    "UpgradedDescription": "<h>供物</h><Value1 />。<br />敵全体に{FlandreValue2}ダメージを与える。<br />敵は{Value3}ラウンドの間、行動できない。<br />各戦闘で最初に発動した{SelfName}のみ効果を発揮する。"
+    "Description": "<h>供物</h><Value1 />。<br />敵全体に{FlandreValue2}ダメージを与える。<br />敵は{Value3}ラウンドの間、行動できない。<br />各戦闘で最初に発動した<SelfName />のみ効果を発揮する。",
+    "UpgradedDescription": "<h>供物</h><Value1 />。<br />敵全体に{FlandreValue2}ダメージを与える。<br />敵は{Value3}ラウンドの間、行動できない。<br />各戦闘で最初に発動した<SelfName />のみ効果を発揮する。"
   },
   "FlandreForbiddenScarletCuriosity": {
     "Name": "禁断の紅い好奇心",
@@ -729,7 +736,7 @@
   "FlandreFragmentsofLight": {
     "Name": "光の欠片",
     "Description": "<PlayerName />のターン開始時、<h>ランダム</h>な<h>光の欠片</h>{FlandreValue1}枚を手札に加える。",
-    "UpgradedDescription": "<PlayerName />のターン開始時、<h>ランダム</h>な<h>光の欠片</h>{FlandreValue1}枚を手札に加える。<br />{SelfName}を1回発動する。"
+    "UpgradedDescription": "<PlayerName />のターン開始時、<h>ランダム</h>な<h>光の欠片</h>{FlandreValue1}枚を手札に加える。<br /><SelfName />を1回発動する。"
   },
   "FlandreFranticDestroyer": {
     "Name": "狂乱の破壊者",
@@ -738,24 +745,34 @@
   },
   "FlandreFriendOkina": {
     "Name": "究極の絶対秘神、隠岐奈",
-    "PassiveDescription": "<hf>秘密の力</hf>：多色カードが<Value1 />枚使用されるたび、{FlandreMana}を得て、{FlandrePassiveBarrier}<h>バリア</h>を得る。"
+    "PassiveDescription": "<hf>秘密の力</hf>：多色カードが<Value1 />枚使用されるたび、{FlandreMana}を得て、{FlandrePassiveBarrier}<h>バリア</h>を得る。",
+    "ActiveDescription": "<ha>季節解放</ha>：<Value2 />種類の<h>季節</h>から1つ選ぶ。<SelfName />はその効果を得る。",
+    "UltimateDescription": "<hu>「秘匿された時空幻想ツアー」</hu>：<PlayerName />のターン開始時、{Value3}枚の<hp>完全ランダム</hp>なレアカードから<Value2 />枚を選び手札に加える。そのカードは一時的にコストが<Mana />になり、<h>廃棄</h>と<h>幽体</h>を持つ。"
   },
   "FlandreFriendOkinaFall": {
     "Name": "究極の絶対秘神、隠岐奈(秋)",
-    "PassiveDescription": "<hf>秋の力</hf>：赤色カードを<Value1 />枚発動するたび、{FlandreMana}を得て、敵全体に<h>業火</h>{FlandreValue2}を与える。"
+    "PassiveDescription": "<hf>秋の力</hf>：赤色カードを<Value1 />枚発動するたび、{FlandreMana}を得て、敵全体に<h>業火</h>{FlandreValue2}を与える。",
+    "ActiveDescription": "<ha>季節解放</ha>：{Value3}種類の<h>季節</h>から1つ選ぶ。<SelfName />はその効果を得る。",
+    "UltimateDescription": "<hu>「裏・クレイジーフォールウィンド」</hu>：カードが<h>廃棄</h>されるたび、<h>かすり</h>{Value4}を得る。"
   },
   "FlandreFriendOkinaSpring": {
     "Name": "究極の絶対秘神、隠岐奈(春)",
     "PassiveDescription": "<hf>春の力</hf>：黒色カードを<Value1 />枚発動するたび、{FlandreMana}を得て、<h>クリスタル</h><Value2 />枚を手札に加える。",
-    "UpgradedPassiveDescription": "<hf>春の力</hf>：黒色カードを<Value1 />枚発動するたび、{FlandreMana}を得て、<h>クリスタル</h><Value2 />枚+{Value3}を手札に加える。"
+    "UpgradedPassiveDescription": "<hf>春の力</hf>：黒色カードを<Value1 />枚発動するたび、{FlandreMana}を得て、<h>クリスタル</h><Value2 />枚+{Value3}を手札に加える。",
+    "ActiveDescription": "<ha>季節解放</ha>：{Value4}種類の<h>季節</h>から1つ選ぶ。<SelfName />はその効果を得る。",
+    "UltimateDescription": "<hu>「裏・ブリージーチェリーブロッサム」</hu>：<PlayerName />のターン開始時、ライフ{Value5}、<h>加護</h>{Value5}、<h>庇護</h>を得る。"
   },
   "FlandreFriendOkinaSummer": {
     "Name": "究極の絶対秘神、隠岐奈(夏)",
-    "PassiveDescription": "<hf>夏の力</hf>：緑色カードを<Value1 />枚発動するたび、{FlandreMana}を得て、敵全体に<h>破滅</h>{FlandreValue2}を与える。"
+    "PassiveDescription": "<hf>夏の力</hf>：緑色カードを<Value1 />枚発動するたび、{FlandreMana}を得て、敵全体に<h>破滅</h>{FlandreValue2}を与える。",
+    "ActiveDescription": "<ha>季節解放</ha>：{Value3}種類の<h>季節</h>から1つ選ぶ。<SelfName />はその効果を得る。",
+    "UltimateDescription": "<hu>「裏・パーフェクトサマーアイス」</hu>：<PlayerName />が{Value4}枚のカードを発動するたび、敵全体に{Value5}<h>精密</h>攻撃ダメージを与え、<h>冷気</h>を与える。"
   },
   "FlandreFriendOkinaWinter": {
     "Name": "究極の絶対秘神、隠岐奈(冬)",
-    "PassiveDescription": "<hf>冬の力</hf>：青色カードを<Value1 />枚発動するたび、{FlandreMana}を得て、<h>災禍</h>{FlandreValue2}を得る。"
+    "PassiveDescription": "<hf>冬の力</hf>：青色カードを<Value1 />枚発動するたび、{FlandreMana}を得て、<h>災禍</h>{FlandreValue2}を得る。",
+    "ActiveDescription": "<ha>季節解放</ha>：{Value3}種類の<h>季節</h>から1つ選ぶ。<SelfName />はその効果を得る。",
+    "UltimateDescription": "<hu>「裏・エクストリームウィンター」</hu>：カードを発動するたび、<h>チャージ</h>{Value4}を得る。"
   },
   "FlandreGrowingGemstones": {
     "Name": "輝石の成長",
@@ -764,8 +781,8 @@
   },
   "FlandreHellisFull": {
     "Name": "満ちる地獄",
-    "Description": "{FlandreDamage}ダメージを{FlandreValue1}回与える。<br />このランで倒した敵1体につき、{SelfName}のダメージが{FlandreValue2}増加する。<br /><h>狂気</h>{Value3}を得る。",
-    "UpgradedDescription": "{FlandreDamage}ダメージを{FlandreValue1}回与える。<br />このランで倒した敵1体につき、{SelfName}のダメージが{FlandreValue2}増加する。<br /><h>狂気</h>{Value3}を得る。"
+    "Description": "{FlandreDamage}ダメージを{FlandreValue1}回与える。<br />このランで倒した敵1体につき、<SelfName />のダメージが{FlandreValue2}増加する。<br /><h>狂気</h>{Value3}を得る。",
+    "UpgradedDescription": "{FlandreDamage}ダメージを{FlandreValue1}回与える。<br />このランで倒した敵1体につき、<SelfName />のダメージが{FlandreValue2}増加する。<br /><h>狂気</h>{Value3}を得る。"
   },
   "FlandreHellonEarth": {
     "Name": "生き地獄",
@@ -799,7 +816,7 @@
   },
   "FlandreInstability": {
     "Name": "感情の起伏",
-    "Description": "{SelfName}の効果は各ラウンド開始時に<hp>ランダム</hp>で決定される。<br /><h>平均効果量</h>：<he>{AmountF}</he>。"
+    "Description": "<SelfName />の効果は各ラウンド開始時に<hp>ランダム</hp>で決定される。<br /><h>平均効果量</h>：<he>{AmountF}</he>。"
   },
   "FlandreInternetSurvivor": {
     "Name": "インターネットサバイバー",
@@ -813,8 +830,8 @@
   },
   "FlandreKindLiesandGoodbyes": {
     "Name": "優しい嘘と最後の別れ",
-    "Description": "{FlandreShield}<h>バリア</h>を得る。<br /><h>火力</h>{FlandreValue1}と<h>霊力</h>{FlandreValue1}を得る。<br /><PlayerName />が倒される時、すべての<h>デバフ</h>を解除し、ライフを最大まで回復し、{FlandreValue2:plural one='%ターン' other='%ターン'}の間ライフを失わない。<br />その後、敵全体に{Value3}ダメージを与え、ライフが{Value3}以下の敵を<h>破壊</h>し、{SelfName}を戦闘およびライブラリから除外する。",
-    "UpgradedDescription": "{FlandreShield}<h>バリア</h>を得る。<br /><h>火力</h>{FlandreValue1}と<h>霊力</h>{FlandreValue1}を得る。<br /><PlayerName />が倒される時、すべての<h>デバフ</h>を解除し、ライフを最大まで回復し、{FlandreValue2:plural one='%ターン' other='%ターン'}の間ライフを失わない。<br />その後、敵全体に{Value3}ダメージを与え、ライフが{Value3}以下の敵を<h>破壊</h>し、{SelfName}を戦闘およびライブラリから除外する。"
+    "Description": "{FlandreShield}<h>バリア</h>を得る。<br /><h>火力</h>{FlandreValue1}と<h>霊力</h>{FlandreValue1}を得る。<br /><PlayerName />が倒される時、すべての<h>デバフ</h>を解除し、ライフを最大まで回復し、{FlandreValue2:plural one='%ターン' other='%ターン'}の間ライフを失わない。<br />その後、敵全体に{Value3}ダメージを与え、ライフが{Value3}以下の敵を<h>破壊</h>し、<SelfName />を戦闘およびライブラリから除外する。",
+    "UpgradedDescription": "{FlandreShield}<h>バリア</h>を得る。<br /><h>火力</h>{FlandreValue1}と<h>霊力</h>{FlandreValue1}を得る。<br /><PlayerName />が倒される時、すべての<h>デバフ</h>を解除し、ライフを最大まで回復し、{FlandreValue2:plural one='%ターン' other='%ターン'}の間ライフを失わない。<br />その後、敵全体に{Value3}ダメージを与え、ライフが{Value3}以下の敵を<h>破壊</h>し、<SelfName />を戦闘およびライブラリから除外する。"
   },
   "FlandreLaevateinn": {
     "Name": "レーヴァテイン",
@@ -828,8 +845,8 @@
   },
   "FlandreLooseCannon": {
     "Name": "暴走砲",
-    "Description": "敵全体に{FlandreDamage}ダメージを与える。<br />敵全体に<h>業火</h>{FlandreValue1}を与える。<br /><h>手札にある間</h>：<PlayerName />が攻撃ダメージを与えるか受けるたび、{SelfName}の<h>臨時コスト</h>が<Mana />減少する。{SelfName}のコストが{Mana2}になった時、{SelfName}をプレイする。",
-    "UpgradedDescription": "敵全体に{FlandreDamage}ダメージを与える。<br />敵全体に<h>業火</h>{FlandreValue1}を与える。<br /><h>手札にある間</h>：<PlayerName />が攻撃ダメージを与えるか受けるたび、{SelfName}の<h>臨時コスト</h>が<Mana />減少する。{SelfName}のコストが{Mana2}になった時、{SelfName}をプレイする。"
+    "Description": "敵全体に{FlandreDamage}ダメージを与える。<br />敵全体に<h>業火</h>{FlandreValue1}を与える。<br /><h>手札にある間</h>：<PlayerName />が攻撃ダメージを与えるか受けるたび、<SelfName />の<h>臨時コスト</h>が<Mana />減少する。<SelfName />のコストが{Mana2}になった時、<SelfName />をプレイする。",
+    "UpgradedDescription": "敵全体に{FlandreDamage}ダメージを与える。<br />敵全体に<h>業火</h>{FlandreValue1}を与える。<br /><h>手札にある間</h>：<PlayerName />が攻撃ダメージを与えるか受けるたび、<SelfName />の<h>臨時コスト</h>が<Mana />減少する。<SelfName />のコストが{Mana2}になった時、<SelfName />をプレイする。"
   },
   "FlandreMagicalGirlFlandreEngage": {
     "Name": "魔法少女フランドール、いっきまーすっ☆",
@@ -838,8 +855,8 @@
   },
   "FlandreMagicalGuard": {
     "Name": "マジカルガード",
-    "Description": "{FlandreBlock}<h>ブロック</h>を得る。<br />{SelfName}を手札に戻す。<br />このターン、{SelfName}のコストが<Mana />増加する。",
-    "UpgradedDescription": "{FlandreBlock}<h>ブロック</h>を得る。<br />{SelfName}を手札に戻す。<br />このターン、{SelfName}のコストが<Mana />増加する。"
+    "Description": "{FlandreBlock}<h>ブロック</h>を得る。<br /><SelfName />を手札に戻す。<br />このターン、<SelfName />のコストが<Mana />増加する。",
+    "UpgradedDescription": "{FlandreBlock}<h>ブロック</h>を得る。<br /><SelfName />を手札に戻す。<br />このターン、<SelfName />のコストが<Mana />増加する。"
   },
   "FlandreMagicalPotential": {
     "Name": "マジカルポテンシャル",
@@ -848,13 +865,13 @@
   },
   "FlandreMagicalSlash": {
     "Name": "マジカルスラッシュ",
-    "Description": "{FlandreDamage}ダメージを与える。<br />{SelfName}を手札に戻す。<br />このターン、{SelfName}のコストが<Mana />増加する。",
-    "UpgradedDescription": "{FlandreDamage}ダメージを与える。<br />{SelfName}を手札に戻す。<br />このターン、{SelfName}のコストが<Mana />増加する。"
+    "Description": "{FlandreDamage}ダメージを与える。<br /><SelfName />を手札に戻す。<br />このターン、<SelfName />のコストが<Mana />増加する。",
+    "UpgradedDescription": "{FlandreDamage}ダメージを与える。<br /><SelfName />を手札に戻す。<br />このターン、<SelfName />のコストが<Mana />増加する。"
   },
   "FlandreMagicalTechnique": {
     "Name": "マジカルテクニック",
-    "Description": "{FlandreValue2}枚の<hp>ランダム</hp>なコモンカードから最大{FlandreValue1}枚を選び、プレイする。<br />{SelfName}を手札に戻す。<br />このターン、{SelfName}のコストが<Mana />増加する。",
-    "UpgradedDescription": "{FlandreValue2}枚の<hp>ランダム</hp>なコモンカードから最大{FlandreValue1}枚を選び、プレイする。<br />{SelfName}を手札に戻す。<br />このターン、{SelfName}のコストが<Mana />増加する。"
+    "Description": "{FlandreValue2}枚の<hp>ランダム</hp>なコモンカードから最大{FlandreValue1}枚を選び、プレイする。<br /><SelfName />を手札に戻す。<br />このターン、<SelfName />のコストが<Mana />増加する。",
+    "UpgradedDescription": "{FlandreValue2}枚の<hp>ランダム</hp>なコモンカードから最大{FlandreValue1}枚を選び、プレイする。<br /><SelfName />を手札に戻す。<br />このターン、<SelfName />のコストが<Mana />増加する。"
   },
   "FlandreMazeofLove": {
     "Name": "恋の迷路",
@@ -874,7 +891,7 @@
   "FlandreMPButchersCircus": {
     "Name": "屠殺人のサーカス",
     "Description": "敵が倒されるたび、全プレイヤーは<h>火力</h>{FlandreValue2}得て、ライフを{Value3}回復する。<br /><h>代償</h><Mana />。",
-    "UpgradedDescription": "敵が倒されるたび、全プレイヤーは<h>火力</h>{FlandreValue2}得て、ライフを{Value3}回復する。<br />{SelfName}を1回発動する。<br /><h>代償</h><Mana />。"
+    "UpgradedDescription": "敵が倒されるたび、全プレイヤーは<h>火力</h>{FlandreValue2}得て、ライフを{Value3}回復する。<br /><SelfName />を1回発動する。<br /><h>代償</h><Mana />。"
   },
   "FlandreMPEnfantTerrible": {
     "Name": "アンファン・テリブル",
@@ -883,8 +900,8 @@
   },
   "FlandreMPFirestorm": {
     "Name": "ファイアストーム",
-    "Description": "敵全体に{FlandreDamage}ダメージを与え、 <h>業火</h>{FlandreValue1}を与える。<br />{SelfName}は全プレイヤーの<h>火力</h>の影響を受ける。",
-    "UpgradedDescription": "敵全体に{FlandreDamage}ダメージを与え、<h>業火</h>{FlandreValue1} を与える。<br />{SelfName}は全プレイヤーの<h>火力</h>の影響を受ける。"
+    "Description": "敵全体に{FlandreDamage}ダメージを与え、 <h>業火</h>{FlandreValue1}を与える。<br /><SelfName />は全プレイヤーの<h>火力</h>の影響を受ける。",
+    "UpgradedDescription": "敵全体に{FlandreDamage}ダメージを与え、<h>業火</h>{FlandreValue1} を与える。<br /><SelfName />は全プレイヤーの<h>火力</h>の影響を受ける。"
   },
   "FlandreMPKrystallos": {
     "Name": "クリスタロス",
@@ -989,12 +1006,12 @@
   "FlandreScarletCasino": {
     "Name": "スカーレットカジノ",
     "Description": "<hp>ランダム効果</hp>を持つ<h>フランドール</h>カードを<Value1 />枚使用するたび、以下の<Value1 />種類の効果からランダムに<Value2 />種類を得る：<br />このターン、すべてのカードのコストが{Amount1}減少する。<br />次に使用する{Amount2}枚のカードは追加で<Value2 />回発動する。<br />次に<PlayerName />がライフを失う{Amount3}回を無効化する。<br /><h>戦場</h>のランダムなカード{Amount4}枚を{Value4}回<h>アップグレード</h>する。<br />{Amount5}を得る。<br /><Money />{Amount6}を得る。",
-    "UpgradedDescription": "<hp>ランダム効果</hp>を持つ<h>フランドール</h>カードを<Value1 />枚使用するたび、以下の<Value1 />種類の効果からランダムに<Value2 />種類を得る：<br />このターン、すべてのカードのコストが{Amount1}減少する。<br />次に使用する{Amount2}枚のカードは追加で<Value2 />回発動する。<br />次に<PlayerName />がライフを失う{Amount3}回を無効化する。<br /><h>戦場</h>のランダムなカード{Amount4}枚を{Value4}回<h>アップグレード</h>する。<br />{Amount5}を得る。<br /><Money />{Amount6}を得る。<br />{SelfName}を1回誘発する。"
+    "UpgradedDescription": "<hp>ランダム効果</hp>を持つ<h>フランドール</h>カードを<Value1 />枚使用するたび、以下の<Value1 />種類の効果からランダムに<Value2 />種類を得る：<br />このターン、すべてのカードのコストが{Amount1}減少する。<br />次に使用する{Amount2}枚のカードは追加で<Value2 />回発動する。<br />次に<PlayerName />がライフを失う{Amount3}回を無効化する。<br /><h>戦場</h>のランダムなカード{Amount4}枚を{Value4}回<h>アップグレード</h>する。<br />{Amount5}を得る。<br /><Money />{Amount6}を得る。<br /><SelfName />を1回誘発する。"
   },
   "FlandreScarletNihility": {
     "Name": "スカーレットニヒリティ",
-    "Description": "{FlandreDamage}ダメージを与える。<br />未使用のマナ1点につき、{SelfName}のダメージが{FlandreValue1}増加する。<br />対象のライフが<Value2 />%以下なら、<h>破壊</h>する。",
-    "UpgradedDescription": "{FlandreDamage}ダメージを与える。<br />未使用のマナ1点につき、{SelfName}のダメージが{FlandreValue1}増加する。<br />対象のライフが<Value2 />%以下なら、<h>破壊</h>する。"
+    "Description": "{FlandreDamage}ダメージを与える。<br />未使用のマナ1点につき、<SelfName />のダメージが{FlandreValue1}増加する。<br />対象のライフが<Value2 />%以下なら、<h>破壊</h>する。",
+    "UpgradedDescription": "{FlandreDamage}ダメージを与える。<br />未使用のマナ1点につき、<SelfName />のダメージが{FlandreValue1}増加する。<br />対象のライフが<Value2 />%以下なら、<h>破壊</h>する。"
   },
   "FlandreScaryLittleSister": {
     "Name": "おそろしい妹さま",
@@ -1003,8 +1020,8 @@
   },
   "FlandreSisteroftheDevil": {
     "Name": "悪魔の妹",
-    "Description": "<h>戦闘開始時</h>：{SelfName}を<h>廃棄</h>し、<h>悪魔の妹</h>と{FlandreMana}を得る。",
-    "UpgradedDescription": "<h>戦闘開始時</h>：{SelfName}を<h>廃棄</h>し、<h>悪魔の妹</h>と{FlandreMana}を得る。"
+    "Description": "<h>戦闘開始時</h>：<SelfName />を<h>廃棄</h>し、<h>悪魔の妹</h>と{FlandreMana}を得る。",
+    "UpgradedDescription": "<h>戦闘開始時</h>：<SelfName />を<h>廃棄</h>し、<h>悪魔の妹</h>と{FlandreMana}を得る。"
   },
   "FlandreSoulMelter": {
     "Name": "魂を溶かす者",
@@ -1023,13 +1040,13 @@
   },
   "FlandreStarbowBreak": {
     "Name": "スターボウブレイク",
-    "Description": "<h>異なる色のマナを1点消費するたび</h>：すべての敵に{FlandreDamage}ダメージを与える。<br />手札の攻撃カード1枚につき、{SelfName}のダメージが{FlandreValue1}増加する。<br /><h>バリア</h>または<h>ブロック</h>を持つ敵には、その{FlandreValue2}倍のダメージを与える。",
-    "UpgradedDescription": "<h>異なる色のマナを1点消費するたび</h>：すべての敵に{FlandreDamage}ダメージを与える。<br />手札の攻撃カード1枚につき、{SelfName}のダメージが{FlandreValue1}増加する。<br /><h>バリア</h>または<h>ブロック</h>を持つ敵には、その{FlandreValue2}倍のダメージを与える。"
+    "Description": "<h>異なる色のマナを1点消費するたび</h>：すべての敵に{FlandreDamage}ダメージを与える。<br />手札の攻撃カード1枚につき、<SelfName />のダメージが{FlandreValue1}増加する。<br /><h>バリア</h>または<h>ブロック</h>を持つ敵には、その{FlandreValue2}倍のダメージを与える。",
+    "UpgradedDescription": "<h>異なる色のマナを1点消費するたび</h>：すべての敵に{FlandreDamage}ダメージを与える。<br />手札の攻撃カード1枚につき、<SelfName />のダメージが{FlandreValue1}増加する。<br /><h>バリア</h>または<h>ブロック</h>を持つ敵には、その{FlandreValue2}倍のダメージを与える。"
   },
   "FlandreStraightFlush": {
     "Name": "ストレートフラッシュ",
-    "Description": "{FlandreShield}<h>バリア</h>を得る。<br /><h>火力</h>、<h>霊力</h>、<h>加護</h>、<h>庇護</h>をそれぞれ{FlandreValue1}得る。<br />手札に同じ種類のカードが<Value2 />枚以上ある場合、{SelfName}のコストは<Mana />になる。",
-    "UpgradedDescription": "{FlandreShield}<h>バリア</h>を得る。<br /><h>火力</h>、<h>霊力</h>、<h>加護</h>、<h>庇護</h>をそれぞれ{FlandreValue1}得る。<br />手札に同じ種類のカードが<Value2 />枚以上ある場合、{SelfName}のコストは<Mana />になる。"
+    "Description": "{FlandreShield}<h>バリア</h>を得る。<br /><h>火力</h>、<h>霊力</h>、<h>加護</h>、<h>庇護</h>をそれぞれ{FlandreValue1}得る。<br />手札に同じ種類のカードが<Value2 />枚以上ある場合、<SelfName />のコストは<Mana />になる。",
+    "UpgradedDescription": "{FlandreShield}<h>バリア</h>を得る。<br /><h>火力</h>、<h>霊力</h>、<h>加護</h>、<h>庇護</h>をそれぞれ{FlandreValue1}得る。<br />手札に同じ種類のカードが<Value2 />枚以上ある場合、<SelfName />のコストは<Mana />になる。"
   },
   "FlandreSuperhumanCatastrophePilgrimage": {
     "Name": "超人災厄巡礼",
