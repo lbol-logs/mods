@@ -358,7 +358,7 @@
   },
   "FlandreFriendOkinaSe": {
     "Name": "Concealed Spacetime Fantasy Tour",
-    "Description": "At the start of <PlayerName />'s turn, choose 1 of <Level /> <hp>completely random</hp> Rare {Level:plural one='card' other='cards'} to add to the hand. It temporarily costs {Mana} and has <h>Exile</h> and <h>Ethereal</h>."
+    "Description": "At the start of <PlayerName />'s turn, choose 1 of <Level /> <hp>completely random</hp> Rare card$t(plurals.-s, { 'count': {{Level}} }) to add to the hand. It temporarily costs {Mana} and has <h>Exile</h> and <h>Ethereal</h>."
   },
   "FlandreFriendOkinaSpringSe": {
     "Name": "Hidden Breezy Cherry Blossom",

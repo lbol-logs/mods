@@ -24,7 +24,7 @@
   },
   "AyaArmoredRavenSe": {
     "Name": "装甲乌鸦",
-    "Description": "<PlayerName /> 回合中使用的前 <Limit /> 张攻击牌{Limit:plural one='' other=''} 被使用两次。（剩余 <Level /> 次）<br /><PlayerName /> 回合中使用的前 <Limit /> 张状态牌{Limit:plural one='' other=''} 被使用两次。（剩余 <Count /> 次）"
+    "Description": "<PlayerName /> 回合中使用的前 <Limit /> 张攻击牌 被使用两次。（剩余 <Level /> 次）<br /><PlayerName /> 回合中使用的前 <Limit /> 张状态牌 被使用两次。（剩余 <Count /> 次）"
   },
   "AyaArsenalBirdSe": {
     "Name": "军火鸟",
@@ -36,7 +36,7 @@
   },
   "AyaBossKoishiSe": {
     "Name": "闭锁的恋之瞳",
-    "Description": "<OwnerName /> 的生命值未知。<br />在 <OwnerName /> 的回合开始时，她只失去一半的 <h>护盾</h> 而不是全部。<br />每当 <Limit /> 张牌被使用时，<OwnerName /> 立即行动一次，不会结束 <PlayerName /> 的回合。<br /><hd>（剩余 {Count:plural one='% 张牌' other='% 张牌'}。）</hd>"
+    "Description": "<OwnerName /> 的生命值未知。<br />在 <OwnerName /> 的回合开始时，她只失去一半的 <h>护盾</h> 而不是全部。<br />每当 <Limit /> 张牌被使用时，<OwnerName /> 立即行动一次，不会结束 <PlayerName /> 的回合。<br /><hd>（剩余 <Count /> 张牌。）</hd>"
   },
   "AyaBossZUNSe": {
     "Name": "博丽神主",
@@ -92,7 +92,7 @@
   },
   "AyaNewsOverwhelmingSe": {
     "Name": "新闻压倒性",
-    "Description": "每当一张 <h>不幸</h> 或状态牌（非 <h>复制</h>）被<h>放逐</h>时，将 {Level:plural one='% <h>复制</h>' other='% <h>复制</h>'} 的 <h>文文新闻{Level:plural one='' other=''}</h> 加入手牌。{Level:plural one='它 <h>临时消耗</h>' other='它们 <h>临时消耗</h>'} {Mana}。"
+    "Description": "每当一张 <h>不幸</h> 或状态牌（非 <h>复制</h>）被<h>放逐</h>时，将 {Level:plural one='% <h>复制</h>' other='% <h>复制</h>'} 的 <h>文文新闻</h> 加入手牌。{Level:plural one='它 <h>临时消耗</h>' other='它们 <h>临时消耗</h>'} {Mana}。"
   },
   "AyaOrbBlackDreamExpressSe": {
     "Name": "梦境快车",
@@ -112,7 +112,7 @@
   },
   "AyaOrbBlueTheReclusiveSageSe": {
     "Name": "隐居的贤者",
-    "Description": "在 <OwnerName /> 的回合结束时，将 <Level /> <h>虚假之月{Level:plural one='' other=''}</h> 加入抽牌堆。"
+    "Description": "在 <OwnerName /> 的回合结束时，将 <Level /> <h>虚假之月</h> 加入抽牌堆。"
   },
   "AyaOrbColorlessPoweroftheOrdinarySe": {
     "Name": "平凡之力",
@@ -312,7 +312,7 @@
   },
   "FlandreFriendOkinaSe": {
     "Name": "隐秘时空幻想之旅",
-    "Description": "在 <PlayerName /> 的回合开始时，从 <Level /> 张 <hp>完全随机</hp> 的稀有牌{Level:plural one='' other=''} 中选择 1 张加入手牌。它临时消耗 {Mana} 并具有<h>放逐</h>和 <h>虚无</h>。"
+    "Description": "在 <PlayerName /> 的回合开始时，从 <Level /> 张 <hp>完全随机</hp> 的稀有牌 中选择 1 张加入手牌。它临时消耗 {Mana} 并具有<h>放逐</h>和 <h>虚无</h>。"
   },
   "FlandreFriendOkinaSpringSe": {
     "Name": "里·吹拂樱花",
@@ -332,7 +332,7 @@
   },
   "FlandreHellonEarthSe": {
     "Name": "人间地狱",
-    "Description": "当 <h>地狱火</h> 触发时，它会额外触发 <Level /> 次{Level:plural one='' other=''}。"
+    "Description": "当 <h>地狱火</h> 触发时，它会额外触发 <Level /> 次。"
   },
   "FlandreHotSurfaceSe": {
     "Name": "炽热表面",

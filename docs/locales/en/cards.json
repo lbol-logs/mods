@@ -969,8 +969,8 @@
   },
   "FlandreNoMercy": {
     "Name": "No Mercy",
-    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Put the {FlandreValue1} topmost attack card$t(plurals.-s, { 'count': {{FlandreValue1}} }) from the draw pile into the hand.<br />The next {FlandreValue2} attack card$t(plurals.-s, { 'count': {{FlandreValue2}} }) played cost{FlandreValue2:plural one='s' other=''} <Mana /> to play.<br />Gain {Value3} <h>Madness</h>.",
-    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Put the {FlandreValue1} topmost attack card$t(plurals.-s, { 'count': {{FlandreValue1}} }) from the draw pile into the hand.<br />The next {FlandreValue2} attack card$t(plurals.-s, { 'count': {{FlandreValue2}} }) played cost{FlandreValue2:plural one='s' other=''} <Mana /> to play.<br />Gain {Value3} <h>Madness</h>."
+    "Description": "Gain {FlandreBlock} <h>Block</h>.<br />Put the {FlandreValue1} topmost attack card$t(plurals.-s, { 'count': {{FlandreValue1}} }) from the draw pile into the hand.<br />The next {FlandreValue2} attack card$t(plurals.-s, { 'count': {{FlandreValue2}} }) played cost$t(subjects.-s, { 'count': {{FlandreValue2}} }) <Mana /> to play.<br />Gain {Value3} <h>Madness</h>.",
+    "UpgradedDescription": "Gain {FlandreBlock} <h>Block</h>.<br />Put the {FlandreValue1} topmost attack card$t(plurals.-s, { 'count': {{FlandreValue1}} }) from the draw pile into the hand.<br />The next {FlandreValue2} attack card$t(plurals.-s, { 'count': {{FlandreValue2}} }) played cost$t(subjects.-s, { 'count': {{FlandreValue2}} }) <Mana /> to play.<br />Gain {Value3} <h>Madness</h>."
   },
   "FlandreOnePair": {
     "Name": "One Pair",
@@ -994,8 +994,8 @@
   },
   "FlandrePlayTogether": {
     "Name": "Play Together",
-    "Description": "<h>Debut</h>: Gain {FlandreValue1} <h>Firepower</h>.<br />Choose up to {FlandreValue2} card$t(plurals.-s, { 'count': {{FlandreValue2}} }) from the discard pile and return {FlandreValue2:plural one='it' other='them'} to the hand.",
-    "UpgradedDescription": "<h>Debut</h>: Gain {FlandreValue1} <h>Firepower</h>.<br />Choose up to {FlandreValue2} card$t(plurals.-s, { 'count': {{FlandreValue2}} }) from the discard pile and return {FlandreValue2:plural one='it' other='them'} to the hand."
+    "Description": "<h>Debut</h>: Gain {FlandreValue1} <h>Firepower</h>.<br />Choose up to {FlandreValue2} card$t(plurals.-s, { 'count': {{FlandreValue2}} }) from the discard pile and return $t(objects.it, { 'count': {{FlandreValue2}} }) to the hand.",
+    "UpgradedDescription": "<h>Debut</h>: Gain {FlandreValue1} <h>Firepower</h>.<br />Choose up to {FlandreValue2} card$t(plurals.-s, { 'count': {{FlandreValue2}} }) from the discard pile and return $t(objects.it, { 'count': {{FlandreValue2}} }) to the hand."
   },
   "FlandrePrayerofRuin": {
     "Name": "Prayer of Ruin",

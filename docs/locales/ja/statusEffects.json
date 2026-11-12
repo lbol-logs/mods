@@ -314,7 +314,7 @@
   },
   "FlandreCrystallineOutburstSe": {
     "Name": "結晶の爆発",
-    "Description": "<h>混沌のクリスタル</h>、<h>悪魔のクリスタル</h>、<h>狂気のクリスタル</h>、<h>孤独のクリスタル</h>がすべて発動すると、手札に<Level />枚の<h>破滅のクリスタル{Level:plural one='' other=''}</h>を加える。<br />（残り{Amount}：<Count />枚）"
+    "Description": "<h>混沌のクリスタル</h>、<h>悪魔のクリスタル</h>、<h>狂気のクリスタル</h>、<h>孤独のクリスタル</h>がすべて発動すると、手札に<Level />枚の<h>破滅のクリスタル</h>を加える。<br />（残り{Amount}：<Count />枚）"
   },
   "FlandreDanmakuofDenialSe": {
     "Name": "拒絶の弾幕",
